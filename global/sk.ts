@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Prečítal som si podmienky používania a zásady ochrany osobných údajov a súhlasím s nimi.",
   "commons": {
     "Currency": "mena",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Štát",
     "Price": "cena",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Internetová cena",
     "tax": "daň",
     "tax_included": "V cene",
+    "tax_included_abstract": "vrátane",
     "limit": "Limit",
     "min_purchase": "Minimálny nákup",
     "eligible_for": "Vhodný na",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Dátum vytvorenia",
     "updated_at": "Posledná aktualizácia",
     "register_at": "Dátum registrácie",
+    "last_modified": "Last modified",
     "old": "Starý",
     "new": "Nový",
     "start": "Štart",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Predajca",
     "tracking_code": "Sledovací kód",
     "tracking_url": "Sledovacia adresa URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Splnenia",
     "reject": "Odmietnuť",
     "reserved": "Rezervované",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Čakanie...",
     "waiting_connecting_payment": "Čaká sa na platobnú službu...",
     "creating_secure_payment": "Vytvorenie bezpečnej platby.",
+    "waiting_for_payment": "Dokončite platbu...",
     "officer": "dôstojník",
     "ticket": "Lístok",
     "ticket_url": "Adresa URL lístka",
@@ -361,7 +366,6 @@ export default {
     "rates": "Hodnotenie",
     "seen_at": "Videné na",
     "completed": "Dokončené",
-    "you": "vy",
     "shop": "Obchod",
     "store": "obchod",
     "granted": "Udelené",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Akvizičný kanál",
+    "channels_overview": "Channels overview",
     "to": "Komu",
     "info": "Info",
     "general": "generál",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Na produkt",
     "journey": "Cesta",
     "after": "Po",
-    "waiting_for_payment": "Dokončite platbu...",
     "hour": "hodina",
     "minute": "Minúta",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Obchody",
     "vendor": "Predajca",
     "vendors": "Predajcovia",
+    "no_vendors": "No vendors",
     "marketplace": "Trhovisko",
     "verify_date": "Overte dátum",
     "note": "Poznámka",
@@ -604,7 +609,6 @@ export default {
     "variant": "Varianta",
     "secure": "Zabezpečiť",
     "admin": "Admin",
-    "tax_included_abstract": "vrátane",
     "payment_not_settled": "Platba neuhradená!",
     "orders_list": "Zoznam objednávok",
     "subscription_plan": "Plán predplatného",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Zhluky",
     "subscriptions": "Predplatné",
     "spam": "Nevyžiadaná pošta",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "vy",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Veľmi komplikované",
+    "hard": "Ťažko",
+    "intermediate": "Stredne pokročilý",
+    "easy": "Jednoduché",
   },
   "dialogs": {
     "delete": {
       "title": "Odstrániť",
       "message": "Naozaj chcete odstrániť túto položku?",
-      "action": "Áno, vymazať teraz"
-    }
+      "action": "Áno, vymazať teraz",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Pridať do košíka",
     "cancel": "Zrušiť",
     "update": "Aktualizovať",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Pridať darčekovú kartu",
     "charge": "Nabite",
     "send_invites": "Posielajte pozvánky",
-    "past": "Minulosť",
+    "paste": "Prilepiť",
     "restore": "Obnoviť",
     "cut": "Vystrihnúť",
     "get_sms_code": "Získajte overovací kód",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Zobraziť náhľad",
     "hide_preview": "Skryť ukážku",
     "download_now": "Stiahni teraz",
+    "watch_now": "Sledovať teraz",
     "auto_fill": "Automatické dopĺňanie",
     "track": "Sledovať",
     "change_state": "Zmeniť stav",
     "done": "hotový",
     "reply": "Odpovedzte",
-    "watch_now": "Sledovať teraz",
     "unlock": "Odomknúť",
     "lock": "Zámok",
     "create_clone": "Vytvorte klon",
@@ -773,41 +931,71 @@ export default {
     "buy": "Kúpiť",
     "view_all": "Zobraziť všetko",
     "view_now": "Zobraziť teraz",
-    "paste": "Prilepiť"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Minulosť",
+  },
+  "billing_period": {
+    "Daily": "Denne",
+    "Weekly": "Týždenne",
+    "Monthly": "Mesačne",
+    "Every3Months": "Každé 3 mesiace",
+    "Every6Months": "Každých 6 mesiacov",
+    "Yearly": "Ročne",
   },
   "instance_message_title": "Odoslať okamžitú správu",
   "instance_message": "Dobrý deň, {name}, volám sa {author} zo spoločnosti {company}.",
   "errors": {
     "419": "Boli ste dlho neaktívni, z bezpečnostných dôvodov <b>⟳ OBNOVTE STRÁNKU</b> .",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Systém sa nesynchronizuje s blockchainom. Novú transakciu nebude možné vytvoriť, kým nebudú dokončené synchronizácie našich serverov. Problém riešime.",
-    "gateway_network_error": "Služba platobnej brány zaznamenala problém s komunikáciou."
+    "gateway_network_error": "Služba platobnej brány zaznamenala problém s komunikáciou.",
   },
   "receiver_info": {
     "map": {
       "title": "Dodacia adresa",
       "confirm": "Nastaviť polohu",
       "address_type": "Destinácia",
-      "receptor_type": "Prijímač"
+      "receptor_type": "Prijímač",
     },
     "receiver_address": "Vyberte dodaciu adresu",
+    "service_address": "Vyberte svoju adresu",
+    "select_billing_address": "Select billing address",
     "address": "adresu",
     "postcode": "PSČ",
     "enter_value": "Vyplňte tu",
     "address_note": "Poznámka",
     "tel": "Kontaktné číslo",
-    "service_address": "Vyberte svoju adresu"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "unca",
     "lb": "Pound",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimetre",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Noha",
     "mm": "milimeter",
     "m": "meter",
-    "yd": "Dvor"
+    "yd": "Dvor",
   },
   "distance": {
     "m": "meter",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Dni",
     "hours": "hodiny",
     "minutes": "Minúty",
-    "seconds": "sekúnd"
+    "seconds": "sekúnd",
   },
   "units": [
     "Jednotka",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Štát",
     "Territory": "Územie",
-    "Province": "Provincie"
+    "Province": "Provincie",
   },
   "transaction_status": {
     "RequireAction": "Vyžaduje sa akcia",
     "Processing": "Spracovanie",
     "Canceled": "Zrušené",
-    "Succeeded": "Podarilo sa"
+    "Succeeded": "Podarilo sa",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Zvoľ jazyk..",
     "friend_email": "E-mail vášho priateľa...",
     "friend_name": "Opt. Meno tvojho priateľa",
-    "select_date": "Vyberte dátum..."
+    "select_date": "Vyberte dátum...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Potvrďte",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max. počet znakov: {maxCount}",
     "invalid_url": "neplatná URL adresa",
     "country_invalid": "Vyberte cieľovú krajinu!",
-    "postal_code_invalid": "Nastavte platné poštové smerovacie číslo!"
+    "postal_code_invalid": "Nastavte platné poštové smerovacie číslo!",
   },
   "colors": {
     "#D32F2F": "Červená",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Jednotka",
     "postcode": "PSČ",
     "note": "Poznámka",
-    "county": "County"
+    "county": "County",
   },
   "product_types": {
     "physical": "Fyzické",
@@ -1004,13 +1207,13 @@ export default {
     "service": "servis",
     "service_description": "Služby ako: oprava, doprava, výučba.",
     "subscription": "Predplatné",
-    "subscription_description": "Predplatné a fakturácia za produkty, služby alebo obsah."
+    "subscription_description": "Predplatné a fakturácia za produkty, služby alebo obsah.",
   },
   "license": {
     "free": "zadarmo",
     "startup": "Začiatok",
     "company": "Spoločnosť",
-    "enterprise": "Enterprise"
+    "enterprise": "Enterprise",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Farba",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Počítajte v balení",
     "weight": "Hmotnosť",
     "type": "Materiál",
-    "style": "Štýl"
+    "style": "Štýl",
   },
   "delivery_state": {
     "check_queue": "Čaká sa na posúdenie",
     "order_confirm": "Potvrdenie objednávky",
     "preparing_order": "Príprava",
     "sent_order": "Na doručenie",
-    "to_customer": "Doručené"
+    "to_customer": "Doručené",
   },
   "status": {
     "unpaid": "Nezaplatené",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Odmietnuť",
     "pending": "Čaká na spracovanie",
     "rejected": "Odmietnuté",
-    "accepted": "Prijatý"
+    "accepted": "Prijatý",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motorka",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Globálna doprava",
     "global_description": "Preprava do zahraničia letecky, po mori alebo po súši.",
     "pickup": "Zdvihnúť",
-    "pickup_description": "Zákazníci si vyzdvihnú položky vo vašej kamennej predajni alebo sklade."
+    "pickup_description": "Zákazníci si vyzdvihnú položky vo vašej kamennej predajni alebo sklade.",
   },
   "article": {
     "login_to_see_error": "Pre prístup k článku sa prihláste",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Režim úprav",
       "view_mode": "Režim zobrazenia",
-      "delete": "Odstrániť článok"
+      "delete": "Odstrániť článok",
     },
     "schedule_action": "Chcete naplánovať zverejnenie?",
     "schedule_title": "Naplánujte automatické zverejnenie",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Nahláste zneužitie a odstráňte obsah",
       "report_title": "Nahláste tento obsah ako urážlivý",
       "message": "Aký je dôvod odoslania tohto obsahu? Vyberte jednu z nasledujúcich možností.",
-      "accept_and_delete_action": "Potvrďte a odstráňte obsah"
+      "accept_and_delete_action": "Potvrďte a odstráňte obsah",
     },
     "schedule_dialog": {
       "title": "Plán vydania obsahu",
       "publish_at": "Zverejniť na",
       "last_edit": "Posledná úprava",
-      "view_action": "Zobraziť článok"
+      "view_action": "Zobraziť článok",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Odoslať informácie",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Nahlásiť a vymazať",
       "report_and_delete_success_message": "Článok bol úspešne odstránený.",
       "report_success_title": "Reportážny článok",
-      "report_success_message": "Vaša správa k tomuto článku bola uverejnená."
+      "report_success_message": "Vaša správa k tomuto článku bola uverejnená.",
     },
     "alert": {
       "delete_article": {
         "title": "Odstrániť článok",
         "message": "Naozaj chcete natrvalo odstrániť tento článok?",
-        "action": "Odstrániť"
-      }
+        "action": "Odstrániť",
+      },
     },
     "edit_window": {
       "title": "Vyberte Text obrázka a Súhrn",
-      "digest": "Zhrnutie"
+      "digest": "Zhrnutie",
     },
     "editor": {
       "title_placeholder": "Názov..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Tento súbor je príliš veľký:",
       "notifications": {
         "image_uploaded_success": "Obrázok bol úspešne uložený",
-        "image_uploaded_failed": "Chyba pri načítavaní obrázka."
+        "image_uploaded_failed": "Chyba pri načítavaní obrázka.",
       },
       "embed_placeholder": "Zadajte kód iframe, Facebook, Youtube alebo akúkoľvek inú URL a stlačte enter.",
       "embed_caption_placeholder": "Zadajte názov (voliteľné)",
-      "images_caption_placeholder": "Zadajte názov pre tento obrázok.."
-    }
+      "images_caption_placeholder": "Zadajte názov pre tento obrázok..",
+    },
   },
   "article_report": {
     "inappropriate": "Obsah tohto článku je nevhodný.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Myslím si, že tento obsah obsahuje pornografiu a je v rozpore so zákonmi.",
     "harassment": "Toto je podľa mňa rasistické.",
     "hate": "Myslím si, že ide o propagáciu násilia.",
-    "infringe": "To porušuje moje práva."
+    "infringe": "To porušuje moje práva.",
   },
   "comments": {
     "new_action": "Kliknutím zanecháte komentár..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Získajte viac komentárov..",
     "cant_send_comment": "Nemôžete pridať nový príspevok.",
     "cant_remove_this_comment": "Tento komentár nemôžete odstrániť!",
-    "product_buyer": "kupujúci",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Moje komentáre",
     "delete_alert": {
       "title": "Odstrániť komentár",
       "message": "Chcete odstrániť tento komentár?",
-      "action": "Odstrániť"
+      "action": "Odstrániť",
     },
     "notifications": {
-      "delete_success": "Váš komentár bol úspešne odstránený."
+      "delete_success": "Váš komentár bol úspešne odstránený.",
     },
     "first_send": "Prvý príspevok",
     "comment_at": "zapnuté",
     "edit_comment": "Upraviť komentár",
-    "my_comments": "Moje komentáre"
+    "product_buyer": "kupujúci",
   },
   "customer_club": {
     "bronze": "Bronzová",
     "silver": "Strieborná",
     "gold": "Zlatý",
     "platinum": "Platina",
-    "diamond": "diamant"
+    "diamond": "diamant",
   },
   "application_categories": {
     "tracking": "Kontrola správania používateľov",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Reklama",
     "staff": "personál",
     "incentive": "Stimuly",
-    "shop": "Obchod"
+    "shop": "Obchod",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Pridať novú položku",
     "title_input": "Názov",
+    "placeholder_input": "Zástupný symbol",
     "name_input": "Názov premennej",
     "value_input": "hodnoty",
     "value_input_message": "Zoznam možností používateľa",
     "default": "Predvolená hodnota",
+    "file_type_input": "Prijateľné typy súborov",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Jednoduché",
       "selective": "Selektívne",
       "switch": "Prepínač",
       "file": "Súbor",
-      "number": "číslo"
+      "number": "číslo",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Zástupný symbol",
-    "file_type_input": "Prijateľné typy súborov",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Meno Produktu",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Stav platby",
     "payment_status_waiting": "Čakanie na platbu",
     "payment_status_paid": "Zaplatené",
-    "buyer": "kupujúci"
+    "buyer": "kupujúci",
   },
   "virtual_item_info": {
     "title": "Virtuálna položka",
     "outputs": {
       "title": "Informácie o výstupe",
       "sub_title": "Dôverné informácie o tejto položke",
-      "message": "Tieto informácie sa používateľovi zobrazia po zakúpení produktu."
+      "message": "Tieto informácie sa používateľovi zobrazia po zakúpení produktu.",
     },
     "inputs": {
       "title": "Informácie sú povinné",
       "sub_title": "Informácie o kupujúcom sú povinné",
-      "message": "Kupujúci musí do formulára zadať požadované údaje"
+      "message": "Kupujúci musí do formulára zadať požadované údaje",
     },
     "notifications": {
       "inputs_set_success": "Informačný formulár bol úspešne zaregistrovaný.",
       "confirm_by_admin_success": "Dokončenie objednávky potvrdené.",
-      "confirm_by_buyer_success": "Dokončenie objednávky potvrdené."
-    }
+      "confirm_by_buyer_success": "Dokončenie objednávky potvrdené.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Túto objednávku nie je možné akceptovať platbou na dobierku.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Vypredané.",
     "legal_restriction": "Nie je možné zadať objednávku z dôvodu zákonných obmedzení.",
     "pricing_fault": "Chyba v cene zo strany predajcu.",
-    "system_fault": "Systémová chyba."
+    "system_fault": "Systémová chyba.",
   },
   "basket_order_info_summery": {
     "receiver": "Prijímač",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Zľava",
     "final_price": "Konečná suma",
     "address": "Adresa dodania",
-    "payment_status": "Stav platby"
+    "payment_status": "Stav platby",
   },
   "basket_status": {
     "open": "OTVORENÉ",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Zrušené",
     "cod": "Platba pri doručení",
     "receipt_added": "Potvrdenie bolo pridané",
-    "payment_processing": "Spracovanie platieb"
+    "payment_processing": "Spracovanie platieb",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Odmietnuté",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Potvrdenie",
     "step_3": "Príprava",
     "step_4": "Na doručenie",
-    "step_5": "Doručené"
+    "step_5": "Doručené",
   },
   "basket_return_request_view": {
     "title": "Žiadosť o vrátenie",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Odmietnuť žiadosť",
     "message_for_admin": "Podľa zmluvy, ktorú ste prijali používaním Predaného, musíte kontaktovať kupujúceho a informovať ho o procese vrátenia jeho objednávky. Toto je potrebné urobiť, ak je žiadosť prijatá alebo zamietnutá a je získaný úplný súhlas kupujúceho.",
     "notifications": {
-      "update_status_success": "Stav žiadosti bol aktualizovaný."
-    }
+      "update_status_success": "Stav žiadosti bol aktualizovaný.",
+    },
   },
   "basket_list": {
     "return_count": "Návrat: {count} číslo",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Varianta",
       "warranty": "Záruky",
       "count": "počítať",
-      "price": "cena"
-    }
+      "price": "cena",
+    },
   },
   "return_request_list": {
     "count": "Referenčné číslo",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Dátum prijatia",
       "state": "Postavenie",
       "reason": "Dôvod",
-      "return_warranty_period": "Záručná doba"
-    }
+      "return_warranty_period": "Záručná doba",
+    },
   },
   "data_toolbar": {
     "search": "Vyhľadávanie",
     "sort_by": "Triediť podľa",
-    "count_item": "Zobraziť položky ({item})."
+    "count_item": "Zobraziť položky ({item}).",
   },
   "sort": {
     "created_at": "Vytvorte dátum",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "dôstojník",
     "registered": "Registrovaný",
     "purchased": "Kúpené",
-    "sex": "rod"
+    "sex": "rod",
   },
   "search_box": {
     "result": "Výsledky vyhľadávania",
     "tips": "Vyhľadajte produkty a kategórie",
     "label": "Vyhľadávanie ...",
-    "category": "Kategória"
+    "category": "Kategória",
   },
   "lead_status": {
     "physical_fast_delivery": "Okamžité doručenie",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Pripravuje sa a odosiela sa od nasledujúcich {days} dní",
     "virtual_fast_prepare": "Okamžité doručenie",
     "virtual_under_24h": "Bude hotovo v priebehu nasledujúcich {lead} hodín",
-    "virtual_over_24h": "Uskutoční sa od nasledujúcich {days} dní"
+    "virtual_over_24h": "Uskutoční sa od nasledujúcich {days} dní",
   },
   "return_request_state": {
     "pending": "Čaká na spracovanie",
     "accepted": "Potvrdené",
-    "rejected": "Odmietnuté"
+    "rejected": "Odmietnuté",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Manipulácia s balíkom alebo sériovým číslom",
       "U5": "Niektoré položky z balíka chýbajú",
       "U6": "Produkt nie je originálny",
-      "U7": "Produkt nespĺňa špecifikácie"
-    }
+      "U7": "Produkt nespĺňa špecifikácie",
+    },
   },
   "image_uploader": {
     "label": "Drag & Drop alebo <u>Select file</u>",
-    "max_size": "Maximálna povolená veľkosť: {size}"
+    "max_size": "Maximálna povolená veľkosť: {size}",
   },
   "timespan": {
     "Morning": "8:00 – 12:00",
     "Evening": "od 12:00 do 18:00",
     "Night": "18:00 – 12:00 hod",
-    "Instant": "Okamžitý príspevok"
+    "Instant": "Okamžitý príspevok",
   },
   "week_day": {
     "Saturday": "sobota",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "utorok",
     "Wednesday": "streda",
     "Thursday": "štvrtok",
-    "Friday": "piatok"
+    "Friday": "piatok",
   },
   "payment_form": {
     "title": "Vyberte spôsob platby",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Gratulujeme, vaša objednávka je bezplatná!",
     "order_free_payment_action": "Objednajte si teraz zadarmo",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Platobná adresa",
-      "amount": "Suma"
-    }
+      "amount": "Suma",
+    },
   },
   "discount_input": {
     "limit": "Zľava {percent} % až do {limit} {currency}",
     "action": "Pridať zľavový kód",
     "code_input": "Zľavový kód",
     "notifications": {
-      "add_success": "Gratulujeme, platný zľavový kód."
-    }
+      "add_success": "Gratulujeme, platný zľavový kód.",
+    },
   },
   "gift_card": {
     "inactive": "Karta je zakázaná",
     "expire": "Expirácia",
     "transfer": "Prestup",
-    "send_to_friend": "Poslať priateľovi"
+    "send_to_friend": "Poslať priateľovi",
   },
   "count_down": {
     "days": "deň",
     "hours": "hodina",
     "minutes": "Minúty",
-    "seconds": "sekúnd"
+    "seconds": "sekúnd",
   },
   "gift_status": {
     "Unpaid": "Čaká sa na potvrdenie",
     "Paid": "Zaplatené",
     "Rejected": "Odmietnuté",
-    "Canceled": "Zrušené"
+    "Canceled": "Zrušené",
   },
   "gift_program_status": {
     "Airdrop": "Platobný systém",
     "Advertising": "Reklama",
     "PersonalGift": "Osobný darček",
-    "ShopGift": "Darčekový obchod"
+    "ShopGift": "Darčekový obchod",
   },
   "currency_selector": {
-    "label": "mena"
+    "label": "mena",
   },
   "need_login": {
     "title": "Prihlásiť sa",
     "login_sms": "Prihlásenie cez SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Prihláste sa pomocou Google",
     "login_facebook": "Prihlásiť sa cez Facebook",
+    "login_apple": "Prihláste sa pomocou Apple",
     "login_account": "Prihláste sa cez Soldone",
     "register": "Nový užívateľ? Zaregistrujte sa teraz.",
     "mobile_input": "Zadajte svoj mobil",
     "verification_code": "Overovací kód",
     "msg_title": "Ahoj,",
     "msg_body": "Prosím prihláste sa. Trvá to len pár sekúnd.",
-    "login_apple": "Prihláste sa pomocou Apple",
     "login_email": "Prihláste sa emailom",
     "email_login_step_1": "Zadajte platnú e-mailovú adresu a my vám na ňu pošleme prihlasovací kód. Nie je potrebná žiadna registrácia.",
     "email_login_step_2": "Ste si istý, že ste svoju e-mailovú adresu zadali správne? Prihlasovací kód vám zašleme na uvedený e-mail, preto sa uistite, že je správnosť.",
-    "email_login_step_3": "Na váš email sme poslali kód. Upozorňujeme, že platnosť kódu vyprší o 10 minút."
+    "email_login_step_3": "Na váš email sme poslali kód. Upozorňujeme, že platnosť kódu vyprší o 10 minút.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5-ročný obchod so zlatom"
+      "name": "5-ročný obchod so zlatom",
     },
     "GOLDEN_2YEAR": {
-      "name": "4-ročný obchod so zlatom"
+      "name": "4-ročný obchod so zlatom",
     },
     "GOLDEN_3YEAR": {
-      "name": "3-ročný obchod so zlatom"
+      "name": "3-ročný obchod so zlatom",
     },
     "GOLDEN_4YEAR": {
-      "name": "2-ročný obchod so zlatom"
+      "name": "2-ročný obchod so zlatom",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Year Gold Store"
+      "name": "1 Year Gold Store",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Zlatý investor"
+      "name": "Zlatý investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamantový investor"
+      "name": "Diamantový investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Člen Vyššej komunity komunikačných sietí"
+      "name": "Člen Vyššej komunity komunikačných sietí",
     },
     "GOLD_SUPPLIER": {
-      "name": "Dodávateľ zlata"
+      "name": "Dodávateľ zlata",
     },
     "GOLD_SELLER": {
-      "name": "Predajca zlata"
+      "name": "Predajca zlata",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Najlepší výrobca obsahu"
+      "name": "Najlepší výrobca obsahu",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Hviezda"
+      "name": "Hviezda",
     },
     "GUARDIAN": {
-      "name": "Skvelý zákaznícky servis"
+      "name": "Skvelý zákaznícky servis",
     },
     "KING": {
-      "name": "Kráľ trhu"
-    }
+      "name": "Kráľ trhu",
+    },
   },
   "cookie": {
     "title": "Táto webová stránka používa cookies",
     "message": "Táto webová stránka používa súbory cookie na zlepšenie používateľského zážitku. Používaním našej webovej stránky súhlasíte so všetkými súbormi cookie v súlade s našimi Zásadami používania súborov cookie.",
     "preferences_action": "Spravovať predvoľby",
-    "agree_action": "Súhlasím"
+    "agree_action": "Súhlasím",
   },
   "basket_item_message": {
     "title": "Požadované informácie pre túto položku",
     "save_actions": "Uložiť správu",
+    "product_inputs_preview_message": "Tieto možnosti prispôsobenia sú k dispozícii pre váš objednaný produkt. Po pridaní položky do košíka tu budete môcť vykonať úpravy.",
     "notifications": {
-      "success": "Vaše vstupné údaje boli uložené."
+      "success": "Vaše vstupné údaje boli uložené.",
     },
-    "product_inputs_preview_message": "Tieto možnosti prispôsobenia sú k dispozícii pre váš objednaný produkt. Po pridaní položky do košíka tu budete môcť vykonať úpravy."
   },
   "faq": {
     "faq": "často kladené otázky",
     "title": "Otázky a odpovede",
-    "sub_title": "O čo ste nás požiadali.",
     "message": "V nižšie uvedených odpovediach hľadajte odpoveď na svoju otázku. Opýtajte sa nás, ak otázky zostanú nezodpovedané.",
     "add_question_action": "Položiť novú otázku",
     "read_more": "Čítaj viac ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Otázka",
     "question_input_placeholder": "Položte otázku.",
     "notifications": {
-      "success_add": "Vaša otázka bola úspešne odoslaná."
-    }
+      "success_add": "Vaša otázka bola úspešne odoslaná.",
+    },
+    "sub_title": "O čo ste nás požiadali.",
   },
   "rating_labels": [
     "Veľmi zle",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Zadajte cieľovú adresu",
     "enter_your_address": "Zadajte svoju adresu.",
     "postal_code": "PSČ",
-    "phone_input": "Telefón {type}",
+    "phone_input": "Telefón",
     "building_number": "Číslo budovy",
     "building_unit": "Jednotka",
     "full_name_input": "Celé meno {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Štítok s adresou (vyžadovať)",
     "notifications": {
       "save_in_list": "Táto adresa bola uložená do vášho zoznamu so všetkými podrobnosťami.",
-      "edit_success": "Nové hodnoty adresy uložené v {title}."
+      "edit_success": "Nové hodnoty adresy uložené v {title}.",
     },
     "delete_address_dialog": {
       "title": "Odstrániť adresu",
       "message": "Naozaj chcete odstrániť túto adresu?",
-      "action": "Odstrániť adresu"
-    }
+      "action": "Odstrániť adresu",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Tento komentár nie je možné upraviť!",
     "comment_input_empty": "Text správy je prázdny!",
-    "article_not_saved": "Uložte článok!"
+    "article_not_saved": "Uložte článok!",
   },
   "wheel_fortune": {
     "title": "Hrajte a vyhrajte",
     "message": "Cena každej hry je 10 žetónov. Momentálne máte {chips} čip. Získajte viac žetónov nákupom v obchode.",
     "win_message": "Gratulujeme, vyhrali ste!",
     "lost_message": "Prepáčte, prehrali ste hru.",
-    "try_again": "Môžete to skúsiť znova"
+    "try_again": "Môžete to skúsiť znova",
   },
   "json": {
     "add": "Pridajte štruktúrne údaje",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Štruktúry",
     "book": {
       "title": "Kniha",
-      "desc": "Akcie knihy, ktoré umožňujú používateľom kúpiť si knihu, ktorú nájdu priamo vo výsledkoch vyhľadávania."
+      "desc": "Akcie knihy, ktoré umožňujú používateľom kúpiť si knihu, ktorú nájdu priamo vo výsledkoch vyhľadávania.",
     },
     "occupation": {
       "title": "Odhadovaný plat",
-      "desc": "Informácie o odhade miezd, ako sú rozsahy miezd a priemerné platy podľa regiónu pre typy pracovných pozícií, zobrazené pri hľadaní zamestnania na Googli."
+      "desc": "Informácie o odhade miezd, ako sú rozsahy miezd a priemerné platy podľa regiónu pre typy pracovných pozícií, zobrazené pri hľadaní zamestnania na Googli.",
     },
     "course": {
       "title": "Kurz",
-      "desc": "Vzdelávacie kurzy, ktoré sa zobrazujú v zozname špecifickom pre poskytovateľa. Kurzy môžu obsahovať názov kurzu, poskytovateľa a krátky popis."
+      "desc": "Vzdelávacie kurzy, ktoré sa zobrazujú v zozname špecifickom pre poskytovateľa. Kurzy môžu obsahovať názov kurzu, poskytovateľa a krátky popis.",
     },
     "howto": {
       "title": "Ako",
-      "desc": "Návod prevedie používateľov súborom krokov na úspešné dokončenie úlohy vrátane videa, obrázkov a textu."
+      "desc": "Návod prevedie používateľov súborom krokov na úspešné dokončenie úlohy vrátane videa, obrázkov a textu.",
     },
     "recipe": {
       "title": "Recept",
-      "desc": "Recepty, ktoré sa zobrazujú ako samostatný bohatý výsledok alebo ako súčasť hostiteľského kolotoča."
-    }
+      "desc": "Recepty, ktoré sa zobrazujú ako samostatný bohatý výsledok alebo ako súčasť hostiteľského kolotoča.",
+    },
   },
   "support": {
     "Financial": "Finančné",
     "Technical": "Technická",
-    "Advisor": "poradca"
+    "Advisor": "poradca",
   },
   "condition": {
     "new": "Nový",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Použité",
     "used_fair": "Použité férovo",
     "used_good": "Použité dobre",
-    "used_like_new": "Použité - Ako nové"
+    "used_like_new": "Použité - Ako nové",
   },
   "variant_filter": {
     "title": "Filter variantov produktu",
-    "only_available": "Skladom"
+    "only_available": "Skladom",
   },
   "service": {
     "task": {
       "title": "Úlohy",
-      "message": "Zoznam úloh vykonaných v tejto službe."
+      "message": "Zoznam úloh vykonaných v tejto službe.",
     },
     "appointment": {
       "title": "Vymenovanie",
-      "message": "Vyberte si časy v týždni z nasledujúcich časov podľa dňa a hodiny, ktorá vám vyhovuje."
+      "message": "Vyberte si časy v týždni z nasledujúcich časov podľa dňa a hodiny, ktorá vám vyhovuje.",
     },
     "booking": {
       "title": "Rezervácia",
-      "message": "V nižšie uvedenom kalendári zadajte časové obdobie dní, kedy chcete vykonať rezerváciu."
+      "message": "V nižšie uvedenom kalendári zadajte časové obdobie dní, kedy chcete vykonať rezerváciu.",
     },
     "subscription": {
-      "title": "Predplatné"
+      "title": "Predplatné",
     },
     "charge": {
-      "title": "Nabite"
-    }
+      "title": "Nabite",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Pevná cena",
-      "message": "Pri tomto type cenotvorby je cena produktu pevná a nie je potrebné, aby kupujúci požadoval cenovú kalkuláciu."
+      "message": "Pri tomto type cenotvorby je cena produktu pevná a nie je potrebné, aby kupujúci požadoval cenovú kalkuláciu.",
     },
     "ESTIMATION": {
       "title": "Odhadovaná cena",
-      "message": "Cena produktov a služieb bude do určitej miery vypočítaná predávajúcim pri zadávaní objednávky, platobné faktúry je možné v priebehu služby meniť alebo dopĺňať."
+      "message": "Cena produktov a služieb bude do určitej miery vypočítaná predávajúcim pri zadávaní objednávky, platobné faktúry je možné v priebehu služby meniť alebo dopĺňať.",
     },
     "AGREEMENT": {
       "title": "Cena dohodou",
-      "message": "Konečná cena produktov alebo služieb nebude predávajúcim po odoslaní objednávky zmenená."
+      "message": "Konečná cena produktov alebo služieb nebude predávajúcim po odoslaní objednávky zmenená.",
     },
     "BID": {
       "title": "Ponuka / Aukcia",
-      "message": "Potenciálni kupci budú produkt predávať za najvyššiu ponukovú cenu."
-    }
+      "message": "Potenciálni kupci budú produkt predávať za najvyššiu ponukovú cenu.",
+    },
   },
   "map": {
     "title": "Cieľ na prijímanie produktov",
     "confirm": "Nastaviť polohu",
     "address": "Destinácia",
-    "receptor": "Prijímač"
+    "receptor": "Prijímač",
   },
   "ShopBots": {
-    "telegram": "telegram"
+    "telegram": "telegram",
   },
   "article_tags": {
     "title": "Značky obsahu",
     "tags_input": "Tagy",
     "tags_input_message": "Tagy Zoznam tohto článku",
     "notification": {
-      "add_success": "Pridané značky"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Veľmi komplikované",
-    "hard": "Ťažko",
-    "intermediate": "Stredne pokročilý",
-    "easy": "Jednoduché"
-  },
-  "billing_period": {
-    "Daily": "Denne",
-    "Weekly": "Týždenne",
-    "Monthly": "Mesačne",
-    "Every3Months": "Každé 3 mesiace",
-    "Every6Months": "Každých 6 mesiacov",
-    "Yearly": "Ročne"
+      "add_success": "Pridané značky",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och to nie je dobré!",
     "between2_3": "Je to v poriadku!",
     "between3_4": "Ľuďom sa to páči!",
-    "between4_5": "Ľudia to milujú!"
+    "between4_5": "Ľudia to milujú!",
   },
   "seasons": {
     "spring": "Jar",
     "summer": "Leto",
     "autumn": "jeseň",
-    "winter": "Zima"
-  }
+    "winter": "Zima",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

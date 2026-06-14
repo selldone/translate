@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Мен пайдалану шарттарын және құпиялылық саясатын оқыдым және олармен келісемін.",
   "commons": {
     "Currency": "Валюта",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Мемлекет",
     "Price": "бағасы",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Таза баға",
     "tax": "Салық",
     "tax_included": "Бағаға кіреді",
+    "tax_included_abstract": "қоса",
     "limit": "Шектеу",
     "min_purchase": "Ең аз сатып алу",
     "eligible_for": "Жарамды",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Құрылған күні",
     "updated_at": "Соңғы жаңарту",
     "register_at": "Тіркеу күні",
+    "last_modified": "Last modified",
     "old": "Ескі",
     "new": "Жаңа",
     "start": "Бастау",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Сатушы",
     "tracking_code": "Бақылау коды",
     "tracking_url": "Бақылау URL мекенжайы",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Орындаулар",
     "reject": "Қабылдамау",
     "reserved": "Резервтелген",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Күтуде...",
     "waiting_connecting_payment": "Төлем қызметі күтілуде...",
     "creating_secure_payment": "Қауіпсіз төлем жасау.",
+    "waiting_for_payment": "Төлемді аяқтаңыз...",
     "officer": "офицер",
     "ticket": "Билет",
     "ticket_url": "Билет URL мекенжайы",
@@ -361,7 +366,6 @@ export default {
     "rates": "Рейтинг",
     "seen_at": "Көрген",
     "completed": "Аяқталды",
-    "you": "Сіз",
     "shop": "Дүкен",
     "store": "дүкен",
     "granted": "Берілген",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Планшет",
     "pc": "PC",
     "acquisition_channel": "Сатып алу арнасы",
+    "channels_overview": "Channels overview",
     "to": "Кімге",
     "info": "Ақпарат",
     "general": "Жалпы",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Өнімге",
     "journey": "Саяхат",
     "after": "Кейін",
-    "waiting_for_payment": "Төлемді аяқтаңыз...",
     "hour": "Сағат",
     "minute": "Минут",
     "premium": "Премиум",
@@ -569,6 +573,7 @@ export default {
     "shops": "Дүкендер",
     "vendor": "Сатушы",
     "vendors": "Сатушылар",
+    "no_vendors": "No vendors",
     "marketplace": "Базар",
     "verify_date": "Күнді растау",
     "note": "Ескерту",
@@ -604,7 +609,6 @@ export default {
     "variant": "Нұсқа",
     "secure": "Қауіпсіз",
     "admin": "Админ",
-    "tax_included_abstract": "қоса",
     "payment_not_settled": "Төлем жасалмады!",
     "orders_list": "Тапсырыстар тізімі",
     "subscription_plan": "Жазылым жоспары",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Кластерлер",
     "subscriptions": "Жазылымдар",
     "spam": "Спам",
-    "video": "Бейне"
+    "video": "Бейне",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Сіз",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Өте күрделі",
+    "hard": "Қатты",
+    "intermediate": "Орташа",
+    "easy": "Жеңіл",
   },
   "dialogs": {
     "delete": {
       "title": "Жою",
       "message": "Бұл элементті жоюға сенімдісіз бе?",
-      "action": "Иә, қазір жою"
-    }
+      "action": "Иә, қазір жою",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Себетке қосу",
     "cancel": "Болдырмау",
     "update": "Жаңарту",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Сыйлық картасын қосыңыз",
     "charge": "Зарядтау",
     "send_invites": "Шақыруларды жіберу",
-    "past": "Өткен",
+    "paste": "Қою",
     "restore": "Қалпына келтіру",
     "cut": "Кесу",
     "get_sms_code": "Аутентификация кодын алыңыз",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Алдын ала қарауды көрсету",
     "hide_preview": "Алдын ала қарауды жасыру",
     "download_now": "Қазір жүктеп алыңыз",
+    "watch_now": "Қазір қараңыз",
     "auto_fill": "Автотолтыру",
     "track": "Трек",
     "change_state": "Күйді өзгерту",
     "done": "Дайын",
     "reply": "Жауап беру",
-    "watch_now": "Қазір қараңыз",
     "unlock": "Ашу",
     "lock": "Құлыптау",
     "create_clone": "Клон жасау",
@@ -773,41 +931,71 @@ export default {
     "buy": "Сатып алу",
     "view_all": "Барлығын көру",
     "view_now": "Қазір көру",
-    "paste": "Қою"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Өткен",
+  },
+  "billing_period": {
+    "Daily": "Күнделікті",
+    "Weekly": "Апта сайын",
+    "Monthly": "Ай сайын",
+    "Every3Months": "Әр 3 ай сайын",
+    "Every6Months": "Әр 6 ай сайын",
+    "Yearly": "Жыл сайын",
   },
   "instance_message_title": "Жедел хабарлама жіберу",
   "instance_message": "Сәлем {name}, менің атым {company} компаниясынан {author}.",
   "errors": {
     "419": "Сіз ұзақ уақыт бойы белсенді емессіз, қауіпсіздік мақсатында <b>⟳ БЕТТІ ЖАҢАРТЫҢЫЗ</b> .",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Жүйе блокчейнмен синхрондалмайды. Серверлеріміздің синхрондауы аяқталмайынша, жаңа транзакция жасау мүмкін болмайды. Біз мәселені шешіп жатырмыз.",
-    "gateway_network_error": "Төлем шлюзі қызметі байланыс мәселесіне тап болды."
+    "gateway_network_error": "Төлем шлюзі қызметі байланыс мәселесіне тап болды.",
   },
   "receiver_info": {
     "map": {
       "title": "Жеткізілім мекен-жайы",
       "confirm": "Орынды орнату",
       "address_type": "Баратын жер",
-      "receptor_type": "Қабылдаушы"
+      "receptor_type": "Қабылдаушы",
     },
     "receiver_address": "Жеткізу мекенжайын таңдаңыз",
+    "service_address": "Мекенжайыңызды таңдаңыз",
+    "select_billing_address": "Select billing address",
     "address": "мекенжайы",
     "postcode": "Пошта индексі",
     "enter_value": "Мұнда толтырыңыз",
     "address_note": "Ескерту",
     "tel": "Байланыс нөмірі",
-    "service_address": "Мекенжайыңызды таңдаңыз"
   },
   "weight": {
     "g": "g",
     "oz": "унция",
     "lb": "фунт",
-    "kg": "кг"
+    "kg": "кг",
   },
   "mass_unit_name": {
     "g": "грамм",
     "oz": "унция",
     "lb": "Фунт",
-    "kg": "килограмм"
+    "kg": "килограмм",
   },
   "length": {
     "cm": "см",
@@ -815,7 +1003,7 @@ export default {
     "ft": "фут",
     "mm": "мм",
     "m": "м",
-    "yd": "ярд"
+    "yd": "ярд",
   },
   "size_unit_name": {
     "cm": "Сантиметр",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Аяқ",
     "mm": "миллиметр",
     "m": "метр",
-    "yd": "Аула"
+    "yd": "Аула",
   },
   "distance": {
     "m": "метр",
-    "km": "км"
+    "km": "км",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Күндер",
     "hours": "Сағат",
     "minutes": "Минут",
-    "seconds": "Секундтар"
+    "seconds": "Секундтар",
   },
   "units": [
     "Бірлік",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Мемлекет",
     "Territory": "Территория",
-    "Province": "Облыс"
+    "Province": "Облыс",
   },
   "transaction_status": {
     "RequireAction": "Әрекет қажет",
     "Processing": "Өңдеу",
     "Canceled": "Бас тартылды",
-    "Succeeded": "Сәтті"
+    "Succeeded": "Сәтті",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Джон Кокс",
@@ -885,7 +1078,17 @@ export default {
     "language": "Тілді таңдаңыз..",
     "friend_email": "Досыңыздың электрондық поштасы...",
     "friend_name": "Опция. Досыңның аты",
-    "select_date": "Күнді таңдаңыз..."
+    "select_date": "Күнді таңдаңыз...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Растау",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Ең көбі {maxCount} таңба",
     "invalid_url": "Жарамсыз URL",
     "country_invalid": "Баратын елді таңдаңыз!",
-    "postal_code_invalid": "Жарамды пошта индексін орнатыңыз!"
+    "postal_code_invalid": "Жарамды пошта индексін орнатыңыз!",
   },
   "colors": {
     "#D32F2F": "Қызыл",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Бірлік",
     "postcode": "Пошта индексі",
     "note": "Ескерту",
-    "county": "Округ"
+    "county": "Округ",
   },
   "product_types": {
     "physical": "Физикалық",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Қызмет",
     "service_description": "Жөндеу, тасымалдау, оқыту сияқты қызметтер.",
     "subscription": "Жазылым",
-    "subscription_description": "Өнімдерге, қызметтерге немесе мазмұнға жазылымдар және шот-фактуралар."
+    "subscription_description": "Өнімдерге, қызметтерге немесе мазмұнға жазылымдар және шот-фактуралар.",
   },
   "license": {
     "free": "Тегін",
     "startup": "Жіберу",
     "company": "Компания",
-    "enterprise": "Кәсіпорын"
+    "enterprise": "Кәсіпорын",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Түс",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Пакетте санау",
     "weight": "Салмағы",
     "type": "Материал",
-    "style": "Стиль"
+    "style": "Стиль",
   },
   "delivery_state": {
     "check_queue": "Қарауды күтуде",
     "order_confirm": "Тапсырысты растау",
     "preparing_order": "Дайындалуда",
     "sent_order": "Жеткізуде",
-    "to_customer": "Жеткізілген"
+    "to_customer": "Жеткізілген",
   },
   "status": {
     "unpaid": "Төленбеген",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Қабылдамау",
     "pending": "Күтуде",
     "rejected": "Қабылданбады",
-    "accepted": "Қабылданды"
+    "accepted": "Қабылданды",
   },
   "dimensions": {
     "cm": "см",
     "km": "км",
-    "kg": "кг"
+    "kg": "кг",
   },
   "transportation_type": {
     "motorbike": "Мотоцикл",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Ғаламдық тасымалдау",
     "global_description": "Шетелге әуе, теңіз немесе құрлық арқылы жеткізу.",
     "pickup": "Ала кету",
-    "pickup_description": "Тұтынушылар заттарды сіздің физикалық дүкеніңізден немесе қоймаңыздан алады."
+    "pickup_description": "Тұтынушылар заттарды сіздің физикалық дүкеніңізден немесе қоймаңыздан алады.",
   },
   "article": {
     "login_to_see_error": "Мақалаға кіру үшін жүйеге кіріңіз",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Өңдеу режимі",
       "view_mode": "Көру режимі",
-      "delete": "Мақаланы жою"
+      "delete": "Мақаланы жою",
     },
     "schedule_action": "Жариялануды жоспарлағыңыз келе ме?",
     "schedule_title": "Автоматты түрде жариялауды жоспарлау",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Теріс қолдану туралы хабарлаңыз және мазмұнды жойыңыз",
       "report_title": "Бұл мазмұнды қорлау деп хабарлаңыз",
       "message": "Бұл мазмұнды жіберудің себебі неде? Келесі опциялардың бірін таңдаңыз.",
-      "accept_and_delete_action": "Мазмұнды растау және жою"
+      "accept_and_delete_action": "Мазмұнды растау және жою",
     },
     "schedule_dialog": {
       "title": "Мазмұнды шығару кестесі",
       "publish_at": "мекенжайында жариялау",
       "last_edit": "Соңғы өңдеу",
-      "view_action": "Мақаланы қарау"
+      "view_action": "Мақаланы қарау",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Ақпаратты жіберу",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Есеп беру және жою",
       "report_and_delete_success_message": "Мақала сәтті жойылды.",
       "report_success_title": "Баяндама мақаласы",
-      "report_success_message": "Осы мақала бойынша баяндамаңыз жарияланды."
+      "report_success_message": "Осы мақала бойынша баяндамаңыз жарияланды.",
     },
     "alert": {
       "delete_article": {
         "title": "Мақаланы жою",
         "message": "Осы мақаланы біржола жойғыңыз келетініне сенімдісіз бе?",
-        "action": "Жою"
-      }
+        "action": "Жою",
+      },
     },
     "edit_window": {
       "title": "Кескін мәтіні және Жиынтық опциясын таңдаңыз",
-      "digest": "Түйіндеме"
+      "digest": "Түйіндеме",
     },
     "editor": {
       "title_placeholder": "Атауы..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Бұл файл тым үлкен:",
       "notifications": {
         "image_uploaded_success": "Кескін сәтті сақталды",
-        "image_uploaded_failed": "Кескінді жүктеу қатесі."
+        "image_uploaded_failed": "Кескінді жүктеу қатесі.",
       },
       "embed_placeholder": "iframe кодын, Facebook, Youtube немесе кез келген басқа URL мекенжайын енгізіп, enter пернесін басыңыз.",
       "embed_caption_placeholder": "Тақырыпты енгізіңіз (міндетті емес)",
-      "images_caption_placeholder": "Осы суретке тақырып енгізіңіз.."
-    }
+      "images_caption_placeholder": "Осы суретке тақырып енгізіңіз..",
+    },
   },
   "article_report": {
     "inappropriate": "Бұл мақаланың мазмұны орынсыз.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Менің ойымша, бұл мазмұн порнографияны қамтиды және заңдарды бұзады.",
     "harassment": "Менің ойымша, бұл нәсілшілдік.",
     "hate": "Менің ойымша, бұл зорлық-зомбылықты насихаттау.",
-    "infringe": "Бұл менің құқығымды бұзады."
+    "infringe": "Бұл менің құқығымды бұзады.",
   },
   "comments": {
     "new_action": "Пікір қалдыру үшін басыңыз..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Көбірек пікірлер алыңыз ..",
     "cant_send_comment": "Сіз жаңа жазба қоса алмайсыз.",
     "cant_remove_this_comment": "Сіз бұл пікірді жоя алмайсыз!",
-    "product_buyer": "Сатып алушы",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Менің пікірлерім",
     "delete_alert": {
       "title": "Пікірді жою",
       "message": "Бұл пікірді жойғыңыз келе ме?",
-      "action": "Жою"
+      "action": "Жою",
     },
     "notifications": {
-      "delete_success": "Пікіріңіз сәтті жойылды."
+      "delete_success": "Пікіріңіз сәтті жойылды.",
     },
     "first_send": "Бірінші пост",
     "comment_at": "Қосулы",
     "edit_comment": "Пікірді өңдеу",
-    "my_comments": "Менің пікірлерім"
+    "product_buyer": "Сатып алушы",
   },
   "customer_club": {
     "bronze": "Қола",
     "silver": "Күміс",
     "gold": "Алтын",
     "platinum": "Платина",
-    "diamond": "Алмаз"
+    "diamond": "Алмаз",
   },
   "application_categories": {
     "tracking": "Пайдаланушы әрекетін тексеру",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Жарнама",
     "staff": "Қызметкерлер",
     "incentive": "Ынталандыру",
-    "shop": "Дүкен"
+    "shop": "Дүкен",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Жаңа элемент қосыңыз",
     "title_input": "Тақырып",
+    "placeholder_input": "Толтырғыш",
     "name_input": "Айнымалы атауы",
     "value_input": "Құндылықтар",
     "value_input_message": "Пайдаланушы опцияларының тізімі",
     "default": "Әдепкі мән",
+    "file_type_input": "Рұқсат етілген файл түрлері",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Қарапайым",
       "selective": "Таңдамалы",
       "switch": "Ауыстыру",
       "file": "Файл",
-      "number": "Сан"
+      "number": "Сан",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Толтырғыш",
-    "file_type_input": "Рұқсат етілген файл түрлері",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Өнім атауы",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Төлем күйі",
     "payment_status_waiting": "Төлем күтілуде",
     "payment_status_paid": "Ақылы",
-    "buyer": "Сатып алушы"
+    "buyer": "Сатып алушы",
   },
   "virtual_item_info": {
     "title": "Виртуалды элемент",
     "outputs": {
       "title": "Шығыс ақпараты",
       "sub_title": "Осы тармақтың құпия ақпараты",
-      "message": "Бұл ақпарат пайдаланушыға өнімді сатып алғаннан кейін көрсетіледі."
+      "message": "Бұл ақпарат пайдаланушыға өнімді сатып алғаннан кейін көрсетіледі.",
     },
     "inputs": {
       "title": "Міндетті ақпарат",
       "sub_title": "Сатып алушы туралы ақпарат қажет",
-      "message": "Сатып алушы нысанға сұралған ақпаратты енгізуі керек"
+      "message": "Сатып алушы нысанға сұралған ақпаратты енгізуі керек",
     },
     "notifications": {
       "inputs_set_success": "Ақпараттық пішін сәтті тіркелді.",
       "confirm_by_admin_success": "Тапсырыстың аяқталуы расталды.",
-      "confirm_by_buyer_success": "Тапсырыстың аяқталуы расталды."
-    }
+      "confirm_by_buyer_success": "Тапсырыстың аяқталуы расталды.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Бұл тапсырысты COD төлемімен қабылдау мүмкін емес.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Сатылды.",
     "legal_restriction": "Заңды шектеулерге байланысты тапсырыс беру мүмкін емес.",
     "pricing_fault": "Сатушының баға қатесі.",
-    "system_fault": "Жүйелік қате."
+    "system_fault": "Жүйелік қате.",
   },
   "basket_order_info_summery": {
     "receiver": "Қабылдаушы",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Жеңілдік",
     "final_price": "Соңғы сома",
     "address": "Жеткізу мекенжайы",
-    "payment_status": "Төлем күйі"
+    "payment_status": "Төлем күйі",
   },
   "basket_status": {
     "open": "Ашық",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Бас тартылды",
     "cod": "Жеткізу кезінде төлеу",
     "receipt_added": "Түбіртек қосылды",
-    "payment_processing": "Төлемді өңдеу"
+    "payment_processing": "Төлемді өңдеу",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Қабылданбады",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Растау",
     "step_3": "Дайындық",
     "step_4": "Жеткізуде",
-    "step_5": "Жеткізілген"
+    "step_5": "Жеткізілген",
   },
   "basket_return_request_view": {
     "title": "Қайтару сұрауы",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Өтінішті қабылдамау",
     "message_for_admin": "Selldone пайдалану арқылы қабылдаған келісімге сәйкес, сіз сатып алушымен байланысып, оны тапсырысты қайтару процесі туралы хабардар етуіңіз керек. Бұл сұраныс қабылданған немесе қабылданбаған және сатып алушының толық келісімі алынған жағдайда жасалуы керек.",
     "notifications": {
-      "update_status_success": "Сұраныс күйі жаңартылды."
-    }
+      "update_status_success": "Сұраныс күйі жаңартылды.",
+    },
   },
   "basket_list": {
     "return_count": "Қайтару: {count} сан",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Нұсқа",
       "warranty": "Кепілдіктер",
       "count": "Санау",
-      "price": "бағасы"
-    }
+      "price": "бағасы",
+    },
   },
   "return_request_list": {
     "count": "Анықтама нөмірі",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Алынған күні",
       "state": "Күй",
       "reason": "Себеп",
-      "return_warranty_period": "Кепілдік мерзімі"
-    }
+      "return_warranty_period": "Кепілдік мерзімі",
+    },
   },
   "data_toolbar": {
     "search": "Іздеу",
     "sort_by": "Бойынша сұрыптау",
-    "count_item": "{item} элементті көрсету"
+    "count_item": "{item} элементті көрсету",
   },
   "sort": {
     "created_at": "Күнді жасау",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "офицер",
     "registered": "Тіркелген",
     "purchased": "Сатып алынды",
-    "sex": "Жыныс"
+    "sex": "Жыныс",
   },
   "search_box": {
     "result": "Іздеу нәтижелері",
     "tips": "Өнімдер мен санаттарды іздеу",
     "label": "Іздеу ...",
-    "category": "Санат"
+    "category": "Санат",
   },
   "lead_status": {
     "physical_fast_delivery": "Жедел жеткізу",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Келесі {days} күннен бастап дайындалуда және жіберілуде",
     "virtual_fast_prepare": "Жедел жеткізу",
     "virtual_under_24h": "Келесі {lead} сағат ішінде орындалады",
-    "virtual_over_24h": "Келесі {days} күннен кейін орындалады"
+    "virtual_over_24h": "Келесі {days} күннен кейін орындалады",
   },
   "return_request_state": {
     "pending": "Күтуде",
     "accepted": "Расталды",
-    "rejected": "Қабылданбады"
+    "rejected": "Қабылданбады",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Пакет немесе сериялық нөмірді өзгерту",
       "U5": "Сәлемдемедегі кейбір заттар жоқ",
       "U6": "Өнім түпнұсқа емес",
-      "U7": "Өнім техникалық сипаттамаларға сәйкес келмейді"
-    }
+      "U7": "Өнім техникалық сипаттамаларға сәйкес келмейді",
+    },
   },
   "image_uploader": {
     "label": "Сүйреп апарыңыз немесе <u>файлды таңдаңыз</u>",
-    "max_size": "Рұқсат етілген ең үлкен өлшем: {size}"
+    "max_size": "Рұқсат етілген ең үлкен өлшем: {size}",
   },
   "timespan": {
     "Morning": "8:00 - 12:00",
     "Evening": "12-ден кешкі 6-ға дейін",
     "Night": "18.00-12.00",
-    "Instant": "Жедел хабарлама"
+    "Instant": "Жедел хабарлама",
   },
   "week_day": {
     "Saturday": "сенбі",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "сейсенбі",
     "Wednesday": "сәрсенбі",
     "Thursday": "бейсенбі",
-    "Friday": "жұма"
+    "Friday": "жұма",
   },
   "payment_form": {
     "title": "Төлем әдісін таңдаңыз",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Құттықтаймыз, тапсырысыңыз тегін!",
     "order_free_payment_action": "Қазір тегін тапсырыс беріңіз",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Төлем мекенжайы",
-      "amount": "Сома"
-    }
+      "amount": "Сома",
+    },
   },
   "discount_input": {
     "limit": "{limit} {currency} дейін {percent}% жеңілдік",
     "action": "Жеңілдік кодын қосыңыз",
     "code_input": "Жеңілдік коды",
     "notifications": {
-      "add_success": "Құттықтаймыз, жарамды жеңілдік коды."
-    }
+      "add_success": "Құттықтаймыз, жарамды жеңілдік коды.",
+    },
   },
   "gift_card": {
     "inactive": "Карта өшірілген",
     "expire": "Жарамдылық мерзімі",
     "transfer": "Тасымалдау",
-    "send_to_friend": "Досыңа жібер"
+    "send_to_friend": "Досыңа жібер",
   },
   "count_down": {
     "days": "Күн",
     "hours": "Сағат",
     "minutes": "Минут",
-    "seconds": "Секундтар"
+    "seconds": "Секундтар",
   },
   "gift_status": {
     "Unpaid": "Түбіртек күтуде",
     "Paid": "Ақылы",
     "Rejected": "Қабылданбады",
-    "Canceled": "Бас тартылды"
+    "Canceled": "Бас тартылды",
   },
   "gift_program_status": {
     "Airdrop": "Төлем жүйесі",
     "Advertising": "Жарнама",
     "PersonalGift": "Жеке сыйлық",
-    "ShopGift": "Сыйлық дүкені"
+    "ShopGift": "Сыйлық дүкені",
   },
   "currency_selector": {
-    "label": "Валюта"
+    "label": "Валюта",
   },
   "need_login": {
     "title": "кіру",
     "login_sms": "SMS кіру",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Google арқылы кіріңіз",
     "login_facebook": "Facebook арқылы кіріңіз",
+    "login_apple": "Apple арқылы жүйеге кіріңіз",
     "login_account": "Selldone арқылы кіру",
     "register": "Жаңа пайдаланушы? Қазір тіркеліңіз.",
     "mobile_input": "Ұялы телефоныңызды енгізіңіз",
     "verification_code": "Тексеру коды",
     "msg_title": "Сәлем,",
     "msg_body": "Жүйеге кіріңіз. Бұл бірнеше секундты алады.",
-    "login_apple": "Apple арқылы жүйеге кіріңіз",
     "login_email": "Электрондық пошта арқылы кіру",
     "email_login_step_1": "Жарамды электрондық пошта мекенжайын көрсетіңіз, біз оған логин кодын жібереміз. Тіркелу қажет емес.",
     "email_login_step_2": "Электрондық пошта мекенжайыңызды дұрыс енгізгеніңізге сенімдісіз бе? Біз логин кодын берілген электрондық поштаға жібереміз, сондықтан оның дұрыстығына көз жеткізіңіз.",
-    "email_login_step_3": "Электрондық поштаңызға код жібердік. Кодтың мерзімі 10 минуттан кейін аяқталатынын ескеріңіз."
+    "email_login_step_3": "Электрондық поштаңызға код жібердік. Кодтың мерзімі 10 минуттан кейін аяқталатынын ескеріңіз.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 жылдық алтын дүкені"
+      "name": "5 жылдық алтын дүкені",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 жылдық алтын дүкені"
+      "name": "4 жылдық алтын дүкені",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 жылдық алтын дүкені"
+      "name": "3 жылдық алтын дүкені",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 жылдық алтын дүкені"
+      "name": "2 жылдық алтын дүкені",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 жылдық алтын дүкені"
+      "name": "1 жылдық алтын дүкені",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Алтын инвестор"
+      "name": "Алтын инвестор",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Алмаз инвесторы"
+      "name": "Алмаз инвесторы",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby инвесторы"
+      "name": "Ruby инвесторы",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Байланыс желілерінің жоғары қауымдастығының мүшесі"
+      "name": "Байланыс желілерінің жоғары қауымдастығының мүшесі",
     },
     "GOLD_SUPPLIER": {
-      "name": "Алтын жеткізуші"
+      "name": "Алтын жеткізуші",
     },
     "GOLD_SELLER": {
-      "name": "Алтын дилері"
+      "name": "Алтын дилері",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Үздік контент продюсері"
+      "name": "Үздік контент продюсері",
     },
     "NINJA": {
-      "name": "Ниндзя"
+      "name": "Ниндзя",
     },
     "STAR": {
-      "name": "Жұлдыз"
+      "name": "Жұлдыз",
     },
     "GUARDIAN": {
-      "name": "Тамаша тұтынушыларға қызмет көрсету"
+      "name": "Тамаша тұтынушыларға қызмет көрсету",
     },
     "KING": {
-      "name": "Базар патшасы"
-    }
+      "name": "Базар патшасы",
+    },
   },
   "cookie": {
     "title": "Бұл веб-сайт cookie файлдарын пайдаланады",
     "message": "Бұл веб-сайт пайдаланушы тәжірибесін жақсарту үшін cookie файлдарын пайдаланады. Біздің веб-сайтты пайдалану арқылы сіз Cookie саясатымызға сәйкес барлық cookie файлдарына келісім бересіз.",
     "preferences_action": "Параметрлерді басқару",
-    "agree_action": "Мен келісемін"
+    "agree_action": "Мен келісемін",
   },
   "basket_item_message": {
     "title": "Осы элемент үшін қажетті ақпарат",
     "save_actions": "Хабарды сақтау",
+    "product_inputs_preview_message": "Бұл теңшеу опциялары тапсырыс берген өнім үшін қол жетімді. Элемент себетіңізге қосылғаннан кейін осы жерде түзетулер жасай аласыз.",
     "notifications": {
-      "success": "Енгізілген деректеріңіз сақталды."
+      "success": "Енгізілген деректеріңіз сақталды.",
     },
-    "product_inputs_preview_message": "Бұл теңшеу опциялары тапсырыс берген өнім үшін қол жетімді. Элемент себетіңізге қосылғаннан кейін осы жерде түзетулер жасай аласыз."
   },
   "faq": {
     "faq": "Жиі Қойылатын Сұрақтар",
     "title": "Сұрақтар мен жауаптар",
-    "sub_title": "Бізден не талап еттіңіз.",
     "message": "Төмендегі жауаптардың арасынан сұрағыңыздың жауабын іздеңіз. Сұрақтар жауапсыз қалса, бізге сұраңыз.",
     "add_question_action": "Жаңа сұрақ қойыңыз",
     "read_more": "Ары қарай оқу ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Сұрақ",
     "question_input_placeholder": "Сұрағыңызды қойыңыз.",
     "notifications": {
-      "success_add": "Сұрағыңыз сәтті жіберілді."
-    }
+      "success_add": "Сұрағыңыз сәтті жіберілді.",
+    },
+    "sub_title": "Бізден не талап еттіңіз.",
   },
   "rating_labels": [
     "Өте жаман",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Тағайындалған мекенжайды енгізіңіз",
     "enter_your_address": "Мекенжайыңызды енгізіңіз.",
     "postal_code": "Пошта индексі",
-    "phone_input": "Телефон {type}",
+    "phone_input": "Телефон",
     "building_number": "Ғимарат нөмірі",
     "building_unit": "Бірлік",
     "full_name_input": "Толық аты-жөні {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Мекенжай белгісі (міндетті)",
     "notifications": {
       "save_in_list": "Бұл мекенжай барлық мәліметтерімен тізіміңізге сақталды.",
-      "edit_success": "Жаңа мекенжай мәндері {title} ішінде сақталды."
+      "edit_success": "Жаңа мекенжай мәндері {title} ішінде сақталды.",
     },
     "delete_address_dialog": {
       "title": "Мекенжайды жою",
       "message": "Осы мекенжайды шынымен жойғыңыз келе ме?",
-      "action": "Мекенжайды жою"
-    }
+      "action": "Мекенжайды жою",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Бұл пікірді өңдеу мүмкін емес!",
     "comment_input_empty": "Хабарлама мәтіні бос!",
-    "article_not_saved": "Мақаланы сақтаңыз!"
+    "article_not_saved": "Мақаланы сақтаңыз!",
   },
   "wheel_fortune": {
     "title": "Ойнаңыз және жеңіңіз",
     "message": "Әр ойынның құны 10 фишкадан тұрады. Сізде қазір {chips} чипі бар. Дүкеннен сатып алу арқылы көбірек чип алыңыз.",
     "win_message": "Құттықтаймыз, сіз жеңдіңіз!",
     "lost_message": "Кешіріңіз, сіз ойынды жеңілдіңіз.",
-    "try_again": "Қайталап көруге болады"
+    "try_again": "Қайталап көруге болады",
   },
   "json": {
     "add": "Құрылым деректерін қосыңыз",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Құрылымдар",
     "book": {
       "title": "Кітап",
-      "desc": "Пайдаланушыларға іздеу нәтижелерінен тікелей тапқан кітапты сатып алуға мүмкіндік беретін кітап әрекеттері."
+      "desc": "Пайдаланушыларға іздеу нәтижелерінен тікелей тапқан кітапты сатып алуға мүмкіндік беретін кітап әрекеттері.",
     },
     "occupation": {
       "title": "Болжалды жалақы",
-      "desc": "Жалақы диапазоны және жұмыс түрлері үшін аймаққа негізделген орташа жалақы сияқты жалақыны бағалау туралы ақпарат Google-дағы жұмыс іздеу тәжірибесінде көрсетіледі."
+      "desc": "Жалақы диапазоны және жұмыс түрлері үшін аймаққа негізделген орташа жалақы сияқты жалақыны бағалау туралы ақпарат Google-дағы жұмыс іздеу тәжірибесінде көрсетіледі.",
     },
     "course": {
       "title": "Курс",
-      "desc": "Провайдерге арнайы тізімде пайда болатын білім беру курстары. Курстар курс тақырыбын, жеткізушіні және қысқаша сипаттаманы қамтуы мүмкін."
+      "desc": "Провайдерге арнайы тізімде пайда болатын білім беру курстары. Курстар курс тақырыбын, жеткізушіні және қысқаша сипаттаманы қамтуы мүмкін.",
     },
     "howto": {
       "title": "Қалай",
-      "desc": "\"Қалай\" пайдаланушыларды бейне, кескіндер және мәтінді қамтитын тапсырманы сәтті аяқтау үшін қадамдар жинағы арқылы көрсетеді."
+      "desc": "\"Қалай\" пайдаланушыларды бейне, кескіндер және мәтінді қамтитын тапсырманы сәтті аяқтау үшін қадамдар жинағы арқылы көрсетеді.",
     },
     "recipe": {
       "title": "Рецепт",
-      "desc": "Жеке бай нәтиже немесе негізгі карусель бөлігі ретінде көрсетілетін рецепттер."
-    }
+      "desc": "Жеке бай нәтиже немесе негізгі карусель бөлігі ретінде көрсетілетін рецепттер.",
+    },
   },
   "support": {
     "Financial": "Қаржылық",
     "Technical": "Техникалық",
-    "Advisor": "Кеңесші"
+    "Advisor": "Кеңесші",
   },
   "condition": {
     "new": "Жаңа",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Қолданылған",
     "used_fair": "Қолданылған жәрмеңке",
     "used_good": "Жақсы қолданылған",
-    "used_like_new": "Жаңа сияқты қолданылған"
+    "used_like_new": "Жаңа сияқты қолданылған",
   },
   "variant_filter": {
     "title": "Өнім нұсқаларының сүзгісі",
-    "only_available": "Қоймада"
+    "only_available": "Қоймада",
   },
   "service": {
     "task": {
       "title": "Тапсырмалар",
-      "message": "Осы қызметте орындалатын тапсырмалар тізімі."
+      "message": "Осы қызметте орындалатын тапсырмалар тізімі.",
     },
     "appointment": {
       "title": "Кездесу",
-      "message": "Сізге сәйкес келетін күн мен сағат негізінде келесі уақыттардан апта уақыттарын таңдаңыз."
+      "message": "Сізге сәйкес келетін күн мен сағат негізінде келесі уақыттардан апта уақыттарын таңдаңыз.",
     },
     "booking": {
       "title": "Брондау",
-      "message": "Төмендегі күнтізбеде брондағыңыз келетін күндердің уақыт аралығын көрсетіңіз."
+      "message": "Төмендегі күнтізбеде брондағыңыз келетін күндердің уақыт аралығын көрсетіңіз.",
     },
     "subscription": {
-      "title": "Жазылым"
+      "title": "Жазылым",
     },
     "charge": {
-      "title": "Зарядтау"
-    }
+      "title": "Зарядтау",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Тұрақты баға белгілеу",
-      "message": "Баға белгілеудің бұл түрінде өнімнің бағасы белгіленген сома болып табылады және сатып алушының баға есебін сұрауының қажеті жоқ."
+      "message": "Баға белгілеудің бұл түрінде өнімнің бағасы белгіленген сома болып табылады және сатып алушының баға есебін сұрауының қажеті жоқ.",
     },
     "ESTIMATION": {
       "title": "Сметалық баға белгілеу",
-      "message": "Өнімдер мен қызметтердің бағасын белгілі бір дәрежеде сатушы тапсырыс берген кезде есептейді, төлем шоттарын қызмет көрсету кезінде өзгертуге немесе қосуға болады."
+      "message": "Өнімдер мен қызметтердің бағасын белгілі бір дәрежеде сатушы тапсырыс берген кезде есептейді, төлем шоттарын қызмет көрсету кезінде өзгертуге немесе қосуға болады.",
     },
     "AGREEMENT": {
       "title": "Келісім бағасы",
-      "message": "Өнімнің немесе қызметтің соңғы бағасын сатушы тапсырыс берілгеннен кейін өзгертпейді."
+      "message": "Өнімнің немесе қызметтің соңғы бағасын сатушы тапсырыс берілгеннен кейін өзгертпейді.",
     },
     "BID": {
       "title": "Сауда-саттық / аукцион",
-      "message": "Өнім әлеуетті сатып алушылар ұсынған ең жоғары бағамен сатылады."
-    }
+      "message": "Өнім әлеуетті сатып алушылар ұсынған ең жоғары бағамен сатылады.",
+    },
   },
   "map": {
     "title": "Өнімдерді қабылдау орны",
     "confirm": "Орынды орнату",
     "address": "Баратын жер",
-    "receptor": "Қабылдаушы"
+    "receptor": "Қабылдаушы",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Мазмұн тегтері",
     "tags_input": "Тегтер",
     "tags_input_message": "Тегтер Осы мақаланың тізімі",
     "notification": {
-      "add_success": "Тегтер қосылды"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Өте күрделі",
-    "hard": "Қатты",
-    "intermediate": "Орташа",
-    "easy": "Жеңіл"
-  },
-  "billing_period": {
-    "Daily": "Күнделікті",
-    "Weekly": "Апта сайын",
-    "Monthly": "Ай сайын",
-    "Every3Months": "Әр 3 ай сайын",
-    "Every6Months": "Әр 6 ай сайын",
-    "Yearly": "Жыл сайын"
+      "add_success": "Тегтер қосылды",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "О, жақсы емес!",
     "between2_3": "Бәрі жақсы!",
     "between3_4": "Адамдарға ұнайды!",
-    "between4_5": "Адамдар оны жақсы көреді!"
+    "between4_5": "Адамдар оны жақсы көреді!",
   },
   "seasons": {
     "spring": "Көктем",
     "summer": "Жаз",
     "autumn": "Күз",
-    "winter": "Қыс"
-  }
+    "winter": "Қыс",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

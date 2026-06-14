@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Na karanta sharuɗɗan amfani da manufofin keɓantawa kuma na yarda da su.",
   "commons": {
     "Currency": "Kuɗi",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Jiha",
     "Price": "farashin",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Farashin net",
     "tax": "Haraji",
     "tax_included": "Kunshe cikin farashi",
+    "tax_included_abstract": "hada da",
     "limit": "Iyaka",
     "min_purchase": "Mafi ƙarancin sayayya",
     "eligible_for": "Cancantar don",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Kwanan da aka ƙirƙira",
     "updated_at": "Sabuntawa ta ƙarshe",
     "register_at": "Kwanan rajista",
+    "last_modified": "Last modified",
     "old": "Tsoho",
     "new": "Sabo",
     "start": "Fara",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Mai sake siyarwa",
     "tracking_code": "Lambar bin diddigi",
     "tracking_url": "Binciken URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Cikawa",
     "reject": "Ƙi",
     "reserved": "Ajiye",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Ana jira...",
     "waiting_connecting_payment": "Ana jiran sabis na biyan kuɗi...",
     "creating_secure_payment": "Ƙirƙirar amintaccen biyan kuɗi.",
+    "waiting_for_payment": "Da fatan za a kammala biyan kuɗi...",
     "officer": "Jami'in",
     "ticket": "Tikitin",
     "ticket_url": "url tikiti",
@@ -361,7 +366,6 @@ export default {
     "rates": "Rating",
     "seen_at": "An gani a",
     "completed": "An kammala",
-    "you": "Kai",
     "shop": "Shago",
     "store": "kantin sayar da",
     "granted": "An bayar",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "tashar saye",
+    "channels_overview": "Channels overview",
     "to": "Zuwa",
     "info": "Bayani",
     "general": "Gabaɗaya",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Kowane samfur",
     "journey": "Tafiya",
     "after": "Bayan",
-    "waiting_for_payment": "Da fatan za a kammala biyan kuɗi...",
     "hour": "Sa'a",
     "minute": "Minti",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Stores",
     "vendor": "Mai sayarwa",
     "vendors": "Dillalai",
+    "no_vendors": "No vendors",
     "marketplace": "Kasuwa",
     "verify_date": "Tabbatar da kwanan wata",
     "note": "Bayanan kula",
@@ -604,7 +609,6 @@ export default {
     "variant": "Bambance-bambance",
     "secure": "Amintacce",
     "admin": "Admin",
-    "tax_included_abstract": "hada da",
     "payment_not_settled": "Biyan bai daidaita ba!",
     "orders_list": "Jerin umarni",
     "subscription_plan": "Shirin biyan kuɗi",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Tari",
     "subscriptions": "Biyan kuɗi",
     "spam": "Spam",
-    "video": "Bidiyo"
+    "video": "Bidiyo",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Kai",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Mai rikitarwa",
+    "hard": "Mai wuya",
+    "intermediate": "Matsakaici",
+    "easy": "Sauƙi",
   },
   "dialogs": {
     "delete": {
       "title": "Share",
       "message": "Shin kun tabbata share wannan abun?",
-      "action": "Ee, Share yanzu"
-    }
+      "action": "Ee, Share yanzu",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Ƙara zuwa Cart",
     "cancel": "Soke",
     "update": "Sabuntawa",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ƙara katin kyauta",
     "charge": "Caji",
     "send_invites": "Aika gayyata",
-    "past": "Baya",
+    "paste": "Manna",
     "restore": "Maida",
     "cut": "Yanke",
     "get_sms_code": "Samu lambar tantancewa",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Nuna samfoti",
     "hide_preview": "Ɓoye samfoti",
     "download_now": "Sauke Yanzu",
+    "watch_now": "Kalli Yanzu",
     "auto_fill": "Cika kai tsaye",
     "track": "Waƙa",
     "change_state": "Canja Matsayi",
     "done": "Anyi",
     "reply": "Amsa",
-    "watch_now": "Kalli Yanzu",
     "unlock": "Buɗe",
     "lock": "Kulle",
     "create_clone": "Ƙirƙiri clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Saya",
     "view_all": "Duba Duk",
     "view_now": "Duba Yanzu",
-    "paste": "Manna"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Baya",
+  },
+  "billing_period": {
+    "Daily": "Kullum",
+    "Weekly": "mako-mako",
+    "Monthly": "kowane wata",
+    "Every3Months": "Duk wata 3",
+    "Every6Months": "Duk wata 6",
+    "Yearly": "kowace shekara",
   },
   "instance_message_title": "Aika saƙon take",
   "instance_message": "Barka dai {name}, sunana {author} daga {company}.",
   "errors": {
     "419": "Kun dade ba aiki, don Allah <b>⟳ REFRESS THE PAGE</b> saboda dalilan tsaro.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Tsarin baya aiki tare da blockchain. Ba zai yiwu a ƙirƙiri sabuwar ma'amala ba har sai an gama daidaitawar sabar mu. Muna magance matsalar.",
-    "gateway_network_error": "Sabis na ƙofar biyan kuɗi ya ci karo da matsalar sadarwa."
+    "gateway_network_error": "Sabis na ƙofar biyan kuɗi ya ci karo da matsalar sadarwa.",
   },
   "receiver_info": {
     "map": {
       "title": "Adireshin sufuri",
       "confirm": "Saita wuri",
       "address_type": "Makomawa",
-      "receptor_type": "Mai karɓa"
+      "receptor_type": "Mai karɓa",
     },
     "receiver_address": "Zaɓi adireshin aikawa",
+    "service_address": "Zaɓi adireshin ku",
+    "select_billing_address": "Select billing address",
     "address": "adireshin",
     "postcode": "Lambar gidan waya",
     "enter_value": "Cika a nan",
     "address_note": "Bayanan kula",
     "tel": "Lambar tuntuɓar",
-    "service_address": "Zaɓi adireshin ku"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ounce",
     "lb": "Fam",
-    "kg": "kilogiram"
+    "kg": "kilogiram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "ku yd"
+    "yd": "ku yd",
   },
   "size_unit_name": {
     "cm": "Santimita",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Kafa",
     "mm": "millimeter",
     "m": "mita",
-    "yd": "Yadi"
+    "yd": "Yadi",
   },
   "distance": {
     "m": "mita",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Kwanaki",
     "hours": "Awanni",
     "minutes": "Mintuna",
-    "seconds": "Dakika"
+    "seconds": "Dakika",
   },
   "units": [
     "Naúrar",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Jiha",
     "Territory": "Yanki",
-    "Province": "Lardi"
+    "Province": "Lardi",
   },
   "transaction_status": {
     "RequireAction": "Ana Bukatar Aiki",
     "Processing": "Gudanarwa",
     "Canceled": "An soke",
-    "Succeeded": "Nasara"
+    "Succeeded": "Nasara",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Zaɓi harshe..",
     "friend_email": "Imel din abokin ku...",
     "friend_name": "Fita Sunan abokinku",
-    "select_date": "Zaɓi kwanan wata..."
+    "select_date": "Zaɓi kwanan wata...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Tabbatar",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Matsakaicin haruffa {maxCount}",
     "invalid_url": "URL mara inganci",
     "country_invalid": "Zaɓi ƙasar nufi!",
-    "postal_code_invalid": "Saita ingantacciyar lambar gidan waya!"
+    "postal_code_invalid": "Saita ingantacciyar lambar gidan waya!",
   },
   "colors": {
     "#D32F2F": "Ja",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Naúrar",
     "postcode": "Lambar gidan waya",
     "note": "Bayanan kula",
-    "county": "Karamar hukuma"
+    "county": "Karamar hukuma",
   },
   "product_types": {
     "physical": "Na zahiri",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Sabis",
     "service_description": "Ayyuka kamar: gyara, sufuri, koyarwa.",
     "subscription": "Biyan kuɗi",
-    "subscription_description": "Biyan kuɗi da lissafin kuɗi don samfura, ayyuka, ko abun ciki."
+    "subscription_description": "Biyan kuɗi da lissafin kuɗi don samfura, ayyuka, ko abun ciki.",
   },
   "license": {
     "free": "Kyauta",
     "startup": "Farawa",
     "company": "Kamfanin",
-    "enterprise": "Kasuwanci"
+    "enterprise": "Kasuwanci",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Launi",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Ƙidaya cikin fakitin",
     "weight": "Nauyi",
     "type": "Kayan abu",
-    "style": "Salo"
+    "style": "Salo",
   },
   "delivery_state": {
     "check_queue": "Ana jiran bita",
     "order_confirm": "Tabbatar da oda",
     "preparing_order": "Ana shiryawa",
     "sent_order": "Kan bayarwa",
-    "to_customer": "Isar da"
+    "to_customer": "Isar da",
   },
   "status": {
     "unpaid": "Ba a biya ba",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Ƙi",
     "pending": "Ana jiran",
     "rejected": "An ƙi",
-    "accepted": "Karba"
+    "accepted": "Karba",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Babur",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Harkokin sufuri na duniya",
     "global_description": "Yin jigilar kaya zuwa ketare ta iska, ruwa ko ƙasa.",
     "pickup": "Daukewa",
-    "pickup_description": "Abokan ciniki suna karban abubuwan a shagon ku na zahiri ko ma'ajiyar ku."
+    "pickup_description": "Abokan ciniki suna karban abubuwan a shagon ku na zahiri ko ma'ajiyar ku.",
   },
   "article": {
     "login_to_see_error": "Shiga don samun damar labarin",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Yanayin gyarawa",
       "view_mode": "Yanayin duba",
-      "delete": "Share Labari"
+      "delete": "Share Labari",
     },
     "schedule_action": "Kuna so ku tsara jadawalin bugawa?",
     "schedule_title": "Jadawalin bugawa ta atomatik",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Ba da rahoton cin zarafi kuma cire abun ciki",
       "report_title": "Yi rahoton wannan abun cikin a matsayin cin zarafi",
       "message": "Menene dalilin ƙaddamar da wannan abun ciki? Zaɓi ɗaya daga cikin zaɓuɓɓuka masu zuwa.",
-      "accept_and_delete_action": "Tabbatar da Share Abun ciki"
+      "accept_and_delete_action": "Tabbatar da Share Abun ciki",
     },
     "schedule_dialog": {
       "title": "Jadawalin Sakin Abun ciki",
       "publish_at": "Buga a",
       "last_edit": "Gyaran ƙarshe",
-      "view_action": "Duba Labari"
+      "view_action": "Duba Labari",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Gabatar da Bayani",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Yi rahoto kuma Share",
       "report_and_delete_success_message": "An yi nasarar goge labarin.",
       "report_success_title": "Bayar da labarin",
-      "report_success_message": "An buga rahoton ku akan wannan labarin."
+      "report_success_message": "An buga rahoton ku akan wannan labarin.",
     },
     "alert": {
       "delete_article": {
         "title": "Share Labari",
         "message": "Shin kun tabbata kuna son share wannan labarin har abada?",
-        "action": "Share"
-      }
+        "action": "Share",
+      },
     },
     "edit_window": {
       "title": "Zaɓi Rubutun Hoto da Takaitawa",
-      "digest": "Takaitawa"
+      "digest": "Takaitawa",
     },
     "editor": {
       "title_placeholder": "Take..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Wannan fayil ya yi girma da yawa:",
       "notifications": {
         "image_uploaded_success": "An adana hoton cikin nasara",
-        "image_uploaded_failed": "Kuskuren loda hoto"
+        "image_uploaded_failed": "Kuskuren loda hoto",
       },
       "embed_placeholder": "Shigar da lambar iframe, Facebook, Youtube ko kowane URL kuma latsa shigar.",
       "embed_caption_placeholder": "Shigar da take (na zaɓi)",
-      "images_caption_placeholder": "Shigar da take don wannan hoton.."
-    }
+      "images_caption_placeholder": "Shigar da take don wannan hoton..",
+    },
   },
   "article_report": {
     "inappropriate": "Abin da ke cikin wannan labarin bai dace ba.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ina tsammanin wannan abun ciki ya ƙunshi hotunan batsa kuma ya saba wa dokoki.",
     "harassment": "Ina ganin wannan wariyar launin fata ne.",
     "hate": "Ina tsammanin wannan game da inganta tashin hankali ne.",
-    "infringe": "Wannan ya keta haƙƙina."
+    "infringe": "Wannan ya keta haƙƙina.",
   },
   "comments": {
     "new_action": "Danna don barin sharhi..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Samun ƙarin sharhi..",
     "cant_send_comment": "Ba za ku iya ƙara sabon rubutu ba.",
     "cant_remove_this_comment": "Ba za ku iya share wannan sharhi ba!",
-    "product_buyer": "Mai saye",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Sharhi na",
     "delete_alert": {
       "title": "Share Sharhi",
       "message": "Kuna son share wannan sharhi?",
-      "action": "Share"
+      "action": "Share",
     },
     "notifications": {
-      "delete_success": "An share bayanin ku cikin nasara."
+      "delete_success": "An share bayanin ku cikin nasara.",
     },
     "first_send": "Rubutu na farko",
     "comment_at": "Kunna",
     "edit_comment": "Gyara Sharhi",
-    "my_comments": "Sharhi na"
+    "product_buyer": "Mai saye",
   },
   "customer_club": {
     "bronze": "Tagulla",
     "silver": "Azurfa",
     "gold": "Zinariya",
     "platinum": "Platinum",
-    "diamond": "Diamond"
+    "diamond": "Diamond",
   },
   "application_categories": {
     "tracking": "Duba Halayen Mai Amfani",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Talla",
     "staff": "Ma'aikata",
     "incentive": "Ƙarfafawa",
-    "shop": "Shago"
+    "shop": "Shago",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Ƙara sabon abu",
     "title_input": "Take",
+    "placeholder_input": "Mai riƙe wuri",
     "name_input": "Sunan mai canzawa",
     "value_input": "Darajoji",
     "value_input_message": "Jerin Zaɓuɓɓukan Mai amfani",
     "default": "Ƙimar ta asali",
+    "file_type_input": "Nau'in fayil ɗin da aka karɓa",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Sauƙi",
       "selective": "Zaɓaɓɓe",
       "switch": "Sauya",
       "file": "Fayil",
-      "number": "Lamba"
+      "number": "Lamba",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Mai riƙe wuri",
-    "file_type_input": "Nau'in fayil ɗin da aka karɓa",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Sunan samfur",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Matsayin biyan kuɗi",
     "payment_status_waiting": "Jiran biya",
     "payment_status_paid": "An biya",
-    "buyer": "Mai saye"
+    "buyer": "Mai saye",
   },
   "virtual_item_info": {
     "title": "Abun Kaya",
     "outputs": {
       "title": "Bayanin Fitarwa",
       "sub_title": "Bayanin Sirri na Wannan Abun",
-      "message": "Za a nuna wannan bayanin ga mai amfani bayan siyan samfurin."
+      "message": "Za a nuna wannan bayanin ga mai amfani bayan siyan samfurin.",
     },
     "inputs": {
       "title": "Ana Bukatar Bayani",
       "sub_title": "Ana Bukatar Bayanin Mai Siye",
-      "message": "Dole ne mai siye ya shigar da bayanin da aka nema a cikin fom"
+      "message": "Dole ne mai siye ya shigar da bayanin da aka nema a cikin fom",
     },
     "notifications": {
       "inputs_set_success": "Fom bayanai sun yi rijista cikin nasara.",
       "confirm_by_admin_success": "An tabbatar da kammala odar.",
-      "confirm_by_buyer_success": "An tabbatar da kammala odar."
-    }
+      "confirm_by_buyer_success": "An tabbatar da kammala odar.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ba za a iya karɓar wannan odar ta hanyar biyan COD ba.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Ya ƙare.",
     "legal_restriction": "An kasa yin oda saboda hani na doka.",
     "pricing_fault": "Kuskuren farashi ta mai siyarwa.",
-    "system_fault": "Tsarin tsarin."
+    "system_fault": "Tsarin tsarin.",
   },
   "basket_order_info_summery": {
     "receiver": "Mai karɓa",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Rangwame",
     "final_price": "Adadin ƙarshe",
     "address": "Adireshin Bayarwa",
-    "payment_status": "Matsayin biyan kuɗi"
+    "payment_status": "Matsayin biyan kuɗi",
   },
   "basket_status": {
     "open": "Bude",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "An soke",
     "cod": "Biya Kan Bayarwa",
     "receipt_added": "An ƙara rarrabuwa",
-    "payment_processing": "Gudanar da biyan kuɗi"
+    "payment_processing": "Gudanar da biyan kuɗi",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "An ƙi",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Tabbatarwa",
     "step_3": "Shiri",
     "step_4": "Kan bayarwa",
-    "step_5": "Isar da"
+    "step_5": "Isar da",
   },
   "basket_return_request_view": {
     "title": "Komawa Neman",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "ƙin yarda",
     "message_for_admin": "Dangane da yarjejeniyar da kuka karɓa ta amfani da Selldone, dole ne ku tuntuɓi mai siye kuma ku sanar da shi yadda ake dawo da odarsa. Dole ne a yi wannan idan an karɓi buƙatar ko aka ƙi kuma an sami cikakken izinin mai siye.",
     "notifications": {
-      "update_status_success": "An sabunta matsayin nema."
-    }
+      "update_status_success": "An sabunta matsayin nema.",
+    },
   },
   "basket_list": {
     "return_count": "Komawa: {count} lamba",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Bambance-bambance",
       "warranty": "Garanti",
       "count": "Ƙidaya",
-      "price": "farashin"
-    }
+      "price": "farashin",
+    },
   },
   "return_request_list": {
     "count": "Lambar magana",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Kwanan Da Aka Samu",
       "state": "Matsayi",
       "reason": "Dalili",
-      "return_warranty_period": "Lokacin garanti"
-    }
+      "return_warranty_period": "Lokacin garanti",
+    },
   },
   "data_toolbar": {
     "search": "Bincika",
     "sort_by": "Kasa",
-    "count_item": "Nuna abubuwa {item}"
+    "count_item": "Nuna abubuwa {item}",
   },
   "sort": {
     "created_at": "Ƙirƙiri kwanan wata",
@@ -1602,26 +1813,26 @@ export default {
     "officer": "Jami'in",
     "registered": "Rajista",
     "purchased": "Sayi",
-    "sex": "Jinsi"
+    "sex": "Jinsi",
   },
   "search_box": {
     "result": "Sakamakon bincike",
     "tips": "Bincika Kayayyaki da Rukuni",
     "label": "Bincika...",
-    "category": "Rukuni"
+    "category": "Rukuni",
   },
   "lead_status": {
     "physical_fast_delivery": "Bayarwa kai tsaye",
     "physical_under_24h_delivery": "Bayarwa a cikin sa'o'i masu zuwa {lead}",
-    "physical_over_24h_delivery": "Ana shiryawa da ƙaddamarwa daga kwanaki masu zuwa",
+    "physical_over_24h_delivery": `Preparing and submitting from next {days} days`,
     "virtual_fast_prepare": "Bayarwa kai tsaye",
-    "virtual_under_24h": "Za a yi a cikin sa'o'i masu zuwa",
-    "virtual_over_24h": "Za a yi daga kwanaki masu zuwa"
+    "virtual_under_24h": "Will be done within the next {lead} hours",
+    "virtual_over_24h": "Will be done from the next {days} days",
   },
   "return_request_state": {
     "pending": "Ana jiran",
     "accepted": "An tabbatar",
-    "rejected": "An ƙi"
+    "rejected": "An ƙi",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Kunshin ko serial lamba tampering",
       "U5": "Wasu abubuwa daga cikin kunshin sun ɓace",
       "U6": "Samfurin ba na asali ba ne",
-      "U7": "Samfurin bai gamsar da ƙayyadaddun bayanai ba"
-    }
+      "U7": "Samfurin bai gamsar da ƙayyadaddun bayanai ba",
+    },
   },
   "image_uploader": {
     "label": "Jawo & Juyawa ko <u>Zaɓi fayil</u>",
-    "max_size": "Matsakaicin girman izini: {size}"
+    "max_size": "Matsakaicin girman izini: {size}",
   },
   "timespan": {
     "Morning": "8 na safe - 12 na yamma",
     "Evening": "12 na rana zuwa 6 na yamma",
     "Night": "6pm-12pm",
-    "Instant": "Nan take Post"
+    "Instant": "Nan take Post",
   },
   "week_day": {
     "Saturday": "Asabar",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Talata",
     "Wednesday": "Laraba",
     "Thursday": "Alhamis",
-    "Friday": "Juma'a"
+    "Friday": "Juma'a",
   },
   "payment_form": {
     "title": "Zaɓi Hanyar Biyan Kuɗi",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Taya murna, odar ku kyauta ne!",
     "order_free_payment_action": "Yi oda Kyauta Yanzu",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Adireshin biyan kuɗi",
-      "amount": "Adadin"
-    }
+      "amount": "Adadin",
+    },
   },
   "discount_input": {
     "limit": "{percent}% rangwame har zuwa {limit} {currency}",
     "action": "Ƙara lambar rangwame",
     "code_input": "Lambar rangwame",
     "notifications": {
-      "add_success": "Taya murna, ingantacciyar lambar rangwame."
-    }
+      "add_success": "Taya murna, ingantacciyar lambar rangwame.",
+    },
   },
   "gift_card": {
     "inactive": "An kashe katin",
     "expire": "Karewa",
     "transfer": "Canja wurin",
-    "send_to_friend": "Aika zuwa aboki"
+    "send_to_friend": "Aika zuwa aboki",
   },
   "count_down": {
     "days": "Rana",
     "hours": "Sa'a",
     "minutes": "Mintuna",
-    "seconds": "Dakika"
+    "seconds": "Dakika",
   },
   "gift_status": {
     "Unpaid": "Ana jiran Rasit",
     "Paid": "An biya",
     "Rejected": "An ƙi",
-    "Canceled": "An soke"
+    "Canceled": "An soke",
   },
   "gift_program_status": {
     "Airdrop": "Tsarin Biyan Kuɗi",
     "Advertising": "Talla",
     "PersonalGift": "Kyautar Keɓaɓɓu",
-    "ShopGift": "Shagon Kyauta"
+    "ShopGift": "Shagon Kyauta",
   },
   "currency_selector": {
-    "label": "Kuɗi"
+    "label": "Kuɗi",
   },
   "need_login": {
     "title": "shiga",
     "login_sms": "Shigar SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Shiga tare da Google",
     "login_facebook": "Shiga tare da Facebook",
+    "login_apple": "Login tare da Apple",
     "login_account": "Shiga ta Selldone",
     "register": "Sabon mai amfani? Yi rijista yanzu.",
     "mobile_input": "Shigar da wayar hannu",
     "verification_code": "Lambar tabbaci",
     "msg_title": "Sannu,",
     "msg_body": "Da fatan za a shiga Yana ɗaukar 'yan daƙiƙa kaɗan kawai.",
-    "login_apple": "Login tare da Apple",
     "login_email": "Shiga ta Imel",
     "email_login_step_1": "Da fatan za a ba da ingantaccen adireshin imel, kuma za mu aika da lambar shiga gare ta. Babu rajista ya zama dole.",
     "email_login_step_2": "Shin kun tabbata cewa kun shigar da adireshin imel ɗinku daidai? Za mu aika da lambar shiga zuwa imel ɗin da aka bayar, don haka da fatan za a tabbatar da daidaito.",
-    "email_login_step_3": "Mun aika da lamba zuwa imel ɗin ku. Lura cewa lambar zata ƙare a cikin mintuna 10."
+    "email_login_step_3": "Mun aika da lamba zuwa imel ɗin ku. Lura cewa lambar zata ƙare a cikin mintuna 10.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Shagon Zinare na Shekara 5"
+      "name": "Shagon Zinare na Shekara 5",
     },
     "GOLDEN_2YEAR": {
-      "name": "Shagon Zinare na Shekara 4"
+      "name": "Shagon Zinare na Shekara 4",
     },
     "GOLDEN_3YEAR": {
-      "name": "Shagon Zinare na Shekara 3"
+      "name": "Shagon Zinare na Shekara 3",
     },
     "GOLDEN_4YEAR": {
-      "name": "Shagon Zinare na Shekara 2"
+      "name": "Shagon Zinare na Shekara 2",
     },
     "GOLDEN_5YEAR": {
-      "name": "Shagon Zinare na Shekara 1"
+      "name": "Shagon Zinare na Shekara 1",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Golden Investor"
+      "name": "Golden Investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamond Investor"
+      "name": "Diamond Investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Memba na Babban Jama'ar Sadarwar Sadarwa"
+      "name": "Memba na Babban Jama'ar Sadarwar Sadarwa",
     },
     "GOLD_SUPPLIER": {
-      "name": "Mai ba da Zinariya"
+      "name": "Mai ba da Zinariya",
     },
     "GOLD_SELLER": {
-      "name": "Dillalin Zinare"
+      "name": "Dillalin Zinare",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Babban Mai Samar da Abun ciki"
+      "name": "Babban Mai Samar da Abun ciki",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Tauraro"
+      "name": "Tauraro",
     },
     "GUARDIAN": {
-      "name": "Babban Sabis na Abokin Ciniki"
+      "name": "Babban Sabis na Abokin Ciniki",
     },
     "KING": {
-      "name": "Sarkin Kasuwa"
-    }
+      "name": "Sarkin Kasuwa",
+    },
   },
   "cookie": {
     "title": "Wannan gidan yanar gizon yana amfani da kukis",
     "message": "Wannan gidan yanar gizon yana amfani da kukis don inganta ƙwarewar mai amfani. Ta amfani da gidan yanar gizon mu kun yarda da duk kukis daidai da Manufar Kuki ɗin mu.",
     "preferences_action": "Sarrafa Zaɓuɓɓuka",
-    "agree_action": "Na Amince"
+    "agree_action": "Na Amince",
   },
   "basket_item_message": {
     "title": "Bayanin da ake buƙata don wannan abu",
     "save_actions": "Ajiye saƙo",
+    "product_inputs_preview_message": "Ana samun waɗannan zaɓuɓɓukan keɓancewa don samfurin da aka umarce ku. Da zarar an ƙara abu a cikin keken ku, za ku iya yin gyare-gyare a nan.",
     "notifications": {
-      "success": "An adana bayanan shigar ku."
+      "success": "An adana bayanan shigar ku.",
     },
-    "product_inputs_preview_message": "Ana samun waɗannan zaɓuɓɓukan keɓancewa don samfurin da aka umarce ku. Da zarar an ƙara abu a cikin keken ku, za ku iya yin gyare-gyare a nan."
   },
   "faq": {
     "faq": "Tambayoyin da ake yawan yi",
     "title": "Tambayoyi da Amsoshi",
-    "sub_title": "Abin da kuka ce mu yi.",
     "message": "Nemo amsar tambayar ku a cikin amsoshin da ke ƙasa. Yi mana tambaya idan ba a amsa tambayoyin ba.",
     "add_question_action": "Yi Sabuwar Tambaya",
     "read_more": "Kara karantawa ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Tambaya",
     "question_input_placeholder": "Yi tambayar ku.",
     "notifications": {
-      "success_add": "An ƙaddamar da tambayarka cikin nasara."
-    }
+      "success_add": "An ƙaddamar da tambayarka cikin nasara.",
+    },
+    "sub_title": "Abin da kuka ce mu yi.",
   },
   "rating_labels": [
     "Mummuna sosai",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Shigar da adireshin inda ake nufi",
     "enter_your_address": "Shigar da adireshin ku.",
     "postal_code": "Lambar gidan waya",
-    "phone_input": "Waya {type}",
+    "phone_input": "Waya",
     "building_number": "Lambar gini",
     "building_unit": "Naúrar",
     "full_name_input": "Cikakken suna {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Alamar adireshin (An buƙata)",
     "notifications": {
       "save_in_list": "An ajiye wannan adireshin zuwa jerin ku tare da duk cikakkun bayanai.",
-      "edit_success": "An adana sabon ƙimar adireshi a cikin {title}."
+      "edit_success": "An adana sabon ƙimar adireshi a cikin {title}.",
     },
     "delete_address_dialog": {
       "title": "Share Adireshi",
       "message": "Shin kun tabbata kuna son share wannan adireshin?",
-      "action": "Cire adireshin"
-    }
+      "action": "Cire adireshin",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ba za a iya gyara wannan sharhi ba!",
     "comment_input_empty": "Rubutun saƙo babu komai!",
-    "article_not_saved": "Ajiye labarin!"
+    "article_not_saved": "Ajiye labarin!",
   },
   "wheel_fortune": {
     "title": "Kunna & Nasara",
     "message": "Farashin kowane wasa guntu 10 ne. A halin yanzu kuna da guntu {chips}. Sami ƙarin guntu ta siyayya daga shago.",
     "win_message": "Taya murna, Ka yi nasara!",
     "lost_message": "Yi haƙuri, kun yi rashin nasara a wasan.",
-    "try_again": "Kuna iya sake gwadawa"
+    "try_again": "Kuna iya sake gwadawa",
   },
   "json": {
     "add": "Ƙara bayanan tsari",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Tsarin tsari",
     "book": {
       "title": "Littafi",
-      "desc": "Ayyukan littattafai waɗanda ke ba masu amfani damar siyan littafin da suka samo kai tsaye daga sakamakon Bincike."
+      "desc": "Ayyukan littattafai waɗanda ke ba masu amfani damar siyan littafin da suka samo kai tsaye daga sakamakon Bincike.",
     },
     "occupation": {
       "title": "Kiyasin albashi",
-      "desc": "Bayani game da kimanta albashi, kamar adadin albashi da matsakaicin albashi na tushen yanki don nau'ikan ayyuka, wanda aka nuna a cikin ƙwarewar neman aiki akan Google."
+      "desc": "Bayani game da kimanta albashi, kamar adadin albashi da matsakaicin albashi na tushen yanki don nau'ikan ayyuka, wanda aka nuna a cikin ƙwarewar neman aiki akan Google.",
     },
     "course": {
       "title": "Hakika",
-      "desc": "Kwasa-kwasan ilimi waɗanda ke bayyana a takamaiman jerin masu bayarwa. Darussan na iya haɗawa da taken kwas, mai bayarwa, da taƙaitaccen bayanin."
+      "desc": "Kwasa-kwasan ilimi waɗanda ke bayyana a takamaiman jerin masu bayarwa. Darussan na iya haɗawa da taken kwas, mai bayarwa, da taƙaitaccen bayanin.",
     },
     "howto": {
       "title": "Yadda-da",
-      "desc": "Yadda ake bi da masu amfani ta hanyar matakan matakai don samun nasarar kammala aiki, tare da nuna bidiyo, hotuna, da rubutu."
+      "desc": "Yadda ake bi da masu amfani ta hanyar matakan matakai don samun nasarar kammala aiki, tare da nuna bidiyo, hotuna, da rubutu.",
     },
     "recipe": {
       "title": "Girke-girke",
-      "desc": "Girke-girke waɗanda ke nunawa azaman sakamako mai arziƙi na mutum ɗaya ko ɓangaren carousel mai masaukin baki."
-    }
+      "desc": "Girke-girke waɗanda ke nunawa azaman sakamako mai arziƙi na mutum ɗaya ko ɓangaren carousel mai masaukin baki.",
+    },
   },
   "support": {
     "Financial": "Kuɗi",
     "Technical": "Na fasaha",
-    "Advisor": "Mai ba da shawara"
+    "Advisor": "Mai ba da shawara",
   },
   "condition": {
     "new": "Sabo",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Amfani",
     "used_fair": "An yi amfani da gaskiya",
     "used_good": "An yi amfani da kyau",
-    "used_like_new": "An yi amfani da shi kamar sabo"
+    "used_like_new": "An yi amfani da shi kamar sabo",
   },
   "variant_filter": {
     "title": "Tace Bambancin samfur",
-    "only_available": "A Stock"
+    "only_available": "A Stock",
   },
   "service": {
     "task": {
       "title": "Ayyuka",
-      "message": "Jerin ayyukan da aka yi a wannan sabis ɗin."
+      "message": "Jerin ayyukan da aka yi a wannan sabis ɗin.",
     },
     "appointment": {
       "title": "Alƙawari",
-      "message": "Zaɓi lokutan mako daga lokuta masu zuwa bisa rana da sa'ar da ta dace da ku."
+      "message": "Zaɓi lokutan mako daga lokuta masu zuwa bisa rana da sa'ar da ta dace da ku.",
     },
     "booking": {
       "title": "Yin ajiya",
-      "message": "Ƙayyade lokacin kwanakin da kuke son yin ajiyar kuɗi a cikin kalanda da ke ƙasa."
+      "message": "Ƙayyade lokacin kwanakin da kuke son yin ajiyar kuɗi a cikin kalanda da ke ƙasa.",
     },
     "subscription": {
-      "title": "Biyan kuɗi"
+      "title": "Biyan kuɗi",
     },
     "charge": {
-      "title": "Caji"
-    }
+      "title": "Caji",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Kafaffen farashi",
-      "message": "A cikin wannan nau'in farashin, farashin samfurin shine ƙayyadadden adadin kuma babu buƙatar mai siye ya nemi lissafin farashi."
+      "message": "A cikin wannan nau'in farashin, farashin samfurin shine ƙayyadadden adadin kuma babu buƙatar mai siye ya nemi lissafin farashi.",
     },
     "ESTIMATION": {
       "title": "Kiyasta Farashin",
-      "message": "Za a ƙididdige farashin samfura da sabis zuwa ɗan lokaci ta mai siyarwa lokacin yin oda, ana iya canza daftarin biyan kuɗi yayin sabis ɗin."
+      "message": "Za a ƙididdige farashin samfura da sabis zuwa ɗan lokaci ta mai siyarwa lokacin yin oda, ana iya canza daftarin biyan kuɗi yayin sabis ɗin.",
     },
     "AGREEMENT": {
       "title": "Farashin Yarjejeniyar",
-      "message": "Farashin ƙarshe na samfuran ko sabis ɗin ba zai canza mai siyarwa ba bayan an ba da oda."
+      "message": "Farashin ƙarshe na samfuran ko sabis ɗin ba zai canza mai siyarwa ba bayan an ba da oda.",
     },
     "BID": {
       "title": "Bid / Auction",
-      "message": "Za a sayar da samfurin a farashi mafi girma ta masu siye."
-    }
+      "message": "Za a sayar da samfurin a farashi mafi girma ta masu siye.",
+    },
   },
   "map": {
     "title": "Manufa don karɓar samfuran",
     "confirm": "Saita wuri",
     "address": "Makomawa",
-    "receptor": "Mai karɓa"
+    "receptor": "Mai karɓa",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Abubuwan Tags",
     "tags_input": "Tags",
     "tags_input_message": "Tags Jerin wannan labarin",
     "notification": {
-      "add_success": "Tags kara"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Mai rikitarwa",
-    "hard": "Mai wuya",
-    "intermediate": "Matsakaici",
-    "easy": "Sauƙi"
-  },
-  "billing_period": {
-    "Daily": "Kullum",
-    "Weekly": "mako-mako",
-    "Monthly": "kowane wata",
-    "Every3Months": "Duk wata 3",
-    "Every6Months": "Duk wata 6",
-    "Yearly": "kowace shekara"
+      "add_success": "Tags kara",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh ba kyau!",
     "between2_3": "Ya yi!",
     "between3_4": "Mutane suna son shi!",
-    "between4_5": "Mutane suna son shi!"
+    "between4_5": "Mutane suna son shi!",
   },
   "seasons": {
     "spring": "bazara",
     "summer": "Lokacin bazara",
     "autumn": "Kaka",
-    "winter": "Winter"
-  }
+    "winter": "Winter",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

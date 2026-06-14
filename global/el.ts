@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Έχω διαβάσει τους όρους χρήσης και την πολιτική απορρήτου και συμφωνώ μαζί τους.",
   "commons": {
     "Currency": "Νόμισμα",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "κατάσταση",
     "Price": "τιμή",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Καθαρή τιμή",
     "tax": "Φόρος",
     "tax_included": "Περιλαμβάνεται στην τιμή",
+    "tax_included_abstract": "συμπεριλαμβανομένου",
     "limit": "Οριο",
     "min_purchase": "Ελάχιστη αγορά",
     "eligible_for": "Κατάλληλο για",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Ημερομηνία δημιουργίας",
     "updated_at": "Τελευταία ενημέρωση",
     "register_at": "Ημερομηνία εγγραφής",
+    "last_modified": "Last modified",
     "old": "Παλαιός",
     "new": "Νέος",
     "start": "Αρχή",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Μεταπωλητής",
     "tracking_code": "Κώδικας παρακολούθησης",
     "tracking_url": "URL παρακολούθησης",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Εκπληρώσεις",
     "reject": "Απορρίπτω",
     "reserved": "Κατοχυρωμένα",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Αναμονή...",
     "waiting_connecting_payment": "Αναμονή για την υπηρεσία πληρωμών...",
     "creating_secure_payment": "Δημιουργία ασφαλούς πληρωμής.",
+    "waiting_for_payment": "Παρακαλώ ολοκληρώστε την πληρωμή...",
     "officer": "Αξιωματικός",
     "ticket": "Εισιτήριο",
     "ticket_url": "Διεύθυνση URL εισιτηρίου",
@@ -361,7 +366,6 @@ export default {
     "rates": "Εκτίμηση",
     "seen_at": "Βλέπεται στο",
     "completed": "Ολοκληρώθηκε το",
-    "you": "Εσύ",
     "shop": "Κατάστημα",
     "store": "κατάστημα",
     "granted": "Χορηγείται",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Δισκίο",
     "pc": "PC",
     "acquisition_channel": "Κανάλι απόκτησης",
+    "channels_overview": "Channels overview",
     "to": "Προς την",
     "info": "Πληροφορίες",
     "general": "Γενικός",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Ανά προϊόν",
     "journey": "Ταξίδι",
     "after": "Μετά",
-    "waiting_for_payment": "Παρακαλώ ολοκληρώστε την πληρωμή...",
     "hour": "Ωρα",
     "minute": "Λεπτό",
     "premium": "Ασφάλιστρο",
@@ -569,6 +573,7 @@ export default {
     "shops": "Προμήθεια",
     "vendor": "Προμηθευτή",
     "vendors": "Πωλητές",
+    "no_vendors": "No vendors",
     "marketplace": "Αγορά",
     "verify_date": "Επαλήθευση ημερομηνίας",
     "note": "Σημείωση",
@@ -604,7 +609,6 @@ export default {
     "variant": "Παραλαγή",
     "secure": "Ασφαλής",
     "admin": "διαχειριστής",
-    "tax_included_abstract": "συμπεριλαμβανομένου",
     "payment_not_settled": "Η πληρωμή δεν διευθετήθηκε!",
     "orders_list": "Λίστα παραγγελιών",
     "subscription_plan": "Πρόγραμμα συνδρομής",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Συστάδες",
     "subscriptions": "Συνδρομές",
     "spam": "Ανεπιθυμητη αλληλογραφια",
-    "video": "βίντεο"
+    "video": "βίντεο",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Εσύ",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Πολύ περίπλοκο",
+    "hard": "Σκληρός",
+    "intermediate": "Ενδιάμεσος",
+    "easy": "Ανετα",
   },
   "dialogs": {
     "delete": {
       "title": "Διαγράφω",
       "message": "Είστε βέβαιοι ότι θα διαγράψετε αυτό το στοιχείο;",
-      "action": "Ναι, Διαγραφή τώρα"
-    }
+      "action": "Ναι, Διαγραφή τώρα",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Προσθήκη στο καλάθι",
     "cancel": "Ματαίωση",
     "update": "Εκσυγχρονίζω",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Προσθήκη δωροκάρτας",
     "charge": "Χρέωση",
     "send_invites": "Στείλε προσκλήσεις",
-    "past": "Το παρελθόν",
+    "paste": "Επικόλληση",
     "restore": "Επαναφέρω",
     "cut": "Τομή",
     "get_sms_code": "Λάβετε κωδικό ελέγχου ταυτότητας",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Εμφάνιση προεπισκόπησης",
     "hide_preview": "Απόκρυψη προεπισκόπησης",
     "download_now": "Κατεβάστε τώρα",
+    "watch_now": "Παρακολουθήσετε τώρα",
     "auto_fill": "Αυτόματη συμπλήρωση",
     "track": "Πίστα",
     "change_state": "Αλλαγή κατάστασης",
     "done": "Εγινε",
     "reply": "Απάντηση",
-    "watch_now": "Παρακολουθήσετε τώρα",
     "unlock": "Ξεκλείδωμα",
     "lock": "Κλειδαριά",
     "create_clone": "Δημιουργία κλώνου",
@@ -773,41 +931,71 @@ export default {
     "buy": "Αγορά",
     "view_all": "Προβολή όλων",
     "view_now": "Προβολή τώρα",
-    "paste": "Επικόλληση"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Το παρελθόν",
+  },
+  "billing_period": {
+    "Daily": "Καθημερινά",
+    "Weekly": "Εβδομαδιαίος",
+    "Monthly": "Μηνιαίο",
+    "Every3Months": "Κάθε 3 μήνες",
+    "Every6Months": "Κάθε 6 μήνες",
+    "Yearly": "Ετήσια",
   },
   "instance_message_title": "Αποστολή άμεσου μηνύματος",
   "instance_message": "Γεια σας {name}, Το όνομά μου είναι {author} από την {company}.",
   "errors": {
     "419": "Είστε ανενεργοί για μεγάλο χρονικό διάστημα, <b>⟳ ΑΝΑΝΕΩΣΤΕ ΤΗ ΣΕΛΙΔΑ</b> για λόγους ασφαλείας.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Το σύστημα δεν συγχρονίζεται με το blockchain. Δεν θα είναι δυνατή η δημιουργία νέας συναλλαγής μέχρι να ολοκληρωθούν οι συγχρονισμοί των διακομιστών μας. Λύνουμε το πρόβλημα.",
-    "gateway_network_error": "Η υπηρεσία πύλης πληρωμής αντιμετώπισε πρόβλημα επικοινωνίας."
+    "gateway_network_error": "Η υπηρεσία πύλης πληρωμής αντιμετώπισε πρόβλημα επικοινωνίας.",
   },
   "receiver_info": {
     "map": {
       "title": "Διεύθυνση αποστολής",
       "confirm": "Ορισμός τοποθεσίας",
       "address_type": "Προορισμός",
-      "receptor_type": "Δέκτης"
+      "receptor_type": "Δέκτης",
     },
     "receiver_address": "Επιλέξτε διεύθυνση αποστολής",
+    "service_address": "Επιλέξτε τη διεύθυνσή σας",
+    "select_billing_address": "Select billing address",
     "address": "διεύθυνση",
     "postcode": "ΤΑΧΥΔΡΟΜΙΚΟΣ ΚΩΔΙΚΟΣ",
     "enter_value": "Συμπληρώστε εδώ",
     "address_note": "Σημείωση",
     "tel": "Αριθμός επαφής",
-    "service_address": "Επιλέξτε τη διεύθυνσή σας"
   },
   "weight": {
     "g": "σολ",
     "oz": "ουγκιά",
     "lb": "λίβρα",
-    "kg": "κιλό"
+    "kg": "κιλό",
   },
   "mass_unit_name": {
     "g": "γραμμάριο",
     "oz": "Ουγκιά",
     "lb": "Λίβρα",
-    "kg": "χιλιόγραμμο"
+    "kg": "χιλιόγραμμο",
   },
   "length": {
     "cm": "εκ",
@@ -815,7 +1003,7 @@ export default {
     "ft": "πόδια",
     "mm": "mm",
     "m": "Μ",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Εκατοστόμετρο",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Πόδι",
     "mm": "χιλιοστόμετρο",
     "m": "μετρητής",
-    "yd": "Αυλή"
+    "yd": "Αυλή",
   },
   "distance": {
     "m": "μετρητής",
-    "km": "χλμ"
+    "km": "χλμ",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Μέρες",
     "hours": "Ωρες",
     "minutes": "Λεπτά",
-    "seconds": "Δευτερόλεπτα"
+    "seconds": "Δευτερόλεπτα",
   },
   "units": [
     "Μονάδα",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "κατάσταση",
     "Territory": "Εδαφος",
-    "Province": "Επαρχία"
+    "Province": "Επαρχία",
   },
   "transaction_status": {
     "RequireAction": "Απαιτείται ενέργεια",
     "Processing": "Επεξεργασία",
     "Canceled": "Ακυρώθηκε",
-    "Succeeded": "πέτυχε"
+    "Succeeded": "πέτυχε",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Τζον Κοξ",
@@ -885,7 +1078,17 @@ export default {
     "language": "Επιλέξτε γλώσσα..",
     "friend_email": "Το email του φίλου σου...",
     "friend_name": "Επιλέγω. Το όνομα του φίλου σου",
-    "select_date": "Επιλέξτε ημερομηνία..."
+    "select_date": "Επιλέξτε ημερομηνία...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Επιβεβαιώνω",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Μέγιστος {maxCount} χαρακτήρες",
     "invalid_url": "Μη έγκυρη διεύθυνση URL",
     "country_invalid": "Επιλέξτε χώρα προορισμού!",
-    "postal_code_invalid": "Ορίστε έγκυρο ταχυδρομικό κώδικα!"
+    "postal_code_invalid": "Ορίστε έγκυρο ταχυδρομικό κώδικα!",
   },
   "colors": {
     "#D32F2F": "το κόκκινο",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Μονάδα",
     "postcode": "ΤΑΧΥΔΡΟΜΙΚΟΣ ΚΩΔΙΚΟΣ",
     "note": "Σημείωση",
-    "county": "Κομητεία"
+    "county": "Κομητεία",
   },
   "product_types": {
     "physical": "Φυσικός",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Υπηρεσία",
     "service_description": "Υπηρεσίες όπως: επισκευή, μεταφορά, διδασκαλία.",
     "subscription": "Συνδρομή",
-    "subscription_description": "Συνδρομές και τιμολόγηση προϊόντων, υπηρεσιών ή περιεχομένων."
+    "subscription_description": "Συνδρομές και τιμολόγηση προϊόντων, υπηρεσιών ή περιεχομένων.",
   },
   "license": {
     "free": "Ελεύθερος",
     "startup": "Ξεκίνα",
     "company": "Εταιρία",
-    "enterprise": "Επιχείρηση"
+    "enterprise": "Επιχείρηση",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Χρώμα",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Μετρήστε σε πακέτο",
     "weight": "Βάρος",
     "type": "Υλικό",
-    "style": "Στυλ"
+    "style": "Στυλ",
   },
   "delivery_state": {
     "check_queue": "Αναμονή αναθεώρησης",
     "order_confirm": "Επιβεβαίωση της παραγγελίας",
     "preparing_order": "Προετοιμασία",
     "sent_order": "κατά την παράδοση",
-    "to_customer": "Παραδόθηκε"
+    "to_customer": "Παραδόθηκε",
   },
   "status": {
     "unpaid": "Απλήρωτος",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Απορρίπτω",
     "pending": "εκκρεμής",
     "rejected": "Απορρίφθηκε",
-    "accepted": "Δεκτός"
+    "accepted": "Δεκτός",
   },
   "dimensions": {
     "cm": "εκ",
     "km": "χλμ",
-    "kg": "κιλό"
+    "kg": "κιλό",
   },
   "transportation_type": {
     "motorbike": "Μοτοσικλέτα",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Παγκόσμια μεταφορά",
     "global_description": "Αποστολή στο εξωτερικό αεροπορικώς, θαλάσσης ή ξηράς.",
     "pickup": "Μαζεύω",
-    "pickup_description": "Οι πελάτες παραλαμβάνουν τα είδη από το φυσικό κατάστημα ή την αποθήκη σας."
+    "pickup_description": "Οι πελάτες παραλαμβάνουν τα είδη από το φυσικό κατάστημα ή την αποθήκη σας.",
   },
   "article": {
     "login_to_see_error": "Συνδεθείτε για πρόσβαση στο άρθρο",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Κατάσταση επεξεργασίας",
       "view_mode": "Λειτουργία προβολής",
-      "delete": "Διαγραφή άρθρου"
+      "delete": "Διαγραφή άρθρου",
     },
     "schedule_action": "Θέλετε να προγραμματίσετε τη δημοσίευση;",
     "schedule_title": "Προγραμματίστε την αυτόματη δημοσίευση",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Αναφορά κατάχρησης και κατάργηση περιεχομένου",
       "report_title": "Αναφέρετε αυτό το περιεχόμενο ως καταχρηστικό",
       "message": "Ποιος είναι ο λόγος για την υποβολή αυτού του περιεχομένου; Επιλέξτε μία από τις παρακάτω επιλογές.",
-      "accept_and_delete_action": "Επιβεβαίωση και διαγραφή περιεχομένου"
+      "accept_and_delete_action": "Επιβεβαίωση και διαγραφή περιεχομένου",
     },
     "schedule_dialog": {
       "title": "Χρονοδιάγραμμα κυκλοφορίας περιεχομένου",
       "publish_at": "Δημοσίευση στο",
       "last_edit": "Τελευταία επεξεργασία",
-      "view_action": "Δείτε το άρθρο"
+      "view_action": "Δείτε το άρθρο",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Υποβολή πληροφοριών",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Αναφορά και Διαγραφή",
       "report_and_delete_success_message": "Το άρθρο διαγράφηκε με επιτυχία.",
       "report_success_title": "Αναφορά άρθρου",
-      "report_success_message": "Η αναφορά σας για αυτό το άρθρο έχει αναρτηθεί."
+      "report_success_message": "Η αναφορά σας για αυτό το άρθρο έχει αναρτηθεί.",
     },
     "alert": {
       "delete_article": {
         "title": "Διαγραφή άρθρου",
         "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά αυτό το άρθρο;",
-        "action": "Διαγράφω"
-      }
+        "action": "Διαγράφω",
+      },
     },
     "edit_window": {
       "title": "Επιλέξτε Κείμενο εικόνας και Σύνοψη",
-      "digest": "Περίληψη"
+      "digest": "Περίληψη",
     },
     "editor": {
       "title_placeholder": "Τίτλος..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Αυτό το αρχείο είναι πολύ μεγάλο:",
       "notifications": {
         "image_uploaded_success": "Η εικόνα αποθηκεύτηκε με επιτυχία",
-        "image_uploaded_failed": "Σφάλμα κατά τη φόρτωση της εικόνας."
+        "image_uploaded_failed": "Σφάλμα κατά τη φόρτωση της εικόνας.",
       },
       "embed_placeholder": "Εισαγάγετε τον κωδικό iframe, το Facebook, το Youtube ή οποιαδήποτε άλλη διεύθυνση URL και πατήστε enter.",
       "embed_caption_placeholder": "Εισαγάγετε έναν τίτλο (προαιρετικό)",
-      "images_caption_placeholder": "Εισαγάγετε έναν τίτλο για αυτήν την εικόνα .."
-    }
+      "images_caption_placeholder": "Εισαγάγετε έναν τίτλο για αυτήν την εικόνα ..",
+    },
   },
   "article_report": {
     "inappropriate": "Το περιεχόμενο αυτού του άρθρου είναι ακατάλληλο.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Νομίζω ότι αυτό το περιεχόμενο περιέχει πορνογραφία και παραβιάζει τους νόμους.",
     "harassment": "Νομίζω ότι αυτό είναι ρατσιστικό.",
     "hate": "Νομίζω ότι πρόκειται για την προώθηση της βίας.",
-    "infringe": "Αυτό παραβιάζει τα δικαιώματά μου."
+    "infringe": "Αυτό παραβιάζει τα δικαιώματά μου.",
   },
   "comments": {
     "new_action": "Κάντε κλικ για να αφήσετε ένα σχόλιο..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Λάβετε περισσότερα σχόλια..",
     "cant_send_comment": "Δεν μπορείτε να προσθέσετε νέα ανάρτηση.",
     "cant_remove_this_comment": "Δεν μπορείτε να διαγράψετε αυτό το σχόλιο!",
-    "product_buyer": "Αγοραστής",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Τα σχόλιά μου",
     "delete_alert": {
       "title": "Διαγραφή σχολίου",
       "message": "Θέλετε να διαγράψετε αυτό το σχόλιο;",
-      "action": "Διαγράφω"
+      "action": "Διαγράφω",
     },
     "notifications": {
-      "delete_success": "Το σχόλιό σας διαγράφηκε με επιτυχία."
+      "delete_success": "Το σχόλιό σας διαγράφηκε με επιτυχία.",
     },
     "first_send": "Πρώτη ανάρτηση",
     "comment_at": "Επί",
     "edit_comment": "Επεξεργασία σχολίου",
-    "my_comments": "Τα σχόλιά μου"
+    "product_buyer": "Αγοραστής",
   },
   "customer_club": {
     "bronze": "Μπρούντζος",
     "silver": "Ασήμι",
     "gold": "Χρυσαφένιος",
     "platinum": "Πλατίνα",
-    "diamond": "Διαμάντι"
+    "diamond": "Διαμάντι",
   },
   "application_categories": {
     "tracking": "Έλεγχος συμπεριφοράς χρήστη",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Διαφήμιση",
     "staff": "Προσωπικό",
     "incentive": "Κίνητρα",
-    "shop": "Κατάστημα"
+    "shop": "Κατάστημα",
   },
   "social_network": {
     "instagram": "Ίνσταγκραμ",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Προσθήκη νέου στοιχείου",
     "title_input": "Τίτλος",
+    "placeholder_input": "Placeholder",
     "name_input": "Όνομα μεταβλητής",
     "value_input": "Αξίες",
     "value_input_message": "Λίστα επιλογών χρήστη",
     "default": "Προεπιλεγμένη τιμή",
+    "file_type_input": "Αποδεκτοί τύποι αρχείων",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Απλός",
       "selective": "Εκλεκτικός",
       "switch": "Διακόπτης",
       "file": "Αρχείο",
-      "number": "Αριθμός"
+      "number": "Αριθμός",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Placeholder",
-    "file_type_input": "Αποδεκτοί τύποι αρχείων",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Ονομασία προϊόντος",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Κατάσταση πληρωμής",
     "payment_status_waiting": "Αναμονή για πληρωμή",
     "payment_status_paid": "επί πληρωμή",
-    "buyer": "Αγοραστής"
+    "buyer": "Αγοραστής",
   },
   "virtual_item_info": {
     "title": "Εικονικό αντικείμενο",
     "outputs": {
       "title": "Πληροφορίες εξόδου",
       "sub_title": "Εμπιστευτικές Πληροφορίες αυτού του Στοιχείου",
-      "message": "Αυτές οι πληροφορίες θα εμφανίζονται στον χρήστη μετά την αγορά του προϊόντος."
+      "message": "Αυτές οι πληροφορίες θα εμφανίζονται στον χρήστη μετά την αγορά του προϊόντος.",
     },
     "inputs": {
       "title": "Απαιτούνται πληροφορίες",
       "sub_title": "Απαιτούνται πληροφορίες αγοραστή",
-      "message": "Ο αγοραστής πρέπει να εισαγάγει τις πληροφορίες που ζητούνται στη φόρμα"
+      "message": "Ο αγοραστής πρέπει να εισαγάγει τις πληροφορίες που ζητούνται στη φόρμα",
     },
     "notifications": {
       "inputs_set_success": "Η φόρμα πληροφοριών εγγράφηκε με επιτυχία.",
       "confirm_by_admin_success": "Η ολοκλήρωση της παραγγελίας επιβεβαιώθηκε.",
-      "confirm_by_buyer_success": "Η ολοκλήρωση της παραγγελίας επιβεβαιώθηκε."
-    }
+      "confirm_by_buyer_success": "Η ολοκλήρωση της παραγγελίας επιβεβαιώθηκε.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Αυτή η παραγγελία δεν μπορεί να γίνει αποδεκτή με την πληρωμή αντικαταβολής.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Εκτός αποθέματος.",
     "legal_restriction": "Δεν είναι δυνατή η υποβολή παραγγελίας λόγω νομικών περιορισμών.",
     "pricing_fault": "Λάθος τιμολόγησης από τον πωλητή.",
-    "system_fault": "Σφάλμα συστήματος."
+    "system_fault": "Σφάλμα συστήματος.",
   },
   "basket_order_info_summery": {
     "receiver": "Δέκτης",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Εκπτωση",
     "final_price": "Τελικό ποσό",
     "address": "Διεύθυνση παράδοσης",
-    "payment_status": "Κατάσταση πληρωμής"
+    "payment_status": "Κατάσταση πληρωμής",
   },
   "basket_status": {
     "open": "Ανοιξε",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Ακυρώθηκε",
     "cod": "Πληρωμή κατά την παράδοση",
     "receipt_added": "Προστέθηκε η απόδειξη",
-    "payment_processing": "Επεξεργασία πληρωμής"
+    "payment_processing": "Επεξεργασία πληρωμής",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Απορρίφθηκε",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Επιβεβαίωση",
     "step_3": "Παρασκευή",
     "step_4": "κατά την παράδοση",
-    "step_5": "Παραδόθηκε"
+    "step_5": "Παραδόθηκε",
   },
   "basket_return_request_view": {
     "title": "Αίτημα επιστροφής",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Απόρριψη αιτήματος",
     "message_for_admin": "Σύμφωνα με τη συμφωνία που έχετε αποδεχτεί χρησιμοποιώντας το Seldone, πρέπει να επικοινωνήσετε με τον αγοραστή και να τον ενημερώσετε για τη διαδικασία επιστροφής της παραγγελίας του. Αυτό πρέπει να γίνει εάν το αίτημα γίνει αποδεκτό ή απορριφθεί και ληφθεί η πλήρης συγκατάθεση του αγοραστή.",
     "notifications": {
-      "update_status_success": "Η κατάσταση του αιτήματος ενημερώθηκε."
-    }
+      "update_status_success": "Η κατάσταση του αιτήματος ενημερώθηκε.",
+    },
   },
   "basket_list": {
     "return_count": "Επιστροφή: {count} αριθμός",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Παραλαγή",
       "warranty": "Εγγυήσεις",
       "count": "μετρώ",
-      "price": "τιμή"
-    }
+      "price": "τιμή",
+    },
   },
   "return_request_list": {
     "count": "Αριθμός αναφοράς",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Ημερομηνία παραλαβής",
       "state": "Κατάσταση",
       "reason": "Λόγος",
-      "return_warranty_period": "Περίοδος εγγύησης"
-    }
+      "return_warranty_period": "Περίοδος εγγύησης",
+    },
   },
   "data_toolbar": {
     "search": "Αναζήτηση",
     "sort_by": "Ταξινόμηση κατά",
-    "count_item": "Εμφάνιση {item} στοιχείων"
+    "count_item": "Εμφάνιση {item} στοιχείων",
   },
   "sort": {
     "created_at": "Ημερομηνία δημιουργίας",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Αξιωματικός",
     "registered": "Εγγεγραμμένος",
     "purchased": "Αγορασμένο",
-    "sex": "Γένος"
+    "sex": "Γένος",
   },
   "search_box": {
     "result": "Αποτελέσματα αναζήτησης",
     "tips": "Αναζήτηση προϊόντων και κατηγοριών",
     "label": "Αναζήτηση ...",
-    "category": "Κατηγορία"
+    "category": "Κατηγορία",
   },
   "lead_status": {
     "physical_fast_delivery": "Άμεση παράδοση",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Προετοιμασία και υποβολή από τις επόμενες {days} ημέρες",
     "virtual_fast_prepare": "Άμεση παράδοση",
     "virtual_under_24h": "Θα γίνει εντός των επόμενων {lead} ωρών",
-    "virtual_over_24h": "Θα γίνει από τις επόμενες {days} ημέρες"
+    "virtual_over_24h": "Θα γίνει από τις επόμενες {days} ημέρες",
   },
   "return_request_state": {
     "pending": "εκκρεμής",
     "accepted": "Επιβεβαιωμένος",
-    "rejected": "Απορρίφθηκε"
+    "rejected": "Απορρίφθηκε",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Παραβίαση συσκευασίας ή σειριακού αριθμού",
       "U5": "Κάποια στοιχεία από το δέμα λείπουν",
       "U6": "Το προϊόν δεν είναι πρωτότυπο",
-      "U7": "Το προϊόν δεν πληροί τις προδιαγραφές"
-    }
+      "U7": "Το προϊόν δεν πληροί τις προδιαγραφές",
+    },
   },
   "image_uploader": {
     "label": "Μεταφορά & απόθεση ή <u>Επιλογή αρχείου</u>",
-    "max_size": "Μέγιστο επιτρεπόμενο μέγεθος: {size}"
+    "max_size": "Μέγιστο επιτρεπόμενο μέγεθος: {size}",
   },
   "timespan": {
     "Morning": "8 π.μ. - 12 μ.μ",
     "Evening": "12 το μεσημέρι έως 6 μ.μ",
     "Night": "6 μ.μ.-12 μ.μ",
-    "Instant": "Άμεση ανάρτηση"
+    "Instant": "Άμεση ανάρτηση",
   },
   "week_day": {
     "Saturday": "Σάββατο",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Τρίτη",
     "Wednesday": "Τετάρτη",
     "Thursday": "Πέμπτη",
-    "Friday": "Παρασκευή"
+    "Friday": "Παρασκευή",
   },
   "payment_form": {
     "title": "Επιλέξτε Τρόπος πληρωμής",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Συγχαρητήρια, η παραγγελία σας είναι δωρεάν!",
     "order_free_payment_action": "Παραγγείλετε δωρεάν τώρα",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Διεύθυνση πληρωμής",
-      "amount": "Ποσό"
-    }
+      "amount": "Ποσό",
+    },
   },
   "discount_input": {
     "limit": "έκπτωση {percent}% έως {limit} {currency}",
     "action": "Προσθήκη κωδικού έκπτωσης",
     "code_input": "Κωδικός έκπτωσης",
     "notifications": {
-      "add_success": "Συγχαρητήρια, έγκυρος εκπτωτικός κωδικός."
-    }
+      "add_success": "Συγχαρητήρια, έγκυρος εκπτωτικός κωδικός.",
+    },
   },
   "gift_card": {
     "inactive": "Η κάρτα είναι απενεργοποιημένη",
     "expire": "Λήξη",
     "transfer": "ΜΕΤΑΦΟΡΑ",
-    "send_to_friend": "Αποστολή σε φίλο"
+    "send_to_friend": "Αποστολή σε φίλο",
   },
   "count_down": {
     "days": "Ημέρα",
     "hours": "Ωρα",
     "minutes": "Λεπτά",
-    "seconds": "Δευτερόλεπτα"
+    "seconds": "Δευτερόλεπτα",
   },
   "gift_status": {
     "Unpaid": "Αναμονή παραλαβής",
     "Paid": "επί πληρωμή",
     "Rejected": "Απορρίφθηκε",
-    "Canceled": "Ακυρώθηκε"
+    "Canceled": "Ακυρώθηκε",
   },
   "gift_program_status": {
     "Airdrop": "Σύστημα πληρωμής",
     "Advertising": "Διαφήμιση",
     "PersonalGift": "Προσωπικό Δώρο",
-    "ShopGift": "Κατάστημα δώρων"
+    "ShopGift": "Κατάστημα δώρων",
   },
   "currency_selector": {
-    "label": "Νόμισμα"
+    "label": "Νόμισμα",
   },
   "need_login": {
     "title": "Σύνδεση",
     "login_sms": "Σύνδεση SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Συνδεθείτε με το Google",
     "login_facebook": "Σύνδεση με το Facebook",
+    "login_apple": "Συνδεθείτε με την Apple",
     "login_account": "Είσοδος από τη Selldone",
     "register": "Νέος χρήστης? Κάνε εγγραφή τώρα.",
     "mobile_input": "Εισάγετε το κινητό σας",
     "verification_code": "Κωδικός επαλήθευσης",
     "msg_title": "Γεια,",
     "msg_body": "ΠΑΡΑΚΑΛΩ ΣΥΝΔΕΘΕΙΤΕ. Χρειάζονται μόνο λίγα δευτερόλεπτα.",
-    "login_apple": "Συνδεθείτε με την Apple",
     "login_email": "Είσοδος μέσω email",
     "email_login_step_1": "Δώστε μια έγκυρη διεύθυνση email και θα στείλουμε τον κωδικό σύνδεσης σε αυτήν. Δεν απαιτείται εγγραφή.",
     "email_login_step_2": "Είστε σίγουροι ότι έχετε εισαγάγει σωστά τη διεύθυνση email σας; Θα στείλουμε τον κωδικό σύνδεσης στο παρεχόμενο email, επομένως βεβαιωθείτε για την ακρίβειά του.",
-    "email_login_step_3": "Έχουμε στείλει έναν κωδικό στο email σας. Λάβετε υπόψη ότι ο κωδικός θα λήξει σε 10 λεπτά."
+    "email_login_step_3": "Έχουμε στείλει έναν κωδικό στο email σας. Λάβετε υπόψη ότι ο κωδικός θα λήξει σε 10 λεπτά.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5ετές κατάστημα χρυσού"
+      "name": "5ετές κατάστημα χρυσού",
     },
     "GOLDEN_2YEAR": {
-      "name": "4ετές κατάστημα χρυσού"
+      "name": "4ετές κατάστημα χρυσού",
     },
     "GOLDEN_3YEAR": {
-      "name": "Κατάστημα χρυσού 3 ετών"
+      "name": "Κατάστημα χρυσού 3 ετών",
     },
     "GOLDEN_4YEAR": {
-      "name": "Κατάστημα χρυσού 2 ετών"
+      "name": "Κατάστημα χρυσού 2 ετών",
     },
     "GOLDEN_5YEAR": {
-      "name": "Κατάστημα χρυσού 1 έτους"
+      "name": "Κατάστημα χρυσού 1 έτους",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Χρυσός Επενδυτής"
+      "name": "Χρυσός Επενδυτής",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Επενδυτής διαμαντιών"
+      "name": "Επενδυτής διαμαντιών",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Μέλος της Ανώτερης Κοινότητας Δικτύων Επικοινωνίας"
+      "name": "Μέλος της Ανώτερης Κοινότητας Δικτύων Επικοινωνίας",
     },
     "GOLD_SUPPLIER": {
-      "name": "Προμηθευτής Χρυσού"
+      "name": "Προμηθευτής Χρυσού",
     },
     "GOLD_SELLER": {
-      "name": "Έμπορος χρυσού"
+      "name": "Έμπορος χρυσού",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Κορυφαίος Παραγωγός Περιεχομένου"
+      "name": "Κορυφαίος Παραγωγός Περιεχομένου",
     },
     "NINJA": {
-      "name": "Νίντζα"
+      "name": "Νίντζα",
     },
     "STAR": {
-      "name": "Αστέρι"
+      "name": "Αστέρι",
     },
     "GUARDIAN": {
-      "name": "Μεγάλη εξυπηρέτηση πελατών"
+      "name": "Μεγάλη εξυπηρέτηση πελατών",
     },
     "KING": {
-      "name": "Βασιλιάς της Αγοράς"
-    }
+      "name": "Βασιλιάς της Αγοράς",
+    },
   },
   "cookie": {
     "title": "Αυτός ο ιστότοπος χρησιμοποιεί cookies",
     "message": "Αυτός ο ιστότοπος χρησιμοποιεί cookies για τη βελτίωση της εμπειρίας χρήστη. Χρησιμοποιώντας τον ιστότοπό μας συναινείτε σε όλα τα cookies σύμφωνα με την Πολιτική μας για τα cookies.",
     "preferences_action": "Διαχείριση Προτιμήσεων",
-    "agree_action": "Συμφωνώ"
+    "agree_action": "Συμφωνώ",
   },
   "basket_item_message": {
     "title": "Απαιτούμενες πληροφορίες για αυτό το στοιχείο",
     "save_actions": "Αποθήκευση μηνύματος",
+    "product_inputs_preview_message": "Αυτές οι επιλογές προσαρμογής είναι διαθέσιμες για το προϊόν που έχετε παραγγείλει. Μόλις το προϊόν προστεθεί στο καλάθι σας, θα μπορείτε να κάνετε προσαρμογές εδώ.",
     "notifications": {
-      "success": "Τα δεδομένα εισόδου σας έχουν αποθηκευτεί."
+      "success": "Τα δεδομένα εισόδου σας έχουν αποθηκευτεί.",
     },
-    "product_inputs_preview_message": "Αυτές οι επιλογές προσαρμογής είναι διαθέσιμες για το προϊόν που έχετε παραγγείλει. Μόλις το προϊόν προστεθεί στο καλάθι σας, θα μπορείτε να κάνετε προσαρμογές εδώ."
   },
   "faq": {
     "faq": "Συχνές Ερωτήσεις",
     "title": "Ερωτήσεις και απαντήσεις",
-    "sub_title": "Αυτό που μας ζητήσατε να κάνουμε.",
     "message": "Αναζητήστε την απάντηση στην ερώτησή σας ανάμεσα στις παρακάτω απαντήσεις. Ρωτήστε μας εάν οι ερωτήσεις παραμένουν αναπάντητα.",
     "add_question_action": "Κάντε νέα ερώτηση",
     "read_more": "Διαβάστε περισσότερα ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Ερώτηση",
     "question_input_placeholder": "Ρώτα την ερώτησή σου.",
     "notifications": {
-      "success_add": "Η ερώτησή σας υποβλήθηκε με επιτυχία."
-    }
+      "success_add": "Η ερώτησή σας υποβλήθηκε με επιτυχία.",
+    },
+    "sub_title": "Αυτό που μας ζητήσατε να κάνουμε.",
   },
   "rating_labels": [
     "Πολύ κακό",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Εισαγάγετε τη διεύθυνση προορισμού",
     "enter_your_address": "Εισαγάγετε τη διεύθυνσή σας.",
     "postal_code": "ΤΑΧΥΔΡΟΜΙΚΟΣ ΚΩΔΙΚΟΣ",
-    "phone_input": "Τηλέφωνο {type}",
+    "phone_input": "Τηλέφωνο",
     "building_number": "Αριθμός κτισίματος",
     "building_unit": "Μονάδα",
     "full_name_input": "Πλήρες όνομα {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Ετικέτα διεύθυνσης (Απαιτείται)",
     "notifications": {
       "save_in_list": "Αυτή η διεύθυνση έχει αποθηκευτεί στη λίστα σας με όλες τις λεπτομέρειες.",
-      "edit_success": "Οι νέες τιμές διεύθυνσης αποθηκεύτηκαν στο {title}."
+      "edit_success": "Οι νέες τιμές διεύθυνσης αποθηκεύτηκαν στο {title}.",
     },
     "delete_address_dialog": {
       "title": "Διαγραφή διεύθυνσης",
       "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν τη διεύθυνση;",
-      "action": "Κατάργηση διεύθυνσης"
-    }
+      "action": "Κατάργηση διεύθυνσης",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Δεν είναι δυνατή η επεξεργασία αυτού του σχολίου!",
     "comment_input_empty": "Το κείμενο του μηνύματος είναι κενό!",
-    "article_not_saved": "Αποθηκεύστε το άρθρο!"
+    "article_not_saved": "Αποθηκεύστε το άρθρο!",
   },
   "wheel_fortune": {
     "title": "Παίξτε & Κερδίστε",
     "message": "Το κόστος κάθε παιχνιδιού είναι 10 μάρκες. Αυτήν τη στιγμή έχετε {chips} τσιπ. Αποκτήστε περισσότερα τσιπ αγοράζοντας από το κατάστημα.",
     "win_message": "Συγχαρητήρια, κερδίσατε!",
     "lost_message": "Συγγνώμη, έχασες το παιχνίδι.",
-    "try_again": "Μπορείτε να προσπαθήσετε ξανά"
+    "try_again": "Μπορείτε να προσπαθήσετε ξανά",
   },
   "json": {
     "add": "Προσθήκη δεδομένων δομής",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Δομές",
     "book": {
       "title": "Βιβλίο",
-      "desc": "Ενέργειες βιβλίου που επιτρέπουν στους χρήστες να αγοράσουν το βιβλίο που βρίσκουν απευθείας από τα αποτελέσματα αναζήτησης."
+      "desc": "Ενέργειες βιβλίου που επιτρέπουν στους χρήστες να αγοράσουν το βιβλίο που βρίσκουν απευθείας από τα αποτελέσματα αναζήτησης.",
     },
     "occupation": {
       "title": "Εκτιμώμενος μισθός",
-      "desc": "Πληροφορίες σχετικά με την εκτίμηση μισθών, όπως το εύρος μισθών και οι μέσοι όροι μισθών βάσει της περιοχής για τύπους θέσεων εργασίας, εμφανίζονται στην εμπειρία αναζήτησης εργασίας στο Google."
+      "desc": "Πληροφορίες σχετικά με την εκτίμηση μισθών, όπως το εύρος μισθών και οι μέσοι όροι μισθών βάσει της περιοχής για τύπους θέσεων εργασίας, εμφανίζονται στην εμπειρία αναζήτησης εργασίας στο Google.",
     },
     "course": {
       "title": "Σειρά μαθημάτων",
-      "desc": "Εκπαιδευτικά μαθήματα που εμφανίζονται σε μια λίστα για συγκεκριμένο πάροχο. Τα μαθήματα μπορούν να περιλαμβάνουν τον τίτλο του μαθήματος, τον πάροχο και μια σύντομη περιγραφή."
+      "desc": "Εκπαιδευτικά μαθήματα που εμφανίζονται σε μια λίστα για συγκεκριμένο πάροχο. Τα μαθήματα μπορούν να περιλαμβάνουν τον τίτλο του μαθήματος, τον πάροχο και μια σύντομη περιγραφή.",
     },
     "howto": {
       "title": "Πως να",
-      "desc": "Το How-to καθοδηγεί τους χρήστες σε ένα σύνολο βημάτων για την επιτυχή ολοκλήρωση μιας εργασίας, που περιλαμβάνει βίντεο, εικόνες και κείμενο."
+      "desc": "Το How-to καθοδηγεί τους χρήστες σε ένα σύνολο βημάτων για την επιτυχή ολοκλήρωση μιας εργασίας, που περιλαμβάνει βίντεο, εικόνες και κείμενο.",
     },
     "recipe": {
       "title": "Συνταγή",
-      "desc": "Συνταγές που εμφανίζονται ως μεμονωμένο πλούσιο αποτέλεσμα ή μέρος ενός καρουζέλ υποδοχής."
-    }
+      "desc": "Συνταγές που εμφανίζονται ως μεμονωμένο πλούσιο αποτέλεσμα ή μέρος ενός καρουζέλ υποδοχής.",
+    },
   },
   "support": {
     "Financial": "Χρηματοοικονομική",
     "Technical": "Τεχνικός",
-    "Advisor": "Σύμβουλος"
+    "Advisor": "Σύμβουλος",
   },
   "condition": {
     "new": "Νέος",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Μεταχειρισμένος",
     "used_fair": "Μεταχειρισμένο δίκαια",
     "used_good": "Μεταχειρισμένο καλά",
-    "used_like_new": "Μεταχειρισμένο - Σαν καινούργιο"
+    "used_like_new": "Μεταχειρισμένο - Σαν καινούργιο",
   },
   "variant_filter": {
     "title": "Φίλτρο παραλλαγής προϊόντος",
-    "only_available": "Σε απόθεμα"
+    "only_available": "Σε απόθεμα",
   },
   "service": {
     "task": {
       "title": "Καθήκοντα",
-      "message": "Λίστα εργασιών που εκτελούνται σε αυτήν την υπηρεσία."
+      "message": "Λίστα εργασιών που εκτελούνται σε αυτήν την υπηρεσία.",
     },
     "appointment": {
       "title": "Ραντεβού",
-      "message": "Επιλέξτε τις ώρες της εβδομάδας από τις παρακάτω ώρες με βάση την ημέρα και την ώρα που σας ταιριάζει."
+      "message": "Επιλέξτε τις ώρες της εβδομάδας από τις παρακάτω ώρες με βάση την ημέρα και την ώρα που σας ταιριάζει.",
     },
     "booking": {
       "title": "Κράτηση",
-      "message": "Καθορίστε τη χρονική περίοδο των ημερών που θέλετε να κάνετε κράτηση στο παρακάτω ημερολόγιο."
+      "message": "Καθορίστε τη χρονική περίοδο των ημερών που θέλετε να κάνετε κράτηση στο παρακάτω ημερολόγιο.",
     },
     "subscription": {
-      "title": "Συνδρομή"
+      "title": "Συνδρομή",
     },
     "charge": {
-      "title": "Χρέωση"
-    }
+      "title": "Χρέωση",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Σταθερή τιμολόγηση",
-      "message": "Σε αυτό το είδος τιμολόγησης, η τιμή του προϊόντος είναι ένα σταθερό ποσό και δεν χρειάζεται να ζητήσει ο αγοραστής υπολογισμό τιμής."
+      "message": "Σε αυτό το είδος τιμολόγησης, η τιμή του προϊόντος είναι ένα σταθερό ποσό και δεν χρειάζεται να ζητήσει ο αγοραστής υπολογισμό τιμής.",
     },
     "ESTIMATION": {
       "title": "Εκτίμηση Τιμολόγησης",
-      "message": "Η τιμή των προϊόντων και των υπηρεσιών θα υπολογιστεί σε κάποιο βαθμό από τον πωλητή κατά την υποβολή μιας παραγγελίας, τα τιμολόγια πληρωμής μπορούν να αλλάξουν ή να προστεθούν κατά τη διάρκεια της υπηρεσίας."
+      "message": "Η τιμή των προϊόντων και των υπηρεσιών θα υπολογιστεί σε κάποιο βαθμό από τον πωλητή κατά την υποβολή μιας παραγγελίας, τα τιμολόγια πληρωμής μπορούν να αλλάξουν ή να προστεθούν κατά τη διάρκεια της υπηρεσίας.",
     },
     "AGREEMENT": {
       "title": "Τιμολόγηση συμφωνίας",
-      "message": "Η τελική τιμή των προϊόντων ή των υπηρεσιών δεν θα αλλάξει από τον πωλητή μετά την τοποθέτηση της παραγγελίας."
+      "message": "Η τελική τιμή των προϊόντων ή των υπηρεσιών δεν θα αλλάξει από τον πωλητή μετά την τοποθέτηση της παραγγελίας.",
     },
     "BID": {
       "title": "Προσφορά / Δημοπρασία",
-      "message": "Το προϊόν θα πωληθεί στην υψηλότερη τιμή προσφοράς από πιθανούς αγοραστές."
-    }
+      "message": "Το προϊόν θα πωληθεί στην υψηλότερη τιμή προσφοράς από πιθανούς αγοραστές.",
+    },
   },
   "map": {
     "title": "Προορισμός παραλαβής προϊόντων",
     "confirm": "Ορισμός τοποθεσίας",
     "address": "Προορισμός",
-    "receptor": "Δέκτης"
+    "receptor": "Δέκτης",
   },
   "ShopBots": {
-    "telegram": "Τηλεγράφημα"
+    "telegram": "Τηλεγράφημα",
   },
   "article_tags": {
     "title": "Ετικέτες περιεχομένου",
     "tags_input": "Ετικέτες",
     "tags_input_message": "Ετικέτες Λίστα αυτού του άρθρου",
     "notification": {
-      "add_success": "Προστέθηκαν ετικέτες"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Πολύ περίπλοκο",
-    "hard": "Σκληρός",
-    "intermediate": "Ενδιάμεσος",
-    "easy": "Ανετα"
-  },
-  "billing_period": {
-    "Daily": "Καθημερινά",
-    "Weekly": "Εβδομαδιαίος",
-    "Monthly": "Μηνιαίο",
-    "Every3Months": "Κάθε 3 μήνες",
-    "Every6Months": "Κάθε 6 μήνες",
-    "Yearly": "Ετήσια"
+      "add_success": "Προστέθηκαν ετικέτες",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Ωχ δεν είναι καλό!",
     "between2_3": "Είναι εντάξει!",
     "between3_4": "Αρέσει στον κόσμο!",
-    "between4_5": "Ο κόσμος το λατρεύει!"
+    "between4_5": "Ο κόσμος το λατρεύει!",
   },
   "seasons": {
     "spring": "Ανοιξη",
     "summer": "Καλοκαίρι",
     "autumn": "Φθινόπωρο",
-    "winter": "Χειμώνας"
-  }
+    "winter": "Χειμώνας",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

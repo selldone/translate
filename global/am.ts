@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "የአጠቃቀም ደንቦችን እና የግላዊነት ፖሊሲን አንብቤ በእነሱ ተስማምቻለሁ።",
   "commons": {
     "Currency": "ምንዛሪ",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "ግዛት",
     "Price": "ዋጋ",
@@ -169,6 +170,7 @@ export default {
     "net_price": "የተጣራ ዋጋ",
     "tax": "ግብር",
     "tax_included": "በዋጋ ውስጥ ተካትቷል",
+    "tax_included_abstract": "ጨምሮ።",
     "limit": "ገደብ",
     "min_purchase": "ዝቅተኛ ግዢ",
     "eligible_for": "ብቁ ለ",
@@ -302,6 +304,7 @@ export default {
     "created_at": "የተፈጠረበት ቀን",
     "updated_at": "የመጨረሻው ዝመና",
     "register_at": "የምዝገባ ቀን",
+    "last_modified": "Last modified",
     "old": "አሮጌ",
     "new": "አዲስ",
     "start": "ጀምር",
@@ -330,6 +333,7 @@ export default {
     "reseller": "ሻጭ",
     "tracking_code": "የመከታተያ ኮድ",
     "tracking_url": "የክትትል URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "ፍጻሜዎች",
     "reject": "እምቢ",
     "reserved": "የተያዘ",
@@ -341,6 +345,7 @@ export default {
     "waiting": "በመጠበቅ ላይ...",
     "waiting_connecting_payment": "የክፍያ አገልግሎቱን በመጠበቅ ላይ...",
     "creating_secure_payment": "ደህንነቱ የተጠበቀ ክፍያ መፍጠር.",
+    "waiting_for_payment": "እባክዎ ክፍያ ያጠናቅቁ...",
     "officer": "መኮንን",
     "ticket": "ትኬት",
     "ticket_url": "የቲኬት ዩአርኤል",
@@ -361,7 +366,6 @@ export default {
     "rates": "ደረጃ መስጠት",
     "seen_at": "ላይ ታይቷል።",
     "completed": "ተጠናቀቀ",
-    "you": "አንቺ",
     "shop": "ይግዙ",
     "store": "መደብር",
     "granted": "ተሰጥቷል።",
@@ -498,6 +502,7 @@ export default {
     "tablet": "ጡባዊ",
     "pc": "PC",
     "acquisition_channel": "ማግኛ ሰርጥ",
+    "channels_overview": "Channels overview",
     "to": "ለ",
     "info": "መረጃ",
     "general": "አጠቃላይ",
@@ -559,7 +564,6 @@ export default {
     "per_product": "በምርት",
     "journey": "ጉዞ",
     "after": "በኋላ",
-    "waiting_for_payment": "እባክዎ ክፍያ ያጠናቅቁ...",
     "hour": "ሰአት",
     "minute": "ደቂቃ",
     "premium": "ፕሪሚየም",
@@ -569,6 +573,7 @@ export default {
     "shops": "መደብሮች",
     "vendor": "ሻጭ",
     "vendors": "ሻጮች",
+    "no_vendors": "No vendors",
     "marketplace": "የገበያ ቦታ",
     "verify_date": "ቀን አረጋግጥ",
     "note": "ማስታወሻ",
@@ -604,7 +609,6 @@ export default {
     "variant": "ተለዋጭ",
     "secure": "ደህንነቱ የተጠበቀ",
     "admin": "አስተዳዳሪ",
-    "tax_included_abstract": "ጨምሮ።",
     "payment_not_settled": "ክፍያ አልተጠናቀቀም!",
     "orders_list": "የትእዛዝ ዝርዝር",
     "subscription_plan": "የደንበኝነት ምዝገባ እቅድ",
@@ -642,16 +646,170 @@ export default {
     "clusters": "ዘለላዎች",
     "subscriptions": "የደንበኝነት ምዝገባዎች",
     "spam": "አይፈለጌ መልእክት",
-    "video": "ቪዲዮ"
+    "video": "ቪዲዮ",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "አንቺ",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "በጣም የተወሳሰበ",
+    "hard": "ከባድ",
+    "intermediate": "መካከለኛ",
+    "easy": "ቀላል",
   },
   "dialogs": {
     "delete": {
       "title": "ሰርዝ",
       "message": "ይህን ንጥል መሰረዝ እርግጠኛ ነዎት?",
-      "action": "አዎ፣ አሁን ሰርዝ"
-    }
+      "action": "አዎ፣ አሁን ሰርዝ",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "ወደ ግዢው ቅርጫት ጨምር",
     "cancel": "ሰርዝ",
     "update": "አዘምን",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "የስጦታ ካርድ አክል",
     "charge": "ክስ",
     "send_invites": "ግብዣዎችን ላክ",
-    "past": "ያለፈው",
+    "paste": "ለጥፍ",
     "restore": "እነበረበት መልስ",
     "cut": "ቁረጥ",
     "get_sms_code": "የማረጋገጫ ኮድ ያግኙ",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "ቅድመ እይታ አሳይ",
     "hide_preview": "ቅድመ እይታን ደብቅ",
     "download_now": "አሁን ዳውንለውድ ያደርጉ",
+    "watch_now": "አሁን ተመልከት",
     "auto_fill": "ራስ-ሙላ",
     "track": "ተከታተል።",
     "change_state": "ሁኔታን ቀይር",
     "done": "ተከናውኗል",
     "reply": "መልስ",
-    "watch_now": "አሁን ተመልከት",
     "unlock": "ክፈት",
     "lock": "ቆልፍ",
     "create_clone": "ክሎይን ይፍጠሩ",
@@ -773,41 +931,71 @@ export default {
     "buy": "ግዛ",
     "view_all": "ሁሉንም ይመልከቱ",
     "view_now": "አሁን ይመልከቱ",
-    "paste": "ለጥፍ"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "ያለፈው",
+  },
+  "billing_period": {
+    "Daily": "በየቀኑ",
+    "Weekly": "በየሳምንቱ",
+    "Monthly": "ወርሃዊ",
+    "Every3Months": "በየ 3 ወሩ",
+    "Every6Months": "በየ6 ወሩ",
+    "Yearly": "በየአመቱ",
   },
   "instance_message_title": "ፈጣን መልእክት ላክ",
   "instance_message": "ሰላም {name}፣ ስሜ {author} ነው ከ{company}።",
   "errors": {
     "419": "ለረጅም ጊዜ እንቅስቃሴ ኖረዋል፣ እባክዎን ለደህንነት ሲባል <b>ገጹን ያድሱ</b> ።",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "ስርዓቱ ከ blockchain ጋር አይመሳሰልም. የአገልጋዮቻችን ማመሳሰል እስካልተጠናቀቀ ድረስ አዲስ ግብይት መፍጠር አይቻልም። ችግሩን እየፈታን ነው።",
-    "gateway_network_error": "የክፍያ መግቢያ አገልግሎት የግንኙነት ችግር አጋጥሞታል።"
+    "gateway_network_error": "የክፍያ መግቢያ አገልግሎት የግንኙነት ችግር አጋጥሞታል።",
   },
   "receiver_info": {
     "map": {
       "title": "የመላኪያ አድራሻ",
       "confirm": "ቦታን አዘጋጅ",
       "address_type": "መድረሻ",
-      "receptor_type": "ተቀባይ"
+      "receptor_type": "ተቀባይ",
     },
     "receiver_address": "የመላኪያ አድራሻ ይምረጡ",
+    "service_address": "አድራሻዎን ይምረጡ",
+    "select_billing_address": "Select billing address",
     "address": "አድራሻ",
     "postcode": "የፖስታ ኮድ",
     "enter_value": "እዚህ ይሙሉ",
     "address_note": "ማስታወሻ",
     "tel": "የእውቂያ ቁጥር",
-    "service_address": "አድራሻዎን ይምረጡ"
   },
   "weight": {
     "g": "ሰ",
     "oz": "ኦዝ",
     "lb": "ፓውንድ",
-    "kg": "ኪግ"
+    "kg": "ኪግ",
   },
   "mass_unit_name": {
     "g": "ግራም",
     "oz": "አውንስ",
     "lb": "ፓውንድ",
-    "kg": "ኪሎግራም"
+    "kg": "ኪሎግራም",
   },
   "length": {
     "cm": "ሴሜ",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ጫማ",
     "mm": "ሚ.ሜ",
     "m": "ኤም",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "ሴንቲሜትር",
@@ -823,17 +1011,21 @@ export default {
     "ft": "እግር",
     "mm": "ሚሊሜትር",
     "m": "ሜትር",
-    "yd": "ግቢ"
+    "yd": "ግቢ",
   },
   "distance": {
     "m": "ሜትር",
-    "km": "ኪ.ሜ"
+    "km": "ኪ.ሜ",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "ቀናት",
     "hours": "ሰዓታት",
     "minutes": "ደቂቃዎች",
-    "seconds": "ሰከንዶች"
+    "seconds": "ሰከንዶች",
   },
   "units": [
     "ክፍል",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "ግዛት",
     "Territory": "ክልል",
-    "Province": "ክፍለ ሀገር"
+    "Province": "ክፍለ ሀገር",
   },
   "transaction_status": {
     "RequireAction": "እርምጃ ያስፈልጋል",
     "Processing": "በማቀነባበር ላይ",
     "Canceled": "ተሰርዟል።",
-    "Succeeded": "ተሳክቶለታል"
+    "Succeeded": "ተሳክቶለታል",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "ጆን ኮክስ",
@@ -885,7 +1078,17 @@ export default {
     "language": "ቋንቋ ምረጥ",
     "friend_email": "የጓደኛህ ኢሜይል...",
     "friend_name": "መርጠው ይምጡ የጓደኛህ ስም",
-    "select_date": "ቀን ምረጥ..."
+    "select_date": "ቀን ምረጥ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "አረጋግጥ",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "ከፍተኛው {maxCount} ቁምፊዎች",
     "invalid_url": "ልክ ያልሆነ URL",
     "country_invalid": "መድረሻ አገር ይምረጡ!",
-    "postal_code_invalid": "የሚሰራ የፖስታ ኮድ አዘጋጅ!"
+    "postal_code_invalid": "የሚሰራ የፖስታ ኮድ አዘጋጅ!",
   },
   "colors": {
     "#D32F2F": "ቀይ",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "ክፍል",
     "postcode": "የፖስታ ኮድ",
     "note": "ማስታወሻ",
-    "county": "ካውንቲ"
+    "county": "ካውንቲ",
   },
   "product_types": {
     "physical": "አካላዊ",
@@ -1004,13 +1207,13 @@ export default {
     "service": "አገልግሎት",
     "service_description": "አገልግሎቶች እንደ: ጥገና, መጓጓዣ, ማስተማር.",
     "subscription": "የደንበኝነት ምዝገባ",
-    "subscription_description": "ለምርቶች፣ አገልግሎቶች ወይም ይዘቶች የደንበኝነት ምዝገባዎች እና ደረሰኞች።"
+    "subscription_description": "ለምርቶች፣ አገልግሎቶች ወይም ይዘቶች የደንበኝነት ምዝገባዎች እና ደረሰኞች።",
   },
   "license": {
     "free": "ፍርይ",
     "startup": "መነሻ ነገር",
     "company": "ኩባንያ",
-    "enterprise": "ድርጅት"
+    "enterprise": "ድርጅት",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "ቀለም",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "በጥቅል ውስጥ ይቁጠሩ",
     "weight": "ክብደት",
     "type": "ቁሳቁስ",
-    "style": "ቅጥ"
+    "style": "ቅጥ",
   },
   "delivery_state": {
     "check_queue": "ግምገማን በመጠባበቅ ላይ",
     "order_confirm": "የትዕዛዝ ማረጋገጫ",
     "preparing_order": "በማዘጋጀት ላይ",
     "sent_order": "በማስረከብ ላይ",
-    "to_customer": "ደረሰ"
+    "to_customer": "ደረሰ",
   },
   "status": {
     "unpaid": "ያልተከፈለ",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "እምቢ",
     "pending": "በመጠባበቅ ላይ",
     "rejected": "ውድቅ ተደርጓል",
-    "accepted": "ተቀባይነት አግኝቷል"
+    "accepted": "ተቀባይነት አግኝቷል",
   },
   "dimensions": {
     "cm": "ሴሜ",
     "km": "ኪ.ሜ",
-    "kg": "ኪግ"
+    "kg": "ኪግ",
   },
   "transportation_type": {
     "motorbike": "ሞተርሳይክል",
@@ -1224,7 +1429,7 @@ export default {
     "global": "ዓለም አቀፍ መጓጓዣ",
     "global_description": "ወደ ባህር ማዶ በአየር፣ በባህር ወይም በየብስ መላክ።",
     "pickup": "ማንሳት",
-    "pickup_description": "ደንበኞች እቃዎቹን በእርስዎ አካላዊ መደብር ወይም መጋዘን ውስጥ ይመርጣሉ።"
+    "pickup_description": "ደንበኞች እቃዎቹን በእርስዎ አካላዊ መደብር ወይም መጋዘን ውስጥ ይመርጣሉ።",
   },
   "article": {
     "login_to_see_error": "ጽሑፉን ለመድረስ ይግቡ",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "ሁነታን ያርትዑ",
       "view_mode": "የእይታ ሁነታ",
-      "delete": "አንቀጽ ሰርዝ"
+      "delete": "አንቀጽ ሰርዝ",
     },
     "schedule_action": "ለህትመት ቀጠሮ ማስያዝ ይፈልጋሉ?",
     "schedule_title": "ራስ-ማተምን ያቅዱ",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "አላግባብ መጠቀምን ሪፖርት አድርግ እና ይዘትን አስወግድ",
       "report_title": "ይህን ይዘት እንደ አላግባብ ሪፖርት አድርግ",
       "message": "ይህን ይዘት የማስረከብ ምክንያት ምንድን ነው? ከሚከተሉት አማራጮች ውስጥ አንዱን ይምረጡ።",
-      "accept_and_delete_action": "ይዘትን ያረጋግጡ እና ይሰርዙ"
+      "accept_and_delete_action": "ይዘትን ያረጋግጡ እና ይሰርዙ",
     },
     "schedule_dialog": {
       "title": "የይዘት መልቀቂያ መርሃ ግብር",
       "publish_at": "አትም በ",
       "last_edit": "የመጨረሻ አርትዖት",
-      "view_action": "ጽሑፉን ይመልከቱ"
+      "view_action": "ጽሑፉን ይመልከቱ",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "መረጃ አስገባ",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "ሪፖርት ያድርጉ እና ይሰርዙ",
       "report_and_delete_success_message": "ጽሑፉ በተሳካ ሁኔታ ተሰርዟል።",
       "report_success_title": "ጽሑፉን ሪፖርት ያድርጉ",
-      "report_success_message": "በዚህ ጽሑፍ ላይ ያቀረቡት ሪፖርት ተለጠፈ።"
+      "report_success_message": "በዚህ ጽሑፍ ላይ ያቀረቡት ሪፖርት ተለጠፈ።",
     },
     "alert": {
       "delete_article": {
         "title": "አንቀጽ ሰርዝ",
         "message": "እርግጠኛ ነዎት ይህን ጽሑፍ እስከመጨረሻው መሰረዝ ይፈልጋሉ?",
-        "action": "ሰርዝ"
-      }
+        "action": "ሰርዝ",
+      },
     },
     "edit_window": {
       "title": "የምስል ጽሑፍ እና ማጠቃለያ ይምረጡ",
-      "digest": "ማጠቃለያ"
+      "digest": "ማጠቃለያ",
     },
     "editor": {
       "title_placeholder": "ርዕስ..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "ይህ ፋይል በጣም ትልቅ ነው፡-",
       "notifications": {
         "image_uploaded_success": "ምስል በተሳካ ሁኔታ ተቀምጧል",
-        "image_uploaded_failed": "ምስል መጫን ላይ ስህተት።"
+        "image_uploaded_failed": "ምስል መጫን ላይ ስህተት።",
       },
       "embed_placeholder": "የ iframe ኮድ፣ Facebook፣ Youtube ወይም ሌላ ማንኛውንም URL አስገባ እና አስገባን ተጫን።",
       "embed_caption_placeholder": "ርዕስ አስገባ (አማራጭ)",
-      "images_caption_placeholder": "ለዚህ ምስል ርዕስ አስገባ።"
-    }
+      "images_caption_placeholder": "ለዚህ ምስል ርዕስ አስገባ።",
+    },
   },
   "article_report": {
     "inappropriate": "የዚህ ጽሑፍ ይዘት አግባብ አይደለም.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "ይህ ይዘት የብልግና ምስሎችን የያዘ እና ህጎቹን የሚጥስ ይመስለኛል።",
     "harassment": "ይህ ዘረኛ ይመስለኛል።",
     "hate": "ይህ ሁከትን ስለማስፋፋት ይመስለኛል።",
-    "infringe": "ይህ መብቴን ይጥሳል።"
+    "infringe": "ይህ መብቴን ይጥሳል።",
   },
   "comments": {
     "new_action": "አስተያየት ለመስጠት ጠቅ ያድርጉ።",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "ተጨማሪ አስተያየቶችን ያግኙ..",
     "cant_send_comment": "አዲስ ልጥፍ ማከል አይችሉም።",
     "cant_remove_this_comment": "ይህን አስተያየት መሰረዝ አይችሉም!",
-    "product_buyer": "ገዢ",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "የእኔ አስተያየቶች",
     "delete_alert": {
       "title": "አስተያየት ሰርዝ",
       "message": "ይህን አስተያየት መሰረዝ ይፈልጋሉ?",
-      "action": "ሰርዝ"
+      "action": "ሰርዝ",
     },
     "notifications": {
-      "delete_success": "አስተያየትህ በተሳካ ሁኔታ ተሰርዟል።"
+      "delete_success": "አስተያየትህ በተሳካ ሁኔታ ተሰርዟል።",
     },
     "first_send": "የመጀመሪያ ልጥፍ",
     "comment_at": "በርቷል",
     "edit_comment": "አስተያየት አርትዕ",
-    "my_comments": "የእኔ አስተያየቶች"
+    "product_buyer": "ገዢ",
   },
   "customer_club": {
     "bronze": "ነሐስ",
     "silver": "ብር",
     "gold": "ወርቃማ",
     "platinum": "ፕላቲኒየም",
-    "diamond": "አልማዝ"
+    "diamond": "አልማዝ",
   },
   "application_categories": {
     "tracking": "የተጠቃሚ ባህሪን መፈተሽ",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "ማስታወቂያ",
     "staff": "ሰራተኞች",
     "incentive": "ማበረታቻዎች",
-    "shop": "ይግዙ"
+    "shop": "ይግዙ",
   },
   "social_network": {
     "instagram": "ኢንስታግራም",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "ስካይፕ",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "አዲስ ንጥል ያክሉ",
     "title_input": "ርዕስ",
+    "placeholder_input": "ቦታ ያዥ",
     "name_input": "ተለዋዋጭ ስም",
     "value_input": "እሴቶች",
     "value_input_message": "የተጠቃሚ አማራጮች ዝርዝር",
     "default": "ነባሪ እሴት",
+    "file_type_input": "ተቀባይነት ያላቸው የፋይል ዓይነቶች",
+    "file_type_message": "jpeg , png , ዚፕ , ...",
     "types": {
       "simple": "ቀላል",
       "selective": "መራጭ",
       "switch": "ቀይር",
       "file": "ፋይል",
-      "number": "ቁጥር"
+      "number": "ቁጥር",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "ቦታ ያዥ",
-    "file_type_input": "ተቀባይነት ያላቸው የፋይል ዓይነቶች",
-    "file_type_message": "jpeg , png , ዚፕ , ..."
   },
   "virtual_order_info_summery": {
     "title": "የምርት ስም",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "የክፍያ ሁኔታ",
     "payment_status_waiting": "ክፍያ በመጠባበቅ ላይ",
     "payment_status_paid": "የተከፈለ",
-    "buyer": "ገዢ"
+    "buyer": "ገዢ",
   },
   "virtual_item_info": {
     "title": "ምናባዊ ንጥል",
     "outputs": {
       "title": "የውጤት መረጃ",
       "sub_title": "የዚህ ንጥል ነገር ሚስጥራዊ መረጃ",
-      "message": "ይህ መረጃ ምርቱን ከገዛ በኋላ ለተጠቃሚው ይታያል።"
+      "message": "ይህ መረጃ ምርቱን ከገዛ በኋላ ለተጠቃሚው ይታያል።",
     },
     "inputs": {
       "title": "አስፈላጊ መረጃ",
       "sub_title": "የገዢ መረጃ ያስፈልጋል",
-      "message": "ገዢው የተጠየቀውን መረጃ በቅጹ ውስጥ ማስገባት አለበት"
+      "message": "ገዢው የተጠየቀውን መረጃ በቅጹ ውስጥ ማስገባት አለበት",
     },
     "notifications": {
       "inputs_set_success": "የመረጃ ቅጽ በተሳካ ሁኔታ ተመዝግቧል።",
       "confirm_by_admin_success": "የትዕዛዝ ማጠናቀቅ ተረጋግጧል።",
-      "confirm_by_buyer_success": "የትዕዛዝ ማጠናቀቅ ተረጋግጧል።"
-    }
+      "confirm_by_buyer_success": "የትዕዛዝ ማጠናቀቅ ተረጋግጧል።",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "ይህ ትዕዛዝ በCOD ክፍያ መቀበል አይቻልም።",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "ከመጋዘን ተጠናቀቀ.",
     "legal_restriction": "በህጋዊ ገደቦች ምክንያት ማዘዝ አልተቻለም።",
     "pricing_fault": "የዋጋ አሰጣጥ ስህተት በሻጭ።",
-    "system_fault": "የስርዓት ስህተት"
+    "system_fault": "የስርዓት ስህተት",
   },
   "basket_order_info_summery": {
     "receiver": "ተቀባይ",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "ቅናሽ",
     "final_price": "የመጨረሻ መጠን",
     "address": "የተቀባይ አድራሻ",
-    "payment_status": "የክፍያ ሁኔታ"
+    "payment_status": "የክፍያ ሁኔታ",
   },
   "basket_status": {
     "open": "ክፈት",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "ተሰርዟል።",
     "cod": "በማስረከብ ላይ ይክፈሉ።",
     "receipt_added": "ደረሰኝ ታክሏል።",
-    "payment_processing": "የክፍያ ሂደት"
+    "payment_processing": "የክፍያ ሂደት",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "ውድቅ ተደርጓል",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "ማረጋገጫ",
     "step_3": "አዘገጃጀት",
     "step_4": "በማስረከብ ላይ",
-    "step_5": "ደረሰ"
+    "step_5": "ደረሰ",
   },
   "basket_return_request_view": {
     "title": "የመመለሻ ጥያቄ",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "ጥያቄን ውድቅ አድርግ",
     "message_for_admin": "Selldone ን በመጠቀም በተቀበሉት ስምምነት መሰረት ገዢውን ማነጋገር እና ትዕዛዙን ስለመመለስ ሂደት ማሳወቅ አለብዎት። ጥያቄው ተቀባይነት ካገኘ ወይም ውድቅ ከተደረገ እና የገዢው ሙሉ ፍቃድ ከተገኘ ይህ መደረግ አለበት.",
     "notifications": {
-      "update_status_success": "የጥያቄ ሁኔታ ተዘምኗል።"
-    }
+      "update_status_success": "የጥያቄ ሁኔታ ተዘምኗል።",
+    },
   },
   "basket_list": {
     "return_count": "ተመለስ፡ {count} ቁጥር",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "ተለዋጭ",
       "warranty": "ዋስትናዎች",
       "count": "መቁጠር",
-      "price": "ዋጋ"
-    }
+      "price": "ዋጋ",
+    },
   },
   "return_request_list": {
     "count": "የማጣቀሻ ቁጥር",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "የተቀበለው ቀን",
       "state": "ሁኔታ",
       "reason": "ምክንያት",
-      "return_warranty_period": "የዋስትና ጊዜ"
-    }
+      "return_warranty_period": "የዋስትና ጊዜ",
+    },
   },
   "data_toolbar": {
     "search": "ፈልግ",
     "sort_by": "ቅደምተከተሉ የተስተካከለው",
-    "count_item": "ንጥሎችን አሳይ"
+    "count_item": "Show {item} items",
   },
   "sort": {
     "created_at": "ቀን ፍጠር",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "መኮንን",
     "registered": "ተመዝግቧል",
     "purchased": "የተገዛ",
-    "sex": "ጾታ"
+    "sex": "ጾታ",
   },
   "search_box": {
     "result": "የፍለጋ ውጤቶች",
     "tips": "ምርቶችን እና ምድቦችን ይፈልጉ",
     "label": "ፈልግ...",
-    "category": "ምድብ"
+    "category": "ምድብ",
   },
   "lead_status": {
     "physical_fast_delivery": "ፈጣን ማድረስ",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "ከቀጣዮቹ {days} ቀናት ጀምሮ በማዘጋጀት እና በማስረከብ ላይ",
     "virtual_fast_prepare": "ፈጣን ማድረስ",
     "virtual_under_24h": "በሚቀጥሉት {lead} ሰዓቶች ውስጥ ይከናወናል",
-    "virtual_over_24h": "ከቀጣዮቹ {days} ቀናት ጀምሮ ይከናወናል"
+    "virtual_over_24h": "ከቀጣዮቹ {days} ቀናት ጀምሮ ይከናወናል",
   },
   "return_request_state": {
     "pending": "በመጠባበቅ ላይ",
     "accepted": "ተረጋግጧል",
-    "rejected": "ውድቅ ተደርጓል"
+    "rejected": "ውድቅ ተደርጓል",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "ጥቅል ወይም ተከታታይ ቁጥር ማበላሸት።",
       "U5": "ከጥቅሉ ውስጥ አንዳንድ እቃዎች ጠፍተዋል።",
       "U6": "ምርቱ ኦሪጅናል አይደለም።",
-      "U7": "ምርቱ ዝርዝር መግለጫዎችን አያሟላም።"
-    }
+      "U7": "ምርቱ ዝርዝር መግለጫዎችን አያሟላም።",
+    },
   },
   "image_uploader": {
     "label": "ጎትት እና ጣል ወይም <u>ፋይል ምረጥ</u>",
-    "max_size": "የሚፈቀደው ከፍተኛ መጠን፡ {size}"
+    "max_size": "የሚፈቀደው ከፍተኛ መጠን፡ {size}",
   },
   "timespan": {
     "Morning": "8 ጥዋት - 12 ፒ.ኤም",
     "Evening": "12፡00 እስከ ምሽቱ 6፡00",
     "Night": "6 pm - 12 ፒ.ኤም",
-    "Instant": "ፈጣን ፖስት"
+    "Instant": "ፈጣን ፖስት",
   },
   "week_day": {
     "Saturday": "ቅዳሜ",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "ማክሰኞ",
     "Wednesday": "እሮብ",
     "Thursday": "ሐሙስ",
-    "Friday": "አርብ"
+    "Friday": "አርብ",
   },
   "payment_form": {
     "title": "የመክፈያ ዘዴን ይምረጡ",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "እንኳን ደስ አለዎት ፣ ትዕዛዝዎ ነፃ ነው!",
     "order_free_payment_action": "አሁን በነጻ ይዘዙ",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "የክፍያ አድራሻ",
-      "amount": "መጠን"
-    }
+      "amount": "መጠን",
+    },
   },
   "discount_input": {
     "limit": "{percent}% ቅናሽ እስከ {limit} {currency}",
     "action": "የቅናሽ ኮድ ያክሉ",
     "code_input": "የቅናሽ ኮድ",
     "notifications": {
-      "add_success": "እንኳን ደስ ያለህ፣ የሚሰራ የቅናሽ ኮድ።"
-    }
+      "add_success": "እንኳን ደስ ያለህ፣ የሚሰራ የቅናሽ ኮድ።",
+    },
   },
   "gift_card": {
     "inactive": "ካርዱ ተሰናክሏል።",
     "expire": "ጊዜው ያለፈበት",
     "transfer": "ማስተላለፍ",
-    "send_to_friend": "ለጓደኛ ላክ"
+    "send_to_friend": "ለጓደኛ ላክ",
   },
   "count_down": {
     "days": "ቀን",
     "hours": "ሰአት",
     "minutes": "ደቂቃዎች",
-    "seconds": "ሰከንዶች"
+    "seconds": "ሰከንዶች",
   },
   "gift_status": {
     "Unpaid": "ደረሰኝ እየጠበቀ",
     "Paid": "የተከፈለ",
     "Rejected": "ውድቅ ተደርጓል",
-    "Canceled": "ተሰርዟል።"
+    "Canceled": "ተሰርዟል።",
   },
   "gift_program_status": {
     "Airdrop": "የክፍያ ስርዓት",
     "Advertising": "ማስታወቂያ",
     "PersonalGift": "የግል ስጦታ",
-    "ShopGift": "የስጦታ ዕቃዎች መሸጫ ሱቅ"
+    "ShopGift": "የስጦታ ዕቃዎች መሸጫ ሱቅ",
   },
   "currency_selector": {
-    "label": "ምንዛሪ"
+    "label": "ምንዛሪ",
   },
   "need_login": {
     "title": "ግባ",
     "login_sms": "የኤስኤምኤስ መግቢያ",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "በGoogle ግባ",
     "login_facebook": "በፌስቡክ ይግቡ",
+    "login_apple": "በአፕል ይግቡ",
     "login_account": "በ Selldone ይግቡ",
     "register": "አዲስ ተጠቃሚ? አሁን መመዝገብ.",
     "mobile_input": "ሞባይልዎን ያስገቡ",
     "verification_code": "የማረጋገጫ የሚስጥር ቁጥር",
     "msg_title": "ታዲያስ,",
     "msg_body": "እባክዎ ይግቡ። ጥቂት ሰከንዶች ብቻ ይወስዳል።",
-    "login_apple": "በአፕል ይግቡ",
     "login_email": "በኢሜል ይግቡ",
     "email_login_step_1": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያቅርቡ፣ እና የመግቢያ ኮዱን ወደ እሱ እንልካለን። ምንም ምዝገባ አያስፈልግም.",
     "email_login_step_2": "የኢሜል አድራሻህን በትክክል እንዳስገባህ እርግጠኛ ነህ? የመግቢያ ኮዱን ወደ ተጠቀሰው ኢሜል እንልካለን፣ ስለዚህ እባክዎን ትክክለኛነት ያረጋግጡ።",
-    "email_login_step_3": "ወደ ኢሜልዎ ኮድ ልከናል። እባክዎን ኮዱ በ10 ደቂቃ ውስጥ ጊዜው ያበቃል።"
+    "email_login_step_3": "ወደ ኢሜልዎ ኮድ ልከናል። እባክዎን ኮዱ በ10 ደቂቃ ውስጥ ጊዜው ያበቃል።",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "የ 5 ዓመት የወርቅ መደብር"
+      "name": "የ 5 ዓመት የወርቅ መደብር",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 ዓመት ወርቅ መደብር"
+      "name": "4 ዓመት ወርቅ መደብር",
     },
     "GOLDEN_3YEAR": {
-      "name": "የ 3 ዓመት የወርቅ መደብር"
+      "name": "የ 3 ዓመት የወርቅ መደብር",
     },
     "GOLDEN_4YEAR": {
-      "name": "የ 2 ዓመት የወርቅ መደብር"
+      "name": "የ 2 ዓመት የወርቅ መደብር",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 ዓመት የወርቅ መደብር"
+      "name": "1 ዓመት የወርቅ መደብር",
     },
     "TOKEN_OWNER_1M": {
-      "name": "ወርቃማ ባለሀብት።"
+      "name": "ወርቃማ ባለሀብት።",
     },
     "TOKEN_OWNER_10M": {
-      "name": "አልማዝ ባለሀብት።"
+      "name": "አልማዝ ባለሀብት።",
     },
     "TOKEN_OWNER_100M": {
-      "name": "ሩቢ ባለሀብት።"
+      "name": "ሩቢ ባለሀብት።",
     },
     "COMMUNITY_LOYAL": {
-      "name": "የላቁ የኮሙኒኬሽን አውታረ መረቦች አባል"
+      "name": "የላቁ የኮሙኒኬሽን አውታረ መረቦች አባል",
     },
     "GOLD_SUPPLIER": {
-      "name": "ወርቅ አቅራቢ"
+      "name": "ወርቅ አቅራቢ",
     },
     "GOLD_SELLER": {
-      "name": "ወርቅ ሻጭ"
+      "name": "ወርቅ ሻጭ",
     },
     "CONTENT_SUPERMAN": {
-      "name": "ከፍተኛ ይዘት አዘጋጅ"
+      "name": "ከፍተኛ ይዘት አዘጋጅ",
     },
     "NINJA": {
-      "name": "ኒንጃ"
+      "name": "ኒንጃ",
     },
     "STAR": {
-      "name": "ኮከብ"
+      "name": "ኮከብ",
     },
     "GUARDIAN": {
-      "name": "ታላቅ የደንበኛ አገልግሎት"
+      "name": "ታላቅ የደንበኛ አገልግሎት",
     },
     "KING": {
-      "name": "የገበያው ንጉስ"
-    }
+      "name": "የገበያው ንጉስ",
+    },
   },
   "cookie": {
     "title": "ይህ ድር ጣቢያ ኩኪዎችን ይጠቀማል",
     "message": "ይህ ድር ጣቢያ የተጠቃሚን ተሞክሮ ለማሻሻል ኩኪዎችን ይጠቀማል። የእኛን ድረ-ገጽ በመጠቀም በኩኪ መመሪያችን መሰረት ለሁሉም ኩኪዎች ተስማምተሃል።",
     "preferences_action": "ምርጫዎችን ያቀናብሩ",
-    "agree_action": "እስማማለሁ"
+    "agree_action": "እስማማለሁ",
   },
   "basket_item_message": {
     "title": "ለዚህ ንጥል አስፈላጊ መረጃ",
     "save_actions": "መልእክት አስቀምጥ",
+    "product_inputs_preview_message": "እነዚህ የማበጀት አማራጮች ለታዘዙት ምርትዎ ይገኛሉ። አንዴ እቃው ወደ ጋሪዎ ከተጨመረ፣ እዚህ ማስተካከያዎችን ማድረግ ይችላሉ።",
     "notifications": {
-      "success": "የግቤትዎ ውሂብ ተቀምጧል።"
+      "success": "የግቤትዎ ውሂብ ተቀምጧል።",
     },
-    "product_inputs_preview_message": "እነዚህ የማበጀት አማራጮች ለታዘዙት ምርትዎ ይገኛሉ። አንዴ እቃው ወደ ጋሪዎ ከተጨመረ፣ እዚህ ማስተካከያዎችን ማድረግ ይችላሉ።"
   },
   "faq": {
     "faq": "ተደጋግሞ የሚነሱ ጥያቄዎች",
     "title": "ጥያቄዎች እና መልሶች",
-    "sub_title": "እንድንሰራ የጠየቅከን።",
     "message": "ከዚህ በታች ካሉት መልሶች መካከል ለጥያቄዎ መልስ ይፈልጉ። ጥያቄዎች ካልተመለሱ ጠይቁን።",
     "add_question_action": "አዲስ ጥያቄ ጠይቅ",
     "read_more": "ተጨማሪ ያንብቡ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "ጥያቄ",
     "question_input_placeholder": "ጥያቄህን ጠይቅ።",
     "notifications": {
-      "success_add": "ጥያቄዎ በተሳካ ሁኔታ ገብቷል።"
-    }
+      "success_add": "ጥያቄዎ በተሳካ ሁኔታ ገብቷል።",
+    },
+    "sub_title": "እንድንሰራ የጠየቅከን።",
   },
   "rating_labels": [
     "በጣም መጥፎ",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "የመድረሻ አድራሻ ያስገቡ",
     "enter_your_address": "አድራሻህን አስገባ።",
     "postal_code": "የፖስታ ኮድ",
-    "phone_input": "ስልክ {type}",
+    "phone_input": "ስልክ",
     "building_number": "የግንባታ ቁጥር",
     "building_unit": "ክፍል",
     "full_name_input": "ሙሉ ስም {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "የአድራሻ መለያ (ይፈለጋል)",
     "notifications": {
       "save_in_list": "ይህ አድራሻ ከሁሉም ዝርዝሮቹ ጋር ወደ ዝርዝርዎ ተቀምጧል።",
-      "edit_success": "አዲስ የአድራሻ ዋጋዎች በ{title} ተቀምጠዋል።"
+      "edit_success": "አዲስ የአድራሻ ዋጋዎች በ{title} ተቀምጠዋል።",
     },
     "delete_address_dialog": {
       "title": "አድራሻ ሰርዝ",
       "message": "እርግጠኛ ነዎት ይህን አድራሻ መሰረዝ ይፈልጋሉ?",
-      "action": "አድራሻ አስወግድ"
-    }
+      "action": "አድራሻ አስወግድ",
+    },
   },
   "comment_manager": {
     "can_not_edit": "ይህን አስተያየት ማርትዕ አይቻልም!",
     "comment_input_empty": "የመልእክት ጽሁፍ ባዶ ነው!",
-    "article_not_saved": "ጽሑፉን ያስቀምጡ!"
+    "article_not_saved": "ጽሑፉን ያስቀምጡ!",
   },
   "wheel_fortune": {
     "title": "ይጫወቱ እና ያሸንፉ",
     "message": "የእያንዳንዱ ጨዋታ ዋጋ 10 ቺፕስ ነው። በአሁኑ ጊዜ {chips} ቺፕ አለህ። ከመደብር በመግዛት ተጨማሪ ቺፕ ያግኙ።",
     "win_message": "እንኳን ደስ ያለዎት, ያሸንፋሉ!",
     "lost_message": "ይቅርታ በጨዋታው ተሸንፈሃል።",
-    "try_again": "እንደገና መሞከር ይችላሉ።"
+    "try_again": "እንደገና መሞከር ይችላሉ።",
   },
   "json": {
     "add": "የመዋቅር ውሂብ ያክሉ",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "አወቃቀሮች",
     "book": {
       "title": "መጽሐፍ",
-      "desc": "ተጠቃሚዎች በቀጥታ ከፍለጋ ውጤቶች ያገኙትን መጽሐፍ እንዲገዙ የሚያስችሏቸውን የመመዝገብ ድርጊቶች።"
+      "desc": "ተጠቃሚዎች በቀጥታ ከፍለጋ ውጤቶች ያገኙትን መጽሐፍ እንዲገዙ የሚያስችሏቸውን የመመዝገብ ድርጊቶች።",
     },
     "occupation": {
       "title": "የሚገመተው ደመወዝ",
-      "desc": "ስለ ደሞዝ ግምት መረጃ፣ እንደ የደመወዝ ክልሎች እና በክልል ላይ የተመሰረተ የደመወዝ አማካኝ ለስራ አይነቶች፣ በGoogle ላይ ባለው የስራ ፍለጋ ልምድ ላይ ይታያል።"
+      "desc": "ስለ ደሞዝ ግምት መረጃ፣ እንደ የደመወዝ ክልሎች እና በክልል ላይ የተመሰረተ የደመወዝ አማካኝ ለስራ አይነቶች፣ በGoogle ላይ ባለው የስራ ፍለጋ ልምድ ላይ ይታያል።",
     },
     "course": {
       "title": "ኮርስ",
-      "desc": "በአቅራቢ-ተኮር ዝርዝር ውስጥ የሚታዩ ትምህርታዊ ኮርሶች። ኮርሶች የኮርሱ ርዕስ፣ አቅራቢ እና አጭር መግለጫ ሊያካትቱ ይችላሉ።"
+      "desc": "በአቅራቢ-ተኮር ዝርዝር ውስጥ የሚታዩ ትምህርታዊ ኮርሶች። ኮርሶች የኮርሱ ርዕስ፣ አቅራቢ እና አጭር መግለጫ ሊያካትቱ ይችላሉ።",
     },
     "howto": {
       "title": "እንዴት ነው",
-      "desc": "ቪዲዮን፣ ምስሎችን እና ጽሑፎችን በማሳየት አንድን ተግባር በተሳካ ሁኔታ ለማጠናቀቅ ተጠቃሚዎችን እንዴት ማድረግ እንደሚቻል።"
+      "desc": "ቪዲዮን፣ ምስሎችን እና ጽሑፎችን በማሳየት አንድን ተግባር በተሳካ ሁኔታ ለማጠናቀቅ ተጠቃሚዎችን እንዴት ማድረግ እንደሚቻል።",
     },
     "recipe": {
       "title": "የምግብ አሰራር",
-      "desc": "እንደ ግለሰብ የበለጸገ ውጤት ወይም የአስተናጋጅ ካሮሴል አካል ሆነው የሚያሳዩ የምግብ አዘገጃጀቶች።"
-    }
+      "desc": "እንደ ግለሰብ የበለጸገ ውጤት ወይም የአስተናጋጅ ካሮሴል አካል ሆነው የሚያሳዩ የምግብ አዘገጃጀቶች።",
+    },
   },
   "support": {
     "Financial": "የገንዘብ",
     "Technical": "ቴክኒካል",
-    "Advisor": "አማካሪ"
+    "Advisor": "አማካሪ",
   },
   "condition": {
     "new": "አዲስ",
@@ -1885,91 +2098,152 @@ export default {
     "used": "ጥቅም ላይ የዋለ",
     "used_fair": "ጥቅም ላይ የዋለው ፍትሃዊ",
     "used_good": "በጥሩ ሁኔታ ተጠቅሟል",
-    "used_like_new": "እንደ አዲስ ጥቅም ላይ ይውላል"
+    "used_like_new": "እንደ አዲስ ጥቅም ላይ ይውላል",
   },
   "variant_filter": {
     "title": "የምርት ተለዋጭ ማጣሪያ",
-    "only_available": "ለሽያጭ የቀረበ እቃ"
+    "only_available": "ለሽያጭ የቀረበ እቃ",
   },
   "service": {
     "task": {
       "title": "ተግባራት",
-      "message": "በዚህ አገልግሎት ውስጥ የተከናወኑ ተግባራት ዝርዝር."
+      "message": "በዚህ አገልግሎት ውስጥ የተከናወኑ ተግባራት ዝርዝር.",
     },
     "appointment": {
       "title": "ቀጠሮ",
-      "message": "ለእርስዎ ትክክል በሆነው ቀን እና ሰዓት ላይ በመመስረት የሳምንቱን ጊዜ ከሚከተሉት ጊዜያት ይምረጡ።"
+      "message": "ለእርስዎ ትክክል በሆነው ቀን እና ሰዓት ላይ በመመስረት የሳምንቱን ጊዜ ከሚከተሉት ጊዜያት ይምረጡ።",
     },
     "booking": {
       "title": "ቦታ ማስያዝ",
-      "message": "ከዚህ በታች ባለው የቀን መቁጠሪያ ውስጥ ቦታ ማስያዝ የሚፈልጓቸውን የቀኖች ጊዜ ይግለጹ።"
+      "message": "ከዚህ በታች ባለው የቀን መቁጠሪያ ውስጥ ቦታ ማስያዝ የሚፈልጓቸውን የቀኖች ጊዜ ይግለጹ።",
     },
     "subscription": {
-      "title": "የደንበኝነት ምዝገባ"
+      "title": "የደንበኝነት ምዝገባ",
     },
     "charge": {
-      "title": "ክስ"
-    }
+      "title": "ክስ",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "ቋሚ ዋጋ",
-      "message": "በዚህ አይነት የዋጋ አወጣጥ ውስጥ የምርቱ ዋጋ ቋሚ መጠን ነው እና ገዢው የዋጋ ስሌት ለመጠየቅ አያስፈልግም."
+      "message": "በዚህ አይነት የዋጋ አወጣጥ ውስጥ የምርቱ ዋጋ ቋሚ መጠን ነው እና ገዢው የዋጋ ስሌት ለመጠየቅ አያስፈልግም.",
     },
     "ESTIMATION": {
       "title": "የግምት ዋጋ",
-      "message": "የምርቶች እና የአገልግሎቶች ዋጋ በሻጩ ትእዛዝ በሚሰጥበት ጊዜ በተወሰነ ደረጃ ይሰላል ፣ የክፍያ መጠየቂያ ደረሰኞች በአገልግሎት ጊዜ ሊለወጡ ወይም ሊጨመሩ ይችላሉ።"
+      "message": "የምርቶች እና የአገልግሎቶች ዋጋ በሻጩ ትእዛዝ በሚሰጥበት ጊዜ በተወሰነ ደረጃ ይሰላል ፣ የክፍያ መጠየቂያ ደረሰኞች በአገልግሎት ጊዜ ሊለወጡ ወይም ሊጨመሩ ይችላሉ።",
     },
     "AGREEMENT": {
       "title": "የስምምነት ዋጋ",
-      "message": "ትዕዛዙ ከተሰጠ በኋላ የምርቶቹ ወይም የአገልግሎቶቹ የመጨረሻ ዋጋ በሻጩ አይቀየርም።"
+      "message": "ትዕዛዙ ከተሰጠ በኋላ የምርቶቹ ወይም የአገልግሎቶቹ የመጨረሻ ዋጋ በሻጩ አይቀየርም።",
     },
     "BID": {
       "title": "ጨረታ/ጨረታ",
-      "message": "ምርቱ በከፍተኛ የጨረታ ዋጋ ሊገዙ በሚችሉ ገዢዎች ይሸጣል።"
-    }
+      "message": "ምርቱ በከፍተኛ የጨረታ ዋጋ ሊገዙ በሚችሉ ገዢዎች ይሸጣል።",
+    },
   },
   "map": {
     "title": "ምርቶችን ለመቀበል መድረሻ",
     "confirm": "ቦታን አዘጋጅ",
     "address": "መድረሻ",
-    "receptor": "ተቀባይ"
+    "receptor": "ተቀባይ",
   },
   "ShopBots": {
-    "telegram": "ቴሌግራም"
+    "telegram": "ቴሌግራም",
   },
   "article_tags": {
     "title": "የይዘት መለያዎች",
     "tags_input": "መለያዎች",
     "tags_input_message": "መለያዎች የዚህ ጽሑፍ ዝርዝር",
     "notification": {
-      "add_success": "መለያዎች ታክለዋል።"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "በጣም የተወሳሰበ",
-    "hard": "ከባድ",
-    "intermediate": "መካከለኛ",
-    "easy": "ቀላል"
-  },
-  "billing_period": {
-    "Daily": "በየቀኑ",
-    "Weekly": "በየሳምንቱ",
-    "Monthly": "ወርሃዊ",
-    "Every3Months": "በየ 3 ወሩ",
-    "Every6Months": "በየ6 ወሩ",
-    "Yearly": "በየአመቱ"
+      "add_success": "መለያዎች ታክለዋል።",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "ኦህ ጥሩ አይደለም!",
     "between2_3": "እሺ ይሁን!",
     "between3_4": "ሰዎች ይወዳሉ!",
-    "between4_5": "ሰዎች ይወዳሉ!"
+    "between4_5": "ሰዎች ይወዳሉ!",
   },
   "seasons": {
     "spring": "ጸደይ",
     "summer": "በጋ",
     "autumn": "መኸር",
-    "winter": "ክረምት"
-  }
+    "winter": "ክረምት",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

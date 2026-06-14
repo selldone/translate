@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Tá na téarmaí úsáide agus an polasaí príobháideachta léite agam agus aontaím leo.",
   "commons": {
     "Currency": "Airgeadra",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Stáit",
     "Price": "praghas",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Praghas glan",
     "tax": "Cáin",
     "tax_included": "San áireamh sa phraghas",
+    "tax_included_abstract": "san áireamh.",
     "limit": "Teorainn",
     "min_purchase": "Ceannach íosta",
     "eligible_for": "Incháilithe le haghaidh",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Dáta cruthaithe",
     "updated_at": "Nuashonrú is déanaí",
     "register_at": "Dáta clárúcháin",
+    "last_modified": "Last modified",
     "old": "Sean",
     "new": "Nua",
     "start": "Tosaigh",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Athdhíoltóir",
     "tracking_code": "Cóid rianaithe",
     "tracking_url": "URL Rianaithe",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Comhlíonta",
     "reject": "Diúltaigh",
     "reserved": "Curtha in áirithe",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Ag fanacht...",
     "waiting_connecting_payment": "Ag fanacht leis an tseirbhís íocaíochta...",
     "creating_secure_payment": "Íocaíocht shlán a chruthú.",
+    "waiting_for_payment": "Críochnaigh an íocaíocht le do thoil...",
     "officer": "Oifigeach",
     "ticket": "Ticéad",
     "ticket_url": "url ticéad",
@@ -361,7 +366,6 @@ export default {
     "rates": "Rátáil",
     "seen_at": "Le feiceáil ag",
     "completed": "Críochnaithe",
-    "you": "tu",
     "shop": "Siopa",
     "store": "stór",
     "granted": "Deonaithe",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Táibléad",
     "pc": "PC",
     "acquisition_channel": "Cainéal fála",
+    "channels_overview": "Channels overview",
     "to": "Chun",
     "info": "Eolas",
     "general": "Ginearálta",
@@ -559,7 +564,6 @@ export default {
     "per_product": "In aghaidh an táirge",
     "journey": "Turas",
     "after": "Tar éis",
-    "waiting_for_payment": "Críochnaigh an íocaíocht le do thoil...",
     "hour": "Uair",
     "minute": "Nóiméad",
     "premium": "Préimh",
@@ -569,6 +573,7 @@ export default {
     "shops": "Stórais",
     "vendor": "Díoltóir",
     "vendors": "Díoltóirí",
+    "no_vendors": "No vendors",
     "marketplace": "Margadh",
     "verify_date": "Fíoraigh an dáta",
     "note": "Nóta",
@@ -604,7 +609,6 @@ export default {
     "variant": "Athrú",
     "secure": "Slán",
     "admin": "Riarachán",
-    "tax_included_abstract": "san áireamh.",
     "payment_not_settled": "Níl an íocaíocht socraithe!",
     "orders_list": "Liosta orduithe",
     "subscription_plan": "Plean síntiús",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Cnuasaigh",
     "subscriptions": "Síntiúis",
     "spam": "Spam",
-    "video": "Físeán"
+    "video": "Físeán",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "tu",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "An-chasta",
+    "hard": "Deacair",
+    "intermediate": "Meánrang",
+    "easy": "Éasca",
   },
   "dialogs": {
     "delete": {
       "title": "Scrios",
       "message": "An bhfuil tú cinnte an mhír seo a scriosadh?",
-      "action": "Sea, Scrios anois"
-    }
+      "action": "Sea, Scrios anois",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Cuir leis an gCairt",
     "cancel": "Cealaigh",
     "update": "Nuashonrú",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Cuir cárta bronntanais leis",
     "charge": "Muirear",
     "send_invites": "Seol cuirí",
-    "past": "Caite",
+    "paste": "Greamaigh",
     "restore": "Athchóirigh",
     "cut": "Gearr",
     "get_sms_code": "Faigh cód fíordheimhnithe",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Taispeáin réamhamharc",
     "hide_preview": "Folaigh réamhamharc",
     "download_now": "Íoslódáil anois",
+    "watch_now": "Féach anois",
     "auto_fill": "Autofill",
     "track": "Rian",
     "change_state": "Athrú Stádas",
     "done": "Déanta",
     "reply": "Freagra",
-    "watch_now": "Féach anois",
     "unlock": "Díghlasáil",
     "lock": "Glasáil",
     "create_clone": "Cruthaigh clón",
@@ -773,41 +931,71 @@ export default {
     "buy": "Ceannaigh",
     "view_all": "Féach ar Uile",
     "view_now": "Féach anois",
-    "paste": "Greamaigh"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Caite",
+  },
+  "billing_period": {
+    "Daily": "laethúil",
+    "Weekly": "Seachtainiúil",
+    "Monthly": "go míosúil",
+    "Every3Months": "Gach 3 mhí",
+    "Every6Months": "Gach 6 mhí",
+    "Yearly": "Bliantúil",
   },
   "instance_message_title": "Seol teachtaireacht mheandarach",
   "instance_message": "Dia duit {name}, {author} ó {company} is ainm dom.",
   "errors": {
     "419": "Tá tú díomhaoin le fada an lá, le do thoil <b>⟳ NUACHT AN LEATHANACH</b> ar chúiseanna slándála.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Ní sioncronaíonn an córas leis an blockchain. Ní bheidh sé indéanta idirbheart nua a chruthú go dtí go mbeidh sioncrónaithe ár bhfreastalaithe críochnaithe. Táimid ag réiteach na faidhbe.",
-    "gateway_network_error": "Tháinig fadhb chumarsáide ar sheirbhís geata íocaíochta."
+    "gateway_network_error": "Tháinig fadhb chumarsáide ar sheirbhís geata íocaíochta.",
   },
   "receiver_info": {
     "map": {
       "title": "Seoladh Loingseoireacht",
       "confirm": "Socraigh suíomh",
       "address_type": "Ceann Scríbe",
-      "receptor_type": "Glacadóir"
+      "receptor_type": "Glacadóir",
     },
     "receiver_address": "Roghnaigh seoladh loingseoireachta",
+    "service_address": "Roghnaigh do sheoladh",
+    "select_billing_address": "Select billing address",
     "address": "seoladh",
     "postcode": "Cód Poist",
     "enter_value": "Fill anseo",
     "address_note": "Nóta",
     "tel": "Uimhir theagmhála",
-    "service_address": "Roghnaigh do sheoladh"
   },
   "weight": {
     "g": "g",
     "oz": "unsa",
     "lb": "Punt",
-    "kg": "KG"
+    "kg": "KG",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Unsa",
     "lb": "Póna",
-    "kg": "cileagram"
+    "kg": "cileagram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Ceintiméadar",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Chos",
     "mm": "milliméadar",
     "m": "méadar",
-    "yd": "Clós"
+    "yd": "Clós",
   },
   "distance": {
     "m": "méadar",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Laethanta",
     "hours": "Uaireanta",
     "minutes": "Nóiméad",
-    "seconds": "Soicind"
+    "seconds": "Soicind",
   },
   "units": [
     "Aonad",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Stáit",
     "Territory": "Críoch",
-    "Province": "Cúige"
+    "Province": "Cúige",
   },
   "transaction_status": {
     "RequireAction": "Gníomh de dhíth",
     "Processing": "Próiseáil",
     "Canceled": "Ar ceal",
-    "Succeeded": "D'éirigh"
+    "Succeeded": "D'éirigh",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Roghnaigh teanga. .",
     "friend_email": "Ríomhphost do chara...",
     "friend_name": "Diúltaigh. Ainm do chara",
-    "select_date": "Roghnaigh dáta..."
+    "select_date": "Roghnaigh dáta...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Deimhnigh",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Uasmhéid {maxCount} carachtair",
     "invalid_url": "URL neamhbhailí",
     "country_invalid": "Roghnaigh tír chinn scríbe!",
-    "postal_code_invalid": "Socraigh cód poist bailí!"
+    "postal_code_invalid": "Socraigh cód poist bailí!",
   },
   "colors": {
     "#D32F2F": "Dearg",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Aonad",
     "postcode": "Cód Poist",
     "note": "Nóta",
-    "county": "Contae"
+    "county": "Contae",
   },
   "product_types": {
     "physical": "Fisiciúil",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Seirbhís",
     "service_description": "Seirbhísí cosúil le: deisiú, iompar, teagasc.",
     "subscription": "Sintiús",
-    "subscription_description": "Síntiúis agus sonraisc le haghaidh táirgí, seirbhísí, nó inneachar."
+    "subscription_description": "Síntiúis agus sonraisc le haghaidh táirgí, seirbhísí, nó inneachar.",
   },
   "license": {
     "free": "Saor",
     "startup": "Tosaithe",
     "company": "Cuideachta",
-    "enterprise": "Fiontar"
+    "enterprise": "Fiontar",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Dath",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Áireamh sa phacáiste",
     "weight": "Meáchan",
     "type": "Ábhar",
-    "style": "Stíl"
+    "style": "Stíl",
   },
   "delivery_state": {
     "check_queue": "Ag feitheamh ar athbhreithniú",
     "order_confirm": "Daingniú Ordú",
     "preparing_order": "ag ullmhú",
     "sent_order": "Ar sheachadadh",
-    "to_customer": "Seachadadh"
+    "to_customer": "Seachadadh",
   },
   "status": {
     "unpaid": "Gan íoc",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Diúltaigh",
     "pending": "Ar feitheamh",
     "rejected": "Diúltaithe",
-    "accepted": "Glactar leis"
+    "accepted": "Glactar leis",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "KG"
+    "kg": "KG",
   },
   "transportation_type": {
     "motorbike": "Gluaisrothar",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Iompar domhanda",
     "global_description": "Loingseoireacht thar lear ar aer, ar muir nó ar tír.",
     "pickup": "Pioc suas",
-    "pickup_description": "Piocann custaiméirí suas na míreanna ag do stór fisiciúil nó stóras."
+    "pickup_description": "Piocann custaiméirí suas na míreanna ag do stór fisiciúil nó stóras.",
   },
   "article": {
     "login_to_see_error": "Logáil isteach chun an t-alt a rochtain",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Cuir modh in eagar",
       "view_mode": "Mód amhairc",
-      "delete": "Scrios Airteagal"
+      "delete": "Scrios Airteagal",
     },
     "schedule_action": "Ar mhaith leat foilsiú a sceidealú?",
     "schedule_title": "Sceideal uathfhoilsiú",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Tuairiscigh mí-úsáid agus bain ábhar",
       "report_title": "Tuairiscigh an t-ábhar seo mar ábhar maslach",
       "message": "Cad é an chúis atá leis an ábhar seo a chur isteach? Roghnaigh ceann amháin de na roghanna seo a leanas.",
-      "accept_and_delete_action": "Deimhnigh agus Scrios Ábhar"
+      "accept_and_delete_action": "Deimhnigh agus Scrios Ábhar",
     },
     "schedule_dialog": {
       "title": "Sceideal Eisiúna Ábhar",
       "publish_at": "Foilsigh ag",
       "last_edit": "Eagarthóireacht dheireanach",
-      "view_action": "Amharc ar an Airteagal"
+      "view_action": "Amharc ar an Airteagal",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Cuir Eolas",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Tuairiscigh agus Scrios",
       "report_and_delete_success_message": "Scriosadh an t-alt go rathúil.",
       "report_success_title": "Alt tuairisce",
-      "report_success_message": "Tá do thuairisc ar an alt seo curtha suas."
+      "report_success_message": "Tá do thuairisc ar an alt seo curtha suas.",
     },
     "alert": {
       "delete_article": {
         "title": "Scrios Airteagal",
         "message": "An bhfuil tú cinnte gur mhaith leat an t-alt seo a scriosadh go buan?",
-        "action": "Scrios"
-      }
+        "action": "Scrios",
+      },
     },
     "edit_window": {
       "title": "Roghnaigh Téacs Íomhá agus Achoimre",
-      "digest": "Achoimre"
+      "digest": "Achoimre",
     },
     "editor": {
       "title_placeholder": "Teideal..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Tá an comhad seo ró-mhór:",
       "notifications": {
         "image_uploaded_success": "D'éirigh le sábháil an íomhá",
-        "image_uploaded_failed": "Earráid agus an íomhá á lódáil."
+        "image_uploaded_failed": "Earráid agus an íomhá á lódáil.",
       },
       "embed_placeholder": "Cuir isteach an cód iframe, Facebook, Youtube nó aon URL eile agus brúigh Enter.",
       "embed_caption_placeholder": "Iontráil teideal (roghnach)",
-      "images_caption_placeholder": "Iontráil teideal don íomhá seo.."
-    }
+      "images_caption_placeholder": "Iontráil teideal don íomhá seo..",
+    },
   },
   "article_report": {
     "inappropriate": "Tá ábhar an ailt seo míchuí.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Sílim go bhfuil pornagrafaíocht san ábhar seo agus go bhfuil sé ag sárú na ndlíthe.",
     "harassment": "Sílim go bhfuil sé seo ciníoch.",
     "hate": "Sílim go mbaineann sé seo le foréigean a chur chun cinn.",
-    "infringe": "Sáraíonn sé seo mo chearta."
+    "infringe": "Sáraíonn sé seo mo chearta.",
   },
   "comments": {
     "new_action": "Cliceáil chun trácht a fhágáil ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Faigh tuilleadh tuairimí ..",
     "cant_send_comment": "Ní féidir leat postáil nua a chur leis.",
     "cant_remove_this_comment": "Ní féidir leat an nóta tráchta seo a scriosadh!",
-    "product_buyer": "Ceannaí",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Mo Thuairimí",
     "delete_alert": {
       "title": "Scrios Trácht",
       "message": "Ar mhaith leat an nóta tráchta seo a scriosadh?",
-      "action": "Scrios"
+      "action": "Scrios",
     },
     "notifications": {
-      "delete_success": "D'éirigh le do nóta tráchta a scriosadh."
+      "delete_success": "D'éirigh le do nóta tráchta a scriosadh.",
     },
     "first_send": "An chéad phostáil",
     "comment_at": "Ar",
     "edit_comment": "Cuir Trácht in Eagar",
-    "my_comments": "Mo Thuairimí"
+    "product_buyer": "Ceannaí",
   },
   "customer_club": {
     "bronze": "Cré-umha",
     "silver": "Airgid",
     "gold": "Órga",
     "platinum": "Platanam",
-    "diamond": "Diamond"
+    "diamond": "Diamond",
   },
   "application_categories": {
     "tracking": "Iompar Úsáideora á Seiceáil",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Fógraíocht",
     "staff": "Foireann",
     "incentive": "Dreasachtaí",
-    "shop": "Siopa"
+    "shop": "Siopa",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Messenger Facebook"
+    "facebook_messenger": "Messenger Facebook",
   },
   "form_builder": {
     "add_item_action": "Cuir mír nua leis",
     "title_input": "Teideal",
+    "placeholder_input": "Áitsealbhóir",
     "name_input": "Ainm athróg",
     "value_input": "Luachanna",
     "value_input_message": "Liosta Roghanna Úsáideoirí",
     "default": "Luach réamhshocraithe",
+    "file_type_input": "Cineálacha comhaid inghlactha",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Simplí",
       "selective": "Roghnach",
       "switch": "Athraigh",
       "file": "Comhad",
-      "number": "Uimhir"
+      "number": "Uimhir",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Áitsealbhóir",
-    "file_type_input": "Cineálacha comhaid inghlactha",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Ainm Táirge",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Stádas íocaíochta",
     "payment_status_waiting": "Ag fanacht le híocaíocht",
     "payment_status_paid": "Íoctha",
-    "buyer": "Ceannaí"
+    "buyer": "Ceannaí",
   },
   "virtual_item_info": {
     "title": "Mír Fíorúil",
     "outputs": {
       "title": "Eolas Aschuir",
       "sub_title": "Eolas Rúnda na Míre seo",
-      "message": "Taispeánfar an fhaisnéis seo don úsáideoir tar éis an táirge a cheannach."
+      "message": "Taispeánfar an fhaisnéis seo don úsáideoir tar éis an táirge a cheannach.",
     },
     "inputs": {
       "title": "Eolas de dhíth",
       "sub_title": "Eolas Ceannaitheora ag Teastáil",
-      "message": "Ní mór don cheannaitheoir an fhaisnéis iarrtha a chur isteach san fhoirm"
+      "message": "Ní mór don cheannaitheoir an fhaisnéis iarrtha a chur isteach san fhoirm",
     },
     "notifications": {
       "inputs_set_success": "Clár faisnéise go rathúil.",
       "confirm_by_admin_success": "Deimhníodh críochnú an ordaithe.",
-      "confirm_by_buyer_success": "Deimhníodh críochnú an ordaithe."
-    }
+      "confirm_by_buyer_success": "Deimhníodh críochnú an ordaithe.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ní féidir leis an íocaíocht COD glacadh leis an ordú seo.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "As stoc.",
     "legal_restriction": "Ní féidir ordú a dhéanamh mar gheall ar shrianta dlíthiúla.",
     "pricing_fault": "Botún praghsála ón díoltóir.",
-    "system_fault": "Fabht córais."
+    "system_fault": "Fabht córais.",
   },
   "basket_order_info_summery": {
     "receiver": "Glacadóir",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Lascaine",
     "final_price": "Méid deiridh",
     "address": "Seoladh seachadta",
-    "payment_status": "Stádas íocaíochta"
+    "payment_status": "Stádas íocaíochta",
   },
   "basket_status": {
     "open": "Oscail",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Ar ceal",
     "cod": "Íoc Ar Seachadadh",
     "receipt_added": "Admháil curtha leis",
-    "payment_processing": "Próiseáil íocaíochta"
+    "payment_processing": "Próiseáil íocaíochta",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Diúltaithe",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Daingniú",
     "step_3": "Ullmhúchán",
     "step_4": "Ar sheachadadh",
-    "step_5": "Seachadadh"
+    "step_5": "Seachadadh",
   },
   "basket_return_request_view": {
     "title": "Iarratas ar Fhilleadh",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Iarratas a dhiúltú",
     "message_for_admin": "De réir an chomhaontaithe atá glactha agat trí úsáid a bhaint as an Selldone, ní mór duit dul i dteagmháil leis an gceannaitheoir agus é a choinneáil ar an eolas faoin bpróiseas chun a (h)ordú a sheoladh ar ais. Ní mór é seo a dhéanamh má ghlactar leis an iarratas nó má dhiúltaítear don iarratas agus má fhaightear toiliú iomlán an cheannaitheora.",
     "notifications": {
-      "update_status_success": "Nuashonraíodh stádas an iarratais."
-    }
+      "update_status_success": "Nuashonraíodh stádas an iarratais.",
+    },
   },
   "basket_list": {
     "return_count": "Fill ar ais: {count} uimhir",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Athrú",
       "warranty": "Barántas",
       "count": "Áireamh",
-      "price": "praghas"
-    }
+      "price": "praghas",
+    },
   },
   "return_request_list": {
     "count": "Uimhir thagartha",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Dáta Faighte",
       "state": "Stádas",
       "reason": "Cúis",
-      "return_warranty_period": "Tréimhse bharántas"
-    }
+      "return_warranty_period": "Tréimhse bharántas",
+    },
   },
   "data_toolbar": {
     "search": "Cuardach",
     "sort_by": "Sórtáil de réir",
-    "count_item": "Taispeáin míreanna {item}"
+    "count_item": "Taispeáin míreanna {item}",
   },
   "sort": {
     "created_at": "Cruthaigh dáta",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Oifigeach",
     "registered": "Cláraithe",
     "purchased": "Ceannaithe",
-    "sex": "Inscne"
+    "sex": "Inscne",
   },
   "search_box": {
     "result": "Torthaí cuardaigh",
     "tips": "Cuardaigh Táirgí agus Catagóirí",
     "label": "Cuardaigh ...",
-    "category": "Catagóir"
+    "category": "Catagóir",
   },
   "lead_status": {
     "physical_fast_delivery": "Seachadadh toirt",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Ag ullmhú agus á gcur isteach ón {days} seo chugainn",
     "virtual_fast_prepare": "Seachadadh toirt",
     "virtual_under_24h": "Déanfar é laistigh den {lead} uair an chloig eile",
-    "virtual_over_24h": "Déanfar é ó na {days} seo chugainn"
+    "virtual_over_24h": "Déanfar é ó na {days} seo chugainn",
   },
   "return_request_state": {
     "pending": "Ar feitheamh",
     "accepted": "Deimhnithe",
-    "rejected": "Diúltaithe"
+    "rejected": "Diúltaithe",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Cur isteach ar phacáiste nó ar shraithuimhir",
       "U5": "Tá roinnt míreanna ón dáileacht ar iarraidh",
       "U6": "Níl an táirge bunaidh",
-      "U7": "Ní shásaíonn an táirge na sonraíochtaí"
-    }
+      "U7": "Ní shásaíonn an táirge na sonraíochtaí",
+    },
   },
   "image_uploader": {
     "label": "Tarraing & Scaoil nó <u>Roghnaigh comhad</u>",
-    "max_size": "Uasmhéid ceadaithe: {size}"
+    "max_size": "Uasmhéid ceadaithe: {size}",
   },
   "timespan": {
     "Morning": "8rn - 12in",
     "Evening": "12 meán lae go 6 pm",
     "Night": "6pm-12pm",
-    "Instant": "Post Meandaracha"
+    "Instant": "Post Meandaracha",
   },
   "week_day": {
     "Saturday": "Dé Sathairn",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Dé Máirt",
     "Wednesday": "Dé Céadaoin",
     "Thursday": "Déardaoin",
-    "Friday": "Dé hAoine"
+    "Friday": "Dé hAoine",
   },
   "payment_form": {
     "title": "Roghnaigh Modh Íocaíochta",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Comhghairdeas, tá d'ordú saor in aisce!",
     "order_free_payment_action": "Ordú Saor Anois",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Seoladh íocaíochta",
-      "amount": "Méid"
-    }
+      "amount": "Méid",
+    },
   },
   "discount_input": {
     "limit": "Lascaine {percent}% suas go dtí {limit} {currency}",
     "action": "Cuir Cód Lascaine leis",
     "code_input": "Cód Lascaine",
     "notifications": {
-      "add_success": "Comhghairdeas, cód lascaine bailí."
-    }
+      "add_success": "Comhghairdeas, cód lascaine bailí.",
+    },
   },
   "gift_card": {
     "inactive": "Tá an cárta díchumasaithe",
     "expire": "Éaga",
     "transfer": "Aistriú",
-    "send_to_friend": "Seol chuig cara"
+    "send_to_friend": "Seol chuig cara",
   },
   "count_down": {
     "days": "Lá",
     "hours": "Uair",
     "minutes": "Nóiméad",
-    "seconds": "Soicind"
+    "seconds": "Soicind",
   },
   "gift_status": {
     "Unpaid": "Admháil Ag feitheamh",
     "Paid": "Íoctha",
     "Rejected": "Diúltaithe",
-    "Canceled": "Ar ceal"
+    "Canceled": "Ar ceal",
   },
   "gift_program_status": {
     "Airdrop": "Córas Íocaíochta",
     "Advertising": "Fógraíocht",
     "PersonalGift": "Bronntanas Pearsanta",
-    "ShopGift": "Siopa bronntanas"
+    "ShopGift": "Siopa bronntanas",
   },
   "currency_selector": {
-    "label": "Airgeadra"
+    "label": "Airgeadra",
   },
   "need_login": {
     "title": "Logáil isteach",
     "login_sms": "SMS logáil isteach",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Logáil isteach le Google",
     "login_facebook": "Logáil isteach le Facebook",
+    "login_apple": "Logáil isteach le Apple",
     "login_account": "Logáil isteach ag Soldone",
     "register": "Úsáideoir nua? Cláraigh anois.",
     "mobile_input": "Cuir isteach do shoghluaiste",
     "verification_code": "Cód fíorúcháin",
     "msg_title": "Haigh,",
     "msg_body": "Logáil isteach le do thoil. Ní thógann sé ach cúpla soicind.",
-    "login_apple": "Logáil isteach le Apple",
     "login_email": "Logáil isteach le Ríomhphost",
     "email_login_step_1": "Tabhair seoladh ríomhphoist bailí le do thoil, agus seolfaimid an cód logáil isteach chuige. Níl gá le clárú.",
     "email_login_step_2": "An bhfuil tú cinnte gur chuir tú do sheoladh ríomhphoist isteach i gceart? Beidh an cód logáil isteach á sheoladh againn chuig an ríomhphost a chuirtear ar fáil, mar sin cinntigh go bhfuil sé cruinn.",
-    "email_login_step_3": "Táimid tar éis cód a sheoladh chuig do ríomhphost. Tabhair faoi deara le do thoil go rachaidh an cód in éag i gceann 10 nóiméad."
+    "email_login_step_3": "Táimid tar éis cód a sheoladh chuig do ríomhphost. Tabhair faoi deara le do thoil go rachaidh an cód in éag i gceann 10 nóiméad.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Stóras Óir 5 Bliana"
+      "name": "Stóras Óir 5 Bliana",
     },
     "GOLDEN_2YEAR": {
-      "name": "Stóras Óir 4 Bliana"
+      "name": "Stóras Óir 4 Bliana",
     },
     "GOLDEN_3YEAR": {
-      "name": "Stóras Óir 3 Bliana"
+      "name": "Stóras Óir 3 Bliana",
     },
     "GOLDEN_4YEAR": {
-      "name": "Stóras Óir 2 Bhliain"
+      "name": "Stóras Óir 2 Bhliain",
     },
     "GOLDEN_5YEAR": {
-      "name": "Stóras Óir 1 Bliain"
+      "name": "Stóras Óir 1 Bliain",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Infheisteoir Órga"
+      "name": "Infheisteoir Órga",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Infheisteoir Diamond"
+      "name": "Infheisteoir Diamond",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Infheisteoir Ruby"
+      "name": "Infheisteoir Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Ball de Chomhphobal Uasmhéid na Líonraí Cumarsáide"
+      "name": "Ball de Chomhphobal Uasmhéid na Líonraí Cumarsáide",
     },
     "GOLD_SUPPLIER": {
-      "name": "Soláthraí Óir"
+      "name": "Soláthraí Óir",
     },
     "GOLD_SELLER": {
-      "name": "Díoltóir Óir"
+      "name": "Díoltóir Óir",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Táirgeoir Ábhar Barr"
+      "name": "Táirgeoir Ábhar Barr",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "réalta"
+      "name": "réalta",
     },
     "GUARDIAN": {
-      "name": "Seirbhís iontach do Chustaiméirí"
+      "name": "Seirbhís iontach do Chustaiméirí",
     },
     "KING": {
-      "name": "Rí an Mhargaidh"
-    }
+      "name": "Rí an Mhargaidh",
+    },
   },
   "cookie": {
     "title": "Úsáideann an suíomh Gréasáin seo fianáin",
     "message": "Úsáideann an suíomh Gréasáin seo fianáin chun taithí an úsáideora a fheabhsú. Trí úsáid a bhaint as ár suíomh Gréasáin toilíonn tú le gach fianán de réir ár mBeartas Fianán.",
     "preferences_action": "Sainroghanna a bhainistiú",
-    "agree_action": "Aontaím"
+    "agree_action": "Aontaím",
   },
   "basket_item_message": {
     "title": "Faisnéis riachtanach don mhír seo",
     "save_actions": "Sábháil Teachtaireacht",
+    "product_inputs_preview_message": "Tá na roghanna saincheaptha seo ar fáil do do tháirge ordaithe. Nuair a chuirtear an mhír le do thralaí, beidh tú in ann coigeartuithe a dhéanamh anseo.",
     "notifications": {
-      "success": "Sábháladh do shonraí ionchuir."
+      "success": "Sábháladh do shonraí ionchuir.",
     },
-    "product_inputs_preview_message": "Tá na roghanna saincheaptha seo ar fáil do do tháirge ordaithe. Nuair a chuirtear an mhír le do thralaí, beidh tú in ann coigeartuithe a dhéanamh anseo."
   },
   "faq": {
     "faq": "Ceisteanna Coitianta",
     "title": "Ceisteanna agus Freagraí",
-    "sub_title": "Cad a d'iarr tú orainn a dhéanamh.",
     "message": "Cuardaigh freagra do cheist i measc na bhfreagraí thíos. Fiafraigh dínn an bhfuil ceisteanna fós gan freagra.",
     "add_question_action": "Cuir Ceist Nua",
     "read_more": "Leigh Nios mo ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Ceist",
     "question_input_placeholder": "Cuir do cheist.",
     "notifications": {
-      "success_add": "D'éirigh le do cheist a cuireadh isteach."
-    }
+      "success_add": "D'éirigh le do cheist a cuireadh isteach.",
+    },
+    "sub_title": "Cad a d'iarr tú orainn a dhéanamh.",
   },
   "rating_labels": [
     "An-dona",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Cuir isteach seoladh sprice",
     "enter_your_address": "Cuir isteach do sheoladh.",
     "postal_code": "Cód Poist",
-    "phone_input": "Guthán {type}",
+    "phone_input": "Guthán",
     "building_number": "Uimhir thógála",
     "building_unit": "Aonad",
     "full_name_input": "Ainm iomlán {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Lipéad seoltaí (Éileamh)",
     "notifications": {
       "save_in_list": "Sábháladh an seoladh seo ar do liosta agus na sonraí go léir ann.",
-      "edit_success": "Luachanna seoltaí nua arna sábháil in {title}."
+      "edit_success": "Luachanna seoltaí nua arna sábháil in {title}.",
     },
     "delete_address_dialog": {
       "title": "Scrios Seoladh",
       "message": "An bhfuil tú cinnte gur mhaith leat an seoladh seo a scriosadh?",
-      "action": "Bain seoladh"
-    }
+      "action": "Bain seoladh",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ní féidir an nóta tráchta seo a chur in eagar!",
     "comment_input_empty": "Tá téacs na teachtaireachta bán!",
-    "article_not_saved": "Sábháil an t-alt!"
+    "article_not_saved": "Sábháil an t-alt!",
   },
   "wheel_fortune": {
     "title": "Seinn & Buaigh",
     "message": "Is é costas gach cluiche ná 10 sliseanna. Tá sliseanna {chips} agat faoi láthair. Faigh níos mó sliseanna trí cheannach ón siopa.",
     "win_message": "Comhghairdeachas leat, tá bua agat!",
     "lost_message": "Tá brón orm, chaill tú an cluiche.",
-    "try_again": "Is féidir leat triail eile a bhaint as"
+    "try_again": "Is féidir leat triail eile a bhaint as",
   },
   "json": {
     "add": "Cuir sonraí struchtúir leis",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Struchtúir",
     "book": {
       "title": "Leabhar",
-      "desc": "Gníomhartha leabhar a chuireann ar chumas úsáideoirí an leabhar a fhaigheann siad a cheannach go díreach ó thorthaí Cuardaigh."
+      "desc": "Gníomhartha leabhar a chuireann ar chumas úsáideoirí an leabhar a fhaigheann siad a cheannach go díreach ó thorthaí Cuardaigh.",
     },
     "occupation": {
       "title": "Tuarastal measta",
-      "desc": "Faisnéis faoi mheastachán tuarastail, amhail raonta tuarastail agus meántuarastal réigiún-bhunaithe do chineálacha post, ar taispeáint san eispéiris cuardaigh fostaíochta ar Google."
+      "desc": "Faisnéis faoi mheastachán tuarastail, amhail raonta tuarastail agus meántuarastal réigiún-bhunaithe do chineálacha post, ar taispeáint san eispéiris cuardaigh fostaíochta ar Google.",
     },
     "course": {
       "title": "Cúrsa",
-      "desc": "Cúrsaí oideachais atá ar liosta a bhaineann go sonrach le soláthraí. Is féidir teideal an chúrsa, soláthraí agus cur síos gairid a áireamh ar na cúrsaí."
+      "desc": "Cúrsaí oideachais atá ar liosta a bhaineann go sonrach le soláthraí. Is féidir teideal an chúrsa, soláthraí agus cur síos gairid a áireamh ar na cúrsaí.",
     },
     "howto": {
       "title": "Conas a",
-      "desc": "A Bealach le siúl úsáideoirí trí shraith céimeanna chun tasc a chur i gcrích go rathúil, ina bhfuil físeáin, íomhánna agus téacs."
+      "desc": "A Bealach le siúl úsáideoirí trí shraith céimeanna chun tasc a chur i gcrích go rathúil, ina bhfuil físeáin, íomhánna agus téacs.",
     },
     "recipe": {
       "title": "Oideas",
-      "desc": "Oidis a thaispeánann mar thoradh saibhir aonair nó mar chuid de timpealláin ósta."
-    }
+      "desc": "Oidis a thaispeánann mar thoradh saibhir aonair nó mar chuid de timpealláin ósta.",
+    },
   },
   "support": {
     "Financial": "Airgeadais",
     "Technical": "Teicniúil",
-    "Advisor": "comhairleoir"
+    "Advisor": "comhairleoir",
   },
   "condition": {
     "new": "Nua",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Úsáidte",
     "used_fair": "Úsáidte cothrom",
     "used_good": "Úsáidte go maith",
-    "used_like_new": "Úsáidtear mar nua"
+    "used_like_new": "Úsáidtear mar nua",
   },
   "variant_filter": {
     "title": "Scagaire Athróg Táirge",
-    "only_available": "I stoc"
+    "only_available": "I stoc",
   },
   "service": {
     "task": {
       "title": "Tascanna",
-      "message": "Liosta tascanna a dhéantar sa tseirbhís seo."
+      "message": "Liosta tascanna a dhéantar sa tseirbhís seo.",
     },
     "appointment": {
       "title": "Ceapachán",
-      "message": "Roghnaigh amanna na seachtaine ó na hamanna seo a leanas bunaithe ar an lá agus an uair atá oiriúnach duit."
+      "message": "Roghnaigh amanna na seachtaine ó na hamanna seo a leanas bunaithe ar an lá agus an uair atá oiriúnach duit.",
     },
     "booking": {
       "title": "Áirithint",
-      "message": "Sonraigh tréimhse ama na laethanta is mian leat áirithint a dhéanamh sa fhéilire thíos."
+      "message": "Sonraigh tréimhse ama na laethanta is mian leat áirithint a dhéanamh sa fhéilire thíos.",
     },
     "subscription": {
-      "title": "Sintiús"
+      "title": "Sintiús",
     },
     "charge": {
-      "title": "Muirear"
-    }
+      "title": "Muirear",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Praghsanna seasta",
-      "message": "Sa chineál seo praghsála, is méid seasta é praghas an táirge agus ní gá don cheannaitheoir ríomh praghais a iarraidh."
+      "message": "Sa chineál seo praghsála, is méid seasta é praghas an táirge agus ní gá don cheannaitheoir ríomh praghais a iarraidh.",
     },
     "ESTIMATION": {
       "title": "Praghsáil Meastacháin",
-      "message": "Déanfaidh an díoltóir praghas na dtáirgí agus na seirbhísí a ríomh go pointe áirithe nuair a bheidh ordú á dhéanamh aige, is féidir sonraisc íocaíochta a athrú nó a chur leis le linn na seirbhíse."
+      "message": "Déanfaidh an díoltóir praghas na dtáirgí agus na seirbhísí a ríomh go pointe áirithe nuair a bheidh ordú á dhéanamh aige, is féidir sonraisc íocaíochta a athrú nó a chur leis le linn na seirbhíse.",
     },
     "AGREEMENT": {
       "title": "Praghsáil Comhaontaithe",
-      "message": "Ní athróidh an díoltóir praghas deiridh na dtáirgí nó na seirbhísí tar éis don ordú a bheith curtha."
+      "message": "Ní athróidh an díoltóir praghas deiridh na dtáirgí nó na seirbhísí tar éis don ordú a bheith curtha.",
     },
     "BID": {
       "title": "Tairiscint / Ceant",
-      "message": "Díolfaidh ceannaitheoirí ionchasacha an táirge ar an bpraghas tairisceana is airde."
-    }
+      "message": "Díolfaidh ceannaitheoirí ionchasacha an táirge ar an bpraghas tairisceana is airde.",
+    },
   },
   "map": {
     "title": "Ceann scríbe chun táirgí a fháil",
     "confirm": "Socraigh suíomh",
     "address": "Ceann Scríbe",
-    "receptor": "Glacadóir"
+    "receptor": "Glacadóir",
   },
   "ShopBots": {
-    "telegram": "Teileagram"
+    "telegram": "Teileagram",
   },
   "article_tags": {
     "title": "Clibeanna Ábhar",
     "tags_input": "Clibeanna",
     "tags_input_message": "Clibeanna Liosta den alt seo",
     "notification": {
-      "add_success": "Clibeanna curtha leis"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "An-chasta",
-    "hard": "Deacair",
-    "intermediate": "Meánrang",
-    "easy": "Éasca"
-  },
-  "billing_period": {
-    "Daily": "laethúil",
-    "Weekly": "Seachtainiúil",
-    "Monthly": "go míosúil",
-    "Every3Months": "Gach 3 mhí",
-    "Every6Months": "Gach 6 mhí",
-    "Yearly": "Bliantúil"
+      "add_success": "Clibeanna curtha leis",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och nach maith!",
     "between2_3": "Tá sé ceart go leor!",
     "between3_4": "Is maith le daoine é!",
-    "between4_5": "Is breá le daoine é!"
+    "between4_5": "Is breá le daoine é!",
   },
   "seasons": {
     "spring": "Earraigh",
     "summer": "Samhraidh",
     "autumn": "an Fhómhair",
-    "winter": "Geimhreadh"
-  }
+    "winter": "Geimhreadh",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

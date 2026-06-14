@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "ကျွန်ုပ်သည် အသုံးပြုမှုစည်းမျဉ်းများနှင့် ကိုယ်ရေးကိုယ်တာမူဝါဒများကိုဖတ်ပြီး ၎င်းတို့နှင့်သဘောတူပါသည်။",
   "commons": {
     "Currency": "ငွေကြေး",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "ပြည်နယ်",
     "Price": "စျေးနှုန်း",
@@ -169,6 +170,7 @@ export default {
     "net_price": "အသားတင်စျေးနှုန်း",
     "tax": "အခွန်",
     "tax_included": "စျေးနှုန်းတွင်ပါဝင်သည်။",
+    "tax_included_abstract": "အပါအဝင်",
     "limit": "ကန့်သတ်",
     "min_purchase": "အနိမ့်ဆုံးဝယ်ယူမှု",
     "eligible_for": "အကျုံးဝင်သည်။",
@@ -302,6 +304,7 @@ export default {
     "created_at": "ဖန်တီးသည့်ရက်စွဲ",
     "updated_at": "နောက်ဆုံးအပ်ဒိတ်",
     "register_at": "မှတ်ပုံတင်မည့်ရက်",
+    "last_modified": "Last modified",
     "old": "အဟောင်း",
     "new": "အသစ်",
     "start": "စတင်ပါ။",
@@ -330,6 +333,7 @@ export default {
     "reseller": "ပြန်လည်ရောင်းချသူ",
     "tracking_code": "ခြေရာခံကုဒ်",
     "tracking_url": "ခြေရာခံ URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "ပြည့်စုံမှုများ",
     "reject": "ငြင်းပယ်ပါ။",
     "reserved": "လက်ဝယ်ရှိတယ်။",
@@ -341,6 +345,7 @@ export default {
     "waiting": "စောင့်နေသည်...",
     "waiting_connecting_payment": "ငွေပေးချေမှု ဝန်ဆောင်မှုကို စောင့်ဆိုင်းနေသည်...",
     "creating_secure_payment": "လုံခြုံသောငွေပေးချေမှုဖန်တီးခြင်း။",
+    "waiting_for_payment": "ကျေးဇူးပြု၍ ငွေပေးချေမှု အပြီးသတ်ပါ...",
     "officer": "အရာရှိ",
     "ticket": "လက်မှတ်",
     "ticket_url": "လက်မှတ် url",
@@ -361,7 +366,6 @@ export default {
     "rates": "အဆင့်သတ်မှတ်ချက်",
     "seen_at": "တွင်တွေ့သည်။",
     "completed": "ပြီးသွားပြီ",
-    "you": "မင်း",
     "shop": "ဆိုင်",
     "store": "စတိုးဆိုင်",
     "granted": "မရဘူးလား။",
@@ -498,6 +502,7 @@ export default {
     "tablet": "တက်ဘလက်",
     "pc": "PC",
     "acquisition_channel": "မှီးချန်နယ်",
+    "channels_overview": "Channels overview",
     "to": "ရန်",
     "info": "အချက်အလက်",
     "general": "အထွေထွေ",
@@ -559,7 +564,6 @@ export default {
     "per_product": "ထုတ်ကုန်အလိုက်",
     "journey": "ခရီး",
     "after": "ပြီးနောက်",
-    "waiting_for_payment": "ကျေးဇူးပြု၍ ငွေပေးချေမှု အပြီးသတ်ပါ...",
     "hour": "နာရီ",
     "minute": "မိနစ်",
     "premium": "ပရီမီယံ",
@@ -569,6 +573,7 @@ export default {
     "shops": "ဆိုင်များ",
     "vendor": "ရောင်းချသူ",
     "vendors": "ဈေးသည်များ",
+    "no_vendors": "No vendors",
     "marketplace": "ဈေး",
     "verify_date": "ရက်စွဲကို အတည်ပြုပါ။",
     "note": "မှတ်ချက်",
@@ -604,7 +609,6 @@ export default {
     "variant": "မူကွဲ",
     "secure": "လုံခြုံအောင်",
     "admin": "အက်မင်",
-    "tax_included_abstract": "အပါအဝင်",
     "payment_not_settled": "ပေးချေမှု မပြေလည်ပါ။",
     "orders_list": "အော်ဒါစာရင်း",
     "subscription_plan": "စာရင်းသွင်းမှုအစီအစဉ်",
@@ -642,16 +646,170 @@ export default {
     "clusters": "ပြွတ်",
     "subscriptions": "စာရင်းသွင်းမှုများ",
     "spam": "မလိုလားအပ်သောအီးမေးလ်များ",
-    "video": "ဗီဒီယို"
+    "video": "ဗီဒီယို",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "မင်း",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "အလွန်ရှုပ်ထွေးသည်။",
+    "hard": "ခက်တယ်။",
+    "intermediate": "အလယ်အလတ်",
+    "easy": "လွယ်ပါတယ်။",
   },
   "dialogs": {
     "delete": {
       "title": "ဖျက်ပါ။",
       "message": "ဤအရာကို ဖျက်ရန် သေချာပါသလား။",
-      "action": "ဟုတ်ကဲ့ အခု ဖျက်လိုက်ပါ။"
-    }
+      "action": "ဟုတ်ကဲ့ အခု ဖျက်လိုက်ပါ။",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "စျေးဝယ်ခြင်းထဲသို့ထည့်သည်",
     "cancel": "မလုပ်တော့",
     "update": "မွမ်းမံ",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "လက်ဆောင်ကတ်ထည့်ပါ။",
     "charge": "တာဝန်ခံ",
     "send_invites": "ဖိတ်စာများပို့ပါ။",
-    "past": "အတိတ်",
+    "paste": "ငါးပိ",
     "restore": "ပြန်ယူပါ။",
     "cut": "ဖြတ်",
     "get_sms_code": "စစ်မှန်ကြောင်းအထောက်အထားရယူပါ။",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "အစမ်းကြည့်ပြပါ။",
     "hide_preview": "အစမ်းကြည့်ရှုမှုကို ဖျောက်ပါ။",
     "download_now": "ယခုဒေါင်းလုဒ်လုပ်ပါ။",
+    "watch_now": "ယခု ကြည့်ရှုပါ။",
     "auto_fill": "အလိုအလျောက်ဖြည့်ပါ။",
     "track": "တစ်ပုဒ်",
     "change_state": "အခြေအနေပြောင်းပါ။",
     "done": "ပြီးပြီ။",
     "reply": "အကြောင်းပြန်တယ်။",
-    "watch_now": "ယခု ကြည့်ရှုပါ။",
     "unlock": "သော့ဖွင့်ပါ။",
     "lock": "သော့ခတ်",
     "create_clone": "ကိုယ်ပွားဖန်တီးပါ။",
@@ -773,41 +931,71 @@ export default {
     "buy": "ဝယ်ပါ။",
     "view_all": "အားလုံးကြည့်ရန်",
     "view_now": "ယခုကြည့်ရှုပါ။",
-    "paste": "ငါးပိ"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "အတိတ်",
+  },
+  "billing_period": {
+    "Daily": "နေ့စဉ်",
+    "Weekly": "အပတ်စဉ်",
+    "Monthly": "လစဉ်",
+    "Every3Months": "၃ လတိုင်း",
+    "Every6Months": "၆ လတိုင်း",
+    "Yearly": "နှစ်အလိုက်",
   },
   "instance_message_title": "ချက်ချင်းမက်ဆေ့ခ်ျပို့ပါ။",
   "instance_message": "မင်္ဂလာပါ {name}၊ ကျွန်ုပ်၏အမည်မှာ {company} မှ {author} ဖြစ်ပါသည်။",
   "errors": {
     "419": "သင်သည် အချိန်အတော်ကြာ လှုပ်ရှားမှုမရှိခဲ့ပါ။ လုံခြုံရေးအကြောင်းပြချက်များအတွက် <b>⟳ စာမျက်နှာ</b> ကို ပြန်လည်စတင်ပါ။",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "စနစ်သည် blockchain နှင့်ထပ်တူမကျပါ။ ကျွန်ုပ်တို့၏ဆာဗာများ၏ ထပ်တူပြုခြင်းများကို မပြီးမချင်း ငွေပေးငွေယူအသစ်တစ်ခု ဖန်တီးရန် မဖြစ်နိုင်ပါ။ ကျွန်တော်တို့က ပြဿနာကို ဖြေရှင်းနေပါတယ်။",
-    "gateway_network_error": "ငွေပေးချေမှုဂိတ်ဝေးဝန်ဆောင်မှုသည် ဆက်သွယ်ရေးပြဿနာတစ်ခုကြုံတွေ့နေရသည်။"
+    "gateway_network_error": "ငွေပေးချေမှုဂိတ်ဝေးဝန်ဆောင်မှုသည် ဆက်သွယ်ရေးပြဿနာတစ်ခုကြုံတွေ့နေရသည်။",
   },
   "receiver_info": {
     "map": {
       "title": "ကုန်ပစ္စည်းပို့ဆောင်ရမည့်လိပ်စာ",
       "confirm": "တည်နေရာသတ်မှတ်ပါ။",
       "address_type": "ဦးတည်ရာ",
-      "receptor_type": "လက်ခံသူ"
+      "receptor_type": "လက်ခံသူ",
     },
     "receiver_address": "ပို့ဆောင်ရေးလိပ်စာကို ရွေးပါ။",
+    "service_address": "သင့်လိပ်စာကို ရွေးပါ။",
+    "select_billing_address": "Select billing address",
     "address": "လိပ်စာ",
     "postcode": "စာပို့ကုဒ်",
     "enter_value": "ဤနေရာတွင် ဖြည့်စွက်ပါ။",
     "address_note": "မှတ်ချက်",
     "tel": "ဆက်သွယ်ရန်နံပါတ်",
-    "service_address": "သင့်လိပ်စာကို ရွေးပါ။"
   },
   "weight": {
     "g": "ဆ",
     "oz": "အောင်စ",
     "lb": "ပေါင်",
-    "kg": "ကီလိုဂရမ်"
+    "kg": "ကီလိုဂရမ်",
   },
   "mass_unit_name": {
     "g": "ဂရမ်",
     "oz": "အောင်စ",
     "lb": "ပေါင်",
-    "kg": "ကီလိုဂရမ်"
+    "kg": "ကီလိုဂရမ်",
   },
   "length": {
     "cm": "စင်တီမီတာ",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ပေ",
     "mm": "မီလီမီတာ",
     "m": "ဍ",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "စင်တီမီတာ",
@@ -823,17 +1011,21 @@ export default {
     "ft": "ခြေလျင်",
     "mm": "တအုပ်",
     "m": "မီတာ",
-    "yd": "ခြံထဲမှာ"
+    "yd": "ခြံထဲမှာ",
   },
   "distance": {
     "m": "မီတာ",
-    "km": "ကီလိုမီတာ"
+    "km": "ကီလိုမီတာ",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "နေ့ရက်များ",
     "hours": "နာရီ",
     "minutes": "မိနစ်များ",
-    "seconds": "စက္ကန့်"
+    "seconds": "စက္ကန့်",
   },
   "units": [
     "ယူနစ်",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "ပြည်နယ်",
     "Territory": "နယ်မြေ",
-    "Province": "ပြည်နယ်"
+    "Province": "ပြည်နယ်",
   },
   "transaction_status": {
     "RequireAction": "လုပ်ဆောင်ရန် လိုအပ်ပါသည်။",
     "Processing": "လုပ်ဆောင်နေသည်",
     "Canceled": "ဖျက်သိမ်းလိုက်သည်။",
-    "Succeeded": "အောင်မယ်။"
+    "Succeeded": "အောင်မယ်။",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "ဂျုံးကော့",
@@ -885,7 +1078,17 @@ export default {
     "language": "ဘာသာစကားရွေးပါ..",
     "friend_email": "မင်းသူငယ်ချင်းရဲ့အီးမေးလ်...",
     "friend_name": "ဘေးဖယ်။ မင်းသူငယ်ချင်းနာမည်",
-    "select_date": "ရက်စွဲကို ရွေးပါ..."
+    "select_date": "ရက်စွဲကို ရွေးပါ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "အတည်ပြုပါ။",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "အများဆုံး စာလုံး {maxCount} လုံး",
     "invalid_url": "မမှန်ကန်သော URL",
     "country_invalid": "သွားမည့်နိုင်ငံကို ရွေးပါ။",
-    "postal_code_invalid": "တရားဝင်စာပို့ကုဒ်ကို သတ်မှတ်ပါ။"
+    "postal_code_invalid": "တရားဝင်စာပို့ကုဒ်ကို သတ်မှတ်ပါ။",
   },
   "colors": {
     "#D32F2F": "အနီေရာင်",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "ယူနစ်",
     "postcode": "စာပို့ကုဒ်",
     "note": "မှတ်ချက်",
-    "county": "ခရိုင်"
+    "county": "ခရိုင်",
   },
   "product_types": {
     "physical": "ရုပ်ပိုင်းဆိုင်ရာ",
@@ -1004,13 +1207,13 @@ export default {
     "service": "ဝန်ဆောင်မှု",
     "service_description": "ပြုပြင်ခြင်း၊ လမ်းပန်းဆက်သွယ်ရေး၊ သင်ကြားပေးခြင်း။",
     "subscription": "စာရင်းသွင်းပါ။",
-    "subscription_description": "ထုတ်ကုန်များ၊ ဝန်ဆောင်မှုများ သို့မဟုတ် အကြောင်းအရာများအတွက် စာရင်းသွင်းမှုများနှင့် ငွေတောင်းခံလွှာများ။"
+    "subscription_description": "ထုတ်ကုန်များ၊ ဝန်ဆောင်မှုများ သို့မဟုတ် အကြောင်းအရာများအတွက် စာရင်းသွင်းမှုများနှင့် ငွေတောင်းခံလွှာများ။",
   },
   "license": {
     "free": "အခမဲ့",
     "startup": "စတင်တည်ထောင်သည်",
     "company": "ကုမ္ပဏီ",
-    "enterprise": "စီးပွားရေးလုပ်ငန်း"
+    "enterprise": "စီးပွားရေးလုပ်ငန်း",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "အရောင်",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "အထုပ်တွင်ရေတွက်ပါ။",
     "weight": "အလေးချိန်",
     "type": "ပစ္စည်း",
-    "style": "စတိုင်"
+    "style": "စတိုင်",
   },
   "delivery_state": {
     "check_queue": "သုံးသပ်ချက်ကို စောင့်မျှော်နေပါသည်။",
     "order_confirm": "အမှာစာအတည်ပြုခြင်း",
     "preparing_order": "ပြင်ဆင်နေပါတယ်။",
     "sent_order": "ပေးပို့မှုအပေါ်",
-    "to_customer": "ပေးပို့ခဲ့သည်။"
+    "to_customer": "ပေးပို့ခဲ့သည်။",
   },
   "status": {
     "unpaid": "အခကြေးငွေမယူရသေး",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "ငြင်းပယ်ပါ။",
     "pending": "ဆိုင်းငံ့ထားသည်။",
     "rejected": "ပယ်ချသည်။",
-    "accepted": "လက်ခံတယ်။"
+    "accepted": "လက်ခံတယ်။",
   },
   "dimensions": {
     "cm": "စင်တီမီတာ",
     "km": "ကီလိုမီတာ",
-    "kg": "ကီလိုဂရမ်"
+    "kg": "ကီလိုဂရမ်",
   },
   "transportation_type": {
     "motorbike": "ဆိုင်ကယ်",
@@ -1224,7 +1429,7 @@ export default {
     "global": "ကမ္ဘာလုံးဆိုင်ရာသယ်ယူပို့ဆောင်ရေး",
     "global_description": "လေယာဉ်၊ ရေကြောင်း သို့မဟုတ် ကုန်းကြောင်းဖြင့် ပြည်ပသို့ ပို့ဆောင်ခြင်း။",
     "pickup": "ကောက်ကိုင်လိုက်သည်",
-    "pickup_description": "ဝယ်ယူသူများသည် သင်၏ရုပ်ပိုင်းဆိုင်ရာ စတိုးဆိုင် သို့မဟုတ် ဂိုဒေါင်တွင် ပစ္စည်းများ လာယူပါသည်။"
+    "pickup_description": "ဝယ်ယူသူများသည် သင်၏ရုပ်ပိုင်းဆိုင်ရာ စတိုးဆိုင် သို့မဟုတ် ဂိုဒေါင်တွင် ပစ္စည်းများ လာယူပါသည်။",
   },
   "article": {
     "login_to_see_error": "ဆောင်းပါးကို ဝင်ရောက်ကြည့်ရှုရန် အကောင့်ဝင်ပါ။",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "မုဒ်ကို တည်းဖြတ်ပါ။",
       "view_mode": "အမြင်မုဒ်",
-      "delete": "ဆောင်းပါးကို ဖျက်ပါ။"
+      "delete": "ဆောင်းပါးကို ဖျက်ပါ။",
     },
     "schedule_action": "ထုတ်ဝေမှုကို အချိန်ဇယားဆွဲလိုပါသလား။",
     "schedule_title": "အလိုအလျောက်ထုတ်ဝေရန် အချိန်ဇယားဆွဲပါ။",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "အလွဲသုံးစားလုပ်မှုကို သတင်းပို့ပြီး အကြောင်းအရာကို ဖယ်ရှားပါ။",
       "report_title": "ဤအကြောင်းအရာကို အလွဲသုံးစားပြုမှုအဖြစ် သတင်းပို့ပါ။",
       "message": "ဤအကြောင်းအရာကို တင်ပြရခြင်း၏ အကြောင်းရင်းကား အဘယ်နည်း။ အောက်ပါရွေးချယ်စရာများထဲမှ တစ်ခုကို ရွေးပါ။",
-      "accept_and_delete_action": "အကြောင်းအရာကို အတည်ပြုပြီး ဖျက်ပါ။"
+      "accept_and_delete_action": "အကြောင်းအရာကို အတည်ပြုပြီး ဖျက်ပါ။",
     },
     "schedule_dialog": {
       "title": "အကြောင်းအရာဖြန့်ချိမှုအချိန်ဇယား",
       "publish_at": "တွင်ထုတ်ဝေသည်။",
       "last_edit": "နောက်ဆုံးတည်းဖြတ်ခြင်း။",
-      "view_action": "ဆောင်းပါးကိုကြည့်ပါ။"
+      "view_action": "ဆောင်းပါးကိုကြည့်ပါ။",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "အချက်အလက်တင်ပြပါ။",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "သတင်းပို့ပြီး ဖျက်ပါ။",
       "report_and_delete_success_message": "ဆောင်းပါးကို အောင်မြင်စွာ ဖျက်လိုက်ပါပြီ။",
       "report_success_title": "ဆောင်းပါးကို သတင်းပို့ပါ။",
-      "report_success_message": "ဤဆောင်းပါးနှင့်ပတ်သက်သည့် သင်၏အစီရင်ခံစာကို တင်လိုက်ပါပြီ။"
+      "report_success_message": "ဤဆောင်းပါးနှင့်ပတ်သက်သည့် သင်၏အစီရင်ခံစာကို တင်လိုက်ပါပြီ။",
     },
     "alert": {
       "delete_article": {
         "title": "ဆောင်းပါးကို ဖျက်ပါ။",
         "message": "ဤဆောင်းပါးကို အပြီးတိုင်ဖျက်လိုသည်မှာ သေချာပါသလား။",
-        "action": "ဖျက်ပါ။"
-      }
+        "action": "ဖျက်ပါ။",
+      },
     },
     "edit_window": {
       "title": "Image Text နှင့် Summary ကို ရွေးပါ။",
-      "digest": "အကျဉ်းချုပ်"
+      "digest": "အကျဉ်းချုပ်",
     },
     "editor": {
       "title_placeholder": "ခေါင်းစဥ်..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "ဤဖိုင်သည် ကြီးလွန်းသည်-",
       "notifications": {
         "image_uploaded_success": "ပုံကို အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ။",
-        "image_uploaded_failed": "ပုံတင်ရာတွင် အမှားအယွင်းရှိနေသည်။"
+        "image_uploaded_failed": "ပုံတင်ရာတွင် အမှားအယွင်းရှိနေသည်။",
       },
       "embed_placeholder": "iframe ကုဒ်၊ Facebook၊ Youtube သို့မဟုတ် အခြား URL တစ်ခုခုကို ရိုက်ထည့်ပြီး enter နှိပ်ပါ။",
       "embed_caption_placeholder": "ခေါင်းစဉ်တစ်ခုထည့်ပါ (ချန်လှပ်ထားနိုင်သည်)",
-      "images_caption_placeholder": "ဤပုံအတွက် ခေါင်းစဉ်တစ်ခု ထည့်ပါ.."
-    }
+      "images_caption_placeholder": "ဤပုံအတွက် ခေါင်းစဉ်တစ်ခု ထည့်ပါ..",
+    },
   },
   "article_report": {
     "inappropriate": "ဤဆောင်းပါး၏ အကြောင်းအရာသည် မသင့်လျော်ပါ။",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "ဤအကြောင်းအရာတွင် ညစ်ညမ်းရုပ်ပုံစာပေများ ပါဝင်နေပြီး ဥပဒေများကို ချိုးဖောက်နေသည်ဟု ကျွန်တော်ထင်ပါတယ်။",
     "harassment": "ဒါက လူမျိုးရေးခွဲခြားမှုလို့ ကျွန်တော်ထင်ပါတယ်။",
     "hate": "ဒါက အကြမ်းဖက်မှုကို မြှင့်တင်ဖို့ပဲ ထင်ပါတယ်။",
-    "infringe": "ဒါက ငါ့အခွင့်အရေးကို ချိုးဖောက်တယ်။"
+    "infringe": "ဒါက ငါ့အခွင့်အရေးကို ချိုးဖောက်တယ်။",
   },
   "comments": {
     "new_action": "comment ထားခဲ့ရန် နှိပ်ပါ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "နောက်ထပ်မှတ်ချက်များရယူပါ..",
     "cant_send_comment": "ပို့စ်အသစ်ထည့်၍မရပါ။",
     "cant_remove_this_comment": "ဤမှတ်ချက်ကို သင်သည် ဖျက်၍မရပါ။",
-    "product_buyer": "ဝယ်သူ",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "ကျွန်ုပ်၏မှတ်ချက်များ",
     "delete_alert": {
       "title": "မှတ်ချက်ကိုဖျက်ပါ။",
       "message": "ဤမှတ်ချက်ကို ဖျက်လိုပါသလား။",
-      "action": "ဖျက်ပါ။"
+      "action": "ဖျက်ပါ။",
     },
     "notifications": {
-      "delete_success": "သင့်မှတ်ချက်ကို အောင်မြင်စွာ ဖျက်လိုက်ပါပြီ။"
+      "delete_success": "သင့်မှတ်ချက်ကို အောင်မြင်စွာ ဖျက်လိုက်ပါပြီ။",
     },
     "first_send": "ပထမပို့စ်",
     "comment_at": "ဂရန်",
     "edit_comment": "မှတ်ချက်ကို တည်းဖြတ်ပါ။",
-    "my_comments": "ကျွန်ုပ်၏မှတ်ချက်များ"
+    "product_buyer": "ဝယ်သူ",
   },
   "customer_club": {
     "bronze": "ကြေး",
     "silver": "ငွေ",
     "gold": "ရွှေ",
     "platinum": "ပလက်တီနမ်",
-    "diamond": "စိန်"
+    "diamond": "စိန်",
   },
   "application_categories": {
     "tracking": "User Behavior စစ်ဆေးခြင်း။",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "ကြော်ငြာ",
     "staff": "ဝန်ထမ်း",
     "incentive": "မက်လုံးများ",
-    "shop": "ဆိုင်"
+    "shop": "ဆိုင်",
   },
   "social_network": {
     "instagram": "အင်စတာဂရမ်",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "ပစ္စည်းအသစ်ထည့်ပါ။",
     "title_input": "ခေါင်းစဥ်",
+    "placeholder_input": "နေရာယူသည်။",
     "name_input": "ပြောင်းလဲနိုင်သောအမည်",
     "value_input": "တန်ဖိုးများ",
     "value_input_message": "အသုံးပြုသူရွေးချယ်မှုများစာရင်း",
     "default": "မူလတန်ဖိုး",
+    "file_type_input": "လက်ခံနိုင်သော ဖိုင်အမျိုးအစားများ",
+    "file_type_message": "jpeg ၊ png ၊ zip ၊ ...",
     "types": {
       "simple": "ရိုးရိုးရှင်းရှင်း",
       "selective": "ကထာ",
       "switch": "ပြောင်းပါ။",
       "file": "ဖို",
-      "number": "နံပါတ်"
+      "number": "နံပါတ်",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "နေရာယူသည်။",
-    "file_type_input": "လက်ခံနိုင်သော ဖိုင်အမျိုးအစားများ",
-    "file_type_message": "jpeg ၊ png ၊ zip ၊ ..."
   },
   "virtual_order_info_summery": {
     "title": "ထုတ်ကုန်အမည်",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "ငွေပေးချေမှုအခြေအနေ",
     "payment_status_waiting": "ငွေပေးချေမှုကို စောင့်နေသည်။",
     "payment_status_paid": "အခကြေးငွေ",
-    "buyer": "ဝယ်သူ"
+    "buyer": "ဝယ်သူ",
   },
   "virtual_item_info": {
     "title": "ပစ္စည်းအတု",
     "outputs": {
       "title": "Output အချက်အလက်",
       "sub_title": "ဤအရာ၏လျှို့ဝှက်အချက်အလက်များ",
-      "message": "ထုတ်ကုန်ကို ဝယ်ယူပြီးနောက် ဤအချက်အလက်ကို အသုံးပြုသူအား ပြသပါမည်။"
+      "message": "ထုတ်ကုန်ကို ဝယ်ယူပြီးနောက် ဤအချက်အလက်ကို အသုံးပြုသူအား ပြသပါမည်။",
     },
     "inputs": {
       "title": "သတင်းအချက်အလက် လိုအပ်သည်။",
       "sub_title": "ဝယ်သူ အချက်အလက် လိုအပ်ပါသည်။",
-      "message": "ဝယ်ယူသူသည် ဖောင်တွင် တောင်းဆိုထားသော အချက်အလက်ကို ထည့်သွင်းရပါမည်။"
+      "message": "ဝယ်ယူသူသည် ဖောင်တွင် တောင်းဆိုထားသော အချက်အလက်ကို ထည့်သွင်းရပါမည်။",
     },
     "notifications": {
       "inputs_set_success": "အချက်အလက်ဖောင်ကို အောင်မြင်စွာ စာရင်းသွင်းပြီးပါပြီ။",
       "confirm_by_admin_success": "မှာယူမှုပြီးစီးကြောင်း အတည်ပြုခဲ့သည်။",
-      "confirm_by_buyer_success": "မှာယူမှုပြီးစီးကြောင်း အတည်ပြုခဲ့သည်။"
-    }
+      "confirm_by_buyer_success": "မှာယူမှုပြီးစီးကြောင်း အတည်ပြုခဲ့သည်။",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "COD ငွေပေးချေမှုဖြင့် ဤမှာယူမှုကို လက်ခံ၍မရပါ။",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "ပစ္စည်းပြတ်။",
     "legal_restriction": "ဥပဒေ ကန့်သတ်ချက်များကြောင့် အမိန့်မထုတ်နိုင်ပါ။",
     "pricing_fault": "ရောင်းသူ စျေးမှား။",
-    "system_fault": "စနစ် ချို့ယွင်းချက်။"
+    "system_fault": "စနစ် ချို့ယွင်းချက်။",
   },
   "basket_order_info_summery": {
     "receiver": "လက်ခံသူ",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "လျှော့စျေး",
     "final_price": "နောက်ဆုံးပမာဏ",
     "address": "ပေးပို့ရမည့်လိပ်စာ",
-    "payment_status": "ငွေပေးချေမှုအခြေအနေ"
+    "payment_status": "ငွေပေးချေမှုအခြေအနေ",
   },
   "basket_status": {
     "open": "ဖွင့်သည်။",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "ဖျက်သိမ်းလိုက်သည်။",
     "cod": "Delivery တွင်ငွေပေးချေပါ။",
     "receipt_added": "ပြေစာ ထည့်ထားသည်။",
-    "payment_processing": "ငွေပေးချေမှု လုပ်ဆောင်ခြင်း။"
+    "payment_processing": "ငွေပေးချေမှု လုပ်ဆောင်ခြင်း။",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "ပယ်ချသည်။",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "အတည်ပြုချက်",
     "step_3": "ဘိတ်",
     "step_4": "ပေးပို့မှုအပေါ်",
-    "step_5": "ပေးပို့ခဲ့သည်။"
+    "step_5": "ပေးပို့ခဲ့သည်။",
   },
   "basket_return_request_view": {
     "title": "ပြန်လည်တောင်းဆိုခြင်း။",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "တောင်းဆိုချက်ကို ငြင်းပယ်ပါ။",
     "message_for_admin": "Selldone ကို အသုံးပြု၍ သင်လက်ခံထားသော သဘောတူညီချက်အရ၊ သင်သည် ဝယ်သူထံ ဆက်သွယ်ပြီး သူ/သူမ၏ အမှာစာ ပြန်လည်ပေးပို့သည့် လုပ်ငန်းစဉ်ကို အသိပေးရမည်ဖြစ်သည်။ တောင်းဆိုမှုကို လက်ခံခြင်း သို့မဟုတ် ပယ်ချပြီး ဝယ်သူ၏ အပြည့်အဝခွင့်ပြုချက်ရရှိပါက ၎င်းကို လုပ်ဆောင်ရပါမည်။",
     "notifications": {
-      "update_status_success": "တောင်းဆိုမှု အခြေအနေကို အပ်ဒိတ်လုပ်ထားသည်။"
-    }
+      "update_status_success": "တောင်းဆိုမှု အခြေအနေကို အပ်ဒိတ်လုပ်ထားသည်။",
+    },
   },
   "basket_list": {
     "return_count": "ပြန်ပို့- {count} နံပါတ်",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "မူကွဲ",
       "warranty": "အာမခံချက်များ",
       "count": "ရေတွက်ပါ။",
-      "price": "စျေးနှုန်း"
-    }
+      "price": "စျေးနှုန်း",
+    },
   },
   "return_request_list": {
     "count": "ကိုးကားနံပါတ်",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "လက်ခံရရှိသည့်နေ့စွဲ",
       "state": "အဆင့်အတန်း",
       "reason": "အကြောင်းပြချက်",
-      "return_warranty_period": "အာမခံကာလ"
-    }
+      "return_warranty_period": "အာမခံကာလ",
+    },
   },
   "data_toolbar": {
     "search": "ရှာရန်",
     "sort_by": "အလိုက်စဥ်သည်",
-    "count_item": "ဖိုင် {item} ကို ပြပါ။"
+    "count_item": "ဖိုင် {item} ကို ပြပါ။",
   },
   "sort": {
     "created_at": "ရက်စွဲကိုဖန်တီးပါ။",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "အရာရှိ",
     "registered": "မှတ်ပုံတင်ထားသည်။",
     "purchased": "ဝယ်ထားတယ်။",
-    "sex": "ကျား၊"
+    "sex": "ကျား၊",
   },
   "search_box": {
     "result": "ရှာဖွေမှုရလဒ်များ",
     "tips": "ထုတ်ကုန်များနှင့် အမျိုးအစားများကို ရှာဖွေပါ။",
     "label": "ရှာရန်...",
-    "category": "အမျိုးအစား"
+    "category": "အမျိုးအစား",
   },
   "lead_status": {
     "physical_fast_delivery": "လက်ငင်းပေးပို့ခြင်း။",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "လာမည့် {days} ရက်မှ စတင်၍ ပြင်ဆင်ခြင်းနှင့် တင်သွင်းခြင်း။",
     "virtual_fast_prepare": "လက်ငင်းပေးပို့ခြင်း။",
     "virtual_under_24h": "လာမည့် {lead} နာရီအတွင်း လုပ်ဆောင်ပါမည်။",
-    "virtual_over_24h": "လာမည့် {days} ရက်မှ စတင်ပါမည်။"
+    "virtual_over_24h": "လာမည့် {days} ရက်မှ စတင်ပါမည်။",
   },
   "return_request_state": {
     "pending": "ဆိုင်းငံ့ထားသည်။",
     "accepted": "အတည်ပြုခဲ့သည်။",
-    "rejected": "ပယ်ချသည်။"
+    "rejected": "ပယ်ချသည်။",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "အထုပ် သို့မဟုတ် အမှတ်စဉ်နံပါတ်ကို လက်ဆော့ခြင်း။",
       "U5": "ပါဆယ်အိတ်ထဲက ပစ္စည်းအချို့ ပျောက်ဆုံးနေပါတယ်။",
       "U6": "ထုတ်ကုန်သည် မူရင်းမဟုတ်ပါ။",
-      "U7": "ကုန်ပစ္စည်းသည် သတ်မှတ်ချက်များနှင့် မကိုက်ညီပါ။"
-    }
+      "U7": "ကုန်ပစ္စည်းသည် သတ်မှတ်ချက်များနှင့် မကိုက်ညီပါ။",
+    },
   },
   "image_uploader": {
     "label": "<u>ဖိုင်ကို ဆွဲထည့်ပါ သို့မဟုတ် ရွေးပါ။</u>",
-    "max_size": "အများဆုံးခွင့်ပြုထားသောအရွယ်အစား- {size}"
+    "max_size": "အများဆုံးခွင့်ပြုထားသောအရွယ်အစား- {size}",
   },
   "timespan": {
     "Morning": "မနက် ၈ နာရီမှ ၁၂ နာရီ",
     "Evening": "နေ့လည် ၁၂ နာရီမှ ညနေ ၆ နာရီ",
     "Night": "ညနေ ၆ နာရီမှ ၁၂ နာရီ",
-    "Instant": "လက်ငင်းပို့စ်"
+    "Instant": "လက်ငင်းပို့စ်",
   },
   "week_day": {
     "Saturday": "စနေနေ့",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "အင်္ဂါ",
     "Wednesday": "ဗုဒ္ဓဟူးနေ့",
     "Thursday": "ကြာသပတေးနေ့",
-    "Friday": "သောကြာ"
+    "Friday": "သောကြာ",
   },
   "payment_form": {
     "title": "ငွေပေးချေမှုနည်းလမ်းကို ရွေးပါ။",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "ဂုဏ်ယူပါသည်၊ သင့်မှာယူမှု အခမဲ့ဖြစ်သည်။",
     "order_free_payment_action": "ယခု အခမဲ့မှာယူပါ။",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "ငွေပေးချေမှုလိပ်စာ",
-      "amount": "ပမာဏ"
-    }
+      "amount": "ပမာဏ",
+    },
   },
   "discount_input": {
     "limit": "{percent}% {limit} {currency} အထိ လျှော့စျေး",
     "action": "လျှော့စျေးကုဒ်ထည့်ပါ။",
     "code_input": "စျေးလျှော့ပေးသောနံပါတ်",
     "notifications": {
-      "add_success": "ဂုဏ်ယူပါတယ်၊ တရားဝင်လျှော့စျေးကုဒ်။"
-    }
+      "add_success": "ဂုဏ်ယူပါတယ်၊ တရားဝင်လျှော့စျေးကုဒ်။",
+    },
   },
   "gift_card": {
     "inactive": "ကတ်ပိတ်ထားသည်။",
     "expire": "သက်တမ်းကုန်",
     "transfer": "အပြောင်းအရွှေ့",
-    "send_to_friend": "သူငယ်ချင်းထံ ပို့ပါ။"
+    "send_to_friend": "သူငယ်ချင်းထံ ပို့ပါ။",
   },
   "count_down": {
     "days": "နေ့",
     "hours": "နာရီ",
     "minutes": "မိနစ်များ",
-    "seconds": "စက္ကန့်"
+    "seconds": "စက္ကန့်",
   },
   "gift_status": {
     "Unpaid": "ပြေစာ စောင့်ဆိုင်းနေသည်။",
     "Paid": "အခကြေးငွေ",
     "Rejected": "ပယ်ချသည်။",
-    "Canceled": "ဖျက်သိမ်းလိုက်သည်။"
+    "Canceled": "ဖျက်သိမ်းလိုက်သည်။",
   },
   "gift_program_status": {
     "Airdrop": "ငွေပေးချေမှုစနစ်",
     "Advertising": "ကြော်ငြာ",
     "PersonalGift": "ကိုယ်ပိုင်လက်ဆောင်",
-    "ShopGift": "လက်ဆောင်ပစ္စည်းဆိုင်"
+    "ShopGift": "လက်ဆောင်ပစ္စည်းဆိုင်",
   },
   "currency_selector": {
-    "label": "ငွေကြေး"
+    "label": "ငွေကြေး",
   },
   "need_login": {
     "title": "လော့ဂ်အင်",
     "login_sms": "SMS အကောင့်ဝင်ပါ။",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Google ဖြင့် အကောင့်ဝင်ပါ။",
     "login_facebook": "Facebook ဖြင့် ဝင်ရောက်ပါ။",
+    "login_apple": "Apple ဖြင့် အကောင့်ဝင်ပါ။",
     "login_account": "Selldone ဖြင့် ဝင်ရောက်ပါ။",
     "register": "အသုံးပြုသူအသစ်လား။ ယခု စာရင်းသွင်းပါ။",
     "mobile_input": "သင့်မိုဘိုင်းကို ထည့်သွင်းပါ။",
     "verification_code": "အတည်ပြုရန်ကုတ်",
     "msg_title": "မင်္ဂလာပါ",
     "msg_body": "ကျေးဇူးပြု၍ ဝင်ရောက်ပါ။ စက္ကန့်အနည်းငယ်ပဲကြာတယ်။",
-    "login_apple": "Apple ဖြင့် အကောင့်ဝင်ပါ။",
     "login_email": "အီးမေးလ်ဖြင့်ဝင်ရောက်ပါ။",
     "email_login_step_1": "ကျေးဇူးပြု၍ မှန်ကန်သော အီးမေးလ်လိပ်စာကို ဖြည့်သွင်းပါ၊ ကျွန်ုပ်တို့သည် ၎င်းထံသို့ အကောင့်ဝင်ကုဒ်ကို ပေးပို့ပါမည်။ မှတ်ပုံတင်ရန်မလိုအပ်ပါ။",
     "email_login_step_2": "သင့်အီးမေးလ်လိပ်စာကို မှန်မှန်ကန်ကန် ထည့်သွင်းထားကြောင်း သေချာပါသလား။ ကျွန်ုပ်တို့သည် ပေးထားသော အီးမေးလ်သို့ အကောင့်ဝင်ကုဒ်ကို ပေးပို့သွားမည်ဖြစ်သောကြောင့် ၎င်း၏တိကျမှုကို သေချာပါစေ။",
-    "email_login_step_3": "သင့်အီးမေးလ်သို့ ကုဒ်တစ်ခု ပေးပို့ထားပါသည်။ ကုဒ်သည် 10 မိနစ်အတွင်း သက်တမ်းကုန်မည်ကို သတိပြုပါ။"
+    "email_login_step_3": "သင့်အီးမေးလ်သို့ ကုဒ်တစ်ခု ပေးပို့ထားပါသည်။ ကုဒ်သည် 10 မိနစ်အတွင်း သက်တမ်းကုန်မည်ကို သတိပြုပါ။",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "၅ နှစ် ရွှေဆိုင်"
+      "name": "၅ နှစ် ရွှေဆိုင်",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 နှစ်ရွှေဆိုင်"
+      "name": "4 နှစ်ရွှေဆိုင်",
     },
     "GOLDEN_3YEAR": {
-      "name": "၃ နှစ်ရွှေဆိုင်"
+      "name": "၃ နှစ်ရွှေဆိုင်",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 နှစ်ရွှေဆိုင်"
+      "name": "2 နှစ်ရွှေဆိုင်",
     },
     "GOLDEN_5YEAR": {
-      "name": "၁ နှစ်ရွှေဆိုင်"
+      "name": "၁ နှစ်ရွှေဆိုင်",
     },
     "TOKEN_OWNER_1M": {
-      "name": "ရွှေရင်းနှီးမြှုပ်နှံသူ"
+      "name": "ရွှေရင်းနှီးမြှုပ်နှံသူ",
     },
     "TOKEN_OWNER_10M": {
-      "name": "စိန်ရင်းနှီးမြှုပ်နှံသူ"
+      "name": "စိန်ရင်းနှီးမြှုပ်နှံသူ",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby ရင်းနှီးမြှုပ်နှံသူ"
+      "name": "Ruby ရင်းနှီးမြှုပ်နှံသူ",
     },
     "COMMUNITY_LOYAL": {
-      "name": "ထိပ်တန်းဆက်သွယ်ရေးကွန်ရက်များ၏ အဖွဲ့ဝင်"
+      "name": "ထိပ်တန်းဆက်သွယ်ရေးကွန်ရက်များ၏ အဖွဲ့ဝင်",
     },
     "GOLD_SUPPLIER": {
-      "name": "ရွှေပေးသွင်းသူ"
+      "name": "ရွှေပေးသွင်းသူ",
     },
     "GOLD_SELLER": {
-      "name": "ရွှေရောင်းဝယ်ရေး"
+      "name": "ရွှေရောင်းဝယ်ရေး",
     },
     "CONTENT_SUPERMAN": {
-      "name": "ထိပ်တန်း အကြောင်းအရာ ထုတ်လုပ်သူ"
+      "name": "ထိပ်တန်း အကြောင်းအရာ ထုတ်လုပ်သူ",
     },
     "NINJA": {
-      "name": "နင်ဂျာ"
+      "name": "နင်ဂျာ",
     },
     "STAR": {
-      "name": "ကြယ်ပွင့်"
+      "name": "ကြယ်ပွင့်",
     },
     "GUARDIAN": {
-      "name": "ဖောက်သည်ဝန်ဆောင်မှုကောင်းသည်။"
+      "name": "ဖောက်သည်ဝန်ဆောင်မှုကောင်းသည်။",
     },
     "KING": {
-      "name": "စျေးကွက်ဘုရင်"
-    }
+      "name": "စျေးကွက်ဘုရင်",
+    },
   },
   "cookie": {
     "title": "ဤဝဘ်ဆိုဒ်သည် ကွတ်ကီးများကို အသုံးပြုသည်။",
     "message": "ဤဝဘ်ဆိုဒ်သည် သုံးစွဲသူအတွေ့အကြုံကို မြှင့်တင်ရန် ကွတ်ကီးများကို အသုံးပြုသည်။ ကျွန်ုပ်တို့၏ဝဘ်ဆိုဒ်ကိုအသုံးပြုခြင်းဖြင့် ကျွန်ုပ်တို့၏ Cookie Policy နှင့်အညီ ကွတ်ကီးများအားလုံးကို သင်သဘောတူပါသည်။",
     "preferences_action": "နှစ်သက်ရာများကို စီမံပါ။",
-    "agree_action": "ကျွန်တော်သဘောတူသည်"
+    "agree_action": "ကျွန်တော်သဘောတူသည်",
   },
   "basket_item_message": {
     "title": "ဤအရာအတွက် လိုအပ်သော အချက်အလက်",
     "save_actions": "မက်ဆေ့ချ်ကို သိမ်းဆည်းပါ။",
+    "product_inputs_preview_message": "ဤစိတ်ကြိုက်ရွေးချယ်စရာများကို သင့်မှာယူထားသောထုတ်ကုန်အတွက် ရနိုင်ပါသည်။ ပစ္စည်းကို သင့်လှည်းသို့ ပေါင်းထည့်လိုက်သည်နှင့် သင်သည် ဤနေရာတွင် ချိန်ညှိမှုများ ပြုလုပ်နိုင်မည်ဖြစ်သည်။",
     "notifications": {
-      "success": "သင်၏ထည့်သွင်းမှုဒေတာကို သိမ်းဆည်းပြီးဖြစ်သည်။"
+      "success": "သင်၏ထည့်သွင်းမှုဒေတာကို သိမ်းဆည်းပြီးဖြစ်သည်။",
     },
-    "product_inputs_preview_message": "ဤစိတ်ကြိုက်ရွေးချယ်စရာများကို သင့်မှာယူထားသောထုတ်ကုန်အတွက် ရနိုင်ပါသည်။ ပစ္စည်းကို သင့်လှည်းသို့ ပေါင်းထည့်လိုက်သည်နှင့် သင်သည် ဤနေရာတွင် ချိန်ညှိမှုများ ပြုလုပ်နိုင်မည်ဖြစ်သည်။"
   },
   "faq": {
     "faq": "အမေးများသောမေးခွန်းများ",
     "title": "အမေးအဖြေများ",
-    "sub_title": "မင်း ငါတို့ကို ဘာလုပ်ခိုင်းတာလဲ။",
     "message": "အောက်ပါအဖြေများထဲမှ သင့်မေးခွန်းအတွက် အဖြေကို ရှာပါ။ မေးခွန်းများ အဖြေမရသေးပါက ကျွန်ုပ်တို့ကို မေးပါ။",
     "add_question_action": "မေးခွန်းသစ်မေးပါ။",
     "read_more": "ဆက်ဖတ်ရန် ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "မေးခွန်း",
     "question_input_placeholder": "သင့်မေးခွန်းကို မေးပါ။",
     "notifications": {
-      "success_add": "သင့်မေးခွန်းကို အောင်မြင်စွာ တင်သွင်းခဲ့သည်။"
-    }
+      "success_add": "သင့်မေးခွန်းကို အောင်မြင်စွာ တင်သွင်းခဲ့သည်။",
+    },
+    "sub_title": "မင်း ငါတို့ကို ဘာလုပ်ခိုင်းတာလဲ။",
   },
   "rating_labels": [
     "အရမ်းဆိုးတယ်။",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "ဦးတည်ရာလိပ်စာကို ထည့်ပါ။",
     "enter_your_address": "သင့်လိပ်စာကို ထည့်ပါ။",
     "postal_code": "စာပို့ကုဒ်",
-    "phone_input": "ဖုန်း {type}",
+    "phone_input": "ဖုန်း",
     "building_number": "အဆောက်အဦနံပါတ်",
     "building_unit": "ယူနစ်",
     "full_name_input": "နာမည်အပြည့်အစုံ {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "လိပ်စာတံဆိပ် (လိုအပ်သည်)",
     "notifications": {
       "save_in_list": "ဤလိပ်စာကို ၎င်း၏အသေးစိတ်အချက်အလက်များနှင့်အတူ သင့်စာရင်းတွင် သိမ်းဆည်းထားသည်။",
-      "edit_success": "လိပ်စာအသစ်တန်ဖိုးများကို {title} တွင် သိမ်းဆည်းထားသည်။"
+      "edit_success": "လိပ်စာအသစ်တန်ဖိုးများကို {title} တွင် သိမ်းဆည်းထားသည်။",
     },
     "delete_address_dialog": {
       "title": "လိပ်စာကိုဖျက်ပါ။",
       "message": "ဤလိပ်စာကို ဖျက်လိုသည်မှာ သေချာပါသလား။",
-      "action": "လိပ်စာကို ဖယ်ရှားပါ။"
-    }
+      "action": "လိပ်စာကို ဖယ်ရှားပါ။",
+    },
   },
   "comment_manager": {
     "can_not_edit": "ဤမှတ်ချက်ကို တည်းဖြတ်၍မရပါ။",
     "comment_input_empty": "မက်ဆေ့ဂျ် စာသားသည် ဗလာဖြစ်နေသည်။",
-    "article_not_saved": "ဆောင်းပါးကို သိမ်းဆည်းပါ။"
+    "article_not_saved": "ဆောင်းပါးကို သိမ်းဆည်းပါ။",
   },
   "wheel_fortune": {
     "title": "Play & Win",
     "message": "ဂိမ်းတစ်ခုစီ၏ကုန်ကျစရိတ်မှာ ချစ်ပ် ၁၀ ခုဖြစ်သည်။ သင့်တွင် လောလောဆယ် {chips} ချစ်ပ်ရှိသည်။ စတိုးဆိုင်မှဝယ်ယူခြင်းဖြင့်ပိုမို chip ကိုရယူပါ။",
     "win_message": "ဂုဏ်ယူပါတယ် မင်းအနိုင်ရတယ်။",
     "lost_message": "ဆောရီး၊ မင်း ဂိမ်းရှုံးသွားပြီ။",
-    "try_again": "သင်ထပ်ကြိုးစားနိုင်သည်။"
+    "try_again": "သင်ထပ်ကြိုးစားနိုင်သည်။",
   },
   "json": {
     "add": "ဖွဲ့စည်းပုံဒေတာထည့်ပါ။",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "ဖွဲ့စည်းပုံများ",
     "book": {
       "title": "စာအုပ်",
-      "desc": "ရှာဖွေမှုရလဒ်များမှ တိုက်ရိုက်တွေ့ရှိသည့် စာအုပ်ကို အသုံးပြုသူများအား ဝယ်ယူနိုင်စေမည့် စာအုပ်လုပ်ဆောင်ချက်များ။"
+      "desc": "ရှာဖွေမှုရလဒ်များမှ တိုက်ရိုက်တွေ့ရှိသည့် စာအုပ်ကို အသုံးပြုသူများအား ဝယ်ယူနိုင်စေမည့် စာအုပ်လုပ်ဆောင်ချက်များ။",
     },
     "occupation": {
       "title": "ခန့်မှန်းလစာ",
-      "desc": "Google ပေါ်ရှိ အလုပ်ရှာဖွေမှုအတွေ့အကြုံတွင် ဖော်ပြထားသော လစာအပိုင်းအခြားများနှင့် အလုပ်အမျိုးအစားများအတွက် ဒေသအခြေခံလစာ ပျမ်းမျှလစာများကဲ့သို့သော လစာခန့်မှန်းချက်ဆိုင်ရာ အချက်အလက်။"
+      "desc": "Google ပေါ်ရှိ အလုပ်ရှာဖွေမှုအတွေ့အကြုံတွင် ဖော်ပြထားသော လစာအပိုင်းအခြားများနှင့် အလုပ်အမျိုးအစားများအတွက် ဒေသအခြေခံလစာ ပျမ်းမျှလစာများကဲ့သို့သော လစာခန့်မှန်းချက်ဆိုင်ရာ အချက်အလက်။",
     },
     "course": {
       "title": "သင်တန်း",
-      "desc": "ပံ့ပိုးပေးသူ-သတ်သတ်မှတ်မှတ်စာရင်းတွင်ပါရှိသော ပညာရေးဆိုင်ရာသင်တန်းများ။ သင်တန်းများတွင် သင်တန်းခေါင်းစဉ်၊ ပံ့ပိုးပေးသူနှင့် အတိုချုံးဖော်ပြချက်တို့ ပါဝင်နိုင်သည်။"
+      "desc": "ပံ့ပိုးပေးသူ-သတ်သတ်မှတ်မှတ်စာရင်းတွင်ပါရှိသော ပညာရေးဆိုင်ရာသင်တန်းများ။ သင်တန်းများတွင် သင်တန်းခေါင်းစဉ်၊ ပံ့ပိုးပေးသူနှင့် အတိုချုံးဖော်ပြချက်တို့ ပါဝင်နိုင်သည်။",
     },
     "howto": {
       "title": "ဘယ်လို",
-      "desc": "ဗီဒီယို၊ ရုပ်ပုံများနှင့် စာသားများပါရှိသော လုပ်ငန်းတစ်ခုကို အောင်မြင်စွာ ပြီးမြောက်စေရန် လုပ်ဆောင်နည်းတစ်ခုသည် သုံးစွဲသူများအား လမ်းလျှောက်ပေးသည်။"
+      "desc": "ဗီဒီယို၊ ရုပ်ပုံများနှင့် စာသားများပါရှိသော လုပ်ငန်းတစ်ခုကို အောင်မြင်စွာ ပြီးမြောက်စေရန် လုပ်ဆောင်နည်းတစ်ခုသည် သုံးစွဲသူများအား လမ်းလျှောက်ပေးသည်။",
     },
     "recipe": {
       "title": "ကြော်တယ်။",
-      "desc": "တစ်ဦးချင်းစီ ကြွယ်ဝသောရလဒ် သို့မဟုတ် လက်ခံဆောင်ရွက်ပေးသည့် ဝိုင်းဝိုင်းတစ်ခု၏ တစ်စိတ်တစ်ပိုင်းအဖြစ် ပြသသော ချက်ပြုတ်နည်းများ။"
-    }
+      "desc": "တစ်ဦးချင်းစီ ကြွယ်ဝသောရလဒ် သို့မဟုတ် လက်ခံဆောင်ရွက်ပေးသည့် ဝိုင်းဝိုင်းတစ်ခု၏ တစ်စိတ်တစ်ပိုင်းအဖြစ် ပြသသော ချက်ပြုတ်နည်းများ။",
+    },
   },
   "support": {
     "Financial": "ငွေကြေး",
     "Technical": "နည်းပညာပိုင်း",
-    "Advisor": "အကြံပေး"
+    "Advisor": "အကြံပေး",
   },
   "condition": {
     "new": "အသစ်",
@@ -1885,91 +2098,152 @@ export default {
     "used": "အသုံးပြုခံ့",
     "used_fair": "မျှတစွာသုံးသည်။",
     "used_good": "သုံးလို့ကောင်းပါတယ်။",
-    "used_like_new": "အသစ်အတိုင်းသုံးတယ်။"
+    "used_like_new": "အသစ်အတိုင်းသုံးတယ်။",
   },
   "variant_filter": {
     "title": "ထုတ်ကုန်မျိုးကွဲ စစ်ထုတ်မှု",
-    "only_available": "ကုန်ပစ္စည်းလက်ဝယ်ရှိ"
+    "only_available": "ကုန်ပစ္စည်းလက်ဝယ်ရှိ",
   },
   "service": {
     "task": {
       "title": "လုပ်ငန်းတာဝန်များ",
-      "message": "ဤဝန်ဆောင်မှုတွင် လုပ်ဆောင်ခဲ့သော အလုပ်များစာရင်း။"
+      "message": "ဤဝန်ဆောင်မှုတွင် လုပ်ဆောင်ခဲ့သော အလုပ်များစာရင်း။",
     },
     "appointment": {
       "title": "ချိန်းတယ်။",
-      "message": "သင့်အတွက်သင့်လျော်သော နေ့နှင့်နာရီကိုအခြေခံ၍ အောက်ပါအချိန်များမှ တစ်ပတ်၏အချိန်များကို ရွေးချယ်ပါ။"
+      "message": "သင့်အတွက်သင့်လျော်သော နေ့နှင့်နာရီကိုအခြေခံ၍ အောက်ပါအချိန်များမှ တစ်ပတ်၏အချိန်များကို ရွေးချယ်ပါ။",
     },
     "booking": {
       "title": "ဘွတ်ကင်လုပ်ပါ။",
-      "message": "အောက်ပါ ပြက္ခဒိန်တွင် သင် ကြိုတင်မှာကြားလိုသော ရက်များ၏ အချိန်ကာလကို သတ်မှတ်ပါ။"
+      "message": "အောက်ပါ ပြက္ခဒိန်တွင် သင် ကြိုတင်မှာကြားလိုသော ရက်များ၏ အချိန်ကာလကို သတ်မှတ်ပါ။",
     },
     "subscription": {
-      "title": "စာရင်းသွင်းပါ။"
+      "title": "စာရင်းသွင်းပါ။",
     },
     "charge": {
-      "title": "တာဝန်ခံ"
-    }
+      "title": "တာဝန်ခံ",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "ပုံသေစျေးနှုန်း",
-      "message": "ဤစျေးနှုန်းအမျိုးအစားတွင်၊ ကုန်ပစ္စည်း၏စျေးနှုန်းသည် ပုံသေပမာဏဖြစ်ပြီး ဝယ်သူအတွက် ဈေးနှုန်းတွက်ချက်ရန် တောင်းဆိုရန်မလိုအပ်ပါ။"
+      "message": "ဤစျေးနှုန်းအမျိုးအစားတွင်၊ ကုန်ပစ္စည်း၏စျေးနှုန်းသည် ပုံသေပမာဏဖြစ်ပြီး ဝယ်သူအတွက် ဈေးနှုန်းတွက်ချက်ရန် တောင်းဆိုရန်မလိုအပ်ပါ။",
     },
     "ESTIMATION": {
       "title": "ခန့်မှန်းစျေးနှုန်း",
-      "message": "မှာယူသည့်အခါ ကုန်ပစ္စည်းနှင့် ဝန်ဆောင်မှုများ၏ စျေးနှုန်းကို ရောင်းချသူမှ အတိုင်းအတာတစ်ခုအထိ တွက်ချက်ပေးမည်ဖြစ်ပြီး ဝန်ဆောင်မှုကာလအတွင်း ငွေပေးချေမှုပြေစာများကို ပြောင်းလဲနိုင်သည် သို့မဟုတ် ပေါင်းထည့်နိုင်ပါသည်။"
+      "message": "မှာယူသည့်အခါ ကုန်ပစ္စည်းနှင့် ဝန်ဆောင်မှုများ၏ စျေးနှုန်းကို ရောင်းချသူမှ အတိုင်းအတာတစ်ခုအထိ တွက်ချက်ပေးမည်ဖြစ်ပြီး ဝန်ဆောင်မှုကာလအတွင်း ငွေပေးချေမှုပြေစာများကို ပြောင်းလဲနိုင်သည် သို့မဟုတ် ပေါင်းထည့်နိုင်ပါသည်။",
     },
     "AGREEMENT": {
       "title": "သဘောတူညီချက်စျေးနှုန်း",
-      "message": "အော်ဒါတင်ပြီးနောက် ကုန်ပစ္စည်း သို့မဟုတ် ဝန်ဆောင်မှုများ၏ နောက်ဆုံးစျေးနှုန်းကို ရောင်းချသူမှ ပြောင်းလဲမည်မဟုတ်ပါ။"
+      "message": "အော်ဒါတင်ပြီးနောက် ကုန်ပစ္စည်း သို့မဟုတ် ဝန်ဆောင်မှုများ၏ နောက်ဆုံးစျေးနှုန်းကို ရောင်းချသူမှ ပြောင်းလဲမည်မဟုတ်ပါ။",
     },
     "BID": {
       "title": "လေလံ/လေလံ",
-      "message": "ထုတ်ကုန်ကို ဖြစ်နိုင်ချေရှိသော ဝယ်သူများမှ အမြင့်ဆုံးလေလံဈေးဖြင့် ရောင်းချပါမည်။"
-    }
+      "message": "ထုတ်ကုန်ကို ဖြစ်နိုင်ချေရှိသော ဝယ်သူများမှ အမြင့်ဆုံးလေလံဈေးဖြင့် ရောင်းချပါမည်။",
+    },
   },
   "map": {
     "title": "ကုန်ပစ္စည်းလက်ခံရန်နေရာ",
     "confirm": "တည်နေရာသတ်မှတ်ပါ။",
     "address": "ဦးတည်ရာ",
-    "receptor": "လက်ခံသူ"
+    "receptor": "လက်ခံသူ",
   },
   "ShopBots": {
-    "telegram": "ကြေးနန်းစာ"
+    "telegram": "ကြေးနန်းစာ",
   },
   "article_tags": {
     "title": "အကြောင်းအရာ တဂ်များ",
     "tags_input": "တဂ်",
     "tags_input_message": "ဤဆောင်းပါး၏ Tag စာရင်း",
     "notification": {
-      "add_success": "တဂ်များထည့်ထားသည်။"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "အလွန်ရှုပ်ထွေးသည်။",
-    "hard": "ခက်တယ်။",
-    "intermediate": "အလယ်အလတ်",
-    "easy": "လွယ်ပါတယ်။"
-  },
-  "billing_period": {
-    "Daily": "နေ့စဉ်",
-    "Weekly": "အပတ်စဉ်",
-    "Monthly": "လစဉ်",
-    "Every3Months": "၃ လတိုင်း",
-    "Every6Months": "၆ လတိုင်း",
-    "Yearly": "နှစ်အလိုက်"
+      "add_success": "တဂ်များထည့်ထားသည်။",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "အိုး မကောင်းဘူး!",
     "between2_3": "ရပါတယ်!",
     "between3_4": "လူတွေက ကြိုက်တယ်။",
-    "between4_5": "လူတွေက သဘောကျတယ်။"
+    "between4_5": "လူတွေက သဘောကျတယ်။",
   },
   "seasons": {
     "spring": "နွေဦး",
     "summer": "နွေရာသီ",
     "autumn": "ဆောင်းဦး",
-    "winter": "ဆောင်းရာသီ"
-  }
+    "winter": "ဆောင်းရာသီ",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

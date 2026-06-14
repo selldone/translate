@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "मैले प्रयोगका सर्तहरू र गोपनीयता नीति पढेको छु र तिनीहरूसँग सहमत छु।",
   "commons": {
     "Currency": "मुद्रा",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "राज्य",
     "Price": "मूल्य",
@@ -169,6 +170,7 @@ export default {
     "net_price": "खुद मुल्य",
     "tax": "कर",
     "tax_included": "मूल्यमा समावेश छ",
+    "tax_included_abstract": "समावेश",
     "limit": "सीमा",
     "min_purchase": "न्यूनतम खरिद",
     "eligible_for": "लागि योग्य",
@@ -302,6 +304,7 @@ export default {
     "created_at": "मिति सिर्जना गरियो",
     "updated_at": "अन्तिम अपडेट",
     "register_at": "दर्ता मिति",
+    "last_modified": "Last modified",
     "old": "पुरानो",
     "new": "नयाँ",
     "start": "सुरु गर्नुहोस्",
@@ -330,6 +333,7 @@ export default {
     "reseller": "पुनर्विक्रेता",
     "tracking_code": "ट्र्याकिङ कोड",
     "tracking_url": "ट्र्याकिङ URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "पूर्तिहरू",
     "reject": "अस्वीकार गर्नुहोस्",
     "reserved": "आरक्षित",
@@ -341,6 +345,7 @@ export default {
     "waiting": "प्रतिक्षा गर्दै...",
     "waiting_connecting_payment": "भुक्तानी सेवाको लागि प्रतिक्षा गर्दै...",
     "creating_secure_payment": "सुरक्षित भुक्तानी सिर्जना गर्दै।",
+    "waiting_for_payment": "कृपया भुक्तानी पूरा गर्नुहोस्...",
     "officer": "अधिकारी",
     "ticket": "टिकट",
     "ticket_url": "टिकट url",
@@ -361,7 +366,6 @@ export default {
     "rates": "मूल्याङ्कन",
     "seen_at": "मा देखियो",
     "completed": "पूरा भयो",
-    "you": "तपाईं",
     "shop": "पसल",
     "store": "स्टोर",
     "granted": "प्रदान गरियो",
@@ -498,6 +502,7 @@ export default {
     "tablet": "ट्याब्लेट",
     "pc": "PC",
     "acquisition_channel": "अधिग्रहण च्यानल",
+    "channels_overview": "Channels overview",
     "to": "को",
     "info": "जानकारी",
     "general": "सामान्य",
@@ -559,7 +564,6 @@ export default {
     "per_product": "प्रति उत्पादन",
     "journey": "यात्रा",
     "after": "पछि",
-    "waiting_for_payment": "कृपया भुक्तानी पूरा गर्नुहोस्...",
     "hour": "घण्टा",
     "minute": "मिनेट",
     "premium": "प्रिमियम",
@@ -569,6 +573,7 @@ export default {
     "shops": "स्टोरहरू",
     "vendor": "विक्रेता",
     "vendors": "विक्रेताहरु",
+    "no_vendors": "No vendors",
     "marketplace": "बजार",
     "verify_date": "मिति प्रमाणित गर्नुहोस्",
     "note": "नोट",
@@ -604,7 +609,6 @@ export default {
     "variant": "संस्करण",
     "secure": "सुरक्षित",
     "admin": "व्यवस्थापक",
-    "tax_included_abstract": "समावेश",
     "payment_not_settled": "भुक्तानी तय भएन!",
     "orders_list": "अर्डर सूची",
     "subscription_plan": "सदस्यता योजना",
@@ -642,16 +646,170 @@ export default {
     "clusters": "क्लस्टरहरू",
     "subscriptions": "सदस्यताहरू",
     "spam": "स्प्याम",
-    "video": "भिडियो"
+    "video": "भिडियो",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "तपाईं",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "धेरै जटिल",
+    "hard": "कडा",
+    "intermediate": "मध्यवर्ती",
+    "easy": "सजिलो",
   },
   "dialogs": {
     "delete": {
       "title": "मेटाउन",
       "message": "के तपाइँ यो वस्तु मेटाउन निश्चित हुनुहुन्छ?",
-      "action": "हो, अब मेटाउनुहोस्"
-    }
+      "action": "हो, अब मेटाउनुहोस्",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "भाडोमा हाल",
     "cancel": "रद्द गर्नुहोस्",
     "update": "अपडेट गर्नुहोस्",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "उपहार कार्ड थप्नुहोस्",
     "charge": "चार्ज",
     "send_invites": "निमन्त्रणाहरू पठाउनुहोस्",
-    "past": "विगत",
+    "paste": "टाँस्नुहोस्",
     "restore": "पुनर्स्थापना गर्नुहोस्",
     "cut": "काट्नुहोस्",
     "get_sms_code": "प्रमाणीकरण कोड प्राप्त गर्नुहोस्",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "पूर्वावलोकन देखाउनुहोस्",
     "hide_preview": "पूर्वावलोकन लुकाउनुहोस्",
     "download_now": "डाउनलोड गर्नुहोस्",
+    "watch_now": "अहिले हेर्नुहोस्",
     "auto_fill": "स्वतः भर्नुहोस्",
     "track": "ट्र्याक",
     "change_state": "स्थिति परिवर्तन गर्नुहोस्",
     "done": "सकियो",
     "reply": "जवाफ दिनुहोस्",
-    "watch_now": "अहिले हेर्नुहोस्",
     "unlock": "अनलक गर्नुहोस्",
     "lock": "ताला",
     "create_clone": "क्लोन सिर्जना गर्नुहोस्",
@@ -773,41 +931,71 @@ export default {
     "buy": "किन्नुहोस्",
     "view_all": "सबै हेर्नुहोस्",
     "view_now": "अहिले हेर्नुहोस्",
-    "paste": "टाँस्नुहोस्"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "विगत",
+  },
+  "billing_period": {
+    "Daily": "दैनिक",
+    "Weekly": "साप्ताहिक",
+    "Monthly": "मासिक",
+    "Every3Months": "हरेक ३ महिनामा",
+    "Every6Months": "हरेक ६ महिनामा",
+    "Yearly": "वार्षिक",
   },
   "instance_message_title": "तत्काल सन्देश पठाउनुहोस्",
   "instance_message": "नमस्ते {name}, मेरो नाम {company} बाट {author} हो।",
   "errors": {
     "419": "तपाईं लामो समयदेखि निष्क्रिय हुनुहुन्छ, कृपया <b>⟳ सुरक्षा कारणहरूको लागि पृष्ठ रिफ्रेस</b> गर्नुहोस्।",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "प्रणालीले ब्लकचेनसँग सिङ्क्रोनाइज गर्दैन। हाम्रा सर्भरहरूको सिङ्क्रोनाइजेसन पूरा नभएसम्म नयाँ लेनदेन सिर्जना गर्न सम्भव हुने छैन। हामी समस्या समाधान गर्दैछौं।",
-    "gateway_network_error": "भुक्तानी गेटवे सेवाले सञ्चार समस्याको सामना गरेको छ।"
+    "gateway_network_error": "भुक्तानी गेटवे सेवाले सञ्चार समस्याको सामना गरेको छ।",
   },
   "receiver_info": {
     "map": {
       "title": "ढुवानी ठेगाना",
       "confirm": "स्थान सेट गर्नुहोस्",
       "address_type": "गन्तव्य",
-      "receptor_type": "रिसिभर"
+      "receptor_type": "रिसिभर",
     },
     "receiver_address": "ढुवानी ठेगाना चयन गर्नुहोस्",
+    "service_address": "आफ्नो ठेगाना चयन गर्नुहोस्",
+    "select_billing_address": "Select billing address",
     "address": "ठेगाना",
     "postcode": "पोष्टकोड",
     "enter_value": "यहाँ भर्नुहोस्",
     "address_note": "नोट",
     "tel": "सम्पर्क नम्बर",
-    "service_address": "आफ्नो ठेगाना चयन गर्नुहोस्"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "के। जि"
+    "kg": "के। जि",
   },
   "mass_unit_name": {
     "g": "ग्राम",
     "oz": "औंस",
     "lb": "पाउन्ड",
-    "kg": "किलोग्राम"
+    "kg": "किलोग्राम",
   },
   "length": {
     "cm": "सेमी",
@@ -815,7 +1003,7 @@ export default {
     "ft": "फीट",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "सेन्टिमिटर",
@@ -823,17 +1011,21 @@ export default {
     "ft": "खुट्टा",
     "mm": "मिलिमिटर",
     "m": "मिटर",
-    "yd": "यार्ड"
+    "yd": "यार्ड",
   },
   "distance": {
     "m": "मिटर",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "दिनहरू",
     "hours": "घण्टा",
     "minutes": "मिनेट",
-    "seconds": "सेकेन्ड"
+    "seconds": "सेकेन्ड",
   },
   "units": [
     "एकाइ",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "राज्य",
     "Territory": "क्षेत्र",
-    "Province": "प्रान्त"
+    "Province": "प्रान्त",
   },
   "transaction_status": {
     "RequireAction": "कारबाही आवश्यक छ",
     "Processing": "प्रशोधन गर्दै",
     "Canceled": "रद्द गरियो",
-    "Succeeded": "सफल भयो"
+    "Succeeded": "सफल भयो",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "जोन कोक्स",
@@ -885,7 +1078,17 @@ export default {
     "language": "भाषा छनोट गर्नुस..",
     "friend_email": "तपाईको साथीको इमेल...",
     "friend_name": "अप्ट। तपाईंको साथीको नाम",
-    "select_date": "मिति चयन गर्नुहोस्..."
+    "select_date": "मिति चयन गर्नुहोस्...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "पुष्टि गर्नुहोस्",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "अधिकतम {maxCount} वर्णहरू",
     "invalid_url": "अमान्य URL",
     "country_invalid": "गन्तव्य देश चयन गर्नुहोस्!",
-    "postal_code_invalid": "मान्य हुलाक कोड सेट गर्नुहोस्!"
+    "postal_code_invalid": "मान्य हुलाक कोड सेट गर्नुहोस्!",
   },
   "colors": {
     "#D32F2F": "रातो",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "एकाइ",
     "postcode": "पोष्टकोड",
     "note": "नोट",
-    "county": "काउन्टी"
+    "county": "काउन्टी",
   },
   "product_types": {
     "physical": "शारीरिक",
@@ -1004,13 +1207,13 @@ export default {
     "service": "सेवा",
     "service_description": "सेवाहरू जस्तै: मर्मत, यातायात, शिक्षण।",
     "subscription": "सदस्यता",
-    "subscription_description": "उत्पादनहरू, सेवाहरू, वा सामग्रीहरूको लागि सदस्यता र इनभ्वाइसिङ।"
+    "subscription_description": "उत्पादनहरू, सेवाहरू, वा सामग्रीहरूको लागि सदस्यता र इनभ्वाइसिङ।",
   },
   "license": {
     "free": "नि:शुल्क",
     "startup": "स्टार्टअप",
     "company": "कम्पनी",
-    "enterprise": "उद्यम"
+    "enterprise": "उद्यम",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "रङ",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "प्याकमा गणना गर्नुहोस्",
     "weight": "वजन",
     "type": "सामग्री",
-    "style": "शैली"
+    "style": "शैली",
   },
   "delivery_state": {
     "check_queue": "समीक्षाको प्रतीक्षा गर्दै",
     "order_confirm": "क्रम पुष्टि",
     "preparing_order": "तयारी गर्दै",
     "sent_order": "डेलिभरीमा",
-    "to_customer": "डेलिभर गरियो"
+    "to_customer": "डेलिभर गरियो",
   },
   "status": {
     "unpaid": "भुक्तान नगरिएको",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "अस्वीकार गर्नुहोस्",
     "pending": "विचाराधीन",
     "rejected": "अस्वीकार गरियो",
-    "accepted": "स्वीकार गरियो"
+    "accepted": "स्वीकार गरियो",
   },
   "dimensions": {
     "cm": "सेमी",
     "km": "km",
-    "kg": "के। जि"
+    "kg": "के। जि",
   },
   "transportation_type": {
     "motorbike": "मोटरसाइकल",
@@ -1224,7 +1429,7 @@ export default {
     "global": "ग्लोबल यातायात",
     "global_description": "हवाई, समुद्र वा जमिनबाट विदेशमा ढुवानी।",
     "pickup": "प्रगति गर्नु",
-    "pickup_description": "ग्राहकहरूले तपाईंको भौतिक स्टोर वा गोदाममा वस्तुहरू उठाउँछन्।"
+    "pickup_description": "ग्राहकहरूले तपाईंको भौतिक स्टोर वा गोदाममा वस्तुहरू उठाउँछन्।",
   },
   "article": {
     "login_to_see_error": "लेख पहुँच गर्न लगइन गर्नुहोस्",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "सम्पादन मोड",
       "view_mode": "मोड हेर्नुहोस्",
-      "delete": "लेख मेटाउनुहोस्"
+      "delete": "लेख मेटाउनुहोस्",
     },
     "schedule_action": "तपाईं प्रकाशन तालिका बनाउन चाहनुहुन्छ?",
     "schedule_title": "स्वतः प्रकाशनको तालिका बनाउनुहोस्",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "दुरुपयोग रिपोर्ट गर्नुहोस् र सामग्री हटाउनुहोस्",
       "report_title": "यस सामग्रीलाई अपमानजनक रूपमा रिपोर्ट गर्नुहोस्",
       "message": "यो सामग्री पेश गर्नुको कारण के हो? निम्न मध्ये कुनै एक विकल्प छान्नुहोस्।",
-      "accept_and_delete_action": "पुष्टि गर्नुहोस् र सामग्री मेटाउनुहोस्"
+      "accept_and_delete_action": "पुष्टि गर्नुहोस् र सामग्री मेटाउनुहोस्",
     },
     "schedule_dialog": {
       "title": "सामग्री रिलीज तालिका",
       "publish_at": "मा प्रकाशित गर्नुहोस्",
       "last_edit": "पछिल्लो सम्पादन",
-      "view_action": "लेख हेर्नुहोस्"
+      "view_action": "लेख हेर्नुहोस्",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "जानकारी पेश गर्नुहोस्",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "रिपोर्ट गर्नुहोस् र मेटाउनुहोस्",
       "report_and_delete_success_message": "लेख सफलतापूर्वक मेटाइएको छ।",
       "report_success_title": "रिपोर्ट लेख",
-      "report_success_message": "यस लेखमा तपाईंको रिपोर्ट पोस्ट गरिएको छ।"
+      "report_success_message": "यस लेखमा तपाईंको रिपोर्ट पोस्ट गरिएको छ।",
     },
     "alert": {
       "delete_article": {
         "title": "लेख मेटाउनुहोस्",
         "message": "के तपाइँ यो लेख स्थायी रूपमा मेटाउन निश्चित हुनुहुन्छ?",
-        "action": "मेटाउन"
-      }
+        "action": "मेटाउन",
+      },
     },
     "edit_window": {
       "title": "छवि पाठ र सारांश चयन गर्नुहोस्",
-      "digest": "सारांश"
+      "digest": "सारांश",
     },
     "editor": {
       "title_placeholder": "शीर्षक..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "यो फाइल धेरै ठूलो छ:",
       "notifications": {
         "image_uploaded_success": "छवि सफलतापूर्वक सुरक्षित गरियो",
-        "image_uploaded_failed": "छवि लोड गर्दा त्रुटि।"
+        "image_uploaded_failed": "छवि लोड गर्दा त्रुटि।",
       },
       "embed_placeholder": "iframe कोड, Facebook, Youtube वा अन्य कुनै URL प्रविष्ट गर्नुहोस् र इन्टर थिच्नुहोस्।",
       "embed_caption_placeholder": "शीर्षक प्रविष्ट गर्नुहोस् (वैकल्पिक)",
-      "images_caption_placeholder": "यो छविको लागि शीर्षक प्रविष्ट गर्नुहोस् .."
-    }
+      "images_caption_placeholder": "यो छविको लागि शीर्षक प्रविष्ट गर्नुहोस् ..",
+    },
   },
   "article_report": {
     "inappropriate": "यस लेखको सामग्री अनुपयुक्त छ।",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "मलाई लाग्छ कि यो सामग्रीमा पोर्नोग्राफी समावेश छ र यो कानूनको उल्लङ्घनमा छ।",
     "harassment": "मलाई लाग्छ यो जातिवादी हो।",
     "hate": "मलाई लाग्छ कि यो हिंसालाई बढावा दिने बारे हो।",
-    "infringe": "यसले मेरो अधिकार हनन गर्छ।"
+    "infringe": "यसले मेरो अधिकार हनन गर्छ।",
   },
   "comments": {
     "new_action": "एक टिप्पणी छोड्न क्लिक गर्नुहोस् ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "थप टिप्पणीहरू प्राप्त गर्नुहोस् ..",
     "cant_send_comment": "तपाईंले नयाँ पोस्ट थप्न सक्नुहुन्न।",
     "cant_remove_this_comment": "तपाईंले यो टिप्पणी मेटाउन सक्नुहुन्न!",
-    "product_buyer": "खरिदकर्ता",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "मेरा टिप्पणीहरू",
     "delete_alert": {
       "title": "टिप्पणी मेटाउनुहोस्",
       "message": "तपाईं यो टिप्पणी मेटाउन चाहनुहुन्छ?",
-      "action": "मेटाउन"
+      "action": "मेटाउन",
     },
     "notifications": {
-      "delete_success": "तपाईंको टिप्पणी सफलतापूर्वक मेटाइयो।"
+      "delete_success": "तपाईंको टिप्पणी सफलतापूर्वक मेटाइयो।",
     },
     "first_send": "पहिलो पोस्ट",
     "comment_at": "अन",
     "edit_comment": "टिप्पणी सम्पादन गर्नुहोस्",
-    "my_comments": "मेरा टिप्पणीहरू"
+    "product_buyer": "खरिदकर्ता",
   },
   "customer_club": {
     "bronze": "कांस्य",
     "silver": "चाँदी",
     "gold": "सुनौलो",
     "platinum": "प्लेटिनम",
-    "diamond": "हीरा"
+    "diamond": "हीरा",
   },
   "application_categories": {
     "tracking": "प्रयोगकर्ता व्यवहार जाँच गर्दै",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "विज्ञापन",
     "staff": "कर्मचारी",
     "incentive": "प्रोत्साहन",
-    "shop": "पसल"
+    "shop": "पसल",
   },
   "social_network": {
     "instagram": "इन्स्टाग्राम",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "व्हाट्सएप",
     "skype": "स्काइप",
-    "facebook_messenger": "फेसबुक मेसेन्जर"
+    "facebook_messenger": "फेसबुक मेसेन्जर",
   },
   "form_builder": {
     "add_item_action": "नयाँ वस्तु थप्नुहोस्",
     "title_input": "शीर्षक",
+    "placeholder_input": "प्लेसहोल्डर",
     "name_input": "चर नाम",
     "value_input": "मानहरू",
     "value_input_message": "प्रयोगकर्ता विकल्प सूची",
     "default": "पूर्वनिर्धारित मान",
+    "file_type_input": "स्वीकार्य फाइल प्रकारहरू",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "सरल",
       "selective": "चयनात्मक",
       "switch": "स्विच गर्नुहोस्",
       "file": "फाइल",
-      "number": "नम्बर"
+      "number": "नम्बर",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "प्लेसहोल्डर",
-    "file_type_input": "स्वीकार्य फाइल प्रकारहरू",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "उत्पादनको नाम",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "भुक्तानी स्थिति",
     "payment_status_waiting": "भुक्तानीको लागि पर्खँदै",
     "payment_status_paid": "भुक्तान गरियो",
-    "buyer": "खरिदकर्ता"
+    "buyer": "खरिदकर्ता",
   },
   "virtual_item_info": {
     "title": "भर्चुअल वस्तु",
     "outputs": {
       "title": "आउटपुट जानकारी",
       "sub_title": "यस वस्तुको गोप्य जानकारी",
-      "message": "यो जानकारी उत्पादन खरिद गरेपछि प्रयोगकर्तालाई देखाइनेछ।"
+      "message": "यो जानकारी उत्पादन खरिद गरेपछि प्रयोगकर्तालाई देखाइनेछ।",
     },
     "inputs": {
       "title": "जानकारी आवश्यक छ",
       "sub_title": "क्रेता जानकारी आवश्यक छ",
-      "message": "खरिदकर्ताले फारममा अनुरोध गरिएको जानकारी प्रविष्ट गर्नुपर्छ"
+      "message": "खरिदकर्ताले फारममा अनुरोध गरिएको जानकारी प्रविष्ट गर्नुपर्छ",
     },
     "notifications": {
       "inputs_set_success": "जानकारी फारम सफलतापूर्वक दर्ता भयो।",
       "confirm_by_admin_success": "अर्डर पूरा भएको पुष्टि भयो।",
-      "confirm_by_buyer_success": "अर्डर पूरा भएको पुष्टि भयो।"
-    }
+      "confirm_by_buyer_success": "अर्डर पूरा भएको पुष्टि भयो।",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "यो अर्डर COD भुक्तानी द्वारा स्वीकार गर्न सकिँदैन।",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "स्टक बाहिर।",
     "legal_restriction": "कानुनी प्रतिबन्धका कारण अर्डर राख्न असमर्थ।",
     "pricing_fault": "विक्रेता द्वारा मूल्य निर्धारण गल्ती।",
-    "system_fault": "प्रणाली बग।"
+    "system_fault": "प्रणाली बग।",
   },
   "basket_order_info_summery": {
     "receiver": "रिसिभर",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "छुट",
     "final_price": "अन्तिम रकम",
     "address": "वितरण ठेगाना",
-    "payment_status": "भुक्तानी स्थिति"
+    "payment_status": "भुक्तानी स्थिति",
   },
   "basket_status": {
     "open": "खोल्नुहोस्",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "रद्द गरियो",
     "cod": "डेलिभरीमा भुक्तानी गर्नुहोस्",
     "receipt_added": "रसिद थपियो",
-    "payment_processing": "भुक्तानी प्रशोधन"
+    "payment_processing": "भुक्तानी प्रशोधन",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "अस्वीकार गरियो",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "पुष्टिकरण",
     "step_3": "तयारी",
     "step_4": "डेलिभरीमा",
-    "step_5": "डेलिभर गरियो"
+    "step_5": "डेलिभर गरियो",
   },
   "basket_return_request_view": {
     "title": "फिर्ता अनुरोध",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "अनुरोध अस्वीकार गर्नुहोस्",
     "message_for_admin": "तपाईंले Selldone प्रयोग गरेर स्वीकार गर्नुभएको सम्झौता अनुसार, तपाईंले खरिदकर्तालाई सम्पर्क गर्नुपर्छ र उसको अर्डर फिर्ता गर्ने प्रक्रियाको बारेमा जानकारी गराउनु पर्छ। यदि अनुरोध स्वीकृत वा अस्वीकार गरियो र खरिदकर्ताको पूर्ण सहमति प्राप्त भयो भने यो गरिनु पर्छ।",
     "notifications": {
-      "update_status_success": "अनुरोध स्थिति अद्यावधिक गर्नुभयो।"
-    }
+      "update_status_success": "अनुरोध स्थिति अद्यावधिक गर्नुभयो।",
+    },
   },
   "basket_list": {
     "return_count": "फिर्ता गर्नुहोस्: {count} नम्बर",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "संस्करण",
       "warranty": "वारेन्टीहरू",
       "count": "गणना गर्नुहोस्",
-      "price": "मूल्य"
-    }
+      "price": "मूल्य",
+    },
   },
   "return_request_list": {
     "count": "सन्दर्भ नम्बर",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "प्राप्त भएको मिति",
       "state": "स्थिति",
       "reason": "कारण",
-      "return_warranty_period": "वारेन्टी अवधि"
-    }
+      "return_warranty_period": "वारेन्टी अवधि",
+    },
   },
   "data_toolbar": {
     "search": "खोज्नुहोस्",
     "sort_by": "अनुसार क्रमबद्ध गर्नुहोस्",
-    "count_item": "{item} वस्तुहरू देखाउनुहोस्"
+    "count_item": "{item} वस्तुहरू देखाउनुहोस्",
   },
   "sort": {
     "created_at": "मिति सिर्जना गर्नुहोस्",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "अधिकारी",
     "registered": "दर्ता",
     "purchased": "खरिद गरियो",
-    "sex": "लिङ्ग"
+    "sex": "लिङ्ग",
   },
   "search_box": {
     "result": "खोज परिणामहरू",
     "tips": "उत्पादनहरू र कोटीहरू खोज्नुहोस्",
     "label": "खोज...",
-    "category": "श्रेणी"
+    "category": "श्रेणी",
   },
   "lead_status": {
     "physical_fast_delivery": "तत्काल वितरण",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "आगामी {days} दिनबाट तयारी गरी पेश गर्ने",
     "virtual_fast_prepare": "तत्काल वितरण",
     "virtual_under_24h": "अर्को {lead} घण्टा भित्र सम्पन्न हुनेछ",
-    "virtual_over_24h": "अर्को {days} दिनबाट गरिनेछ"
+    "virtual_over_24h": "अर्को {days} दिनबाट गरिनेछ",
   },
   "return_request_state": {
     "pending": "विचाराधीन",
     "accepted": "पुष्टि भयो",
-    "rejected": "अस्वीकार गरियो"
+    "rejected": "अस्वीकार गरियो",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "प्याकेज वा सिरियल नम्बर छेडछाड",
       "U5": "पार्सलबाट केही वस्तुहरू हराइरहेका छन्",
       "U6": "उत्पादन मौलिक छैन",
-      "U7": "उत्पादनले विनिर्देशहरू पूरा गर्दैन"
-    }
+      "U7": "उत्पादनले विनिर्देशहरू पूरा गर्दैन",
+    },
   },
   "image_uploader": {
     "label": "तान्नुहोस् र छोड्नुहोस् वा <u>फाइल चयन गर्नुहोस्</u>",
-    "max_size": "अधिकतम अनुमति दिइएको आकार: {size}"
+    "max_size": "अधिकतम अनुमति दिइएको आकार: {size}",
   },
   "timespan": {
     "Morning": "8 बजे - 12 बजे",
     "Evening": "दिउँसो 12 बजे देखि 6 बजे सम्म",
     "Night": "बेलुका ६ बजेदेखि १२ बजेसम्म",
-    "Instant": "तत्काल पोस्ट"
+    "Instant": "तत्काल पोस्ट",
   },
   "week_day": {
     "Saturday": "शनिबार",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "मंगलबार",
     "Wednesday": "बुधबार",
     "Thursday": "बिहीबार",
-    "Friday": "शुक्रबार"
+    "Friday": "शुक्रबार",
   },
   "payment_form": {
     "title": "भुक्तानी विधि चयन गर्नुहोस्",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "बधाई छ, तपाईको अर्डर नि:शुल्क छ!",
     "order_free_payment_action": "अब नि: शुल्क अर्डर गर्नुहोस्",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "भुक्तानी ठेगाना",
-      "amount": "रकम"
-    }
+      "amount": "रकम",
+    },
   },
   "discount_input": {
     "limit": "{limit} {currency} सम्म {percent}% छुट",
     "action": "छुट कोड थप्नुहोस्",
     "code_input": "छुट कोड",
     "notifications": {
-      "add_success": "बधाई छ, मान्य छुट कोड।"
-    }
+      "add_success": "बधाई छ, मान्य छुट कोड।",
+    },
   },
   "gift_card": {
     "inactive": "कार्ड असक्षम गरिएको छ",
     "expire": "म्याद समाप्ति",
     "transfer": "स्थानान्तरण",
-    "send_to_friend": "साथीलाई पठाउनुहोस्"
+    "send_to_friend": "साथीलाई पठाउनुहोस्",
   },
   "count_down": {
     "days": "दिन",
     "hours": "घण्टा",
     "minutes": "मिनेट",
-    "seconds": "सेकेन्ड"
+    "seconds": "सेकेन्ड",
   },
   "gift_status": {
     "Unpaid": "रसिदको पर्खाइमा",
     "Paid": "भुक्तान गरियो",
     "Rejected": "अस्वीकार गरियो",
-    "Canceled": "रद्द गरियो"
+    "Canceled": "रद्द गरियो",
   },
   "gift_program_status": {
     "Airdrop": "भुक्तानी प्रणाली",
     "Advertising": "विज्ञापन",
     "PersonalGift": "व्यक्तिगत उपहार",
-    "ShopGift": "उपहार पसल"
+    "ShopGift": "उपहार पसल",
   },
   "currency_selector": {
-    "label": "मुद्रा"
+    "label": "मुद्रा",
   },
   "need_login": {
     "title": "लग - इन",
     "login_sms": "एसएमएस लगइन",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Google मार्फत लगइन गर्नुहोस्",
     "login_facebook": "Facebook मा लगइन गर्नुहोस्",
+    "login_apple": "Apple सँग लग इन गर्नुहोस्",
     "login_account": "Selldone द्वारा लगइन गर्नुहोस्",
     "register": "नयाँ प्रयोगकर्ता? अहिले नै दर्ता गर्नुहोस।",
     "mobile_input": "आफ्नो मोबाइल प्रविष्ट गर्नुहोस्",
     "verification_code": "प्रमाणीकरण कोड",
     "msg_title": "नमस्ते,",
     "msg_body": "कृपया लगइन गर्नुहोस्। यसले केही सेकेन्ड मात्र लिन्छ।",
-    "login_apple": "Apple सँग लग इन गर्नुहोस्",
     "login_email": "इमेल मार्फत लगइन गर्नुहोस्",
     "email_login_step_1": "कृपया वैध इमेल ठेगाना प्रदान गर्नुहोस्, र हामी यसमा लगइन कोड पठाउनेछौं। कुनै दर्ता आवश्यक छैन।",
     "email_login_step_2": "के तपाइँ निश्चित हुनुहुन्छ कि तपाइँ तपाइँको इमेल ठेगाना सही रूपमा प्रविष्ट गर्नुभयो? हामी प्रदान गरिएको इमेलमा लगइन कोड पठाउने छौं, त्यसैले कृपया यसको शुद्धता सुनिश्चित गर्नुहोस्।",
-    "email_login_step_3": "हामीले तपाईंको इमेलमा कोड पठाएका छौं। कृपया नोट गर्नुहोस् कि कोड 10 मिनेटमा समाप्त हुनेछ।"
+    "email_login_step_3": "हामीले तपाईंको इमेलमा कोड पठाएका छौं। कृपया नोट गर्नुहोस् कि कोड 10 मिनेटमा समाप्त हुनेछ।",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "५ वर्षको सुनको पसल"
+      "name": "५ वर्षको सुनको पसल",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 वर्ष सुन पसल"
+      "name": "4 वर्ष सुन पसल",
     },
     "GOLDEN_3YEAR": {
-      "name": "३ वर्षको सुनको पसल"
+      "name": "३ वर्षको सुनको पसल",
     },
     "GOLDEN_4YEAR": {
-      "name": "२ वर्ष सुनको पसल"
+      "name": "२ वर्ष सुनको पसल",
     },
     "GOLDEN_5YEAR": {
-      "name": "१ वर्ष सुनको पसल"
+      "name": "१ वर्ष सुनको पसल",
     },
     "TOKEN_OWNER_1M": {
-      "name": "सुनौलो लगानीकर्ता"
+      "name": "सुनौलो लगानीकर्ता",
     },
     "TOKEN_OWNER_10M": {
-      "name": "हीरा लगानीकर्ता"
+      "name": "हीरा लगानीकर्ता",
     },
     "TOKEN_OWNER_100M": {
-      "name": "रुबी लगानीकर्ता"
+      "name": "रुबी लगानीकर्ता",
     },
     "COMMUNITY_LOYAL": {
-      "name": "संचार नेटवर्क को सुपीरियर समुदाय को सदस्य"
+      "name": "संचार नेटवर्क को सुपीरियर समुदाय को सदस्य",
     },
     "GOLD_SUPPLIER": {
-      "name": "सुन आपूर्तिकर्ता"
+      "name": "सुन आपूर्तिकर्ता",
     },
     "GOLD_SELLER": {
-      "name": "सुन व्यापारी"
+      "name": "सुन व्यापारी",
     },
     "CONTENT_SUPERMAN": {
-      "name": "शीर्ष सामग्री निर्माता"
+      "name": "शीर्ष सामग्री निर्माता",
     },
     "NINJA": {
-      "name": "निन्जा"
+      "name": "निन्जा",
     },
     "STAR": {
-      "name": "तारा"
+      "name": "तारा",
     },
     "GUARDIAN": {
-      "name": "महान ग्राहक सेवा"
+      "name": "महान ग्राहक सेवा",
     },
     "KING": {
-      "name": "बजार को राजा"
-    }
+      "name": "बजार को राजा",
+    },
   },
   "cookie": {
     "title": "यो वेबसाइटले कुकीहरू प्रयोग गर्दछ",
     "message": "यो वेबसाइट प्रयोगकर्ता अनुभव सुधार गर्न कुकीहरू प्रयोग गर्दछ। हाम्रो वेबसाइट प्रयोग गरेर तपाइँ हाम्रो कुकी नीति अनुसार सबै कुकीहरूमा सहमति जनाउनुहुन्छ।",
     "preferences_action": "प्राथमिकताहरू प्रबन्ध गर्नुहोस्",
-    "agree_action": "म सहमत छु"
+    "agree_action": "म सहमत छु",
   },
   "basket_item_message": {
     "title": "यस वस्तुको लागि आवश्यक जानकारी",
     "save_actions": "सन्देश बचत गर्नुहोस्",
+    "product_inputs_preview_message": "यी अनुकूलन विकल्पहरू तपाईंको अर्डर गरिएको उत्पादनको लागि उपलब्ध छन्। तपाईंको कार्टमा वस्तु थपिएपछि, तपाईं यहाँ समायोजन गर्न सक्षम हुनुहुनेछ।",
     "notifications": {
-      "success": "तपाईंको इनपुट डाटा बचत गरिएको छ।"
+      "success": "तपाईंको इनपुट डाटा बचत गरिएको छ।",
     },
-    "product_inputs_preview_message": "यी अनुकूलन विकल्पहरू तपाईंको अर्डर गरिएको उत्पादनको लागि उपलब्ध छन्। तपाईंको कार्टमा वस्तु थपिएपछि, तपाईं यहाँ समायोजन गर्न सक्षम हुनुहुनेछ।"
   },
   "faq": {
     "faq": "बारम्बार सोधिने प्रश्नहरू",
     "title": "प्रश्न र उत्तरहरू",
-    "sub_title": "तपाईले हामीलाई के गर्न भन्नुभयो।",
     "message": "तलका उत्तरहरू मध्ये आफ्नो प्रश्नको जवाफ खोज्नुहोस्। प्रश्नहरू अनुत्तरित रहन्छन् भने हामीलाई सोध्नुहोस्।",
     "add_question_action": "नयाँ प्रश्न सोध्नुहोस्",
     "read_more": "थप पढ्नुहोस् ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "प्रश्न",
     "question_input_placeholder": "आफ्नो प्रश्न सोध्नुहोस्।",
     "notifications": {
-      "success_add": "तपाईंको प्रश्न सफलतापूर्वक पेस गरियो।"
-    }
+      "success_add": "तपाईंको प्रश्न सफलतापूर्वक पेस गरियो।",
+    },
+    "sub_title": "तपाईले हामीलाई के गर्न भन्नुभयो।",
   },
   "rating_labels": [
     "धेरै नराम्रो",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "गन्तव्य ठेगाना प्रविष्ट गर्नुहोस्",
     "enter_your_address": "आफ्नो ठेगाना प्रविष्ट गर्नुहोस्।",
     "postal_code": "पोष्टकोड",
-    "phone_input": "फोन {type}",
+    "phone_input": "फोन",
     "building_number": "भवन नम्बर",
     "building_unit": "एकाइ",
     "full_name_input": "पूरा नाम {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "ठेगाना लेबल (आवश्यक)",
     "notifications": {
       "save_in_list": "यो ठेगाना सबै विवरणहरू सहित तपाईंको सूचीमा सुरक्षित गरिएको छ।",
-      "edit_success": "नयाँ ठेगाना मानहरू {title} मा सुरक्षित गरियो।"
+      "edit_success": "नयाँ ठेगाना मानहरू {title} मा सुरक्षित गरियो।",
     },
     "delete_address_dialog": {
       "title": "ठेगाना मेटाउनुहोस्",
       "message": "के तपाइँ यो ठेगाना मेटाउन निश्चित हुनुहुन्छ?",
-      "action": "ठेगाना हटाउनुहोस्"
-    }
+      "action": "ठेगाना हटाउनुहोस्",
+    },
   },
   "comment_manager": {
     "can_not_edit": "यो टिप्पणी सम्पादन गर्न सकिँदैन!",
     "comment_input_empty": "सन्देश पाठ खाली छ!",
-    "article_not_saved": "लेख बचत गर्नुहोस्!"
+    "article_not_saved": "लेख बचत गर्नुहोस्!",
   },
   "wheel_fortune": {
     "title": "खेल्नुहोस् र जित्नुहोस्",
     "message": "प्रत्येक खेल को लागत 10 चिप्स छ। तपाईंसँग हाल {chips} चिप छ। स्टोरबाट खरिद गरेर थप चिप प्राप्त गर्नुहोस्।",
     "win_message": "बधाई छ, तपाईले जित्नुभयो!",
     "lost_message": "माफ गर्नुहोस्, तपाईंले खेल हार्नुभयो।",
-    "try_again": "तपाईं फेरि प्रयास गर्न सक्नुहुन्छ"
+    "try_again": "तपाईं फेरि प्रयास गर्न सक्नुहुन्छ",
   },
   "json": {
     "add": "संरचना डेटा थप्नुहोस्",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "संरचनाहरू",
     "book": {
       "title": "पुस्तक",
-      "desc": "पुस्तक कार्यहरू जसले प्रयोगकर्ताहरूलाई उनीहरूले खोज परिणामहरूबाट सीधै फेला पार्ने पुस्तक किन्न सक्षम गर्दछ।"
+      "desc": "पुस्तक कार्यहरू जसले प्रयोगकर्ताहरूलाई उनीहरूले खोज परिणामहरूबाट सीधै फेला पार्ने पुस्तक किन्न सक्षम गर्दछ।",
     },
     "occupation": {
       "title": "अनुमानित तलब",
-      "desc": "तलब अनुमानको बारेमा जानकारी, जस्तै तलब दायराहरू र कामका प्रकारहरूका लागि क्षेत्र-आधारित तलब औसत, Google मा जागिर खोजी अनुभवमा प्रदर्शित हुन्छ।"
+      "desc": "तलब अनुमानको बारेमा जानकारी, जस्तै तलब दायराहरू र कामका प्रकारहरूका लागि क्षेत्र-आधारित तलब औसत, Google मा जागिर खोजी अनुभवमा प्रदर्शित हुन्छ।",
     },
     "course": {
       "title": "पाठ्यक्रम",
-      "desc": "शैक्षिक पाठ्यक्रमहरू जुन प्रदायक-विशेष सूचीमा देखा पर्दछ। पाठ्यक्रमहरूमा पाठ्यक्रम शीर्षक, प्रदायक, र छोटो विवरण समावेश हुन सक्छ।"
+      "desc": "शैक्षिक पाठ्यक्रमहरू जुन प्रदायक-विशेष सूचीमा देखा पर्दछ। पाठ्यक्रमहरूमा पाठ्यक्रम शीर्षक, प्रदायक, र छोटो विवरण समावेश हुन सक्छ।",
     },
     "howto": {
       "title": "कसरी",
-      "desc": "भिडियो, तस्बिरहरू, र पाठहरू देखाउँदै, कसरी कार्य सफलतापूर्वक पूरा गर्नका लागि चरणहरूको सेटको माध्यमबाट प्रयोगकर्ताहरूलाई कसरी हिंड्ने।"
+      "desc": "भिडियो, तस्बिरहरू, र पाठहरू देखाउँदै, कसरी कार्य सफलतापूर्वक पूरा गर्नका लागि चरणहरूको सेटको माध्यमबाट प्रयोगकर्ताहरूलाई कसरी हिंड्ने।",
     },
     "recipe": {
       "title": "नुस्खा",
-      "desc": "व्यक्तिगत रिच नतिजा वा होस्ट क्यारोसेलको अंशको रूपमा प्रदर्शन गर्ने रेसिपीहरू।"
-    }
+      "desc": "व्यक्तिगत रिच नतिजा वा होस्ट क्यारोसेलको अंशको रूपमा प्रदर्शन गर्ने रेसिपीहरू।",
+    },
   },
   "support": {
     "Financial": "आर्थिक",
     "Technical": "प्राविधिक",
-    "Advisor": "सल्लाहकार"
+    "Advisor": "सल्लाहकार",
   },
   "condition": {
     "new": "नयाँ",
@@ -1885,91 +2098,152 @@ export default {
     "used": "प्रयोग गरियो",
     "used_fair": "निष्पक्ष प्रयोग गरियो",
     "used_good": "राम्रो प्रयोग गरियो",
-    "used_like_new": "नयाँ जस्तै प्रयोग गरियो"
+    "used_like_new": "नयाँ जस्तै प्रयोग गरियो",
   },
   "variant_filter": {
     "title": "उत्पादन भिन्न फिल्टर",
-    "only_available": "स्टक मा"
+    "only_available": "स्टक मा",
   },
   "service": {
     "task": {
       "title": "कार्यहरू",
-      "message": "यस सेवामा गरिएका कार्यहरूको सूची।"
+      "message": "यस सेवामा गरिएका कार्यहरूको सूची।",
     },
     "appointment": {
       "title": "नियुक्ति",
-      "message": "तपाईंको लागि उपयुक्त दिन र घण्टाको आधारमा निम्न समयहरूबाट हप्ताको समयहरू छनौट गर्नुहोस्।"
+      "message": "तपाईंको लागि उपयुक्त दिन र घण्टाको आधारमा निम्न समयहरूबाट हप्ताको समयहरू छनौट गर्नुहोस्।",
     },
     "booking": {
       "title": "बुकिङ",
-      "message": "तलको पात्रोमा तपाईंले रिजर्भेसन गर्न चाहनुभएको दिनहरूको समयावधि निर्दिष्ट गर्नुहोस्।"
+      "message": "तलको पात्रोमा तपाईंले रिजर्भेसन गर्न चाहनुभएको दिनहरूको समयावधि निर्दिष्ट गर्नुहोस्।",
     },
     "subscription": {
-      "title": "सदस्यता"
+      "title": "सदस्यता",
     },
     "charge": {
-      "title": "चार्ज"
-    }
+      "title": "चार्ज",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "निश्चित मूल्य निर्धारण",
-      "message": "यस प्रकारको मूल्य निर्धारणमा, उत्पादनको मूल्य एक निश्चित रकम हो र खरिदकर्ताले मूल्य गणना अनुरोध गर्न आवश्यक पर्दैन।"
+      "message": "यस प्रकारको मूल्य निर्धारणमा, उत्पादनको मूल्य एक निश्चित रकम हो र खरिदकर्ताले मूल्य गणना अनुरोध गर्न आवश्यक पर्दैन।",
     },
     "ESTIMATION": {
       "title": "अनुमानित मूल्य निर्धारण",
-      "message": "उत्पादन र सेवाहरूको मूल्य बिक्रेताले अर्डर गर्दा केही हदसम्म गणना गर्नेछ, भुक्तानी इनभ्वाइसहरू सेवाको समयमा परिवर्तन वा थप्न सकिन्छ।"
+      "message": "उत्पादन र सेवाहरूको मूल्य बिक्रेताले अर्डर गर्दा केही हदसम्म गणना गर्नेछ, भुक्तानी इनभ्वाइसहरू सेवाको समयमा परिवर्तन वा थप्न सकिन्छ।",
     },
     "AGREEMENT": {
       "title": "सम्झौता मूल्य निर्धारण",
-      "message": "उत्पादन वा सेवाहरूको अन्तिम मूल्य अर्डर राखे पछि विक्रेता द्वारा परिवर्तन हुनेछैन।"
+      "message": "उत्पादन वा सेवाहरूको अन्तिम मूल्य अर्डर राखे पछि विक्रेता द्वारा परिवर्तन हुनेछैन।",
     },
     "BID": {
       "title": "बोली / लिलामी",
-      "message": "उत्पादन सम्भावित खरीददारहरु द्वारा उच्चतम बोली मूल्य मा बेचिनेछ।"
-    }
+      "message": "उत्पादन सम्भावित खरीददारहरु द्वारा उच्चतम बोली मूल्य मा बेचिनेछ।",
+    },
   },
   "map": {
     "title": "उत्पादनहरू प्राप्त गर्न गन्तव्य",
     "confirm": "स्थान सेट गर्नुहोस्",
     "address": "गन्तव्य",
-    "receptor": "रिसिभर"
+    "receptor": "रिसिभर",
   },
   "ShopBots": {
-    "telegram": "टेलिग्राम"
+    "telegram": "टेलिग्राम",
   },
   "article_tags": {
     "title": "सामग्री ट्यागहरू",
     "tags_input": "ट्यागहरू",
     "tags_input_message": "यस लेखको ट्याग सूची",
     "notification": {
-      "add_success": "ट्यागहरू थपियो"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "धेरै जटिल",
-    "hard": "कडा",
-    "intermediate": "मध्यवर्ती",
-    "easy": "सजिलो"
-  },
-  "billing_period": {
-    "Daily": "दैनिक",
-    "Weekly": "साप्ताहिक",
-    "Monthly": "मासिक",
-    "Every3Months": "हरेक ३ महिनामा",
-    "Every6Months": "हरेक ६ महिनामा",
-    "Yearly": "वार्षिक"
+      "add_success": "ट्यागहरू थपियो",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "ओहो राम्रो छैन!",
     "between2_3": "ठिकै छ!",
     "between3_4": "मानिसहरू यो मनपर्छ!",
-    "between4_5": "मानिसहरूले यसलाई माया गर्छन्!"
+    "between4_5": "मानिसहरूले यसलाई माया गर्छन्!",
   },
   "seasons": {
     "spring": "वसन्त",
     "summer": "गर्मी",
     "autumn": "शरद ऋतु",
-    "winter": "जाडो"
-  }
+    "winter": "जाडो",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

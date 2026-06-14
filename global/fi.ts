@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Olen lukenut käyttöehdot ja tietosuojaselosteen ja hyväksyn ne.",
   "commons": {
     "Currency": "Valuutta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Osavaltio",
     "Price": "hinta",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Nettohinta",
     "tax": "Verottaa",
     "tax_included": "Sisältyy hintaan",
+    "tax_included_abstract": "sis.",
     "limit": "Raja",
     "min_purchase": "Minimi osto",
     "eligible_for": "Oikeutettu",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Luontipäivämäärä",
     "updated_at": "Viimeisin päivitys",
     "register_at": "Ilmoittautumispäivä",
+    "last_modified": "Last modified",
     "old": "Vanha",
     "new": "Uusi",
     "start": "alkaa",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Jälleenmyyjä",
     "tracking_code": "Seurantakoodi",
     "tracking_url": "Seuranta-URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Täyttymiset",
     "reject": "Hylätä",
     "reserved": "Varattu",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Odotetaan...",
     "waiting_connecting_payment": "Maksupalvelua odotellessa...",
     "creating_secure_payment": "Turvallisen maksun luominen.",
+    "waiting_for_payment": "Suorita maksu loppuun...",
     "officer": "upseeri",
     "ticket": "Lippu",
     "ticket_url": "Lipun URL-osoite",
@@ -361,7 +366,6 @@ export default {
     "rates": "Luokitus",
     "seen_at": "Nähty klo",
     "completed": "Valmis",
-    "you": "Sinä",
     "shop": "Myymälä",
     "store": "tallentaa",
     "granted": "Myönnetty",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tabletti",
     "pc": "PC",
     "acquisition_channel": "Hankintakanava",
+    "channels_overview": "Channels overview",
     "to": "Vastaanottaja",
     "info": "Tiedot",
     "general": "Kenraali",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Tuotetta kohti",
     "journey": "Matka",
     "after": "Jälkeen",
-    "waiting_for_payment": "Suorita maksu loppuun...",
     "hour": "Tunnin",
     "minute": "Minuutti",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Kaupat",
     "vendor": "Myyjä",
     "vendors": "Myyjät",
+    "no_vendors": "No vendors",
     "marketplace": "Markkinapaikka",
     "verify_date": "Vahvista päivämäärä",
     "note": "Huomautus",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variantti",
     "secure": "Turvallinen",
     "admin": "Admin",
-    "tax_included_abstract": "sis.",
     "payment_not_settled": "Maksua ei suoritettu!",
     "orders_list": "Tilauslista",
     "subscription_plan": "Tilaussuunnitelma",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Klusterit",
     "subscriptions": "Tilaukset",
     "spam": "Roskaposti",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Sinä",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Erittäin monimutkainen",
+    "hard": "Kovaa",
+    "intermediate": "Keskitason",
+    "easy": "Helppo",
   },
   "dialogs": {
     "delete": {
       "title": "Poistaa",
       "message": "Haluatko varmasti poistaa tämän kohteen?",
-      "action": "Kyllä, poista nyt"
-    }
+      "action": "Kyllä, poista nyt",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Lisää ostoskoriin",
     "cancel": "Peruuttaa",
     "update": "Päivittää",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Lisää lahjakortti",
     "charge": "Lataa",
     "send_invites": "Lähettää kutsuja",
-    "past": "Mennyt",
+    "paste": "Liitä",
     "restore": "Palauttaa",
     "cut": "Leikata",
     "get_sms_code": "Hanki todennuskoodi",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Näytä esikatselu",
     "hide_preview": "Piilota esikatselu",
     "download_now": "Lataa nyt",
+    "watch_now": "Katso nyt",
     "auto_fill": "Automaattinen täyttö",
     "track": "Seurata",
     "change_state": "Vaihda tilaa",
     "done": "Tehty",
     "reply": "Vastaa",
-    "watch_now": "Katso nyt",
     "unlock": "Avata",
     "lock": "Lukko",
     "create_clone": "Luo klooni",
@@ -773,41 +931,71 @@ export default {
     "buy": "Ostaa",
     "view_all": "Näytä kaikki",
     "view_now": "Näytä nyt",
-    "paste": "Liitä"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Mennyt",
+  },
+  "billing_period": {
+    "Daily": "Päivittäin",
+    "Weekly": "Viikoittain",
+    "Monthly": "Kuukausittain",
+    "Every3Months": "3 kuukauden välein",
+    "Every6Months": "6 kuukauden välein",
+    "Yearly": "Vuosittain",
   },
   "instance_message_title": "Lähetä pikaviesti",
   "instance_message": "Hei {name}, Nimeni on {author} yrityksestä {company}.",
   "errors": {
     "419": "Olet ollut epäaktiivinen pitkään aikaan, ole hyvä <b>⟳ PÄIVITTÄ SIVU</b> turvallisuussyistä.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Järjestelmä ei synkronoidu lohkoketjun kanssa. Uutta tapahtumaa ei voi luoda ennen kuin palvelintemme synkronoinnit on suoritettu. Ratkaisemme ongelman.",
-    "gateway_network_error": "Maksuyhdyskäytäväpalvelu on havainnut viestintäongelman."
+    "gateway_network_error": "Maksuyhdyskäytäväpalvelu on havainnut viestintäongelman.",
   },
   "receiver_info": {
     "map": {
       "title": "Toimitusosoite",
       "confirm": "Aseta sijainti",
       "address_type": "Kohde",
-      "receptor_type": "Vastaanotin"
+      "receptor_type": "Vastaanotin",
     },
     "receiver_address": "Valitse toimitusosoite",
+    "service_address": "Valitse osoitteesi",
+    "select_billing_address": "Select billing address",
     "address": "osoite",
     "postcode": "Postinumero",
     "enter_value": "Täytä tästä",
     "address_note": "Huomautus",
     "tel": "Yhteysnumero",
-    "service_address": "Valitse osoitteesi"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "paunaa",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gramma",
     "oz": "Unssi",
     "lb": "Punta",
-    "kg": "kilogramma"
+    "kg": "kilogramma",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Senttimetri",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Jalka",
     "mm": "millimetri",
     "m": "mittari",
-    "yd": "Piha"
+    "yd": "Piha",
   },
   "distance": {
     "m": "mittari",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "päivää",
     "hours": "Tuntia",
     "minutes": "Pöytäkirja",
-    "seconds": "Sekuntia"
+    "seconds": "Sekuntia",
   },
   "units": [
     "Yksikkö",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Osavaltio",
     "Territory": "Alue",
-    "Province": "maakunta"
+    "Province": "maakunta",
   },
   "transaction_status": {
     "RequireAction": "Vaatii toimenpiteitä",
     "Processing": "Käsittely",
     "Canceled": "Peruutettu",
-    "Succeeded": "Onnistui"
+    "Succeeded": "Onnistui",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Valitse kieli..",
     "friend_email": "Ystäväsi sähköposti...",
     "friend_name": "Valita. Ystäväsi nimi",
-    "select_date": "Valitse päivämäärä..."
+    "select_date": "Valitse päivämäärä...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Vahvistaa",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Enintään {maxCount} merkkiä",
     "invalid_url": "Virheellinen URL",
     "country_invalid": "Valitse kohdemaa!",
-    "postal_code_invalid": "Aseta kelvollinen postinumero!"
+    "postal_code_invalid": "Aseta kelvollinen postinumero!",
   },
   "colors": {
     "#D32F2F": "Punainen",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Yksikkö",
     "postcode": "Postinumero",
     "note": "Huomautus",
-    "county": "Lääni"
+    "county": "Lääni",
   },
   "product_types": {
     "physical": "Fyysinen",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Palvelu",
     "service_description": "Palvelut kuten: korjaus, kuljetus, opetus.",
     "subscription": "Tilaus",
-    "subscription_description": "Tilaukset ja laskutus tuotteista, palveluista tai sisällöstä."
+    "subscription_description": "Tilaukset ja laskutus tuotteista, palveluista tai sisällöstä.",
   },
   "license": {
     "free": "Vapaa",
     "startup": "Aloittaa",
     "company": "Yhtiö",
-    "enterprise": "Yritys"
+    "enterprise": "Yritys",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Väri",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Laske pakkauksessa",
     "weight": "Paino",
     "type": "Materiaali",
-    "style": "Tyyli"
+    "style": "Tyyli",
   },
   "delivery_state": {
     "check_queue": "Odotetaan arvostelua",
     "order_confirm": "Tilausvahvistus",
     "preparing_order": "Valmistellaan",
     "sent_order": "Toimitettaessa",
-    "to_customer": "Toimitettu"
+    "to_customer": "Toimitettu",
   },
   "status": {
     "unpaid": "Palkaton",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Hylätä",
     "pending": "Odottaa",
     "rejected": "Hylätty",
-    "accepted": "Hyväksytty"
+    "accepted": "Hyväksytty",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Moottoripyörä",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Globaali liikenne",
     "global_description": "Toimitus ulkomaille lentäen, meritse tai maalla.",
     "pickup": "Noukkia",
-    "pickup_description": "Asiakkaat noutavat tuotteet fyysisestä myymälästäsi tai varastostasi."
+    "pickup_description": "Asiakkaat noutavat tuotteet fyysisestä myymälästäsi tai varastostasi.",
   },
   "article": {
     "login_to_see_error": "Kirjaudu sisään päästäksesi artikkeliin",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Muokkausmoodi",
       "view_mode": "Katselutila",
-      "delete": "Poista artikkeli"
+      "delete": "Poista artikkeli",
     },
     "schedule_action": "Haluatko ajoittaa julkaisun?",
     "schedule_title": "Ajoita automaattinen julkaisu",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Ilmoita väärinkäytöstä ja poista sisältö",
       "report_title": "Ilmoita tästä sisällöstä loukkaavaksi",
       "message": "Mikä on syy tämän sisällön lähettämiseen? Valitse yksi seuraavista vaihtoehdoista.",
-      "accept_and_delete_action": "Vahvista ja poista sisältö"
+      "accept_and_delete_action": "Vahvista ja poista sisältö",
     },
     "schedule_dialog": {
       "title": "Sisällön julkaisuaikataulu",
       "publish_at": "Julkaise osoitteessa",
       "last_edit": "Viimeisin muokkaus",
-      "view_action": "Katso artikkeli"
+      "view_action": "Katso artikkeli",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Lähetä tiedot",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Ilmoita ja poista",
       "report_and_delete_success_message": "Artikkelin poistaminen onnistui.",
       "report_success_title": "Raportoi artikkeli",
-      "report_success_message": "Raporttisi tästä artikkelista on julkaistu."
+      "report_success_message": "Raporttisi tästä artikkelista on julkaistu.",
     },
     "alert": {
       "delete_article": {
         "title": "Poista artikkeli",
         "message": "Haluatko varmasti poistaa tämän artikkelin pysyvästi?",
-        "action": "Poistaa"
-      }
+        "action": "Poistaa",
+      },
     },
     "edit_window": {
       "title": "Valitse Kuvateksti ja yhteenveto",
-      "digest": "Yhteenveto"
+      "digest": "Yhteenveto",
     },
     "editor": {
       "title_placeholder": "Otsikko..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Tämä tiedosto on liian suuri:",
       "notifications": {
         "image_uploaded_success": "Kuvan tallennus onnistui",
-        "image_uploaded_failed": "Virhe kuvan lataamisessa."
+        "image_uploaded_failed": "Virhe kuvan lataamisessa.",
       },
       "embed_placeholder": "Syötä iframe-koodi, Facebook, Youtube tai mikä tahansa muu URL-osoite ja paina enter.",
       "embed_caption_placeholder": "Kirjoita otsikko (valinnainen)",
-      "images_caption_placeholder": "Anna tälle kuvalle otsikko.."
-    }
+      "images_caption_placeholder": "Anna tälle kuvalle otsikko..",
+    },
   },
   "article_report": {
     "inappropriate": "Tämän artikkelin sisältö on sopimatonta.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Mielestäni tämä sisältö sisältää pornografiaa ja rikkoo lakeja.",
     "harassment": "Minusta tämä on rasistista.",
     "hate": "Mielestäni tässä on kyse väkivallan edistämisestä.",
-    "infringe": "Tämä loukkaa oikeuksiani."
+    "infringe": "Tämä loukkaa oikeuksiani.",
   },
   "comments": {
     "new_action": "Klikkaa jättääksesi kommentin..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Lisää kommentteja..",
     "cant_send_comment": "Et voi lisätä uutta viestiä.",
     "cant_remove_this_comment": "Et voi poistaa tätä kommenttia!",
-    "product_buyer": "Ostaja",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Omat kommentit",
     "delete_alert": {
       "title": "Poista kommentti",
       "message": "Haluatko poistaa tämän kommentin?",
-      "action": "Poistaa"
+      "action": "Poistaa",
     },
     "notifications": {
-      "delete_success": "Kommenttisi poisto onnistui."
+      "delete_success": "Kommenttisi poisto onnistui.",
     },
     "first_send": "Ensimmäinen postaus",
     "comment_at": "Päällä",
     "edit_comment": "Muokkaa kommenttia",
-    "my_comments": "Omat kommentit"
+    "product_buyer": "Ostaja",
   },
   "customer_club": {
     "bronze": "Pronssi",
     "silver": "Hopea",
     "gold": "Kultainen",
     "platinum": "Platina",
-    "diamond": "Timantti"
+    "diamond": "Timantti",
   },
   "application_categories": {
     "tracking": "Käyttäjän käyttäytymisen tarkistaminen",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Mainonta",
     "staff": "Henkilökunta",
     "incentive": "Kannustimet",
-    "shop": "Myymälä"
+    "shop": "Myymälä",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Lisää uusi kohde",
     "title_input": "Otsikko",
+    "placeholder_input": "Paikanpitäjä",
     "name_input": "Muuttujan nimi",
     "value_input": "Arvot",
     "value_input_message": "Käyttäjän asetusluettelo",
     "default": "Oletusarvo",
+    "file_type_input": "Hyväksytyt tiedostotyypit",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Yksinkertainen",
       "selective": "Valikoiva",
       "switch": "Vaihtaa",
       "file": "Tiedosto",
-      "number": "Määrä"
+      "number": "Määrä",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Paikanpitäjä",
-    "file_type_input": "Hyväksytyt tiedostotyypit",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "tuotteen nimi",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Maksun tilanne",
     "payment_status_waiting": "odottaa maksua",
     "payment_status_paid": "Maksettu",
-    "buyer": "Ostaja"
+    "buyer": "Ostaja",
   },
   "virtual_item_info": {
     "title": "Virtuaalinen kohde",
     "outputs": {
       "title": "Tulostustiedot",
       "sub_title": "Tämän kohteen luottamukselliset tiedot",
-      "message": "Nämä tiedot näytetään käyttäjälle tuotteen ostamisen jälkeen."
+      "message": "Nämä tiedot näytetään käyttäjälle tuotteen ostamisen jälkeen.",
     },
     "inputs": {
       "title": "Tietoa tarvitaan",
       "sub_title": "Ostajan tiedot vaaditaan",
-      "message": "Ostajan tulee syöttää pyydetyt tiedot lomakkeeseen"
+      "message": "Ostajan tulee syöttää pyydetyt tiedot lomakkeeseen",
     },
     "notifications": {
       "inputs_set_success": "Tietolomake rekisteröity onnistuneesti.",
       "confirm_by_admin_success": "Tilauksen valmistuminen vahvistettu.",
-      "confirm_by_buyer_success": "Tilauksen valmistuminen vahvistettu."
-    }
+      "confirm_by_buyer_success": "Tilauksen valmistuminen vahvistettu.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Tätä tilausta ei voida hyväksyä COD-maksulla.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Loppu varastosta.",
     "legal_restriction": "Tilausta ei voida tehdä lakisääteisten rajoitusten vuoksi.",
     "pricing_fault": "Myyjän hinnoitteluvirhe.",
-    "system_fault": "Järjestelmävirhe."
+    "system_fault": "Järjestelmävirhe.",
   },
   "basket_order_info_summery": {
     "receiver": "Vastaanotin",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Alennus",
     "final_price": "Lopullinen määrä",
     "address": "Toimitusosoite",
-    "payment_status": "Maksun tilanne"
+    "payment_status": "Maksun tilanne",
   },
   "basket_status": {
     "open": "Avata",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Peruutettu",
     "cod": "Maksa toimituksen yhteydessä",
     "receipt_added": "Kuitti lisätty",
-    "payment_processing": "Maksunkäsittely"
+    "payment_processing": "Maksunkäsittely",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Hylätty",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Vahvistus",
     "step_3": "Valmistautuminen",
     "step_4": "Toimitettaessa",
-    "step_5": "Toimitettu"
+    "step_5": "Toimitettu",
   },
   "basket_return_request_view": {
     "title": "Palautuspyyntö",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Hylkää pyyntö",
     "message_for_admin": "Selldonea käyttämällä hyväksymäsi sopimuksen mukaan sinun tulee ottaa yhteyttä ostajaan ja pitää hänet ajan tasalla tilauksensa palautusprosessista. Tämä on tehtävä, jos pyyntö hyväksytään tai hylätään ja ostajan täydellinen suostumus on saatu.",
     "notifications": {
-      "update_status_success": "Pyynnön tila päivitetty."
-    }
+      "update_status_success": "Pyynnön tila päivitetty.",
+    },
   },
   "basket_list": {
     "return_count": "Palautus: {count} numero",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variantti",
       "warranty": "Takuut",
       "count": "Kreivi",
-      "price": "hinta"
-    }
+      "price": "hinta",
+    },
   },
   "return_request_list": {
     "count": "Viitenumero",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Vastaanottopäivämäärä",
       "state": "Tila",
       "reason": "Syy",
-      "return_warranty_period": "Takuuaika"
-    }
+      "return_warranty_period": "Takuuaika",
+    },
   },
   "data_toolbar": {
     "search": "Hae",
     "sort_by": "Järjestä",
-    "count_item": "Näytä {item} kohdetta"
+    "count_item": "Näytä {item} kohdetta",
   },
   "sort": {
     "created_at": "Luo päiväys",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "upseeri",
     "registered": "Rekisteröity",
     "purchased": "Osti",
-    "sex": "Sukupuoli"
+    "sex": "Sukupuoli",
   },
   "search_box": {
     "result": "Hakutulokset",
     "tips": "Hae tuotteita ja kategorioita",
     "label": "Hae ...",
-    "category": "Kategoria"
+    "category": "Kategoria",
   },
   "lead_status": {
     "physical_fast_delivery": "Välitön toimitus",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Valmistellaan ja lähetetään seuraavan {days} päivän kuluttua",
     "virtual_fast_prepare": "Välitön toimitus",
     "virtual_under_24h": "Valmistuu seuraavan {lead} tunnin kuluessa",
-    "virtual_over_24h": "Tehdään seuraavan {days} päivän jälkeen"
+    "virtual_over_24h": "Tehdään seuraavan {days} päivän jälkeen",
   },
   "return_request_state": {
     "pending": "Odottaa",
     "accepted": "Vahvistettu",
-    "rejected": "Hylätty"
+    "rejected": "Hylätty",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pakkauksen tai sarjanumeron peukalointi",
       "U5": "Osa paketista puuttuu",
       "U6": "Tuote ei ole alkuperäinen",
-      "U7": "Tuote ei täytä spesifikaatioita"
-    }
+      "U7": "Tuote ei täytä spesifikaatioita",
+    },
   },
   "image_uploader": {
     "label": "Vedä ja pudota tai <u>valitse tiedosto</u>",
-    "max_size": "Suurin sallittu koko: {size}"
+    "max_size": "Suurin sallittu koko: {size}",
   },
   "timespan": {
     "Morning": "klo 8-12",
     "Evening": "klo 12-18",
     "Night": "klo 18-12",
-    "Instant": "Pikapostitus"
+    "Instant": "Pikapostitus",
   },
   "week_day": {
     "Saturday": "lauantaina",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "tiistai",
     "Wednesday": "keskiviikko",
     "Thursday": "torstai",
-    "Friday": "perjantai"
+    "Friday": "perjantai",
   },
   "payment_form": {
     "title": "Valitse Maksutapa",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Onnittelut, tilauksesi on ilmainen!",
     "order_free_payment_action": "Tilaa nyt ilmaiseksi",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Maksuosoite",
-      "amount": "Määrä"
-    }
+      "amount": "Määrä",
+    },
   },
   "discount_input": {
     "limit": "{percent}% alennus enintään {limit} {currency}",
     "action": "Lisää alennuskoodi",
     "code_input": "Alennuskoodi",
     "notifications": {
-      "add_success": "Onnittelut, voimassa oleva alennuskoodi."
-    }
+      "add_success": "Onnittelut, voimassa oleva alennuskoodi.",
+    },
   },
   "gift_card": {
     "inactive": "Kortti on poistettu käytöstä",
     "expire": "Vanheneminen",
     "transfer": "Siirtää",
-    "send_to_friend": "Lähetä ystävälle"
+    "send_to_friend": "Lähetä ystävälle",
   },
   "count_down": {
     "days": "Päivä",
     "hours": "Tunnin",
     "minutes": "Pöytäkirja",
-    "seconds": "Sekuntia"
+    "seconds": "Sekuntia",
   },
   "gift_status": {
     "Unpaid": "odottaa kuittia",
     "Paid": "Maksettu",
     "Rejected": "Hylätty",
-    "Canceled": "Peruutettu"
+    "Canceled": "Peruutettu",
   },
   "gift_program_status": {
     "Airdrop": "Maksujärjestelmä",
     "Advertising": "Mainonta",
     "PersonalGift": "Henkilökohtainen lahja",
-    "ShopGift": "Lahja kauppa"
+    "ShopGift": "Lahja kauppa",
   },
   "currency_selector": {
-    "label": "Valuutta"
+    "label": "Valuutta",
   },
   "need_login": {
     "title": "Kirjaudu sisään",
     "login_sms": "SMS-kirjautuminen",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Kirjaudu sisään Googlella",
     "login_facebook": "Kirjaudu Facebookilla",
+    "login_apple": "Kirjaudu sisään Applella",
     "login_account": "Kirjautuminen Selldonen kautta",
     "register": "Uusi käyttäjä? Rekisteröidy nyt.",
     "mobile_input": "Anna matkapuhelimesi",
     "verification_code": "Vahvistuskoodi",
     "msg_title": "Moi,",
     "msg_body": "Kirjaudu sisään, ole hyvä. Se kestää vain muutaman sekunnin.",
-    "login_apple": "Kirjaudu sisään Applella",
     "login_email": "Kirjaudu sisään sähköpostilla",
     "email_login_step_1": "Anna voimassa oleva sähköpostiosoite, niin lähetämme siihen kirjautumiskoodin. Rekisteröintiä ei tarvita.",
     "email_login_step_2": "Oletko varma, että olet kirjoittanut sähköpostiosoitteesi oikein? Lähetämme kirjautumiskoodin antamaasi sähköpostiosoitteeseen, joten varmistathan sen oikeellisuuden.",
-    "email_login_step_3": "Olemme lähettäneet koodin sähköpostiisi. Huomaa, että koodi vanhenee 10 minuutin kuluttua."
+    "email_login_step_3": "Olemme lähettäneet koodin sähköpostiisi. Huomaa, että koodi vanhenee 10 minuutin kuluttua.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 vuoden kultakauppa"
+      "name": "5 vuoden kultakauppa",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 vuoden kultakauppa"
+      "name": "4 vuoden kultakauppa",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 vuoden kultakauppa"
+      "name": "3 vuoden kultakauppa",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 vuoden kultakauppa"
+      "name": "2 vuoden kultakauppa",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 vuoden kultakauppa"
+      "name": "1 vuoden kultakauppa",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Kultainen sijoittaja"
+      "name": "Kultainen sijoittaja",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Timanttisijoittaja"
+      "name": "Timanttisijoittaja",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby sijoittaja"
+      "name": "Ruby sijoittaja",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Viestintäverkkojen ylimmän yhteisön jäsen"
+      "name": "Viestintäverkkojen ylimmän yhteisön jäsen",
     },
     "GOLD_SUPPLIER": {
-      "name": "Kullan toimittaja"
+      "name": "Kullan toimittaja",
     },
     "GOLD_SELLER": {
-      "name": "Kultakauppias"
+      "name": "Kultakauppias",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Huippusisällöntuottaja"
+      "name": "Huippusisällöntuottaja",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Tähti"
+      "name": "Tähti",
     },
     "GUARDIAN": {
-      "name": "Loistava asiakaspalvelu"
+      "name": "Loistava asiakaspalvelu",
     },
     "KING": {
-      "name": "Markkinoiden kuningas"
-    }
+      "name": "Markkinoiden kuningas",
+    },
   },
   "cookie": {
     "title": "Tämä sivusto käyttää evästeitä",
     "message": "Tämä sivusto käyttää evästeitä parantaakseen käyttökokemusta. Käyttämällä verkkosivustoamme hyväksyt kaikki evästeet evästekäytäntömme mukaisesti.",
     "preferences_action": "Hallinnoi asetuksia",
-    "agree_action": "Olen samaa mieltä"
+    "agree_action": "Olen samaa mieltä",
   },
   "basket_item_message": {
     "title": "Vaaditut tiedot tälle kohteelle",
     "save_actions": "Tallenna viesti",
+    "product_inputs_preview_message": "Nämä mukautusvaihtoehdot ovat käytettävissä tilaamallesi tuotteelle. Kun tuote on lisätty ostoskoriin, voit tehdä muutoksia täällä.",
     "notifications": {
-      "success": "Syöttötietosi on tallennettu."
+      "success": "Syöttötietosi on tallennettu.",
     },
-    "product_inputs_preview_message": "Nämä mukautusvaihtoehdot ovat käytettävissä tilaamallesi tuotteelle. Kun tuote on lisätty ostoskoriin, voit tehdä muutoksia täällä."
   },
   "faq": {
     "faq": "Usein Kysytyt Kysymykset",
     "title": "Kysymykset ja vastaukset",
-    "sub_title": "Mitä pyysit meitä tekemään.",
     "message": "Etsi vastaus kysymykseesi alla olevista vastauksista. Kysy meiltä, jos kysymyksiä ei löydy.",
     "add_question_action": "Kysy Uusi Kysymys",
     "read_more": "Lue lisää ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Kysymys",
     "question_input_placeholder": "Esitä kysymyksesi.",
     "notifications": {
-      "success_add": "Kysymyksesi lähetys onnistui."
-    }
+      "success_add": "Kysymyksesi lähetys onnistui.",
+    },
+    "sub_title": "Mitä pyysit meitä tekemään.",
   },
   "rating_labels": [
     "Todella paha",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Syötä kohdeosoite",
     "enter_your_address": "Kirjoita osoitteesi.",
     "postal_code": "Postinumero",
-    "phone_input": "Puhelin {type}",
+    "phone_input": "Puhelin",
     "building_number": "Rakennuksen numero",
     "building_unit": "Yksikkö",
     "full_name_input": "Koko nimi {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Osoitetarra (pakollinen)",
     "notifications": {
       "save_in_list": "Tämä osoite on tallennettu luetteloosi kaikkine tiedoineen.",
-      "edit_success": "Uudet osoitearvot tallennettu kansioon {title}."
+      "edit_success": "Uudet osoitearvot tallennettu kansioon {title}.",
     },
     "delete_address_dialog": {
       "title": "Poista osoite",
       "message": "Haluatko varmasti poistaa tämän osoitteen?",
-      "action": "Poista osoite"
-    }
+      "action": "Poista osoite",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Tätä kommenttia ei voi muokata!",
     "comment_input_empty": "Viestin teksti on tyhjä!",
-    "article_not_saved": "Tallenna artikkeli!"
+    "article_not_saved": "Tallenna artikkeli!",
   },
   "wheel_fortune": {
     "title": "Pelaa & Voita",
     "message": "Jokaisen pelin hinta on 10 pelimerkkiä. Sinulla on tällä hetkellä {chips} pelimerkki. Hanki lisää sirua ostamalla kaupasta.",
     "win_message": "Onnittelut, sinä voitat!",
     "lost_message": "Anteeksi, hävisit pelin.",
-    "try_again": "Voit yrittää uudelleen"
+    "try_again": "Voit yrittää uudelleen",
   },
   "json": {
     "add": "Lisää rakennetiedot",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Rakenteet",
     "book": {
       "title": "Kirja",
-      "desc": "Kirjatoiminnot, joiden avulla käyttäjät voivat ostaa löytämänsä kirjan suoraan hakutuloksista."
+      "desc": "Kirjatoiminnot, joiden avulla käyttäjät voivat ostaa löytämänsä kirjan suoraan hakutuloksista.",
     },
     "occupation": {
       "title": "Arvioitu palkka",
-      "desc": "Googlen työnhakukokemuksessa näkyvät tiedot palkkaarvioista, kuten palkka-alueet ja aluekohtaiset palkkakeskiarvot työtyypeille."
+      "desc": "Googlen työnhakukokemuksessa näkyvät tiedot palkkaarvioista, kuten palkka-alueet ja aluekohtaiset palkkakeskiarvot työtyypeille.",
     },
     "course": {
       "title": "Kurssi",
-      "desc": "Koulutuskurssit, jotka näkyvät tarjoajakohtaisessa luettelossa. Kurssit voivat sisältää kurssin nimen, järjestäjän ja lyhyen kuvauksen."
+      "desc": "Koulutuskurssit, jotka näkyvät tarjoajakohtaisessa luettelossa. Kurssit voivat sisältää kurssin nimen, järjestäjän ja lyhyen kuvauksen.",
     },
     "howto": {
       "title": "Miten",
-      "desc": "Ohje opastaa käyttäjiä videon, kuvien ja tekstin avulla suoritettavien vaiheiden läpi."
+      "desc": "Ohje opastaa käyttäjiä videon, kuvien ja tekstin avulla suoritettavien vaiheiden läpi.",
     },
     "recipe": {
       "title": "Resepti",
-      "desc": "Reseptit, jotka näkyvät yksittäisinä rich-tuloksena tai osana isäntäkarusellia."
-    }
+      "desc": "Reseptit, jotka näkyvät yksittäisinä rich-tuloksena tai osana isäntäkarusellia.",
+    },
   },
   "support": {
     "Financial": "Taloudellinen",
     "Technical": "Tekninen",
-    "Advisor": "Neuvonantaja"
+    "Advisor": "Neuvonantaja",
   },
   "condition": {
     "new": "Uusi",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Käytetty",
     "used_fair": "Käytetty reilu",
     "used_good": "Käytetty hyvä",
-    "used_like_new": "Käytetty - kuin uusi"
+    "used_like_new": "Käytetty - kuin uusi",
   },
   "variant_filter": {
     "title": "Tuoteversion suodatin",
-    "only_available": "Varastossa"
+    "only_available": "Varastossa",
   },
   "service": {
     "task": {
       "title": "Tehtävät",
-      "message": "Luettelo tässä palvelussa suoritetuista tehtävistä."
+      "message": "Luettelo tässä palvelussa suoritetuista tehtävistä.",
     },
     "appointment": {
       "title": "Nimittäminen",
-      "message": "Valitse seuraavista kellonajat sinulle sopivan päivän ja tunnin mukaan."
+      "message": "Valitse seuraavista kellonajat sinulle sopivan päivän ja tunnin mukaan.",
     },
     "booking": {
       "title": "Varaus",
-      "message": "Määritä alla olevaan kalenteriin niiden päivien ajanjakso, joille haluat tehdä varauksen."
+      "message": "Määritä alla olevaan kalenteriin niiden päivien ajanjakso, joille haluat tehdä varauksen.",
     },
     "subscription": {
-      "title": "Tilaus"
+      "title": "Tilaus",
     },
     "charge": {
-      "title": "Lataa"
-    }
+      "title": "Lataa",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Kiinteä hinnoittelu",
-      "message": "Tällaisessa hinnoittelussa tuotteen hinta on kiinteä summa, eikä ostajan tarvitse pyytää hintalaskelmaa."
+      "message": "Tällaisessa hinnoittelussa tuotteen hinta on kiinteä summa, eikä ostajan tarvitse pyytää hintalaskelmaa.",
     },
     "ESTIMATION": {
       "title": "Arvioitu hinnoittelu",
-      "message": "Tuotteiden ja palveluiden hinnan laskee jossain määrin myyjä tilauksen yhteydessä, maksulaskuja voidaan muuttaa tai lisätä palvelun aikana."
+      "message": "Tuotteiden ja palveluiden hinnan laskee jossain määrin myyjä tilauksen yhteydessä, maksulaskuja voidaan muuttaa tai lisätä palvelun aikana.",
     },
     "AGREEMENT": {
       "title": "Sopimuksen hinnoittelu",
-      "message": "Myyjä ei muuta tuotteiden tai palveluiden lopullista hintaa tilauksen tekemisen jälkeen."
+      "message": "Myyjä ei muuta tuotteiden tai palveluiden lopullista hintaa tilauksen tekemisen jälkeen.",
     },
     "BID": {
       "title": "Tarjous/huutokauppa",
-      "message": "Tuote myydään potentiaalisten ostajien korkeimmalla tarjotulla hinnalla."
-    }
+      "message": "Tuote myydään potentiaalisten ostajien korkeimmalla tarjotulla hinnalla.",
+    },
   },
   "map": {
     "title": "Tuotteiden vastaanottamisen kohde",
     "confirm": "Aseta sijainti",
     "address": "Kohde",
-    "receptor": "Vastaanotin"
+    "receptor": "Vastaanotin",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Sisältötunnisteet",
     "tags_input": "Tunnisteet",
     "tags_input_message": "Tunnisteet Tämän artikkelin luettelo",
     "notification": {
-      "add_success": "Tunnisteet lisätty"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Erittäin monimutkainen",
-    "hard": "Kovaa",
-    "intermediate": "Keskitason",
-    "easy": "Helppo"
-  },
-  "billing_period": {
-    "Daily": "Päivittäin",
-    "Weekly": "Viikoittain",
-    "Monthly": "Kuukausittain",
-    "Every3Months": "3 kuukauden välein",
-    "Every6Months": "6 kuukauden välein",
-    "Yearly": "Vuosittain"
+      "add_success": "Tunnisteet lisätty",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oi ei hyvä!",
     "between2_3": "Se on okei!",
     "between3_4": "Ihmiset pitävät siitä!",
-    "between4_5": "Ihmiset rakastavat sitä!"
+    "between4_5": "Ihmiset rakastavat sitä!",
   },
   "seasons": {
     "spring": "kevät",
     "summer": "Kesä",
     "autumn": "Syksy",
-    "winter": "Talvi"
-  }
+    "winter": "Talvi",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

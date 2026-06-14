@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "이용약관 및 개인정보취급방침을 읽었으며 이에 동의합니다.",
   "commons": {
     "Currency": "통화",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "상태",
     "Price": "가격",
@@ -169,6 +170,7 @@ export default {
     "net_price": "정가",
     "tax": "세",
     "tax_included": "가격에 포함",
+    "tax_included_abstract": "포함",
     "limit": "한계",
     "min_purchase": "최소 구매",
     "eligible_for": "적격",
@@ -302,6 +304,7 @@ export default {
     "created_at": "만든 날짜",
     "updated_at": "마지막 업데이트",
     "register_at": "등록 날짜",
+    "last_modified": "Last modified",
     "old": "낡은",
     "new": "새로운",
     "start": "시작",
@@ -330,6 +333,7 @@ export default {
     "reseller": "리셀러",
     "tracking_code": "추적 코드",
     "tracking_url": "추적 URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "이행",
     "reject": "거부하다",
     "reserved": "예약된",
@@ -341,6 +345,7 @@ export default {
     "waiting": "대기 중...",
     "waiting_connecting_payment": "결제 서비스를 기다리는 중...",
     "creating_secure_payment": "안전한 결제를 만듭니다.",
+    "waiting_for_payment": "결제를 완료해주세요...",
     "officer": "장교",
     "ticket": "티켓",
     "ticket_url": "티켓 URL",
@@ -361,7 +366,6 @@ export default {
     "rates": "평가",
     "seen_at": "에서 본",
     "completed": "완전한",
-    "you": "너",
     "shop": "가게",
     "store": "가게",
     "granted": "부여된",
@@ -498,6 +502,7 @@ export default {
     "tablet": "태블릿",
     "pc": "PC",
     "acquisition_channel": "획득 채널",
+    "channels_overview": "Channels overview",
     "to": "에게",
     "info": "정보",
     "general": "일반적인",
@@ -559,7 +564,6 @@ export default {
     "per_product": "제품당",
     "journey": "여행",
     "after": "후에",
-    "waiting_for_payment": "결제를 완료해주세요...",
     "hour": "시",
     "minute": "분",
     "premium": "프리미엄",
@@ -569,6 +573,7 @@ export default {
     "shops": "백화점",
     "vendor": "공급업체",
     "vendors": "공급업체",
+    "no_vendors": "No vendors",
     "marketplace": "시장",
     "verify_date": "날짜 확인",
     "note": "메모",
@@ -604,7 +609,6 @@ export default {
     "variant": "변종",
     "secure": "안전한",
     "admin": "관리자",
-    "tax_included_abstract": "포함",
     "payment_not_settled": "결제가 완료되지 않았습니다!",
     "orders_list": "주문 목록",
     "subscription_plan": "가입 계획",
@@ -642,16 +646,170 @@ export default {
     "clusters": "클러스터",
     "subscriptions": "구독",
     "spam": "스팸",
-    "video": "동영상"
+    "video": "동영상",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "너",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "매우 복잡한",
+    "hard": "딱딱한",
+    "intermediate": "중급",
+    "easy": "쉬운",
   },
   "dialogs": {
     "delete": {
       "title": "삭제",
       "message": "이 항목을 삭제하시겠습니까?",
-      "action": "예, 지금 삭제"
-    }
+      "action": "예, 지금 삭제",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "장바구니에 추가",
     "cancel": "취소",
     "update": "업데이트",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "기프트 카드 추가",
     "charge": "요금",
     "send_invites": "초대장 보내기",
-    "past": "과거",
+    "paste": "반죽",
     "restore": "복원하다",
     "cut": "자르다",
     "get_sms_code": "인증 코드 받기",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "미리보기 표시",
     "hide_preview": "미리보기 숨기기",
     "download_now": "지금 다운로드",
+    "watch_now": "지금보기",
     "auto_fill": "자동 완성",
     "track": "과정",
     "change_state": "상태 변경",
     "done": "완료",
     "reply": "회신하다",
-    "watch_now": "지금보기",
     "unlock": "터놓다",
     "lock": "자물쇠",
     "create_clone": "클론 생성",
@@ -773,41 +931,71 @@ export default {
     "buy": "구입하다",
     "view_all": "모두보기",
     "view_now": "지금 보기",
-    "paste": "반죽"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "과거",
+  },
+  "billing_period": {
+    "Daily": "일일",
+    "Weekly": "주간",
+    "Monthly": "월간 간행물",
+    "Every3Months": "3개월마다",
+    "Every6Months": "6개월마다",
+    "Yearly": "매년",
   },
   "instance_message_title": "인스턴트 메시지 보내기",
   "instance_message": "안녕하세요 {name}님, 제 이름은 {company}의 {author}입니다.",
   "errors": {
     "419": "오랫동안 비활성 상태였습니다. 보안을 위해 <b>⟳ 페이지를 새로고침</b> 하세요.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "시스템은 블록체인과 동기화되지 않습니다. 서버의 동기화가 완료될 때까지 새 트랜잭션을 생성할 수 없습니다. 우리는 문제를 해결하고 있습니다.",
-    "gateway_network_error": "지불 게이트웨이 서비스에 통신 문제가 발생했습니다."
+    "gateway_network_error": "지불 게이트웨이 서비스에 통신 문제가 발생했습니다.",
   },
   "receiver_info": {
     "map": {
       "title": "배송 주소",
       "confirm": "위치 설정",
       "address_type": "목적지",
-      "receptor_type": "수화기"
+      "receptor_type": "수화기",
     },
     "receiver_address": "배송지 선택",
+    "service_address": "주소 선택",
+    "select_billing_address": "Select billing address",
     "address": "주소",
     "postcode": "우편번호",
     "enter_value": "여기에 채우기",
     "address_note": "메모",
     "tel": "연락처",
-    "service_address": "주소 선택"
   },
   "weight": {
     "g": "g",
     "oz": "온스",
     "lb": "파운드",
-    "kg": "킬로그램"
+    "kg": "킬로그램",
   },
   "mass_unit_name": {
     "g": "그램",
     "oz": "온스",
     "lb": "파운드",
-    "kg": "킬로그램"
+    "kg": "킬로그램",
   },
   "length": {
     "cm": "센티미터",
@@ -815,7 +1003,7 @@ export default {
     "ft": "피트",
     "mm": "mm",
     "m": "중",
-    "yd": "야드"
+    "yd": "야드",
   },
   "size_unit_name": {
     "cm": "센티미터",
@@ -823,17 +1011,21 @@ export default {
     "ft": "발",
     "mm": "밀리미터",
     "m": "미터",
-    "yd": "마당"
+    "yd": "마당",
   },
   "distance": {
     "m": "미터",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "날",
     "hours": "시간",
     "minutes": "분",
-    "seconds": "초"
+    "seconds": "초",
   },
   "units": [
     "단위",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "상태",
     "Territory": "지역",
-    "Province": "주"
+    "Province": "주",
   },
   "transaction_status": {
     "RequireAction": "조치 필요",
     "Processing": "처리",
     "Canceled": "취소 된",
-    "Succeeded": "성공"
+    "Succeeded": "성공",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "존 콕스",
@@ -885,7 +1078,17 @@ export default {
     "language": "언어 선택..",
     "friend_email": "친구의 이메일...",
     "friend_name": "고르다. 친구의 이름",
-    "select_date": "날짜를 선택하세요..."
+    "select_date": "날짜를 선택하세요...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "확인하다",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "최대 {maxCount}자",
     "invalid_url": "잘못된 URL",
     "country_invalid": "목적지 국가를 선택하세요!",
-    "postal_code_invalid": "유효한 우편번호를 설정하십시오!"
+    "postal_code_invalid": "유효한 우편번호를 설정하십시오!",
   },
   "colors": {
     "#D32F2F": "빨간색",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "단위",
     "postcode": "우편번호",
     "note": "메모",
-    "county": "군"
+    "county": "군",
   },
   "product_types": {
     "physical": "물리적",
@@ -1004,13 +1207,13 @@ export default {
     "service": "서비스",
     "service_description": "서비스: 수리, 운송, 교육.",
     "subscription": "신청",
-    "subscription_description": "제품, 서비스 또는 콘텐츠에 대한 구독 및 송장 발행."
+    "subscription_description": "제품, 서비스 또는 콘텐츠에 대한 구독 및 송장 발행.",
   },
   "license": {
     "free": "무료",
     "startup": "시작",
     "company": "회사",
-    "enterprise": "기업"
+    "enterprise": "기업",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "색깔",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "팩에서 계산",
     "weight": "무게",
     "type": "재료",
-    "style": "스타일"
+    "style": "스타일",
   },
   "delivery_state": {
     "check_queue": "검토 대기 중",
     "order_confirm": "주문 확인",
     "preparing_order": "준비 중",
     "sent_order": "배달 중",
-    "to_customer": "배달됨"
+    "to_customer": "배달됨",
   },
   "status": {
     "unpaid": "미납",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "거부하다",
     "pending": "보류 중",
     "rejected": "거부됨",
-    "accepted": "수락됨"
+    "accepted": "수락됨",
   },
   "dimensions": {
     "cm": "센티미터",
     "km": "km",
-    "kg": "킬로그램"
+    "kg": "킬로그램",
   },
   "transportation_type": {
     "motorbike": "오토바이",
@@ -1224,7 +1429,7 @@ export default {
     "global": "글로벌 운송",
     "global_description": "항공, 해상 또는 육로 해외 배송.",
     "pickup": "픽업",
-    "pickup_description": "고객은 실제 상점이나 창고에서 품목을 픽업합니다."
+    "pickup_description": "고객은 실제 상점이나 창고에서 품목을 픽업합니다.",
   },
   "article": {
     "login_to_see_error": "기사에 액세스하려면 로그인하십시오",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "편집 모드",
       "view_mode": "보기 모드",
-      "delete": "기사 삭제"
+      "delete": "기사 삭제",
     },
     "schedule_action": "게시를 예약하시겠습니까?",
     "schedule_title": "자동 게시 예약",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "악용사례 신고 및 콘텐츠 삭제",
       "report_title": "이 콘텐츠를 악성 콘텐츠로 신고하세요.",
       "message": "이 콘텐츠를 제출하는 이유는 무엇입니까? 다음 옵션 중 하나를 선택합니다.",
-      "accept_and_delete_action": "콘텐츠 확인 및 삭제"
+      "accept_and_delete_action": "콘텐츠 확인 및 삭제",
     },
     "schedule_dialog": {
       "title": "콘텐츠 출시 일정",
       "publish_at": "게시 위치",
       "last_edit": "마지막 수정",
-      "view_action": "기사 보기"
+      "view_action": "기사 보기",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "정보 제출",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "신고 및 삭제",
       "report_and_delete_success_message": "기사가 성공적으로 삭제되었습니다.",
       "report_success_title": "기사보고",
-      "report_success_message": "이 기사에 대한 보고서가 게시되었습니다."
+      "report_success_message": "이 기사에 대한 보고서가 게시되었습니다.",
     },
     "alert": {
       "delete_article": {
         "title": "기사 삭제",
         "message": "이 기사를 영구적으로 삭제하시겠습니까?",
-        "action": "삭제"
-      }
+        "action": "삭제",
+      },
     },
     "edit_window": {
       "title": "이미지 텍스트 및 요약 선택",
-      "digest": "요약"
+      "digest": "요약",
     },
     "editor": {
       "title_placeholder": "제목..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "파일이 너무 큽니다.",
       "notifications": {
         "image_uploaded_success": "이미지가 성공적으로 저장되었습니다.",
-        "image_uploaded_failed": "이미지를 로드하는 동안 오류가 발생했습니다."
+        "image_uploaded_failed": "이미지를 로드하는 동안 오류가 발생했습니다.",
       },
       "embed_placeholder": "iframe 코드, Facebook, Youtube 또는 기타 URL을 입력하고 Enter 키를 누릅니다.",
       "embed_caption_placeholder": "제목 입력(선택 사항)",
-      "images_caption_placeholder": "이 이미지의 제목을 입력하세요."
-    }
+      "images_caption_placeholder": "이 이미지의 제목을 입력하세요.",
+    },
   },
   "article_report": {
     "inappropriate": "이 글의 내용은 부적절합니다.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "이 콘텐츠에는 음란물이 포함되어 있으며 법률을 위반한다고 생각합니다.",
     "harassment": "나는 이것이 인종차별이라고 생각한다.",
     "hate": "나는 이것이 폭력을 조장하기 위한 것이라고 생각합니다.",
-    "infringe": "이것은 내 권리를 침해합니다."
+    "infringe": "이것은 내 권리를 침해합니다.",
   },
   "comments": {
     "new_action": "댓글을 남기시려면 클릭하세요..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "더 많은 의견을 얻으십시오 ..",
     "cant_send_comment": "새 게시물을 추가할 수 없습니다.",
     "cant_remove_this_comment": "이 댓글은 삭제할 수 없습니다!",
-    "product_buyer": "사는 사람",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "내 댓글",
     "delete_alert": {
       "title": "댓글 삭제",
       "message": "이 댓글을 삭제하시겠습니까?",
-      "action": "삭제"
+      "action": "삭제",
     },
     "notifications": {
-      "delete_success": "귀하의 댓글이 성공적으로 삭제되었습니다."
+      "delete_success": "귀하의 댓글이 성공적으로 삭제되었습니다.",
     },
     "first_send": "첫 번째 게시물",
     "comment_at": "에",
     "edit_comment": "댓글 수정",
-    "my_comments": "내 댓글"
+    "product_buyer": "사는 사람",
   },
   "customer_club": {
     "bronze": "청동",
     "silver": "은",
     "gold": "황금",
     "platinum": "백금",
-    "diamond": "다이아몬드"
+    "diamond": "다이아몬드",
   },
   "application_categories": {
     "tracking": "사용자 행동 확인",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "광고하는",
     "staff": "직원",
     "incentive": "인센티브",
-    "shop": "가게"
+    "shop": "가게",
   },
   "social_network": {
     "instagram": "인스 타 그램",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "핀터레스트",
     "whatsapp": "왓츠앱",
     "skype": "스카이프",
-    "facebook_messenger": "페이스북 메신저"
+    "facebook_messenger": "페이스북 메신저",
   },
   "form_builder": {
     "add_item_action": "새 항목 추가",
     "title_input": "제목",
+    "placeholder_input": "자리 표시자",
     "name_input": "변수 이름",
     "value_input": "가치",
     "value_input_message": "사용자 옵션 목록",
     "default": "기본값",
+    "file_type_input": "허용되는 파일 형식",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "단순한",
       "selective": "선택적",
       "switch": "스위치",
       "file": "파일",
-      "number": "숫자"
+      "number": "숫자",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "자리 표시자",
-    "file_type_input": "허용되는 파일 형식",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "상품명",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "지불 상태",
     "payment_status_waiting": "결제 대기 중",
     "payment_status_paid": "유급의",
-    "buyer": "사는 사람"
+    "buyer": "사는 사람",
   },
   "virtual_item_info": {
     "title": "가상 아이템",
     "outputs": {
       "title": "출력 정보",
       "sub_title": "이 항목의 기밀 정보",
-      "message": "이 정보는 제품 구매 후 사용자에게 표시됩니다."
+      "message": "이 정보는 제품 구매 후 사용자에게 표시됩니다.",
     },
     "inputs": {
       "title": "필요한 정보",
       "sub_title": "구매자 정보 필요",
-      "message": "구매자는 양식에 요청된 정보를 입력해야 합니다."
+      "message": "구매자는 양식에 요청된 정보를 입력해야 합니다.",
     },
     "notifications": {
       "inputs_set_success": "정보 양식이 성공적으로 등록되었습니다.",
       "confirm_by_admin_success": "주문완료 확인되었습니다.",
-      "confirm_by_buyer_success": "주문완료 확인되었습니다."
-    }
+      "confirm_by_buyer_success": "주문완료 확인되었습니다.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "이 주문은 대금 상환 결제로 받아들일 수 없습니다.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "품절.",
     "legal_restriction": "법적 제한으로 인해 주문을 할 수 없습니다.",
     "pricing_fault": "판매자의 가격 착오.",
-    "system_fault": "시스템 버그."
+    "system_fault": "시스템 버그.",
   },
   "basket_order_info_summery": {
     "receiver": "수화기",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "할인",
     "final_price": "최종 금액",
     "address": "배달 주소",
-    "payment_status": "지불 상태"
+    "payment_status": "지불 상태",
   },
   "basket_status": {
     "open": "열려 있는",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "취소 된",
     "cod": "선불",
     "receipt_added": "영수증 추가됨",
-    "payment_processing": "결제 처리"
+    "payment_processing": "결제 처리",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "거부됨",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "확인",
     "step_3": "준비",
     "step_4": "배달 중",
-    "step_5": "배달됨"
+    "step_5": "배달됨",
   },
   "basket_return_request_view": {
     "title": "반품 요청",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "요청 거부",
     "message_for_admin": "Selldone을 사용하여 수락한 계약에 따라 구매자에게 연락하여 주문 반품 절차를 알려야 합니다. 요청이 수락되거나 거부되고 구매자의 완전한 동의를 얻은 경우 이 작업을 수행해야 합니다.",
     "notifications": {
-      "update_status_success": "요청 상태가 업데이트되었습니다."
-    }
+      "update_status_success": "요청 상태가 업데이트되었습니다.",
+    },
   },
   "basket_list": {
     "return_count": "반환: {count} 번호",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "변종",
       "warranty": "보증",
       "count": "세다",
-      "price": "가격"
-    }
+      "price": "가격",
+    },
   },
   "return_request_list": {
     "count": "참조 번호",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "접수일",
       "state": "상태",
       "reason": "이유",
-      "return_warranty_period": "보증 기간"
-    }
+      "return_warranty_period": "보증 기간",
+    },
   },
   "data_toolbar": {
     "search": "검색",
     "sort_by": "정렬 기준",
-    "count_item": "{item} 항목 표시"
+    "count_item": "{item} 항목 표시",
   },
   "sort": {
     "created_at": "날짜 생성",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "장교",
     "registered": "등기",
     "purchased": "구입 한",
-    "sex": "성별"
+    "sex": "성별",
   },
   "search_box": {
     "result": "검색 결과",
     "tips": "제품 및 카테고리 검색",
     "label": "검색 ...",
-    "category": "범주"
+    "category": "범주",
   },
   "lead_status": {
     "physical_fast_delivery": "즉석 배달",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "다음 {days}일부터 준비 및 제출",
     "virtual_fast_prepare": "즉석 배달",
     "virtual_under_24h": "다음 {lead}시간 이내에 완료됩니다.",
-    "virtual_over_24h": "다음 {days}일부터 완료됩니다."
+    "virtual_over_24h": "다음 {days}일부터 완료됩니다.",
   },
   "return_request_state": {
     "pending": "보류 중",
     "accepted": "확인됨",
-    "rejected": "거부됨"
+    "rejected": "거부됨",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "패키지 또는 일련 번호 변조",
       "U5": "소포의 일부 항목이 누락되었습니다.",
       "U6": "제품이 원본이 아닙니다.",
-      "U7": "제품이 사양을 충족하지 않음"
-    }
+      "U7": "제품이 사양을 충족하지 않음",
+    },
   },
   "image_uploader": {
     "label": "드래그 앤 드롭 또는 <u>파일 선택</u>",
-    "max_size": "최대 허용 크기: {size}"
+    "max_size": "최대 허용 크기: {size}",
   },
   "timespan": {
     "Morning": "오전 8시 - 오후 12시",
     "Evening": "정오 12시 ~ 오후 6시",
     "Night": "오후 6시-12시",
-    "Instant": "인스턴트 포스트"
+    "Instant": "인스턴트 포스트",
   },
   "week_day": {
     "Saturday": "토요일",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "화요일",
     "Wednesday": "수요일",
     "Thursday": "목요일",
-    "Friday": "금요일"
+    "Friday": "금요일",
   },
   "payment_form": {
     "title": "지불 방법 선택",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "축하합니다. 주문은 무료입니다!",
     "order_free_payment_action": "지금 무료로 주문하세요",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "지불 주소",
-      "amount": "양"
-    }
+      "amount": "양",
+    },
   },
   "discount_input": {
     "limit": "{percent}% 할인 최대 {limit} {currency}",
     "action": "할인 코드 추가",
     "code_input": "할인 코드",
     "notifications": {
-      "add_success": "축하합니다. 유효한 할인 코드입니다."
-    }
+      "add_success": "축하합니다. 유효한 할인 코드입니다.",
+    },
   },
   "gift_card": {
     "inactive": "카드가 비활성화되었습니다.",
     "expire": "만료",
     "transfer": "옮기다",
-    "send_to_friend": "친구에게 보내다"
+    "send_to_friend": "친구에게 보내다",
   },
   "count_down": {
     "days": "낮",
     "hours": "시간",
     "minutes": "분",
-    "seconds": "초"
+    "seconds": "초",
   },
   "gift_status": {
     "Unpaid": "접수 대기 중",
     "Paid": "유급의",
     "Rejected": "거부됨",
-    "Canceled": "취소 된"
+    "Canceled": "취소 된",
   },
   "gift_program_status": {
     "Airdrop": "결제 시스템",
     "Advertising": "광고하는",
     "PersonalGift": "개인 선물",
-    "ShopGift": "선물 가게"
+    "ShopGift": "선물 가게",
   },
   "currency_selector": {
-    "label": "통화"
+    "label": "통화",
   },
   "need_login": {
     "title": "로그인",
     "login_sms": "SMS 로그인",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "구글로 로그인",
     "login_facebook": "페이스북으로 로그인",
+    "login_apple": "애플로 로그인",
     "login_account": "Selldone으로 로그인",
     "register": "새로운 사용자? 지금 등록하세요.",
     "mobile_input": "모바일을 입력하세요",
     "verification_code": "확인 코드",
     "msg_title": "안녕,",
     "msg_body": "로그인 해주세요. 몇 초밖에 걸리지 않습니다.",
-    "login_apple": "애플로 로그인",
     "login_email": "이메일로 로그인",
     "email_login_step_1": "유효한 이메일 주소를 입력하시면 로그인 코드를 보내드립니다. 등록이 필요하지 않습니다.",
     "email_login_step_2": "이메일 주소를 정확히 입력하셨습니까? 제공된 이메일로 로그인 코드를 보내드리니 정확한 정보를 확인하시기 바랍니다.",
-    "email_login_step_3": "귀하의 이메일로 코드를 전송했습니다. 코드는 10분 후에 만료됩니다."
+    "email_login_step_3": "귀하의 이메일로 코드를 전송했습니다. 코드는 10분 후에 만료됩니다.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5년 금상점"
+      "name": "5년 금상점",
     },
     "GOLDEN_2YEAR": {
-      "name": "4년 금상점"
+      "name": "4년 금상점",
     },
     "GOLDEN_3YEAR": {
-      "name": "3년 골드 스토어"
+      "name": "3년 골드 스토어",
     },
     "GOLDEN_4YEAR": {
-      "name": "2년 골드 스토어"
+      "name": "2년 골드 스토어",
     },
     "GOLDEN_5YEAR": {
-      "name": "1년 골드 스토어"
+      "name": "1년 골드 스토어",
     },
     "TOKEN_OWNER_1M": {
-      "name": "황금 투자자"
+      "name": "황금 투자자",
     },
     "TOKEN_OWNER_10M": {
-      "name": "다이아몬드 투자자"
+      "name": "다이아몬드 투자자",
     },
     "TOKEN_OWNER_100M": {
-      "name": "루비 투자자"
+      "name": "루비 투자자",
     },
     "COMMUNITY_LOYAL": {
-      "name": "우수한 통신 네트워크 커뮤니티 회원"
+      "name": "우수한 통신 네트워크 커뮤니티 회원",
     },
     "GOLD_SUPPLIER": {
-      "name": "금 공급업체"
+      "name": "금 공급업체",
     },
     "GOLD_SELLER": {
-      "name": "골드 딜러"
+      "name": "골드 딜러",
     },
     "CONTENT_SUPERMAN": {
-      "name": "최고의 콘텐츠 프로듀서"
+      "name": "최고의 콘텐츠 프로듀서",
     },
     "NINJA": {
-      "name": "닌자"
+      "name": "닌자",
     },
     "STAR": {
-      "name": "별"
+      "name": "별",
     },
     "GUARDIAN": {
-      "name": "훌륭한 고객 서비스"
+      "name": "훌륭한 고객 서비스",
     },
     "KING": {
-      "name": "시장의 왕"
-    }
+      "name": "시장의 왕",
+    },
   },
   "cookie": {
     "title": "이 웹사이트는 쿠키를 사용합니다",
     "message": "이 웹사이트는 사용자 경험을 개선하기 위해 쿠키를 사용합니다. 당사 웹사이트를 사용함으로써 귀하는 당사의 쿠키 정책에 따라 모든 쿠키에 동의하는 것입니다.",
     "preferences_action": "기본 설정 관리",
-    "agree_action": "동의한다"
+    "agree_action": "동의한다",
   },
   "basket_item_message": {
     "title": "이 항목에 대한 필수 정보",
     "save_actions": "메시지 저장",
+    "product_inputs_preview_message": "이러한 사용자 지정 옵션은 주문한 제품에 사용할 수 있습니다. 항목이 장바구니에 추가되면 여기에서 조정할 수 있습니다.",
     "notifications": {
-      "success": "입력 데이터가 저장되었습니다."
+      "success": "입력 데이터가 저장되었습니다.",
     },
-    "product_inputs_preview_message": "이러한 사용자 지정 옵션은 주문한 제품에 사용할 수 있습니다. 항목이 장바구니에 추가되면 여기에서 조정할 수 있습니다."
   },
   "faq": {
     "faq": "자주 묻는 질문",
     "title": "질문과 답변",
-    "sub_title": "당신이 우리에게 요청한 것.",
     "message": "아래 답변 중에서 질문에 대한 답변을 찾아보세요. 질문에 대한 답변이 남아 있지 않은 경우 문의하십시오.",
     "add_question_action": "새로운 질문하기",
     "read_more": "더 읽기 ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "문제",
     "question_input_placeholder": "질문하세요.",
     "notifications": {
-      "success_add": "귀하의 질문이 성공적으로 제출되었습니다."
-    }
+      "success_add": "귀하의 질문이 성공적으로 제출되었습니다.",
+    },
+    "sub_title": "당신이 우리에게 요청한 것.",
   },
   "rating_labels": [
     "아주 나쁜",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "목적지 주소 입력",
     "enter_your_address": "주소를 입력하세요.",
     "postal_code": "우편번호",
-    "phone_input": "전화 {type}",
+    "phone_input": "전화",
     "building_number": "건물 번호",
     "building_unit": "단위",
     "full_name_input": "이름 {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "주소 라벨(필수)",
     "notifications": {
       "save_in_list": "이 주소는 모든 세부 정보와 함께 목록에 저장되었습니다.",
-      "edit_success": "{title}에 새 주소 값이 저장되었습니다."
+      "edit_success": "{title}에 새 주소 값이 저장되었습니다.",
     },
     "delete_address_dialog": {
       "title": "주소 삭제",
       "message": "이 주소를 삭제하시겠습니까?",
-      "action": "주소 삭제"
-    }
+      "action": "주소 삭제",
+    },
   },
   "comment_manager": {
     "can_not_edit": "이 댓글을 수정할 수 없습니다!",
     "comment_input_empty": "메시지 텍스트가 비어 있습니다!",
-    "article_not_saved": "기사를 저장하십시오!"
+    "article_not_saved": "기사를 저장하십시오!",
   },
   "wheel_fortune": {
     "title": "플레이 & 승리",
     "message": "각 게임의 비용은 칩 10개입니다. 현재 {chips} 칩이 있습니다. 상점에서 구매하여 더 많은 칩을 얻으십시오.",
     "win_message": "축하합니다, 당신이 이겼습니다!",
     "lost_message": "죄송합니다. 게임에서 졌습니다.",
-    "try_again": "다시 시도할 수 있습니다."
+    "try_again": "다시 시도할 수 있습니다.",
   },
   "json": {
     "add": "구조 데이터 추가",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "구조",
     "book": {
       "title": "도서",
-      "desc": "사용자가 검색 결과에서 직접 찾은 책을 구매할 수 있도록 하는 책 작업입니다."
+      "desc": "사용자가 검색 결과에서 직접 찾은 책을 구매할 수 있도록 하는 책 작업입니다.",
     },
     "occupation": {
       "title": "예상 급여",
-      "desc": "급여 범위 및 직업 유형에 대한 지역별 급여 평균과 같은 급여 추정에 대한 정보가 Google의 직업 검색 환경에 표시됩니다."
+      "desc": "급여 범위 및 직업 유형에 대한 지역별 급여 평균과 같은 급여 추정에 대한 정보가 Google의 직업 검색 환경에 표시됩니다.",
     },
     "course": {
       "title": "강의",
-      "desc": "제공자별 목록에 표시되는 교육 과정입니다. 코스에는 코스 제목, 제공자 및 간단한 설명이 포함될 수 있습니다."
+      "desc": "제공자별 목록에 표시되는 교육 과정입니다. 코스에는 코스 제목, 제공자 및 간단한 설명이 포함될 수 있습니다.",
     },
     "howto": {
       "title": "어떻게",
-      "desc": "방법은 비디오, 이미지 및 텍스트가 포함된 작업을 성공적으로 완료하기 위한 일련의 단계를 통해 사용자를 안내합니다."
+      "desc": "방법은 비디오, 이미지 및 텍스트가 포함된 작업을 성공적으로 완료하기 위한 일련의 단계를 통해 사용자를 안내합니다.",
     },
     "recipe": {
       "title": "레시피",
-      "desc": "개별 리치 결과 또는 호스트 캐러셀의 일부로 표시되는 레시피입니다."
-    }
+      "desc": "개별 리치 결과 또는 호스트 캐러셀의 일부로 표시되는 레시피입니다.",
+    },
   },
   "support": {
     "Financial": "재정적인",
     "Technical": "전문인",
-    "Advisor": "조언자"
+    "Advisor": "조언자",
   },
   "condition": {
     "new": "새로운",
@@ -1885,91 +2098,152 @@ export default {
     "used": "사용된",
     "used_fair": "중고 박람회",
     "used_good": "중고품",
-    "used_like_new": "새것처럼 사용"
+    "used_like_new": "새것처럼 사용",
   },
   "variant_filter": {
     "title": "제품 변형 필터",
-    "only_available": "재고"
+    "only_available": "재고",
   },
   "service": {
     "task": {
       "title": "작업",
-      "message": "이 서비스에서 수행된 작업 목록입니다."
+      "message": "이 서비스에서 수행된 작업 목록입니다.",
     },
     "appointment": {
       "title": "약속",
-      "message": "다음 시간에서 귀하에게 적합한 요일과 시간을 기준으로 요일을 선택하십시오."
+      "message": "다음 시간에서 귀하에게 적합한 요일과 시간을 기준으로 요일을 선택하십시오.",
     },
     "booking": {
       "title": "예약",
-      "message": "아래 달력에서 예약을 원하는 날짜의 기간을 지정하십시오."
+      "message": "아래 달력에서 예약을 원하는 날짜의 기간을 지정하십시오.",
     },
     "subscription": {
-      "title": "신청"
+      "title": "신청",
     },
     "charge": {
-      "title": "요금"
-    }
+      "title": "요금",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "고정 가격",
-      "message": "이러한 가격 책정 방식에서는 제품의 가격이 고정되어 있어 구매자가 가격 계산을 요청할 필요가 없습니다."
+      "message": "이러한 가격 책정 방식에서는 제품의 가격이 고정되어 있어 구매자가 가격 계산을 요청할 필요가 없습니다.",
     },
     "ESTIMATION": {
       "title": "견적 가격",
-      "message": "제품 및 서비스의 가격은 주문 시 판매자가 어느 정도 계산하며, 결제 인보이스는 서비스 도중 변경 또는 추가될 수 있습니다."
+      "message": "제품 및 서비스의 가격은 주문 시 판매자가 어느 정도 계산하며, 결제 인보이스는 서비스 도중 변경 또는 추가될 수 있습니다.",
     },
     "AGREEMENT": {
       "title": "계약 가격",
-      "message": "제품 또는 서비스의 최종 가격은 주문이 완료된 후 판매자가 변경하지 않습니다."
+      "message": "제품 또는 서비스의 최종 가격은 주문이 완료된 후 판매자가 변경하지 않습니다.",
     },
     "BID": {
       "title": "입찰/경매",
-      "message": "제품은 잠재 구매자가 가장 높은 입찰가로 판매됩니다."
-    }
+      "message": "제품은 잠재 구매자가 가장 높은 입찰가로 판매됩니다.",
+    },
   },
   "map": {
     "title": "상품 수령처",
     "confirm": "위치 설정",
     "address": "목적지",
-    "receptor": "수화기"
+    "receptor": "수화기",
   },
   "ShopBots": {
-    "telegram": "전보"
+    "telegram": "전보",
   },
   "article_tags": {
     "title": "콘텐츠 태그",
     "tags_input": "태그",
     "tags_input_message": "태그 이 기사 목록",
     "notification": {
-      "add_success": "추가된 태그"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "매우 복잡한",
-    "hard": "딱딱한",
-    "intermediate": "중급",
-    "easy": "쉬운"
-  },
-  "billing_period": {
-    "Daily": "일일",
-    "Weekly": "주간",
-    "Monthly": "월간 간행물",
-    "Every3Months": "3개월마다",
-    "Every6Months": "6개월마다",
-    "Yearly": "매년"
+      "add_success": "추가된 태그",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "좋지 않아!",
     "between2_3": "괜찮아요!",
     "between3_4": "사람들은 그것을 좋아합니다!",
-    "between4_5": "사람들은 그것을 좋아합니다!"
+    "between4_5": "사람들은 그것을 좋아합니다!",
   },
   "seasons": {
     "spring": "봄",
     "summer": "여름",
     "autumn": "가을",
-    "winter": "겨울"
-  }
+    "winter": "겨울",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

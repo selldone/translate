@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Mwen te li kondisyon itilizasyon ak règleman sou enfòmasyon prive epi mwen dakò ak yo.",
   "commons": {
     "Currency": "Lajan",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Eta",
     "Price": "pri",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Pri nèt",
     "tax": "Taks",
     "tax_included": "Enkli nan pri",
+    "tax_included_abstract": "incl.",
     "limit": "Limit",
     "min_purchase": "Acha minimòm",
     "eligible_for": "Elijib pou",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Dat kreye",
     "updated_at": "Dènye aktyalizasyon",
     "register_at": "Enskri dat",
+    "last_modified": "Last modified",
     "old": "Ansyen",
     "new": "Nouvo",
     "start": "Kòmanse",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Revandè",
     "tracking_code": "Kòd pou swiv",
     "tracking_url": "Suivi URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Akonplisman",
     "reject": "Rejte",
     "reserved": "Rezève",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Ap tann...",
     "waiting_connecting_payment": "Map tann sèvis peman an...",
     "creating_secure_payment": "Kreye peman an sekirite.",
+    "waiting_for_payment": "Tanpri ranpli peman ...",
     "officer": "Ofisye",
     "ticket": "Tikè",
     "ticket_url": "URL tikè",
@@ -361,7 +366,6 @@ export default {
     "rates": "Rating",
     "seen_at": "Wè nan",
     "completed": "Konplete",
-    "you": "Ou menm",
     "shop": "Boutik",
     "store": "magazen",
     "granted": "Akòde",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Chanèl akizisyon",
+    "channels_overview": "Channels overview",
     "to": "Pou",
     "info": "Info",
     "general": "Jeneral",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Pou chak pwodwi",
     "journey": "Vwayaj",
     "after": "Apre",
-    "waiting_for_payment": "Tanpri ranpli peman ...",
     "hour": "Lè",
     "minute": "Minit",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Magazen",
     "vendor": "Vandè",
     "vendors": "Fournisseurs",
+    "no_vendors": "No vendors",
     "marketplace": "Marketplace",
     "verify_date": "Verifye dat",
     "note": "Remak",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Sekirize",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Peman pa regle!",
     "orders_list": "Lis lòd",
     "subscription_plan": "Plan abònman",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Grap",
     "subscriptions": "Abònman",
     "spam": "Spam",
-    "video": "Videyo"
+    "video": "Videyo",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Ou menm",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Trè konplike",
+    "hard": "Difisil",
+    "intermediate": "Entèmedyè",
+    "easy": "Fasil",
   },
   "dialogs": {
     "delete": {
       "title": "Efase",
       "message": "Èske w asire w ke w efase atik sa a?",
-      "action": "Wi, Efase kounye a"
-    }
+      "action": "Wi, Efase kounye a",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Ajoute nan Panier",
     "cancel": "Anile",
     "update": "Mizajou",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ajoute kat kado",
     "charge": "Chaje",
     "send_invites": "Voye envitasyon",
-    "past": "Sot pase",
+    "paste": "Kole",
     "restore": "Restore",
     "cut": "Koupe",
     "get_sms_code": "Jwenn kòd otantifikasyon",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Montre aperçu",
     "hide_preview": "Kache aperçu",
     "download_now": "Telechaje kounye a",
+    "watch_now": "Gade Kounye a",
     "auto_fill": "Ranpli otomatik",
     "track": "Track",
     "change_state": "Chanje Estati",
     "done": "Fè",
     "reply": "Reply",
-    "watch_now": "Gade Kounye a",
     "unlock": "Debloke",
     "lock": "Fèmen",
     "create_clone": "Kreye klonaj",
@@ -773,41 +931,71 @@ export default {
     "buy": "Achte",
     "view_all": "Wè tout",
     "view_now": "Gade kounye a",
-    "paste": "Kole"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Sot pase",
+  },
+  "billing_period": {
+    "Daily": "Chak jou",
+    "Weekly": "Chak semèn",
+    "Monthly": "Chak mwa",
+    "Every3Months": "Chak 3 mwa",
+    "Every6Months": "Chak 6 mwa",
+    "Yearly": "Chak ane",
   },
   "instance_message_title": "Voye mesaj enstantane",
   "instance_message": "Bonjou {name}, Non mwen se {author} ki soti nan {company}.",
   "errors": {
     "419": "Ou inaktif depi lontan, tanpri <b>⟳ rafrechi paj la</b> pou rezon sekirite.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistèm nan pa senkronize ak blockchain la. Li p ap posib pou kreye yon nouvo tranzaksyon jiskaske senkronizasyon serveurs nou yo fini. Nou ap rezoud pwoblèm nan.",
-    "gateway_network_error": "Sèvis pòtay peman te rankontre yon pwoblèm kominikasyon."
+    "gateway_network_error": "Sèvis pòtay peman te rankontre yon pwoblèm kominikasyon.",
   },
   "receiver_info": {
     "map": {
       "title": "Adres livrezon",
       "confirm": "Mete kote",
       "address_type": "Destinasyon",
-      "receptor_type": "Reseptè"
+      "receptor_type": "Reseptè",
     },
     "receiver_address": "Chwazi adrès anbake",
+    "service_address": "Chwazi adrès ou",
+    "select_billing_address": "Select billing address",
     "address": "adrès",
     "postcode": "Kòd postal",
     "enter_value": "Ranpli isit la",
     "address_note": "Remak",
     "tel": "Nimewo kontak",
-    "service_address": "Chwazi adrès ou"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "KG"
+    "kg": "KG",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ons",
     "lb": "Pound",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Santimèt",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Pye",
     "mm": "milimèt",
     "m": "mèt",
-    "yd": "Lakou"
+    "yd": "Lakou",
   },
   "distance": {
     "m": "mèt",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Jou",
     "hours": "Orè",
     "minutes": "Minit",
-    "seconds": "Segond"
+    "seconds": "Segond",
   },
   "units": [
     "Inite",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Eta",
     "Territory": "Teritwa",
-    "Province": "Pwovens"
+    "Province": "Pwovens",
   },
   "transaction_status": {
     "RequireAction": "Aksyon obligatwa",
     "Processing": "Pwosesis",
     "Canceled": "Anile",
-    "Succeeded": "Te reyisi"
+    "Succeeded": "Te reyisi",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Chwazi lang..",
     "friend_email": "Imèl zanmi w la...",
     "friend_name": "Opt. Non zanmi w",
-    "select_date": "Chwazi yon dat..."
+    "select_date": "Chwazi yon dat...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Konfime",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maksimòm {maxCount} karaktè",
     "invalid_url": "URL pa valab",
     "country_invalid": "Chwazi peyi destinasyon!",
-    "postal_code_invalid": "Mete kòd postal valab!"
+    "postal_code_invalid": "Mete kòd postal valab!",
   },
   "colors": {
     "#D32F2F": "Wouj",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Inite",
     "postcode": "Kòd postal",
     "note": "Remak",
-    "county": "Konte"
+    "county": "Konte",
   },
   "product_types": {
     "physical": "Fizik",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Sèvis",
     "service_description": "Sèvis tankou: reparasyon, transpò, ansèyman.",
     "subscription": "Abònman",
-    "subscription_description": "Abònman ak fakti pou pwodwi, sèvis, oswa kontni."
+    "subscription_description": "Abònman ak fakti pou pwodwi, sèvis, oswa kontni.",
   },
   "license": {
     "free": "Gratis",
     "startup": "Demaraj",
     "company": "Konpayi",
-    "enterprise": "Enterprise"
+    "enterprise": "Enterprise",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Koulè",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Konte nan pake",
     "weight": "Pwa",
     "type": "Materyèl",
-    "style": "Style"
+    "style": "Style",
   },
   "delivery_state": {
     "check_queue": "Ap tann revizyon",
     "order_confirm": "Konfimasyon Lòd",
     "preparing_order": "Preparasyon",
     "sent_order": "Sou livrezon",
-    "to_customer": "Livre"
+    "to_customer": "Livre",
   },
   "status": {
     "unpaid": "Poko peye",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Rejte",
     "pending": "annatant",
     "rejected": "Rejte",
-    "accepted": "Aksepte"
+    "accepted": "Aksepte",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "KG"
+    "kg": "KG",
   },
   "transportation_type": {
     "motorbike": "Motosiklèt",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Transpò mondyal",
     "global_description": "Shipping lòt bò dlo pa lè, lanmè oswa tè.",
     "pickup": "Ranmase",
-    "pickup_description": "Kliyan yo ranmase atik yo nan magazen fizik ou oswa depo."
+    "pickup_description": "Kliyan yo ranmase atik yo nan magazen fizik ou oswa depo.",
   },
   "article": {
     "login_to_see_error": "Konekte pou jwenn aksè nan atik la",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Edit mòd",
       "view_mode": "View mòd",
-      "delete": "Efase atik"
+      "delete": "Efase atik",
     },
     "schedule_action": "Èske ou vle pwograme piblikasyon?",
     "schedule_title": "Orè oto-pibliye",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Rapòte abi epi retire kontni",
       "report_title": "Rapòte kontni sa a kòm abizif",
       "message": "Ki rezon pou soumèt kontni sa a? Chwazi youn nan opsyon sa yo.",
-      "accept_and_delete_action": "Konfime ak efase kontni"
+      "accept_and_delete_action": "Konfime ak efase kontni",
     },
     "schedule_dialog": {
       "title": "Orè pou pibliye kontni",
       "publish_at": "Pibliye nan",
       "last_edit": "Dènye modifye",
-      "view_action": "Gade atik"
+      "view_action": "Gade atik",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Soumèt enfòmasyon",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Rapòte ak efase",
       "report_and_delete_success_message": "Atik te efase avèk siksè.",
       "report_success_title": "Rapò atik",
-      "report_success_message": "Yo afiche rapò ou sou atik sa a."
+      "report_success_message": "Yo afiche rapò ou sou atik sa a.",
     },
     "alert": {
       "delete_article": {
         "title": "Efase atik",
         "message": "Èske w sèten ou vle efase atik sa a pou tout tan?",
-        "action": "Efase"
-      }
+        "action": "Efase",
+      },
     },
     "edit_window": {
       "title": "Chwazi Tèks Imaj ak Rezime",
-      "digest": "Rezime"
+      "digest": "Rezime",
     },
     "editor": {
       "title_placeholder": "Tit..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Fichye sa a twò gwo:",
       "notifications": {
         "image_uploaded_success": "Imaj sove avèk siksè",
-        "image_uploaded_failed": "Erè chaje imaj."
+        "image_uploaded_failed": "Erè chaje imaj.",
       },
       "embed_placeholder": "Antre kòd iframe a, Facebook, Youtube oswa nenpòt lòt URL epi peze antre.",
       "embed_caption_placeholder": "Antre yon tit (si ou vle)",
-      "images_caption_placeholder": "Antre yon tit pou imaj sa a .."
-    }
+      "images_caption_placeholder": "Antre yon tit pou imaj sa a ..",
+    },
   },
   "article_report": {
     "inappropriate": "Kontni atik sa a pa apwopriye.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Mwen panse ke kontni sa a gen pònografi epi li an vyolasyon lwa yo.",
     "harassment": "Mwen panse ke sa a se rasis.",
     "hate": "Mwen panse ke sa a se sou pwomosyon vyolans.",
-    "infringe": "Sa vyole dwa mwen."
+    "infringe": "Sa vyole dwa mwen.",
   },
   "comments": {
     "new_action": "Klike pou w kite yon kòmantè..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Jwenn plis kòmantè..",
     "cant_send_comment": "Ou pa kapab ajoute nouvo pòs.",
     "cant_remove_this_comment": "Ou pa ka efase kòmantè sa a!",
-    "product_buyer": "Achtè",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Kòmantè mwen yo",
     "delete_alert": {
       "title": "Efase kòmantè",
       "message": "Èske ou vle efase kòmantè sa a?",
-      "action": "Efase"
+      "action": "Efase",
     },
     "notifications": {
-      "delete_success": "Kòmantè w la efase avèk siksè."
+      "delete_success": "Kòmantè w la efase avèk siksè.",
     },
     "first_send": "Premye pòs",
     "comment_at": "Sou",
     "edit_comment": "Edit Kòmantè",
-    "my_comments": "Kòmantè mwen yo"
+    "product_buyer": "Achtè",
   },
   "customer_club": {
     "bronze": "Bwonz",
     "silver": "Ajan",
     "gold": "Golden",
     "platinum": "Platinum",
-    "diamond": "Diamond"
+    "diamond": "Diamond",
   },
   "application_categories": {
     "tracking": "Tcheke Konpòtman Itilizatè yo",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Piblisite",
     "staff": "Anplwaye",
     "incentive": "Ankourajman",
-    "shop": "Boutik"
+    "shop": "Boutik",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Ajoute nouvo atik",
     "title_input": "Tit",
+    "placeholder_input": "Placeholder",
     "name_input": "Non varyab",
     "value_input": "Valè",
     "value_input_message": "Lis Opsyon Itilizatè yo",
     "default": "Valè default",
+    "file_type_input": "Kalite dosye akseptab",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Senp",
       "selective": "Selektif",
       "switch": "Chanje",
       "file": "File",
-      "number": "Nimewo"
+      "number": "Nimewo",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Placeholder",
-    "file_type_input": "Kalite dosye akseptab",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Non pwodwi",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Estati peman",
     "payment_status_waiting": "Ap tann pou peman",
     "payment_status_paid": "Peye",
-    "buyer": "Achtè"
+    "buyer": "Achtè",
   },
   "virtual_item_info": {
     "title": "Atik vityèl",
     "outputs": {
       "title": "Enfòmasyon sou Sòti a",
       "sub_title": "Enfòmasyon konfidansyèl atik sa a",
-      "message": "Enfòmasyon sa a pral montre itilizatè a apre li fin achte pwodwi a."
+      "message": "Enfòmasyon sa a pral montre itilizatè a apre li fin achte pwodwi a.",
     },
     "inputs": {
       "title": "Enfòmasyon obligatwa",
       "sub_title": "Enfòmasyon sou achtè obligatwa",
-      "message": "Achtè a dwe antre enfòmasyon yo mande a nan fòm lan"
+      "message": "Achtè a dwe antre enfòmasyon yo mande a nan fòm lan",
     },
     "notifications": {
       "inputs_set_success": "Fòm enfòmasyon anrejistre avèk siksè.",
       "confirm_by_admin_success": "Fini lòd konfime.",
-      "confirm_by_buyer_success": "Fini lòd konfime."
-    }
+      "confirm_by_buyer_success": "Fini lòd konfime.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Peman COD a pa ka aksepte lòd sa a.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Soti nan stock.",
     "legal_restriction": "Pa kapab mete yon lòd akòz restriksyon legal.",
     "pricing_fault": "Erè pri pa vandè.",
-    "system_fault": "Ensèk sistèm."
+    "system_fault": "Ensèk sistèm.",
   },
   "basket_order_info_summery": {
     "receiver": "Reseptè",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Rabè",
     "final_price": "Montan final la",
     "address": "Adrès livrezon",
-    "payment_status": "Estati peman"
+    "payment_status": "Estati peman",
   },
   "basket_status": {
     "open": "Louvri",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Anile",
     "cod": "Peye sou livrezon",
     "receipt_added": "Resi te ajoute",
-    "payment_processing": "Pwosesis peman"
+    "payment_processing": "Pwosesis peman",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Rejte",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Konfimasyon",
     "step_3": "Preparasyon",
     "step_4": "Sou livrezon",
-    "step_5": "Livre"
+    "step_5": "Livre",
   },
   "basket_return_request_view": {
     "title": "Retounen Demann",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Rejte demann",
     "message_for_admin": "Dapre akò a ou te aksepte lè w sèvi ak Selldone a, ou dwe kontakte achtè a epi kenbe li / li enfòme sou pwosesis la nan retounen lòd li. Sa a dwe fè si demann lan aksepte oswa rejte epi yo jwenn konsantman konplè achtè a.",
     "notifications": {
-      "update_status_success": "Estati demann mete ajou."
-    }
+      "update_status_success": "Estati demann mete ajou.",
+    },
   },
   "basket_list": {
     "return_count": "Retounen: {count} nimewo",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Garanti",
       "count": "Konte",
-      "price": "pri"
-    }
+      "price": "pri",
+    },
   },
   "return_request_list": {
     "count": "Nimero referans",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Dat Resevwa",
       "state": "Estati",
       "reason": "Rezon",
-      "return_warranty_period": "Peryòd garanti"
-    }
+      "return_warranty_period": "Peryòd garanti",
+    },
   },
   "data_toolbar": {
     "search": "Rechèch",
     "sort_by": "Triye pa",
-    "count_item": "Montre {item} atik yo"
+    "count_item": "Montre {item} atik yo",
   },
   "sort": {
     "created_at": "Kreye dat",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ofisye",
     "registered": "Anrejistre",
     "purchased": "Achte",
-    "sex": "Sèks"
+    "sex": "Sèks",
   },
   "search_box": {
     "result": "Rezilta rechèch yo",
     "tips": "Rechèch pwodwi ak kategori",
     "label": "Chèche...",
-    "category": "Kategori"
+    "category": "Kategori",
   },
   "lead_status": {
     "physical_fast_delivery": "Livrezon instant",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Preparasyon ak soumèt soti nan pwochen jou {days}",
     "virtual_fast_prepare": "Livrezon instant",
     "virtual_under_24h": "Pral fèt nan pwochen {lead} èdtan yo",
-    "virtual_over_24h": "Pral fèt apati de {days} pwochen jou yo"
+    "virtual_over_24h": "Pral fèt apati de {days} pwochen jou yo",
   },
   "return_request_state": {
     "pending": "annatant",
     "accepted": "Konfime",
-    "rejected": "Rejte"
+    "rejected": "Rejte",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pake oswa nimewo seri manipilasyon",
       "U5": "Gen kèk atik ki soti nan pasèl la ki manke",
       "U6": "Pwodwi pa orijinal",
-      "U7": "Pwodwi pa satisfè espesifikasyon yo"
-    }
+      "U7": "Pwodwi pa satisfè espesifikasyon yo",
+    },
   },
   "image_uploader": {
     "label": "Trennen & Drop oswa <u>Chwazi dosye</u>",
-    "max_size": "Gwosè maksimòm pèmèt: {size}"
+    "max_size": "Gwosè maksimòm pèmèt: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "12 midi pou 6 pm",
     "Night": "6 pm-12 pm",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "Samdi",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Madi",
     "Wednesday": "Mèkredi",
     "Thursday": "Jedi",
-    "Friday": "Vandredi"
+    "Friday": "Vandredi",
   },
   "payment_form": {
     "title": "Chwazi Metòd Peman",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Felisitasyon, lòd ou a gratis!",
     "order_free_payment_action": "Kòmand gratis kounye a",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Adrès peman",
-      "amount": "Kantite lajan"
-    }
+      "amount": "Kantite lajan",
+    },
   },
   "discount_input": {
     "limit": "{percent}% rabè jiska {limit} {currency}",
     "action": "Ajoute Kòd Rabè",
     "code_input": "Kòd rabè",
     "notifications": {
-      "add_success": "Felisitasyon, kòd rabè valab."
-    }
+      "add_success": "Felisitasyon, kòd rabè valab.",
+    },
   },
   "gift_card": {
     "inactive": "Kat enfim",
     "expire": "Ekspire",
     "transfer": "Transfè",
-    "send_to_friend": "Voye bay zanmi"
+    "send_to_friend": "Voye bay zanmi",
   },
   "count_down": {
     "days": "Jounen",
     "hours": "Lè",
     "minutes": "Minit",
-    "seconds": "Segond"
+    "seconds": "Segond",
   },
   "gift_status": {
     "Unpaid": "Ap tann resi",
     "Paid": "Peye",
     "Rejected": "Rejte",
-    "Canceled": "Anile"
+    "Canceled": "Anile",
   },
   "gift_program_status": {
     "Airdrop": "Sistèm Peman",
     "Advertising": "Piblisite",
     "PersonalGift": "Kado pèsonèl",
-    "ShopGift": "Boutik kado"
+    "ShopGift": "Boutik kado",
   },
   "currency_selector": {
-    "label": "Lajan"
+    "label": "Lajan",
   },
   "need_login": {
     "title": "ouvri sesyon an",
     "login_sms": "SMS Login",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Konekte ak Google",
     "login_facebook": "Konekte ak Facebook",
+    "login_apple": "Konekte ak Apple",
     "login_account": "Konekte pa Selldone",
     "register": "Nouvo itilizatè? Enskri kounye a.",
     "mobile_input": "Antre mobil ou",
     "verification_code": "Kòd Verifikasyon",
     "msg_title": "bonjou,",
     "msg_body": "Tanpri konekte. Li pran jis kèk segonn.",
-    "login_apple": "Konekte ak Apple",
     "login_email": "Konekte pa Imèl",
     "email_login_step_1": "Tanpri bay yon adrès imèl ki valab, epi n ap voye kòd login la ba li. Pa gen enskripsyon ki nesesè.",
     "email_login_step_2": "Èske ou sèten ou te antre adrès imel ou kòrèkteman? Nou pral voye kòd login nan imel yo bay la, kidonk tanpri asire presizyon li.",
-    "email_login_step_3": "Nou voye yon kòd nan imel ou. Tanpri sonje ke kòd la ap ekspire nan 10 minit."
+    "email_login_step_3": "Nou voye yon kòd nan imel ou. Tanpri sonje ke kòd la ap ekspire nan 10 minit.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Ane Gold Store"
+      "name": "5 Ane Gold Store",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Ane Gold Store"
+      "name": "4 Ane Gold Store",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Ane Gold Store"
+      "name": "3 Ane Gold Store",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 ane Gold Store"
+      "name": "2 ane Gold Store",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Ane Gold Store"
+      "name": "1 Ane Gold Store",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Golden envestisè"
+      "name": "Golden envestisè",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Envestisè Diamond"
+      "name": "Envestisè Diamond",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Envestisè Ruby"
+      "name": "Envestisè Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Manm kominote siperyè rezo kominikasyon yo"
+      "name": "Manm kominote siperyè rezo kominikasyon yo",
     },
     "GOLD_SUPPLIER": {
-      "name": "Founisè Gold"
+      "name": "Founisè Gold",
     },
     "GOLD_SELLER": {
-      "name": "Konsesyonè lò"
+      "name": "Konsesyonè lò",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Top Pwodiktè kontni"
+      "name": "Top Pwodiktè kontni",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Star"
+      "name": "Star",
     },
     "GUARDIAN": {
-      "name": "Gwo sèvis Kliyantèl"
+      "name": "Gwo sèvis Kliyantèl",
     },
     "KING": {
-      "name": "Wa mache a"
-    }
+      "name": "Wa mache a",
+    },
   },
   "cookie": {
     "title": "Sit entènèt sa a sèvi ak bonbon",
     "message": "Sit entènèt sa a sèvi ak bonbon pou amelyore eksperyans itilizatè. Lè w sèvi ak sit entènèt nou an, ou dakò pou tout bonbon an akò ak Règleman Cookie nou an.",
     "preferences_action": "Jere Preferans",
-    "agree_action": "Mwen dakò"
+    "agree_action": "Mwen dakò",
   },
   "basket_item_message": {
     "title": "Enfòmasyon obligatwa pou atik sa a",
     "save_actions": "Sove mesaj",
+    "product_inputs_preview_message": "Opsyon personnalisation sa yo disponib pou pwodwi ou te bay lòd. Yon fwa yo ajoute atik la nan kabwa ou a, ou pral kapab fè ajisteman isit la.",
     "notifications": {
-      "success": "Done antre ou yo te sove."
+      "success": "Done antre ou yo te sove.",
     },
-    "product_inputs_preview_message": "Opsyon personnalisation sa yo disponib pou pwodwi ou te bay lòd. Yon fwa yo ajoute atik la nan kabwa ou a, ou pral kapab fè ajisteman isit la."
   },
   "faq": {
     "faq": "Kesyon yo poze souvan",
     "title": "Kesyon ak Repons",
-    "sub_title": "Sa ou mande nou fè.",
     "message": "Chèche repons kesyon ou a pami repons ki anba yo. Mande nou si kesyon rete san repons.",
     "add_question_action": "Poze Nouvo Kesyon",
     "read_more": "Li piplis ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Kesyon",
     "question_input_placeholder": "Poze kesyon ou.",
     "notifications": {
-      "success_add": "Kesyon w te soumèt avèk siksè."
-    }
+      "success_add": "Kesyon w te soumèt avèk siksè.",
+    },
+    "sub_title": "Sa ou mande nou fè.",
   },
   "rating_labels": [
     "Trè move",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Antre adrès destinasyon an",
     "enter_your_address": "Antre adrès ou.",
     "postal_code": "Kòd postal",
-    "phone_input": "Telefòn {type}",
+    "phone_input": "Telefòn",
     "building_number": "Nimewo bilding lan",
     "building_unit": "Inite",
     "full_name_input": "Non konplè {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Etikèt adrès (Mande)",
     "notifications": {
       "save_in_list": "Adrès sa a te sove nan lis ou a ak tout detay li yo.",
-      "edit_success": "Nouvo valè adrès yo sove nan {title}."
+      "edit_success": "Nouvo valè adrès yo sove nan {title}.",
     },
     "delete_address_dialog": {
       "title": "Efase Adrès",
       "message": "Èske w sèten ou vle efase adrès sa a?",
-      "action": "Retire adrès"
-    }
+      "action": "Retire adrès",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Pa ka edite kòmantè sa a!",
     "comment_input_empty": "Tèks mesaj la vid!",
-    "article_not_saved": "Sove atik la!"
+    "article_not_saved": "Sove atik la!",
   },
   "wheel_fortune": {
     "title": "Jwe & genyen",
     "message": "Pri a nan chak jwèt se 10 chips. Kounye a ou gen {chips} chip. Jwenn plis chip lè w achte nan magazen an.",
     "win_message": "Felisitasyon, ou genyen!",
     "lost_message": "Padon, ou pèdi jwèt la.",
-    "try_again": "Ou ka eseye ankò"
+    "try_again": "Ou ka eseye ankò",
   },
   "json": {
     "add": "Ajoute done estrikti",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Estrikti",
     "book": {
       "title": "Liv",
-      "desc": "Aksyon liv ki pèmèt itilizatè yo achte liv yo jwenn dirèkteman nan rezilta rechèch la."
+      "desc": "Aksyon liv ki pèmèt itilizatè yo achte liv yo jwenn dirèkteman nan rezilta rechèch la.",
     },
     "occupation": {
       "title": "Estimasyon salè",
-      "desc": "Enfòmasyon sou estimasyon salè, tankou ranje salè ak mwayèn salè ki baze sou rejyon an pou kalite travay, parèt nan eksperyans rechèch travay sou Google."
+      "desc": "Enfòmasyon sou estimasyon salè, tankou ranje salè ak mwayèn salè ki baze sou rejyon an pou kalite travay, parèt nan eksperyans rechèch travay sou Google.",
     },
     "course": {
       "title": "Kou",
-      "desc": "Kou edikatif ki parèt nan yon lis founisè espesifik. Kou yo ka gen ladan tit kou a, founisè a, ak yon deskripsyon kout."
+      "desc": "Kou edikatif ki parèt nan yon lis founisè espesifik. Kou yo ka gen ladan tit kou a, founisè a, ak yon deskripsyon kout.",
     },
     "howto": {
       "title": "Kijan pou",
-      "desc": "Yon fason pou fè itilizatè yo atravè yon seri etap pou konplete avèk siksè yon travay, ki gen videyo, imaj, ak tèks."
+      "desc": "Yon fason pou fè itilizatè yo atravè yon seri etap pou konplete avèk siksè yon travay, ki gen videyo, imaj, ak tèks.",
     },
     "recipe": {
       "title": "Resèt",
-      "desc": "Resèt ki montre kòm yon rezilta moun rich oswa yon pati nan yon Carousel lame."
-    }
+      "desc": "Resèt ki montre kòm yon rezilta moun rich oswa yon pati nan yon Carousel lame.",
+    },
   },
   "support": {
     "Financial": "Finansye",
     "Technical": "Teknik",
-    "Advisor": "Konseye"
+    "Advisor": "Konseye",
   },
   "condition": {
     "new": "Nouvo",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Itilize",
     "used_fair": "Itilize jis",
     "used_good": "Itilize byen",
-    "used_like_new": "Itilize tankou nouvo"
+    "used_like_new": "Itilize tankou nouvo",
   },
   "variant_filter": {
     "title": "Pwodwi Variant Filter",
-    "only_available": "Nan stok"
+    "only_available": "Nan stok",
   },
   "service": {
     "task": {
       "title": "Travay",
-      "message": "Lis travay ki fèt nan sèvis sa a."
+      "message": "Lis travay ki fèt nan sèvis sa a.",
     },
     "appointment": {
       "title": "Randevou",
-      "message": "Chwazi lè nan semèn nan nan lè sa yo dapre jou ak lè ki bon pou ou."
+      "message": "Chwazi lè nan semèn nan nan lè sa yo dapre jou ak lè ki bon pou ou.",
     },
     "booking": {
       "title": "Anrjistreman",
-      "message": "Espesifye peryòd tan nan jou ou vle fè yon rezèvasyon nan kalandriye ki anba a."
+      "message": "Espesifye peryòd tan nan jou ou vle fè yon rezèvasyon nan kalandriye ki anba a.",
     },
     "subscription": {
-      "title": "Abònman"
+      "title": "Abònman",
     },
     "charge": {
-      "title": "Chaje"
-    }
+      "title": "Chaje",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Pri fiks",
-      "message": "Nan kalite sa a nan prix, pri a nan pwodwi a se yon kantite lajan fiks epi pa gen okenn bezwen pou achtè a mande yon kalkil pri."
+      "message": "Nan kalite sa a nan prix, pri a nan pwodwi a se yon kantite lajan fiks epi pa gen okenn bezwen pou achtè a mande yon kalkil pri.",
     },
     "ESTIMATION": {
       "title": "Estimasyon pri",
-      "message": "Pri a nan pwodwi ak sèvis yo pral kalkile nan yon sèten mezi pa vandè a lè mete yon lòd, fakti peman yo ka chanje oswa ajoute pandan sèvis la."
+      "message": "Pri a nan pwodwi ak sèvis yo pral kalkile nan yon sèten mezi pa vandè a lè mete yon lòd, fakti peman yo ka chanje oswa ajoute pandan sèvis la.",
     },
     "AGREEMENT": {
       "title": "Pri akò",
-      "message": "Vandè a pap chanje pri final la nan pwodwi oswa sèvis yo apre yo fin mete lòd la."
+      "message": "Vandè a pap chanje pri final la nan pwodwi oswa sèvis yo apre yo fin mete lòd la.",
     },
     "BID": {
       "title": "Òf / vann piblik",
-      "message": "Pwodui a pral vann nan pri ki pi wo a pa achtè potansyèl yo."
-    }
+      "message": "Pwodui a pral vann nan pri ki pi wo a pa achtè potansyèl yo.",
+    },
   },
   "map": {
     "title": "Destinasyon pou resevwa pwodwi yo",
     "confirm": "Mete kote",
     "address": "Destinasyon",
-    "receptor": "Reseptè"
+    "receptor": "Reseptè",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Kontni Tags",
     "tags_input": "Tags",
     "tags_input_message": "Tags Lis atik sa a",
     "notification": {
-      "add_success": "Tags te ajoute"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Trè konplike",
-    "hard": "Difisil",
-    "intermediate": "Entèmedyè",
-    "easy": "Fasil"
-  },
-  "billing_period": {
-    "Daily": "Chak jou",
-    "Weekly": "Chak semèn",
-    "Monthly": "Chak mwa",
-    "Every3Months": "Chak 3 mwa",
-    "Every6Months": "Chak 6 mwa",
-    "Yearly": "Chak ane"
+      "add_success": "Tags te ajoute",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och pa bon!",
     "between2_3": "Li Oke!",
     "between3_4": "Moun renmen li!",
-    "between4_5": "Moun renmen li!"
+    "between4_5": "Moun renmen li!",
   },
   "seasons": {
     "spring": "Prentan",
     "summer": "Ete",
     "autumn": "Otòn",
-    "winter": "Sezon ivè"
-  }
+    "winter": "Sezon ivè",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

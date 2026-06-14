@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Perskaičiau naudojimo sąlygas bei privatumo politiką ir su jomis sutinku.",
   "commons": {
     "Currency": "Valiuta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "valstybė",
     "Price": "kaina",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Grynoji kaina",
     "tax": "Mokesčiai",
     "tax_included": "Į kainą įskaičiuota",
+    "tax_included_abstract": "įskaitant",
     "limit": "Riba",
     "min_purchase": "Minimalus pirkimas",
     "eligible_for": "Tinkamas",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Sukūrimo data",
     "updated_at": "Paskutiniai pakeitimai",
     "register_at": "Registracijos data",
+    "last_modified": "Last modified",
     "old": "Senas",
     "new": "Nauja",
     "start": "Pradėti",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Perpardavėjas",
     "tracking_code": "Sekimo kodas",
     "tracking_url": "Stebėjimo URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Išsipildymai",
     "reject": "Atmesti",
     "reserved": "Rezervuota",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Laukiama...",
     "waiting_connecting_payment": "Laukiama mokėjimo paslaugos...",
     "creating_secure_payment": "Sukurti saugų mokėjimą.",
+    "waiting_for_payment": "Užbaikite mokėjimą...",
     "officer": "Pareigūnas",
     "ticket": "Bilietas",
     "ticket_url": "Bilieto url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Įvertinimas",
     "seen_at": "Pamatyta",
     "completed": "Užbaigta",
-    "you": "Tu",
     "shop": "Parduotuvė",
     "store": "parduotuvė",
     "granted": "Suteikta",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablėtė",
     "pc": "PC",
     "acquisition_channel": "Įsigijimo kanalas",
+    "channels_overview": "Channels overview",
     "to": "Į",
     "info": "Informacija",
     "general": "Generolas",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Pagal gaminį",
     "journey": "Kelionė",
     "after": "Po to",
-    "waiting_for_payment": "Užbaikite mokėjimą...",
     "hour": "Valanda",
     "minute": "Minutė",
     "premium": "Premija",
@@ -569,6 +573,7 @@ export default {
     "shops": "Parduotuvės",
     "vendor": "Pardavėjas",
     "vendors": "Pardavėjai",
+    "no_vendors": "No vendors",
     "marketplace": "Turgavietė",
     "verify_date": "Patvirtinkite datą",
     "note": "Pastaba",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variantas",
     "secure": "Saugus",
     "admin": "Admin",
-    "tax_included_abstract": "įskaitant",
     "payment_not_settled": "Mokėjimas neapmokėtas!",
     "orders_list": "Užsakymų sąrašas",
     "subscription_plan": "Prenumeratos planas",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Klasteriai",
     "subscriptions": "Prenumeratos",
     "spam": "Šlamštas",
-    "video": "Vaizdo įrašas"
+    "video": "Vaizdo įrašas",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Tu",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Labai sudėtinga",
+    "hard": "Sunku",
+    "intermediate": "Tarpinis",
+    "easy": "Lengva",
   },
   "dialogs": {
     "delete": {
       "title": "Ištrinti",
       "message": "Ar tikrai ištrinsite šį elementą?",
-      "action": "Taip, Ištrinti dabar"
-    }
+      "action": "Taip, Ištrinti dabar",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Į krepšelį",
     "cancel": "Atšaukti",
     "update": "Atnaujinti",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Pridėti dovanų kortelę",
     "charge": "Apmokestinti",
     "send_invites": "Siųsti kvietimus",
-    "past": "Praeitis",
+    "paste": "Įklijuoti",
     "restore": "Atkurti",
     "cut": "Iškirpti",
     "get_sms_code": "Gaukite autentifikavimo kodą",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Rodyti peržiūrą",
     "hide_preview": "Slėpti peržiūrą",
     "download_now": "Parsisiųsti dabar",
+    "watch_now": "Žiūrėk dabar",
     "auto_fill": "Automatinis pildymas",
     "track": "Trasa",
     "change_state": "Pakeisti būseną",
     "done": "padaryta",
     "reply": "Atsakyti",
-    "watch_now": "Žiūrėk dabar",
     "unlock": "Atrakinti",
     "lock": "Užraktas",
     "create_clone": "Sukurti kloną",
@@ -773,41 +931,71 @@ export default {
     "buy": "Pirkti",
     "view_all": "Peržiūrėti visus",
     "view_now": "Žiūrėti dabar",
-    "paste": "Įklijuoti"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Praeitis",
+  },
+  "billing_period": {
+    "Daily": "Kasdien",
+    "Weekly": "Kas savaitę",
+    "Monthly": "Kas mėnesį",
+    "Every3Months": "Kas 3 mėnesius",
+    "Every6Months": "Kas 6 mėnesius",
+    "Yearly": "Kasmet",
   },
   "instance_message_title": "Siųsti momentinę žinutę",
   "instance_message": "Sveiki, {name}, mano vardas yra {author} iš {company}.",
   "errors": {
     "419": "Ilgą laiką buvote neaktyvus, prašome <b>⟳ Saugumo sumetimais ATNAUJINTI PUSLAPĮ</b> .",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistema nesinchronizuojama su blokų grandine. Nebus įmanoma sukurti naujos operacijos, kol nebus baigtas mūsų serverių sinchronizavimas. Mes sprendžiame problemą.",
-    "gateway_network_error": "Mokėjimo šliuzo paslauga susidūrė su ryšio problema."
+    "gateway_network_error": "Mokėjimo šliuzo paslauga susidūrė su ryšio problema.",
   },
   "receiver_info": {
     "map": {
       "title": "Pristatymo adresas",
       "confirm": "Nustatyti vietą",
       "address_type": "Kelionės tikslas",
-      "receptor_type": "Imtuvas"
+      "receptor_type": "Imtuvas",
     },
     "receiver_address": "Pasirinkite pristatymo adresą",
+    "service_address": "Pasirinkite savo adresą",
+    "select_billing_address": "Select billing address",
     "address": "adresu",
     "postcode": "Pašto indeksas",
     "enter_value": "Užpildykite čia",
     "address_note": "Pastaba",
     "tel": "Kontaktinis numeris",
-    "service_address": "Pasirinkite savo adresą"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kilogramas"
+    "kg": "kilogramas",
   },
   "mass_unit_name": {
     "g": "gramas",
     "oz": "Uncija",
     "lb": "Svaras",
-    "kg": "kilogramas"
+    "kg": "kilogramas",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "centimetras",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Pėda",
     "mm": "milimetras",
     "m": "metras",
-    "yd": "Kiemas"
+    "yd": "Kiemas",
   },
   "distance": {
     "m": "metras",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Dienos",
     "hours": "Valandos",
     "minutes": "Minutės",
-    "seconds": "sekundės"
+    "seconds": "sekundės",
   },
   "units": [
     "Vienetas",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "valstybė",
     "Territory": "Teritorija",
-    "Province": "Provincija"
+    "Province": "Provincija",
   },
   "transaction_status": {
     "RequireAction": "Reikalingas veiksmas",
     "Processing": "Apdorojimas",
     "Canceled": "Atšauktas",
-    "Succeeded": "Pavyko"
+    "Succeeded": "Pavyko",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone'as Coxas",
@@ -885,7 +1078,17 @@ export default {
     "language": "Pasirinkite kalbą..",
     "friend_email": "Jūsų draugo el. paštas...",
     "friend_name": "Pasirinkti Tavo draugo vardas",
-    "select_date": "Pasirinkite datą..."
+    "select_date": "Pasirinkite datą...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Patvirtinti",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Daugiausia simbolių: {maxCount}",
     "invalid_url": "neteisingas URL",
     "country_invalid": "Pasirinkite paskirties šalį!",
-    "postal_code_invalid": "Nustatykite galiojantį pašto kodą!"
+    "postal_code_invalid": "Nustatykite galiojantį pašto kodą!",
   },
   "colors": {
     "#D32F2F": "Raudona",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Vienetas",
     "postcode": "Pašto indeksas",
     "note": "Pastaba",
-    "county": "Apygarda"
+    "county": "Apygarda",
   },
   "product_types": {
     "physical": "Fizinis",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Aptarnavimas",
     "service_description": "Tokios paslaugos kaip: remontas, transportavimas, mokymas.",
     "subscription": "Prenumerata",
-    "subscription_description": "Prenumeratos ir sąskaitų faktūrų išrašymas už produktus, paslaugas ar turinį."
+    "subscription_description": "Prenumeratos ir sąskaitų faktūrų išrašymas už produktus, paslaugas ar turinį.",
   },
   "license": {
     "free": "Laisvas",
     "startup": "Pradėti",
     "company": "Įmonė",
-    "enterprise": "Įmonė"
+    "enterprise": "Įmonė",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Spalva",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Suskaičiuoti pakuotėje",
     "weight": "Svoris",
     "type": "Medžiaga",
-    "style": "Stilius"
+    "style": "Stilius",
   },
   "delivery_state": {
     "check_queue": "Laukiama peržiūros",
     "order_confirm": "Užsakymo patvirtinimas",
     "preparing_order": "Rengia",
     "sent_order": "Pristačius",
-    "to_customer": "Pristatyta"
+    "to_customer": "Pristatyta",
   },
   "status": {
     "unpaid": "Neapmokėta",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Atmesti",
     "pending": "Kol",
     "rejected": "Atstumtas",
-    "accepted": "Priimta"
+    "accepted": "Priimta",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kilogramas"
+    "kg": "kilogramas",
   },
   "transportation_type": {
     "motorbike": "Motociklas",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Pasaulinis transportas",
     "global_description": "Siuntimas į užsienį oru, jūra arba sausuma.",
     "pickup": "Paimti",
-    "pickup_description": "Klientai prekes atsiima jūsų fizinėje parduotuvėje ar sandėlyje."
+    "pickup_description": "Klientai prekes atsiima jūsų fizinėje parduotuvėje ar sandėlyje.",
   },
   "article": {
     "login_to_see_error": "Prisijunkite norėdami pasiekti straipsnį",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Redagavimo režimas",
       "view_mode": "Žiūrėjimo režimas",
-      "delete": "Ištrinti straipsnį"
+      "delete": "Ištrinti straipsnį",
     },
     "schedule_action": "Ar norite suplanuoti paskelbimą?",
     "schedule_title": "Suplanuokite automatinį paskelbimą",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Praneškite apie piktnaudžiavimą ir pašalinkite turinį",
       "report_title": "Pranešti apie šį turinį kaip įžeidžiantį",
       "message": "Kokia šio turinio pateikimo priežastis? Pasirinkite vieną iš toliau pateiktų parinkčių.",
-      "accept_and_delete_action": "Patvirtinkite ir ištrinkite turinį"
+      "accept_and_delete_action": "Patvirtinkite ir ištrinkite turinį",
     },
     "schedule_dialog": {
       "title": "Turinio išleidimo tvarkaraštis",
       "publish_at": "Paskelbti adresu",
       "last_edit": "Paskutinis redagavimas",
-      "view_action": "Žiūrėti straipsnį"
+      "view_action": "Žiūrėti straipsnį",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Pateikti informaciją",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Pranešti ir ištrinti",
       "report_and_delete_success_message": "Straipsnis sėkmingai ištrintas.",
       "report_success_title": "Pranešimo straipsnis",
-      "report_success_message": "Jūsų pranešimas apie šį straipsnį paskelbtas."
+      "report_success_message": "Jūsų pranešimas apie šį straipsnį paskelbtas.",
     },
     "alert": {
       "delete_article": {
         "title": "Ištrinti straipsnį",
         "message": "Ar tikrai norite visam laikui ištrinti šį straipsnį?",
-        "action": "Ištrinti"
-      }
+        "action": "Ištrinti",
+      },
     },
     "edit_window": {
       "title": "Pasirinkite Vaizdo tekstas ir santrauka",
-      "digest": "Santrauka"
+      "digest": "Santrauka",
     },
     "editor": {
       "title_placeholder": "Pavadinimas..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Šis failas per didelis:",
       "notifications": {
         "image_uploaded_success": "Vaizdas sėkmingai išsaugotas",
-        "image_uploaded_failed": "Įkeliant vaizdą įvyko klaida."
+        "image_uploaded_failed": "Įkeliant vaizdą įvyko klaida.",
       },
       "embed_placeholder": "Įveskite iframe kodą, Facebook, Youtube ar bet kurį kitą URL ir paspauskite enter.",
       "embed_caption_placeholder": "Įveskite pavadinimą (nebūtina)",
-      "images_caption_placeholder": "Įveskite šio vaizdo pavadinimą.."
-    }
+      "images_caption_placeholder": "Įveskite šio vaizdo pavadinimą..",
+    },
   },
   "article_report": {
     "inappropriate": "Šio straipsnio turinys netinkamas.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Manau, kad šiame turinyje yra pornografijos ir jis pažeidžia įstatymus.",
     "harassment": "Manau, kad tai yra rasizmas.",
     "hate": "Manau, kad tai yra smurto skatinimas.",
-    "infringe": "Tai pažeidžia mano teises."
+    "infringe": "Tai pažeidžia mano teises.",
   },
   "comments": {
     "new_action": "Spustelėkite norėdami palikti komentarą..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Gaukite daugiau komentarų..",
     "cant_send_comment": "Negalite pridėti naujo įrašo.",
     "cant_remove_this_comment": "Negalite ištrinti šio komentaro!",
-    "product_buyer": "Pirkėjas",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Mano komentarai",
     "delete_alert": {
       "title": "Ištrinti komentarą",
       "message": "Ar norite ištrinti šį komentarą?",
-      "action": "Ištrinti"
+      "action": "Ištrinti",
     },
     "notifications": {
-      "delete_success": "Jūsų komentaras sėkmingai ištrintas."
+      "delete_success": "Jūsų komentaras sėkmingai ištrintas.",
     },
     "first_send": "Pirmas postas",
     "comment_at": "Įjungta",
     "edit_comment": "Redaguoti komentarą",
-    "my_comments": "Mano komentarai"
+    "product_buyer": "Pirkėjas",
   },
   "customer_club": {
     "bronze": "Bronza",
     "silver": "sidabras",
     "gold": "Auksinis",
     "platinum": "Platina",
-    "diamond": "Deimantas"
+    "diamond": "Deimantas",
   },
   "application_categories": {
     "tracking": "Vartotojo elgesio tikrinimas",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Reklama",
     "staff": "Personalas",
     "incentive": "Paskatos",
-    "shop": "Parduotuvė"
+    "shop": "Parduotuvė",
   },
   "social_network": {
     "instagram": "Instagramas",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Pridėti naują elementą",
     "title_input": "Pavadinimas",
+    "placeholder_input": "Vietos rezervuaras",
     "name_input": "Kintamojo pavadinimas",
     "value_input": "Vertybės",
     "value_input_message": "Vartotojo parinkčių sąrašas",
     "default": "Numatytoji reikšmė",
+    "file_type_input": "Priimtini failų tipai",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Paprasta",
       "selective": "Atrankinis",
       "switch": "Jungiklis",
       "file": "Failas",
-      "number": "Skaičius"
+      "number": "Skaičius",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Vietos rezervuaras",
-    "file_type_input": "Priimtini failų tipai",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "produkto pavadinimas",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Mokėjimo būsena",
     "payment_status_waiting": "Laukiama apmokėjimo",
     "payment_status_paid": "Mokama",
-    "buyer": "Pirkėjas"
+    "buyer": "Pirkėjas",
   },
   "virtual_item_info": {
     "title": "Virtualus daiktas",
     "outputs": {
       "title": "Išvesties informacija",
       "sub_title": "Konfidenciali šio elemento informacija",
-      "message": "Ši informacija bus parodyta vartotojui įsigijus prekę."
+      "message": "Ši informacija bus parodyta vartotojui įsigijus prekę.",
     },
     "inputs": {
       "title": "Reikalinga informacija",
       "sub_title": "Reikalinga pirkėjo informacija",
-      "message": "Pirkėjas formoje turi įvesti prašomą informaciją"
+      "message": "Pirkėjas formoje turi įvesti prašomą informaciją",
     },
     "notifications": {
       "inputs_set_success": "Informacijos forma sėkmingai užregistruota.",
       "confirm_by_admin_success": "Užsakymo įvykdymas patvirtintas.",
-      "confirm_by_buyer_success": "Užsakymo įvykdymas patvirtintas."
-    }
+      "confirm_by_buyer_success": "Užsakymo įvykdymas patvirtintas.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Šis užsakymas negali būti priimtas mokant COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Išparduota.",
     "legal_restriction": "Neįmanoma pateikti užsakymo dėl teisinių apribojimų.",
     "pricing_fault": "Pardavėjo kainos klaida.",
-    "system_fault": "Sistemos klaida."
+    "system_fault": "Sistemos klaida.",
   },
   "basket_order_info_summery": {
     "receiver": "Imtuvas",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Nuolaida",
     "final_price": "Galutinė suma",
     "address": "Pristatymo adresas",
-    "payment_status": "Mokėjimo būsena"
+    "payment_status": "Mokėjimo būsena",
   },
   "basket_status": {
     "open": "Atviras",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Atšauktas",
     "cod": "Mokėti pristatymo metu",
     "receipt_added": "Pridėtas kvitas",
-    "payment_processing": "Mokėjimo apdorojimas"
+    "payment_processing": "Mokėjimo apdorojimas",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Atstumtas",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Patvirtinimas",
     "step_3": "Paruošimas",
     "step_4": "Pristačius",
-    "step_5": "Pristatyta"
+    "step_5": "Pristatyta",
   },
   "basket_return_request_view": {
     "title": "Prašymas grąžinti",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Atmesti prašymą",
     "message_for_admin": "Pagal sutartį, su kuria sutikote naudodamiesi „Selldone“, turite susisiekti su pirkėju ir informuoti jį apie jo užsakymo grąžinimo procesą. Tai turi būti padaryta, jei prašymas yra priimtas arba atmetamas ir gautas visiškas pirkėjo sutikimas.",
     "notifications": {
-      "update_status_success": "Užklausos būsena atnaujinta."
-    }
+      "update_status_success": "Užklausos būsena atnaujinta.",
+    },
   },
   "basket_list": {
     "return_count": "Grąžinti: {count} numeris",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variantas",
       "warranty": "Garantijos",
       "count": "Suskaičiuoti",
-      "price": "kaina"
-    }
+      "price": "kaina",
+    },
   },
   "return_request_list": {
     "count": "Šaltinio numeris",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Gavimo data",
       "state": "Būsena",
       "reason": "Priežastis",
-      "return_warranty_period": "Garantinis laikotarpis"
-    }
+      "return_warranty_period": "Garantinis laikotarpis",
+    },
   },
   "data_toolbar": {
     "search": "Paieška",
     "sort_by": "Rūšiuoti pagal",
-    "count_item": "Rodyti {item} elementus"
+    "count_item": "Rodyti {item} elementus",
   },
   "sort": {
     "created_at": "Sukurti datą",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Pareigūnas",
     "registered": "Registruotas",
     "purchased": "Nupirkta",
-    "sex": "Lytis"
+    "sex": "Lytis",
   },
   "search_box": {
     "result": "Paieškos rezultatai",
     "tips": "Ieškoti produktų ir kategorijų",
     "label": "Paieška ...",
-    "category": "Kategorija"
+    "category": "Kategorija",
   },
   "lead_status": {
     "physical_fast_delivery": "Momentinis pristatymas",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Ruošiamas ir pateikiamas nuo kitų {days} dienų",
     "virtual_fast_prepare": "Momentinis pristatymas",
     "virtual_under_24h": "Bus atlikta per kitas {lead} valandas",
-    "virtual_over_24h": "Bus atlikta per kitas {days} dienas"
+    "virtual_over_24h": "Bus atlikta per kitas {days} dienas",
   },
   "return_request_state": {
     "pending": "Kol",
     "accepted": "Patvirtinta",
-    "rejected": "Atstumtas"
+    "rejected": "Atstumtas",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pakuotės arba serijos numerio klastojimas",
       "U5": "Trūksta kai kurių prekių iš siuntinio",
       "U6": "Prekė neoriginali",
-      "U7": "Prekė neatitinka specifikacijų"
-    }
+      "U7": "Prekė neatitinka specifikacijų",
+    },
   },
   "image_uploader": {
     "label": "Drag & Drop arba <u>Pasirinkite failą</u>",
-    "max_size": "Didžiausias leistinas dydis: {size}"
+    "max_size": "Didžiausias leistinas dydis: {size}",
   },
   "timespan": {
     "Morning": "8-12 val",
     "Evening": "nuo 12 iki 18 val",
     "Night": "18-12 val",
-    "Instant": "Momentinis paštas"
+    "Instant": "Momentinis paštas",
   },
   "week_day": {
     "Saturday": "šeštadienis",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "antradienis",
     "Wednesday": "trečiadienį",
     "Thursday": "ketvirtadienis",
-    "Friday": "penktadienis"
+    "Friday": "penktadienis",
   },
   "payment_form": {
     "title": "Pasirinkite Mokėjimo būdas",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Sveikiname, jūsų užsakymas nemokamas!",
     "order_free_payment_action": "Užsisakykite nemokamai dabar",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Mokėjimo adresas",
-      "amount": "Suma"
-    }
+      "amount": "Suma",
+    },
   },
   "discount_input": {
     "limit": "{percent} % nuolaida iki {limit} {currency}",
     "action": "Pridėti nuolaidos kodą",
     "code_input": "Nuolaidos kodas",
     "notifications": {
-      "add_success": "Sveikiname, galiojantis nuolaidos kodas."
-    }
+      "add_success": "Sveikiname, galiojantis nuolaidos kodas.",
+    },
   },
   "gift_card": {
     "inactive": "Kortelė išjungta",
     "expire": "Galiojimo laikas",
     "transfer": "Perkėlimas",
-    "send_to_friend": "Siųsti draugui"
+    "send_to_friend": "Siųsti draugui",
   },
   "count_down": {
     "days": "Diena",
     "hours": "Valanda",
     "minutes": "Minutės",
-    "seconds": "sekundės"
+    "seconds": "sekundės",
   },
   "gift_status": {
     "Unpaid": "Laukiama kvito",
     "Paid": "Mokama",
     "Rejected": "Atstumtas",
-    "Canceled": "Atšauktas"
+    "Canceled": "Atšauktas",
   },
   "gift_program_status": {
     "Airdrop": "Mokėjimo sistema",
     "Advertising": "Reklama",
     "PersonalGift": "Asmeninė dovana",
-    "ShopGift": "Dovanų parduotuvė"
+    "ShopGift": "Dovanų parduotuvė",
   },
   "currency_selector": {
-    "label": "Valiuta"
+    "label": "Valiuta",
   },
   "need_login": {
     "title": "Prisijungti",
     "login_sms": "SMS prisijungimas",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Prisijunkite naudodami Google",
     "login_facebook": "Prisijunkite su Facebook",
+    "login_apple": "Prisijunkite naudodami „Apple“.",
     "login_account": "Prisijungimas per Selldone",
     "register": "Naujas vartotojas? Registruokis dabar.",
     "mobile_input": "Įveskite savo mobilųjį telefoną",
     "verification_code": "Patvirtinimo kodas",
     "msg_title": "Sveiki,",
     "msg_body": "Prašome prisijungti. Tai užtrunka vos kelias sekundes.",
-    "login_apple": "Prisijunkite naudodami „Apple“.",
     "login_email": "Prisijunkite el. paštu",
     "email_login_step_1": "Nurodykite galiojantį el. pašto adresą ir mes atsiųsime prisijungimo kodą. Registracija nereikalinga.",
     "email_login_step_2": "Ar esate tikri, kad teisingai įvedėte savo el. pašto adresą? Prisijungimo kodą atsiųsime nurodytu el. pašto adresu, todėl įsitikinkite, kad jis yra tikslus.",
-    "email_login_step_3": "Išsiuntėme kodą į jūsų el. Atminkite, kad kodas baigs galioti po 10 minučių."
+    "email_login_step_3": "Išsiuntėme kodą į jūsų el. Atminkite, kad kodas baigs galioti po 10 minučių.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 metų aukso parduotuvė"
+      "name": "5 metų aukso parduotuvė",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 metų aukso parduotuvė"
+      "name": "4 metų aukso parduotuvė",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 metų aukso parduotuvė"
+      "name": "3 metų aukso parduotuvė",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 metų aukso parduotuvė"
+      "name": "2 metų aukso parduotuvė",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 metų aukso parduotuvė"
+      "name": "1 metų aukso parduotuvė",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Auksinis investuotojas"
+      "name": "Auksinis investuotojas",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Deimantinis investuotojas"
+      "name": "Deimantinis investuotojas",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Rubino investuotojas"
+      "name": "Rubino investuotojas",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Aukščiausios ryšių tinklų bendruomenės narys"
+      "name": "Aukščiausios ryšių tinklų bendruomenės narys",
     },
     "GOLD_SUPPLIER": {
-      "name": "Aukso tiekėjas"
+      "name": "Aukso tiekėjas",
     },
     "GOLD_SELLER": {
-      "name": "Aukso prekiautojas"
+      "name": "Aukso prekiautojas",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Geriausias turinio gamintojas"
+      "name": "Geriausias turinio gamintojas",
     },
     "NINJA": {
-      "name": "Nindzė"
+      "name": "Nindzė",
     },
     "STAR": {
-      "name": "Žvaigždė"
+      "name": "Žvaigždė",
     },
     "GUARDIAN": {
-      "name": "Puikus klientų aptarnavimas"
+      "name": "Puikus klientų aptarnavimas",
     },
     "KING": {
-      "name": "Turgaus karalius"
-    }
+      "name": "Turgaus karalius",
+    },
   },
   "cookie": {
     "title": "Ši svetainė naudoja slapukus",
     "message": "Ši svetainė naudoja slapukus, kad pagerintų vartotojo patirtį. Naudodamiesi mūsų svetaine sutinkate su visais slapukais pagal mūsų slapukų politiką.",
     "preferences_action": "Tvarkyti nuostatas",
-    "agree_action": "Aš sutinku"
+    "agree_action": "Aš sutinku",
   },
   "basket_item_message": {
     "title": "Būtina informacija apie šią prekę",
     "save_actions": "Išsaugoti pranešimą",
+    "product_inputs_preview_message": "Šios tinkinimo parinktys galimos jūsų užsakytam produktui. Kai prekė bus įtraukta į krepšelį, čia galėsite atlikti pakeitimus.",
     "notifications": {
-      "success": "Jūsų įvesties duomenys buvo išsaugoti."
+      "success": "Jūsų įvesties duomenys buvo išsaugoti.",
     },
-    "product_inputs_preview_message": "Šios tinkinimo parinktys galimos jūsų užsakytam produktui. Kai prekė bus įtraukta į krepšelį, čia galėsite atlikti pakeitimus."
   },
   "faq": {
     "faq": "Dažnai užduodami klausimai",
     "title": "Klausimai ir atsakymai",
-    "sub_title": "Ko tu paprašei mūsų padaryti.",
     "message": "Ieškokite atsakymo į savo klausimą tarp toliau pateiktų atsakymų. Klauskite mūsų, jei liko neatsakytų klausimų.",
     "add_question_action": "Užduokite naują klausimą",
     "read_more": "Skaityti daugiau ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Klausimas",
     "question_input_placeholder": "Užduokite savo klausimą.",
     "notifications": {
-      "success_add": "Jūsų klausimas sėkmingai pateiktas."
-    }
+      "success_add": "Jūsų klausimas sėkmingai pateiktas.",
+    },
+    "sub_title": "Ko tu paprašei mūsų padaryti.",
   },
   "rating_labels": [
     "Labai blogai",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Įveskite paskirties adresą",
     "enter_your_address": "Įveskite savo adresą.",
     "postal_code": "Pašto indeksas",
-    "phone_input": "Telefonas {type}",
+    "phone_input": "Telefonas",
     "building_number": "Pastato numeris",
     "building_unit": "Vienetas",
     "full_name_input": "Visas vardas {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Adreso etiketė (būtina)",
     "notifications": {
       "save_in_list": "Šis adresas buvo išsaugotas jūsų sąraše su visa jo informacija.",
-      "edit_success": "Naujos adreso reikšmės išsaugotos {title}."
+      "edit_success": "Naujos adreso reikšmės išsaugotos {title}.",
     },
     "delete_address_dialog": {
       "title": "Ištrinti adresą",
       "message": "Ar tikrai norite ištrinti šį adresą?",
-      "action": "Pašalinti adresą"
-    }
+      "action": "Pašalinti adresą",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Negalima redaguoti šio komentaro!",
     "comment_input_empty": "Pranešimo tekstas tuščias!",
-    "article_not_saved": "Išsaugokite straipsnį!"
+    "article_not_saved": "Išsaugokite straipsnį!",
   },
   "wheel_fortune": {
     "title": "Žaisk ir laimėk",
     "message": "Kiekvieno žaidimo kaina yra 10 žetonų. Šiuo metu turite {chips} lustą. Gaukite daugiau lustų pirkdami parduotuvėje.",
     "win_message": "Sveikiname, Jūs laimėjote!",
     "lost_message": "Atsiprašome, jūs pralaimėjote žaidimą.",
-    "try_again": "Galite bandyti dar kartą"
+    "try_again": "Galite bandyti dar kartą",
   },
   "json": {
     "add": "Pridėkite struktūros duomenis",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Struktūros",
     "book": {
       "title": "Knyga",
-      "desc": "Knygos veiksmai, leidžiantys naudotojams nusipirkti knygą, kurią jie randa tiesiai iš Paieškos rezultatų."
+      "desc": "Knygos veiksmai, leidžiantys naudotojams nusipirkti knygą, kurią jie randa tiesiai iš Paieškos rezultatų.",
     },
     "occupation": {
       "title": "Numatomas atlyginimas",
-      "desc": "Informacija apie darbo užmokesčio įvertinimą, pvz., atlyginimų diapazonas ir regiono atlyginimų vidurkis pagal darbo tipus, rodomas darbo paieškos sistemoje „Google“."
+      "desc": "Informacija apie darbo užmokesčio įvertinimą, pvz., atlyginimų diapazonas ir regiono atlyginimų vidurkis pagal darbo tipus, rodomas darbo paieškos sistemoje „Google“.",
     },
     "course": {
       "title": "Kursas",
-      "desc": "Mokomieji kursai, rodomi konkretaus teikėjo sąraše. Kursai gali apimti kurso pavadinimą, teikėją ir trumpą aprašymą."
+      "desc": "Mokomieji kursai, rodomi konkretaus teikėjo sąraše. Kursai gali apimti kurso pavadinimą, teikėją ir trumpą aprašymą.",
     },
     "howto": {
       "title": "Kaip",
-      "desc": "Vadovėlis supažindins vartotojus su vaizdo įrašu, vaizdais ir tekstu, kaip sėkmingai atlikti užduotį."
+      "desc": "Vadovėlis supažindins vartotojus su vaizdo įrašu, vaizdais ir tekstu, kaip sėkmingai atlikti užduotį.",
     },
     "recipe": {
       "title": "Receptas",
-      "desc": "Receptai, kurie rodomi kaip individualus turtingas rezultatas arba pagrindinės karuselės dalis."
-    }
+      "desc": "Receptai, kurie rodomi kaip individualus turtingas rezultatas arba pagrindinės karuselės dalis.",
+    },
   },
   "support": {
     "Financial": "Finansinis",
     "Technical": "Techninė",
-    "Advisor": "Patarėjas"
+    "Advisor": "Patarėjas",
   },
   "condition": {
     "new": "Nauja",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Naudota",
     "used_fair": "Naudotas sąžiningas",
     "used_good": "Naudotas geras",
-    "used_like_new": "Naudotas kaip naujas"
+    "used_like_new": "Naudotas kaip naujas",
   },
   "variant_filter": {
     "title": "Produkto variantų filtras",
-    "only_available": "Sandelyje"
+    "only_available": "Sandelyje",
   },
   "service": {
     "task": {
       "title": "Užduotys",
-      "message": "Šioje tarnyboje atliekamų užduočių sąrašas."
+      "message": "Šioje tarnyboje atliekamų užduočių sąrašas.",
     },
     "appointment": {
       "title": "Paskyrimas",
-      "message": "Pasirinkite savaitės laiką iš toliau pateiktų laikų, atsižvelgdami į jums tinkamiausią dieną ir valandą."
+      "message": "Pasirinkite savaitės laiką iš toliau pateiktų laikų, atsižvelgdami į jums tinkamiausią dieną ir valandą.",
     },
     "booking": {
       "title": "Rezervavimas",
-      "message": "Žemiau esančiame kalendoriuje nurodykite dienų, kurias norite rezervuoti, laikotarpį."
+      "message": "Žemiau esančiame kalendoriuje nurodykite dienų, kurias norite rezervuoti, laikotarpį.",
     },
     "subscription": {
-      "title": "Prenumerata"
+      "title": "Prenumerata",
     },
     "charge": {
-      "title": "Apmokestinti"
-    }
+      "title": "Apmokestinti",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fiksuota kainodara",
-      "message": "Tokio tipo kainodaroje prekės kaina yra fiksuota suma ir pirkėjui nereikia prašyti kainos apskaičiavimo."
+      "message": "Tokio tipo kainodaroje prekės kaina yra fiksuota suma ir pirkėjui nereikia prašyti kainos apskaičiavimo.",
     },
     "ESTIMATION": {
       "title": "Numatoma kaina",
-      "message": "Prekių ir paslaugų kainą tam tikru mastu apskaičiuos pardavėjas pateikdamas užsakymą, mokėjimo sąskaitos faktūros gali būti keičiamos ar pridedamos paslaugos metu."
+      "message": "Prekių ir paslaugų kainą tam tikru mastu apskaičiuos pardavėjas pateikdamas užsakymą, mokėjimo sąskaitos faktūros gali būti keičiamos ar pridedamos paslaugos metu.",
     },
     "AGREEMENT": {
       "title": "Sutarties kainodara",
-      "message": "Galutinės prekių ar paslaugų kainos pardavėjas po užsakymo pateikimo nekeis."
+      "message": "Galutinės prekių ar paslaugų kainos pardavėjas po užsakymo pateikimo nekeis.",
     },
     "BID": {
       "title": "Pasiūlymas / aukcionas",
-      "message": "Prekė bus parduota už didžiausią siūlomą kainą potencialių pirkėjų."
-    }
+      "message": "Prekė bus parduota už didžiausią siūlomą kainą potencialių pirkėjų.",
+    },
   },
   "map": {
     "title": "Produktų gavimo paskirties vieta",
     "confirm": "Nustatyti vietą",
     "address": "Kelionės tikslas",
-    "receptor": "Imtuvas"
+    "receptor": "Imtuvas",
   },
   "ShopBots": {
-    "telegram": "Telegrama"
+    "telegram": "Telegrama",
   },
   "article_tags": {
     "title": "Turinio žymos",
     "tags_input": "Žymos",
     "tags_input_message": "Žymos Šio straipsnio sąrašas",
     "notification": {
-      "add_success": "Pridėtos žymos"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Labai sudėtinga",
-    "hard": "Sunku",
-    "intermediate": "Tarpinis",
-    "easy": "Lengva"
-  },
-  "billing_period": {
-    "Daily": "Kasdien",
-    "Weekly": "Kas savaitę",
-    "Monthly": "Kas mėnesį",
-    "Every3Months": "Kas 3 mėnesius",
-    "Every6Months": "Kas 6 mėnesius",
-    "Yearly": "Kasmet"
+      "add_success": "Pridėtos žymos",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oi neblogai!",
     "between2_3": "Viskas gerai!",
     "between3_4": "Žmonėms tai patinka!",
-    "between4_5": "Žmonėms tai patinka!"
+    "between4_5": "Žmonėms tai patinka!",
   },
   "seasons": {
     "spring": "Pavasaris",
     "summer": "Vasara",
     "autumn": "Ruduo",
-    "winter": "Žiema"
-  }
+    "winter": "Žiema",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

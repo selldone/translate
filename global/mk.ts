@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ги прочитав условите за користење и политиката за приватност и се согласувам со нив.",
   "commons": {
     "Currency": "Валута",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "држава",
     "Price": "цена",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Нето цена",
     "tax": "Данок",
     "tax_included": "Вклучено во цената",
+    "tax_included_abstract": "вкл.",
     "limit": "Граница",
     "min_purchase": "Минимално купување",
     "eligible_for": "Подобни за",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Датум на создавање",
     "updated_at": "Последно ажурирање",
     "register_at": "Датум на регистрација",
+    "last_modified": "Last modified",
     "old": "Стар",
     "new": "Ново",
     "start": "Започнете",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Препродавач",
     "tracking_code": "Код за следење",
     "tracking_url": "URL-адреса за следење",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Исполнувања",
     "reject": "Одбијте",
     "reserved": "Резервирано",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Се чека...",
     "waiting_connecting_payment": "Се чека услугата за плаќање...",
     "creating_secure_payment": "Создавање безбедно плаќање.",
+    "waiting_for_payment": "Ве молиме завршете го плаќањето...",
     "officer": "Службеник",
     "ticket": "Билет",
     "ticket_url": "УРЛ на билет",
@@ -361,7 +366,6 @@ export default {
     "rates": "Рејтинг",
     "seen_at": "Видено во",
     "completed": "Завршено",
-    "you": "Вие",
     "shop": "Купувајте",
     "store": "продавница",
     "granted": "Доделено",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Таблет",
     "pc": "PC",
     "acquisition_channel": "Канал за стекнување",
+    "channels_overview": "Channels overview",
     "to": "До",
     "info": "Инфо",
     "general": "Општо",
@@ -559,7 +564,6 @@ export default {
     "per_product": "По производ",
     "journey": "Патување",
     "after": "По",
-    "waiting_for_payment": "Ве молиме завршете го плаќањето...",
     "hour": "Час",
     "minute": "Минута",
     "premium": "Премиум",
@@ -569,6 +573,7 @@ export default {
     "shops": "Продавници",
     "vendor": "Продавач",
     "vendors": "Продавачи",
+    "no_vendors": "No vendors",
     "marketplace": "Пазар",
     "verify_date": "Потврдете го датумот",
     "note": "Забелешка",
@@ -604,7 +609,6 @@ export default {
     "variant": "Варијанта",
     "secure": "Безбедна",
     "admin": "Админ",
-    "tax_included_abstract": "вкл.",
     "payment_not_settled": "Плаќањето не е подмирено!",
     "orders_list": "Список на нарачки",
     "subscription_plan": "План за претплата",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Кластери",
     "subscriptions": "Претплати",
     "spam": "Спам",
-    "video": "Видео"
+    "video": "Видео",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Вие",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Многу комплицирано",
+    "hard": "Тешко",
+    "intermediate": "Средно",
+    "easy": "Лесно",
   },
   "dialogs": {
     "delete": {
       "title": "Избриши",
       "message": "Дали сте сигурни дека ќе ја избришете оваа ставка?",
-      "action": "Да, Избриши сега"
-    }
+      "action": "Да, Избриши сега",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Додади го во кошничка",
     "cancel": "Откажи",
     "update": "Ажурирање",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Додајте картичка за подарок",
     "charge": "Полнење",
     "send_invites": "Испратете покани",
-    "past": "Минатото",
+    "paste": "Залепи",
     "restore": "Врати",
     "cut": "Исечете",
     "get_sms_code": "Добијте код за автентикација",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Прикажи преглед",
     "hide_preview": "Сокриј го прегледот",
     "download_now": "Симни сега",
+    "watch_now": "Гледајте сега",
     "auto_fill": "Автоматско пополнување",
     "track": "Песна",
     "change_state": "Променете го статусот",
     "done": "Направено",
     "reply": "Одговори",
-    "watch_now": "Гледајте сега",
     "unlock": "Отклучи",
     "lock": "Заклучување",
     "create_clone": "Креирај клон",
@@ -773,41 +931,71 @@ export default {
     "buy": "Купи",
     "view_all": "Види се",
     "view_now": "Прикажи сега",
-    "paste": "Залепи"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Минатото",
+  },
+  "billing_period": {
+    "Daily": "Дневно",
+    "Weekly": "Неделно",
+    "Monthly": "Месечно",
+    "Every3Months": "На секои 3 месеци",
+    "Every6Months": "На секои 6 месеци",
+    "Yearly": "Годишно",
   },
   "instance_message_title": "Испрати инстант порака",
   "instance_message": "Здраво {name}, моето име е {author} од {company}.",
   "errors": {
     "419": "Долго време сте неактивни, ве молиме <b>⟳ ОСВЕЖЕТЕ ЈА СТРАНАТА</b> од безбедносни причини.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Системот не се синхронизира со блокчејнот. Нема да биде возможно да се создаде нова трансакција додека не се завршат синхронизациите на нашите сервери. Ние го решаваме проблемот.",
-    "gateway_network_error": "Услугата за портал за плаќање наиде на проблем во комуникацијата."
+    "gateway_network_error": "Услугата за портал за плаќање наиде на проблем во комуникацијата.",
   },
   "receiver_info": {
     "map": {
       "title": "Адреса за испорака",
       "confirm": "Поставете локација",
       "address_type": "Дестинација",
-      "receptor_type": "Приемник"
+      "receptor_type": "Приемник",
     },
     "receiver_address": "Изберете адреса за испорака",
+    "service_address": "Изберете ја вашата адреса",
+    "select_billing_address": "Select billing address",
     "address": "адреса",
     "postcode": "Поштенски код",
     "enter_value": "Пополнете овде",
     "address_note": "Забелешка",
     "tel": "Број за контакт",
-    "service_address": "Изберете ја вашата адреса"
   },
   "weight": {
     "g": "е",
     "oz": "унца",
     "lb": "lb",
-    "kg": "килограм"
+    "kg": "килограм",
   },
   "mass_unit_name": {
     "g": "грам",
     "oz": "Унца",
     "lb": "фунти",
-    "kg": "килограм"
+    "kg": "килограм",
   },
   "length": {
     "cm": "цм",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "мм",
     "m": "м",
-    "yd": "јд"
+    "yd": "јд",
   },
   "size_unit_name": {
     "cm": "Сантиметар",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Нога",
     "mm": "милиметар",
     "m": "метар",
-    "yd": "Двор"
+    "yd": "Двор",
   },
   "distance": {
     "m": "метар",
-    "km": "км"
+    "km": "км",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Денови",
     "hours": "Часови",
     "minutes": "Минути",
-    "seconds": "Секунди"
+    "seconds": "Секунди",
   },
   "units": [
     "Единица",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "држава",
     "Territory": "Територија",
-    "Province": "провинција"
+    "Province": "провинција",
   },
   "transaction_status": {
     "RequireAction": "Потребно е дејство",
     "Processing": "Обработка",
     "Canceled": "Откажано",
-    "Succeeded": "Успеа"
+    "Succeeded": "Успеа",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Џон Кокс",
@@ -885,7 +1078,17 @@ export default {
     "language": "Одбери јазик..",
     "friend_email": "Е-поштата на вашиот пријател...",
     "friend_name": "Одлучете се. Името на вашиот пријател",
-    "select_date": "Изберете датум..."
+    "select_date": "Изберете датум...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Потврди",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Максимум {maxCount} знаци",
     "invalid_url": "Неважечка URL-адреса",
     "country_invalid": "Изберете земја на дестинација!",
-    "postal_code_invalid": "Поставете важечки поштенски број!"
+    "postal_code_invalid": "Поставете важечки поштенски број!",
   },
   "colors": {
     "#D32F2F": "Црвено",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Единица",
     "postcode": "Поштенски код",
     "note": "Забелешка",
-    "county": "округот"
+    "county": "округот",
   },
   "product_types": {
     "physical": "Физички",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Сервис",
     "service_description": "Услуги како: поправка, транспорт, настава.",
     "subscription": "Претплата",
-    "subscription_description": "Претплати и фактурирање за производи, услуги или содржини."
+    "subscription_description": "Претплати и фактурирање за производи, услуги или содржини.",
   },
   "license": {
     "free": "Бесплатно",
     "startup": "Почни",
     "company": "Компанијата",
-    "enterprise": "Претпријатие"
+    "enterprise": "Претпријатие",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Боја",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Брои во пакет",
     "weight": "Тежина",
     "type": "Материјал",
-    "style": "Стил"
+    "style": "Стил",
   },
   "delivery_state": {
     "check_queue": "Се чека преглед",
     "order_confirm": "Потврда за нарачка",
     "preparing_order": "Подготвување",
     "sent_order": "При испорака",
-    "to_customer": "Доставено"
+    "to_customer": "Доставено",
   },
   "status": {
     "unpaid": "Неплатено",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Одбијте",
     "pending": "Во очекување",
     "rejected": "Одбиено",
-    "accepted": "Прифатено"
+    "accepted": "Прифатено",
   },
   "dimensions": {
     "cm": "цм",
     "km": "км",
-    "kg": "килограм"
+    "kg": "килограм",
   },
   "transportation_type": {
     "motorbike": "Мотор",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Глобален транспорт",
     "global_description": "Испорака во странство по воздушен, морски или копнен пат.",
     "pickup": "Земам",
-    "pickup_description": "Клиентите ги подигнуваат предметите во вашата физичка продавница или складиште."
+    "pickup_description": "Клиентите ги подигнуваат предметите во вашата физичка продавница или складиште.",
   },
   "article": {
     "login_to_see_error": "Најавете се за да пристапите до статијата",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Режим за уредување",
       "view_mode": "Режим на преглед",
-      "delete": "Избриши член"
+      "delete": "Избриши член",
     },
     "schedule_action": "Дали сакате да закажете објавување?",
     "schedule_title": "Закажете автоматско објавување",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Пријавете злоупотреба и отстранете ја содржината",
       "report_title": "Пријавете ја оваа содржина како навредлива",
       "message": "Која е причината за испраќање на оваа содржина? Изберете една од следниве опции.",
-      "accept_and_delete_action": "Потврдете и избришете ја содржината"
+      "accept_and_delete_action": "Потврдете и избришете ја содржината",
     },
     "schedule_dialog": {
       "title": "Распоред за издавање на содржина",
       "publish_at": "Објави на",
       "last_edit": "Последно уредување",
-      "view_action": "Погледнете ја статијата"
+      "view_action": "Погледнете ја статијата",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Поднесете информации",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Пријавете и избришете",
       "report_and_delete_success_message": "Статијата е успешно избришана.",
       "report_success_title": "Пријавете ја статијата",
-      "report_success_message": "Вашиот извештај за оваа статија е објавен."
+      "report_success_message": "Вашиот извештај за оваа статија е објавен.",
     },
     "alert": {
       "delete_article": {
         "title": "Избриши член",
         "message": "Дали сте сигурни дека сакате трајно да ја избришете оваа статија?",
-        "action": "Избриши"
-      }
+        "action": "Избриши",
+      },
     },
     "edit_window": {
       "title": "Изберете Текст на сликата и резиме",
-      "digest": "Резиме"
+      "digest": "Резиме",
     },
     "editor": {
       "title_placeholder": "Наслов..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Оваа датотека е преголема:",
       "notifications": {
         "image_uploaded_success": "Сликата е успешно зачувана",
-        "image_uploaded_failed": "Грешка при вчитување на сликата."
+        "image_uploaded_failed": "Грешка при вчитување на сликата.",
       },
       "embed_placeholder": "Внесете го кодот на iframe, Facebook, Youtube или која било друга URL адреса и притиснете Enter.",
       "embed_caption_placeholder": "Внесете наслов (изборно)",
-      "images_caption_placeholder": "Внесете наслов за оваа слика.."
-    }
+      "images_caption_placeholder": "Внесете наслов за оваа слика..",
+    },
   },
   "article_report": {
     "inappropriate": "Содржината на оваа статија е несоодветна.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Мислам дека оваа содржина содржи порнографија и е во спротивност со законите.",
     "harassment": "Мислам дека ова е расистичко.",
     "hate": "Мислам дека се работи за промовирање насилство.",
-    "infringe": "Ова ги крши моите права."
+    "infringe": "Ова ги крши моите права.",
   },
   "comments": {
     "new_action": "Кликнете за да оставите коментар..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Добијте повеќе коментари..",
     "cant_send_comment": "Не можете да додадете нова објава.",
     "cant_remove_this_comment": "Не можете да го избришете овој коментар!",
-    "product_buyer": "Купувач",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Мои коментари",
     "delete_alert": {
       "title": "Избриши коментар",
       "message": "Дали сакате да го избришете овој коментар?",
-      "action": "Избриши"
+      "action": "Избриши",
     },
     "notifications": {
-      "delete_success": "Вашиот коментар е успешно избришан."
+      "delete_success": "Вашиот коментар е успешно избришан.",
     },
     "first_send": "Прв пост",
     "comment_at": "На",
     "edit_comment": "Уреди коментар",
-    "my_comments": "Мои коментари"
+    "product_buyer": "Купувач",
   },
   "customer_club": {
     "bronze": "Бронза",
     "silver": "Сребрена",
     "gold": "Златен",
     "platinum": "Платина",
-    "diamond": "Дијамант"
+    "diamond": "Дијамант",
   },
   "application_categories": {
     "tracking": "Проверка на однесувањето на корисниците",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Рекламирање",
     "staff": "Персонал",
     "incentive": "Стимулации",
-    "shop": "Купувајте"
+    "shop": "Купувајте",
   },
   "social_network": {
     "instagram": "Инстаграм",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Додадете нова ставка",
     "title_input": "Наслов",
+    "placeholder_input": "Местоносител",
     "name_input": "Име на променлива",
     "value_input": "Вредности",
     "value_input_message": "Список со кориснички опции",
     "default": "Стандардна вредност",
+    "file_type_input": "Прифатливи типови датотеки",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Едноставно",
       "selective": "Селективен",
       "switch": "Прекинувач",
       "file": "Датотека",
-      "number": "Број"
+      "number": "Број",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Местоносител",
-    "file_type_input": "Прифатливи типови датотеки",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Име на производ",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Статус на плаќање",
     "payment_status_waiting": "Се чека плаќање",
     "payment_status_paid": "Платено",
-    "buyer": "Купувач"
+    "buyer": "Купувач",
   },
   "virtual_item_info": {
     "title": "Виртуелна ставка",
     "outputs": {
       "title": "Излезни информации",
       "sub_title": "Доверливи информации за оваа ставка",
-      "message": "Овие информации ќе му бидат прикажани на корисникот по купувањето на производот."
+      "message": "Овие информации ќе му бидат прикажани на корисникот по купувањето на производот.",
     },
     "inputs": {
       "title": "Потребни се информации",
       "sub_title": "Потребни се информации за купувачот",
-      "message": "Купувачот мора да ги внесе бараните информации во формуларот"
+      "message": "Купувачот мора да ги внесе бараните информации во формуларот",
     },
     "notifications": {
       "inputs_set_success": "Формуларот за информации е успешно регистриран.",
       "confirm_by_admin_success": "Потврдено е комплетирањето на нарачката.",
-      "confirm_by_buyer_success": "Потврдено е комплетирањето на нарачката."
-    }
+      "confirm_by_buyer_success": "Потврдено е комплетирањето на нарачката.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Оваа нарачка не може да биде прифатена со плаќање со КОД.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Нема на залиха.",
     "legal_restriction": "Не може да се направи нарачка поради законски ограничувања.",
     "pricing_fault": "Грешка во цените на продавачот.",
-    "system_fault": "Системска грешка."
+    "system_fault": "Системска грешка.",
   },
   "basket_order_info_summery": {
     "receiver": "Приемник",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Попуст",
     "final_price": "Конечна сума",
     "address": "Адреса на доставување",
-    "payment_status": "Статус на плаќање"
+    "payment_status": "Статус на плаќање",
   },
   "basket_status": {
     "open": "Отвори",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Откажано",
     "cod": "Плати при испорака",
     "receipt_added": "Додадена е потврда",
-    "payment_processing": "Обработка на плаќање"
+    "payment_processing": "Обработка на плаќање",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Одбиено",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Потврда",
     "step_3": "Подготовка",
     "step_4": "При испорака",
-    "step_5": "Доставено"
+    "step_5": "Доставено",
   },
   "basket_return_request_view": {
     "title": "Барање за враќање",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Одбиј барање",
     "message_for_admin": "Според договорот што сте го прифатиле со користење на продавачот, мора да го контактирате купувачот и да го информирате за процесот на враќање на неговата нарачка. Ова мора да се направи доколку барањето е прифатено или одбиено и се добие целосна согласност од купувачот.",
     "notifications": {
-      "update_status_success": "Статусот на барањето е ажуриран."
-    }
+      "update_status_success": "Статусот на барањето е ажуриран.",
+    },
   },
   "basket_list": {
     "return_count": "Враќање: {count} број",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Варијанта",
       "warranty": "Гаранции",
       "count": "брои",
-      "price": "цена"
-    }
+      "price": "цена",
+    },
   },
   "return_request_list": {
     "count": "Референтен број",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Датум на прием",
       "state": "Статус",
       "reason": "Причина",
-      "return_warranty_period": "Гарантен рок"
-    }
+      "return_warranty_period": "Гарантен рок",
+    },
   },
   "data_toolbar": {
     "search": "Пребарување",
     "sort_by": "Сортирај по",
-    "count_item": "Прикажи {item} ставки"
+    "count_item": "Прикажи {item} ставки",
   },
   "sort": {
     "created_at": "Креирај датум",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Службеник",
     "registered": "Регистриран",
     "purchased": "Купени",
-    "sex": "Пол"
+    "sex": "Пол",
   },
   "search_box": {
     "result": "Резултати од пребарувањето",
     "tips": "Пребарајте производи и категории",
     "label": "Пребарајте ...",
-    "category": "Категорија"
+    "category": "Категорија",
   },
   "lead_status": {
     "physical_fast_delivery": "Инстант испорака",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Се подготвува и поднесува од следните {days} дена",
     "virtual_fast_prepare": "Инстант испорака",
     "virtual_under_24h": "Ќе се направи во следните {lead} часа",
-    "virtual_over_24h": "Ќе се направи од следните {days} дена"
+    "virtual_over_24h": "Ќе се направи од следните {days} дена",
   },
   "return_request_state": {
     "pending": "Во очекување",
     "accepted": "Потврдено",
-    "rejected": "Одбиено"
+    "rejected": "Одбиено",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Прекршување на пакетот или серискиот број",
       "U5": "Некои ставки од парцелата недостасуваат",
       "U6": "Производот не е оригинален",
-      "U7": "Производот не ги задоволува спецификациите"
-    }
+      "U7": "Производот не ги задоволува спецификациите",
+    },
   },
   "image_uploader": {
     "label": "Повлечете и спуштете или <u>Изберете датотека</u>",
-    "max_size": "Максимална дозволена големина: {size}"
+    "max_size": "Максимална дозволена големина: {size}",
   },
   "timespan": {
     "Morning": "8-12 часот",
     "Evening": "12 до 18 часот",
     "Night": "18-12 часот",
-    "Instant": "Инстант пост"
+    "Instant": "Инстант пост",
   },
   "week_day": {
     "Saturday": "сабота",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "вторник",
     "Wednesday": "среда",
     "Thursday": "четврток",
-    "Friday": "петок"
+    "Friday": "петок",
   },
   "payment_form": {
     "title": "Изберете Начин на плаќање",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Честитки, вашата нарачка е бесплатна!",
     "order_free_payment_action": "Нарачајте бесплатно сега",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Адреса за плаќање",
-      "amount": "износ"
-    }
+      "amount": "износ",
+    },
   },
   "discount_input": {
     "limit": "{percent}% попуст до {limit} {currency}",
     "action": "Додадете код за попуст",
     "code_input": "Код за попуст",
     "notifications": {
-      "add_success": "Честитки, валиден код за попуст."
-    }
+      "add_success": "Честитки, валиден код за попуст.",
+    },
   },
   "gift_card": {
     "inactive": "Картичката е оневозможена",
     "expire": "Истекување",
     "transfer": "Трансфер",
-    "send_to_friend": "Испрати на пријател"
+    "send_to_friend": "Испрати на пријател",
   },
   "count_down": {
     "days": "Ден",
     "hours": "Час",
     "minutes": "Минути",
-    "seconds": "Секунди"
+    "seconds": "Секунди",
   },
   "gift_status": {
     "Unpaid": "Се чека прием",
     "Paid": "Платено",
     "Rejected": "Одбиено",
-    "Canceled": "Откажано"
+    "Canceled": "Откажано",
   },
   "gift_program_status": {
     "Airdrop": "Платен систем",
     "Advertising": "Рекламирање",
     "PersonalGift": "Личен подарок",
-    "ShopGift": "Продавница за подароци"
+    "ShopGift": "Продавница за подароци",
   },
   "currency_selector": {
-    "label": "Валута"
+    "label": "Валута",
   },
   "need_login": {
     "title": "Логирај Се",
     "login_sms": "СМС Најавување",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Најавете се со Google",
     "login_facebook": "Пријавете се со Facebook",
+    "login_apple": "Најавете се со Apple",
     "login_account": "Најавете се од Selldone",
     "register": "Нов корисник? Регистрирај се сега.",
     "mobile_input": "Внесете го вашиот мобилен телефон",
     "verification_code": "Код за верификација",
     "msg_title": "Здраво,",
     "msg_body": "Ве молиме најавете се. Потребни се само неколку секунди.",
-    "login_apple": "Најавете се со Apple",
     "login_email": "Најавете се преку е-пошта",
     "email_login_step_1": "Ве молиме наведете валидна адреса за е-пошта и ние ќе ѝ го испратиме кодот за најава. Не е потребна регистрација.",
     "email_login_step_2": "Дали сте сигурни дека правилно сте ја внеле адресата на е-пошта? Ќе го испратиме кодот за најавување на дадената е-пошта, затоа ве молиме проверете ја неговата точност.",
-    "email_login_step_3": "Испративме код на вашата е-пошта. Имајте предвид дека кодот ќе истече за 10 минути."
+    "email_login_step_3": "Испративме код на вашата е-пошта. Имајте предвид дека кодот ќе истече за 10 минути.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5-годишна продавница за злато"
+      "name": "5-годишна продавница за злато",
     },
     "GOLDEN_2YEAR": {
-      "name": "4-годишна продавница за злато"
+      "name": "4-годишна продавница за злато",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 годишна продавница за злато"
+      "name": "3 годишна продавница за злато",
     },
     "GOLDEN_4YEAR": {
-      "name": "2-годишна продавница за злато"
+      "name": "2-годишна продавница за злато",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 година продавница за злато"
+      "name": "1 година продавница за злато",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Златен инвеститор"
+      "name": "Златен инвеститор",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Дијамантски инвеститор"
+      "name": "Дијамантски инвеститор",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Руби инвеститор"
+      "name": "Руби инвеститор",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Член на Врховната заедница на комуникациски мрежи"
+      "name": "Член на Врховната заедница на комуникациски мрежи",
     },
     "GOLD_SUPPLIER": {
-      "name": "Добавувач на злато"
+      "name": "Добавувач на злато",
     },
     "GOLD_SELLER": {
-      "name": "Дилер со злато"
+      "name": "Дилер со злато",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Врвен производител на содржина"
+      "name": "Врвен производител на содржина",
     },
     "NINJA": {
-      "name": "Нинџа"
+      "name": "Нинџа",
     },
     "STAR": {
-      "name": "Ѕвезда"
+      "name": "Ѕвезда",
     },
     "GUARDIAN": {
-      "name": "Одлична услуга за клиенти"
+      "name": "Одлична услуга за клиенти",
     },
     "KING": {
-      "name": "Кралот на пазарот"
-    }
+      "name": "Кралот на пазарот",
+    },
   },
   "cookie": {
     "title": "Оваа веб-локација користи колачиња",
     "message": "Оваа веб-локација користи колачиња за да го подобри корисничкото искуство. Со користење на нашата веб-страница, вие се согласувате со сите колачиња во согласност со нашата Политика за колачиња.",
     "preferences_action": "Управувајте со параметри",
-    "agree_action": "Се согласувам"
+    "agree_action": "Се согласувам",
   },
   "basket_item_message": {
     "title": "Потребни информации за оваа ставка",
     "save_actions": "Зачувај порака",
+    "product_inputs_preview_message": "Овие опции за прилагодување се достапни за вашиот нарачан производ. Откако ставката ќе се додаде во вашата кошничка, ќе можете да направите прилагодувања овде.",
     "notifications": {
-      "success": "Вашите влезни податоци се зачувани."
+      "success": "Вашите влезни податоци се зачувани.",
     },
-    "product_inputs_preview_message": "Овие опции за прилагодување се достапни за вашиот нарачан производ. Откако ставката ќе се додаде во вашата кошничка, ќе можете да направите прилагодувања овде."
   },
   "faq": {
     "faq": "Најчесто поставувани прашања",
     "title": "Прашања и Одговори",
-    "sub_title": "Што бараше од нас да направиме.",
     "message": "Побарајте го одговорот на вашето прашање меѓу одговорите подолу. Прашајте не дали прашањата остануваат неодговорени.",
     "add_question_action": "Поставете ново прашање",
     "read_more": "Прочитај повеќе ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Прашање",
     "question_input_placeholder": "Поставете го вашето прашање.",
     "notifications": {
-      "success_add": "Вашето прашање е успешно испратено."
-    }
+      "success_add": "Вашето прашање е успешно испратено.",
+    },
+    "sub_title": "Што бараше од нас да направиме.",
   },
   "rating_labels": [
     "Многу лошо",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Внесете ја адресата на дестинацијата",
     "enter_your_address": "Внесете ја вашата адреса.",
     "postal_code": "Поштенски код",
-    "phone_input": "Телефон {type}",
+    "phone_input": "Телефон",
     "building_number": "Број на зграда",
     "building_unit": "Единица",
     "full_name_input": "Целосно име {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Ознака за адреса (потребно)",
     "notifications": {
       "save_in_list": "Оваа адреса е зачувана во вашата листа со сите нејзини детали.",
-      "edit_success": "Новите вредности на адресата се зачувани во {title}."
+      "edit_success": "Новите вредности на адресата се зачувани во {title}.",
     },
     "delete_address_dialog": {
       "title": "Избришете ја адресата",
       "message": "Дали сте сигурни дека сакате да ја избришете оваа адреса?",
-      "action": "Отстранете ја адресата"
-    }
+      "action": "Отстранете ја адресата",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Не може да се уреди коментаров!",
     "comment_input_empty": "Текстот на пораката е празен!",
-    "article_not_saved": "Зачувајте ја статијата!"
+    "article_not_saved": "Зачувајте ја статијата!",
   },
   "wheel_fortune": {
     "title": "Играј и победи",
     "message": "Цената на секоја игра е 10 чипови. Во моментов имате {chips} чип. Добијте повеќе чип со купување од продавница.",
     "win_message": "Честитки, победивте!",
     "lost_message": "Извинете, ја изгубивте играта.",
-    "try_again": "Може да се обидете повторно"
+    "try_again": "Може да се обидете повторно",
   },
   "json": {
     "add": "Додадете податоци за структурата",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Структури",
     "book": {
       "title": "Книга",
-      "desc": "Дејства за резервации што им овозможуваат на корисниците да ја купат книгата што ја наоѓаат директно од резултатите од пребарувањето."
+      "desc": "Дејства за резервации што им овозможуваат на корисниците да ја купат книгата што ја наоѓаат директно од резултатите од пребарувањето.",
     },
     "occupation": {
       "title": "Проценета плата",
-      "desc": "Информациите за проценката на платата, како што се опсегот на платите и просечните плати засновани на регионот за видовите работни места, прикажани во искуството за барање работа на Google."
+      "desc": "Информациите за проценката на платата, како што се опсегот на платите и просечните плати засновани на регионот за видовите работни места, прикажани во искуството за барање работа на Google.",
     },
     "course": {
       "title": "Курс",
-      "desc": "Образовни курсеви што се појавуваат во список специфичен за давателот. Курсевите може да вклучуваат наслов на курсот, провајдер и краток опис."
+      "desc": "Образовни курсеви што се појавуваат во список специфичен за давателот. Курсевите може да вклучуваат наслов на курсот, провајдер и краток опис.",
     },
     "howto": {
       "title": "Како да",
-      "desc": "„Како да се направи“ ги води корисниците низ низа чекори за успешно завршување на задачата, со видео, слики и текст."
+      "desc": "„Како да се направи“ ги води корисниците низ низа чекори за успешно завршување на задачата, со видео, слики и текст.",
     },
     "recipe": {
       "title": "Рецепт",
-      "desc": "Рецепти кои се прикажуваат како индивидуален богат резултат или дел од рингишпил на домаќинот."
-    }
+      "desc": "Рецепти кои се прикажуваат како индивидуален богат резултат или дел од рингишпил на домаќинот.",
+    },
   },
   "support": {
     "Financial": "Финансиски",
     "Technical": "Технички",
-    "Advisor": "Советник"
+    "Advisor": "Советник",
   },
   "condition": {
     "new": "Ново",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Искористени",
     "used_fair": "Се користи саем",
     "used_good": "Добро користено",
-    "used_like_new": "Користена како нова"
+    "used_like_new": "Користена како нова",
   },
   "variant_filter": {
     "title": "Филтер за варијанта на производ",
-    "only_available": "На залиха"
+    "only_available": "На залиха",
   },
   "service": {
     "task": {
       "title": "Задачи",
-      "message": "Список на задачи извршени во оваа услуга."
+      "message": "Список на задачи извршени во оваа услуга.",
     },
     "appointment": {
       "title": "Закажување",
-      "message": "Изберете ги времињата во неделата од следните времиња врз основа на денот и часот што ви одговараат."
+      "message": "Изберете ги времињата во неделата од следните времиња врз основа на денот и часот што ви одговараат.",
     },
     "booking": {
       "title": "Резервација",
-      "message": "Наведете го временскиот период од деновите кога сакате да направите резервација во календарот подолу."
+      "message": "Наведете го временскиот период од деновите кога сакате да направите резервација во календарот подолу.",
     },
     "subscription": {
-      "title": "Претплата"
+      "title": "Претплата",
     },
     "charge": {
-      "title": "Полнење"
-    }
+      "title": "Полнење",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Фиксна цена",
-      "message": "Кај овој тип на цени, цената на производот е фиксна сума и нема потреба купувачот да бара пресметка на цената."
+      "message": "Кај овој тип на цени, цената на производот е фиксна сума и нема потреба купувачот да бара пресметка на цената.",
     },
     "ESTIMATION": {
       "title": "Проценка на цените",
-      "message": "Цената на производите и услугите до одреден степен ќе биде пресметана од продавачот при поставување на нарачката, фактурите за плаќање може да се менуваат или додаваат за време на услугата."
+      "message": "Цената на производите и услугите до одреден степен ќе биде пресметана од продавачот при поставување на нарачката, фактурите за плаќање може да се менуваат или додаваат за време на услугата.",
     },
     "AGREEMENT": {
       "title": "Договор Цените",
-      "message": "Конечната цена на производите или услугите нема да биде променета од продавачот откако ќе се изврши нарачката."
+      "message": "Конечната цена на производите или услугите нема да биде променета од продавачот откако ќе се изврши нарачката.",
     },
     "BID": {
       "title": "Понуда / Аукција",
-      "message": "Производот ќе се продава по највисока понудена цена од потенцијалните купувачи."
-    }
+      "message": "Производот ќе се продава по највисока понудена цена од потенцијалните купувачи.",
+    },
   },
   "map": {
     "title": "Дестинација за примање производи",
     "confirm": "Поставете локација",
     "address": "Дестинација",
-    "receptor": "Приемник"
+    "receptor": "Приемник",
   },
   "ShopBots": {
-    "telegram": "Телеграма"
+    "telegram": "Телеграма",
   },
   "article_tags": {
     "title": "Ознаки за содржина",
     "tags_input": "Тагови",
     "tags_input_message": "Тагови Список на оваа статија",
     "notification": {
-      "add_success": "Додадени се ознаки"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Многу комплицирано",
-    "hard": "Тешко",
-    "intermediate": "Средно",
-    "easy": "Лесно"
-  },
-  "billing_period": {
-    "Daily": "Дневно",
-    "Weekly": "Неделно",
-    "Monthly": "Месечно",
-    "Every3Months": "На секои 3 месеци",
-    "Every6Months": "На секои 6 месеци",
-    "Yearly": "Годишно"
+      "add_success": "Додадени се ознаки",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "О, не е добро!",
     "between2_3": "Во ред е!",
     "between3_4": "На луѓето им се допаѓа!",
-    "between4_5": "Луѓето го сакаат тоа!"
+    "between4_5": "Луѓето го сакаат тоа!",
   },
   "seasons": {
     "spring": "Пролет",
     "summer": "Лето",
     "autumn": "Есен",
-    "winter": "Зима"
-  }
+    "winter": "Зима",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

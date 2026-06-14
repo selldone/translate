@@ -9,11 +9,12 @@ export default {
   "inactive": "idakora",
   "required_value": "Indangagaciro zisabwa",
   "original_warranty": "Ingwate y'ibicuruzwa by'umwimerere",
-  "return_warranty_days": "iminsi} garuka ingwate umunsi (s)",
+  "return_warranty_days": "Guarantee of return for {days} days.",
   "no_return_warranty": "Nta garuka",
   "reed_agree_terms": "Nasomye ingingo zikoreshwa na politiki yi banga kandi ndabyemera.",
   "commons": {
     "Currency": "Ifaranga",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Leta",
     "Price": "igiciro",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Igiciro cyiza",
     "tax": "Umusoro",
     "tax_included": "Harimo ibiciro",
+    "tax_included_abstract": "incl.",
     "limit": "Imipaka",
     "min_purchase": "Kugura byibuze",
     "eligible_for": "Bemerewe",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Itariki yashizweho",
     "updated_at": "Amakuru yanyuma",
     "register_at": "Itariki yo kwiyandikisha",
+    "last_modified": "Last modified",
     "old": "Kera",
     "new": "Gishya",
     "start": "Tangira",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Umugurisha",
     "tracking_code": "Kode yo gukurikirana",
     "tracking_url": "Gukurikirana URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Kurangiza",
     "reject": "Wange",
     "reserved": "Yabitswe",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Gutegereza ...",
     "waiting_connecting_payment": "Gutegereza serivisi yo kwishyura ...",
     "creating_secure_payment": "Gushiraho ubwishyu bwizewe.",
+    "waiting_for_payment": "Nyamuneka wuzuze ...",
     "officer": "Umukozi",
     "ticket": "Tike",
     "ticket_url": "Tike url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Urutonde",
     "seen_at": "Reba kuri",
     "completed": "Byarangiye",
-    "you": "Wowe",
     "shop": "Amaduka",
     "store": "ububiko",
     "granted": "Nibyo",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Umuyoboro",
+    "channels_overview": "Channels overview",
     "to": "Kuri",
     "info": "Amakuru",
     "general": "Jenerali",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Ku bicuruzwa",
     "journey": "Urugendo",
     "after": "Nyuma",
-    "waiting_for_payment": "Nyamuneka wuzuze ...",
     "hour": "Isaha",
     "minute": "Iminota",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Amaduka",
     "vendor": "Umucuruzi",
     "vendors": "Abacuruzi",
+    "no_vendors": "No vendors",
     "marketplace": "Isoko",
     "verify_date": "Kugenzura itariki",
     "note": "Icyitonderwa",
@@ -604,7 +609,6 @@ export default {
     "variant": "Ibitandukanye",
     "secure": "Umutekano",
     "admin": "Umuyobozi",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Kwishura ntabwo byakemuwe!",
     "orders_list": "Urutonde",
     "subscription_plan": "Gahunda yo kwiyandikisha",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Amatsinda",
     "subscriptions": "Kwiyandikisha",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Wowe",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Biragoye cyane",
+    "hard": "Biragoye",
+    "intermediate": "Hagati",
+    "easy": "Biroroshye",
   },
   "dialogs": {
     "delete": {
       "title": "Gusiba",
       "message": "Uzi neza gusiba iki kintu?",
-      "action": "Yego, Siba ubu"
-    }
+      "action": "Yego, Siba ubu",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Ongera ku Ikarita",
     "cancel": "Kureka",
     "update": "Kuvugurura",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ongeramo ikarita yimpano",
     "charge": "Kwishyuza",
     "send_invites": "Kohereza ubutumire",
-    "past": "Kera",
+    "paste": "Shyira",
     "restore": "Kugarura",
     "cut": "Kata",
     "get_sms_code": "Kubona kode yo kwemeza",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Erekana ibanziriza",
     "hide_preview": "Hisha ibanziriza",
     "download_now": "Kuramo ubu",
+    "watch_now": "Reba nonaha",
     "auto_fill": "Kwiyemeza",
     "track": "Kurikirana",
     "change_state": "Hindura Imiterere",
     "done": "Bikorewe",
     "reply": "Subiza",
-    "watch_now": "Reba nonaha",
     "unlock": "Fungura",
     "lock": "Funga",
     "create_clone": "Kora clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Gura",
     "view_all": "Reba Byose",
     "view_now": "Reba Noneho",
-    "paste": "Shyira"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Kera",
+  },
+  "billing_period": {
+    "Daily": "Buri munsi",
+    "Weekly": "Buri cyumweru",
+    "Monthly": "Buri kwezi",
+    "Every3Months": "Buri mezi 3",
+    "Every6Months": "Buri mezi 6",
+    "Yearly": "Buri mwaka",
   },
   "instance_message_title": "Ohereza ubutumwa bwihuse",
   "instance_message": "Muraho {name}, Nitwa {author} kuva {company}.",
   "errors": {
     "419": "Ntabwo umaze igihe kinini udakora, nyamuneka <b>⟳ SHAKA URUPAPURO</b> kubwimpamvu z'umutekano wawe.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sisitemu ntishobora guhuza na blocain. Ntabwo bizashoboka gukora ibikorwa bishya kugeza igihe seriveri yacu ihuza. Turimo gukemura ikibazo.",
-    "gateway_network_error": "Serivise yo kwishura yishyuye yahuye nikibazo cyitumanaho."
+    "gateway_network_error": "Serivise yo kwishura yishyuye yahuye nikibazo cyitumanaho.",
   },
   "receiver_info": {
     "map": {
       "title": "Aderesi yoherejwe",
       "confirm": "Shiraho ahantu",
       "address_type": "Intego",
-      "receptor_type": "Kwakira"
+      "receptor_type": "Kwakira",
     },
     "receiver_address": "Hitamo aderesi yoherejwe",
+    "service_address": "Hitamo aderesi yawe",
+    "select_billing_address": "Select billing address",
     "address": "aderesi",
     "postcode": "Inyandiko y'iposita",
     "enter_value": "Uzuza hano",
     "address_note": "Icyitonderwa",
     "tel": "Numero y'itumanaho",
-    "service_address": "Hitamo aderesi yawe"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb.",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "garama",
     "oz": "Ounce",
     "lb": "Pound",
-    "kg": "kilo"
+    "kg": "kilo",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimetero",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Ikirenge",
     "mm": "milimetero",
     "m": "metero",
-    "yd": "Yard"
+    "yd": "Yard",
   },
   "distance": {
     "m": "metero",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Iminsi",
     "hours": "Amasaha",
     "minutes": "Iminota",
-    "seconds": "Amasegonda"
+    "seconds": "Amasegonda",
   },
   "units": [
     "Igice",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Leta",
     "Territory": "Ifasi",
-    "Province": "Intara"
+    "Province": "Intara",
   },
   "transaction_status": {
     "RequireAction": "Igikorwa gisabwa",
     "Processing": "Gutunganya",
     "Canceled": "Yahagaritswe",
-    "Succeeded": "Yatsinze"
+    "Succeeded": "Yatsinze",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Hitamo ururimi ..",
     "friend_email": "Imeri yinshuti yawe ...",
     "friend_name": "Opt. Izina ry'inshuti yawe",
-    "select_date": "Hitamo itariki ..."
+    "select_date": "Hitamo itariki ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Emeza",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Inyinshi {maxCount} inyuguti",
     "invalid_url": "URL itemewe",
     "country_invalid": "Hitamo igihugu ugana!",
-    "postal_code_invalid": "Shiraho kode ya posita yemewe!"
+    "postal_code_invalid": "Shiraho kode ya posita yemewe!",
   },
   "colors": {
     "#D32F2F": "Umutuku",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Igice",
     "postcode": "Inyandiko y'iposita",
     "note": "Icyitonderwa",
-    "county": "Intara"
+    "county": "Intara",
   },
   "product_types": {
     "physical": "Umubiri",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Serivisi",
     "service_description": "Serivisi nka: gusana, gutwara, kwigisha.",
     "subscription": "Kwiyandikisha",
-    "subscription_description": "Kwiyandikisha no gutanga inyemezabuguzi kubicuruzwa, serivisi, cyangwa ibirimo."
+    "subscription_description": "Kwiyandikisha no gutanga inyemezabuguzi kubicuruzwa, serivisi, cyangwa ibirimo.",
   },
   "license": {
     "free": "Ubuntu",
     "startup": "Gutangira",
     "company": "Isosiyete",
-    "enterprise": "Uruganda"
+    "enterprise": "Uruganda",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Ibara",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Kubara mumapaki",
     "weight": "Ibiro",
     "type": "Ibikoresho",
-    "style": "Imiterere"
+    "style": "Imiterere",
   },
   "delivery_state": {
     "check_queue": "Gutegereza gusubiramo",
     "order_confirm": "Tegeka Icyemezo",
     "preparing_order": "Kwitegura",
     "sent_order": "Kubyara",
-    "to_customer": "Yatanzwe"
+    "to_customer": "Yatanzwe",
   },
   "status": {
     "unpaid": "Ntahembwa",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Wange",
     "pending": "Bitegereje",
     "rejected": "Yanze",
-    "accepted": "Byemewe"
+    "accepted": "Byemewe",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Moto",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Ubwikorezi ku isi",
     "global_description": "Kohereza mu mahanga mu kirere, mu nyanja cyangwa ku butaka.",
     "pickup": "Pickup",
-    "pickup_description": "Abakiriya batoragura ibintu mububiko bwawe cyangwa mububiko."
+    "pickup_description": "Abakiriya batoragura ibintu mububiko bwawe cyangwa mububiko.",
   },
   "article": {
     "login_to_see_error": "Injira kugirango ugere ku ngingo",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Guhindura uburyo",
       "view_mode": "Reba uburyo",
-      "delete": "Siba Ingingo"
+      "delete": "Siba Ingingo",
     },
     "schedule_action": "Urashaka guteganya gusohora?",
     "schedule_title": "Teganya gukora-gutangaza",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Menyesha ihohoterwa no gukuraho ibirimo",
       "report_title": "Menyesha ibi bikubiyemo gutukana",
       "message": "Niyihe mpamvu yo gutanga ibi bikubiyemo? Hitamo bumwe mu buryo bukurikira.",
-      "accept_and_delete_action": "Emeza no Gusiba Ibirimo"
+      "accept_and_delete_action": "Emeza no Gusiba Ibirimo",
     },
     "schedule_dialog": {
       "title": "Gahunda yo Gusohora Ibirimo",
       "publish_at": "Tangaza kuri",
       "last_edit": "Guhindura bwa nyuma",
-      "view_action": "Reba Ingingo"
+      "view_action": "Reba Ingingo",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Tanga Amakuru",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Raporo no Gusiba",
       "report_and_delete_success_message": "Ingingo yasibwe neza.",
       "report_success_title": "Raporo ingingo",
-      "report_success_message": "Raporo yawe kuriyi ngingo yashyizwe ahagaragara."
+      "report_success_message": "Raporo yawe kuriyi ngingo yashyizwe ahagaragara.",
     },
     "alert": {
       "delete_article": {
         "title": "Siba Ingingo",
         "message": "Uzi neza ko ushaka gusiba burundu iyi ngingo?",
-        "action": "Gusiba"
-      }
+        "action": "Gusiba",
+      },
     },
     "edit_window": {
       "title": "Hitamo Ishusho Inyandiko nincamake",
-      "digest": "Incamake"
+      "digest": "Incamake",
     },
     "editor": {
       "title_placeholder": "Umutwe ..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Iyi dosiye nini cyane:",
       "notifications": {
         "image_uploaded_success": "Ishusho yabitswe neza",
-        "image_uploaded_failed": "Ikosa ryo gupakira."
+        "image_uploaded_failed": "Ikosa ryo gupakira.",
       },
       "embed_placeholder": "Injira iframe code, Facebook, Youtube cyangwa izindi URL zose hanyuma ukande enter.",
       "embed_caption_placeholder": "Injira umutwe (utabishaka)",
-      "images_caption_placeholder": "Injira umutwe wiyi shusho .."
-    }
+      "images_caption_placeholder": "Injira umutwe wiyi shusho ..",
+    },
   },
   "article_report": {
     "inappropriate": "Ibiri muri iyi ngingo ntibikwiye.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ntekereza ko ibirimo birimo porunogarafiya kandi binyuranyije n'amategeko.",
     "harassment": "Ntekereza ko ibi ari ivangura.",
     "hate": "Ntekereza ko ibi bijyanye no guteza imbere ihohoterwa.",
-    "infringe": "Ibi bibangamira uburenganzira bwanjye."
+    "infringe": "Ibi bibangamira uburenganzira bwanjye.",
   },
   "comments": {
     "new_action": "Kanda kugirango usige igitekerezo ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Shaka ibisobanuro byinshi ..",
     "cant_send_comment": "Ntushobora kongeramo inyandiko nshya.",
     "cant_remove_this_comment": "Ntushobora gusiba iki gitekerezo!",
-    "product_buyer": "Umuguzi",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Ibitekerezo byanjye",
     "delete_alert": {
       "title": "Siba Igitekerezo",
       "message": "Urashaka gusiba iki gitekerezo?",
-      "action": "Gusiba"
+      "action": "Gusiba",
     },
     "notifications": {
-      "delete_success": "Igitekerezo cyawe cyasibwe neza."
+      "delete_success": "Igitekerezo cyawe cyasibwe neza.",
     },
     "first_send": "Inyandiko ya mbere",
     "comment_at": "Kuri",
     "edit_comment": "Hindura Igitekerezo",
-    "my_comments": "Ibitekerezo byanjye"
+    "product_buyer": "Umuguzi",
   },
   "customer_club": {
     "bronze": "Umuringa",
     "silver": "Ifeza",
     "gold": "Zahabu",
     "platinum": "Platinum",
-    "diamond": "Diamond"
+    "diamond": "Diamond",
   },
   "application_categories": {
     "tracking": "Kugenzura Imyitwarire y'abakoresha",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Kwamamaza",
     "staff": "Abakozi",
     "incentive": "Inkunga",
-    "shop": "Amaduka"
+    "shop": "Amaduka",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Kurikira",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Intumwa ya Facebook"
+    "facebook_messenger": "Intumwa ya Facebook",
   },
   "form_builder": {
     "add_item_action": "Ongeraho ikintu gishya",
     "title_input": "Umutwe",
+    "placeholder_input": "Umwanya",
     "name_input": "Izina rihinduka",
     "value_input": "Indangagaciro",
     "value_input_message": "Urutonde rwabakoresha",
     "default": "Agaciro gasanzwe",
+    "file_type_input": "Ubwoko bwa dosiye yemewe",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Biroroshye",
       "selective": "Guhitamo",
       "switch": "Hindura",
       "file": "Idosiye",
-      "number": "Umubare"
+      "number": "Umubare",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Umwanya",
-    "file_type_input": "Ubwoko bwa dosiye yemewe",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "izina RY'IGICURUZWA",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Imiterere yo kwishyura",
     "payment_status_waiting": "Gutegereza ubwishyu",
     "payment_status_paid": "Yishyuwe",
-    "buyer": "Umuguzi"
+    "buyer": "Umuguzi",
   },
   "virtual_item_info": {
     "title": "Ikintu Cyukuri",
     "outputs": {
       "title": "Ibisobanuro",
       "sub_title": "Amakuru y'ibanga yiki kintu",
-      "message": "Aya makuru azerekanwa kubakoresha nyuma yo kugura ibicuruzwa."
+      "message": "Aya makuru azerekanwa kubakoresha nyuma yo kugura ibicuruzwa.",
     },
     "inputs": {
       "title": "Ibisobanuro Birakenewe",
       "sub_title": "Ibisobanuro byabaguzi birakenewe",
-      "message": "Umuguzi agomba kwinjiza amakuru asabwa muburyo"
+      "message": "Umuguzi agomba kwinjiza amakuru asabwa muburyo",
     },
     "notifications": {
       "inputs_set_success": "Ifishi yamakuru yanditswe neza.",
       "confirm_by_admin_success": "Kurangiza ibyemezo byemejwe.",
-      "confirm_by_buyer_success": "Kurangiza ibyemezo byemejwe."
-    }
+      "confirm_by_buyer_success": "Kurangiza ibyemezo byemejwe.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Iri teka ntirishobora kwemerwa no kwishyura COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Ntibibitse.",
     "legal_restriction": "Ntibishobora gutanga itegeko kubera kubuzwa n'amategeko.",
     "pricing_fault": "Ikosa ryibiciro kubagurisha.",
-    "system_fault": "Sisitemu ya bug."
+    "system_fault": "Sisitemu ya bug.",
   },
   "basket_order_info_summery": {
     "receiver": "Kwakira",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Kugabanuka",
     "final_price": "Umubare wanyuma",
     "address": "Aderesi yo gutanga",
-    "payment_status": "Imiterere yo kwishyura"
+    "payment_status": "Imiterere yo kwishyura",
   },
   "basket_status": {
     "open": "Fungura",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Yahagaritswe",
     "cod": "Kwishura Kubitangwa",
     "receipt_added": "Inyemezabwishyu yongeyeho",
-    "payment_processing": "Gutunganya ubwishyu"
+    "payment_processing": "Gutunganya ubwishyu",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Yanze",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Kwemeza",
     "step_3": "Kwitegura",
     "step_4": "Kubyara",
-    "step_5": "Yatanzwe"
+    "step_5": "Yatanzwe",
   },
   "basket_return_request_view": {
     "title": "Gusaba Gusubira",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Wange icyifuzo",
     "message_for_admin": "Ukurikije amasezerano wemeye ukoresheje Selldone, ugomba guhamagara umuguzi ukamumenyesha inzira yo gusubiza ibyo yategetse. Ibi bigomba gukorwa niba icyifuzo cyemewe cyangwa cyanze kandi umuguzi yemeye byuzuye.",
     "notifications": {
-      "update_status_success": "Gusaba imiterere ivuguruye."
-    }
+      "update_status_success": "Gusaba imiterere ivuguruye.",
+    },
   },
   "basket_list": {
     "return_count": "Garuka: {count} umubare",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Ibitandukanye",
       "warranty": "Garanti",
       "count": "Kubara",
-      "price": "igiciro"
-    }
+      "price": "igiciro",
+    },
   },
   "return_request_list": {
     "count": "Inomero yerekana",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Itariki yakiriwe",
       "state": "Imiterere",
       "reason": "Impamvu",
-      "return_warranty_period": "Igihe cya garanti"
-    }
+      "return_warranty_period": "Igihe cya garanti",
+    },
   },
   "data_toolbar": {
     "search": "Shakisha",
     "sort_by": "Gutondekanya na",
-    "count_item": "Erekana {item} ibintu"
+    "count_item": "Erekana {item} ibintu",
   },
   "sort": {
     "created_at": "Kurema itariki",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Umukozi",
     "registered": "Kwiyandikisha",
     "purchased": "Yaguzwe",
-    "sex": "Uburinganire"
+    "sex": "Uburinganire",
   },
   "search_box": {
     "result": "Shakisha ibisubizo",
     "tips": "Shakisha ibicuruzwa n'ibyiciro",
     "label": "Shakisha ...",
-    "category": "Icyiciro"
+    "category": "Icyiciro",
   },
   "lead_status": {
     "physical_fast_delivery": "Gutanga ako kanya",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Gutegura no gutanga kuva {days} ikurikira",
     "virtual_fast_prepare": "Gutanga ako kanya",
     "virtual_under_24h": "Bizakorwa mugihe gikurikira {lead} amasaha",
-    "virtual_over_24h": "Bizakorwa guhera {iminsi ikurikira"
+    "virtual_over_24h": "Will be done from the next {days} days",
   },
   "return_request_state": {
     "pending": "Bitegereje",
     "accepted": "Byemejwe",
-    "rejected": "Yanze"
+    "rejected": "Yanze",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Gupakira cyangwa inomero yumubare",
       "U5": "Ibintu bimwe biva muri parcelle birabura",
       "U6": "Ibicuruzwa ntabwo ari umwimerere",
-      "U7": "Ibicuruzwa ntabwo byujuje ibisobanuro"
-    }
+      "U7": "Ibicuruzwa ntabwo byujuje ibisobanuro",
+    },
   },
   "image_uploader": {
     "label": "Kurura & Kureka cyangwa <u>Guhitamo dosiye</u>",
-    "max_size": "Ingano ntarengwa yemewe: {size}"
+    "max_size": "Ingano ntarengwa yemewe: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "Saa kumi n'ebyiri kugeza saa kumi n'ebyiri z'umugoroba",
     "Night": "6pm-12pm",
-    "Instant": "Ako kanya"
+    "Instant": "Ako kanya",
   },
   "week_day": {
     "Saturday": "Ku wa gatandatu",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Ku wa kabiri",
     "Wednesday": "Ku wa gatatu",
     "Thursday": "Ku wa kane",
-    "Friday": "Ku wa gatanu"
+    "Friday": "Ku wa gatanu",
   },
   "payment_form": {
     "title": "Hitamo uburyo bwo Kwishura",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Twishimiye, ibyo wategetse ni ubuntu!",
     "order_free_payment_action": "Tegeka ubuntu",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Aderesi yo kwishyura",
-      "amount": "Umubare"
-    }
+      "amount": "Umubare",
+    },
   },
   "discount_input": {
     "limit": "{percent}% kugabanywa kugeza {limit} {currency}",
     "action": "Ongeraho Kode yo Kugabanuka",
     "code_input": "Kode yo kugabanya",
     "notifications": {
-      "add_success": "Twishimiye, kode yemewe yo kugabanya."
-    }
+      "add_success": "Twishimiye, kode yemewe yo kugabanya.",
+    },
   },
   "gift_card": {
     "inactive": "Ikarita irahagarikwa",
     "expire": "Igihe kirangiye",
     "transfer": "Kwimura",
-    "send_to_friend": "Ohereza inshuti"
+    "send_to_friend": "Ohereza inshuti",
   },
   "count_down": {
     "days": "Umunsi",
     "hours": "Isaha",
     "minutes": "Iminota",
-    "seconds": "Amasegonda"
+    "seconds": "Amasegonda",
   },
   "gift_status": {
     "Unpaid": "Gutegereza inyemezabwishyu",
     "Paid": "Yishyuwe",
     "Rejected": "Yanze",
-    "Canceled": "Yahagaritswe"
+    "Canceled": "Yahagaritswe",
   },
   "gift_program_status": {
     "Airdrop": "Sisitemu yo Kwishura",
     "Advertising": "Kwamamaza",
     "PersonalGift": "Impano y'umuntu ku giti cye",
-    "ShopGift": "Amaduka"
+    "ShopGift": "Amaduka",
   },
   "currency_selector": {
-    "label": "Ifaranga"
+    "label": "Ifaranga",
   },
   "need_login": {
     "title": "injira",
     "login_sms": "Kwinjira muri SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Injira na Google",
     "login_facebook": "Injira na Facebook",
+    "login_apple": "Injira na Apple",
     "login_account": "Injira na Selldone",
     "register": "Umukoresha mushya? Iyandikishe nonaha.",
     "mobile_input": "Injira mobile yawe",
     "verification_code": "Kode yo kugenzura",
     "msg_title": "Muraho,",
     "msg_body": "Nyamuneka injira. Bifata amasegonda make.",
-    "login_apple": "Injira na Apple",
     "login_email": "Injira kuri imeri",
     "email_login_step_1": "Nyamuneka tanga imeri yemewe, kandi twohereze kode yinjira. Nta kwiyandikisha bikenewe.",
     "email_login_step_2": "Uzi neza ko winjije aderesi imeri neza? Tuzohereza kode yinjira kuri imeri yatanzwe, nyamuneka reba neza niba ari ukuri.",
-    "email_login_step_3": "Twohereje kode kuri imeri yawe. Nyamuneka menya ko code izarangira muminota 10."
+    "email_login_step_3": "Twohereje kode kuri imeri yawe. Nyamuneka menya ko code izarangira muminota 10.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Ububiko bwimyaka 5"
+      "name": "Ububiko bwimyaka 5",
     },
     "GOLDEN_2YEAR": {
-      "name": "Ububiko bwimyaka 4"
+      "name": "Ububiko bwimyaka 4",
     },
     "GOLDEN_3YEAR": {
-      "name": "Ububiko bwimyaka 3"
+      "name": "Ububiko bwimyaka 3",
     },
     "GOLDEN_4YEAR": {
-      "name": "Ububiko bwimyaka 2"
+      "name": "Ububiko bwimyaka 2",
     },
     "GOLDEN_5YEAR": {
-      "name": "Ububiko bwumwaka 1"
+      "name": "Ububiko bwumwaka 1",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Umushoramari wa Zahabu"
+      "name": "Umushoramari wa Zahabu",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Umushoramari wa Diamond"
+      "name": "Umushoramari wa Diamond",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Umushoramari"
+      "name": "Ruby Umushoramari",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Umunyamuryango wumuryango wo hejuru wurusobe rwitumanaho"
+      "name": "Umunyamuryango wumuryango wo hejuru wurusobe rwitumanaho",
     },
     "GOLD_SUPPLIER": {
-      "name": "Utanga Zahabu"
+      "name": "Utanga Zahabu",
     },
     "GOLD_SELLER": {
-      "name": "Umucuruzi wa zahabu"
+      "name": "Umucuruzi wa zahabu",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Umushinga wo hejuru"
+      "name": "Umushinga wo hejuru",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Inyenyeri"
+      "name": "Inyenyeri",
     },
     "GUARDIAN": {
-      "name": "Serivisi nziza zabakiriya"
+      "name": "Serivisi nziza zabakiriya",
     },
     "KING": {
-      "name": "Umwami w'isoko"
-    }
+      "name": "Umwami w'isoko",
+    },
   },
   "cookie": {
     "title": "Uru rubuga rukoresha kuki",
     "message": "Uru rubuga rukoresha kuki mugutezimbere uburambe bwabakoresha. Ukoresheje urubuga rwacu wemera kuki zose ukurikije Politiki yacu ya kuki.",
     "preferences_action": "Gucunga Ibyifuzo",
-    "agree_action": "Ndabyemera"
+    "agree_action": "Ndabyemera",
   },
   "basket_item_message": {
     "title": "Ibisobanuro bisabwa kuri iki kintu",
     "save_actions": "Bika Ubutumwa",
+    "product_inputs_preview_message": "Ihitamo ryihariye rirahari kubicuruzwa byawe byateganijwe. Ikintu kimaze kongerwaho mumagare yawe, uzashobora kugira ibyo uhindura hano.",
     "notifications": {
-      "success": "Amakuru yawe yinjiye yabitswe."
+      "success": "Amakuru yawe yinjiye yabitswe.",
     },
-    "product_inputs_preview_message": "Ihitamo ryihariye rirahari kubicuruzwa byawe byateganijwe. Ikintu kimaze kongerwaho mumagare yawe, uzashobora kugira ibyo uhindura hano."
   },
   "faq": {
     "faq": "Ibibazo Bikunze Kubazwa",
     "title": "Ibibazo n'ibisubizo",
-    "sub_title": "Ibyo wadusabye gukora.",
     "message": "Shakisha igisubizo cyikibazo cyawe mubisubizo bikurikira. Tubaze niba ibibazo bikomeje kuba ibisubizo.",
     "add_question_action": "Baza Ikibazo gishya",
     "read_more": "Soma birambuye ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Ikibazo",
     "question_input_placeholder": "Baza ikibazo cyawe.",
     "notifications": {
-      "success_add": "Ikibazo cyawe cyatanzwe neza."
-    }
+      "success_add": "Ikibazo cyawe cyatanzwe neza.",
+    },
+    "sub_title": "Ibyo wadusabye gukora.",
   },
   "rating_labels": [
     "Bibi cyane",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Injira aho ujya",
     "enter_your_address": "Injira aderesi yawe.",
     "postal_code": "Inyandiko y'iposita",
-    "phone_input": "Terefone {type}",
+    "phone_input": "Terefone",
     "building_number": "Inomero yo kubaka",
     "building_unit": "Igice",
     "full_name_input": "Izina ryuzuye {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Ikirango cya aderesi (Gusaba)",
     "notifications": {
       "save_in_list": "Iyi aderesi yabitswe kurutonde rwawe hamwe nibisobanuro byayo byose.",
-      "edit_success": "Indangagaciro nshya ya adresse yabitswe muri {title}."
+      "edit_success": "Indangagaciro nshya ya adresse yabitswe muri {title}.",
     },
     "delete_address_dialog": {
       "title": "Gusiba Aderesi",
       "message": "Uzi neza ko ushaka gusiba iyi aderesi?",
-      "action": "Kuraho aderesi"
-    }
+      "action": "Kuraho aderesi",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ntushobora guhindura iki gitekerezo!",
     "comment_input_empty": "Ubutumwa bwubutumwa burimo ubusa!",
-    "article_not_saved": "Bika ingingo!"
+    "article_not_saved": "Bika ingingo!",
   },
   "wheel_fortune": {
     "title": "Gukina & Gutsinda",
     "message": "Igiciro cya buri mukino ni chip 10. Kuri ubu ufite {chips} chip. Shaka chip nyinshi mugura mububiko.",
     "win_message": "Turishimye, Uratsinze!",
     "lost_message": "Ihangane, Watsinzwe umukino.",
-    "try_again": "Urashobora kongera kugerageza"
+    "try_again": "Urashobora kongera kugerageza",
   },
   "json": {
     "add": "Ongeraho amakuru yimiterere",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Imiterere",
     "book": {
       "title": "Igitabo",
-      "desc": "Ibikorwa byibitabo bifasha abakoresha kugura igitabo basanze mubisubizo byubushakashatsi."
+      "desc": "Ibikorwa byibitabo bifasha abakoresha kugura igitabo basanze mubisubizo byubushakashatsi.",
     },
     "occupation": {
       "title": "Umushahara uteganijwe",
-      "desc": "Amakuru ajyanye no kugereranya umushahara, nk'umushahara ugereranije n'umushahara ugereranije n'akarere ugereranije n'ubwoko bw'akazi, byerekanwe muburambe bwo gushakisha akazi kuri Google."
+      "desc": "Amakuru ajyanye no kugereranya umushahara, nk'umushahara ugereranije n'umushahara ugereranije n'akarere ugereranije n'ubwoko bw'akazi, byerekanwe muburambe bwo gushakisha akazi kuri Google.",
     },
     "course": {
       "title": "Amasomo",
-      "desc": "Amasomo yuburezi agaragara murutonde rwihariye. Amasomo arashobora gushiramo umutwe wamasomo, utanga, nibisobanuro bigufi."
+      "desc": "Amasomo yuburezi agaragara murutonde rwihariye. Amasomo arashobora gushiramo umutwe wamasomo, utanga, nibisobanuro bigufi.",
     },
     "howto": {
       "title": "Uburyo-Kuri",
-      "desc": "Uburyo-bwo kugenda abakoresha binyuze murwego rwo kurangiza neza umurimo, urimo amashusho, amashusho, hamwe ninyandiko."
+      "desc": "Uburyo-bwo kugenda abakoresha binyuze murwego rwo kurangiza neza umurimo, urimo amashusho, amashusho, hamwe ninyandiko.",
     },
     "recipe": {
       "title": "Ibisobanuro",
-      "desc": "Udukoryo twerekana nkigisubizo cyumutunzi kugiti cye cyangwa igice cyakiriwe karuseli."
-    }
+      "desc": "Udukoryo twerekana nkigisubizo cyumutunzi kugiti cye cyangwa igice cyakiriwe karuseli.",
+    },
   },
   "support": {
     "Financial": "Amafaranga",
     "Technical": "Tekiniki",
-    "Advisor": "Umujyanama"
+    "Advisor": "Umujyanama",
   },
   "condition": {
     "new": "Gishya",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Byakoreshejwe",
     "used_fair": "Byakoreshejwe neza",
     "used_good": "Byakoreshejwe byiza",
-    "used_like_new": "Byakoreshejwe nkibishya"
+    "used_like_new": "Byakoreshejwe nkibishya",
   },
   "variant_filter": {
     "title": "Ibicuruzwa Bitandukanye Muyunguruzi",
-    "only_available": "Mububiko"
+    "only_available": "Mububiko",
   },
   "service": {
     "task": {
       "title": "Inshingano",
-      "message": "Urutonde rw'imirimo ikorwa muri iyi serivisi."
+      "message": "Urutonde rw'imirimo ikorwa muri iyi serivisi.",
     },
     "appointment": {
       "title": "Ishyirwaho",
-      "message": "Hitamo ibihe byicyumweru uhereye mubihe bikurikira ukurikije umunsi nisaha bikubereye."
+      "message": "Hitamo ibihe byicyumweru uhereye mubihe bikurikira ukurikije umunsi nisaha bikubereye.",
     },
     "booking": {
       "title": "Kwiyandikisha",
-      "message": "Kugaragaza igihe cyiminsi ushaka gukora reservation muri kalendari ikurikira."
+      "message": "Kugaragaza igihe cyiminsi ushaka gukora reservation muri kalendari ikurikira.",
     },
     "subscription": {
-      "title": "Kwiyandikisha"
+      "title": "Kwiyandikisha",
     },
     "charge": {
-      "title": "Kwishyuza"
-    }
+      "title": "Kwishyuza",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Igiciro gihamye",
-      "message": "Muri ubu bwoko bwibiciro, igiciro cyibicuruzwa ni umubare uteganijwe kandi ntagikenewe ko umuguzi asaba kubara ibiciro."
+      "message": "Muri ubu bwoko bwibiciro, igiciro cyibicuruzwa ni umubare uteganijwe kandi ntagikenewe ko umuguzi asaba kubara ibiciro.",
     },
     "ESTIMATION": {
       "title": "Igiciro cyo Kugereranya",
-      "message": "Igiciro cyibicuruzwa na serivisi bizabarwa ku rugero runaka nugurisha mugihe utumije, inyemezabuguzi zo kwishyura zirashobora guhinduka cyangwa kongerwaho mugihe cya serivisi."
+      "message": "Igiciro cyibicuruzwa na serivisi bizabarwa ku rugero runaka nugurisha mugihe utumije, inyemezabuguzi zo kwishyura zirashobora guhinduka cyangwa kongerwaho mugihe cya serivisi.",
     },
     "AGREEMENT": {
       "title": "Igiciro cyamasezerano",
-      "message": "Igiciro cyanyuma cyibicuruzwa cyangwa serivisi ntabwo bizahindurwa nugurisha nyuma yo gutumiza."
+      "message": "Igiciro cyanyuma cyibicuruzwa cyangwa serivisi ntabwo bizahindurwa nugurisha nyuma yo gutumiza.",
     },
     "BID": {
       "title": "Gupiganwa / cyamunara",
-      "message": "Ibicuruzwa bizagurishwa ku giciro cyo hejuru cyatanzwe nabashobora kugura."
-    }
+      "message": "Ibicuruzwa bizagurishwa ku giciro cyo hejuru cyatanzwe nabashobora kugura.",
+    },
   },
   "map": {
     "title": "Intego yo kwakira ibicuruzwa",
     "confirm": "Shiraho ahantu",
     "address": "Intego",
-    "receptor": "Kwakira"
+    "receptor": "Kwakira",
   },
   "ShopBots": {
-    "telegram": "Telegaramu"
+    "telegram": "Telegaramu",
   },
   "article_tags": {
     "title": "Ibirimo",
     "tags_input": "Etiquetas",
     "tags_input_message": "Etiquetas Urutonde rwiyi ngingo",
     "notification": {
-      "add_success": "Tags yongeyeho"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Biragoye cyane",
-    "hard": "Biragoye",
-    "intermediate": "Hagati",
-    "easy": "Biroroshye"
-  },
-  "billing_period": {
-    "Daily": "Buri munsi",
-    "Weekly": "Buri cyumweru",
-    "Monthly": "Buri kwezi",
-    "Every3Months": "Buri mezi 3",
-    "Every6Months": "Buri mezi 6",
-    "Yearly": "Buri mwaka"
+      "add_success": "Tags yongeyeho",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och ntabwo ari byiza!",
     "between2_3": "Nibyiza!",
     "between3_4": "Abantu barabikunda!",
-    "between4_5": "Abantu barabikunda!"
+    "between4_5": "Abantu barabikunda!",
   },
   "seasons": {
     "spring": "Isoko",
     "summer": "Impeshyi",
     "autumn": "Impeshyi",
-    "winter": "Igihe cy'itumba"
-  }
+    "winter": "Igihe cy'itumba",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

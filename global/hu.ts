@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Elolvastam a használati feltételeket és az adatvédelmi szabályzatot, és egyetértek velük.",
   "commons": {
     "Currency": "Valuta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Állapot",
     "Price": "ár",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Nettó ár",
     "tax": "Adó",
     "tax_included": "Az ár tartalmazza",
+    "tax_included_abstract": "incl.",
     "limit": "Határ",
     "min_purchase": "Minimális vásárlás",
     "eligible_for": "Jogosultak",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Létrehozás dátuma",
     "updated_at": "Utolsó frissítés",
     "register_at": "Regisztráció dátuma",
+    "last_modified": "Last modified",
     "old": "Régi",
     "new": "Új",
     "start": "Rajt",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Viszonteladó",
     "tracking_code": "Azonosító kód",
     "tracking_url": "Nyomon követési URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Teljesítések",
     "reject": "Elutasít",
     "reserved": "Fenntartott",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Várakozás...",
     "waiting_connecting_payment": "Várakozás a fizetési szolgáltatásra...",
     "creating_secure_payment": "Biztonságos fizetés létrehozása.",
+    "waiting_for_payment": "Kérjük, fejezze be a fizetést...",
     "officer": "Tiszt",
     "ticket": "Jegy",
     "ticket_url": "Jegy url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Értékelés",
     "seen_at": "Látva itt",
     "completed": "Befejezve",
-    "you": "te",
     "shop": "Üzlet",
     "store": "bolt",
     "granted": "Megadott",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tabletta",
     "pc": "PC",
     "acquisition_channel": "Beszerzési csatorna",
+    "channels_overview": "Channels overview",
     "to": "Nak nek",
     "info": "Info",
     "general": "Tábornok",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Termékenként",
     "journey": "Utazás",
     "after": "Után",
-    "waiting_for_payment": "Kérjük, fejezze be a fizetést...",
     "hour": "Óra",
     "minute": "Perc",
     "premium": "Prémium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Üzletek",
     "vendor": "Eladó",
     "vendors": "Eladók",
+    "no_vendors": "No vendors",
     "marketplace": "Piactér",
     "verify_date": "Dátum ellenőrzése",
     "note": "jegyzet",
@@ -604,7 +609,6 @@ export default {
     "variant": "Változat",
     "secure": "Biztonságos",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Fizetés nincs rendezve!",
     "orders_list": "Megrendelések listája",
     "subscription_plan": "Előfizetési terv",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Klaszterek",
     "subscriptions": "Előfizetések",
     "spam": "Levélszemét",
-    "video": "Videó"
+    "video": "Videó",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "te",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Nagyon bonyolult",
+    "hard": "Kemény",
+    "intermediate": "Közbülső",
+    "easy": "Könnyen",
   },
   "dialogs": {
     "delete": {
       "title": "Töröl",
       "message": "Biztosan törlöd ezt az elemet?",
-      "action": "Igen, törölje most"
-    }
+      "action": "Igen, törölje most",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Kosárba",
     "cancel": "Megszünteti",
     "update": "Frissítés",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ajándékkártya hozzáadása",
     "charge": "Díj",
     "send_invites": "Meghívók küldése",
-    "past": "Múlt",
+    "paste": "Paszta",
     "restore": "visszaállítás",
     "cut": "Vágott",
     "get_sms_code": "Szerezzen hitelesítési kódot",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Előnézet megjelenítése",
     "hide_preview": "Előnézet elrejtése",
     "download_now": "Letöltés most",
+    "watch_now": "Nézd meg most",
     "auto_fill": "Automatikus kitöltés",
     "track": "Nyomon követni",
     "change_state": "Állapotváltozás",
     "done": "Kész",
     "reply": "Válasz",
-    "watch_now": "Nézd meg most",
     "unlock": "Kinyit",
     "lock": "Zár",
     "create_clone": "Klón létrehozása",
@@ -773,41 +931,71 @@ export default {
     "buy": "megvesz",
     "view_all": "Összes megtekintése",
     "view_now": "Nézd meg most",
-    "paste": "Paszta"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Múlt",
+  },
+  "billing_period": {
+    "Daily": "Napi",
+    "Weekly": "Heti",
+    "Monthly": "Havi",
+    "Every3Months": "3 havonta",
+    "Every6Months": "6 havonta",
+    "Yearly": "Évi",
   },
   "instance_message_title": "Azonnali üzenet küldése",
   "instance_message": "Kedves {name}! A nevem {author} a {company} cégtől.",
   "errors": {
     "419": "Hosszú ideje inaktív, kérjük <b>⟳ FRISSÍTSD FRISSÍTSD AZ OLDALT</b> biztonsági okokból.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "A rendszer nem szinkronizál a blokklánccal. Addig nem lehet új tranzakciót létrehozni, amíg a szervereink szinkronizálása be nem fejeződik. Megoldjuk a problémát.",
-    "gateway_network_error": "A fizetési átjáró szolgáltatás kommunikációs problémába ütközött."
+    "gateway_network_error": "A fizetési átjáró szolgáltatás kommunikációs problémába ütközött.",
   },
   "receiver_info": {
     "map": {
       "title": "Szállítási cím",
       "confirm": "Állítsa be a helyet",
       "address_type": "Rendeltetési hely",
-      "receptor_type": "Vevő"
+      "receptor_type": "Vevő",
     },
     "receiver_address": "Válassza ki a szállítási címet",
+    "service_address": "Válassza ki a címét",
+    "select_billing_address": "Select billing address",
     "address": "cím",
     "postcode": "Irányítószám",
     "enter_value": "Töltse ki itt",
     "address_note": "jegyzet",
     "tel": "Elérhetőség",
-    "service_address": "Válassza ki a címét"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gramm",
     "oz": "Uncia",
     "lb": "Font",
-    "kg": "kilogramm"
+    "kg": "kilogramm",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centiméter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Láb",
     "mm": "milliméter",
     "m": "méter",
-    "yd": "Udvar"
+    "yd": "Udvar",
   },
   "distance": {
     "m": "méter",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Napok",
     "hours": "Órák",
     "minutes": "Percek",
-    "seconds": "Másodpercek"
+    "seconds": "Másodpercek",
   },
   "units": [
     "Mértékegység",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Állapot",
     "Territory": "Terület",
-    "Province": "Tartomány"
+    "Province": "Tartomány",
   },
   "transaction_status": {
     "RequireAction": "Cselekvést kíván",
     "Processing": "Feldolgozás",
     "Canceled": "Törölve",
-    "Succeeded": "Sikerült"
+    "Succeeded": "Sikerült",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Válasszon nyelvet..",
     "friend_email": "Barátod email címe...",
     "friend_name": "Dönt. A barátod neve",
-    "select_date": "Válassz dátumot..."
+    "select_date": "Válassz dátumot...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "megerősít",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maximum {maxCount} karakter",
     "invalid_url": "érvénytelen URL",
     "country_invalid": "Válasszon célországot!",
-    "postal_code_invalid": "Állíts be érvényes irányítószámot!"
+    "postal_code_invalid": "Állíts be érvényes irányítószámot!",
   },
   "colors": {
     "#D32F2F": "Piros",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Mértékegység",
     "postcode": "Irányítószám",
     "note": "jegyzet",
-    "county": "Megye"
+    "county": "Megye",
   },
   "product_types": {
     "physical": "Fizikai",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Szolgáltatás",
     "service_description": "Szolgáltatások: javítás, szállítás, oktatás.",
     "subscription": "Feliratkozás",
-    "subscription_description": "Termékek, szolgáltatások vagy tartalom előfizetései és számlázása."
+    "subscription_description": "Termékek, szolgáltatások vagy tartalom előfizetései és számlázása.",
   },
   "license": {
     "free": "Ingyenes",
     "startup": "üzembe helyezés",
     "company": "Vállalat",
-    "enterprise": "Vállalkozás"
+    "enterprise": "Vállalkozás",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Szín",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Számoljon a csomagban",
     "weight": "Súly",
     "type": "Anyag",
-    "style": "Stílus"
+    "style": "Stílus",
   },
   "delivery_state": {
     "check_queue": "Felülvizsgálatra vár",
     "order_confirm": "Megrendelés visszaigazolása",
     "preparing_order": "Felkészülés",
     "sent_order": "Kiszállítás alatt",
-    "to_customer": "Szállítva"
+    "to_customer": "Szállítva",
   },
   "status": {
     "unpaid": "Kifizetetlen",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Elutasít",
     "pending": "Függőben levő",
     "rejected": "Elutasítva",
-    "accepted": "Elfogadott"
+    "accepted": "Elfogadott",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motorkerékpár",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Globális szállítás",
     "global_description": "Külföldre szállítás légi, tengeri vagy szárazföldi úton.",
     "pickup": "Felvenni",
-    "pickup_description": "A vásárlók a termékeket az Ön fizikai üzletében vagy raktárában veszik át."
+    "pickup_description": "A vásárlók a termékeket az Ön fizikai üzletében vagy raktárában veszik át.",
   },
   "article": {
     "login_to_see_error": "A cikk eléréséhez jelentkezzen be",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Szerkesztési mód",
       "view_mode": "Nézet mód",
-      "delete": "Cikk törlése"
+      "delete": "Cikk törlése",
     },
     "schedule_action": "Szeretné ütemezni a megjelenést?",
     "schedule_title": "Automatikus közzététel ütemezése",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Visszaélés bejelentése és tartalom eltávolítása",
       "report_title": "Jelentse ezt a tartalmat sértőként",
       "message": "Mi az oka ennek a tartalomnak a beküldésének? Válasszon egyet az alábbi lehetőségek közül.",
-      "accept_and_delete_action": "Tartalom megerősítése és törlése"
+      "accept_and_delete_action": "Tartalom megerősítése és törlése",
     },
     "schedule_dialog": {
       "title": "Tartalommegjelenítési ütemterv",
       "publish_at": "Közzététel itt:",
       "last_edit": "Utolsó szerkesztés",
-      "view_action": "Cikk megtekintése"
+      "view_action": "Cikk megtekintése",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Információk beküldése",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Jelentés és törlés",
       "report_and_delete_success_message": "A cikk sikeresen törölve.",
       "report_success_title": "Jelentés cikk",
-      "report_success_message": "Jelentését erről a cikkről közzétettük."
+      "report_success_message": "Jelentését erről a cikkről közzétettük.",
     },
     "alert": {
       "delete_article": {
         "title": "Cikk törlése",
         "message": "Biztos benne, hogy véglegesen törli ezt a cikket?",
-        "action": "Töröl"
-      }
+        "action": "Töröl",
+      },
     },
     "edit_window": {
       "title": "Válassza a Kép szövege és összegzése lehetőséget",
-      "digest": "Összegzés"
+      "digest": "Összegzés",
     },
     "editor": {
       "title_placeholder": "Cím..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Ez a fájl túl nagy:",
       "notifications": {
         "image_uploaded_success": "A kép sikeresen mentve",
-        "image_uploaded_failed": "Hiba a kép betöltésekor."
+        "image_uploaded_failed": "Hiba a kép betöltésekor.",
       },
       "embed_placeholder": "Írja be az iframe kódot, a Facebook, a Youtube vagy bármely más URL-t, és nyomja meg az enter billentyűt.",
       "embed_caption_placeholder": "Adjon meg egy címet (nem kötelező)",
-      "images_caption_placeholder": "Adja meg a kép címét.."
-    }
+      "images_caption_placeholder": "Adja meg a kép címét..",
+    },
   },
   "article_report": {
     "inappropriate": "A cikk tartalma nem megfelelő.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Úgy gondolom, hogy ez a tartalom pornográfiát tartalmaz, és sérti a törvényeket.",
     "harassment": "Szerintem ez rasszizmus.",
     "hate": "Szerintem itt az erőszak népszerűsítéséről van szó.",
-    "infringe": "Ez sérti a jogaimat."
+    "infringe": "Ez sérti a jogaimat.",
   },
   "comments": {
     "new_action": "Kattintson a megjegyzés írásához..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "További megjegyzések..",
     "cant_send_comment": "Nem adhat hozzá új bejegyzést.",
     "cant_remove_this_comment": "Ezt a megjegyzést nem tudod törölni!",
-    "product_buyer": "Vevő",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Saját megjegyzéseim",
     "delete_alert": {
       "title": "Megjegyzés törlése",
       "message": "Törölni szeretnéd ezt a megjegyzést?",
-      "action": "Töröl"
+      "action": "Töröl",
     },
     "notifications": {
-      "delete_success": "Hozzászólása sikeresen törölve."
+      "delete_success": "Hozzászólása sikeresen törölve.",
     },
     "first_send": "Első poszt",
     "comment_at": "Tovább",
     "edit_comment": "Megjegyzés szerkesztése",
-    "my_comments": "Saját megjegyzéseim"
+    "product_buyer": "Vevő",
   },
   "customer_club": {
     "bronze": "Bronz",
     "silver": "Ezüst",
     "gold": "Aranysárga",
     "platinum": "Platina",
-    "diamond": "gyémánt"
+    "diamond": "gyémánt",
   },
   "application_categories": {
     "tracking": "Felhasználói viselkedés ellenőrzése",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Hirdető",
     "staff": "Személyzet",
     "incentive": "Ösztönzők",
-    "shop": "Üzlet"
+    "shop": "Üzlet",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Új elem hozzáadása",
     "title_input": "Cím",
+    "placeholder_input": "Helykitöltő",
     "name_input": "Változó neve",
     "value_input": "Értékek",
     "value_input_message": "Felhasználói opciók listája",
     "default": "Alapértelmezett érték",
+    "file_type_input": "Elfogadható fájltípusok",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Egyszerű",
       "selective": "Szelektív",
       "switch": "Kapcsoló",
       "file": "Fájl",
-      "number": "Szám"
+      "number": "Szám",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Helykitöltő",
-    "file_type_input": "Elfogadható fájltípusok",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "termék név",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Fizetési állapot",
     "payment_status_waiting": "fizetésre vár",
     "payment_status_paid": "Fizetett",
-    "buyer": "Vevő"
+    "buyer": "Vevő",
   },
   "virtual_item_info": {
     "title": "Virtuális elem",
     "outputs": {
       "title": "Kimeneti információ",
       "sub_title": "Az elem bizalmas információi",
-      "message": "Ez az információ a termék megvásárlása után jelenik meg a felhasználó számára."
+      "message": "Ez az információ a termék megvásárlása után jelenik meg a felhasználó számára.",
     },
     "inputs": {
       "title": "Információk szükségesek",
       "sub_title": "Vásárlói információ szükséges",
-      "message": "A vevőnek meg kell adnia a kért adatokat az űrlapon"
+      "message": "A vevőnek meg kell adnia a kért adatokat az űrlapon",
     },
     "notifications": {
       "inputs_set_success": "Információs űrlap sikeresen regisztrálva.",
       "confirm_by_admin_success": "Megrendelés teljesítése megerősítve.",
-      "confirm_by_buyer_success": "Megrendelés teljesítése megerősítve."
-    }
+      "confirm_by_buyer_success": "Megrendelés teljesítése megerősítve.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ez a rendelés nem fogadható el utánvéttel.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Nincs raktáron.",
     "legal_restriction": "Törvényi korlátozások miatt nem lehet megrendelni.",
     "pricing_fault": "Árazási hiba az eladó részéről.",
-    "system_fault": "Rendszerhiba."
+    "system_fault": "Rendszerhiba.",
   },
   "basket_order_info_summery": {
     "receiver": "Vevő",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Kedvezmény",
     "final_price": "Végső összeg",
     "address": "Szállítási cím",
-    "payment_status": "Fizetési állapot"
+    "payment_status": "Fizetési állapot",
   },
   "basket_status": {
     "open": "Nyisd ki",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Törölve",
     "cod": "Fizetés utánvéttel",
     "receipt_added": "Nyugta hozzáadva",
-    "payment_processing": "Fizetés feldolgozása"
+    "payment_processing": "Fizetés feldolgozása",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Elutasítva",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Megerősítés",
     "step_3": "Készítmény",
     "step_4": "Kiszállítás alatt",
-    "step_5": "Szállítva"
+    "step_5": "Szállítva",
   },
   "basket_return_request_view": {
     "title": "Visszaküldési kérelem",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Kérelem elutasítása",
     "message_for_admin": "A Selldone használatával elfogadott megállapodás értelmében fel kell vennie a kapcsolatot a vásárlóval, és folyamatosan tájékoztatnia kell a rendelése visszaküldésének folyamatáról. Ezt akkor kell megtenni, ha a kérelmet elfogadják vagy elutasítják, és a vevő teljes hozzájárulását megkapják.",
     "notifications": {
-      "update_status_success": "A kérés állapota frissítve."
-    }
+      "update_status_success": "A kérés állapota frissítve.",
+    },
   },
   "basket_list": {
     "return_count": "Visszaküldés: {count} szám",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Változat",
       "warranty": "Garanciák",
       "count": "Számol",
-      "price": "ár"
-    }
+      "price": "ár",
+    },
   },
   "return_request_list": {
     "count": "Referenciaszám",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Kapott dátum",
       "state": "Állapot",
       "reason": "Ok",
-      "return_warranty_period": "Garanciális időszak"
-    }
+      "return_warranty_period": "Garanciális időszak",
+    },
   },
   "data_toolbar": {
     "search": "Keresés",
     "sort_by": "Rendezés",
-    "count_item": "{item} elem megjelenítése"
+    "count_item": "{item} elem megjelenítése",
   },
   "sort": {
     "created_at": "Dátum létrehozása",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Tiszt",
     "registered": "Bejegyzett",
     "purchased": "Vásárolt",
-    "sex": "Nem"
+    "sex": "Nem",
   },
   "search_box": {
     "result": "Keresési eredmények",
     "tips": "Termékek és kategóriák keresése",
     "label": "Keresés ...",
-    "category": "Kategória"
+    "category": "Kategória",
   },
   "lead_status": {
     "physical_fast_delivery": "Azonnali szállítás",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Előkészítés és beküldés a következő {days} naptól",
     "virtual_fast_prepare": "Azonnali szállítás",
     "virtual_under_24h": "A következő {lead} órán belül megtörténik",
-    "virtual_over_24h": "A következő {days} napon belül megtörténik"
+    "virtual_over_24h": "A következő {days} napon belül megtörténik",
   },
   "return_request_state": {
     "pending": "Függőben levő",
     "accepted": "Megerősített",
-    "rejected": "Elutasítva"
+    "rejected": "Elutasítva",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "A csomag vagy a sorozatszám megváltoztatása",
       "U5": "Néhány elem hiányzik a csomagból",
       "U6": "A termék nem eredeti",
-      "U7": "A termék nem felel meg a specifikációnak"
-    }
+      "U7": "A termék nem felel meg a specifikációnak",
+    },
   },
   "image_uploader": {
     "label": "Drag & Drop vagy <u>Válasszon fájlt</u>",
-    "max_size": "Maximális megengedett méret: {size}"
+    "max_size": "Maximális megengedett méret: {size}",
   },
   "timespan": {
     "Morning": "8-12 óráig",
     "Evening": "12 órától 18 óráig",
     "Night": "18-12 óráig",
-    "Instant": "Azonnali postázás"
+    "Instant": "Azonnali postázás",
   },
   "week_day": {
     "Saturday": "szombat",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "kedd",
     "Wednesday": "szerda",
     "Thursday": "csütörtök",
-    "Friday": "péntek"
+    "Friday": "péntek",
   },
   "payment_form": {
     "title": "Válassza a Fizetési mód lehetőséget",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Gratulálunk, rendelése ingyenes!",
     "order_free_payment_action": "Rendeljen most ingyen",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Fizetési cím",
-      "amount": "Összeg"
-    }
+      "amount": "Összeg",
+    },
   },
   "discount_input": {
     "limit": "{percent}% kedvezmény legfeljebb {limit} {currency} értékig",
     "action": "Adjon hozzá kedvezménykódot",
     "code_input": "Kedvezményes kód",
     "notifications": {
-      "add_success": "Gratulálunk, érvényes kedvezmény kód."
-    }
+      "add_success": "Gratulálunk, érvényes kedvezmény kód.",
+    },
   },
   "gift_card": {
     "inactive": "A kártya le van tiltva",
     "expire": "Lejárat",
     "transfer": "Átruházás",
-    "send_to_friend": "Elküldés barátnak"
+    "send_to_friend": "Elküldés barátnak",
   },
   "count_down": {
     "days": "Nap",
     "hours": "Óra",
     "minutes": "Percek",
-    "seconds": "Másodpercek"
+    "seconds": "Másodpercek",
   },
   "gift_status": {
     "Unpaid": "Átvételre vár",
     "Paid": "Fizetett",
     "Rejected": "Elutasítva",
-    "Canceled": "Törölve"
+    "Canceled": "Törölve",
   },
   "gift_program_status": {
     "Airdrop": "Fizetési rendszer",
     "Advertising": "Hirdető",
     "PersonalGift": "Személyes ajándék",
-    "ShopGift": "Ajándékbolt"
+    "ShopGift": "Ajándékbolt",
   },
   "currency_selector": {
-    "label": "Valuta"
+    "label": "Valuta",
   },
   "need_login": {
     "title": "Belépés",
     "login_sms": "SMS bejelentkezés",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Jelentkezzen be a Google-lal",
     "login_facebook": "Jelentkezz be facebookal",
+    "login_apple": "Jelentkezzen be az Apple-lel",
     "login_account": "Bejelentkezés Selldone által",
     "register": "Új felhasználó? Regisztrálj most.",
     "mobile_input": "Adja meg a mobilját",
     "verification_code": "Ellenőrző kód",
     "msg_title": "Szia,",
     "msg_body": "Kérjük jelentkezzen be. Csak néhány másodpercet vesz igénybe.",
-    "login_apple": "Jelentkezzen be az Apple-lel",
     "login_email": "Bejelentkezés e-mailben",
     "email_login_step_1": "Kérjük, adjon meg egy érvényes e-mail címet, és erre küldjük a belépési kódot. Nincs szükség regisztrációra.",
     "email_login_step_2": "Biztos benne, hogy helyesen adta meg az e-mail címét? A bejelentkezési kódot a megadott e-mail címre küldjük, ezért kérjük, ellenőrizze annak pontosságát.",
-    "email_login_step_3": "Kódot küldtünk az e-mail címére. Felhívjuk figyelmét, hogy a kód 10 percen belül lejár."
+    "email_login_step_3": "Kódot küldtünk az e-mail címére. Felhívjuk figyelmét, hogy a kód 10 percen belül lejár.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 éves aranybolt"
+      "name": "5 éves aranybolt",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 éves aranybolt"
+      "name": "4 éves aranybolt",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 éves aranybolt"
+      "name": "3 éves aranybolt",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 éves aranybolt"
+      "name": "2 éves aranybolt",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 éves aranybolt"
+      "name": "1 éves aranybolt",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Arany befektető"
+      "name": "Arany befektető",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Gyémánt befektető"
+      "name": "Gyémánt befektető",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Rubin befektető"
+      "name": "Rubin befektető",
     },
     "COMMUNITY_LOYAL": {
-      "name": "A kommunikációs hálózatok felsőbb közösségének tagja"
+      "name": "A kommunikációs hálózatok felsőbb közösségének tagja",
     },
     "GOLD_SUPPLIER": {
-      "name": "Aranyszállító"
+      "name": "Aranyszállító",
     },
     "GOLD_SELLER": {
-      "name": "Aranykereskedő"
+      "name": "Aranykereskedő",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Legjobb tartalomgyártó"
+      "name": "Legjobb tartalomgyártó",
     },
     "NINJA": {
-      "name": "Nindzsa"
+      "name": "Nindzsa",
     },
     "STAR": {
-      "name": "Csillag"
+      "name": "Csillag",
     },
     "GUARDIAN": {
-      "name": "Nagyszerű ügyfélszolgálat"
+      "name": "Nagyszerű ügyfélszolgálat",
     },
     "KING": {
-      "name": "A piac királya"
-    }
+      "name": "A piac királya",
+    },
   },
   "cookie": {
     "title": "Ez a weboldal cookie-kat használ",
     "message": "Ez a weboldal cookie-kat használ a felhasználói élmény javítása érdekében. Weboldalunk használatával Ön beleegyezik minden cookie-ba, a cookie-kra vonatkozó szabályzatunknak megfelelően.",
     "preferences_action": "Beállítások kezelése",
-    "agree_action": "Egyetértek"
+    "agree_action": "Egyetértek",
   },
   "basket_item_message": {
     "title": "Ehhez az elemhez szükséges információ",
     "save_actions": "Üzenet mentése",
+    "product_inputs_preview_message": "Ezek a testreszabási lehetőségek állnak rendelkezésre a megrendelt termékéhez. Miután a terméket hozzáadta a kosarához, itt módosíthatja.",
     "notifications": {
-      "success": "A bevitt adatok el lettek mentve."
+      "success": "A bevitt adatok el lettek mentve.",
     },
-    "product_inputs_preview_message": "Ezek a testreszabási lehetőségek állnak rendelkezésre a megrendelt termékéhez. Miután a terméket hozzáadta a kosarához, itt módosíthatja."
   },
   "faq": {
     "faq": "Gyakran Ismételt Kérdések",
     "title": "Kérdések és válaszok",
-    "sub_title": "Amit kértél tőlünk.",
     "message": "Keresse kérdésére a választ az alábbi válaszok között. Tegyen fel minket, ha kérdései megválaszolatlanok maradnak.",
     "add_question_action": "Tegyen fel új kérdést",
     "read_more": "Olvass tovább ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Kérdés",
     "question_input_placeholder": "Tedd fel a kérdésed.",
     "notifications": {
-      "success_add": "Kérdése sikeresen elküldve."
-    }
+      "success_add": "Kérdése sikeresen elküldve.",
+    },
+    "sub_title": "Amit kértél tőlünk.",
   },
   "rating_labels": [
     "Nagyon rossz",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Írja be a cél címét",
     "enter_your_address": "Írja be a címét.",
     "postal_code": "Irányítószám",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Épületszám",
     "building_unit": "Mértékegység",
     "full_name_input": "Teljes név {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Címcímke (kötelező)",
     "notifications": {
       "save_in_list": "Ezt a címet az összes részletével együtt elmentettük a listára.",
-      "edit_success": "Új címértékek mentve a következőbe: {title}."
+      "edit_success": "Új címértékek mentve a következőbe: {title}.",
     },
     "delete_address_dialog": {
       "title": "Cím törlése",
       "message": "Biztosan törli ezt a címet?",
-      "action": "Cím eltávolítása"
-    }
+      "action": "Cím eltávolítása",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ez a megjegyzés nem szerkeszthető!",
     "comment_input_empty": "Az üzenet szövege üres!",
-    "article_not_saved": "Mentse el a cikket!"
+    "article_not_saved": "Mentse el a cikket!",
   },
   "wheel_fortune": {
     "title": "Játssz és nyerj",
     "message": "Minden játék ára 10 zseton. Jelenleg {chips} chipje van. Szerezzen több chipet, ha vásárol a boltban.",
     "win_message": "Gratulálunk, nyertél!",
     "lost_message": "Sajnálom, elvesztetted a játékot.",
-    "try_again": "Megpróbálhatja újra"
+    "try_again": "Megpróbálhatja újra",
   },
   "json": {
     "add": "Szerkezeti adatok hozzáadása",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Struktúrák",
     "book": {
       "title": "Könyv",
-      "desc": "Könyvműveletek, amelyek lehetővé teszik a felhasználók számára, hogy megvásárolják a könyvet, amelyet közvetlenül a keresési eredmények közül találnak."
+      "desc": "Könyvműveletek, amelyek lehetővé teszik a felhasználók számára, hogy megvásárolják a könyvet, amelyet közvetlenül a keresési eredmények közül találnak.",
     },
     "occupation": {
       "title": "Becsült fizetés",
-      "desc": "A fizetésbecsléssel kapcsolatos információk, például a fizetési tartományok és a régiónkénti bérátlagok állástípusokhoz, amelyek a Google álláskeresési élményében jelennek meg."
+      "desc": "A fizetésbecsléssel kapcsolatos információk, például a fizetési tartományok és a régiónkénti bérátlagok állástípusokhoz, amelyek a Google álláskeresési élményében jelennek meg.",
     },
     "course": {
       "title": "Tanfolyam",
-      "desc": "Oktatási kurzusok, amelyek egy szolgáltató-specifikus listában jelennek meg. A kurzusok tartalmazhatják a kurzus címét, szolgáltatóját és rövid leírását."
+      "desc": "Oktatási kurzusok, amelyek egy szolgáltató-specifikus listában jelennek meg. A kurzusok tartalmazhatják a kurzus címét, szolgáltatóját és rövid leírását.",
     },
     "howto": {
       "title": "Hogyan kell",
-      "desc": "Az útmutató végigvezeti a felhasználókat a feladatok sikeres végrehajtásához szükséges lépéseken, videókat, képeket és szöveget tartalmaz."
+      "desc": "Az útmutató végigvezeti a felhasználókat a feladatok sikeres végrehajtásához szükséges lépéseken, videókat, képeket és szöveget tartalmaz.",
     },
     "recipe": {
       "title": "Recept",
-      "desc": "Receptek, amelyek egyéni bővített eredményként vagy egy gazdagép-körhinta részeként jelennek meg."
-    }
+      "desc": "Receptek, amelyek egyéni bővített eredményként vagy egy gazdagép-körhinta részeként jelennek meg.",
+    },
   },
   "support": {
     "Financial": "Pénzügyi",
     "Technical": "Műszaki",
-    "Advisor": "Tanácsadó"
+    "Advisor": "Tanácsadó",
   },
   "condition": {
     "new": "Új",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Használt",
     "used_fair": "Használt korrekt",
     "used_good": "Használt jó",
-    "used_like_new": "Használt - mintha új lenne"
+    "used_like_new": "Használt - mintha új lenne",
   },
   "variant_filter": {
     "title": "Termékváltozat-szűrő",
-    "only_available": "Raktáron"
+    "only_available": "Raktáron",
   },
   "service": {
     "task": {
       "title": "Feladatok",
-      "message": "A szolgáltatásban elvégzett feladatok listája."
+      "message": "A szolgáltatásban elvégzett feladatok listája.",
     },
     "appointment": {
       "title": "Időpont egyeztetés",
-      "message": "Válassza ki a hét időpontját a következő időpontok közül az Ön számára megfelelő nap és óra alapján."
+      "message": "Válassza ki a hét időpontját a következő időpontok közül az Ön számára megfelelő nap és óra alapján.",
     },
     "booking": {
       "title": "Foglalás",
-      "message": "Az alábbi naptárban adja meg a foglalni kívánt napok időszakát."
+      "message": "Az alábbi naptárban adja meg a foglalni kívánt napok időszakát.",
     },
     "subscription": {
-      "title": "Feliratkozás"
+      "title": "Feliratkozás",
     },
     "charge": {
-      "title": "Díj"
-    }
+      "title": "Díj",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fix árképzés",
-      "message": "Ennél az árképzésnél a termék ára fix összeg, és nem kell a vevőnek árkalkulációt kérnie."
+      "message": "Ennél az árképzésnél a termék ára fix összeg, és nem kell a vevőnek árkalkulációt kérnie.",
     },
     "ESTIMATION": {
       "title": "Becsült árképzés",
-      "message": "A termékek, szolgáltatások árát bizonyos mértékig az eladó a megrendelés leadásakor számítja ki, a fizetési számlák a szolgáltatás során módosíthatók, illetve kiegészíthetők."
+      "message": "A termékek, szolgáltatások árát bizonyos mértékig az eladó a megrendelés leadásakor számítja ki, a fizetési számlák a szolgáltatás során módosíthatók, illetve kiegészíthetők.",
     },
     "AGREEMENT": {
       "title": "Szerződéses árképzés",
-      "message": "A termékek vagy szolgáltatások végső árát az eladó a megrendelés leadását követően nem módosítja."
+      "message": "A termékek vagy szolgáltatások végső árát az eladó a megrendelés leadását követően nem módosítja.",
     },
     "BID": {
       "title": "Licit / Aukció",
-      "message": "A terméket a legmagasabb ajánlati áron értékesítik a potenciális vásárlók."
-    }
+      "message": "A terméket a legmagasabb ajánlati áron értékesítik a potenciális vásárlók.",
+    },
   },
   "map": {
     "title": "A termékek átvételének rendeltetési helye",
     "confirm": "Állítsa be a helyet",
     "address": "Rendeltetési hely",
-    "receptor": "Vevő"
+    "receptor": "Vevő",
   },
   "ShopBots": {
-    "telegram": "Távirat"
+    "telegram": "Távirat",
   },
   "article_tags": {
     "title": "Tartalomcímkék",
     "tags_input": "Címkék",
     "tags_input_message": "Címkék A cikk listája",
     "notification": {
-      "add_success": "Címkék hozzáadva"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Nagyon bonyolult",
-    "hard": "Kemény",
-    "intermediate": "Közbülső",
-    "easy": "Könnyen"
-  },
-  "billing_period": {
-    "Daily": "Napi",
-    "Weekly": "Heti",
-    "Monthly": "Havi",
-    "Every3Months": "3 havonta",
-    "Every6Months": "6 havonta",
-    "Yearly": "Évi"
+      "add_success": "Címkék hozzáadva",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Jaj nem jó!",
     "between2_3": "Ez rendben van!",
     "between3_4": "Az embereknek tetszik!",
-    "between4_5": "Az emberek szeretik!"
+    "between4_5": "Az emberek szeretik!",
   },
   "seasons": {
     "spring": "Tavaszi",
     "summer": "Nyár",
     "autumn": "Ősz",
-    "winter": "Téli"
-  }
+    "winter": "Téli",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

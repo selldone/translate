@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Jag har läst användarvillkoren och integritetspolicyn och godkänner dem.",
   "commons": {
     "Currency": "Valuta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "stat",
     "Price": "pris",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Nettopris",
     "tax": "Beskatta",
     "tax_included": "Ingår i priset",
+    "tax_included_abstract": "inkl.",
     "limit": "Begränsa",
     "min_purchase": "Minsta köp",
     "eligible_for": "Kvalificerad för",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Skapat Datum",
     "updated_at": "Senaste uppdateringen",
     "register_at": "Registreringsdatum",
+    "last_modified": "Last modified",
     "old": "Gammal",
     "new": "Ny",
     "start": "Start",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Återförsäljare",
     "tracking_code": "Spårningskod",
     "tracking_url": "Spårnings-URL",
+    "fulfillment": "Uppfyllelse",
     "fulfillments": "Uppfyllelser",
     "reject": "Avvisa",
     "reserved": "Reserverad",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Väntar...",
     "waiting_connecting_payment": "Väntar på betaltjänsten...",
     "creating_secure_payment": "Skapa säker betalning.",
+    "waiting_for_payment": "Vänligen slutför betalningen...",
     "officer": "Officer",
     "ticket": "Biljett",
     "ticket_url": "Biljett-url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Betyg",
     "seen_at": "Ses kl",
     "completed": "Avslutad",
-    "you": "Du",
     "shop": "affär",
     "store": "Lagra",
     "granted": "Beviljas",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Läsplatta",
     "pc": "PC",
     "acquisition_channel": "Förvärvskanal",
+    "channels_overview": "Kanalöversikt",
     "to": "Till",
     "info": "Info",
     "general": "Allmän",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per produkt",
     "journey": "Resa",
     "after": "Efter",
-    "waiting_for_payment": "Vänligen slutför betalningen...",
     "hour": "Timme",
     "minute": "Minut",
     "premium": "Premie",
@@ -569,6 +573,7 @@ export default {
     "shops": "Butiker",
     "vendor": "Säljare",
     "vendors": "Säljare",
+    "no_vendors": "Inga försäljare",
     "marketplace": "Marknad",
     "verify_date": "Verifiera datum",
     "note": "Notera",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Säkra",
     "admin": "Administration",
-    "tax_included_abstract": "inkl.",
     "payment_not_settled": "Betalning ej reglerad!",
     "orders_list": "Beställningslista",
     "subscription_plan": "Prenumerationsplan",
@@ -643,9 +647,6 @@ export default {
     "subscriptions": "Prenumerationer",
     "spam": "Spam",
     "video": "Video",
-    "fulfillment": "Uppfyllelse",
-    "channels_overview": "Kanalöversikt",
-    "no_vendors": "Inga försäljare",
     "ends_in": "Slutar i",
     "current": "Nuvarande",
     "important": "Viktig",
@@ -682,6 +683,7 @@ export default {
     "refund": "Återbetalning",
     "items": "Föremål",
     "incentives": "Incitament",
+    "you": "Du",
     "recurring_payment": "Återkommande betalning",
     "pricing": "Prissättning",
     "purchase": "Köp",
@@ -712,16 +714,102 @@ export default {
     "system": "System",
     "unknown": "Okänd",
     "week": "Vecka",
-    "agencies": "Byråer"
+    "agencies": "Byråer",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Väldigt komplicerat",
+    "hard": "Hård",
+    "intermediate": "Mellanliggande",
+    "easy": "Lätt",
   },
   "dialogs": {
     "delete": {
       "title": "Radera",
       "message": "Är du säker på att ta bort det här objektet?",
-      "action": "Ja, radera nu"
-    }
+      "action": "Ja, radera nu",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Lägg till i kundvagn",
     "cancel": "Avbryt",
     "update": "Uppdatering",
@@ -790,7 +878,7 @@ export default {
     "add_giftcard": "Lägg till presentkort",
     "charge": "Avgift",
     "send_invites": "Skicka inbjudningar",
-    "past": "Dåtid",
+    "paste": "Klistra",
     "restore": "Återställ",
     "cut": "Skära",
     "get_sms_code": "Få autentiseringskod",
@@ -819,12 +907,12 @@ export default {
     "show_preview": "Visa förhandsgranskning",
     "hide_preview": "Dölj förhandsvisning",
     "download_now": "Ladda ner nu",
+    "watch_now": "Kolla nu",
     "auto_fill": "Autofyll",
     "track": "Spår",
     "change_state": "Byta status",
     "done": "Gjort",
     "reply": "Svar",
-    "watch_now": "Kolla nu",
     "unlock": "Låsa upp",
     "lock": "Låsa",
     "create_clone": "Skapa klon",
@@ -843,7 +931,6 @@ export default {
     "buy": "köpa",
     "view_all": "Visa alla",
     "view_now": "Visa nu",
-    "paste": "Klistra",
     "edit_address": "Redigera adress",
     "resend": "Skicka igen",
     "deploy_now": "Distribuera nu",
@@ -856,41 +943,59 @@ export default {
     "duplicate": "Duplicera",
     "connect": "Ansluta",
     "connect_now": "Anslut nu",
-    "verify_now": "Verifiera nu"
+    "verify_now": "Verifiera nu",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Dåtid",
+  },
+  "billing_period": {
+    "Daily": "Dagligen",
+    "Weekly": "Varje vecka",
+    "Monthly": "En gång i månaden",
+    "Every3Months": "Var 3:e månad",
+    "Every6Months": "Var 6:e månad",
+    "Yearly": "Årlig",
   },
   "instance_message_title": "Skicka snabbmeddelande",
   "instance_message": "Hej {name}, Jag heter {author} från {company}.",
   "errors": {
     "419": "Du har varit inaktiv under en lång tid, vänligen <b>⟳ UPPDATERA SIDAN</b> av säkerhetsskäl.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Systemet synkroniserar inte med blockkedjan. Det kommer inte att vara möjligt att skapa en ny transaktion förrän våra servrars synkroniseringar är klara. Vi löser problemet.",
-    "gateway_network_error": "Betalningsgatewaytjänsten har stött på ett kommunikationsproblem."
+    "gateway_network_error": "Betalningsgatewaytjänsten har stött på ett kommunikationsproblem.",
   },
   "receiver_info": {
     "map": {
       "title": "Leveransadress",
       "confirm": "Ställ in plats",
       "address_type": "Destination",
-      "receptor_type": "Mottagare"
+      "receptor_type": "Mottagare",
     },
     "receiver_address": "Välj leveransadress",
+    "service_address": "Välj din adress",
+    "select_billing_address": "Select billing address",
     "address": "adress",
     "postcode": "Postnummer",
     "enter_value": "Fyll här",
     "address_note": "Notera",
     "tel": "Kontaktnummer",
-    "service_address": "Välj din adress"
   },
   "weight": {
     "g": "g",
     "oz": "uns",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Uns",
     "lb": "Pund",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "centimeter",
@@ -898,7 +1003,7 @@ export default {
     "ft": "med",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimeter",
@@ -906,17 +1011,21 @@ export default {
     "ft": "Fot",
     "mm": "millimeter",
     "m": "meter",
-    "yd": "Gård"
+    "yd": "Gård",
   },
   "distance": {
     "m": "meter",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "dagar",
     "hours": "Timmar",
     "minutes": "Minuter",
-    "seconds": "Sekunder"
+    "seconds": "Sekunder",
   },
   "units": [
     "Enhet",
@@ -953,14 +1062,14 @@ export default {
   "region_types": {
     "State": "stat",
     "Territory": "Territorium",
-    "Province": "Provins"
+    "Province": "Provins",
   },
   "transaction_status": {
     "RequireAction": "Åtgärd krävs",
     "Processing": "Bearbetning",
     "Canceled": "Inställt",
     "Succeeded": "Lyckades",
-    "RequireCapture": "Kräv fångst"
+    "RequireCapture": "Kräv fångst",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -976,7 +1085,10 @@ export default {
     "birthday": "Välj födelsedag",
     "select_category": "Välj en kategori...",
     "select_a_country": "Välj ett land...",
-    "filter_country": "Filtrera efter land..."
+    "filter_country": "Filtrera efter land...",
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Bekräfta",
@@ -1001,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max {maxCount} tecken",
     "invalid_url": "Ogiltig URL",
     "country_invalid": "Välj destinationsland!",
-    "postal_code_invalid": "Ange giltigt postnummer!"
+    "postal_code_invalid": "Ange giltigt postnummer!",
   },
   "colors": {
     "#D32F2F": "Röd",
@@ -1083,7 +1195,7 @@ export default {
     "building_unit": "Enhet",
     "postcode": "Postnummer",
     "note": "Notera",
-    "county": "Grevskap"
+    "county": "Grevskap",
   },
   "product_types": {
     "physical": "Fysisk",
@@ -1095,13 +1207,13 @@ export default {
     "service": "Service",
     "service_description": "Tjänster som: reparation, transport, undervisning.",
     "subscription": "Prenumeration",
-    "subscription_description": "Prenumerationer och fakturering för produkter, tjänster eller innehåll."
+    "subscription_description": "Prenumerationer och fakturering för produkter, tjänster eller innehåll.",
   },
   "license": {
     "free": "Fri",
     "startup": "Börja",
     "company": "Företag",
-    "enterprise": "Företag"
+    "enterprise": "Företag",
   },
   "currency": {
     "IRR": "IRR",
@@ -1167,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1247,12 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
     "SYP": "SYP",
     "KWD": "KWD",
-    "BTN": "BTN"
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Färg",
@@ -1260,14 +1372,14 @@ export default {
     "count_in_pack": "Räkna i förpackning",
     "weight": "Vikt",
     "type": "Material",
-    "style": "Stil"
+    "style": "Stil",
   },
   "delivery_state": {
     "check_queue": "Väntar på granskning",
     "order_confirm": "Orderbekräftelse",
     "preparing_order": "Förbereder",
     "sent_order": "På beställning",
-    "to_customer": "Levereras"
+    "to_customer": "Levereras",
   },
   "status": {
     "unpaid": "Obetald",
@@ -1290,12 +1402,12 @@ export default {
     "reject": "Avvisa",
     "pending": "I väntan på",
     "rejected": "avvisade",
-    "accepted": "Accepterad"
+    "accepted": "Accepterad",
   },
   "dimensions": {
     "cm": "centimeter",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motorcykel",
@@ -1317,7 +1429,7 @@ export default {
     "global": "Globala transporter",
     "global_description": "Frakt utomlands med flyg, sjö eller land.",
     "pickup": "Plocka upp",
-    "pickup_description": "Kunder hämtar varorna i din fysiska butik eller lager."
+    "pickup_description": "Kunder hämtar varorna i din fysiska butik eller lager.",
   },
   "article": {
     "login_to_see_error": "Logga in för att komma åt artikeln",
@@ -1326,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Redigeringsläge",
       "view_mode": "Visningsläge",
-      "delete": "Ta bort artikel"
+      "delete": "Ta bort artikel",
     },
     "schedule_action": "Vill du schemalägga publicering?",
     "schedule_title": "Schemalägg automatisk publicering",
@@ -1369,7 +1481,7 @@ export default {
       "report_and_delete_title": "Rapportera missbruk och ta bort innehåll",
       "report_title": "Rapportera detta innehåll som kränkande",
       "message": "Vad är anledningen till att skicka in detta innehåll? Välj ett av följande alternativ.",
-      "accept_and_delete_action": "Bekräfta och ta bort innehåll"
+      "accept_and_delete_action": "Bekräfta och ta bort innehåll",
     },
     "schedule_dialog": {
       "title": "Schema för innehållssläpp",
@@ -1378,7 +1490,7 @@ export default {
       "view_action": "Se artikel",
       "no_article": "Ingen planerad artikel!",
       "current_article": "Aktuell artikel",
-      "article_for_product": "Artikel för produkt"
+      "article_for_product": "Artikel för produkt",
     },
     "notifications": {
       "update_success_title": "Skicka information",
@@ -1388,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Rapportera och ta bort",
       "report_and_delete_success_message": "Artikeln har raderats.",
       "report_success_title": "Rapportera artikel",
-      "report_success_message": "Din rapport om den här artikeln har publicerats."
+      "report_success_message": "Din rapport om den här artikeln har publicerats.",
     },
     "alert": {
       "delete_article": {
         "title": "Ta bort artikel",
         "message": "Är du säker på att du vill ta bort den här artikeln permanent?",
-        "action": "Radera"
-      }
+        "action": "Radera",
+      },
     },
     "edit_window": {
       "title": "Välj Bildtext och Sammanfattning",
-      "digest": "Sammanfattning"
+      "digest": "Sammanfattning",
     },
     "editor": {
       "title_placeholder": "Titel..",
@@ -1408,12 +1520,12 @@ export default {
       "max_file_size_error": "Den här filen är för stor:",
       "notifications": {
         "image_uploaded_success": "Bilden har sparats",
-        "image_uploaded_failed": "Det gick inte att läsa in bilden."
+        "image_uploaded_failed": "Det gick inte att läsa in bilden.",
       },
       "embed_placeholder": "Ange iframe-koden, Facebook, Youtube eller någon annan URL och tryck på enter.",
       "embed_caption_placeholder": "Ange en titel (valfritt)",
-      "images_caption_placeholder": "Ange en titel för denna bild .."
-    }
+      "images_caption_placeholder": "Ange en titel för denna bild ..",
+    },
   },
   "article_report": {
     "inappropriate": "Innehållet i denna artikel är olämpligt.",
@@ -1425,7 +1537,7 @@ export default {
     "violent": "Jag tror att detta innehåll innehåller pornografi och strider mot lagarna.",
     "harassment": "Jag tycker att detta är rasistiskt.",
     "hate": "Jag tror att det här handlar om att främja våld.",
-    "infringe": "Detta kränker mina rättigheter."
+    "infringe": "Detta kränker mina rättigheter.",
   },
   "comments": {
     "new_action": "Klicka för att lämna en kommentar..",
@@ -1438,27 +1550,27 @@ export default {
     "load_more_action": "Få fler kommentarer..",
     "cant_send_comment": "Du kan inte lägga till ett nytt inlägg.",
     "cant_remove_this_comment": "Du kan inte ta bort den här kommentaren!",
-    "product_buyer": "Köpare",
+    "verified_buyer": "Verifierad köpare",
+    "my_comments": "Mina kommentarer",
     "delete_alert": {
       "title": "Ta bort kommentar",
       "message": "Vill du ta bort den här kommentaren?",
-      "action": "Radera"
+      "action": "Radera",
     },
     "notifications": {
-      "delete_success": "Din kommentar har raderats."
+      "delete_success": "Din kommentar har raderats.",
     },
     "first_send": "Första inlägg",
     "comment_at": "På",
     "edit_comment": "Redigera kommentar",
-    "my_comments": "Mina kommentarer",
-    "verified_buyer": "Verifierad köpare"
+    "product_buyer": "Köpare",
   },
   "customer_club": {
     "bronze": "Brons",
     "silver": "Silver",
     "gold": "gyllene",
     "platinum": "Platina",
-    "diamond": "Diamant"
+    "diamond": "Diamant",
   },
   "application_categories": {
     "tracking": "Kontrollera användarens beteende",
@@ -1473,7 +1585,7 @@ export default {
     "advertising": "Reklam",
     "staff": "Personal",
     "incentive": "Incitament",
-    "shop": "affär"
+    "shop": "affär",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1488,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Lägg till nytt föremål",
     "title_input": "Titel",
+    "placeholder_input": "Platshållare",
     "name_input": "Variabelnamn",
     "value_input": "Värderingar",
     "value_input_message": "Lista över användaralternativ",
     "default": "Standardvärde",
+    "file_type_input": "Godkända filtyper",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Enkel",
       "selective": "Selektiv",
       "switch": "Växla",
       "file": "Fil",
-      "number": "siffra"
+      "number": "siffra",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Platshållare",
-    "file_type_input": "Godkända filtyper",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "produktnamn",
@@ -1517,25 +1630,25 @@ export default {
     "payment_status": "Betalningsstatus",
     "payment_status_waiting": "Väntar på utbetalning",
     "payment_status_paid": "Betalt",
-    "buyer": "Köpare"
+    "buyer": "Köpare",
   },
   "virtual_item_info": {
     "title": "Virtuella föremål",
     "outputs": {
       "title": "Utdatainformation",
       "sub_title": "Konfidentiell information om detta föremål",
-      "message": "Denna information kommer att visas för användaren efter att ha köpt produkten."
+      "message": "Denna information kommer att visas för användaren efter att ha köpt produkten.",
     },
     "inputs": {
       "title": "Information krävs",
       "sub_title": "Köparinformation krävs",
-      "message": "Köparen ska ange de begärda uppgifterna i formuläret"
+      "message": "Köparen ska ange de begärda uppgifterna i formuläret",
     },
     "notifications": {
       "inputs_set_success": "Informationsformuläret har registrerats framgångsrikt.",
       "confirm_by_admin_success": "Beställningsslutförande bekräftat.",
-      "confirm_by_buyer_success": "Beställningsslutförande bekräftat."
-    }
+      "confirm_by_buyer_success": "Beställningsslutförande bekräftat.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Denna beställning kan inte accepteras av postförskottsbetalningen.",
@@ -1547,7 +1660,7 @@ export default {
     "lack_of_inventory": "Slut i lager.",
     "legal_restriction": "Det går inte att göra en beställning på grund av juridiska begränsningar.",
     "pricing_fault": "Prisfel av säljaren.",
-    "system_fault": "Systembugg."
+    "system_fault": "Systembugg.",
   },
   "basket_order_info_summery": {
     "receiver": "Mottagare",
@@ -1557,7 +1670,7 @@ export default {
     "discount": "Rabatt",
     "final_price": "Slutligt belopp",
     "address": "Leveransadress",
-    "payment_status": "Betalningsstatus"
+    "payment_status": "Betalningsstatus",
   },
   "basket_status": {
     "open": "Öppen",
@@ -1567,7 +1680,7 @@ export default {
     "cod": "Betala vid leverans",
     "receipt_added": "Kvitto tillagt",
     "payment_processing": "Betalningen behandlas",
-    "payment_require_capture": "Kräv fångst"
+    "payment_require_capture": "Kräv fångst",
   },
   "basket_delivery_state": {
     "rejected": "avvisade",
@@ -1576,7 +1689,7 @@ export default {
     "step_2": "Bekräftelse",
     "step_3": "Förberedelse",
     "step_4": "På beställning",
-    "step_5": "Levereras"
+    "step_5": "Levereras",
   },
   "basket_return_request_view": {
     "title": "Returförfrågan",
@@ -1594,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Avvisa begäran",
     "message_for_admin": "Enligt avtalet som du har accepterat genom att använda Selldonet måste du kontakta köparen och hålla honom/henne informerad om processen för att returnera hans/hennes beställning. Detta måste göras om begäran accepteras eller avslås och köparens fulla samtycke erhålls.",
     "notifications": {
-      "update_status_success": "Begärans status uppdaterad."
-    }
+      "update_status_success": "Begärans status uppdaterad.",
+    },
   },
   "basket_list": {
     "return_count": "Retur: {count} nummer",
@@ -1606,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "garantier",
       "count": "Räkna",
-      "price": "pris"
-    }
+      "price": "pris",
+    },
   },
   "return_request_list": {
     "count": "Referensnummer",
@@ -1619,13 +1732,13 @@ export default {
       "delivery_at": "Mottaget datum",
       "state": "Status",
       "reason": "Anledning",
-      "return_warranty_period": "Garantiperiod"
-    }
+      "return_warranty_period": "Garantiperiod",
+    },
   },
   "data_toolbar": {
     "search": "Sök",
     "sort_by": "Sortera efter",
-    "count_item": "Visa {item} objekt"
+    "count_item": "Visa {item} objekt",
   },
   "sort": {
     "created_at": "Skapa datum",
@@ -1700,13 +1813,13 @@ export default {
     "officer": "Officer",
     "registered": "Registrerad",
     "purchased": "Köpt",
-    "sex": "Kön"
+    "sex": "Kön",
   },
   "search_box": {
     "result": "Sökresultat",
     "tips": "Sök efter produkter och kategorier",
     "label": "Sök ...",
-    "category": "Kategori"
+    "category": "Kategori",
   },
   "lead_status": {
     "physical_fast_delivery": "Omedelbar leverans",
@@ -1714,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Förbereder och skickar från nästa {days} dagar",
     "virtual_fast_prepare": "Omedelbar leverans",
     "virtual_under_24h": "Kommer att göras inom de närmaste {lead} timmarna",
-    "virtual_over_24h": "Kommer att göras från de kommande {days} dagarna"
+    "virtual_over_24h": "Kommer att göras från de kommande {days} dagarna",
   },
   "return_request_state": {
     "pending": "I väntan på",
     "accepted": "Bekräftad",
-    "rejected": "avvisade"
+    "rejected": "avvisade",
   },
   "return_order_reason": {
     "physical": {
@@ -1729,18 +1842,18 @@ export default {
       "U4": "Paket eller serienummer manipulation",
       "U5": "Vissa föremål från paketet saknas",
       "U6": "Produkten är inte original",
-      "U7": "Produkten uppfyller inte specifikationerna"
-    }
+      "U7": "Produkten uppfyller inte specifikationerna",
+    },
   },
   "image_uploader": {
     "label": "Dra och släpp eller <u>Välj fil</u>",
-    "max_size": "Högsta tillåtna storlek: {size}"
+    "max_size": "Högsta tillåtna storlek: {size}",
   },
   "timespan": {
     "Morning": "8-12",
     "Evening": "12.00 till 18.00",
     "Night": "18.00-12.00",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "lördag",
@@ -1749,7 +1862,7 @@ export default {
     "Tuesday": "tisdag",
     "Wednesday": "onsdag",
     "Thursday": "torsdag",
-    "Friday": "fredag"
+    "Friday": "fredag",
   },
   "payment_form": {
     "title": "Välj betalningsmetod",
@@ -1765,130 +1878,131 @@ export default {
     "order_free_payment": "Grattis, din beställning är gratis!",
     "order_free_payment_action": "Beställ gratis nu",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Betalningsadress",
-      "amount": "Belopp"
-    }
+      "amount": "Belopp",
+    },
   },
   "discount_input": {
     "limit": "{percent} % rabatt upp till {limit} {currency}",
     "action": "Lägg till rabattkod",
     "code_input": "Rabattkod",
     "notifications": {
-      "add_success": "Grattis, giltig rabattkod."
-    }
+      "add_success": "Grattis, giltig rabattkod.",
+    },
   },
   "gift_card": {
     "inactive": "Kortet är inaktiverat",
     "expire": "Upphörande",
     "transfer": "Överföra",
-    "send_to_friend": "Skicka till en vän"
+    "send_to_friend": "Skicka till en vän",
   },
   "count_down": {
     "days": "Dag",
     "hours": "Timme",
     "minutes": "Minuter",
-    "seconds": "Sekunder"
+    "seconds": "Sekunder",
   },
   "gift_status": {
     "Unpaid": "Väntar på kvitto",
     "Paid": "Betalt",
     "Rejected": "avvisade",
-    "Canceled": "Inställt"
+    "Canceled": "Inställt",
   },
   "gift_program_status": {
     "Airdrop": "Betalningssystem",
     "Advertising": "Reklam",
     "PersonalGift": "Personlig gåva",
-    "ShopGift": "Presentaffär"
+    "ShopGift": "Presentaffär",
   },
   "currency_selector": {
-    "label": "Valuta"
+    "label": "Valuta",
   },
   "need_login": {
     "title": "Logga in",
     "login_sms": "SMS-inloggning",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Logga in med Google",
     "login_facebook": "Logga in med Facebook",
+    "login_apple": "Logga in med Apple",
     "login_account": "Logga in av Selldone",
     "register": "Ny användare? Registrera nu.",
     "mobile_input": "Ange din mobil",
     "verification_code": "Verifierings kod",
     "msg_title": "Hej,",
     "msg_body": "Vänligen logga in. Det tar bara några sekunder.",
-    "login_apple": "Logga in med Apple",
     "login_email": "Logga in via e-post",
     "email_login_step_1": "Ange en giltig e-postadress så skickar vi inloggningskoden till den. Ingen registrering behövs.",
     "email_login_step_2": "Är du säker på att du har angett din e-postadress korrekt? Vi kommer att skicka inloggningskoden till den angivna e-postadressen, så se till att den är korrekt.",
-    "email_login_step_3": "Vi har skickat en kod till din e-post. Observera att koden upphör att gälla om 10 minuter."
+    "email_login_step_3": "Vi har skickat en kod till din e-post. Observera att koden upphör att gälla om 10 minuter.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 års guldbutik"
+      "name": "5 års guldbutik",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 års guldbutik"
+      "name": "4 års guldbutik",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 års guldbutik"
+      "name": "3 års guldbutik",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 års guldbutik"
+      "name": "2 års guldbutik",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 års guldbutik"
+      "name": "1 års guldbutik",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Gyllene investerare"
+      "name": "Gyllene investerare",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamantinvesterare"
+      "name": "Diamantinvesterare",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Medlem av Superior Community of Communication Networks"
+      "name": "Medlem av Superior Community of Communication Networks",
     },
     "GOLD_SUPPLIER": {
-      "name": "Guldleverantör"
+      "name": "Guldleverantör",
     },
     "GOLD_SELLER": {
-      "name": "Guldhandlare"
+      "name": "Guldhandlare",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Bästa innehållsproducent"
+      "name": "Bästa innehållsproducent",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Stjärna"
+      "name": "Stjärna",
     },
     "GUARDIAN": {
-      "name": "Bra kundservice"
+      "name": "Bra kundservice",
     },
     "KING": {
-      "name": "Kung av marknaden"
-    }
+      "name": "Kung av marknaden",
+    },
   },
   "cookie": {
     "title": "Denna webbplats använder cookies",
     "message": "Denna webbplats använder cookies för att förbättra användarupplevelsen. Genom att använda vår webbplats samtycker du till alla cookies i enlighet med vår Cookie Policy.",
     "preferences_action": "Hantera inställningar",
-    "agree_action": "Jag håller med"
+    "agree_action": "Jag håller med",
   },
   "basket_item_message": {
     "title": "Obligatorisk information för denna artikel",
     "save_actions": "Spara meddelande",
+    "product_inputs_preview_message": "Dessa anpassningsalternativ är tillgängliga för din beställda produkt. När varan har lagts till i din varukorg kommer du att kunna göra justeringar här.",
     "notifications": {
-      "success": "Dina indata har sparats."
+      "success": "Dina indata har sparats.",
     },
-    "product_inputs_preview_message": "Dessa anpassningsalternativ är tillgängliga för din beställda produkt. När varan har lagts till i din varukorg kommer du att kunna göra justeringar här."
   },
   "faq": {
     "faq": "Vanliga frågor",
     "title": "Frågor och svar",
-    "sub_title": "Det du bad oss göra.",
     "message": "Leta efter svaret på din fråga bland svaren nedan. Fråga oss om frågorna är obesvarade.",
     "add_question_action": "Ställ ny fråga",
     "read_more": "Läs mer ..",
@@ -1899,8 +2013,9 @@ export default {
     "question_input": "Fråga",
     "question_input_placeholder": "Ställ din fråga.",
     "notifications": {
-      "success_add": "Din fråga har skickats."
-    }
+      "success_add": "Din fråga har skickats.",
+    },
+    "sub_title": "Det du bad oss göra.",
   },
   "rating_labels": [
     "Väldigt dåligt",
@@ -1917,7 +2032,7 @@ export default {
     "enter_address_hint": "Ange destinationsadress",
     "enter_your_address": "Ange din adress.",
     "postal_code": "Postnummer",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Husnummer",
     "building_unit": "Enhet",
     "full_name_input": "Fullständigt namn {type}",
@@ -1927,25 +2042,25 @@ export default {
     "address_title_input": "Adressetikett (Kräver)",
     "notifications": {
       "save_in_list": "Den här adressen har sparats i din lista med alla dess detaljer.",
-      "edit_success": "Nya adressvärden sparade i {title}."
+      "edit_success": "Nya adressvärden sparade i {title}.",
     },
     "delete_address_dialog": {
       "title": "Ta bort adress",
       "message": "Är du säker på att du vill ta bort den här adressen?",
-      "action": "Ta bort adress"
-    }
+      "action": "Ta bort adress",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Det går inte att redigera den här kommentaren!",
     "comment_input_empty": "Meddelandetexten är tom!",
-    "article_not_saved": "Spara artikeln!"
+    "article_not_saved": "Spara artikeln!",
   },
   "wheel_fortune": {
     "title": "Spela & Vinn",
     "message": "Kostnaden för varje spel är 10 marker. Du har för närvarande {chips} chip. Få mer chip genom att köpa från butiken.",
     "win_message": "Grattis, du vinner!",
     "lost_message": "Förlåt, du förlorade spelet.",
-    "try_again": "Du kan försöka igen"
+    "try_again": "Du kan försöka igen",
   },
   "json": {
     "add": "Lägg till strukturdata",
@@ -1953,29 +2068,29 @@ export default {
     "structures": "Strukturer",
     "book": {
       "title": "bok",
-      "desc": "Bokåtgärder som gör det möjligt för användare att köpa boken som de hittar direkt från sökresultat."
+      "desc": "Bokåtgärder som gör det möjligt för användare att köpa boken som de hittar direkt från sökresultat.",
     },
     "occupation": {
       "title": "Beräknad lön",
-      "desc": "Information om löneuppskattning, såsom löneintervall och regionbaserade lönemedelvärden för jobbtyper, visas i jobbsökningsupplevelsen på Google."
+      "desc": "Information om löneuppskattning, såsom löneintervall och regionbaserade lönemedelvärden för jobbtyper, visas i jobbsökningsupplevelsen på Google.",
     },
     "course": {
       "title": "Kurs",
-      "desc": "Utbildningskurser som visas i en leverantörsspecifik lista. Kurser kan innehålla kursens titel, leverantör och en kort beskrivning."
+      "desc": "Utbildningskurser som visas i en leverantörsspecifik lista. Kurser kan innehålla kursens titel, leverantör och en kort beskrivning.",
     },
     "howto": {
       "title": "Hur",
-      "desc": "En How-to leder användarna genom en uppsättning steg för att framgångsrikt slutföra en uppgift, med video, bilder och text."
+      "desc": "En How-to leder användarna genom en uppsättning steg för att framgångsrikt slutföra en uppgift, med video, bilder och text.",
     },
     "recipe": {
       "title": "Recept",
-      "desc": "Recept som visas som ett individuellt rikt resultat eller en del av en värdkarusell."
-    }
+      "desc": "Recept som visas som ett individuellt rikt resultat eller en del av en värdkarusell.",
+    },
   },
   "support": {
     "Financial": "Finansiell",
     "Technical": "Teknisk",
-    "Advisor": "Rådgivare"
+    "Advisor": "Rådgivare",
   },
   "condition": {
     "new": "Ny",
@@ -1983,139 +2098,152 @@ export default {
     "used": "Begagnade",
     "used_fair": "Använd rättvist",
     "used_good": "Använd bra",
-    "used_like_new": "Använd - Som ny"
+    "used_like_new": "Använd - Som ny",
   },
   "variant_filter": {
     "title": "Produktvariantfilter",
-    "only_available": "I lager"
+    "only_available": "I lager",
   },
   "service": {
     "task": {
       "title": "Uppgifter",
-      "message": "Lista över uppgifter som utförs i denna tjänst."
+      "message": "Lista över uppgifter som utförs i denna tjänst.",
     },
     "appointment": {
       "title": "Utnämning",
-      "message": "Välj tider i veckan från följande tider baserat på den dag och timme som är rätt för dig."
+      "message": "Välj tider i veckan från följande tider baserat på den dag och timme som är rätt för dig.",
     },
     "booking": {
       "title": "Bokning",
-      "message": "Ange tidsperioden för de dagar du vill göra en bokning i kalendern nedan."
+      "message": "Ange tidsperioden för de dagar du vill göra en bokning i kalendern nedan.",
     },
     "subscription": {
-      "title": "Prenumeration"
+      "title": "Prenumeration",
     },
     "charge": {
-      "title": "Avgift"
-    }
+      "title": "Avgift",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fast prissättning",
-      "message": "I denna typ av prissättning är priset på produkten ett fast belopp och det finns ingen anledning för köparen att begära en priskalkyl."
+      "message": "I denna typ av prissättning är priset på produkten ett fast belopp och det finns ingen anledning för köparen att begära en priskalkyl.",
     },
     "ESTIMATION": {
       "title": "Uppskattad prissättning",
-      "message": "Priset på produkter och tjänster kommer till viss del att beräknas av säljaren vid beställning, betalningsfakturor kan ändras eller läggas till under tjänsten."
+      "message": "Priset på produkter och tjänster kommer till viss del att beräknas av säljaren vid beställning, betalningsfakturor kan ändras eller läggas till under tjänsten.",
     },
     "AGREEMENT": {
       "title": "Avtalsprissättning",
-      "message": "Det slutliga priset på produkterna eller tjänsterna kommer inte att ändras av säljaren efter att beställningen har lagts."
+      "message": "Det slutliga priset på produkterna eller tjänsterna kommer inte att ändras av säljaren efter att beställningen har lagts.",
     },
     "BID": {
       "title": "Bud / Auktion",
-      "message": "Produkten kommer att säljas till det högsta budpriset av potentiella köpare."
-    }
+      "message": "Produkten kommer att säljas till det högsta budpriset av potentiella köpare.",
+    },
   },
   "map": {
     "title": "Destination för att ta emot produkter",
     "confirm": "Ställ in plats",
     "address": "Destination",
-    "receptor": "Mottagare"
+    "receptor": "Mottagare",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Innehållstaggar",
     "tags_input": "Taggar",
     "tags_input_message": "Taggar Lista över denna artikel",
     "notification": {
-      "add_success": "Taggar har lagts till"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Väldigt komplicerat",
-    "hard": "Hård",
-    "intermediate": "Mellanliggande",
-    "easy": "Lätt"
-  },
-  "billing_period": {
-    "Daily": "Dagligen",
-    "Weekly": "Varje vecka",
-    "Monthly": "En gång i månaden",
-    "Every3Months": "Var 3:e månad",
-    "Every6Months": "Var 6:e månad",
-    "Yearly": "Årlig"
+      "add_success": "Taggar har lagts till",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och inte bra!",
     "between2_3": "Det är ok!",
     "between3_4": "Folk gillar det!",
-    "between4_5": "Folk älskar det!"
+    "between4_5": "Folk älskar det!",
   },
   "seasons": {
     "spring": "Vår",
     "summer": "Sommar",
     "autumn": "Höst",
-    "winter": "Vinter"
+    "winter": "Vinter",
   },
   "order_chat": {
     "seller": {
       "history": {
-        "subtitle": "Se meddelandehistoriken mellan dig och kunden."
+        "subtitle": "Se meddelandehistoriken mellan dig och kunden.",
       },
       "new_message": {
-        "subtitle": "Du kan skicka meddelanden direkt till kunder här. När du skickar ett meddelande får kunden ett e-postmeddelande efter 20 minuter. Detta meddelande kommer endast att skickas en gång var 24:e timme."
-      }
+        "subtitle": "Du kan skicka meddelanden direkt till kunder här. När du skickar ett meddelande får kunden ett e-postmeddelande efter 20 minuter. Detta meddelande kommer endast att skickas en gång var 24:e timme.",
+      },
     },
     "customer": {
       "history": {
-        "subtitle": "Se meddelandehistoriken mellan dig och säljaren."
+        "subtitle": "Se meddelandehistoriken mellan dig och säljaren.",
       },
       "new_message": {
-        "subtitle": "Du kan skicka meddelanden direkt till oss här."
-      }
-    }
+        "subtitle": "Du kan skicka meddelanden direkt till oss här.",
+      },
+    },
   },
   "ServiceTypes": {
     "DEMAND": {
       "title": "På begäran",
-      "desc": "som hemreparationer, lackering, bilreparationer m.m."
+      "desc": "som hemreparationer, lackering, bilreparationer m.m.",
     },
     "BOOKING": {
       "title": "Bokning",
-      "desc": "Som att boka hotellrum eller villa."
+      "desc": "Som att boka hotellrum eller villa.",
     },
     "APPOINTMENT": {
       "title": "Utnämning",
-      "desc": "Som ett möte med djurvård eller personlig träning."
+      "desc": "Som ett möte med djurvård eller personlig träning.",
     },
     "RENTAL": {
       "title": "Uthyrning",
-      "desc": "Som att hyra en plats eller en bil."
+      "desc": "Som att hyra en plats eller en bil.",
     },
     "SUBSCRIPTION": {
       "title": "Prenumeration",
-      "desc": "Som klubbmedlemskap eller onlinecoaching."
+      "desc": "Som klubbmedlemskap eller onlinecoaching.",
     },
     "CHARGE": {
       "title": "Avgift",
-      "desc": "Som att ladda ett konto eller ta betalt för att använda en applikation."
+      "desc": "Som att ladda ett konto eller ta betalt för att använda en applikation.",
     },
     "CUSTOM": {
       "title": "Beställnings",
-      "desc": "Välj det här alternativet om tjänsten du tillhandahåller inte är någon av ovanstående."
-    }
-  }
+      "desc": "Välj det här alternativet om tjänsten du tillhandahåller inte är någon av ovanstående.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

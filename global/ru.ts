@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Я прочитал условия использования и политику конфиденциальности и согласен с ними.",
   "commons": {
     "Currency": "Валюта",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Состояние",
     "Price": "цена",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Цена нетто",
     "tax": "налог",
     "tax_included": "Включено в цену",
+    "tax_included_abstract": "вкл.",
     "limit": "Ограничение",
     "min_purchase": "Минимальная покупка",
     "eligible_for": "Право на",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Дата создания",
     "updated_at": "Последнее обновление",
     "register_at": "Дата регистрации",
+    "last_modified": "Last modified",
     "old": "Старый",
     "new": "Новый",
     "start": "Начинать",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Реселлер",
     "tracking_code": "Код отслеживания",
     "tracking_url": "URL отслеживания",
+    "fulfillment": "Исполнение",
     "fulfillments": "Исполнения",
     "reject": "Отклонять",
     "reserved": "Зарезервированный",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Ожидающий...",
     "waiting_connecting_payment": "Ожидание платежного сервиса...",
     "creating_secure_payment": "Создание защищенного платежа.",
+    "waiting_for_payment": "Пожалуйста, завершите оплату...",
     "officer": "Офицер",
     "ticket": "Билет",
     "ticket_url": "URL билета",
@@ -361,7 +366,6 @@ export default {
     "rates": "Рейтинг",
     "seen_at": "Видел в",
     "completed": "Завершенный",
-    "you": "Ты",
     "shop": "Магазин",
     "store": "хранить",
     "granted": "Предоставляется",
@@ -498,6 +502,7 @@ export default {
     "tablet": "планшет",
     "pc": "PC",
     "acquisition_channel": "Канал приобретения",
+    "channels_overview": "Обзор каналов",
     "to": "К",
     "info": "Информация",
     "general": "Общий",
@@ -559,7 +564,6 @@ export default {
     "per_product": "За продукт",
     "journey": "Путешествие",
     "after": "После",
-    "waiting_for_payment": "Пожалуйста, завершите оплату...",
     "hour": "Час",
     "minute": "Минута",
     "premium": "Премиум",
@@ -569,6 +573,7 @@ export default {
     "shops": "магазины",
     "vendor": "Продавец",
     "vendors": "Продавцы",
+    "no_vendors": "Нет поставщиков",
     "marketplace": "Торговая площадка",
     "verify_date": "Подтвердить дату",
     "note": "Примечание",
@@ -604,7 +609,6 @@ export default {
     "variant": "Вариант",
     "secure": "Безопасный",
     "admin": "Администратор",
-    "tax_included_abstract": "вкл.",
     "payment_not_settled": "Оплата не произведена!",
     "orders_list": "Список заказов",
     "subscription_plan": "План подписки",
@@ -643,9 +647,6 @@ export default {
     "subscriptions": "Подписки",
     "spam": "Спам",
     "video": "видео",
-    "fulfillment": "Исполнение",
-    "channels_overview": "Обзор каналов",
-    "no_vendors": "Нет поставщиков",
     "ends_in": "Заканчивается в",
     "current": "Текущий",
     "important": "Важный",
@@ -682,6 +683,7 @@ export default {
     "refund": "Возвращать деньги",
     "items": "Предметы",
     "incentives": "Стимулы",
+    "you": "Ты",
     "recurring_payment": "Повторяющийся платеж",
     "pricing": "Цены",
     "purchase": "Покупка",
@@ -712,16 +714,102 @@ export default {
     "system": "Система",
     "unknown": "Неизвестный",
     "week": "Неделя",
-    "agencies": "Агентства"
+    "agencies": "Агентства",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Очень сложный",
+    "hard": "Жесткий",
+    "intermediate": "Средний",
+    "easy": "Легкий",
   },
   "dialogs": {
     "delete": {
       "title": "Удалить",
       "message": "Вы уверены, что хотите удалить этот элемент?",
-      "action": "Да, удалить сейчас"
-    }
+      "action": "Да, удалить сейчас",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Добавить в корзину",
     "cancel": "Отмена",
     "update": "Обновлять",
@@ -790,7 +878,7 @@ export default {
     "add_giftcard": "Добавить подарочную карту",
     "charge": "Заряд",
     "send_invites": "Отправить приглашения",
-    "past": "прошлое",
+    "paste": "Вставить",
     "restore": "Восстановить",
     "cut": "Резать",
     "get_sms_code": "Получить код аутентификации",
@@ -819,12 +907,12 @@ export default {
     "show_preview": "Показать предварительный просмотр",
     "hide_preview": "Скрыть предварительный просмотр",
     "download_now": "Скачать сейчас",
+    "watch_now": "Смотри",
     "auto_fill": "Автозаполнение",
     "track": "Отслеживать",
     "change_state": "Изменить статус",
     "done": "Готово",
     "reply": "Отвечать",
-    "watch_now": "Смотри",
     "unlock": "Разблокировать",
     "lock": "Замок",
     "create_clone": "Создать клон",
@@ -843,7 +931,6 @@ export default {
     "buy": "Купить",
     "view_all": "Посмотреть все",
     "view_now": "Смотри сейчас",
-    "paste": "Вставить",
     "edit_address": "Изменить адрес",
     "resend": "Отправить повторно",
     "deploy_now": "Развернуть сейчас",
@@ -856,41 +943,59 @@ export default {
     "duplicate": "Дубликат",
     "connect": "Соединять",
     "connect_now": "Подключиться сейчас",
-    "verify_now": "Проверить сейчас"
+    "verify_now": "Проверить сейчас",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "прошлое",
+  },
+  "billing_period": {
+    "Daily": "Повседневная",
+    "Weekly": "Еженедельно",
+    "Monthly": "Ежемесячно",
+    "Every3Months": "каждые 3 месяца",
+    "Every6Months": "каждые 6 месяцев",
+    "Yearly": "Ежегодно",
   },
   "instance_message_title": "Отправить мгновенное сообщение",
   "instance_message": "Привет, {name}, меня зовут {author} из {company}.",
   "errors": {
     "419": "Вы долгое время были неактивны, пожалуйста <b>⟳ ОБНОВИТЕ СТРАНИЦУ</b> в целях безопасности.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Система не синхронизируется с блокчейном. Невозможно будет создать новую транзакцию, пока синхронизация наших серверов не будет завершена. Мы решаем проблему.",
-    "gateway_network_error": "Служба платежного шлюза столкнулась с проблемой связи."
+    "gateway_network_error": "Служба платежного шлюза столкнулась с проблемой связи.",
   },
   "receiver_info": {
     "map": {
       "title": "Адреса доставки",
       "confirm": "Установить местоположение",
       "address_type": "Пункт назначения",
-      "receptor_type": "Получатель"
+      "receptor_type": "Получатель",
     },
     "receiver_address": "Выберите адрес доставки",
+    "service_address": "Выберите свой адрес",
+    "select_billing_address": "Select billing address",
     "address": "адрес",
     "postcode": "Почтовый индекс",
     "enter_value": "Заполните здесь",
     "address_note": "Примечание",
     "tel": "Контактный телефон",
-    "service_address": "Выберите свой адрес"
   },
   "weight": {
     "g": "грамм",
     "oz": "унция",
     "lb": "фунт",
-    "kg": "кг"
+    "kg": "кг",
   },
   "mass_unit_name": {
     "g": "грамм",
     "oz": "Унция",
     "lb": "Фунт",
-    "kg": "килограмм"
+    "kg": "килограмм",
   },
   "length": {
     "cm": "см",
@@ -898,7 +1003,7 @@ export default {
     "ft": "футов",
     "mm": "мм",
     "m": "м",
-    "yd": "ярд"
+    "yd": "ярд",
   },
   "size_unit_name": {
     "cm": "сантиметр",
@@ -906,17 +1011,21 @@ export default {
     "ft": "Стопа",
     "mm": "миллиметр",
     "m": "метр",
-    "yd": "Площадка"
+    "yd": "Площадка",
   },
   "distance": {
     "m": "метр",
-    "km": "км"
+    "km": "км",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Дней",
     "hours": "Часы",
     "minutes": "Минуты",
-    "seconds": "Секунды"
+    "seconds": "Секунды",
   },
   "units": [
     "Ед. изм",
@@ -953,14 +1062,14 @@ export default {
   "region_types": {
     "State": "Состояние",
     "Territory": "Территория",
-    "Province": "Провинция"
+    "Province": "Провинция",
   },
   "transaction_status": {
     "RequireAction": "Требуются действия",
     "Processing": "Обработка",
     "Canceled": "Отменено",
     "Succeeded": "Успешно",
-    "RequireCapture": "Требовать захвата"
+    "RequireCapture": "Требовать захвата",
   },
   "placeholders": {
     "name": "Джон Кокс",
@@ -976,7 +1085,10 @@ export default {
     "birthday": "Выберите день рождения",
     "select_category": "Выберите категорию...",
     "select_a_country": "Выберите страну...",
-    "filter_country": "Фильтр по стране..."
+    "filter_country": "Фильтр по стране...",
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Подтверждать",
@@ -1001,7 +1113,7 @@ export default {
     "invalid_max_chars": "Макс. {maxCount} символов",
     "invalid_url": "Неверная ссылка",
     "country_invalid": "Выберите страну назначения!",
-    "postal_code_invalid": "Укажите действительный почтовый индекс!"
+    "postal_code_invalid": "Укажите действительный почтовый индекс!",
   },
   "colors": {
     "#D32F2F": "Красный",
@@ -1083,7 +1195,7 @@ export default {
     "building_unit": "Ед. изм",
     "postcode": "Почтовый индекс",
     "note": "Примечание",
-    "county": "округ"
+    "county": "округ",
   },
   "product_types": {
     "physical": "Физический",
@@ -1095,13 +1207,13 @@ export default {
     "service": "Услуга",
     "service_description": "Такие услуги, как: ремонт, транспорт, обучение.",
     "subscription": "Подписка",
-    "subscription_description": "Подписки и выставление счетов за продукты, услуги или контент."
+    "subscription_description": "Подписки и выставление счетов за продукты, услуги или контент.",
   },
   "license": {
     "free": "Бесплатно",
     "startup": "Запускать",
     "company": "Компания",
-    "enterprise": "Предприятие"
+    "enterprise": "Предприятие",
   },
   "currency": {
     "IRR": "IRR",
@@ -1167,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1247,12 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
     "SYP": "SYP",
     "KWD": "KWD",
-    "BTN": "BTN"
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Цвет",
@@ -1260,14 +1372,14 @@ export default {
     "count_in_pack": "Количество в упаковке",
     "weight": "Масса",
     "type": "Материал",
-    "style": "Стиль"
+    "style": "Стиль",
   },
   "delivery_state": {
     "check_queue": "Ожидает рассмотрения",
     "order_confirm": "Подтверждение заказа",
     "preparing_order": "Подготовка",
     "sent_order": "В процессе доставки",
-    "to_customer": "Доставленный"
+    "to_customer": "Доставленный",
   },
   "status": {
     "unpaid": "Неоплачиваемый",
@@ -1290,12 +1402,12 @@ export default {
     "reject": "Отклонять",
     "pending": "В ожидании",
     "rejected": "Отклоненный",
-    "accepted": "Принятый"
+    "accepted": "Принятый",
   },
   "dimensions": {
     "cm": "см",
     "km": "км",
-    "kg": "кг"
+    "kg": "кг",
   },
   "transportation_type": {
     "motorbike": "мотоцикл",
@@ -1317,7 +1429,7 @@ export default {
     "global": "Глобальный транспорт",
     "global_description": "Доставка за границу воздушным, морским или наземным транспортом.",
     "pickup": "Подбирать",
-    "pickup_description": "Клиенты забирают товары в вашем физическом магазине или на складе."
+    "pickup_description": "Клиенты забирают товары в вашем физическом магазине или на складе.",
   },
   "article": {
     "login_to_see_error": "Войдите, чтобы получить доступ к статье",
@@ -1326,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Режим редактирования",
       "view_mode": "Режим просмотра",
-      "delete": "Удалить статью"
+      "delete": "Удалить статью",
     },
     "schedule_action": "Хотите запланировать публикацию?",
     "schedule_title": "Запланировать автоматическую публикацию",
@@ -1369,7 +1481,7 @@ export default {
       "report_and_delete_title": "Сообщить о нарушении и удалить контент",
       "report_title": "Сообщить об этом контенте как оскорбительном",
       "message": "Какова причина отправки этого контента? Выберите один из следующих вариантов.",
-      "accept_and_delete_action": "Подтвердить и удалить контент"
+      "accept_and_delete_action": "Подтвердить и удалить контент",
     },
     "schedule_dialog": {
       "title": "График выпуска контента",
@@ -1378,7 +1490,7 @@ export default {
       "view_action": "Посмотреть статью",
       "no_article": "Нет запланированной статьи!",
       "current_article": "Текущая статья",
-      "article_for_product": "Статья о продукте"
+      "article_for_product": "Статья о продукте",
     },
     "notifications": {
       "update_success_title": "Отправить информацию",
@@ -1388,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Сообщить и удалить",
       "report_and_delete_success_message": "Статья успешно удалена.",
       "report_success_title": "Сообщить о статье",
-      "report_success_message": "Ваш отчет по этой статье опубликован."
+      "report_success_message": "Ваш отчет по этой статье опубликован.",
     },
     "alert": {
       "delete_article": {
         "title": "Удалить статью",
         "message": "Вы уверены, что хотите навсегда удалить эту статью?",
-        "action": "Удалить"
-      }
+        "action": "Удалить",
+      },
     },
     "edit_window": {
       "title": "Выберите текст изображения и сводку",
-      "digest": "Резюме"
+      "digest": "Резюме",
     },
     "editor": {
       "title_placeholder": "Заголовок..",
@@ -1408,12 +1520,12 @@ export default {
       "max_file_size_error": "Этот файл слишком большой:",
       "notifications": {
         "image_uploaded_success": "Изображение успешно сохранено",
-        "image_uploaded_failed": "Ошибка загрузки изображения."
+        "image_uploaded_failed": "Ошибка загрузки изображения.",
       },
       "embed_placeholder": "Введите код iframe, Facebook, Youtube или любой другой URL-адрес и нажмите Enter.",
       "embed_caption_placeholder": "Введите название (необязательно)",
-      "images_caption_placeholder": "Введите название для этого изображения.."
-    }
+      "images_caption_placeholder": "Введите название для этого изображения..",
+    },
   },
   "article_report": {
     "inappropriate": "Содержание этой статьи не соответствует действительности.",
@@ -1425,7 +1537,7 @@ export default {
     "violent": "Я считаю, что этот контент содержит порнографию и нарушает законы.",
     "harassment": "Я думаю, что это расизм.",
     "hate": "Я думаю, что это пропаганда насилия.",
-    "infringe": "Это нарушает мои права."
+    "infringe": "Это нарушает мои права.",
   },
   "comments": {
     "new_action": "Нажмите, чтобы оставить комментарий..",
@@ -1438,27 +1550,27 @@ export default {
     "load_more_action": "Получить больше комментариев ..",
     "cant_send_comment": "Вы не можете добавить новый пост.",
     "cant_remove_this_comment": "Вы не можете удалить этот комментарий!",
-    "product_buyer": "Покупатель",
+    "verified_buyer": "Проверенный покупатель",
+    "my_comments": "Мои комментарии",
     "delete_alert": {
       "title": "Удалить комментарий",
       "message": "Вы хотите удалить этот комментарий?",
-      "action": "Удалить"
+      "action": "Удалить",
     },
     "notifications": {
-      "delete_success": "Ваш комментарий успешно удален."
+      "delete_success": "Ваш комментарий успешно удален.",
     },
     "first_send": "Первый пост",
     "comment_at": "На",
     "edit_comment": "Редактировать комментарий",
-    "my_comments": "Мои комментарии",
-    "verified_buyer": "Проверенный покупатель"
+    "product_buyer": "Покупатель",
   },
   "customer_club": {
     "bronze": "Бронза",
     "silver": "Серебряный",
     "gold": "Золотой",
     "platinum": "Платина",
-    "diamond": "Алмаз"
+    "diamond": "Алмаз",
   },
   "application_categories": {
     "tracking": "Проверка поведения пользователя",
@@ -1473,7 +1585,7 @@ export default {
     "advertising": "Реклама",
     "staff": "Персонал",
     "incentive": "Стимулы",
-    "shop": "Магазин"
+    "shop": "Магазин",
   },
   "social_network": {
     "instagram": "Инстаграм",
@@ -1488,25 +1600,26 @@ export default {
     "pinterest": "Пинтерест",
     "whatsapp": "WhatsApp",
     "skype": "Скайп",
-    "facebook_messenger": "Facebook-мессенджер"
+    "facebook_messenger": "Facebook-мессенджер",
   },
   "form_builder": {
     "add_item_action": "Добавить новый элемент",
     "title_input": "Заголовок",
+    "placeholder_input": "Заполнитель",
     "name_input": "Имя переменной",
     "value_input": "Ценности",
     "value_input_message": "Список параметров пользователя",
     "default": "Значение по умолчанию",
+    "file_type_input": "Допустимые типы файлов",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Простой",
       "selective": "Селективный",
       "switch": "Выключатель",
       "file": "Файл",
-      "number": "Число"
+      "number": "Число",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Заполнитель",
-    "file_type_input": "Допустимые типы файлов",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "наименование товара",
@@ -1517,25 +1630,25 @@ export default {
     "payment_status": "Статус платежа",
     "payment_status_waiting": "ожидается платеж",
     "payment_status_paid": "Оплаченный",
-    "buyer": "Покупатель"
+    "buyer": "Покупатель",
   },
   "virtual_item_info": {
     "title": "Виртуальный предмет",
     "outputs": {
       "title": "Выходная информация",
       "sub_title": "Конфиденциальная информация об этом элементе",
-      "message": "Эта информация будет показана пользователю после покупки продукта."
+      "message": "Эта информация будет показана пользователю после покупки продукта.",
     },
     "inputs": {
       "title": "Требуется информация",
       "sub_title": "Требуется информация о покупателе",
-      "message": "Покупатель должен ввести запрашиваемую информацию в форму"
+      "message": "Покупатель должен ввести запрашиваемую информацию в форму",
     },
     "notifications": {
       "inputs_set_success": "Информационная форма успешно зарегистрирована.",
       "confirm_by_admin_success": "Подтверждено выполнение заказа.",
-      "confirm_by_buyer_success": "Подтверждено выполнение заказа."
-    }
+      "confirm_by_buyer_success": "Подтверждено выполнение заказа.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Этот заказ не может быть принят наложенным платежом.",
@@ -1547,7 +1660,7 @@ export default {
     "lack_of_inventory": "Распродано.",
     "legal_restriction": "Невозможно разместить заказ из-за юридических ограничений.",
     "pricing_fault": "Ошибка продавца в цене.",
-    "system_fault": "Системная ошибка."
+    "system_fault": "Системная ошибка.",
   },
   "basket_order_info_summery": {
     "receiver": "Получатель",
@@ -1557,7 +1670,7 @@ export default {
     "discount": "Скидка",
     "final_price": "Окончательная сумма",
     "address": "Адрес доставки",
-    "payment_status": "Статус платежа"
+    "payment_status": "Статус платежа",
   },
   "basket_status": {
     "open": "Открытым",
@@ -1567,7 +1680,7 @@ export default {
     "cod": "Оплата при доставке",
     "receipt_added": "Квитанция добавлена",
     "payment_processing": "Процесс оплаты",
-    "payment_require_capture": "Требовать захвата"
+    "payment_require_capture": "Требовать захвата",
   },
   "basket_delivery_state": {
     "rejected": "Отклоненный",
@@ -1576,7 +1689,7 @@ export default {
     "step_2": "Подтверждение",
     "step_3": "Подготовка",
     "step_4": "В процессе доставки",
-    "step_5": "Доставленный"
+    "step_5": "Доставленный",
   },
   "basket_return_request_view": {
     "title": "Запрос на возврат",
@@ -1594,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Отклонить запрос",
     "message_for_admin": "В соответствии с соглашением, которое вы приняли с помощью Selldone, вы должны связаться с покупателем и информировать его о процессе возврата его заказа. Это необходимо сделать, если запрос принят или отклонен и получено полное согласие покупателя.",
     "notifications": {
-      "update_status_success": "Статус запроса обновлен."
-    }
+      "update_status_success": "Статус запроса обновлен.",
+    },
   },
   "basket_list": {
     "return_count": "Возврат: {count} число",
@@ -1606,8 +1719,8 @@ export default {
       "variant": "Вариант",
       "warranty": "Гарантии",
       "count": "Считать",
-      "price": "цена"
-    }
+      "price": "цена",
+    },
   },
   "return_request_list": {
     "count": "Справочный номер",
@@ -1619,13 +1732,13 @@ export default {
       "delivery_at": "Дата получения",
       "state": "Статус",
       "reason": "Причина",
-      "return_warranty_period": "Гарантийный срок"
-    }
+      "return_warranty_period": "Гарантийный срок",
+    },
   },
   "data_toolbar": {
     "search": "Поиск",
     "sort_by": "Сортировать по",
-    "count_item": "Показать {item} элементов"
+    "count_item": "Показать {item} элементов",
   },
   "sort": {
     "created_at": "Дата создания",
@@ -1700,13 +1813,13 @@ export default {
     "officer": "Офицер",
     "registered": "Зарегистрировано",
     "purchased": "Куплено",
-    "sex": "Пол"
+    "sex": "Пол",
   },
   "search_box": {
     "result": "Результаты поиска",
     "tips": "Поиск продуктов и категорий",
     "label": "Поиск ...",
-    "category": "Категория"
+    "category": "Категория",
   },
   "lead_status": {
     "physical_fast_delivery": "Мгновенная доставка",
@@ -1714,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Подготовка и отправка со следующих {days} дн.",
     "virtual_fast_prepare": "Мгновенная доставка",
     "virtual_under_24h": "Будет сделано в течение следующих {lead} часов",
-    "virtual_over_24h": "Будет сделано в ближайшие {days} дн."
+    "virtual_over_24h": "Будет сделано в ближайшие {days} дн.",
   },
   "return_request_state": {
     "pending": "В ожидании",
     "accepted": "Подтвержденный",
-    "rejected": "Отклоненный"
+    "rejected": "Отклоненный",
   },
   "return_order_reason": {
     "physical": {
@@ -1729,18 +1842,18 @@ export default {
       "U4": "Фальсификация упаковки или серийного номера",
       "U5": "Некоторые предметы из посылки отсутствуют",
       "U6": "Товар не оригинальный",
-      "U7": "Товар не соответствует заявленным характеристикам"
-    }
+      "U7": "Товар не соответствует заявленным характеристикам",
+    },
   },
   "image_uploader": {
     "label": "Перетащите или <u>выберите файл</u>",
-    "max_size": "Максимально допустимый размер: {size}"
+    "max_size": "Максимально допустимый размер: {size}",
   },
   "timespan": {
     "Morning": "с 8:00 до 12:00",
     "Evening": "с 12:00 до 18:00",
     "Night": "18:00-12:00",
-    "Instant": "Мгновенная публикация"
+    "Instant": "Мгновенная публикация",
   },
   "week_day": {
     "Saturday": "Суббота",
@@ -1749,7 +1862,7 @@ export default {
     "Tuesday": "Вторник",
     "Wednesday": "Среда",
     "Thursday": "Четверг",
-    "Friday": "Пятница"
+    "Friday": "Пятница",
   },
   "payment_form": {
     "title": "Выберите способ оплаты",
@@ -1765,130 +1878,131 @@ export default {
     "order_free_payment": "Поздравляем, ваш заказ бесплатный!",
     "order_free_payment_action": "Заказать бесплатно сейчас",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Платежный адрес",
-      "amount": "Количество"
-    }
+      "amount": "Количество",
+    },
   },
   "discount_input": {
     "limit": "Скидка {percent}% до {limit} {currency}",
     "action": "Добавить код скидки",
     "code_input": "Код скидки",
     "notifications": {
-      "add_success": "Поздравляем, действующий код скидки."
-    }
+      "add_success": "Поздравляем, действующий код скидки.",
+    },
   },
   "gift_card": {
     "inactive": "Карта отключена",
     "expire": "Срок действия",
     "transfer": "Передача",
-    "send_to_friend": "Отправить другу"
+    "send_to_friend": "Отправить другу",
   },
   "count_down": {
     "days": "День",
     "hours": "Час",
     "minutes": "Минуты",
-    "seconds": "Секунды"
+    "seconds": "Секунды",
   },
   "gift_status": {
     "Unpaid": "Ожидание получения",
     "Paid": "Оплаченный",
     "Rejected": "Отклоненный",
-    "Canceled": "Отменено"
+    "Canceled": "Отменено",
   },
   "gift_program_status": {
     "Airdrop": "Платежная система",
     "Advertising": "Реклама",
     "PersonalGift": "Личный подарок",
-    "ShopGift": "Магазин подарков"
+    "ShopGift": "Магазин подарков",
   },
   "currency_selector": {
-    "label": "Валюта"
+    "label": "Валюта",
   },
   "need_login": {
     "title": "Авторизоваться",
     "login_sms": "СМС вход",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Войти через Google",
     "login_facebook": "Войти с Facebook",
+    "login_apple": "Войти через Apple",
     "login_account": "Войти через Selldone",
     "register": "Новый пользователь? Зарегистрируйтесь сейчас.",
     "mobile_input": "Введите свой мобильный",
     "verification_code": "Проверочный код",
     "msg_title": "Привет,",
     "msg_body": "Пожалуйста, войдите. Это занимает всего несколько секунд.",
-    "login_apple": "Войти через Apple",
     "login_email": "Войти по электронной почте",
     "email_login_step_1": "Укажите действующий адрес электронной почты, и мы отправим на него код входа. Регистрация не требуется.",
     "email_login_step_2": "Вы уверены, что правильно ввели свой адрес электронной почты? Мы отправим код для входа на указанный адрес электронной почты, поэтому, пожалуйста, убедитесь в его точности.",
-    "email_login_step_3": "Мы отправили код на вашу электронную почту. Обратите внимание, что срок действия кода истекает через 10 минут."
+    "email_login_step_3": "Мы отправили код на вашу электронную почту. Обратите внимание, что срок действия кода истекает через 10 минут.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5-летний золотой магазин"
+      "name": "5-летний золотой магазин",
     },
     "GOLDEN_2YEAR": {
-      "name": "4-летний золотой магазин"
+      "name": "4-летний золотой магазин",
     },
     "GOLDEN_3YEAR": {
-      "name": "3-летний золотой магазин"
+      "name": "3-летний золотой магазин",
     },
     "GOLDEN_4YEAR": {
-      "name": "2-летний золотой магазин"
+      "name": "2-летний золотой магазин",
     },
     "GOLDEN_5YEAR": {
-      "name": "Золотой магазин на 1 год"
+      "name": "Золотой магазин на 1 год",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Золотой инвестор"
+      "name": "Золотой инвестор",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Алмазный инвестор"
+      "name": "Алмазный инвестор",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Рубиновый инвестор"
+      "name": "Рубиновый инвестор",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Член Высшего сообщества коммуникационных сетей"
+      "name": "Член Высшего сообщества коммуникационных сетей",
     },
     "GOLD_SUPPLIER": {
-      "name": "Поставщик золота"
+      "name": "Поставщик золота",
     },
     "GOLD_SELLER": {
-      "name": "Золотой дилер"
+      "name": "Золотой дилер",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Лучший производитель контента"
+      "name": "Лучший производитель контента",
     },
     "NINJA": {
-      "name": "Ниндзя"
+      "name": "Ниндзя",
     },
     "STAR": {
-      "name": "Звезда"
+      "name": "Звезда",
     },
     "GUARDIAN": {
-      "name": "Отличное обслуживание клиентов"
+      "name": "Отличное обслуживание клиентов",
     },
     "KING": {
-      "name": "Король рынка"
-    }
+      "name": "Король рынка",
+    },
   },
   "cookie": {
     "title": "Этот веб-сайт использует файлы cookie",
     "message": "Этот веб-сайт использует файлы cookie для улучшения взаимодействия с пользователем. Используя наш веб-сайт, вы соглашаетесь на все файлы cookie в соответствии с нашей Политикой использования файлов cookie.",
     "preferences_action": "Управление настройками",
-    "agree_action": "Я согласен"
+    "agree_action": "Я согласен",
   },
   "basket_item_message": {
     "title": "Необходимая информация для этого элемента",
     "save_actions": "Сохранить сообщение",
+    "product_inputs_preview_message": "Эти параметры настройки доступны для вашего заказанного продукта. После того, как товар будет добавлен в корзину, вы сможете внести изменения здесь.",
     "notifications": {
-      "success": "Ваши входные данные сохранены."
+      "success": "Ваши входные данные сохранены.",
     },
-    "product_inputs_preview_message": "Эти параметры настройки доступны для вашего заказанного продукта. После того, как товар будет добавлен в корзину, вы сможете внести изменения здесь."
   },
   "faq": {
     "faq": "Часто задаваемые вопросы",
     "title": "Вопросы и ответы",
-    "sub_title": "То, что вы просили нас сделать.",
     "message": "Найдите ответ на свой вопрос среди ответов ниже. Спросите нас, если вопросы остались без ответа.",
     "add_question_action": "Задать новый вопрос",
     "read_more": "Прочитайте больше ..",
@@ -1899,8 +2013,9 @@ export default {
     "question_input": "Вопрос",
     "question_input_placeholder": "Задавай вопрос.",
     "notifications": {
-      "success_add": "Ваш вопрос успешно отправлен."
-    }
+      "success_add": "Ваш вопрос успешно отправлен.",
+    },
+    "sub_title": "То, что вы просили нас сделать.",
   },
   "rating_labels": [
     "Очень плохой",
@@ -1917,7 +2032,7 @@ export default {
     "enter_address_hint": "Введите адрес назначения",
     "enter_your_address": "Введите свой адрес.",
     "postal_code": "Почтовый индекс",
-    "phone_input": "Телефон {type}",
+    "phone_input": "Телефон",
     "building_number": "Номер здания",
     "building_unit": "Ед. изм",
     "full_name_input": "Полное имя {type}",
@@ -1927,25 +2042,25 @@ export default {
     "address_title_input": "Адресная метка (требуется)",
     "notifications": {
       "save_in_list": "Этот адрес был сохранен в вашем списке со всеми его деталями.",
-      "edit_success": "Новые значения адреса сохранены в {title}."
+      "edit_success": "Новые значения адреса сохранены в {title}.",
     },
     "delete_address_dialog": {
       "title": "Удалить адрес",
       "message": "Вы уверены, что хотите удалить этот адрес?",
-      "action": "Удалить адрес"
-    }
+      "action": "Удалить адрес",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Не могу редактировать этот комментарий!",
     "comment_input_empty": "Текст сообщения пуст!",
-    "article_not_saved": "Сохраните статью!"
+    "article_not_saved": "Сохраните статью!",
   },
   "wheel_fortune": {
     "title": "Играй и выигрывай",
     "message": "Стоимость каждой игры составляет 10 фишек. В настоящее время у вас есть чип {chips}. Получите больше фишек, купив в магазине.",
     "win_message": "Поздравляем, Вы выиграли!",
     "lost_message": "Извините, вы проиграли игру.",
-    "try_again": "Вы можете попробовать еще раз"
+    "try_again": "Вы можете попробовать еще раз",
   },
   "json": {
     "add": "Добавить данные структуры",
@@ -1953,29 +2068,29 @@ export default {
     "structures": "Структуры",
     "book": {
       "title": "Книга",
-      "desc": "Действия с книгами, которые позволяют пользователям покупать книги, которые они находят непосредственно в результатах поиска."
+      "desc": "Действия с книгами, которые позволяют пользователям покупать книги, которые они находят непосредственно в результатах поиска.",
     },
     "occupation": {
       "title": "Расчетная зарплата",
-      "desc": "Информация об оценке заработной платы, например диапазоны окладов и средние оклады по регионам для типов вакансий, отображаемая в процессе поиска вакансий в Google."
+      "desc": "Информация об оценке заработной платы, например диапазоны окладов и средние оклады по регионам для типов вакансий, отображаемая в процессе поиска вакансий в Google.",
     },
     "course": {
       "title": "Курс",
-      "desc": "Образовательные курсы, которые отображаются в списке конкретного поставщика. Курсы могут включать название курса, поставщика и краткое описание."
+      "desc": "Образовательные курсы, которые отображаются в списке конкретного поставщика. Курсы могут включать название курса, поставщика и краткое описание.",
     },
     "howto": {
       "title": "Как",
-      "desc": "С практическими рекомендациями пользователи проходят ряд шагов для успешного выполнения задачи, включая видео, изображения и текст."
+      "desc": "С практическими рекомендациями пользователи проходят ряд шагов для успешного выполнения задачи, включая видео, изображения и текст.",
     },
     "recipe": {
       "title": "Рецепт блюда",
-      "desc": "Рецепты, которые отображаются как отдельный расширенный результат или часть основной карусели."
-    }
+      "desc": "Рецепты, которые отображаются как отдельный расширенный результат или часть основной карусели.",
+    },
   },
   "support": {
     "Financial": "финансовый",
     "Technical": "Технические",
-    "Advisor": "Советник"
+    "Advisor": "Советник",
   },
   "condition": {
     "new": "Новый",
@@ -1983,139 +2098,152 @@ export default {
     "used": "Использовал",
     "used_fair": "Подержанная ярмарка",
     "used_good": "Используется хорошо",
-    "used_like_new": "Используется - Как новый"
+    "used_like_new": "Используется - Как новый",
   },
   "variant_filter": {
     "title": "Фильтр вариантов продукта",
-    "only_available": "В наличии"
+    "only_available": "В наличии",
   },
   "service": {
     "task": {
       "title": "Задачи",
-      "message": "Список задач, выполняемых в этом сервисе."
+      "message": "Список задач, выполняемых в этом сервисе.",
     },
     "appointment": {
       "title": "Встреча",
-      "message": "Выберите время недели из следующих вариантов в зависимости от дня и часа, который подходит именно вам."
+      "message": "Выберите время недели из следующих вариантов в зависимости от дня и часа, который подходит именно вам.",
     },
     "booking": {
       "title": "Бронирование",
-      "message": "Укажите период времени дней, которые вы хотите сделать бронирование в календаре ниже."
+      "message": "Укажите период времени дней, которые вы хотите сделать бронирование в календаре ниже.",
     },
     "subscription": {
-      "title": "Подписка"
+      "title": "Подписка",
     },
     "charge": {
-      "title": "Заряд"
-    }
+      "title": "Заряд",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Фиксированные цены",
-      "message": "В этом типе ценообразования цена продукта является фиксированной суммой, и покупателю не нужно запрашивать расчет цены."
+      "message": "В этом типе ценообразования цена продукта является фиксированной суммой, и покупателю не нужно запрашивать расчет цены.",
     },
     "ESTIMATION": {
       "title": "Оценка",
-      "message": "Цена товаров и услуг будет в некоторой степени рассчитываться продавцом при оформлении заказа, платежные счета могут быть изменены или добавлены в процессе обслуживания."
+      "message": "Цена товаров и услуг будет в некоторой степени рассчитываться продавцом при оформлении заказа, платежные счета могут быть изменены или добавлены в процессе обслуживания.",
     },
     "AGREEMENT": {
       "title": "Соглашение",
-      "message": "Окончательная цена товаров или услуг не будет изменена продавцом после размещения заказа."
+      "message": "Окончательная цена товаров или услуг не будет изменена продавцом после размещения заказа.",
     },
     "BID": {
       "title": "Ставка/аукцион",
-      "message": "Товар будет продан по самой высокой цене, предложенной потенциальными покупателями."
-    }
+      "message": "Товар будет продан по самой высокой цене, предложенной потенциальными покупателями.",
+    },
   },
   "map": {
     "title": "Место получения продукции",
     "confirm": "Установить местоположение",
     "address": "Пункт назначения",
-    "receptor": "Получатель"
+    "receptor": "Получатель",
   },
   "ShopBots": {
-    "telegram": "Телеграмма"
+    "telegram": "Телеграмма",
   },
   "article_tags": {
     "title": "Теги контента",
     "tags_input": "Теги",
     "tags_input_message": "Теги Список этой статьи",
     "notification": {
-      "add_success": "Теги добавлены"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Очень сложный",
-    "hard": "Жесткий",
-    "intermediate": "Средний",
-    "easy": "Легкий"
-  },
-  "billing_period": {
-    "Daily": "Повседневная",
-    "Weekly": "Еженедельно",
-    "Monthly": "Ежемесячно",
-    "Every3Months": "каждые 3 месяца",
-    "Every6Months": "каждые 6 месяцев",
-    "Yearly": "Ежегодно"
+      "add_success": "Теги добавлены",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Оч не хорошо!",
     "between2_3": "Ничего страшного!",
     "between3_4": "Людям нравится!",
-    "between4_5": "Людям это нравится!"
+    "between4_5": "Людям это нравится!",
   },
   "seasons": {
     "spring": "Весна",
     "summer": "Лето",
     "autumn": "Осень",
-    "winter": "Зима"
+    "winter": "Зима",
   },
   "order_chat": {
     "seller": {
       "history": {
-        "subtitle": "Просматривайте историю сообщений между вами и клиентом."
+        "subtitle": "Просматривайте историю сообщений между вами и клиентом.",
       },
       "new_message": {
-        "subtitle": "Вы можете отправлять сообщения клиентам напрямую здесь. Когда вы отправляете сообщение, клиент получает уведомление по электронной почте через 20 минут. Это уведомление будет отправляться только один раз в 24 часа."
-      }
+        "subtitle": "Вы можете отправлять сообщения клиентам напрямую здесь. Когда вы отправляете сообщение, клиент получает уведомление по электронной почте через 20 минут. Это уведомление будет отправляться только один раз в 24 часа.",
+      },
     },
     "customer": {
       "history": {
-        "subtitle": "Просмотрите историю сообщений между вами и продавцом."
+        "subtitle": "Просмотрите историю сообщений между вами и продавцом.",
       },
       "new_message": {
-        "subtitle": "Вы можете отправлять нам сообщения напрямую здесь."
-      }
-    }
+        "subtitle": "Вы можете отправлять нам сообщения напрямую здесь.",
+      },
+    },
   },
   "ServiceTypes": {
     "DEMAND": {
       "title": "По требованию",
-      "desc": "таких как ремонт дома, покраска, ремонт автомобилей и т. д."
+      "desc": "таких как ремонт дома, покраска, ремонт автомобилей и т. д.",
     },
     "BOOKING": {
       "title": "Бронирование",
-      "desc": "Например, бронирование номера в отеле или виллы."
+      "desc": "Например, бронирование номера в отеле или виллы.",
     },
     "APPOINTMENT": {
       "title": "Встреча",
-      "desc": "Например, назначение ухода за домашними животными или личное обучение."
+      "desc": "Например, назначение ухода за домашними животными или личное обучение.",
     },
     "RENTAL": {
       "title": "Аренда",
-      "desc": "Например, аренда жилья или автомобиля."
+      "desc": "Например, аренда жилья или автомобиля.",
     },
     "SUBSCRIPTION": {
       "title": "Подписка",
-      "desc": "Например, членство в клубе или онлайн-коучинг."
+      "desc": "Например, членство в клубе или онлайн-коучинг.",
     },
     "CHARGE": {
       "title": "Заряд",
-      "desc": "Например, взимание платы за учетную запись или взимание платы за использование приложения."
+      "desc": "Например, взимание платы за учетную запись или взимание платы за использование приложения.",
     },
     "CUSTOM": {
       "title": "Обычай",
-      "desc": "Выберите этот вариант, если предоставляемая вами услуга не входит ни в один из вышеперечисленных."
-    }
-  }
+      "desc": "Выберите этот вариант, если предоставляемая вами услуга не входит ни в один из вышеперечисленных.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

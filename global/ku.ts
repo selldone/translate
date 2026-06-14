@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Min şert û mercên bikaranînê û polîtîkaya nepenîtiyê xwendiye û bi wan re dipejirînim.",
   "commons": {
     "Currency": "Diravcins",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Rewş",
     "Price": "biha",
@@ -169,6 +170,7 @@ export default {
     "net_price": "bihayê Net",
     "tax": "Bac",
     "tax_included": "Di nav bihayê de",
+    "tax_included_abstract": "incl.",
     "limit": "Sînorkirin",
     "min_purchase": "Kirîna hindiktirîn",
     "eligible_for": "Mafdar ji bo",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Dîroka afirandin",
     "updated_at": "Rojanekirina dawî",
     "register_at": "Dîroka qeydkirinê",
+    "last_modified": "Last modified",
     "old": "Kevn",
     "new": "Nşh",
     "start": "Destpêkirin",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Reseller",
     "tracking_code": "Koda şopandinê",
     "tracking_url": "Şopandina URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Fulfillments",
     "reject": "Refzkirin",
     "reserved": "Reserved",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Li benda...",
     "waiting_connecting_payment": "Li benda xizmeta dravdanê ye...",
     "creating_secure_payment": "Afirandina dravdana ewledar.",
+    "waiting_for_payment": "Ji kerema xwe dravdanê temam bikin...",
     "officer": "Serbaz",
     "ticket": "Qert",
     "ticket_url": "url bilêtê",
@@ -361,7 +366,6 @@ export default {
     "rates": "Rating",
     "seen_at": "dîtin li",
     "completed": "Temam kirin",
-    "you": "Hûn",
     "shop": "Dikan",
     "store": "dikan",
     "granted": "dayîn",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Heb",
     "pc": "PC",
     "acquisition_channel": "Kanala wergirtinê",
+    "channels_overview": "Channels overview",
     "to": "Ber",
     "info": "Info",
     "general": "Giştî",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per hilberê",
     "journey": "Gerr",
     "after": "Piştî",
-    "waiting_for_payment": "Ji kerema xwe dravdanê temam bikin...",
     "hour": "Seet",
     "minute": "Deqqe",
     "premium": "Xelat",
@@ -569,6 +573,7 @@ export default {
     "shops": "Stores",
     "vendor": "Firotkar",
     "vendors": "Firoşkarên",
+    "no_vendors": "No vendors",
     "marketplace": "Marketplace",
     "verify_date": "Dîrokê verast bikin",
     "note": "Not",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Bicî",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Tezmînat nayê çareser kirin!",
     "orders_list": "Lîsteya fermanan",
     "subscription_plan": "Plana abonetiyê",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clusters",
     "subscriptions": "Aboneyên",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Hûn",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Pir tevlîhev",
+    "hard": "Hişk",
+    "intermediate": "Di nav",
+    "easy": "Sivik",
   },
   "dialogs": {
     "delete": {
       "title": "Jêbirin",
       "message": "Ma hûn guman dikin ku hûn vê babetê jêbirin?",
-      "action": "Erê, niha jêbirin"
-    }
+      "action": "Erê, niha jêbirin",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Têxe selikê",
     "cancel": "Bişûndekirin",
     "update": "Nûvekirin",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Karta diyariyê lê zêde bike",
     "charge": "Biha",
     "send_invites": "Vexwendname bişînin",
-    "past": "Borî",
+    "paste": "Paste",
     "restore": "Nûvdekirin",
     "cut": "Birrîn",
     "get_sms_code": "Koda erêkirinê bistînin",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Pêşdîtin nîşan bide",
     "hide_preview": "Pêşdîtinê veşêre",
     "download_now": "Download Now",
+    "watch_now": "Niha temaşe bikin",
     "auto_fill": "Otofill",
     "track": "Şop",
     "change_state": "Guhertina Rewşê",
     "done": "Kirin",
     "reply": "Bersiv",
-    "watch_now": "Niha temaşe bikin",
     "unlock": "Vekirin",
     "lock": "Qesr",
     "create_clone": "Klonek çêbikin",
@@ -773,41 +931,71 @@ export default {
     "buy": "Kirrîn",
     "view_all": "Binêre Hemî",
     "view_now": "Niha Binêre",
-    "paste": "Paste"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Borî",
+  },
+  "billing_period": {
+    "Daily": "Rojane",
+    "Weekly": "Heftane",
+    "Monthly": "Mehane",
+    "Every3Months": "Her 3 mehan carekê",
+    "Every6Months": "Her 6 mehan carekê",
+    "Yearly": "Salane",
   },
   "instance_message_title": "Peyama tavilê bişîne",
   "instance_message": "Silav {name}, Navê min {author} ji {company} ye.",
   "errors": {
     "419": "Demek dirêj e hûn neçalak in, ji kerema xwe <b>⟳ RÛPERÊ NÛ BIKE</b> ji ber sedemên ewlehiyê.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Pergal bi blokê re hevdem nake. Heya ku hevdemkirina serverên me neqede, dê nekare danûstendinek nû biafirîne. Em pirsgirêkê çareser dikin.",
-    "gateway_network_error": "Karûbarê dergehê dravdanê rastî pirsgirêkek pêwendiyê hat."
+    "gateway_network_error": "Karûbarê dergehê dravdanê rastî pirsgirêkek pêwendiyê hat.",
   },
   "receiver_info": {
     "map": {
       "title": "Navnîşana barkirinê",
       "confirm": "Cihê danîn",
       "address_type": "Armanca seyahatê",
-      "receptor_type": "Receiver"
+      "receptor_type": "Receiver",
     },
     "receiver_address": "Navnîşana barkirinê hilbijêrin",
+    "service_address": "Navnîşana xwe hilbijêre",
+    "select_billing_address": "Select billing address",
     "address": "navnîşan",
     "postcode": "Postcode",
     "enter_value": "Li vir dagirin",
     "address_note": "Not",
     "tel": "Hejmara têkilî",
-    "service_address": "Navnîşana xwe hilbijêre"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "xiram",
     "oz": "Once",
     "lb": "Tan",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Santîm",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Ling",
     "mm": "milimeter",
     "m": "jimarvan",
-    "yd": "Hewş"
+    "yd": "Hewş",
   },
   "distance": {
     "m": "jimarvan",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Days",
     "hours": "Hours",
     "minutes": "Minutes",
-    "seconds": "Seconds"
+    "seconds": "Seconds",
   },
   "units": [
     "Yekbûn",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Rewş",
     "Territory": "Herêm",
-    "Province": "Herêm"
+    "Province": "Herêm",
   },
   "transaction_status": {
     "RequireAction": "Çalakî Pêdivî ye",
     "Processing": "Xebitandinî",
     "Canceled": "Betal kirin",
-    "Succeeded": "Serketî"
+    "Succeeded": "Serketî",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Ziman hilbijêrin..",
     "friend_email": "Emaila hevalê te...",
     "friend_name": "Opt. Navê hevalê te",
-    "select_date": "Dîrokek hilbijêrin..."
+    "select_date": "Dîrokek hilbijêrin...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Tesdîqkirin",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Herî zêde {maxCount} karakter",
     "invalid_url": "URL nederbasdar",
     "country_invalid": "Welatê mebestê hilbijêrin!",
-    "postal_code_invalid": "Koda posta derbasdar destnîşan bikin!"
+    "postal_code_invalid": "Koda posta derbasdar destnîşan bikin!",
   },
   "colors": {
     "#D32F2F": "Sor",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Yekbûn",
     "postcode": "Postcode",
     "note": "Not",
-    "county": "County"
+    "county": "County",
   },
   "product_types": {
     "physical": "Cûsseyî",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Xizmetkar",
     "service_description": "Xizmetên wekî: tamîrkirin, veguhestin, hînkirin.",
     "subscription": "Abonetî",
-    "subscription_description": "Ji bo hilber, karûbar, an naverokê abonetî û fatûrekirin."
+    "subscription_description": "Ji bo hilber, karûbar, an naverokê abonetî û fatûrekirin.",
   },
   "license": {
     "free": "Belaş",
     "startup": "Damezirandin",
     "company": "Şîrket",
-    "enterprise": "Enterprise"
+    "enterprise": "Enterprise",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Reng",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Di pakêtê de hejmartin",
     "weight": "Pîvan",
     "type": "Mal",
-    "style": "Awayî"
+    "style": "Awayî",
   },
   "delivery_state": {
     "check_queue": "Li benda lêkolînê ye",
     "order_confirm": "Order Confirmation",
     "preparing_order": "Amadekirin",
     "sent_order": "Li ser teslîmkirina",
-    "to_customer": "Radest kirin"
+    "to_customer": "Radest kirin",
   },
   "status": {
     "unpaid": "Bêpere",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Refzkirin",
     "pending": "Nexelas",
     "rejected": "Redkirin",
-    "accepted": "Qebûl kirin"
+    "accepted": "Qebûl kirin",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motorbike",
@@ -1224,7 +1429,7 @@ export default {
     "global": "veguhestina gerdûnî",
     "global_description": "Bi hewa, behrê an bejahî ve şandina derveyî welat.",
     "pickup": "Pîkap",
-    "pickup_description": "Xerîdar tiştan li firotgeha laşî an depoya we hildigirin."
+    "pickup_description": "Xerîdar tiştan li firotgeha laşî an depoya we hildigirin.",
   },
   "article": {
     "login_to_see_error": "Têkeve ji bo gihîştina gotarê",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Moda biguherîne",
       "view_mode": "Moda dîtinê",
-      "delete": "Gotar jêbirin"
+      "delete": "Gotar jêbirin",
     },
     "schedule_action": "Ma hûn dixwazin weşana weşana plansaz bikin?",
     "schedule_title": "Weşandina oto-weşanê bername bike",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Rapora binpêkirinê bikin û naverokê jêbirin",
       "report_title": "Vê naverokê wekî xirabkar rapor bikin",
       "message": "Sedema şandina vê naverokê çi ye? Yek ji vebijarkên jêrîn hilbijêrin.",
-      "accept_and_delete_action": "Naverok piştrast bikin û jêbirin"
+      "accept_and_delete_action": "Naverok piştrast bikin û jêbirin",
     },
     "schedule_dialog": {
       "title": "Bernameya Ragihandina Naverokê",
       "publish_at": "Weşandin li",
       "last_edit": "Guhertina dawîn",
-      "view_action": "Binêre Gotar"
+      "view_action": "Binêre Gotar",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Agahdariyê bişînin",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Rapor û jêbirin",
       "report_and_delete_success_message": "Gotar bi serkeftî hate jêbirin.",
       "report_success_title": "Rapor gotara",
-      "report_success_message": "Rapora we li ser vê gotarê hate şandin."
+      "report_success_message": "Rapora we li ser vê gotarê hate şandin.",
     },
     "alert": {
       "delete_article": {
         "title": "Gotar jêbirin",
         "message": "Ma hûn pê bawer in ku hûn dixwazin vê gotarê bi daîmî jêbikin?",
-        "action": "Jêbirin"
-      }
+        "action": "Jêbirin",
+      },
     },
     "edit_window": {
       "title": "Nivîsar û Kurteya Wêne hilbijêrin",
-      "digest": "Berhevkirinî"
+      "digest": "Berhevkirinî",
     },
     "editor": {
       "title_placeholder": "Nav..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Ev pel pir mezin e:",
       "notifications": {
         "image_uploaded_success": "Wêne bi serkeftî hate tomarkirin",
-        "image_uploaded_failed": "Di barkirina wêneyê de çewtî."
+        "image_uploaded_failed": "Di barkirina wêneyê de çewtî.",
       },
       "embed_placeholder": "Koda iframe, Facebook, Youtube an URLek din binivîse û Enter bikirtînin.",
       "embed_caption_placeholder": "Sernavek binivîse (vebijarkî)",
-      "images_caption_placeholder": "Sernavek ji bo vê wêneyê binivîse.."
-    }
+      "images_caption_placeholder": "Sernavek ji bo vê wêneyê binivîse..",
+    },
   },
   "article_report": {
     "inappropriate": "Naveroka vê gotarê ne guncaw e.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ez difikirim ku ev naverok pornografiyê dihewîne û binpêkirina qanûnan e.",
     "harassment": "Ez difikirim ku ev nijadperestî ye.",
     "hate": "Ez difikirim ku ev ji bo pêşxistina şîdetê ye.",
-    "infringe": "Ev mafên min binpê dike."
+    "infringe": "Ev mafên min binpê dike.",
   },
   "comments": {
     "new_action": "Bikirtînin da ku şîroveyek bihêlin..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Bêtir şîroveyan bistînin..",
     "cant_send_comment": "Hûn nikarin posta nû lê zêde bikin.",
     "cant_remove_this_comment": "Tu nikarî vê şîroveyê jêbikî!",
-    "product_buyer": "Kirrîvan",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Şîroveyên min",
     "delete_alert": {
       "title": "Şîrove jêbirin",
       "message": "Ma tu dixwazî vê şîroveyê jê bibî?",
-      "action": "Jêbirin"
+      "action": "Jêbirin",
     },
     "notifications": {
-      "delete_success": "Şîroveya te bi serkeftî hat jêbirin."
+      "delete_success": "Şîroveya te bi serkeftî hat jêbirin.",
     },
     "first_send": "Post yekem",
     "comment_at": "Li",
     "edit_comment": "Biguherîne Comment",
-    "my_comments": "Şîroveyên min"
+    "product_buyer": "Kirrîvan",
   },
   "customer_club": {
     "bronze": "Tunc",
     "silver": "Zîv",
     "gold": "Zêrîn",
     "platinum": "Platinum",
-    "diamond": "Cewher"
+    "diamond": "Cewher",
   },
   "application_categories": {
     "tracking": "Kontrolkirina Tevgera Bikarhêner",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Reqlam",
     "staff": "Darik",
     "incentive": "Teşwîqên",
-    "shop": "Dikan"
+    "shop": "Dikan",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Tiştek nû lê zêde bike",
     "title_input": "Nav",
+    "placeholder_input": "Placeholder",
     "name_input": "Navê guherbar",
     "value_input": "Nirxên",
     "value_input_message": "Lîsteya Vebijêrkên Bikarhêner",
     "default": "Nirxa standard",
+    "file_type_input": "Cûreyên pelan ên pejirandî",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Asan",
       "selective": "Hilbijartî",
       "switch": "Gûherr",
       "file": "Dosî",
-      "number": "Jimare"
+      "number": "Jimare",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Placeholder",
-    "file_type_input": "Cûreyên pelan ên pejirandî",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Navê hilberê",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Rewşa dayinê",
     "payment_status_waiting": "Li benda tezmînatê ne",
     "payment_status_paid": "Pere kirin",
-    "buyer": "Kirrîvan"
+    "buyer": "Kirrîvan",
   },
   "virtual_item_info": {
     "title": "Babetê Virtual",
     "outputs": {
       "title": "Agahdariya derketinê",
       "sub_title": "Agahiyên nehênî yên vî babetî",
-      "message": "Ev agahdarî dê piştî kirîna hilberê ji bikarhênerê re were xuyang kirin."
+      "message": "Ev agahdarî dê piştî kirîna hilberê ji bikarhênerê re were xuyang kirin.",
     },
     "inputs": {
       "title": "Information Required",
       "sub_title": "Agahdariya Kiryarê Pêdivî ye",
-      "message": "Divê kiryar agahdariya daxwazkirî di formê de binivîse"
+      "message": "Divê kiryar agahdariya daxwazkirî di formê de binivîse",
     },
     "notifications": {
       "inputs_set_success": "Forma agahdariyê bi serkeftî hate tomar kirin.",
       "confirm_by_admin_success": "Temamkirina fermanê hate pejirandin.",
-      "confirm_by_buyer_success": "Temamkirina fermanê hate pejirandin."
-    }
+      "confirm_by_buyer_success": "Temamkirina fermanê hate pejirandin.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ev ferman ji hêla dravdana COD ve nayê pejirandin.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Balkeş nîne.",
     "legal_restriction": "Ji ber qedexeyên qanûnî nikarin fermanê bidin.",
     "pricing_fault": "Xeletiya nirxê ji hêla firoşkar ve.",
-    "system_fault": "Çewtiya pergalê."
+    "system_fault": "Çewtiya pergalê.",
   },
   "basket_order_info_summery": {
     "receiver": "Receiver",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Kêmkirinî",
     "final_price": "Mîqdara dawî",
     "address": "Navnîşana Delivery",
-    "payment_status": "Rewşa dayinê"
+    "payment_status": "Rewşa dayinê",
   },
   "basket_status": {
     "open": "Vekirî",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Betal kirin",
     "cod": "Pay Li ser Delivery",
     "receipt_added": "Meqbûz hat zêdekirin",
-    "payment_processing": "Pêvajoya dravdanê"
+    "payment_processing": "Pêvajoya dravdanê",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Redkirin",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Tesdîq",
     "step_3": "Amadekarî",
     "step_4": "Li ser teslîmkirina",
-    "step_5": "Radest kirin"
+    "step_5": "Radest kirin",
   },
   "basket_return_request_view": {
     "title": "Daxwaza Vegerê",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Daxwazê red bikin",
     "message_for_admin": "Li gorî peymana ku we bi karanîna Selldone qebûl kiriye, divê hûn bi kiryarî re têkilî daynin û wî/wê ji pêvajoya vegerandina fermana wî/wê agahdar bikin. Ger daxwaz were pejirandin an red kirin û razîbûna tam a kiriyar were girtin divê ev were kirin.",
     "notifications": {
-      "update_status_success": "Rewşa daxwazê hate nûve kirin."
-    }
+      "update_status_success": "Rewşa daxwazê hate nûve kirin.",
+    },
   },
   "basket_list": {
     "return_count": "Vegere: {count} hejmar",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Garantî",
       "count": "Jimartin",
-      "price": "biha"
-    }
+      "price": "biha",
+    },
   },
   "return_request_list": {
     "count": "Hejmara referansê",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Dîroka wergirtinê",
       "state": "Cî",
       "reason": "Semed",
-      "return_warranty_period": "Dema Garantî"
-    }
+      "return_warranty_period": "Dema Garantî",
+    },
   },
   "data_toolbar": {
     "search": "Gerr",
     "sort_by": "Bi rêzkirin",
-    "count_item": "Tiştên {item} nîşan bide"
+    "count_item": "Tiştên {item} nîşan bide",
   },
   "sort": {
     "created_at": "Dîrokê çêbikin",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Serbaz",
     "registered": "Qeyd kirin",
     "purchased": "Kirîn",
-    "sex": "Zayendî"
+    "sex": "Zayendî",
   },
   "search_box": {
     "result": "Encamên lêgerînê",
     "tips": "Hilber û Kategoriyan Bigerin",
     "label": "Lêgerîn...",
-    "category": "Liq"
+    "category": "Liq",
   },
   "lead_status": {
     "physical_fast_delivery": "Radestkirina Instant",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Amadekirin û şandina ji {days} rojên pêş de",
     "virtual_fast_prepare": "Radestkirina Instant",
     "virtual_under_24h": "Dê di nav {lead} saetên pêş de bê kirin",
-    "virtual_over_24h": "Dê ji rojên pêş de bê kirin"
+    "virtual_over_24h": "Will be done from the next {days} days",
   },
   "return_request_state": {
     "pending": "Nexelas",
     "accepted": "Piştrast kirin",
-    "rejected": "Redkirin"
+    "rejected": "Redkirin",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pevçûn an jimareya serial ya pakêtê",
       "U5": "Hin tiştên ji pakêtê winda ne",
       "U6": "Berhem ne orîjînal e",
-      "U7": "Hilber taybetmendiyan têr nake"
-    }
+      "U7": "Hilber taybetmendiyan têr nake",
+    },
   },
   "image_uploader": {
     "label": "<u>Pelê bikişîne & Davêje an Hilbijêre</u>",
-    "max_size": "Mezinahiya herî zêde destûr: {size}"
+    "max_size": "Mezinahiya herî zêde destûr: {size}",
   },
   "timespan": {
     "Morning": "8.00 - 12.00",
     "Evening": "12 nîvro ber 6 êvarê",
     "Night": "18:00-12:00",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "Şemî",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Sêşem",
     "Wednesday": "Çarşem",
     "Thursday": "Pêncşem",
-    "Friday": "În"
+    "Friday": "În",
   },
   "payment_form": {
     "title": "Rêbaza Paymentê hilbijêrin",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Pîroz be, emrê we belaş e!",
     "order_free_payment_action": "Siparîş belaş Now",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Navnîşana dravdanê",
-      "amount": "Biha"
-    }
+      "amount": "Biha",
+    },
   },
   "discount_input": {
     "limit": "{percent}% erzanî heta {limit} {currency}",
     "action": "Koda Discountê zêde bikin",
     "code_input": "Code Discount",
     "notifications": {
-      "add_success": "Pîrozbahî, koda dakêşana derbasdar."
-    }
+      "add_success": "Pîrozbahî, koda dakêşana derbasdar.",
+    },
   },
   "gift_card": {
     "inactive": "Kart neçalak e",
     "expire": "Expiry",
     "transfer": "Derbaskirin",
-    "send_to_friend": "Ji hevalê xwe re bişînin"
+    "send_to_friend": "Ji hevalê xwe re bişînin",
   },
   "count_down": {
     "days": "Roj",
     "hours": "Seet",
     "minutes": "Minutes",
-    "seconds": "Seconds"
+    "seconds": "Seconds",
   },
   "gift_status": {
     "Unpaid": "Li benda wergirtinê",
     "Paid": "Pere kirin",
     "Rejected": "Redkirin",
-    "Canceled": "Betal kirin"
+    "Canceled": "Betal kirin",
   },
   "gift_program_status": {
     "Airdrop": "System Payment",
     "Advertising": "Reqlam",
     "PersonalGift": "Diyariya kesane",
-    "ShopGift": "Gift Shop"
+    "ShopGift": "Gift Shop",
   },
   "currency_selector": {
-    "label": "Diravcins"
+    "label": "Diravcins",
   },
   "need_login": {
     "title": "login",
     "login_sms": "Têkeve SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Bi Google re têkevin",
     "login_facebook": "Bi Facebookê re têkevin",
+    "login_apple": "Bi Apple re têkevin",
     "login_account": "Têkeve ji hêla Selldone",
     "register": "Bikarhênerê nû? Niha qeyd bike.",
     "mobile_input": "Mobîla xwe têkevin",
     "verification_code": "Koda verastkirinê",
     "msg_title": "Merheba,",
     "msg_body": "Ji kerema xwe têkevinê. Ew tenê çend saniyan digire.",
-    "login_apple": "Bi Apple re têkevin",
     "login_email": "Têkeve bi E-nameyê",
     "email_login_step_1": "Ji kerema xwe navnîşanek e-nameyek derbasdar peyda bikin, û em ê koda têketinê jê re bişînin. No qeydkirin pêwîst e.",
     "email_login_step_2": "Ma hûn guman dikin ku we navnîşana e-nameya xwe rast nivîsandiye? Em ê koda têketinê ji e-nameya hatî peyda kirin re bişînin, ji ber vê yekê ji kerema xwe rastiya wê piştrast bikin.",
-    "email_login_step_3": "Me kodek ji e-nameya we re şandiye. Ji kerema xwe not bikin ku kod dê di 10 hûrdeman de biqede."
+    "email_login_step_3": "Me kodek ji e-nameya we re şandiye. Ji kerema xwe not bikin ku kod dê di 10 hûrdeman de biqede.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Sal Store Gold"
+      "name": "5 Sal Store Gold",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Sal Store Gold"
+      "name": "4 Sal Store Gold",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Sal Store Gold"
+      "name": "3 Sal Store Gold",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Sal Store Zêrîn"
+      "name": "2 Sal Store Zêrîn",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Sal Store Gold"
+      "name": "1 Sal Store Gold",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Veberhênerê Zêrîn"
+      "name": "Veberhênerê Zêrîn",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamond Investor"
+      "name": "Diamond Investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Endamê Civata Bilind a Tora Ragihandinê"
+      "name": "Endamê Civata Bilind a Tora Ragihandinê",
     },
     "GOLD_SUPPLIER": {
-      "name": "Zêrîn Supplier"
+      "name": "Zêrîn Supplier",
     },
     "GOLD_SELLER": {
-      "name": "Zêrîn Dealer"
+      "name": "Zêrîn Dealer",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Hilberînerê Naveroka Top"
+      "name": "Hilberînerê Naveroka Top",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Stêrk"
+      "name": "Stêrk",
     },
     "GUARDIAN": {
-      "name": "Xizmeta Mişterî ya Mezin"
+      "name": "Xizmeta Mişterî ya Mezin",
     },
     "KING": {
-      "name": "King of Market"
-    }
+      "name": "King of Market",
+    },
   },
   "cookie": {
     "title": "Ev malper cookies bikar tîne",
     "message": "Ev malper çerezan bikar tîne da ku ezmûna bikarhêner çêtir bike. Bi karanîna malpera me hûn razîbûna hemî cookies li gorî Siyaseta meya Cookie-yê didin.",
     "preferences_action": "Manage Preferences",
-    "agree_action": "Ez razî me"
+    "agree_action": "Ez razî me",
   },
   "basket_item_message": {
     "title": "Agahiyên pêwîst ji bo vî babetî",
     "save_actions": "Save Message",
+    "product_inputs_preview_message": "Van vebijarkên xwerûkirinê ji bo hilbera weya fermankirî hene. Dema ku tişt li selika we were zêdekirin, hûn ê bikaribin li vir sererastkirinê bikin.",
     "notifications": {
-      "success": "Daneyên têketina we hatine tomarkirin."
+      "success": "Daneyên têketina we hatine tomarkirin.",
     },
-    "product_inputs_preview_message": "Van vebijarkên xwerûkirinê ji bo hilbera weya fermankirî hene. Dema ku tişt li selika we were zêdekirin, hûn ê bikaribin li vir sererastkirinê bikin."
   },
   "faq": {
     "faq": "Pirsên Pir Pir Pirs",
     "title": "Pirs û Bersiv",
-    "sub_title": "We çi ji me xwest.",
     "message": "Di nav bersivên jêrîn de li bersiva pirsa xwe bigerin. Ger pirs bêbersiv bimînin ji me bipirsin.",
     "add_question_action": "Pirsa Nû Bipirsin",
     "read_more": "Zêdetir bixwînin..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Pirs",
     "question_input_placeholder": "Pirsa xwe bipirsin.",
     "notifications": {
-      "success_add": "Pirsa we bi serkeftî hate şandin."
-    }
+      "success_add": "Pirsa we bi serkeftî hate şandin.",
+    },
+    "sub_title": "We çi ji me xwest.",
   },
   "rating_labels": [
     "Gelek xirab",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Navnîşana cîhê binivîse",
     "enter_your_address": "Navnîşana xwe binivîse.",
     "postal_code": "Postcode",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Hejmara avahiyê",
     "building_unit": "Yekbûn",
     "full_name_input": "Navê tevahî {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Etîketa navnîşan (Pêdivî ye)",
     "notifications": {
       "save_in_list": "Ev navnîşan bi hemî hûrguliyên xwe ve di navnîşa we de hate tomar kirin.",
-      "edit_success": "Nirxên navnîşana nû di {title} de hatine tomarkirin."
+      "edit_success": "Nirxên navnîşana nû di {title} de hatine tomarkirin.",
     },
     "delete_address_dialog": {
       "title": "Navnîşan jêbirin",
       "message": "Ma tu bi rastî dixwazî vê navnîşanê jê bibî?",
-      "action": "Navnîşan jêbirin"
-    }
+      "action": "Navnîşan jêbirin",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Nikare vê şîroveyê biguherîne!",
     "comment_input_empty": "Nivîsara peyamê vala ye!",
-    "article_not_saved": "Gotarê biparêze!"
+    "article_not_saved": "Gotarê biparêze!",
   },
   "wheel_fortune": {
     "title": "Play & Serkeftin",
     "message": "Buhayê her lîstikê 10 çîp e. Te niha çîpa {chips} heye. Bi kirîna ji dikanê çîpek zêdetir bistînin.",
     "win_message": "Pîroz be, Tu Serkeftin!",
     "lost_message": "Bibore, te lîstik winda kir.",
-    "try_again": "Hûn dikarin dîsa biceribînin"
+    "try_again": "Hûn dikarin dîsa biceribînin",
   },
   "json": {
     "add": "Daneyên avahiyê zêde bikin",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Structures",
     "book": {
       "title": "Pirtûk",
-      "desc": "Çalakiyên pirtûkê yên ku bikarhêneran dihêle ku pirtûka ku rasterast ji encamên Lêgerînê peyda dikin bikirin."
+      "desc": "Çalakiyên pirtûkê yên ku bikarhêneran dihêle ku pirtûka ku rasterast ji encamên Lêgerînê peyda dikin bikirin.",
     },
     "occupation": {
       "title": "Meaşê texmînkirî",
-      "desc": "Agahdariya li ser texmîna meaş, wek rêzikên meaş û navgînên mûçeyên li gorî herêmê ji bo celebên kar, di ezmûna lêgerîna kar de li Google-ê têne xuyang kirin."
+      "desc": "Agahdariya li ser texmîna meaş, wek rêzikên meaş û navgînên mûçeyên li gorî herêmê ji bo celebên kar, di ezmûna lêgerîna kar de li Google-ê têne xuyang kirin.",
     },
     "course": {
       "title": "Kûrs",
-      "desc": "Kursên perwerdehiyê yên ku di navnîşek pêşkêşker-taybetî de xuya dibin. Kurs dikarin sernavê qursê, pêşkêşker, û ravekek kurt bin."
+      "desc": "Kursên perwerdehiyê yên ku di navnîşek pêşkêşker-taybetî de xuya dibin. Kurs dikarin sernavê qursê, pêşkêşker, û ravekek kurt bin.",
     },
     "howto": {
       "title": "Çawa",
-      "desc": "A How-to bikarhêneran di nav komek gavan de dimeşîne da ku karek bi serfirazî biqedîne, ku vîdyo, wêne û nivîsê vedihewîne."
+      "desc": "A How-to bikarhêneran di nav komek gavan de dimeşîne da ku karek bi serfirazî biqedîne, ku vîdyo, wêne û nivîsê vedihewîne.",
     },
     "recipe": {
       "title": "Reçete",
-      "desc": "Reçeteyên ku wekî encamek dewlemend a kesane an beşek ji karûzek mêvandar têne xuyang kirin."
-    }
+      "desc": "Reçeteyên ku wekî encamek dewlemend a kesane an beşek ji karûzek mêvandar têne xuyang kirin.",
+    },
   },
   "support": {
     "Financial": "Aborî",
     "Technical": "Teknîkî",
-    "Advisor": "Şêwirmend"
+    "Advisor": "Şêwirmend",
   },
   "condition": {
     "new": "Nşh",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Bikaranîn",
     "used_fair": "adil tê bikaranîn",
     "used_good": "Baş bi kar anîn",
-    "used_like_new": "Wek nû tê bikaranîn"
+    "used_like_new": "Wek nû tê bikaranîn",
   },
   "variant_filter": {
     "title": "Parzûna Guhertoya Hilberê",
-    "only_available": "Ez bêzarim"
+    "only_available": "Ez bêzarim",
   },
   "service": {
     "task": {
       "title": "Tasks",
-      "message": "Lîsteya karên ku di vê xizmetê de têne kirin."
+      "message": "Lîsteya karên ku di vê xizmetê de têne kirin.",
     },
     "appointment": {
       "title": "Binavkirî",
-      "message": "Li gorî roj û saeta ku ji bo we rast e, demên hefteyê ji demên jêrîn hilbijêrin."
+      "message": "Li gorî roj û saeta ku ji bo we rast e, demên hefteyê ji demên jêrîn hilbijêrin.",
     },
     "booking": {
       "title": "Booking",
-      "message": "Di salnameya jêrîn de heyama rojên ku hûn dixwazin veqetandinê bikin diyar bikin."
+      "message": "Di salnameya jêrîn de heyama rojên ku hûn dixwazin veqetandinê bikin diyar bikin.",
     },
     "subscription": {
-      "title": "Abonetî"
+      "title": "Abonetî",
     },
     "charge": {
-      "title": "Biha"
-    }
+      "title": "Biha",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "bihayê sabît",
-      "message": "Di vê celebê bihakirinê de, bihayê hilberê mîqdarek sabit e û ne hewce ye ku kiryar hesabek bihayê bixwaze."
+      "message": "Di vê celebê bihakirinê de, bihayê hilberê mîqdarek sabit e û ne hewce ye ku kiryar hesabek bihayê bixwaze.",
     },
     "ESTIMATION": {
       "title": "Texmîna Bihayê",
-      "message": "Bihayê hilber û karûbaran dê heya radeyekê ji hêla firoşker ve dema ku fermanê dide were hesibandin, fatûreyên dravdanê dikarin di dema karûbarê de werin guhertin an zêdekirin."
+      "message": "Bihayê hilber û karûbaran dê heya radeyekê ji hêla firoşker ve dema ku fermanê dide were hesibandin, fatûreyên dravdanê dikarin di dema karûbarê de werin guhertin an zêdekirin.",
     },
     "AGREEMENT": {
       "title": "Bihayê Peymana",
-      "message": "Bihaya paşîn a hilber an karûbaran piştî ku ferman hate danîn dê ji hêla firoşkar ve neyê guheztin."
+      "message": "Bihaya paşîn a hilber an karûbaran piştî ku ferman hate danîn dê ji hêla firoşkar ve neyê guheztin.",
     },
     "BID": {
       "title": "Bid / Mezad",
-      "message": "Hilber dê ji hêla kirrûbirên potansiyel ve bi bihayê bihayê herî zêde were firotin."
-    }
+      "message": "Hilber dê ji hêla kirrûbirên potansiyel ve bi bihayê bihayê herî zêde were firotin.",
+    },
   },
   "map": {
     "title": "Armanca wergirtina hilberan",
     "confirm": "Cihê danîn",
     "address": "Armanca seyahatê",
-    "receptor": "Receiver"
+    "receptor": "Receiver",
   },
   "ShopBots": {
-    "telegram": "Têlxiram"
+    "telegram": "Têlxiram",
   },
   "article_tags": {
     "title": "Etîketên naverokê",
     "tags_input": "Tags",
     "tags_input_message": "Tags Lîsteya vê gotarê",
     "notification": {
-      "add_success": "Etîket hatin zêdekirin"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Pir tevlîhev",
-    "hard": "Hişk",
-    "intermediate": "Di nav",
-    "easy": "Sivik"
-  },
-  "billing_period": {
-    "Daily": "Rojane",
-    "Weekly": "Heftane",
-    "Monthly": "Mehane",
-    "Every3Months": "Her 3 mehan carekê",
-    "Every6Months": "Her 6 mehan carekê",
-    "Yearly": "Salane"
+      "add_success": "Etîket hatin zêdekirin",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh ne baş e!",
     "between2_3": "Başe!",
     "between3_4": "Mirov jê hez dike!",
-    "between4_5": "Mirov jê hez dike!"
+    "between4_5": "Mirov jê hez dike!",
   },
   "seasons": {
     "spring": "Bihar",
     "summer": "Havîn",
     "autumn": "Payiz",
-    "winter": "Zivistan"
-  }
+    "winter": "Zivistan",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

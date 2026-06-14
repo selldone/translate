@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Nimesoma sheria na masharti ya matumizi na sera ya faragha na kukubaliana nayo.",
   "commons": {
     "Currency": "Sarafu",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Jimbo",
     "Price": "bei",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Bei halisi",
     "tax": "Kodi",
     "tax_included": "Imejumuishwa katika bei",
+    "tax_included_abstract": "pamoja na",
     "limit": "Kikomo",
     "min_purchase": "Kiwango cha chini cha ununuzi",
     "eligible_for": "Inastahiki",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Tarehe iliyoundwa",
     "updated_at": "Sasisho la mwisho",
     "register_at": "Tarehe ya usajili",
+    "last_modified": "Last modified",
     "old": "Mzee",
     "new": "Mpya",
     "start": "Anza",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Muuzaji",
     "tracking_code": "Msimbo wa ufuatiliaji",
     "tracking_url": "URL ya kufuatilia",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Utimilifu",
     "reject": "Kataa",
     "reserved": "Imehifadhiwa",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Inasubiri...",
     "waiting_connecting_payment": "Inasubiri huduma ya malipo...",
     "creating_secure_payment": "Kuunda malipo salama.",
+    "waiting_for_payment": "Tafadhali kamilisha malipo...",
     "officer": "Afisa",
     "ticket": "Tikiti",
     "ticket_url": "Url ya tikiti",
@@ -361,7 +366,6 @@ export default {
     "rates": "Ukadiriaji",
     "seen_at": "Imeonekana kwenye",
     "completed": "Imekamilika",
-    "you": "Wewe",
     "shop": "Duka",
     "store": "duka",
     "granted": "Imekubaliwa",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Kompyuta kibao",
     "pc": "PC",
     "acquisition_channel": "Chaneli ya usakinishaji",
+    "channels_overview": "Channels overview",
     "to": "Kwa",
     "info": "Habari",
     "general": "Mkuu",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Kwa bidhaa",
     "journey": "Safari",
     "after": "Baada ya",
-    "waiting_for_payment": "Tafadhali kamilisha malipo...",
     "hour": "Saa",
     "minute": "Dakika",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Maduka",
     "vendor": "Mchuuzi",
     "vendors": "Wachuuzi",
+    "no_vendors": "No vendors",
     "marketplace": "Sokoni",
     "verify_date": "Thibitisha tarehe",
     "note": "Kumbuka",
@@ -604,7 +609,6 @@ export default {
     "variant": "Lahaja",
     "secure": "Salama",
     "admin": "Msimamizi",
-    "tax_included_abstract": "pamoja na",
     "payment_not_settled": "Malipo hayajatatuliwa!",
     "orders_list": "Orodha ya maagizo",
     "subscription_plan": "Mpango wa usajili",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Vikundi",
     "subscriptions": "Usajili",
     "spam": "Barua taka",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Wewe",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Ngumu sana",
+    "hard": "Ngumu",
+    "intermediate": "Kati",
+    "easy": "Rahisi",
   },
   "dialogs": {
     "delete": {
       "title": "Futa",
       "message": "Je, una uhakika wa kufuta kipengee hiki?",
-      "action": "Ndiyo, Futa sasa"
-    }
+      "action": "Ndiyo, Futa sasa",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Ongeza kwenye Cart",
     "cancel": "Ghairi",
     "update": "Sasisha",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ongeza kadi ya zawadi",
     "charge": "Malipo",
     "send_invites": "Tuma mialiko",
-    "past": "Zamani",
+    "paste": "Bandika",
     "restore": "Rejesha",
     "cut": "Kata",
     "get_sms_code": "Pata msimbo wa uthibitishaji",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Onyesha onyesho la kukagua",
     "hide_preview": "Ficha onyesho la kukagua",
     "download_now": "Download sasa",
+    "watch_now": "Tazama Sasa",
     "auto_fill": "Jaza kiotomatiki",
     "track": "Wimbo",
     "change_state": "Badilisha Hali",
     "done": "Imekamilika",
     "reply": "Jibu",
-    "watch_now": "Tazama Sasa",
     "unlock": "Fungua",
     "lock": "Funga",
     "create_clone": "Unda clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Nunua",
     "view_all": "Tazama zote",
     "view_now": "Tazama Sasa",
-    "paste": "Bandika"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Zamani",
+  },
+  "billing_period": {
+    "Daily": "Kila siku",
+    "Weekly": "Kila wiki",
+    "Monthly": "Kila mwezi",
+    "Every3Months": "Kila baada ya miezi 3",
+    "Every6Months": "Kila baada ya miezi 6",
+    "Yearly": "Kila mwaka",
   },
   "instance_message_title": "Tuma ujumbe papo hapo",
   "instance_message": "Hujambo {name}, Jina langu ni {author} kutoka {company}.",
   "errors": {
     "419": "Umekuwa hutumii kwa muda mrefu, tafadhali <b>⟳ WEKA UPYA UKURASA</b> kwa sababu za kiusalama.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Mfumo haulingani na blockchain. Haitawezekana kuunda muamala mpya hadi ulandanishi wa seva zetu ukamilike. Tunatatua tatizo.",
-    "gateway_network_error": "Huduma ya lango la malipo imekumbana na tatizo la mawasiliano."
+    "gateway_network_error": "Huduma ya lango la malipo imekumbana na tatizo la mawasiliano.",
   },
   "receiver_info": {
     "map": {
       "title": "Anwani ya kusafirishia",
       "confirm": "Weka eneo",
       "address_type": "Lengwa",
-      "receptor_type": "Mpokeaji"
+      "receptor_type": "Mpokeaji",
     },
     "receiver_address": "Chagua anwani ya usafirishaji",
+    "service_address": "Chagua anwani yako",
+    "select_billing_address": "Select billing address",
     "address": "anwani",
     "postcode": "Msimbo wa posta",
     "enter_value": "Jaza hapa",
     "address_note": "Kumbuka",
     "tel": "Namba ya mawasiliano",
-    "service_address": "Chagua anwani yako"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "LB",
-    "kg": "kilo"
+    "kg": "kilo",
   },
   "mass_unit_name": {
     "g": "gramu",
     "oz": "Ounce",
     "lb": "Pauni",
-    "kg": "kilo"
+    "kg": "kilo",
   },
   "length": {
     "cm": "sentimita",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Sentimita",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Mguu",
     "mm": "milimita",
     "m": "mita",
-    "yd": "Yadi"
+    "yd": "Yadi",
   },
   "distance": {
     "m": "mita",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Siku",
     "hours": "Saa",
     "minutes": "Dakika",
-    "seconds": "Sekunde"
+    "seconds": "Sekunde",
   },
   "units": [
     "Kitengo",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Jimbo",
     "Territory": "Eneo",
-    "Province": "Mkoa"
+    "Province": "Mkoa",
   },
   "transaction_status": {
     "RequireAction": "Hatua Inahitajika",
     "Processing": "Inachakata",
     "Canceled": "Imeghairiwa",
-    "Succeeded": "Imefaulu"
+    "Succeeded": "Imefaulu",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jones Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Chagua lugha..",
     "friend_email": "Barua pepe ya rafiki yako...",
     "friend_name": "Chagua. Jina la rafiki yako",
-    "select_date": "Chagua tarehe..."
+    "select_date": "Chagua tarehe...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Thibitisha",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Upeo wa herufi {maxCount}",
     "invalid_url": "URL batili",
     "country_invalid": "Chagua nchi unakoenda!",
-    "postal_code_invalid": "Weka msimbo halali wa posta!"
+    "postal_code_invalid": "Weka msimbo halali wa posta!",
   },
   "colors": {
     "#D32F2F": "Nyekundu",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Kitengo",
     "postcode": "Msimbo wa posta",
     "note": "Kumbuka",
-    "county": "Wilaya"
+    "county": "Wilaya",
   },
   "product_types": {
     "physical": "Kimwili",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Huduma",
     "service_description": "Huduma kama vile: ukarabati, usafiri, mafundisho.",
     "subscription": "Usajili",
-    "subscription_description": "Usajili na ankara za bidhaa, huduma au yaliyomo."
+    "subscription_description": "Usajili na ankara za bidhaa, huduma au yaliyomo.",
   },
   "license": {
     "free": "Bure",
     "startup": "Anzisha",
     "company": "Kampuni",
-    "enterprise": "Biashara"
+    "enterprise": "Biashara",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Rangi",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Hesabu katika pakiti",
     "weight": "Uzito",
     "type": "Nyenzo",
-    "style": "Mtindo"
+    "style": "Mtindo",
   },
   "delivery_state": {
     "check_queue": "Inasubiri ukaguzi",
     "order_confirm": "Uthibitishaji wa Agizo",
     "preparing_order": "Kuandaa",
     "sent_order": "Juu ya utoaji",
-    "to_customer": "Imewasilishwa"
+    "to_customer": "Imewasilishwa",
   },
   "status": {
     "unpaid": "Haijalipwa",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Kataa",
     "pending": "Inasubiri",
     "rejected": "Imekataliwa",
-    "accepted": "Imekubaliwa"
+    "accepted": "Imekubaliwa",
   },
   "dimensions": {
     "cm": "sentimita",
     "km": "km",
-    "kg": "kilo"
+    "kg": "kilo",
   },
   "transportation_type": {
     "motorbike": "Pikipiki",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Usafiri wa kimataifa",
     "global_description": "Kusafirisha nje ya nchi kwa anga, bahari au nchi kavu.",
     "pickup": "Inua",
-    "pickup_description": "Wateja huchukua vitu kwenye duka lako halisi au ghala."
+    "pickup_description": "Wateja huchukua vitu kwenye duka lako halisi au ghala.",
   },
   "article": {
     "login_to_see_error": "Ingia ili kufikia makala",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Hali ya kuhariri",
       "view_mode": "Hali ya kutazama",
-      "delete": "Futa Kifungu"
+      "delete": "Futa Kifungu",
     },
     "schedule_action": "Je, ungependa kuratibu uchapishaji?",
     "schedule_title": "Ratibu uchapishaji otomatiki",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Ripoti matumizi mabaya na uondoe maudhui",
       "report_title": "Ripoti maudhui haya kama matusi",
       "message": "Je, ni sababu gani ya kuwasilisha maudhui haya? Chagua mojawapo ya chaguo zifuatazo.",
-      "accept_and_delete_action": "Thibitisha na Futa Yaliyomo"
+      "accept_and_delete_action": "Thibitisha na Futa Yaliyomo",
     },
     "schedule_dialog": {
       "title": "Ratiba ya Utoaji wa Maudhui",
       "publish_at": "Chapisha kwenye",
       "last_edit": "Uhariri wa mwisho",
-      "view_action": "Tazama Kifungu"
+      "view_action": "Tazama Kifungu",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Peana Taarifa",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Ripoti na Futa",
       "report_and_delete_success_message": "Kifungu kimefutwa.",
       "report_success_title": "Ripoti makala",
-      "report_success_message": "Ripoti yako kuhusu makala hii imechapishwa."
+      "report_success_message": "Ripoti yako kuhusu makala hii imechapishwa.",
     },
     "alert": {
       "delete_article": {
         "title": "Futa Kifungu",
         "message": "Je, una uhakika ungependa kufuta makala haya kabisa?",
-        "action": "Futa"
-      }
+        "action": "Futa",
+      },
     },
     "edit_window": {
       "title": "Chagua Maandishi ya Picha na Muhtasari",
-      "digest": "Muhtasari"
+      "digest": "Muhtasari",
     },
     "editor": {
       "title_placeholder": "Kichwa..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Faili hii ni kubwa sana:",
       "notifications": {
         "image_uploaded_success": "Picha imehifadhiwa",
-        "image_uploaded_failed": "Hitilafu katika kupakia picha."
+        "image_uploaded_failed": "Hitilafu katika kupakia picha.",
       },
       "embed_placeholder": "Ingiza msimbo wa iframe, Facebook, Youtube au URL nyingine yoyote na ubonyeze ingiza.",
       "embed_caption_placeholder": "Weka kichwa (si lazima)",
-      "images_caption_placeholder": "Weka kichwa cha picha hii .."
-    }
+      "images_caption_placeholder": "Weka kichwa cha picha hii ..",
+    },
   },
   "article_report": {
     "inappropriate": "Maudhui ya makala haya hayafai.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Nadhani maudhui haya yana ponografia na yanakiuka sheria.",
     "harassment": "Nadhani huu ni ubaguzi wa rangi.",
     "hate": "Nadhani hii ni juu ya kukuza vurugu.",
-    "infringe": "Hii inakiuka haki zangu."
+    "infringe": "Hii inakiuka haki zangu.",
   },
   "comments": {
     "new_action": "Bofya ili kuacha maoni..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Pata maoni zaidi..",
     "cant_send_comment": "Huwezi kuongeza chapisho jipya.",
     "cant_remove_this_comment": "Huwezi kufuta maoni haya!",
-    "product_buyer": "Mnunuzi",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Maoni Yangu",
     "delete_alert": {
       "title": "Futa Maoni",
       "message": "Je, ungependa kufuta maoni haya?",
-      "action": "Futa"
+      "action": "Futa",
     },
     "notifications": {
-      "delete_success": "Maoni yako yamefutwa."
+      "delete_success": "Maoni yako yamefutwa.",
     },
     "first_send": "Chapisho la kwanza",
     "comment_at": "Washa",
     "edit_comment": "Hariri Maoni",
-    "my_comments": "Maoni Yangu"
+    "product_buyer": "Mnunuzi",
   },
   "customer_club": {
     "bronze": "Shaba",
     "silver": "Fedha",
     "gold": "Dhahabu",
     "platinum": "Platinamu",
-    "diamond": "Almasi"
+    "diamond": "Almasi",
   },
   "application_categories": {
     "tracking": "Kuangalia Tabia ya Mtumiaji",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Utangazaji",
     "staff": "Wafanyakazi",
     "incentive": "Motisha",
-    "shop": "Duka"
+    "shop": "Duka",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Ongeza kipengee kipya",
     "title_input": "Kichwa",
+    "placeholder_input": "Kishika nafasi",
     "name_input": "Jina la kubadilika",
     "value_input": "Maadili",
     "value_input_message": "Orodha ya Chaguzi za Mtumiaji",
     "default": "Thamani chaguomsingi",
+    "file_type_input": "Aina za faili zinazokubalika",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Rahisi",
       "selective": "Kuchagua",
       "switch": "Badili",
       "file": "Faili",
-      "number": "Nambari"
+      "number": "Nambari",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Kishika nafasi",
-    "file_type_input": "Aina za faili zinazokubalika",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Jina la bidhaa",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Hali ya malipo",
     "payment_status_waiting": "Inasubiri malipo",
     "payment_status_paid": "Imelipwa",
-    "buyer": "Mnunuzi"
+    "buyer": "Mnunuzi",
   },
   "virtual_item_info": {
     "title": "Kipengee cha Mtandao",
     "outputs": {
       "title": "Taarifa za Pato",
       "sub_title": "Taarifa ya Siri ya Kipengee hiki",
-      "message": "Taarifa hii itaonyeshwa kwa mtumiaji baada ya kununua bidhaa."
+      "message": "Taarifa hii itaonyeshwa kwa mtumiaji baada ya kununua bidhaa.",
     },
     "inputs": {
       "title": "Taarifa Inahitajika",
       "sub_title": "Taarifa ya Mnunuzi Inahitajika",
-      "message": "Mnunuzi lazima aingize maelezo yaliyoombwa katika fomu"
+      "message": "Mnunuzi lazima aingize maelezo yaliyoombwa katika fomu",
     },
     "notifications": {
       "inputs_set_success": "Fomu ya habari imesajiliwa kwa mafanikio.",
       "confirm_by_admin_success": "Ukamilishaji wa agizo umethibitishwa.",
-      "confirm_by_buyer_success": "Ukamilishaji wa agizo umethibitishwa."
-    }
+      "confirm_by_buyer_success": "Ukamilishaji wa agizo umethibitishwa.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Agizo hili haliwezi kukubaliwa na malipo ya COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Imeisha.",
     "legal_restriction": "Imeshindwa kuagiza kwa sababu ya vikwazo vya kisheria.",
     "pricing_fault": "Makosa ya bei na muuzaji.",
-    "system_fault": "Hitilafu ya mfumo."
+    "system_fault": "Hitilafu ya mfumo.",
   },
   "basket_order_info_summery": {
     "receiver": "Mpokeaji",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Punguzo",
     "final_price": "Kiasi cha mwisho",
     "address": "Anwani ya Uwasilishaji",
-    "payment_status": "Hali ya malipo"
+    "payment_status": "Hali ya malipo",
   },
   "basket_status": {
     "open": "Fungua",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Imeghairiwa",
     "cod": "Lipa Unapotuma",
     "receipt_added": "Risiti imeongezwa",
-    "payment_processing": "Usindikaji wa malipo"
+    "payment_processing": "Usindikaji wa malipo",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Imekataliwa",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Uthibitisho",
     "step_3": "Maandalizi",
     "step_4": "Juu ya utoaji",
-    "step_5": "Imewasilishwa"
+    "step_5": "Imewasilishwa",
   },
   "basket_return_request_view": {
     "title": "Ombi la Kurudisha",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Kataa ombi",
     "message_for_admin": "Kulingana na makubaliano uliyokubali kwa kutumia Selldone, lazima uwasiliane na mnunuzi na kumweleza juu ya mchakato wa kurejesha agizo lake. Hii lazima ifanyike ikiwa ombi limekubaliwa au kukataliwa na idhini kamili ya mnunuzi inapatikana.",
     "notifications": {
-      "update_status_success": "Hali ya ombi imesasishwa."
-    }
+      "update_status_success": "Hali ya ombi imesasishwa.",
+    },
   },
   "basket_list": {
     "return_count": "Rudisha: nambari {count}",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Lahaja",
       "warranty": "Dhamana",
       "count": "Hesabu",
-      "price": "bei"
-    }
+      "price": "bei",
+    },
   },
   "return_request_list": {
     "count": "Nambari ya kumbukumbu",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Tarehe ya Kupokelewa",
       "state": "Hali",
       "reason": "Sababu",
-      "return_warranty_period": "Kipindi cha udhamini"
-    }
+      "return_warranty_period": "Kipindi cha udhamini",
+    },
   },
   "data_toolbar": {
     "search": "Tafuta",
     "sort_by": "Panga kwa",
-    "count_item": "Onyesha vipengee {item}"
+    "count_item": "Onyesha vipengee {item}",
   },
   "sort": {
     "created_at": "Tengeneza tarehe",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Afisa",
     "registered": "Imesajiliwa",
     "purchased": "Imenunuliwa",
-    "sex": "Jinsia"
+    "sex": "Jinsia",
   },
   "search_box": {
     "result": "Matokeo ya utafutaji",
     "tips": "Tafuta Bidhaa na Kategoria",
     "label": "Tafuta ...",
-    "category": "Kategoria"
+    "category": "Kategoria",
   },
   "lead_status": {
     "physical_fast_delivery": "Utoaji wa papo hapo",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Inatayarisha na kuwasilisha kuanzia siku {days} zijazo",
     "virtual_fast_prepare": "Utoaji wa papo hapo",
     "virtual_under_24h": "Itafanyika ndani ya saa {lead} zijazo",
-    "virtual_over_24h": "Itafanyika kuanzia siku {days} zijazo"
+    "virtual_over_24h": "Itafanyika kuanzia siku {days} zijazo",
   },
   "return_request_state": {
     "pending": "Inasubiri",
     "accepted": "Imethibitishwa",
-    "rejected": "Imekataliwa"
+    "rejected": "Imekataliwa",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Uharibifu wa kifurushi au nambari ya serial",
       "U5": "Baadhi ya vipengee kutoka kwenye kifurushi havipo",
       "U6": "Bidhaa sio asili",
-      "U7": "Bidhaa haikidhi vipimo"
-    }
+      "U7": "Bidhaa haikidhi vipimo",
+    },
   },
   "image_uploader": {
     "label": "Buruta & Achia au <u>Teua faili</u>",
-    "max_size": "Ukubwa wa juu unaoruhusiwa: {size}"
+    "max_size": "Ukubwa wa juu unaoruhusiwa: {size}",
   },
   "timespan": {
     "Morning": "8 asubuhi - 12 jioni",
     "Evening": "Saa 12 hadi 6 jioni",
     "Night": "6 jioni-12 jioni",
-    "Instant": "Chapisho la Papo hapo"
+    "Instant": "Chapisho la Papo hapo",
   },
   "week_day": {
     "Saturday": "Jumamosi",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Jumanne",
     "Wednesday": "Jumatano",
     "Thursday": "Alhamisi",
-    "Friday": "Ijumaa"
+    "Friday": "Ijumaa",
   },
   "payment_form": {
     "title": "Chagua Njia ya Kulipa",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Hongera, agizo lako ni bure!",
     "order_free_payment_action": "Agiza Bure Sasa",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Anwani ya malipo",
-      "amount": "Kiasi"
-    }
+      "amount": "Kiasi",
+    },
   },
   "discount_input": {
     "limit": "{percent}% punguzo hadi {limit} {currency}",
     "action": "Ongeza Msimbo wa Punguzo",
     "code_input": "Msimbo wa Punguzo",
     "notifications": {
-      "add_success": "Hongera, msimbo halali wa punguzo."
-    }
+      "add_success": "Hongera, msimbo halali wa punguzo.",
+    },
   },
   "gift_card": {
     "inactive": "Kadi imezimwa",
     "expire": "Muda wake unaisha",
     "transfer": "Uhamisho",
-    "send_to_friend": "Tuma kwa rafiki"
+    "send_to_friend": "Tuma kwa rafiki",
   },
   "count_down": {
     "days": "Siku",
     "hours": "Saa",
     "minutes": "Dakika",
-    "seconds": "Sekunde"
+    "seconds": "Sekunde",
   },
   "gift_status": {
     "Unpaid": "Inasubiri Risiti",
     "Paid": "Imelipwa",
     "Rejected": "Imekataliwa",
-    "Canceled": "Imeghairiwa"
+    "Canceled": "Imeghairiwa",
   },
   "gift_program_status": {
     "Airdrop": "Mfumo wa Malipo",
     "Advertising": "Utangazaji",
     "PersonalGift": "Zawadi ya Kibinafsi",
-    "ShopGift": "Duka la zawadi"
+    "ShopGift": "Duka la zawadi",
   },
   "currency_selector": {
-    "label": "Sarafu"
+    "label": "Sarafu",
   },
   "need_login": {
     "title": "Ingia",
     "login_sms": "Ingia kwa SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Ingia kwa kutumia Google",
     "login_facebook": "Ingia kwa kutumia Facebook",
+    "login_apple": "Ingia na Apple",
     "login_account": "Ingia na Selldone",
     "register": "Mtumiaji mpya? Jiandikishe sasa.",
     "mobile_input": "Ingiza simu yako ya mkononi",
     "verification_code": "Nambari ya uthibitishaji",
     "msg_title": "Habari,",
     "msg_body": "Tafadhali ingia. Inachukua sekunde chache tu.",
-    "login_apple": "Ingia na Apple",
     "login_email": "Ingia kwa Barua Pepe",
     "email_login_step_1": "Tafadhali toa barua pepe halali, na tutaitumia msimbo wa kuingia. Hakuna usajili unaohitajika.",
     "email_login_step_2": "Je, una uhakika kuwa umeingiza anwani yako ya barua pepe kwa usahihi? Tutakuwa tukituma msimbo wa kuingia kwa barua pepe iliyotolewa, kwa hivyo tafadhali hakikisha usahihi wake.",
-    "email_login_step_3": "Tumekutumia nambari ya kuthibitisha kwenye barua pepe yako. Tafadhali kumbuka kuwa muda wa kutumia nambari utaisha baada ya dakika 10."
+    "email_login_step_3": "Tumekutumia nambari ya kuthibitisha kwenye barua pepe yako. Tafadhali kumbuka kuwa muda wa kutumia nambari utaisha baada ya dakika 10.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Duka la Dhahabu la Miaka 5"
+      "name": "Duka la Dhahabu la Miaka 5",
     },
     "GOLDEN_2YEAR": {
-      "name": "Duka la Dhahabu la Miaka 4"
+      "name": "Duka la Dhahabu la Miaka 4",
     },
     "GOLDEN_3YEAR": {
-      "name": "Duka la Dhahabu la Miaka 3"
+      "name": "Duka la Dhahabu la Miaka 3",
     },
     "GOLDEN_4YEAR": {
-      "name": "Duka la Dhahabu la Miaka 2"
+      "name": "Duka la Dhahabu la Miaka 2",
     },
     "GOLDEN_5YEAR": {
-      "name": "Duka la Dhahabu la Mwaka 1"
+      "name": "Duka la Dhahabu la Mwaka 1",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Mwekezaji wa Dhahabu"
+      "name": "Mwekezaji wa Dhahabu",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Mwekezaji wa Diamond"
+      "name": "Mwekezaji wa Diamond",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Mwekezaji wa Ruby"
+      "name": "Mwekezaji wa Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Mwanachama wa Jumuiya ya Juu ya Mitandao ya Mawasiliano"
+      "name": "Mwanachama wa Jumuiya ya Juu ya Mitandao ya Mawasiliano",
     },
     "GOLD_SUPPLIER": {
-      "name": "Msambazaji wa Dhahabu"
+      "name": "Msambazaji wa Dhahabu",
     },
     "GOLD_SELLER": {
-      "name": "Mchuuzi wa Dhahabu"
+      "name": "Mchuuzi wa Dhahabu",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Mtayarishaji Bora wa Maudhui"
+      "name": "Mtayarishaji Bora wa Maudhui",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Nyota"
+      "name": "Nyota",
     },
     "GUARDIAN": {
-      "name": "Huduma Kubwa kwa Wateja"
+      "name": "Huduma Kubwa kwa Wateja",
     },
     "KING": {
-      "name": "Mfalme wa Soko"
-    }
+      "name": "Mfalme wa Soko",
+    },
   },
   "cookie": {
     "title": "Tovuti hii hutumia vidakuzi",
     "message": "Tovuti hii hutumia vidakuzi kuboresha matumizi ya mtumiaji. Kwa kutumia tovuti yetu unakubali vidakuzi vyote kwa mujibu wa Sera yetu ya Vidakuzi.",
     "preferences_action": "Dhibiti Mapendeleo",
-    "agree_action": "Nakubali"
+    "agree_action": "Nakubali",
   },
   "basket_item_message": {
     "title": "Taarifa zinazohitajika kwa kipengee hiki",
     "save_actions": "Hifadhi Ujumbe",
+    "product_inputs_preview_message": "Chaguo hizi za kubinafsisha zinapatikana kwa bidhaa uliyoagiza. Kipengee kikishaongezwa kwenye rukwama yako, utaweza kufanya marekebisho hapa.",
     "notifications": {
-      "success": "Data yako ya ingizo imehifadhiwa."
+      "success": "Data yako ya ingizo imehifadhiwa.",
     },
-    "product_inputs_preview_message": "Chaguo hizi za kubinafsisha zinapatikana kwa bidhaa uliyoagiza. Kipengee kikishaongezwa kwenye rukwama yako, utaweza kufanya marekebisho hapa."
   },
   "faq": {
     "faq": "maswali yanayoulizwa mara kwa mara",
     "title": "Maswali na majibu",
-    "sub_title": "Ulichotuomba tufanye.",
     "message": "Tafuta jibu la swali lako kati ya majibu hapa chini. Uliza ikiwa maswali hayajajibiwa.",
     "add_question_action": "Uliza Swali Jipya",
     "read_more": "Soma zaidi ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Swali",
     "question_input_placeholder": "Uliza swali lako.",
     "notifications": {
-      "success_add": "Swali lako limewasilishwa."
-    }
+      "success_add": "Swali lako limewasilishwa.",
+    },
+    "sub_title": "Ulichotuomba tufanye.",
   },
   "rating_labels": [
     "Mbaya sana",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Weka anwani lengwa",
     "enter_your_address": "Weka anwani yako.",
     "postal_code": "Msimbo wa posta",
-    "phone_input": "Simu {type}",
+    "phone_input": "Simu",
     "building_number": "Nambari ya jengo",
     "building_unit": "Kitengo",
     "full_name_input": "Jina kamili {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Lebo ya anwani (Inahitajika)",
     "notifications": {
       "save_in_list": "Anwani hii imehifadhiwa kwenye orodha yako pamoja na maelezo yake yote.",
-      "edit_success": "Nambari mpya za anwani zimehifadhiwa katika {title}."
+      "edit_success": "Nambari mpya za anwani zimehifadhiwa katika {title}.",
     },
     "delete_address_dialog": {
       "title": "Futa Anwani",
       "message": "Je, una uhakika unataka kufuta anwani hii?",
-      "action": "Ondoa anwani"
-    }
+      "action": "Ondoa anwani",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Haiwezi kuhariri maoni haya!",
     "comment_input_empty": "Maandishi ya ujumbe ni tupu!",
-    "article_not_saved": "Hifadhi makala!"
+    "article_not_saved": "Hifadhi makala!",
   },
   "wheel_fortune": {
     "title": "Cheza na Ushinde",
     "message": "Gharama ya kila mchezo ni chips 10. Kwa sasa una chipu {chips}. Pata chip zaidi kwa kununua kwenye duka.",
     "win_message": "Hongera, Umeshinda!",
     "lost_message": "Samahani, Umepoteza mchezo.",
-    "try_again": "Unaweza kujaribu tena"
+    "try_again": "Unaweza kujaribu tena",
   },
   "json": {
     "add": "Ongeza data ya muundo",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Miundo",
     "book": {
       "title": "Kitabu",
-      "desc": "Weka miadi ya vitendo vinavyowawezesha watumiaji kununua kitabu ambacho wanapata moja kwa moja kutoka kwa matokeo ya Utafutaji."
+      "desc": "Weka miadi ya vitendo vinavyowawezesha watumiaji kununua kitabu ambacho wanapata moja kwa moja kutoka kwa matokeo ya Utafutaji.",
     },
     "occupation": {
       "title": "Mshahara uliokadiriwa",
-      "desc": "Taarifa kuhusu makadirio ya mishahara, kama vile viwango vya mishahara na wastani wa mishahara kulingana na eneo kwa aina za kazi, zinazoonyeshwa katika matumizi ya utafutaji kazi kwenye Google."
+      "desc": "Taarifa kuhusu makadirio ya mishahara, kama vile viwango vya mishahara na wastani wa mishahara kulingana na eneo kwa aina za kazi, zinazoonyeshwa katika matumizi ya utafutaji kazi kwenye Google.",
     },
     "course": {
       "title": "Kozi",
-      "desc": "Kozi za elimu zinazoonekana katika orodha mahususi ya watoa huduma. Kozi zinaweza kujumuisha kichwa cha kozi, mtoa huduma na maelezo mafupi."
+      "desc": "Kozi za elimu zinazoonekana katika orodha mahususi ya watoa huduma. Kozi zinaweza kujumuisha kichwa cha kozi, mtoa huduma na maelezo mafupi.",
     },
     "howto": {
       "title": "Jinsi ya",
-      "desc": "A Jinsi ya kuwatembeza watumiaji kupitia seti ya hatua ili kukamilisha kazi kwa ufanisi, inayoangazia video, picha na maandishi."
+      "desc": "A Jinsi ya kuwatembeza watumiaji kupitia seti ya hatua ili kukamilisha kazi kwa ufanisi, inayoangazia video, picha na maandishi.",
     },
     "recipe": {
       "title": "Kichocheo",
-      "desc": "Mapishi ambayo yanaonyeshwa kama matokeo bora ya mtu binafsi au sehemu ya jukwa la mwenyeji."
-    }
+      "desc": "Mapishi ambayo yanaonyeshwa kama matokeo bora ya mtu binafsi au sehemu ya jukwa la mwenyeji.",
+    },
   },
   "support": {
     "Financial": "Fedha",
     "Technical": "Kiufundi",
-    "Advisor": "Mshauri"
+    "Advisor": "Mshauri",
   },
   "condition": {
     "new": "Mpya",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Imetumika",
     "used_fair": "Imetumika kwa haki",
     "used_good": "Imetumika vizuri",
-    "used_like_new": "Inatumika kama mpya"
+    "used_like_new": "Inatumika kama mpya",
   },
   "variant_filter": {
     "title": "Kichujio cha Lahaja ya Bidhaa",
-    "only_available": "Katika Hisa"
+    "only_available": "Katika Hisa",
   },
   "service": {
     "task": {
       "title": "Kazi",
-      "message": "Orodha ya kazi zilizofanywa katika huduma hii."
+      "message": "Orodha ya kazi zilizofanywa katika huduma hii.",
     },
     "appointment": {
       "title": "Uteuzi",
-      "message": "Chagua nyakati za juma kutoka nyakati zifuatazo kulingana na siku na saa ambayo ni sawa kwako."
+      "message": "Chagua nyakati za juma kutoka nyakati zifuatazo kulingana na siku na saa ambayo ni sawa kwako.",
     },
     "booking": {
       "title": "Kuhifadhi",
-      "message": "Bainisha muda wa siku unazotaka kuweka nafasi katika kalenda iliyo hapa chini."
+      "message": "Bainisha muda wa siku unazotaka kuweka nafasi katika kalenda iliyo hapa chini.",
     },
     "subscription": {
-      "title": "Usajili"
+      "title": "Usajili",
     },
     "charge": {
-      "title": "Malipo"
-    }
+      "title": "Malipo",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Bei zisizohamishika",
-      "message": "Katika aina hii ya bei, bei ya bidhaa ni kiasi maalum na hakuna haja ya mnunuzi kuomba hesabu ya bei."
+      "message": "Katika aina hii ya bei, bei ya bidhaa ni kiasi maalum na hakuna haja ya mnunuzi kuomba hesabu ya bei.",
     },
     "ESTIMATION": {
       "title": "Ukadiriaji wa Bei",
-      "message": "Bei ya bidhaa na huduma itahesabiwa kwa kiasi fulani na muuzaji wakati wa kuweka agizo, ankara za malipo zinaweza kubadilishwa au kuongezwa wakati wa huduma."
+      "message": "Bei ya bidhaa na huduma itahesabiwa kwa kiasi fulani na muuzaji wakati wa kuweka agizo, ankara za malipo zinaweza kubadilishwa au kuongezwa wakati wa huduma.",
     },
     "AGREEMENT": {
       "title": "Bei ya Makubaliano",
-      "message": "Bei ya mwisho ya bidhaa au huduma haitabadilishwa na muuzaji baada ya agizo kuwekwa."
+      "message": "Bei ya mwisho ya bidhaa au huduma haitabadilishwa na muuzaji baada ya agizo kuwekwa.",
     },
     "BID": {
       "title": "Zabuni / Mnada",
-      "message": "Bidhaa itauzwa kwa bei ya juu zaidi ya zabuni na wanunuzi watarajiwa."
-    }
+      "message": "Bidhaa itauzwa kwa bei ya juu zaidi ya zabuni na wanunuzi watarajiwa.",
+    },
   },
   "map": {
     "title": "Mahali pa kupokea bidhaa",
     "confirm": "Weka eneo",
     "address": "Lengwa",
-    "receptor": "Mpokeaji"
+    "receptor": "Mpokeaji",
   },
   "ShopBots": {
-    "telegram": "Telegramu"
+    "telegram": "Telegramu",
   },
   "article_tags": {
     "title": "Lebo za Maudhui",
     "tags_input": "Lebo",
     "tags_input_message": "Tags Orodha ya makala hii",
     "notification": {
-      "add_success": "Lebo zimeongezwa"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Ngumu sana",
-    "hard": "Ngumu",
-    "intermediate": "Kati",
-    "easy": "Rahisi"
-  },
-  "billing_period": {
-    "Daily": "Kila siku",
-    "Weekly": "Kila wiki",
-    "Monthly": "Kila mwezi",
-    "Every3Months": "Kila baada ya miezi 3",
-    "Every6Months": "Kila baada ya miezi 6",
-    "Yearly": "Kila mwaka"
+      "add_success": "Lebo zimeongezwa",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh si nzuri!",
     "between2_3": "Ni sawa!",
     "between3_4": "Watu kama hayo!",
-    "between4_5": "Watu wanaipenda!"
+    "between4_5": "Watu wanaipenda!",
   },
   "seasons": {
     "spring": "Spring",
     "summer": "Majira ya joto",
     "autumn": "Vuli",
-    "winter": "Majira ya baridi"
-  }
+    "winter": "Majira ya baridi",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

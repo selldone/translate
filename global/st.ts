@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ke balile lipehelo tsa tšebeliso le leano la lekunutu mme ke lumellana le tsona.",
   "commons": {
     "Currency": "Chelete",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Naha",
     "Price": "theko",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Theko ea chelete",
     "tax": "Lekhetho",
     "tax_included": "E kenyelelitsoe ka theko",
+    "tax_included_abstract": "ho kenyeletsa.",
     "limit": "Moeli",
     "min_purchase": "Bonyane theko",
     "eligible_for": "E loketse bakeng sa",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Letsatsi le entsoeng",
     "updated_at": "Nchafatso ea ho qetela",
     "register_at": "Letsatsi la ho ngolisa",
+    "last_modified": "Last modified",
     "old": "Kgale",
     "new": "E ncha",
     "start": "Qala",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Morekisi",
     "tracking_code": "Track khoutu",
     "tracking_url": "Track URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Phethahatso",
     "reject": "Hana",
     "reserved": "Reserved",
@@ -341,6 +345,7 @@ export default {
     "waiting": "E emetse...",
     "waiting_connecting_payment": "E emetse litšebeletso tsa ho lefa...",
     "creating_secure_payment": "Ho etsa tefo e sireletsehileng.",
+    "waiting_for_payment": "Ka kopo, tlatsa tefo...",
     "officer": "Ofisiri",
     "ticket": "Tekete",
     "ticket_url": "Url ea litekete",
@@ -361,7 +366,6 @@ export default {
     "rates": "Lintlha",
     "seen_at": "E bonoa ho",
     "completed": "E phethiloe",
-    "you": "Wena",
     "shop": "Reka",
     "store": "lebenkeleng",
     "granted": "Ke 'nete",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Letlapa",
     "pc": "PC",
     "acquisition_channel": "Lekanale la ho fumana",
+    "channels_overview": "Channels overview",
     "to": "Ho",
     "info": "Info",
     "general": "Kakaretso",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Ka sehlahisoa",
     "journey": "Leeto",
     "after": "Kamora",
-    "waiting_for_payment": "Ka kopo, tlatsa tefo...",
     "hour": "Hora",
     "minute": "Motsotso",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Mabenkele",
     "vendor": "Morekisi",
     "vendors": "Barekisi",
+    "no_vendors": "No vendors",
     "marketplace": "Mmaraka",
     "verify_date": "Netefatsa letsatsi",
     "note": "Hlokomela",
@@ -604,7 +609,6 @@ export default {
     "variant": "Mofuta o fapaneng",
     "secure": "Sireletsehile",
     "admin": "Admin",
-    "tax_included_abstract": "ho kenyeletsa.",
     "payment_not_settled": "Tefo ha e so rarolloe!",
     "orders_list": "Lethathamo la litaelo",
     "subscription_plan": "Morero oa ho ngolisa",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Lihlopha",
     "subscriptions": "Lipeeletso",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Wena",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "E rarahane haholo",
+    "hard": "E thata",
+    "intermediate": "Mahareng",
+    "easy": "Bonolo",
   },
   "dialogs": {
     "delete": {
       "title": "Hlakola",
       "message": "Na u tiile u hlakola ntho ee?",
-      "action": "E, Hlakola hona joale"
-    }
+      "action": "E, Hlakola hona joale",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "kenya lenaneng",
     "cancel": "Hlakola",
     "update": "Nchafatso",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Kenya karete ea mpho",
     "charge": "Tefiso",
     "send_invites": "Romela limemo",
-    "past": "Fetileng",
+    "paste": "Beha",
     "restore": "Khutlisa",
     "cut": "Khaola",
     "get_sms_code": "Fumana khoutu ea netefatso",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Hlahisa ponelopele",
     "hide_preview": "Pata ponelopele",
     "download_now": "Khoasolla Hona Joale",
+    "watch_now": "Sheba Joale",
     "auto_fill": "Autofill",
     "track": "Track",
     "change_state": "Fetola Boemo",
     "done": "E felile",
     "reply": "Araba",
-    "watch_now": "Sheba Joale",
     "unlock": "Notlolla",
     "lock": "Notlela",
     "create_clone": "Etsa clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Reka",
     "view_all": "Sheba Tsohle",
     "view_now": "Sheba Hona Joale",
-    "paste": "Beha"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Fetileng",
+  },
+  "billing_period": {
+    "Daily": "Letsatsi le letsatsi",
+    "Weekly": "Beke le beke",
+    "Monthly": "Khoeli le khoeli",
+    "Every3Months": "Likhoeli tse ling le tse ling tse 3",
+    "Every6Months": "Likhoeli tse ling le tse ling tse 6",
+    "Yearly": "Selemo le selemo",
   },
   "instance_message_title": "Romela molaetsa hang hang",
   "instance_message": "Lumela {name}, Lebitso la ka ke {author} ho tsoa {company}.",
   "errors": {
     "419": "E se e le nako e telele u sa sebetse, ka kopo <b>⟳ TSOSOA LEQEPHE</b> ka mabaka a ts'ireletso.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistimi ha e hokahane le blockchain. Ho ke ke ha khoneha ho etsa khoebo e ncha ho fihlela li-server tsa rona li phethiloe. Re rarolla bothata.",
-    "gateway_network_error": "Payment gateway service e bile le bothata ba puisano."
+    "gateway_network_error": "Payment gateway service e bile le bothata ba puisano.",
   },
   "receiver_info": {
     "map": {
       "title": "Aterese ea Sebaka seo ho Romelloang",
       "confirm": "Beha sebaka",
       "address_type": "Sebaka",
-      "receptor_type": "Moamoheli"
+      "receptor_type": "Moamoheli",
     },
     "receiver_address": "Khetha aterese ea thomello",
+    "service_address": "Khetha aterese ea hau",
+    "select_billing_address": "Select billing address",
     "address": "aterese",
     "postcode": "Khoutu ea poso",
     "enter_value": "Tlatsa mona",
     "address_note": "Hlokomela",
     "tel": "Nomoro ea ho ikopanya",
-    "service_address": "Khetha aterese ea hau"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ounce",
     "lb": "Ponto",
-    "kg": "k'hilograma"
+    "kg": "k'hilograma",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Sesentimithara",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Leoto",
     "mm": "millimeter",
     "m": "metara",
-    "yd": "Jarete"
+    "yd": "Jarete",
   },
   "distance": {
     "m": "metara",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Matsatsi",
     "hours": "Lihora",
     "minutes": "Metsotso",
-    "seconds": "Metsotsoana"
+    "seconds": "Metsotsoana",
   },
   "units": [
     "Yuniti",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Naha",
     "Territory": "Sebaka",
-    "Province": "Profinseng"
+    "Province": "Profinseng",
   },
   "transaction_status": {
     "RequireAction": "Ketso e Hlokahala",
     "Processing": "Ho sebetsa",
     "Canceled": "E hlakotsoe",
-    "Succeeded": "Atlehile"
+    "Succeeded": "Atlehile",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Khetha puo..",
     "friend_email": "Lengolo-tsoibila la motsoalle oa hau...",
     "friend_name": "Khetha. Lebitso la motsoalle oa hau",
-    "select_date": "Khetha letsatsi..."
+    "select_date": "Khetha letsatsi...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Netefatsa",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Ka holimo ho litlhaku tse {maxCount}",
     "invalid_url": "URL e fosahetseng",
     "country_invalid": "Khetha naha eo u eang ho eona!",
-    "postal_code_invalid": "Beha khoutu e nepahetseng ea poso!"
+    "postal_code_invalid": "Beha khoutu e nepahetseng ea poso!",
   },
   "colors": {
     "#D32F2F": "Khubedu",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Yuniti",
     "postcode": "Khoutu ea poso",
     "note": "Hlokomela",
-    "county": "Setereke"
+    "county": "Setereke",
   },
   "product_types": {
     "physical": "Ea nama",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Tshebeletso",
     "service_description": "Litšebeletso tse kang: ho lokisa, lipalangoang, ho ruta.",
     "subscription": "Ngoliso",
-    "subscription_description": "Lipehelo le li-invoice bakeng sa lihlahisoa, litšebeletso, kapa litaba."
+    "subscription_description": "Lipehelo le li-invoice bakeng sa lihlahisoa, litšebeletso, kapa litaba.",
   },
   "license": {
     "free": "Mahala",
     "startup": "E qalang",
     "company": "Khampani",
-    "enterprise": "Khoebo"
+    "enterprise": "Khoebo",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Mmala",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Bala ka pakete",
     "weight": "Boima ba 'mele",
     "type": "Lintho tse bonahalang",
-    "style": "Setaele"
+    "style": "Setaele",
   },
   "delivery_state": {
     "check_queue": "E emetse tlhahlobo",
     "order_confirm": "Netefatso ya Taelo",
     "preparing_order": "Ho lokisetsa",
     "sent_order": "Ha ho pepa",
-    "to_customer": "E filwe"
+    "to_customer": "E filwe",
   },
   "status": {
     "unpaid": "E sa lefelloang",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Hana",
     "pending": "E emetse",
     "rejected": "Hanoa",
-    "accepted": "E amohetsoe"
+    "accepted": "E amohetsoe",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Sethuthuthu",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Lipalangoang tsa lefats'e",
     "global_description": "Ho tsamaisa dikepe mose ho mawatle ka moya, lewatle kapa lefatshe.",
     "pickup": "Nka",
-    "pickup_description": "Bareki ba lata lintho tseo lebenkeleng la hau la 'mele kapa la polokelo."
+    "pickup_description": "Bareki ba lata lintho tseo lebenkeleng la hau la 'mele kapa la polokelo.",
   },
   "article": {
     "login_to_see_error": "Kena ho fumana sengoloa",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Mokhoa oa ho hlophisa",
       "view_mode": "Mokhoa oa ho sheba",
-      "delete": "Hlakola Sengoloa"
+      "delete": "Hlakola Sengoloa",
     },
     "schedule_action": "Na u batla ho hlophisa khatiso?",
     "schedule_title": "Rulahanya khatiso e iketsang",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Tlaleha tlhekefetso 'me u tlose litaba",
       "report_title": "Tlaleha litaba tsena e le mahlapa",
       "message": "Lebaka la ho fana ka litaba tsee ke lefe? Khetha e 'ngoe ea likhetho tse latelang.",
-      "accept_and_delete_action": "Netefatsa le ho Hlakola Litaba"
+      "accept_and_delete_action": "Netefatsa le ho Hlakola Litaba",
     },
     "schedule_dialog": {
       "title": "Kemiso ea Phatlalatso ea Litaba",
       "publish_at": "Phatlalatsa ho",
       "last_edit": "Phetoho ea ho qetela",
-      "view_action": "Sheba Sengoloa"
+      "view_action": "Sheba Sengoloa",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Nehelana ka Boitsebiso",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Tlaleha le ho Hlakola",
       "report_and_delete_success_message": "Sengoliloeng se hlakotsoe ka katleho.",
       "report_success_title": "Tlaleho ea sehlooho",
-      "report_success_message": "Tlaleho ea hau mabapi le sengoloa sena e ngotsoe."
+      "report_success_message": "Tlaleho ea hau mabapi le sengoloa sena e ngotsoe.",
     },
     "alert": {
       "delete_article": {
         "title": "Hlakola Sengoloa",
         "message": "Na ehlile u batla ho hlakola sengoloa see ruri?",
-        "action": "Hlakola"
-      }
+        "action": "Hlakola",
+      },
     },
     "edit_window": {
       "title": "Kgetha Sengolwa sa Setshwantsho le Kakaretso",
-      "digest": "Kakaretso"
+      "digest": "Kakaretso",
     },
     "editor": {
       "title_placeholder": "Sehlooho..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Faele ena e kholo haholo:",
       "notifications": {
         "image_uploaded_success": "Setšoantšo se bolokiloe ka katleho",
-        "image_uploaded_failed": "Phoso ea ho kenya setšoantšo."
+        "image_uploaded_failed": "Phoso ea ho kenya setšoantšo.",
       },
       "embed_placeholder": "Kenya khoutu ea iframe, Facebook, Youtube kapa URL efe kapa efe ebe o tobetsa Enter.",
       "embed_caption_placeholder": "Kenya sehlooho (ka boikhethelo)",
-      "images_caption_placeholder": "Kenya sehlooho sa setšoantšo sena .."
-    }
+      "images_caption_placeholder": "Kenya sehlooho sa setšoantšo sena ..",
+    },
   },
   "article_report": {
     "inappropriate": "Litaba tsa sengoloa sena ha lia nepahala.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ke nahana hore litaba tsena li na le litšoantšo tsa bootsoa 'me li khahlanong le melao.",
     "harassment": "Ke nahana hore sena ke khethollo ea morabe.",
     "hate": "Ke nahana hore sena se mabapi le ho khothaletsa pefo.",
-    "infringe": "Sena se hatakela litokelo tsa ka."
+    "infringe": "Sena se hatakela litokelo tsa ka.",
   },
   "comments": {
     "new_action": "Tobetsa ho siea maikutlo..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Fumana maikutlo a mang..",
     "cant_send_comment": "Ha o khone ho kenya poso e ncha.",
     "cant_remove_this_comment": "Ha o khone ho hlakola maikutlo ana!",
-    "product_buyer": "Moreki",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Maikutlo a ka",
     "delete_alert": {
       "title": "Hlakola Maikutlo",
       "message": "O batla ho hlakola maikutlo a?",
-      "action": "Hlakola"
+      "action": "Hlakola",
     },
     "notifications": {
-      "delete_success": "Maikutlo a hau a hlakotsoe ka katleho."
+      "delete_success": "Maikutlo a hau a hlakotsoe ka katleho.",
     },
     "first_send": "Poso ea pele",
     "comment_at": "E butsoe",
     "edit_comment": "Fetola Maikutlo",
-    "my_comments": "Maikutlo a ka"
+    "product_buyer": "Moreki",
   },
   "customer_club": {
     "bronze": "Boronse",
     "silver": "Silevera",
     "gold": "Khauta",
     "platinum": "Platinum",
-    "diamond": "Taemane"
+    "diamond": "Taemane",
   },
   "application_categories": {
     "tracking": "Ho hlahloba Boitšoaro ba Mosebelisi",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Papatso",
     "staff": "Basebetsi",
     "incentive": "Khothatso",
-    "shop": "Reka"
+    "shop": "Reka",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Kenya ntho e ncha",
     "title_input": "Sehlooho",
+    "placeholder_input": "Sebaka",
     "name_input": "Lebitso le feto-fetohang",
     "value_input": "Litekanyetso",
     "value_input_message": "Lethathamo la Likhetho tsa Basebelisi",
     "default": "Boleng ba kamehla",
+    "file_type_input": "Mefuta e amohelehang ea lifaele",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "E bonolo",
       "selective": "Khethang",
       "switch": "Fetoha",
       "file": "Faele",
-      "number": "Nomoro"
+      "number": "Nomoro",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Sebaka",
-    "file_type_input": "Mefuta e amohelehang ea lifaele",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Lebitso la Sehlahiswa",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Boemo ba tefo",
     "payment_status_waiting": "E emetse tefo",
     "payment_status_paid": "E lefelletsoe",
-    "buyer": "Moreki"
+    "buyer": "Moreki",
   },
   "virtual_item_info": {
     "title": "Ntho ea Virtual",
     "outputs": {
       "title": "Lintlha tse hlahisoang",
       "sub_title": "Litaba tsa Lekunutu tsa Ntho ena",
-      "message": "Lintlha tsena li tla bontšoa ho mosebelisi ka mor'a ho reka sehlahisoa."
+      "message": "Lintlha tsena li tla bontšoa ho mosebelisi ka mor'a ho reka sehlahisoa.",
     },
     "inputs": {
       "title": "Boitsebiso bo Hlokehang",
       "sub_title": "Ho Hlokahala Boitsebiso ba Moreki",
-      "message": "Moreki o tlameha ho kenya lintlha tse batloang foromong"
+      "message": "Moreki o tlameha ho kenya lintlha tse batloang foromong",
     },
     "notifications": {
       "inputs_set_success": "Foromo ea tlhahisoleseling e ngolisitsoe ka katleho.",
       "confirm_by_admin_success": "Ho phetheloa ha odara ho netefalitsoe.",
-      "confirm_by_buyer_success": "Ho phetheloa ha odara ho netefalitsoe."
-    }
+      "confirm_by_buyer_success": "Ho phetheloa ha odara ho netefalitsoe.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Odara ena e ke ke ea amoheloa ke tefo ea COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "E felile.",
     "legal_restriction": "Ha e khone ho fana ka taelo ka lebaka la lithibelo tsa molao.",
     "pricing_fault": "Phoso ea litheko ka morekisi.",
-    "system_fault": "Phoso ea tsamaiso."
+    "system_fault": "Phoso ea tsamaiso.",
   },
   "basket_order_info_summery": {
     "receiver": "Moamoheli",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Theolelo",
     "final_price": "Chelete ea ho qetela",
     "address": "Aterese ea thomello",
-    "payment_status": "Boemo ba tefo"
+    "payment_status": "Boemo ba tefo",
   },
   "basket_status": {
     "open": "Bula",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "E hlakotsoe",
     "cod": "Lefa On Delivery",
     "receipt_added": "Receipt e kentsoe",
-    "payment_processing": "Ts'ebetso ea tefo"
+    "payment_processing": "Ts'ebetso ea tefo",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Hanoa",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Netefatso",
     "step_3": "Tokisetso",
     "step_4": "Ha ho pepa",
-    "step_5": "E filwe"
+    "step_5": "E filwe",
   },
   "basket_return_request_view": {
     "title": "Khutlisa Kopo",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Hana kopo",
     "message_for_admin": "Ho ea ka tumellano eo u e amohetseng ka ho sebelisa Selldone, u tlameha ho iteanya le moreki 'me u mo tsebise ka mokhoa oa ho khutlisa otara ea hae. Sena se tlameha ho etsoa haeba kopo e amoheloa kapa e hanoa 'me tumello e felletseng ea moreki e fumanoa.",
     "notifications": {
-      "update_status_success": "Boemo ba kopo bo ntlafalitsoe."
-    }
+      "update_status_success": "Boemo ba kopo bo ntlafalitsoe.",
+    },
   },
   "basket_list": {
     "return_count": "Khutlisa: {count} nomoro",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Mofuta o fapaneng",
       "warranty": "Ditiisetso",
       "count": "Bala",
-      "price": "theko"
-    }
+      "price": "theko",
+    },
   },
   "return_request_list": {
     "count": "Nomoro ea litšupiso",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Letsatsi la ho Fumana",
       "state": "Boemo",
       "reason": "Lebaka",
-      "return_warranty_period": "Nako ea tiisetso"
-    }
+      "return_warranty_period": "Nako ea tiisetso",
+    },
   },
   "data_toolbar": {
     "search": "Batla",
     "sort_by": "Hlophisa ka",
-    "count_item": "Hlahisa lintho tse {item}"
+    "count_item": "Hlahisa lintho tse {item}",
   },
   "sort": {
     "created_at": "Etsa letsatsi",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ofisiri",
     "registered": "Ngodisitsoe",
     "purchased": "Rekiloe",
-    "sex": "Bong"
+    "sex": "Bong",
   },
   "search_box": {
     "result": "Liphetho tsa lipatlisiso",
     "tips": "Batla Lihlahisoa le Lihlopha",
     "label": "Batla...",
-    "category": "Sehlopha"
+    "category": "Sehlopha",
   },
   "lead_status": {
     "physical_fast_delivery": "Phano ea hang-hang",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "E lokisetsa le ho romela ho tloha matsatsing a tlang a {days}",
     "virtual_fast_prepare": "Phano ea hang-hang",
     "virtual_under_24h": "E tla etsoa nakong ea lihora tse {lead} tse tlang",
-    "virtual_over_24h": "E tla etsoa matsatsing a latelang a {days}"
+    "virtual_over_24h": "E tla etsoa matsatsing a latelang a {days}",
   },
   "return_request_state": {
     "pending": "E emetse",
     "accepted": "E tiisitsoe",
-    "rejected": "Hanoa"
+    "rejected": "Hanoa",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pakete kapa serial ho senya nomoro",
       "U5": "Lintho tse ling tsa sephutheloana ha li eo",
       "U6": "Sehlahisoa ha se sa mantlha",
-      "U7": "Sehlahisoa ha se khotsofatse litlhaloso"
-    }
+      "U7": "Sehlahisoa ha se khotsofatse litlhaloso",
+    },
   },
   "image_uploader": {
     "label": "Hula o Lahlele kapa <u>Khetha faele</u>",
-    "max_size": "Boholo bo lumelletsoeng: {size}"
+    "max_size": "Boholo bo lumelletsoeng: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "12pm ho isa ho 6pm",
     "Night": "6pm-12pm",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "Moqebelo",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Labobeli",
     "Wednesday": "Laboraro",
     "Thursday": "Labone",
-    "Friday": "Labohlano"
+    "Friday": "Labohlano",
   },
   "payment_form": {
     "title": "Khetha Mokhoa oa ho lefa",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Kea u lebohela, odara ea hau ke mahala!",
     "order_free_payment_action": "Odara Mahala Hona Joale",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Aterese ea tefo",
-      "amount": "Chelete"
-    }
+      "amount": "Chelete",
+    },
   },
   "discount_input": {
     "limit": "{percent}% theolelo ho fihla ho {limit} {currency}",
     "action": "Kenya Khoutu ea Theolelo",
     "code_input": "Khoutu ea theolelo",
     "notifications": {
-      "add_success": "Kea u babatsa, khoutu e nepahetseng ea theolelo."
-    }
+      "add_success": "Kea u babatsa, khoutu e nepahetseng ea theolelo.",
+    },
   },
   "gift_card": {
     "inactive": "Karete e koetsoe",
     "expire": "E felloa ke nako",
     "transfer": "Phetisetso",
-    "send_to_friend": "Romela motsoalle"
+    "send_to_friend": "Romela motsoalle",
   },
   "count_down": {
     "days": "Letsatsi",
     "hours": "Hora",
     "minutes": "Metsotso",
-    "seconds": "Metsotsoana"
+    "seconds": "Metsotsoana",
   },
   "gift_status": {
     "Unpaid": "E emetse Receipt",
     "Paid": "E lefelletsoe",
     "Rejected": "Hanoa",
-    "Canceled": "E hlakotsoe"
+    "Canceled": "E hlakotsoe",
   },
   "gift_program_status": {
     "Airdrop": "Mokhoa oa ho lefa",
     "Advertising": "Papatso",
     "PersonalGift": "Mpho ea Motho",
-    "ShopGift": "Lebenkele la Limpho"
+    "ShopGift": "Lebenkele la Limpho",
   },
   "currency_selector": {
-    "label": "Chelete"
+    "label": "Chelete",
   },
   "need_login": {
     "title": "kena",
     "login_sms": "SMS Kena",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Kena ka Google",
     "login_facebook": "Kena ka Facebook",
+    "login_apple": "Kena ka Apple",
     "login_account": "Kena ka Selldone",
     "register": "Mosebelisi e mocha? Ngolisa hona joale.",
     "mobile_input": "Kenya mohala oa hau",
     "verification_code": "Nomoro ea netefatso",
     "msg_title": "Lumela,",
     "msg_body": "Ke kopa o kene. Ho nka metsotsoana e seng mekae feela.",
-    "login_apple": "Kena ka Apple",
     "login_email": "Kena ka Imeile",
     "email_login_step_1": "Ka kopo fana ka aterese ea lengolo-tsoibila e nepahetseng, 'me re tla e romella khoutu ea ho kena. Ha ho hlokahale ngoliso.",
     "email_login_step_2": "Na u na le bonnete ba hore u kentse aterese ea hau ea lengolo-tsoibila ka nepo? Re tla romella khoutu ea ho kena ho lengolo-tsoibila le fanoeng, kahoo ka kopo netefatsa ho nepahala ha eona.",
-    "email_login_step_3": "Re rometse khoutu ho lengolo-tsoibila la hau. Ka kopo hlokomela hore khoutu e tla felloa ke nako ka mor'a metsotso e 10."
+    "email_login_step_3": "Re rometse khoutu ho lengolo-tsoibila la hau. Ka kopo hlokomela hore khoutu e tla felloa ke nako ka mor'a metsotso e 10.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Lebenkele la Khauta la Lilemo tse 5"
+      "name": "Lebenkele la Khauta la Lilemo tse 5",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Year Gold Store"
+      "name": "4 Year Gold Store",
     },
     "GOLDEN_3YEAR": {
-      "name": "Lebenkele la Khauta la Lilemo tse 3"
+      "name": "Lebenkele la Khauta la Lilemo tse 3",
     },
     "GOLDEN_4YEAR": {
-      "name": "Lebenkele la Khauta la Lilemo tse 2"
+      "name": "Lebenkele la Khauta la Lilemo tse 2",
     },
     "GOLDEN_5YEAR": {
-      "name": "Lebenkele la Khauta la Selemo sa 1"
+      "name": "Lebenkele la Khauta la Selemo sa 1",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Motseteli oa Khauta"
+      "name": "Motseteli oa Khauta",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Motseteli oa litaemane"
+      "name": "Motseteli oa litaemane",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Setho sa Superior Community of Communications Networks"
+      "name": "Setho sa Superior Community of Communications Networks",
     },
     "GOLD_SUPPLIER": {
-      "name": "Mofani oa Khauta"
+      "name": "Mofani oa Khauta",
     },
     "GOLD_SELLER": {
-      "name": "Mohoebi oa Khauta"
+      "name": "Mohoebi oa Khauta",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Moetsi oa Likahare ea Phahameng"
+      "name": "Moetsi oa Likahare ea Phahameng",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Naleli"
+      "name": "Naleli",
     },
     "GUARDIAN": {
-      "name": "Tšebeletso e kholo ea bareki"
+      "name": "Tšebeletso e kholo ea bareki",
     },
     "KING": {
-      "name": "Morena oa 'Maraka"
-    }
+      "name": "Morena oa 'Maraka",
+    },
   },
   "cookie": {
     "title": "Webosaete ena e sebelisa li-cookies",
     "message": "Webosaete ena e sebelisa li-cookies ho ntlafatsa boiphihlelo ba basebelisi. Ka ho sebelisa sebaka sa rona sa Marang-rang u lumella li-cookies tsohle ho latela Leano la rona la Cookie.",
     "preferences_action": "Laola Likhetho",
-    "agree_action": "Kea lumela"
+    "agree_action": "Kea lumela",
   },
   "basket_item_message": {
     "title": "Lintlha tse hlokahalang bakeng sa ntho ena",
     "save_actions": "Boloka Molaetsa",
+    "product_inputs_preview_message": "Likhetho tsena tsa ho itlhophisa li teng bakeng sa sehlahisoa sa hau se otarang. Hang ha ntho e kentsoe kariking ea hau, u tla khona ho etsa litokiso mona.",
     "notifications": {
-      "success": "Lintlha tsa hau li bolokiloe."
+      "success": "Lintlha tsa hau li bolokiloe.",
     },
-    "product_inputs_preview_message": "Likhetho tsena tsa ho itlhophisa li teng bakeng sa sehlahisoa sa hau se otarang. Hang ha ntho e kentsoe kariking ea hau, u tla khona ho etsa litokiso mona."
   },
   "faq": {
     "faq": "Lipotso Tse Botsoang Hangata",
     "title": "Lipotso le Likarabo",
-    "sub_title": "Seo u re kopileng ho se etsa.",
     "message": "Batla karabo ea potso ea hau har'a likarabo tse ka tlase. Re botse hore na lipotso li lula li sa arajoe.",
     "add_question_action": "Botsa Potso e Ncha",
     "read_more": "Bala haholoanyane ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Potso",
     "question_input_placeholder": "Botsa potso ea hau.",
     "notifications": {
-      "success_add": "Potso ea hau e rometsoe ka katleho."
-    }
+      "success_add": "Potso ea hau e rometsoe ka katleho.",
+    },
+    "sub_title": "Seo u re kopileng ho se etsa.",
   },
   "rating_labels": [
     "E mpe haholo",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Kenya aterese ea moo u eang",
     "enter_your_address": "Kenya aterese ea hau.",
     "postal_code": "Khoutu ea poso",
-    "phone_input": "Mohala {type}",
+    "phone_input": "Mohala",
     "building_number": "Nomoro ea mohaho",
     "building_unit": "Yuniti",
     "full_name_input": "Lebitso le felletseng {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Leibole ea aterese (Ea Hlokahala)",
     "notifications": {
       "save_in_list": "Aterese ena e bolokiloe lethathamong la hau le lintlha tsohle tsa eona.",
-      "edit_success": "Lintlha tse ncha tsa liaterese li bolokiloe ho {title}."
+      "edit_success": "Lintlha tse ncha tsa liaterese li bolokiloe ho {title}.",
     },
     "delete_address_dialog": {
       "title": "Hlakola Aterese",
       "message": "Na ehlile u batla ho hlakola aterese ee?",
-      "action": "Tlosa aterese"
-    }
+      "action": "Tlosa aterese",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ha e khone ho hlophisa maikutlo ana!",
     "comment_input_empty": "Molaetsa ha o na letho!",
-    "article_not_saved": "Boloka sehlooho!"
+    "article_not_saved": "Boloka sehlooho!",
   },
   "wheel_fortune": {
     "title": "Bapala & Hlōla",
     "message": "Litsenyehelo tsa papali ka 'ngoe ke li-chips tse 10. Hajoale u na le {chips} chip. Fumana chip e ngata ka ho e reka lebenkeleng.",
     "win_message": "Kea u babatsa, U hlotse!",
     "lost_message": "Tšoarelo, O lahlehetsoe ke papali.",
-    "try_again": "O ka leka hape"
+    "try_again": "O ka leka hape",
   },
   "json": {
     "add": "Kenya lintlha tsa sebopeho",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Mehaho",
     "book": {
       "title": "Buka",
-      "desc": "Liketso tsa buka tse lumellang basebelisi ho reka buka eo ba e fumanang ka kotloloho ho liphetho tsa Lipatlisiso."
+      "desc": "Liketso tsa buka tse lumellang basebelisi ho reka buka eo ba e fumanang ka kotloloho ho liphetho tsa Lipatlisiso.",
     },
     "occupation": {
       "title": "Moputso o hakantsoeng",
-      "desc": "Tlhahisoleseding e mabapi le likhakanyo tsa meputso, joalo ka mekhahlelo ea meputso le kakaretso ea meputso e thehiloeng tikolohong bakeng sa mefuta ea mesebetsi, e bonts'itsoeng boiphihlelong ba ho batla mosebetsi ho Google."
+      "desc": "Tlhahisoleseding e mabapi le likhakanyo tsa meputso, joalo ka mekhahlelo ea meputso le kakaretso ea meputso e thehiloeng tikolohong bakeng sa mefuta ea mesebetsi, e bonts'itsoeng boiphihlelong ba ho batla mosebetsi ho Google.",
     },
     "course": {
       "title": "Tsela",
-      "desc": "Lithuto tsa thuto tse hlahang lenaneng le ikhethileng la bafani. Lithuto li ka kenyelletsa sehlooho sa thupelo, mofani oa thuto le tlhaloso e khuts'oane."
+      "desc": "Lithuto tsa thuto tse hlahang lenaneng le ikhethileng la bafani. Lithuto li ka kenyelletsa sehlooho sa thupelo, mofani oa thuto le tlhaloso e khuts'oane.",
     },
     "howto": {
       "title": "Mokhoa oa ho",
-      "desc": "Mokhoa oa ho tsamaisa basebelisi ka mehato e mengata ho phethela mosebetsi ka katleho, o nang le video, litšoantšo le mongolo."
+      "desc": "Mokhoa oa ho tsamaisa basebelisi ka mehato e mengata ho phethela mosebetsi ka katleho, o nang le video, litšoantšo le mongolo.",
     },
     "recipe": {
       "title": "Recipe",
-      "desc": "Mekhoa ea ho pheha e hlahisoang e le litholoana tse monate kapa karolo ea carousel e amohelang batho."
-    }
+      "desc": "Mekhoa ea ho pheha e hlahisoang e le litholoana tse monate kapa karolo ea carousel e amohelang batho.",
+    },
   },
   "support": {
     "Financial": "Tsa lichelete",
     "Technical": "Setsebi",
-    "Advisor": "Moeletsi"
+    "Advisor": "Moeletsi",
   },
   "condition": {
     "new": "E ncha",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Se sebedisoang",
     "used_fair": "Se sebedisoang ka toka",
     "used_good": "E sebelisoa hantle",
-    "used_like_new": "E sebelisoa joalo ka e ncha"
+    "used_like_new": "E sebelisoa joalo ka e ncha",
   },
   "variant_filter": {
     "title": "Sehlahisoa sa Phapang ea Sehlahisoa",
-    "only_available": "E teng thepeng e teng ka lebenkeleng"
+    "only_available": "E teng thepeng e teng ka lebenkeleng",
   },
   "service": {
     "task": {
       "title": "Mesebetsi",
-      "message": "Lethathamo la mesebetsi e etsoang tšebeletsong ena."
+      "message": "Lethathamo la mesebetsi e etsoang tšebeletsong ena.",
     },
     "appointment": {
       "title": "Khiro",
-      "message": "Khetha linako tsa beke linakong tse latelang ho latela letsatsi le hora tse u loketseng."
+      "message": "Khetha linako tsa beke linakong tse latelang ho latela letsatsi le hora tse u loketseng.",
     },
     "booking": {
       "title": "Booking",
-      "message": "Hlalosa nako ea matsatsi ao u batlang ho etsa peheletso almanakeng e ka tlase."
+      "message": "Hlalosa nako ea matsatsi ao u batlang ho etsa peheletso almanakeng e ka tlase.",
     },
     "subscription": {
-      "title": "Ngoliso"
+      "title": "Ngoliso",
     },
     "charge": {
-      "title": "Tefiso"
-    }
+      "title": "Tefiso",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Theko e tsitsitseng",
-      "message": "Mofuteng ona oa theko, theko ea sehlahisoa ke chelete e tsitsitseng mme ha ho hlokahale hore moreki a kope palo ea theko."
+      "message": "Mofuteng ona oa theko, theko ea sehlahisoa ke chelete e tsitsitseng mme ha ho hlokahale hore moreki a kope palo ea theko.",
     },
     "ESTIMATION": {
       "title": "Khakanyo ea Litheko",
-      "message": "Theko ea lihlahisoa le litšebeletso e tla baloa ho isa bohōleng bo itseng ke morekisi ha a fana ka taelo, li-invoice tsa tefo li ka fetoloa kapa tsa eketsoa nakong ea tšebeletso."
+      "message": "Theko ea lihlahisoa le litšebeletso e tla baloa ho isa bohōleng bo itseng ke morekisi ha a fana ka taelo, li-invoice tsa tefo li ka fetoloa kapa tsa eketsoa nakong ea tšebeletso.",
     },
     "AGREEMENT": {
       "title": "Litheko tsa Tumellano",
-      "message": "Theko ea ho qetela ea lihlahisoa kapa litšebeletso e ke ke ea fetoloa ke morekisi ka mor'a hore taelo e behoe."
+      "message": "Theko ea ho qetela ea lihlahisoa kapa litšebeletso e ke ke ea fetoloa ke morekisi ka mor'a hore taelo e behoe.",
     },
     "BID": {
       "title": "Litefiso / Fantisi",
-      "message": "Sehlahisoa se tla rekisoa ka theko e phahameng ka ho fetisisa ke bareki ba ka bang teng."
-    }
+      "message": "Sehlahisoa se tla rekisoa ka theko e phahameng ka ho fetisisa ke bareki ba ka bang teng.",
+    },
   },
   "map": {
     "title": "Sebaka sa ho fumana lihlahisoa",
     "confirm": "Beha sebaka",
     "address": "Sebaka",
-    "receptor": "Moamoheli"
+    "receptor": "Moamoheli",
   },
   "ShopBots": {
-    "telegram": "Thelekramo"
+    "telegram": "Thelekramo",
   },
   "article_tags": {
     "title": "Li-tag tsa litaba",
     "tags_input": "Li-tag",
     "tags_input_message": "Tags Lethathamo la sehlooho sena",
     "notification": {
-      "add_success": "Li-tag li kentsoe"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "E rarahane haholo",
-    "hard": "E thata",
-    "intermediate": "Mahareng",
-    "easy": "Bonolo"
-  },
-  "billing_period": {
-    "Daily": "Letsatsi le letsatsi",
-    "Weekly": "Beke le beke",
-    "Monthly": "Khoeli le khoeli",
-    "Every3Months": "Likhoeli tse ling le tse ling tse 3",
-    "Every6Months": "Likhoeli tse ling le tse ling tse 6",
-    "Yearly": "Selemo le selemo"
+      "add_success": "Li-tag li kentsoe",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh ha e ntle!",
     "between2_3": "Ho lokile!",
     "between3_4": "Batho ba e rata!",
-    "between4_5": "Batho ba e rata!"
+    "between4_5": "Batho ba e rata!",
   },
   "seasons": {
     "spring": "Selemo",
     "summer": "Lehlabula",
     "autumn": "Hoetla",
-    "winter": "Mariha"
-  }
+    "winter": "Mariha",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

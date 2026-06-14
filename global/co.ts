@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Aghju lettu i termini di usu è a pulitica di privacy è d'accordu cun elli.",
   "commons": {
     "Currency": "valuta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Statu",
     "Price": "prezzu",
@@ -169,6 +170,7 @@ export default {
     "net_price": "prezzu netu",
     "tax": "Tassa",
     "tax_included": "Inclusu in u prezzu",
+    "tax_included_abstract": "incl.",
     "limit": "Limitu",
     "min_purchase": "Acquistu minimu",
     "eligible_for": "Eleggibile per",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Data di creazione",
     "updated_at": "Ultima aghjurnazione",
     "register_at": "Data di registrazione",
+    "last_modified": "Last modified",
     "old": "Vechju",
     "new": "Novu",
     "start": "Principià",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Rivenditore",
     "tracking_code": "U codice di seguimentu",
     "tracking_url": "URL di seguimentu",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Cumplimenti",
     "reject": "Rifiuta",
     "reserved": "Riservatu",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Aspittendu...",
     "waiting_connecting_payment": "Aspittendu u serviziu di pagamentu ...",
     "creating_secure_payment": "Crià pagamentu sicuru.",
+    "waiting_for_payment": "Per piacè cumplete u pagamentu ...",
     "officer": "Ufficiale",
     "ticket": "Bigliettu",
     "ticket_url": "URL di u bigliettu",
@@ -361,7 +366,6 @@ export default {
     "rates": "Valutazione",
     "seen_at": "Vistu à",
     "completed": "Cumplitu",
-    "you": "Tu",
     "shop": "Shop",
     "store": "magazinu",
     "granted": "Concede",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Canale d'acquisizione",
+    "channels_overview": "Channels overview",
     "to": "À",
     "info": "Info",
     "general": "Generale",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per pruduttu",
     "journey": "Viaghju",
     "after": "Dopu",
-    "waiting_for_payment": "Per piacè cumplete u pagamentu ...",
     "hour": "Ora",
     "minute": "Minutu",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Magazzini",
     "vendor": "Venditore",
     "vendors": "Venditori",
+    "no_vendors": "No vendors",
     "marketplace": "Mercatu",
     "verify_date": "Verificate a data",
     "note": "Nota",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variante",
     "secure": "Secure",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Pagamentu micca stabilitu!",
     "orders_list": "Lista di ordini",
     "subscription_plan": "Pianu di abbunamentu",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clusters",
     "subscriptions": "Abbonamenti",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Tu",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Assai cumplicatu",
+    "hard": "Duru",
+    "intermediate": "Intermediu",
+    "easy": "Facile",
   },
   "dialogs": {
     "delete": {
       "title": "Sguassà",
       "message": "Sò sicuru di sguassà stu articulu ?",
-      "action": "Iè, sguassate avà"
-    }
+      "action": "Iè, sguassate avà",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Add to Cart",
     "cancel": "Cancella",
     "update": "Actualizazione",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Aghjunghjite una carta rigalu",
     "charge": "Carica",
     "send_invites": "Mandate inviti",
-    "past": "Passatu",
+    "paste": "Paste",
     "restore": "Risturà",
     "cut": "Tagliate",
     "get_sms_code": "Get codice di autentificazione",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Mostra l'anteprima",
     "hide_preview": "Oculta l'anteprima",
     "download_now": "Scaricate avà",
+    "watch_now": "Fighjate avà",
     "auto_fill": "Autofill",
     "track": "Pista",
     "change_state": "Cambia Status",
     "done": "Fattu",
     "reply": "Rispondimi",
-    "watch_now": "Fighjate avà",
     "unlock": "Sbloccare",
     "lock": "Lock",
     "create_clone": "Crea un clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Cumprà",
     "view_all": "Vede tuttu",
     "view_now": "Vede avà",
-    "paste": "Paste"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Passatu",
+  },
+  "billing_period": {
+    "Daily": "Ogni ghjornu",
+    "Weekly": "Ogni settimana",
+    "Monthly": "Mensili",
+    "Every3Months": "Ogni 3 mesi",
+    "Every6Months": "Ogni 6 mesi",
+    "Yearly": "Annuale",
   },
   "instance_message_title": "Mandate un missaghju immediata",
   "instance_message": "Salute {name}, Mi chjamu {author} da {company}.",
   "errors": {
     "419": "Avete statu inattivu per un bellu pezzu, per piacè <b>⟳ REFRESH THE PAGINA</b> per ragioni di sicurità.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "U sistema ùn sincronizeghja micca cù u blockchain. Ùn serà micca pussibule di creà una nova transazzione finu à chì a sincronizazione di i nostri servitori hè cumpletata. Avemu risolve u prublema.",
-    "gateway_network_error": "U serviziu di gateway di pagamentu hà scontru un prublema di cumunicazione."
+    "gateway_network_error": "U serviziu di gateway di pagamentu hà scontru un prublema di cumunicazione.",
   },
   "receiver_info": {
     "map": {
       "title": "Indirizzu di spedizione",
       "confirm": "Set locu",
       "address_type": "Destinazione",
-      "receptor_type": "Ricevitore"
+      "receptor_type": "Ricevitore",
     },
     "receiver_address": "Sceglie l'indirizzu di spedizione",
+    "service_address": "Sceglite u vostru indirizzu",
+    "select_billing_address": "Select billing address",
     "address": "indirizzu",
     "postcode": "codice postale",
     "enter_value": "Riempite quì",
     "address_note": "Nota",
     "tel": "Numeru di cuntattu",
-    "service_address": "Sceglite u vostru indirizzu"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "grammu",
     "oz": "Ounce",
     "lb": "Libbra",
-    "kg": "kilogramu"
+    "kg": "kilogramu",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "centimetru",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Pede",
     "mm": "millimetru",
     "m": "metru",
-    "yd": "Iarda"
+    "yd": "Iarda",
   },
   "distance": {
     "m": "metru",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Ghjorni",
     "hours": "Ore",
     "minutes": "Minuti",
-    "seconds": "Sicondi"
+    "seconds": "Sicondi",
   },
   "units": [
     "Unità",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Statu",
     "Territory": "Territoriu",
-    "Province": "Pruvincia"
+    "Province": "Pruvincia",
   },
   "transaction_status": {
     "RequireAction": "Azzione necessaria",
     "Processing": "Trattamentu",
     "Canceled": "Annulatu",
-    "Succeeded": "Riisciutu"
+    "Succeeded": "Riisciutu",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Sceglite a lingua..",
     "friend_email": "L'email di u vostru amicu...",
     "friend_name": "Opt. U nome di u vostru amicu",
-    "select_date": "Sceglite una data..."
+    "select_date": "Sceglite una data...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Cunfirmà",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Massimu {maxCount} caratteri",
     "invalid_url": "URL invalidu",
     "country_invalid": "Sceglite u paese di destinazione!",
-    "postal_code_invalid": "Stabilite un codice postale validu!"
+    "postal_code_invalid": "Stabilite un codice postale validu!",
   },
   "colors": {
     "#D32F2F": "Rossu",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unità",
     "postcode": "codice postale",
     "note": "Nota",
-    "county": "Cuntea"
+    "county": "Cuntea",
   },
   "product_types": {
     "physical": "Fisica",
@@ -1004,13 +1207,13 @@ export default {
     "service": "serviziu",
     "service_description": "I servizii cum'è: riparazione, trasportu, insignamentu.",
     "subscription": "Abbonamentu",
-    "subscription_description": "Abbonamenti è fattura per i prudutti, servizii, o cuntenutu."
+    "subscription_description": "Abbonamenti è fattura per i prudutti, servizii, o cuntenutu.",
   },
   "license": {
     "free": "Gratuitu",
     "startup": "Abbrivu",
     "company": "Cumpagnia",
-    "enterprise": "Impresa"
+    "enterprise": "Impresa",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Culore",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Cunta in pacchettu",
     "weight": "Pesu",
     "type": "Materiale",
-    "style": "Stile"
+    "style": "Stile",
   },
   "delivery_state": {
     "check_queue": "In attesa di rivisione",
     "order_confirm": "Cunfirmazione di l'ordine",
     "preparing_order": "Preparazione",
     "sent_order": "In consegna",
-    "to_customer": "Cunsegnatu"
+    "to_customer": "Cunsegnatu",
   },
   "status": {
     "unpaid": "Unpaid",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Rifiuta",
     "pending": "In attesa",
     "rejected": "Rifiutata",
-    "accepted": "Acceptatu"
+    "accepted": "Acceptatu",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "A moto",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Trasportu glubale",
     "global_description": "Spedizioni oltremare per aria, mare o terra.",
     "pickup": "Piglia",
-    "pickup_description": "I clienti piglianu l'articuli in a vostra tenda fisica o magazzinu."
+    "pickup_description": "I clienti piglianu l'articuli in a vostra tenda fisica o magazzinu.",
   },
   "article": {
     "login_to_see_error": "Login per accede à l'articulu",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Modalità di editazione",
       "view_mode": "Modu di vista",
-      "delete": "Sguassà l'articulu"
+      "delete": "Sguassà l'articulu",
     },
     "schedule_action": "Vulete pianificà a publicazione ?",
     "schedule_title": "Pianificate l'autopublicazione",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Segnala l'abusu è caccià u cuntenutu",
       "report_title": "Segnala stu cuntenutu cum'è abusiu",
       "message": "Chì ghjè u mutivu di mandà stu cuntenutu? Sceglite una di e seguenti opzioni.",
-      "accept_and_delete_action": "Cunfirmà è sguassà u cuntenutu"
+      "accept_and_delete_action": "Cunfirmà è sguassà u cuntenutu",
     },
     "schedule_dialog": {
       "title": "Schedule di liberazione di cuntenutu",
       "publish_at": "Publicà à",
       "last_edit": "Ultima edizione",
-      "view_action": "Vede l'articulu"
+      "view_action": "Vede l'articulu",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Invia l'infurmazione",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Segnala è sguassà",
       "report_and_delete_success_message": "L'articulu hè statu sguassatu cù successu.",
       "report_success_title": "Report articulu",
-      "report_success_message": "U vostru rapportu nantu à questu articulu hè statu publicatu."
+      "report_success_message": "U vostru rapportu nantu à questu articulu hè statu publicatu.",
     },
     "alert": {
       "delete_article": {
         "title": "Sguassà l'articulu",
         "message": "Sò sicuru chì vulete sguassà permanentemente stu articulu ?",
-        "action": "Sguassà"
-      }
+        "action": "Sguassà",
+      },
     },
     "edit_window": {
       "title": "Selezziunà u Testu di l'Image è u Riassuntu",
-      "digest": "Riassuntu"
+      "digest": "Riassuntu",
     },
     "editor": {
       "title_placeholder": "Titulu..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Stu schedariu hè troppu grande:",
       "notifications": {
         "image_uploaded_success": "L'immagine hè stata salvata cù successu",
-        "image_uploaded_failed": "Errore durante a carica di l'imagine."
+        "image_uploaded_failed": "Errore durante a carica di l'imagine.",
       },
       "embed_placeholder": "Inserite u codice iframe, Facebook, Youtube o qualsiasi altru URL è appughjà enter.",
       "embed_caption_placeholder": "Inserite un titulu (opcional)",
-      "images_caption_placeholder": "Inserite un titulu per sta maghjina .."
-    }
+      "images_caption_placeholder": "Inserite un titulu per sta maghjina ..",
+    },
   },
   "article_report": {
     "inappropriate": "U cuntenutu di stu articulu hè inappropriatu.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Pensu chì stu cuntenutu cuntene pornografia è hè in violazione di e lege.",
     "harassment": "Pensu chì questu hè razzista.",
     "hate": "Pensu chì si tratta di prumove a viulenza.",
-    "infringe": "Questu viola i mo diritti."
+    "infringe": "Questu viola i mo diritti.",
   },
   "comments": {
     "new_action": "Cliccate per lascià un cumentu ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Ottene più cumenti ..",
     "cant_send_comment": "Ùn pudete micca aghjunghje un novu postu.",
     "cant_remove_this_comment": "Ùn pudete micca sguassà stu cumentu!",
-    "product_buyer": "Cumpratore",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "I mo cumenti",
     "delete_alert": {
       "title": "Sguassà u cumentu",
       "message": "Vulete sguassà stu cumentu ?",
-      "action": "Sguassà"
+      "action": "Sguassà",
     },
     "notifications": {
-      "delete_success": "U vostru cummentariu sguassatu cù successu."
+      "delete_success": "U vostru cummentariu sguassatu cù successu.",
     },
     "first_send": "Primu postu",
     "comment_at": "On",
     "edit_comment": "Edit Comment",
-    "my_comments": "I mo cumenti"
+    "product_buyer": "Cumpratore",
   },
   "customer_club": {
     "bronze": "Bronzu",
     "silver": "Argentu",
     "gold": "d'oru",
     "platinum": "Platinu",
-    "diamond": "Diamante"
+    "diamond": "Diamante",
   },
   "application_categories": {
     "tracking": "Verificate u Cumportamentu di l'Usuariu",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Publicità",
     "staff": "U persunale",
     "incentive": "Incentivi",
-    "shop": "Shop"
+    "shop": "Shop",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Aghjunghjite un novu articulu",
     "title_input": "Titulu",
+    "placeholder_input": "Placeholder",
     "name_input": "Nome variabile",
     "value_input": "I valori",
     "value_input_message": "Lista di Opzioni d'Usuariu",
     "default": "Valore predeterminatu",
+    "file_type_input": "Tipi di schedari accettati",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Semplice",
       "selective": "Selettivu",
       "switch": "Cambia",
       "file": "File",
-      "number": "numeru"
+      "number": "numeru",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Placeholder",
-    "file_type_input": "Tipi di schedari accettati",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Nome di u produttu",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Status di pagamentu",
     "payment_status_waiting": "Aspittendu u pagamentu",
     "payment_status_paid": "Pagatu",
-    "buyer": "Cumpratore"
+    "buyer": "Cumpratore",
   },
   "virtual_item_info": {
     "title": "Articulu virtuale",
     "outputs": {
       "title": "Information sur l'output",
       "sub_title": "Informazioni cunfidenziale di questu Articulu",
-      "message": "Questa infurmazione serà mostrata à l'utilizatore dopu avè acquistatu u pruduttu."
+      "message": "Questa infurmazione serà mostrata à l'utilizatore dopu avè acquistatu u pruduttu.",
     },
     "inputs": {
       "title": "L'infurmazione necessaria",
       "sub_title": "L'infurmazione di u cumpratore hè necessaria",
-      "message": "U cumpratore deve inserisce l'infurmazioni dumandate in a forma"
+      "message": "U cumpratore deve inserisce l'infurmazioni dumandate in a forma",
     },
     "notifications": {
       "inputs_set_success": "Forma d'infurmazione registrata cun successu.",
       "confirm_by_admin_success": "Cumpiimentu di l'ordine cunfirmatu.",
-      "confirm_by_buyer_success": "Cumpiimentu di l'ordine cunfirmatu."
-    }
+      "confirm_by_buyer_success": "Cumpiimentu di l'ordine cunfirmatu.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Stu ordine ùn pò esse accettatu da u pagamentu COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Indispunibile.",
     "legal_restriction": "Impossibile di fà un ordine per via di restrizioni legali.",
     "pricing_fault": "Errore di prezzu da u venditore.",
-    "system_fault": "Bug di sistema."
+    "system_fault": "Bug di sistema.",
   },
   "basket_order_info_summery": {
     "receiver": "Ricevitore",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Scontu",
     "final_price": "A quantità finale",
     "address": "Indirizzu di consegna",
-    "payment_status": "Status di pagamentu"
+    "payment_status": "Status di pagamentu",
   },
   "basket_status": {
     "open": "Apertu",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Annulatu",
     "cod": "Paga à a consegna",
     "receipt_added": "Ricevuta aghjuntu",
-    "payment_processing": "Trattamentu di pagamentu"
+    "payment_processing": "Trattamentu di pagamentu",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Rifiutata",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Cunfirmazione",
     "step_3": "Preparazione",
     "step_4": "In consegna",
-    "step_5": "Cunsegnatu"
+    "step_5": "Cunsegnatu",
   },
   "basket_return_request_view": {
     "title": "A dumanda di ritornu",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Rifiuta a dumanda",
     "message_for_admin": "Sicondu l'accordu chì avete accettatu usendu u Selldone, duvete cuntattà u cumpratore è mantenenu infurmatu di u prucessu di rinvià u so ordine. Questu deve esse fattu se a dumanda hè accettata o rifiutata è u cunsensu tutale di u cumpratore hè ottenutu.",
     "notifications": {
-      "update_status_success": "Status di dumanda aghjurnatu."
-    }
+      "update_status_success": "Status di dumanda aghjurnatu.",
+    },
   },
   "basket_list": {
     "return_count": "Ritorna : {count} numeru",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variante",
       "warranty": "Garanzia",
       "count": "Conti",
-      "price": "prezzu"
-    }
+      "price": "prezzu",
+    },
   },
   "return_request_list": {
     "count": "Numeru di riferimentu",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Data di ricivutu",
       "state": "Status",
       "reason": "Ragiò",
-      "return_warranty_period": "Periudu di garanzia"
-    }
+      "return_warranty_period": "Periudu di garanzia",
+    },
   },
   "data_toolbar": {
     "search": "Ricerca",
     "sort_by": "Ordine per",
-    "count_item": "Mostra {item} elementi"
+    "count_item": "Mostra {item} elementi",
   },
   "sort": {
     "created_at": "Crea data",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ufficiale",
     "registered": "Arregistratu",
     "purchased": "Cumpratu",
-    "sex": "Genere"
+    "sex": "Genere",
   },
   "search_box": {
     "result": "Risultati di ricerca",
     "tips": "Cerca i prudutti è e categurie",
     "label": "Ricerca...",
-    "category": "categuria"
+    "category": "categuria",
   },
   "lead_status": {
     "physical_fast_delivery": "Consegna istantanea",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Preparazione è sottumessu da i prossimi {days} ghjorni",
     "virtual_fast_prepare": "Consegna istantanea",
     "virtual_under_24h": "Serà fattu in e prossime {lead} ore",
-    "virtual_over_24h": "Serà fattu da i prossimi {days} ghjorni"
+    "virtual_over_24h": "Serà fattu da i prossimi {days} ghjorni",
   },
   "return_request_state": {
     "pending": "In attesa",
     "accepted": "Cunfirmatu",
-    "rejected": "Rifiutata"
+    "rejected": "Rifiutata",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Manipolazione di u pacchettu o di u numeru di serie",
       "U5": "Certi articuli da u pacchettu mancanu",
       "U6": "U pruduttu ùn hè micca uriginale",
-      "U7": "U pruduttu ùn risponde micca à e specificazioni"
-    }
+      "U7": "U pruduttu ùn risponde micca à e specificazioni",
+    },
   },
   "image_uploader": {
     "label": "Drag & Drop o <u>Selezziunà u schedariu</u>",
-    "max_size": "Dimensione massima permessa: {size}"
+    "max_size": "Dimensione massima permessa: {size}",
   },
   "timespan": {
     "Morning": "8 ore à 12 ore",
     "Evening": "12 ore à 6 ore",
     "Night": "6 ore à 12 ore",
-    "Instant": "Post istantaneu"
+    "Instant": "Post istantaneu",
   },
   "week_day": {
     "Saturday": "Sabatu",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Marti",
     "Wednesday": "Marcuri",
     "Thursday": "Ghjovi",
-    "Friday": "Vennari"
+    "Friday": "Vennari",
   },
   "payment_form": {
     "title": "Selezziunà u Metudu di Pagamentu",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Felicitazioni, u vostru ordine hè liberu!",
     "order_free_payment_action": "Ordine Gratuitu Avà",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Indirizzu di pagamentu",
-      "amount": "A quantità"
-    }
+      "amount": "A quantità",
+    },
   },
   "discount_input": {
     "limit": "{percent}% di scontu finu à {limit} {currency}",
     "action": "Aggiungi codice di sconto",
     "code_input": "Codice di sconto",
     "notifications": {
-      "add_success": "Felicitazioni, codice sconto validu."
-    }
+      "add_success": "Felicitazioni, codice sconto validu.",
+    },
   },
   "gift_card": {
     "inactive": "A carta hè disattivata",
     "expire": "Scadenza",
     "transfer": "Trasferimentu",
-    "send_to_friend": "Mandate à un amicu"
+    "send_to_friend": "Mandate à un amicu",
   },
   "count_down": {
     "days": "Ghjornu",
     "hours": "Ora",
     "minutes": "Minuti",
-    "seconds": "Sicondi"
+    "seconds": "Sicondi",
   },
   "gift_status": {
     "Unpaid": "In attesa di Ricevuta",
     "Paid": "Pagatu",
     "Rejected": "Rifiutata",
-    "Canceled": "Annulatu"
+    "Canceled": "Annulatu",
   },
   "gift_program_status": {
     "Airdrop": "Sistema di pagamentu",
     "Advertising": "Publicità",
     "PersonalGift": "Regalo persunale",
-    "ShopGift": "Negoziu di rigalu"
+    "ShopGift": "Negoziu di rigalu",
   },
   "currency_selector": {
-    "label": "valuta"
+    "label": "valuta",
   },
   "need_login": {
     "title": "login",
     "login_sms": "Login SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Accedi cù Google",
     "login_facebook": "Accedi cù Facebook",
+    "login_apple": "Login cù Apple",
     "login_account": "Login da Selldone",
     "register": "Novu utilizatore? Registrate avà.",
     "mobile_input": "Entre in u vostru telefuninu",
     "verification_code": "Codice di verificazione",
     "msg_title": "Salute,",
     "msg_body": "Per piacè accede. Piglia solu uni pochi di seconde.",
-    "login_apple": "Login cù Apple",
     "login_email": "Login per Email",
     "email_login_step_1": "Per piacè furnite un indirizzu email validu, è vi manderemu u codice di login. Nisuna registrazione hè necessaria.",
     "email_login_step_2": "Sò sicuru d'avè inseritu u vostru indirizzu email currettamente? Manderemu u codice di login à l'email furnitu, cusì assicuratevi di a so precisione.",
-    "email_login_step_3": "Avemu mandatu un codice à u vostru email. Per piacè nutate chì u codice scadrà in 10 minuti."
+    "email_login_step_3": "Avemu mandatu un codice à u vostru email. Per piacè nutate chì u codice scadrà in 10 minuti.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Anni Gold Store"
+      "name": "5 Anni Gold Store",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Anni Gold Store"
+      "name": "4 Anni Gold Store",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Anni Gold Store"
+      "name": "3 Anni Gold Store",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Anni Gold Store"
+      "name": "2 Anni Gold Store",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Year Store d'oru"
+      "name": "1 Year Store d'oru",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Investitore d'oru"
+      "name": "Investitore d'oru",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Investitore di diamanti"
+      "name": "Investitore di diamanti",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Investisseur Ruby"
+      "name": "Investisseur Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Membru di a Cumunità Superiore di Reti di Comunicazione"
+      "name": "Membru di a Cumunità Superiore di Reti di Comunicazione",
     },
     "GOLD_SUPPLIER": {
-      "name": "Fornitore d'oru"
+      "name": "Fornitore d'oru",
     },
     "GOLD_SELLER": {
-      "name": "Venditore d'oru"
+      "name": "Venditore d'oru",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Top Produttore di cuntenutu"
+      "name": "Top Produttore di cuntenutu",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "stella"
+      "name": "stella",
     },
     "GUARDIAN": {
-      "name": "Grande serviziu à u cliente"
+      "name": "Grande serviziu à u cliente",
     },
     "KING": {
-      "name": "Rè di u Mercatu"
-    }
+      "name": "Rè di u Mercatu",
+    },
   },
   "cookie": {
     "title": "Stu situ web usa cookies",
     "message": "Stu situ web usa cookies per migliurà l'esperienza d'utilizatore. Utilizendu u nostru situ web accunsente à tutte e cookies in cunfurmità cù a nostra Politica di Cookie.",
     "preferences_action": "Gestisce e Preferenze",
-    "agree_action": "Sò d'accordu"
+    "agree_action": "Sò d'accordu",
   },
   "basket_item_message": {
     "title": "L'infurmazione necessaria per questu articulu",
     "save_actions": "Salvà u messagiu",
+    "product_inputs_preview_message": "Queste opzioni di persunalizazione sò dispunibuli per u vostru pruduttu urdinatu. Una volta chì l'articulu hè aghjuntu à u vostru carrettu, puderete fà aghjustamenti quì.",
     "notifications": {
-      "success": "I vostri dati di input sò stati salvati."
+      "success": "I vostri dati di input sò stati salvati.",
     },
-    "product_inputs_preview_message": "Queste opzioni di persunalizazione sò dispunibuli per u vostru pruduttu urdinatu. Una volta chì l'articulu hè aghjuntu à u vostru carrettu, puderete fà aghjustamenti quì."
   },
   "faq": {
     "faq": "Domande Frequenti",
     "title": "Domande è Risposte",
-    "sub_title": "Ciò chì ci avete dumandatu di fà.",
     "message": "Cercate a risposta à a vostra dumanda trà e risposte sottu. Dumandateci se e dumande restanu senza risposta.",
     "add_question_action": "Fate una nova dumanda",
     "read_more": "Leghjite più ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Quistione",
     "question_input_placeholder": "Fate a vostra dumanda.",
     "notifications": {
-      "success_add": "A vostra dumanda hè stata sottumessa cù successu."
-    }
+      "success_add": "A vostra dumanda hè stata sottumessa cù successu.",
+    },
+    "sub_title": "Ciò chì ci avete dumandatu di fà.",
   },
   "rating_labels": [
     "Assai male",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Inserite l'indirizzu di destinazione",
     "enter_your_address": "Inserite u vostru indirizzu.",
     "postal_code": "codice postale",
-    "phone_input": "telefonu {type}",
+    "phone_input": "telefonu",
     "building_number": "Numaru di l'edificiu",
     "building_unit": "Unità",
     "full_name_input": "Nome cumpletu {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Etichetta di indirizzu (necessariu)",
     "notifications": {
       "save_in_list": "Stu indirizzu hè statu salvatu à a vostra lista cù tutti i so ditagli.",
-      "edit_success": "Nuvelli valori di indirizzu salvati in {title}."
+      "edit_success": "Nuvelli valori di indirizzu salvati in {title}.",
     },
     "delete_address_dialog": {
       "title": "Elimina l'indirizzu",
       "message": "Sò sicuru chì vulete sguassà stu indirizzu ?",
-      "action": "Elimina l'indirizzu"
-    }
+      "action": "Elimina l'indirizzu",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ùn pò micca edità stu cumentu !",
     "comment_input_empty": "U testu di u messagiu hè in biancu!",
-    "article_not_saved": "Salvà l'articulu!"
+    "article_not_saved": "Salvà l'articulu!",
   },
   "wheel_fortune": {
     "title": "Ghjucà è vincite",
     "message": "U costu di ogni ghjocu hè 10 chips. Avete attualmente {chips} chip. Ottene più chip da cumprà da a tenda.",
     "win_message": "Felicitazioni, vincite !",
     "lost_message": "Scusate, avete persu u ghjocu.",
-    "try_again": "Pudete pruvà di novu"
+    "try_again": "Pudete pruvà di novu",
   },
   "json": {
     "add": "Aghjunghjite dati di struttura",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Strutture",
     "book": {
       "title": "Libru",
-      "desc": "Azzioni di libru chì permettenu à l'utilizatori di cumprà u libru chì trovanu direttamente da i risultati di ricerca."
+      "desc": "Azzioni di libru chì permettenu à l'utilizatori di cumprà u libru chì trovanu direttamente da i risultati di ricerca.",
     },
     "occupation": {
       "title": "Salariu stimatu",
-      "desc": "L'infurmazione nantu à l'estimazione di u salariu, cum'è l'intervalli di salariu è a media di u salariu basatu in a regione per i tipi di travagliu, affissate in l'esperienza di ricerca di travagliu in Google."
+      "desc": "L'infurmazione nantu à l'estimazione di u salariu, cum'è l'intervalli di salariu è a media di u salariu basatu in a regione per i tipi di travagliu, affissate in l'esperienza di ricerca di travagliu in Google.",
     },
     "course": {
       "title": "Corsu",
-      "desc": "Corsi educativi chì appariscenu in una lista specifica di u fornitore. I corsi ponu include u titulu di u corsu, u fornitore è una breve descrizzione."
+      "desc": "Corsi educativi chì appariscenu in una lista specifica di u fornitore. I corsi ponu include u titulu di u corsu, u fornitore è una breve descrizzione.",
     },
     "howto": {
       "title": "Cumu fà",
-      "desc": "A How-to cammina l'utilizatori à traversu una serie di passi per cumpiendu cù successu un compitu, cù video, immagini è testu."
+      "desc": "A How-to cammina l'utilizatori à traversu una serie di passi per cumpiendu cù successu un compitu, cù video, immagini è testu.",
     },
     "recipe": {
       "title": "Ricetta",
-      "desc": "Ricette chì mostranu cum'è un risultatu riccu individuale o parte di un carousel d'ospiti."
-    }
+      "desc": "Ricette chì mostranu cum'è un risultatu riccu individuale o parte di un carousel d'ospiti.",
+    },
   },
   "support": {
     "Financial": "Finanziari",
     "Technical": "Tecnica",
-    "Advisor": "Cunsigliu"
+    "Advisor": "Cunsigliu",
   },
   "condition": {
     "new": "Novu",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Adupratu",
     "used_fair": "Adupratu fiera",
     "used_good": "Adupratu bè",
-    "used_like_new": "Adupratu cum'è novu"
+    "used_like_new": "Adupratu cum'è novu",
   },
   "variant_filter": {
     "title": "Filtru Variante di Produttu",
-    "only_available": "In magazinu"
+    "only_available": "In magazinu",
   },
   "service": {
     "task": {
       "title": "I compiti",
-      "message": "Lista di i travaglii realizati in stu serviziu."
+      "message": "Lista di i travaglii realizati in stu serviziu.",
     },
     "appointment": {
       "title": "Appuntamentu",
-      "message": "Sceglite l'ora di a settimana da i seguenti tempi basatu annantu à u ghjornu è l'ora chì hè ghjustu per voi."
+      "message": "Sceglite l'ora di a settimana da i seguenti tempi basatu annantu à u ghjornu è l'ora chì hè ghjustu per voi.",
     },
     "booking": {
       "title": "Riservazione",
-      "message": "Specificate u periodu di tempu di i ghjorni chì vulete fà una riservazione in u calendariu sottu."
+      "message": "Specificate u periodu di tempu di i ghjorni chì vulete fà una riservazione in u calendariu sottu.",
     },
     "subscription": {
-      "title": "Abbonamentu"
+      "title": "Abbonamentu",
     },
     "charge": {
-      "title": "Carica"
-    }
+      "title": "Carica",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Prezzi fissi",
-      "message": "In questu tipu di prezzu, u prezzu di u pruduttu hè una quantità fissa è ùn ci hè bisognu di u cumpratore per dumandà un calculu di prezzu."
+      "message": "In questu tipu di prezzu, u prezzu di u pruduttu hè una quantità fissa è ùn ci hè bisognu di u cumpratore per dumandà un calculu di prezzu.",
     },
     "ESTIMATION": {
       "title": "Prezzi di stima",
-      "message": "U prezzu di i prudutti è di i servizii serà calculatu in una certa misura da u venditore quandu si mette un ordine, e fatture di pagamentu pò esse cambiate o aghjunte durante u serviziu."
+      "message": "U prezzu di i prudutti è di i servizii serà calculatu in una certa misura da u venditore quandu si mette un ordine, e fatture di pagamentu pò esse cambiate o aghjunte durante u serviziu.",
     },
     "AGREEMENT": {
       "title": "Prezzi di l'accordu",
-      "message": "U prezzu finali di i prudutti o servizii ùn serà micca cambiatu da u venditore dopu chì l'ordine hè statu fattu."
+      "message": "U prezzu finali di i prudutti o servizii ùn serà micca cambiatu da u venditore dopu chì l'ordine hè statu fattu.",
     },
     "BID": {
       "title": "Bid/Asta",
-      "message": "U pruduttu serà vendutu à u prezzu più altu di l'offerta da i pussibuli cumpratori."
-    }
+      "message": "U pruduttu serà vendutu à u prezzu più altu di l'offerta da i pussibuli cumpratori.",
+    },
   },
   "map": {
     "title": "Destinazione per riceve i prudutti",
     "confirm": "Set locu",
     "address": "Destinazione",
-    "receptor": "Ricevitore"
+    "receptor": "Ricevitore",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Tags di cuntenutu",
     "tags_input": "Tags",
     "tags_input_message": "Tags Lista di stu articulu",
     "notification": {
-      "add_success": "Tags aghjustatu"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Assai cumplicatu",
-    "hard": "Duru",
-    "intermediate": "Intermediu",
-    "easy": "Facile"
-  },
-  "billing_period": {
-    "Daily": "Ogni ghjornu",
-    "Weekly": "Ogni settimana",
-    "Monthly": "Mensili",
-    "Every3Months": "Ogni 3 mesi",
-    "Every6Months": "Ogni 6 mesi",
-    "Yearly": "Annuale"
+      "add_success": "Tags aghjustatu",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh micca bè!",
     "between2_3": "Va bè!",
     "between3_4": "A ghjente piace !",
-    "between4_5": "A ghjente li piace!"
+    "between4_5": "A ghjente li piace!",
   },
   "seasons": {
     "spring": "Primavera",
     "summer": "Estate",
     "autumn": "Autunno",
-    "winter": "Inguernu"
-  }
+    "winter": "Inguernu",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

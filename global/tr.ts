@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Kullanım şartlarını ve gizlilik politikasını okudum ve kabul ediyorum.",
   "commons": {
     "Currency": "Para birimi",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Belirtmek, bildirmek",
     "Price": "fiyat",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Net fiyat",
     "tax": "Vergi",
     "tax_included": "Fiyata dahil",
+    "tax_included_abstract": "dahil",
     "limit": "sınır",
     "min_purchase": "Minimum satın alma",
     "eligible_for": "için uygun",
@@ -302,6 +304,7 @@ export default {
     "created_at": "oluşturulma tarihi",
     "updated_at": "Son Güncelleme",
     "register_at": "Kayıt Tarihi",
+    "last_modified": "Last modified",
     "old": "Eskimiş",
     "new": "Yeni",
     "start": "Başlangıç",
@@ -330,6 +333,7 @@ export default {
     "reseller": "bayi",
     "tracking_code": "İzleme kodu",
     "tracking_url": "İzleme URL'si",
+    "fulfillment": "yerine getirme",
     "fulfillments": "yerine getirilmesi",
     "reject": "Reddetmek",
     "reserved": "Rezerve",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Beklemek...",
     "waiting_connecting_payment": "Ödeme hizmeti bekleniyor...",
     "creating_secure_payment": "Güvenli ödeme oluşturma.",
+    "waiting_for_payment": "Lütfen ödemeyi tamamlayın...",
     "officer": "Subay",
     "ticket": "Bilet",
     "ticket_url": "Bilet URL'si",
@@ -361,7 +366,6 @@ export default {
     "rates": "Değerlendirme",
     "seen_at": "Şurada görüldü:",
     "completed": "Tamamlanmış",
-    "you": "Sen",
     "shop": "Mağaza",
     "store": "mağaza",
     "granted": "İmtiyazlı",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Edinme kanalı",
+    "channels_overview": "Kanallara genel bakış",
     "to": "İle",
     "info": "Bilgi",
     "general": "Genel",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Ürün başına",
     "journey": "Seyahat",
     "after": "Sonrasında",
-    "waiting_for_payment": "Lütfen ödemeyi tamamlayın...",
     "hour": "Saat",
     "minute": "Dakika",
     "premium": "Ödül",
@@ -569,6 +573,7 @@ export default {
     "shops": "Mağazalar",
     "vendor": "SATICI",
     "vendors": "Satıcılar",
+    "no_vendors": "Satıcı yok",
     "marketplace": "pazar yeri",
     "verify_date": "Tarihi doğrula",
     "note": "Not",
@@ -604,7 +609,6 @@ export default {
     "variant": "varyant",
     "secure": "Güvenli",
     "admin": "yönetici",
-    "tax_included_abstract": "dahil",
     "payment_not_settled": "Ödeme yapılmadı!",
     "orders_list": "sipariş listesi",
     "subscription_plan": "Abonelik planı",
@@ -643,9 +647,6 @@ export default {
     "subscriptions": "abonelikler",
     "spam": "İstenmeyen e-posta",
     "video": "Video",
-    "fulfillment": "yerine getirme",
-    "channels_overview": "Kanallara genel bakış",
-    "no_vendors": "Satıcı yok",
     "ends_in": "Bitiş tarihi",
     "current": "Akım",
     "important": "Önemli",
@@ -682,6 +683,7 @@ export default {
     "refund": "Geri ödemek",
     "items": "Öğeler",
     "incentives": "Teşvikler",
+    "you": "Sen",
     "recurring_payment": "Tekrarlayan ödeme",
     "pricing": "fiyatlandırma",
     "purchase": "Satın almak",
@@ -712,16 +714,102 @@ export default {
     "system": "Sistem",
     "unknown": "Bilinmeyen",
     "week": "Hafta",
-    "agencies": "Acenteler"
+    "agencies": "Acenteler",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Çok karmaşık",
+    "hard": "Sert",
+    "intermediate": "Orta düzey",
+    "easy": "Kolay",
   },
   "dialogs": {
     "delete": {
       "title": "Silmek",
       "message": "Bu öğeyi silmek istediğinizden emin misiniz?",
-      "action": "Evet, Şimdi Sil"
-    }
+      "action": "Evet, Şimdi Sil",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Sepete ekle",
     "cancel": "İptal etmek",
     "update": "Güncelleme",
@@ -790,7 +878,7 @@ export default {
     "add_giftcard": "Hediye kartı ekle",
     "charge": "Şarj etmek",
     "send_invites": "davetiye gönder",
-    "past": "Geçmiş",
+    "paste": "Yapıştırmak",
     "restore": "Eski haline getirmek",
     "cut": "Kesmek",
     "get_sms_code": "Kimlik doğrulama kodunu al",
@@ -819,12 +907,12 @@ export default {
     "show_preview": "Önizlemeyi Göster",
     "hide_preview": "Önizlemeyi gizle",
     "download_now": "Şimdi İndirin",
+    "watch_now": "İzle şimdi",
     "auto_fill": "otomatik doldurma",
     "track": "Izlemek",
     "change_state": "Durum değiştirmek",
     "done": "Tamamlandı",
     "reply": "Cevap vermek",
-    "watch_now": "İzle şimdi",
     "unlock": "Kilidini aç",
     "lock": "Kilit",
     "create_clone": "Klon oluştur",
@@ -843,7 +931,6 @@ export default {
     "buy": "Satın almak",
     "view_all": "Hepsini gör",
     "view_now": "Şimdi Görüntüle",
-    "paste": "Yapıştırmak",
     "edit_address": "Adresi düzenle",
     "resend": "Tekrar gönder",
     "deploy_now": "Şimdi Dağıt",
@@ -856,41 +943,59 @@ export default {
     "duplicate": "Kopyalamak",
     "connect": "Bağlamak",
     "connect_now": "Şimdi Bağlan",
-    "verify_now": "Şimdi doğrulayın"
+    "verify_now": "Şimdi doğrulayın",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Geçmiş",
+  },
+  "billing_period": {
+    "Daily": "Günlük",
+    "Weekly": "Haftalık",
+    "Monthly": "Aylık",
+    "Every3Months": "Her 3 ay",
+    "Every6Months": "6 ayda bir",
+    "Yearly": "Yıllık",
   },
   "instance_message_title": "Anlık mesaj gönder",
   "instance_message": "Merhaba {name}, Benim adım {author} şirketinden {company}.",
   "errors": {
     "419": "Uzun süredir aktif değildiniz, lütfen <b>⟳ Güvenlik nedeniyle SAYFAYI YENİLEYİNİZ</b> .",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistem blok zinciri ile senkronize değil. Sunucularımızın senkronizasyonları tamamlanana kadar yeni bir işlem oluşturmak mümkün olmayacaktır. Sorunu çözüyoruz.",
-    "gateway_network_error": "Ödeme ağ geçidi hizmeti bir iletişim sorunuyla karşılaştı."
+    "gateway_network_error": "Ödeme ağ geçidi hizmeti bir iletişim sorunuyla karşılaştı.",
   },
   "receiver_info": {
     "map": {
       "title": "Gönderi Adresi",
       "confirm": "Konumu ayarla",
       "address_type": "Varış noktası",
-      "receptor_type": "Alıcı"
+      "receptor_type": "Alıcı",
     },
     "receiver_address": "Gönderim adresini seçin",
+    "service_address": "adresinizi seçin",
+    "select_billing_address": "Select billing address",
     "address": "adres",
     "postcode": "Posta kodu",
     "enter_value": "Burayı doldurun",
     "address_note": "Not",
     "tel": "İletişim numarası",
-    "service_address": "adresinizi seçin"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "1 pound = 0.45 kg",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ons",
     "lb": "Pound",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "santimetre",
@@ -898,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "gün"
+    "yd": "gün",
   },
   "size_unit_name": {
     "cm": "Santimetre",
@@ -906,17 +1011,21 @@ export default {
     "ft": "Ayak",
     "mm": "milimetre",
     "m": "metre",
-    "yd": "Bahçe"
+    "yd": "Bahçe",
   },
   "distance": {
     "m": "metre",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "günler",
     "hours": "Saat",
     "minutes": "dakika",
-    "seconds": "saniye"
+    "seconds": "saniye",
   },
   "units": [
     "Birim",
@@ -953,14 +1062,14 @@ export default {
   "region_types": {
     "State": "Belirtmek, bildirmek",
     "Territory": "Bölge",
-    "Province": "Vilayet"
+    "Province": "Vilayet",
   },
   "transaction_status": {
     "RequireAction": "Eylem Gerekli",
     "Processing": "İşleme",
     "Canceled": "İptal edildi",
     "Succeeded": "başarılı",
-    "RequireCapture": "Yakalama gerektir"
+    "RequireCapture": "Yakalama gerektir",
   },
   "placeholders": {
     "name": "jone cox",
@@ -976,7 +1085,10 @@ export default {
     "birthday": "Doğum gününü seç",
     "select_category": "Bir kategori seçin...",
     "select_a_country": "Bir ülke seçin...",
-    "filter_country": "Ülkeye göre filtrele..."
+    "filter_country": "Ülkeye göre filtrele...",
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Onaylamak",
@@ -1001,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maks. {maxCount} karakter",
     "invalid_url": "Geçersiz URL",
     "country_invalid": "Hedef ülkeyi seçin!",
-    "postal_code_invalid": "Geçerli bir posta kodu belirleyin!"
+    "postal_code_invalid": "Geçerli bir posta kodu belirleyin!",
   },
   "colors": {
     "#D32F2F": "Kırmızı",
@@ -1083,7 +1195,7 @@ export default {
     "building_unit": "Birim",
     "postcode": "Posta kodu",
     "note": "Not",
-    "county": "ilçe"
+    "county": "ilçe",
   },
   "product_types": {
     "physical": "Fiziksel",
@@ -1095,13 +1207,13 @@ export default {
     "service": "Hizmet",
     "service_description": "Hizmetler: onarım, ulaşım, öğretim.",
     "subscription": "abonelik",
-    "subscription_description": "Ürünler, hizmetler veya içerikler için abonelikler ve faturalandırma."
+    "subscription_description": "Ürünler, hizmetler veya içerikler için abonelikler ve faturalandırma.",
   },
   "license": {
     "free": "Özgür",
     "startup": "Başlamak",
     "company": "Şirket",
-    "enterprise": "Girişim"
+    "enterprise": "Girişim",
   },
   "currency": {
     "IRR": "IRR",
@@ -1167,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1247,12 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
     "SYP": "SYP",
     "KWD": "KWD",
-    "BTN": "BTN"
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Renk",
@@ -1260,14 +1372,14 @@ export default {
     "count_in_pack": "Paketteki sayı",
     "weight": "Ağırlık",
     "type": "Malzeme",
-    "style": "stil"
+    "style": "stil",
   },
   "delivery_state": {
     "check_queue": "İnceleme bekleniyor",
     "order_confirm": "Sipariş onayı",
     "preparing_order": "hazırlanıyor",
     "sent_order": "Teslimatta",
-    "to_customer": "Teslim edilmiş"
+    "to_customer": "Teslim edilmiş",
   },
   "status": {
     "unpaid": "ödenmemiş",
@@ -1290,12 +1402,12 @@ export default {
     "reject": "Reddetmek",
     "pending": "Bekliyor",
     "rejected": "Reddedilmiş",
-    "accepted": "Kabul edilmiş"
+    "accepted": "Kabul edilmiş",
   },
   "dimensions": {
     "cm": "santimetre",
     "km": "km",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "transportation_type": {
     "motorbike": "Motosiklet",
@@ -1317,7 +1429,7 @@ export default {
     "global": "küresel ulaşım",
     "global_description": "Hava, deniz veya kara yoluyla denizaşırı nakliye.",
     "pickup": "Toplamak",
-    "pickup_description": "Müşteriler ürünleri fiziksel mağazanızdan veya deponuzdan alır."
+    "pickup_description": "Müşteriler ürünleri fiziksel mağazanızdan veya deponuzdan alır.",
   },
   "article": {
     "login_to_see_error": "Makaleye erişmek için giriş yapın",
@@ -1326,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Düzenleme modu",
       "view_mode": "Görünüm modu",
-      "delete": "Makaleyi Sil"
+      "delete": "Makaleyi Sil",
     },
     "schedule_action": "Yayını planlamak istiyor musunuz?",
     "schedule_title": "Otomatik yayınlamayı planla",
@@ -1369,7 +1481,7 @@ export default {
       "report_and_delete_title": "Kötüye kullanımı bildir ve içeriği kaldır",
       "report_title": "Bu içeriği kötüye kullanım olarak bildirin",
       "message": "Bu içeriği gönderme sebebiniz nedir? Aşağıdaki seçeneklerden birini seçin.",
-      "accept_and_delete_action": "İçeriği Onaylayın ve Silin"
+      "accept_and_delete_action": "İçeriği Onaylayın ve Silin",
     },
     "schedule_dialog": {
       "title": "İçerik Yayın Takvimi",
@@ -1378,7 +1490,7 @@ export default {
       "view_action": "Makaleyi Görüntüle",
       "no_article": "Planlanmış makale yok!",
       "current_article": "Güncel Makale",
-      "article_for_product": "Ürün İçin Makale"
+      "article_for_product": "Ürün İçin Makale",
     },
     "notifications": {
       "update_success_title": "Bilgi Gönder",
@@ -1388,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Rapor Et ve Sil",
       "report_and_delete_success_message": "Makale başarıyla silindi.",
       "report_success_title": "Makaleyi bildir",
-      "report_success_message": "Bu makale hakkındaki raporunuz yayınlandı."
+      "report_success_message": "Bu makale hakkındaki raporunuz yayınlandı.",
     },
     "alert": {
       "delete_article": {
         "title": "Makaleyi Sil",
         "message": "Bu makaleyi kalıcı olarak silmek istediğinizden emin misiniz?",
-        "action": "Silmek"
-      }
+        "action": "Silmek",
+      },
     },
     "edit_window": {
       "title": "Resim Metni ve Özeti Seçin",
-      "digest": "Özet"
+      "digest": "Özet",
     },
     "editor": {
       "title_placeholder": "Başlık..",
@@ -1408,12 +1520,12 @@ export default {
       "max_file_size_error": "Bu dosya çok büyük:",
       "notifications": {
         "image_uploaded_success": "Resim başarıyla kaydedildi",
-        "image_uploaded_failed": "Resim yüklenirken hata oluştu."
+        "image_uploaded_failed": "Resim yüklenirken hata oluştu.",
       },
       "embed_placeholder": "iframe kodunu, Facebook, Youtube veya başka bir URL'yi girin ve enter tuşuna basın.",
       "embed_caption_placeholder": "Bir başlık girin (isteğe bağlı)",
-      "images_caption_placeholder": "Bu resim için bir başlık girin.."
-    }
+      "images_caption_placeholder": "Bu resim için bir başlık girin..",
+    },
   },
   "article_report": {
     "inappropriate": "Bu makalenin içeriği uygun değil.",
@@ -1425,7 +1537,7 @@ export default {
     "violent": "Bu içeriğin pornografi içerdiğini ve yasaları ihlal ettiğini düşünüyorum.",
     "harassment": "Bence bu ırkçı.",
     "hate": "Bunun şiddeti teşvik etmekle ilgili olduğunu düşünüyorum.",
-    "infringe": "Bu benim haklarımı ihlal ediyor."
+    "infringe": "Bu benim haklarımı ihlal ediyor.",
   },
   "comments": {
     "new_action": "Yorum bırakmak için tıklayın..",
@@ -1438,27 +1550,27 @@ export default {
     "load_more_action": "Daha fazla yorum alın..",
     "cant_send_comment": "Yeni gönderi ekleyemezsiniz.",
     "cant_remove_this_comment": "Bu yorumu silemezsiniz!",
-    "product_buyer": "Alıcı",
+    "verified_buyer": "Doğrulanmış Alıcı",
+    "my_comments": "Yorumlarım",
     "delete_alert": {
       "title": "Yorumu Sil",
       "message": "Bu yorumu silmek istiyor musunuz?",
-      "action": "Silmek"
+      "action": "Silmek",
     },
     "notifications": {
-      "delete_success": "Yorumunuz başarıyla silindi."
+      "delete_success": "Yorumunuz başarıyla silindi.",
     },
     "first_send": "İlk gönderi",
     "comment_at": "Açık",
     "edit_comment": "Yorumu Düzenle",
-    "my_comments": "Yorumlarım",
-    "verified_buyer": "Doğrulanmış Alıcı"
+    "product_buyer": "Alıcı",
   },
   "customer_club": {
     "bronze": "Bronz",
     "silver": "Gümüş rengi",
     "gold": "Altın",
     "platinum": "Platin",
-    "diamond": "Elmas"
+    "diamond": "Elmas",
   },
   "application_categories": {
     "tracking": "Kullanıcı Davranışını Kontrol Etme",
@@ -1473,7 +1585,7 @@ export default {
     "advertising": "reklam",
     "staff": "Kadro",
     "incentive": "Teşvikler",
-    "shop": "Mağaza"
+    "shop": "Mağaza",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1488,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "Naber",
     "skype": "Skype",
-    "facebook_messenger": "Facebook haberci"
+    "facebook_messenger": "Facebook haberci",
   },
   "form_builder": {
     "add_item_action": "yeni öğe ekle",
     "title_input": "Başlık",
+    "placeholder_input": "Yer tutucu",
     "name_input": "Değişken ismi",
     "value_input": "değerler",
     "value_input_message": "Kullanıcı Seçenekleri Listesi",
     "default": "Varsayılan değer",
+    "file_type_input": "Kabul edilebilir dosya türleri",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Basit",
       "selective": "Seçici",
       "switch": "Değiştirmek",
       "file": "Dosya",
-      "number": "Sayı"
+      "number": "Sayı",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Yer tutucu",
-    "file_type_input": "Kabul edilebilir dosya türleri",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Ürün adı",
@@ -1517,25 +1630,25 @@ export default {
     "payment_status": "Ödeme durumu",
     "payment_status_waiting": "Ödeme için bekleniyor",
     "payment_status_paid": "Paralı",
-    "buyer": "Alıcı"
+    "buyer": "Alıcı",
   },
   "virtual_item_info": {
     "title": "Sanal Öğe",
     "outputs": {
       "title": "Çıktı Bilgileri",
       "sub_title": "Bu Öğenin Gizli Bilgileri",
-      "message": "Bu bilgiler, ürünü satın aldıktan sonra kullanıcıya gösterilecektir."
+      "message": "Bu bilgiler, ürünü satın aldıktan sonra kullanıcıya gösterilecektir.",
     },
     "inputs": {
       "title": "Bilgi gerekiyor",
       "sub_title": "Alıcı Bilgileri Gerekli",
-      "message": "Alıcı, istenen bilgileri forma girmelidir."
+      "message": "Alıcı, istenen bilgileri forma girmelidir.",
     },
     "notifications": {
       "inputs_set_success": "Bilgi formu başarıyla kaydedildi.",
       "confirm_by_admin_success": "Sipariş tamamlama onaylandı.",
-      "confirm_by_buyer_success": "Sipariş tamamlama onaylandı."
-    }
+      "confirm_by_buyer_success": "Sipariş tamamlama onaylandı.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Bu sipariş COD ödemesi ile kabul edilemez.",
@@ -1547,7 +1660,7 @@ export default {
     "lack_of_inventory": "Stoklar tükendi.",
     "legal_restriction": "Yasal kısıtlamalar nedeniyle sipariş verilemiyor.",
     "pricing_fault": "Satıcının fiyat hatası.",
-    "system_fault": "Sistem hatası."
+    "system_fault": "Sistem hatası.",
   },
   "basket_order_info_summery": {
     "receiver": "Alıcı",
@@ -1557,7 +1670,7 @@ export default {
     "discount": "İndirim",
     "final_price": "Son miktar",
     "address": "Teslimat adresi",
-    "payment_status": "Ödeme durumu"
+    "payment_status": "Ödeme durumu",
   },
   "basket_status": {
     "open": "Açık",
@@ -1567,7 +1680,7 @@ export default {
     "cod": "Teslimatta ödeme yapmak",
     "receipt_added": "makbuz eklendi",
     "payment_processing": "Odeme yapiliyor",
-    "payment_require_capture": "Yakalama gerektir"
+    "payment_require_capture": "Yakalama gerektir",
   },
   "basket_delivery_state": {
     "rejected": "Reddedilmiş",
@@ -1576,7 +1689,7 @@ export default {
     "step_2": "Onayla",
     "step_3": "Hazırlık",
     "step_4": "Teslimatta",
-    "step_5": "Teslim edilmiş"
+    "step_5": "Teslim edilmiş",
   },
   "basket_return_request_view": {
     "title": "İade Talebi",
@@ -1594,8 +1707,8 @@ export default {
     "reject_by_admin_action": "isteği reddet",
     "message_for_admin": "Selldone'u kullanarak kabul ettiğiniz sözleşmeye göre, alıcı ile iletişime geçmeli ve siparişinin iade süreci hakkında onu bilgilendirmelisiniz. Bu, talep kabul edilir veya reddedilirse ve alıcının tam onayı alınırsa yapılmalıdır.",
     "notifications": {
-      "update_status_success": "İstek durumu güncellendi."
-    }
+      "update_status_success": "İstek durumu güncellendi.",
+    },
   },
   "basket_list": {
     "return_count": "Dönüş: {count} sayı",
@@ -1606,8 +1719,8 @@ export default {
       "variant": "varyant",
       "warranty": "garantiler",
       "count": "Saymak",
-      "price": "fiyat"
-    }
+      "price": "fiyat",
+    },
   },
   "return_request_list": {
     "count": "Referans numarası",
@@ -1619,13 +1732,13 @@ export default {
       "delivery_at": "Ulaşma tarihi",
       "state": "Durum",
       "reason": "Sebep",
-      "return_warranty_period": "Garanti süresi"
-    }
+      "return_warranty_period": "Garanti süresi",
+    },
   },
   "data_toolbar": {
     "search": "Aramak",
     "sort_by": "Göre sırala",
-    "count_item": "{item} öğeleri göster"
+    "count_item": "{item} öğeleri göster",
   },
   "sort": {
     "created_at": "Oluşturma Tarihi",
@@ -1700,13 +1813,13 @@ export default {
     "officer": "Subay",
     "registered": "Kayıtlı",
     "purchased": "satın alındı",
-    "sex": "Cinsiyet"
+    "sex": "Cinsiyet",
   },
   "search_box": {
     "result": "Arama Sonuçları",
     "tips": "Ürünleri ve Kategorileri Arayın",
     "label": "Aramak ...",
-    "category": "Kategori"
+    "category": "Kategori",
   },
   "lead_status": {
     "physical_fast_delivery": "Anında teslimat",
@@ -1714,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Önümüzdeki {days} günden itibaren hazırlanıyor ve gönderiliyor",
     "virtual_fast_prepare": "Anında teslimat",
     "virtual_under_24h": "Önümüzdeki {lead} saat içinde yapılacak",
-    "virtual_over_24h": "Önümüzdeki {days} günden itibaren yapılacak"
+    "virtual_over_24h": "Önümüzdeki {days} günden itibaren yapılacak",
   },
   "return_request_state": {
     "pending": "Bekliyor",
     "accepted": "Onaylanmış",
-    "rejected": "Reddedilmiş"
+    "rejected": "Reddedilmiş",
   },
   "return_order_reason": {
     "physical": {
@@ -1729,18 +1842,18 @@ export default {
       "U4": "Paket veya seri numarası kurcalama",
       "U5": "Parseldeki bazı öğeler eksik",
       "U6": "Ürün orijinal değil",
-      "U7": "Ürün özellikleri karşılamıyor"
-    }
+      "U7": "Ürün özellikleri karşılamıyor",
+    },
   },
   "image_uploader": {
     "label": "Sürükle ve Bırak veya <u>Dosya Seç</u>",
-    "max_size": "İzin verilen maksimum boyut: {size}"
+    "max_size": "İzin verilen maksimum boyut: {size}",
   },
   "timespan": {
     "Morning": "08:00 - 12:00",
     "Evening": "12 öğlen 18.00",
     "Night": "18:00-12:00",
-    "Instant": "Anında Gönderi"
+    "Instant": "Anında Gönderi",
   },
   "week_day": {
     "Saturday": "Cumartesi",
@@ -1749,7 +1862,7 @@ export default {
     "Tuesday": "Salı",
     "Wednesday": "Çarşamba",
     "Thursday": "Perşembe",
-    "Friday": "Cuma"
+    "Friday": "Cuma",
   },
   "payment_form": {
     "title": "ödeme türünü seçin",
@@ -1765,130 +1878,131 @@ export default {
     "order_free_payment": "Tebrikler, siparişiniz ücretsiz!",
     "order_free_payment_action": "Şimdi Ücretsiz Sipariş Edin",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Fatura adresi",
-      "amount": "Miktar"
-    }
+      "amount": "Miktar",
+    },
   },
   "discount_input": {
     "limit": "{limit} {currency} değerine kadar %{percent} indirim",
     "action": "İndirim Kodu Ekle",
     "code_input": "İndirim kodu",
     "notifications": {
-      "add_success": "Tebrikler, geçerli indirim kodu."
-    }
+      "add_success": "Tebrikler, geçerli indirim kodu.",
+    },
   },
   "gift_card": {
     "inactive": "Kart devre dışı",
     "expire": "sona erme",
     "transfer": "Aktar",
-    "send_to_friend": "Arkadaşa gönder"
+    "send_to_friend": "Arkadaşa gönder",
   },
   "count_down": {
     "days": "Gün",
     "hours": "Saat",
     "minutes": "dakika",
-    "seconds": "saniye"
+    "seconds": "saniye",
   },
   "gift_status": {
     "Unpaid": "Makbuz Bekleniyor",
     "Paid": "Paralı",
     "Rejected": "Reddedilmiş",
-    "Canceled": "İptal edildi"
+    "Canceled": "İptal edildi",
   },
   "gift_program_status": {
     "Airdrop": "Ödeme sistemi",
     "Advertising": "reklam",
     "PersonalGift": "Kişisel Hediye",
-    "ShopGift": "Hediye Dükkanı"
+    "ShopGift": "Hediye Dükkanı",
   },
   "currency_selector": {
-    "label": "Para birimi"
+    "label": "Para birimi",
   },
   "need_login": {
     "title": "Giriş yapmak",
     "login_sms": "SMS Girişi",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Google ile giriş yapın",
     "login_facebook": "Facebook ile giriş",
+    "login_apple": "Apple ile giriş yapın",
     "login_account": "Selldone ile giriş yap",
     "register": "Yeni kullanıcı? Şimdi üye Ol.",
     "mobile_input": "Cep telefonunuzu girin",
     "verification_code": "Doğrulama kodu",
     "msg_title": "Merhaba,",
     "msg_body": "Lütfen giriş yapın. Sadece birkaç saniye sürer.",
-    "login_apple": "Apple ile giriş yapın",
     "login_email": "E-posta ile Giriş",
     "email_login_step_1": "Lütfen geçerli bir e-posta adresi girin, giriş kodunu ona göndereceğiz. Kayıt gerekli değildir.",
     "email_login_step_2": "E-posta adresinizi doğru girdiğinizden emin misiniz? Giriş kodunu sağlanan e-postaya göndereceğiz, bu yüzden lütfen doğruluğundan emin olun.",
-    "email_login_step_3": "E-postanıza bir kod gönderdik. Lütfen kodun süresinin 10 dakika içinde dolacağını unutmayın."
+    "email_login_step_3": "E-postanıza bir kod gönderdik. Lütfen kodun süresinin 10 dakika içinde dolacağını unutmayın.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Yıl Altın Mağazası"
+      "name": "5 Yıl Altın Mağazası",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Yıl Altın Mağazası"
+      "name": "4 Yıl Altın Mağazası",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Yıl Altın Mağazası"
+      "name": "3 Yıl Altın Mağazası",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Yıl Altın Mağazası"
+      "name": "2 Yıl Altın Mağazası",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Yıl Altın Mağazası"
+      "name": "1 Yıl Altın Mağazası",
     },
     "TOKEN_OWNER_1M": {
-      "name": "altın yatırımcı"
+      "name": "altın yatırımcı",
     },
     "TOKEN_OWNER_10M": {
-      "name": "elmas yatırımcısı"
+      "name": "elmas yatırımcısı",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Yakut Yatırımcı"
+      "name": "Yakut Yatırımcı",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Üstün İletişim Ağları Topluluğu Üyesi"
+      "name": "Üstün İletişim Ağları Topluluğu Üyesi",
     },
     "GOLD_SUPPLIER": {
-      "name": "Altın Tedarikçisi"
+      "name": "Altın Tedarikçisi",
     },
     "GOLD_SELLER": {
-      "name": "Altın Satıcısı"
+      "name": "Altın Satıcısı",
     },
     "CONTENT_SUPERMAN": {
-      "name": "En İyi İçerik Üreticisi"
+      "name": "En İyi İçerik Üreticisi",
     },
     "NINJA": {
-      "name": "ninja"
+      "name": "ninja",
     },
     "STAR": {
-      "name": "Yıldız"
+      "name": "Yıldız",
     },
     "GUARDIAN": {
-      "name": "Mükemmel Müşteri Hizmetleri"
+      "name": "Mükemmel Müşteri Hizmetleri",
     },
     "KING": {
-      "name": "Pazar Kralı"
-    }
+      "name": "Pazar Kralı",
+    },
   },
   "cookie": {
     "title": "Bu web sitesi çerezleri kullanır",
     "message": "Bu web sitesi, kullanıcı deneyimini geliştirmek için çerezleri kullanır. Web sitemizi kullanarak, Çerez Politikamız uyarınca tüm çerezlere izin vermiş olursunuz.",
     "preferences_action": "Tercihleri Yönet",
-    "agree_action": "Kabul ediyorum"
+    "agree_action": "Kabul ediyorum",
   },
   "basket_item_message": {
     "title": "Bu öğe için gerekli bilgiler",
     "save_actions": "Mesajı Kaydet",
+    "product_inputs_preview_message": "Bu özelleştirme seçenekleri, sipariş ettiğiniz ürün için mevcuttur. Ürün sepetinize eklendikten sonra, burada ayarlamalar yapabileceksiniz.",
     "notifications": {
-      "success": "Giriş verileriniz kaydedildi."
+      "success": "Giriş verileriniz kaydedildi.",
     },
-    "product_inputs_preview_message": "Bu özelleştirme seçenekleri, sipariş ettiğiniz ürün için mevcuttur. Ürün sepetinize eklendikten sonra, burada ayarlamalar yapabileceksiniz."
   },
   "faq": {
     "faq": "Sıkça Sorulan Sorular",
     "title": "Sorular ve cevaplar",
-    "sub_title": "Bizden ne yapmamızı istedin.",
     "message": "Sorunuzun cevabını aşağıdaki cevaplar arasında arayınız. Soruların cevapsız kalıp kalmadığını bize sorun.",
     "add_question_action": "Yeni Soru Sor",
     "read_more": "Daha fazla oku ..",
@@ -1899,8 +2013,9 @@ export default {
     "question_input": "Soru",
     "question_input_placeholder": "Sorunu sor.",
     "notifications": {
-      "success_add": "Sorunuz başarıyla gönderildi."
-    }
+      "success_add": "Sorunuz başarıyla gönderildi.",
+    },
+    "sub_title": "Bizden ne yapmamızı istedin.",
   },
   "rating_labels": [
     "çok kötü",
@@ -1927,25 +2042,25 @@ export default {
     "address_title_input": "Adres etiketi (Gerekli)",
     "notifications": {
       "save_in_list": "Bu adres tüm detaylarıyla listenize kaydedildi.",
-      "edit_success": "{title} içinde kaydedilen yeni adres değerleri."
+      "edit_success": "{title} içinde kaydedilen yeni adres değerleri.",
     },
     "delete_address_dialog": {
       "title": "Adresi Sil",
       "message": "Bu adresi silmek istediğinizden emin misiniz?",
-      "action": "Adresi kaldır"
-    }
+      "action": "Adresi kaldır",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Bu yorum düzenlenemiyor!",
     "comment_input_empty": "Mesaj metni boş!",
-    "article_not_saved": "Makaleyi kaydedin!"
+    "article_not_saved": "Makaleyi kaydedin!",
   },
   "wheel_fortune": {
     "title": "Oyna ve Kazan",
     "message": "Her oyunun maliyeti 10 fiştir. Şu anda {chips} çipiniz var. Mağazadan satın alarak daha fazla çip alın.",
     "win_message": "Tebrikler, kazandınız!",
     "lost_message": "Üzgünüm, oyunu kaybettin.",
-    "try_again": "tekrar deneyebilirsin"
+    "try_again": "tekrar deneyebilirsin",
   },
   "json": {
     "add": "Yapı verileri ekle",
@@ -1953,29 +2068,29 @@ export default {
     "structures": "Yapılar",
     "book": {
       "title": "Kitap",
-      "desc": "Kullanıcıların buldukları kitabı doğrudan Arama sonuçlarından satın almalarını sağlayan kitap işlemleri."
+      "desc": "Kullanıcıların buldukları kitabı doğrudan Arama sonuçlarından satın almalarını sağlayan kitap işlemleri.",
     },
     "occupation": {
       "title": "Tahmini maaş",
-      "desc": "Google'daki iş arama deneyiminde görüntülenen, iş türleri için maaş aralıkları ve bölgeye dayalı maaş ortalamaları gibi maaş tahminiyle ilgili bilgiler."
+      "desc": "Google'daki iş arama deneyiminde görüntülenen, iş türleri için maaş aralıkları ve bölgeye dayalı maaş ortalamaları gibi maaş tahminiyle ilgili bilgiler.",
     },
     "course": {
       "title": "Kurs",
-      "desc": "Sağlayıcıya özel bir listede görünen eğitim kursları. Kurslar kurs başlığını, sağlayıcıyı ve kısa bir açıklamayı içerebilir."
+      "desc": "Sağlayıcıya özel bir listede görünen eğitim kursları. Kurslar kurs başlığını, sağlayıcıyı ve kısa bir açıklamayı içerebilir.",
     },
     "howto": {
       "title": "Nasıl",
-      "desc": "Nasıl Yapılır, bir görevi başarıyla tamamlamak için video, resim ve metin içeren bir dizi adım boyunca kullanıcılara yol gösterir."
+      "desc": "Nasıl Yapılır, bir görevi başarıyla tamamlamak için video, resim ve metin içeren bir dizi adım boyunca kullanıcılara yol gösterir.",
     },
     "recipe": {
       "title": "Yemek tarifi",
-      "desc": "Ayrı bir zengin sonuç veya bir ana karuselin parçası olarak görüntülenen tarifler."
-    }
+      "desc": "Ayrı bir zengin sonuç veya bir ana karuselin parçası olarak görüntülenen tarifler.",
+    },
   },
   "support": {
     "Financial": "Parasal",
     "Technical": "Teknik",
-    "Advisor": "danışman"
+    "Advisor": "danışman",
   },
   "condition": {
     "new": "Yeni",
@@ -1983,139 +2098,152 @@ export default {
     "used": "Kullanılmış",
     "used_fair": "İkinci el fuar",
     "used_good": "iyi kullanılmış",
-    "used_like_new": "Kullanılmış - Yeni Gibi"
+    "used_like_new": "Kullanılmış - Yeni Gibi",
   },
   "variant_filter": {
     "title": "Ürün Varyant Filtresi",
-    "only_available": "Stokta var"
+    "only_available": "Stokta var",
   },
   "service": {
     "task": {
       "title": "Görevler",
-      "message": "Bu hizmette gerçekleştirilen görevlerin listesi."
+      "message": "Bu hizmette gerçekleştirilen görevlerin listesi.",
     },
     "appointment": {
       "title": "Randevu",
-      "message": "Aşağıdaki saatler arasından size uygun gün ve saate göre haftanın saatlerini seçin."
+      "message": "Aşağıdaki saatler arasından size uygun gün ve saate göre haftanın saatlerini seçin.",
     },
     "booking": {
       "title": "Rezervasyon",
-      "message": "Aşağıdaki takvimde rezervasyon yaptırmak istediğiniz günlerin zaman dilimini belirtin."
+      "message": "Aşağıdaki takvimde rezervasyon yaptırmak istediğiniz günlerin zaman dilimini belirtin.",
     },
     "subscription": {
-      "title": "abonelik"
+      "title": "abonelik",
     },
     "charge": {
-      "title": "Şarj etmek"
-    }
+      "title": "Şarj etmek",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Sabit fiyatlandırma",
-      "message": "Bu fiyatlandırma türünde ürünün fiyatı sabit bir tutar olup alıcının fiyat hesaplaması talep etmesine gerek yoktur."
+      "message": "Bu fiyatlandırma türünde ürünün fiyatı sabit bir tutar olup alıcının fiyat hesaplaması talep etmesine gerek yoktur.",
     },
     "ESTIMATION": {
       "title": "Tahmin Fiyatlandırma",
-      "message": "Ürün ve hizmetlerin fiyatı bir dereceye kadar satıcı tarafından sipariş verilirken hesaplanacaktır, ödeme faturaları hizmet sırasında değiştirilebilir veya eklenebilir."
+      "message": "Ürün ve hizmetlerin fiyatı bir dereceye kadar satıcı tarafından sipariş verilirken hesaplanacaktır, ödeme faturaları hizmet sırasında değiştirilebilir veya eklenebilir.",
     },
     "AGREEMENT": {
       "title": "Anlaşma Fiyatlandırması",
-      "message": "Ürün veya hizmetlerin nihai fiyatı, sipariş verildikten sonra satıcı tarafından değiştirilmeyecektir."
+      "message": "Ürün veya hizmetlerin nihai fiyatı, sipariş verildikten sonra satıcı tarafından değiştirilmeyecektir.",
     },
     "BID": {
       "title": "Teklif / Açık Artırma",
-      "message": "Ürün, potansiyel alıcılar tarafından en yüksek teklif fiyatına satılacaktır."
-    }
+      "message": "Ürün, potansiyel alıcılar tarafından en yüksek teklif fiyatına satılacaktır.",
+    },
   },
   "map": {
     "title": "Ürünleri almak için hedef",
     "confirm": "Konumu ayarla",
     "address": "Varış noktası",
-    "receptor": "Alıcı"
+    "receptor": "Alıcı",
   },
   "ShopBots": {
-    "telegram": "Telgraf"
+    "telegram": "Telgraf",
   },
   "article_tags": {
     "title": "İçerik Etiketleri",
     "tags_input": "Etiketler",
     "tags_input_message": "Bu makalenin Etiketler Listesi",
     "notification": {
-      "add_success": "Etiketler eklendi"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Çok karmaşık",
-    "hard": "Sert",
-    "intermediate": "Orta düzey",
-    "easy": "Kolay"
-  },
-  "billing_period": {
-    "Daily": "Günlük",
-    "Weekly": "Haftalık",
-    "Monthly": "Aylık",
-    "Every3Months": "Her 3 ay",
-    "Every6Months": "6 ayda bir",
-    "Yearly": "Yıllık"
+      "add_success": "Etiketler eklendi",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Ah iyi değil!",
     "between2_3": "Önemli değil!",
     "between3_4": "İnsanlar bundan hoşlanıyor!",
-    "between4_5": "İnsanlar onu seviyor!"
+    "between4_5": "İnsanlar onu seviyor!",
   },
   "seasons": {
     "spring": "Bahar",
     "summer": "Yaz",
     "autumn": "Sonbahar",
-    "winter": "Kış"
+    "winter": "Kış",
   },
   "order_chat": {
     "seller": {
       "history": {
-        "subtitle": "Müşterinizle aranızdaki mesaj geçmişini görüntüleyin."
+        "subtitle": "Müşterinizle aranızdaki mesaj geçmişini görüntüleyin.",
       },
       "new_message": {
-        "subtitle": "Burada doğrudan müşterilere mesaj gönderebilirsiniz. Bir mesaj gönderdiğinizde, müşteri 20 dakika sonra bir e-posta bildirimi alacaktır. Bu bildirim yalnızca her 24 saatte bir gönderilecektir."
-      }
+        "subtitle": "Burada doğrudan müşterilere mesaj gönderebilirsiniz. Bir mesaj gönderdiğinizde, müşteri 20 dakika sonra bir e-posta bildirimi alacaktır. Bu bildirim yalnızca her 24 saatte bir gönderilecektir.",
+      },
     },
     "customer": {
       "history": {
-        "subtitle": "Sizinle satıcı arasındaki mesaj geçmişini görüntüleyin."
+        "subtitle": "Sizinle satıcı arasındaki mesaj geçmişini görüntüleyin.",
       },
       "new_message": {
-        "subtitle": "Mesajlarınızı doğrudan bize buradan iletebilirsiniz."
-      }
-    }
+        "subtitle": "Mesajlarınızı doğrudan bize buradan iletebilirsiniz.",
+      },
+    },
   },
   "ServiceTypes": {
     "DEMAND": {
       "title": "Talep üzerine",
-      "desc": "ev onarımları, boyama, araba tamiri vb."
+      "desc": "ev onarımları, boyama, araba tamiri vb.",
     },
     "BOOKING": {
       "title": "Rezervasyon",
-      "desc": "Bir otel odası veya villa rezervasyonu gibi."
+      "desc": "Bir otel odası veya villa rezervasyonu gibi.",
     },
     "APPOINTMENT": {
       "title": "Randevu",
-      "desc": "Evcil hayvan bakımı randevusu veya yüz yüze eğitim gibi."
+      "desc": "Evcil hayvan bakımı randevusu veya yüz yüze eğitim gibi.",
     },
     "RENTAL": {
       "title": "kiralama",
-      "desc": "Bir yer veya araba kiralamak gibi."
+      "desc": "Bir yer veya araba kiralamak gibi.",
     },
     "SUBSCRIPTION": {
       "title": "abonelik",
-      "desc": "Kulüp üyeliği veya Çevrimiçi Koçluk gibi."
+      "desc": "Kulüp üyeliği veya Çevrimiçi Koçluk gibi.",
     },
     "CHARGE": {
       "title": "Şarj etmek",
-      "desc": "Bir hesabın ücretlendirilmesi veya bir uygulamayı kullanmak için ücret alınması gibi."
+      "desc": "Bir hesabın ücretlendirilmesi veya bir uygulamayı kullanmak için ücret alınması gibi.",
     },
     "CUSTOM": {
       "title": "Gelenek",
-      "desc": "Sağladığınız hizmet yukarıdakilerden hiçbiri değilse bu seçeneği seçin."
-    }
-  }
+      "desc": "Sağladığınız hizmet yukarıdakilerden hiçbiri değilse bu seçeneği seçin.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

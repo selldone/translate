@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Unë i kam lexuar kushtet e përdorimit dhe politikën e privatësisë dhe jam dakord me to.",
   "commons": {
     "Currency": "Monedha",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "shteti",
     "Price": "çmimi",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Çmimi neto",
     "tax": "Taksa",
     "tax_included": "Të përfshira në çmim",
+    "tax_included_abstract": "përfshirë.",
     "limit": "Kufiri",
     "min_purchase": "Blerja minimale",
     "eligible_for": "Të kualifikuar për",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Data e krijimit",
     "updated_at": "Përditësimi i fundit",
     "register_at": "Data e regjistrimit",
+    "last_modified": "Last modified",
     "old": "I vjetër",
     "new": "I ri",
     "start": "Filloni",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Rishitës",
     "tracking_code": "Kodi i ndjekjes",
     "tracking_url": "URL përcjellëse",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Përmbushjet",
     "reject": "Refuzo",
     "reserved": "Rezervuar",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Ne pritje...",
     "waiting_connecting_payment": "Në pritje të shërbimit të pagesës...",
     "creating_secure_payment": "Krijimi i pagesës së sigurt.",
+    "waiting_for_payment": "Ju lutemi plotësoni pagesën...",
     "officer": "Oficeri",
     "ticket": "Biletë",
     "ticket_url": "URL-ja e biletës",
@@ -361,7 +366,6 @@ export default {
     "rates": "Vlerësimi",
     "seen_at": "Parë në",
     "completed": "E përfunduar",
-    "you": "Ju",
     "shop": "Dyqan",
     "store": "dyqan",
     "granted": "E dhënë",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tabletë",
     "pc": "PC",
     "acquisition_channel": "Kanali i blerjes",
+    "channels_overview": "Channels overview",
     "to": "për të",
     "info": "Informacion",
     "general": "Gjeneral",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Për produkt",
     "journey": "Udhëtim",
     "after": "Pas",
-    "waiting_for_payment": "Ju lutemi plotësoni pagesën...",
     "hour": "Ora",
     "minute": "Minuta",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Dyqane",
     "vendor": "Shitësi",
     "vendors": "Shitësit",
+    "no_vendors": "No vendors",
     "marketplace": "Tregu",
     "verify_date": "Verifiko datën",
     "note": "shënim",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Sigurt",
     "admin": "Admin",
-    "tax_included_abstract": "përfshirë.",
     "payment_not_settled": "Pagesa nuk u krye!",
     "orders_list": "Lista e porosive",
     "subscription_plan": "Plani i abonimit",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Grupimet",
     "subscriptions": "Abonimet",
     "spam": "Të bllokuara",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Ju",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Shumë e ndërlikuar",
+    "hard": "E vështirë",
+    "intermediate": "E ndërmjetme",
+    "easy": "Lehtë",
   },
   "dialogs": {
     "delete": {
       "title": "Fshije",
       "message": "Jeni i sigurt që do ta fshini këtë artikull?",
-      "action": "Po, Fshije tani"
-    }
+      "action": "Po, Fshije tani",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Shto në Shportë",
     "cancel": "Anulo",
     "update": "Përditëso",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Shto një kartë dhuratë",
     "charge": "Ngarkimi",
     "send_invites": "Dërgo ftesa",
-    "past": "E kaluara",
+    "paste": "Ngjit",
     "restore": "Rivendos",
     "cut": "Prerje",
     "get_sms_code": "Merrni kodin e vërtetimit",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Shfaq pamjen paraprake",
     "hide_preview": "Fshih pamjen paraprake",
     "download_now": "Shkarko tani",
+    "watch_now": "Shiko tani",
     "auto_fill": "Plotësimi automatik",
     "track": "Pista",
     "change_state": "Ndrysho statusin",
     "done": "U krye",
     "reply": "Përgjigju",
-    "watch_now": "Shiko tani",
     "unlock": "Hap",
     "lock": "Kyç",
     "create_clone": "Krijo klon",
@@ -773,41 +931,71 @@ export default {
     "buy": "Blej",
     "view_all": "Shiko te gjitha",
     "view_now": "Shiko Tani",
-    "paste": "Ngjit"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "E kaluara",
+  },
+  "billing_period": {
+    "Daily": "Ditore",
+    "Weekly": "Javore",
+    "Monthly": "Mujore",
+    "Every3Months": "Çdo 3 muaj",
+    "Every6Months": "Çdo 6 muaj",
+    "Yearly": "vjetore",
   },
   "instance_message_title": "Dërgo mesazh të menjëhershëm",
   "instance_message": "Përshëndetje {name}, emri im është {author} nga {company}.",
   "errors": {
     "419": "Ju keni qenë joaktiv për një kohë të gjatë, ju lutemi <b>⟳ RIFIKONI FAQEN</b> për arsye sigurie.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistemi nuk sinkronizohet me blockchain. Nuk do të jetë e mundur të krijohet një transaksion i ri derisa të përfundojnë sinkronizimi i serverëve tanë. Ne po e zgjidhim problemin.",
-    "gateway_network_error": "Shërbimi i portës së pagesës ka hasur në një problem komunikimi."
+    "gateway_network_error": "Shërbimi i portës së pagesës ka hasur në një problem komunikimi.",
   },
   "receiver_info": {
     "map": {
       "title": "Adresa e transportit",
       "confirm": "Cakto vendndodhjen",
       "address_type": "Destinacioni",
-      "receptor_type": "Marrësi"
+      "receptor_type": "Marrësi",
     },
     "receiver_address": "Zgjidhni adresën e transportit",
+    "service_address": "Zgjidhni adresën tuaj",
+    "select_billing_address": "Select billing address",
     "address": "adresë",
     "postcode": "Kodi Postar",
     "enter_value": "Plotësoni këtu",
     "address_note": "shënim",
     "tel": "Numri i kontaktit",
-    "service_address": "Zgjidhni adresën tuaj"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "£",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ons",
     "lb": "paund",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "centimetër",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Këmbë",
     "mm": "milimetër",
     "m": "metër",
-    "yd": "oborr"
+    "yd": "oborr",
   },
   "distance": {
     "m": "metër",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Ditët",
     "hours": "orët",
     "minutes": "Minutat",
-    "seconds": "Sekonda"
+    "seconds": "Sekonda",
   },
   "units": [
     "Njësia",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "shteti",
     "Territory": "Territori",
-    "Province": "Provinca"
+    "Province": "Provinca",
   },
   "transaction_status": {
     "RequireAction": "Veprimi i kërkuar",
     "Processing": "Përpunimi",
     "Canceled": "Anuluar",
-    "Succeeded": "Me sukses"
+    "Succeeded": "Me sukses",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Zgjidh gjuhen..",
     "friend_email": "Emaili i mikut tuaj...",
     "friend_name": "Zgjedh. emri i shokut tuaj",
-    "select_date": "Zgjidh një datë..."
+    "select_date": "Zgjidh një datë...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Konfirmo",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maksimumi {maxCount} karaktere",
     "invalid_url": "URL e pavlefshme",
     "country_invalid": "Zgjidhni vendin e destinacionit!",
-    "postal_code_invalid": "Vendos kod postar të vlefshëm!"
+    "postal_code_invalid": "Vendos kod postar të vlefshëm!",
   },
   "colors": {
     "#D32F2F": "E kuqe",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Njësia",
     "postcode": "Kodi Postar",
     "note": "shënim",
-    "county": "Qarku"
+    "county": "Qarku",
   },
   "product_types": {
     "physical": "Fizike",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Shërbimi",
     "service_description": "Shërbime si: riparimi, transporti, mësimi.",
     "subscription": "Abonimi",
-    "subscription_description": "Abonimet dhe faturimet për produkte, shërbime ose përmbajtje."
+    "subscription_description": "Abonimet dhe faturimet për produkte, shërbime ose përmbajtje.",
   },
   "license": {
     "free": "Falas",
     "startup": "Fillimi",
     "company": "Kompania",
-    "enterprise": "Ndërmarrje"
+    "enterprise": "Ndërmarrje",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Ngjyrë",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Numëroni në paketë",
     "weight": "Pesha",
     "type": "Materiali",
-    "style": "Stili"
+    "style": "Stili",
   },
   "delivery_state": {
     "check_queue": "Në pritje të rishikimit",
     "order_confirm": "Konfirmimi i porosisë",
     "preparing_order": "Përgatitja",
     "sent_order": "Në dorëzim",
-    "to_customer": "Dorëzuar"
+    "to_customer": "Dorëzuar",
   },
   "status": {
     "unpaid": "E papaguar",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Refuzo",
     "pending": "Në pritje",
     "rejected": "Refuzuar",
-    "accepted": "Pranuar"
+    "accepted": "Pranuar",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motoçikletë",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Transporti global",
     "global_description": "Transporti jashtë shtetit me rrugë ajrore, detare ose tokësore.",
     "pickup": "Pickup",
-    "pickup_description": "Klientët i marrin artikujt në dyqanin ose depon tuaj fizike."
+    "pickup_description": "Klientët i marrin artikujt në dyqanin ose depon tuaj fizike.",
   },
   "article": {
     "login_to_see_error": "Identifikohu për të hyrë në artikull",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Modaliteti i modifikimit",
       "view_mode": "Mënyra e shikimit",
-      "delete": "Fshi artikullin"
+      "delete": "Fshi artikullin",
     },
     "schedule_action": "Dëshiron të planifikosh publikimin?",
     "schedule_title": "Programoni publikimin automatik",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Raportoni abuzimin dhe hiqni përmbajtjen",
       "report_title": "Raportojeni këtë përmbajtje si abuzive",
       "message": "Cila është arsyeja e paraqitjes së kësaj përmbajtjeje? Zgjidhni një nga opsionet e mëposhtme.",
-      "accept_and_delete_action": "Konfirmoni dhe fshini përmbajtjen"
+      "accept_and_delete_action": "Konfirmoni dhe fshini përmbajtjen",
     },
     "schedule_dialog": {
       "title": "Orari i publikimit të përmbajtjes",
       "publish_at": "Publikimi në",
       "last_edit": "Redaktimi i fundit",
-      "view_action": "Shiko artikullin"
+      "view_action": "Shiko artikullin",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Paraqisni informacion",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Raporto dhe Fshi",
       "report_and_delete_success_message": "Artikulli është fshirë me sukses.",
       "report_success_title": "Raportoni artikullin",
-      "report_success_message": "Raporti juaj për këtë artikull është postuar."
+      "report_success_message": "Raporti juaj për këtë artikull është postuar.",
     },
     "alert": {
       "delete_article": {
         "title": "Fshi artikullin",
         "message": "Jeni i sigurt që dëshironi ta fshini përgjithmonë këtë artikull?",
-        "action": "Fshije"
-      }
+        "action": "Fshije",
+      },
     },
     "edit_window": {
       "title": "Zgjidhni Tekstin dhe Përmbledhjen e Imazhit",
-      "digest": "Përmbledhje"
+      "digest": "Përmbledhje",
     },
     "editor": {
       "title_placeholder": "Titulli..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Ky skedar është shumë i madh:",
       "notifications": {
         "image_uploaded_success": "Imazhi u ruajt me sukses",
-        "image_uploaded_failed": "Gabim gjatë ngarkimit të imazhit."
+        "image_uploaded_failed": "Gabim gjatë ngarkimit të imazhit.",
       },
       "embed_placeholder": "Futni kodin iframe, Facebook, Youtube ose ndonjë URL tjetër dhe shtypni enter.",
       "embed_caption_placeholder": "Fut një titull (opsionale)",
-      "images_caption_placeholder": "Futni një titull për këtë imazh .."
-    }
+      "images_caption_placeholder": "Futni një titull për këtë imazh ..",
+    },
   },
   "article_report": {
     "inappropriate": "Përmbajtja e këtij artikulli është e papërshtatshme.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Mendoj se kjo përmbajtje përmban pornografi dhe është në kundërshtim me ligjet.",
     "harassment": "Unë mendoj se kjo është raciste.",
     "hate": "Mendoj se kjo ka të bëjë me promovimin e dhunës.",
-    "infringe": "Kjo shkel të drejtat e mia."
+    "infringe": "Kjo shkel të drejtat e mia.",
   },
   "comments": {
     "new_action": "Klikoni për të lënë një koment..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Merr më shumë komente..",
     "cant_send_comment": "Nuk mund të shtoni postim të ri.",
     "cant_remove_this_comment": "Ju nuk mund ta fshini këtë koment!",
-    "product_buyer": "Blerësi",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Komentet e mia",
     "delete_alert": {
       "title": "Fshi komentin",
       "message": "Dëshiron ta fshish këtë koment?",
-      "action": "Fshije"
+      "action": "Fshije",
     },
     "notifications": {
-      "delete_success": "Komenti juaj u fshi me sukses."
+      "delete_success": "Komenti juaj u fshi me sukses.",
     },
     "first_send": "Postimi i parë",
     "comment_at": "Aktiv",
     "edit_comment": "Redakto komentin",
-    "my_comments": "Komentet e mia"
+    "product_buyer": "Blerësi",
   },
   "customer_club": {
     "bronze": "Bronzi",
     "silver": "Argjendi",
     "gold": "i Artë",
     "platinum": "Platinum",
-    "diamond": "Diamanti"
+    "diamond": "Diamanti",
   },
   "application_categories": {
     "tracking": "Kontrollimi i sjelljes së përdoruesit",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Reklamim",
     "staff": "Stafi",
     "incentive": "Stimujt",
-    "shop": "Dyqan"
+    "shop": "Dyqan",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Shto artikull të ri",
     "title_input": "Titulli",
+    "placeholder_input": "Vendmbajtësi",
     "name_input": "Emri i ndryshores",
     "value_input": "vlerat",
     "value_input_message": "Lista e opsioneve të përdoruesit",
     "default": "Vlera e paracaktuar",
+    "file_type_input": "Llojet e pranueshme të skedarëve",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "E thjeshtë",
       "selective": "Selektive",
       "switch": "Ndërro",
       "file": "Skedari",
-      "number": "Numri"
+      "number": "Numri",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Vendmbajtësi",
-    "file_type_input": "Llojet e pranueshme të skedarëve",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Emri i produktit",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Statusi i pagesës",
     "payment_status_waiting": "Në pritje të pagesës",
     "payment_status_paid": "I paguar",
-    "buyer": "Blerësi"
+    "buyer": "Blerësi",
   },
   "virtual_item_info": {
     "title": "Artikull virtual",
     "outputs": {
       "title": "Informacioni i daljes",
       "sub_title": "Informacion konfidencial i këtij artikulli",
-      "message": "Ky informacion do t'i shfaqet përdoruesit pas blerjes së produktit."
+      "message": "Ky informacion do t'i shfaqet përdoruesit pas blerjes së produktit.",
     },
     "inputs": {
       "title": "Kërkohet informacion",
       "sub_title": "Kërkohet informacion mbi blerësin",
-      "message": "Blerësi duhet të fusë informacionin e kërkuar në formular"
+      "message": "Blerësi duhet të fusë informacionin e kërkuar në formular",
     },
     "notifications": {
       "inputs_set_success": "Formulari i informacionit u regjistrua me sukses.",
       "confirm_by_admin_success": "Përfundimi i porosisë u konfirmua.",
-      "confirm_by_buyer_success": "Përfundimi i porosisë u konfirmua."
-    }
+      "confirm_by_buyer_success": "Përfundimi i porosisë u konfirmua.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Kjo porosi nuk mund të pranohet nga pagesa me COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Jashtë stok.",
     "legal_restriction": "Nuk mund të bëj një porosi për shkak të kufizimeve ligjore.",
     "pricing_fault": "Gabim në çmim nga shitësi.",
-    "system_fault": "Defekt i sistemit."
+    "system_fault": "Defekt i sistemit.",
   },
   "basket_order_info_summery": {
     "receiver": "Marrësi",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Zbritje",
     "final_price": "Shuma përfundimtare",
     "address": "Adresa e dorëzimit",
-    "payment_status": "Statusi i pagesës"
+    "payment_status": "Statusi i pagesës",
   },
   "basket_status": {
     "open": "Hapur",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Anuluar",
     "cod": "Paguani në dorëzim",
     "receipt_added": "Fatura u shtua",
-    "payment_processing": "Përpunimi i pagesës"
+    "payment_processing": "Përpunimi i pagesës",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Refuzuar",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Konfirmimi",
     "step_3": "Përgatitja",
     "step_4": "Në dorëzim",
-    "step_5": "Dorëzuar"
+    "step_5": "Dorëzuar",
   },
   "basket_return_request_view": {
     "title": "Kërkesa për kthim",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Refuzo kërkesën",
     "message_for_admin": "Sipas marrëveshjes që keni pranuar duke përdorur Shitësin, duhet të kontaktoni blerësin dhe ta mbani atë të informuar për procesin e kthimit të porosisë së tij/saj. Kjo duhet të bëhet nëse kërkesa pranohet ose refuzohet dhe merret pëlqimi i plotë i blerësit.",
     "notifications": {
-      "update_status_success": "Statusi i kërkesës u përditësua."
-    }
+      "update_status_success": "Statusi i kërkesës u përditësua.",
+    },
   },
   "basket_list": {
     "return_count": "Kthimi: {count} numër",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Garancitë",
       "count": "Numëroni",
-      "price": "çmimi"
-    }
+      "price": "çmimi",
+    },
   },
   "return_request_list": {
     "count": "Numri i referencës",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Data e Marrjes",
       "state": "Statusi",
       "reason": "Arsyeja",
-      "return_warranty_period": "Periudha e garancisë"
-    }
+      "return_warranty_period": "Periudha e garancisë",
+    },
   },
   "data_toolbar": {
     "search": "Kërko",
     "sort_by": "Ndaj sipas",
-    "count_item": "Shfaq {item} artikuj"
+    "count_item": "Shfaq {item} artikuj",
   },
   "sort": {
     "created_at": "Krijo datë",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Oficeri",
     "registered": "I regjistruar",
     "purchased": "I blere",
-    "sex": "Gjinia"
+    "sex": "Gjinia",
   },
   "search_box": {
     "result": "Rezultatet e kërkimit",
     "tips": "Kërkoni produkte dhe kategori",
     "label": "Kërko...",
-    "category": "Kategoria"
+    "category": "Kategoria",
   },
   "lead_status": {
     "physical_fast_delivery": "Dorëzimi i menjëhershëm",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Përgatitja dhe dërgimi nga {days} ditët e ardhshme",
     "virtual_fast_prepare": "Dorëzimi i menjëhershëm",
     "virtual_under_24h": "Do të bëhet brenda orëve të ardhshme {lead}",
-    "virtual_over_24h": "Do të kryhet nga ditët në vijim {days}"
+    "virtual_over_24h": "Do të kryhet nga ditët në vijim {days}",
   },
   "return_request_state": {
     "pending": "Në pritje",
     "accepted": "E konfirmuar",
-    "rejected": "Refuzuar"
+    "rejected": "Refuzuar",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Ngacmimi i paketës ose numrit serial",
       "U5": "Disa artikuj nga parcela mungojnë",
       "U6": "Produkti nuk është origjinal",
-      "U7": "Produkti nuk i plotëson specifikimet"
-    }
+      "U7": "Produkti nuk i plotëson specifikimet",
+    },
   },
   "image_uploader": {
     "label": "Zvarrit dhe lësho ose <u>Zgjidh skedarin</u>",
-    "max_size": "Madhësia maksimale e lejuar: {size}"
+    "max_size": "Madhësia maksimale e lejuar: {size}",
   },
   "timespan": {
     "Morning": "08:00 - 12:00",
     "Evening": "12 pasdite deri në 6 pasdite",
     "Night": "6 pasdite-12 pasdite",
-    "Instant": "Postim i menjëhershëm"
+    "Instant": "Postim i menjëhershëm",
   },
   "week_day": {
     "Saturday": "e shtunë",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "e martë",
     "Wednesday": "e mërkurë",
     "Thursday": "e enjte",
-    "Friday": "e premte"
+    "Friday": "e premte",
   },
   "payment_form": {
     "title": "Zgjidhni mënyrën e pagesës",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Urime, porosia juaj është falas!",
     "order_free_payment_action": "Porosit falas tani",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Adresa e pagesës",
-      "amount": "Shuma"
-    }
+      "amount": "Shuma",
+    },
   },
   "discount_input": {
     "limit": "{percent}% zbritje deri në {limit} {currency}",
     "action": "Shtoni kodin e zbritjes",
     "code_input": "Kodi i zbritjes",
     "notifications": {
-      "add_success": "Urime, kod i vlefshëm zbritje."
-    }
+      "add_success": "Urime, kod i vlefshëm zbritje.",
+    },
   },
   "gift_card": {
     "inactive": "Karta është e çaktivizuar",
     "expire": "Skadimi",
     "transfer": "Transferimi",
-    "send_to_friend": "Dërgo te miku"
+    "send_to_friend": "Dërgo te miku",
   },
   "count_down": {
     "days": "ditë",
     "hours": "Ora",
     "minutes": "Minutat",
-    "seconds": "Sekonda"
+    "seconds": "Sekonda",
   },
   "gift_status": {
     "Unpaid": "Në pritje të marrjes",
     "Paid": "I paguar",
     "Rejected": "Refuzuar",
-    "Canceled": "Anuluar"
+    "Canceled": "Anuluar",
   },
   "gift_program_status": {
     "Airdrop": "Sistemi i pagesave",
     "Advertising": "Reklamim",
     "PersonalGift": "Dhuratë personale",
-    "ShopGift": "Dyqan dhuratash"
+    "ShopGift": "Dyqan dhuratash",
   },
   "currency_selector": {
-    "label": "Monedha"
+    "label": "Monedha",
   },
   "need_login": {
     "title": "identifikimi",
     "login_sms": "Hyrja SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Identifikohu me Google",
     "login_facebook": "Kyçuni nëpërmjet facebook",
+    "login_apple": "Hyni me Apple",
     "login_account": "Hyni nga Selldone",
     "register": "Perdorues i ri? Regjistrohu tani.",
     "mobile_input": "Futni celularin tuaj",
     "verification_code": "Kodi i Verifikimit",
     "msg_title": "Përshëndetje,",
     "msg_body": "Ju lutemi identifikohuni. Duhen vetëm disa sekonda.",
-    "login_apple": "Hyni me Apple",
     "login_email": "Hyni me email",
     "email_login_step_1": "Ju lutemi jepni një adresë të vlefshme emaili dhe ne do t'i dërgojmë kodin e hyrjes. Nuk ka nevojë për regjistrim.",
     "email_login_step_2": "Jeni i sigurt që e keni futur saktë adresën tuaj të emailit? Ne do të dërgojmë kodin e hyrjes në emailin e dhënë, kështu që ju lutemi sigurohuni për saktësinë e tij.",
-    "email_login_step_3": "Ne kemi dërguar një kod në emailin tuaj. Ju lutemi vini re se kodi do të skadojë për 10 minuta."
+    "email_login_step_3": "Ne kemi dërguar një kod në emailin tuaj. Ju lutemi vini re se kodi do të skadojë për 10 minuta.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Dyqan ari 5 vjeçar"
+      "name": "Dyqan ari 5 vjeçar",
     },
     "GOLDEN_2YEAR": {
-      "name": "Dyqan ari 4 vjeçar"
+      "name": "Dyqan ari 4 vjeçar",
     },
     "GOLDEN_3YEAR": {
-      "name": "Dyqan ari 3 vjeçar"
+      "name": "Dyqan ari 3 vjeçar",
     },
     "GOLDEN_4YEAR": {
-      "name": "Dyqan ari 2-vjeçar"
+      "name": "Dyqan ari 2-vjeçar",
     },
     "GOLDEN_5YEAR": {
-      "name": "Dyqan ari 1 vjeçar"
+      "name": "Dyqan ari 1 vjeçar",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Investitor i Artë"
+      "name": "Investitor i Artë",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Investitor diamanti"
+      "name": "Investitor diamanti",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Investitor Ruby"
+      "name": "Investitor Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Anëtar i Komunitetit Superior të Rrjeteve të Komunikimit"
+      "name": "Anëtar i Komunitetit Superior të Rrjeteve të Komunikimit",
     },
     "GOLD_SUPPLIER": {
-      "name": "Furnizues ari"
+      "name": "Furnizues ari",
     },
     "GOLD_SELLER": {
-      "name": "Tregtar ari"
+      "name": "Tregtar ari",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Prodhuesi kryesor i përmbajtjes"
+      "name": "Prodhuesi kryesor i përmbajtjes",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Yll"
+      "name": "Yll",
     },
     "GUARDIAN": {
-      "name": "Shërbim i shkëlqyer ndaj klientit"
+      "name": "Shërbim i shkëlqyer ndaj klientit",
     },
     "KING": {
-      "name": "Mbreti i Tregut"
-    }
+      "name": "Mbreti i Tregut",
+    },
   },
   "cookie": {
     "title": "Kjo faqe interneti përdor cookie",
     "message": "Kjo faqe interneti përdor cookie për të përmirësuar përvojën e përdoruesit. Duke përdorur faqen tonë të internetit, ju pranoni të gjitha cookies në përputhje me Politikën tonë të Cookies.",
     "preferences_action": "Menaxho Preferencat",
-    "agree_action": "Jam dakord"
+    "agree_action": "Jam dakord",
   },
   "basket_item_message": {
     "title": "Informacioni i kërkuar për këtë artikull",
     "save_actions": "Ruaj mesazhin",
+    "product_inputs_preview_message": "Këto opsione personalizimi janë të disponueshme për produktin tuaj të porositur. Pasi artikulli të shtohet në shportën tuaj, do të mund të bëni rregullime këtu.",
     "notifications": {
-      "success": "Të dhënat tuaja hyrëse janë ruajtur."
+      "success": "Të dhënat tuaja hyrëse janë ruajtur.",
     },
-    "product_inputs_preview_message": "Këto opsione personalizimi janë të disponueshme për produktin tuaj të porositur. Pasi artikulli të shtohet në shportën tuaj, do të mund të bëni rregullime këtu."
   },
   "faq": {
     "faq": "Pyetjet e bëra më shpesh",
     "title": "Pyetje dhe pergjigje",
-    "sub_title": "Çfarë na kërkuat të bënim.",
     "message": "Kërkoni përgjigjen e pyetjes suaj midis përgjigjeve të mëposhtme. Na pyesni nëse pyetjet mbeten pa përgjigje.",
     "add_question_action": "Bëj një pyetje të re",
     "read_more": "Lexo më shumë ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Pyetje",
     "question_input_placeholder": "Bëni pyetjen tuaj.",
     "notifications": {
-      "success_add": "Pyetja juaj u dërgua me sukses."
-    }
+      "success_add": "Pyetja juaj u dërgua me sukses.",
+    },
+    "sub_title": "Çfarë na kërkuat të bënim.",
   },
   "rating_labels": [
     "Shume keq",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Fut adresën e destinacionit",
     "enter_your_address": "Shkruani adresën tuaj.",
     "postal_code": "Kodi Postar",
-    "phone_input": "Telefoni {type}",
+    "phone_input": "Telefoni",
     "building_number": "Numri i ndërtesës",
     "building_unit": "Njësia",
     "full_name_input": "Emri i plotë {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Etiketa e adresës (kërkohet)",
     "notifications": {
       "save_in_list": "Kjo adresë është ruajtur në listën tuaj me të gjitha detajet e saj.",
-      "edit_success": "Vlerat e reja të adresës janë ruajtur në {title}."
+      "edit_success": "Vlerat e reja të adresës janë ruajtur në {title}.",
     },
     "delete_address_dialog": {
       "title": "Fshi adresën",
       "message": "Jeni i sigurt që dëshironi ta fshini këtë adresë?",
-      "action": "Hiq adresën"
-    }
+      "action": "Hiq adresën",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Nuk mund të modifikohet ky koment!",
     "comment_input_empty": "Teksti i mesazhit është bosh!",
-    "article_not_saved": "Ruani artikullin!"
+    "article_not_saved": "Ruani artikullin!",
   },
   "wheel_fortune": {
     "title": "Luaj & Fito",
     "message": "Kostoja e çdo loje është 10 çipa. Aktualisht keni çip {chips}. Merrni më shumë çip duke blerë nga dyqani.",
     "win_message": "Urime, ju fitoni!",
     "lost_message": "Na vjen keq, e humbe lojën.",
-    "try_again": "Mund të provoni përsëri"
+    "try_again": "Mund të provoni përsëri",
   },
   "json": {
     "add": "Shtoni të dhëna të strukturës",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Strukturat",
     "book": {
       "title": "Libër",
-      "desc": "Veprimet e rezervimit që u mundësojnë përdoruesve të blejnë librin që gjejnë drejtpërdrejt nga rezultatet e kërkimit."
+      "desc": "Veprimet e rezervimit që u mundësojnë përdoruesve të blejnë librin që gjejnë drejtpërdrejt nga rezultatet e kërkimit.",
     },
     "occupation": {
       "title": "Paga e parashikuar",
-      "desc": "Informacioni rreth vlerësimit të pagave, si p.sh. diapazoni i pagave dhe mesataret e pagave të bazuara në rajon për llojet e punës, të shfaqura në përvojën e kërkimit të punës në Google."
+      "desc": "Informacioni rreth vlerësimit të pagave, si p.sh. diapazoni i pagave dhe mesataret e pagave të bazuara në rajon për llojet e punës, të shfaqura në përvojën e kërkimit të punës në Google.",
     },
     "course": {
       "title": "Kursi",
-      "desc": "Kurse arsimore që shfaqen në një listë specifike të ofruesit. Kurset mund të përfshijnë titullin e kursit, ofruesin dhe një përshkrim të shkurtër."
+      "desc": "Kurse arsimore që shfaqen në një listë specifike të ofruesit. Kurset mund të përfshijnë titullin e kursit, ofruesin dhe një përshkrim të shkurtër.",
     },
     "howto": {
       "title": "Si të",
-      "desc": "Një \"Si të bëhet\" i udhëzon përdoruesit nëpër një sërë hapash për të përfunduar me sukses një detyrë, duke shfaqur video, imazhe dhe tekst."
+      "desc": "Një \"Si të bëhet\" i udhëzon përdoruesit nëpër një sërë hapash për të përfunduar me sukses një detyrë, duke shfaqur video, imazhe dhe tekst.",
     },
     "recipe": {
       "title": "Receta",
-      "desc": "Receta që shfaqen si një rezultat individual i pasur ose pjesë e një karuseli pritës."
-    }
+      "desc": "Receta që shfaqen si një rezultat individual i pasur ose pjesë e një karuseli pritës.",
+    },
   },
   "support": {
     "Financial": "Financiare",
     "Technical": "teknike",
-    "Advisor": "Këshilltar"
+    "Advisor": "Këshilltar",
   },
   "condition": {
     "new": "I ri",
@@ -1885,91 +2098,152 @@ export default {
     "used": "I perdorur",
     "used_fair": "E perdorur panair",
     "used_good": "I perdorur mire",
-    "used_like_new": "I perdorur si i ri"
+    "used_like_new": "I perdorur si i ri",
   },
   "variant_filter": {
     "title": "Filtri i variantit të produktit",
-    "only_available": "Në magazinë"
+    "only_available": "Në magazinë",
   },
   "service": {
     "task": {
       "title": "Detyrat",
-      "message": "Lista e detyrave të kryera në këtë shërbim."
+      "message": "Lista e detyrave të kryera në këtë shërbim.",
     },
     "appointment": {
       "title": "Emërimi",
-      "message": "Zgjidhni orët e javës nga orët e mëposhtme bazuar në ditën dhe orën që ju përshtatet."
+      "message": "Zgjidhni orët e javës nga orët e mëposhtme bazuar në ditën dhe orën që ju përshtatet.",
     },
     "booking": {
       "title": "Rezervimi",
-      "message": "Specifikoni periudhën kohore të ditëve që dëshironi të bëni një rezervim në kalendarin më poshtë."
+      "message": "Specifikoni periudhën kohore të ditëve që dëshironi të bëni një rezervim në kalendarin më poshtë.",
     },
     "subscription": {
-      "title": "Abonimi"
+      "title": "Abonimi",
     },
     "charge": {
-      "title": "Ngarkimi"
-    }
+      "title": "Ngarkimi",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Çmimi fiks",
-      "message": "Në këtë lloj çmimi, çmimi i produktit është një shumë fikse dhe nuk ka nevojë që blerësi të kërkojë llogaritjen e çmimit."
+      "message": "Në këtë lloj çmimi, çmimi i produktit është një shumë fikse dhe nuk ka nevojë që blerësi të kërkojë llogaritjen e çmimit.",
     },
     "ESTIMATION": {
       "title": "Vlerësimi i Çmimeve",
-      "message": "Çmimi i produkteve dhe shërbimeve do të llogaritet në një farë mase nga shitësi kur bën një porosi, faturat e pagesës mund të ndryshohen ose shtohen gjatë shërbimit."
+      "message": "Çmimi i produkteve dhe shërbimeve do të llogaritet në një farë mase nga shitësi kur bën një porosi, faturat e pagesës mund të ndryshohen ose shtohen gjatë shërbimit.",
     },
     "AGREEMENT": {
       "title": "Çmimi i marrëveshjes",
-      "message": "Çmimi përfundimtar i produkteve ose shërbimeve nuk do të ndryshohet nga shitësi pasi të jetë vendosur porosia."
+      "message": "Çmimi përfundimtar i produkteve ose shërbimeve nuk do të ndryshohet nga shitësi pasi të jetë vendosur porosia.",
     },
     "BID": {
       "title": "Oferta / Ankandi",
-      "message": "Produkti do të shitet me çmimin më të lartë të ofertës nga blerësit potencial."
-    }
+      "message": "Produkti do të shitet me çmimin më të lartë të ofertës nga blerësit potencial.",
+    },
   },
   "map": {
     "title": "Destinacioni për të marrë produkte",
     "confirm": "Cakto vendndodhjen",
     "address": "Destinacioni",
-    "receptor": "Marrësi"
+    "receptor": "Marrësi",
   },
   "ShopBots": {
-    "telegram": "Telegrami"
+    "telegram": "Telegrami",
   },
   "article_tags": {
     "title": "Etiketat e përmbajtjes",
     "tags_input": "Etiketat",
     "tags_input_message": "Tags Lista e këtij artikulli",
     "notification": {
-      "add_success": "Etiketat e shtuara"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Shumë e ndërlikuar",
-    "hard": "E vështirë",
-    "intermediate": "E ndërmjetme",
-    "easy": "Lehtë"
-  },
-  "billing_period": {
-    "Daily": "Ditore",
-    "Weekly": "Javore",
-    "Monthly": "Mujore",
-    "Every3Months": "Çdo 3 muaj",
-    "Every6Months": "Çdo 6 muaj",
-    "Yearly": "vjetore"
+      "add_success": "Etiketat e shtuara",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh jo mirë!",
     "between2_3": "Është në rregull!",
     "between3_4": "Njerëzve u pëlqen!",
-    "between4_5": "Njerëzit e duan atë!"
+    "between4_5": "Njerëzit e duan atë!",
   },
   "seasons": {
     "spring": "Pranvera",
     "summer": "Vera",
     "autumn": "Vjeshte",
-    "winter": "Dimër"
-  }
+    "winter": "Dimër",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

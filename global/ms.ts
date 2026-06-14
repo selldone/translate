@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Saya telah membaca syarat penggunaan dan dasar privasi dan bersetuju dengannya.",
   "commons": {
     "Currency": "mata wang",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "negeri",
     "Price": "harga",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Harga tetap",
     "tax": "Cukai",
     "tax_included": "Termasuk dalam harga",
+    "tax_included_abstract": "termasuk.",
     "limit": "Had",
     "min_purchase": "Pembelian minimum",
     "eligible_for": "Layak untuk",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Tarikh dibuat",
     "updated_at": "Kemaskini terakhir",
     "register_at": "Tarikh daftar",
+    "last_modified": "Last modified",
     "old": "Tua",
     "new": "Baru",
     "start": "Mulakan",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Penjual semula",
     "tracking_code": "Kod Penjejakan",
     "tracking_url": "URL penjejakan",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Pemenuhan",
     "reject": "Tolak",
     "reserved": "Terpelihara",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Menunggu...",
     "waiting_connecting_payment": "Menunggu perkhidmatan pembayaran...",
     "creating_secure_payment": "Mencipta pembayaran selamat.",
+    "waiting_for_payment": "Sila lengkapkan pembayaran...",
     "officer": "Pegawai",
     "ticket": "tiket",
     "ticket_url": "URL tiket",
@@ -361,7 +366,6 @@ export default {
     "rates": "Penilaian",
     "seen_at": "Dilihat pada",
     "completed": "Selesai",
-    "you": "awak",
     "shop": "kedai",
     "store": "kedai",
     "granted": "Dibenarkan",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Saluran pemerolehan",
+    "channels_overview": "Channels overview",
     "to": "Kepada",
     "info": "info",
     "general": "Umum",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Setiap produk",
     "journey": "Perjalanan",
     "after": "Selepas",
-    "waiting_for_payment": "Sila lengkapkan pembayaran...",
     "hour": "Jam",
     "minute": "minit",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Kedai",
     "vendor": "Penjual",
     "vendors": "Penjual",
+    "no_vendors": "No vendors",
     "marketplace": "Pasaran",
     "verify_date": "Sahkan tarikh",
     "note": "Catatan",
@@ -604,7 +609,6 @@ export default {
     "variant": "Pelbagai",
     "secure": "selamat",
     "admin": "Admin",
-    "tax_included_abstract": "termasuk.",
     "payment_not_settled": "Bayaran belum selesai!",
     "orders_list": "Senarai pesanan",
     "subscription_plan": "Pelan langganan",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Kelompok",
     "subscriptions": "Langganan",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "awak",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Sangat rumit",
+    "hard": "Keras",
+    "intermediate": "Pertengahan",
+    "easy": "Mudah",
   },
   "dialogs": {
     "delete": {
       "title": "Padam",
       "message": "Adakah anda pasti akan memadamkan item ini?",
-      "action": "Ya, Padam sekarang"
-    }
+      "action": "Ya, Padam sekarang",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Tambah ke Troli",
     "cancel": "Batal",
     "update": "Kemas kini",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Tambahkan kad hadiah",
     "charge": "caj",
     "send_invites": "Hantar jemputan",
-    "past": "lalu",
+    "paste": "tampal",
     "restore": "Pulihkan",
     "cut": "potong",
     "get_sms_code": "Dapatkan kod pengesahan",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Tunjukkan pratonton",
     "hide_preview": "Sembunyikan pratonton",
     "download_now": "Muat turun sekarang",
+    "watch_now": "Menonton sekarang",
     "auto_fill": "Autolengkap",
     "track": "Jejak",
     "change_state": "Tukar Status",
     "done": "Selesai",
     "reply": "Balas",
-    "watch_now": "Menonton sekarang",
     "unlock": "Buka kunci",
     "lock": "Kunci",
     "create_clone": "Buat klon",
@@ -773,41 +931,71 @@ export default {
     "buy": "Beli",
     "view_all": "Lihat semua",
     "view_now": "Lihat Sekarang",
-    "paste": "tampal"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "lalu",
+  },
+  "billing_period": {
+    "Daily": "Setiap hari",
+    "Weekly": "Setiap minggu",
+    "Monthly": "Bulanan",
+    "Every3Months": "Setiap 3 bulan",
+    "Every6Months": "Setiap 6 bulan",
+    "Yearly": "setiap tahun",
   },
   "instance_message_title": "Hantar mesej segera",
   "instance_message": "Hai {name}, Nama saya {author} daripada {company}.",
   "errors": {
     "419": "Anda telah lama tidak aktif, sila <b>⟳ REFRESH PAGE</b> atas sebab keselamatan.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistem ini tidak menyegerakkan dengan blockchain. Anda tidak akan dapat membuat transaksi baharu sehingga penyegerakan pelayan kami selesai. Kami sedang menyelesaikan masalah.",
-    "gateway_network_error": "Perkhidmatan gerbang pembayaran telah menghadapi masalah komunikasi."
+    "gateway_network_error": "Perkhidmatan gerbang pembayaran telah menghadapi masalah komunikasi.",
   },
   "receiver_info": {
     "map": {
       "title": "Alamat penghantaran",
       "confirm": "Tetapkan lokasi",
       "address_type": "Destinasi",
-      "receptor_type": "Penerima"
+      "receptor_type": "Penerima",
     },
     "receiver_address": "Pilih alamat penghantaran",
+    "service_address": "Pilih alamat anda",
+    "select_billing_address": "Select billing address",
     "address": "alamat",
     "postcode": "Poskod",
     "enter_value": "Isi di sini",
     "address_note": "Catatan",
     "tel": "Nombor telefon",
-    "service_address": "Pilih alamat anda"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "auns",
     "lb": "pon",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "kaki",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Sentimeter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "kaki",
     "mm": "milimeter",
     "m": "meter",
-    "yd": "Halaman"
+    "yd": "Halaman",
   },
   "distance": {
     "m": "meter",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "hari-hari",
     "hours": "Jam",
     "minutes": "minit",
-    "seconds": "Detik"
+    "seconds": "Detik",
   },
   "units": [
     "Unit",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "negeri",
     "Territory": "wilayah",
-    "Province": "Wilayah"
+    "Province": "Wilayah",
   },
   "transaction_status": {
     "RequireAction": "Tindakan diperlukan",
     "Processing": "Memproses",
     "Canceled": "Dibatalkan",
-    "Succeeded": "Berjaya"
+    "Succeeded": "Berjaya",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Pilih Bahasa..",
     "friend_email": "E-mel rakan anda...",
     "friend_name": "opt. nama kawan awak",
-    "select_date": "Pilih tarikh..."
+    "select_date": "Pilih tarikh...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "sahkan",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maks {maxCount} aksara",
     "invalid_url": "URL tidak sah",
     "country_invalid": "Pilih negara destinasi!",
-    "postal_code_invalid": "Tetapkan poskod yang sah!"
+    "postal_code_invalid": "Tetapkan poskod yang sah!",
   },
   "colors": {
     "#D32F2F": "merah",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unit",
     "postcode": "Poskod",
     "note": "Catatan",
-    "county": "Daerah"
+    "county": "Daerah",
   },
   "product_types": {
     "physical": "Fizikal",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Perkhidmatan",
     "service_description": "Perkhidmatan seperti: pembaikan, pengangkutan, pengajaran.",
     "subscription": "Langganan",
-    "subscription_description": "Langganan dan invois untuk produk, perkhidmatan atau kandungan."
+    "subscription_description": "Langganan dan invois untuk produk, perkhidmatan atau kandungan.",
   },
   "license": {
     "free": "Percuma",
     "startup": "Memulakan",
     "company": "Syarikat",
-    "enterprise": "Perusahaan"
+    "enterprise": "Perusahaan",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Warna",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Kira dalam pek",
     "weight": "Berat badan",
     "type": "bahan",
-    "style": "Gaya"
+    "style": "Gaya",
   },
   "delivery_state": {
     "check_queue": "Menunggu semakan",
     "order_confirm": "Pengesahan pesanan",
     "preparing_order": "menyediakan",
     "sent_order": "Dalam penghantaran",
-    "to_customer": "Dihantar"
+    "to_customer": "Dihantar",
   },
   "status": {
     "unpaid": "Tak bergaji",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Tolak",
     "pending": "Yang belum selesai",
     "rejected": "Ditolak",
-    "accepted": "Diterima"
+    "accepted": "Diterima",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "motosikal",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Pengangkutan global",
     "global_description": "Penghantaran ke luar negara melalui udara, laut atau darat.",
     "pickup": "Pickup",
-    "pickup_description": "Pelanggan mengambil item di kedai atau gudang fizikal anda."
+    "pickup_description": "Pelanggan mengambil item di kedai atau gudang fizikal anda.",
   },
   "article": {
     "login_to_see_error": "Log masuk untuk mengakses artikel",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Mod edit",
       "view_mode": "Mod lihat",
-      "delete": "Padam Artikel"
+      "delete": "Padam Artikel",
     },
     "schedule_action": "Adakah anda ingin menjadualkan penerbitan?",
     "schedule_title": "Jadualkan auto-terbit",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Laporkan penyalahgunaan dan alih keluar kandungan",
       "report_title": "Laporkan kandungan ini sebagai kesat",
       "message": "Apakah sebab untuk menyerahkan kandungan ini? Pilih salah satu daripada pilihan berikut.",
-      "accept_and_delete_action": "Sahkan dan Padamkan Kandungan"
+      "accept_and_delete_action": "Sahkan dan Padamkan Kandungan",
     },
     "schedule_dialog": {
       "title": "Jadual Keluaran Kandungan",
       "publish_at": "Terbitkan di",
       "last_edit": "Suntingan terakhir",
-      "view_action": "Lihat Artikel"
+      "view_action": "Lihat Artikel",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Hantar Maklumat",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Laporkan dan Padam",
       "report_and_delete_success_message": "Artikel telah berjaya dipadamkan.",
       "report_success_title": "Laporkan artikel",
-      "report_success_message": "Laporan anda tentang artikel ini telah disiarkan."
+      "report_success_message": "Laporan anda tentang artikel ini telah disiarkan.",
     },
     "alert": {
       "delete_article": {
         "title": "Padam Artikel",
         "message": "Adakah anda pasti mahu memadamkan artikel ini secara kekal?",
-        "action": "Padam"
-      }
+        "action": "Padam",
+      },
     },
     "edit_window": {
       "title": "Pilih Teks Imej dan Ringkasan",
-      "digest": "Ringkasan"
+      "digest": "Ringkasan",
     },
     "editor": {
       "title_placeholder": "Tajuk..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Fail ini terlalu besar:",
       "notifications": {
         "image_uploaded_success": "Imej berjaya disimpan",
-        "image_uploaded_failed": "Ralat memuatkan imej."
+        "image_uploaded_failed": "Ralat memuatkan imej.",
       },
       "embed_placeholder": "Masukkan kod iframe, Facebook, Youtube atau mana-mana URL lain dan tekan enter.",
       "embed_caption_placeholder": "Masukkan tajuk (pilihan)",
-      "images_caption_placeholder": "Masukkan tajuk untuk imej ini.."
-    }
+      "images_caption_placeholder": "Masukkan tajuk untuk imej ini..",
+    },
   },
   "article_report": {
     "inappropriate": "Kandungan artikel ini tidak sesuai.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Saya rasa kandungan ini mengandungi pornografi dan melanggar undang-undang.",
     "harassment": "Saya fikir ini adalah perkauman.",
     "hate": "Saya fikir ini adalah mengenai mempromosikan keganasan.",
-    "infringe": "Ini melanggar hak saya."
+    "infringe": "Ini melanggar hak saya.",
   },
   "comments": {
     "new_action": "Klik untuk tinggalkan komen..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Dapatkan lebih banyak komen..",
     "cant_send_comment": "Anda tidak boleh menambah siaran baharu.",
     "cant_remove_this_comment": "Anda tidak boleh memadam ulasan ini!",
-    "product_buyer": "Pembeli",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Komen Saya",
     "delete_alert": {
       "title": "Padam Komen",
       "message": "Adakah anda mahu memadamkan ulasan ini?",
-      "action": "Padam"
+      "action": "Padam",
     },
     "notifications": {
-      "delete_success": "Ulasan anda berjaya dipadamkan."
+      "delete_success": "Ulasan anda berjaya dipadamkan.",
     },
     "first_send": "Jawatan pertama",
     "comment_at": "hidup",
     "edit_comment": "Edit Komen",
-    "my_comments": "Komen Saya"
+    "product_buyer": "Pembeli",
   },
   "customer_club": {
     "bronze": "Gangsa",
     "silver": "Perak",
     "gold": "emas",
     "platinum": "Platinum",
-    "diamond": "berlian"
+    "diamond": "berlian",
   },
   "application_categories": {
     "tracking": "Menyemak Gelagat Pengguna",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Mengiklankan",
     "staff": "Kakitangan",
     "incentive": "Insentif",
-    "shop": "kedai"
+    "shop": "kedai",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Tambah item baharu",
     "title_input": "Tajuk",
+    "placeholder_input": "Pemegang tempat",
     "name_input": "Nama boleh ubah",
     "value_input": "Nilai",
     "value_input_message": "Senarai Pilihan Pengguna",
     "default": "Nilai asal",
+    "file_type_input": "Jenis fail yang boleh diterima",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Mudah",
       "selective": "Selektif",
       "switch": "Tukar",
       "file": "Fail",
-      "number": "Nombor"
+      "number": "Nombor",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Pemegang tempat",
-    "file_type_input": "Jenis fail yang boleh diterima",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Nama Produk",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Status bayaran",
     "payment_status_waiting": "Menunggu pembayaran",
     "payment_status_paid": "Dibayar",
-    "buyer": "Pembeli"
+    "buyer": "Pembeli",
   },
   "virtual_item_info": {
     "title": "Item Maya",
     "outputs": {
       "title": "Maklumat Output",
       "sub_title": "Maklumat Sulit Item ini",
-      "message": "Maklumat ini akan ditunjukkan kepada pengguna selepas membeli produk."
+      "message": "Maklumat ini akan ditunjukkan kepada pengguna selepas membeli produk.",
     },
     "inputs": {
       "title": "Maklumat Diperlukan",
       "sub_title": "Maklumat Pembeli Diperlukan",
-      "message": "Pembeli mesti memasukkan maklumat yang diminta dalam borang"
+      "message": "Pembeli mesti memasukkan maklumat yang diminta dalam borang",
     },
     "notifications": {
       "inputs_set_success": "Borang maklumat berjaya didaftarkan.",
       "confirm_by_admin_success": "Selesai pesanan disahkan.",
-      "confirm_by_buyer_success": "Selesai pesanan disahkan."
-    }
+      "confirm_by_buyer_success": "Selesai pesanan disahkan.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Pesanan ini tidak boleh diterima oleh pembayaran COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "kehabisan stok.",
     "legal_restriction": "Tidak dapat membuat pesanan kerana sekatan undang-undang.",
     "pricing_fault": "Kesilapan harga oleh penjual.",
-    "system_fault": "Pepijat sistem."
+    "system_fault": "Pepijat sistem.",
   },
   "basket_order_info_summery": {
     "receiver": "Penerima",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Diskaun",
     "final_price": "Jumlah akhir",
     "address": "Alamat penghantaran",
-    "payment_status": "Status bayaran"
+    "payment_status": "Status bayaran",
   },
   "basket_status": {
     "open": "Buka",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Dibatalkan",
     "cod": "Bayar Semasa Penghantaran",
     "receipt_added": "Resit ditambah",
-    "payment_processing": "Pemprosesan pembayaran"
+    "payment_processing": "Pemprosesan pembayaran",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Ditolak",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Pengesahan",
     "step_3": "Persediaan",
     "step_4": "Dalam penghantaran",
-    "step_5": "Dihantar"
+    "step_5": "Dihantar",
   },
   "basket_return_request_view": {
     "title": "Permintaan Kembali",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Tolak permintaan",
     "message_for_admin": "Menurut perjanjian yang telah anda terima dengan menggunakan Selldone, anda mesti menghubungi pembeli dan memaklumkan dia tentang proses pemulangan pesanannya. Ini mesti dilakukan jika permintaan diterima atau ditolak dan persetujuan penuh pembeli diperoleh.",
     "notifications": {
-      "update_status_success": "Status permintaan dikemas kini."
-    }
+      "update_status_success": "Status permintaan dikemas kini.",
+    },
   },
   "basket_list": {
     "return_count": "Pulangan: {count} nombor",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Pelbagai",
       "warranty": "Waranti",
       "count": "Kira",
-      "price": "harga"
-    }
+      "price": "harga",
+    },
   },
   "return_request_list": {
     "count": "Nombor rujukan",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Tarikh diterima",
       "state": "Status",
       "reason": "Sebab",
-      "return_warranty_period": "Tempoh jaminan"
-    }
+      "return_warranty_period": "Tempoh jaminan",
+    },
   },
   "data_toolbar": {
     "search": "Cari",
     "sort_by": "Disusun mengikut",
-    "count_item": "Tunjukkan {item} item"
+    "count_item": "Tunjukkan {item} item",
   },
   "sort": {
     "created_at": "Buat tarikh",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Pegawai",
     "registered": "Berdaftar",
     "purchased": "Dibeli",
-    "sex": "Jantina"
+    "sex": "Jantina",
   },
   "search_box": {
     "result": "Keputusan Carian",
     "tips": "Cari Produk dan Kategori",
     "label": "Cari...",
-    "category": "kategori"
+    "category": "kategori",
   },
   "lead_status": {
     "physical_fast_delivery": "Penghantaran segera",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Menyediakan dan menyerahkan dari {days} hari berikutnya",
     "virtual_fast_prepare": "Penghantaran segera",
     "virtual_under_24h": "Akan dilakukan dalam masa {lead} jam seterusnya",
-    "virtual_over_24h": "Akan dilakukan dari {days} hari berikutnya"
+    "virtual_over_24h": "Akan dilakukan dari {days} hari berikutnya",
   },
   "return_request_state": {
     "pending": "Yang belum selesai",
     "accepted": "Disahkan",
-    "rejected": "Ditolak"
+    "rejected": "Ditolak",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pengubahsuaian pakej atau nombor siri",
       "U5": "Beberapa item dari bungkusan itu hilang",
       "U6": "Produk bukan original",
-      "U7": "Produk tidak memenuhi spesifikasi"
-    }
+      "U7": "Produk tidak memenuhi spesifikasi",
+    },
   },
   "image_uploader": {
     "label": "Seret & Lepas atau <u>Pilih fail</u>",
-    "max_size": "Saiz maksimum yang dibenarkan: {size}"
+    "max_size": "Saiz maksimum yang dibenarkan: {size}",
   },
   "timespan": {
     "Morning": "8 pagi - 12 malam",
     "Evening": "12 tengahari hingga 6 petang",
     "Night": "6 petang-12 malam",
-    "Instant": "Pos Segera"
+    "Instant": "Pos Segera",
   },
   "week_day": {
     "Saturday": "Sabtu",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Selasa",
     "Wednesday": "Rabu",
     "Thursday": "Khamis",
-    "Friday": "Jumaat"
+    "Friday": "Jumaat",
   },
   "payment_form": {
     "title": "Pilih Kaedah Pembayaran",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Tahniah, pesanan anda adalah percuma!",
     "order_free_payment_action": "Pesan Percuma Sekarang",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Alamat pembayaran",
-      "amount": "Jumlah"
-    }
+      "amount": "Jumlah",
+    },
   },
   "discount_input": {
     "limit": "{percent}% diskaun sehingga {limit} {currency}",
     "action": "Tambah Kod Diskaun",
     "code_input": "Kod diskaun",
     "notifications": {
-      "add_success": "Tahniah, kod diskaun yang sah."
-    }
+      "add_success": "Tahniah, kod diskaun yang sah.",
+    },
   },
   "gift_card": {
     "inactive": "Kad dilumpuhkan",
     "expire": "tamat tempoh",
     "transfer": "Pemindahan",
-    "send_to_friend": "Hantar kepada rakan"
+    "send_to_friend": "Hantar kepada rakan",
   },
   "count_down": {
     "days": "Hari",
     "hours": "Jam",
     "minutes": "minit",
-    "seconds": "Detik"
+    "seconds": "Detik",
   },
   "gift_status": {
     "Unpaid": "Menunggu Resit",
     "Paid": "Dibayar",
     "Rejected": "Ditolak",
-    "Canceled": "Dibatalkan"
+    "Canceled": "Dibatalkan",
   },
   "gift_program_status": {
     "Airdrop": "Sistem pembayaran",
     "Advertising": "Mengiklankan",
     "PersonalGift": "Hadiah Peribadi",
-    "ShopGift": "Kedai cenderamata"
+    "ShopGift": "Kedai cenderamata",
   },
   "currency_selector": {
-    "label": "mata wang"
+    "label": "mata wang",
   },
   "need_login": {
     "title": "log masuk",
     "login_sms": "Log Masuk SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Log masuk dengan Google",
     "login_facebook": "Log masuk melalui Facebook",
+    "login_apple": "Log masuk dengan Apple",
     "login_account": "Log masuk oleh Seldone",
     "register": "Pengguna baru? Daftar sekarang.",
     "mobile_input": "Masukkan telefon bimbit anda",
     "verification_code": "Kod pengesahan",
     "msg_title": "Hai,",
     "msg_body": "Sila daftar masuk. Ia mengambil masa beberapa saat sahaja.",
-    "login_apple": "Log masuk dengan Apple",
     "login_email": "Log masuk melalui E-mel",
     "email_login_step_1": "Sila berikan alamat e-mel yang sah, dan kami akan menghantar kod log masuk kepadanya. Tiada pendaftaran diperlukan.",
     "email_login_step_2": "Adakah anda pasti anda telah memasukkan alamat e-mel anda dengan betul? Kami akan menghantar kod log masuk ke e-mel yang diberikan, jadi sila pastikan ketepatannya.",
-    "email_login_step_3": "Kami telah menghantar kod ke e-mel anda. Sila ambil perhatian bahawa kod akan tamat tempoh dalam masa 10 minit."
+    "email_login_step_3": "Kami telah menghantar kod ke e-mel anda. Sila ambil perhatian bahawa kod akan tamat tempoh dalam masa 10 minit.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Kedai Emas 5 Tahun"
+      "name": "Kedai Emas 5 Tahun",
     },
     "GOLDEN_2YEAR": {
-      "name": "Kedai Emas 4 Tahun"
+      "name": "Kedai Emas 4 Tahun",
     },
     "GOLDEN_3YEAR": {
-      "name": "Kedai Emas 3 Tahun"
+      "name": "Kedai Emas 3 Tahun",
     },
     "GOLDEN_4YEAR": {
-      "name": "Kedai Emas 2 Tahun"
+      "name": "Kedai Emas 2 Tahun",
     },
     "GOLDEN_5YEAR": {
-      "name": "Kedai Emas 1 Tahun"
+      "name": "Kedai Emas 1 Tahun",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Pelabur Emas"
+      "name": "Pelabur Emas",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Pelabur Berlian"
+      "name": "Pelabur Berlian",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Pelabur Ruby"
+      "name": "Pelabur Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Ahli Komuniti Unggul Rangkaian Komunikasi"
+      "name": "Ahli Komuniti Unggul Rangkaian Komunikasi",
     },
     "GOLD_SUPPLIER": {
-      "name": "Pembekal Emas"
+      "name": "Pembekal Emas",
     },
     "GOLD_SELLER": {
-      "name": "Peniaga Emas"
+      "name": "Peniaga Emas",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Pengeluar Kandungan Teratas"
+      "name": "Pengeluar Kandungan Teratas",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Bintang"
+      "name": "Bintang",
     },
     "GUARDIAN": {
-      "name": "Perkhidmatan Pelanggan yang Hebat"
+      "name": "Perkhidmatan Pelanggan yang Hebat",
     },
     "KING": {
-      "name": "Raja Pasaran"
-    }
+      "name": "Raja Pasaran",
+    },
   },
   "cookie": {
     "title": "Laman web ini menggunakan kuki",
     "message": "Laman web ini menggunakan kuki untuk meningkatkan pengalaman pengguna. Dengan menggunakan tapak web kami, anda membenarkan semua kuki menurut Dasar Kuki kami.",
     "preferences_action": "Urus Keutamaan",
-    "agree_action": "Saya setuju"
+    "agree_action": "Saya setuju",
   },
   "basket_item_message": {
     "title": "Maklumat yang diperlukan untuk item ini",
     "save_actions": "Simpan Mesej",
+    "product_inputs_preview_message": "Pilihan penyesuaian ini tersedia untuk produk pesanan anda. Setelah item ditambahkan pada troli anda, anda akan dapat membuat pelarasan di sini.",
     "notifications": {
-      "success": "Data input anda telah disimpan."
+      "success": "Data input anda telah disimpan.",
     },
-    "product_inputs_preview_message": "Pilihan penyesuaian ini tersedia untuk produk pesanan anda. Setelah item ditambahkan pada troli anda, anda akan dapat membuat pelarasan di sini."
   },
   "faq": {
     "faq": "Soalan Lazim",
     "title": "Soalan dan jawapan",
-    "sub_title": "Apa yang anda minta kami lakukan.",
     "message": "Cari jawapan kepada soalan anda antara jawapan di bawah. Tanya kami jika soalan masih tidak dijawab.",
     "add_question_action": "Tanya Soalan Baru",
     "read_more": "Baca lagi..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "soalan",
     "question_input_placeholder": "Tanya soalan anda.",
     "notifications": {
-      "success_add": "Soalan anda berjaya diserahkan."
-    }
+      "success_add": "Soalan anda berjaya diserahkan.",
+    },
+    "sub_title": "Apa yang anda minta kami lakukan.",
   },
   "rating_labels": [
     "Sangat teruk",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Masukkan alamat destinasi",
     "enter_your_address": "Masukkan alamat anda.",
     "postal_code": "Poskod",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Nombor bangunan",
     "building_unit": "Unit",
     "full_name_input": "Nama penuh {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Label alamat (Memerlukan)",
     "notifications": {
       "save_in_list": "Alamat ini telah disimpan ke senarai anda dengan semua butirannya.",
-      "edit_success": "Nilai alamat baharu disimpan dalam {title}."
+      "edit_success": "Nilai alamat baharu disimpan dalam {title}.",
     },
     "delete_address_dialog": {
       "title": "Padamkan Alamat",
       "message": "Adakah anda pasti mahu memadamkan alamat ini?",
-      "action": "Alih keluar alamat"
-    }
+      "action": "Alih keluar alamat",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Tidak boleh mengedit ulasan ini!",
     "comment_input_empty": "Teks mesej kosong!",
-    "article_not_saved": "Simpan artikel itu!"
+    "article_not_saved": "Simpan artikel itu!",
   },
   "wheel_fortune": {
     "title": "Main & Menang",
     "message": "Kos setiap permainan ialah 10 cip. Anda kini mempunyai cip {chips}. Dapatkan lebih banyak cip dengan membeli dari kedai.",
     "win_message": "Tahniah, Anda menang!",
     "lost_message": "Maaf, Anda kalah dalam permainan.",
-    "try_again": "Anda boleh mencuba lagi"
+    "try_again": "Anda boleh mencuba lagi",
   },
   "json": {
     "add": "Tambahkan data struktur",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Struktur",
     "book": {
       "title": "Buku",
-      "desc": "Tindakan buku yang membolehkan pengguna membeli buku yang mereka temui terus daripada hasil Carian."
+      "desc": "Tindakan buku yang membolehkan pengguna membeli buku yang mereka temui terus daripada hasil Carian.",
     },
     "occupation": {
       "title": "Anggaran gaji",
-      "desc": "Maklumat tentang anggaran gaji, seperti julat gaji dan purata gaji berasaskan wilayah untuk jenis pekerjaan, dipaparkan dalam pengalaman carian kerja di Google."
+      "desc": "Maklumat tentang anggaran gaji, seperti julat gaji dan purata gaji berasaskan wilayah untuk jenis pekerjaan, dipaparkan dalam pengalaman carian kerja di Google.",
     },
     "course": {
       "title": "Kursus",
-      "desc": "Kursus pendidikan yang muncul dalam senarai khusus pembekal. Kursus boleh termasuk tajuk kursus, pembekal dan penerangan ringkas."
+      "desc": "Kursus pendidikan yang muncul dalam senarai khusus pembekal. Kursus boleh termasuk tajuk kursus, pembekal dan penerangan ringkas.",
     },
     "howto": {
       "title": "Bagaimana untuk",
-      "desc": "Cara memandu pengguna melalui satu set langkah untuk berjaya menyelesaikan tugasan, menampilkan video, imej dan teks."
+      "desc": "Cara memandu pengguna melalui satu set langkah untuk berjaya menyelesaikan tugasan, menampilkan video, imej dan teks.",
     },
     "recipe": {
       "title": "resepi",
-      "desc": "Resipi yang dipaparkan sebagai hasil kaya individu atau sebahagian daripada karusel hos."
-    }
+      "desc": "Resipi yang dipaparkan sebagai hasil kaya individu atau sebahagian daripada karusel hos.",
+    },
   },
   "support": {
     "Financial": "kewangan",
     "Technical": "Teknikal",
-    "Advisor": "Penasihat"
+    "Advisor": "Penasihat",
   },
   "condition": {
     "new": "Baru",
@@ -1885,91 +2098,152 @@ export default {
     "used": "terpakai",
     "used_fair": "Digunakan adil",
     "used_good": "Digunakan dengan baik",
-    "used_like_new": "Digunakan seperti baru"
+    "used_like_new": "Digunakan seperti baru",
   },
   "variant_filter": {
     "title": "Penapis Varian Produk",
-    "only_available": "Dalam stok"
+    "only_available": "Dalam stok",
   },
   "service": {
     "task": {
       "title": "Tugasan",
-      "message": "Senarai tugas yang dilakukan dalam perkhidmatan ini."
+      "message": "Senarai tugas yang dilakukan dalam perkhidmatan ini.",
     },
     "appointment": {
       "title": "Temujanji",
-      "message": "Pilih masa dalam seminggu daripada masa berikut berdasarkan hari dan jam yang sesuai untuk anda."
+      "message": "Pilih masa dalam seminggu daripada masa berikut berdasarkan hari dan jam yang sesuai untuk anda.",
     },
     "booking": {
       "title": "Tempahan",
-      "message": "Nyatakan tempoh masa hari anda ingin membuat tempahan dalam kalendar di bawah."
+      "message": "Nyatakan tempoh masa hari anda ingin membuat tempahan dalam kalendar di bawah.",
     },
     "subscription": {
-      "title": "Langganan"
+      "title": "Langganan",
     },
     "charge": {
-      "title": "caj"
-    }
+      "title": "caj",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Harga tetap",
-      "message": "Dalam penentuan harga jenis ini, harga produk adalah jumlah tetap dan tidak perlu pembeli meminta pengiraan harga."
+      "message": "Dalam penentuan harga jenis ini, harga produk adalah jumlah tetap dan tidak perlu pembeli meminta pengiraan harga.",
     },
     "ESTIMATION": {
       "title": "Anggaran Harga",
-      "message": "Harga produk dan perkhidmatan akan dikira sedikit sebanyak oleh penjual semasa membuat pesanan, invois pembayaran boleh ditukar atau ditambah semasa perkhidmatan."
+      "message": "Harga produk dan perkhidmatan akan dikira sedikit sebanyak oleh penjual semasa membuat pesanan, invois pembayaran boleh ditukar atau ditambah semasa perkhidmatan.",
     },
     "AGREEMENT": {
       "title": "Harga Perjanjian",
-      "message": "Harga akhir produk atau perkhidmatan tidak akan diubah oleh penjual selepas pesanan dibuat."
+      "message": "Harga akhir produk atau perkhidmatan tidak akan diubah oleh penjual selepas pesanan dibuat.",
     },
     "BID": {
       "title": "Tawaran / Lelong",
-      "message": "Produk akan dijual pada harga bida tertinggi oleh bakal pembeli."
-    }
+      "message": "Produk akan dijual pada harga bida tertinggi oleh bakal pembeli.",
+    },
   },
   "map": {
     "title": "Destinasi untuk menerima produk",
     "confirm": "Tetapkan lokasi",
     "address": "Destinasi",
-    "receptor": "Penerima"
+    "receptor": "Penerima",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Tag Kandungan",
     "tags_input": "Tag",
     "tags_input_message": "Tag Senarai artikel ini",
     "notification": {
-      "add_success": "Teg ditambah"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Sangat rumit",
-    "hard": "Keras",
-    "intermediate": "Pertengahan",
-    "easy": "Mudah"
-  },
-  "billing_period": {
-    "Daily": "Setiap hari",
-    "Weekly": "Setiap minggu",
-    "Monthly": "Bulanan",
-    "Every3Months": "Setiap 3 bulan",
-    "Every6Months": "Setiap 6 bulan",
-    "Yearly": "setiap tahun"
+      "add_success": "Teg ditambah",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh tidak baik!",
     "between2_3": "Tak apalah!",
     "between3_4": "Orang suka!",
-    "between4_5": "Orang suka!"
+    "between4_5": "Orang suka!",
   },
   "seasons": {
     "spring": "Musim bunga",
     "summer": "Musim panas",
     "autumn": "musim luruh",
-    "winter": "musim sejuk"
-  }
+    "winter": "musim sejuk",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

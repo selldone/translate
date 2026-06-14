@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Kuring geus maca istilah pamakéan sarta kawijakan privasi sarta satuju sareng aranjeunna.",
   "commons": {
     "Currency": "Mata uang",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Nagara",
     "Price": "hargaan",
@@ -169,6 +170,7 @@ export default {
     "net_price": "harga net",
     "tax": "Pajeg",
     "tax_included": "Kaasup dina harga",
+    "tax_included_abstract": "kaasup.",
     "limit": "Wates",
     "min_purchase": "beuli minimum",
     "eligible_for": "Layak pikeun",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Tanggal dijieun",
     "updated_at": "update panungtungan",
     "register_at": "Tanggal ngadaptar",
+    "last_modified": "Last modified",
     "old": "Heubeul",
     "new": "Anyar",
     "start": "Mimitian",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Reseller",
     "tracking_code": "Kodeu nyukcruk",
     "tracking_url": "URL nyukcruk",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Kacumponan",
     "reject": "Nolak",
     "reserved": "Ditangtayungan",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Nungguan...",
     "waiting_connecting_payment": "Nungguan jasa pembayaran...",
     "creating_secure_payment": "Nyieun pembayaran aman.",
+    "waiting_for_payment": "Mangga lengkepan pembayaran...",
     "officer": "Patugas",
     "ticket": "tikét",
     "ticket_url": "URL tikét",
@@ -361,7 +366,6 @@ export default {
     "rates": "Peunteun",
     "seen_at": "Katempo di",
     "completed": "Réngsé",
-    "you": "Anjeun",
     "shop": "Toko",
     "store": "toko",
     "granted": "Dikabulkeun",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablét",
     "pc": "PC",
     "acquisition_channel": "saluran akuisisi",
+    "channels_overview": "Channels overview",
     "to": "Ka",
     "info": "Inpo",
     "general": "Umum",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per produk",
     "journey": "Lalampahan",
     "after": "Sanggeus",
-    "waiting_for_payment": "Mangga lengkepan pembayaran...",
     "hour": "Jam",
     "minute": "Menit",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Toko",
     "vendor": "Ngajual",
     "vendors": "padagang",
+    "no_vendors": "No vendors",
     "marketplace": "Pasaran",
     "verify_date": "Pariksa tanggal",
     "note": "Catetan",
@@ -604,7 +609,6 @@ export default {
     "variant": "Varian",
     "secure": "Aman",
     "admin": "Admin",
-    "tax_included_abstract": "kaasup.",
     "payment_not_settled": "Pamayaran teu dilunasan!",
     "orders_list": "Daptar pesenan",
     "subscription_plan": "Rencana langganan",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Kluster",
     "subscriptions": "Langganan",
     "spam": "EMAIL sampah",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Anjeun",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Pajeulit pisan",
+    "hard": "Teuas",
+    "intermediate": "Panengah",
+    "easy": "gampil",
   },
   "dialogs": {
     "delete": {
       "title": "Mupus",
       "message": "Naha anjeun yakin pikeun ngahapus item ieu?",
-      "action": "Leres, Pupus ayeuna"
-    }
+      "action": "Leres, Pupus ayeuna",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Tambihkeun kana karanjang",
     "cancel": "Ngabolaykeun",
     "update": "Pembaruan",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Tambahkeun kartu kado",
     "charge": "muatan",
     "send_invites": "Kirim uleman",
-    "past": "Kapungkur",
+    "paste": "témpél",
     "restore": "Mulangkeun",
     "cut": "Motong",
     "get_sms_code": "Meunangkeun kodeu auténtikasi",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Témbongkeun sawangan",
     "hide_preview": "Sumputkeun sawangan",
     "download_now": "Unduh Ayeuna",
+    "watch_now": "Lalajo Ayeuna",
     "auto_fill": "Autofill",
     "track": "Lacak",
     "change_state": "Robah Status",
     "done": "Réngsé",
     "reply": "ngawaler",
-    "watch_now": "Lalajo Ayeuna",
     "unlock": "Muka konci",
     "lock": "Konci",
     "create_clone": "Jieun clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Meuli",
     "view_all": "Témbongkeun Sadaya",
     "view_now": "Témbongkeun Ayeuna",
-    "paste": "témpél"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Kapungkur",
+  },
+  "billing_period": {
+    "Daily": "Sapopoe",
+    "Weekly": "Mingguan",
+    "Monthly": "Bulanan",
+    "Every3Months": "Unggal 3 bulan",
+    "Every6Months": "Unggal 6 bulan",
+    "Yearly": "taunan",
   },
   "instance_message_title": "Kirim pesen instan",
   "instance_message": "Hai {name}, Nami abdi {author} ti {company}.",
   "errors": {
     "419": "Anjeun tos lami teu aktip, mangga <b>⟳ REFRESH HALAMAN</b> kanggo alesan kaamanan.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistim nu teu nyingkronkeun jeung blockchain nu. Ieu moal mungkin pikeun nyieun transaksi anyar dugi sinkronisasi server urang réngsé. Kami ngarengsekeun masalah.",
-    "gateway_network_error": "Ladenan gateway pamayaran ngalaman masalah komunikasi."
+    "gateway_network_error": "Ladenan gateway pamayaran ngalaman masalah komunikasi.",
   },
   "receiver_info": {
     "map": {
       "title": "Alamat Pangiriman",
       "confirm": "Setel lokasi",
       "address_type": "tujuan",
-      "receptor_type": "panarima"
+      "receptor_type": "panarima",
     },
     "receiver_address": "Pilih alamat pengiriman barang",
+    "service_address": "Pilih alamat anjeun",
+    "select_billing_address": "Select billing address",
     "address": "alamat",
     "postcode": "Kodeu pos",
     "enter_value": "Eusian di dieu",
     "address_note": "Catetan",
     "tel": "Nomer kontak",
-    "service_address": "Pilih alamat anjeun"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "pon",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "ons",
     "lb": "Pon",
-    "kg": "kiloan"
+    "kg": "kiloan",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "séntiméter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "suku",
     "mm": "milimeter",
     "m": "méter",
-    "yd": "pakarangan"
+    "yd": "pakarangan",
   },
   "distance": {
     "m": "méter",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Poé",
     "hours": "Jam-jaman",
     "minutes": "Menit",
-    "seconds": "Detik-detik"
+    "seconds": "Detik-detik",
   },
   "units": [
     "Unit",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Nagara",
     "Territory": "Wewengkon",
-    "Province": "Propinsi"
+    "Province": "Propinsi",
   },
   "transaction_status": {
     "RequireAction": "Aksi Diperlukeun",
     "Processing": "Ngolah",
     "Canceled": "Dibolaykeun",
-    "Succeeded": "Suksés"
+    "Succeeded": "Suksés",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Pilih basa..",
     "friend_email": "Email babaturan anjeun...",
     "friend_name": "Opt. Ngaran sobat anjeun",
-    "select_date": "Pilih tanggal..."
+    "select_date": "Pilih tanggal...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Konpirmasi",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max {maxCount} karakter",
     "invalid_url": "URL teu valid",
     "country_invalid": "Pilih nagara tujuan!",
-    "postal_code_invalid": "Setel kode pos anu sah!"
+    "postal_code_invalid": "Setel kode pos anu sah!",
   },
   "colors": {
     "#D32F2F": "Beureum",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unit",
     "postcode": "Kodeu pos",
     "note": "Catetan",
-    "county": "Kabupatén"
+    "county": "Kabupatén",
   },
   "product_types": {
     "physical": "Fisik",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Palayanan",
     "service_description": "Jasa sapertos: perbaikan, transportasi, pangajaran.",
     "subscription": "Langganan",
-    "subscription_description": "Langganan sareng invoice pikeun produk, jasa, atanapi eusi."
+    "subscription_description": "Langganan sareng invoice pikeun produk, jasa, atanapi eusi.",
   },
   "license": {
     "free": "Gratis",
     "startup": "Ngamimitian",
     "company": "Pausahaan",
-    "enterprise": "Pausahaan"
+    "enterprise": "Pausahaan",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Warna",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Ngitung dina pak",
     "weight": "Beurat",
     "type": "Bahan",
-    "style": "Gaya"
+    "style": "Gaya",
   },
   "delivery_state": {
     "check_queue": "Nungguan review",
     "order_confirm": "Konfirmasi pesenan",
     "preparing_order": "Nyiapkeun",
     "sent_order": "Dina pangiriman",
-    "to_customer": "Dihaturkeun"
+    "to_customer": "Dihaturkeun",
   },
   "status": {
     "unpaid": "Teu dibayar",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Nolak",
     "pending": "Ditunggu",
     "rejected": "Ditampik",
-    "accepted": "Ditarima"
+    "accepted": "Ditarima",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motor",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Angkutan global",
     "global_description": "Pangiriman ka luar negeri ku hawa, laut atanapi darat.",
     "pickup": "Candak",
-    "pickup_description": "Konsumén nyokot barang di toko fisik atanapi gudang anjeun."
+    "pickup_description": "Konsumén nyokot barang di toko fisik atanapi gudang anjeun.",
   },
   "article": {
     "login_to_see_error": "Login pikeun ngakses artikel",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Modeu édit",
       "view_mode": "Modeu Témbongkeun",
-      "delete": "Hapus Artikel"
+      "delete": "Hapus Artikel",
     },
     "schedule_action": "Naha anjeun badé ngajadwalkeun publikasi?",
     "schedule_title": "Jadwalkeun otomatis nyebarkeun",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Laporkeun nyiksa sareng cabut eusi",
       "report_title": "Laporkeun eusi ieu salaku kasar",
       "message": "Naon alesan pikeun ngirimkeun eusi ieu? Pilih salah sahiji pilihan di handap ieu.",
-      "accept_and_delete_action": "Konpirmasi sareng Pupus Eusi"
+      "accept_and_delete_action": "Konpirmasi sareng Pupus Eusi",
     },
     "schedule_dialog": {
       "title": "Jadwal Release eusi",
       "publish_at": "Nyebarkeun di",
       "last_edit": "éditan panungtungan",
-      "view_action": "Témbongkeun Artikel"
+      "view_action": "Témbongkeun Artikel",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Nepikeun Émbaran",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Laporan sareng Pupus",
       "report_and_delete_success_message": "Artikel geus suksés dihapus.",
       "report_success_title": "Laporan artikel",
-      "report_success_message": "Laporan anjeun dina tulisan ieu parantos dipasang."
+      "report_success_message": "Laporan anjeun dina tulisan ieu parantos dipasang.",
     },
     "alert": {
       "delete_article": {
         "title": "Hapus Artikel",
         "message": "Naha anjeun yakin hoyong ngahapus tulisan ieu permanén?",
-        "action": "Mupus"
-      }
+        "action": "Mupus",
+      },
     },
     "edit_window": {
       "title": "Pilih Téks Gambar sareng Ringkesan",
-      "digest": "Ringkesan"
+      "digest": "Ringkesan",
     },
     "editor": {
       "title_placeholder": "Judulna..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Berkas ieu ageung teuing:",
       "notifications": {
         "image_uploaded_success": "Gambar suksés disimpen",
-        "image_uploaded_failed": "Kasalahan muatkeun gambar."
+        "image_uploaded_failed": "Kasalahan muatkeun gambar.",
       },
       "embed_placeholder": "Lebetkeun kode iframe, Facebook, Youtube atanapi URL sanés sareng pencét asupkeun.",
       "embed_caption_placeholder": "Lebetkeun judul (opsional)",
-      "images_caption_placeholder": "Lebetkeun judul pikeun gambar ieu.."
-    }
+      "images_caption_placeholder": "Lebetkeun judul pikeun gambar ieu..",
+    },
   },
   "article_report": {
     "inappropriate": "Eusi artikel ieu teu pantes.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Jigana eusi ieu ngandung pornografi sareng ngalanggar hukum.",
     "harassment": "Jigana ieu rasis.",
     "hate": "Jigana ieu ngeunaan promosi kekerasan.",
-    "infringe": "Ieu ngalanggar hak kuring."
+    "infringe": "Ieu ngalanggar hak kuring.",
   },
   "comments": {
     "new_action": "Pencét pikeun ninggalkeun koméntar..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Kéngingkeun langkung seueur koméntar..",
     "cant_send_comment": "Anjeun teu bisa nambahkeun pos anyar.",
     "cant_remove_this_comment": "Anjeun teu tiasa ngahapus komentar ieu!",
-    "product_buyer": "Nu meuli",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Koméntar abdi",
     "delete_alert": {
       "title": "Hapus Koméntar",
       "message": "Naha anjeun badé ngahapus koméntar ieu?",
-      "action": "Mupus"
+      "action": "Mupus",
     },
     "notifications": {
-      "delete_success": "Koméntar anjeun suksés dihapus."
+      "delete_success": "Koméntar anjeun suksés dihapus.",
     },
     "first_send": "Tulisan munggaran",
     "comment_at": "Dina",
     "edit_comment": "Edit Koméntar",
-    "my_comments": "Koméntar abdi"
+    "product_buyer": "Nu meuli",
   },
   "customer_club": {
     "bronze": "Perunggu",
     "silver": "pérak",
     "gold": "Emas",
     "platinum": "Platina",
-    "diamond": "Inten"
+    "diamond": "Inten",
   },
   "application_categories": {
     "tracking": "Mariksa Paripolah Pamaké",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Iklan",
     "staff": "Pagawe",
     "incentive": "Insentip",
-    "shop": "Toko"
+    "shop": "Toko",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Tambahkeun item anyar",
     "title_input": "Judul",
+    "placeholder_input": "Patempatan",
     "name_input": "Ngaran variabel",
     "value_input": "Nilai-nilai",
     "value_input_message": "Daptar Pilihan pamaké",
     "default": "Nilai standar",
+    "file_type_input": "Jenis file anu tiasa ditampi",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Basajan",
       "selective": "Selektif",
       "switch": "Pindah",
       "file": "File",
-      "number": "Jumlah"
+      "number": "Jumlah",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Patempatan",
-    "file_type_input": "Jenis file anu tiasa ditampi",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Ngaran Produk",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Status pamayaran",
     "payment_status_waiting": "Nunggu bayaran",
     "payment_status_paid": "Dibayar",
-    "buyer": "Nu meuli"
+    "buyer": "Nu meuli",
   },
   "virtual_item_info": {
     "title": "Barang Virtual",
     "outputs": {
       "title": "Émbaran kaluaran",
       "sub_title": "Inpormasi Rahasia Item ieu",
-      "message": "Inpormasi ieu bakal ditingalikeun ka pangguna saatos ngagaleuh produk."
+      "message": "Inpormasi ieu bakal ditingalikeun ka pangguna saatos ngagaleuh produk.",
     },
     "inputs": {
       "title": "Émbaran diperlukeun",
       "sub_title": "Émbaran Meuli Diperlukeun",
-      "message": "Anu meuli kedah ngalebetkeun inpormasi anu dipénta dina bentuk"
+      "message": "Anu meuli kedah ngalebetkeun inpormasi anu dipénta dina bentuk",
     },
     "notifications": {
       "inputs_set_success": "Formulir inpormasi didaptarkeun suksés.",
       "confirm_by_admin_success": "parantosan pesenan dikonfirmasi.",
-      "confirm_by_buyer_success": "parantosan pesenan dikonfirmasi."
-    }
+      "confirm_by_buyer_success": "parantosan pesenan dikonfirmasi.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Pesenan ieu henteu tiasa ditampi ku pamayaran COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Séép.",
     "legal_restriction": "Teu tiasa nempatkeun pesenan kusabab larangan hukum.",
     "pricing_fault": "Kasalahan harga ku seller.",
-    "system_fault": "bug Sistim."
+    "system_fault": "bug Sistim.",
   },
   "basket_order_info_summery": {
     "receiver": "panarima",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Diskon",
     "final_price": "Jumlah ahir",
     "address": "Alamat Pangiriman",
-    "payment_status": "Status pamayaran"
+    "payment_status": "Status pamayaran",
   },
   "basket_status": {
     "open": "Muka",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Dibolaykeun",
     "cod": "Mayar Dina Pangiriman",
     "receipt_added": "resi ditambahkeun",
-    "payment_processing": "Ngolah pamayaran"
+    "payment_processing": "Ngolah pamayaran",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Ditampik",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Konfirmasi",
     "step_3": "Persiapan",
     "step_4": "Dina pangiriman",
-    "step_5": "Dihaturkeun"
+    "step_5": "Dihaturkeun",
   },
   "basket_return_request_view": {
     "title": "Pamundut Balik",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Nolak pamundut",
     "message_for_admin": "Nurutkeun kana perjangjian nu geus ditarima ku ngagunakeun Seldone, Anjeun kudu ngahubungan nu meuli jeung tetep manéhna informed ngeunaan prosés mulangkeun order na. Ieu kedah dilakukeun upami pamenta katampi atanapi ditolak sareng idin pinuh ku pembeli dicandak.",
     "notifications": {
-      "update_status_success": "Status pamundut diropéa."
-    }
+      "update_status_success": "Status pamundut diropéa.",
+    },
   },
   "basket_list": {
     "return_count": "Balik deui: {count} angka",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Varian",
       "warranty": "Garansi",
       "count": "Ngitung",
-      "price": "hargaan"
-    }
+      "price": "hargaan",
+    },
   },
   "return_request_list": {
     "count": "Nomer rujukan",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Ditampi Tanggal",
       "state": "Status",
       "reason": "Alesan",
-      "return_warranty_period": "jaman jaminan"
-    }
+      "return_warranty_period": "jaman jaminan",
+    },
   },
   "data_toolbar": {
     "search": "Pilarian",
     "sort_by": "Diurutkeun dumasarkeun",
-    "count_item": "Témbongkeun {item} item"
+    "count_item": "Témbongkeun {item} item",
   },
   "sort": {
     "created_at": "Jieun tanggal",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Patugas",
     "registered": "Kadaptar",
     "purchased": "Dibeuli",
-    "sex": "Génder"
+    "sex": "Génder",
   },
   "search_box": {
     "result": "Hasil teangan",
     "tips": "Milarian Produk sareng Kategori",
     "label": "Pilarian ...",
-    "category": "Kategori"
+    "category": "Kategori",
   },
   "lead_status": {
     "physical_fast_delivery": "pangiriman instan",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Nyiapkeun sareng ngirimkeun ti {days} dinten salajengna",
     "virtual_fast_prepare": "pangiriman instan",
     "virtual_under_24h": "Bakal dilakukeun dina {lead} jam salajengna",
-    "virtual_over_24h": "Bakal dilakukeun ti {days} dinten salajengna"
+    "virtual_over_24h": "Bakal dilakukeun ti {days} dinten salajengna",
   },
   "return_request_state": {
     "pending": "Ditunggu",
     "accepted": "Negeskeun",
-    "rejected": "Ditampik"
+    "rejected": "Ditampik",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pakét atawa nomer serial tampering",
       "U5": "Sababaraha barang tina bungkusan leungit",
       "U6": "Produk henteu asli",
-      "U7": "Produk henteu nyugemakeun spésifikasi"
-    }
+      "U7": "Produk henteu nyugemakeun spésifikasi",
+    },
   },
   "image_uploader": {
     "label": "Séred & leupaskeun atawa <u>Pilih file</u>",
-    "max_size": "Ukuran maksimum anu diidinan: {size}"
+    "max_size": "Ukuran maksimum anu diidinan: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "12 beurang nepi ka 6 pm",
     "Night": "6 pm-12 pm",
-    "Instant": "Pos Instan"
+    "Instant": "Pos Instan",
   },
   "week_day": {
     "Saturday": "Saptu",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Salasa",
     "Wednesday": "Rebo",
     "Thursday": "Kemis",
-    "Friday": "Jumaah"
+    "Friday": "Jumaah",
   },
   "payment_form": {
     "title": "Pilih Métode Pembayaran",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Gening, pesenan anjeun gratis!",
     "order_free_payment_action": "Pesen Gratis Ayeuna",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "alamat pamayaran",
-      "amount": "Jumlah"
-    }
+      "amount": "Jumlah",
+    },
   },
   "discount_input": {
     "limit": "{percent}% diskon nepi ka {limit} {currency}",
     "action": "Tambahkeun Kodeu diskon",
     "code_input": "Kode diskon",
     "notifications": {
-      "add_success": "Gening, kode diskon valid."
-    }
+      "add_success": "Gening, kode diskon valid.",
+    },
   },
   "gift_card": {
     "inactive": "Kartu ditumpurkeun",
     "expire": "kadaluwarsa",
     "transfer": "Mindahkeun",
-    "send_to_friend": "Kirim ka babaturan"
+    "send_to_friend": "Kirim ka babaturan",
   },
   "count_down": {
     "days": "Dinten",
     "hours": "Jam",
     "minutes": "Menit",
-    "seconds": "Detik-detik"
+    "seconds": "Detik-detik",
   },
   "gift_status": {
     "Unpaid": "Nungguan Resi",
     "Paid": "Dibayar",
     "Rejected": "Ditampik",
-    "Canceled": "Dibolaykeun"
+    "Canceled": "Dibolaykeun",
   },
   "gift_program_status": {
     "Airdrop": "System pamayaran",
     "Advertising": "Iklan",
     "PersonalGift": "Hadiah Pribadi",
-    "ShopGift": "Toko kado"
+    "ShopGift": "Toko kado",
   },
   "currency_selector": {
-    "label": "Mata uang"
+    "label": "Mata uang",
   },
   "need_login": {
     "title": "lebet",
     "login_sms": "SMS Login",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Lebet sareng Google",
     "login_facebook": "Lebet sareng Facebook",
+    "login_apple": "Login sareng Apple",
     "login_account": "Login ku Seldone",
     "register": "pamaké anyar? Ngadaptar ayeuna.",
     "mobile_input": "Lebetkeun handphone anjeun",
     "verification_code": "Kodeu vérifikasi",
     "msg_title": "hi,",
     "msg_body": "Mangga lebet. Butuh ngan sababaraha detik.",
-    "login_apple": "Login sareng Apple",
     "login_email": "Login ku Surélék",
     "email_login_step_1": "Mangga nyadiakeun alamat surélék nu sah, sarta kami bakal ngirim kodeu login ka dinya. Taya pendaptaran diperlukeun.",
     "email_login_step_2": "Naha anjeun yakin yén anjeun parantos ngalebetkeun alamat email anjeun leres? Kami bakal ngirim kodeu login ka email anu disayogikeun, janten punten pastikeun katepatanana.",
-    "email_login_step_3": "Kami geus dikirim kode ka surélék anjeun. Perhatikeun yén kode bakal kadaluwarsa dina 10 menit."
+    "email_login_step_3": "Kami geus dikirim kode ka surélék anjeun. Perhatikeun yén kode bakal kadaluwarsa dina 10 menit.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Taun Toko Emas"
+      "name": "5 Taun Toko Emas",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Taun Toko Emas"
+      "name": "4 Taun Toko Emas",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Taun Toko Emas"
+      "name": "3 Taun Toko Emas",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Taun Toko Emas"
+      "name": "2 Taun Toko Emas",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Taun Toko Emas"
+      "name": "1 Taun Toko Emas",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Investor Emas"
+      "name": "Investor Emas",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Inten Investor"
+      "name": "Inten Investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Anggota Komunitas Superior Jaringan Komunikasi"
+      "name": "Anggota Komunitas Superior Jaringan Komunikasi",
     },
     "GOLD_SUPPLIER": {
-      "name": "Supplier emas"
+      "name": "Supplier emas",
     },
     "GOLD_SELLER": {
-      "name": "Dealer Emas"
+      "name": "Dealer Emas",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Produsén Kandungan Top"
+      "name": "Produsén Kandungan Top",
     },
     "NINJA": {
-      "name": "ninja"
+      "name": "ninja",
     },
     "STAR": {
-      "name": "Béntang"
+      "name": "Béntang",
     },
     "GUARDIAN": {
-      "name": "Service Palanggan hébat"
+      "name": "Service Palanggan hébat",
     },
     "KING": {
-      "name": "Raja Pasar"
-    }
+      "name": "Raja Pasar",
+    },
   },
   "cookie": {
     "title": "Situs wéb ieu nganggo cookies",
     "message": "Situs wéb ieu nganggo cookies pikeun ningkatkeun pangalaman pangguna. Ku ngagunakeun ramatloka kami anjeun idin ka sadaya cookies luyu jeung Kawijakan Cookie kami.",
     "preferences_action": "Atur Préferénsi",
-    "agree_action": "Abdi satuju"
+    "agree_action": "Abdi satuju",
   },
   "basket_item_message": {
     "title": "Inpo diperlukeun pikeun item ieu",
     "save_actions": "Simpen Pesen",
+    "product_inputs_preview_message": "Pilihan kustomisasi ieu sayogi pikeun produk anu dipesen anjeun. Sakali item nu ditambahkeun kana karanjang anjeun, anjeun bakal bisa nyieun pangaluyuan dieu.",
     "notifications": {
-      "success": "Data input anjeun parantos disimpen."
+      "success": "Data input anjeun parantos disimpen.",
     },
-    "product_inputs_preview_message": "Pilihan kustomisasi ieu sayogi pikeun produk anu dipesen anjeun. Sakali item nu ditambahkeun kana karanjang anjeun, anjeun bakal bisa nyieun pangaluyuan dieu."
   },
   "faq": {
     "faq": "Patarosan anu sering ditaroskeun",
     "title": "Patarosan jeung Jawaban",
-    "sub_title": "Naon anu anjeun naroskeun ka kami.",
     "message": "Pilarian jawaban kana patarosan anjeun diantara jawaban di handap ieu. Tanya kami lamun patarosan tetep unanswered.",
     "add_question_action": "Tanya Patarosan Anyar",
     "read_more": "Maca deui ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Patarosan",
     "question_input_placeholder": "Tanya patarosan anjeun.",
     "notifications": {
-      "success_add": "Patarosan anjeun parantos dikintunkeun."
-    }
+      "success_add": "Patarosan anjeun parantos dikintunkeun.",
+    },
+    "sub_title": "Naon anu anjeun naroskeun ka kami.",
   },
   "rating_labels": [
     "Goreng pisan",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Tulis alamat tujuan",
     "enter_your_address": "Lebetkeun alamat anjeun.",
     "postal_code": "Kodeu pos",
-    "phone_input": "Telepon {type}",
+    "phone_input": "Telepon",
     "building_number": "Nomer wangunan",
     "building_unit": "Unit",
     "full_name_input": "Ngaran lengkep {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Label Alamat (Peryogikeun)",
     "notifications": {
       "save_in_list": "Alamat ieu parantos disimpen kana daptar anjeun sareng sadaya detilna.",
-      "edit_success": "Nilai alamat anyar disimpen dina {title}."
+      "edit_success": "Nilai alamat anyar disimpen dina {title}.",
     },
     "delete_address_dialog": {
       "title": "Hapus Alamat",
       "message": "Naha anjeun yakin hoyong mupus alamat ieu?",
-      "action": "Hapus alamat"
-    }
+      "action": "Hapus alamat",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Teu tiasa ngédit komentar ieu!",
     "comment_input_empty": "Téks pesen kosong!",
-    "article_not_saved": "Simpen artikelna!"
+    "article_not_saved": "Simpen artikelna!",
   },
   "wheel_fortune": {
     "title": "Maén & meunang",
     "message": "Biaya unggal kaulinan 10 chip. Anjeun ayeuna gaduh {chips} chip. Kéngingkeun langkung seueur chip ku mésér ti toko.",
     "win_message": "ucapan salamet, Anjeun meunang!",
     "lost_message": "Hampura, Anjeun leungit game.",
-    "try_again": "Anjeun tiasa nyobian deui"
+    "try_again": "Anjeun tiasa nyobian deui",
   },
   "json": {
     "add": "Tambahkeun data struktur",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Struktur",
     "book": {
       "title": "Buku",
-      "desc": "Laku lampah buku anu ngamungkinkeun para pangguna mésér buku anu aranjeunna mendakan langsung tina hasil Milarian."
+      "desc": "Laku lampah buku anu ngamungkinkeun para pangguna mésér buku anu aranjeunna mendakan langsung tina hasil Milarian.",
     },
     "occupation": {
       "title": "Gajih ditaksir",
-      "desc": "Inpormasi ngeunaan estimasi gaji, sapertos kisaran gaji sareng rata-rata gaji dumasar wilayah pikeun jinis padamelan, dipidangkeun dina pangalaman milarian padamelan di Google."
+      "desc": "Inpormasi ngeunaan estimasi gaji, sapertos kisaran gaji sareng rata-rata gaji dumasar wilayah pikeun jinis padamelan, dipidangkeun dina pangalaman milarian padamelan di Google.",
     },
     "course": {
       "title": "Tangtu",
-      "desc": "Kursus atikan anu muncul dina daptar khusus panyadia. Kursus-kursus tiasa kalebet judul kursus, panyadia, sareng pedaran pondok."
+      "desc": "Kursus atikan anu muncul dina daptar khusus panyadia. Kursus-kursus tiasa kalebet judul kursus, panyadia, sareng pedaran pondok.",
     },
     "howto": {
       "title": "Kumaha",
-      "desc": "A How-to walks pamaké ngaliwatan sakumpulan léngkah pikeun suksés ngarengsekeun tugas, nampilkeun video, gambar, jeung téks."
+      "desc": "A How-to walks pamaké ngaliwatan sakumpulan léngkah pikeun suksés ngarengsekeun tugas, nampilkeun video, gambar, jeung téks.",
     },
     "recipe": {
       "title": "Resep",
-      "desc": "Resep anu ditingalikeun salaku hasil beunghar individu atanapi bagian tina carousel host."
-    }
+      "desc": "Resep anu ditingalikeun salaku hasil beunghar individu atanapi bagian tina carousel host.",
+    },
   },
   "support": {
     "Financial": "Keuangan",
     "Technical": "Téknis",
-    "Advisor": "Panaséhat"
+    "Advisor": "Panaséhat",
   },
   "condition": {
     "new": "Anyar",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Dipaké",
     "used_fair": "Dipaké adil",
     "used_good": "Dipaké alus",
-    "used_like_new": "Dipaké kawas anyar"
+    "used_like_new": "Dipaké kawas anyar",
   },
   "variant_filter": {
     "title": "Filter Varian Produk",
-    "only_available": "Aya sasayogian"
+    "only_available": "Aya sasayogian",
   },
   "service": {
     "task": {
       "title": "tugas",
-      "message": "Daptar tugas anu dilakukeun dina jasa ieu."
+      "message": "Daptar tugas anu dilakukeun dina jasa ieu.",
     },
     "appointment": {
       "title": "Pasini",
-      "message": "Pilih waktos dina saminggu tina waktos di handap ieu dumasar kana dinten sareng jam anu pas pikeun anjeun."
+      "message": "Pilih waktos dina saminggu tina waktos di handap ieu dumasar kana dinten sareng jam anu pas pikeun anjeun.",
     },
     "booking": {
       "title": "Pesenan",
-      "message": "Sebutkeun periode waktu poé rék nyieun reservasi dina kalénder handap."
+      "message": "Sebutkeun periode waktu poé rék nyieun reservasi dina kalénder handap.",
     },
     "subscription": {
-      "title": "Langganan"
+      "title": "Langganan",
     },
     "charge": {
-      "title": "muatan"
-    }
+      "title": "muatan",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "harga maneuh",
-      "message": "Dina jinis harga ieu, harga produk mangrupikeun jumlah anu tetep sareng henteu peryogi anu mésér nyuhunkeun itungan harga."
+      "message": "Dina jinis harga ieu, harga produk mangrupikeun jumlah anu tetep sareng henteu peryogi anu mésér nyuhunkeun itungan harga.",
     },
     "ESTIMATION": {
       "title": "Estimasi Harga",
-      "message": "Harga produk sareng jasa bakal diitung ku seller nalika nempatkeun pesenan, invoice pamayaran tiasa dirobih atanapi ditambihan salami jasa."
+      "message": "Harga produk sareng jasa bakal diitung ku seller nalika nempatkeun pesenan, invoice pamayaran tiasa dirobih atanapi ditambihan salami jasa.",
     },
     "AGREEMENT": {
       "title": "Harga pasatujuan",
-      "message": "Harga ahir produk atawa jasa moal dirobah ku seller sanggeus pesenan geus disimpen."
+      "message": "Harga ahir produk atawa jasa moal dirobah ku seller sanggeus pesenan geus disimpen.",
     },
     "BID": {
       "title": "Panawaran / Lelang",
-      "message": "Produk bakal dijual dina harga tawaran pangluhurna ku pembeli poténsial."
-    }
+      "message": "Produk bakal dijual dina harga tawaran pangluhurna ku pembeli poténsial.",
+    },
   },
   "map": {
     "title": "Tujuan pikeun nampa produk",
     "confirm": "Setel lokasi",
     "address": "tujuan",
-    "receptor": "panarima"
+    "receptor": "panarima",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Tag eusi",
     "tags_input": "Tag",
     "tags_input_message": "Tags Daptar artikel ieu",
     "notification": {
-      "add_success": "Tags ditambahkeun"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Pajeulit pisan",
-    "hard": "Teuas",
-    "intermediate": "Panengah",
-    "easy": "gampil"
-  },
-  "billing_period": {
-    "Daily": "Sapopoe",
-    "Weekly": "Mingguan",
-    "Monthly": "Bulanan",
-    "Every3Months": "Unggal 3 bulan",
-    "Every6Months": "Unggal 6 bulan",
-    "Yearly": "taunan"
+      "add_success": "Tags ditambahkeun",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh henteu saé!",
     "between2_3": "Henteu kunanaon!",
     "between3_4": "Jalma resep!",
-    "between4_5": "Jalma resep eta!"
+    "between4_5": "Jalma resep eta!",
   },
   "seasons": {
     "spring": "Cinyusu",
     "summer": "Usum panas",
     "autumn": "usum gugur",
-    "winter": "Usum tiis"
-  }
+    "winter": "Usum tiis",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ndawerengapo mfundo zogwiritsiridwa ntchito komanso zachinsinsi ndipo ndikugwirizana nazo.",
   "commons": {
     "Currency": "Ndalama",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Boma",
     "Price": "mtengo",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Mtengo weniweni",
     "tax": "Msonkho",
     "tax_included": "Kuphatikizidwa mu mtengo",
+    "tax_included_abstract": "kuphatikiza.",
     "limit": "Malire",
     "min_purchase": "Kugula kochepa",
     "eligible_for": "Zoyenera",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Tsiku lopangidwa",
     "updated_at": "Kusintha komaliza",
     "register_at": "Tsiku lolembetsa",
+    "last_modified": "Last modified",
     "old": "Zakale",
     "new": "Zatsopano",
     "start": "Yambani",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Wogulitsa",
     "tracking_code": "Kodi kutsatira",
     "tracking_url": "Ulalo wotsatira",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Kukwaniritsidwa",
     "reject": "Kana",
     "reserved": "Zosungidwa",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Tikuyembekezera...",
     "waiting_connecting_payment": "Tikuyembekezera ntchito yolipira...",
     "creating_secure_payment": "Kupanga malipiro otetezeka.",
+    "waiting_for_payment": "Chonde malizitsani kulipira...",
     "officer": "Ofesi",
     "ticket": "Tikiti",
     "ticket_url": "Ulalo wa tikiti",
@@ -361,7 +366,6 @@ export default {
     "rates": "Muyezo",
     "seen_at": "Kuwoneka pa",
     "completed": "Zamalizidwa",
-    "you": "Inu",
     "shop": "Gulani",
     "store": "sitolo",
     "granted": "Zowona",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Phaleti",
     "pc": "PC",
     "acquisition_channel": "Njira yopezera",
+    "channels_overview": "Channels overview",
     "to": "Kuti",
     "info": "Zambiri",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Pa mankhwala",
     "journey": "Ulendo",
     "after": "Pambuyo",
-    "waiting_for_payment": "Chonde malizitsani kulipira...",
     "hour": "Ola",
     "minute": "Mphindi",
     "premium": "Zofunika",
@@ -569,6 +573,7 @@ export default {
     "shops": "Masitolo",
     "vendor": "Wogulitsa",
     "vendors": "Ogulitsa",
+    "no_vendors": "No vendors",
     "marketplace": "Msika",
     "verify_date": "Tsimikizani tsiku",
     "note": "Zindikirani",
@@ -604,7 +609,6 @@ export default {
     "variant": "Zosiyana",
     "secure": "Otetezeka",
     "admin": "Admin",
-    "tax_included_abstract": "kuphatikiza.",
     "payment_not_settled": "Malipiro sanathe!",
     "orders_list": "Mndandanda wamaoda",
     "subscription_plan": "Mapulani olembetsa",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Magulu",
     "subscriptions": "Kulembetsa",
     "spam": "Sipamu",
-    "video": "Kanema"
+    "video": "Kanema",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Inu",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Zovuta kwambiri",
+    "hard": "Zovuta",
+    "intermediate": "Wapakatikati",
+    "easy": "Zosavuta",
   },
   "dialogs": {
     "delete": {
       "title": "Chotsani",
       "message": "Mukutsimikiza kuchotsa chinthuchi?",
-      "action": "Inde, Chotsani tsopano"
-    }
+      "action": "Inde, Chotsani tsopano",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "onjezani kungolo yogulira",
     "cancel": "Letsani",
     "update": "Kusintha",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Onjezani khadi yamphatso",
     "charge": "Kulipiritsa",
     "send_invites": "Tumizani oitanira",
-    "past": "Zakale",
+    "paste": "Matani",
     "restore": "Bwezerani",
     "cut": "Dulani",
     "get_sms_code": "Pezani nambala yotsimikizira",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Onetsani zowoneratu",
     "hide_preview": "Bisani chithunzithunzi",
     "download_now": "Koperani Tsopano",
+    "watch_now": "Penyani Tsopano",
     "auto_fill": "Kudzaza zokha",
     "track": "Track",
     "change_state": "Sinthani Status",
     "done": "Zatheka",
     "reply": "Yankhani",
-    "watch_now": "Penyani Tsopano",
     "unlock": "Tsegulani",
     "lock": "Loko",
     "create_clone": "Pangani chojambula",
@@ -773,41 +931,71 @@ export default {
     "buy": "Gulani",
     "view_all": "Onani Zonse",
     "view_now": "Onani Tsopano",
-    "paste": "Matani"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Zakale",
+  },
+  "billing_period": {
+    "Daily": "Tsiku ndi tsiku",
+    "Weekly": "Mlungu uliwonse",
+    "Monthly": "Mwezi uliwonse",
+    "Every3Months": "Miyezi itatu iliyonse",
+    "Every6Months": "Miyezi 6 iliyonse",
+    "Yearly": "Chaka chilichonse",
   },
   "instance_message_title": "Tumizani uthenga pompopompo",
   "instance_message": "Moni {name}, Dzina langa ndine {author} wochokera ku {company}.",
   "errors": {
     "419": "Mwakhala osachitapo kanthu kwa nthawi yayitali, chonde <b>⟳ Wonjezeraninso TSAMBA</b> pazifukwa zachitetezo.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Dongosolo silimalumikizana ndi blockchain. Sizingatheke kupanga kusintha kwatsopano mpaka kulunzanitsa kwa ma seva athu kumalizidwa. Tikuthetsa vuto.",
-    "gateway_network_error": "Njira yolipira pachipata chakumana ndi vuto la kulumikizana."
+    "gateway_network_error": "Njira yolipira pachipata chakumana ndi vuto la kulumikizana.",
   },
   "receiver_info": {
     "map": {
       "title": "Adilesi Yakotumiza",
       "confirm": "Khazikitsani malo",
       "address_type": "Kopita",
-      "receptor_type": "Wolandira"
+      "receptor_type": "Wolandira",
     },
     "receiver_address": "Sankhani adilesi yotumizira",
+    "service_address": "Sankhani adilesi yanu",
+    "select_billing_address": "Select billing address",
     "address": "adilesi",
     "postcode": "Positi kodi",
     "enter_value": "Lembani apa",
     "address_note": "Zindikirani",
     "tel": "Nambala yolumikizira",
-    "service_address": "Sankhani adilesi yanu"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "LB",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Uni",
     "lb": "Paundi",
-    "kg": "kilogalamu"
+    "kg": "kilogalamu",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "Ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Sentimita",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Phazi",
     "mm": "millimeter",
     "m": "mita",
-    "yd": "Yard"
+    "yd": "Yard",
   },
   "distance": {
     "m": "mita",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Masiku",
     "hours": "Maola",
     "minutes": "Mphindi",
-    "seconds": "Masekondi"
+    "seconds": "Masekondi",
   },
   "units": [
     "Chigawo",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Boma",
     "Territory": "Territory",
-    "Province": "Chigawo"
+    "Province": "Chigawo",
   },
   "transaction_status": {
     "RequireAction": "Chofunika Chochita",
     "Processing": "Kukonza",
     "Canceled": "Walephereka",
-    "Succeeded": "Anapambana"
+    "Succeeded": "Anapambana",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Sankhani chinenero..",
     "friend_email": "Imelo ya mnzako...",
     "friend_name": "Sankhani. Dzina la mnzako",
-    "select_date": "Sankhani tsiku..."
+    "select_date": "Sankhani tsiku...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Tsimikizani",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Zilembo zosachepera {maxCount}",
     "invalid_url": "URL yolakwika",
     "country_invalid": "Sankhani dziko lomwe mukupita!",
-    "postal_code_invalid": "Khazikitsani khodi yapositi yovomerezeka!"
+    "postal_code_invalid": "Khazikitsani khodi yapositi yovomerezeka!",
   },
   "colors": {
     "#D32F2F": "Chofiira",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Chigawo",
     "postcode": "Positi kodi",
     "note": "Zindikirani",
-    "county": "County"
+    "county": "County",
   },
   "product_types": {
     "physical": "Zakuthupi",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Utumiki",
     "service_description": "Ntchito monga: kukonza, mayendedwe, kuphunzitsa.",
     "subscription": "Kulembetsa",
-    "subscription_description": "Kulembetsa ndi ma invoice azinthu, ntchito, kapena zomwe zili."
+    "subscription_description": "Kulembetsa ndi ma invoice azinthu, ntchito, kapena zomwe zili.",
   },
   "license": {
     "free": "Kwaulere",
     "startup": "Yambitsani",
     "company": "Kampani",
-    "enterprise": "Makampani"
+    "enterprise": "Makampani",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Mtundu",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Werengani mu paketi",
     "weight": "Kulemera",
     "type": "Zakuthupi",
-    "style": "Mtundu"
+    "style": "Mtundu",
   },
   "delivery_state": {
     "check_queue": "Kuyembekezera kuunikanso",
     "order_confirm": "Chitsimikizo cha Order",
     "preparing_order": "Kukonzekera",
     "sent_order": "Potumiza",
-    "to_customer": "Zaperekedwa"
+    "to_customer": "Zaperekedwa",
   },
   "status": {
     "unpaid": "Osalipidwa",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Kana",
     "pending": "Ikuyembekezera",
     "rejected": "Wakanidwa",
-    "accepted": "Adalandiridwa"
+    "accepted": "Adalandiridwa",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Njinga yamoto",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Mayendedwe apadziko lonse lapansi",
     "global_description": "Kutumiza kunja ndi ndege, nyanja kapena pamtunda.",
     "pickup": "Nyamula",
-    "pickup_description": "Makasitomala amatenga zinthuzo ku sitolo yanu kapena nyumba yosungiramo zinthu."
+    "pickup_description": "Makasitomala amatenga zinthuzo ku sitolo yanu kapena nyumba yosungiramo zinthu.",
   },
   "article": {
     "login_to_see_error": "Lowani kuti mupeze nkhaniyo",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Sinthani mode",
       "view_mode": "Onani mode",
-      "delete": "Chotsani Nkhani"
+      "delete": "Chotsani Nkhani",
     },
     "schedule_action": "Kodi mukufuna kukonza zofalitsa?",
     "schedule_title": "Konzani zosindikiza zokha",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Nenani zachipongwe ndikuchotsani",
       "report_title": "Nenani kuti izi ndi zachipongwe",
       "message": "Kodi chifukwa chotumizira izi ndi chiyani? Sankhani imodzi mwa njira zotsatirazi.",
-      "accept_and_delete_action": "Tsimikizirani ndi Chotsani Zomwe zili"
+      "accept_and_delete_action": "Tsimikizirani ndi Chotsani Zomwe zili",
     },
     "schedule_dialog": {
       "title": "Ndandanda Yotulutsa Zamkatimu",
       "publish_at": "Sindikizani pa",
       "last_edit": "Kusintha komaliza",
-      "view_action": "Onani Nkhani"
+      "view_action": "Onani Nkhani",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Tumizani Zambiri",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Report ndi Chotsani",
       "report_and_delete_success_message": "Nkhani yachotsedwa bwino.",
       "report_success_title": "Lipoti nkhani",
-      "report_success_message": "Lipoti lanu pankhaniyi latumizidwa."
+      "report_success_message": "Lipoti lanu pankhaniyi latumizidwa.",
     },
     "alert": {
       "delete_article": {
         "title": "Chotsani Nkhani",
         "message": "Kodi mukutsimikiza kuti mukufuna kufufuta nkhaniyi?",
-        "action": "Chotsani"
-      }
+        "action": "Chotsani",
+      },
     },
     "edit_window": {
       "title": "Sankhani Image Text ndi Chidule",
-      "digest": "Mwachidule"
+      "digest": "Mwachidule",
     },
     "editor": {
       "title_placeholder": "Mutu..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Fayiloyi ndi yayikulu kwambiri:",
       "notifications": {
         "image_uploaded_success": "Chithunzi chasungidwa bwino",
-        "image_uploaded_failed": "Vuto pakutsegula chithunzi."
+        "image_uploaded_failed": "Vuto pakutsegula chithunzi.",
       },
       "embed_placeholder": "Lowetsani nambala ya iframe, Facebook, Youtube kapena URL ina iliyonse ndikudina Enter.",
       "embed_caption_placeholder": "Lowetsani mutu (posankha)",
-      "images_caption_placeholder": "Lowetsani mutu wachithunzichi .."
-    }
+      "images_caption_placeholder": "Lowetsani mutu wachithunzichi ..",
+    },
   },
   "article_report": {
     "inappropriate": "Zomwe zili m'nkhaniyi ndizosayenera.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ndikuganiza kuti izi zili ndi zolaula ndipo zikuphwanya malamulo.",
     "harassment": "Ndikuganiza kuti izi ndi tsankho.",
     "hate": "Ndikuganiza kuti izi ndi zolimbikitsa zachiwawa.",
-    "infringe": "Izi zikuphwanya ufulu wanga."
+    "infringe": "Izi zikuphwanya ufulu wanga.",
   },
   "comments": {
     "new_action": "Dinani kuti musiye ndemanga..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Pezani ma comment ena..",
     "cant_send_comment": "Simungawonjezere positi yatsopano.",
     "cant_remove_this_comment": "Simungathe kuchotsa ndemanga iyi!",
-    "product_buyer": "Wogula",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Ndemanga Zanga",
     "delete_alert": {
       "title": "Chotsani Ndemanga",
       "message": "Mukufuna kuchotsa ndemangayi?",
-      "action": "Chotsani"
+      "action": "Chotsani",
     },
     "notifications": {
-      "delete_success": "Ndemanga yanu yachotsedwa bwino."
+      "delete_success": "Ndemanga yanu yachotsedwa bwino.",
     },
     "first_send": "Cholemba choyamba",
     "comment_at": "Yambirani",
     "edit_comment": "Sinthani Ndemanga",
-    "my_comments": "Ndemanga Zanga"
+    "product_buyer": "Wogula",
   },
   "customer_club": {
     "bronze": "Bronze",
     "silver": "Siliva",
     "gold": "Golide",
     "platinum": "Platinum",
-    "diamond": "Diamondi"
+    "diamond": "Diamondi",
   },
   "application_categories": {
     "tracking": "Kuyang'ana Makhalidwe Ogwiritsa Ntchito",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Kutsatsa",
     "staff": "Ogwira ntchito",
     "incentive": "Zolimbikitsa",
-    "shop": "Gulani"
+    "shop": "Gulani",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Onjezani chinthu chatsopano",
     "title_input": "Mutu",
+    "placeholder_input": "Choyimira",
     "name_input": "Dzina losinthika",
     "value_input": "Makhalidwe",
     "value_input_message": "Zosankha Zogwiritsa Ntchito",
     "default": "Mtengo wofikira",
+    "file_type_input": "Mitundu ya mafayilo ovomerezeka",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Zosavuta",
       "selective": "Zosankha",
       "switch": "Sinthani",
       "file": "Fayilo",
-      "number": "Nambala"
+      "number": "Nambala",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Choyimira",
-    "file_type_input": "Mitundu ya mafayilo ovomerezeka",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Dzina lazogulitsa",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Malipiro",
     "payment_status_waiting": "Kuyembekezera malipiro",
     "payment_status_paid": "Kulipira",
-    "buyer": "Wogula"
+    "buyer": "Wogula",
   },
   "virtual_item_info": {
     "title": "Zinthu Zowona",
     "outputs": {
       "title": "Zotulutsa",
       "sub_title": "Zachinsinsi Zachinthuchi",
-      "message": "Izi zidzawonetsedwa kwa wogwiritsa ntchito akagula chinthucho."
+      "message": "Izi zidzawonetsedwa kwa wogwiritsa ntchito akagula chinthucho.",
     },
     "inputs": {
       "title": "Zambiri Zofunika",
       "sub_title": "Zambiri Zogula Zofunikira",
-      "message": "Wogula ayenera kulemba zomwe akufunsidwa mu fomu"
+      "message": "Wogula ayenera kulemba zomwe akufunsidwa mu fomu",
     },
     "notifications": {
       "inputs_set_success": "Fomu yazidziwitso idalembetsedwa bwino.",
       "confirm_by_admin_success": "Kumaliza kuyitanitsa kwatsimikiziridwa.",
-      "confirm_by_buyer_success": "Kumaliza kuyitanitsa kwatsimikiziridwa."
-    }
+      "confirm_by_buyer_success": "Kumaliza kuyitanitsa kwatsimikiziridwa.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Dongosololi silingavomerezedwe ndi malipiro a COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Zatha kaye.",
     "legal_restriction": "Sitingathe kuyitanitsa chifukwa choletsa zamalamulo.",
     "pricing_fault": "Kulakwitsa kwamitengo ndi wogulitsa.",
-    "system_fault": "System bug."
+    "system_fault": "System bug.",
   },
   "basket_order_info_summery": {
     "receiver": "Wolandira",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Kuchotsera",
     "final_price": "Ndalama zomaliza",
     "address": "Adilesi Yotumizira",
-    "payment_status": "Malipiro"
+    "payment_status": "Malipiro",
   },
   "basket_status": {
     "open": "Tsegulani",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Walephereka",
     "cod": "Lipirani Potumiza",
     "receipt_added": "Chiphaso chawonjezeredwa",
-    "payment_processing": "Kukonza malipiro"
+    "payment_processing": "Kukonza malipiro",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Wakanidwa",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Chitsimikizo",
     "step_3": "Kukonzekera",
     "step_4": "Potumiza",
-    "step_5": "Zaperekedwa"
+    "step_5": "Zaperekedwa",
   },
   "basket_return_request_view": {
     "title": "Kubwezera Pempho",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Kanani pempho",
     "message_for_admin": "Malinga ndi mgwirizano womwe mwavomereza pogwiritsa ntchito Selldone, muyenera kulankhulana ndi wogula ndikumudziwitsa za ndondomeko yobwezera. Izi ziyenera kuchitika ngati pempho likuvomerezedwa kapena kukanidwa ndipo chilolezo chonse cha wogula chikupezeka.",
     "notifications": {
-      "update_status_success": "Zopempha zasinthidwa."
-    }
+      "update_status_success": "Zopempha zasinthidwa.",
+    },
   },
   "basket_list": {
     "return_count": "Kubwerera: {count} nambala",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Zosiyana",
       "warranty": "Zitsimikizo",
       "count": "Werengani",
-      "price": "mtengo"
-    }
+      "price": "mtengo",
+    },
   },
   "return_request_list": {
     "count": "Nambala yolozera",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Tsiku Lolandila",
       "state": "Mkhalidwe",
       "reason": "Chifukwa",
-      "return_warranty_period": "Nthawi ya chitsimikizo"
-    }
+      "return_warranty_period": "Nthawi ya chitsimikizo",
+    },
   },
   "data_toolbar": {
     "search": "Sakani",
     "sort_by": "Sanjani potengera",
-    "count_item": "Onetsani zinthu {item}"
+    "count_item": "Onetsani zinthu {item}",
   },
   "sort": {
     "created_at": "Pangani tsiku",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ofesi",
     "registered": "Olembetsedwa",
     "purchased": "Nagula",
-    "sex": "Jenda"
+    "sex": "Jenda",
   },
   "search_box": {
     "result": "Zotsatira zakusaka",
     "tips": "Sakani Zogulitsa ndi Magawo",
     "label": "Sakani...",
-    "category": "Gulu"
+    "category": "Gulu",
   },
   "lead_status": {
     "physical_fast_delivery": "Kutumiza pompopompo",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Kukonzekera ndi kutumiza kuyambira masiku {days} otsatira",
     "virtual_fast_prepare": "Kutumiza pompopompo",
     "virtual_under_24h": "Zichitika mkati mwa maola {lead} otsatirawa",
-    "virtual_over_24h": "Zichitika kuyambira masiku {days} otsatira"
+    "virtual_over_24h": "Zichitika kuyambira masiku {days} otsatira",
   },
   "return_request_state": {
     "pending": "Ikuyembekezera",
     "accepted": "Zatsimikiziridwa",
-    "rejected": "Wakanidwa"
+    "rejected": "Wakanidwa",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Phukusi kapena kusokoneza nambala ya serial",
       "U5": "Zina za m'gululo palibe",
       "U6": "Zogulitsa si zoyambirira",
-      "U7": "Zogulitsa sizimakwaniritsa zomwe mukufuna"
-    }
+      "U7": "Zogulitsa sizimakwaniritsa zomwe mukufuna",
+    },
   },
   "image_uploader": {
     "label": "Kokani & Dontho kapena <u>Sankhani fayilo</u>",
-    "max_size": "Kuchuluka kololedwa: {size}"
+    "max_size": "Kuchuluka kololedwa: {size}",
   },
   "timespan": {
     "Morning": "8am-12pm",
     "Evening": "12 koloko mpaka 6pm",
     "Night": "6pm-12pm",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "Loweruka",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Lachiwiri",
     "Wednesday": "Lachitatu",
     "Thursday": "Lachinayi",
-    "Friday": "Lachisanu"
+    "Friday": "Lachisanu",
   },
   "payment_form": {
     "title": "Sankhani Njira Yolipira",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Zabwino zonse, oda yanu ndi yaulere!",
     "order_free_payment_action": "Kuitanitsa Kwaulere Tsopano",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Adilesi yolipira",
-      "amount": "Ndalama"
-    }
+      "amount": "Ndalama",
+    },
   },
   "discount_input": {
     "limit": "{percent}% kuchotsera mpaka {limit} {currency}",
     "action": "Onjezani Khodi Yochotsera",
     "code_input": "Kodi Kuchotsera",
     "notifications": {
-      "add_success": "Zabwino zonse, nambala yochotsera."
-    }
+      "add_success": "Zabwino zonse, nambala yochotsera.",
+    },
   },
   "gift_card": {
     "inactive": "Khadi layimitsidwa",
     "expire": "Kutha ntchito",
     "transfer": "Kusamutsa",
-    "send_to_friend": "Tumizani kwa bwenzi"
+    "send_to_friend": "Tumizani kwa bwenzi",
   },
   "count_down": {
     "days": "Tsiku",
     "hours": "Ola",
     "minutes": "Mphindi",
-    "seconds": "Masekondi"
+    "seconds": "Masekondi",
   },
   "gift_status": {
     "Unpaid": "Kudikira Chiphaso",
     "Paid": "Kulipira",
     "Rejected": "Wakanidwa",
-    "Canceled": "Walephereka"
+    "Canceled": "Walephereka",
   },
   "gift_program_status": {
     "Airdrop": "Malipiro System",
     "Advertising": "Kutsatsa",
     "PersonalGift": "Mphatso Yaumwini",
-    "ShopGift": "Sitolo ya Mphatso"
+    "ShopGift": "Sitolo ya Mphatso",
   },
   "currency_selector": {
-    "label": "Ndalama"
+    "label": "Ndalama",
   },
   "need_login": {
     "title": "Lowani muakaunti",
     "login_sms": "SMS Lowani",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Lowani ndi Google",
     "login_facebook": "Lowani ndi Facebook",
+    "login_apple": "Lowani ndi Apple",
     "login_account": "Lowani ndi Selldone",
     "register": "Wogwiritsa ntchito watsopano? Lembani tsopano.",
     "mobile_input": "Lowetsani foni yanu yam'manja",
     "verification_code": "Nambala yotsimikizira",
     "msg_title": "Moni,",
     "msg_body": "Chonde lowani. Zimangotenga masekondi angapo.",
-    "login_apple": "Lowani ndi Apple",
     "login_email": "Lowani ndi Imelo",
     "email_login_step_1": "Chonde perekani imelo yovomerezeka, ndipo tidzatumiza nambala yolowera. Palibe kulembetsa kofunikira.",
     "email_login_step_2": "Kodi mukutsimikiza kuti mwalemba imelo yanu molondola? Tikhala tikutumiza nambala yolowera ku imelo yomwe tapatsidwa, kotero chonde onetsetsani kuti ndiyolondola.",
-    "email_login_step_3": "Takutumizirani khodi ku imelo yanu. Chonde dziwani kuti code idzatha pakadutsa mphindi 10."
+    "email_login_step_3": "Takutumizirani khodi ku imelo yanu. Chonde dziwani kuti code idzatha pakadutsa mphindi 10.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Year Gold Store"
+      "name": "5 Year Gold Store",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Year Gold Store"
+      "name": "4 Year Gold Store",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Year Gold Store"
+      "name": "3 Year Gold Store",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Year Gold Store"
+      "name": "2 Year Gold Store",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Chaka Gold Store"
+      "name": "1 Chaka Gold Store",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Golden Investor"
+      "name": "Golden Investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamond Investor"
+      "name": "Diamond Investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Membala wa Superior Community of Communication Networks"
+      "name": "Membala wa Superior Community of Communication Networks",
     },
     "GOLD_SUPPLIER": {
-      "name": "Wopereka Golide"
+      "name": "Wopereka Golide",
     },
     "GOLD_SELLER": {
-      "name": "Wogulitsa Golide"
+      "name": "Wogulitsa Golide",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Wopanga Zinthu Wapamwamba"
+      "name": "Wopanga Zinthu Wapamwamba",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Nyenyezi"
+      "name": "Nyenyezi",
     },
     "GUARDIAN": {
-      "name": "Great Customer Service"
+      "name": "Great Customer Service",
     },
     "KING": {
-      "name": "Mfumu ya Msika"
-    }
+      "name": "Mfumu ya Msika",
+    },
   },
   "cookie": {
     "title": "Tsambali limagwiritsa ntchito makeke",
     "message": "Tsambali limagwiritsa ntchito makeke kupititsa patsogolo luso la ogwiritsa ntchito. Pogwiritsa ntchito tsamba lathu mumavomereza ma cookie onse molingana ndi Ndondomeko yathu ya Ma cookie.",
     "preferences_action": "Sinthani Zokonda",
-    "agree_action": "Ndikuvomereza"
+    "agree_action": "Ndikuvomereza",
   },
   "basket_item_message": {
     "title": "Zofunikira pa chinthuchi",
     "save_actions": "Sungani Uthenga",
+    "product_inputs_preview_message": "Zosankha izi makonda zilipo pazomwe mudayitanitsa. Chinthucho chikawonjezedwa kungolo yanu, mudzatha kusintha apa.",
     "notifications": {
-      "success": "Zomwe mwalowa zasungidwa."
+      "success": "Zomwe mwalowa zasungidwa.",
     },
-    "product_inputs_preview_message": "Zosankha izi makonda zilipo pazomwe mudayitanitsa. Chinthucho chikawonjezedwa kungolo yanu, mudzatha kusintha apa."
   },
   "faq": {
     "faq": "Mafunso Ofunsidwa Kawirikawiri",
     "title": "Mafunso ndi Mayankho",
-    "sub_title": "Zimene munatipempha kuti tichite.",
     "message": "Yang'anani yankho la funso lanu pakati pa mayankho omwe ali pansipa. Tifunseni ngati mafunso akhalabe osayankhidwa.",
     "add_question_action": "Funsani Funso Latsopano",
     "read_more": "Werengani zambiri ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Funso",
     "question_input_placeholder": "Funsani funso lanu.",
     "notifications": {
-      "success_add": "Funso lanu latumizidwa bwino."
-    }
+      "success_add": "Funso lanu latumizidwa bwino.",
+    },
+    "sub_title": "Zimene munatipempha kuti tichite.",
   },
   "rating_labels": [
     "Zoyipa kwambiri",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Lowetsani komwe mukupita",
     "enter_your_address": "Lowetsani adilesi yanu.",
     "postal_code": "Positi kodi",
-    "phone_input": "Foni {type}",
+    "phone_input": "Foni",
     "building_number": "Nambala yomanga",
     "building_unit": "Chigawo",
     "full_name_input": "Dzina lonse {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Lebulo la adilesi (Pakufunika)",
     "notifications": {
       "save_in_list": "Adilesiyi yasungidwa pamndandanda wanu ndi zonse.",
-      "edit_success": "Ma adilesi atsopano asungidwa mu {title}."
+      "edit_success": "Ma adilesi atsopano asungidwa mu {title}.",
     },
     "delete_address_dialog": {
       "title": "Chotsani Adilesi",
       "message": "Kodi mukutsimikiza kuti mukufuna kuchotsa adilesiyi?",
-      "action": "Chotsani adilesi"
-    }
+      "action": "Chotsani adilesi",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Sitingathe kusintha ndemangayi!",
     "comment_input_empty": "Mauthenga alibe kanthu!",
-    "article_not_saved": "Sungani nkhaniyo!"
+    "article_not_saved": "Sungani nkhaniyo!",
   },
   "wheel_fortune": {
     "title": "Sewerani & Pambanani",
     "message": "Mtengo wamasewera aliwonse ndi tchipisi 10. Muli ndi {chips} chip. Pezani chip zambiri pogula m'sitolo.",
     "win_message": "Zabwino zonse, Mwapambana!",
     "lost_message": "Pepani, Mwaluza masewerawa.",
-    "try_again": "Mutha kuyesanso"
+    "try_again": "Mutha kuyesanso",
   },
   "json": {
     "add": "Onjezani zambiri zamapangidwe",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Kapangidwe",
     "book": {
       "title": "Buku",
-      "desc": "Buku zochita zomwe zimathandiza ogwiritsa ntchito kugula buku lomwe amapeza mwachindunji kuchokera pazotsatira zakusaka."
+      "desc": "Buku zochita zomwe zimathandiza ogwiritsa ntchito kugula buku lomwe amapeza mwachindunji kuchokera pazotsatira zakusaka.",
     },
     "occupation": {
       "title": "Malipiro oyerekeza",
-      "desc": "Zambiri zokhudzana ndi kuchuluka kwa malipiro, monga kuchuluka kwa malipiro komanso kuchuluka kwa malipiro amitundu yantchito, zowonetsedwa pazosaka ntchito pa Google."
+      "desc": "Zambiri zokhudzana ndi kuchuluka kwa malipiro, monga kuchuluka kwa malipiro komanso kuchuluka kwa malipiro amitundu yantchito, zowonetsedwa pazosaka ntchito pa Google.",
     },
     "course": {
       "title": "Inde",
-      "desc": "Maphunziro omwe amapezeka pamndandanda wokhudzana ndi omwe amapereka. Maphunziro angaphatikizepo mutu wamaphunziro, wophunzitsa, ndi kufotokozera mwachidule."
+      "desc": "Maphunziro omwe amapezeka pamndandanda wokhudzana ndi omwe amapereka. Maphunziro angaphatikizepo mutu wamaphunziro, wophunzitsa, ndi kufotokozera mwachidule.",
     },
     "howto": {
       "title": "Zotani",
-      "desc": "Momwe mungayendetse ogwiritsa ntchito pamasitepe angapo kuti amalize bwino ntchito, yokhala ndi makanema, zithunzi, ndi zolemba."
+      "desc": "Momwe mungayendetse ogwiritsa ntchito pamasitepe angapo kuti amalize bwino ntchito, yokhala ndi makanema, zithunzi, ndi zolemba.",
     },
     "recipe": {
       "title": "Chinsinsi",
-      "desc": "Maphikidwe omwe amawonetsedwa ngati zotsatira zolemera kapena gawo la gulu lamasewera."
-    }
+      "desc": "Maphikidwe omwe amawonetsedwa ngati zotsatira zolemera kapena gawo la gulu lamasewera.",
+    },
   },
   "support": {
     "Financial": "Zachuma",
     "Technical": "Zaukadaulo",
-    "Advisor": "Mlangizi"
+    "Advisor": "Mlangizi",
   },
   "condition": {
     "new": "Zatsopano",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Zogwiritsidwa ntchito",
     "used_fair": "Zogwiritsidwa ntchito mwachilungamo",
     "used_good": "Zogwiritsidwa ntchito bwino",
-    "used_like_new": "Zogwiritsidwa ntchito ngati zatsopano"
+    "used_like_new": "Zogwiritsidwa ntchito ngati zatsopano",
   },
   "variant_filter": {
     "title": "Zosefera Zosiyanasiyana",
-    "only_available": "Zilipo"
+    "only_available": "Zilipo",
   },
   "service": {
     "task": {
       "title": "Ntchito",
-      "message": "Mndandanda wa ntchito zomwe zachitika muutumikiwu."
+      "message": "Mndandanda wa ntchito zomwe zachitika muutumikiwu.",
     },
     "appointment": {
       "title": "Kusankhidwa",
-      "message": "Sankhani nthawi za sabata kuchokera pa nthawi zotsatirazi kutengera tsiku ndi ola zomwe zili zoyenera kwa inu."
+      "message": "Sankhani nthawi za sabata kuchokera pa nthawi zotsatirazi kutengera tsiku ndi ola zomwe zili zoyenera kwa inu.",
     },
     "booking": {
       "title": "Kusungitsa",
-      "message": "Tchulani nthawi yamasiku omwe mukufuna kusungitsa malo mu kalendala ili pansipa."
+      "message": "Tchulani nthawi yamasiku omwe mukufuna kusungitsa malo mu kalendala ili pansipa.",
     },
     "subscription": {
-      "title": "Kulembetsa"
+      "title": "Kulembetsa",
     },
     "charge": {
-      "title": "Kulipiritsa"
-    }
+      "title": "Kulipiritsa",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Mitengo yokhazikika",
-      "message": "Pamitengo yamtunduwu, mtengo wamtengowo ndi wokhazikika ndipo palibe chifukwa choti wogula apemphe kuwerengera mtengo."
+      "message": "Pamitengo yamtunduwu, mtengo wamtengowo ndi wokhazikika ndipo palibe chifukwa choti wogula apemphe kuwerengera mtengo.",
     },
     "ESTIMATION": {
       "title": "Kuwerengera Mitengo",
-      "message": "Mtengo wazinthu ndi ntchito udzawerengedwa pamlingo wina ndi wogulitsa akamayitanitsa, ma invoice olipira amatha kusinthidwa kapena kuwonjezeredwa panthawi yantchito."
+      "message": "Mtengo wazinthu ndi ntchito udzawerengedwa pamlingo wina ndi wogulitsa akamayitanitsa, ma invoice olipira amatha kusinthidwa kapena kuwonjezeredwa panthawi yantchito.",
     },
     "AGREEMENT": {
       "title": "Mtengo wa mgwirizano",
-      "message": "Mtengo womaliza wa malonda kapena ntchito sizidzasinthidwa ndi wogulitsa pambuyo poyikidwa."
+      "message": "Mtengo womaliza wa malonda kapena ntchito sizidzasinthidwa ndi wogulitsa pambuyo poyikidwa.",
     },
     "BID": {
       "title": "Kutsatsa / Kugulitsa",
-      "message": "Zogulitsazo zidzagulitsidwa pamtengo wapamwamba kwambiri ndi omwe angagule."
-    }
+      "message": "Zogulitsazo zidzagulitsidwa pamtengo wapamwamba kwambiri ndi omwe angagule.",
+    },
   },
   "map": {
     "title": "Kopita kukalandila katundu",
     "confirm": "Khazikitsani malo",
     "address": "Kopita",
-    "receptor": "Wolandira"
+    "receptor": "Wolandira",
   },
   "ShopBots": {
-    "telegram": "Telegalamu"
+    "telegram": "Telegalamu",
   },
   "article_tags": {
     "title": "Ma Tag okhutira",
     "tags_input": "Tags",
     "tags_input_message": "Ma tag Mndandanda wa nkhaniyi",
     "notification": {
-      "add_success": "Ma tag awonjezedwa"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Zovuta kwambiri",
-    "hard": "Zovuta",
-    "intermediate": "Wapakatikati",
-    "easy": "Zosavuta"
-  },
-  "billing_period": {
-    "Daily": "Tsiku ndi tsiku",
-    "Weekly": "Mlungu uliwonse",
-    "Monthly": "Mwezi uliwonse",
-    "Every3Months": "Miyezi itatu iliyonse",
-    "Every6Months": "Miyezi 6 iliyonse",
-    "Yearly": "Chaka chilichonse"
+      "add_success": "Ma tag awonjezedwa",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "O, si bwino!",
     "between2_3": "Palibe kanthu!",
     "between3_4": "Anthu amakonda!",
-    "between4_5": "Anthu amachikonda!"
+    "between4_5": "Anthu amachikonda!",
   },
   "seasons": {
     "spring": "Kasupe",
     "summer": "Chilimwe",
     "autumn": "Yophukira",
-    "winter": "Zima"
-  }
+    "winter": "Zima",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

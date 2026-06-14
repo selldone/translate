@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "მე წავიკითხე გამოყენების პირობები და კონფიდენციალურობის პოლიტიკა და ვეთანხმები მათ.",
   "commons": {
     "Currency": "ვალუტა",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "სახელმწიფო",
     "Price": "ფასი",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Სუფთა ფასი",
     "tax": "გადასახადი",
     "tax_included": "ფასში შედის",
+    "tax_included_abstract": "მათ შორის",
     "limit": "Ზღვარი",
     "min_purchase": "მინიმალური შესყიდვა",
     "eligible_for": "დასაშვებია",
@@ -302,6 +304,7 @@ export default {
     "created_at": "შექმნის თარიღი",
     "updated_at": "Ბოლო განახლება",
     "register_at": "რეგისტრაციის თარიღი",
+    "last_modified": "Last modified",
     "old": "ძველი",
     "new": "ახალი",
     "start": "დაწყება",
@@ -330,6 +333,7 @@ export default {
     "reseller": "გადამყიდველი",
     "tracking_code": "თვალთვალის კოდი",
     "tracking_url": "თვალთვალის URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "შესრულება",
     "reject": "Უარი თქვას",
     "reserved": "დაცულია",
@@ -341,6 +345,7 @@ export default {
     "waiting": "ელოდება...",
     "waiting_connecting_payment": "ელოდება გადახდის სერვისს...",
     "creating_secure_payment": "უსაფრთხო გადახდის შექმნა.",
+    "waiting_for_payment": "გთხოვთ, დაასრულოთ გადახდა...",
     "officer": "Ოფიცერი",
     "ticket": "Ბილეთი",
     "ticket_url": "ბილეთის url",
@@ -361,7 +366,6 @@ export default {
     "rates": "რეიტინგი",
     "seen_at": "ნახეს",
     "completed": "დასრულებული",
-    "you": "შენ",
     "shop": "Მაღაზია",
     "store": "მაღაზია",
     "granted": "მინიჭებული",
@@ -498,6 +502,7 @@ export default {
     "tablet": "ტაბლეტი",
     "pc": "PC",
     "acquisition_channel": "შეძენის არხი",
+    "channels_overview": "Channels overview",
     "to": "რომ",
     "info": "ინფორმაცია",
     "general": "გენერალი",
@@ -559,7 +564,6 @@ export default {
     "per_product": "თითო პროდუქტზე",
     "journey": "მოგზაურობა",
     "after": "შემდეგ",
-    "waiting_for_payment": "გთხოვთ, დაასრულოთ გადახდა...",
     "hour": "საათი",
     "minute": "წუთი",
     "premium": "პრემიუმი",
@@ -569,6 +573,7 @@ export default {
     "shops": "მაღაზიები",
     "vendor": "Გამყიდველი",
     "vendors": "გამყიდველები",
+    "no_vendors": "No vendors",
     "marketplace": "ბაზარი",
     "verify_date": "დაადასტურეთ თარიღი",
     "note": "შენიშვნა",
@@ -604,7 +609,6 @@ export default {
     "variant": "ვარიანტი",
     "secure": "უსაფრთხო",
     "admin": "ადმინ",
-    "tax_included_abstract": "მათ შორის",
     "payment_not_settled": "გადახდა არ დასრულებულა!",
     "orders_list": "შეკვეთების სია",
     "subscription_plan": "გამოწერის გეგმა",
@@ -642,16 +646,170 @@ export default {
     "clusters": "კლასტერები",
     "subscriptions": "გამოწერები",
     "spam": "Სპამი",
-    "video": "ვიდეო"
+    "video": "ვიდეო",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "შენ",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Ძალიან რთული",
+    "hard": "მძიმე",
+    "intermediate": "შუალედური",
+    "easy": "Მარტივი",
   },
   "dialogs": {
     "delete": {
       "title": "წაშლა",
       "message": "დარწმუნებული ხართ, რომ წაშალეთ ეს ელემენტი?",
-      "action": "დიახ, წაშალე ახლა"
-    }
+      "action": "დიახ, წაშალე ახლა",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Კალათაში დამატება",
     "cancel": "გაუქმება",
     "update": "განახლება",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "დაამატეთ სასაჩუქრე ბარათი",
     "charge": "დატენვა",
     "send_invites": "გაგზავნეთ მოსაწვევები",
-    "past": "წარსული",
+    "paste": "პასტა",
     "restore": "აღდგენა",
     "cut": "გაჭრა",
     "get_sms_code": "მიიღეთ ავტორიზაციის კოდი",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "გადახედვის ჩვენება",
     "hide_preview": "გადახედვის დამალვა",
     "download_now": "Გადმოწერე ახლავე",
+    "watch_now": "უყურეთ ახლა",
     "auto_fill": "ავტომატური შევსება",
     "track": "სიმღერა",
     "change_state": "სტატუსის შეცვლა",
     "done": "შესრულებულია",
     "reply": "პასუხი",
-    "watch_now": "უყურეთ ახლა",
     "unlock": "განბლოკვა",
     "lock": "ჩაკეტვა",
     "create_clone": "შექმენით კლონი",
@@ -773,41 +931,71 @@ export default {
     "buy": "იყიდე",
     "view_all": "Ყველას ნახვა",
     "view_now": "იხილეთ ახლა",
-    "paste": "პასტა"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "წარსული",
+  },
+  "billing_period": {
+    "Daily": "ყოველდღიური",
+    "Weekly": "ყოველკვირეული",
+    "Monthly": "ყოველთვიური",
+    "Every3Months": "ყოველ 3 თვეში",
+    "Every6Months": "ყოველ 6 თვეში",
+    "Yearly": "ყოველწლიურად",
   },
   "instance_message_title": "მყისიერი შეტყობინების გაგზავნა",
   "instance_message": "გამარჯობა, {name}, ჩემი სახელია {author} {company}.",
   "errors": {
     "419": "თქვენ დიდი ხანია უმოქმედო ხართ, გთხოვთ <b>⟳ განაახლეთ გვერდი</b> უსაფრთხოების მიზეზების გამო.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "სისტემა არ არის სინქრონიზებული ბლოკჩეინთან. შეუძლებელი იქნება ახალი ტრანზაქციის შექმნა, სანამ ჩვენი სერვერების სინქრონიზაცია არ დასრულდება. ჩვენ პრობლემას ვაგვარებთ.",
-    "gateway_network_error": "გადახდის კარიბჭის სერვისს შეექმნა კომუნიკაციის პრობლემა."
+    "gateway_network_error": "გადახდის კარიბჭის სერვისს შეექმნა კომუნიკაციის პრობლემა.",
   },
   "receiver_info": {
     "map": {
       "title": "Მიწოდების მისამართი",
       "confirm": "მდებარეობის დაყენება",
       "address_type": "დანიშნულება",
-      "receptor_type": "მიმღები"
+      "receptor_type": "მიმღები",
     },
     "receiver_address": "აირჩიეთ მიწოდების მისამართი",
+    "service_address": "აირჩიეთ თქვენი მისამართი",
+    "select_billing_address": "Select billing address",
     "address": "მისამართი",
     "postcode": "საფოსტო ინდექსი",
     "enter_value": "შეავსეთ აქ",
     "address_note": "შენიშვნა",
     "tel": "Საკონტაქტო ნომერი",
-    "service_address": "აირჩიეთ თქვენი მისამართი"
   },
   "weight": {
     "g": "გ",
     "oz": "უნცია",
     "lb": "LB",
-    "kg": "კგ"
+    "kg": "კგ",
   },
   "mass_unit_name": {
     "g": "გრამი",
     "oz": "უნცია",
     "lb": "Გირვანქა",
-    "kg": "კილოგრამი"
+    "kg": "კილოგრამი",
   },
   "length": {
     "cm": "სმ",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ფუტი",
     "mm": "მმ",
     "m": "მ",
-    "yd": "იდ"
+    "yd": "იდ",
   },
   "size_unit_name": {
     "cm": "სანტიმეტრი",
@@ -823,17 +1011,21 @@ export default {
     "ft": "ფეხი",
     "mm": "მილიმეტრიანი",
     "m": "მეტრი",
-    "yd": "ეზო"
+    "yd": "ეზო",
   },
   "distance": {
     "m": "მეტრი",
-    "km": "კმ"
+    "km": "კმ",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "დღეები",
     "hours": "საათები",
     "minutes": "წუთები",
-    "seconds": "წამი"
+    "seconds": "წამი",
   },
   "units": [
     "ერთეული",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "სახელმწიფო",
     "Territory": "ტერიტორია",
-    "Province": "პროვინცია"
+    "Province": "პროვინცია",
   },
   "transaction_status": {
     "RequireAction": "საჭიროა მოქმედება",
     "Processing": "დამუშავება",
     "Canceled": "გაუქმდა",
-    "Succeeded": "მიაღწია წარმატებას"
+    "Succeeded": "მიაღწია წარმატებას",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "ჯონ კოქსი",
@@ -885,7 +1078,17 @@ export default {
     "language": "Აირჩიეთ ენა..",
     "friend_email": "თქვენი მეგობრის ელფოსტა...",
     "friend_name": "არჩევა შენი მეგობრის სახელი",
-    "select_date": "აირჩიეთ თარიღი..."
+    "select_date": "აირჩიეთ თარიღი...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "დაადასტურეთ",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "მაქსიმუმ {maxCount} სიმბოლო",
     "invalid_url": "არასწორი ლინკი",
     "country_invalid": "აირჩიეთ დანიშნულების ქვეყანა!",
-    "postal_code_invalid": "დააყენეთ სწორი საფოსტო კოდი!"
+    "postal_code_invalid": "დააყენეთ სწორი საფოსტო კოდი!",
   },
   "colors": {
     "#D32F2F": "წითელი",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "ერთეული",
     "postcode": "საფოსტო ინდექსი",
     "note": "შენიშვნა",
-    "county": "ქვეყნის"
+    "county": "ქვეყნის",
   },
   "product_types": {
     "physical": "ფიზიკური",
@@ -1004,13 +1207,13 @@ export default {
     "service": "სერვისი",
     "service_description": "მომსახურება, როგორიცაა: რემონტი, ტრანსპორტირება, სწავლება.",
     "subscription": "გამოწერა",
-    "subscription_description": "პროდუქტების, სერვისების ან შიგთავსის გამოწერები და ინვოისი."
+    "subscription_description": "პროდუქტების, სერვისების ან შიგთავსის გამოწერები და ინვოისი.",
   },
   "license": {
     "free": "უფასო",
     "startup": "Დაწყება",
     "company": "კომპანია",
-    "enterprise": "საწარმო"
+    "enterprise": "საწარმო",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "ფერი",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "დათვალეთ პაკეტში",
     "weight": "წონა",
     "type": "მასალა",
-    "style": "სტილი"
+    "style": "სტილი",
   },
   "delivery_state": {
     "check_queue": "ელოდება განხილვას",
     "order_confirm": "Შეკვეთის დადასტურება",
     "preparing_order": "მომზადება",
     "sent_order": "მიწოდებისას",
-    "to_customer": "მიწოდებული"
+    "to_customer": "მიწოდებული",
   },
   "status": {
     "unpaid": "გადაუხდელი",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Უარი თქვას",
     "pending": "მომლოდინე",
     "rejected": "უარყოფილია",
-    "accepted": "მიღებულია"
+    "accepted": "მიღებულია",
   },
   "dimensions": {
     "cm": "სმ",
     "km": "კმ",
-    "kg": "კგ"
+    "kg": "კგ",
   },
   "transportation_type": {
     "motorbike": "მოტოციკლი",
@@ -1224,7 +1429,7 @@ export default {
     "global": "გლობალური ტრანსპორტი",
     "global_description": "მიწოდება საზღვარგარეთ საჰაერო, საზღვაო ან სახმელეთო გზით.",
     "pickup": "Აღება",
-    "pickup_description": "მომხმარებლები იღებენ ნივთებს თქვენს ფიზიკურ მაღაზიაში ან საწყობში."
+    "pickup_description": "მომხმარებლები იღებენ ნივთებს თქვენს ფიზიკურ მაღაზიაში ან საწყობში.",
   },
   "article": {
     "login_to_see_error": "შედით სტატიაში შესასვლელად",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "რედაქტირების რეჟიმი",
       "view_mode": "ნახვის რეჟიმი",
-      "delete": "სტატიის წაშლა"
+      "delete": "სტატიის წაშლა",
     },
     "schedule_action": "გსურთ გამოქვეყნების დაგეგმვა?",
     "schedule_title": "დაგეგმეთ ავტომატური გამოქვეყნება",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "შეატყობინეთ არასათანადო მოპყრობას და წაშალეთ კონტენტი",
       "report_title": "შეატყობინეთ ამ კონტენტს, როგორც შეურაცხმყოფელს",
       "message": "რა არის ამ შინაარსის გაგზავნის მიზეზი? აირჩიეთ ერთ-ერთი შემდეგი ვარიანტი.",
-      "accept_and_delete_action": "დაადასტურეთ და წაშალეთ შინაარსი"
+      "accept_and_delete_action": "დაადასტურეთ და წაშალეთ შინაარსი",
     },
     "schedule_dialog": {
       "title": "შინაარსის გამოშვების განრიგი",
       "publish_at": "გამოქვეყნება ზე",
       "last_edit": "ბოლო რედაქტირება",
-      "view_action": "სტატიის ნახვა"
+      "view_action": "სტატიის ნახვა",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "ინფორმაციის გაგზავნა",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "მოხსენება და წაშლა",
       "report_and_delete_success_message": "სტატია წარმატებით წაიშალა.",
       "report_success_title": "სტატიის მოხსენება",
-      "report_success_message": "თქვენი ანგარიში ამ სტატიის შესახებ გამოქვეყნებულია."
+      "report_success_message": "თქვენი ანგარიში ამ სტატიის შესახებ გამოქვეყნებულია.",
     },
     "alert": {
       "delete_article": {
         "title": "სტატიის წაშლა",
         "message": "დარწმუნებული ხართ, რომ გსურთ სამუდამოდ წაშალოთ ეს სტატია?",
-        "action": "წაშლა"
-      }
+        "action": "წაშლა",
+      },
     },
     "edit_window": {
       "title": "აირჩიეთ სურათის ტექსტი და შეჯამება",
-      "digest": "Შემაჯამებელი"
+      "digest": "Შემაჯამებელი",
     },
     "editor": {
       "title_placeholder": "სათაური..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "ეს ფაილი ძალიან დიდია:",
       "notifications": {
         "image_uploaded_success": "სურათი წარმატებით შენახულია",
-        "image_uploaded_failed": "შეცდომა სურათის ჩატვირთვისას."
+        "image_uploaded_failed": "შეცდომა სურათის ჩატვირთვისას.",
       },
       "embed_placeholder": "შეიყვანეთ iframe კოდი, Facebook, Youtube ან ნებისმიერი სხვა URL და დააჭირეთ Enter.",
       "embed_caption_placeholder": "შეიყვანეთ სათაური (არასავალდებულო)",
-      "images_caption_placeholder": "შეიყვანეთ ამ სურათის სათაური.."
-    }
+      "images_caption_placeholder": "შეიყვანეთ ამ სურათის სათაური..",
+    },
   },
   "article_report": {
     "inappropriate": "ამ სტატიის შინაარსი შეუსაბამოა.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "ვფიქრობ, ეს კონტენტი შეიცავს პორნოგრაფიას და არღვევს კანონებს.",
     "harassment": "მე ვფიქრობ, რომ ეს რასისტულია.",
     "hate": "ვფიქრობ, ეს არის ძალადობის ხელშეწყობა.",
-    "infringe": "ეს არღვევს ჩემს უფლებებს."
+    "infringe": "ეს არღვევს ჩემს უფლებებს.",
   },
   "comments": {
     "new_action": "დააწკაპუნეთ კომენტარის დასატოვებლად..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "მიიღეთ მეტი კომენტარი..",
     "cant_send_comment": "თქვენ არ შეგიძლიათ ახალი პოსტის დამატება.",
     "cant_remove_this_comment": "თქვენ არ შეგიძლიათ წაშალოთ ეს კომენტარი!",
-    "product_buyer": "მყიდველი",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "ჩემი კომენტარები",
     "delete_alert": {
       "title": "კომენტარის წაშლა",
       "message": "გსურთ ამ კომენტარის წაშლა?",
-      "action": "წაშლა"
+      "action": "წაშლა",
     },
     "notifications": {
-      "delete_success": "თქვენი კომენტარი წარმატებით წაიშალა."
+      "delete_success": "თქვენი კომენტარი წარმატებით წაიშალა.",
     },
     "first_send": "პირველი პოსტი",
     "comment_at": "ჩართულია",
     "edit_comment": "კომენტარის რედაქტირება",
-    "my_comments": "ჩემი კომენტარები"
+    "product_buyer": "მყიდველი",
   },
   "customer_club": {
     "bronze": "ბრინჯაო",
     "silver": "ვერცხლი",
     "gold": "ოქროსფერი",
     "platinum": "პლატინა",
-    "diamond": "ბრილიანტი"
+    "diamond": "ბრილიანტი",
   },
   "application_categories": {
     "tracking": "მომხმარებლის ქცევის შემოწმება",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Სარეკლამო",
     "staff": "პერსონალი",
     "incentive": "წახალისებები",
-    "shop": "Მაღაზია"
+    "shop": "Მაღაზია",
   },
   "social_network": {
     "instagram": "ინსტაგრამი",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "სკაიპი",
-    "facebook_messenger": "ფეისბუქ მესენჯერი"
+    "facebook_messenger": "ფეისბუქ მესენჯერი",
   },
   "form_builder": {
     "add_item_action": "დაამატეთ ახალი ელემენტი",
     "title_input": "სათაური",
+    "placeholder_input": "ადგილის დამჭერი",
     "name_input": "ცვლადის სახელი",
     "value_input": "ღირებულებები",
     "value_input_message": "მომხმარებლის პარამეტრების სია",
     "default": "ნაგულისხმევი მნიშვნელობა",
+    "file_type_input": "მისაღები ფაილის ტიპები",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "მარტივი",
       "selective": "შერჩევითი",
       "switch": "გადართვა",
       "file": "ფაილი",
-      "number": "ნომერი"
+      "number": "ნომერი",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "ადგილის დამჭერი",
-    "file_type_input": "მისაღები ფაილის ტიპები",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Პროდუქტის სახელი",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "გადახდის სტატუსი",
     "payment_status_waiting": "ელოდება გადახდას",
     "payment_status_paid": "გადახდილი",
-    "buyer": "მყიდველი"
+    "buyer": "მყიდველი",
   },
   "virtual_item_info": {
     "title": "ვირტუალური ნივთი",
     "outputs": {
       "title": "გამომავალი ინფორმაცია",
       "sub_title": "ამ ნივთის კონფიდენციალური ინფორმაცია",
-      "message": "ეს ინფორმაცია მომხმარებლისთვის გამოჩნდება პროდუქტის შეძენის შემდეგ."
+      "message": "ეს ინფორმაცია მომხმარებლისთვის გამოჩნდება პროდუქტის შეძენის შემდეგ.",
     },
     "inputs": {
       "title": "საჭიროა ინფორმაცია",
       "sub_title": "საჭიროა მყიდველის ინფორმაცია",
-      "message": "მყიდველმა უნდა შეიყვანოს მოთხოვნილი ინფორმაცია ფორმაში"
+      "message": "მყიდველმა უნდა შეიყვანოს მოთხოვნილი ინფორმაცია ფორმაში",
     },
     "notifications": {
       "inputs_set_success": "საინფორმაციო ფორმა წარმატებით დარეგისტრირდა.",
       "confirm_by_admin_success": "შეკვეთის დასრულება დადასტურდა.",
-      "confirm_by_buyer_success": "შეკვეთის დასრულება დადასტურდა."
-    }
+      "confirm_by_buyer_success": "შეკვეთის დასრულება დადასტურდა.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "ამ შეკვეთის მიღება შეუძლებელია COD გადახდით.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Აღარ არის გაყიდვაში.",
     "legal_restriction": "კანონიერი შეზღუდვების გამო შეკვეთის განთავსება შეუძლებელია.",
     "pricing_fault": "ფასის შეცდომა გამყიდველის მიერ.",
-    "system_fault": "სისტემის შეცდომა."
+    "system_fault": "სისტემის შეცდომა.",
   },
   "basket_order_info_summery": {
     "receiver": "მიმღები",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "ფასდაკლება",
     "final_price": "საბოლოო თანხა",
     "address": "Მისაღები მისამართი",
-    "payment_status": "გადახდის სტატუსი"
+    "payment_status": "გადახდის სტატუსი",
   },
   "basket_status": {
     "open": "გახსენით",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "გაუქმდა",
     "cod": "გადახდა მიტანის დროს",
     "receipt_added": "დამატებულია ქვითარი",
-    "payment_processing": "გადახდის დამუშავება"
+    "payment_processing": "გადახდის დამუშავება",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "უარყოფილია",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Დადასტურება",
     "step_3": "მომზადება",
     "step_4": "მიწოდებისას",
-    "step_5": "მიწოდებული"
+    "step_5": "მიწოდებული",
   },
   "basket_return_request_view": {
     "title": "დაბრუნების მოთხოვნა",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "უარყო მოთხოვნა",
     "message_for_admin": "ხელშეკრულების თანახმად, რომელიც თქვენ დაეთანხმეთ Seldone-ის გამოყენებით, თქვენ უნდა დაუკავშირდეთ მყიდველს და მიაწოდოთ მას ინფორმირებული შეკვეთის დაბრუნების პროცესის შესახებ. ეს უნდა გაკეთდეს იმ შემთხვევაში, თუ მოთხოვნა მიიღება ან უარყოფილია და მიიღება მყიდველის სრული თანხმობა.",
     "notifications": {
-      "update_status_success": "მოთხოვნის სტატუსი განახლებულია."
-    }
+      "update_status_success": "მოთხოვნის სტატუსი განახლებულია.",
+    },
   },
   "basket_list": {
     "return_count": "დაბრუნება: {count} ნომერი",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "ვარიანტი",
       "warranty": "გარანტიები",
       "count": "დათვალეთ",
-      "price": "ფასი"
-    }
+      "price": "ფასი",
+    },
   },
   "return_request_list": {
     "count": "მითითების ნომერი",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Მიღების თარიღი",
       "state": "სტატუსი",
       "reason": "მიზეზი",
-      "return_warranty_period": "საგარანტიო პერიოდი"
-    }
+      "return_warranty_period": "საგარანტიო პერიოდი",
+    },
   },
   "data_toolbar": {
     "search": "ძიება",
     "sort_by": "Დალაგება",
-    "count_item": "{item} ელემენტის ჩვენება"
+    "count_item": "{item} ელემენტის ჩვენება",
   },
   "sort": {
     "created_at": "შექმენით თარიღი",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ოფიცერი",
     "registered": "დარეგისტრირდა",
     "purchased": "ნაყიდი",
-    "sex": "სქესი"
+    "sex": "სქესი",
   },
   "search_box": {
     "result": "Ძიების შედეგები",
     "tips": "მოძებნეთ პროდუქტები და კატეგორიები",
     "label": "ძიება...",
-    "category": "კატეგორია"
+    "category": "კატეგორია",
   },
   "lead_status": {
     "physical_fast_delivery": "მყისიერი მიწოდება",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "მომზადება და გაგზავნა მომდევნო {days} დღიდან",
     "virtual_fast_prepare": "მყისიერი მიწოდება",
     "virtual_under_24h": "შესრულდება მომდევნო {lead} საათში",
-    "virtual_over_24h": "შესრულდება მომდევნო {days} დღიდან"
+    "virtual_over_24h": "შესრულდება მომდევნო {days} დღიდან",
   },
   "return_request_state": {
     "pending": "მომლოდინე",
     "accepted": "დადასტურდა",
-    "rejected": "უარყოფილია"
+    "rejected": "უარყოფილია",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "პაკეტის ან სერიული ნომრის გაყალბება",
       "U5": "ამანათიდან ზოგიერთი ელემენტი აკლია",
       "U6": "პროდუქტი არ არის ორიგინალი",
-      "U7": "პროდუქტი არ აკმაყოფილებს სპეციფიკაციებს"
-    }
+      "U7": "პროდუქტი არ აკმაყოფილებს სპეციფიკაციებს",
+    },
   },
   "image_uploader": {
     "label": "გადაათრიეთ და ჩამოაგდეთ ან <u>აირჩიეთ ფაილი</u>",
-    "max_size": "მაქსიმალური დასაშვები ზომა: {size}"
+    "max_size": "მაქსიმალური დასაშვები ზომა: {size}",
   },
   "timespan": {
     "Morning": "დილის 8 საათიდან საღამოს 12 საათამდე",
     "Evening": "12 საათიდან საღამოს 6 საათამდე",
     "Night": "საღამოს 6-12 საათამდე",
-    "Instant": "მყისიერი პოსტი"
+    "Instant": "მყისიერი პოსტი",
   },
   "week_day": {
     "Saturday": "შაბათი",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "სამშაბათი",
     "Wednesday": "ოთხშაბათი",
     "Thursday": "ხუთშაბათი",
-    "Friday": "პარასკევი"
+    "Friday": "პარასკევი",
   },
   "payment_form": {
     "title": "აირჩიეთ გადახდის მეთოდი",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "გილოცავთ, თქვენი შეკვეთა უფასოა!",
     "order_free_payment_action": "შეუკვეთეთ ახლავე უფასოდ",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "გადახდის მისამართი",
-      "amount": "თანხა"
-    }
+      "amount": "თანხა",
+    },
   },
   "discount_input": {
     "limit": "{percent}% ფასდაკლება {limit}-მდე {currency}",
     "action": "დაამატეთ ფასდაკლების კოდი",
     "code_input": "Ფასდაკლების კოდი",
     "notifications": {
-      "add_success": "გილოცავთ, მოქმედებს ფასდაკლების კოდი."
-    }
+      "add_success": "გილოცავთ, მოქმედებს ფასდაკლების კოდი.",
+    },
   },
   "gift_card": {
     "inactive": "ბარათი გამორთულია",
     "expire": "ვადის გასვლა",
     "transfer": "Გადაცემა",
-    "send_to_friend": "Გაუგზავნე მეგობარს"
+    "send_to_friend": "Გაუგზავნე მეგობარს",
   },
   "count_down": {
     "days": "Დღეს",
     "hours": "საათი",
     "minutes": "წუთები",
-    "seconds": "წამი"
+    "seconds": "წამი",
   },
   "gift_status": {
     "Unpaid": "ელოდება მიღება",
     "Paid": "გადახდილი",
     "Rejected": "უარყოფილია",
-    "Canceled": "გაუქმდა"
+    "Canceled": "გაუქმდა",
   },
   "gift_program_status": {
     "Airdrop": "გადახდის სისტემა",
     "Advertising": "Სარეკლამო",
     "PersonalGift": "პირადი საჩუქარი",
-    "ShopGift": "Საჩუქრების მაღაზია"
+    "ShopGift": "Საჩუქრების მაღაზია",
   },
   "currency_selector": {
-    "label": "ვალუტა"
+    "label": "ვალუტა",
   },
   "need_login": {
     "title": "შესვლა",
     "login_sms": "SMS შესვლა",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "შედით Google-ით",
     "login_facebook": "შედით Facebook-ით",
+    "login_apple": "შესვლა Apple-ით",
     "login_account": "შესვლა Selldone-ის მიერ",
     "register": "Ახალი მომხმარებელი? Დარეგისტრირდით ახლა.",
     "mobile_input": "შეიყვანეთ თქვენი მობილური",
     "verification_code": "Დამადასტურებელი კოდი",
     "msg_title": "გამარჯობა",
     "msg_body": "Გთხოვთ შეხვიდეთ. ამას სულ რამდენიმე წამი სჭირდება.",
-    "login_apple": "შესვლა Apple-ით",
     "login_email": "შესვლა ელექტრონული ფოსტით",
     "email_login_step_1": "გთხოვთ, მოგვაწოდოთ მოქმედი ელექტრონული ფოსტის მისამართი და ჩვენ გამოგიგზავნით მასში შესვლის კოდს. რეგისტრაცია არ არის საჭირო.",
     "email_login_step_2": "დარწმუნებული ხართ, რომ სწორად შეიყვანეთ თქვენი ელ.ფოსტის მისამართი? ჩვენ გამოგიგზავნით შესვლის კოდს მითითებულ ელფოსტაზე, ამიტომ გთხოვთ, დარწმუნდეთ მის სიზუსტეში.",
-    "email_login_step_3": "ჩვენ გამოგიგზავნეთ კოდი თქვენს მეილზე. გთხოვთ გაითვალისწინოთ, რომ კოდი 10 წუთში ამოიწურება."
+    "email_login_step_3": "ჩვენ გამოგიგზავნეთ კოდი თქვენს მეილზე. გთხოვთ გაითვალისწინოთ, რომ კოდი 10 წუთში ამოიწურება.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 წლიანი ოქროს მაღაზია"
+      "name": "5 წლიანი ოქროს მაღაზია",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 წლიანი ოქროს მაღაზია"
+      "name": "4 წლიანი ოქროს მაღაზია",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 წლიანი ოქროს მაღაზია"
+      "name": "3 წლიანი ოქროს მაღაზია",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 წლიანი ოქროს მაღაზია"
+      "name": "2 წლიანი ოქროს მაღაზია",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 წლიანი ოქროს მაღაზია"
+      "name": "1 წლიანი ოქროს მაღაზია",
     },
     "TOKEN_OWNER_1M": {
-      "name": "ოქროს ინვესტორი"
+      "name": "ოქროს ინვესტორი",
     },
     "TOKEN_OWNER_10M": {
-      "name": "ბრილიანტის ინვესტორი"
+      "name": "ბრილიანტის ინვესტორი",
     },
     "TOKEN_OWNER_100M": {
-      "name": "რუბი ინვესტორი"
+      "name": "რუბი ინვესტორი",
     },
     "COMMUNITY_LOYAL": {
-      "name": "საკომუნიკაციო ქსელების უმაღლესი თანამეგობრობის წევრი"
+      "name": "საკომუნიკაციო ქსელების უმაღლესი თანამეგობრობის წევრი",
     },
     "GOLD_SUPPLIER": {
-      "name": "ოქროს მიმწოდებელი"
+      "name": "ოქროს მიმწოდებელი",
     },
     "GOLD_SELLER": {
-      "name": "ოქროს დილერი"
+      "name": "ოქროს დილერი",
     },
     "CONTENT_SUPERMAN": {
-      "name": "ტოპ კონტენტის პროდიუსერი"
+      "name": "ტოპ კონტენტის პროდიუსერი",
     },
     "NINJA": {
-      "name": "ნინძა"
+      "name": "ნინძა",
     },
     "STAR": {
-      "name": "ვარსკვლავი"
+      "name": "ვარსკვლავი",
     },
     "GUARDIAN": {
-      "name": "დიდი მომხმარებელთა მომსახურება"
+      "name": "დიდი მომხმარებელთა მომსახურება",
     },
     "KING": {
-      "name": "ბაზრის მეფე"
-    }
+      "name": "ბაზრის მეფე",
+    },
   },
   "cookie": {
     "title": "ეს საიტი იყენებს ქუქი-ფაილებს",
     "message": "ეს ვებგვერდი იყენებს ქუქიებს მომხმარებლის გამოცდილების გასაუმჯობესებლად. ჩვენი ვებსაიტის გამოყენებით თქვენ ეთანხმებით ყველა ქუქი-ფაილს ჩვენი ქუქიების პოლიტიკის შესაბამისად.",
     "preferences_action": "პრეფერენციების მართვა",
-    "agree_action": "Ვეთანხმები"
+    "agree_action": "Ვეთანხმები",
   },
   "basket_item_message": {
     "title": "საჭირო ინფორმაცია ამ ნივთისთვის",
     "save_actions": "შეტყობინების შენახვა",
+    "product_inputs_preview_message": "პერსონალიზაციის ეს პარამეტრები ხელმისაწვდომია თქვენი შეკვეთილი პროდუქტისთვის. მას შემდეგ რაც საქონელი თქვენს კალათაში დაემატება, აქ შეძლებთ კორექტირებას.",
     "notifications": {
-      "success": "თქვენი შეყვანის მონაცემები შენახულია."
+      "success": "თქვენი შეყვანის მონაცემები შენახულია.",
     },
-    "product_inputs_preview_message": "პერსონალიზაციის ეს პარამეტრები ხელმისაწვდომია თქვენი შეკვეთილი პროდუქტისთვის. მას შემდეგ რაც საქონელი თქვენს კალათაში დაემატება, აქ შეძლებთ კორექტირებას."
   },
   "faq": {
     "faq": "ხშირად დასმული შეკითხვები",
     "title": "Კითხვები და პასუხები",
-    "sub_title": "რაც გვთხოვე.",
     "message": "მოძებნეთ პასუხი თქვენს კითხვაზე ქვემოთ მოცემულ პასუხებს შორის. გვკითხეთ, თუ კითხვები პასუხგაუცემელი რჩება.",
     "add_question_action": "დაუსვით ახალი შეკითხვა",
     "read_more": "Წაიკითხე მეტი ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Კითხვა",
     "question_input_placeholder": "დასვით თქვენი შეკითხვა.",
     "notifications": {
-      "success_add": "თქვენი შეკითხვა წარმატებით გაიგზავნა."
-    }
+      "success_add": "თქვენი შეკითხვა წარმატებით გაიგზავნა.",
+    },
+    "sub_title": "რაც გვთხოვე.",
   },
   "rating_labels": [
     "Ძალიან ცუდი",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "შეიყვანეთ დანიშნულების მისამართი",
     "enter_your_address": "შეიყვანეთ თქვენი მისამართი.",
     "postal_code": "საფოსტო ინდექსი",
-    "phone_input": "ტელეფონი {type}",
+    "phone_input": "ტელეფონი",
     "building_number": "შენობის ნომერი",
     "building_unit": "ერთეული",
     "full_name_input": "სრული სახელი {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "მისამართის ეტიკეტი (საჭიროა)",
     "notifications": {
       "save_in_list": "ეს მისამართი შენახულია თქვენს სიაში მისი ყველა დეტალით.",
-      "edit_success": "მისამართის ახალი მნიშვნელობები შენახულია {title}-ში."
+      "edit_success": "მისამართის ახალი მნიშვნელობები შენახულია {title}-ში.",
     },
     "delete_address_dialog": {
       "title": "მისამართის წაშლა",
       "message": "დარწმუნებული ხართ, რომ გსურთ ამ მისამართის წაშლა?",
-      "action": "მისამართის წაშლა"
-    }
+      "action": "მისამართის წაშლა",
+    },
   },
   "comment_manager": {
     "can_not_edit": "ამ კომენტარის რედაქტირება შეუძლებელია!",
     "comment_input_empty": "შეტყობინების ტექსტი ცარიელია!",
-    "article_not_saved": "შეინახეთ სტატია!"
+    "article_not_saved": "შეინახეთ სტატია!",
   },
   "wheel_fortune": {
     "title": "ითამაშეთ და მოიგეთ",
     "message": "თითოეული თამაშის ღირებულებაა 10 ჩიპი. ამჟამად გაქვთ {chips} ჩიპი. მიიღეთ მეტი ჩიპი მაღაზიიდან შეძენით.",
     "win_message": "გილოცავ, შენ გაიმარჯვე!",
     "lost_message": "უკაცრავად, თქვენ წააგეთ თამაში.",
-    "try_again": "შეგიძლიათ ხელახლა სცადოთ"
+    "try_again": "შეგიძლიათ ხელახლა სცადოთ",
   },
   "json": {
     "add": "დაამატეთ სტრუქტურის მონაცემები",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "სტრუქტურები",
     "book": {
       "title": "Წიგნი",
-      "desc": "წიგნის მოქმედებები, რომლებიც მომხმარებლებს საშუალებას აძლევს შეიძინონ წიგნი, რომელსაც ისინი იპოვიან პირდაპირ ძიების შედეგებიდან."
+      "desc": "წიგნის მოქმედებები, რომლებიც მომხმარებლებს საშუალებას აძლევს შეიძინონ წიგნი, რომელსაც ისინი იპოვიან პირდაპირ ძიების შედეგებიდან.",
     },
     "occupation": {
       "title": "სავარაუდო ხელფასი",
-      "desc": "ინფორმაცია ხელფასის შეფასების შესახებ, როგორიცაა ხელფასის დიაპაზონი და რეგიონზე დაფუძნებული ხელფასის საშუალო მაჩვენებლები სამუშაოს ტიპებისთვის, ნაჩვენებია სამუშაოს ძიების გამოცდილებაში Google-ში."
+      "desc": "ინფორმაცია ხელფასის შეფასების შესახებ, როგორიცაა ხელფასის დიაპაზონი და რეგიონზე დაფუძნებული ხელფასის საშუალო მაჩვენებლები სამუშაოს ტიპებისთვის, ნაჩვენებია სამუშაოს ძიების გამოცდილებაში Google-ში.",
     },
     "course": {
       "title": "კურსი",
-      "desc": "საგანმანათლებლო კურსები, რომლებიც ნაჩვენებია პროვაიდერის სპეციფიკურ სიაში. კურსები შეიძლება შეიცავდეს კურსის სახელს, პროვაიდერს და მოკლე აღწერას."
+      "desc": "საგანმანათლებლო კურსები, რომლებიც ნაჩვენებია პროვაიდერის სპეციფიკურ სიაში. კურსები შეიძლება შეიცავდეს კურსის სახელს, პროვაიდერს და მოკლე აღწერას.",
     },
     "howto": {
       "title": "Როგორ",
-      "desc": "How-to უბიძგებს მომხმარებლებს დავალების წარმატებით დასასრულებლად ნაბიჯების ერთობლიობას, რომელშიც წარმოდგენილია ვიდეო, სურათები და ტექსტი."
+      "desc": "How-to უბიძგებს მომხმარებლებს დავალების წარმატებით დასასრულებლად ნაბიჯების ერთობლიობას, რომელშიც წარმოდგენილია ვიდეო, სურათები და ტექსტი.",
     },
     "recipe": {
       "title": "რეცეპტი",
-      "desc": "რეცეპტები, რომლებიც ნაჩვენებია როგორც ინდივიდუალური მდიდარი შედეგი ან მასპინძელი კარუსელის ნაწილი."
-    }
+      "desc": "რეცეპტები, რომლებიც ნაჩვენებია როგორც ინდივიდუალური მდიდარი შედეგი ან მასპინძელი კარუსელის ნაწილი.",
+    },
   },
   "support": {
     "Financial": "Ფინანსური",
     "Technical": "ტექნიკური",
-    "Advisor": "მრჩეველი"
+    "Advisor": "მრჩეველი",
   },
   "condition": {
     "new": "ახალი",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Გამოყენებული",
     "used_fair": "მეორადი სამართლიანად",
     "used_good": "მეორადი კარგად",
-    "used_like_new": "მეორადი ახალივით"
+    "used_like_new": "მეორადი ახალივით",
   },
   "variant_filter": {
     "title": "პროდუქტის ვარიანტის ფილტრი",
-    "only_available": "Საწყობში"
+    "only_available": "Საწყობში",
   },
   "service": {
     "task": {
       "title": "Დავალებები",
-      "message": "ამ სერვისში შესრულებული დავალებების ჩამონათვალი."
+      "message": "ამ სერვისში შესრულებული დავალებების ჩამონათვალი.",
     },
     "appointment": {
       "title": "დანიშვნა",
-      "message": "აირჩიეთ კვირის დრო შემდეგი დროებიდან თქვენთვის შესაფერისი დღისა და საათის მიხედვით."
+      "message": "აირჩიეთ კვირის დრო შემდეგი დროებიდან თქვენთვის შესაფერისი დღისა და საათის მიხედვით.",
     },
     "booking": {
       "title": "დაჯავშნა",
-      "message": "ქვემოთ მოცემულ კალენდარში მიუთითეთ იმ დღეების დროის პერიოდი, რომლებზეც გსურთ დაჯავშნა."
+      "message": "ქვემოთ მოცემულ კალენდარში მიუთითეთ იმ დღეების დროის პერიოდი, რომლებზეც გსურთ დაჯავშნა.",
     },
     "subscription": {
-      "title": "გამოწერა"
+      "title": "გამოწერა",
     },
     "charge": {
-      "title": "დატენვა"
-    }
+      "title": "დატენვა",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "ფიქსირებული ფასი",
-      "message": "ამ ტიპის ფასში პროდუქტის ფასი არის ფიქსირებული თანხა და არ არის საჭირო მყიდველმა მოითხოვოს ფასის გაანგარიშება."
+      "message": "ამ ტიპის ფასში პროდუქტის ფასი არის ფიქსირებული თანხა და არ არის საჭირო მყიდველმა მოითხოვოს ფასის გაანგარიშება.",
     },
     "ESTIMATION": {
       "title": "შეფასების ფასი",
-      "message": "პროდუქციისა და მომსახურების ფასი გარკვეულწილად გამოითვლება გამყიდველის მიერ შეკვეთის განთავსებისას, მომსახურების დროს შესაძლებელია შეიცვალოს ან დაემატოს გადახდის ინვოისები."
+      "message": "პროდუქციისა და მომსახურების ფასი გარკვეულწილად გამოითვლება გამყიდველის მიერ შეკვეთის განთავსებისას, მომსახურების დროს შესაძლებელია შეიცვალოს ან დაემატოს გადახდის ინვოისები.",
     },
     "AGREEMENT": {
       "title": "შეთანხმების ფასი",
-      "message": "პროდუქციის ან მომსახურების საბოლოო ფასი არ შეიცვლება გამყიდველის მიერ შეკვეთის განთავსების შემდეგ."
+      "message": "პროდუქციის ან მომსახურების საბოლოო ფასი არ შეიცვლება გამყიდველის მიერ შეკვეთის განთავსების შემდეგ.",
     },
     "BID": {
       "title": "წინადადება / აუქციონი",
-      "message": "პოტენციური მყიდველების მიერ პროდუქტი გაიყიდება ყველაზე მაღალ ფასში."
-    }
+      "message": "პოტენციური მყიდველების მიერ პროდუქტი გაიყიდება ყველაზე მაღალ ფასში.",
+    },
   },
   "map": {
     "title": "პროდუქტის მიღების დანიშნულება",
     "confirm": "მდებარეობის დაყენება",
     "address": "დანიშნულება",
-    "receptor": "მიმღები"
+    "receptor": "მიმღები",
   },
   "ShopBots": {
-    "telegram": "ტელეგრამა"
+    "telegram": "ტელეგრამა",
   },
   "article_tags": {
     "title": "შინაარსის ტეგები",
     "tags_input": "ტეგები",
     "tags_input_message": "ტეგები ამ სტატიის სია",
     "notification": {
-      "add_success": "დამატებულია ტეგები"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Ძალიან რთული",
-    "hard": "მძიმე",
-    "intermediate": "შუალედური",
-    "easy": "Მარტივი"
-  },
-  "billing_period": {
-    "Daily": "ყოველდღიური",
-    "Weekly": "ყოველკვირეული",
-    "Monthly": "ყოველთვიური",
-    "Every3Months": "ყოველ 3 თვეში",
-    "Every6Months": "ყოველ 6 თვეში",
-    "Yearly": "ყოველწლიურად"
+      "add_success": "დამატებულია ტეგები",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "ოჰ არ არის კარგი!",
     "between2_3": "Ყველაფერი კარგადაა!",
     "between3_4": "ხალხს მოსწონს!",
-    "between4_5": "ხალხს უყვარს!"
+    "between4_5": "ხალხს უყვარს!",
   },
   "seasons": {
     "spring": "გაზაფხული",
     "summer": "ზაფხული",
     "autumn": "შემოდგომა",
-    "winter": "ზამთარი"
-  }
+    "winter": "ზამთარი",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Olen tutvunud kasutustingimuste ja privaatsuspoliitikaga ning nõustun nendega.",
   "commons": {
     "Currency": "Valuuta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "osariik",
     "Price": "hind",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Netohind",
     "tax": "Maksud",
     "tax_included": "Hinna sees",
+    "tax_included_abstract": "sh.",
     "limit": "Piirang",
     "min_purchase": "Minimaalne ost",
     "eligible_for": "Sobilik",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Loomise kuupäev",
     "updated_at": "Viimane uuendus",
     "register_at": "Registreerimise kuupäev",
+    "last_modified": "Last modified",
     "old": "Vana",
     "new": "Uus",
     "start": "Alusta",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Edasimüüja",
     "tracking_code": "Jälgimiskood",
     "tracking_url": "Jälgimise URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Täitmised",
     "reject": "Keeldu",
     "reserved": "Reserveeritud",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Ootan...",
     "waiting_connecting_payment": "Makseteenuse ootel...",
     "creating_secure_payment": "Turvalise makse loomine.",
+    "waiting_for_payment": "Palun viige makse lõpule...",
     "officer": "Ohvitser",
     "ticket": "Pilet",
     "ticket_url": "Pileti url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Hinnang",
     "seen_at": "Nähtud kell",
     "completed": "Lõpetatud",
-    "you": "Sina",
     "shop": "Pood",
     "store": "kauplus",
     "granted": "Lubatud",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tahvelarvuti",
     "pc": "PC",
     "acquisition_channel": "Omandamise kanal",
+    "channels_overview": "Channels overview",
     "to": "To",
     "info": "Info",
     "general": "Kindral",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Toote kohta",
     "journey": "Teekond",
     "after": "Pärast",
-    "waiting_for_payment": "Palun viige makse lõpule...",
     "hour": "Tund",
     "minute": "Minut",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Kauplused",
     "vendor": "Müüja",
     "vendors": "Müüjad",
+    "no_vendors": "No vendors",
     "marketplace": "Turg",
     "verify_date": "Kinnitage kuupäev",
     "note": "Märge",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Turvaline",
     "admin": "Admin",
-    "tax_included_abstract": "sh.",
     "payment_not_settled": "Makse ei tasutud!",
     "orders_list": "Tellimuste loend",
     "subscription_plan": "Tellimisplaan",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Klastrid",
     "subscriptions": "Tellimused",
     "spam": "Spämm",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Sina",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Väga keeruline",
+    "hard": "Raske",
+    "intermediate": "Keskmine",
+    "easy": "Lihtne",
   },
   "dialogs": {
     "delete": {
       "title": "Kustuta",
       "message": "Kas olete kindel, et kustutate selle üksuse?",
-      "action": "Jah, kustuta kohe"
-    }
+      "action": "Jah, kustuta kohe",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Lisa ostukorvi",
     "cancel": "Tühista",
     "update": "Värskenda",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Lisa kinkekaart",
     "charge": "Lae",
     "send_invites": "Saatke kutsed",
-    "past": "Minevik",
+    "paste": "Kleebi",
     "restore": "Taastama",
     "cut": "Lõika",
     "get_sms_code": "Hankige autentimiskood",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Kuva eelvaade",
     "hide_preview": "Peida eelvaade",
     "download_now": "Lae alla nüüd",
+    "watch_now": "Vaata nüüd",
     "auto_fill": "Automaatne täitmine",
     "track": "Rada",
     "change_state": "Muuda olekut",
     "done": "Valmis",
     "reply": "Vasta",
-    "watch_now": "Vaata nüüd",
     "unlock": "Avage lukustus",
     "lock": "Lukk",
     "create_clone": "Loo kloon",
@@ -773,41 +931,71 @@ export default {
     "buy": "Osta",
     "view_all": "Vaata kõiki",
     "view_now": "Vaata kohe",
-    "paste": "Kleebi"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Minevik",
+  },
+  "billing_period": {
+    "Daily": "Igapäevane",
+    "Weekly": "Iganädalane",
+    "Monthly": "Igakuine",
+    "Every3Months": "Iga 3 kuu tagant",
+    "Every6Months": "Iga 6 kuu tagant",
+    "Yearly": "Aastane",
   },
   "instance_message_title": "Saatke kiirsõnum",
   "instance_message": "Tere, {name}! Minu nimi on {author} ettevõttest {company}.",
   "errors": {
     "419": "Olete olnud pikka aega passiivne, palun <b>⟳ VÄRSKENDAGE LEHTE</b> turvalisuse huvides.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Süsteem ei sünkrooni plokiahelaga. Uut tehingut ei saa luua enne, kui meie serverite sünkroonimine on lõpule viidud. Me lahendame probleemi.",
-    "gateway_network_error": "Maksevärava teenusel ilmnes sideprobleem."
+    "gateway_network_error": "Maksevärava teenusel ilmnes sideprobleem.",
   },
   "receiver_info": {
     "map": {
       "title": "Kohaletoimetamise aadress",
       "confirm": "Määra asukoht",
       "address_type": "Sihtkoht",
-      "receptor_type": "Vastuvõtja"
+      "receptor_type": "Vastuvõtja",
     },
     "receiver_address": "Valige tarneaadress",
+    "service_address": "Valige oma aadress",
+    "select_billing_address": "Select billing address",
     "address": "aadress",
     "postcode": "Postiindeks",
     "enter_value": "Täida siia",
     "address_note": "Märge",
     "tel": "Kontaktnumber",
-    "service_address": "Valige oma aadress"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "nael",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "grammi",
     "oz": "Unts",
     "lb": "Nael",
-    "kg": "kilogrammi"
+    "kg": "kilogrammi",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "jalga",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Sentimeeter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Jalg",
     "mm": "millimeeter",
     "m": "meeter",
-    "yd": "Õue"
+    "yd": "Õue",
   },
   "distance": {
     "m": "meeter",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Päevad",
     "hours": "Tundi",
     "minutes": "Minutid",
-    "seconds": "Sekundid"
+    "seconds": "Sekundid",
   },
   "units": [
     "Üksus",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "osariik",
     "Territory": "Territoorium",
-    "Province": "provints"
+    "Province": "provints",
   },
   "transaction_status": {
     "RequireAction": "Vajalik toiming",
     "Processing": "Töötlemine",
     "Canceled": "Tühistatud",
-    "Succeeded": "Õnnestus"
+    "Succeeded": "Õnnestus",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Vali keel..",
     "friend_email": "Sinu sõbra meiliaadress...",
     "friend_name": "Opt. Sinu sõbra nimi",
-    "select_date": "Valige kuupäev..."
+    "select_date": "Valige kuupäev...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Kinnita",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max {maxCount} tähemärki",
     "invalid_url": "vigane URL",
     "country_invalid": "Vali sihtriik!",
-    "postal_code_invalid": "Määra kehtiv sihtnumber!"
+    "postal_code_invalid": "Määra kehtiv sihtnumber!",
   },
   "colors": {
     "#D32F2F": "Punane",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Üksus",
     "postcode": "Postiindeks",
     "note": "Märge",
-    "county": "Maakond"
+    "county": "Maakond",
   },
   "product_types": {
     "physical": "Füüsiline",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Teenindus",
     "service_description": "Teenused nagu: remont, transport, õpetamine.",
     "subscription": "Tellimus",
-    "subscription_description": "Toodete, teenuste või sisu tellimused ja arved."
+    "subscription_description": "Toodete, teenuste või sisu tellimused ja arved.",
   },
   "license": {
     "free": "Tasuta",
     "startup": "Käivitamine",
     "company": "Ettevõte",
-    "enterprise": "Ettevõtlus"
+    "enterprise": "Ettevõtlus",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Värv",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Arvestage pakendis",
     "weight": "Kaal",
     "type": "Materjal",
-    "style": "Stiil"
+    "style": "Stiil",
   },
   "delivery_state": {
     "check_queue": "Ootab ülevaatust",
     "order_confirm": "Tellimuse kinnitus",
     "preparing_order": "Ettevalmistus",
     "sent_order": "Kohaletoimetamisel",
-    "to_customer": "Kohale toimetatud"
+    "to_customer": "Kohale toimetatud",
   },
   "status": {
     "unpaid": "Tasumata",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Keeldu",
     "pending": "Ootel",
     "rejected": "Tagasi lükatud",
-    "accepted": "Vastu võetud"
+    "accepted": "Vastu võetud",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Mootorratas",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Globaalne transport",
     "global_description": "Kohaletoimetamine välismaale õhu, mere või maismaa kaudu.",
     "pickup": "Korja üles",
-    "pickup_description": "Kliendid tulevad kaupadele järele teie füüsilisse poodi või lattu."
+    "pickup_description": "Kliendid tulevad kaupadele järele teie füüsilisse poodi või lattu.",
   },
   "article": {
     "login_to_see_error": "Artiklile juurdepääsuks logige sisse",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Redigeerimisrežiim",
       "view_mode": "Vaatamise režiim",
-      "delete": "Kustuta artikkel"
+      "delete": "Kustuta artikkel",
     },
     "schedule_action": "Kas soovite avaldamist ajastada?",
     "schedule_title": "Ajastage automaatne avaldamine",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Teatage väärkasutusest ja eemaldage sisu",
       "report_title": "Teatage sellest sisust kui kuritahtlikust",
       "message": "Mis on selle sisu esitamise põhjus? Valige üks järgmistest valikutest.",
-      "accept_and_delete_action": "Kinnitage ja kustutage sisu"
+      "accept_and_delete_action": "Kinnitage ja kustutage sisu",
     },
     "schedule_dialog": {
       "title": "Sisu avaldamise ajakava",
       "publish_at": "Avalda aadressil",
       "last_edit": "Viimane redigeerimine",
-      "view_action": "Vaata artiklit"
+      "view_action": "Vaata artiklit",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Esitage teave",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Teata ja kustuta",
       "report_and_delete_success_message": "Artikkel on edukalt kustutatud.",
       "report_success_title": "Teata artiklist",
-      "report_success_message": "Teie aruanne selle artikli kohta on postitatud."
+      "report_success_message": "Teie aruanne selle artikli kohta on postitatud.",
     },
     "alert": {
       "delete_article": {
         "title": "Kustuta artikkel",
         "message": "Kas olete kindel, et soovite selle artikli jäädavalt kustutada?",
-        "action": "Kustuta"
-      }
+        "action": "Kustuta",
+      },
     },
     "edit_window": {
       "title": "Valige Pildi tekst ja kokkuvõte",
-      "digest": "Kokkuvõte"
+      "digest": "Kokkuvõte",
     },
     "editor": {
       "title_placeholder": "Pealkiri..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "See fail on liiga suur:",
       "notifications": {
         "image_uploaded_success": "Pilt salvestati edukalt",
-        "image_uploaded_failed": "Viga pildi laadimisel."
+        "image_uploaded_failed": "Viga pildi laadimisel.",
       },
       "embed_placeholder": "Sisestage iframe'i kood, Facebook, Youtube või mõni muu URL ja vajutage sisestusklahvi.",
       "embed_caption_placeholder": "Sisestage pealkiri (valikuline)",
-      "images_caption_placeholder": "Sisestage sellele pildile pealkiri."
-    }
+      "images_caption_placeholder": "Sisestage sellele pildile pealkiri.",
+    },
   },
   "article_report": {
     "inappropriate": "Selle artikli sisu on sobimatu.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Arvan, et see sisu sisaldab pornograafiat ja rikub seadusi.",
     "harassment": "Ma arvan, et see on rassistlik.",
     "hate": "Ma arvan, et see on vägivalla propageerimine.",
-    "infringe": "See rikub minu õigusi."
+    "infringe": "See rikub minu õigusi.",
   },
   "comments": {
     "new_action": "Kommentaari jätmiseks klõpsake ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Hankige rohkem kommentaare..",
     "cant_send_comment": "Te ei saa uut postitust lisada.",
     "cant_remove_this_comment": "Seda kommentaari ei saa kustutada!",
-    "product_buyer": "Ostja",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Minu kommentaarid",
     "delete_alert": {
       "title": "Kustuta kommentaar",
       "message": "Kas soovite selle kommentaari kustutada?",
-      "action": "Kustuta"
+      "action": "Kustuta",
     },
     "notifications": {
-      "delete_success": "Teie kommentaari kustutamine õnnestus."
+      "delete_success": "Teie kommentaari kustutamine õnnestus.",
     },
     "first_send": "Esimene postitus",
     "comment_at": "Peal",
     "edit_comment": "Muuda kommentaari",
-    "my_comments": "Minu kommentaarid"
+    "product_buyer": "Ostja",
   },
   "customer_club": {
     "bronze": "Pronks",
     "silver": "Hõbedane",
     "gold": "Kuldne",
     "platinum": "Plaatina",
-    "diamond": "Teemant"
+    "diamond": "Teemant",
   },
   "application_categories": {
     "tracking": "Kasutaja käitumise kontrollimine",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Reklaam",
     "staff": "Personal",
     "incentive": "Stiimulid",
-    "shop": "Pood"
+    "shop": "Pood",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Lisa uus üksus",
     "title_input": "Pealkiri",
+    "placeholder_input": "Kohatäide",
     "name_input": "Muutuja nimi",
     "value_input": "Väärtused",
     "value_input_message": "Kasutaja valikute loend",
     "default": "Vaikeväärtus",
+    "file_type_input": "Aktsepteeritavad failitüübid",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Lihtne",
       "selective": "Valikuline",
       "switch": "Lüliti",
       "file": "Fail",
-      "number": "Number"
+      "number": "Number",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Kohatäide",
-    "file_type_input": "Aktsepteeritavad failitüübid",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "tootenimi",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Makse staatus",
     "payment_status_waiting": "Ootan makset",
     "payment_status_paid": "Tasuline",
-    "buyer": "Ostja"
+    "buyer": "Ostja",
   },
   "virtual_item_info": {
     "title": "Virtuaalne üksus",
     "outputs": {
       "title": "Väljundteave",
       "sub_title": "Selle üksuse konfidentsiaalne teave",
-      "message": "Seda teavet näidatakse kasutajale pärast toote ostmist."
+      "message": "Seda teavet näidatakse kasutajale pärast toote ostmist.",
     },
     "inputs": {
       "title": "Vajalik teave",
       "sub_title": "Nõutav teave ostja kohta",
-      "message": "Ostja peab sisestama vormile küsitud andmed"
+      "message": "Ostja peab sisestama vormile küsitud andmed",
     },
     "notifications": {
       "inputs_set_success": "Teabevorm registreeriti edukalt.",
       "confirm_by_admin_success": "Tellimuse täitmine kinnitatud.",
-      "confirm_by_buyer_success": "Tellimuse täitmine kinnitatud."
-    }
+      "confirm_by_buyer_success": "Tellimuse täitmine kinnitatud.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Seda tellimust ei saa COD-maksega vastu võtta.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Läbimüüdud.",
     "legal_restriction": "Seaduslike piirangute tõttu ei saa tellimust esitada.",
     "pricing_fault": "Müüja hinnaviga.",
-    "system_fault": "Süsteemi viga."
+    "system_fault": "Süsteemi viga.",
   },
   "basket_order_info_summery": {
     "receiver": "Vastuvõtja",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Allahindlus",
     "final_price": "Lõppsumma",
     "address": "Saaja aadress",
-    "payment_status": "Makse staatus"
+    "payment_status": "Makse staatus",
   },
   "basket_status": {
     "open": "Avatud",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Tühistatud",
     "cod": "Tasu kohaletoimetamisel",
     "receipt_added": "Kviitung lisatud",
-    "payment_processing": "Makse töötlemine"
+    "payment_processing": "Makse töötlemine",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Tagasi lükatud",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Kinnitamine",
     "step_3": "Ettevalmistus",
     "step_4": "Kohaletoimetamisel",
-    "step_5": "Kohale toimetatud"
+    "step_5": "Kohale toimetatud",
   },
   "basket_return_request_view": {
     "title": "Tagastamistaotlus",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Keeldu taotlusest",
     "message_for_admin": "Vastavalt Selldone'i kasutamisega nõustunud lepingule peate ostjaga ühendust võtma ja hoidma teda kursis tellimuse tagastamise protsessiga. Seda tuleb teha juhul, kui taotlus rahuldatakse või lükatakse tagasi ja ostja täielik nõusolek on saadud.",
     "notifications": {
-      "update_status_success": "Taotluse olek värskendatud."
-    }
+      "update_status_success": "Taotluse olek värskendatud.",
+    },
   },
   "basket_list": {
     "return_count": "Tagastada: {count} number",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Garantiid",
       "count": "Count",
-      "price": "hind"
-    }
+      "price": "hind",
+    },
   },
   "return_request_list": {
     "count": "Viitenumber",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Vastuvõtmise kuupäev",
       "state": "Olek",
       "reason": "Põhjus",
-      "return_warranty_period": "Garantii periood"
-    }
+      "return_warranty_period": "Garantii periood",
+    },
   },
   "data_toolbar": {
     "search": "Otsing",
     "sort_by": "Sorteerima",
-    "count_item": "Kuva {item} üksust"
+    "count_item": "Kuva {item} üksust",
   },
   "sort": {
     "created_at": "Loo kuupäev",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ohvitser",
     "registered": "Registreeritud",
     "purchased": "Ostetud",
-    "sex": "Sugu"
+    "sex": "Sugu",
   },
   "search_box": {
     "result": "Otsingu tulemused",
     "tips": "Otsige tooteid ja kategooriaid",
     "label": "Otsing ...",
-    "category": "Kategooria"
+    "category": "Kategooria",
   },
   "lead_status": {
     "physical_fast_delivery": "Kohene kohaletoimetamine",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Ettevalmistus ja esitamine alates järgmisest {days} päevast",
     "virtual_fast_prepare": "Kohene kohaletoimetamine",
     "virtual_under_24h": "Tehtakse järgmise {lead} tunni jooksul",
-    "virtual_over_24h": "Seda tehakse järgmise {days} päeva jooksul"
+    "virtual_over_24h": "Seda tehakse järgmise {days} päeva jooksul",
   },
   "return_request_state": {
     "pending": "Ootel",
     "accepted": "Kinnitatud",
-    "rejected": "Tagasi lükatud"
+    "rejected": "Tagasi lükatud",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pakendi või seerianumbri rikkumine",
       "U5": "Osa esemeid pakist on puudu",
       "U6": "Toode ei ole originaal",
-      "U7": "Toode ei vasta spetsifikatsioonidele"
-    }
+      "U7": "Toode ei vasta spetsifikatsioonidele",
+    },
   },
   "image_uploader": {
     "label": "Lohistage või <u>valige fail</u>",
-    "max_size": "Maksimaalne lubatud suurus: {size}"
+    "max_size": "Maksimaalne lubatud suurus: {size}",
   },
   "timespan": {
     "Morning": "8.00–12.00",
     "Evening": "12.00-18.00",
     "Night": "18.00-12.00",
-    "Instant": "Vahetu postitus"
+    "Instant": "Vahetu postitus",
   },
   "week_day": {
     "Saturday": "laupäeval",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "teisipäeval",
     "Wednesday": "kolmapäeval",
     "Thursday": "neljapäeval",
-    "Friday": "reedel"
+    "Friday": "reedel",
   },
   "payment_form": {
     "title": "Valige Makseviis",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Õnnitleme, teie tellimus on tasuta!",
     "order_free_payment_action": "Telli kohe tasuta",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Makseaadress",
-      "amount": "Summa"
-    }
+      "amount": "Summa",
+    },
   },
   "discount_input": {
     "limit": "{percent}% allahindlus kuni {limit} {currency}",
     "action": "Lisa sooduskood",
     "code_input": "Sooduskood",
     "notifications": {
-      "add_success": "Õnnitleme, kehtiv sooduskood."
-    }
+      "add_success": "Õnnitleme, kehtiv sooduskood.",
+    },
   },
   "gift_card": {
     "inactive": "Kaart on keelatud",
     "expire": "Aegumine",
     "transfer": "Ülekanne",
-    "send_to_friend": "Saada sõbrale"
+    "send_to_friend": "Saada sõbrale",
   },
   "count_down": {
     "days": "päev",
     "hours": "Tund",
     "minutes": "Minutid",
-    "seconds": "Sekundid"
+    "seconds": "Sekundid",
   },
   "gift_status": {
     "Unpaid": "Kviitungi ootel",
     "Paid": "Tasuline",
     "Rejected": "Tagasi lükatud",
-    "Canceled": "Tühistatud"
+    "Canceled": "Tühistatud",
   },
   "gift_program_status": {
     "Airdrop": "Maksesüsteem",
     "Advertising": "Reklaam",
     "PersonalGift": "Isiklik kingitus",
-    "ShopGift": "Kingipood"
+    "ShopGift": "Kingipood",
   },
   "currency_selector": {
-    "label": "Valuuta"
+    "label": "Valuuta",
   },
   "need_login": {
     "title": "Logi sisse",
     "login_sms": "SMS-i sisselogimine",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Logige sisse Google'iga",
     "login_facebook": "Logi sisse Facebookiga",
+    "login_apple": "Logige sisse Apple'iga",
     "login_account": "Logi sisse Selldone'i kaudu",
     "register": "Uus kasutaja? Registreeru kohe.",
     "mobile_input": "Sisestage oma mobiiltelefon",
     "verification_code": "Kinnituskood",
     "msg_title": "Tere,",
     "msg_body": "Palun logige sisse. See võtab vaid mõne sekundi.",
-    "login_apple": "Logige sisse Apple'iga",
     "login_email": "Logi sisse e-posti teel",
     "email_login_step_1": "Sisestage kehtiv e-posti aadress ja me saadame sellele sisselogimiskoodi. Registreerimine pole vajalik.",
     "email_login_step_2": "Kas olete kindel, et sisestasite oma e-posti aadressi õigesti? Saadame sisselogimiskoodi esitatud e-posti aadressile, seega veenduge selle täpsuses.",
-    "email_login_step_3": "Saatsime teie meilile koodi. Pange tähele, et kood aegub 10 minuti pärast."
+    "email_login_step_3": "Saatsime teie meilile koodi. Pange tähele, et kood aegub 10 minuti pärast.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5-aastane kullapood"
+      "name": "5-aastane kullapood",
     },
     "GOLDEN_2YEAR": {
-      "name": "4-aastane kullapood"
+      "name": "4-aastane kullapood",
     },
     "GOLDEN_3YEAR": {
-      "name": "3-aastane kullapood"
+      "name": "3-aastane kullapood",
     },
     "GOLDEN_4YEAR": {
-      "name": "2-aastane kullapood"
+      "name": "2-aastane kullapood",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 aasta kullapood"
+      "name": "1 aasta kullapood",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Kuldne investor"
+      "name": "Kuldne investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Teemant Investor"
+      "name": "Teemant Investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Rubiini investor"
+      "name": "Rubiini investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Sidevõrkude ülemkogukonna liige"
+      "name": "Sidevõrkude ülemkogukonna liige",
     },
     "GOLD_SUPPLIER": {
-      "name": "Kulla tarnija"
+      "name": "Kulla tarnija",
     },
     "GOLD_SELLER": {
-      "name": "Kullamüüja"
+      "name": "Kullamüüja",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Parim sisutootja"
+      "name": "Parim sisutootja",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Täht"
+      "name": "Täht",
     },
     "GUARDIAN": {
-      "name": "Suurepärane klienditeenindus"
+      "name": "Suurepärane klienditeenindus",
     },
     "KING": {
-      "name": "Turu kuningas"
-    }
+      "name": "Turu kuningas",
+    },
   },
   "cookie": {
     "title": "See veebisait kasutab küpsiseid",
     "message": "See veebisait kasutab kasutajakogemuse parandamiseks küpsiseid. Meie veebisaiti kasutades nõustute kõigi küpsiste kasutamisega vastavalt meie küpsiste poliitikale.",
     "preferences_action": "Eelistuste haldamine",
-    "agree_action": "Ma nõustun"
+    "agree_action": "Ma nõustun",
   },
   "basket_item_message": {
     "title": "Selle üksuse jaoks nõutav teave",
     "save_actions": "Salvesta sõnum",
+    "product_inputs_preview_message": "Need kohandamisvalikud on teie tellitud toote jaoks saadaval. Kui kaup on teie ostukorvi lisatud, saate siin muudatusi teha.",
     "notifications": {
-      "success": "Teie sisendandmed on salvestatud."
+      "success": "Teie sisendandmed on salvestatud.",
     },
-    "product_inputs_preview_message": "Need kohandamisvalikud on teie tellitud toote jaoks saadaval. Kui kaup on teie ostukorvi lisatud, saate siin muudatusi teha."
   },
   "faq": {
     "faq": "Korduma kippuvad küsimused",
     "title": "Küsimused ja vastused",
-    "sub_title": "Mida sa palusid meil teha.",
     "message": "Otsige vastust oma küsimusele allolevate vastuste hulgast. Küsige meilt, kui küsimused jäävad vastuseta.",
     "add_question_action": "Küsi uus küsimus",
     "read_more": "Loe rohkem ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "küsimus",
     "question_input_placeholder": "Esitage oma küsimus.",
     "notifications": {
-      "success_add": "Teie küsimuse esitamine õnnestus."
-    }
+      "success_add": "Teie küsimuse esitamine õnnestus.",
+    },
+    "sub_title": "Mida sa palusid meil teha.",
   },
   "rating_labels": [
     "Väga halb",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Sisesta sihtkoha aadress",
     "enter_your_address": "Sisestage oma aadress.",
     "postal_code": "Postiindeks",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Hoone number",
     "building_unit": "Üksus",
     "full_name_input": "Täisnimi {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Aadressi silt (nõutav)",
     "notifications": {
       "save_in_list": "See aadress on salvestatud teie loendisse koos kõigi selle üksikasjadega.",
-      "edit_success": "Uued aadressiväärtused on salvestatud kausta {title}."
+      "edit_success": "Uued aadressiväärtused on salvestatud kausta {title}.",
     },
     "delete_address_dialog": {
       "title": "Kustuta aadress",
       "message": "Kas olete kindel, et soovite selle aadressi kustutada?",
-      "action": "Eemalda aadress"
-    }
+      "action": "Eemalda aadress",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Seda kommentaari ei saa muuta!",
     "comment_input_empty": "Sõnumi tekst on tühi!",
-    "article_not_saved": "Salvestage artikkel!"
+    "article_not_saved": "Salvestage artikkel!",
   },
   "wheel_fortune": {
     "title": "Mängi ja võida",
     "message": "Iga mängu hind on 10 mängumärki. Teil on praegu {chips} kiip. Hankige rohkem kiipi, ostes poest.",
     "win_message": "Õnnitleme, võitsid!",
     "lost_message": "Vabandust, kaotasite mängu.",
-    "try_again": "Võite uuesti proovida"
+    "try_again": "Võite uuesti proovida",
   },
   "json": {
     "add": "Struktuuriandmete lisamine",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Struktuurid",
     "book": {
       "title": "Raamat",
-      "desc": "Raamatutoimingud, mis võimaldavad kasutajatel osta raamatu, mille nad leiavad otse otsingutulemustest."
+      "desc": "Raamatutoimingud, mis võimaldavad kasutajatel osta raamatu, mille nad leiavad otse otsingutulemustest.",
     },
     "occupation": {
       "title": "Eeldatav palk",
-      "desc": "Teave palgaprognooside kohta, nagu palgavahemikud ja piirkonnapõhised keskmised ametitüüpide palgad, kuvatakse Google'i tööotsingu kogemuses."
+      "desc": "Teave palgaprognooside kohta, nagu palgavahemikud ja piirkonnapõhised keskmised ametitüüpide palgad, kuvatakse Google'i tööotsingu kogemuses.",
     },
     "course": {
       "title": "Kursus",
-      "desc": "Hariduskursused, mis kuvatakse pakkujapõhises loendis. Kursused võivad sisaldada kursuse pealkirja, pakkujat ja lühikirjeldust."
+      "desc": "Hariduskursused, mis kuvatakse pakkujapõhises loendis. Kursused võivad sisaldada kursuse pealkirja, pakkujat ja lühikirjeldust.",
     },
     "howto": {
       "title": "Kuidas",
-      "desc": "Video, piltide ja tekstiga juhend juhendab kasutajaid ülesande edukaks sooritamiseks läbi sammude komplekti."
+      "desc": "Video, piltide ja tekstiga juhend juhendab kasutajaid ülesande edukaks sooritamiseks läbi sammude komplekti.",
     },
     "recipe": {
       "title": "Retsept",
-      "desc": "Retseptid, mis kuvatakse individuaalse rikkaliku tulemusena või osana hostikarussellist."
-    }
+      "desc": "Retseptid, mis kuvatakse individuaalse rikkaliku tulemusena või osana hostikarussellist.",
+    },
   },
   "support": {
     "Financial": "Rahaline",
     "Technical": "Tehniline",
-    "Advisor": "Nõuandja"
+    "Advisor": "Nõuandja",
   },
   "condition": {
     "new": "Uus",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Kasutatud",
     "used_fair": "Ausalt kasutatud",
     "used_good": "Kasutatud korralik",
-    "used_like_new": "Kasutatud nagu uus"
+    "used_like_new": "Kasutatud nagu uus",
   },
   "variant_filter": {
     "title": "Tootevariantide filter",
-    "only_available": "Laos"
+    "only_available": "Laos",
   },
   "service": {
     "task": {
       "title": "Ülesanded",
-      "message": "Selles teenuses tehtud ülesannete loend."
+      "message": "Selles teenuses tehtud ülesannete loend.",
     },
     "appointment": {
       "title": "Kohtumine",
-      "message": "Valige järgmiste kellaaegade hulgast teile sobiva päeva ja kellaaegade põhjal nädalaajad."
+      "message": "Valige järgmiste kellaaegade hulgast teile sobiva päeva ja kellaaegade põhjal nädalaajad.",
     },
     "booking": {
       "title": "Broneerimine",
-      "message": "Määrake allolevas kalendris nende päevade ajaperiood, mille jooksul soovite broneeringut teha."
+      "message": "Määrake allolevas kalendris nende päevade ajaperiood, mille jooksul soovite broneeringut teha.",
     },
     "subscription": {
-      "title": "Tellimus"
+      "title": "Tellimus",
     },
     "charge": {
-      "title": "Lae"
-    }
+      "title": "Lae",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fikseeritud hinnakujundus",
-      "message": "Sellise hinnakujunduse puhul on toote hind fikseeritud summa ja ostjal ei ole vaja hinnakalkulatsiooni nõuda."
+      "message": "Sellise hinnakujunduse puhul on toote hind fikseeritud summa ja ostjal ei ole vaja hinnakalkulatsiooni nõuda.",
     },
     "ESTIMATION": {
       "title": "Hinnanguline hind",
-      "message": "Toodete ja teenuste hinna arvutab teatud määral müüja tellimuse vormistamisel, maksearveid on võimalik teenuse käigus muuta või lisada."
+      "message": "Toodete ja teenuste hinna arvutab teatud määral müüja tellimuse vormistamisel, maksearveid on võimalik teenuse käigus muuta või lisada.",
     },
     "AGREEMENT": {
       "title": "Lepingu hinnakujundus",
-      "message": "Toodete või teenuste lõplikku hinda müüja pärast tellimuse vormistamist ei muuda."
+      "message": "Toodete või teenuste lõplikku hinda müüja pärast tellimuse vormistamist ei muuda.",
     },
     "BID": {
       "title": "Pakkumine / oksjon",
-      "message": "Toode müüakse potentsiaalsete ostjate poolt kõrgeima pakkumise hinnaga."
-    }
+      "message": "Toode müüakse potentsiaalsete ostjate poolt kõrgeima pakkumise hinnaga.",
+    },
   },
   "map": {
     "title": "Sihtkoht toodete vastuvõtmiseks",
     "confirm": "Määra asukoht",
     "address": "Sihtkoht",
-    "receptor": "Vastuvõtja"
+    "receptor": "Vastuvõtja",
   },
   "ShopBots": {
-    "telegram": "Telegramm"
+    "telegram": "Telegramm",
   },
   "article_tags": {
     "title": "Sisusildid",
     "tags_input": "Sildid",
     "tags_input_message": "Sildid Selle artikli loend",
     "notification": {
-      "add_success": "Sildid lisatud"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Väga keeruline",
-    "hard": "Raske",
-    "intermediate": "Keskmine",
-    "easy": "Lihtne"
-  },
-  "billing_period": {
-    "Daily": "Igapäevane",
-    "Weekly": "Iganädalane",
-    "Monthly": "Igakuine",
-    "Every3Months": "Iga 3 kuu tagant",
-    "Every6Months": "Iga 6 kuu tagant",
-    "Yearly": "Aastane"
+      "add_success": "Sildid lisatud",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh ei ole hea!",
     "between2_3": "Kõik on korras!",
     "between3_4": "Inimestele meeldib!",
-    "between4_5": "Inimestele meeldib see!"
+    "between4_5": "Inimestele meeldib see!",
   },
   "seasons": {
     "spring": "Kevad",
     "summer": "Suvi",
     "autumn": "Sügis",
-    "winter": "Talv"
-  }
+    "winter": "Talv",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

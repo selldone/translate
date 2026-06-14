@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "我已閱讀使用條款和隱私政策並同意它們。",
   "commons": {
     "Currency": "貨幣",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "狀態",
     "Price": "價格",
@@ -169,6 +170,7 @@ export default {
     "net_price": "淨價",
     "tax": "稅",
     "tax_included": "包含在價格中",
+    "tax_included_abstract": "包括。",
     "limit": "限制",
     "min_purchase": "最低購買量",
     "eligible_for": "可以",
@@ -302,6 +304,7 @@ export default {
     "created_at": "創建日期",
     "updated_at": "最後更新",
     "register_at": "註冊日期",
+    "last_modified": "Last modified",
     "old": "老的",
     "new": "新的",
     "start": "開始",
@@ -330,6 +333,7 @@ export default {
     "reseller": "經銷商",
     "tracking_code": "跟踪代碼",
     "tracking_url": "跟踪網址",
+    "fulfillment": "Fulfillment",
     "fulfillments": "履行情況",
     "reject": "拒絕",
     "reserved": "預訂的",
@@ -341,6 +345,7 @@ export default {
     "waiting": "等待...",
     "waiting_connecting_payment": "等待支付服務...",
     "creating_secure_payment": "創建安全支付。",
+    "waiting_for_payment": "請完成付款...",
     "officer": "官",
     "ticket": "票",
     "ticket_url": "門票網址",
@@ -361,7 +366,6 @@ export default {
     "rates": "評分",
     "seen_at": "見於",
     "completed": "完全的",
-    "you": "你",
     "shop": "店鋪",
     "store": "店鋪",
     "granted": "的確",
@@ -498,6 +502,7 @@ export default {
     "tablet": "藥片",
     "pc": "PC",
     "acquisition_channel": "獲取渠道",
+    "channels_overview": "Channels overview",
     "to": "至",
     "info": "信息",
     "general": "一般的",
@@ -568,6 +573,7 @@ export default {
     "shops": "專賣店",
     "vendor": "小販",
     "vendors": "供應商",
+    "no_vendors": "No vendors",
     "marketplace": "市場",
     "verify_date": "驗證日期",
     "note": "筆記",
@@ -585,7 +591,6 @@ export default {
     "original": "原來的",
     "saved": "得救了！",
     "sort": "種類",
-    "waiting_for_payment": "請完成付款...",
     "documents": "文件",
     "document": "文檔",
     "please_wait": "請稍等...",
@@ -604,7 +609,6 @@ export default {
     "variant": "變體",
     "secure": "安全的",
     "admin": "行政",
-    "tax_included_abstract": "包括。",
     "payment_not_settled": "付款未結算！",
     "orders_list": "訂單清單",
     "subscription_plan": "訂閱計劃",
@@ -642,16 +646,170 @@ export default {
     "clusters": "叢集",
     "subscriptions": "訂閱",
     "spam": "垃圾郵件",
-    "video": "視頻"
+    "video": "視頻",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "你",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "非常複雜",
+    "hard": "難的",
+    "intermediate": "中間的",
+    "easy": "簡單的",
   },
   "dialogs": {
     "delete": {
       "title": "刪除",
       "message": "您確定要刪除此項目嗎？",
-      "action": "是的，立即刪除"
-    }
+      "action": "是的，立即刪除",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "添加到購物車",
     "cancel": "取消",
     "update": "更新",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "添加禮品卡",
     "charge": "收費",
     "send_invites": "發送邀請",
-    "past": "過去的",
+    "paste": "貼上",
     "restore": "恢復",
     "cut": "切",
     "get_sms_code": "獲取驗證碼",
@@ -773,41 +931,71 @@ export default {
     "buy": "買",
     "view_all": "查看全部",
     "view_now": "現在查看",
-    "paste": "貼上"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "過去的",
+  },
+  "billing_period": {
+    "Daily": "日常的",
+    "Weekly": "每週",
+    "Monthly": "月刊",
+    "Every3Months": "每3個月",
+    "Every6Months": "每 6 個月",
+    "Yearly": "每年",
   },
   "instance_message_title": "發送即時消息",
   "instance_message": "嗨，{name}，我的名字是來自 {company} 的 {author}。",
   "errors": {
     "419": "您已經很長時間沒有活動了，出於安全原因，請<b>⟳刷新頁面</b>。",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "系統不與區塊鏈同步。在我們的服務器同步完成之前，無法創建新事務。我們正在解決問題。",
-    "gateway_network_error": "支付網關服務遇到通信問題。"
+    "gateway_network_error": "支付網關服務遇到通信問題。",
   },
   "receiver_info": {
     "map": {
       "title": "收件地址",
       "confirm": "設置位置",
       "address_type": "目的地",
-      "receptor_type": "接收者"
+      "receptor_type": "接收者",
     },
     "receiver_address": "選擇送貨地址",
     "service_address": "選擇您的地址",
+    "select_billing_address": "Select billing address",
     "address": "地址",
     "postcode": "郵政編碼",
     "enter_value": "在這裡填寫",
     "address_note": "筆記",
-    "tel": "聯繫電話"
+    "tel": "聯繫電話",
   },
   "weight": {
     "g": "G",
     "oz": "盎司",
     "lb": "磅",
-    "kg": "公斤"
+    "kg": "公斤",
   },
   "mass_unit_name": {
     "g": "公克",
     "oz": "盎司",
     "lb": "磅",
-    "kg": "公斤"
+    "kg": "公斤",
   },
   "length": {
     "cm": "厘米",
@@ -815,7 +1003,7 @@ export default {
     "ft": "英尺",
     "mm": "毫米",
     "m": "米",
-    "yd": "碼"
+    "yd": "碼",
   },
   "size_unit_name": {
     "cm": "厘米",
@@ -823,17 +1011,21 @@ export default {
     "ft": "腳",
     "mm": "毫米",
     "m": "儀表",
-    "yd": "院子"
+    "yd": "院子",
   },
   "distance": {
     "m": "儀表",
-    "km": "公里"
+    "km": "公里",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "天",
     "hours": "小時",
     "minutes": "分鐘",
-    "seconds": "秒"
+    "seconds": "秒",
   },
   "units": [
     "unit",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "狀態",
     "Territory": "領土",
-    "Province": "省"
+    "Province": "省",
   },
   "transaction_status": {
     "RequireAction": "需要採取的行動",
     "Processing": "加工",
     "Canceled": "取消",
-    "Succeeded": "成功"
+    "Succeeded": "成功",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "瓊斯考克斯",
@@ -885,7 +1078,17 @@ export default {
     "language": "選擇語言..",
     "friend_email": "你朋友的郵箱...",
     "friend_name": "選擇。你朋友的名字",
-    "select_date": "選擇日期..."
+    "select_date": "選擇日期...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "確認",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "最多 {maxCount} 個字符",
     "invalid_url": "無效的網址",
     "country_invalid": "選擇目的地國家！",
-    "postal_code_invalid": "設置有效的郵政編碼！"
+    "postal_code_invalid": "設置有效的郵政編碼！",
   },
   "colors": {
     "#D32F2F": "紅色的",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "單元",
     "postcode": "郵政編碼",
     "note": "筆記",
-    "county": "縣"
+    "county": "縣",
   },
   "product_types": {
     "physical": "身體的",
@@ -1004,13 +1207,13 @@ export default {
     "service": "服務",
     "service_description": "服務如：維修、運輸、教學。",
     "subscription": "訂閱",
-    "subscription_description": "產品、服務或內容的訂閱和發票。"
+    "subscription_description": "產品、服務或內容的訂閱和發票。",
   },
   "license": {
     "free": "自由的",
     "startup": "啟動",
     "company": "公司",
-    "enterprise": "企業"
+    "enterprise": "企業",
   },
   "currency": {
     "IRR": "IRR",
@@ -1159,7 +1362,9 @@ export default {
     "ZMW": "ZMW",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "顏色",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "計入包裝",
     "weight": "重量",
     "type": "材料",
-    "style": "風格"
+    "style": "風格",
   },
   "delivery_state": {
     "check_queue": "等待審核",
     "order_confirm": "訂單確認",
     "preparing_order": "準備中",
     "sent_order": "投遞中",
-    "to_customer": "發表"
+    "to_customer": "發表",
   },
   "status": {
     "unpaid": "未付",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "拒絕",
     "pending": "待辦的",
     "rejected": "被拒絕",
-    "accepted": "公認"
+    "accepted": "公認",
   },
   "dimensions": {
     "cm": "厘米",
     "km": "公里",
-    "kg": "公斤"
+    "kg": "公斤",
   },
   "transportation_type": {
     "motorbike": "摩托車",
@@ -1224,7 +1429,7 @@ export default {
     "global": "全球運輸",
     "global_description": "通過空運、海運或陸運到海外。",
     "pickup": "撿起",
-    "pickup_description": "客戶在您的實體店或倉庫取貨。"
+    "pickup_description": "客戶在您的實體店或倉庫取貨。",
   },
   "article": {
     "login_to_see_error": "登錄以訪問文章",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "編輯模式",
       "view_mode": "查看模式",
-      "delete": "刪除文章"
+      "delete": "刪除文章",
     },
     "schedule_action": "您要安排發佈時間嗎？",
     "schedule_title": "安排自動發布",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "舉報濫用行為並刪除內容",
       "report_title": "將此內容舉報為濫用行為",
       "message": "提交此內容的原因是什麼？選擇以下選項之一。",
-      "accept_and_delete_action": "確認和刪除內容"
+      "accept_and_delete_action": "確認和刪除內容",
     },
     "schedule_dialog": {
       "title": "內容髮佈時間表",
       "publish_at": "發表於",
       "last_edit": "上次編輯",
-      "view_action": "查看文章"
+      "view_action": "查看文章",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "提交信息",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "報告和刪除",
       "report_and_delete_success_message": "文章已成功刪除。",
       "report_success_title": "舉報文章",
-      "report_success_message": "您對本文的報告已發布。"
+      "report_success_message": "您對本文的報告已發布。",
     },
     "alert": {
       "delete_article": {
         "title": "刪除文章",
         "message": "您確定要永久刪除這篇文章嗎？",
-        "action": "刪除"
-      }
+        "action": "刪除",
+      },
     },
     "edit_window": {
       "title": "選擇圖像文本和摘要",
-      "digest": "概括"
+      "digest": "概括",
     },
     "editor": {
       "title_placeholder": "標題..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "此文件太大：",
       "notifications": {
         "image_uploaded_success": "圖片保存成功",
-        "image_uploaded_failed": "加載圖像時出錯。"
+        "image_uploaded_failed": "加載圖像時出錯。",
       },
       "embed_placeholder": "輸入 iframe 代碼、Facebook、Youtube 或任何其他 URL，然後按 Enter。",
       "embed_caption_placeholder": "輸入標題（可選）",
-      "images_caption_placeholder": "輸入此圖像的標題.."
-    }
+      "images_caption_placeholder": "輸入此圖像的標題..",
+    },
   },
   "article_report": {
     "inappropriate": "本文內容不妥。",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "我認為此內容包含色情內容，違反了法律。",
     "harassment": "我認為這是種族主義。",
     "hate": "我認為這是為了宣揚暴力。",
-    "infringe": "這侵犯了我的權利。"
+    "infringe": "這侵犯了我的權利。",
   },
   "comments": {
     "new_action": "點擊發表評論..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "獲得更多評論..",
     "cant_send_comment": "您不能添加新帖子。",
     "cant_remove_this_comment": "您不能刪除此評論！",
-    "product_buyer": "買方",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "我的評論",
     "delete_alert": {
       "title": "刪除評論",
       "message": "你想刪除這條評論嗎？",
-      "action": "刪除"
+      "action": "刪除",
     },
     "notifications": {
-      "delete_success": "您的評論已成功刪除。"
+      "delete_success": "您的評論已成功刪除。",
     },
     "first_send": "第一篇文章",
     "comment_at": "上",
     "edit_comment": "編輯評論",
-    "my_comments": "我的評論"
+    "product_buyer": "買方",
   },
   "customer_club": {
     "bronze": "青銅",
     "silver": "銀",
     "gold": "金的",
     "platinum": "鉑",
-    "diamond": "鑽石"
+    "diamond": "鑽石",
   },
   "application_categories": {
     "tracking": "檢查用戶行為",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "廣告",
     "staff": "職員",
     "incentive": "激勵措施",
-    "shop": "店鋪"
+    "shop": "店鋪",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,7 +1600,7 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "臉書信使"
+    "facebook_messenger": "臉書信使",
   },
   "form_builder": {
     "add_item_action": "添加新項目",
@@ -1408,8 +1617,9 @@ export default {
       "selective": "可選擇的",
       "switch": "轉變",
       "file": "文件",
-      "number": "數字"
-    }
+      "number": "數字",
+      "key_value": "Key-value pair",
+    },
   },
   "virtual_order_info_summery": {
     "title": "產品名稱",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "支付狀態",
     "payment_status_waiting": "等待付款",
     "payment_status_paid": "有薪酬的",
-    "buyer": "買方"
+    "buyer": "買方",
   },
   "virtual_item_info": {
     "title": "虛擬物品",
     "outputs": {
       "title": "輸出信息",
       "sub_title": "本項目的機密信息",
-      "message": "此信息將在購買產品後顯示給用戶。"
+      "message": "此信息將在購買產品後顯示給用戶。",
     },
     "inputs": {
       "title": "所需資料",
       "sub_title": "需要買家信息",
-      "message": "買方必須在表格中輸入要求的信息"
+      "message": "買方必須在表格中輸入要求的信息",
     },
     "notifications": {
       "inputs_set_success": "信息表註冊成功。",
       "confirm_by_admin_success": "訂單完成確認。",
-      "confirm_by_buyer_success": "訂單完成確認。"
-    }
+      "confirm_by_buyer_success": "訂單完成確認。",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "此訂單不能接受貨到付款。",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "缺貨。",
     "legal_restriction": "由於法律限制，無法下訂單。",
     "pricing_fault": "賣方定價錯誤。",
-    "system_fault": "系統錯誤。"
+    "system_fault": "系統錯誤。",
   },
   "basket_order_info_summery": {
     "receiver": "接收者",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "折扣",
     "final_price": "最終金額",
     "address": "郵寄地址",
-    "payment_status": "支付狀態"
+    "payment_status": "支付狀態",
   },
   "basket_status": {
     "open": "打開",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "取消",
     "cod": "貨到付款",
     "receipt_added": "已添加收據",
-    "payment_processing": "交付過程"
+    "payment_processing": "交付過程",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "被拒絕",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "確認",
     "step_3": "準備",
     "step_4": "投遞中",
-    "step_5": "發表"
+    "step_5": "發表",
   },
   "basket_return_request_view": {
     "title": "退貨申請",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "拒絕請求",
     "message_for_admin": "根據您使用 Selldone 接受的協議，您必須聯繫買家並讓他/她了解退貨流程。如果請求被接受或拒絕並且獲得買方的完全同意，則必須這樣做。",
     "notifications": {
-      "update_status_success": "請求狀態已更新。"
-    }
+      "update_status_success": "請求狀態已更新。",
+    },
   },
   "basket_list": {
     "return_count": "返回：{count} 個數字",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "變體",
       "warranty": "保證",
       "count": "數數",
-      "price": "價格"
-    }
+      "price": "價格",
+    },
   },
   "return_request_list": {
     "count": "參考編號",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "收到的日期",
       "state": "地位",
       "reason": "原因",
-      "return_warranty_period": "保修期"
-    }
+      "return_warranty_period": "保修期",
+    },
   },
   "data_toolbar": {
     "search": "搜索",
     "sort_by": "排序方式",
-    "count_item": "顯示 {item} 個項目"
+    "count_item": "顯示 {item} 個項目",
   },
   "sort": {
     "created_at": "創建日期",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "官",
     "registered": "掛號的",
     "purchased": "已購買",
-    "sex": "性別"
+    "sex": "性別",
   },
   "search_box": {
     "result": "搜索結果",
     "tips": "搜索產品和類別",
     "label": "搜索 ...",
-    "category": "類別"
+    "category": "類別",
   },
   "lead_status": {
     "physical_fast_delivery": "即時交付",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "從接下來的 {days} 天開始準備和提交",
     "virtual_fast_prepare": "即時交付",
     "virtual_under_24h": "將在接下來的 {lead} 小時內完成",
-    "virtual_over_24h": "將從接下來的 {days} 天開始完成"
+    "virtual_over_24h": "將從接下來的 {days} 天開始完成",
   },
   "return_request_state": {
     "pending": "待辦的",
     "accepted": "確認的",
-    "rejected": "被拒絕"
+    "rejected": "被拒絕",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "包裹或序列號篡改",
       "U5": "包裹中的某些物品丟失",
       "U6": "產品不是原裝的",
-      "U7": "產品不符合規格"
-    }
+      "U7": "產品不符合規格",
+    },
   },
   "image_uploader": {
     "label": "拖放或<u>選擇文件</u>",
-    "max_size": "最大允許大小：{size}"
+    "max_size": "最大允許大小：{size}",
   },
   "timespan": {
     "Morning": "上午 8 點至下午 12 點",
     "Evening": "中午 12 點至下午 6 點",
     "Night": "下午 6 點至 12 點",
-    "Instant": "即時發布"
+    "Instant": "即時發布",
   },
   "week_day": {
     "Saturday": "週六",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "週二",
     "Wednesday": "週三",
     "Thursday": "週四",
-    "Friday": "星期五"
+    "Friday": "星期五",
   },
   "payment_form": {
     "title": "選擇付款方式",
@@ -1667,48 +1878,50 @@ export default {
     "order_free_payment": "恭喜，您的訂單是免費的！",
     "order_free_payment_action": "現在免費訂購",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "付款地址",
-      "amount": "數量"
-    }
+      "amount": "數量",
+    },
   },
   "discount_input": {
     "limit": "{percent}% 折扣高達 {limit} {currency}",
     "action": "添加折扣碼",
     "code_input": "優惠碼",
     "notifications": {
-      "add_success": "恭喜，有效的折扣代碼。"
-    }
+      "add_success": "恭喜，有效的折扣代碼。",
+    },
   },
   "gift_card": {
     "inactive": "卡被禁用",
     "expire": "到期",
     "transfer": "轉移",
-    "send_to_friend": "發給朋友"
+    "send_to_friend": "發給朋友",
   },
   "count_down": {
     "days": "天",
     "hours": "小時",
     "minutes": "分鐘",
-    "seconds": "秒"
+    "seconds": "秒",
   },
   "gift_status": {
     "Unpaid": "等待接收",
     "Paid": "有薪酬的",
     "Rejected": "被拒絕",
-    "Canceled": "取消"
+    "Canceled": "取消",
   },
   "gift_program_status": {
     "Airdrop": "支付系統",
     "Advertising": "廣告",
     "PersonalGift": "個人禮物",
-    "ShopGift": "禮品店"
+    "ShopGift": "禮品店",
   },
   "currency_selector": {
-    "label": "貨幣"
+    "label": "貨幣",
   },
   "need_login": {
     "title": "登錄",
     "login_sms": "短信登錄",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "用谷歌登錄",
     "login_facebook": "使用 Facebook 登錄",
     "login_apple": "用蘋果登錄",
@@ -1721,76 +1934,75 @@ export default {
     "login_email": "郵箱登錄",
     "email_login_step_1": "請提供一個有效的電子郵件地址，我們會將登錄代碼發送給它。無需註冊。",
     "email_login_step_2": "您確定您輸入的電子郵件地址正確嗎？我們會將登錄代碼發送到提供的電子郵件中，因此請確保其準確性。",
-    "email_login_step_3": "我們已將代碼發送到您的電子郵箱。請注意，代碼將在 10 分鐘後過期。"
+    "email_login_step_3": "我們已將代碼發送到您的電子郵箱。請注意，代碼將在 10 分鐘後過期。",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5年金店"
+      "name": "5年金店",
     },
     "GOLDEN_2YEAR": {
-      "name": "4年金店"
+      "name": "4年金店",
     },
     "GOLDEN_3YEAR": {
-      "name": "3年金店"
+      "name": "3年金店",
     },
     "GOLDEN_4YEAR": {
-      "name": "2年金店"
+      "name": "2年金店",
     },
     "GOLDEN_5YEAR": {
-      "name": "1年金店"
+      "name": "1年金店",
     },
     "TOKEN_OWNER_1M": {
-      "name": "黃金投資者"
+      "name": "黃金投資者",
     },
     "TOKEN_OWNER_10M": {
-      "name": "鑽石投資者"
+      "name": "鑽石投資者",
     },
     "TOKEN_OWNER_100M": {
-      "name": "紅寶石投資者"
+      "name": "紅寶石投資者",
     },
     "COMMUNITY_LOYAL": {
-      "name": "通信網絡高級社區成員"
+      "name": "通信網絡高級社區成員",
     },
     "GOLD_SUPPLIER": {
-      "name": "金牌供應商"
+      "name": "金牌供應商",
     },
     "GOLD_SELLER": {
-      "name": "黃金經銷商"
+      "name": "黃金經銷商",
     },
     "CONTENT_SUPERMAN": {
-      "name": "頂級內容製作人"
+      "name": "頂級內容製作人",
     },
     "NINJA": {
-      "name": "忍者"
+      "name": "忍者",
     },
     "STAR": {
-      "name": "星星"
+      "name": "星星",
     },
     "GUARDIAN": {
-      "name": "優質的客戶服務"
+      "name": "優質的客戶服務",
     },
     "KING": {
-      "name": "市場之王"
-    }
+      "name": "市場之王",
+    },
   },
   "cookie": {
     "title": "本網站使用cookies",
     "message": "本網站使用 cookie 來改善用戶體驗。使用我們的網站，即表示您同意根據我們的 Cookie 政策接受所有 Cookie。",
     "preferences_action": "管理首選項",
-    "agree_action": "我同意"
+    "agree_action": "我同意",
   },
   "basket_item_message": {
     "title": "此項目所需的信息",
     "save_actions": "保存消息",
+    "product_inputs_preview_message": "這些定制選項適用於您訂購的產品。將商品添加到您的購物車後，您就可以在此處進行調整。",
     "notifications": {
-      "success": "您的輸入數據已保存。"
+      "success": "您的輸入數據已保存。",
     },
-    "product_inputs_preview_message": "這些定制選項適用於您訂購的產品。將商品添加到您的購物車後，您就可以在此處進行調整。"
   },
   "faq": {
     "faq": "經常問的問題",
     "title": "問題和解答",
-    "sub_title": "你要求我們做什麼。",
     "message": "在下面的答案中尋找您的問題的答案。如果問題仍未得到解答，請諮詢我們。",
     "add_question_action": "提出新問題",
     "read_more": "閱讀更多 ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "問題",
     "question_input_placeholder": "問你的問題。",
     "notifications": {
-      "success_add": "您的問題已成功提交。"
-    }
+      "success_add": "您的問題已成功提交。",
+    },
+    "sub_title": "你要求我們做什麼。",
   },
   "rating_labels": [
     "Very bad",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "地址標籤（必填）",
     "notifications": {
       "save_in_list": "此地址及其所有詳細信息已保存到您的列表中。",
-      "edit_success": "{title}中保存的新地址值。"
+      "edit_success": "{title}中保存的新地址值。",
     },
     "delete_address_dialog": {
       "title": "刪除地址",
       "message": "您確定要刪除此地址嗎？",
-      "action": "刪除地址"
-    }
+      "action": "刪除地址",
+    },
   },
   "comment_manager": {
     "can_not_edit": "無法編輯此評論！",
     "comment_input_empty": "留言內容為空白！",
-    "article_not_saved": "保存文章！"
+    "article_not_saved": "保存文章！",
   },
   "wheel_fortune": {
     "title": "玩贏",
     "message": "每場比賽的費用為 10 籌碼。您目前有 {chips} 籌碼。通過從商店購買獲得更多籌碼。",
     "win_message": "恭喜你，你贏了！",
     "lost_message": "對不起，你輸了比賽。",
-    "try_again": "你可以再試一次"
+    "try_again": "你可以再試一次",
   },
   "json": {
     "add": "添加結構數據",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "結構",
     "book": {
       "title": "書",
-      "desc": "圖書操作使用戶能夠購買他們直接從搜索結果中找到的圖書。"
+      "desc": "圖書操作使用戶能夠購買他們直接從搜索結果中找到的圖書。",
     },
     "occupation": {
       "title": "預計工資",
-      "desc": "在 Google 的求職體驗中顯示有關工資估算的信息，例如工資範圍和基於地區的工作類型平均工資。"
+      "desc": "在 Google 的求職體驗中顯示有關工資估算的信息，例如工資範圍和基於地區的工作類型平均工資。",
     },
     "course": {
       "title": "課程",
-      "desc": "出現在提供者特定列表中的教育課程。課程可以包括課程名稱、提供者和簡短描述。"
+      "desc": "出現在提供者特定列表中的教育課程。課程可以包括課程名稱、提供者和簡短描述。",
     },
     "howto": {
       "title": "如何",
-      "desc": "How-to 引導用戶完成一系列步驟以成功完成任務，包括視頻、圖像和文本。"
+      "desc": "How-to 引導用戶完成一系列步驟以成功完成任務，包括視頻、圖像和文本。",
     },
     "recipe": {
       "title": "食譜",
-      "desc": "顯示為單個豐富結果或主機輪播的一部分的食譜。"
-    }
+      "desc": "顯示為單個豐富結果或主機輪播的一部分的食譜。",
+    },
   },
   "support": {
     "Financial": "金融",
     "Technical": "技術的",
-    "Advisor": "顧問"
+    "Advisor": "顧問",
   },
   "condition": {
     "new": "新的",
@@ -1885,91 +2098,152 @@ export default {
     "used": "用過的",
     "used_fair": "二手交易會",
     "used_good": "用過很好",
-    "used_like_new": "已使用 - 基本像新的"
+    "used_like_new": "已使用 - 基本像新的",
   },
   "variant_filter": {
     "title": "產品變體過濾器",
-    "only_available": "有存貨"
+    "only_available": "有存貨",
   },
   "service": {
     "task": {
       "title": "任務",
-      "message": "在此服務中執行的任務列表。"
+      "message": "在此服務中執行的任務列表。",
     },
     "appointment": {
       "title": "預約",
-      "message": "根據適合您的日期和時間，從以下時間中選擇一周中的時間。"
+      "message": "根據適合您的日期和時間，從以下時間中選擇一周中的時間。",
     },
     "booking": {
       "title": "預訂",
-      "message": "在下面的日曆中指定您要預訂的日期的時間段。"
+      "message": "在下面的日曆中指定您要預訂的日期的時間段。",
     },
     "subscription": {
-      "title": "訂閱"
+      "title": "訂閱",
     },
     "charge": {
-      "title": "收費"
-    }
+      "title": "收費",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "固定定價",
-      "message": "在這種定價方式中，產品的價格是固定的，不需要買家要求計算價格。"
+      "message": "在這種定價方式中，產品的價格是固定的，不需要買家要求計算價格。",
     },
     "ESTIMATION": {
       "title": "估價",
-      "message": "產品和服務的價格會在一定程度上由賣家在下訂單時計算，付款發票可以在服務過程中更改或添加。"
+      "message": "產品和服務的價格會在一定程度上由賣家在下訂單時計算，付款發票可以在服務過程中更改或添加。",
     },
     "AGREEMENT": {
       "title": "協議定價",
-      "message": "下訂單後，賣方將不會更改產品或服務的最終價格。"
+      "message": "下訂單後，賣方將不會更改產品或服務的最終價格。",
     },
     "BID": {
       "title": "投標/拍賣",
-      "message": "該產品將由潛在買家以最高出價出售。"
-    }
+      "message": "該產品將由潛在買家以最高出價出售。",
+    },
   },
   "map": {
     "title": "接收產品的目的地",
     "confirm": "設置位置",
     "address": "目的地",
-    "receptor": "接收者"
+    "receptor": "接收者",
   },
   "ShopBots": {
-    "telegram": "電報"
+    "telegram": "電報",
   },
   "article_tags": {
     "title": "內容標籤",
     "tags_input": "標籤",
     "tags_input_message": "文章標籤列表",
     "notification": {
-      "add_success": "添加的標籤"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "非常複雜",
-    "hard": "難的",
-    "intermediate": "中間的",
-    "easy": "簡單的"
-  },
-  "billing_period": {
-    "Daily": "日常的",
-    "Weekly": "每週",
-    "Monthly": "月刊",
-    "Every3Months": "每3個月",
-    "Every6Months": "每 6 個月",
-    "Yearly": "每年"
+      "add_success": "添加的標籤",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "哦不好！",
     "between2_3": "沒關係！",
     "between3_4": "人們喜歡它！",
-    "between4_5": "人們喜歡它！"
+    "between4_5": "人們喜歡它！",
   },
   "seasons": {
     "spring": "春天",
     "summer": "夏天",
     "autumn": "秋天",
-    "winter": "冬天"
-  }
+    "winter": "冬天",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

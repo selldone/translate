@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ndakaverenga mazwi ekushandisa uye zvakavanzika mutemo uye ndinobvumirana nazvo.",
   "commons": {
     "Currency": "Mari",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "State",
     "Price": "mutengo",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Net mutengo",
     "tax": "Mutero",
     "tax_included": "Inosanganisirwa mumutengo",
+    "tax_included_abstract": "incl.",
     "limit": "Limit",
     "min_purchase": "Kutenga zvishoma",
     "eligible_for": "Zvakakodzera",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Date rakagadzirwa",
     "updated_at": "Last update",
     "register_at": "Register date",
+    "last_modified": "Last modified",
     "old": "Old",
     "new": "New",
     "start": "Tanga",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Reseller",
     "tracking_code": "Kodhi yekutevera",
     "tracking_url": "Kutsvaga URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Fulfillments",
     "reject": "Ramba",
     "reserved": "Reserved",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Takamirira...",
     "waiting_connecting_payment": "Takamirira basa rekubhadhara...",
     "creating_secure_payment": "Kugadzira kubhadhara kwakachengeteka.",
+    "waiting_for_payment": "Ndokumbira upedze kubhadhara...",
     "officer": "Officer",
     "ticket": "Tikiti",
     "ticket_url": "Url yetikiti",
@@ -361,7 +366,6 @@ export default {
     "rates": "Rating",
     "seen_at": "Kuonekwa pa",
     "completed": "Yakapedzwa",
-    "you": "Iwe",
     "shop": "Shop",
     "store": "store",
     "granted": "Tapiwa",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Acquisition channel",
+    "channels_overview": "Channels overview",
     "to": "To",
     "info": "Info",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per chigadzirwa",
     "journey": "Rwendo",
     "after": "Mushure",
-    "waiting_for_payment": "Ndokumbira upedze kubhadhara...",
     "hour": "Awa",
     "minute": "Mineti",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Zvitoro",
     "vendor": "Mutengesi",
     "vendors": "Vatengesi",
+    "no_vendors": "No vendors",
     "marketplace": "Marketplace",
     "verify_date": "Verify date",
     "note": "Cherechedza",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Secure",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Payment haina kugadziriswa!",
     "orders_list": "Orders list",
     "subscription_plan": "Kunyoresa chirongwa",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Masumbu",
     "subscriptions": "Subscriptions",
     "spam": "Spam",
-    "video": "Vhidhiyo"
+    "video": "Vhidhiyo",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Iwe",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Very complicated",
+    "hard": "Zvakaoma",
+    "intermediate": "Pakati",
+    "easy": "Easy",
   },
   "dialogs": {
     "delete": {
       "title": "Delete",
       "message": "Une chokwadi chekudzima chinhu ichi?",
-      "action": "Hongu, Delete ikozvino"
-    }
+      "action": "Hongu, Delete ikozvino",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Wedzera kuCart",
     "cancel": "Kanzura",
     "update": "Update",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Wedzera kadhi rechipo",
     "charge": "Charge",
     "send_invites": "Tumira kukoka",
-    "past": "Zvakapfuura",
+    "paste": "Paste",
     "restore": "Dzorera",
     "cut": "Cheka",
     "get_sms_code": "Tora kodhi yechokwadi",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Ratidza preview",
     "hide_preview": "Viga preview",
     "download_now": "Download Now",
+    "watch_now": "Tarisa Zvino",
     "auto_fill": "Autofill",
     "track": "Track",
     "change_state": "Chinja Status",
     "done": "Zvaita",
     "reply": "Reply",
-    "watch_now": "Tarisa Zvino",
     "unlock": "Kiinura",
     "lock": "Lock",
     "create_clone": "Gadzira clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Buy",
     "view_all": "View All",
     "view_now": "Ona Iyezvino",
-    "paste": "Paste"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Zvakapfuura",
+  },
+  "billing_period": {
+    "Daily": "Daily",
+    "Weekly": "Weekly",
+    "Monthly": "Monthly",
+    "Every3Months": "Every 3 months",
+    "Every6Months": "Mwedzi mitanhatu yese",
+    "Yearly": "Gore negore",
   },
   "instance_message_title": "Tumira meseji ipapo",
   "instance_message": "Hi {name}, Zita rangu ndinonzi {author} kubva ku{company}.",
   "errors": {
     "419": "Wanga usingaite kwenguva yakareba, ndapota <b>⟳ REFRESSH THE PEJI</b> nekuda kwezvikonzero zvekuchengetedza.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Iyo sisitimu haiwirirani neiyo blockchain. Hazvizogone kugadzira chinhu chitsva kusvika maseva edu ayananisa apera. Tiri kugadzirisa dambudziko.",
-    "gateway_network_error": "Payment gateway service yasangana nedambudziko rekutaurirana."
+    "gateway_network_error": "Payment gateway service yasangana nedambudziko rekutaurirana.",
   },
   "receiver_info": {
     "map": {
       "title": "Kero yekutumira",
       "confirm": "Seta nzvimbo",
       "address_type": "Destination",
-      "receptor_type": "Receiver"
+      "receptor_type": "Receiver",
     },
     "receiver_address": "Sarudza kero yekutumira",
+    "service_address": "Sarudza kero yako",
+    "select_billing_address": "Select billing address",
     "address": "kero",
     "postcode": "Postcode",
     "enter_value": "Zadza pano",
     "address_note": "Cherechedza",
     "tel": "Contact number",
-    "service_address": "Sarudza kero yako"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ounce",
     "lb": "Pondo",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Sendimita",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Tsoka",
     "mm": "millimeter",
     "m": "mita",
-    "yd": "Yard"
+    "yd": "Yard",
   },
   "distance": {
     "m": "mita",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Mazuva",
     "hours": "Maawa",
     "minutes": "Maminitsi",
-    "seconds": "Sekondi"
+    "seconds": "Sekondi",
   },
   "units": [
     "Unit",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "State",
     "Territory": "Territory",
-    "Province": "Province"
+    "Province": "Province",
   },
   "transaction_status": {
     "RequireAction": "Chiito Chinodiwa",
     "Processing": "Processing",
     "Canceled": "Kanzurwa",
-    "Succeeded": "Akabudirira"
+    "Succeeded": "Akabudirira",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Sarudza mutauro..",
     "friend_email": "email yeshamwari yako...",
     "friend_name": "Opt. Zita reshamwari yako",
-    "select_date": "Sarudza zuva..."
+    "select_date": "Sarudza zuva...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Confirm",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Hukuru {maxCount} mavara",
     "invalid_url": "URL haisiriyo",
     "country_invalid": "Sarudza nyika yekuenda!",
-    "postal_code_invalid": "Seta kodhi yepositi inoshanda!"
+    "postal_code_invalid": "Seta kodhi yepositi inoshanda!",
   },
   "colors": {
     "#D32F2F": "Tsvuku",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unit",
     "postcode": "Postcode",
     "note": "Cherechedza",
-    "county": "County"
+    "county": "County",
   },
   "product_types": {
     "physical": "Zvenyama",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Service",
     "service_description": "Masevhisi akaita se: kugadzirisa, chekufambisa, kudzidzisa.",
     "subscription": "Kunyoresa",
-    "subscription_description": "Kunyoreswa uye invoice yezvigadzirwa, masevhisi, kana zvirimo."
+    "subscription_description": "Kunyoreswa uye invoice yezvigadzirwa, masevhisi, kana zvirimo.",
   },
   "license": {
     "free": "Free",
     "startup": "Tanga",
     "company": "Company",
-    "enterprise": "Enterprise"
+    "enterprise": "Enterprise",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Color",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Verenga mupakiti",
     "weight": "Kurema",
     "type": "Material",
-    "style": "Style"
+    "style": "Style",
   },
   "delivery_state": {
     "check_queue": "Takamirira ongororo",
     "order_confirm": "Order Confirmation",
     "preparing_order": "Kugadzirira",
     "sent_order": "Pakutumira",
-    "to_customer": "Delivered"
+    "to_customer": "Delivered",
   },
   "status": {
     "unpaid": "Kusabhadharwa",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Ramba",
     "pending": "Pending",
     "rejected": "Rambwa",
-    "accepted": "Kugamuchirwa"
+    "accepted": "Kugamuchirwa",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Mudhudhudhu",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Global transportation",
     "global_description": "Kutumira mhiri kwemakungwa nemhepo, gungwa kana pasi.",
     "pickup": "Nhonga",
-    "pickup_description": "Vatengi vanotora zvinhu muchitoro chako chenyama kana imba yekuchengetera."
+    "pickup_description": "Vatengi vanotora zvinhu muchitoro chako chenyama kana imba yekuchengetera.",
   },
   "article": {
     "login_to_see_error": "Pinda kuti uwane chinyorwa",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Edit mode",
       "view_mode": "View mode",
-      "delete": "Delete Article"
+      "delete": "Delete Article",
     },
     "schedule_action": "Unoda kuronga kuburitswa?",
     "schedule_title": "Ronga otomatiki-kudhinda",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Mhan'ara kushungurudzwa uye bvisa zvirimo",
       "report_title": "Mhan'ara izvi sezvine utsinye",
       "message": "Ndechipi chikonzero chekutumira izvi? Sarudza imwe yeinotevera sarudzo.",
-      "accept_and_delete_action": "Simbisa uye Delete Content"
+      "accept_and_delete_action": "Simbisa uye Delete Content",
     },
     "schedule_dialog": {
       "title": "Content Release Schedule",
       "publish_at": "Publish at",
       "last_edit": "Kupepetwa kwekupedzisira",
-      "view_action": "Ona Nyaya"
+      "view_action": "Ona Nyaya",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Tumira Mashoko",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Report uye Delete",
       "report_and_delete_success_message": "Nyaya yadzimwa zvakanaka.",
       "report_success_title": "Chinyorwa chinyorwa",
-      "report_success_message": "Chirevo chako pachinyorwa ichi chatumirwa."
+      "report_success_message": "Chirevo chako pachinyorwa ichi chatumirwa.",
     },
     "alert": {
       "delete_article": {
         "title": "Delete Article",
         "message": "Une chokwadi chekuti unoda kudzima zvachose chinyorwa ichi?",
-        "action": "Delete"
-      }
+        "action": "Delete",
+      },
     },
     "edit_window": {
       "title": "Sarudza Image Text uye Summary",
-      "digest": "Summary"
+      "digest": "Summary",
     },
     "editor": {
       "title_placeholder": "Title..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Iri faira rakakurisa:",
       "notifications": {
         "image_uploaded_success": "Mufananidzo wakachengetedzwa zvakanaka",
-        "image_uploaded_failed": "Mufananidzo watadza kuburitsa."
+        "image_uploaded_failed": "Mufananidzo watadza kuburitsa.",
       },
       "embed_placeholder": "Isa iyo iframe kodhi, Facebook, Youtube kana chero imwe URL uye wodzvanya Enter.",
       "embed_caption_placeholder": "Isa zita (sarudzo)",
-      "images_caption_placeholder": "Isa zita remufananidzo uyu.."
-    }
+      "images_caption_placeholder": "Isa zita remufananidzo uyu..",
+    },
   },
   "article_report": {
     "inappropriate": "Zviri muchinyorwa chino hazvina kufanira.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ndinofunga kuti izvi zvine zvinonyadzisira uye zviri kutyora mitemo.",
     "harassment": "Ndinofunga kuti uku kusarura.",
     "hate": "Ndinofunga kuti izvi ndezvekusimudzira mhirizhonga.",
-    "infringe": "Izvi zvinotyora kodzero dzangu."
+    "infringe": "Izvi zvinotyora kodzero dzangu.",
   },
   "comments": {
     "new_action": "Dzvanya kuti usiye mhinduro..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Wana mamwe macomments..",
     "cant_send_comment": "Iwe haugone kuwedzera chinyorwa chitsva.",
     "cant_remove_this_comment": "Haukwanise kudzima chirevo ichi!",
-    "product_buyer": "Mutengi",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Maonero angu",
     "delete_alert": {
       "title": "Delete Comment",
       "message": "Unoda kudzima mashoko aya?",
-      "action": "Delete"
+      "action": "Delete",
     },
     "notifications": {
-      "delete_success": "Mhinduro yako yadzimwa zvabudirira."
+      "delete_success": "Mhinduro yako yadzimwa zvabudirira.",
     },
     "first_send": "First post",
     "comment_at": "On",
     "edit_comment": "Edit Comment",
-    "my_comments": "Maonero angu"
+    "product_buyer": "Mutengi",
   },
   "customer_club": {
     "bronze": "Bronze",
     "silver": "Sirivha",
     "gold": "Ndarama",
     "platinum": "Platinum",
-    "diamond": "Diamond"
+    "diamond": "Diamond",
   },
   "application_categories": {
     "tracking": "Kutarisa Mushandisi Behaviour",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Advertising",
     "staff": "Vashandi",
     "incentive": "Incentives",
-    "shop": "Shop"
+    "shop": "Shop",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Wedzera chinhu chitsva",
     "title_input": "Title",
+    "placeholder_input": "Nzvimbo",
     "name_input": "Variable name",
     "value_input": "Values",
     "value_input_message": "Rondedzero Yekusarudza Kwemushandisi",
     "default": "Default value",
+    "file_type_input": "Mhando dzefaira dzinogamuchirwa",
+    "file_type_message": "jpeg , png , zip ...",
     "types": {
       "simple": "Simple",
       "selective": "Selective",
       "switch": "Switch",
       "file": "File",
-      "number": "Number"
+      "number": "Number",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Nzvimbo",
-    "file_type_input": "Mhando dzefaira dzinogamuchirwa",
-    "file_type_message": "jpeg , png , zip ..."
   },
   "virtual_order_info_summery": {
     "title": "Product Name",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Mari yekubhadhara",
     "payment_status_waiting": "Kumirira kubhadharwa",
     "payment_status_paid": "Yakabhadharwa",
-    "buyer": "Mutengi"
+    "buyer": "Mutengi",
   },
   "virtual_item_info": {
     "title": "Virtual Item",
     "outputs": {
       "title": "Output Information",
       "sub_title": "Yakavanzika Ruzivo rweChinhu ichi",
-      "message": "Ruzivo urwu rucharatidzwa kumushandisi mushure mekutenga chigadzirwa."
+      "message": "Ruzivo urwu rucharatidzwa kumushandisi mushure mekutenga chigadzirwa.",
     },
     "inputs": {
       "title": "Mashoko Anodiwa",
       "sub_title": "Ruzivo rwemutengi runodiwa",
-      "message": "Mutengi anofanira kuisa ruzivo rwakakumbirwa mufomu"
+      "message": "Mutengi anofanira kuisa ruzivo rwakakumbirwa mufomu",
     },
     "notifications": {
       "inputs_set_success": "Ruzivo rwakanyoreswa zvakabudirira.",
       "confirm_by_admin_success": "Kupedzwa kweodha kwasimbiswa.",
-      "confirm_by_buyer_success": "Kupedzwa kweodha kwasimbiswa."
-    }
+      "confirm_by_buyer_success": "Kupedzwa kweodha kwasimbiswa.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Odha iyi haigone kutambirwa nemubhadharo weCOD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Kupererwa nedura.",
     "legal_restriction": "Kutadza kuisa odha nekuda kwezvirambidzo zvemutemo.",
     "pricing_fault": "Kukanganisa kwemitengo nemutengesi.",
-    "system_fault": "System bug."
+    "system_fault": "System bug.",
   },
   "basket_order_info_summery": {
     "receiver": "Receiver",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Discount",
     "final_price": "Mari yekupedzisira",
     "address": "Delivery Address",
-    "payment_status": "Mari yekubhadhara"
+    "payment_status": "Mari yekubhadhara",
   },
   "basket_status": {
     "open": "Vhura",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Kanzurwa",
     "cod": "COD",
     "receipt_added": "Receipt yakawedzerwa",
-    "payment_processing": "Payment processing"
+    "payment_processing": "Payment processing",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Rambwa",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Simbiso",
     "step_3": "Kugadzirira",
     "step_4": "Pakutumira",
-    "step_5": "Delivered"
+    "step_5": "Delivered",
   },
   "basket_return_request_view": {
     "title": "Dzorera Chikumbiro",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Ramba chikumbiro",
     "message_for_admin": "Maererano nechibvumirano chawakagamuchira nekushandisa Selldone, unofanira kuonana nemutengi uye ugomuzivisa nezvemaitiro ekudzorera odha yake. Izvi zvinofanirwa kuitwa kana chikumbiro chikagamuchirwa kana kurambwa uye mvumo yakazara yemutengi yawanikwa.",
     "notifications": {
-      "update_status_success": "Chikumbiro chagadziridzwa."
-    }
+      "update_status_success": "Chikumbiro chagadziridzwa.",
+    },
   },
   "basket_list": {
     "return_count": "Dzoka: {count} nhamba",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Warranties",
       "count": "Count",
-      "price": "mutengo"
-    }
+      "price": "mutengo",
+    },
   },
   "return_request_list": {
     "count": "Reference number",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Received Date",
       "state": "Status",
       "reason": "Chikonzero",
-      "return_warranty_period": "Warranty nguva"
-    }
+      "return_warranty_period": "Warranty nguva",
+    },
   },
   "data_toolbar": {
     "search": "Search",
     "sort_by": "Ronga ne",
-    "count_item": "Ratidza {item} zvinhu"
+    "count_item": "Ratidza {item} zvinhu",
   },
   "sort": {
     "created_at": "Gadzira zuva",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Officer",
     "registered": "Registered",
     "purchased": "Purchased",
-    "sex": "Gender"
+    "sex": "Gender",
   },
   "search_box": {
     "result": "Tsvaga mhinduro",
     "tips": "Tsvaga Zvigadzirwa uye Zvikamu",
     "label": "Tsvaga...",
-    "category": "Category"
+    "category": "Category",
   },
   "lead_status": {
     "physical_fast_delivery": "Instant delivery",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Kugadzirira uye kutumira kubva kune anotevera {days} mazuva",
     "virtual_fast_prepare": "Instant delivery",
     "virtual_under_24h": "Zvichaitwa mukati meanotevera {lead} maawa",
-    "virtual_over_24h": "Zvichaitwa kubva mazuva {days} anotevera"
+    "virtual_over_24h": "Zvichaitwa kubva mazuva {days} anotevera",
   },
   "return_request_state": {
     "pending": "Pending",
     "accepted": "Yakasimbiswa",
-    "rejected": "Rambwa"
+    "rejected": "Rambwa",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Package kana serial number tampering",
       "U5": "Zvimwe zvinhu kubva pasuru hapana",
       "U6": "Chigadzirwa hachisi chepakutanga",
-      "U7": "Chigadzirwa hachigutse zvakatemwa"
-    }
+      "U7": "Chigadzirwa hachigutse zvakatemwa",
+    },
   },
   "image_uploader": {
     "label": "Dhonza & Donhedza kana <u>Sarudza faira</u>",
-    "max_size": "Hukuru hunobvumidzwa: {size}"
+    "max_size": "Hukuru hunobvumidzwa: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "12 masikati kusvika 6 pm",
     "Night": "6 pm-12pm",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "Mugovera",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Chipiri",
     "Wednesday": "Chitatu",
     "Thursday": "China",
-    "Friday": "Chishanu"
+    "Friday": "Chishanu",
   },
   "payment_form": {
     "title": "Sarudza Nzira yekubhadhara",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Makorokoto, odha yako ndeyemahara!",
     "order_free_payment_action": "Odha Yemahara Ikozvino",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Kero yekubhadhara",
-      "amount": "Mari"
-    }
+      "amount": "Mari",
+    },
   },
   "discount_input": {
     "limit": "{percent}% kuderedzwa kusvika {limit} {currency}",
     "action": "Wedzera Discount Code",
     "code_input": "Discount Code",
     "notifications": {
-      "add_success": "Makorokoto, kodhi yedhisiki inoshanda."
-    }
+      "add_success": "Makorokoto, kodhi yedhisiki inoshanda.",
+    },
   },
   "gift_card": {
     "inactive": "Kadhi rakavharwa",
     "expire": "Kupera",
     "transfer": "Transfer",
-    "send_to_friend": "Tumira kushamwari"
+    "send_to_friend": "Tumira kushamwari",
   },
   "count_down": {
     "days": "Zuva",
     "hours": "Awa",
     "minutes": "Maminitsi",
-    "seconds": "Sekondi"
+    "seconds": "Sekondi",
   },
   "gift_status": {
     "Unpaid": "Yakamirira Receipt",
     "Paid": "Yakabhadharwa",
     "Rejected": "Rambwa",
-    "Canceled": "Kanzurwa"
+    "Canceled": "Kanzurwa",
   },
   "gift_program_status": {
     "Airdrop": "Kubhadhara System",
     "Advertising": "Advertising",
     "PersonalGift": "Chipo Chemunhu",
-    "ShopGift": "Chitoro chezvipo"
+    "ShopGift": "Chitoro chezvipo",
   },
   "currency_selector": {
-    "label": "Mari"
+    "label": "Mari",
   },
   "need_login": {
     "title": "login",
     "login_sms": "SMS Login",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Pinda neGoogle",
     "login_facebook": "Pinda ne Facebook",
+    "login_apple": "Pinda neApple",
     "login_account": "Login naSelldone",
     "register": "Mushandisi mutsva? Register now.",
     "mobile_input": "Pinda nharembozha yako",
     "verification_code": "Verification code",
     "msg_title": "Mhoro,",
     "msg_body": "Please login. Zvinotora masekonzi mashoma.",
-    "login_apple": "Pinda neApple",
     "login_email": "Login ne Email",
     "email_login_step_1": "Ndokumbira upe kero yeemail inoshanda, uye isu tichatumira iyo login kodhi kwairi. Hapana kunyoresa kunodiwa.",
     "email_login_step_2": "Une chokwadi here kuti waisa email kero yako nenzira kwayo? Tichange tichitumira kodhi yekupinda kune iyo email yakapihwa, saka ndapota ita shuwa kuti ndeyechokwadi.",
-    "email_login_step_3": "Tatumira kodhi kune yako email. Ndokumbira utarise kuti kodhi ichapera mumaminitsi gumi."
+    "email_login_step_3": "Tatumira kodhi kune yako email. Ndokumbira utarise kuti kodhi ichapera mumaminitsi gumi.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Year Gold Store"
+      "name": "5 Year Gold Store",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Year Gold Store"
+      "name": "4 Year Gold Store",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Year Gold Store"
+      "name": "3 Year Gold Store",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Year Gold Store"
+      "name": "2 Year Gold Store",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Gore Goridhe Chitoro"
+      "name": "1 Gore Goridhe Chitoro",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Golden Investor"
+      "name": "Golden Investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamond Investor"
+      "name": "Diamond Investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Nhengo yeSuperior Community of Communication Networks"
+      "name": "Nhengo yeSuperior Community of Communication Networks",
     },
     "GOLD_SUPPLIER": {
-      "name": "Gold Supplier"
+      "name": "Gold Supplier",
     },
     "GOLD_SELLER": {
-      "name": "Mutengesi Wegoridhe"
+      "name": "Mutengesi Wegoridhe",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Top Content Mugadziri"
+      "name": "Top Content Mugadziri",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Star"
+      "name": "Star",
     },
     "GUARDIAN": {
-      "name": "Great Customer Service"
+      "name": "Great Customer Service",
     },
     "KING": {
-      "name": "Mambo weMusika"
-    }
+      "name": "Mambo weMusika",
+    },
   },
   "cookie": {
     "title": "Iyi webhusaiti inoshandisa makuki",
     "message": "Iyi webhusaiti inoshandisa makuki kuvandudza ruzivo rwevashandisi. Nekushandisa webhusaiti yedu unobvuma makuki ese zvinoenderana neCookie Policy yedu.",
     "preferences_action": "Manage Preferences",
-    "agree_action": "Ndinobvumirana"
+    "agree_action": "Ndinobvumirana",
   },
   "basket_item_message": {
     "title": "Ruzivo rwunodiwa pachinhu ichi",
     "save_actions": "Sevha Mharidzo",
+    "product_inputs_preview_message": "Idzi sarudzo dzekugadzirisa dziripo kune chako chigadzirwa. Kana chinhu chacho chawedzerwa pangoro yako, uchakwanisa kugadzirisa pano.",
     "notifications": {
-      "success": "Yako data yachengetwa."
+      "success": "Yako data yachengetwa.",
     },
-    "product_inputs_preview_message": "Idzi sarudzo dzekugadzirisa dziripo kune chako chigadzirwa. Kana chinhu chacho chawedzerwa pangoro yako, uchakwanisa kugadzirisa pano."
   },
   "faq": {
     "faq": "Mibvunzo Inowanzo bvunzwa",
     "title": "Mibvunzo neMhinduro",
-    "sub_title": "Zvamakatikumbira kuti tiite.",
     "message": "Tsvaga mhinduro yemubvunzo wako pakati pemhinduro dziri pasi apa. Tibvunzei kana mibvunzo ikaramba isina kupindurwa.",
     "add_question_action": "Bvunza Mubvunzo Mutsva",
     "read_more": "Verenga zvimwe ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Mubvunzo",
     "question_input_placeholder": "Bvunza mubvunzo wako.",
     "notifications": {
-      "success_add": "Mubvunzo wako watumirwa zvinobudirira."
-    }
+      "success_add": "Mubvunzo wako watumirwa zvinobudirira.",
+    },
+    "sub_title": "Zvamakatikumbira kuti tiite.",
   },
   "rating_labels": [
     "Zvakaipa kwazvo",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Isa kero yekwaunoenda",
     "enter_your_address": "Isa kero yako.",
     "postal_code": "Postcode",
-    "phone_input": "Runhare {type}",
+    "phone_input": "Runhare",
     "building_number": "Kuvaka nhamba",
     "building_unit": "Unit",
     "full_name_input": "Zita rizere {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Kero label (Inodiwa)",
     "notifications": {
       "save_in_list": "Kero iyi yachengetwa pane yako nerondedzero yayo yese.",
-      "edit_success": "Kero itsva dzakachengetwa mu{title}."
+      "edit_success": "Kero itsva dzakachengetwa mu{title}.",
     },
     "delete_address_dialog": {
       "title": "Delete Kero",
       "message": "Une chokwadi chekuti unoda kudzima kero iyi?",
-      "action": "Bvisa kero"
-    }
+      "action": "Bvisa kero",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Hatikwanisi kugadzirisa iyi pfungwa!",
     "comment_input_empty": "Mameseji emeseji haana chinhu!",
-    "article_not_saved": "Chengetedza chinyorwa!"
+    "article_not_saved": "Chengetedza chinyorwa!",
   },
   "wheel_fortune": {
     "title": "Tamba & Win",
     "message": "Mutengo wemutambo wega wega machipisi gumi. Parizvino une {chips} chip. Wana imwe chip nekutenga kubva muchitoro.",
     "win_message": "Makorokoto, Unokunda!",
     "lost_message": "Ndine urombo, Warasa mutambo.",
-    "try_again": "Unogona kuedza zvakare"
+    "try_again": "Unogona kuedza zvakare",
   },
   "json": {
     "add": "Wedzera data yemaitiro",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Zvimiro",
     "book": {
       "title": "Book",
-      "desc": "Zviito zveBhuku zvinoita kuti vashandisi vatenge bhuku ravanowana kubva mumibairo yekutsvaga."
+      "desc": "Zviito zveBhuku zvinoita kuti vashandisi vatenge bhuku ravanowana kubva mumibairo yekutsvaga.",
     },
     "occupation": {
       "title": "Estimated salary",
-      "desc": "Ruzivo nezve fungidziro yemuhoro, yakadai seyemuhoro uye nharaunda-yakavakirwa muhoro avhareji yemhando dzebasa, inoratidzwa mune yekutsvaga basa ruzivo paGoogle."
+      "desc": "Ruzivo nezve fungidziro yemuhoro, yakadai seyemuhoro uye nharaunda-yakavakirwa muhoro avhareji yemhando dzebasa, inoratidzwa mune yekutsvaga basa ruzivo paGoogle.",
     },
     "course": {
       "title": "Course",
-      "desc": "Makosi edzidzo anoonekwa mune yakasarudzika rondedzero. Makosi anogona kusanganisira zita rekosi, mupi, uye tsananguro pfupi."
+      "desc": "Makosi edzidzo anoonekwa mune yakasarudzika rondedzero. Makosi anogona kusanganisira zita rekosi, mupi, uye tsananguro pfupi.",
     },
     "howto": {
       "title": "Sei-kuita",
-      "desc": "A Mafambiro-ekufamba vashandisi kuburikidza neseti yematanho ekubudirira kupedza basa, rine vhidhiyo, mifananidzo, uye zvinyorwa."
+      "desc": "A Mafambiro-ekufamba vashandisi kuburikidza neseti yematanho ekubudirira kupedza basa, rine vhidhiyo, mifananidzo, uye zvinyorwa.",
     },
     "recipe": {
       "title": "Recipe",
-      "desc": "Mabikirwo anoratidza seyakapfuma mhedzisiro kana chikamu cheanotambira carousel."
-    }
+      "desc": "Mabikirwo anoratidza seyakapfuma mhedzisiro kana chikamu cheanotambira carousel.",
+    },
   },
   "support": {
     "Financial": "Zvemari",
     "Technical": "Technical",
-    "Advisor": "Advisor"
+    "Advisor": "Advisor",
   },
   "condition": {
     "new": "New",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Used",
     "used_fair": "Used fair",
     "used_good": "Yakashandiswa zvakanaka",
-    "used_like_new": "Inoshandiswa sechitsva"
+    "used_like_new": "Inoshandiswa sechitsva",
   },
   "variant_filter": {
     "title": "Product Variant Sefa",
-    "only_available": "Mudura"
+    "only_available": "Mudura",
   },
   "service": {
     "task": {
       "title": "Mabasa",
-      "message": "Rondedzero yemabasa akaitwa musevhisi iyi."
+      "message": "Rondedzero yemabasa akaitwa musevhisi iyi.",
     },
     "appointment": {
       "title": "Appointment",
-      "message": "Sarudza nguva dzevhiki kubva panguva dzinotevera zvichienderana nezuva neawa zvakakunakira."
+      "message": "Sarudza nguva dzevhiki kubva panguva dzinotevera zvichienderana nezuva neawa zvakakunakira.",
     },
     "booking": {
       "title": "Booking",
-      "message": "Taura nguva yemazuva aunoda kuchengetedza mukarenda iri pazasi."
+      "message": "Taura nguva yemazuva aunoda kuchengetedza mukarenda iri pazasi.",
     },
     "subscription": {
-      "title": "Kunyoresa"
+      "title": "Kunyoresa",
     },
     "charge": {
-      "title": "Charge"
-    }
+      "title": "Charge",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fixed Pricing",
-      "message": "Mune rudzi urwu rwemitengo, mutengo wechigadzirwa chiyero chakatarwa uye hapana chikonzero chekuti mutengi akumbire mutengo wekuverenga."
+      "message": "Mune rudzi urwu rwemitengo, mutengo wechigadzirwa chiyero chakatarwa uye hapana chikonzero chekuti mutengi akumbire mutengo wekuverenga.",
     },
     "ESTIMATION": {
       "title": "Estimation Pricing",
-      "message": "Mutengo wezvigadzirwa nemasevhisi uchaverengerwa kune imwe nhanho nemutengesi kana achiisa odha, invoice yekubhadhara inogona kuchinjwa kana kuwedzerwa panguva yebasa."
+      "message": "Mutengo wezvigadzirwa nemasevhisi uchaverengerwa kune imwe nhanho nemutengesi kana achiisa odha, invoice yekubhadhara inogona kuchinjwa kana kuwedzerwa panguva yebasa.",
     },
     "AGREEMENT": {
       "title": "Agreement Pricing",
-      "message": "Mutengo wekupedzisira wezvigadzirwa kana masevhisi hauzoshandurwe nemutengesi mushure mekurongeka kwaiswa."
+      "message": "Mutengo wekupedzisira wezvigadzirwa kana masevhisi hauzoshandurwe nemutengesi mushure mekurongeka kwaiswa.",
     },
     "BID": {
       "title": "Bidhi / Auction",
-      "message": "Chigadzirwa chacho chichatengeswa nemutengo wepamusoro-soro nevanogona kutenga."
-    }
+      "message": "Chigadzirwa chacho chichatengeswa nemutengo wepamusoro-soro nevanogona kutenga.",
+    },
   },
   "map": {
     "title": "Nzvimbo yekugamuchira zvigadzirwa",
     "confirm": "Seta nzvimbo",
     "address": "Destination",
-    "receptor": "Receiver"
+    "receptor": "Receiver",
   },
   "ShopBots": {
-    "telegram": "Telegraph"
+    "telegram": "Telegraph",
   },
   "article_tags": {
     "title": "Content Tags",
     "tags_input": "Tags",
     "tags_input_message": "Tags Rondedzero yechinyorwa ichi",
     "notification": {
-      "add_success": "Tags akawedzerwa"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Very complicated",
-    "hard": "Zvakaoma",
-    "intermediate": "Pakati",
-    "easy": "Easy"
-  },
-  "billing_period": {
-    "Daily": "Daily",
-    "Weekly": "Weekly",
-    "Monthly": "Monthly",
-    "Every3Months": "Every 3 months",
-    "Every6Months": "Mwedzi mitanhatu yese",
-    "Yearly": "Gore negore"
+      "add_success": "Tags akawedzerwa",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Ah hazvina kunaka!",
     "between2_3": "Zvakanaka!",
     "between3_4": "Vanhu vanozvifarira!",
-    "between4_5": "Vanhu vanozvida!"
+    "between4_5": "Vanhu vanozvida!",
   },
   "seasons": {
     "spring": "Spring",
     "summer": "Zhizha",
     "autumn": "Autumn",
-    "winter": "Chando"
-  }
+    "winter": "Chando",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

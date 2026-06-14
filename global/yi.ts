@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "איך האָבן לייענען די טערמינען פון נוצן און פּריוואַטקייט פּאָליטיק און שטימען מיט זיי.",
   "commons": {
     "Currency": "קראַנטקייַט",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "שטאַט",
     "Price": "פּרייַז",
@@ -169,6 +170,7 @@ export default {
     "net_price": "נעץ פּרייַז",
     "tax": "שטייַער",
     "tax_included": "אַרייַנגערעכנט אין פּרייַז",
+    "tax_included_abstract": "ינקל.",
     "limit": "באַגרענעצן",
     "min_purchase": "מינימום קויפן",
     "eligible_for": "פּאַסיק פֿאַר",
@@ -302,6 +304,7 @@ export default {
     "created_at": "באשאפן דאַטע",
     "updated_at": "לעצטע דערהייַנטיקן",
     "register_at": "רעגיסטרירן דאַטע",
+    "last_modified": "Last modified",
     "old": "אַלט",
     "new": "נייַ",
     "start": "אָנהייב",
@@ -330,6 +333,7 @@ export default {
     "reseller": "ריסעלער",
     "tracking_code": "טראַקינג קאָד",
     "tracking_url": "טראַקינג URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "מקיים",
     "reject": "אָפּוואַרפן",
     "reserved": "רעזערווירט",
@@ -341,6 +345,7 @@ export default {
     "waiting": "ווארטן...",
     "waiting_connecting_payment": "ווארטן פֿאַר די צאָלונג דינסט ...",
     "creating_secure_payment": "שאפן זיכער צאָלונג.",
+    "waiting_for_payment": "ביטע פאַרענדיקן צאָלונג ...",
     "officer": "אָפיציר",
     "ticket": "בילעט",
     "ticket_url": "בילעט URL",
@@ -361,7 +366,6 @@ export default {
     "rates": "שאַץ",
     "seen_at": "געזען ביי",
     "completed": "געענדיקט",
-    "you": "איר",
     "shop": "קראָם",
     "store": "קראָם",
     "granted": "געגעבן",
@@ -498,6 +502,7 @@ export default {
     "tablet": "טאַבלעט",
     "pc": "PC",
     "acquisition_channel": "אַקוואַזישאַן קאַנאַל",
+    "channels_overview": "Channels overview",
     "to": "צו",
     "info": "אינפֿאָרמאַציע",
     "general": "אַלגעמיינע",
@@ -559,7 +564,6 @@ export default {
     "per_product": "פּער פּראָדוקט",
     "journey": "נסיעה",
     "after": "נאָך",
-    "waiting_for_payment": "ביטע פאַרענדיקן צאָלונג ...",
     "hour": "שעה",
     "minute": "מינוט",
     "premium": "פּרעמיום",
@@ -569,6 +573,7 @@ export default {
     "shops": "קלייטן",
     "vendor": "פאַרקויפער",
     "vendors": "ווענדאָרס",
+    "no_vendors": "No vendors",
     "marketplace": "מאַרקעטפּלאַסע",
     "verify_date": "באַשטעטיקן דאַטע",
     "note": "נאטיץ",
@@ -604,7 +609,6 @@ export default {
     "variant": "וואַריאַנט",
     "secure": "זיכער",
     "admin": "אַדמין",
-    "tax_included_abstract": "ינקל.",
     "payment_not_settled": "צאָלונג נישט געזעצט!",
     "orders_list": "אָרדערס רשימה",
     "subscription_plan": "אַבאָנעמענט פּלאַן",
@@ -642,16 +646,170 @@ export default {
     "clusters": "קלאַסטערז",
     "subscriptions": "סאַבסקריפּשאַנז",
     "spam": "ספּאַם",
-    "video": "ווידעא"
+    "video": "ווידעא",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "איר",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "זייער קאָמפּליצירט",
+    "hard": "שווער",
+    "intermediate": "ינטערמידייט",
+    "easy": "לייַכט",
   },
   "dialogs": {
     "delete": {
       "title": "ויסמעקן",
       "message": "זענט איר זיכער צו ויסמעקן דעם נומער?",
-      "action": "יא, דיליט איצט"
-    }
+      "action": "יא, דיליט איצט",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "לייג צו צום קארטע",
     "cancel": "באָטל מאַכן",
     "update": "דערהייַנטיקן",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "לייג טאַלאַנט קאָרט",
     "charge": "אָפּצאָל",
     "send_invites": "שיקן ינוויטיישאַנז",
-    "past": "פאַרגאַנגענהייט",
+    "paste": "פּאַפּ",
     "restore": "ריסטאָר",
     "cut": "שנייַדן",
     "get_sms_code": "באַקומען אָטענטאַקיישאַן קאָד",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "ווייַזן פאָרויסיקע ווייַזונג",
     "hide_preview": "באַהאַלטן פאָרויסיקע ווייַזונג",
     "download_now": "דאוונלאוד יעצט",
+    "watch_now": "קוק יעצט",
     "auto_fill": "אַוטאָפילל",
     "track": "שפּור",
     "change_state": "טוישן סטאַטוס",
     "done": "געטאן",
     "reply": "ענטפער",
-    "watch_now": "קוק יעצט",
     "unlock": "ופשליסן",
     "lock": "שלאָס",
     "create_clone": "שאַפֿן קלאָון",
@@ -773,41 +931,71 @@ export default {
     "buy": "קויפן",
     "view_all": "זעה אלעס",
     "view_now": "View איצט",
-    "paste": "פּאַפּ"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "פאַרגאַנגענהייט",
+  },
+  "billing_period": {
+    "Daily": "טעגלעך",
+    "Weekly": "וואכנשריפט",
+    "Monthly": "כוידעשלעך",
+    "Every3Months": "יעדער 3 חדשים",
+    "Every6Months": "יעדער 6 חדשים",
+    "Yearly": "יאָריק",
   },
   "instance_message_title": "שיקן רעגע אָנזאָג",
   "instance_message": "הי {name}, מיין נאָמען איז {author} פֿון {company}.",
   "errors": {
     "419": "איר האָט שוין ינאַקטיוו פֿאַר אַ לאַנג צייַט, ביטע <b>⟳ דערפרישן די בלאַט</b> פֿאַר זיכערהייט סיבות.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "די סיסטעם טוט נישט סינגקראַנייז מיט די בלאָקטשיין. עס וועט ניט זיין מעגלעך צו שאַפֿן אַ נייַע טראַנסאַקטיאָן ביז די סינגקראַנאַזיישאַנז פון אונדזער סערווערס זענען געענדיקט. מיר זענען סאַלווינג די פּראָבלעם.",
-    "gateway_network_error": "צאָלונג גייטוויי דינסט האט געפּלאָנטערט אַ קאָמוניקאַציע פּראָבלעם."
+    "gateway_network_error": "צאָלונג גייטוויי דינסט האט געפּלאָנטערט אַ קאָמוניקאַציע פּראָבלעם.",
   },
   "receiver_info": {
     "map": {
       "title": "אדרעס צו שיקן",
       "confirm": "שטעלן אָרט",
       "address_type": "דעסטיניישאַן",
-      "receptor_type": "באקומער"
+      "receptor_type": "באקומער",
     },
     "receiver_address": "אויסקלייַבן שיפּינג אַדרעס",
+    "service_address": "אויסקלייַבן דיין אַדרעס",
+    "select_billing_address": "Select billing address",
     "address": "אַדרעס",
     "postcode": "פּאָסטקאָדע",
     "enter_value": "פּלאָמבירן דאָ",
     "address_note": "נאטיץ",
     "tel": "קאָנטאַקט נומער",
-    "service_address": "אויסקלייַבן דיין אַדרעס"
   },
   "weight": {
     "g": "ג",
     "oz": "אַז",
     "lb": "לב",
-    "kg": "קג"
+    "kg": "קג",
   },
   "mass_unit_name": {
     "g": "גראַם",
     "oz": "אונס",
     "lb": "פונט",
-    "kg": "קילאָ"
+    "kg": "קילאָ",
   },
   "length": {
     "cm": "סענטימעטער",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "מם",
     "m": "עם",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "סענטימעטער",
@@ -823,17 +1011,21 @@ export default {
     "ft": "פֿיס",
     "mm": "מילאַמיטער",
     "m": "מעטער",
-    "yd": "הויף"
+    "yd": "הויף",
   },
   "distance": {
     "m": "מעטער",
-    "km": "קילאמעטער"
+    "km": "קילאמעטער",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "טעג",
     "hours": "שעהן",
     "minutes": "מינוטן",
-    "seconds": "סעקונדעס"
+    "seconds": "סעקונדעס",
   },
   "units": [
     "אַפּאַראַט",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "שטאַט",
     "Territory": "טעריטאָריע",
-    "Province": "פּראָווינץ"
+    "Province": "פּראָווינץ",
   },
   "transaction_status": {
     "RequireAction": "קאַמף פארלאנגט",
     "Processing": "פּראַסעסינג",
     "Canceled": "קאַנסאַלד",
-    "Succeeded": "מצליח געווען"
+    "Succeeded": "מצליח געווען",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "דזשאָן קאָקס",
@@ -885,7 +1078,17 @@ export default {
     "language": "אויסקלייַבן שפּראַך..",
     "friend_email": "דיין פרייַנד 'ס בליצפּאָסט ...",
     "friend_name": "אָפּט. דיין פרייַנד 'ס נאָמען",
-    "select_date": "אויסקלייַבן אַ דאַטע ..."
+    "select_date": "אויסקלייַבן אַ דאַטע ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "באַשטעטיקן",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "מאַקסימום {maxCount} אותיות",
     "invalid_url": "אומגילטיק URL",
     "country_invalid": "אויסקלייַבן דעסטיניישאַן לאַנד!",
-    "postal_code_invalid": "שטעלן גילטיק פּאָסטקאָד!"
+    "postal_code_invalid": "שטעלן גילטיק פּאָסטקאָד!",
   },
   "colors": {
     "#D32F2F": "רויט",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "אַפּאַראַט",
     "postcode": "פּאָסטקאָדע",
     "note": "נאטיץ",
-    "county": "קאָונטי"
+    "county": "קאָונטי",
   },
   "product_types": {
     "physical": "פיזיש",
@@ -1004,13 +1207,13 @@ export default {
     "service": "סערוויס",
     "service_description": "סערוויסעס ווי: פאַרריכטן, טראַנספּערטיישאַן, לערנען.",
     "subscription": "אַבאָנעמענט",
-    "subscription_description": "אַבאָנעמענט און ינווויסינג פֿאַר פּראָדוקטן, באַדינונגס אָדער אינהאַלט."
+    "subscription_description": "אַבאָנעמענט און ינווויסינג פֿאַר פּראָדוקטן, באַדינונגס אָדער אינהאַלט.",
   },
   "license": {
     "free": "פרייַ",
     "startup": "הייב אן",
     "company": "פירמע",
-    "enterprise": "פאַרנעמונג"
+    "enterprise": "פאַרנעמונג",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "פאַרב",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "ציילן אין פּאַק",
     "weight": "וואָג",
     "type": "מאַטעריאַל",
-    "style": "סטייל"
+    "style": "סטייל",
   },
   "delivery_state": {
     "check_queue": "ווארטן רעצענזיע",
     "order_confirm": "באשטעלונג באשטעטיגונג",
     "preparing_order": "צוגרייטן",
     "sent_order": "אויף עקספּרעס",
-    "to_customer": "איבערגעגעבן"
+    "to_customer": "איבערגעגעבן",
   },
   "status": {
     "unpaid": "ניט באַצאָלט",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "אָפּוואַרפן",
     "pending": "פּענדינג",
     "rejected": "אפגעווארפן",
-    "accepted": "אנגענומען"
+    "accepted": "אנגענומען",
   },
   "dimensions": {
     "cm": "סענטימעטער",
     "km": "קילאמעטער",
-    "kg": "קג"
+    "kg": "קג",
   },
   "transportation_type": {
     "motorbike": "מאָטאָרביקע",
@@ -1224,7 +1429,7 @@ export default {
     "global": "גלאבאלע טראַנספּערטיישאַן",
     "global_description": "שיפּינג מעייווער - לייאַם דורך לופט, ים אָדער לאַנד.",
     "pickup": "הייב אויף",
-    "pickup_description": "קאַסטאַמערז קלייַבן די זאכן אין דיין גשמיות קראָם אָדער ווערכאַוס."
+    "pickup_description": "קאַסטאַמערז קלייַבן די זאכן אין דיין גשמיות קראָם אָדער ווערכאַוס.",
   },
   "article": {
     "login_to_see_error": "לאָגין צו אַקסעס דעם אַרטיקל",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "רעדאַגירן מאָדע",
       "view_mode": "View מאָדע",
-      "delete": "ויסמעקן אַרטיקל"
+      "delete": "ויסמעקן אַרטיקל",
     },
     "schedule_action": "צי איר ווילן צו פּלאַן ארויסגעבן?",
     "schedule_title": "פּלאַן אַוטאָ-ארויסגעבן",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "באריכט זידלען און אַראָפּנעמען אינהאַלט",
       "report_title": "באריכט דעם אינהאַלט ווי זידלען",
       "message": "וואָס איז די סיבה פֿאַר פאָרלייגן דעם אינהאַלט? קלייַבן איינער פון די פאלגענדע אָפּציעס.",
-      "accept_and_delete_action": "באַשטעטיקן און ויסמעקן אינהאַלט"
+      "accept_and_delete_action": "באַשטעטיקן און ויסמעקן אינהאַלט",
     },
     "schedule_dialog": {
       "title": "אינהאַלט מעלדונג פּלאַן",
       "publish_at": "אַרויסגעבן בייַ",
       "last_edit": "לעצטע רעדאַגירן",
-      "view_action": "זען אַרטיקל"
+      "view_action": "זען אַרטיקל",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "פאָרלייגן אינפֿאָרמאַציע",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "באריכט און ויסמעקן",
       "report_and_delete_success_message": "אַרטיקל איז אויסגעמעקט געווארן הצלחה.",
       "report_success_title": "באריכט אַרטיקל",
-      "report_success_message": "דיין באַריכט אויף דעם אַרטיקל איז פּאָסטעד."
+      "report_success_message": "דיין באַריכט אויף דעם אַרטיקל איז פּאָסטעד.",
     },
     "alert": {
       "delete_article": {
         "title": "ויסמעקן אַרטיקל",
         "message": "זענט איר זיכער אַז איר ווילט פּערמאַנאַנטלי ויסמעקן דעם אַרטיקל?",
-        "action": "ויסמעקן"
-      }
+        "action": "ויסמעקן",
+      },
     },
     "edit_window": {
       "title": "אויסקלייַבן בילד טעקסט און קיצער",
-      "digest": "קיצער"
+      "digest": "קיצער",
     },
     "editor": {
       "title_placeholder": "טיטל..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "די טעקע איז צו גרויס:",
       "notifications": {
         "image_uploaded_success": "בילד געראטעוועט הצלחה",
-        "image_uploaded_failed": "טעות לאָודינג בילד."
+        "image_uploaded_failed": "טעות לאָודינג בילד.",
       },
       "embed_placeholder": "אַרייַן די iframe קאָד, פאַסעבאָאָק, יאָוטובע אָדער קיין אנדערע URL און דריקן אַרייַן.",
       "embed_caption_placeholder": "אַרייַן אַ טיטל (אַפּשאַנאַל)",
-      "images_caption_placeholder": "אַרייַן אַ טיטל פֿאַר דעם בילד .."
-    }
+      "images_caption_placeholder": "אַרייַן אַ טיטל פֿאַר דעם בילד ..",
+    },
   },
   "article_report": {
     "inappropriate": "דער אינהאַלט פון דעם אַרטיקל איז ינאַפּראָופּרייט.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "איך טראַכטן דעם אינהאַלט כּולל פּאָרנאָגראַפי און איז אין הילעל פון די געזעצן.",
     "harassment": "איך מיין אז דאס איז ראסיסט.",
     "hate": "איך טראַכטן דאָס איז וועגן פּראַמאָוטינג גוואַלד.",
-    "infringe": "דאס פארלעצט מיינע רעכטן."
+    "infringe": "דאס פארלעצט מיינע רעכטן.",
   },
   "comments": {
     "new_action": "דריקט צו לאָזן אַ באַמערקונג ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "באַקומען מער באַמערקונגען ..",
     "cant_send_comment": "איר קענען נישט לייגן נייַע פּאָסטן.",
     "cant_remove_this_comment": "איר קענען נישט ויסמעקן דעם באַמערקונג!",
-    "product_buyer": "קוינע",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "מייַן באַמערקונגען",
     "delete_alert": {
       "title": "ויסמעקן באַמערקונג",
       "message": "צי איר ווילן צו ויסמעקן דעם באַמערקונג?",
-      "action": "ויסמעקן"
+      "action": "ויסמעקן",
     },
     "notifications": {
-      "delete_success": "דיין באַמערקונג אויסגעמעקט הצלחה."
+      "delete_success": "דיין באַמערקונג אויסגעמעקט הצלחה.",
     },
     "first_send": "ערשטער פּאָסטן",
     "comment_at": "אויף",
     "edit_comment": "רעדאַגירן באַמערקונג",
-    "my_comments": "מייַן באַמערקונגען"
+    "product_buyer": "קוינע",
   },
   "customer_club": {
     "bronze": "בראָנדז",
     "silver": "זילבער",
     "gold": "גאָלדען",
     "platinum": "פּלאַטינום",
-    "diamond": "דימענט"
+    "diamond": "דימענט",
   },
   "application_categories": {
     "tracking": "קאָנטראָלירונג באַניצער נאַטור",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "גאַנצע",
     "staff": "שטעקן",
     "incentive": "ינסענטיווז",
-    "shop": "קראָם"
+    "shop": "קראָם",
   },
   "social_network": {
     "instagram": "ינסטאַגראַם",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "פּינטערעסט",
     "whatsapp": "ווהאַצאַפּפּ",
     "skype": "סקיפּע",
-    "facebook_messenger": "Facebook מעסינדזשער"
+    "facebook_messenger": "Facebook מעסינדזשער",
   },
   "form_builder": {
     "add_item_action": "לייג נייַ נומער",
     "title_input": "טיטל",
+    "placeholder_input": "אָרטהאָלדער",
     "name_input": "וואַריאַבלע נאָמען",
     "value_input": "וואַלועס",
     "value_input_message": "באַניצער אָפּציעס רשימה",
     "default": "פעליקייַט ווערט",
+    "file_type_input": "פּאַסיק טעקע טייפּס",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "פּשוט",
       "selective": "סעלעקטיוו",
       "switch": "באַשטימען",
       "file": "טעקע",
-      "number": "נומער"
+      "number": "נומער",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "אָרטהאָלדער",
-    "file_type_input": "פּאַסיק טעקע טייפּס",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "פּראָדוקט נאָמען",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "צאָלונג סטאַטוס",
     "payment_status_waiting": "ווארטן פֿאַר צאָלונג",
     "payment_status_paid": "באַצאָלט",
-    "buyer": "קוינע"
+    "buyer": "קוינע",
   },
   "virtual_item_info": {
     "title": "ווירטואַל יטעם",
     "outputs": {
       "title": "רעזולטאַט אינפֿאָרמאַציע",
       "sub_title": "קאַנפאַדענטשאַל אינפֿאָרמאַציע פון דעם נומער",
-      "message": "די אינפֿאָרמאַציע וועט זיין געוויזן צו דער באַניצער נאָך פּערטשאַסינג דעם פּראָדוקט."
+      "message": "די אינפֿאָרמאַציע וועט זיין געוויזן צו דער באַניצער נאָך פּערטשאַסינג דעם פּראָדוקט.",
     },
     "inputs": {
       "title": "אינפֿאָרמאַציע פארלאנגט",
       "sub_title": "קוינע אינפֿאָרמאַציע פארלאנגט",
-      "message": "דער קוינע מוזן אַרייַן די געבעטן אינפֿאָרמאַציע אין די פאָרעם"
+      "message": "דער קוינע מוזן אַרייַן די געבעטן אינפֿאָרמאַציע אין די פאָרעם",
     },
     "notifications": {
       "inputs_set_success": "אינפֿאָרמאַציע פאָרעם רעגיסטרירט הצלחה.",
       "confirm_by_admin_success": "סדר קאַמפּלישאַן באשטעטיקט.",
-      "confirm_by_buyer_success": "סדר קאַמפּלישאַן באשטעטיקט."
-    }
+      "confirm_by_buyer_success": "סדר קאַמפּלישאַן באשטעטיקט.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "דער סדר קענען ניט זיין אנגענומען דורך די COD צאָלונג.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "אויס פון לאַגער.",
     "legal_restriction": "ניט געקענט צו שטעלן אַ סדר רעכט צו לעגאַל ריסטריקשאַנז.",
     "pricing_fault": "פּרייסינג טעות דורך טרעגער.",
-    "system_fault": "סיסטעם זשוק."
+    "system_fault": "סיסטעם זשוק.",
   },
   "basket_order_info_summery": {
     "receiver": "באקומער",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "אַראָפּרעכענען",
     "final_price": "לעצט סומע",
     "address": "דעליווערי אדרעס",
-    "payment_status": "צאָלונג סטאַטוס"
+    "payment_status": "צאָלונג סטאַטוס",
   },
   "basket_status": {
     "open": "עפענען",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "קאַנסאַלד",
     "cod": "באַצאָלן אויף עקספּרעס",
     "receipt_added": "קאַבאָלע צוגעגעבן",
-    "payment_processing": "צאָלונג פּראַסעסינג"
+    "payment_processing": "צאָלונג פּראַסעסינג",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "אפגעווארפן",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "באַשטעטיקונג",
     "step_3": "צוגרייטונג",
     "step_4": "אויף עקספּרעס",
-    "step_5": "איבערגעגעבן"
+    "step_5": "איבערגעגעבן",
   },
   "basket_return_request_view": {
     "title": "צוריקקומען בעטן",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "אָפּוואַרפן בעטן",
     "message_for_admin": "לויט די העסקעם וואָס איר האָט אנגענומען דורך ניצן די סעללדאָנע, איר מוזן קאָנטאַקט די קוינע און האַלטן אים ינפאָרמד וועגן דעם פּראָצעס פון צוריקקומען זיין סדר. דעם מוזן זיין געטאן אויב די בקשה איז אנגענומען אָדער פארווארפן און די קוינע ס פול צושטימען איז באקומען.",
     "notifications": {
-      "update_status_success": "בעטן סטאַטוס דערהייַנטיקט."
-    }
+      "update_status_success": "בעטן סטאַטוס דערהייַנטיקט.",
+    },
   },
   "basket_list": {
     "return_count": "צוריקקומען: {count} נומער",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "וואַריאַנט",
       "warranty": "וואָראַנטיז",
       "count": "ציילן",
-      "price": "פּרייַז"
-    }
+      "price": "פּרייַז",
+    },
   },
   "return_request_list": {
     "count": "רעפערענץ נומער",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "באקומען טאָג",
       "state": "סטאַטוס",
       "reason": "סיבה",
-      "return_warranty_period": "וואָראַנטי צייַט"
-    }
+      "return_warranty_period": "וואָראַנטי צייַט",
+    },
   },
   "data_toolbar": {
     "search": "זוכן",
     "sort_by": "סאָרט דורך",
-    "count_item": "ווייַזן {item} זאכן"
+    "count_item": "ווייַזן {item} זאכן",
   },
   "sort": {
     "created_at": "שאַפֿן דאַטע",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "אָפיציר",
     "registered": "רעגיסטרירט",
     "purchased": "געקויפט",
-    "sex": "דזשענדער"
+    "sex": "דזשענדער",
   },
   "search_box": {
     "result": "זוכן רעזולטאַטן",
     "tips": "זוכן פּראָדוקטן און קאַטעגאָריעס",
     "label": "זוך ...",
-    "category": "קאַטעגאָריע"
+    "category": "קאַטעגאָריע",
   },
   "lead_status": {
     "physical_fast_delivery": "רעגע עקספּרעס",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "צוגרייטן און פאָרלייגן פון ווייַטער {days} טעג",
     "virtual_fast_prepare": "רעגע עקספּרעס",
     "virtual_under_24h": "וועט זיין דורכגעקאָכט אין די ווייַטער {lead} שעה",
-    "virtual_over_24h": "וועט זיין געטאן פון די ווייַטער {days} טעג"
+    "virtual_over_24h": "וועט זיין געטאן פון די ווייַטער {days} טעג",
   },
   "return_request_state": {
     "pending": "פּענדינג",
     "accepted": "באשטעטיקט",
-    "rejected": "אפגעווארפן"
+    "rejected": "אפגעווארפן",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "טאַמפּערינג פון פּעקל אָדער סיריאַל נומער",
       "U5": "עטלעכע זאכן פון די פּעקל זענען פעלנדיק",
       "U6": "פּראָדוקט איז נישט אָריגינעל",
-      "U7": "פּראָדוקט טוט נישט באַפרידיקן די ספּעסאַפאַקיישאַנז"
-    }
+      "U7": "פּראָדוקט טוט נישט באַפרידיקן די ספּעסאַפאַקיישאַנז",
+    },
   },
   "image_uploader": {
     "label": "שלעפּן & דראָפּ אָדער <u>אויסקלייַבן טעקע</u>",
-    "max_size": "מאַקסימום ערלויבט גרייס: {size}"
+    "max_size": "מאַקסימום ערלויבט גרייס: {size}",
   },
   "timespan": {
     "Morning": "8:00 - 12:00",
     "Evening": "12 מיטאָגצייַט צו 6 PM",
     "Night": "6 PM-12 PM",
-    "Instant": "רעגע פּאָסטן"
+    "Instant": "רעגע פּאָסטן",
   },
   "week_day": {
     "Saturday": "שבת",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "דינסטיק",
     "Wednesday": "מיטוואך",
     "Thursday": "דאנערשטאג",
-    "Friday": "פרייטאג"
+    "Friday": "פרייטאג",
   },
   "payment_form": {
     "title": "אויסקלייַבן צאָלונג מעטאָד",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "מאַזל - טאָוו, דיין סדר איז פריי!",
     "order_free_payment_action": "סדר פריי איצט",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "צאָלונג אַדרעס",
-      "amount": "סומע"
-    }
+      "amount": "סומע",
+    },
   },
   "discount_input": {
     "limit": "{percent}% אַראָפּרעכענען אַרויף צו {limit} {currency}",
     "action": "לייג אַראָפּרעכענען קאָד",
     "code_input": "אַראָפּרעכענען קאָד",
     "notifications": {
-      "add_success": "מאַזל - טאָוו, גילטיק אַראָפּרעכענען קאָד."
-    }
+      "add_success": "מאַזל - טאָוו, גילטיק אַראָפּרעכענען קאָד.",
+    },
   },
   "gift_card": {
     "inactive": "קאָרט איז פאַרקריפּלט",
     "expire": "עקספּיירי",
     "transfer": "אַריבערפירן",
-    "send_to_friend": "שיקן צו אַ פרייַנד"
+    "send_to_friend": "שיקן צו אַ פרייַנד",
   },
   "count_down": {
     "days": "טאָג",
     "hours": "שעה",
     "minutes": "מינוטן",
-    "seconds": "סעקונדעס"
+    "seconds": "סעקונדעס",
   },
   "gift_status": {
     "Unpaid": "ווארט צו באקומען",
     "Paid": "באַצאָלט",
     "Rejected": "אפגעווארפן",
-    "Canceled": "קאַנסאַלד"
+    "Canceled": "קאַנסאַלד",
   },
   "gift_program_status": {
     "Airdrop": "צאָלונג סיסטעם",
     "Advertising": "גאַנצע",
     "PersonalGift": "פערזענלעכע טאַלאַנט",
-    "ShopGift": "טאַלאַנט שאָפּ"
+    "ShopGift": "טאַלאַנט שאָפּ",
   },
   "currency_selector": {
-    "label": "קראַנטקייַט"
+    "label": "קראַנטקייַט",
   },
   "need_login": {
     "title": "צייכן אריין",
     "login_sms": "SMS לאָגין",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "קלאָץ אין מיט Google",
     "login_facebook": "לאָגין מיט פאַסעבאָאָק",
+    "login_apple": "לאָגין מיט עפּל",
     "login_account": "לאָגין דורך סעללדאָנע",
     "register": "נייַ באַניצער? רעגיסטרירן איצט.",
     "mobile_input": "אַרייַן דיין רירעוודיק",
     "verification_code": "וועראַפאַקיישאַן קאָד",
     "msg_title": "העלא,",
     "msg_body": "ביטע קלאָץ אין. עס נעמט נאָר אַ ביסל סעקונדעס.",
-    "login_apple": "לאָגין מיט עפּל",
     "login_email": "לאָגין דורך בליצפּאָסט",
     "email_login_step_1": "ביטע צושטעלן אַ גילטיק בליצפּאָסט אַדרעס, און מיר וועלן שיקן די לאָגין קאָד צו עס. קיין רעגיסטראַציע איז נייטיק.",
     "email_login_step_2": "זענט איר זיכער אַז איר האָט אריין דיין בליצפּאָסט אַדרעס ריכטיק? מיר וועלן שיקן די לאָגין קאָד צו די צוגעשטעלט E- בריוו, אַזוי ביטע ענשור די אַקיעראַסי.",
-    "email_login_step_3": "מיר האָבן געשיקט אַ קאָד צו דיין בליצפּאָסט. ביטע טאָן אַז די קאָד וועט ויסגיין אין 10 מינוט."
+    "email_login_step_3": "מיר האָבן געשיקט אַ קאָד צו דיין בליצפּאָסט. ביטע טאָן אַז די קאָד וועט ויסגיין אין 10 מינוט.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 יאָר גאָלד קראָם"
+      "name": "5 יאָר גאָלד קראָם",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 יאָר גאָלד קראָם"
+      "name": "4 יאָר גאָלד קראָם",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 יאָר גאָלד קראָם"
+      "name": "3 יאָר גאָלד קראָם",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 יאָר גאָלד קראָם"
+      "name": "2 יאָר גאָלד קראָם",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 יאָר גאָלד קראָם"
+      "name": "1 יאָר גאָלד קראָם",
     },
     "TOKEN_OWNER_1M": {
-      "name": "גאָלדען ינוועסטער"
+      "name": "גאָלדען ינוועסטער",
     },
     "TOKEN_OWNER_10M": {
-      "name": "דימענט ינוועסטער"
+      "name": "דימענט ינוועסטער",
     },
     "TOKEN_OWNER_100M": {
-      "name": "רובין ינוועסטער"
+      "name": "רובין ינוועסטער",
     },
     "COMMUNITY_LOYAL": {
-      "name": "מיטגליד פון דער העכער קאַמיוניטי פון קאָמוניקאַציע נעטוואָרקס"
+      "name": "מיטגליד פון דער העכער קאַמיוניטי פון קאָמוניקאַציע נעטוואָרקס",
     },
     "GOLD_SUPPLIER": {
-      "name": "גאָלד סאַפּלייער"
+      "name": "גאָלד סאַפּלייער",
     },
     "GOLD_SELLER": {
-      "name": "גאָלד הענדלער"
+      "name": "גאָלד הענדלער",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Top אינהאַלט פּראָדוצירער"
+      "name": "Top אינהאַלט פּראָדוצירער",
     },
     "NINJA": {
-      "name": "נינדזשאַ"
+      "name": "נינדזשאַ",
     },
     "STAR": {
-      "name": "שטערן"
+      "name": "שטערן",
     },
     "GUARDIAN": {
-      "name": "גרויס קונה סערוויס"
+      "name": "גרויס קונה סערוויס",
     },
     "KING": {
-      "name": "מלך פון די מאַרק"
-    }
+      "name": "מלך פון די מאַרק",
+    },
   },
   "cookie": {
     "title": "דער וועבזייטל ניצט קיכלעך",
     "message": "דער וועבזייטל ניצט קיכלעך צו פֿאַרבעסערן באַניצער דערפאַרונג. דורך ניצן אונדזער וועבזייטל איר צושטימען צו אַלע קיכלעך אין לויט מיט אונדזער קיכל פּאָליטיק.",
     "preferences_action": "פירן פּרעפֿערענצן",
-    "agree_action": "איך בין מסכים"
+    "agree_action": "איך בין מסכים",
   },
   "basket_item_message": {
     "title": "פארלאנגט אינפֿאָרמאַציע פֿאַר דעם נומער",
     "save_actions": "היט אָנזאָג",
+    "product_inputs_preview_message": "די קוסטאָמיזאַטיאָן אָפּציעס זענען בארעכטיגט פֿאַר דיין אָרדערד פּראָדוקט. אַמאָל די נומער איז מוסיף צו דיין וואָגן, איר קענען מאַכן אַדזשאַסטמאַנץ דאָ.",
     "notifications": {
-      "success": "דיין אַרייַנשרייַב דאַטן איז געראטעוועט."
+      "success": "דיין אַרייַנשרייַב דאַטן איז געראטעוועט.",
     },
-    "product_inputs_preview_message": "די קוסטאָמיזאַטיאָן אָפּציעס זענען בארעכטיגט פֿאַר דיין אָרדערד פּראָדוקט. אַמאָל די נומער איז מוסיף צו דיין וואָגן, איר קענען מאַכן אַדזשאַסטמאַנץ דאָ."
   },
   "faq": {
     "faq": "אָפט געשטעלטע פֿראגן",
     "title": "פֿראגן און ענטפֿערס",
-    "sub_title": "וואָס איר האָט אונדז געבעטן צו טאָן.",
     "message": "קוק פֿאַר די ענטפער צו דיין קשיא צווישן די ענטפֿערס אונטן. פרעגן אונדז אויב פֿראגן בלייבן אַנאַנסערד.",
     "add_question_action": "פרעגן אַ נייַע קשיא",
     "read_more": "לייענען מער ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "פראגע",
     "question_input_placeholder": "פרעגן דיין קשיא.",
     "notifications": {
-      "success_add": "דיין קשיא איז דערלאנגט מיט הצלחה."
-    }
+      "success_add": "דיין קשיא איז דערלאנגט מיט הצלחה.",
+    },
+    "sub_title": "וואָס איר האָט אונדז געבעטן צו טאָן.",
   },
   "rating_labels": [
     "זייער שלעכט",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "אַרייַן דעסטיניישאַן אַדרעס",
     "enter_your_address": "אַרייַן דיין אַדרעס.",
     "postal_code": "פּאָסטקאָדע",
-    "phone_input": "טעלעפאָן {type}",
+    "phone_input": "טעלעפאָן",
     "building_number": "בנין נומער",
     "building_unit": "אַפּאַראַט",
     "full_name_input": "גאַנץ נאָמען {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "אַדרעס פירמע (פאָדערן)",
     "notifications": {
       "save_in_list": "די אַדרעס איז געראטעוועט צו דיין רשימה מיט אַלע זייַן דעטאַילס.",
-      "edit_success": "נייַ אַדרעס וואַלועס געראטעוועט אין {title}."
+      "edit_success": "נייַ אַדרעס וואַלועס געראטעוועט אין {title}.",
     },
     "delete_address_dialog": {
       "title": "ויסמעקן אַדרעס",
       "message": "זענט איר זיכער אַז איר ווילט אויסמעקן דעם אַדרעס?",
-      "action": "אַראָפּנעמען אַדרעס"
-    }
+      "action": "אַראָפּנעמען אַדרעס",
+    },
   },
   "comment_manager": {
     "can_not_edit": "קענען נישט רעדאַגירן דעם באַמערקונג!",
     "comment_input_empty": "אָנזאָג טעקסט איז ליידיק!",
-    "article_not_saved": "היט דעם אַרטיקל!"
+    "article_not_saved": "היט דעם אַרטיקל!",
   },
   "wheel_fortune": {
     "title": "שפּיל & געווינען",
     "message": "דער פּרייַז פון יעדער שפּיל איז 10 טשיפּס. איר איצט האָבן {chips} שפּאָן. באַקומען מער שפּאָן דורך קויפן פון די קראָם.",
     "win_message": "מאַזל - טאָוו, איר געווינען!",
     "lost_message": "אנטשולדיגט, איר פאַרפאַלן די שפּיל.",
-    "try_again": "איר קענען פּרובירן ווידער"
+    "try_again": "איר קענען פּרובירן ווידער",
   },
   "json": {
     "add": "לייג סטרוקטור דאַטן",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "סטראַקטשערז",
     "book": {
       "title": "ספר",
-      "desc": "ספר אַקשאַנז וואָס געבן ניצערס צו קויפן דעם בוך וואָס זיי געפֿינען גלייַך פֿון זוכן רעזולטאַטן."
+      "desc": "ספר אַקשאַנז וואָס געבן ניצערס צו קויפן דעם בוך וואָס זיי געפֿינען גלייַך פֿון זוכן רעזולטאַטן.",
     },
     "occupation": {
       "title": "עסטימאַטעד געצאָלט",
-      "desc": "אינפֿאָרמאַציע וועגן געצאָלט אָפּשאַצונג, אַזאַ ווי געצאָלט ריינדזשאַז און געגנט-באזירט געצאָלט אַוורידזשיז פֿאַר אַרבעט טייפּס, געוויזן אין די אַרבעט זוכן דערפאַרונג אויף Google."
+      "desc": "אינפֿאָרמאַציע וועגן געצאָלט אָפּשאַצונג, אַזאַ ווי געצאָלט ריינדזשאַז און געגנט-באזירט געצאָלט אַוורידזשיז פֿאַר אַרבעט טייפּס, געוויזן אין די אַרבעט זוכן דערפאַרונג אויף Google.",
     },
     "course": {
       "title": "קורס",
-      "desc": "בילדונגקרייז קאָרסאַז וואָס דערשייַנען אין אַ שפּייַזער-ספּעציפיש רשימה. קאָרסאַז קענען אַרייַננעמען דעם קורס טיטל, שפּייַזער און אַ קורץ באַשרייַבונג."
+      "desc": "בילדונגקרייז קאָרסאַז וואָס דערשייַנען אין אַ שפּייַזער-ספּעציפיש רשימה. קאָרסאַז קענען אַרייַננעמען דעם קורס טיטל, שפּייַזער און אַ קורץ באַשרייַבונג.",
     },
     "howto": {
       "title": "ווי אזוי צו",
-      "desc": "א ווי-צו גייט יוזערז דורך אַ גאַנג פון סטעפּס צו הצלחה פאַרענדיקן אַ אַרבעט, מיט ווידעא, בילדער און טעקסט."
+      "desc": "א ווי-צו גייט יוזערז דורך אַ גאַנג פון סטעפּס צו הצלחה פאַרענדיקן אַ אַרבעט, מיט ווידעא, בילדער און טעקסט.",
     },
     "recipe": {
       "title": "רעצעפּט",
-      "desc": "רעסיפּעס וואָס ווייַזן ווי אַ יחיד רייַך רעזולטאַט אָדער טייל פון אַ באַלעבאָס קעראַסעל."
-    }
+      "desc": "רעסיפּעס וואָס ווייַזן ווי אַ יחיד רייַך רעזולטאַט אָדער טייל פון אַ באַלעבאָס קעראַסעל.",
+    },
   },
   "support": {
     "Financial": "פינאַנציעל",
     "Technical": "טעכניש",
-    "Advisor": "אַדווייזער"
+    "Advisor": "אַדווייזער",
   },
   "condition": {
     "new": "נייַ",
@@ -1885,91 +2098,152 @@ export default {
     "used": "געניצט",
     "used_fair": "געוויינט שיין",
     "used_good": "געוויינט גוט",
-    "used_like_new": "געוויינט ווי נייַ"
+    "used_like_new": "געוויינט ווי נייַ",
   },
   "variant_filter": {
     "title": "פּראָדוקט וואַריאַנט פילטער",
-    "only_available": "אין סטאק"
+    "only_available": "אין סטאק",
   },
   "service": {
     "task": {
       "title": "טאַסקס",
-      "message": "רשימה פון טאַסקס געטאן אין דעם דינסט."
+      "message": "רשימה פון טאַסקס געטאן אין דעם דינסט.",
     },
     "appointment": {
       "title": "אַפּוינטמאַנט",
-      "message": "קלייַבן די צייט פון די וואָך פון די פאלגענדע צייט באזירט אויף די טאָג און שעה וואָס איז רעכט פֿאַר איר."
+      "message": "קלייַבן די צייט פון די וואָך פון די פאלגענדע צייט באזירט אויף די טאָג און שעה וואָס איז רעכט פֿאַר איר.",
     },
     "booking": {
       "title": "בוקינג",
-      "message": "ספּעציפיצירן די צייט פון די טעג איר ווילן צו מאַכן אַ רעזערוואַציע אין די קאַלענדאַר אונטן."
+      "message": "ספּעציפיצירן די צייט פון די טעג איר ווילן צו מאַכן אַ רעזערוואַציע אין די קאַלענדאַר אונטן.",
     },
     "subscription": {
-      "title": "אַבאָנעמענט"
+      "title": "אַבאָנעמענט",
     },
     "charge": {
-      "title": "אָפּצאָל"
-    }
+      "title": "אָפּצאָל",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "פאַרפעסטיקט פּרייסינג",
-      "message": "אין דעם טיפּ פון פּרייסינג, די פּרייַז פון די פּראָדוקט איז אַ פאַרפעסטיקט סומע און עס איז ניט דאַרפֿן פֿאַר די קוינע צו בעטן אַ פּרייַז כעזשבן."
+      "message": "אין דעם טיפּ פון פּרייסינג, די פּרייַז פון די פּראָדוקט איז אַ פאַרפעסטיקט סומע און עס איז ניט דאַרפֿן פֿאַר די קוינע צו בעטן אַ פּרייַז כעזשבן.",
     },
     "ESTIMATION": {
       "title": "אָפּשאַצונג פּרייסינג",
-      "message": "די פּרייַז פון פּראָדוקטן און באַדינונגס וועט זיין קאַלקיאַלייטיד צו עטלעכע מאָס דורך די טרעגער ווען פּלייסינג אַ סדר, צאָלונג ינווויסיז קענען זיין טשיינדזשד אָדער צוגעגעבן בעשאַס די דינסט."
+      "message": "די פּרייַז פון פּראָדוקטן און באַדינונגס וועט זיין קאַלקיאַלייטיד צו עטלעכע מאָס דורך די טרעגער ווען פּלייסינג אַ סדר, צאָלונג ינווויסיז קענען זיין טשיינדזשד אָדער צוגעגעבן בעשאַס די דינסט.",
     },
     "AGREEMENT": {
       "title": "העסקעם פּרייסינג",
-      "message": "די לעצט פּרייַז פון די פּראָדוקטן אָדער באַדינונגס וועט נישט זיין פארענדערט דורך די טרעגער נאָך די סדר איז געשטעלט."
+      "message": "די לעצט פּרייַז פון די פּראָדוקטן אָדער באַדינונגס וועט נישט זיין פארענדערט דורך די טרעגער נאָך די סדר איז געשטעלט.",
     },
     "BID": {
       "title": "באַפעלן / ליציטאַציע",
-      "message": "דער פּראָדוקט וועט זיין סאָלד צו די העכסטן באַפעלן פּרייַז דורך פּאָטענציעל בויערס."
-    }
+      "message": "דער פּראָדוקט וועט זיין סאָלד צו די העכסטן באַפעלן פּרייַז דורך פּאָטענציעל בויערס.",
+    },
   },
   "map": {
     "title": "דעסטיניישאַן צו באַקומען פּראָדוקטן",
     "confirm": "שטעלן אָרט",
     "address": "דעסטיניישאַן",
-    "receptor": "באקומער"
+    "receptor": "באקומער",
   },
   "ShopBots": {
-    "telegram": "טעלעגראַם"
+    "telegram": "טעלעגראַם",
   },
   "article_tags": {
     "title": "אינהאַלט טאַגס",
     "tags_input": "טאַגס",
     "tags_input_message": "טאַגס רשימה פון דעם אַרטיקל",
     "notification": {
-      "add_success": "טאַגס צוגעגעבן"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "זייער קאָמפּליצירט",
-    "hard": "שווער",
-    "intermediate": "ינטערמידייט",
-    "easy": "לייַכט"
-  },
-  "billing_period": {
-    "Daily": "טעגלעך",
-    "Weekly": "וואכנשריפט",
-    "Monthly": "כוידעשלעך",
-    "Every3Months": "יעדער 3 חדשים",
-    "Every6Months": "יעדער 6 חדשים",
-    "Yearly": "יאָריק"
+      "add_success": "טאַגס צוגעגעבן",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "אוי נישט גוט!",
     "between2_3": "ס 'איז גוט!",
     "between3_4": "מענטשן ווי עס!",
-    "between4_5": "מענטשן ליבע עס!"
+    "between4_5": "מענטשן ליבע עס!",
   },
   "seasons": {
     "spring": "פרילינג",
     "summer": "זומער",
     "autumn": "האַרבסט",
-    "winter": "ווינטער"
-  }
+    "winter": "ווינטער",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

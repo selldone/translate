@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Jeg har læst vilkårene for brug og privatlivspolitikken og er enig med dem.",
   "commons": {
     "Currency": "betalingsmiddel",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Stat",
     "Price": "pris",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Netto pris",
     "tax": "Skat",
     "tax_included": "Inkluderet i prisen",
+    "tax_included_abstract": "inkl.",
     "limit": "Begrænse",
     "min_purchase": "Minimum køb",
     "eligible_for": "Berettiget til",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Oprettet dato",
     "updated_at": "Sidste ændring",
     "register_at": "Registreringsdato",
+    "last_modified": "Last modified",
     "old": "Gammel",
     "new": "Ny",
     "start": "Start",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Forhandler",
     "tracking_code": "Sporingskode",
     "tracking_url": "Sporings-URL",
+    "fulfillment": "Opfyldelse",
     "fulfillments": "Opfyldelser",
     "reject": "Afvise",
     "reserved": "Reserveret",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Venter...",
     "waiting_connecting_payment": "Venter på betalingstjenesten...",
     "creating_secure_payment": "Oprettelse af sikker betaling.",
+    "waiting_for_payment": "Gennemfør venligst betalingen...",
     "officer": "Officer",
     "ticket": "Billet",
     "ticket_url": "Billet-url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Bedømmelse",
     "seen_at": "Set kl",
     "completed": "Færdiggjort",
-    "you": "Du",
     "shop": "Butik",
     "store": "butik",
     "granted": "Indrømmet",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Opkøbskanal",
+    "channels_overview": "Kanaloversigt",
     "to": "Til",
     "info": "Info",
     "general": "Generel",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per produkt",
     "journey": "Rejse",
     "after": "Efter",
-    "waiting_for_payment": "Gennemfør venligst betalingen...",
     "hour": "Time",
     "minute": "Minut",
     "premium": "Præmie",
@@ -569,6 +573,7 @@ export default {
     "shops": "Butikker",
     "vendor": "Sælger",
     "vendors": "Sælgere",
+    "no_vendors": "Ingen leverandører",
     "marketplace": "Markedsplads",
     "verify_date": "Bekræft dato",
     "note": "Bemærk",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Sikker",
     "admin": "Admin",
-    "tax_included_abstract": "inkl.",
     "payment_not_settled": "Betaling ikke afgjort!",
     "orders_list": "Ordreliste",
     "subscription_plan": "Abonnementsplan",
@@ -643,9 +647,6 @@ export default {
     "subscriptions": "Abonnementer",
     "spam": "Spam",
     "video": "Video",
-    "fulfillment": "Opfyldelse",
-    "channels_overview": "Kanaloversigt",
-    "no_vendors": "Ingen leverandører",
     "ends_in": "Ender i",
     "current": "Strøm",
     "important": "Vigtig",
@@ -682,6 +683,7 @@ export default {
     "refund": "Tilbagebetale",
     "items": "genstande",
     "incentives": "Incitamenter",
+    "you": "Du",
     "recurring_payment": "Tilbagevendende betaling",
     "pricing": "Prissætning",
     "purchase": "Køb",
@@ -712,16 +714,102 @@ export default {
     "system": "System",
     "unknown": "Ukendt",
     "week": "Uge",
-    "agencies": "Agenturer"
+    "agencies": "Agenturer",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Meget kompliceret",
+    "hard": "Svært",
+    "intermediate": "Mellemliggende",
+    "easy": "Let",
   },
   "dialogs": {
     "delete": {
       "title": "Slet",
       "message": "Er du sikker på at du vil slette dette element?",
-      "action": "Ja, slet nu"
-    }
+      "action": "Ja, slet nu",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Tilføj til kurv",
     "cancel": "Afbestille",
     "update": "Opdatering",
@@ -790,7 +878,7 @@ export default {
     "add_giftcard": "Tilføj gavekort",
     "charge": "Oplade",
     "send_invites": "Send invitationer",
-    "past": "Forbi",
+    "paste": "sæt ind",
     "restore": "Gendan",
     "cut": "Skære",
     "get_sms_code": "Hent godkendelseskode",
@@ -819,12 +907,12 @@ export default {
     "show_preview": "Vis forhåndsvisning",
     "hide_preview": "Skjul forhåndsvisning",
     "download_now": "Hent nu",
+    "watch_now": "Se nu",
     "auto_fill": "Autofyld",
     "track": "Spore",
     "change_state": "Skift status",
     "done": "Færdig",
     "reply": "Svar",
-    "watch_now": "Se nu",
     "unlock": "Lås op",
     "lock": "Låse",
     "create_clone": "Opret klon",
@@ -843,7 +931,6 @@ export default {
     "buy": "Købe",
     "view_all": "Se alt",
     "view_now": "Se nu",
-    "paste": "sæt ind",
     "edit_address": "Rediger adresse",
     "resend": "Send igen",
     "deploy_now": "Implementer nu",
@@ -856,41 +943,59 @@ export default {
     "duplicate": "Duplikere",
     "connect": "Forbinde",
     "connect_now": "Tilslut nu",
-    "verify_now": "Bekræft nu"
+    "verify_now": "Bekræft nu",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Forbi",
+  },
+  "billing_period": {
+    "Daily": "Daglige",
+    "Weekly": "Ugentlig",
+    "Monthly": "Månedlige",
+    "Every3Months": "Hver 3. måned",
+    "Every6Months": "Hver 6. måned",
+    "Yearly": "Årligt",
   },
   "instance_message_title": "Send øjeblikkelig besked",
   "instance_message": "Hej {name}, Mit navn er {author} fra {company}.",
   "errors": {
     "419": "Du har været inaktiv i lang tid, venligst <b>⟳ OPDATER SIDEN</b> af sikkerhedsmæssige årsager.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Systemet synkroniserer ikke med blockchain. Det vil ikke være muligt at oprette en ny transaktion, før vores serveres synkroniseringer er gennemført. Vi løser problemet.",
-    "gateway_network_error": "Betalingsgateway-tjenesten er stødt på et kommunikationsproblem."
+    "gateway_network_error": "Betalingsgateway-tjenesten er stødt på et kommunikationsproblem.",
   },
   "receiver_info": {
     "map": {
       "title": "Leveringsadresse",
       "confirm": "Indstil placering",
       "address_type": "Bestemmelsessted",
-      "receptor_type": "Modtager"
+      "receptor_type": "Modtager",
     },
     "receiver_address": "Vælg leveringsadresse",
+    "service_address": "Vælg din adresse",
+    "select_billing_address": "Select billing address",
     "address": "adresse",
     "postcode": "Postnummer",
     "enter_value": "Udfyld her",
     "address_note": "Bemærk",
     "tel": "Kontakt nummer",
-    "service_address": "Vælg din adresse"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Unse",
     "lb": "Pund",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -898,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimeter",
@@ -906,17 +1011,21 @@ export default {
     "ft": "Fod",
     "mm": "millimeter",
     "m": "måler",
-    "yd": "Gård"
+    "yd": "Gård",
   },
   "distance": {
     "m": "måler",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Dage",
     "hours": "Timer",
     "minutes": "Referat",
-    "seconds": "Sekunder"
+    "seconds": "Sekunder",
   },
   "units": [
     "Enhed",
@@ -953,14 +1062,14 @@ export default {
   "region_types": {
     "State": "Stat",
     "Territory": "Territorium",
-    "Province": "Provins"
+    "Province": "Provins",
   },
   "transaction_status": {
     "RequireAction": "Handling påkrævet",
     "Processing": "Forarbejdning",
     "Canceled": "Aflyst",
     "Succeeded": "Det lykkedes",
-    "RequireCapture": "Kræv optagelse"
+    "RequireCapture": "Kræv optagelse",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -976,7 +1085,10 @@ export default {
     "birthday": "Vælg fødselsdag",
     "select_category": "Vælg en kategori...",
     "select_a_country": "Vælg et land...",
-    "filter_country": "Filtrer efter land..."
+    "filter_country": "Filtrer efter land...",
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Bekræfte",
@@ -1001,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maks. {maxCount} tegn",
     "invalid_url": "ugyldig URL",
     "country_invalid": "Vælg destinationsland!",
-    "postal_code_invalid": "Indstil gyldigt postnummer!"
+    "postal_code_invalid": "Indstil gyldigt postnummer!",
   },
   "colors": {
     "#D32F2F": "Rød",
@@ -1083,7 +1195,7 @@ export default {
     "building_unit": "Enhed",
     "postcode": "Postnummer",
     "note": "Bemærk",
-    "county": "Amt"
+    "county": "Amt",
   },
   "product_types": {
     "physical": "Fysisk",
@@ -1095,13 +1207,13 @@ export default {
     "service": "Service",
     "service_description": "Tjenester som: reparation, transport, undervisning.",
     "subscription": "Abonnement",
-    "subscription_description": "Abonnementer og fakturering for produkter, tjenester eller indhold."
+    "subscription_description": "Abonnementer og fakturering for produkter, tjenester eller indhold.",
   },
   "license": {
     "free": "Ledig",
     "startup": "Start op",
     "company": "Selskab",
-    "enterprise": "Enterprise"
+    "enterprise": "Enterprise",
   },
   "currency": {
     "IRR": "IRR",
@@ -1167,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1247,12 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
     "SYP": "SYP",
     "KWD": "KWD",
-    "BTN": "BTN"
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Farve",
@@ -1260,14 +1372,14 @@ export default {
     "count_in_pack": "Tæl i pakken",
     "weight": "Vægt",
     "type": "Materiale",
-    "style": "Stil"
+    "style": "Stil",
   },
   "delivery_state": {
     "check_queue": "Afventer gennemgang",
     "order_confirm": "Ordrebekræftelse",
     "preparing_order": "Forbereder",
     "sent_order": "Ved levering",
-    "to_customer": "Leveret"
+    "to_customer": "Leveret",
   },
   "status": {
     "unpaid": "Ubetalt",
@@ -1290,12 +1402,12 @@ export default {
     "reject": "Afvise",
     "pending": "Verserende",
     "rejected": "Afvist",
-    "accepted": "Accepteret"
+    "accepted": "Accepteret",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motorcykel",
@@ -1317,7 +1429,7 @@ export default {
     "global": "Global transport",
     "global_description": "Forsendelse til udlandet med luft, sø eller land.",
     "pickup": "Saml op",
-    "pickup_description": "Kunder afhenter varerne i din fysiske butik eller lager."
+    "pickup_description": "Kunder afhenter varerne i din fysiske butik eller lager.",
   },
   "article": {
     "login_to_see_error": "Log ind for at få adgang til artiklen",
@@ -1326,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Redigeringstilstand",
       "view_mode": "Visningstilstand",
-      "delete": "Slet artikel"
+      "delete": "Slet artikel",
     },
     "schedule_action": "Vil du planlægge udgivelsen?",
     "schedule_title": "Planlæg automatisk udgivelse",
@@ -1369,7 +1481,7 @@ export default {
       "report_and_delete_title": "Rapportér misbrug og fjern indhold",
       "report_title": "Rapportér dette indhold som misbrug",
       "message": "Hvad er grunden til at indsende dette indhold? Vælg en af følgende muligheder.",
-      "accept_and_delete_action": "Bekræft og slet indhold"
+      "accept_and_delete_action": "Bekræft og slet indhold",
     },
     "schedule_dialog": {
       "title": "Indholdsfrigivelsesplan",
@@ -1378,7 +1490,7 @@ export default {
       "view_action": "Se artikel",
       "no_article": "Ingen planlagt artikel!",
       "current_article": "Nuværende artikel",
-      "article_for_product": "Artikel for produkt"
+      "article_for_product": "Artikel for produkt",
     },
     "notifications": {
       "update_success_title": "Indsend oplysninger",
@@ -1388,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Rapporter og slet",
       "report_and_delete_success_message": "Artiklen er blevet slettet.",
       "report_success_title": "Rapport artikel",
-      "report_success_message": "Din rapport om denne artikel er blevet offentliggjort."
+      "report_success_message": "Din rapport om denne artikel er blevet offentliggjort.",
     },
     "alert": {
       "delete_article": {
         "title": "Slet artikel",
         "message": "Er du sikker på, at du vil slette denne artikel permanent?",
-        "action": "Slet"
-      }
+        "action": "Slet",
+      },
     },
     "edit_window": {
       "title": "Vælg Billedtekst og oversigt",
-      "digest": "Resumé"
+      "digest": "Resumé",
     },
     "editor": {
       "title_placeholder": "Titel..",
@@ -1408,12 +1520,12 @@ export default {
       "max_file_size_error": "Denne fil er for stor:",
       "notifications": {
         "image_uploaded_success": "Billedet blev gemt",
-        "image_uploaded_failed": "Fejl ved indlæsning af billede."
+        "image_uploaded_failed": "Fejl ved indlæsning af billede.",
       },
       "embed_placeholder": "Indtast iframe-koden, Facebook, Youtube eller enhver anden URL, og tryk på Enter.",
       "embed_caption_placeholder": "Indtast en titel (valgfrit)",
-      "images_caption_placeholder": "Indtast en titel for dette billede .."
-    }
+      "images_caption_placeholder": "Indtast en titel for dette billede ..",
+    },
   },
   "article_report": {
     "inappropriate": "Indholdet af denne artikel er upassende.",
@@ -1425,7 +1537,7 @@ export default {
     "violent": "Jeg mener, at dette indhold indeholder pornografi og er i strid med lovene.",
     "harassment": "Jeg synes, det er racistisk.",
     "hate": "Jeg tror, det handler om at fremme vold.",
-    "infringe": "Dette krænker mine rettigheder."
+    "infringe": "Dette krænker mine rettigheder.",
   },
   "comments": {
     "new_action": "Klik for at skrive en kommentar..",
@@ -1438,27 +1550,27 @@ export default {
     "load_more_action": "Få flere kommentarer..",
     "cant_send_comment": "Du kan ikke tilføje nyt indlæg.",
     "cant_remove_this_comment": "Du kan ikke slette denne kommentar!",
-    "product_buyer": "Køber",
+    "verified_buyer": "Verificeret køber",
+    "my_comments": "Mine kommentarer",
     "delete_alert": {
       "title": "Slet kommentar",
       "message": "Vil du slette denne kommentar?",
-      "action": "Slet"
+      "action": "Slet",
     },
     "notifications": {
-      "delete_success": "Din kommentar blev slettet."
+      "delete_success": "Din kommentar blev slettet.",
     },
     "first_send": "Første indlæg",
     "comment_at": "På",
     "edit_comment": "Rediger kommentar",
-    "my_comments": "Mine kommentarer",
-    "verified_buyer": "Verificeret køber"
+    "product_buyer": "Køber",
   },
   "customer_club": {
     "bronze": "Bronze",
     "silver": "Sølv",
     "gold": "Gylden",
     "platinum": "Platin",
-    "diamond": "Diamant"
+    "diamond": "Diamant",
   },
   "application_categories": {
     "tracking": "Kontrol af brugeradfærd",
@@ -1473,7 +1585,7 @@ export default {
     "advertising": "Annoncering",
     "staff": "Personale",
     "incentive": "Incitamenter",
-    "shop": "Butik"
+    "shop": "Butik",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1488,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Tilføj nyt element",
     "title_input": "Titel",
+    "placeholder_input": "Pladsholder",
     "name_input": "Variabel navn",
     "value_input": "Værdier",
     "value_input_message": "Liste over brugerindstillinger",
     "default": "Standard værdi",
+    "file_type_input": "Acceptable filtyper",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Enkel",
       "selective": "Selektiv",
       "switch": "Kontakt",
       "file": "Fil",
-      "number": "Nummer"
+      "number": "Nummer",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Pladsholder",
-    "file_type_input": "Acceptable filtyper",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "produktnavn",
@@ -1517,25 +1630,25 @@ export default {
     "payment_status": "Betalingsstatus",
     "payment_status_waiting": "Venter på betaling",
     "payment_status_paid": "Betalt",
-    "buyer": "Køber"
+    "buyer": "Køber",
   },
   "virtual_item_info": {
     "title": "Virtuelt element",
     "outputs": {
       "title": "Output information",
       "sub_title": "Fortrolige oplysninger om denne vare",
-      "message": "Denne information vil blive vist til brugeren efter køb af produktet."
+      "message": "Denne information vil blive vist til brugeren efter køb af produktet.",
     },
     "inputs": {
       "title": "Information påkrævet",
       "sub_title": "Køberoplysninger påkrævet",
-      "message": "Køber skal indtaste de ønskede oplysninger i formularen"
+      "message": "Køber skal indtaste de ønskede oplysninger i formularen",
     },
     "notifications": {
       "inputs_set_success": "Informationsformularen er registreret.",
       "confirm_by_admin_success": "Ordreafslutning bekræftet.",
-      "confirm_by_buyer_success": "Ordreafslutning bekræftet."
-    }
+      "confirm_by_buyer_success": "Ordreafslutning bekræftet.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Denne ordre kan ikke accepteres af efterkravsbetalingen.",
@@ -1547,7 +1660,7 @@ export default {
     "lack_of_inventory": "Udsolgt.",
     "legal_restriction": "Kan ikke afgive en ordre på grund af juridiske begrænsninger.",
     "pricing_fault": "Prisfejl af sælger.",
-    "system_fault": "Systemfejl."
+    "system_fault": "Systemfejl.",
   },
   "basket_order_info_summery": {
     "receiver": "Modtager",
@@ -1557,7 +1670,7 @@ export default {
     "discount": "Rabat",
     "final_price": "Endeligt beløb",
     "address": "Leveringsadresse",
-    "payment_status": "Betalingsstatus"
+    "payment_status": "Betalingsstatus",
   },
   "basket_status": {
     "open": "Åben",
@@ -1567,7 +1680,7 @@ export default {
     "cod": "Betal ved levering",
     "receipt_added": "Kvittering tilføjet",
     "payment_processing": "Betalingsbehandling",
-    "payment_require_capture": "Kræv optagelse"
+    "payment_require_capture": "Kræv optagelse",
   },
   "basket_delivery_state": {
     "rejected": "Afvist",
@@ -1576,7 +1689,7 @@ export default {
     "step_2": "Bekræftelse",
     "step_3": "Forberedelse",
     "step_4": "Ved levering",
-    "step_5": "Leveret"
+    "step_5": "Leveret",
   },
   "basket_return_request_view": {
     "title": "Returanmodning",
@@ -1594,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Afvis anmodning",
     "message_for_admin": "I henhold til den aftale, du har accepteret ved at bruge Selldonen, skal du kontakte køberen og holde ham/hende informeret om processen med at returnere hans/hendes ordre. Dette skal ske, hvis anmodningen accepteres eller afvises, og købers fulde samtykke indhentes.",
     "notifications": {
-      "update_status_success": "Anmodningsstatus opdateret."
-    }
+      "update_status_success": "Anmodningsstatus opdateret.",
+    },
   },
   "basket_list": {
     "return_count": "Retur: {count} tal",
@@ -1606,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Garantier",
       "count": "Tælle",
-      "price": "pris"
-    }
+      "price": "pris",
+    },
   },
   "return_request_list": {
     "count": "Referencenummer",
@@ -1619,13 +1732,13 @@ export default {
       "delivery_at": "Modtaget dato",
       "state": "Status",
       "reason": "Grund",
-      "return_warranty_period": "Garantiperiode"
-    }
+      "return_warranty_period": "Garantiperiode",
+    },
   },
   "data_toolbar": {
     "search": "Søg",
     "sort_by": "Sorter efter",
-    "count_item": "Vis {item} elementer"
+    "count_item": "Vis {item} elementer",
   },
   "sort": {
     "created_at": "Opret dato",
@@ -1700,13 +1813,13 @@ export default {
     "officer": "Officer",
     "registered": "Registreret",
     "purchased": "Købt",
-    "sex": "Køn"
+    "sex": "Køn",
   },
   "search_box": {
     "result": "Søgeresultater",
     "tips": "Søg efter produkter og kategorier",
     "label": "Søg ...",
-    "category": "Kategori"
+    "category": "Kategori",
   },
   "lead_status": {
     "physical_fast_delivery": "Øjeblikkelig levering",
@@ -1714,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Forberedelse og indsendelse fra næste {days} dage",
     "virtual_fast_prepare": "Øjeblikkelig levering",
     "virtual_under_24h": "Vil blive gjort inden for de næste {lead} timer",
-    "virtual_over_24h": "Vil blive udført fra de næste {days} dage"
+    "virtual_over_24h": "Vil blive udført fra de næste {days} dage",
   },
   "return_request_state": {
     "pending": "Verserende",
     "accepted": "Bekræftet",
-    "rejected": "Afvist"
+    "rejected": "Afvist",
   },
   "return_order_reason": {
     "physical": {
@@ -1729,18 +1842,18 @@ export default {
       "U4": "Pakke- eller serienummermanipulation",
       "U5": "Nogle varer fra pakken mangler",
       "U6": "Produktet er ikke originalt",
-      "U7": "Produktet opfylder ikke specifikationerne"
-    }
+      "U7": "Produktet opfylder ikke specifikationerne",
+    },
   },
   "image_uploader": {
     "label": "Træk og slip eller <u>vælg fil</u>",
-    "max_size": "Maksimal tilladt størrelse: {size}"
+    "max_size": "Maksimal tilladt størrelse: {size}",
   },
   "timespan": {
     "Morning": "8-12",
     "Evening": "12.00 til 18.00",
     "Night": "18.00-12.00",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "lørdag",
@@ -1749,7 +1862,7 @@ export default {
     "Tuesday": "tirsdag",
     "Wednesday": "onsdag",
     "Thursday": "torsdag",
-    "Friday": "Fredag"
+    "Friday": "Fredag",
   },
   "payment_form": {
     "title": "Vælg Betalingsmetode",
@@ -1765,130 +1878,131 @@ export default {
     "order_free_payment": "Tillykke, din ordre er gratis!",
     "order_free_payment_action": "Bestil gratis nu",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Betalingsadresse",
-      "amount": "Beløb"
-    }
+      "amount": "Beløb",
+    },
   },
   "discount_input": {
     "limit": "{percent} % rabat op til {limit} {currency}",
     "action": "Tilføj rabatkode",
     "code_input": "Rabatkode",
     "notifications": {
-      "add_success": "Tillykke, gyldig rabatkode."
-    }
+      "add_success": "Tillykke, gyldig rabatkode.",
+    },
   },
   "gift_card": {
     "inactive": "Kortet er deaktiveret",
     "expire": "Udløb",
     "transfer": "Overførsel",
-    "send_to_friend": "Send til ven"
+    "send_to_friend": "Send til ven",
   },
   "count_down": {
     "days": "Dag",
     "hours": "Time",
     "minutes": "Referat",
-    "seconds": "Sekunder"
+    "seconds": "Sekunder",
   },
   "gift_status": {
     "Unpaid": "Venter på kvittering",
     "Paid": "Betalt",
     "Rejected": "Afvist",
-    "Canceled": "Aflyst"
+    "Canceled": "Aflyst",
   },
   "gift_program_status": {
     "Airdrop": "Betalingssystem",
     "Advertising": "Annoncering",
     "PersonalGift": "Personlig gave",
-    "ShopGift": "Gavebutik"
+    "ShopGift": "Gavebutik",
   },
   "currency_selector": {
-    "label": "betalingsmiddel"
+    "label": "betalingsmiddel",
   },
   "need_login": {
     "title": "Log på",
     "login_sms": "SMS login",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Log ind med Google",
     "login_facebook": "Login med Facebook",
+    "login_apple": "Log ind med Apple",
     "login_account": "Login af Selldone",
     "register": "Ny bruger? Registrer nu.",
     "mobile_input": "Indtast din mobil",
     "verification_code": "Verifikationskode",
     "msg_title": "Hej,",
     "msg_body": "Vær venlig at logge ind. Det tager kun et par sekunder.",
-    "login_apple": "Log ind med Apple",
     "login_email": "Log på via e-mail",
     "email_login_step_1": "Angiv venligst en gyldig e-mailadresse, så sender vi loginkoden til den. Ingen registrering er nødvendig.",
     "email_login_step_2": "Er du sikker på, at du har indtastet din e-mailadresse korrekt? Vi sender loginkoden til den angivne e-mail, så sørg for, at den er nøjagtig.",
-    "email_login_step_3": "Vi har sendt en kode til din e-mail. Bemærk venligst, at koden udløber om 10 minutter."
+    "email_login_step_3": "Vi har sendt en kode til din e-mail. Bemærk venligst, at koden udløber om 10 minutter.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 års guldbutik"
+      "name": "5 års guldbutik",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 års guldbutik"
+      "name": "4 års guldbutik",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 års guldbutik"
+      "name": "3 års guldbutik",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 års guldbutik"
+      "name": "2 års guldbutik",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 års guldbutik"
+      "name": "1 års guldbutik",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Gyldne investor"
+      "name": "Gyldne investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamantinvestor"
+      "name": "Diamantinvestor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Medlem af Superior Community of Communication Networks"
+      "name": "Medlem af Superior Community of Communication Networks",
     },
     "GOLD_SUPPLIER": {
-      "name": "Guldleverandør"
+      "name": "Guldleverandør",
     },
     "GOLD_SELLER": {
-      "name": "Guldhandler"
+      "name": "Guldhandler",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Topindholdsproducent"
+      "name": "Topindholdsproducent",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Stjerne"
+      "name": "Stjerne",
     },
     "GUARDIAN": {
-      "name": "Fantastisk kundeservice"
+      "name": "Fantastisk kundeservice",
     },
     "KING": {
-      "name": "Kongen af markedet"
-    }
+      "name": "Kongen af markedet",
+    },
   },
   "cookie": {
     "title": "Denne hjemmeside bruger cookies",
     "message": "Denne hjemmeside bruger cookies til at forbedre brugeroplevelsen. Ved at bruge vores hjemmeside giver du samtykke til alle cookies i overensstemmelse med vores cookiepolitik.",
     "preferences_action": "Administrer præferencer",
-    "agree_action": "Jeg er enig"
+    "agree_action": "Jeg er enig",
   },
   "basket_item_message": {
     "title": "Nødvendige oplysninger for denne vare",
     "save_actions": "Gem besked",
+    "product_inputs_preview_message": "Disse tilpasningsmuligheder er tilgængelige for dit bestilte produkt. Når varen er tilføjet til din indkøbskurv, vil du kunne foretage justeringer her.",
     "notifications": {
-      "success": "Dine inputdata er blevet gemt."
+      "success": "Dine inputdata er blevet gemt.",
     },
-    "product_inputs_preview_message": "Disse tilpasningsmuligheder er tilgængelige for dit bestilte produkt. Når varen er tilføjet til din indkøbskurv, vil du kunne foretage justeringer her."
   },
   "faq": {
     "faq": "Ofte stillede spørgsmål",
     "title": "Spørgsmål og svar",
-    "sub_title": "Hvad du bad os om at gøre.",
     "message": "Se efter svaret på dit spørgsmål blandt svarene nedenfor. Spørg os, hvis spørgsmål forbliver ubesvarede.",
     "add_question_action": "Stil nyt spørgsmål",
     "read_more": "Læs mere ..",
@@ -1899,8 +2013,9 @@ export default {
     "question_input": "Spørgsmål",
     "question_input_placeholder": "Stil dit spørgsmål.",
     "notifications": {
-      "success_add": "Dit spørgsmål blev sendt."
-    }
+      "success_add": "Dit spørgsmål blev sendt.",
+    },
+    "sub_title": "Hvad du bad os om at gøre.",
   },
   "rating_labels": [
     "Meget dårligt",
@@ -1917,7 +2032,7 @@ export default {
     "enter_address_hint": "Indtast destinationsadresse",
     "enter_your_address": "Indtast din adresse.",
     "postal_code": "Postnummer",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Bygningsnummer",
     "building_unit": "Enhed",
     "full_name_input": "Fulde navn {type}",
@@ -1927,25 +2042,25 @@ export default {
     "address_title_input": "Adressetiket (påkrævet)",
     "notifications": {
       "save_in_list": "Denne adresse er blevet gemt på din liste med alle dens detaljer.",
-      "edit_success": "Nye adresseværdier gemt i {title}."
+      "edit_success": "Nye adresseværdier gemt i {title}.",
     },
     "delete_address_dialog": {
       "title": "Slet adresse",
       "message": "Er du sikker på, at du vil slette denne adresse?",
-      "action": "Fjern adresse"
-    }
+      "action": "Fjern adresse",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Kan ikke redigere denne kommentar!",
     "comment_input_empty": "Beskedteksten er tom!",
-    "article_not_saved": "Gem artiklen!"
+    "article_not_saved": "Gem artiklen!",
   },
   "wheel_fortune": {
     "title": "Spil & vind",
     "message": "Prisen for hvert spil er 10 jetoner. Du har i øjeblikket {chips}-chip. Få mere chip ved at købe i butikken.",
     "win_message": "Tillykke, du vinder!",
     "lost_message": "Undskyld, du tabte spillet.",
-    "try_again": "Du kan prøve igen"
+    "try_again": "Du kan prøve igen",
   },
   "json": {
     "add": "Tilføj strukturdata",
@@ -1953,29 +2068,29 @@ export default {
     "structures": "Strukturer",
     "book": {
       "title": "Bestil",
-      "desc": "Boghandlinger, der gør det muligt for brugere at købe bogen, som de finder direkte fra søgeresultater."
+      "desc": "Boghandlinger, der gør det muligt for brugere at købe bogen, som de finder direkte fra søgeresultater.",
     },
     "occupation": {
       "title": "Anslået løn",
-      "desc": "Oplysninger om lønestimering, såsom lønintervaller og regionsbaserede løngennemsnit for jobtyper, vist i jobsøgningsoplevelsen på Google."
+      "desc": "Oplysninger om lønestimering, såsom lønintervaller og regionsbaserede løngennemsnit for jobtyper, vist i jobsøgningsoplevelsen på Google.",
     },
     "course": {
       "title": "Rute",
-      "desc": "Uddannelsesforløb, der vises på en udbyderspecifik liste. Kurser kan indeholde kursets titel, udbyder og en kort beskrivelse."
+      "desc": "Uddannelsesforløb, der vises på en udbyderspecifik liste. Kurser kan indeholde kursets titel, udbyder og en kort beskrivelse.",
     },
     "howto": {
       "title": "Hvordan",
-      "desc": "En How-to leder brugerne gennem et sæt trin for at fuldføre en opgave, med video, billeder og tekst."
+      "desc": "En How-to leder brugerne gennem et sæt trin for at fuldføre en opgave, med video, billeder og tekst.",
     },
     "recipe": {
       "title": "Opskrift",
-      "desc": "Opskrifter, der vises som et individuelt rigt resultat eller en del af en værtskarrusel."
-    }
+      "desc": "Opskrifter, der vises som et individuelt rigt resultat eller en del af en værtskarrusel.",
+    },
   },
   "support": {
     "Financial": "Finansiel",
     "Technical": "Teknisk",
-    "Advisor": "Rådgiver"
+    "Advisor": "Rådgiver",
   },
   "condition": {
     "new": "Ny",
@@ -1983,139 +2098,152 @@ export default {
     "used": "Brugt",
     "used_fair": "Brugt fair",
     "used_good": "Brugt godt",
-    "used_like_new": "Brugt som ny"
+    "used_like_new": "Brugt som ny",
   },
   "variant_filter": {
     "title": "Produktvariantfilter",
-    "only_available": "På lager"
+    "only_available": "På lager",
   },
   "service": {
     "task": {
       "title": "Opgaver",
-      "message": "Liste over opgaver udført i denne tjeneste."
+      "message": "Liste over opgaver udført i denne tjeneste.",
     },
     "appointment": {
       "title": "Aftale",
-      "message": "Vælg tidspunkter på ugen blandt følgende tidspunkter baseret på den dag og time, der passer til dig."
+      "message": "Vælg tidspunkter på ugen blandt følgende tidspunkter baseret på den dag og time, der passer til dig.",
     },
     "booking": {
       "title": "Booking",
-      "message": "Angiv tidsperioden for de dage, du ønsker at reservere i kalenderen nedenfor."
+      "message": "Angiv tidsperioden for de dage, du ønsker at reservere i kalenderen nedenfor.",
     },
     "subscription": {
-      "title": "Abonnement"
+      "title": "Abonnement",
     },
     "charge": {
-      "title": "Oplade"
-    }
+      "title": "Oplade",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fast prisfastsættelse",
-      "message": "I denne form for prisfastsættelse er prisen på produktet et fast beløb, og der er ikke behov for, at køber anmoder om en prisberegning."
+      "message": "I denne form for prisfastsættelse er prisen på produktet et fast beløb, og der er ikke behov for, at køber anmoder om en prisberegning.",
     },
     "ESTIMATION": {
       "title": "Overslagspris",
-      "message": "Prisen på produkter og ydelser vil i et vist omfang blive beregnet af sælger ved afgivelse af en ordre, betalingsfakturaer kan ændres eller tilføjes under ydelsen."
+      "message": "Prisen på produkter og ydelser vil i et vist omfang blive beregnet af sælger ved afgivelse af en ordre, betalingsfakturaer kan ændres eller tilføjes under ydelsen.",
     },
     "AGREEMENT": {
       "title": "Aftalepris",
-      "message": "Den endelige pris på produkterne eller ydelserne vil ikke blive ændret af sælgeren, efter at ordren er afgivet."
+      "message": "Den endelige pris på produkterne eller ydelserne vil ikke blive ændret af sælgeren, efter at ordren er afgivet.",
     },
     "BID": {
       "title": "Bud / Auktion",
-      "message": "Produktet vil blive solgt til den højeste budpris af potentielle købere."
-    }
+      "message": "Produktet vil blive solgt til den højeste budpris af potentielle købere.",
+    },
   },
   "map": {
     "title": "Destination for at modtage produkter",
     "confirm": "Indstil placering",
     "address": "Bestemmelsessted",
-    "receptor": "Modtager"
+    "receptor": "Modtager",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Indholdstags",
     "tags_input": "Tags",
     "tags_input_message": "Tags Liste over denne artikel",
     "notification": {
-      "add_success": "Tags tilføjet"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Meget kompliceret",
-    "hard": "Svært",
-    "intermediate": "Mellemliggende",
-    "easy": "Let"
-  },
-  "billing_period": {
-    "Daily": "Daglige",
-    "Weekly": "Ugentlig",
-    "Monthly": "Månedlige",
-    "Every3Months": "Hver 3. måned",
-    "Every6Months": "Hver 6. måned",
-    "Yearly": "Årligt"
+      "add_success": "Tags tilføjet",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Og ikke godt!",
     "between2_3": "Det er ok!",
     "between3_4": "Folk kan lide det!",
-    "between4_5": "Folk elsker det!"
+    "between4_5": "Folk elsker det!",
   },
   "seasons": {
     "spring": "Forår",
     "summer": "Sommer",
     "autumn": "Efterår",
-    "winter": "Vinter"
+    "winter": "Vinter",
   },
   "order_chat": {
     "seller": {
       "history": {
-        "subtitle": "Se beskedhistorikken mellem dig og kunden."
+        "subtitle": "Se beskedhistorikken mellem dig og kunden.",
       },
       "new_message": {
-        "subtitle": "Du kan sende beskeder direkte til kunderne her. Når du sender en besked, modtager kunden en e-mailbesked efter 20 minutter. Denne meddelelse vil kun blive sendt én gang hver 24 timer."
-      }
+        "subtitle": "Du kan sende beskeder direkte til kunderne her. Når du sender en besked, modtager kunden en e-mailbesked efter 20 minutter. Denne meddelelse vil kun blive sendt én gang hver 24 timer.",
+      },
     },
     "customer": {
       "history": {
-        "subtitle": "Se beskedhistorikken mellem dig og sælgeren."
+        "subtitle": "Se beskedhistorikken mellem dig og sælgeren.",
       },
       "new_message": {
-        "subtitle": "Du kan sende beskeder direkte til os her."
-      }
-    }
+        "subtitle": "Du kan sende beskeder direkte til os her.",
+      },
+    },
   },
   "ServiceTypes": {
     "DEMAND": {
       "title": "On-Demand",
-      "desc": "såsom boligreparationer, maling, bilreparationer mv."
+      "desc": "såsom boligreparationer, maling, bilreparationer mv.",
     },
     "BOOKING": {
       "title": "Booking",
-      "desc": "Som at booke et hotelværelse eller villa."
+      "desc": "Som at booke et hotelværelse eller villa.",
     },
     "APPOINTMENT": {
       "title": "Aftale",
-      "desc": "Som en aftale om kæledyrspleje eller personlig træning."
+      "desc": "Som en aftale om kæledyrspleje eller personlig træning.",
     },
     "RENTAL": {
       "title": "Udlejning",
-      "desc": "Som at leje et sted eller en bil."
+      "desc": "Som at leje et sted eller en bil.",
     },
     "SUBSCRIPTION": {
       "title": "Abonnement",
-      "desc": "Gerne klubmedlemskab eller Online Coaching."
+      "desc": "Gerne klubmedlemskab eller Online Coaching.",
     },
     "CHARGE": {
       "title": "Oplade",
-      "desc": "Såsom opladning af en konto eller opladning for at bruge en applikation."
+      "desc": "Såsom opladning af en konto eller opladning for at bruge en applikation.",
     },
     "CUSTOM": {
       "title": "Brugerdefinerede",
-      "desc": "Vælg denne mulighed, hvis den tjeneste, du leverer, ikke er nogen af ovenstående."
-    }
-  }
+      "desc": "Vælg denne mulighed, hvis den tjeneste, du leverer, ikke er nogen af ovenstående.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

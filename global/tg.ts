@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ман шартҳои истифода ва сиёсати махфиятро хондам ва бо онҳо розӣ ҳастам.",
   "commons": {
     "Currency": "Асъор",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Давлат",
     "Price": "нарх",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Нархи холис",
     "tax": "андоз",
     "tax_included": "Ба нарх дохил карда шудааст",
+    "tax_included_abstract": "аз ҷумла",
     "limit": "Маҳдудият",
     "min_purchase": "Ҳадди ақали харид",
     "eligible_for": "Барои",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Санаи таъсис",
     "updated_at": "Навсозии охирин",
     "register_at": "Санаи бақайдгирӣ",
+    "last_modified": "Last modified",
     "old": "Кӯҳна",
     "new": "Нав",
     "start": "Оғоз",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Фурӯшанда",
     "tracking_code": "Рамзи пайгирӣ",
     "tracking_url": "URL пайгирӣ",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Ичрохо",
     "reject": "Рад кардан",
     "reserved": "Захира карда шудааст",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Интизорӣ...",
     "waiting_connecting_payment": "Интизори хидмати пардохт аст...",
     "creating_secure_payment": "Эҷоди пардохти бехатар.",
+    "waiting_for_payment": "Лутфан пардохтро анҷом диҳед...",
     "officer": "офицер",
     "ticket": "Билет",
     "ticket_url": "URL-и чипта",
@@ -361,7 +366,6 @@ export default {
     "rates": "Рейтинг",
     "seen_at": "Дар",
     "completed": "Ба итмом расид",
-    "you": "Шумо",
     "shop": "Мағоза",
     "store": "мағоза",
     "granted": "дода шудааст",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Планшет",
     "pc": "PC",
     "acquisition_channel": "Канали харид",
+    "channels_overview": "Channels overview",
     "to": "Ба",
     "info": "Маълумот",
     "general": "Генерал",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Ба хар як махсулот",
     "journey": "Сафар",
     "after": "Баъди",
-    "waiting_for_payment": "Лутфан пардохтро анҷом диҳед...",
     "hour": "Соат",
     "minute": "дақиқа",
     "premium": "Премиум",
@@ -569,6 +573,7 @@ export default {
     "shops": "Мағозаҳо",
     "vendor": "Фурӯшанда",
     "vendors": "Фурӯшандагон",
+    "no_vendors": "No vendors",
     "marketplace": "Бозор",
     "verify_date": "Санаи тасдиқ",
     "note": "Шарҳ",
@@ -604,7 +609,6 @@ export default {
     "variant": "Варианти",
     "secure": "Бехатар",
     "admin": "Админ",
-    "tax_included_abstract": "аз ҷумла",
     "payment_not_settled": "Пардохт ҳал нашудааст!",
     "orders_list": "Рӯйхати фармоишҳо",
     "subscription_plan": "Нақшаи обуна",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Кластерҳо",
     "subscriptions": "Обунаҳо",
     "spam": "Ангалнома",
-    "video": "Видео"
+    "video": "Видео",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Шумо",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Хеле мураккаб",
+    "hard": "Сахт",
+    "intermediate": "Миёна",
+    "easy": "Осон",
   },
   "dialogs": {
     "delete": {
       "title": "Нобуд кунед",
       "message": "Оё мутмаин ҳастед, ки ин ашёро нест кунед?",
-      "action": "Бале, ҳоло нест кунед"
-    }
+      "action": "Бале, ҳоло нест кунед",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "ба сабат андоз",
     "cancel": "Бекор кардан",
     "update": "Навсозӣ",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Иловаи корти тӯҳфа",
     "charge": "Заряд",
     "send_invites": "Даъватҳо фиристед",
-    "past": "Гузашта",
+    "paste": "Часбонед",
     "restore": "Барқарор кардан",
     "cut": "Бурида",
     "get_sms_code": "Рамзи аутентификатсияро гиред",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Намоиши пешнамоиш",
     "hide_preview": "Пешнамоишро пинҳон кунед",
     "download_now": "Ҳоло зеркашӣ кунед",
+    "watch_now": "Ҳоло тамошо кунед",
     "auto_fill": "Автопуркунӣ",
     "track": "Track",
     "change_state": "Статусро тағир диҳед",
     "done": "Иҷро шуд",
     "reply": "Ҷавоб диҳед",
-    "watch_now": "Ҳоло тамошо кунед",
     "unlock": "Кушодан",
     "lock": "Қулф",
     "create_clone": "Клон эҷод кунед",
@@ -773,41 +931,71 @@ export default {
     "buy": "харид",
     "view_all": "Ҳамаро дидан",
     "view_now": "Ҳоло бинед",
-    "paste": "Часбонед"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Гузашта",
+  },
+  "billing_period": {
+    "Daily": "Ҳар рӯз",
+    "Weekly": "Ҳар ҳафта",
+    "Monthly": "Ҳармоҳа",
+    "Every3Months": "Ҳар 3 моҳ",
+    "Every6Months": "Ҳар 6 моҳ",
+    "Yearly": "солона",
   },
   "instance_message_title": "Паёми фаврӣ фиристед",
   "instance_message": "Салом {name}, номи ман {author} аз {company} мебошад.",
   "errors": {
     "419": "Шумо муддати тӯлонӣ ғайрифаъол будед, лутфан <b>⟳ Саҳифаро</b> бо сабабҳои амниятӣ тароват диҳед.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Система бо blockchain ҳамоҳанг нест. То он даме, ки ҳамоҳангсозии серверҳои мо анҷом наёбад, эҷоди транзаксияи нав ғайриимкон хоҳад буд. Мо масъаларо ҳал карда истодаем.",
-    "gateway_network_error": "Хидмати шлюзи пардохт бо мушкилоти иртиботӣ рӯбарӯ шуд."
+    "gateway_network_error": "Хидмати шлюзи пардохт бо мушкилоти иртиботӣ рӯбарӯ шуд.",
   },
   "receiver_info": {
     "map": {
       "title": "Нишонаи расондан",
       "confirm": "Ҷойгиршавӣ",
       "address_type": "Макони таъинот",
-      "receptor_type": "Қабулкунанда"
+      "receptor_type": "Қабулкунанда",
     },
     "receiver_address": "Суроғаи интиқолро интихоб кунед",
+    "service_address": "Суроғаи худро интихоб кунед",
+    "select_billing_address": "Select billing address",
     "address": "адрес",
     "postcode": "Индекси почта",
     "enter_value": "Дар ин ҷо пур кунед",
     "address_note": "Шарҳ",
     "tel": "Рақами тамос",
-    "service_address": "Суроғаи худро интихоб кунед"
   },
   "weight": {
     "g": "г",
     "oz": "оз",
     "lb": "Фунт",
-    "kg": "кг"
+    "kg": "кг",
   },
   "mass_unit_name": {
     "g": "грамм",
     "oz": "Унсия",
     "lb": "Фунт",
-    "kg": "килограмм"
+    "kg": "килограмм",
   },
   "length": {
     "cm": "см",
@@ -815,7 +1003,7 @@ export default {
     "ft": "фут",
     "mm": "мм",
     "m": "м",
-    "yd": "йд"
+    "yd": "йд",
   },
   "size_unit_name": {
     "cm": "Сантиметр",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Пой",
     "mm": "миллиметр",
     "m": "метр",
-    "yd": "Ҳавлӣ"
+    "yd": "Ҳавлӣ",
   },
   "distance": {
     "m": "метр",
-    "km": "км"
+    "km": "км",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Рузхо",
     "hours": "Соатхо",
     "minutes": "Дакикахо",
-    "seconds": "Сонияхо"
+    "seconds": "Сонияхо",
   },
   "units": [
     "Воҳиди",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Давлат",
     "Territory": "Территория",
-    "Province": "вилоят"
+    "Province": "вилоят",
   },
   "transaction_status": {
     "RequireAction": "Амал талаб карда мешавад",
     "Processing": "Коркард",
     "Canceled": "Бекор карда шуд",
-    "Succeeded": "Муваффак шуд"
+    "Succeeded": "Муваффак шуд",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Ҷон Кокс",
@@ -885,7 +1078,17 @@ export default {
     "language": "Забонро интихоб кунед..",
     "friend_email": "Почтаи электронии дӯсти шумо...",
     "friend_name": "Опти Номи дӯсти шумо",
-    "select_date": "Сана интихоб кунед..."
+    "select_date": "Сана интихоб кунед...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Тасдиқ кунед",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Ҳадди аксар {maxCount} аломат",
     "invalid_url": "URL нодуруст",
     "country_invalid": "Кишвари таъинотро интихоб кунед!",
-    "postal_code_invalid": "Индекси дурусти почтаро таъин кунед!"
+    "postal_code_invalid": "Индекси дурусти почтаро таъин кунед!",
   },
   "colors": {
     "#D32F2F": "Сурх",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Воҳиди",
     "postcode": "Индекси почта",
     "note": "Шарҳ",
-    "county": "Шаҳристон"
+    "county": "Шаҳристон",
   },
   "product_types": {
     "physical": "ҷисмонӣ",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Хизмат",
     "service_description": "Хизматрасониҳо ба монанди: таъмир, нақлиёт, таълим.",
     "subscription": "Обуна",
-    "subscription_description": "Обунаҳо ва ҳисобнома барои маҳсулот, хидматҳо ё мундариҷа."
+    "subscription_description": "Обунаҳо ва ҳисобнома барои маҳсулот, хидматҳо ё мундариҷа.",
   },
   "license": {
     "free": "Озод",
     "startup": "Навкор",
     "company": "Ширкат",
-    "enterprise": "Корхона"
+    "enterprise": "Корхона",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Ранги",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Дар баста ҳисоб кунед",
     "weight": "Вазн",
     "type": "Материал",
-    "style": "Услуб"
+    "style": "Услуб",
   },
   "delivery_state": {
     "check_queue": "Интизори барраси",
     "order_confirm": "Тасдиқи фармоиш",
     "preparing_order": "Тайёрӣ",
     "sent_order": "Дар расонидани",
-    "to_customer": "Супурд"
+    "to_customer": "Супурд",
   },
   "status": {
     "unpaid": "Бемузд",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Рад кардан",
     "pending": "Дар интизорӣ",
     "rejected": "Рад карда шуд",
-    "accepted": "Қабул карда шудааст"
+    "accepted": "Қабул карда шудааст",
   },
   "dimensions": {
     "cm": "см",
     "km": "км",
-    "kg": "кг"
+    "kg": "кг",
   },
   "transportation_type": {
     "motorbike": "Мотоцикл",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Интиқоли ҷаҳонӣ",
     "global_description": "Интиқол ба хориҷа тавассути ҳаво, баҳр ё замин.",
     "pickup": "Бардоштан",
-    "pickup_description": "Мизоҷон ашёро аз мағозаи ҷисмонӣ ё анбори шумо мегиранд."
+    "pickup_description": "Мизоҷон ашёро аз мағозаи ҷисмонӣ ё анбори шумо мегиранд.",
   },
   "article": {
     "login_to_see_error": "Барои дастрасӣ ба мақола ворид шавед",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Реҷаи таҳрир",
       "view_mode": "Ҳолати дидан",
-      "delete": "Мақоларо нест кунед"
+      "delete": "Мақоларо нест кунед",
     },
     "schedule_action": "Оё шумо мехоҳед, ки нашрро ба нақша гиред?",
     "schedule_title": "Нақшаи интишори худкор",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Дар бораи сӯиистифода хабар диҳед ва мундариҷаро нест кунед",
       "report_title": "Ин мундариҷаро ҳамчун таҳқиромез гузориш диҳед",
       "message": "Сабаби пешниҳоди ин мундариҷа чист? Яке аз имконоти зеринро интихоб кунед.",
-      "accept_and_delete_action": "Тасдиқ ва нест кардани мундариҷа"
+      "accept_and_delete_action": "Тасдиқ ва нест кардани мундариҷа",
     },
     "schedule_dialog": {
       "title": "Ҷадвали нашри мундариҷа",
       "publish_at": "Нашр дар",
       "last_edit": "Таҳрири охирин",
-      "view_action": "Намоиши мақола"
+      "view_action": "Намоиши мақола",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Маълумотро пешниҳод кунед",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Ҳисобот додан ва нест кардан",
       "report_and_delete_success_message": "Мақола бомуваффақият нест карда шуд.",
       "report_success_title": "Мақолаи гузориш",
-      "report_success_message": "Гузориши шумо дар бораи ин мақола нашр карда шуд."
+      "report_success_message": "Гузориши шумо дар бораи ин мақола нашр карда шуд.",
     },
     "alert": {
       "delete_article": {
         "title": "Мақоларо нест кунед",
         "message": "Шумо мутмаин ҳастед, ки мехоҳед ин мақоларо ба таври доимӣ нест кунед?",
-        "action": "Нобуд кунед"
-      }
+        "action": "Нобуд кунед",
+      },
     },
     "edit_window": {
       "title": "Матни тасвир ва хулосаро интихоб кунед",
-      "digest": "Хулоса"
+      "digest": "Хулоса",
     },
     "editor": {
       "title_placeholder": "Сарлавҳа..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Ин файл хеле калон аст:",
       "notifications": {
         "image_uploaded_success": "Тасвир бомуваффақият захира карда шуд",
-        "image_uploaded_failed": "Хатогӣ ҳангоми боркунии тасвир."
+        "image_uploaded_failed": "Хатогӣ ҳангоми боркунии тасвир.",
       },
       "embed_placeholder": "Рамзи iframe, Facebook, Youtube ё ягон URL-и дигарро ворид кунед ва enter-ро пахш кунед.",
       "embed_caption_placeholder": "Сарлавҳа ворид кунед (ихтиёрӣ)",
-      "images_caption_placeholder": "Барои ин тасвир унвон ворид кунед .."
-    }
+      "images_caption_placeholder": "Барои ин тасвир унвон ворид кунед ..",
+    },
   },
   "article_report": {
     "inappropriate": "Мазмуни ин мақола номуносиб аст.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ман фикр мекунам, ки ин мундариҷа порнография дорад ва хилофи қонунҳост.",
     "harassment": "Ман фикр мекунам, ки ин нажодпарастист.",
     "hate": "Ман фикр мекунам, ки ин дар бораи таблиғи зӯроварӣ аст.",
-    "infringe": "Ин ҳуқуқҳои маро поймол мекунад."
+    "infringe": "Ин ҳуқуқҳои маро поймол мекунад.",
   },
   "comments": {
     "new_action": "Барои шарҳ додан клик кунед..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Шарҳҳои бештар гиред ..",
     "cant_send_comment": "Шумо наметавонед паёми нав илова кунед.",
     "cant_remove_this_comment": "Шумо ин шарҳро нест карда наметавонед!",
-    "product_buyer": "Харидор",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Шарҳҳои ман",
     "delete_alert": {
       "title": "Нобуд кардани шарҳ",
       "message": "Мехоҳед ин шарҳро нест кунед?",
-      "action": "Нобуд кунед"
+      "action": "Нобуд кунед",
     },
     "notifications": {
-      "delete_success": "Шарҳи шумо бомуваффақият нест карда шуд."
+      "delete_success": "Шарҳи шумо бомуваффақият нест карда шуд.",
     },
     "first_send": "Паёми аввал",
     "comment_at": "Дар бораи",
     "edit_comment": "Таҳрири Шарҳ",
-    "my_comments": "Шарҳҳои ман"
+    "product_buyer": "Харидор",
   },
   "customer_club": {
     "bronze": "Бронза",
     "silver": "Нуқра",
     "gold": "Тиллоӣ",
     "platinum": "Платина",
-    "diamond": "Алмос"
+    "diamond": "Алмос",
   },
   "application_categories": {
     "tracking": "Санҷиши рафтори корбар",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Реклама",
     "staff": "Кормандон",
     "incentive": "Ҳавасмандкунӣ",
-    "shop": "Мағоза"
+    "shop": "Мағоза",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Илова кардани ашёи нав",
     "title_input": "Унвон",
+    "placeholder_input": "Ҷойгиркунанда",
     "name_input": "Номи тағирёбанда",
     "value_input": "Арзишҳо",
     "value_input_message": "Рӯйхати имконоти корбар",
     "default": "Арзиши пешфарз",
+    "file_type_input": "Намудҳои файлҳои қобили қабул",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Содда",
       "selective": "Интихоби",
       "switch": "Гузариш",
       "file": "Файл",
-      "number": "Шумораи"
+      "number": "Шумораи",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Ҷойгиркунанда",
-    "file_type_input": "Намудҳои файлҳои қобили қабул",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Номи маҳсулот",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Ҳолати пардохт",
     "payment_status_waiting": "Интизори пардохт",
     "payment_status_paid": "Пардохтшуда",
-    "buyer": "Харидор"
+    "buyer": "Харидор",
   },
   "virtual_item_info": {
     "title": "Объекти виртуалӣ",
     "outputs": {
       "title": "Маълумоти баромад",
       "sub_title": "Маълумоти махфии ин банд",
-      "message": "Ин маълумот пас аз хариди маҳсулот ба корбар нишон дода мешавад."
+      "message": "Ин маълумот пас аз хариди маҳсулот ба корбар нишон дода мешавад.",
     },
     "inputs": {
       "title": "Маълумот талаб карда мешавад",
       "sub_title": "Маълумот дар бораи харидор талаб карда мешавад",
-      "message": "Харидор бояд маълумоти дархостшударо дар форма ворид кунад"
+      "message": "Харидор бояд маълумоти дархостшударо дар форма ворид кунад",
     },
     "notifications": {
       "inputs_set_success": "Шакли иттилоотӣ бомуваффақият ба қайд гирифта шуд.",
       "confirm_by_admin_success": "Иҷрои фармоиш тасдиқ карда шуд.",
-      "confirm_by_buyer_success": "Иҷрои фармоиш тасдиқ карда шуд."
-    }
+      "confirm_by_buyer_success": "Иҷрои фармоиш тасдиқ карда шуд.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ин фармоишро бо пардохти COD қабул карда наметавонад.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Батамом фурӯхта шудааст.",
     "legal_restriction": "Бо сабаби маҳдудиятҳои қонунӣ фармоиш дода намешавад.",
     "pricing_fault": "Хатогии нархгузорӣ аз ҷониби фурӯшанда.",
-    "system_fault": "Хатогии система."
+    "system_fault": "Хатогии система.",
   },
   "basket_order_info_summery": {
     "receiver": "Қабулкунанда",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Тахфиф",
     "final_price": "Маблағи ниҳоӣ",
     "address": "Суроғаи интиқол",
-    "payment_status": "Ҳолати пардохт"
+    "payment_status": "Ҳолати пардохт",
   },
   "basket_status": {
     "open": "Кушодан",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Бекор карда шуд",
     "cod": "Пардохт ҳангоми таҳвил",
     "receipt_added": "Квитансия илова карда шуд",
-    "payment_processing": "Коркарди пардохт"
+    "payment_processing": "Коркарди пардохт",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Рад карда шуд",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Тасдиқ",
     "step_3": "Тайёрӣ",
     "step_4": "Дар расонидани",
-    "step_5": "Супурд"
+    "step_5": "Супурд",
   },
   "basket_return_request_view": {
     "title": "Дархости бозгашт",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Рад кардани дархост",
     "message_for_admin": "Тибқи шартномае, ки шумо бо истифода аз Selldone қабул кардед, шумо бояд бо харидор тамос гиред ва ӯро аз раванди баргардонидани фармоишаш огоҳ кунед. Ин бояд анҷом дода шавад, агар дархост қабул ё рад карда шавад ва розигии пурраи харидор гирифта шавад.",
     "notifications": {
-      "update_status_success": "Ҳолати дархост нав карда шуд."
-    }
+      "update_status_success": "Ҳолати дархост нав карда шуд.",
+    },
   },
   "basket_list": {
     "return_count": "Бозгашт: рақами {count}",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Варианти",
       "warranty": "Кафолатҳо",
       "count": "Ҳисоб",
-      "price": "нарх"
-    }
+      "price": "нарх",
+    },
   },
   "return_request_list": {
     "count": "Рақами истинод",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Санаи қабул",
       "state": "Статус",
       "reason": "Сабаб",
-      "return_warranty_period": "Мӯҳлати кафолат"
-    }
+      "return_warranty_period": "Мӯҳлати кафолат",
+    },
   },
   "data_toolbar": {
     "search": "Ҷустуҷӯ",
     "sort_by": "Ҷудо кардан ба",
-    "count_item": "{item} ашёро нишон диҳед"
+    "count_item": "{item} ашёро нишон диҳед",
   },
   "sort": {
     "created_at": "Эҷоди сана",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "офицер",
     "registered": "Ба қайд гирифта шудааст",
     "purchased": "харида шудааст",
-    "sex": "Гендер"
+    "sex": "Гендер",
   },
   "search_box": {
     "result": "Натоиҷи ҷустуҷӯ",
     "tips": "Ҷустуҷӯи маҳсулот ва категорияҳо",
     "label": "Ҷустуҷӯ ...",
-    "category": "Категория"
+    "category": "Категория",
   },
   "lead_status": {
     "physical_fast_delivery": "Интиқоли фаврӣ",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Аз {days} рӯзи оянда омода ва пешниҳод карда мешавад",
     "virtual_fast_prepare": "Интиқоли фаврӣ",
     "virtual_under_24h": "Дар давоми {lead} соатҳои оянда анҷом дода мешавад",
-    "virtual_over_24h": "Аз {days} оянда анҷом дода мешавад"
+    "virtual_over_24h": "Аз {days} оянда анҷом дода мешавад",
   },
   "return_request_state": {
     "pending": "Дар интизорӣ",
     "accepted": "Тасдик карда шуд",
-    "rejected": "Рад карда шуд"
+    "rejected": "Рад карда шуд",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Рақами баста ё рақами силсилавӣ",
       "U5": "Баъзе чизҳои аз посылка намерасанд",
       "U6": "Маҳсулот аслӣ нест",
-      "U7": "Маҳсулот ба мушаххасот мувофиқат намекунад"
-    }
+      "U7": "Маҳсулот ба мушаххасот мувофиқат намекунад",
+    },
   },
   "image_uploader": {
     "label": "Кашола карда партоед ё <u>файлро интихоб кунед</u>",
-    "max_size": "Андозаи ҳадди иҷозатдодашуда: {size}"
+    "max_size": "Андозаи ҳадди иҷозатдодашуда: {size}",
   },
   "timespan": {
     "Morning": "8 пагохй — 12 бегохй",
     "Evening": "Соати 12 то 18",
     "Night": "Соати 18-12",
-    "Instant": "Паёми фаврӣ"
+    "Instant": "Паёми фаврӣ",
   },
   "week_day": {
     "Saturday": "шанбе",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "сешанбе",
     "Wednesday": "Чоршанбе",
     "Thursday": "Панҷшанбе",
-    "Friday": "Ҷумъа"
+    "Friday": "Ҷумъа",
   },
   "payment_form": {
     "title": "Усули пардохтро интихоб кунед",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Табрикот, фармоиши шумо ройгон аст!",
     "order_free_payment_action": "Ҳоло ройгон фармоиш диҳед",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Суроғаи пардохт",
-      "amount": "Маблағ"
-    }
+      "amount": "Маблағ",
+    },
   },
   "discount_input": {
     "limit": "{percent}% тахфиф то {limit} {currency}",
     "action": "Рамзи тахфифро илова кунед",
     "code_input": "Рамзи тахфиф",
     "notifications": {
-      "add_success": "Табрикот, рамзи тахфиф эътибор дорад."
-    }
+      "add_success": "Табрикот, рамзи тахфиф эътибор дорад.",
+    },
   },
   "gift_card": {
     "inactive": "Корт ғайрифаъол аст",
     "expire": "Ба охир расидани мухлат",
     "transfer": "Интиқол",
-    "send_to_friend": "Ба дӯст фиристед"
+    "send_to_friend": "Ба дӯст фиристед",
   },
   "count_down": {
     "days": "рӯз",
     "hours": "Соат",
     "minutes": "Дакикахо",
-    "seconds": "Сонияхо"
+    "seconds": "Сонияхо",
   },
   "gift_status": {
     "Unpaid": "Интизори гирифтани",
     "Paid": "Пардохтшуда",
     "Rejected": "Рад карда шуд",
-    "Canceled": "Бекор карда шуд"
+    "Canceled": "Бекор карда шуд",
   },
   "gift_program_status": {
     "Airdrop": "Системаи пардохт",
     "Advertising": "Реклама",
     "PersonalGift": "Тӯҳфаи шахсӣ",
-    "ShopGift": "Мағозаи тӯҳфаҳо"
+    "ShopGift": "Мағозаи тӯҳфаҳо",
   },
   "currency_selector": {
-    "label": "Асъор"
+    "label": "Асъор",
   },
   "need_login": {
     "title": "даромадан",
     "login_sms": "Воридшавӣ ба SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Бо Google ворид шавед",
     "login_facebook": "Бо Facebook ворид шавед",
+    "login_apple": "Бо Apple ворид шавед",
     "login_account": "Воридшавӣ аз ҷониби Selldone",
     "register": "Корбари нав? Ҳоло сабти ном кунед.",
     "mobile_input": "Мобилияти худро ворид кунед",
     "verification_code": "Рамзи озмоиш",
     "msg_title": "Салом,",
     "msg_body": "Лутфан ворид шавед. Ин ҳамагӣ чанд сонияро мегирад.",
-    "login_apple": "Бо Apple ворид шавед",
     "login_email": "Воридшавӣ тавассути почтаи электронӣ",
     "email_login_step_1": "Лутфан суроғаи почтаи электронии дурустро пешниҳод кунед ва мо рамзи воридшавиро ба он мефиристем. Бақайдгирӣ лозим нест.",
     "email_login_step_2": "Оё мутмаин ҳастед, ки суроғаи почтаи электронии худро дуруст ворид кардаед? Мо рамзи воридшавиро ба почтаи электронии пешниҳодшуда мефиристем, аз ин рӯ лутфан дурустии онро таъмин кунед.",
-    "email_login_step_3": "Мо ба почтаи электронии шумо код фиристодем. Лутфан қайд кунед, ки мӯҳлати рамз пас аз 10 дақиқа тамом мешавад."
+    "email_login_step_3": "Мо ба почтаи электронии шумо код фиристодем. Лутфан қайд кунед, ки мӯҳлати рамз пас аз 10 дақиқа тамом мешавад.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Мағозаи тиллоии 5-сола"
+      "name": "Мағозаи тиллоии 5-сола",
     },
     "GOLDEN_2YEAR": {
-      "name": "Мағозаи тиллоии 4-сола"
+      "name": "Мағозаи тиллоии 4-сола",
     },
     "GOLDEN_3YEAR": {
-      "name": "Мағозаи тиллоии 3-сола"
+      "name": "Мағозаи тиллоии 3-сола",
     },
     "GOLDEN_4YEAR": {
-      "name": "Мағозаи тиллоии 2 сола"
+      "name": "Мағозаи тиллоии 2 сола",
     },
     "GOLDEN_5YEAR": {
-      "name": "Мағозаи тиллоии 1 сол"
+      "name": "Мағозаи тиллоии 1 сол",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Сармоягузори тиллоӣ"
+      "name": "Сармоягузори тиллоӣ",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Сармоягузори алмос"
+      "name": "Сармоягузори алмос",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Сармоягузори Ruby"
+      "name": "Сармоягузори Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Узви Ҷамъияти олии шабакаҳои коммуникатсионӣ"
+      "name": "Узви Ҷамъияти олии шабакаҳои коммуникатсионӣ",
     },
     "GOLD_SUPPLIER": {
-      "name": "Таъминкунандаи тилло"
+      "name": "Таъминкунандаи тилло",
     },
     "GOLD_SELLER": {
-      "name": "Дилери тилло"
+      "name": "Дилери тилло",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Истеҳсолкунандаи беҳтарин мундариҷа"
+      "name": "Истеҳсолкунандаи беҳтарин мундариҷа",
     },
     "NINJA": {
-      "name": "Ниндзя"
+      "name": "Ниндзя",
     },
     "STAR": {
-      "name": "Ситора"
+      "name": "Ситора",
     },
     "GUARDIAN": {
-      "name": "Хизматрасонии бузурги муштариён"
+      "name": "Хизматрасонии бузурги муштариён",
     },
     "KING": {
-      "name": "Подшоҳи бозор"
-    }
+      "name": "Подшоҳи бозор",
+    },
   },
   "cookie": {
     "title": "Ин вебсайт кукиҳоро истифода мебарад",
     "message": "Ин вебсайт кукиҳоро барои беҳтар кардани таҷрибаи корбар истифода мебарад. Бо истифода аз вебсайти мо шумо ба ҳама кукиҳо мувофиқи Сиёсати кукиҳои мо розӣ мешавед.",
     "preferences_action": "Идоракунии афзалиятҳо",
-    "agree_action": "Ман розӣ"
+    "agree_action": "Ман розӣ",
   },
   "basket_item_message": {
     "title": "Маълумоти зарурӣ барои ин ашё",
     "save_actions": "Захира кардани паём",
+    "product_inputs_preview_message": "Ин имконоти мутобиқсозӣ барои маҳсулоти фармоишии шумо дастрасанд. Вақте ки ашё ба аробаи шумо илова карда мешавад, шумо метавонед дар ин ҷо ислоҳот ворид кунед.",
     "notifications": {
-      "success": "Маълумоти воридшудаи шумо захира карда шуд."
+      "success": "Маълумоти воридшудаи шумо захира карда шуд.",
     },
-    "product_inputs_preview_message": "Ин имконоти мутобиқсозӣ барои маҳсулоти фармоишии шумо дастрасанд. Вақте ки ашё ба аробаи шумо илова карда мешавад, шумо метавонед дар ин ҷо ислоҳот ворид кунед."
   },
   "faq": {
     "faq": "Саволҳои зуд-зуд додашаванда",
     "title": "Саволҳо ва Ҷавобҳо",
-    "sub_title": "Он чизе ки шумо аз мо талаб кардед.",
     "message": "Ҷавоби саволи худро дар байни ҷавобҳои зер ҷустуҷӯ кунед. Аз мо пурсед, ки оё саволҳо беҷавоб мемонанд.",
     "add_question_action": "Саволи нав диҳед",
     "read_more": "Маълумоти бештар ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Савол",
     "question_input_placeholder": "Саволи худро диҳед.",
     "notifications": {
-      "success_add": "Саволи шумо бо муваффақият фиристода шуд."
-    }
+      "success_add": "Саволи шумо бо муваффақият фиристода шуд.",
+    },
+    "sub_title": "Он чизе ки шумо аз мо талаб кардед.",
   },
   "rating_labels": [
     "Хеле бад",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Суроғаи таъинотро ворид кунед",
     "enter_your_address": "Суроғаи худро ворид кунед.",
     "postal_code": "Индекси почта",
-    "phone_input": "Телефон {type}",
+    "phone_input": "Телефон",
     "building_number": "Рақами бино",
     "building_unit": "Воҳиди",
     "full_name_input": "Номи пурраи {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Нишони суроға (талаб аст)",
     "notifications": {
       "save_in_list": "Ин суроға дар рӯйхати шумо бо тамоми тафсилоти он захира карда шудааст.",
-      "edit_success": "Қиматҳои суроғаи нав дар {title} захира карда шудаанд."
+      "edit_success": "Қиматҳои суроғаи нав дар {title} захира карда шудаанд.",
     },
     "delete_address_dialog": {
       "title": "Суроғаро нест кунед",
       "message": "Шумо мутмаин ҳастед, ки мехоҳед ин суроғаро нест кунед?",
-      "action": "Суроғаро нест кунед"
-    }
+      "action": "Суроғаро нест кунед",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ин шарҳро таҳрир карда наметавонед!",
     "comment_input_empty": "Матни паём холист!",
-    "article_not_saved": "Мақоларо захира кунед!"
+    "article_not_saved": "Мақоларо захира кунед!",
   },
   "wheel_fortune": {
     "title": "Бозӣ ва бурд",
     "message": "Арзиши ҳар як бозӣ 10 микросхемаҳои аст. Дар айни замон шумо чипи {chips} доред. Бо харидани аз мағоза чипи бештар гиред.",
     "win_message": "Табрикот, шумо ғолибед!",
     "lost_message": "Бубахшед, шумо бозиро аз даст додед.",
-    "try_again": "Шумо метавонед бори дигар кӯшиш кунед"
+    "try_again": "Шумо метавонед бори дигар кӯшиш кунед",
   },
   "json": {
     "add": "Илова кардани маълумоти сохтор",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Сохторҳо",
     "book": {
       "title": "Китоб",
-      "desc": "Амалҳои китоб, ки ба корбарон имкон медиҳанд, ки китоберо, ки мустақиман аз натиҷаҳои ҷустуҷӯ пайдо мекунанд, харанд."
+      "desc": "Амалҳои китоб, ки ба корбарон имкон медиҳанд, ки китоберо, ки мустақиман аз натиҷаҳои ҷустуҷӯ пайдо мекунанд, харанд.",
     },
     "occupation": {
       "title": "Музди тахминй",
-      "desc": "Маълумот дар бораи баҳодиҳии маош, ба монанди диапазони маош ва миёнаи музди меҳнат дар минтақаҳо барои намудҳои кор, ки дар таҷрибаи ҷустуҷӯи кор дар Google нишон дода шудаанд."
+      "desc": "Маълумот дар бораи баҳодиҳии маош, ба монанди диапазони маош ва миёнаи музди меҳнат дар минтақаҳо барои намудҳои кор, ки дар таҷрибаи ҷустуҷӯи кор дар Google нишон дода шудаанд.",
     },
     "course": {
       "title": "Курс",
-      "desc": "Курсҳои таълимӣ, ки дар рӯйхати мушаххаси провайдер пайдо мешаванд. Курсҳо метавонанд унвони курс, провайдер ва тавсифи мухтасарро дар бар гиранд."
+      "desc": "Курсҳои таълимӣ, ки дар рӯйхати мушаххаси провайдер пайдо мешаванд. Курсҳо метавонанд унвони курс, провайдер ва тавсифи мухтасарро дар бар гиранд.",
     },
     "howto": {
       "title": "Чӣ тавр",
-      "desc": "Чӣ тавр корбаронро тавассути маҷмӯи қадамҳо барои бомуваффақият иҷро кардани супориш, ки дорои видео, тасвирҳо ва матн мебошад, меомӯзад."
+      "desc": "Чӣ тавр корбаронро тавассути маҷмӯи қадамҳо барои бомуваффақият иҷро кардани супориш, ки дорои видео, тасвирҳо ва матн мебошад, меомӯзад.",
     },
     "recipe": {
       "title": "Рецепт",
-      "desc": "Рецептҳое, ки ҳамчун натиҷаи бойи инфиродӣ ё як қисми карусели мизбон нишон медиҳанд."
-    }
+      "desc": "Рецептҳое, ки ҳамчун натиҷаи бойи инфиродӣ ё як қисми карусели мизбон нишон медиҳанд.",
+    },
   },
   "support": {
     "Financial": "молиявӣ",
     "Technical": "техникӣ",
-    "Advisor": "мушовир"
+    "Advisor": "мушовир",
   },
   "condition": {
     "new": "Нав",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Истифода бурда мешавад",
     "used_fair": "Ярмаркаи истифодашуда",
     "used_good": "Хуб истифода шудааст",
-    "used_like_new": "Ба мисли нав истифода шудааст"
+    "used_like_new": "Ба мисли нав истифода шудааст",
   },
   "variant_filter": {
     "title": "Филтри варианти маҳсулот",
-    "only_available": "Дар фурӯш"
+    "only_available": "Дар фурӯш",
   },
   "service": {
     "task": {
       "title": "Вазифахо",
-      "message": "Рӯйхати вазифаҳое, ки дар ин хидмат иҷро мешаванд."
+      "message": "Рӯйхати вазифаҳое, ки дар ин хидмат иҷро мешаванд.",
     },
     "appointment": {
       "title": "Таъинот",
-      "message": "Вақтҳои ҳафтаро аз соатҳои зерин дар асоси рӯз ва соати барои шумо мувофиқ интихоб кунед."
+      "message": "Вақтҳои ҳафтаро аз соатҳои зерин дар асоси рӯз ва соати барои шумо мувофиқ интихоб кунед.",
     },
     "booking": {
       "title": "Бронкунӣ",
-      "message": "Давраи вақти рӯзҳоеро, ки мехоҳед фармоиш диҳед, дар тақвими зер нишон диҳед."
+      "message": "Давраи вақти рӯзҳоеро, ки мехоҳед фармоиш диҳед, дар тақвими зер нишон диҳед.",
     },
     "subscription": {
-      "title": "Обуна"
+      "title": "Обуна",
     },
     "charge": {
-      "title": "Заряд"
-    }
+      "title": "Заряд",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Нархи собит",
-      "message": "Дар ин навъи нархгузорї нархи мањсулот маблаѓи муќарраршуда буда, барои харидор талаб кардани њисобкунии нарх њољат нест."
+      "message": "Дар ин навъи нархгузорї нархи мањсулот маблаѓи муќарраршуда буда, барои харидор талаб кардани њисобкунии нарх њољат нест.",
     },
     "ESTIMATION": {
       "title": "Нархгузории тахминӣ",
-      "message": "Нархи маҳсулот ва хидматҳо то андозае аз ҷониби фурӯшанда ҳангоми ҷойгиркунии фармоиш ҳисоб карда мешавад, ҳисобнома-фактураҳои пардохт метавонанд ҳангоми хидмат тағир ё илова карда шаванд."
+      "message": "Нархи маҳсулот ва хидматҳо то андозае аз ҷониби фурӯшанда ҳангоми ҷойгиркунии фармоиш ҳисоб карда мешавад, ҳисобнома-фактураҳои пардохт метавонанд ҳангоми хидмат тағир ё илова карда шаванд.",
     },
     "AGREEMENT": {
       "title": "Нархи шартнома",
-      "message": "Нархи ниҳоии маҳсулот ё хидмат аз ҷониби фурӯшанда пас аз ҷойгир кардани фармоиш тағир дода намешавад."
+      "message": "Нархи ниҳоии маҳсулот ё хидмат аз ҷониби фурӯшанда пас аз ҷойгир кардани фармоиш тағир дода намешавад.",
     },
     "BID": {
       "title": "Ариза / музояда",
-      "message": "Маҳсулот бо нархи баландтарин аз ҷониби харидорони эҳтимолӣ фурӯхта мешавад."
-    }
+      "message": "Маҳсулот бо нархи баландтарин аз ҷониби харидорони эҳтимолӣ фурӯхта мешавад.",
+    },
   },
   "map": {
     "title": "Макони кабули махсулот",
     "confirm": "Ҷойгиршавӣ",
     "address": "Макони таъинот",
-    "receptor": "Қабулкунанда"
+    "receptor": "Қабулкунанда",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Тегҳои мундариҷа",
     "tags_input": "Тегҳо",
     "tags_input_message": "Тегҳо Рӯйхати ин мақола",
     "notification": {
-      "add_success": "Тегҳо илова карда шуданд"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Хеле мураккаб",
-    "hard": "Сахт",
-    "intermediate": "Миёна",
-    "easy": "Осон"
-  },
-  "billing_period": {
-    "Daily": "Ҳар рӯз",
-    "Weekly": "Ҳар ҳафта",
-    "Monthly": "Ҳармоҳа",
-    "Every3Months": "Ҳар 3 моҳ",
-    "Every6Months": "Ҳар 6 моҳ",
-    "Yearly": "солона"
+      "add_success": "Тегҳо илова карда шуданд",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Оҳ, хуб нест!",
     "between2_3": "Ин дуруст аст!",
     "between3_4": "Ба одамон маъқул аст!",
-    "between4_5": "Одамон онро дӯст медоранд!"
+    "between4_5": "Одамон онро дӯст медоранд!",
   },
   "seasons": {
     "spring": "Баҳор",
     "summer": "Тобистон",
     "autumn": "Тирамоҳ",
-    "winter": "Зимистон"
-  }
+    "winter": "Зимистон",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Namaky ny fepetra fampiasana sy ny politika momba ny fiainana manokana aho ary manaiky azy ireo.",
   "commons": {
     "Currency": "Sandam-bola",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "FANJAKANA",
     "Price": "vidiny",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Vidiny net",
     "tax": "HETRA",
     "tax_included": "Tafiditra ao anatin'ny vidiny",
+    "tax_included_abstract": "incl.",
     "limit": "fetra",
     "min_purchase": "Fividianana kely indrindra",
     "eligible_for": "Mendrika ho an'ny",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Daty noforonina",
     "updated_at": "Fanavaozana farany",
     "register_at": "Daty fisoratana anarana",
+    "last_modified": "Last modified",
     "old": "Antitra",
     "new": "Vaovao",
     "start": "fanombohana",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Mpivarotra",
     "tracking_code": "Kaody fanaraha-maso",
     "tracking_url": "URL fanaraha-maso",
+    "fulfillment": "Fulfillment",
     "fulfillments": "tanteraka",
     "reject": "mandà",
     "reserved": "Reserved",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Miandry...",
     "waiting_connecting_payment": "Miandry ny tolotra fandoavam-bola...",
     "creating_secure_payment": "Mamorona fandoavam-bola azo antoka.",
+    "waiting_for_payment": "Fenoy ny fandoavana azafady...",
     "officer": "mpiandraikitra",
     "ticket": "tapakila",
     "ticket_url": "URL tapakila",
@@ -361,7 +366,6 @@ export default {
     "rates": "naoty",
     "seen_at": "Hita tamin'ny",
     "completed": "vita ny",
-    "you": "ianareo",
     "shop": "Miantsena",
     "store": "fivarotana",
     "granted": "Marina aloha",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablety",
     "pc": "PC",
     "acquisition_channel": "Fantsona fahazoana",
+    "channels_overview": "Channels overview",
     "to": "ny",
     "info": "Info",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Isaky ny vokatra",
     "journey": "dia",
     "after": "rehefa",
-    "waiting_for_payment": "Fenoy ny fandoavana azafady...",
     "hour": "Ora",
     "minute": "minitra",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "fivarotana",
     "vendor": "Mpivarotra",
     "vendors": "mpivarotra",
+    "no_vendors": "No vendors",
     "marketplace": "-tsena",
     "verify_date": "Hamarino ny daty",
     "note": "Fanamarihana",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "fiarovana",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Tsy voalamina ny fandoavam-bola!",
     "orders_list": "Lisitry ny kaomandy",
     "subscription_plan": "Drafitra famandrihana",
@@ -642,16 +646,170 @@ export default {
     "clusters": "sampahony",
     "subscriptions": "Famandrihana",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "ianareo",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Tena sarotra",
+    "hard": "Sarotra",
+    "intermediate": "kafa",
+    "easy": "Mora",
   },
   "dialogs": {
     "delete": {
       "title": "Mamafa",
       "message": "Azo antoka fa hamafa ity singa ity ve ianao?",
-      "action": "Eny, vonoy izao"
-    }
+      "action": "Eny, vonoy izao",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "atao anaty harona",
     "cancel": "hanafoana",
     "update": "vaovao farany",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ampio karatra fanomezana",
     "charge": "anjara-raharaha",
     "send_invites": "Mandefasa fanasana",
-    "past": "lasa",
+    "paste": "Mametaka",
     "restore": "Ampodio",
     "cut": "Hetezo",
     "get_sms_code": "Mahazoa kaody fanamarinana",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Asehoy mialoha",
     "hide_preview": "Afeno ny fijery",
     "download_now": "Ampidino izao",
+    "watch_now": "Jereo izao",
     "auto_fill": "Autofill",
     "track": "manara-maso",
     "change_state": "Hanova sata",
     "done": "hatao",
     "reply": "navalin'i",
-    "watch_now": "Jereo izao",
     "unlock": "hamaha",
     "lock": "Hidio",
     "create_clone": "Mamorona clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Buy",
     "view_all": "Jereo daholo",
     "view_now": "Jereo izao",
-    "paste": "Mametaka"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "lasa",
+  },
+  "billing_period": {
+    "Daily": "isan'andro",
+    "Weekly": "isan-kerinandro",
+    "Monthly": "Isam-bolana",
+    "Every3Months": "Isaky ny 3 volana",
+    "Every6Months": "Isaky ny 6 volana",
+    "Yearly": "isan-taona",
   },
   "instance_message_title": "Mandefasa hafatra eo noho eo",
   "instance_message": "Salama {name}, Ny anarako dia {author} avy amin'ny {company}.",
   "errors": {
     "419": "Efa ela ianao no tsy nihetsiketsika, azafady <b>⟳ HAOVAO NY PAGE</b> noho ny antony fiarovana.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Ny rafitra dia tsy mifanaraka amin'ny blockchain. Tsy azo atao ny mamorona fifampiraharahana vaovao raha tsy vita ny fampifanarahana ny mpizara. Mamaha ny olana izahay.",
-    "gateway_network_error": "Nisedra olana amin'ny fifandraisana ny serivisy vavahadin-karama."
+    "gateway_network_error": "Nisedra olana amin'ny fifandraisana ny serivisy vavahadin-karama.",
   },
   "receiver_info": {
     "map": {
       "title": "Adiresy handefasana",
       "confirm": "Mametraha toerana",
       "address_type": "toerana halehany",
-      "receptor_type": "Mpandray"
+      "receptor_type": "Mpandray",
     },
     "receiver_address": "Fidio ny adiresy fandefasana",
+    "service_address": "Fidio ny adiresinao",
+    "select_billing_address": "Select billing address",
     "address": "adiresy",
     "postcode": "Kaody paositra",
     "enter_value": "Fenoy eto",
     "address_note": "Fanamarihana",
     "tel": "nomeraon'ny fifandraisana",
-    "service_address": "Fidio ny adiresinao"
   },
   "weight": {
     "g": "h",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "grama",
     "lb": "farantsanao",
-    "kg": "kilao"
+    "kg": "kilao",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "MG",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "centimeter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Tongotra",
     "mm": "milimetatra",
     "m": "metatra",
-    "yd": "tokotany"
+    "yd": "tokotany",
   },
   "distance": {
     "m": "metatra",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Andro",
     "hours": "ORA",
     "minutes": "minitra",
-    "seconds": "segondra"
+    "seconds": "segondra",
   },
   "units": [
     "Unit",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "FANJAKANA",
     "Territory": "FARITANY",
-    "Province": "-tokony eran'ny fanjakana"
+    "Province": "-tokony eran'ny fanjakana",
   },
   "transaction_status": {
     "RequireAction": "Hetsika ilaina",
     "Processing": "fanodinana",
     "Canceled": "nofoanana ny",
-    "Succeeded": "Tafita"
+    "Succeeded": "Tafita",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Fidio fiteny..",
     "friend_email": "Ny mailaka an'ny namanao...",
     "friend_name": "Opt. Ny anaran'ny namanao",
-    "select_date": "Mifidiana daty..."
+    "select_date": "Mifidiana daty...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Manamarina",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "{maxCount} tarehintsoratra max",
     "invalid_url": "URL tsy mety",
     "country_invalid": "Fidio ny firenena haleha!",
-    "postal_code_invalid": "Mametraha kaody paositra manankery!"
+    "postal_code_invalid": "Mametraha kaody paositra manankery!",
   },
   "colors": {
     "#D32F2F": "MENA",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unit",
     "postcode": "Kaody paositra",
     "note": "Fanamarihana",
-    "county": "faritra"
+    "county": "faritra",
   },
   "product_types": {
     "physical": "ara-batana",
@@ -1004,13 +1207,13 @@ export default {
     "service": "fanompoana",
     "service_description": "Serivisy toy ny: fanamboarana, fitaterana, fampianarana.",
     "subscription": "Famandrihana",
-    "subscription_description": "Famandrihana sy faktiora ho an'ny vokatra, serivisy, na atiny."
+    "subscription_description": "Famandrihana sy faktiora ho an'ny vokatra, serivisy, na atiny.",
   },
   "license": {
     "free": "maimaim-poana",
     "startup": "Fiatombohana",
     "company": "orinasa",
-    "enterprise": "Orinasa"
+    "enterprise": "Orinasa",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "loko",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Manisa ao anaty fonosana",
     "weight": "lanja",
     "type": "ara-nofo",
-    "style": "Style"
+    "style": "Style",
   },
   "delivery_state": {
     "check_queue": "Miandry ny famerenana",
     "order_confirm": "Fanamafisana ny baiko",
     "preparing_order": "fanomanana",
     "sent_order": "Amin'ny fanaterana",
-    "to_customer": "Nafahana"
+    "to_customer": "Nafahana",
   },
   "status": {
     "unpaid": "handraisam-bola",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "mandà",
     "pending": "mbola miandry",
     "rejected": "TSY",
-    "accepted": "nanaiky"
+    "accepted": "nanaiky",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "môtô",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Fitaterana maneran-tany",
     "global_description": "Fandefasana any ampitan-dranomasina amin'ny alàlan'ny fiaramanidina, an-dranomasina na an-tanety.",
     "pickup": "Mitsena",
-    "pickup_description": "Ny mpanjifa dia maka ireo entana ao amin'ny magazay na trano fanatobianao."
+    "pickup_description": "Ny mpanjifa dia maka ireo entana ao amin'ny magazay na trano fanatobianao.",
   },
   "article": {
     "login_to_see_error": "Midira hidirana amin'ny lahatsoratra",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Hanova fomba",
       "view_mode": "fomba fijery",
-      "delete": "Fafao ny lahatsoratra"
+      "delete": "Fafao ny lahatsoratra",
     },
     "schedule_action": "Te-handamina ny famoahana ve ianao?",
     "schedule_title": "Fandaharam-potoana famoahana ho azy",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Tatitra ny fanararaotana ary esory ny atiny",
       "report_title": "Ampahafantaro ity atiny ity ho manevateva",
       "message": "Inona no anton'ny fandefasana ity atiny ity? Mifidiana iray amin'ireto safidy manaraka ireto.",
-      "accept_and_delete_action": "Hamafiso sy hamafa votoaty"
+      "accept_and_delete_action": "Hamafiso sy hamafa votoaty",
     },
     "schedule_dialog": {
       "title": "Fandaharam-potoana famoahana votoaty",
       "publish_at": "Publish amin'ny",
       "last_edit": "Fanovana farany",
-      "view_action": "Jereo ny lahatsoratra"
+      "view_action": "Jereo ny lahatsoratra",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Alefaso ny fampahalalana",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Mitatitra sy mamafa",
       "report_and_delete_success_message": "Voafafa soa aman-tsara ny lahatsoratra.",
       "report_success_title": "Tatitra lahatsoratra",
-      "report_success_message": "Navoaka ny tatitrao momba ity lahatsoratra ity."
+      "report_success_message": "Navoaka ny tatitrao momba ity lahatsoratra ity.",
     },
     "alert": {
       "delete_article": {
         "title": "Fafao ny lahatsoratra",
         "message": "Tena te-hamafa ity lahatsoratra ity tokoa ve ianao?",
-        "action": "Mamafa"
-      }
+        "action": "Mamafa",
+      },
     },
     "edit_window": {
       "title": "Mifidiana Image Text sy Summary",
-      "digest": "FAMINTINANA"
+      "digest": "FAMINTINANA",
     },
     "editor": {
       "title_placeholder": "Lohateny..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Lehibe loatra ity rakitra ity:",
       "notifications": {
         "image_uploaded_success": "Voatahiry soa aman-tsara ny sary",
-        "image_uploaded_failed": "Error amin'ny fametahana sary."
+        "image_uploaded_failed": "Error amin'ny fametahana sary.",
       },
       "embed_placeholder": "Ampidiro ny kaody iframe, Facebook, Youtube na URL hafa ary tsindrio ny Enter.",
       "embed_caption_placeholder": "Ampidiro lohateny (tsy voatery)",
-      "images_caption_placeholder": "Asio lohateny ho an'ity sary ity.."
-    }
+      "images_caption_placeholder": "Asio lohateny ho an'ity sary ity..",
+    },
   },
   "article_report": {
     "inappropriate": "Tsy mety ny votoatin'ity lahatsoratra ity.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Heveriko fa misy sary vetaveta ity votoaty ity ary mandika ny lalàna.",
     "harassment": "Heveriko fa fanavakavaham-bolon-koditra izany.",
     "hate": "Heveriko fa momba ny fampiroboroboana herisetra izany.",
-    "infringe": "Mandika ny zoko izany."
+    "infringe": "Mandika ny zoko izany.",
   },
   "comments": {
     "new_action": "Kitiho raha hametraka hevitra..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Mahazoa hevitra misimisy kokoa..",
     "cant_send_comment": "Tsy afaka manampy hafatra vaovao ianao.",
     "cant_remove_this_comment": "Tsy afaka mamafa ity fanehoan-kevitra ity ianao!",
-    "product_buyer": "mpividy",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Ny hevitrao",
     "delete_alert": {
       "title": "Fafao ny fanehoan-kevitra",
       "message": "Te-hamafa ity fanehoan-kevitra ity ve ianao?",
-      "action": "Mamafa"
+      "action": "Mamafa",
     },
     "notifications": {
-      "delete_success": "Voafafa soa aman-tsara ny fanehoan-kevitrao."
+      "delete_success": "Voafafa soa aman-tsara ny fanehoan-kevitrao.",
     },
     "first_send": "Lahatsoratra voalohany",
     "comment_at": "On",
     "edit_comment": "Ahitsio Hevitra",
-    "my_comments": "Ny hevitrao"
+    "product_buyer": "mpividy",
   },
   "customer_club": {
     "bronze": "Bronze",
     "silver": "Silver",
     "gold": "Golden",
     "platinum": "platinina",
-    "diamond": "Diamond"
+    "diamond": "Diamond",
   },
   "application_categories": {
     "tracking": "Fanamarinana ny fitondran-tenan'ny mpampiasa",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "DOKAMBAROTRA",
     "staff": "Staff",
     "incentive": "fandrisihana",
-    "shop": "Miantsena"
+    "shop": "Miantsena",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Manampia singa vaovao",
     "title_input": "lohateny",
+    "placeholder_input": "Mpitondra toerana",
     "name_input": "Anarana miovaova",
     "value_input": "soatoavina",
     "value_input_message": "Lisitry ny safidin'ny mpampiasa",
     "default": "Sanda default",
+    "file_type_input": "Karazana rakitra azo ekena",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "tsotra",
       "selective": "mifantina",
       "switch": "jiro",
       "file": "rakitra",
-      "number": "isa"
+      "number": "isa",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Mpitondra toerana",
-    "file_type_input": "Karazana rakitra azo ekena",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Anaran'ny vokatra",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Sata fandoavana",
     "payment_status_waiting": "Miandry fandoavana",
     "payment_status_paid": "karama",
-    "buyer": "mpividy"
+    "buyer": "mpividy",
   },
   "virtual_item_info": {
     "title": "Zavatra virtoaly",
     "outputs": {
       "title": "Output Information",
       "sub_title": "Fampahafantarana tsiambaratelo momba ity singa ity",
-      "message": "Ity fampahalalana ity dia haseho amin'ny mpampiasa aorian'ny fividianana ny vokatra."
+      "message": "Ity fampahalalana ity dia haseho amin'ny mpampiasa aorian'ny fividianana ny vokatra.",
     },
     "inputs": {
       "title": "Ilaina ny fampahalalana",
       "sub_title": "Ilaina ny fampahalalana momba ny mpividy",
-      "message": "Ny mpividy dia tsy maintsy mampiditra ny fampahalalana angatahina amin'ny endrika"
+      "message": "Ny mpividy dia tsy maintsy mampiditra ny fampahalalana angatahina amin'ny endrika",
     },
     "notifications": {
       "inputs_set_success": "Taratasy fampahalalam-baovao voarakitra soa aman-tsara.",
       "confirm_by_admin_success": "Nohamafisina ny fahavitan'ny kaomandy.",
-      "confirm_by_buyer_success": "Nohamafisina ny fahavitan'ny kaomandy."
-    }
+      "confirm_by_buyer_success": "Nohamafisina ny fahavitan'ny kaomandy.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ity baiko ity dia tsy azo ekena amin'ny fandoavana COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Ritra.",
     "legal_restriction": "Tsy afaka mametraka baiko noho ny fameperana ara-dalàna.",
     "pricing_fault": "Fahadisoan'ny mpivarotra.",
-    "system_fault": "Rafitra banga."
+    "system_fault": "Rafitra banga.",
   },
   "basket_order_info_summery": {
     "receiver": "Mpandray",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Discount",
     "final_price": "Vola farany",
     "address": "Adiresy hanaterana",
-    "payment_status": "Sata fandoavana"
+    "payment_status": "Sata fandoavana",
   },
   "basket_status": {
     "open": "misokatra",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "nofoanana ny",
     "cod": "Aloavy amin'ny livraison",
     "receipt_added": "Nampiana rosia",
-    "payment_processing": "Fikarakarana fandoavana"
+    "payment_processing": "Fikarakarana fandoavana",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "TSY",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "ny fandraisana ho mpikambana",
     "step_3": "fiomanana",
     "step_4": "Amin'ny fanaterana",
-    "step_5": "Nafahana"
+    "step_5": "Nafahana",
   },
   "basket_return_request_view": {
     "title": "Fangatahana fiverenana",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Laviny ny fangatahana",
     "message_for_admin": "Araka ny fifanarahana nekenao tamin'ny fampiasana ny Selldone dia tsy maintsy mifandray amin'ny mpividy ianao ary mampahafantatra azy ny fizotran'ny famerenana ny baikony. Tsy maintsy atao izany raha ekena na nolavina ny fangatahana ary azo ny fanekena feno avy amin'ny mpividy.",
     "notifications": {
-      "update_status_success": "Fanavaozana ny sata fangatahana."
-    }
+      "update_status_success": "Fanavaozana ny sata fangatahana.",
+    },
   },
   "basket_list": {
     "return_count": "Miverena: isa {count}.",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "fiantohana",
       "count": "manisa",
-      "price": "vidiny"
-    }
+      "price": "vidiny",
+    },
   },
   "return_request_list": {
     "count": "Laharana fanondro",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Daty nahazoana",
       "state": "sata",
       "reason": "antony",
-      "return_warranty_period": "Vanim-potoana fiantohana"
-    }
+      "return_warranty_period": "Vanim-potoana fiantohana",
+    },
   },
   "data_toolbar": {
     "search": "karohy",
     "sort_by": "Sivanina araka",
-    "count_item": "Asehoy ny singa {item}."
+    "count_item": "Asehoy ny singa {item}.",
   },
   "sort": {
     "created_at": "Mamorona daty",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "mpiandraikitra",
     "registered": "voasoratra anarana",
     "purchased": "nividy",
-    "sex": "lahy sy ny vavy"
+    "sex": "lahy sy ny vavy",
   },
   "search_box": {
     "result": "Valiny fikarohana",
     "tips": "Mitadiava vokatra sy sokajy",
     "label": "Karoka...",
-    "category": "Sokajy"
+    "category": "Sokajy",
   },
   "lead_status": {
     "physical_fast_delivery": "Fanaterana haingana",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Manomana sy mandefa manomboka amin'ny {days} manaraka",
     "virtual_fast_prepare": "Fanaterana haingana",
     "virtual_under_24h": "Hatao ao anatin'ny ora {lead} manaraka",
-    "virtual_over_24h": "Hatao amin'ny andro manaraka izany"
+    "virtual_over_24h": "Will be done from the next {days} days",
   },
   "return_request_state": {
     "pending": "mbola miandry",
     "accepted": "noraisina ho mpikambana",
-    "rejected": "TSY"
+    "rejected": "TSY",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Fanombanana ny fonosana na ny laharana serial",
       "U5": "Misy singa sasany ao amin'ilay fonosana tsy hita",
       "U6": "Tsy original ny vokatra",
-      "U7": "Ny vokatra dia tsy mahafeno ny fepetra takiana"
-    }
+      "U7": "Ny vokatra dia tsy mahafeno ny fepetra takiana",
+    },
   },
   "image_uploader": {
     "label": "Drag & Drop or <u>Select file</u>",
-    "max_size": "Habe ambony indrindra azo atao: {size}"
+    "max_size": "Habe ambony indrindra azo atao: {size}",
   },
   "timespan": {
     "Morning": "8 ora maraina - 12 ora alina",
     "Evening": "12 ora antoandro hatramin’ny 6 ora hariva",
     "Night": "6 hariva-12 alina",
-    "Instant": "Post Instant"
+    "Instant": "Post Instant",
   },
   "week_day": {
     "Saturday": "Asabotsy",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "talata",
     "Wednesday": "Alarobia",
     "Thursday": "Alakamisy",
-    "Friday": "ZOMA"
+    "Friday": "ZOMA",
   },
   "payment_form": {
     "title": "Safidio ny fomba fandoavam-bola",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Arahabaina fa maimaim-poana ny baikonao!",
     "order_free_payment_action": "Manafatra maimaim-poana izao",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Adiresy fandoavam-bola",
-      "amount": "vola"
-    }
+      "amount": "vola",
+    },
   },
   "discount_input": {
     "limit": "{percent}% fihenam-bidy hatramin'ny {limit} {currency}",
     "action": "Ampio ny kaody fihenam-bidy",
     "code_input": "Kaody fihenam-bidy",
     "notifications": {
-      "add_success": "Arahabaina, kaody fihenam-bidy manan-kery."
-    }
+      "add_success": "Arahabaina, kaody fihenam-bidy manan-kery.",
+    },
   },
   "gift_card": {
     "inactive": "Tsy mandeha ny karatra",
     "expire": "fahataperan'ny",
     "transfer": "famindrana",
-    "send_to_friend": "Alefaso any amin'ny namana"
+    "send_to_friend": "Alefaso any amin'ny namana",
   },
   "count_down": {
     "days": "Andro",
     "hours": "Ora",
     "minutes": "minitra",
-    "seconds": "segondra"
+    "seconds": "segondra",
   },
   "gift_status": {
     "Unpaid": "Miandry ny fandraisana",
     "Paid": "karama",
     "Rejected": "TSY",
-    "Canceled": "nofoanana ny"
+    "Canceled": "nofoanana ny",
   },
   "gift_program_status": {
     "Airdrop": "Rafitra fandoavam-bola",
     "Advertising": "DOKAMBAROTRA",
     "PersonalGift": "Fanomezana manokana",
-    "ShopGift": "fivarotana fanomezana"
+    "ShopGift": "fivarotana fanomezana",
   },
   "currency_selector": {
-    "label": "Sandam-bola"
+    "label": "Sandam-bola",
   },
   "need_login": {
     "title": "Hiditra",
     "login_sms": "SMS Login",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Midira amin'ny Google",
     "login_facebook": "Midira amin'ny Facebook",
+    "login_apple": "Midira amin'ny Apple",
     "login_account": "Login avy amin'i Seldone",
     "register": "Mpampiasa vaovao? Misoratra anarana izao.",
     "mobile_input": "Ampidiro ny findainao",
     "verification_code": "Kaody fanamarinana",
     "msg_title": "Salama,",
     "msg_body": "Midira azafady. Mitaky segondra vitsy monja.",
-    "login_apple": "Midira amin'ny Apple",
     "login_email": "Midira amin'ny mailaka",
     "email_login_step_1": "Omeo adiresy mailaka manan-kery azafady, ary halefanay aminy ny kaody fidirana. Tsy ilaina ny fisoratana anarana.",
     "email_login_step_2": "Tena azonao antoka ve fa nampidirinao tsara ny adiresy mailakao? Handefa ny kaody fidirana amin'ny mailaka nomena izahay, koa azafady mba ho azo antoka ny fahamarinany.",
-    "email_login_step_3": "Nandefa code amin'ny mailakao izahay. Mariho fa ny kaody dia ho tapitra afaka 10 minitra."
+    "email_login_step_3": "Nandefa code amin'ny mailakao izahay. Mariho fa ny kaody dia ho tapitra afaka 10 minitra.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 taona fivarotana volamena"
+      "name": "5 taona fivarotana volamena",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 taona fivarotana volamena"
+      "name": "4 taona fivarotana volamena",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 taona fivarotana volamena"
+      "name": "3 taona fivarotana volamena",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 taona fivarotana volamena"
+      "name": "2 taona fivarotana volamena",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 taona fivarotana volamena"
+      "name": "1 taona fivarotana volamena",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Golden Investor"
+      "name": "Golden Investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamond Investor"
+      "name": "Diamond Investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Mpikambana ao amin'ny Vondrona Tambajotran'ny Fifandraisana Ambony"
+      "name": "Mpikambana ao amin'ny Vondrona Tambajotran'ny Fifandraisana Ambony",
     },
     "GOLD_SUPPLIER": {
-      "name": "Mpamatsy volamena"
+      "name": "Mpamatsy volamena",
     },
     "GOLD_SELLER": {
-      "name": "Mpivarotra volamena"
+      "name": "Mpivarotra volamena",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Mpamokatra votoaty ambony indrindra"
+      "name": "Mpamokatra votoaty ambony indrindra",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Star"
+      "name": "Star",
     },
     "GUARDIAN": {
-      "name": "Serivisy mpanjifa lehibe"
+      "name": "Serivisy mpanjifa lehibe",
     },
     "KING": {
-      "name": "Mpanjakan'ny tsena"
-    }
+      "name": "Mpanjakan'ny tsena",
+    },
   },
   "cookie": {
     "title": "Mampiasa cookies ity tranokala ity",
     "message": "Mampiasa cookies ity tranokala ity hanatsarana ny traikefan'ny mpampiasa. Amin'ny fampiasana ny tranokalanay dia manaiky ny mofomamy rehetra mifanaraka amin'ny politikan'ny Cookie izahay.",
     "preferences_action": "Tantano ny Préférences",
-    "agree_action": "Manaiky aho"
+    "agree_action": "Manaiky aho",
   },
   "basket_item_message": {
     "title": "Fampahafantarana ilaina amin'ity entana ity",
     "save_actions": "Save Message",
+    "product_inputs_preview_message": "Ireo safidy fanamboarana ireo dia azo alaina amin'ny vokatra voafantinao. Rehefa ampidirina ao anaty sarety ilay entana dia afaka manao fanitsiana eto ianao.",
     "notifications": {
-      "success": "Voatahiry ny angona fidiranao."
+      "success": "Voatahiry ny angona fidiranao.",
     },
-    "product_inputs_preview_message": "Ireo safidy fanamboarana ireo dia azo alaina amin'ny vokatra voafantinao. Rehefa ampidirina ao anaty sarety ilay entana dia afaka manao fanitsiana eto ianao."
   },
   "faq": {
     "faq": "Fanontaniana matetika",
     "title": "Fanontaniana sy valiny",
-    "sub_title": "Izay nasainao hataonay.",
     "message": "Tadiavo ny valin'ny fanontanianao amin'ireo valiny etsy ambany. Anontanio anay raha mbola tsy voavaly ny fanontaniana.",
     "add_question_action": "Mametraha fanontaniana vaovao",
     "read_more": "Hamaky bebe kokoa ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Fanontaniana",
     "question_input_placeholder": "Anontanio ny fanontanianao.",
     "notifications": {
-      "success_add": "Nalefa soa aman-tsara ny fanontanianao."
-    }
+      "success_add": "Nalefa soa aman-tsara ny fanontanianao.",
+    },
+    "sub_title": "Izay nasainao hataonay.",
   },
   "rating_labels": [
     "Tena ratsy",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Ampidiro ny adiresiny",
     "enter_your_address": "Ampidiro ny adiresinao.",
     "postal_code": "Kaody paositra",
-    "phone_input": "Phone {type}",
+    "phone_input": "Phone",
     "building_number": "Laharana trano",
     "building_unit": "Unit",
     "full_name_input": "Anarana feno {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Adiresy marika (mila)",
     "notifications": {
       "save_in_list": "Ity adiresy ity dia voatahiry ao amin'ny lisitrao miaraka amin'ny antsipiriany rehetra.",
-      "edit_success": "Ny soatoavina adiresy vaovao voatahiry ao amin'ny {title}."
+      "edit_success": "Ny soatoavina adiresy vaovao voatahiry ao amin'ny {title}.",
     },
     "delete_address_dialog": {
       "title": "Fafao ny adiresy",
       "message": "Tena te-hamafa ity adiresy ity ve ianao?",
-      "action": "Esory ny adiresy"
-    }
+      "action": "Esory ny adiresy",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Tsy afaka manova ity fanehoan-kevitra ity!",
     "comment_input_empty": "Foana ny lahatsoratra!",
-    "article_not_saved": "Tehirizo ilay lahatsoratra!"
+    "article_not_saved": "Tehirizo ilay lahatsoratra!",
   },
   "wheel_fortune": {
     "title": "Play & Win",
     "message": "Ny vidin'ny lalao tsirairay dia 10 puce. Manana puce {chips} ianao amin'izao fotoana izao. Mahazoa chip bebe kokoa amin'ny fividianana amin'ny fivarotana.",
     "win_message": "Arahabaina, mandresy ianao!",
     "lost_message": "Miala tsiny fa resy tamin'ny lalao ianao.",
-    "try_again": "Afaka manandrana indray ianao"
+    "try_again": "Afaka manandrana indray ianao",
   },
   "json": {
     "add": "Ampio angona momba ny rafitra",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "rafitra",
     "book": {
       "title": "Boky",
-      "desc": "Hetsika boky ahafahan'ny mpampiasa mividy ilay boky hitany mivantana avy amin'ny valin'ny fikarohana."
+      "desc": "Hetsika boky ahafahan'ny mpampiasa mividy ilay boky hitany mivantana avy amin'ny valin'ny fikarohana.",
     },
     "occupation": {
       "title": "Karama tombanana",
-      "desc": "Fampahafantarana momba ny fanombanana ny karama, toy ny salan-karama sy ny salan'ny karama mifototra amin'ny faritra ho an'ny karazana asa, aseho amin'ny traikefa fikarohana asa ao amin'ny Google."
+      "desc": "Fampahafantarana momba ny fanombanana ny karama, toy ny salan-karama sy ny salan'ny karama mifototra amin'ny faritra ho an'ny karazana asa, aseho amin'ny traikefa fikarohana asa ao amin'ny Google.",
     },
     "course": {
       "title": "Mazava ho azy",
-      "desc": "Taranja fampianarana izay miseho amin'ny lisitry ny mpamatsy manokana. Ny fampianarana dia mety ahitana ny lohatenin'ny fampianarana, ny mpamatsy ary ny famaritana fohy."
+      "desc": "Taranja fampianarana izay miseho amin'ny lisitry ny mpamatsy manokana. Ny fampianarana dia mety ahitana ny lohatenin'ny fampianarana, ny mpamatsy ary ny famaritana fohy.",
     },
     "howto": {
       "title": "Ahoana no",
-      "desc": "Fomba entina mamakivaky ny mpampiasa amin'ny dingana maromaro mba hamitana am-pahombiazana asa iray, ahitana horonan-tsary, sary, ary lahatsoratra."
+      "desc": "Fomba entina mamakivaky ny mpampiasa amin'ny dingana maromaro mba hamitana am-pahombiazana asa iray, ahitana horonan-tsary, sary, ary lahatsoratra.",
     },
     "recipe": {
       "title": "Recipe",
-      "desc": "Recipe izay aseho ho vokatra manankarena manokana na ampahany amin'ny carousel mpampiantrano."
-    }
+      "desc": "Recipe izay aseho ho vokatra manankarena manokana na ampahany amin'ny carousel mpampiantrano.",
+    },
   },
   "support": {
     "Financial": "Ara-bola",
     "Technical": "Ara-teknika",
-    "Advisor": "mpanolotsaina"
+    "Advisor": "mpanolotsaina",
   },
   "condition": {
     "new": "Vaovao",
@@ -1885,91 +2098,152 @@ export default {
     "used": "ampiasaina",
     "used_fair": "Ampiasaina fair",
     "used_good": "Nampiasaina tsara",
-    "used_like_new": "Nampiasaina toy ny vaovao"
+    "used_like_new": "Nampiasaina toy ny vaovao",
   },
   "variant_filter": {
     "title": "Product Variant Filter",
-    "only_available": "Ao amin'ny staoky"
+    "only_available": "Ao amin'ny staoky",
   },
   "service": {
     "task": {
       "title": "asa",
-      "message": "Lisitry ny asa atao amin'ity serivisy ity."
+      "message": "Lisitry ny asa atao amin'ity serivisy ity.",
     },
     "appointment": {
       "title": "fotoana",
-      "message": "Fidio ny fotoana amin'ny herinandro amin'ireto fotoana manaraka ireto mifototra amin'ny andro sy ora mety aminao."
+      "message": "Fidio ny fotoana amin'ny herinandro amin'ireto fotoana manaraka ireto mifototra amin'ny andro sy ora mety aminao.",
     },
     "booking": {
       "title": "Famandrihana",
-      "message": "Ampidiro ao amin'ny kalandrie etsy ambany ny fe-potoana amin'ny andro tianao hanaovana famandrihana."
+      "message": "Ampidiro ao amin'ny kalandrie etsy ambany ny fe-potoana amin'ny andro tianao hanaovana famandrihana.",
     },
     "subscription": {
-      "title": "Famandrihana"
+      "title": "Famandrihana",
     },
     "charge": {
-      "title": "anjara-raharaha"
-    }
+      "title": "anjara-raharaha",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Vidim-bidy raikitra",
-      "message": "Amin'ity karazana vidim-bidy ity, ny vidin'ny vokatra dia vola raikitra ary tsy ilaina ny mpividy mangataka ny kajy vidiny."
+      "message": "Amin'ity karazana vidim-bidy ity, ny vidin'ny vokatra dia vola raikitra ary tsy ilaina ny mpividy mangataka ny kajy vidiny.",
     },
     "ESTIMATION": {
       "title": "Tombanana Pricing",
-      "message": "Ny vidin'ny vokatra sy ny serivisy dia kajy amin'ny lafiny sasany amin'ny mpivarotra rehefa mametraka baiko, azo ovaina na ampiana ny faktiora fandoavana mandritra ny serivisy."
+      "message": "Ny vidin'ny vokatra sy ny serivisy dia kajy amin'ny lafiny sasany amin'ny mpivarotra rehefa mametraka baiko, azo ovaina na ampiana ny faktiora fandoavana mandritra ny serivisy.",
     },
     "AGREEMENT": {
       "title": "Vidin'ny fifanarahana",
-      "message": "Ny vidiny farany amin'ny vokatra na serivisy dia tsy hovan'ny mpivarotra aorian'ny fametrahana ny baiko."
+      "message": "Ny vidiny farany amin'ny vokatra na serivisy dia tsy hovan'ny mpivarotra aorian'ny fametrahana ny baiko.",
     },
     "BID": {
       "title": "Tolotra / lavanty",
-      "message": "Ny vokatra dia hamidy amin'ny vidiny ambony indrindra amin'ny mpividy mety."
-    }
+      "message": "Ny vokatra dia hamidy amin'ny vidiny ambony indrindra amin'ny mpividy mety.",
+    },
   },
   "map": {
     "title": "Toerana handraisana vokatra",
     "confirm": "Mametraha toerana",
     "address": "toerana halehany",
-    "receptor": "Mpandray"
+    "receptor": "Mpandray",
   },
   "ShopBots": {
-    "telegram": "telegrama"
+    "telegram": "telegrama",
   },
   "article_tags": {
     "title": "Tags votoaty",
     "tags_input": "Tags",
     "tags_input_message": "Tags Lisitr'ity lahatsoratra ity",
     "notification": {
-      "add_success": "Nampiana tenifototra"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Tena sarotra",
-    "hard": "Sarotra",
-    "intermediate": "kafa",
-    "easy": "Mora"
-  },
-  "billing_period": {
-    "Daily": "isan'andro",
-    "Weekly": "isan-kerinandro",
-    "Monthly": "Isam-bolana",
-    "Every3Months": "Isaky ny 3 volana",
-    "Every6Months": "Isaky ny 6 volana",
-    "Yearly": "isan-taona"
+      "add_success": "Nampiana tenifototra",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh tsy tsara!",
     "between2_3": "Tsy maninona!",
     "between3_4": "Tian'ny olona izany!",
-    "between4_5": "Tian'ny olona izany!"
+    "between4_5": "Tian'ny olona izany!",
   },
   "seasons": {
     "spring": "Lohataona",
     "summer": "vanin-taona mafana",
     "autumn": "Fararano",
-    "winter": "ririnina"
-  }
+    "winter": "ririnina",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

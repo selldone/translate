@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Erabilera-baldintzak eta pribatutasun-politika irakurri ditut eta haiekin ados nago.",
   "commons": {
     "Currency": "Moneta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Estatu",
     "Price": "prezioa",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Prezio garbia",
     "tax": "Zerga",
     "tax_included": "Prezioan sartuta",
+    "tax_included_abstract": "barne",
     "limit": "Muga",
     "min_purchase": "Gutxieneko erosketa",
     "eligible_for": "Hautagarria",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Sortutako data",
     "updated_at": "Azken eguneratzea",
     "register_at": "Izena emateko data",
+    "last_modified": "Last modified",
     "old": "Zaharra",
     "new": "Berria",
     "start": "Hasi",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Bersaltzailea",
     "tracking_code": "Jarraipen kodea",
     "tracking_url": "Jarraipen URLa",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Beteketak",
     "reject": "Baztertu",
     "reserved": "Erreserbatuta",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Zain...",
     "waiting_connecting_payment": "Ordainketa zerbitzuaren zain...",
     "creating_secure_payment": "Ordainketa segurua sortzea.",
+    "waiting_for_payment": "Mesedez, osatu ordainketa...",
     "officer": "Ofiziala",
     "ticket": "Txartela",
     "ticket_url": "Txartelaren URLa",
@@ -361,7 +366,6 @@ export default {
     "rates": "Balorazioa",
     "seen_at": "-n ikusita",
     "completed": "Osatua",
-    "you": "Zuk",
     "shop": "Denda",
     "store": "denda",
     "granted": "Emandakoa",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tableta",
     "pc": "PC",
     "acquisition_channel": "Eskuratzeko kanala",
+    "channels_overview": "Channels overview",
     "to": "To",
     "info": "Info",
     "general": "Orokorra",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Produktu bakoitzeko",
     "journey": "Bidaia",
     "after": "Ondoren",
-    "waiting_for_payment": "Mesedez, osatu ordainketa...",
     "hour": "Ordua",
     "minute": "Minutua",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Dendak",
     "vendor": "Saltzailea",
     "vendors": "Saltzaileak",
+    "no_vendors": "No vendors",
     "marketplace": "Merkatua",
     "verify_date": "Egiaztatu data",
     "note": "Ohar",
@@ -604,7 +609,6 @@ export default {
     "variant": "Aldaera",
     "secure": "Segurua",
     "admin": "Admin",
-    "tax_included_abstract": "barne",
     "payment_not_settled": "Ordainketa ez da kitatu!",
     "orders_list": "Eskaerak zerrenda",
     "subscription_plan": "Harpidetza plana",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Klusterrak",
     "subscriptions": "Harpidetzak",
     "spam": "Spam",
-    "video": "Bideoa"
+    "video": "Bideoa",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Zuk",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Oso konplikatua",
+    "hard": "Gogorra",
+    "intermediate": "Tartekoa",
+    "easy": "Erraza",
   },
   "dialogs": {
     "delete": {
       "title": "Ezabatu",
       "message": "Ziur elementu hau ezabatuko duzula?",
-      "action": "Bai, ezabatu orain"
-    }
+      "action": "Bai, ezabatu orain",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Gehitu saskira",
     "cancel": "Utzi",
     "update": "Eguneratu",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Gehitu opari txartela",
     "charge": "Kargatu",
     "send_invites": "Bidali gonbidapenak",
-    "past": "Iragana",
+    "paste": "Itsatsi",
     "restore": "Berreskuratu",
     "cut": "Moztu",
     "get_sms_code": "Lortu autentifikazio-kodea",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Erakutsi aurrebista",
     "hide_preview": "Ezkutatu aurrebista",
     "download_now": "Deskargatu orain",
+    "watch_now": "Ikusi orain",
     "auto_fill": "Bete automatikoa",
     "track": "Pista",
     "change_state": "Aldatu egoera",
     "done": "Eginda",
     "reply": "Erantzun",
-    "watch_now": "Ikusi orain",
     "unlock": "Desblokeatu",
     "lock": "Blokea",
     "create_clone": "Sortu klona",
@@ -773,41 +931,71 @@ export default {
     "buy": "Erosi",
     "view_all": "Ikusi guztiak",
     "view_now": "Ikusi orain",
-    "paste": "Itsatsi"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Iragana",
+  },
+  "billing_period": {
+    "Daily": "Egunero",
+    "Weekly": "Asterokoa",
+    "Monthly": "Hilerokoa",
+    "Every3Months": "3 hilabetero",
+    "Every6Months": "6 hilabetero",
+    "Yearly": "Urtero",
   },
   "instance_message_title": "Bidali berehalako mezua",
   "instance_message": "Kaixo {name}, {author}ko {company} naiz.",
   "errors": {
     "419": "Aspaldi egon zara inaktibo, mesedez <b>⟳ FRESKATU ORRIA</b> segurtasun arrazoiengatik.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistema ez da blockchain-arekin sinkronizatzen. Ezin izango da transakzio berririk sortu gure zerbitzarien sinkronizazioak amaitu arte. Arazoa konpontzen ari gara.",
-    "gateway_network_error": "Ordainketa-pasabide zerbitzuak komunikazio-arazo bat izan du."
+    "gateway_network_error": "Ordainketa-pasabide zerbitzuak komunikazio-arazo bat izan du.",
   },
   "receiver_info": {
     "map": {
       "title": "Bidaltzeko Helbidea",
       "confirm": "Ezarri kokapena",
       "address_type": "Helmuga",
-      "receptor_type": "Hartzailea"
+      "receptor_type": "Hartzailea",
     },
     "receiver_address": "Hautatu bidalketa helbidea",
+    "service_address": "Hautatu zure helbidea",
+    "select_billing_address": "Select billing address",
     "address": "helbidea",
     "postcode": "Posta kodea",
     "enter_value": "Bete hemen",
     "address_note": "Ohar",
     "tel": "Harremanetarako zenbakia",
-    "service_address": "Hautatu zure helbidea"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kilogramo"
+    "kg": "kilogramo",
   },
   "mass_unit_name": {
     "g": "gramoa",
     "oz": "Ontza",
     "lb": "Libra",
-    "kg": "kilogramoa"
+    "kg": "kilogramoa",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Zentimetroa",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Oina",
     "mm": "milimetroa",
     "m": "metroa",
-    "yd": "Patioa"
+    "yd": "Patioa",
   },
   "distance": {
     "m": "metroa",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Egunak",
     "hours": "Orduak",
     "minutes": "Minutu",
-    "seconds": "Segundoak"
+    "seconds": "Segundoak",
   },
   "units": [
     "Unitatea",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Estatu",
     "Territory": "Lurraldea",
-    "Province": "Probintzia"
+    "Province": "Probintzia",
   },
   "transaction_status": {
     "RequireAction": "Beharrezko ekintza",
     "Processing": "Tramitazioa",
     "Canceled": "Bertan behera utzita",
-    "Succeeded": "Arrakastatsua"
+    "Succeeded": "Arrakastatsua",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Hautatu hizkuntza...",
     "friend_email": "Zure lagunaren posta elektronikoa...",
     "friend_name": "Aukera. Zure lagunaren izena",
-    "select_date": "Hautatu data..."
+    "select_date": "Hautatu data...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Berretsi",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Gehienez {maxCount} karaktere",
     "invalid_url": "URL baliogabea",
     "country_invalid": "Hautatu helmugako herrialdea!",
-    "postal_code_invalid": "Ezarri baliozko posta kodea!"
+    "postal_code_invalid": "Ezarri baliozko posta kodea!",
   },
   "colors": {
     "#D32F2F": "Gorria",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unitatea",
     "postcode": "Posta kodea",
     "note": "Ohar",
-    "county": "Konderria"
+    "county": "Konderria",
   },
   "product_types": {
     "physical": "Fisikoa",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Zerbitzua",
     "service_description": "Honelako zerbitzuak: konponketa, garraioa, irakaskuntza.",
     "subscription": "Harpidetza",
-    "subscription_description": "Produktu, zerbitzu edo edukien harpidetzak eta fakturazioa."
+    "subscription_description": "Produktu, zerbitzu edo edukien harpidetzak eta fakturazioa.",
   },
   "license": {
     "free": "Doan",
     "startup": "Hasi",
     "company": "Enpresa",
-    "enterprise": "Enpresa"
+    "enterprise": "Enpresa",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Kolore",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Paketean zenbatu",
     "weight": "Pisua",
     "type": "Materiala",
-    "style": "Estiloa"
+    "style": "Estiloa",
   },
   "delivery_state": {
     "check_queue": "Berrikuspenaren zain",
     "order_confirm": "Eskaera berrespena",
     "preparing_order": "Prestatzen",
     "sent_order": "Entregatzean",
-    "to_customer": "Entregatua"
+    "to_customer": "Entregatua",
   },
   "status": {
     "unpaid": "Ordaindu gabe",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Baztertu",
     "pending": "Zain",
     "rejected": "Baztertua",
-    "accepted": "Onartua"
+    "accepted": "Onartua",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kilogramo"
+    "kg": "kilogramo",
   },
   "transportation_type": {
     "motorbike": "Motorra",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Garraio globala",
     "global_description": "Bidalketa atzerritik airez, itsasoz edo lurrez.",
     "pickup": "Jaso",
-    "pickup_description": "Bezeroek zure denda fisikoan edo biltegian jasotzen dituzte gauzak."
+    "pickup_description": "Bezeroek zure denda fisikoan edo biltegian jasotzen dituzte gauzak.",
   },
   "article": {
     "login_to_see_error": "Hasi saioa artikuluan sartzeko",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Editatu modua",
       "view_mode": "Ikusi modua",
-      "delete": "Ezabatu artikulua"
+      "delete": "Ezabatu artikulua",
     },
     "schedule_action": "Argitalpena antolatu nahi duzu?",
     "schedule_title": "Antolatu argitalpen automatikoa",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Salatu erabilera okerra eta kendu edukia",
       "report_title": "Salatu eduki hau abusua dela",
       "message": "Zein da eduki hau bidaltzearen arrazoia? Aukeratu aukera hauetako bat.",
-      "accept_and_delete_action": "Berretsi eta ezabatu edukia"
+      "accept_and_delete_action": "Berretsi eta ezabatu edukia",
     },
     "schedule_dialog": {
       "title": "Edukiak kaleratzeko egutegia",
       "publish_at": "Argitaratu helbidean",
       "last_edit": "Azken edizioa",
-      "view_action": "Ikusi artikulua"
+      "view_action": "Ikusi artikulua",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Bidali informazioa",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Salatu eta ezabatu",
       "report_and_delete_success_message": "Artikulua behar bezala ezabatu da.",
       "report_success_title": "Erreportajearen artikulua",
-      "report_success_message": "Artikulu honi buruzko zure txostena argitaratu da."
+      "report_success_message": "Artikulu honi buruzko zure txostena argitaratu da.",
     },
     "alert": {
       "delete_article": {
         "title": "Ezabatu artikulua",
         "message": "Ziur artikulu hau betiko ezabatu nahi duzula?",
-        "action": "Ezabatu"
-      }
+        "action": "Ezabatu",
+      },
     },
     "edit_window": {
       "title": "Hautatu Irudiaren Testua eta Laburpena",
-      "digest": "Laburpen"
+      "digest": "Laburpen",
     },
     "editor": {
       "title_placeholder": "Izenburua..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Fitxategi hau handiegia da:",
       "notifications": {
         "image_uploaded_success": "Irudia behar bezala gorde da",
-        "image_uploaded_failed": "Errore bat gertatu da irudia kargatzean."
+        "image_uploaded_failed": "Errore bat gertatu da irudia kargatzean.",
       },
       "embed_placeholder": "Sartu iframe kodea, Facebook, Youtube edo beste edozein URL eta sakatu Sartu.",
       "embed_caption_placeholder": "Idatzi izenburu bat (aukerakoa)",
-      "images_caption_placeholder": "Idatzi izenburu bat irudi honetarako.."
-    }
+      "images_caption_placeholder": "Idatzi izenburu bat irudi honetarako..",
+    },
   },
   "article_report": {
     "inappropriate": "Artikulu honen edukia desegokia da.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Eduki honek pornografia duela eta legeak urratzen dituela uste dut.",
     "harassment": "Nire ustez hau arrazista da.",
     "hate": "Uste dut hau indarkeria sustatzea dela.",
-    "infringe": "Horrek nire eskubideak urratzen ditu."
+    "infringe": "Horrek nire eskubideak urratzen ditu.",
   },
   "comments": {
     "new_action": "Egin klik iruzkin bat uzteko..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Lortu iruzkin gehiago..",
     "cant_send_comment": "Ezin duzu mezu berririk gehitu.",
     "cant_remove_this_comment": "Ezin duzu iruzkin hau ezabatu!",
-    "product_buyer": "Eroslea",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Nire iruzkinak",
     "delete_alert": {
       "title": "Ezabatu iruzkina",
       "message": "Iruzkin hau ezabatu nahi duzu?",
-      "action": "Ezabatu"
+      "action": "Ezabatu",
     },
     "notifications": {
-      "delete_success": "Zure iruzkina behar bezala ezabatu da."
+      "delete_success": "Zure iruzkina behar bezala ezabatu da.",
     },
     "first_send": "Lehenengo mezua",
     "comment_at": "On",
     "edit_comment": "Editatu iruzkina",
-    "my_comments": "Nire iruzkinak"
+    "product_buyer": "Eroslea",
   },
   "customer_club": {
     "bronze": "Brontzea",
     "silver": "Zilarrezkoa",
     "gold": "Urrezkoa",
     "platinum": "Platinozkoa",
-    "diamond": "Diamantea"
+    "diamond": "Diamantea",
   },
   "application_categories": {
     "tracking": "Erabiltzaileen portaera egiaztatzea",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Publizitatea",
     "staff": "Langileak",
     "incentive": "Pizgarriak",
-    "shop": "Denda"
+    "shop": "Denda",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Gehitu elementu berria",
     "title_input": "Izenburua",
+    "placeholder_input": "Leku-marka",
     "name_input": "Aldagaiaren izena",
     "value_input": "Balioak",
     "value_input_message": "Erabiltzaileen aukeren zerrenda",
     "default": "Balio lehenetsia",
+    "file_type_input": "Fitxategi mota onargarriak",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Sinplea",
       "selective": "Selektiboa",
       "switch": "Aldatu",
       "file": "Fitxategia",
-      "number": "Zenbakia"
+      "number": "Zenbakia",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Leku-marka",
-    "file_type_input": "Fitxategi mota onargarriak",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "produktuaren izena",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Ordainketa egoera",
     "payment_status_waiting": "Ordainketaren zain",
     "payment_status_paid": "Ordaindua",
-    "buyer": "Eroslea"
+    "buyer": "Eroslea",
   },
   "virtual_item_info": {
     "title": "Elementu birtuala",
     "outputs": {
       "title": "Irteerako informazioa",
       "sub_title": "Elementu honen informazio konfidentziala",
-      "message": "Informazio hori erabiltzaileari erakutsiko zaio produktua erosi ondoren."
+      "message": "Informazio hori erabiltzaileari erakutsiko zaio produktua erosi ondoren.",
     },
     "inputs": {
       "title": "Beharrezko informazioa",
       "sub_title": "Erosleari buruzko informazioa behar da",
-      "message": "Erosleak eskatutako informazioa sartu behar du formularioan"
+      "message": "Erosleak eskatutako informazioa sartu behar du formularioan",
     },
     "notifications": {
       "inputs_set_success": "Informazio inprimakia behar bezala erregistratu da.",
       "confirm_by_admin_success": "Eskaera amaitu dela baieztatu da.",
-      "confirm_by_buyer_success": "Eskaera amaitu dela baieztatu da."
-    }
+      "confirm_by_buyer_success": "Eskaera amaitu dela baieztatu da.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Eskaera hau ezin da onartu COD ordainketarekin.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Agortuta.",
     "legal_restriction": "Ezin da eskaera egin legezko murrizketak direla eta.",
     "pricing_fault": "Prezioen akatsa saltzaileak.",
-    "system_fault": "Sistemaren akatsa."
+    "system_fault": "Sistemaren akatsa.",
   },
   "basket_order_info_summery": {
     "receiver": "Hartzailea",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Deskontua",
     "final_price": "Behin betiko zenbatekoa",
     "address": "Bidalketa Helbidea",
-    "payment_status": "Ordainketa egoera"
+    "payment_status": "Ordainketa egoera",
   },
   "basket_status": {
     "open": "Ireki",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Bertan behera utzita",
     "cod": "Ordaindu entregan",
     "receipt_added": "Ordainagiria gehitu da",
-    "payment_processing": "Ordainketa prozesatzea"
+    "payment_processing": "Ordainketa prozesatzea",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Baztertua",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Berrespena",
     "step_3": "Prestaketa",
     "step_4": "Entregatzean",
-    "step_5": "Entregatua"
+    "step_5": "Entregatua",
   },
   "basket_return_request_view": {
     "title": "Itzultzeko eskaera",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Eskaera baztertu",
     "message_for_admin": "Selldone erabiliz onartu duzun akordioaren arabera, eroslearekin harremanetan jarri behar duzu eta bere eskaera itzultzeko prozesuaren berri eman behar diozu. Hori egin beharko da eskaera onartzen edo ezesten bada eta eroslearen adostasun osoa lortzen bada.",
     "notifications": {
-      "update_status_success": "Eskaeraren egoera eguneratu da."
-    }
+      "update_status_success": "Eskaeraren egoera eguneratu da.",
+    },
   },
   "basket_list": {
     "return_count": "Itzuli: {count} zenbakia",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Aldaera",
       "warranty": "Bermeak",
       "count": "zenbaketa",
-      "price": "prezioa"
-    }
+      "price": "prezioa",
+    },
   },
   "return_request_list": {
     "count": "Erreferentzia-zenbakia",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Jasotako data",
       "state": "Egoera",
       "reason": "Arrazoia",
-      "return_warranty_period": "Berme epea"
-    }
+      "return_warranty_period": "Berme epea",
+    },
   },
   "data_toolbar": {
     "search": "Bilatu",
     "sort_by": "Ordenatu",
-    "count_item": "Erakutsi {item} elementuak"
+    "count_item": "Erakutsi {item} elementuak",
   },
   "sort": {
     "created_at": "Sortu data",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ofiziala",
     "registered": "Erregistratua",
     "purchased": "Erosia",
-    "sex": "Generoa"
+    "sex": "Generoa",
   },
   "search_box": {
     "result": "Bilaketa-emaitzak",
     "tips": "Bilatu produktuak eta kategoriak",
     "label": "Bilatu...",
-    "category": "Kategoria"
+    "category": "Kategoria",
   },
   "lead_status": {
     "physical_fast_delivery": "Berehalako entrega",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Datozen {days} egunetatik aurrera prestatzen eta bidaltzen",
     "virtual_fast_prepare": "Berehalako entrega",
     "virtual_under_24h": "Hurrengo {lead} orduetan egingo da",
-    "virtual_over_24h": "Hurrengo {days} egunetatik aurrera egingo da"
+    "virtual_over_24h": "Hurrengo {days} egunetatik aurrera egingo da",
   },
   "return_request_state": {
     "pending": "Zain",
     "accepted": "Baieztatuta",
-    "rejected": "Baztertua"
+    "rejected": "Baztertua",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Paketea edo serie-zenbakia manipulatzea",
       "U5": "Fardeleko elementu batzuk falta dira",
       "U6": "Produktua ez da originala",
-      "U7": "Produktuak ez ditu zehaztapenak betetzen"
-    }
+      "U7": "Produktuak ez ditu zehaztapenak betetzen",
+    },
   },
   "image_uploader": {
     "label": "Arrastatu eta Jaregin edo <u>Hautatu fitxategia</u>",
-    "max_size": "Onartutako gehienezko tamaina: {size}"
+    "max_size": "Onartutako gehienezko tamaina: {size}",
   },
   "timespan": {
     "Morning": "8:00etatik 12:00etara",
     "Evening": "12:00etatik 18:00etara",
     "Night": "18:00-12:00",
-    "Instant": "Berehalako mezua"
+    "Instant": "Berehalako mezua",
   },
   "week_day": {
     "Saturday": "Larunbata",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "asteartea",
     "Wednesday": "asteazkena",
     "Thursday": "osteguna",
-    "Friday": "ostirala"
+    "Friday": "ostirala",
   },
   "payment_form": {
     "title": "Hautatu Ordainketa-metodoa",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Zorionak, zure eskaera doan da!",
     "order_free_payment_action": "Eska ezazu doan orain",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Ordainketa helbidea",
-      "amount": "Zenbatekoa"
-    }
+      "amount": "Zenbatekoa",
+    },
   },
   "discount_input": {
     "limit": "% {percent} deskontua gehienez {limit} {currency}",
     "action": "Gehitu deskontu kodea",
     "code_input": "Deskontu kodea",
     "notifications": {
-      "add_success": "Zorionak, baliozko deskontu kodea."
-    }
+      "add_success": "Zorionak, baliozko deskontu kodea.",
+    },
   },
   "gift_card": {
     "inactive": "Txartela desgaituta dago",
     "expire": "Iraungitzea",
     "transfer": "Transferentzia",
-    "send_to_friend": "Bidali lagunari"
+    "send_to_friend": "Bidali lagunari",
   },
   "count_down": {
     "days": "Eguna",
     "hours": "Ordua",
     "minutes": "Minutu",
-    "seconds": "Segundoak"
+    "seconds": "Segundoak",
   },
   "gift_status": {
     "Unpaid": "Ordainagiriaren zain",
     "Paid": "Ordaindua",
     "Rejected": "Baztertua",
-    "Canceled": "Bertan behera utzita"
+    "Canceled": "Bertan behera utzita",
   },
   "gift_program_status": {
     "Airdrop": "Ordainketa Sistema",
     "Advertising": "Publizitatea",
     "PersonalGift": "Opari pertsonala",
-    "ShopGift": "Denda"
+    "ShopGift": "Denda",
   },
   "currency_selector": {
-    "label": "Moneta"
+    "label": "Moneta",
   },
   "need_login": {
     "title": "saioa hasi",
     "login_sms": "SMS saioa hasteko",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Hasi saioa Google-rekin",
     "login_facebook": "Hasi saioa Facebook-ekin",
+    "login_apple": "Hasi saioa Apple-rekin",
     "login_account": "Hasi saioa Selldone-k",
     "register": "Erabiltzaile berria? Izena eman orain.",
     "mobile_input": "Sartu zure mugikorra",
     "verification_code": "Egiaztapen-kodea",
     "msg_title": "Kaixo,",
     "msg_body": "Mesedez, hasi saioa. Segundo batzuk besterik ez ditu behar.",
-    "login_apple": "Hasi saioa Apple-rekin",
     "login_email": "Hasi saioa posta elektroniko bidez",
     "email_login_step_1": "Mesedez, eman baliozko helbide elektroniko bat eta hari saio-hasiera kodea bidaliko diogu. Ez da izena eman behar.",
     "email_login_step_2": "Ziur zure helbide elektronikoa behar bezala sartu duzula? Saio-kodea bidaliko dugu emandako posta elektronikora, beraz, ziurtatu zehaztasuna.",
-    "email_login_step_3": "Kode bat bidali dugu zure posta elektronikora. Kontuan izan kodea 10 minutu barru iraungiko dela."
+    "email_login_step_3": "Kode bat bidali dugu zure posta elektronikora. Kontuan izan kodea 10 minutu barru iraungiko dela.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 urteko Urrezko Denda"
+      "name": "5 urteko Urrezko Denda",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 urteko Urrezko Denda"
+      "name": "4 urteko Urrezko Denda",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 urteko Urrezko Denda"
+      "name": "3 urteko Urrezko Denda",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 urteko Urrezko Denda"
+      "name": "2 urteko Urrezko Denda",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Urteko Urrezko Denda"
+      "name": "1 Urteko Urrezko Denda",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Urrezko Inbertitzailea"
+      "name": "Urrezko Inbertitzailea",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamante Inbertitzailea"
+      "name": "Diamante Inbertitzailea",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby inbertitzailea"
+      "name": "Ruby inbertitzailea",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Komunikazio Sareen Goi Komunitateko kidea"
+      "name": "Komunikazio Sareen Goi Komunitateko kidea",
     },
     "GOLD_SUPPLIER": {
-      "name": "Urrezko hornitzailea"
+      "name": "Urrezko hornitzailea",
     },
     "GOLD_SELLER": {
-      "name": "Urrezko Saltzailea"
+      "name": "Urrezko Saltzailea",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Edukien ekoizle nagusia"
+      "name": "Edukien ekoizle nagusia",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Izarra"
+      "name": "Izarra",
     },
     "GUARDIAN": {
-      "name": "Bezeroarentzako Zerbitzu bikaina"
+      "name": "Bezeroarentzako Zerbitzu bikaina",
     },
     "KING": {
-      "name": "Merkatuaren erregea"
-    }
+      "name": "Merkatuaren erregea",
+    },
   },
   "cookie": {
     "title": "Webgune honek cookieak erabiltzen ditu",
     "message": "Webgune honek cookieak erabiltzen ditu erabiltzailearen esperientzia hobetzeko. Gure webgunea erabiltzean cookie guztiak onartzen dituzu gure Cookie Politikaren arabera.",
     "preferences_action": "Kudeatu Hobespenak",
-    "agree_action": "Ados"
+    "agree_action": "Ados",
   },
   "basket_item_message": {
     "title": "Elementu honetarako beharrezko informazioa",
     "save_actions": "Gorde mezua",
+    "product_inputs_preview_message": "Pertsonalizazio aukera hauek eskuragarri daude eskatutako produkturako. Artikulua zure saskira gehitu ondoren, hemen doikuntzak egin ahal izango dituzu.",
     "notifications": {
-      "success": "Zure sarrerako datuak gorde dira."
+      "success": "Zure sarrerako datuak gorde dira.",
     },
-    "product_inputs_preview_message": "Pertsonalizazio aukera hauek eskuragarri daude eskatutako produkturako. Artikulua zure saskira gehitu ondoren, hemen doikuntzak egin ahal izango dituzu."
   },
   "faq": {
     "faq": "Galdera arruntak",
     "title": "Galderak eta Erantzunak",
-    "sub_title": "Zer eskatu diguzu.",
     "message": "Bilatu zure galderaren erantzuna beheko erantzunen artean. Galdetu iezaguzu galderak erantzun gabe geratzen badira.",
     "add_question_action": "Galdera berria egin",
     "read_more": "Irakurri gehiago ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Galdera",
     "question_input_placeholder": "Egin zure galdera.",
     "notifications": {
-      "success_add": "Zure galdera behar bezala bidali da."
-    }
+      "success_add": "Zure galdera behar bezala bidali da.",
+    },
+    "sub_title": "Zer eskatu diguzu.",
   },
   "rating_labels": [
     "Oso txarra",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Idatzi helmuga helbidea",
     "enter_your_address": "Sartu zure helbidea.",
     "postal_code": "Posta kodea",
-    "phone_input": "Telefonoa {type}",
+    "phone_input": "Telefonoa",
     "building_number": "Eraikinaren zenbakia",
     "building_unit": "Unitatea",
     "full_name_input": "Izen osoa {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Helbide etiketa (Beharrezkoa)",
     "notifications": {
       "save_in_list": "Helbide hau zure zerrendan gorde da xehetasun guztiekin.",
-      "edit_success": "Helbide-balio berriak {title}-n gorde dira."
+      "edit_success": "Helbide-balio berriak {title}-n gorde dira.",
     },
     "delete_address_dialog": {
       "title": "Ezabatu helbidea",
       "message": "Ziur helbide hau ezabatu nahi duzula?",
-      "action": "Kendu helbidea"
-    }
+      "action": "Kendu helbidea",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ezin da iruzkin hau editatu!",
     "comment_input_empty": "Mezuaren testua hutsik dago!",
-    "article_not_saved": "Gorde artikulua!"
+    "article_not_saved": "Gorde artikulua!",
   },
   "wheel_fortune": {
     "title": "Jokatu eta irabazi",
     "message": "Joko bakoitzaren kostua 10 txip da. Une honetan {chips} txipa duzu. Lortu txip gehiago dendan erosiz.",
     "win_message": "Zorionak, irabazi duzu!",
     "lost_message": "Barkatu, partida galdu duzu.",
-    "try_again": "Berriro saia zaitezke"
+    "try_again": "Berriro saia zaitezke",
   },
   "json": {
     "add": "Gehitu egitura-datuak",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Egiturak",
     "book": {
       "title": "Liburua",
-      "desc": "Erabiltzaileek Bilaketa emaitzetatik zuzenean aurkitzen duten liburua erosteko aukera ematen dieten liburu-ekintzak."
+      "desc": "Erabiltzaileek Bilaketa emaitzetatik zuzenean aurkitzen duten liburua erosteko aukera ematen dieten liburu-ekintzak.",
     },
     "occupation": {
       "title": "Estimatutako soldata",
-      "desc": "Soldata-kalkuluari buruzko informazioa, hala nola, soldata-tarteak eta lan-moten eskualdean oinarritutako soldata-batez bestekoak, Google-ko lana bilatzeko esperientzian bistaratzen da."
+      "desc": "Soldata-kalkuluari buruzko informazioa, hala nola, soldata-tarteak eta lan-moten eskualdean oinarritutako soldata-batez bestekoak, Google-ko lana bilatzeko esperientzian bistaratzen da.",
     },
     "course": {
       "title": "Ikastaroa",
-      "desc": "Hornitzaileen berariazko zerrenda batean agertzen diren hezkuntza-ikastaroak. Ikastaroek ikastaroaren izenburua, hornitzailea eta deskribapen laburra izan ditzakete."
+      "desc": "Hornitzaileen berariazko zerrenda batean agertzen diren hezkuntza-ikastaroak. Ikastaroek ikastaroaren izenburua, hornitzailea eta deskribapen laburra izan ditzakete.",
     },
     "howto": {
       "title": "Nola",
-      "desc": "How-to-k erabiltzaileei ataza bat behar bezala burutzeko urratsen bidez ibiltzen dira, bideoak, irudiak eta testuak barne."
+      "desc": "How-to-k erabiltzaileei ataza bat behar bezala burutzeko urratsen bidez ibiltzen dira, bideoak, irudiak eta testuak barne.",
     },
     "recipe": {
       "title": "Errezeta",
-      "desc": "Emaitza aberats indibidual gisa edo ostalari-karrusel baten zati gisa bistaratzen diren errezetak."
-    }
+      "desc": "Emaitza aberats indibidual gisa edo ostalari-karrusel baten zati gisa bistaratzen diren errezetak.",
+    },
   },
   "support": {
     "Financial": "Finantza",
     "Technical": "Teknikoa",
-    "Advisor": "Aholkulari"
+    "Advisor": "Aholkulari",
   },
   "condition": {
     "new": "Berria",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Erabilia",
     "used_fair": "Erabilitako azoka",
     "used_good": "Ongi erabilia",
-    "used_like_new": "Berria bezala erabilia"
+    "used_like_new": "Berria bezala erabilia",
   },
   "variant_filter": {
     "title": "Produktuaren aldaera iragazkia",
-    "only_available": "Stock dago"
+    "only_available": "Stock dago",
   },
   "service": {
     "task": {
       "title": "Zereginak",
-      "message": "Zerbitzu honetan egindako zereginen zerrenda."
+      "message": "Zerbitzu honetan egindako zereginen zerrenda.",
     },
     "appointment": {
       "title": "Hitzordua",
-      "message": "Aukeratu hurrengo orduetatik asteko orduak zuretzat egokia den egunaren eta orduaren arabera."
+      "message": "Aukeratu hurrengo orduetatik asteko orduak zuretzat egokia den egunaren eta orduaren arabera.",
     },
     "booking": {
       "title": "Erreserba",
-      "message": "Zehaztu erreserba egin nahi duzun egunen denbora-tartea beheko egutegian."
+      "message": "Zehaztu erreserba egin nahi duzun egunen denbora-tartea beheko egutegian.",
     },
     "subscription": {
-      "title": "Harpidetza"
+      "title": "Harpidetza",
     },
     "charge": {
-      "title": "Kargatu"
-    }
+      "title": "Kargatu",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Prezio finkoak",
-      "message": "Prezio mota honetan, produktuaren prezioa kopuru finkoa da eta ez dago erosleak prezioen kalkulua eskatu beharrik."
+      "message": "Prezio mota honetan, produktuaren prezioa kopuru finkoa da eta ez dago erosleak prezioen kalkulua eskatu beharrik.",
     },
     "ESTIMATION": {
       "title": "Estimazio prezioa",
-      "message": "Produktu eta zerbitzuen prezioa neurri batean saltzaileak kalkulatuko du eskaera bat egiterakoan, ordainketa-fakturak aldatu edo gehitu daitezke zerbitzuan zehar."
+      "message": "Produktu eta zerbitzuen prezioa neurri batean saltzaileak kalkulatuko du eskaera bat egiterakoan, ordainketa-fakturak aldatu edo gehitu daitezke zerbitzuan zehar.",
     },
     "AGREEMENT": {
       "title": "Hitzarmenaren prezioa",
-      "message": "Produktuen edo zerbitzuen azken prezioa saltzaileak ez du aldatuko eskaera egin ondoren."
+      "message": "Produktuen edo zerbitzuen azken prezioa saltzaileak ez du aldatuko eskaera egin ondoren.",
     },
     "BID": {
       "title": "Lizitazioa / Enkantea",
-      "message": "Produktua eskaintzaren prezio altuenean salduko dute erosle potentzialek."
-    }
+      "message": "Produktua eskaintzaren prezio altuenean salduko dute erosle potentzialek.",
+    },
   },
   "map": {
     "title": "Produktuak jasotzeko helmuga",
     "confirm": "Ezarri kokapena",
     "address": "Helmuga",
-    "receptor": "Hartzailea"
+    "receptor": "Hartzailea",
   },
   "ShopBots": {
-    "telegram": "Telegrama"
+    "telegram": "Telegrama",
   },
   "article_tags": {
     "title": "Edukien etiketak",
     "tags_input": "Etiketak",
     "tags_input_message": "Etiketak Artikulu honen zerrenda",
     "notification": {
-      "add_success": "Etiketak gehitu dira"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Oso konplikatua",
-    "hard": "Gogorra",
-    "intermediate": "Tartekoa",
-    "easy": "Erraza"
-  },
-  "billing_period": {
-    "Daily": "Egunero",
-    "Weekly": "Asterokoa",
-    "Monthly": "Hilerokoa",
-    "Every3Months": "3 hilabetero",
-    "Every6Months": "6 hilabetero",
-    "Yearly": "Urtero"
+      "add_success": "Etiketak gehitu dira",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oi ez ona!",
     "between2_3": "Ondo da!",
     "between3_4": "Jendeari gustatzen zaio!",
-    "between4_5": "Jendeak maite du!"
+    "between4_5": "Jendeak maite du!",
   },
   "seasons": {
     "spring": "Udaberria",
     "summer": "Uda",
     "autumn": "Udazkena",
-    "winter": "Negua"
-  }
+    "winter": "Negua",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

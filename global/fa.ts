@@ -15,28 +15,19 @@
 import colors from "./colors/fa";
 
 export default {
-  //--------- Default Values ---------
   currency_default: "IRR",
   language_default: "fa",
-  //----------------------------------
   selldone: "سلدان",
-
   store: "فروشگاه",
-
   not_exist: "ندارد",
   error: "خطا",
   active: "فعال",
   inactive: "غیر فعال",
   required_value: "مقادیر اجباری",
-
   original_warranty: "ضمانت اصل بودن کالا",
   return_warranty_days: "{days} روز ضمانت بازگشت",
   no_return_warranty: "ضمانت بازگشت ندارد",
-
-  reed_agree_terms:
-    "من شرایط استفاده و سیاست حفظ حریم خصوصی را خوانده ام و با آن موافقم.",
-
-  // Common:
+  reed_agree_terms: "من شرایط استفاده و سیاست حفظ حریم خصوصی را خوانده ام و با آن موافقم.",
   commons: {
     Currency: "ارز",
     currencies: "ارزها",
@@ -80,7 +71,6 @@ export default {
     faq: "سوالات متداول",
     question: "سوال",
     answer: "جواب",
-
     create_date: "تاریخ ایجاد",
     update_date: "تاریخ ویرایش",
     start_date: "تاریخ شروع",
@@ -95,19 +85,15 @@ export default {
     payments: "پرداخت",
     organic_search: "موتور جستجو",
     other: "دیگر",
-
     landing_page: "صفحه لندینگ",
     discount_code: "کد تخفیف",
     total_sell: "مجموع فروش",
     details: "جزئیات",
     currency: "ارز",
     amount: "مبلغ",
-
     published: "منتشر شده",
     draft: "پیش نویس",
-
     save_changes: "ذخیره تغییرات",
-
     source: "منبع",
     medium: "واسط",
     url: "وبسایت",
@@ -115,15 +101,12 @@ export default {
     performance: "عملکرد",
     term: "نامیدن",
     content: "محتوا",
-
     session: "فعالیت کاربر",
     product: "محصول",
     add: "افزودن",
     checkout: "سفارش",
     payment: "پرداخت",
-
     more_options: "تنظیمات بیشتر",
-
     full_name: "نام و نام خانوادگی",
     tel: "تلفن",
     about_me: "درباره من",
@@ -132,18 +115,12 @@ export default {
     birthday: "تاریخ تولد",
     country: "کشور",
     city: "شهر",
-
     gender: "جنسیت",
-
     offer: "شگفت انگیز",
-
     website: "وبسایت",
-
     apply_for_all_products: "واجد شرایط برای تمام محصولات",
-
     fix_commission: "پورسانت ثابت",
     percent_commission: "پورسانت درصد",
-
     fixed_discount: "تخفیف ثابت",
     discount_percentage: "تخفیف درصدی",
     discount_limit: "سقف تخفیف",
@@ -162,20 +139,16 @@ export default {
     no_club: "بدون باشگاه مشتریان",
     per_order: "در هر سفارش",
     count: "تعداد",
-
     seconds: "ثانیه",
     auto: "اتومات",
-
     title: "عنوان",
     message: "پیام",
     width: "عرض",
     length: "طول",
     height: "ارتفاع",
-
     label: "لیبل",
     click: "کلیک",
     bank: "بانک",
-
     default: "پیشفرض",
     role: "نقش",
     user: "کاربر",
@@ -183,7 +156,6 @@ export default {
     code: "کد",
     total_payment: "مجموع پرداخت",
     balance: "موجودی",
-
     chance: "شانس",
     free_for_new_users: "رایگان برای کاربران جدید",
     prize_amount: "مبلغ جایزه",
@@ -194,7 +166,6 @@ export default {
     prize: "جایزه",
     Prizes: "جوایز",
     result: "نتیجه",
-
     price: "قیمت",
     lottery: "گردونه شانس",
     coupon: "کوپن",
@@ -207,18 +178,15 @@ export default {
     email_from: "فرستنده",
     subject: "عنوان",
     schedule: "زمانبندی",
-
     files_list: "لیست فایل ها",
     file_max_size: "حداکثر حجم فایل",
     value: "مقدار",
     help: "راهنما",
-
     shipping_tax: "مالیات حمل و نقل",
     net_price: "قیمت خالص",
     tax: "مالیات",
     tax_included: "لحاظ شده در قیمت",
     tax_included_abstract: "شامل.",
-
     limit: "سقف",
     min_purchase: "حداقل مبلغ خرید",
     eligible_for: "واجد شرایط برای",
@@ -226,17 +194,14 @@ export default {
     one_time_use: "یکبار مصرف",
     period_of_qualify: "محدودیت در تعداد",
     no_constraint: "بدون محدودیت",
-
     timespan: "بازه زمانی",
     days: "روز",
     weight: "وزن",
     distance: "فاصله",
-
     last_status: "آخرین وضعیت",
     issued_at: "تاریخ صدور",
     order: "سفارش",
     order_detail: "جزئیات سفارش",
-
     percent: "درصد",
     applied_count: "تعداد اعمال",
     campaign: "کمپین",
@@ -342,7 +307,6 @@ export default {
     from: "از",
     from_lead_time: "از {hours} ساعت آینده",
     no_credit_card_info: "نبود اطلاعات کارت!",
-
     active: "فعال",
     not_active: "غیر فعال!",
     referrals: "ریفرال",
@@ -357,7 +321,6 @@ export default {
     updated_at: "آخرین تغییر",
     register_at: "تاریخ ثبت",
     last_modified: "آخرین ویرایش",
-
     old: "قدیمی",
     new: "جدید",
     start: "شروع",
@@ -371,7 +334,6 @@ export default {
     sms: "پیامک",
     online_payment_link: "لینک پرداخت آنلاین",
     waiting_load_data: "درحال دریافت داده ها..",
-
     views: "نمایش",
     sales: "فروش",
     total_views: "مجموع نمایش ها",
@@ -385,7 +347,6 @@ export default {
     contact: "اطلاعات تماس",
     wallet: "کیف پول",
     reseller: "فروشنده واسط",
-
     tracking_code: "کد رهگیری",
     tracking_url: "آدرس رهگیری",
     fulfillment: "تحویل",
@@ -394,7 +355,6 @@ export default {
     reserved: "رزرو شده",
     score: "امتیاز",
     customer_price: "قیمت مصرف کننده",
-
     options: "تنظیمات",
     show_details: "نمایش جزئیات",
     no_data: "مقداری یافت نشد..",
@@ -402,9 +362,7 @@ export default {
     waiting_connecting_payment: "در انتظار اتصال به درگاه...",
     creating_secure_payment: "درحال ایجاد پرداخت امن.",
     waiting_for_payment: "لطفا پرداخت را تکمیل نمایید...",
-
     officer: "مسئول",
-
     ticket: "تیکت",
     ticket_url: "آدرس تیکت",
     closed_at: "بسته شده در",
@@ -424,7 +382,6 @@ export default {
     rates: "نظر",
     seen_at: "تاریخ مشاهده",
     completed: "تکمیل شده",
-    you: "شما",
     shop: "فروشگاه",
     store: "فروشگاه",
     granted: "اعطاء شده",
@@ -462,37 +419,30 @@ export default {
     invite_glow_caption: "هر دوست یک کارت 84 هزار تومانی!",
     register_free: "عضویت و شروع رایگان",
     gift: "هدیه",
-
     google: "گوگل",
     facebook: "فیسبوک",
     instagram: "اینستاگرام",
     instashop: "اینستاشاپ",
-
     show: "نمایش",
     hide: "مخفی",
     waiting_review: "در انتظار بررسی",
     not_selected: "انتخاب نشده",
     time: "زمان",
-
     final_price: "قیمت نهایی",
     starting_price: "شروع قیمت",
-
     day: "روز",
     paid: "پرداخت شده",
     service_bill: "پرداخت فاکتور",
     avocado: "آووکادو",
-
     delivery_price: "هزینه ارسال",
     select_address: "انتخاب آدرس",
     image: "تصویر",
     view: "نمایش",
     sell: "فروش",
-
     hyper: "هایپر",
     cart_list: "لیست محصولات",
     barcode_scanner: "بارکد اسکنر",
     scan_qr_code: "اسکن کد QR",
-
     new_carts: "سبد جدید",
     pays: "پرداخت ها",
     annually: "سالانه",
@@ -639,8 +589,7 @@ export default {
     shops: "فروشگاه",
     vendor: "فروشنده",
     vendors: "فروشندگان",
-    no_vendors:"فروشنده ای یافت نشد",
-
+    no_vendors: "فروشنده ای یافت نشد",
     marketplace: "مارکتپلیس",
     verify_date: "تاریخ تایید",
     note: "یادداشت",
@@ -673,32 +622,26 @@ export default {
     translate: "ترجمه",
     public: "عمومی",
     deleted: "حذف شده",
-
     variant: "تنوع",
     secure: "امن",
     admin: "مدیر",
     payment_not_settled: "در انتظار پرداخت!",
     orders_list: "لیست سفارشات",
-
     subscription_plan: "پلن اشتراک",
     contents: "محتوا",
     pricings: "قیمت ها",
     static_page: "صفحه استاتیک",
-
     shop_button: "دکمه خرید",
     embed: "جاسازی",
     over: "بیش از",
-
     tax_vary_by_location: "متغییر با مکان",
     product_type: "نوع محصول",
-
     tax_id: "کد مالیاتی",
     business_name: "نام شرکت",
     invoice: "صورت حساب",
     included_in_the_product: "محتویات محصول",
     included_in_the_product_description: "این محصول شامل این محتویات می باشد",
     cross_sell: "فروش متقابل",
-    view_now: "مشاهده",
     discount_off: "تخفیف",
     extra_discount: "تخفیف تشویقی",
     template: "تمپلیت",
@@ -709,34 +652,28 @@ export default {
     badges: "نشان ها",
     explore: "کاوش",
     updated: "به روز شده",
-
     bank_name: "نام بانک",
     bank_account_number: "شماره حساب بانکی",
     bank_routing_number: "کد بانکی",
     bank_branch_address: "آدرس شعبه بانک",
     bank_account_name: "نام کامل صاحب حساب",
-
     valuation: "ارزشگذاری",
     cluster: "خوشه",
     clusters: "خوشه ها",
-
     subscriptions: "اشتراک ها",
     spam: "اسپم",
     video: "ویدئو",
     ends_in: "تا پایان",
     current: "فعلی",
     important: "مهم",
-
     web: "وب",
     payout: "پرداخت",
     vendor_panel: "پنل فروشنده",
     vendors_panel: "پنل فروشنده ها",
     syncing: "همگام سازی",
     level: "سطح",
-
     available: "موجود",
     limited: "محدود",
-
     management: "مدیریت",
     topics: "تاپیک ها",
     posts: "پست ها",
@@ -753,7 +690,6 @@ export default {
     visible: "آشکار",
     warehouse: "انبار",
     billed_yearly: "پرداخت سالیانه",
-
     my_wallet: "کیف پول من",
     boosted: "تقویت شده",
     cashback: "کش بک",
@@ -761,11 +697,12 @@ export default {
     invalid: "نامعتبر",
     refund_date: "تاریخ برگشت پول",
     refund: "برگشت پول",
-    items:"آیتم ها",
+    items: "آیتم ها",
     incentives: "مشوق ها",
+    you: "شما",
     recurring_payment: "پرداخت دوره ای",
     pricing: "قیمت گذاری",
-    purchase:"خرید",
+    purchase: "خرید",
     confirmation: "تایید",
     manage: "مدیریت",
     warning: "هشدار",
@@ -773,33 +710,33 @@ export default {
     read: "خواندن",
     write: "نوشتن",
     root: "ریشه",
-    nothing_set:'تنظیمی انجام نشده',
+    nothing_set: 'تنظیمی انجام نشده',
     installment: "قسطی",
     split_payment: "پرداخت اقساطی",
     profiles: "پروفایل ها",
-    location_limited:'محدودیت مکانی',
-    no_limit:'بدون محدودیت',
-    max_range:'حداکثر محدوده',
+    location_limited: 'محدودیت مکانی',
+    no_limit: 'بدون محدودیت',
+    max_range: 'حداکثر محدوده',
     settled_date: "تاریخ تسویه",
     paid_date: "تاریخ پرداخت",
-    "physical_orders": "سفارش‌های فیزیکی",
-    "virtual_orders": "سفارش‌های مجازی",
-    "file_orders": "سفارش‌های فایل",
-    "service_orders": "سفارش‌های خدمات",
-    "subscription_orders": "سفارش‌های اشتراک",
-    "avocado_orders": "سفارش‌های آووکادو",
-    "hyper_orders": "سفارش‌های هایپر",
+    physical_orders: "سفارش‌های فیزیکی",
+    virtual_orders: "سفارش‌های مجازی",
+    file_orders: "سفارش‌های فایل",
+    service_orders: "سفارش‌های خدمات",
+    subscription_orders: "سفارش‌های اشتراک",
+    avocado_orders: "سفارش‌های آووکادو",
+    hyper_orders: "سفارش‌های هایپر",
     connected: "متصل",
     system: "سیستم",
-    unknown:"نامشخص",
+    unknown: "نامشخص",
     week: "هفته",
     agencies: "آژانس ها",
     not_available: "نا موجود",
     accounting: "حسابداری",
     gateways: "درگاه ها",
     repository: "مخزن",
-    clone:  "کلون",
-    hotkey:'کلید میانبر',
+    clone: "کلون",
+    hotkey: 'کلید میانبر',
     bank_info: "اطلاعات بانکی",
     structure: "ساختار",
     conditions: "شرایط",
@@ -808,11 +745,10 @@ export default {
     eligible: "واجد شرایط",
     share: "اشتراک گذاری",
     fulfilling: "در حال پردازش",
-    pickup_options:"گزینه های دریافت حضوری",
-    pickup_selected:"دریافت حضوری انتخاب شد",
-    delivery_selected:"ارسال انتخاب شد",
-    delivery_options:"گزینه های ارسال",
-
+    pickup_options: "گزینه های دریافت حضوری",
+    pickup_selected: "دریافت حضوری انتخاب شد",
+    delivery_selected: "ارسال انتخاب شد",
+    delivery_options: "گزینه های ارسال",
     for: "برای",
     giveaway: "کادو",
     purchased: "خریداری شده",
@@ -831,7 +767,7 @@ export default {
     europe: "اروپا",
     buy: "خرید",
     levels: "سطوح",
-    sex:'جنسیت',
+    sex: 'جنسیت',
     repeat: "تکرار",
     interval: "فاصله زمانی",
     parcel: "بسته",
@@ -845,45 +781,43 @@ export default {
     property_set: "مجموعه خصوصیات",
     more_info_needed: "نیاز به اطلاعات بیشتر",
     required: "الزامی",
-    seo_preview:'پیش نمایش سئو',
+    seo_preview: 'پیش نمایش سئو',
     icon: "آیکون",
-    values:"مقادیر",
+    values: "مقادیر",
     remove_item: "حذف آیتم",
-    adjusted:'اصلاح شده',
-    original_amount:'میزان اصلی',
-    adjustment_amount:'میزان اصلاح',
-    final_amount:'میزان نهایی',
+    adjusted: 'اصلاح شده',
+    original_amount: 'میزان اصلی',
+    adjustment_amount: 'میزان اصلاح',
+    final_amount: 'میزان نهایی',
     archived: "آرشیو",
     archive: "آرشیو",
     billing: "صورتحساب",
     enter_email: "ایمیل خود را وارد کنید",
     favorite: "مورد علاقه",
-    moderator:"مدیریت",
-    moderators:"مدیریت",
+    moderator: "مدیریت",
+    moderators: "مدیریت",
     supervision: "نظارت",
-    subtitle:"عنوان فرعی",
-    slug:"نامک آدرس",
-    advanced:"پیشرفته",
-    media:"مدیا",
-    none:"هیچ",
-    not_set:"تنظیم نشده",
-    alt:"Alt",
-    meta:"متا",
-    templates:"تمپلیت ها",
-    folder:"پوشه",
-    unpublished:"لغو انتشار",
-    featured:"ویژه",
+    subtitle: "عنوان فرعی",
+    slug: "نامک آدرس",
+    advanced: "پیشرفته",
+    media: "مدیا",
+    none: "هیچ",
+    not_set: "تنظیم نشده",
+    alt: "Alt",
+    meta: "متا",
+    templates: "تمپلیت ها",
+    folder: "پوشه",
+    unpublished: "لغو انتشار",
+    featured: "ویژه",
     links: "لینک ها",
-
+    view_now: "مشاهده",
   },
-
   difficulties: {
     very_complicated: "بسیار پیچیده",
     hard: "پیچیده",
     intermediate: "متوسط",
     easy: "آسان",
   },
-
   dialogs: {
     delete: {
       title: "حذف",
@@ -891,9 +825,8 @@ export default {
       action: "بله، حذف شود",
     },
   },
-
   actions: {
-    upload:"بارگزاری",
+    upload: "بارگزاری",
     add_to_cart: "افزودن به سبد خرید",
     cancel: "انصراف",
     update: "به روز رسانی",
@@ -967,8 +900,7 @@ export default {
     cut: "کات",
     get_sms_code: "دریافت کد ورود",
     register_no_mail: "عضویت بدون ایمیل",
-    no_mail_register_message:
-      "آیا آدرس ایمیل ندارید یا رمز آن را فراموش کرده اید؟",
+    no_mail_register_message: "آیا آدرس ایمیل ندارید یا رمز آن را فراموش کرده اید؟",
     reset_by_mail: "بازیابی رمز با ایمیل",
     reset_by_sms: "بازیابی رمز با شماره تلفن همراه",
     cash_payment: "پرداخت نقدی",
@@ -993,7 +925,6 @@ export default {
     hide_preview: "مخفی کردن",
     download_now: "دانلود فایل",
     watch_now: "تماشای ویدئو",
-
     auto_fill: "پرکردن خودکار",
     track: "رهگیری",
     change_state: "تغییر وضعیت",
@@ -1024,22 +955,19 @@ export default {
     bulk_export: "خروجی دسته جمعی",
     see_all: "مشاهده همه",
     visit: "مشاهده",
-    rate_now:'امتیاز دهید',
-    load:'بارگذاری',
-    duplicate:'کپی',
-    connect:'اتصال',
-    connect_now:'اتصال',
+    rate_now: 'امتیاز دهید',
+    load: 'بارگذاری',
+    duplicate: 'کپی',
+    connect: 'اتصال',
+    connect_now: 'اتصال',
     verify_now: "تایید",
     learn_more: "مطالعه بیشتر",
     learn_more_about: "مطالعه بیشتر درباره {name}",
     select_category: "انتخاب دسته بندی",
-    approve:"تایید",
-    archive:"آرشیو",
-    unpublish:"لغو انتشار",
-
+    approve: "تایید",
+    archive: "آرشیو",
+    unpublish: "لغو انتشار",
   },
-
-  /** @see BillingPeriod **/
   billing_period: {
     Daily: "روزانه",
     Weekly: "هفتگی",
@@ -1048,21 +976,15 @@ export default {
     Every6Months: "هر شش ماه",
     Yearly: "سالانه",
   },
-
   instance_message_title: "ارسال پیام فوری",
   instance_message: "سلام {name}، \nمن {author} از {company} هستم.",
-
   errors: {
     419: "شما مدتی طولانی غیرفعال بودید، به دلایل امنیتی صفحه را <b> ⟳ رفرش</b> نمایید.",
     403: "شما مجاز به انجام این عملیات نیستید. ممکن است با رفرش کردن صفحه مشکل حل شود.",
     404: "صفحه درخواست ‌شده یافت نشد. ممکن است جابجا، تغییر نام داده یا حذف شده باشد.",
-
-    gateway_blockchain_sync_error:
-      "سیستم با شبکه بلاکچین همزمان نیست. تا زمانی که سرورهای ما با بلاکچین همزمان نشوند امکان ایجاد تراکنش جدید وجود نخواهد داشت. در حال رفع مشکل هستیم.",
+    gateway_blockchain_sync_error: "سیستم با شبکه بلاکچین همزمان نیست. تا زمانی که سرورهای ما با بلاکچین همزمان نشوند امکان ایجاد تراکنش جدید وجود نخواهد داشت. در حال رفع مشکل هستیم.",
     gateway_network_error: "سرویس درگاه پرداخت با مشکل ارتباطی مواجه شده است.",
   },
-
-  /** @see SShopCustomerReceiverInfoWidget **/
   receiver_info: {
     map: {
       title: "مقصد دریافت کالا",
@@ -1073,14 +995,12 @@ export default {
     receiver_address: "انتخاب آدرس گیرنده",
     service_address: "انتخاب آدرس",
     select_billing_address: "انتخاب آدرس صورتحساب",
-
     address: "آدرس",
     postcode: "کد پستی",
     enter_value: "وارد نمایید",
     address_note: "توضیحات",
     tel: "شماره تماس",
   },
-
   weight: {
     g: "g",
     oz: "oz",
@@ -1109,7 +1029,6 @@ export default {
     m: "متر",
     yd: "یارد",
   },
-
   distance: {
     m: "متر",
     km: "کیلومتر",
@@ -1118,35 +1037,28 @@ export default {
     km: "کیلومتر",
     mi: "مایل",
   },
-
   time: {
     days: "روز",
     hours: "ساعت",
     minutes: "دقیقه",
     seconds: "ثانیه",
   },
-
   units: [
     "عدد",
     "آیتم",
     "دانه",
     "دست",
     "قطعه",
-
     "کیلوگرم",
     "گرم",
     "میلی گرم",
-
     "متر",
     "میلی متر",
-
     "متر مربع",
     "فوت مربع",
-
     "متر مکعب",
     "لیتر",
     "میلی لیتر",
-
     "فوت",
     "گالون",
     "اینچ",
@@ -1155,14 +1067,13 @@ export default {
     "کوارتز",
     "یارد",
     "اتاق",
-  ],
 
+  ],
   region_types: {
     State: "ایالت",
     Territory: "قلمرو",
     Province: "استان",
   },
-
   transaction_status: {
     RequireAction: "در انتظار پرداخت",
     Processing: "درحال پردازش",
@@ -1170,7 +1081,6 @@ export default {
     Succeeded: "تایید پرداخت",
     RequireCapture: "نیاز به تایید",
   },
-
   placeholders: {
     name: "نام کامل شما",
     email: "your-mail{'@'}mail.com",
@@ -1184,14 +1094,12 @@ export default {
     select_products: "انتخاب محصول",
     birthday: "انتخاب تاریخ تولد",
     select_category: "یک دسته‌بندی انتخاب کنید...",
-    select_a_country:"یک کشور انتخاب کنید...",
-    filter_country:'فیلتر بر اساس کشور...',
-    search:"جستجو...",
-    select_wallet:'انتخاب کیف پول...',
-    filter_by:'فیلتر بر اساس...',
-
+    select_a_country: "یک کشور انتخاب کنید...",
+    filter_country: 'فیلتر بر اساس کشور...',
+    search: "جستجو...",
+    select_wallet: 'انتخاب کیف پول...',
+    filter_by: 'فیلتر بر اساس...',
   },
-
   notification: {
     confirm: "تایید",
     confirm_message: "تغییرات با موفقیت ذخیره گردید.",
@@ -1200,31 +1108,24 @@ export default {
     caution: "توجه",
     warning: "اخطار",
     award: "تبریک",
-
     error_message: "خطایی رخ داده است.",
     congratulation: "تبریک",
     coming_soon: "به زودی",
     on_fetching_data: "در حال دریافت اطلاعات..",
-    new_pwa_version:
-      "ورژن جدید اپلیکیشن در دسترس است. آیا می خواهید اپلیکیشن را آپدیت نمایید؟",
+    new_pwa_version: "ورژن جدید اپلیکیشن در دسترس است. آیا می خواهید اپلیکیشن را آپدیت نمایید؟",
     over_license_limit: "بیشتر از حد مجاز لایسنس فروشگاهتان است",
     update_license: "لایسنس فروشگاه خود را ارتقاء دهید",
-
     required: "اجباری",
     invalid_email: "ایمیل اشتباه است",
     invalid_domain: "دامنه اشتباه است",
     invalid_min_length: "حداقل طول {length} کاراکتر است",
     invalid_min_array_length: "حداقل {length} گزینه را انتخاب نمایید",
-
     invalid_max_chars: "حداکثر طول مجاز {maxCount} کاراکتر می باشد",
     invalid_url: "آدرس اشتباه است",
-
     country_invalid: "کشور مقصد را انتخاب کنید!",
     postal_code_invalid: "کد پستی را وارد کنید!",
   },
-
   colors: colors,
-
   address_info: {
     name: "نام",
     tel: "تلفن",
@@ -1239,36 +1140,24 @@ export default {
     note: "توضحیات",
     county: "شهرستان",
   },
-
-  /** {@see ProductType} **/
   product_types: {
     physical: "فیزیکی",
-    physical_description:
-      "کالاهایی که جنبه فیزیکی دارند مانند: تلفن همراه، کتاب، قطعات الکترونیک.",
-
+    physical_description: "کالاهایی که جنبه فیزیکی دارند مانند: تلفن همراه، کتاب، قطعات الکترونیک.",
     virtual: "مجازی",
-    virtual_description:
-      "کالا هایی که از طریق اینترنت قابل ارائه هستند مانند: کارت شارژ، رزرو هتل، شارژ بازی.",
-
+    virtual_description: "کالا هایی که از طریق اینترنت قابل ارائه هستند مانند: کارت شارژ، رزرو هتل، شارژ بازی.",
     file: "فایل",
     file_description: "کلیه فایل های مجاز در این دسته قرار می گیرند.",
-
     service: "سرویس",
     service_description: "خدمات مانند: تعمیر، حمل و نقل، تدریس.",
-
     subscription: "اشتراک",
     subscription_description: "خرید آبونمانی محصولات، خدمات و یا محتوا.",
   },
-
   license: {
     free: "شخصی",
     startup: "استارتاپ",
     company: "شرکتی",
     enterprise: "سازمانی",
   },
-
-  /** @see Currency */
-
   currency: {
     IRR: "ریال",
     IRR_alt: "تومان",
@@ -1379,7 +1268,6 @@ export default {
     PEN: "PEN",
     PGK: "PGK",
     PHP: "PHP",
-
     PLN: "PLN",
     PYG: "PYG",
     RON: "RON",
@@ -1421,7 +1309,6 @@ export default {
     KWD: "KWD",
     BTN: "BTN",
   },
-
   variants: {
     color: "رنگ",
     volume: "سایز",
@@ -1430,8 +1317,6 @@ export default {
     type: "جنس",
     style: "طرح",
   },
-
-  /** {@see PhysicalOrderStates} **/
   delivery_state: {
     check_queue: "در انتظار بررسی",
     order_confirm: "تایید سفارش",
@@ -1439,7 +1324,6 @@ export default {
     sent_order: "تحویل به مامور ارسال",
     to_customer: "تحویل به مشتری",
   },
-
   status: {
     unpaid: "پرداخت نشده",
     paid: "پرداخت شده",
@@ -1463,14 +1347,11 @@ export default {
     rejected: "رد شده",
     accepted: "تایید شده",
   },
-
   dimensions: {
     cm: "سانتی متر",
     km: "کیلو متر",
     kg: "کیلوگرم",
   },
-
-  /** {@see ShopTransportations} **/
   transportation_type: {
     motorbike: "پیک موتوری",
     motorbike_description: "محموله های متوسط در محدوده چند کیلومتری.",
@@ -1487,17 +1368,12 @@ export default {
     airplane: "ارسال هوایی",
     airplane_description: "محموله های سبک و متوسط  داخلی و خارجی.",
     bicycle: "ارسال پاک",
-    bicycle_description:
-      "محموله های سبک، در محدوده چند صد متری با وسایل نقلیه غیر موتوری.",
+    bicycle_description: "محموله های سبک، در محدوده چند صد متری با وسایل نقلیه غیر موتوری.",
     global: "ارسال بین المللی",
-    global_description:
-      "ارسال خارج از کشوراز طریق خطوط هوایی، دریایی و یا زمینی.",
+    global_description: "ارسال خارج از کشوراز طریق خطوط هوایی، دریایی و یا زمینی.",
     pickup: "دریافت در محل",
-    pickup_description:
-      "سفارشات از داخل مغازه و یا درب انبار توسط مشتری تحویل گرفته می شود.",
+    pickup_description: "سفارشات از داخل مغازه و یا درب انبار توسط مشتری تحویل گرفته می شود.",
   },
-
-  /** {@see ArticleViewer} **/
   article: {
     login_to_see_error: "برای دسترسی به مقاله وارد شوید",
     create_new_action: "ایجاد مطلب جدید",
@@ -1524,10 +1400,8 @@ export default {
     parent_input: "مطلب پدر",
     parent_input_message: "مطلب پدر را انتخاب نمایید.",
     schedule_input: "زمانبندی",
-    schedule_input_placeholder:
-      "در صورتی که می خواهید مطلب در زمان خاصی منتشر گردد.",
+    schedule_input_placeholder: "در صورتی که می خواهید مطلب در زمان خاصی منتشر گردد.",
     schedule_view_action: "مشاهده چارت زمانی انتشار",
-
     author_title: "نوشته شده توسط",
     read_time: "زمان مطالعه",
     read_time_unit: "دقیقه",
@@ -1549,8 +1423,7 @@ export default {
     report_dialog: {
       report_and_delete_title: "ثبت تخلف و حذف مطلب",
       report_title: "ثبت تخلف برای این مطلب",
-      message:
-        "دلیل ثبت تخلف برای این مطلب چیست؟ از میان گزینه های زیر یک مورد را انتخاب نمایید.",
+      message: "دلیل ثبت تخلف برای این مطلب چیست؟ از میان گزینه های زیر یک مورد را انتخاب نمایید.",
       accept_and_delete_action: "تایید و حذف مطلب",
     },
     schedule_dialog: {
@@ -1579,13 +1452,10 @@ export default {
         action: "حذف",
       },
     },
-
-    /** {@see SArticleSeoEditor} **/
     edit_window: {
       title: "انتخاب تصویر متن و خلاصه",
       digest: "خلاصه مطلب",
     },
-    /** {@see SArticleEditor} **/
     editor: {
       title_placeholder: "عنوان..",
       body_placeholder: "یک محتوای عالی بنویسید..",
@@ -1595,14 +1465,11 @@ export default {
         image_uploaded_success: "تصویر با موفقیت ذخیره گردید",
         image_uploaded_failed: "بارگذاری تصویر با خطا مواجه دشه است.",
       },
-      embed_placeholder:
-        "کد آیفریم، آدرس فیسبوک، یوتیوب و ... را اینجا قرارداده و کلید اینتر را بزنید.",
+      embed_placeholder: "کد آیفریم، آدرس فیسبوک، یوتیوب و ... را اینجا قرارداده و کلید اینتر را بزنید.",
       embed_caption_placeholder: "یک عنوان وارد نمایید (اختیاری)",
       images_caption_placeholder: "عنوانی برای این تصویر وارد نمایید..",
     },
-  }, // article
-
-  /** {@see ArticleReport} **/
+  },
   article_report: {
     inappropriate: "محتوای این مقاله نامناسب است.",
     fake: "این مطلب تقلبی و فریب کارانه است.",
@@ -1615,8 +1482,6 @@ export default {
     hate: "من فکر می کنم این مطلب حاوی ترویج خشونت است.",
     infringe: "این مطلب حقوق من را نقض می کند.",
   },
-
-  /** {@see SArticleComments} **/
   comments: {
     new_action: "برای گذاشتن نظر کلیک نمایید..",
     title: "نظرات",
@@ -1630,7 +1495,6 @@ export default {
     cant_remove_this_comment: "نمیتوانید این نظر را حذف نمایید!",
     verified_buyer: "خریدار تایید شده",
     my_comments: "نظرات من",
-
     delete_alert: {
       title: "حذف نظر",
       message: "آیا می خواهید این نظر را حذف نمایید؟",
@@ -1643,8 +1507,6 @@ export default {
     comment_at: "در تاریخ",
     edit_comment: "ویرایش پیام",
   },
-
-  /** {@see CustomerClubLevels} **/
   customer_club: {
     bronze: "برنزی",
     silver: "نقره ای",
@@ -1652,8 +1514,6 @@ export default {
     platinum: "پلاتین",
     diamond: "الماس",
   },
-
-  /** {@see ApplicationCategories} **/
   application_categories: {
     tracking: "بررسی رفتار کاربران",
     payment: "پرداخت",
@@ -1669,8 +1529,6 @@ export default {
     incentive: "مشوق ها",
     shop: "فروشگاه",
   },
-
-  /** {@see SocialNetwork} **/
   social_network: {
     instagram: "اینستاگرام",
     telegram: "تلگرام",
@@ -1686,18 +1544,16 @@ export default {
     skype: "اسکایپ",
     facebook_messenger: "فیسبوک مسنجر",
   },
-
-  /** {@see SFormBuilder} **/
   form_builder: {
     add_item_action: "افزودن آیتم جدید",
     title_input: "عنوان",
     placeholder_input: "راهنما",
-
     name_input: "نام متغییر",
     value_input: "مقادیر",
     value_input_message: "لیست گزینه های کاربر",
     default: "مقدار پیشفرض",
-
+    file_type_input: "نوع فایل قابل پذیرش",
+    file_type_message: "jpeg , png , zip , ...",
     types: {
       simple: "متن ساده",
       selective: "انتخابی",
@@ -1705,11 +1561,8 @@ export default {
       file: "فایل",
       number: "عدد",
       key_value: "کلید-مقدار",
-
     },
   },
-
-  /** {@see SShopVirtualItemInfo} **/
   virtual_order_info_summery: {
     title: "نام محصول",
     reserved_at: "تاریخ ثبت",
@@ -1721,8 +1574,6 @@ export default {
     payment_status_paid: "پرداخت شده",
     buyer: "خریدار",
   },
-
-  /** {@see VirtualItemInfo} **/
   virtual_item_info: {
     title: "اطلاعات کالای مجازی",
     outputs: {
@@ -1730,38 +1581,29 @@ export default {
       sub_title: "اطلاعات محرمانه این آیتم",
       message: "این اطلاعات بعد از خرید محصول به کاربر نشان داده می شود.",
     },
-
     inputs: {
       title: "اطلاعات درخواستی",
       sub_title: "اطلاعات درخواستی از خریدار",
-      message:
-        "خریدار بایستی اطلاعات خواسته شده را در فرم اطلاعات درخواستی وارد نماید.",
+      message: "خریدار بایستی اطلاعات خواسته شده را در فرم اطلاعات درخواستی وارد نماید.",
     },
-
     notifications: {
       inputs_set_success: "فرم اطلاعات با موفقیت ثبت گردید.",
       confirm_by_admin_success: "تکمیل سفارش تایید گردید.",
       confirm_by_buyer_success: "تکمیل سفارش تایید گردید.",
     },
   },
-
-  /** {@see BasketRejectReasons} **/
   order_reject_reasons: {
-    cant_accept_cod:
-      "امکان پذیرش این سفارش با پرداخت در محل توسط مشتری وجود ندارد.",
+    cant_accept_cod: "امکان پذیرش این سفارش با پرداخت در محل توسط مشتری وجود ندارد.",
     payment_returned: "مبلغ واریزی توسط مشتری برگشت خورده است.",
     payment_fraud: "پرداخت به عنوان تقلب و کلاه برداری شناسایی شده است.",
     location_out_of_service: "مکان مشتری خارج از محدوده سرویس دهی است.",
     user_not_responding: "مشتری پاسخگوی تماس ها نمی باشد.",
-    shop_owner_fault:
-      "خطا توسط کارمندان فروشگاه در وارد کردن اطلاعات صورت گرفته است.",
+    shop_owner_fault: "خطا توسط کارمندان فروشگاه در وارد کردن اطلاعات صورت گرفته است.",
     lack_of_inventory: "عدم موجودی کالا در انبار.",
     legal_restriction: "عدم امکان انجام سفارش به دلیل محدودیت های قانونی.",
     pricing_fault: "اشتباه در قیمت گذاری محصول توسط فروشنده.",
     system_fault: "اشکال در سیستم.",
   },
-
-  /** {@see BasketOrderInfoSummery} **/
   basket_order_info_summery: {
     receiver: "تحویل گیرنده",
     phone: "شماره تماس",
@@ -1772,8 +1614,6 @@ export default {
     address: "آدرس تحویل گیرنده",
     payment_status: "وضعیت پرداخت",
   },
-
-  /** {@see BasketStatus} **/
   basket_status: {
     open: "باز",
     reserved: "رزرو شده",
@@ -1784,8 +1624,6 @@ export default {
     payment_processing: "پردازش پرداخت",
     payment_require_capture: "نیاز به تایید",
   },
-
-  /** {@see BasketDeliveryState} **/
   basket_delivery_state: {
     rejected: "رد شده است",
     reject_reason_not_found: "دلیل نا مشخص است.",
@@ -1795,8 +1633,6 @@ export default {
     step_4: "تحویل به مامور ارسال",
     step_5: "تحویل به مشتری",
   },
-
-  /** {@see SOrderBasketReturn} **/
   basket_return_request_view: {
     title: "درخواست مرجوعی",
     delivery_date: "تاریخ دریافت توسط مشتری",
@@ -1811,14 +1647,11 @@ export default {
     download_voice: "دریافت فایل صوتی",
     accept_by_admin_action: "پذیرش مرجوعی",
     reject_by_admin_action: "رد مرجوعی",
-    message_for_admin:
-      "طبق توافق نامه پذیرفته شده توسط شما با سلدان، شما موظف هستید با خریدار تماس گرفته و وی را در جریان روند مرجوعی کالا قرار دهید. این امر در صورت پذیرش یا رد درخواست مرجوعی بایستی صورت پذیرفته و رضایت کامل خریدار جلب گردد.",
+    message_for_admin: "طبق توافق نامه پذیرفته شده توسط شما با سلدان، شما موظف هستید با خریدار تماس گرفته و وی را در جریان روند مرجوعی کالا قرار دهید. این امر در صورت پذیرش یا رد درخواست مرجوعی بایستی صورت پذیرفته و رضایت کامل خریدار جلب گردد.",
     notifications: {
       update_status_success: "وضعیت درخواست مرجوعی به روزرسانی شد.",
     },
   },
-
-  /** {@see BOrderCart} **/
   basket_list: {
     return_count: "مرجوعی: {count} عدد",
     table: {
@@ -1831,8 +1664,6 @@ export default {
       price: "مجموع مبلغ پرداختی",
     },
   },
-
-  /** {@see SBackofficeReturnRequestsList} **/
   return_request_list: {
     count: "تعداد مرجوعی",
     return_warranty: "ضمانت بازگشت",
@@ -1846,15 +1677,11 @@ export default {
       return_warranty_period: "مدت گارانتی",
     },
   },
-
-  /** {@see SDataIteratorToolbar} **/
-
   data_toolbar: {
     search: "جستجو",
     sort_by: "مرتب سازی بر اساس",
     count_item: "نمایش {item} مورد",
   },
-
   sort: {
     created_at: "تاریخ ایجاد",
     updated_at: "تاریخ به روزرسانی",
@@ -1905,7 +1732,6 @@ export default {
     sender: "فرستنده",
     in_que: "در صف",
     sent: "ارسال شده",
-
     shop: "فروشگاه",
     quantity: "موجودی",
     amount: "مبلغ",
@@ -1918,7 +1744,6 @@ export default {
     delivery_person: "سفیر",
     delivery_service: "سرویس",
     date: "تاریخ",
-    shipping_cost: "هزینه حمل و نقل",
     order: "سفارش",
     order_id: "شماره سفارش",
     status: "وضعیت",
@@ -1928,22 +1753,17 @@ export default {
     charge: "شارژ",
     mention: "ارجاع",
     officer: "مسئول",
-
     registered: "عضویت",
     purchased: "سابقه خرید",
     sex: "جنسیت",
+    shipping_cost: "هزینه حمل و نقل",
   },
-
-  /** {@see SStorefrontSearchBox} **/
-
   search_box: {
     result: "نتایج جستجو",
     tips: "جستجو در محصولات و دسته بندی ها",
     label: "جستجوی ...",
     category: "دسته",
   },
-
-  /** {@see LeadStatus} **/
   lead_status: {
     physical_fast_delivery: "ارسال فوری",
     physical_under_24h_delivery: `ارسال تا {lead} ساعت آینده`,
@@ -1952,15 +1772,11 @@ export default {
     virtual_under_24h: "انجام تا {lead} ساعت آینده",
     virtual_over_24h: "انجام از {days} روز آینده",
   },
-
-  /** {@see ReturnItemStates} **/
   return_request_state: {
     pending: "در حال بررسی",
     accepted: "تایید شده",
     rejected: "رد شده",
   },
-
-  /** {@see ReturnOrderReason} **/
   return_order_reason: {
     physical: {
       U1: "عدم مطابقت محصول",
@@ -1972,20 +1788,16 @@ export default {
       U7: "مغایرت با مشخصات اعلام شده توسط فروشنده",
     },
   },
-  /** {@see SImageUploader} **/
   image_uploader: {
     label: "بکش و رها کن یا <u>انتخاب فایل</u>",
     max_size: "حداکثر حجم مجاز : {size}",
   },
-
-  /** {@see TimeSpans} **/
   timespan: {
     Morning: "8 صبح الی 12 ظهر",
     Evening: "12 ظهر الی 6 عصر",
     Night: "6 عصر الی 12 شب",
     Instant: "ارسال فوری",
   },
-  /** {@see WeekDays} **/
   week_day: {
     Saturday: "شنبه",
     Sunday: "یک شنبه",
@@ -1995,33 +1807,25 @@ export default {
     Thursday: "پنج شنبه",
     Friday: "جمعه",
   },
-
-  /** {@see UPaymentForm} **/
   payment_form: {
     title: "انتخاب روش پرداخت",
     gift_cards_input: "کارت های هدیه",
     gift_cards_input_empty: "کارت هدیه ای یافت نشد.",
     more: "دیگر",
     pay_amount_by_gift_cards: "مبلغ پرداختی با کارت شارژ",
-    select_payment_method:
-      "روش پرداخت خود را از بین گزینه های زیر انتخاب نمایید.",
+    select_payment_method: "روش پرداخت خود را از بین گزینه های زیر انتخاب نمایید.",
     payment_amount_remained: "مبلغ پرداختی باقی مانده",
     payment_amount: "مبلغ پرداختی",
-    all_paid_by_gift_cards:
-      "تبریک، برای خرید این سفارش نیازی به پرداخت مبلغ دیگری نخواهید داشت. کلید پرداخت با کارت هدیه را بزنید.",
+    all_paid_by_gift_cards: "تبریک، برای خرید این سفارش نیازی به پرداخت مبلغ دیگری نخواهید داشت. کلید پرداخت با کارت هدیه را بزنید.",
     pay_by_gift_cards_action: "پرداخت کامل با کارت شارژ",
-
     order_free_payment: "تبریک! سفارش شما کاملا رایگان است. ",
     order_free_payment_action: "دریافت سفارش",
-
     qr: {
       guide: "کد QR را با کیف پول خود اسکن کنید یا آدرس و مبلغ را دقیقاً همانطور که نمایش داده شده است کپی کرده و پرداخت را انجام دهید. پس از تکمیل پرداخت، می‌توانید با خیال راحت این پنجره را ببندید. پرداخت شما به صورت خودکار اعتبارسنجی خواهد شد.",
       address: "آدرس پرداخت",
       amount: "مبلغ",
     },
   },
-
-  /** {@see SDiscountCodeInput} **/
   discount_input: {
     limit: "{percent}% تخفیف تا سقف {limit} {currency}",
     action: "افزودن کد تخفیف",
@@ -2030,44 +1834,33 @@ export default {
       add_success: "تبریک، کد تخفیف معتبر است.",
     },
   },
-
-  /** {@see GiftCard} **/
   gift_card: {
     inactive: "کارت غیر فعال است",
     expire: "انقضا",
     transfer: "انتقال",
     send_to_friend: "ارسال به یک دوست",
   },
-  /** {@see UCountDown} **/
   count_down: {
     days: "روز",
     hours: "ساعت",
     minutes: "دقیقه",
     seconds: "ثانیه",
   },
-
-  /** {@see GiftStatus} **/
   gift_status: {
     Unpaid: "در انتظار دریافت",
     Paid: "پرداخت شده",
     Rejected: "رد شده",
     Canceled: "لغو شده",
   },
-
-  /** {@see GiftStProgramTypes} **/
   gift_program_status: {
     Airdrop: "پرداخت سیستم",
     Advertisement: "تبلیغات",
     PersonalGift: "هدیه شخصی",
     ShopGift: "هدیه فروشگاه",
   },
-
-  /** {@see CurrencySelector} **/
   currency_selector: {
     label: "ارز",
   },
-
-  /** {@see SStorefrontNeedLoginDialog} **/
   need_login: {
     title: "ورود",
     login_sms: "ورود با تلفن همراه",
@@ -2080,18 +1873,12 @@ export default {
     mobile_input: "شماره موبایل",
     verification_code: "کد تایید",
     msg_title: "سلام،",
-    msg_body:
-      "لطفا وارد شوید، این کار چند ثانیه بیشتر زمان شما را نخواهد گرفت.",
+    msg_body: "لطفا وارد شوید، این کار چند ثانیه بیشتر زمان شما را نخواهد گرفت.",
     login_email: "ورود با ایمیل",
-    email_login_step_1:
-      "لطفاً یک آدرس ایمیل معتبر وارد کنید تا کد ورود به آن ارسال شود. نیازی به ثبت نام نیست.",
-    email_login_step_2:
-      "آیا مطمئن هستید که آدرس ایمیل خود را به درستی وارد کرده اید؟ کد ورود به ایمیل ارائه شده ارسال خواهد شد ، بنابراین دقت کنید که دقیق باشد.",
-    email_login_step_3:
-      "ما یک کد به ایمیل شما ارسال کرده ایم. لطفاً توجه داشته باشید که کد پس از 10 دقیقه منقضی می شود.",
+    email_login_step_1: "لطفاً یک آدرس ایمیل معتبر وارد کنید تا کد ورود به آن ارسال شود. نیازی به ثبت نام نیست.",
+    email_login_step_2: "آیا مطمئن هستید که آدرس ایمیل خود را به درستی وارد کرده اید؟ کد ورود به ایمیل ارائه شده ارسال خواهد شد ، بنابراین دقت کنید که دقیق باشد.",
+    email_login_step_3: "ما یک کد به ایمیل شما ارسال کرده ایم. لطفاً توجه داشته باشید که کد پس از 10 دقیقه منقضی می شود.",
   },
-
-  /** {@see ShopBadges} **/
   shop_badges: {
     GOLDEN_1YEAR: {
       name: "فروشگاه طلایی 5 ساله",
@@ -2142,35 +1929,24 @@ export default {
       name: "پادشاه بازار",
     },
   },
-  /** {@see SCookieConsent} **/
-
   cookie: {
     title: "استفاده از کوکی",
-    message:
-      "این وب سایت از کوکی ها برای بهبود تجربه کاربری استفاده می کند. با استفاده از وب‌سایت ما، با تمام کوکی‌ها مطابق با خط‌مشی کوکی ما موافقت می‌کنید.",
+    message: "این وب سایت از کوکی ها برای بهبود تجربه کاربری استفاده می کند. با استفاده از وب‌سایت ما، با تمام کوکی‌ها مطابق با خط‌مشی کوکی ما موافقت می‌کنید.",
     preferences_action: "مدیریت کوکی ها",
     agree_action: "موافق هستم",
   },
-
-  /** {@see BasketItemUserMessageForm} **/
   basket_item_message: {
     title: "ورودی اطلاعات برای سفارش این کالا",
     save_actions: "ذخیره مقادیر",
-    product_inputs_preview_message:
-      "این گزینه‌های سفارشی‌سازی برای محصول سفارش داده شده شما در دسترس است. پس از افزودن آیتم به سبد خریدتان، شما می‌توانید در اینجا تغییرات را اعمال کنید.",
-
+    product_inputs_preview_message: "این گزینه‌های سفارشی‌سازی برای محصول سفارش داده شده شما در دسترس است. پس از افزودن آیتم به سبد خریدتان، شما می‌توانید در اینجا تغییرات را اعمال کنید.",
     notifications: {
       success: "پیام شما ثبت شد",
     },
   },
-
-  /** {@see FAQ} **/
   faq: {
     faq: "سوالات متداول",
     title: "سوال و جواب",
-    sub_title: "آنچه شما از ما پرسیده اید.",
-    message:
-      "در میان جواب های زیر به دنبال جواب سوال خود بگردید. در صورتی که جواب سوالتان را پیدا نمی کنید، از ما بپرسید.",
+    message: "در میان جواب های زیر به دنبال جواب سوال خود بگردید. در صورتی که جواب سوالتان را پیدا نمی کنید، از ما بپرسید.",
     add_question_action: "پرسش سوال جدید",
     read_more: "بیشتر بخوانم..",
     load_more: "سوالات بیشتر..",
@@ -2182,12 +1958,9 @@ export default {
     notifications: {
       success_add: "سوال شما با موفقیت ثبت گردید.",
     },
+    sub_title: "آنچه شما از ما پرسیده اید.",
   },
-
-  /** {@see URatingInput} **/
   rating_labels: ["خیلی ضعیف", "ضعیف", "معمولی", "خوب", "عالی"],
-
-  /** {@see UMapView} **/
   map_view: {
     address_detail: "جزئیات آدرس",
     change: "تغییر",
@@ -2214,35 +1987,18 @@ export default {
       action: "حذف آدرس",
     },
   },
-
-  /** {@see SArticleComments} **/
   comment_manager: {
     can_not_edit: "نمی توانید این کامنت را ذخیره نمایید!",
     comment_input_empty: "متن پیام خالی است!",
     article_not_saved: "مقاله را ذخیره نمایید!",
   },
-
-  /** {@see SStorefrontLotteryWheelOfFortune} **/
   wheel_fortune: {
     title: "گردونه شانس",
-    message:
-      "هزینه هر بار بازی 10 ژتون می باشد. شما در حال حاضر {chips} ژتون دارید. با خرید از فروشگاه ژتون های بیشتری دریافت نمایید.",
+    message: "هزینه هر بار بازی 10 ژتون می باشد. شما در حال حاضر {chips} ژتون دارید. با خرید از فروشگاه ژتون های بیشتری دریافت نمایید.",
     win_message: "تبریک، شما برنده شدید!",
     lost_message: "متاسفانه شما برنده نشدید.",
     try_again: "دوباره امتحان کنید",
   },
-
-  /** {@see Calculator} **/
-  /* calculator: {
-          title: "عنوان ماشین حساب",
-          formula: "فرمول",
-          variable_name: "نام متغیر",
-          variable_name_message: "نام متغیر را وارد نموده و کلید افزودن را بزنید.",
-          type: "نوع متغیر",
-          variable_title: "عنوان متغیر",
-          duplicate_var_name_error: "نمیتوان دو متغیر با یک نام وارد نمود.",
-        },*/
-  /** {@see SArticleStructuredData} **/
   json: {
     add: "افزودن داده های بیشتر",
     add_message: "نمایش بهتر در نتایج موتورهای جستجو",
@@ -2268,15 +2024,11 @@ export default {
       desc: "دستور العمل هایی که به عنوان یک نتیجه غنی از فرد یا بخشی از چرخ فلک میزبان نمایش داده می شوند.",
     },
   },
-
-  /** {@see SupportCategory} **/
   support: {
     Financial: "فروش و مالی",
     Technical: "فنی",
     Advisor: "مشاوره",
   },
-
-  /** {@see ProductCondition} **/
   condition: {
     new: "نو",
     refurbished: "بازسازی شده",
@@ -2285,14 +2037,10 @@ export default {
     used_good: "کارکرده سالم",
     used_like_new: "دست دوم در حد نو",
   },
-
-  /** @see VariantFilter **/
   variant_filter: {
     title: "فیلتر تنوع محصول",
     only_available: "موجود در انبار",
   },
-
-  /** Service **/
   service: {
     task: {
       title: "وظایف",
@@ -2300,13 +2048,11 @@ export default {
     },
     appointment: {
       title: "وقت گرفتن",
-      message:
-        "از میان زمان های زیر زمان هایی در هفته را بر اساس روز و ساعت که برای شما مناسب است انتخاب نمایید.",
+      message: "از میان زمان های زیر زمان هایی در هفته را بر اساس روز و ساعت که برای شما مناسب است انتخاب نمایید.",
     },
     booking: {
       title: "رزرو",
-      message:
-        "بازه زمانی روزهایی کهمیخواهید رزرو انجام دهید را در تقویم زیر مشخص نمایید.",
+      message: "بازه زمانی روزهایی کهمیخواهید رزرو انجام دهید را در تقویم زیر مشخص نمایید.",
     },
     subscription: {
       title: "آبونمان / اشتراک",
@@ -2315,44 +2061,33 @@ export default {
       title: "شارژ",
     },
   },
-  /** PricingTypes **/
   PricingTypes: {
     FIX: {
       title: "قیمت گذاری ثابت",
-      message:
-        "در این نوع قیمت گذاری قیمت محصول یک مقدار ثابت بوده و نیازی به درخواست محاسبه قیمت توسط خریدار وجود نخواهد داشت.",
+      message: "در این نوع قیمت گذاری قیمت محصول یک مقدار ثابت بوده و نیازی به درخواست محاسبه قیمت توسط خریدار وجود نخواهد داشت.",
     },
     ESTIMATION: {
       title: "قیمت گذاری تخمینی",
-      message:
-        "قیمت کالا و خدمات در هنگام ثبت سفارش به صورت حدودی توسط فروشنده محاسبه خواهد شد، فاکتورهای پرداخت در طی انجام خدمت قابل تغییر یا اضافه کردن خواهد بود.",
+      message: "قیمت کالا و خدمات در هنگام ثبت سفارش به صورت حدودی توسط فروشنده محاسبه خواهد شد، فاکتورهای پرداخت در طی انجام خدمت قابل تغییر یا اضافه کردن خواهد بود.",
     },
     AGREEMENT: {
       title: "قیمت گذاری توافقی",
-      message:
-        "قیمت نهایی کالا یا خدمات بعد از ثبت سفارش، توسط فروشنده مشخص شده و قابل تغییر نخواهد بود.",
+      message: "قیمت نهایی کالا یا خدمات بعد از ثبت سفارش، توسط فروشنده مشخص شده و قابل تغییر نخواهد بود.",
     },
     BID: {
       title: "پیشنهاد / مزایده",
-      message:
-        "محصول به بالاترین قیمت پیشنهادی توسط خریداران بلقوه فروخته خواهد شد.",
+      message: "محصول به بالاترین قیمت پیشنهادی توسط خریداران بلقوه فروخته خواهد شد.",
     },
   },
-
-  /** {@see App} {@see Shop} **/
   map: {
     title: "مقصد دریافت کالا",
     confirm: "تایید مقصد",
     address: "مقصد",
     receptor: "گیرنده",
   },
-
-  /** {@see ShopBots} **/
   ShopBots: {
     telegram: "تلگرام",
   },
-
-  /** {@see SArticleTagsEditor} **/
   article_tags: {
     title: "تگ های مطلب",
     tags_input: "تگ ها",
@@ -2367,37 +2102,30 @@ export default {
     between3_4: "بقیه دوستش داشتن!",
     between4_5: "بقیه عاشقش شدن!",
   },
-
   seasons: {
     spring: "بهار",
     summer: "تابستان",
     autumn: "پاییز",
     winter: "زمستان",
   },
-
-  /** {@see SOrderChatBox} {@see BOrderChatBox} **/
   order_chat: {
     seller: {
       history: {
-        subtitle: "مشاهده سابقه پیام‌ها بین شما و مشتری."
+        subtitle: "مشاهده سابقه پیام‌ها بین شما و مشتری.",
       },
       new_message: {
-        subtitle: "اینجا می‌توانید به‌طور مستقیم پیام‌هایی به مشتریان ارسال کنید. پس از ارسال پیام، مشتری بعد از ۲۰ دقیقه یک اعلان ایمیل دریافت خواهد کرد. این اعلان فقط یک بار در هر ۲۴ ساعت ارسال می‌شود."
-      }
+        subtitle: "اینجا می‌توانید به‌طور مستقیم پیام‌هایی به مشتریان ارسال کنید. پس از ارسال پیام، مشتری بعد از ۲۰ دقیقه یک اعلان ایمیل دریافت خواهد کرد. این اعلان فقط یک بار در هر ۲۴ ساعت ارسال می‌شود.",
+      },
     },
     customer: {
       history: {
-        subtitle: "مشاهده سابقه پیام‌ها بین شما و فروشنده."
+        subtitle: "مشاهده سابقه پیام‌ها بین شما و فروشنده.",
       },
       new_message: {
-        subtitle: "اینجا می‌توانید به‌طور مستقیم پیام‌هایی برای ما ارسال کنید."
-      }
-    }
+        subtitle: "اینجا می‌توانید به‌طور مستقیم پیام‌هایی برای ما ارسال کنید.",
+      },
+    },
   },
-
-
-
-  /** ServiceTypes **/
   ServiceTypes: {
     DEMAND: {
       title: "بر اساس تقاضا",
@@ -2428,10 +2156,6 @@ export default {
       desc: "اگر سرویسی که ارائه میدهید هیچ کدام از موارد فوق نیست این گزینه را انتخاب نمایید.",
     },
   },
-
-  /**
-   * @see ProductExternal
-   */
   ProductExternal: {
     Amazon: {
       name: 'آمازون',
@@ -2442,37 +2166,21 @@ export default {
       actionText: "رزرو در ایر‌بی‌ان‌بی",
     },
   },
-
-
-  /**
-   * @see SProductSectionIncentivise
-   * @see ProductThresholds
-   */
   product_section_incentivise: {
     total_sold: "کل فروش",
     available_items: "آیتم‌های موجود",
     have_in_their_bag: "<b>{in_carts}</b> نفر دیگر این کالا را در سبد خرید خود دارند!",
-
     physical: {
-      popular_selling_with_low_quantity:
-          "🎉 انتخاب محبوب! موجودی در حال اتمام است، همین حالا مال خودتان کنید!",
+      popular_selling_with_low_quantity: "🎉 انتخاب محبوب! موجودی در حال اتمام است، همین حالا مال خودتان کنید!",
       has_sell_has_quantity: "🌟 آیتم بسیار پرطرفدار! قبل از اتمام تهیه کنید.",
       just_has_low_quantity: "🛒 موجودی محدود! این فرصت را از دست ندهید!",
-      just_has_very_low_quantity:
-          "⏳ تقریباً تمام شده! سریع‌تر اقدام کنید قبل از اینکه دیر شود!",
+      just_has_very_low_quantity: "⏳ تقریباً تمام شده! سریع‌تر اقدام کنید قبل از اینکه دیر شود!",
     },
-
     file: {
-      very_popular_selling:
-          "🔥 پرفروش‌ترین! به جمع خریداران بپیوندید و هم‌اکنون دانلود کنید!",
-      popular_selling:
-          "🎉 این فایل بسیار مورد توجه است. این فرصت را از دست ندهید!",
+      very_popular_selling: "🔥 پرفروش‌ترین! به جمع خریداران بپیوندید و هم‌اکنون دانلود کنید!",
+      popular_selling: "🎉 این فایل بسیار مورد توجه است. این فرصت را از دست ندهید!",
       has_normal_selling: "📈 فایل محبوب! همین امروز نسخه خود را امن کنید.",
-      just_release_has_some_sales:
-          "✨ تازه منتشر شده! از اولین کسانی باشید که آن را دریافت می‌کنند.",
+      just_release_has_some_sales: "✨ تازه منتشر شده! از اولین کسانی باشید که آن را دریافت می‌کنند.",
     },
   },
-
-
-
 };

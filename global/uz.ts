@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Men foydalanish shartlari va maxfiylik siyosati bilan tanishdim va ular bilan roziman.",
   "commons": {
     "Currency": "Valyuta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Davlat",
     "Price": "narx",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Aniq narx",
     "tax": "Soliq",
     "tax_included": "Narxga kiritilgan",
+    "tax_included_abstract": "shu jumladan",
     "limit": "Cheklash",
     "min_purchase": "Minimal xarid",
     "eligible_for": "Muvofiq",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Yaratilgan sana",
     "updated_at": "Oxirgi yangilanish",
     "register_at": "Ro'yxatdan o'tish sanasi",
+    "last_modified": "Last modified",
     "old": "Eski",
     "new": "Yangi",
     "start": "Boshlash",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Sotuvchi",
     "tracking_code": "Kuzatuv kodi",
     "tracking_url": "Kuzatuv URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Bajarishlar",
     "reject": "Rad etish",
     "reserved": "Zaxiralangan",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Kutilmoqda...",
     "waiting_connecting_payment": "Toʻlov xizmati kutilmoqda...",
     "creating_secure_payment": "Xavfsiz to'lovni yaratish.",
+    "waiting_for_payment": "Iltimos, toʻlovni yakunlang...",
     "officer": "Ofitser",
     "ticket": "Chipta",
     "ticket_url": "Chipta url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Reyting",
     "seen_at": "Ko'rilgan",
     "completed": "Bajarildi",
-    "you": "Siz",
     "shop": "Do'kon",
     "store": "do'kon",
     "granted": "Berilgan",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Planshet",
     "pc": "PC",
     "acquisition_channel": "Qabul qilish kanali",
+    "channels_overview": "Channels overview",
     "to": "Kimga",
     "info": "Ma'lumot",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Mahsulot boshiga",
     "journey": "Sayohat",
     "after": "Keyin",
-    "waiting_for_payment": "Iltimos, toʻlovni yakunlang...",
     "hour": "Soat",
     "minute": "Daqiqa",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Do'konlar",
     "vendor": "Sotuvchi",
     "vendors": "Sotuvchilar",
+    "no_vendors": "No vendors",
     "marketplace": "Bozor",
     "verify_date": "Sanani tasdiqlang",
     "note": "Eslatma",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Xavfsiz",
     "admin": "Admin",
-    "tax_included_abstract": "shu jumladan",
     "payment_not_settled": "To'lov amalga oshirilmadi!",
     "orders_list": "Buyurtmalar ro'yxati",
     "subscription_plan": "Obuna rejasi",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Klasterlar",
     "subscriptions": "Obunalar",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Siz",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Juda murakkab",
+    "hard": "Qattiq",
+    "intermediate": "O'rta",
+    "easy": "Oson",
   },
   "dialogs": {
     "delete": {
       "title": "Oʻchirish",
       "message": "Bu elementni oʻchirib tashlashingizga ishonchingiz komilmi?",
-      "action": "Ha, hozir oʻchirib tashlang"
-    }
+      "action": "Ha, hozir oʻchirib tashlang",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "savatchaga qo'shish",
     "cancel": "Bekor qilish",
     "update": "Yangilash",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Sovg'a kartasini qo'shing",
     "charge": "Zaryadlash",
     "send_invites": "Taklifnomalarni yuboring",
-    "past": "O'tgan",
+    "paste": "joylashtirish",
     "restore": "Qayta tiklash",
     "cut": "Kesish",
     "get_sms_code": "Autentifikatsiya kodini oling",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Ko‘rish",
     "hide_preview": "Oldindan ko‘rishni yashirish",
     "download_now": "Hoziroq yuklab oling",
+    "watch_now": "Hozir tomosha qiling",
     "auto_fill": "Avtomatik toʻldirish",
     "track": "Trek",
     "change_state": "Statusni o'zgartirish",
     "done": "Bajarildi",
     "reply": "Javob bering",
-    "watch_now": "Hozir tomosha qiling",
     "unlock": "Qulfni ochish",
     "lock": "Qulflash",
     "create_clone": "Klon yaratish",
@@ -773,41 +931,71 @@ export default {
     "buy": "Sotib olish",
     "view_all": "Hammasini ko'rish",
     "view_now": "Hozir koʻrish",
-    "paste": "joylashtirish"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "O'tgan",
+  },
+  "billing_period": {
+    "Daily": "Kundalik",
+    "Weekly": "Haftalik",
+    "Monthly": "Oylik",
+    "Every3Months": "Har 3 oyda",
+    "Every6Months": "Har 6 oyda",
+    "Yearly": "Yillik",
   },
   "instance_message_title": "Tezkor xabar yuboring",
   "instance_message": "Salom {name}, mening ismim {company} kompaniyasidan {author}.",
   "errors": {
     "419": "Siz uzoq vaqtdan beri faol emassiz, iltimos <b>⟳</b> xavfsizlik nuqtai nazaridan SAHIFANI YANGILASH.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Tizim blokcheyn bilan sinxronlashmaydi. Serverlarimiz sinxronizatsiyasi tugamaguncha yangi tranzaksiya yaratish mumkin bo'lmaydi. Muammoni hal qilyapmiz.",
-    "gateway_network_error": "Toʻlov shlyuzi xizmati aloqa muammosiga duch keldi."
+    "gateway_network_error": "Toʻlov shlyuzi xizmati aloqa muammosiga duch keldi.",
   },
   "receiver_info": {
     "map": {
       "title": "Yetkazish manzili",
       "confirm": "Joylashuvni belgilang",
       "address_type": "Manzil",
-      "receptor_type": "Qabul qiluvchi"
+      "receptor_type": "Qabul qiluvchi",
     },
     "receiver_address": "Yetkazib berish manzilini tanlang",
+    "service_address": "Manzilingizni tanlang",
+    "select_billing_address": "Select billing address",
     "address": "manzil",
     "postcode": "Pochta indeksi",
     "enter_value": "Bu yerni toʻldiring",
     "address_note": "Eslatma",
     "tel": "Aloqa raqami",
-    "service_address": "Manzilingizni tanlang"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "funt",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gramm",
     "oz": "Untsiya",
     "lb": "Funt",
-    "kg": "kilogramm"
+    "kg": "kilogramm",
   },
   "length": {
     "cm": "sm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Santimetr",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Oyoq",
     "mm": "millimetr",
     "m": "metr",
-    "yd": "Hovli"
+    "yd": "Hovli",
   },
   "distance": {
     "m": "metr",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "kunlar",
     "hours": "Soat",
     "minutes": "Daqiqalar",
-    "seconds": "soniyalar"
+    "seconds": "soniyalar",
   },
   "units": [
     "Birlik",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Davlat",
     "Territory": "Hudud",
-    "Province": "Viloyat"
+    "Province": "Viloyat",
   },
   "transaction_status": {
     "RequireAction": "Harakat talab qilinadi",
     "Processing": "Qayta ishlash",
     "Canceled": "Bekor qilingan",
-    "Succeeded": "Muvaffaqiyatli"
+    "Succeeded": "Muvaffaqiyatli",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Koks",
@@ -885,7 +1078,17 @@ export default {
     "language": "Til tanlang..",
     "friend_email": "Do'stingizning elektron pochtasi...",
     "friend_name": "Op. Do'stingizning ismi",
-    "select_date": "Sana tanlang..."
+    "select_date": "Sana tanlang...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Tasdiqlash",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maksimal {maxCount} ta belgi",
     "invalid_url": "URL noto‘g‘ri",
     "country_invalid": "Belgilangan mamlakatni tanlang!",
-    "postal_code_invalid": "Yaroqli pochta indeksini o'rnating!"
+    "postal_code_invalid": "Yaroqli pochta indeksini o'rnating!",
   },
   "colors": {
     "#D32F2F": "Qizil",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Birlik",
     "postcode": "Pochta indeksi",
     "note": "Eslatma",
-    "county": "Tuman"
+    "county": "Tuman",
   },
   "product_types": {
     "physical": "Jismoniy",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Xizmat",
     "service_description": "Xizmatlar: ta'mirlash, tashish, o'qitish.",
     "subscription": "Obuna",
-    "subscription_description": "Mahsulotlar, xizmatlar yoki kontent uchun obuna va hisob-faktura."
+    "subscription_description": "Mahsulotlar, xizmatlar yoki kontent uchun obuna va hisob-faktura.",
   },
   "license": {
     "free": "Ozod",
     "startup": "Ish boshlash",
     "company": "Kompaniya",
-    "enterprise": "Korxona"
+    "enterprise": "Korxona",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Rang",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Paketda hisoblang",
     "weight": "Og'irligi",
     "type": "Material",
-    "style": "Uslub"
+    "style": "Uslub",
   },
   "delivery_state": {
     "check_queue": "Ko'rib chiqish kutilmoqda",
     "order_confirm": "Buyurtmani tasdiqlash",
     "preparing_order": "Tayyorlanmoqda",
     "sent_order": "Yetkazib berishda",
-    "to_customer": "Yetkazib berildi"
+    "to_customer": "Yetkazib berildi",
   },
   "status": {
     "unpaid": "To'lanmagan",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Rad etish",
     "pending": "Kutilmoqda",
     "rejected": "Rad etilgan",
-    "accepted": "Qabul qilingan"
+    "accepted": "Qabul qilingan",
   },
   "dimensions": {
     "cm": "sm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Mototsikl",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Global transport",
     "global_description": "Havo, dengiz yoki quruqlik orqali xorijga jo'natish.",
     "pickup": "Olib ketish; ko'tarish",
-    "pickup_description": "Mijozlar sizning jismoniy do'koningiz yoki omboringizdan narsalarni olib ketishadi."
+    "pickup_description": "Mijozlar sizning jismoniy do'koningiz yoki omboringizdan narsalarni olib ketishadi.",
   },
   "article": {
     "login_to_see_error": "Maqolaga kirish uchun tizimga kiring",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Tahrirlash rejimi",
       "view_mode": "Ko'rish rejimi",
-      "delete": "Maqolani o'chirish"
+      "delete": "Maqolani o'chirish",
     },
     "schedule_action": "Nashrni rejalashtirishni xohlaysizmi?",
     "schedule_title": "Avtomatik nashr qilishni rejalashtirish",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Qoidabuzarlik haqida xabar bering va kontentni olib tashlang",
       "report_title": "Bu kontentni haqoratli deb xabar qiling",
       "message": "Ushbu kontentni yuborishning sababi nima? Quyidagi variantlardan birini tanlang.",
-      "accept_and_delete_action": "Tarkibni tasdiqlang va o'chiring"
+      "accept_and_delete_action": "Tarkibni tasdiqlang va o'chiring",
     },
     "schedule_dialog": {
       "title": "Kontentni chiqarish taqvimi",
       "publish_at": "nashr qilish",
       "last_edit": "Oxirgi tahrir",
-      "view_action": "Maqolani ko'rish"
+      "view_action": "Maqolani ko'rish",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Ma'lumotni yuborish",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Hisobot va oʻchirish",
       "report_and_delete_success_message": "Maqola muvaffaqiyatli o'chirildi.",
       "report_success_title": "Hisobot maqolasi",
-      "report_success_message": "Ushbu maqola bo'yicha hisobotingiz e'lon qilindi."
+      "report_success_message": "Ushbu maqola bo'yicha hisobotingiz e'lon qilindi.",
     },
     "alert": {
       "delete_article": {
         "title": "Maqolani o'chirish",
         "message": "Haqiqatan ham ushbu maqolani butunlay oʻchirib tashlamoqchimisiz?",
-        "action": "Oʻchirish"
-      }
+        "action": "Oʻchirish",
+      },
     },
     "edit_window": {
       "title": "Rasm matni va xulosani tanlang",
-      "digest": "Xulosa"
+      "digest": "Xulosa",
     },
     "editor": {
       "title_placeholder": "Sarlavha..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Bu fayl juda katta:",
       "notifications": {
         "image_uploaded_success": "Rasm muvaffaqiyatli saqlandi",
-        "image_uploaded_failed": "Rasmni yuklashda xatolik yuz berdi."
+        "image_uploaded_failed": "Rasmni yuklashda xatolik yuz berdi.",
       },
       "embed_placeholder": "Iframe kodini, Facebook, Youtube yoki boshqa URL manzilini kiriting va Enter tugmasini bosing.",
       "embed_caption_placeholder": "Sarlavha kiriting (ixtiyoriy)",
-      "images_caption_placeholder": "Ushbu rasmga sarlavha kiriting .."
-    }
+      "images_caption_placeholder": "Ushbu rasmga sarlavha kiriting ..",
+    },
   },
   "article_report": {
     "inappropriate": "Ushbu maqolaning mazmuni mos emas.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Menimcha, bu kontentda pornografiya mavjud va qonunlarga ziddir.",
     "harassment": "Menimcha, bu irqchilik.",
     "hate": "Menimcha, bu zo'ravonlikni targ'ib qilish haqida.",
-    "infringe": "Bu mening huquqlarimni buzadi."
+    "infringe": "Bu mening huquqlarimni buzadi.",
   },
   "comments": {
     "new_action": "Fikr qoldirish uchun bosing..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Ko'proq sharhlar oling ..",
     "cant_send_comment": "Siz yangi xabar qo'sha olmaysiz.",
     "cant_remove_this_comment": "Siz bu fikrni o'chira olmaysiz!",
-    "product_buyer": "Xaridor",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Mening sharhlarim",
     "delete_alert": {
       "title": "Fikrni o'chirish",
       "message": "Bu fikrni oʻchirib tashlamoqchimisiz?",
-      "action": "Oʻchirish"
+      "action": "Oʻchirish",
     },
     "notifications": {
-      "delete_success": "Fikringiz muvaffaqiyatli oʻchirildi."
+      "delete_success": "Fikringiz muvaffaqiyatli oʻchirildi.",
     },
     "first_send": "Birinchi post",
     "comment_at": "Yoniq",
     "edit_comment": "Fikrni tahrirlash",
-    "my_comments": "Mening sharhlarim"
+    "product_buyer": "Xaridor",
   },
   "customer_club": {
     "bronze": "Bronza",
     "silver": "Kumush",
     "gold": "Oltin",
     "platinum": "Platina",
-    "diamond": "Olmos"
+    "diamond": "Olmos",
   },
   "application_categories": {
     "tracking": "Foydalanuvchi xatti-harakatlarini tekshirish",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Reklama",
     "staff": "Xodimlar",
     "incentive": "Rag'batlantirish",
-    "shop": "Do'kon"
+    "shop": "Do'kon",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Yangi element qo'shing",
     "title_input": "Sarlavha",
+    "placeholder_input": "To'ldiruvchi",
     "name_input": "O'zgaruvchan nomi",
     "value_input": "Qiymatlar",
     "value_input_message": "Foydalanuvchi parametrlari roʻyxati",
     "default": "Standart qiymat",
+    "file_type_input": "Qabul qilinadigan fayl turlari",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Oddiy",
       "selective": "Tanlangan",
       "switch": "Oʻtish",
       "file": "Fayl",
-      "number": "Raqam"
+      "number": "Raqam",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "To'ldiruvchi",
-    "file_type_input": "Qabul qilinadigan fayl turlari",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Mahsulot nomi",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "To'lov holati",
     "payment_status_waiting": "To'lov kutilmoqda",
     "payment_status_paid": "To'langan",
-    "buyer": "Xaridor"
+    "buyer": "Xaridor",
   },
   "virtual_item_info": {
     "title": "Virtual element",
     "outputs": {
       "title": "Chiqish ma'lumotlari",
       "sub_title": "Ushbu elementning maxfiy ma'lumotlari",
-      "message": "Ushbu ma'lumot mahsulotni sotib olgandan so'ng foydalanuvchiga ko'rsatiladi."
+      "message": "Ushbu ma'lumot mahsulotni sotib olgandan so'ng foydalanuvchiga ko'rsatiladi.",
     },
     "inputs": {
       "title": "Ma'lumot talab qilinadi",
       "sub_title": "Xaridor haqida ma'lumot talab qilinadi",
-      "message": "Xaridor so'ralgan ma'lumotlarni shaklga kiritishi kerak"
+      "message": "Xaridor so'ralgan ma'lumotlarni shaklga kiritishi kerak",
     },
     "notifications": {
       "inputs_set_success": "Ma'lumot shakli muvaffaqiyatli ro'yxatdan o'tkazildi.",
       "confirm_by_admin_success": "Buyurtmaning bajarilishi tasdiqlandi.",
-      "confirm_by_buyer_success": "Buyurtmaning bajarilishi tasdiqlandi."
-    }
+      "confirm_by_buyer_success": "Buyurtmaning bajarilishi tasdiqlandi.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ushbu buyurtma COD to'lovi bilan qabul qilinishi mumkin emas.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Sotuvda yo'q.",
     "legal_restriction": "Qonuniy cheklovlar tufayli buyurtma berish mumkin emas.",
     "pricing_fault": "Sotuvchi tomonidan narx belgilash xatosi.",
-    "system_fault": "Tizim xatosi."
+    "system_fault": "Tizim xatosi.",
   },
   "basket_order_info_summery": {
     "receiver": "Qabul qiluvchi",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Chegirma",
     "final_price": "Yakuniy miqdor",
     "address": "Etkazib berish manzili",
-    "payment_status": "To'lov holati"
+    "payment_status": "To'lov holati",
   },
   "basket_status": {
     "open": "Ochiq",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Bekor qilingan",
     "cod": "Yetkazib berishda to'lash",
     "receipt_added": "Kvitansiya qo'shildi",
-    "payment_processing": "To'lovni qayta ishlash"
+    "payment_processing": "To'lovni qayta ishlash",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Rad etilgan",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Tasdiqlash",
     "step_3": "Tayyorgarlik",
     "step_4": "Yetkazib berishda",
-    "step_5": "Yetkazib berildi"
+    "step_5": "Yetkazib berildi",
   },
   "basket_return_request_view": {
     "title": "Qaytish so'rovi",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "So‘rovni rad qilish",
     "message_for_admin": "Selldone-dan foydalangan holda siz qabul qilgan kelishuvga ko'ra, siz xaridor bilan bog'lanishingiz va uni buyurtmani qaytarish jarayoni haqida xabardor qilishingiz kerak. Agar so'rov qabul qilingan yoki rad etilgan va xaridorning to'liq roziligi olingan bo'lsa, buni qilish kerak.",
     "notifications": {
-      "update_status_success": "So‘rov holati yangilandi."
-    }
+      "update_status_success": "So‘rov holati yangilandi.",
+    },
   },
   "basket_list": {
     "return_count": "Qaytish: {count} raqam",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Kafolatlar",
       "count": "Hisoblash",
-      "price": "narx"
-    }
+      "price": "narx",
+    },
   },
   "return_request_list": {
     "count": "Malumot raqami",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Qabul qilingan sana",
       "state": "Holat",
       "reason": "Sabab",
-      "return_warranty_period": "Kafolat muddati"
-    }
+      "return_warranty_period": "Kafolat muddati",
+    },
   },
   "data_toolbar": {
     "search": "Qidirmoq",
     "sort_by": "Saralash turi",
-    "count_item": "{item} elementni ko‘rsatish"
+    "count_item": "{item} elementni ko‘rsatish",
   },
   "sort": {
     "created_at": "Sana yaratish",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ofitser",
     "registered": "Ro'yxatga olingan",
     "purchased": "Sotib olingan",
-    "sex": "Jins"
+    "sex": "Jins",
   },
   "search_box": {
     "result": "Qidiruv natijalari",
     "tips": "Mahsulotlar va toifalarni qidiring",
     "label": "Qidirmoq ...",
-    "category": "Turkum"
+    "category": "Turkum",
   },
   "lead_status": {
     "physical_fast_delivery": "Tez yetkazib berish",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Keyingi {days} kundan boshlab tayyorlanmoqda va yuborilmoqda",
     "virtual_fast_prepare": "Tez yetkazib berish",
     "virtual_under_24h": "Keyingi {lead} soat ichida amalga oshiriladi",
-    "virtual_over_24h": "Keyingi {days} kundan keyin amalga oshiriladi"
+    "virtual_over_24h": "Keyingi {days} kundan keyin amalga oshiriladi",
   },
   "return_request_state": {
     "pending": "Kutilmoqda",
     "accepted": "Tasdiqlangan",
-    "rejected": "Rad etilgan"
+    "rejected": "Rad etilgan",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Paket yoki seriya raqamini buzish",
       "U5": "Posilkadagi ba'zi narsalar etishmayapti",
       "U6": "Mahsulot original emas",
-      "U7": "Mahsulot spetsifikatsiyalarga javob bermaydi"
-    }
+      "U7": "Mahsulot spetsifikatsiyalarga javob bermaydi",
+    },
   },
   "image_uploader": {
     "label": "Drag & Drop yoki <u>Faylni tanlang</u>",
-    "max_size": "Maksimal ruxsat etilgan oʻlcham: {size}"
+    "max_size": "Maksimal ruxsat etilgan oʻlcham: {size}",
   },
   "timespan": {
     "Morning": "8:00 dan 12:00 gacha",
     "Evening": "12:00 dan 18:00 gacha",
     "Night": "18:00 dan 12:00 gacha",
-    "Instant": "Tezkor xabar"
+    "Instant": "Tezkor xabar",
   },
   "week_day": {
     "Saturday": "shanba",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "seshanba",
     "Wednesday": "chorshanba",
     "Thursday": "Payshanba",
-    "Friday": "Juma"
+    "Friday": "Juma",
   },
   "payment_form": {
     "title": "To'lov usulini tanlang",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Tabriklaymiz, buyurtmangiz bepul!",
     "order_free_payment_action": "Hozir bepul buyurtma bering",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "To'lov manzili",
-      "amount": "Miqdori"
-    }
+      "amount": "Miqdori",
+    },
   },
   "discount_input": {
     "limit": "{currency} {limit} gacha {percent}% chegirma",
     "action": "Chegirma kodini qo'shing",
     "code_input": "Chegirma kodi",
     "notifications": {
-      "add_success": "Tabriklaymiz, haqiqiy chegirma kodi."
-    }
+      "add_success": "Tabriklaymiz, haqiqiy chegirma kodi.",
+    },
   },
   "gift_card": {
     "inactive": "Karta o'chirilgan",
     "expire": "Muddati",
     "transfer": "Transfer",
-    "send_to_friend": "Do'stingizga yuboring"
+    "send_to_friend": "Do'stingizga yuboring",
   },
   "count_down": {
     "days": "kun",
     "hours": "Soat",
     "minutes": "Daqiqalar",
-    "seconds": "soniyalar"
+    "seconds": "soniyalar",
   },
   "gift_status": {
     "Unpaid": "Kutishmoqda qabul",
     "Paid": "To'langan",
     "Rejected": "Rad etilgan",
-    "Canceled": "Bekor qilingan"
+    "Canceled": "Bekor qilingan",
   },
   "gift_program_status": {
     "Airdrop": "To'lov tizimi",
     "Advertising": "Reklama",
     "PersonalGift": "Shaxsiy sovg'a",
-    "ShopGift": "Sovg'alar do'koni"
+    "ShopGift": "Sovg'alar do'koni",
   },
   "currency_selector": {
-    "label": "Valyuta"
+    "label": "Valyuta",
   },
   "need_login": {
     "title": "tizimga kirish",
     "login_sms": "SMS kirish",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Google bilan tizimga kiring",
     "login_facebook": "Facebook bilan tizimga kiring",
+    "login_apple": "Apple bilan tizimga kiring",
     "login_account": "Selldone orqali kiring",
     "register": "Yangi foydalanuvchi? Hozir roʻyxatdan oʻting.",
     "mobile_input": "Mobil telefoningizni kiriting",
     "verification_code": "Tasdiq kodi",
     "msg_title": "Salom,",
     "msg_body": "Iltimos, tizimga kiring. Bu bir necha soniya vaqt oladi.",
-    "login_apple": "Apple bilan tizimga kiring",
     "login_email": "Elektron pochta orqali kiring",
     "email_login_step_1": "Iltimos, to'g'ri elektron pochta manzilini kiriting va biz unga kirish kodini yuboramiz. Hech qanday ro'yxatdan o'tish shart emas.",
     "email_login_step_2": "Elektron pochta manzilingizni to'g'ri kiritganingizga ishonchingiz komilmi? Biz kirish kodini taqdim etilgan elektron pochta manziliga yuboramiz, shuning uchun uning to'g'riligiga ishonch hosil qiling.",
-    "email_login_step_3": "E-pochtangizga kod yubordik. E'tibor bering, kodning amal qilish muddati 10 daqiqada tugaydi."
+    "email_login_step_3": "E-pochtangizga kod yubordik. E'tibor bering, kodning amal qilish muddati 10 daqiqada tugaydi.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 yillik oltin do'koni"
+      "name": "5 yillik oltin do'koni",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 yillik oltin do'koni"
+      "name": "4 yillik oltin do'koni",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 yillik oltin do'koni"
+      "name": "3 yillik oltin do'koni",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 yillik oltin do'koni"
+      "name": "2 yillik oltin do'koni",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 yillik oltin do'koni"
+      "name": "1 yillik oltin do'koni",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Oltin investor"
+      "name": "Oltin investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Olmos investori"
+      "name": "Olmos investori",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Aloqa tarmoqlari oliy hamjamiyatining a'zosi"
+      "name": "Aloqa tarmoqlari oliy hamjamiyatining a'zosi",
     },
     "GOLD_SUPPLIER": {
-      "name": "Oltin yetkazib beruvchi"
+      "name": "Oltin yetkazib beruvchi",
     },
     "GOLD_SELLER": {
-      "name": "Oltin sotuvchisi"
+      "name": "Oltin sotuvchisi",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Eng yaxshi kontent ishlab chiqaruvchisi"
+      "name": "Eng yaxshi kontent ishlab chiqaruvchisi",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Yulduz"
+      "name": "Yulduz",
     },
     "GUARDIAN": {
-      "name": "Ajoyib mijozlarga xizmat"
+      "name": "Ajoyib mijozlarga xizmat",
     },
     "KING": {
-      "name": "Bozor qiroli"
-    }
+      "name": "Bozor qiroli",
+    },
   },
   "cookie": {
     "title": "Ushbu veb-sayt cookie-fayllardan foydalanadi",
     "message": "Ushbu veb-sayt foydalanuvchi tajribasini yaxshilash uchun cookie-fayllardan foydalanadi. Veb-saytimizdan foydalangan holda siz Cookie-fayllar siyosatimizga muvofiq barcha cookie-fayllarga rozilik bildirasiz.",
     "preferences_action": "Parametrlarni boshqarish",
-    "agree_action": "Men roziman"
+    "agree_action": "Men roziman",
   },
   "basket_item_message": {
     "title": "Ushbu element uchun zarur ma'lumotlar",
     "save_actions": "Xabarni saqlash",
+    "product_inputs_preview_message": "Bu moslashtirish imkoniyatlari buyurtma qilingan mahsulot uchun mavjud. Buyum savatga qo'shilgach, siz bu yerda o'zgartirishlar kiritishingiz mumkin bo'ladi.",
     "notifications": {
-      "success": "Kiritilgan maʼlumotlaringiz saqlandi."
+      "success": "Kiritilgan maʼlumotlaringiz saqlandi.",
     },
-    "product_inputs_preview_message": "Bu moslashtirish imkoniyatlari buyurtma qilingan mahsulot uchun mavjud. Buyum savatga qo'shilgach, siz bu yerda o'zgartirishlar kiritishingiz mumkin bo'ladi."
   },
   "faq": {
     "faq": "tez-tez so'raladigan savollar",
     "title": "Savollar va javoblar",
-    "sub_title": "Bizdan nima qilishni so'radingiz.",
     "message": "Savolingizga javobni quyidagi javoblar orasidan qidiring. Savollar javobsiz qolsa, bizdan so'rang.",
     "add_question_action": "Yangi savol bering",
     "read_more": "Ko'proq o'qish ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Savol",
     "question_input_placeholder": "Savolingizni bering.",
     "notifications": {
-      "success_add": "Savolingiz muvaffaqiyatli topshirildi."
-    }
+      "success_add": "Savolingiz muvaffaqiyatli topshirildi.",
+    },
+    "sub_title": "Bizdan nima qilishni so'radingiz.",
   },
   "rating_labels": [
     "Juda yomon",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Belgilangan manzilni kiriting",
     "enter_your_address": "Manzilingizni kiriting.",
     "postal_code": "Pochta indeksi",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Bino raqami",
     "building_unit": "Birlik",
     "full_name_input": "Toʻliq ismi {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Manzil yorlig'i (majburiy)",
     "notifications": {
       "save_in_list": "Bu manzil barcha tafsilotlari bilan roʻyxatingizga saqlangan.",
-      "edit_success": "Yangi manzil qiymatlari {title} da saqlangan."
+      "edit_success": "Yangi manzil qiymatlari {title} da saqlangan.",
     },
     "delete_address_dialog": {
       "title": "Manzilni o'chirish",
       "message": "Haqiqatan ham bu manzilni oʻchirib tashlamoqchimisiz?",
-      "action": "Manzilni olib tashlang"
-    }
+      "action": "Manzilni olib tashlang",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Bu fikrni tahrirlab bo‘lmaydi!",
     "comment_input_empty": "Xabar matni bo'sh!",
-    "article_not_saved": "Maqolani saqlang!"
+    "article_not_saved": "Maqolani saqlang!",
   },
   "wheel_fortune": {
     "title": "O'ynang va yutib oling",
     "message": "Har bir o'yinning narxi - 10 chip. Sizda hozirda {chips} chipi bor. Do'kondan xarid qilib, ko'proq chip oling.",
     "win_message": "Tabriklaymiz, siz g'alaba qozonasiz!",
     "lost_message": "Kechirasiz, siz o'yinni yutdingiz.",
-    "try_again": "Qayta urinib ko'rishingiz mumkin"
+    "try_again": "Qayta urinib ko'rishingiz mumkin",
   },
   "json": {
     "add": "Tuzilish ma'lumotlarini qo'shing",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Tuzilmalar",
     "book": {
       "title": "Kitob",
-      "desc": "Foydalanuvchilarga oʻzlari topgan kitobni toʻgʻridan-toʻgʻri Qidiruv natijalaridan sotib olish imkonini beruvchi kitob amallari."
+      "desc": "Foydalanuvchilarga oʻzlari topgan kitobni toʻgʻridan-toʻgʻri Qidiruv natijalaridan sotib olish imkonini beruvchi kitob amallari.",
     },
     "occupation": {
       "title": "Taxminiy ish haqi",
-      "desc": "Ish haqi diapazonlari va ish turlari boʻyicha mintaqaga asoslangan oʻrtacha ish haqi kabi maʼlumotlar Googleda ish qidirish tajribasida koʻrsatiladi."
+      "desc": "Ish haqi diapazonlari va ish turlari boʻyicha mintaqaga asoslangan oʻrtacha ish haqi kabi maʼlumotlar Googleda ish qidirish tajribasida koʻrsatiladi.",
     },
     "course": {
       "title": "Kurs",
-      "desc": "Provayderga tegishli ro'yxatda ko'rsatiladigan ta'lim kurslari. Kurslar kurs nomi, provayder va qisqacha tavsifni o'z ichiga olishi mumkin."
+      "desc": "Provayderga tegishli ro'yxatda ko'rsatiladigan ta'lim kurslari. Kurslar kurs nomi, provayder va qisqacha tavsifni o'z ichiga olishi mumkin.",
     },
     "howto": {
       "title": "Qanday",
-      "desc": "Video, tasvir va matnni o‘z ichiga olgan vazifani muvaffaqiyatli bajarish uchun “Qanday qilish” foydalanuvchilarni qadamlar to‘plamidan o‘tkazadi."
+      "desc": "Video, tasvir va matnni o‘z ichiga olgan vazifani muvaffaqiyatli bajarish uchun “Qanday qilish” foydalanuvchilarni qadamlar to‘plamidan o‘tkazadi.",
     },
     "recipe": {
       "title": "Retsept",
-      "desc": "Shaxsiy boy natija yoki xost karuselining bir qismi sifatida ko'rsatiladigan retseptlar."
-    }
+      "desc": "Shaxsiy boy natija yoki xost karuselining bir qismi sifatida ko'rsatiladigan retseptlar.",
+    },
   },
   "support": {
     "Financial": "Moliyaviy",
     "Technical": "Texnik",
-    "Advisor": "Maslahatchi"
+    "Advisor": "Maslahatchi",
   },
   "condition": {
     "new": "Yangi",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Ishlatilgan",
     "used_fair": "Ishlatilgan yarmarka",
     "used_good": "Yaxshi ishlatilgan",
-    "used_like_new": "Yangidek ishlatilgan"
+    "used_like_new": "Yangidek ishlatilgan",
   },
   "variant_filter": {
     "title": "Mahsulot varianti filtri",
-    "only_available": "Omborda mavjud; sotuvda mavjud"
+    "only_available": "Omborda mavjud; sotuvda mavjud",
   },
   "service": {
     "task": {
       "title": "Vazifalar",
-      "message": "Ushbu xizmatda bajariladigan vazifalar ro'yxati."
+      "message": "Ushbu xizmatda bajariladigan vazifalar ro'yxati.",
     },
     "appointment": {
       "title": "Uchrashuv",
-      "message": "Quyidagi vaqtlardan sizga mos keladigan kun va soatga qarab haftaning vaqtlarini tanlang."
+      "message": "Quyidagi vaqtlardan sizga mos keladigan kun va soatga qarab haftaning vaqtlarini tanlang.",
     },
     "booking": {
       "title": "Band qilish",
-      "message": "Quyidagi kalendarda band qilmoqchi bo'lgan kunlar vaqtini belgilang."
+      "message": "Quyidagi kalendarda band qilmoqchi bo'lgan kunlar vaqtini belgilang.",
     },
     "subscription": {
-      "title": "Obuna"
+      "title": "Obuna",
     },
     "charge": {
-      "title": "Zaryadlash"
-    }
+      "title": "Zaryadlash",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Ruxsat etilgan narxlash",
-      "message": "Ushbu turdagi narxlashda mahsulot narxi qat'iy belgilangan miqdor bo'lib, xaridorning narxni hisoblashni talab qilishiga hojat yo'q."
+      "message": "Ushbu turdagi narxlashda mahsulot narxi qat'iy belgilangan miqdor bo'lib, xaridorning narxni hisoblashni talab qilishiga hojat yo'q.",
     },
     "ESTIMATION": {
       "title": "Taxminiy narxlash",
-      "message": "Mahsulot va xizmatlarning narxi sotuvchi tomonidan buyurtma berishda ma'lum darajada hisoblab chiqiladi, to'lov schyot-fakturalari xizmat ko'rsatish vaqtida o'zgartirilishi yoki qo'shilishi mumkin."
+      "message": "Mahsulot va xizmatlarning narxi sotuvchi tomonidan buyurtma berishda ma'lum darajada hisoblab chiqiladi, to'lov schyot-fakturalari xizmat ko'rsatish vaqtida o'zgartirilishi yoki qo'shilishi mumkin.",
     },
     "AGREEMENT": {
       "title": "Shartnoma narxi",
-      "message": "Mahsulot yoki xizmatlarning yakuniy narxi sotuvchi tomonidan buyurtma berilgandan keyin o'zgartirilmaydi."
+      "message": "Mahsulot yoki xizmatlarning yakuniy narxi sotuvchi tomonidan buyurtma berilgandan keyin o'zgartirilmaydi.",
     },
     "BID": {
       "title": "Taklif / auktsion",
-      "message": "Mahsulot potentsial xaridorlar tomonidan eng yuqori taklif narxida sotiladi."
-    }
+      "message": "Mahsulot potentsial xaridorlar tomonidan eng yuqori taklif narxida sotiladi.",
+    },
   },
   "map": {
     "title": "Mahsulotlarni qabul qilish manzili",
     "confirm": "Joylashuvni belgilang",
     "address": "Manzil",
-    "receptor": "Qabul qiluvchi"
+    "receptor": "Qabul qiluvchi",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Kontent teglari",
     "tags_input": "Teglar",
     "tags_input_message": "Ushbu maqolaning teglar ro'yxati",
     "notification": {
-      "add_success": "Teglar qo'shildi"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Juda murakkab",
-    "hard": "Qattiq",
-    "intermediate": "O'rta",
-    "easy": "Oson"
-  },
-  "billing_period": {
-    "Daily": "Kundalik",
-    "Weekly": "Haftalik",
-    "Monthly": "Oylik",
-    "Every3Months": "Har 3 oyda",
-    "Every6Months": "Har 6 oyda",
-    "Yearly": "Yillik"
+      "add_success": "Teglar qo'shildi",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh, yaxshi emas!",
     "between2_3": "Hammasi joyida; shu bo'ladi!",
     "between3_4": "Odamlarga yoqadi!",
-    "between4_5": "Odamlar buni yaxshi ko'radilar!"
+    "between4_5": "Odamlar buni yaxshi ko'radilar!",
   },
   "seasons": {
     "spring": "Bahor",
     "summer": "Yoz",
     "autumn": "Kuz",
-    "winter": "Qish"
-  }
+    "winter": "Qish",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

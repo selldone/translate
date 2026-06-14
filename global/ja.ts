@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "利用規約とプライバシーポリシーを読み、同意します。",
   "commons": {
     "Currency": "通貨",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "州",
     "Price": "価格",
@@ -169,6 +170,7 @@ export default {
     "net_price": "正価",
     "tax": "税",
     "tax_included": "価格に含まれています",
+    "tax_included_abstract": "含む",
     "limit": "制限",
     "min_purchase": "最小購入",
     "eligible_for": "対象",
@@ -302,6 +304,7 @@ export default {
     "created_at": "作成日",
     "updated_at": "最後の更新",
     "register_at": "登録日",
+    "last_modified": "Last modified",
     "old": "年",
     "new": "新しい",
     "start": "始める",
@@ -330,6 +333,7 @@ export default {
     "reseller": "リセラー",
     "tracking_code": "トラッキングコード",
     "tracking_url": "トラッキングURL",
+    "fulfillment": "フルフィルメント",
     "fulfillments": "フルフィルメント",
     "reject": "拒絶",
     "reserved": "予約済み",
@@ -341,6 +345,7 @@ export default {
     "waiting": "待っている...",
     "waiting_connecting_payment": "支払いサービスを待っています...",
     "creating_secure_payment": "安全な支払いを作成します。",
+    "waiting_for_payment": "お支払いを完了してください...",
     "officer": "役員",
     "ticket": "チケット",
     "ticket_url": "チケットのURL",
@@ -361,7 +366,6 @@ export default {
     "rates": "評価",
     "seen_at": "で見られる",
     "completed": "完了",
-    "you": "君",
     "shop": "店",
     "store": "お店",
     "granted": "承諾する",
@@ -498,6 +502,7 @@ export default {
     "tablet": "タブレット",
     "pc": "PC",
     "acquisition_channel": "取得チャネル",
+    "channels_overview": "チャンネルの概要",
     "to": "に",
     "info": "情報",
     "general": "全般的",
@@ -559,7 +564,6 @@ export default {
     "per_product": "製品ごと",
     "journey": "旅",
     "after": "後",
-    "waiting_for_payment": "お支払いを完了してください...",
     "hour": "時間",
     "minute": "分",
     "premium": "プレミアム",
@@ -569,6 +573,7 @@ export default {
     "shops": "店舗",
     "vendor": "ベンダー",
     "vendors": "ベンダー",
+    "no_vendors": "ベンダーなし",
     "marketplace": "市場",
     "verify_date": "日付を確認",
     "note": "ノート",
@@ -604,7 +609,6 @@ export default {
     "variant": "変異体",
     "secure": "安全",
     "admin": "管理者",
-    "tax_included_abstract": "含む",
     "payment_not_settled": "支払いが完了していない！",
     "orders_list": "注文リスト",
     "subscription_plan": "定期購入プラン",
@@ -643,9 +647,6 @@ export default {
     "subscriptions": "サブスクリプション",
     "spam": "スパム",
     "video": "ビデオ",
-    "fulfillment": "フルフィルメント",
-    "channels_overview": "チャンネルの概要",
-    "no_vendors": "ベンダーなし",
     "ends_in": "終了",
     "current": "現在",
     "important": "重要",
@@ -682,6 +683,7 @@ export default {
     "refund": "返金",
     "items": "アイテム",
     "incentives": "インセンティブ",
+    "you": "君",
     "recurring_payment": "定期支払い",
     "pricing": "価格設定",
     "purchase": "購入",
@@ -712,16 +714,102 @@ export default {
     "system": "システム",
     "unknown": "未知",
     "week": "週",
-    "agencies": "代理店"
+    "agencies": "代理店",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "とても難しい",
+    "hard": "難しい",
+    "intermediate": "中級",
+    "easy": "簡単",
   },
   "dialogs": {
     "delete": {
       "title": "消去",
       "message": "このアイテムを削除してもよろしいですか？",
-      "action": "はい、今すぐ削除"
-    }
+      "action": "はい、今すぐ削除",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "カートに追加",
     "cancel": "キャンセル",
     "update": "アップデート",
@@ -790,7 +878,7 @@ export default {
     "add_giftcard": "ギフトカードを追加する",
     "charge": "充電",
     "send_invites": "招待状を送信する",
-    "past": "過去",
+    "paste": "ペースト",
     "restore": "戻す",
     "cut": "切る",
     "get_sms_code": "認証コードを取得する",
@@ -819,12 +907,12 @@ export default {
     "show_preview": "ショープレビュー",
     "hide_preview": "プレビューを非表示",
     "download_now": "ダウンロード中",
+    "watch_now": "今見る",
     "auto_fill": "オートフィル",
     "track": "追跡",
     "change_state": "ステータスを変更する",
     "done": "終わり",
     "reply": "返事",
-    "watch_now": "今見る",
     "unlock": "ロック解除",
     "lock": "ロック",
     "create_clone": "クローンを作成",
@@ -843,7 +931,6 @@ export default {
     "buy": "買う",
     "view_all": "すべて見る",
     "view_now": "今すぐ見る",
-    "paste": "ペースト",
     "edit_address": "住所を編集",
     "resend": "再送信",
     "deploy_now": "今すぐデプロイ",
@@ -856,41 +943,59 @@ export default {
     "duplicate": "重複",
     "connect": "接続する",
     "connect_now": "今すぐ接続",
-    "verify_now": "今すぐ確認"
+    "verify_now": "今すぐ確認",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "過去",
+  },
+  "billing_period": {
+    "Daily": "毎日",
+    "Weekly": "毎週",
+    "Monthly": "毎月",
+    "Every3Months": "3か月ごと",
+    "Every6Months": "6か月ごと",
+    "Yearly": "毎年",
   },
   "instance_message_title": "インスタントメッセージを送信する",
   "instance_message": "こんにちは{name}、私の名前は{company}の{author}です。",
   "errors": {
     "419": "長い間非アクティブになっています。セキュリティ上の理由から、 <b>⟳ページ</b>を更新してください。",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "システムはブロックチェーンと同期しません。サーバーの同期が完了するまで、新しいトランザクションを作成することはできません。私たちは問題を解決しています。",
-    "gateway_network_error": "ペイメントゲートウェイサービスで通信の問題が発生しました。"
+    "gateway_network_error": "ペイメントゲートウェイサービスで通信の問題が発生しました。",
   },
   "receiver_info": {
     "map": {
       "title": "お届け先の住所",
       "confirm": "場所を設定する",
       "address_type": "行き先",
-      "receptor_type": "レシーバー"
+      "receptor_type": "レシーバー",
     },
     "receiver_address": "配送先住所を選択",
+    "service_address": "住所を選択してください",
+    "select_billing_address": "Select billing address",
     "address": "住所",
     "postcode": "郵便番号",
     "enter_value": "ここに記入",
     "address_note": "ノート",
     "tel": "連絡先番号",
-    "service_address": "住所を選択してください"
   },
   "weight": {
     "g": "g",
     "oz": "オズ",
     "lb": "ポンド",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "グラム",
     "oz": "オンス",
     "lb": "ポンド",
-    "kg": "キログラム"
+    "kg": "キログラム",
   },
   "length": {
     "cm": "cm",
@@ -898,7 +1003,7 @@ export default {
     "ft": "フィート",
     "mm": "んん",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "センチメートル",
@@ -906,17 +1011,21 @@ export default {
     "ft": "フット",
     "mm": "ミリメートル",
     "m": "メーター",
-    "yd": "ヤード"
+    "yd": "ヤード",
   },
   "distance": {
     "m": "メーター",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "日々",
     "hours": "時間",
     "minutes": "分",
-    "seconds": "秒"
+    "seconds": "秒",
   },
   "units": [
     "単位",
@@ -953,14 +1062,14 @@ export default {
   "region_types": {
     "State": "州",
     "Territory": "地域",
-    "Province": "州"
+    "Province": "州",
   },
   "transaction_status": {
     "RequireAction": "必要なアクション",
     "Processing": "処理",
     "Canceled": "キャンセル",
     "Succeeded": "成功",
-    "RequireCapture": "キャプチャが必要"
+    "RequireCapture": "キャプチャが必要",
   },
   "placeholders": {
     "name": "ジョーンコックス",
@@ -976,7 +1085,10 @@ export default {
     "birthday": "誕生日を選択",
     "select_category": "カテゴリを選択してください...",
     "select_a_country": "国を選択してください...",
-    "filter_country": "国別にフィルタリング..."
+    "filter_country": "国別にフィルタリング...",
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "確認",
@@ -1001,7 +1113,7 @@ export default {
     "invalid_max_chars": "最大{maxCount}文字",
     "invalid_url": "無効なURL",
     "country_invalid": "目的地の国を選択してください！",
-    "postal_code_invalid": "有効な郵便番号を設定してください!"
+    "postal_code_invalid": "有効な郵便番号を設定してください!",
   },
   "colors": {
     "#D32F2F": "赤",
@@ -1083,7 +1195,7 @@ export default {
     "building_unit": "単位",
     "postcode": "郵便番号",
     "note": "ノート",
-    "county": "郡"
+    "county": "郡",
   },
   "product_types": {
     "physical": "物理的",
@@ -1095,13 +1207,13 @@ export default {
     "service": "サービス",
     "service_description": "修理、輸送、教育などのサービス。",
     "subscription": "サブスクリプション",
-    "subscription_description": "製品、サービス、またはコンテンツのサブスクリプションと請求書発行。"
+    "subscription_description": "製品、サービス、またはコンテンツのサブスクリプションと請求書発行。",
   },
   "license": {
     "free": "無料",
     "startup": "起動",
     "company": "会社",
-    "enterprise": "企業"
+    "enterprise": "企業",
   },
   "currency": {
     "IRR": "IRR",
@@ -1167,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1247,12 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
     "SYP": "SYP",
     "KWD": "KWD",
-    "BTN": "BTN"
+    "BTN": "BTN",
   },
   "variants": {
     "color": "色",
@@ -1260,14 +1372,14 @@ export default {
     "count_in_pack": "パックで数える",
     "weight": "重さ",
     "type": "材料",
-    "style": "スタイル"
+    "style": "スタイル",
   },
   "delivery_state": {
     "check_queue": "レビュー待ち",
     "order_confirm": "注文確認",
     "preparing_order": "準備",
     "sent_order": "配達中",
-    "to_customer": "配信"
+    "to_customer": "配信",
   },
   "status": {
     "unpaid": "未払い",
@@ -1290,12 +1402,12 @@ export default {
     "reject": "拒絶",
     "pending": "保留中",
     "rejected": "拒否されました",
-    "accepted": "承認済み"
+    "accepted": "承認済み",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "バイク",
@@ -1317,7 +1429,7 @@ export default {
     "global": "グローバル輸送",
     "global_description": "空路、海路、陸路での海外発送。",
     "pickup": "選び出す",
-    "pickup_description": "顧客は、実店舗または倉庫で商品を受け取ります。"
+    "pickup_description": "顧客は、実店舗または倉庫で商品を受け取ります。",
   },
   "article": {
     "login_to_see_error": "記事にアクセスするにはログインしてください",
@@ -1326,7 +1438,7 @@ export default {
     "menu": {
       "edit": "編集モード",
       "view_mode": "ビューモード",
-      "delete": "記事を削除"
+      "delete": "記事を削除",
     },
     "schedule_action": "公開をスケジュールしますか？",
     "schedule_title": "自動公開をスケジュールする",
@@ -1369,7 +1481,7 @@ export default {
       "report_and_delete_title": "不正行為を報告し、コンテンツを削除する",
       "report_title": "このコンテンツを虐待として報告する",
       "message": "このコンテンツを提出する理由は何ですか？次のいずれかのオプションを選択してください。",
-      "accept_and_delete_action": "コンテンツの確認と削除"
+      "accept_and_delete_action": "コンテンツの確認と削除",
     },
     "schedule_dialog": {
       "title": "コンテンツリリーススケジュール",
@@ -1378,7 +1490,7 @@ export default {
       "view_action": "記事を見る",
       "no_article": "予定記事はありません！",
       "current_article": "現在の記事",
-      "article_for_product": "製品に関する記事"
+      "article_for_product": "製品に関する記事",
     },
     "notifications": {
       "update_success_title": "情報を送信する",
@@ -1388,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "レポートと削除",
       "report_and_delete_success_message": "記事は正常に削除されました。",
       "report_success_title": "レポート記事",
-      "report_success_message": "この記事に関するあなたのレポートが投稿されました。"
+      "report_success_message": "この記事に関するあなたのレポートが投稿されました。",
     },
     "alert": {
       "delete_article": {
         "title": "記事を削除",
         "message": "この記事を完全に削除してもよろしいですか？",
-        "action": "消去"
-      }
+        "action": "消去",
+      },
     },
     "edit_window": {
       "title": "画像テキストと概要を選択",
-      "digest": "概要"
+      "digest": "概要",
     },
     "editor": {
       "title_placeholder": "タイトル..",
@@ -1408,12 +1520,12 @@ export default {
       "max_file_size_error": "このファイルは大きすぎます：",
       "notifications": {
         "image_uploaded_success": "画像が正常に保存されました",
-        "image_uploaded_failed": "画像の読み込み中にエラーが発生しました。"
+        "image_uploaded_failed": "画像の読み込み中にエラーが発生しました。",
       },
       "embed_placeholder": "iframeコード、Facebook、Youtube、またはその他のURLを入力して、Enterキーを押します。",
       "embed_caption_placeholder": "タイトルを入力してください（オプション）",
-      "images_caption_placeholder": "この画像のタイトルを入力してください。"
-    }
+      "images_caption_placeholder": "この画像のタイトルを入力してください。",
+    },
   },
   "article_report": {
     "inappropriate": "この記事の内容は不適切です。",
@@ -1425,7 +1537,7 @@ export default {
     "violent": "このコンテンツにはポルノが含まれており、法律に違反していると思います。",
     "harassment": "これは人種差別主義者だと思います。",
     "hate": "これは暴力を助長することだと思います。",
-    "infringe": "これは私の権利を侵害します。"
+    "infringe": "これは私の権利を侵害します。",
   },
   "comments": {
     "new_action": "コメントを残すためにクリックしてください..",
@@ -1438,27 +1550,27 @@ export default {
     "load_more_action": "より多くのコメントを得る..",
     "cant_send_comment": "新しい投稿を追加することはできません。",
     "cant_remove_this_comment": "このコメントは削除できません！",
-    "product_buyer": "買い手",
+    "verified_buyer": "確認済みの購入者",
+    "my_comments": "私のコメント",
     "delete_alert": {
       "title": "コメントを削除",
       "message": "このコメントを削除しますか？",
-      "action": "消去"
+      "action": "消去",
     },
     "notifications": {
-      "delete_success": "コメントは正常に削除されました。"
+      "delete_success": "コメントは正常に削除されました。",
     },
     "first_send": "最初の投稿",
     "comment_at": "の上",
     "edit_comment": "コメントを編集",
-    "my_comments": "私のコメント",
-    "verified_buyer": "確認済みの購入者"
+    "product_buyer": "買い手",
   },
   "customer_club": {
     "bronze": "ブロンズ",
     "silver": "銀",
     "gold": "ゴールデン",
     "platinum": "白金",
-    "diamond": "ダイヤモンド"
+    "diamond": "ダイヤモンド",
   },
   "application_categories": {
     "tracking": "ユーザーの行動をチェックする",
@@ -1473,7 +1585,7 @@ export default {
     "advertising": "広告",
     "staff": "スタッフ",
     "incentive": "インセンティブ",
-    "shop": "店"
+    "shop": "店",
   },
   "social_network": {
     "instagram": "インスタグラム",
@@ -1488,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebookメッセンジャー"
+    "facebook_messenger": "Facebookメッセンジャー",
   },
   "form_builder": {
     "add_item_action": "新しいアイテムを追加する",
     "title_input": "タイトル",
+    "placeholder_input": "プレースホルダー",
     "name_input": "変数名",
     "value_input": "値",
     "value_input_message": "ユーザーオプションリスト",
     "default": "デフォルト値",
+    "file_type_input": "受け入れ可能なファイルの種類",
+    "file_type_message": "jpeg、png、zip、...",
     "types": {
       "simple": "単純",
       "selective": "選択的",
       "switch": "スイッチ",
       "file": "ファイル",
-      "number": "番号"
+      "number": "番号",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "プレースホルダー",
-    "file_type_input": "受け入れ可能なファイルの種類",
-    "file_type_message": "jpeg、png、zip、..."
   },
   "virtual_order_info_summery": {
     "title": "商品名",
@@ -1517,25 +1630,25 @@ export default {
     "payment_status": "支払い状況",
     "payment_status_waiting": "入金待ち",
     "payment_status_paid": "有料",
-    "buyer": "買い手"
+    "buyer": "買い手",
   },
   "virtual_item_info": {
     "title": "仮想アイテム",
     "outputs": {
       "title": "出力情報",
       "sub_title": "このアイテムの機密情報",
-      "message": "この情報は、製品の購入後にユーザーに表示されます。"
+      "message": "この情報は、製品の購入後にユーザーに表示されます。",
     },
     "inputs": {
       "title": "必要な情報",
       "sub_title": "必要なバイヤー情報",
-      "message": "購入者は、フォームに要求された情報を入力する必要があります"
+      "message": "購入者は、フォームに要求された情報を入力する必要があります",
     },
     "notifications": {
       "inputs_set_success": "情報フォームが正常に登録されました。",
       "confirm_by_admin_success": "注文完了が確認されました。",
-      "confirm_by_buyer_success": "注文完了が確認されました。"
-    }
+      "confirm_by_buyer_success": "注文完了が確認されました。",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "この注文は代金引換払いでは受け付けられません。",
@@ -1547,7 +1660,7 @@ export default {
     "lack_of_inventory": "在庫切れ。",
     "legal_restriction": "法的な制限により注文できません。",
     "pricing_fault": "売り手による価格設定の間違い。",
-    "system_fault": "システムのバグ。"
+    "system_fault": "システムのバグ。",
   },
   "basket_order_info_summery": {
     "receiver": "レシーバー",
@@ -1557,7 +1670,7 @@ export default {
     "discount": "割引",
     "final_price": "最終金額",
     "address": "配送先住所",
-    "payment_status": "支払い状況"
+    "payment_status": "支払い状況",
   },
   "basket_status": {
     "open": "開ける",
@@ -1567,7 +1680,7 @@ export default {
     "cod": "代金引換",
     "receipt_added": "領収書を追加",
     "payment_processing": "支払い手続き",
-    "payment_require_capture": "キャプチャが必要"
+    "payment_require_capture": "キャプチャが必要",
   },
   "basket_delivery_state": {
     "rejected": "拒否されました",
@@ -1576,7 +1689,7 @@ export default {
     "step_2": "確認",
     "step_3": "準備",
     "step_4": "配達中",
-    "step_5": "配信"
+    "step_5": "配信",
   },
   "basket_return_request_view": {
     "title": "返品リクエスト",
@@ -1594,8 +1707,8 @@ export default {
     "reject_by_admin_action": "リクエストを拒否する",
     "message_for_admin": "Selldoneを使用して同意した契約に従って、購入者に連絡し、注文を返品するプロセスを購入者に通知する必要があります。これは、リクエストが承認または拒否され、購入者の完全な同意が得られた場合に実行する必要があります。",
     "notifications": {
-      "update_status_success": "リクエストステータスが更新されました。"
-    }
+      "update_status_success": "リクエストステータスが更新されました。",
+    },
   },
   "basket_list": {
     "return_count": "戻り値：{count}番号",
@@ -1606,8 +1719,8 @@ export default {
       "variant": "変異体",
       "warranty": "保証",
       "count": "カウント",
-      "price": "価格"
-    }
+      "price": "価格",
+    },
   },
   "return_request_list": {
     "count": "参照番号",
@@ -1619,13 +1732,13 @@ export default {
       "delivery_at": "受け取った日付",
       "state": "状態",
       "reason": "理由",
-      "return_warranty_period": "保証期間"
-    }
+      "return_warranty_period": "保証期間",
+    },
   },
   "data_toolbar": {
     "search": "探す",
     "sort_by": "並び替え",
-    "count_item": "{item}アイテムを表示する"
+    "count_item": "{item}アイテムを表示する",
   },
   "sort": {
     "created_at": "日付を作成します",
@@ -1700,13 +1813,13 @@ export default {
     "officer": "役員",
     "registered": "登録済み",
     "purchased": "購入した",
-    "sex": "性別"
+    "sex": "性別",
   },
   "search_box": {
     "result": "の検索結果",
     "tips": "製品とカテゴリの検索",
     "label": "探す ...",
-    "category": "カテゴリー"
+    "category": "カテゴリー",
   },
   "lead_status": {
     "physical_fast_delivery": "即納",
@@ -1714,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "次の{days}日からの準備と送信",
     "virtual_fast_prepare": "即納",
     "virtual_under_24h": "次の{lead}時間以内に行われます",
-    "virtual_over_24h": "次の{days}日から行われます"
+    "virtual_over_24h": "次の{days}日から行われます",
   },
   "return_request_state": {
     "pending": "保留中",
     "accepted": "確認済み",
-    "rejected": "拒否されました"
+    "rejected": "拒否されました",
   },
   "return_order_reason": {
     "physical": {
@@ -1729,18 +1842,18 @@ export default {
       "U4": "パッケージまたはシリアル番号の改ざん",
       "U5": "小包からいくつかのアイテムが欠落しています",
       "U6": "製品はオリジナルではありません",
-      "U7": "製品が仕様を満たしていない"
-    }
+      "U7": "製品が仕様を満たしていない",
+    },
   },
   "image_uploader": {
     "label": "<u>ファイルのドラッグアンドドロップまたは選択</u>",
-    "max_size": "最大許容サイズ：{size}"
+    "max_size": "最大許容サイズ：{size}",
   },
   "timespan": {
     "Morning": "午前8時〜午後12時",
     "Evening": "正午から午後6時",
     "Night": "午後6時〜午後12時",
-    "Instant": "インスタント投稿"
+    "Instant": "インスタント投稿",
   },
   "week_day": {
     "Saturday": "土曜日",
@@ -1749,7 +1862,7 @@ export default {
     "Tuesday": "火曜日",
     "Wednesday": "水曜日",
     "Thursday": "木曜日",
-    "Friday": "金曜日"
+    "Friday": "金曜日",
   },
   "payment_form": {
     "title": "お支払い方法を選択",
@@ -1765,130 +1878,131 @@ export default {
     "order_free_payment": "おめでとうございます、ご注文は無料です！",
     "order_free_payment_action": "今すぐ無料で注文",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "お支払い住所",
-      "amount": "額"
-    }
+      "amount": "額",
+    },
   },
   "discount_input": {
     "limit": "{percent}最大{limit} {currency}までの％割引",
     "action": "割引コードを追加する",
     "code_input": "ディスカウントコード",
     "notifications": {
-      "add_success": "おめでとう、有効な割引コード。"
-    }
+      "add_success": "おめでとう、有効な割引コード。",
+    },
   },
   "gift_card": {
     "inactive": "カードが無効になっている",
     "expire": "有効期限",
     "transfer": "移行",
-    "send_to_friend": "友達に送る"
+    "send_to_friend": "友達に送る",
   },
   "count_down": {
     "days": "日",
     "hours": "時間",
     "minutes": "分",
-    "seconds": "秒"
+    "seconds": "秒",
   },
   "gift_status": {
     "Unpaid": "領収書を待っています",
     "Paid": "有料",
     "Rejected": "拒否されました",
-    "Canceled": "キャンセル"
+    "Canceled": "キャンセル",
   },
   "gift_program_status": {
     "Airdrop": "支払いシステム",
     "Advertising": "広告",
     "PersonalGift": "パーソナルギフト",
-    "ShopGift": "ギフトショップ"
+    "ShopGift": "ギフトショップ",
   },
   "currency_selector": {
-    "label": "通貨"
+    "label": "通貨",
   },
   "need_login": {
     "title": "ログイン",
     "login_sms": "SMSログイン",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Googleでログイン",
     "login_facebook": "Facebookでログイン",
+    "login_apple": "Appleでログイン",
     "login_account": "Selldoneによるログイン",
     "register": "新しいユーザー？今すぐ登録。",
     "mobile_input": "あなたの携帯電話を入力してください",
     "verification_code": "検証コード",
     "msg_title": "やあ、",
     "msg_body": "ログインしてください。ほんの数秒かかります。",
-    "login_apple": "Appleでログイン",
     "login_email": "メールによるログイン",
     "email_login_step_1": "有効な電子メール アドレスを入力してください。ログイン コードを送信します。登録は必要ありません。",
     "email_login_step_2": "メールアドレスを正しく入力しましたか?入力されたメールアドレスにログイン コードを送信しますので、正確であることをご確認ください。",
-    "email_login_step_3": "あなたのメールアドレスにコードを送信しました。コードの有効期限は 10 分で切れますのでご注意ください。"
+    "email_login_step_3": "あなたのメールアドレスにコードを送信しました。コードの有効期限は 10 分で切れますのでご注意ください。",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5年ゴールドストア"
+      "name": "5年ゴールドストア",
     },
     "GOLDEN_2YEAR": {
-      "name": "4年ゴールドストア"
+      "name": "4年ゴールドストア",
     },
     "GOLDEN_3YEAR": {
-      "name": "3年ゴールドストア"
+      "name": "3年ゴールドストア",
     },
     "GOLDEN_4YEAR": {
-      "name": "2年ゴールドストア"
+      "name": "2年ゴールドストア",
     },
     "GOLDEN_5YEAR": {
-      "name": "1年ゴールドストア"
+      "name": "1年ゴールドストア",
     },
     "TOKEN_OWNER_1M": {
-      "name": "ゴールデンインベスター"
+      "name": "ゴールデンインベスター",
     },
     "TOKEN_OWNER_10M": {
-      "name": "ダイヤモンドインベスター"
+      "name": "ダイヤモンドインベスター",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Rubyインベスター"
+      "name": "Rubyインベスター",
     },
     "COMMUNITY_LOYAL": {
-      "name": "通信ネットワークの優れたコミュニティのメンバー"
+      "name": "通信ネットワークの優れたコミュニティのメンバー",
     },
     "GOLD_SUPPLIER": {
-      "name": "ゴールドサプライヤー"
+      "name": "ゴールドサプライヤー",
     },
     "GOLD_SELLER": {
-      "name": "ゴールドディーラー"
+      "name": "ゴールドディーラー",
     },
     "CONTENT_SUPERMAN": {
-      "name": "トップコンテンツプロデューサー"
+      "name": "トップコンテンツプロデューサー",
     },
     "NINJA": {
-      "name": "忍者"
+      "name": "忍者",
     },
     "STAR": {
-      "name": "星"
+      "name": "星",
     },
     "GUARDIAN": {
-      "name": "素晴らしいカスタマーサービス"
+      "name": "素晴らしいカスタマーサービス",
     },
     "KING": {
-      "name": "市場の王"
-    }
+      "name": "市場の王",
+    },
   },
   "cookie": {
     "title": "このウェブサイトはクッキーを使用しています",
     "message": "このウェブサイトは、ユーザーエクスペリエンスを向上させるためにCookieを使用しています。当社のウェブサイトを使用することにより、お客様は当社のCookieポリシーに従ってすべてのCookieに同意したことになります。",
     "preferences_action": "設定の管理",
-    "agree_action": "同意します"
+    "agree_action": "同意します",
   },
   "basket_item_message": {
     "title": "このアイテムに必要な情報",
     "save_actions": "メッセージを保存",
+    "product_inputs_preview_message": "これらのカスタマイズ オプションは、注文した製品で利用できます。商品をカートに追加すると、ここで調整できるようになります。",
     "notifications": {
-      "success": "入力データが保存されました。"
+      "success": "入力データが保存されました。",
     },
-    "product_inputs_preview_message": "これらのカスタマイズ オプションは、注文した製品で利用できます。商品をカートに追加すると、ここで調整できるようになります。"
   },
   "faq": {
     "faq": "よくある質問",
     "title": "質問と回答",
-    "sub_title": "あなたが私たちにやるように頼んだこと。",
     "message": "以下の回答の中からあなたの質問に対する答えを探してください。質問に答えられないままであるかどうか私達に尋ねなさい。",
     "add_question_action": "新しい質問をする",
     "read_more": "続きを読む ..",
@@ -1899,8 +2013,9 @@ export default {
     "question_input": "質問",
     "question_input_placeholder": "あなたの質問をしてください。",
     "notifications": {
-      "success_add": "質問は正常に送信されました。"
-    }
+      "success_add": "質問は正常に送信されました。",
+    },
+    "sub_title": "あなたが私たちにやるように頼んだこと。",
   },
   "rating_labels": [
     "ひどい",
@@ -1917,7 +2032,7 @@ export default {
     "enter_address_hint": "宛先アドレスを入力してください",
     "enter_your_address": "住所を入力してください。",
     "postal_code": "郵便番号",
-    "phone_input": "電話{type}",
+    "phone_input": "電話",
     "building_number": "ビル番号",
     "building_unit": "単位",
     "full_name_input": "フルネーム{type}",
@@ -1927,25 +2042,25 @@ export default {
     "address_title_input": "住所ラベル（必須）",
     "notifications": {
       "save_in_list": "このアドレスは、すべての詳細とともにリストに保存されています。",
-      "edit_success": "{title}に保存された新しいアドレス値。"
+      "edit_success": "{title}に保存された新しいアドレス値。",
     },
     "delete_address_dialog": {
       "title": "アドレスを削除",
       "message": "このアドレスを削除してもよろしいですか？",
-      "action": "アドレスを削除"
-    }
+      "action": "アドレスを削除",
+    },
   },
   "comment_manager": {
     "can_not_edit": "このコメントは編集できません！",
     "comment_input_empty": "メッセージテキストが空白です！",
-    "article_not_saved": "記事を保存してください！"
+    "article_not_saved": "記事を保存してください！",
   },
   "wheel_fortune": {
     "title": "Play＆Win",
     "message": "各ゲームのコストは10チップです。現在、{chips}チップがあります。ストアから購入して、より多くのチップを入手してください。",
     "win_message": "おめでとう、あなたは勝ちます！",
     "lost_message": "申し訳ありませんが、ゲームに負けました。",
-    "try_again": "もう一度試すことができます"
+    "try_again": "もう一度試すことができます",
   },
   "json": {
     "add": "構造データを追加する",
@@ -1953,29 +2068,29 @@ export default {
     "structures": "構造",
     "book": {
       "title": "本",
-      "desc": "ユーザーが検索結果から直接見つけた本を購入できるようにする本のアクション。"
+      "desc": "ユーザーが検索結果から直接見つけた本を購入できるようにする本のアクション。",
     },
     "occupation": {
       "title": "推定給与",
-      "desc": "Googleの求人検索エクスペリエンスに表示される、職種の給与範囲や地域ベースの給与平均など、給与の見積もりに関する情報。"
+      "desc": "Googleの求人検索エクスペリエンスに表示される、職種の給与範囲や地域ベースの給与平均など、給与の見積もりに関する情報。",
     },
     "course": {
       "title": "コース",
-      "desc": "プロバイダー固有のリストに表示される教育コース。コースには、コースのタイトル、プロバイダー、簡単な説明を含めることができます。"
+      "desc": "プロバイダー固有のリストに表示される教育コース。コースには、コースのタイトル、プロバイダー、簡単な説明を含めることができます。",
     },
     "howto": {
       "title": "方法",
-      "desc": "ハウツーでは、ビデオ、画像、テキストを使用して、タスクを正常に完了するための一連の手順をユーザーに説明します。"
+      "desc": "ハウツーでは、ビデオ、画像、テキストを使用して、タスクを正常に完了するための一連の手順をユーザーに説明します。",
     },
     "recipe": {
       "title": "レシピ",
-      "desc": "個々の豊富な結果またはホストカルーセルの一部として表示されるレシピ。"
-    }
+      "desc": "個々の豊富な結果またはホストカルーセルの一部として表示されるレシピ。",
+    },
   },
   "support": {
     "Financial": "金融",
     "Technical": "テクニカル",
-    "Advisor": "アドバイザー"
+    "Advisor": "アドバイザー",
   },
   "condition": {
     "new": "新しい",
@@ -1983,139 +2098,152 @@ export default {
     "used": "使用済み",
     "used_fair": "使用済みフェア",
     "used_good": "中古品",
-    "used_like_new": "新品同様に使用"
+    "used_like_new": "新品同様に使用",
   },
   "variant_filter": {
     "title": "製品バリアントフィルター",
-    "only_available": "在庫あり"
+    "only_available": "在庫あり",
   },
   "service": {
     "task": {
       "title": "タスク",
-      "message": "このサービスで実行されるタスクのリスト。"
+      "message": "このサービスで実行されるタスクのリスト。",
     },
     "appointment": {
       "title": "予定",
-      "message": "自分に合った曜日と時間に基づいて、次の時間から曜日を選択してください。"
+      "message": "自分に合った曜日と時間に基づいて、次の時間から曜日を選択してください。",
     },
     "booking": {
       "title": "予約",
-      "message": "以下のカレンダーで予約したい日の期間を指定してください。"
+      "message": "以下のカレンダーで予約したい日の期間を指定してください。",
     },
     "subscription": {
-      "title": "サブスクリプション"
+      "title": "サブスクリプション",
     },
     "charge": {
-      "title": "充電"
-    }
+      "title": "充電",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "固定価格",
-      "message": "このタイプの価格設定では、製品の価格は固定金額であり、購入者が価格計算を要求する必要はありません。"
+      "message": "このタイプの価格設定では、製品の価格は固定金額であり、購入者が価格計算を要求する必要はありません。",
     },
     "ESTIMATION": {
       "title": "見積もり価格",
-      "message": "商品やサービスの価格は、注文時に販売者がある程度計算します。サービス中に支払い請求書を変更または追加することができます。"
+      "message": "商品やサービスの価格は、注文時に販売者がある程度計算します。サービス中に支払い請求書を変更または追加することができます。",
     },
     "AGREEMENT": {
       "title": "契約価格",
-      "message": "商品またはサービスの最終価格は、注文後に販売者が変更することはありません。"
+      "message": "商品またはサービスの最終価格は、注文後に販売者が変更することはありません。",
     },
     "BID": {
       "title": "入札/オークション",
-      "message": "製品は、潜在的な購入者によって最高入札価格で販売されます。"
-    }
+      "message": "製品は、潜在的な購入者によって最高入札価格で販売されます。",
+    },
   },
   "map": {
     "title": "商品の受け取り先",
     "confirm": "場所を設定する",
     "address": "行き先",
-    "receptor": "レシーバー"
+    "receptor": "レシーバー",
   },
   "ShopBots": {
-    "telegram": "電報"
+    "telegram": "電報",
   },
   "article_tags": {
     "title": "コンテンツタグ",
     "tags_input": "タグ",
     "tags_input_message": "この記事のタグリスト",
     "notification": {
-      "add_success": "タグが追加されました"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "とても難しい",
-    "hard": "難しい",
-    "intermediate": "中級",
-    "easy": "簡単"
-  },
-  "billing_period": {
-    "Daily": "毎日",
-    "Weekly": "毎週",
-    "Monthly": "毎月",
-    "Every3Months": "3か月ごと",
-    "Every6Months": "6か月ごと",
-    "Yearly": "毎年"
+      "add_success": "タグが追加されました",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "ああ、良くない！",
     "between2_3": "大丈夫です！",
     "between3_4": "人々はそれを気に入っています！",
-    "between4_5": "人々はそれを愛しています！"
+    "between4_5": "人々はそれを愛しています！",
   },
   "seasons": {
     "spring": "春",
     "summer": "夏",
     "autumn": "秋",
-    "winter": "冬"
+    "winter": "冬",
   },
   "order_chat": {
     "seller": {
       "history": {
-        "subtitle": "あなたと顧客間のメッセージ履歴を表示します。"
+        "subtitle": "あなたと顧客間のメッセージ履歴を表示します。",
       },
       "new_message": {
-        "subtitle": "ここで顧客にメッセージを直接送信できます。メッセージを送信すると、顧客には 20 分後にメール通知が届きます。この通知は 24 時間に 1 回のみ送信されます。"
-      }
+        "subtitle": "ここで顧客にメッセージを直接送信できます。メッセージを送信すると、顧客には 20 分後にメール通知が届きます。この通知は 24 時間に 1 回のみ送信されます。",
+      },
     },
     "customer": {
       "history": {
-        "subtitle": "あなたと販売者間のメッセージ履歴を表示します。"
+        "subtitle": "あなたと販売者間のメッセージ履歴を表示します。",
       },
       "new_message": {
-        "subtitle": "ここに直接メッセージを送信できます。"
-      }
-    }
+        "subtitle": "ここに直接メッセージを送信できます。",
+      },
+    },
   },
   "ServiceTypes": {
     "DEMAND": {
       "title": "オンデマンド",
-      "desc": "家の修理、塗装、車の修理など。"
+      "desc": "家の修理、塗装、車の修理など。",
     },
     "BOOKING": {
       "title": "予約",
-      "desc": "ホテルの部屋や別荘を予約するようなものです。"
+      "desc": "ホテルの部屋や別荘を予約するようなものです。",
     },
     "APPOINTMENT": {
       "title": "予定",
-      "desc": "ペットケアの予約や対面トレーニングのように。"
+      "desc": "ペットケアの予約や対面トレーニングのように。",
     },
     "RENTAL": {
       "title": "レンタル",
-      "desc": "場所や車を借りるようなものです。"
+      "desc": "場所や車を借りるようなものです。",
     },
     "SUBSCRIPTION": {
       "title": "サブスクリプション",
-      "desc": "クラブ会員やオンラインコーチングのように。"
+      "desc": "クラブ会員やオンラインコーチングのように。",
     },
     "CHARGE": {
       "title": "充電",
-      "desc": "アカウントへの課金やアプリケーションの使用に対する課金など。"
+      "desc": "アカウントへの課金やアプリケーションの使用に対する課金など。",
     },
     "CUSTOM": {
       "title": "カスタム",
-      "desc": "提供するサービスが上記のいずれでもない場合は、このオプションを選択してください。"
-    }
-  }
+      "desc": "提供するサービスが上記のいずれでもない場合は、このオプションを選択してください。",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

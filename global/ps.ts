@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "ما د کارولو شرایط او د محرمیت پالیسي لوستلې او ورسره موافق یم.",
   "commons": {
     "Currency": "اسعارو",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "ریاست",
     "Price": "قیمت",
@@ -169,6 +170,7 @@ export default {
     "net_price": "خالص قیمت",
     "tax": "مالیه",
     "tax_included": "په قیمت کې شامل دي",
+    "tax_included_abstract": "په شمول",
     "limit": "حد",
     "min_purchase": "لږترلږه پیرود",
     "eligible_for": "لپاره وړ",
@@ -302,6 +304,7 @@ export default {
     "created_at": "د جوړیدو نیټه",
     "updated_at": "وروستی تازه",
     "register_at": "د ثبت نیټه",
+    "last_modified": "Last modified",
     "old": "زوړ",
     "new": "نوی",
     "start": "پیل",
@@ -330,6 +333,7 @@ export default {
     "reseller": "بیا پلورونکی",
     "tracking_code": "د تعقیب کوډ",
     "tracking_url": "د URL تعقیب کول",
+    "fulfillment": "Fulfillment",
     "fulfillments": "پوره کول",
     "reject": "رد کړه",
     "reserved": "ساتل شوی",
@@ -341,6 +345,7 @@ export default {
     "waiting": "انتظار...",
     "waiting_connecting_payment": "د تادیې خدمت ته انتظار کول ...",
     "creating_secure_payment": "د خوندي تادیاتو رامینځته کول.",
+    "waiting_for_payment": "مهرباني وکړئ تادیه بشپړه کړئ ...",
     "officer": "افسر",
     "ticket": "ټکټ",
     "ticket_url": "د ټکټ url",
@@ -361,7 +366,6 @@ export default {
     "rates": "درجه بندي",
     "seen_at": "کې لیدل شوی",
     "completed": "بشپړ شو",
-    "you": "تاسو",
     "shop": "هټۍ",
     "store": "پلورنځي",
     "granted": "ورکړل شوی",
@@ -498,6 +502,7 @@ export default {
     "tablet": "ټابلیټ",
     "pc": "PC",
     "acquisition_channel": "د استملاک چینل",
+    "channels_overview": "Channels overview",
     "to": "ته",
     "info": "معلومات",
     "general": "جنرال",
@@ -559,7 +564,6 @@ export default {
     "per_product": "هر محصول",
     "journey": "سفر",
     "after": "وروسته",
-    "waiting_for_payment": "مهرباني وکړئ تادیه بشپړه کړئ ...",
     "hour": "ساعت",
     "minute": "دقیقه",
     "premium": "پریمیم",
@@ -569,6 +573,7 @@ export default {
     "shops": "پلورنځي",
     "vendor": "پلورونکی",
     "vendors": "پلورونکي",
+    "no_vendors": "No vendors",
     "marketplace": "بازار",
     "verify_date": "نیټه تایید کړئ",
     "note": "نوټ",
@@ -604,7 +609,6 @@ export default {
     "variant": "ویرینټ",
     "secure": "خوندي",
     "admin": "اډمین",
-    "tax_included_abstract": "په شمول",
     "payment_not_settled": "تادیه نه ده شوې!",
     "orders_list": "د امرونو لیست",
     "subscription_plan": "د ګډون پلان",
@@ -642,16 +646,170 @@ export default {
     "clusters": "کلسترونه",
     "subscriptions": "ګډون",
     "spam": "سپیم",
-    "video": "ویډیو"
+    "video": "ویډیو",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "تاسو",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "ډیر پیچلی",
+    "hard": "سخت",
+    "intermediate": "منځګړی",
+    "easy": "اسانه",
   },
   "dialogs": {
     "delete": {
       "title": "ړنګول",
       "message": "ایا تاسو ډاډه یاست چې دا توکي حذف کړئ؟",
-      "action": "هو، اوس ړنګ کړئ"
-    }
+      "action": "هو، اوس ړنګ کړئ",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "کارټ ته یی اضافه کړه",
     "cancel": "لغوه کړئ",
     "update": "تازه کول",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "د ډالۍ کارت اضافه کړئ",
     "charge": "چارج",
     "send_invites": "بلنې ولېږئ",
-    "past": "تېر",
+    "paste": "پیسټ",
     "restore": "بیا رغول",
     "cut": "کټ",
     "get_sms_code": "د تصدیق کوډ ترلاسه کړئ",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "مخکتنه ښکاره کړه",
     "hide_preview": "مخکتنه پټول",
     "download_now": "همدا اوس ډاونلوډ کړئ",
+    "watch_now": "اوس یې وګوره",
     "auto_fill": "اتومات ډکول",
     "track": "تعقیب",
     "change_state": "د وضعیت بدلول",
     "done": "ترسره شو",
     "reply": "ځواب ورکړئ",
-    "watch_now": "اوس یې وګوره",
     "unlock": "خلاصول",
     "lock": "تالاشي",
     "create_clone": "کلون جوړ کړئ",
@@ -773,41 +931,71 @@ export default {
     "buy": "پېرود",
     "view_all": "ټول وګوری",
     "view_now": "اوس وګورئ",
-    "paste": "پیسټ"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "تېر",
+  },
+  "billing_period": {
+    "Daily": "ورځنی",
+    "Weekly": "اونیزه",
+    "Monthly": "میاشتنی",
+    "Every3Months": "په هرو 3 میاشتو کې",
+    "Every6Months": "په هرو 6 میاشتو کې",
+    "Yearly": "کلنۍ",
   },
   "instance_message_title": "فوري پیغام واستوئ",
   "instance_message": "سلام {name}، زما نوم {author} د {company} څخه دی.",
   "errors": {
     "419": "تاسو د ډیرې مودې لپاره غیر فعال یاست، مهرباني وکړئ <b>⟳</b> د امنیتي دلایلو لپاره پاڼه تازه کړئ.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "سیسټم د بلاکچین سره همغږي نه کوي. دا به امکان ونلري چې نوې راکړه ورکړه رامینځته کړئ تر هغه چې زموږ د سرورونو همغږي بشپړ نشي. موږ ستونزه حل کوو.",
-    "gateway_network_error": "د تادیې دروازې خدمت د مخابراتو ستونزې سره مخ شوی."
+    "gateway_network_error": "د تادیې دروازې خدمت د مخابراتو ستونزې سره مخ شوی.",
   },
   "receiver_info": {
     "map": {
       "title": "د وړلو او راوړلو پته",
       "confirm": "ځای ټاکل",
       "address_type": "منزل",
-      "receptor_type": "رسیدونکی"
+      "receptor_type": "رسیدونکی",
     },
     "receiver_address": "د بار وړلو پته غوره کړئ",
+    "service_address": "خپل پته وټاکئ",
+    "select_billing_address": "Select billing address",
     "address": "پته",
     "postcode": "پوسټ کوډ",
     "enter_value": "دلته ډک کړئ",
     "address_note": "نوټ",
     "tel": "د اړیکې شمیره",
-    "service_address": "خپل پته وټاکئ"
   },
   "weight": {
     "g": "g",
     "oz": "اوز",
     "lb": "پونډ",
-    "kg": "کيلوګرام"
+    "kg": "کيلوګرام",
   },
   "mass_unit_name": {
     "g": "ګرام",
     "oz": "اونس",
     "lb": "پونډ",
-    "kg": "کیلوګرامه"
+    "kg": "کیلوګرامه",
   },
   "length": {
     "cm": "سانتي متر",
@@ -815,7 +1003,7 @@ export default {
     "ft": "فوټ",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "سانتي متره",
@@ -823,17 +1011,21 @@ export default {
     "ft": "پښه",
     "mm": "ملی متر",
     "m": "متره",
-    "yd": "انګړ"
+    "yd": "انګړ",
   },
   "distance": {
     "m": "متره",
-    "km": "کیلومتره"
+    "km": "کیلومتره",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "ورځې",
     "hours": "ساعتونه",
     "minutes": "دقیقې",
-    "seconds": "ثانیې"
+    "seconds": "ثانیې",
   },
   "units": [
     "واحد",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "ریاست",
     "Territory": "سیمه",
-    "Province": "ولایت"
+    "Province": "ولایت",
   },
   "transaction_status": {
     "RequireAction": "عمل ته اړتیا ده",
     "Processing": "پروسس کول",
     "Canceled": "لغوه شوی",
-    "Succeeded": "بریالی شو"
+    "Succeeded": "بریالی شو",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "جون کاکس",
@@ -885,7 +1078,17 @@ export default {
     "language": "ژبه وټاکئ..",
     "friend_email": "ستاسو د ملګري بریښنالیک ...",
     "friend_name": "غوره کول ستاسو د ملګري نوم",
-    "select_date": "نیټه وټاکئ..."
+    "select_date": "نیټه وټاکئ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "تایید کړه",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "اعظمي {maxCount} حروف",
     "invalid_url": "ناسم URL",
     "country_invalid": "د منزل هیواد وټاکئ!",
-    "postal_code_invalid": "د اعتبار وړ پوستی کوډ تنظیم کړئ!"
+    "postal_code_invalid": "د اعتبار وړ پوستی کوډ تنظیم کړئ!",
   },
   "colors": {
     "#D32F2F": "سور",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "واحد",
     "postcode": "پوسټ کوډ",
     "note": "نوټ",
-    "county": "کاونټي"
+    "county": "کاونټي",
   },
   "product_types": {
     "physical": "فزیکي",
@@ -1004,13 +1207,13 @@ export default {
     "service": "خدمت",
     "service_description": "خدمتونه لکه: ترمیم، ترانسپورت، تدریس.",
     "subscription": "ګډون",
-    "subscription_description": "د محصولاتو، خدماتو، یا منځپانګو لپاره ګډون او رسید."
+    "subscription_description": "د محصولاتو، خدماتو، یا منځپانګو لپاره ګډون او رسید.",
   },
   "license": {
     "free": "وړيا",
     "startup": "پیلول",
     "company": "شرکت",
-    "enterprise": "تصدۍ"
+    "enterprise": "تصدۍ",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "رنګ",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "په بسته کې حساب کړئ",
     "weight": "وزن",
     "type": "مواد",
-    "style": "سټایل"
+    "style": "سټایل",
   },
   "delivery_state": {
     "check_queue": "د بیاکتنې په تمه",
     "order_confirm": "د امر تایید",
     "preparing_order": "چمتو کول",
     "sent_order": "په سپارلو کې",
-    "to_customer": "سپارل شوی"
+    "to_customer": "سپارل شوی",
   },
   "status": {
     "unpaid": "بې معاشه",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "رد کړه",
     "pending": "پاتې",
     "rejected": "رد کړل",
-    "accepted": "ومنل شو"
+    "accepted": "ومنل شو",
   },
   "dimensions": {
     "cm": "سانتي متر",
     "km": "کیلومتره",
-    "kg": "کيلوګرام"
+    "kg": "کيلوګرام",
   },
   "transportation_type": {
     "motorbike": "موټرسایکل",
@@ -1224,7 +1429,7 @@ export default {
     "global": "نړیوال ترانسپورت",
     "global_description": "د هوا، سمندر یا ځمکې له لارې بهر ته لیږدول.",
     "pickup": "جګ که",
-    "pickup_description": "پیرودونکي ستاسو په فزیکي پلورنځي یا ګودام کې توکي اخلي."
+    "pickup_description": "پیرودونکي ستاسو په فزیکي پلورنځي یا ګودام کې توکي اخلي.",
   },
   "article": {
     "login_to_see_error": "مقالې ته د لاسرسي لپاره ننوتل",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "د ترمیم حالت",
       "view_mode": "د لید حالت",
-      "delete": "مقاله ړنګه کړئ"
+      "delete": "مقاله ړنګه کړئ",
     },
     "schedule_action": "ایا تاسو غواړئ د خپرونې مهالویش وکړئ؟",
     "schedule_title": "د اوتومات خپریدو مهالویش",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "د ناوړه ګټه اخیستنې راپور ورکړئ او مینځپانګه لرې کړئ",
       "report_title": "دا محتوا د ناوړه ګټه اخیستنې په توګه راپور کړئ",
       "message": "د دې منځپانګې د سپارلو لامل څه دی؟ د لاندې انتخابونو څخه یو غوره کړئ.",
-      "accept_and_delete_action": "د مینځپانګې تصدیق او حذف کړئ"
+      "accept_and_delete_action": "د مینځپانګې تصدیق او حذف کړئ",
     },
     "schedule_dialog": {
       "title": "د منځپانګې د خپریدو مهالویش",
       "publish_at": "کې خپور کړئ",
       "last_edit": "وروستی تدوین",
-      "view_action": "مقاله وګورئ"
+      "view_action": "مقاله وګورئ",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "معلومات وسپاري",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "راپور او ړنګول",
       "report_and_delete_success_message": "مقاله په بریالیتوب سره ړنګه شوه.",
       "report_success_title": "راپور مقاله",
-      "report_success_message": "د دې مقالې په اړه ستاسو راپور خپور شوی."
+      "report_success_message": "د دې مقالې په اړه ستاسو راپور خپور شوی.",
     },
     "alert": {
       "delete_article": {
         "title": "مقاله ړنګه کړئ",
         "message": "ایا تاسو ډاډه یاست چې تاسو غواړئ دا مقاله د تل لپاره حذف کړئ؟",
-        "action": "ړنګول"
-      }
+        "action": "ړنګول",
+      },
     },
     "edit_window": {
       "title": "د انځور متن او لنډیز غوره کړئ",
-      "digest": "لنډیز"
+      "digest": "لنډیز",
     },
     "editor": {
       "title_placeholder": "عنوان..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "دا فایل ډیر لوی دی:",
       "notifications": {
         "image_uploaded_success": "انځور په بریالیتوب سره خوندي شو",
-        "image_uploaded_failed": "د انځور پورته کولو کې تېروتنه."
+        "image_uploaded_failed": "د انځور پورته کولو کې تېروتنه.",
       },
       "embed_placeholder": "د iframe کوډ، فیسبوک، یوټیوب یا کوم بل URL دننه کړئ او انټر فشار ورکړئ.",
       "embed_caption_placeholder": "سرلیک دننه کړئ (اختیاري)",
-      "images_caption_placeholder": "د دې انځور لپاره سرلیک ولیکئ .."
-    }
+      "images_caption_placeholder": "د دې انځور لپاره سرلیک ولیکئ ..",
+    },
   },
   "article_report": {
     "inappropriate": "د دې مقالې محتوا نامناسب ده.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "زما په اند دا مواد فحشا لري او د قوانینو څخه سرغړونه ده.",
     "harassment": "زه فکر کوم چې دا نژاد پرست دی.",
     "hate": "زه فکر کوم چې دا د تاوتریخوالي د هڅولو په اړه دی.",
-    "infringe": "دا زما حقونه تر پښو لاندې کوي."
+    "infringe": "دا زما حقونه تر پښو لاندې کوي.",
   },
   "comments": {
     "new_action": "د یو نظر پریښودلو لپاره کلیک وکړئ ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "نور نظرونه ترلاسه کړئ ..",
     "cant_send_comment": "تاسو نشئ کولی نوی پوسټ اضافه کړئ.",
     "cant_remove_this_comment": "تاسو نشئ کولی دا تبصره حذف کړئ!",
-    "product_buyer": "پیرودونکی",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "زما نظرونه",
     "delete_alert": {
       "title": "تبصره حذف کړئ",
       "message": "ایا تاسو غواړئ دا تبصره حذف کړئ؟",
-      "action": "ړنګول"
+      "action": "ړنګول",
     },
     "notifications": {
-      "delete_success": "ستاسو نظر په بریالیتوب سره حذف شو."
+      "delete_success": "ستاسو نظر په بریالیتوب سره حذف شو.",
     },
     "first_send": "لومړی پوسټ",
     "comment_at": "پر",
     "edit_comment": "تبصره ایډیټ کړئ",
-    "my_comments": "زما نظرونه"
+    "product_buyer": "پیرودونکی",
   },
   "customer_club": {
     "bronze": "د برونزو",
     "silver": "سره زر",
     "gold": "طلایی",
     "platinum": "پلاټینیم",
-    "diamond": "الماس"
+    "diamond": "الماس",
   },
   "application_categories": {
     "tracking": "د کارونکي چلند چک کول",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "اعلانونه",
     "staff": "کارکوونکي",
     "incentive": "هڅونه",
-    "shop": "هټۍ"
+    "shop": "هټۍ",
   },
   "social_network": {
     "instagram": "انسټاګرام",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "سکایپ",
-    "facebook_messenger": "فیسبوک میسنجر"
+    "facebook_messenger": "فیسبوک میسنجر",
   },
   "form_builder": {
     "add_item_action": "نوی توکي اضافه کړئ",
     "title_input": "عنوان",
+    "placeholder_input": "ځای لرونکی",
     "name_input": "متغیر نوم",
     "value_input": "ارزښتونه",
     "value_input_message": "د کارن انتخابونو لیست",
     "default": "ډیفالټ ارزښت",
+    "file_type_input": "د منلو وړ فایل ډولونه",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "ساده",
       "selective": "انتخابي",
       "switch": "سویچ",
       "file": "دوتنه",
-      "number": "شمیره"
+      "number": "شمیره",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "ځای لرونکی",
-    "file_type_input": "د منلو وړ فایل ډولونه",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "د محصول نوم",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "د تادیاتو حالت",
     "payment_status_waiting": "د تادیې انتظار",
     "payment_status_paid": "ورکړې",
-    "buyer": "پیرودونکی"
+    "buyer": "پیرودونکی",
   },
   "virtual_item_info": {
     "title": "مجازی توکي",
     "outputs": {
       "title": "د محصول معلومات",
       "sub_title": "د دې توکي محرم معلومات",
-      "message": "دا معلومات به د محصول پیرود وروسته کارونکي ته وښودل شي."
+      "message": "دا معلومات به د محصول پیرود وروسته کارونکي ته وښودل شي.",
     },
     "inputs": {
       "title": "اړین معلومات",
       "sub_title": "د پیرودونکي معلومات اړین دي",
-      "message": "پیرودونکی باید غوښتل شوي معلومات په فورمه کې دننه کړي"
+      "message": "پیرودونکی باید غوښتل شوي معلومات په فورمه کې دننه کړي",
     },
     "notifications": {
       "inputs_set_success": "د معلوماتو فورمه په بریالیتوب سره ثبت شوه.",
       "confirm_by_admin_success": "د امر بشپړول تایید شول.",
-      "confirm_by_buyer_success": "د امر بشپړول تایید شول."
-    }
+      "confirm_by_buyer_success": "د امر بشپړول تایید شول.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "دا امر د COD تادیې لخوا نشي منل کیدی.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "پلورل شوي دي.",
     "legal_restriction": "د قانوني محدودیتونو له امله د امر کولو توان نلري.",
     "pricing_fault": "د پلورونکي لخوا د نرخ کولو غلطي.",
-    "system_fault": "د سیسټم بګ."
+    "system_fault": "د سیسټم بګ.",
   },
   "basket_order_info_summery": {
     "receiver": "رسیدونکی",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "تخفیف",
     "final_price": "وروستی مقدار",
     "address": "د سپارلو پته",
-    "payment_status": "د تادیاتو حالت"
+    "payment_status": "د تادیاتو حالت",
   },
   "basket_status": {
     "open": "خلاص",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "لغوه شوی",
     "cod": "په تحویلي کې تادیه وکړئ",
     "receipt_added": "رسید زیاته کړه",
-    "payment_processing": "د تادیاتو پروسس کول"
+    "payment_processing": "د تادیاتو پروسس کول",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "رد کړل",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "تایید",
     "step_3": "تیاری",
     "step_4": "په سپارلو کې",
-    "step_5": "سپارل شوی"
+    "step_5": "سپارل شوی",
   },
   "basket_return_request_view": {
     "title": "د بیرته ستنیدو غوښتنه",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "غوښتنه رد کړه",
     "message_for_admin": "د هغه تړون له مخې چې تاسو د Selldone په کارولو سره منلي یاست، تاسو باید د پیرودونکي سره اړیکه ونیسئ او هغه ته د هغه د بیرته راستنیدو پروسې څخه خبر وساتئ. دا باید ترسره شي که چیرې غوښتنه ومنل شي یا رد شي او د پیرودونکي بشپړ رضایت ترلاسه شي.",
     "notifications": {
-      "update_status_success": "د غوښتنې حالت تازه شو."
-    }
+      "update_status_success": "د غوښتنې حالت تازه شو.",
+    },
   },
   "basket_list": {
     "return_count": "بیرته ستنیدل: {count} شمیره",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "ویرینټ",
       "warranty": "تضمین",
       "count": "شمېرل",
-      "price": "قیمت"
-    }
+      "price": "قیمت",
+    },
   },
   "return_request_list": {
     "count": "د حوالې شمیره",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "د ترلاسه کولو نیټه",
       "state": "حالت",
       "reason": "دلیل",
-      "return_warranty_period": "د تضمین موده"
-    }
+      "return_warranty_period": "د تضمین موده",
+    },
   },
   "data_toolbar": {
     "search": "لټون",
     "sort_by": "ترتیب یی کړه په",
-    "count_item": "وښایاست {item} توکي"
+    "count_item": "وښایاست {item} توکي",
   },
   "sort": {
     "created_at": "تاریخ جوړ کړئ",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "افسر",
     "registered": "ثبت شوی",
     "purchased": "پیرودل شوی",
-    "sex": "جندر"
+    "sex": "جندر",
   },
   "search_box": {
     "result": "د لټون پایلې",
     "tips": "د محصولاتو او کټګوریو لټون",
     "label": "لټون...",
-    "category": "کټګوري"
+    "category": "کټګوري",
   },
   "lead_status": {
     "physical_fast_delivery": "فوري تحویلي",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "د راتلونکو {days} ورځو څخه چمتو کول او سپارل",
     "virtual_fast_prepare": "فوري تحویلي",
     "virtual_under_24h": "په راتلونکو {lead} ساعتونو کې به ترسره شي",
-    "virtual_over_24h": "د راتلونکو {days} ورځو څخه به ترسره شي"
+    "virtual_over_24h": "د راتلونکو {days} ورځو څخه به ترسره شي",
   },
   "return_request_state": {
     "pending": "پاتې",
     "accepted": "تایید شوی",
-    "rejected": "رد کړل"
+    "rejected": "رد کړل",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "د بسته بندۍ یا سیریل نمبر لاسوهنه",
       "U5": "د پارسل څخه ځینې توکي ورک دي",
       "U6": "محصول اصلي نه دی",
-      "U7": "محصول مشخصات نه پوره کوي"
-    }
+      "U7": "محصول مشخصات نه پوره کوي",
+    },
   },
   "image_uploader": {
     "label": "ډریګ او ډراپ یا <u>فایل غوره کړئ</u>",
-    "max_size": "اعظمي اجازه اندازه: {size}"
+    "max_size": "اعظمي اجازه اندازه: {size}",
   },
   "timespan": {
     "Morning": "د سهار له 8 بجو څخه تر 12 بجو پورې",
     "Evening": "د غرمې له 12 بجو څخه تر 6 بجو پورې",
     "Night": "د ماښام له 6 بجو څخه تر 12 بجو پورې",
-    "Instant": "فوري پوسټ"
+    "Instant": "فوري پوسټ",
   },
   "week_day": {
     "Saturday": "شنبه",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "سه شنبه",
     "Wednesday": "چهارشنبه",
     "Thursday": "پنجشنبه",
-    "Friday": "جمعه"
+    "Friday": "جمعه",
   },
   "payment_form": {
     "title": "د تادیې طریقه غوره کړئ",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "مبارک، ستاسو امر وړیا دی!",
     "order_free_payment_action": "همدا اوس وړیا امر وکړئ",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "د تادیې پته",
-      "amount": "مقدار"
-    }
+      "amount": "مقدار",
+    },
   },
   "discount_input": {
     "limit": "{percent}% تخفیف تر {limit} {currency} پورې",
     "action": "د تخفیف کوډ اضافه کړئ",
     "code_input": "د تخفیف کوډ",
     "notifications": {
-      "add_success": "مبارکۍ، د اعتبار وړ تخفیف کوډ."
-    }
+      "add_success": "مبارکۍ، د اعتبار وړ تخفیف کوډ.",
+    },
   },
   "gift_card": {
     "inactive": "کارت غیر فعال دی",
     "expire": "ختمول",
     "transfer": "لیږد",
-    "send_to_friend": "ملګري ته واستوئ"
+    "send_to_friend": "ملګري ته واستوئ",
   },
   "count_down": {
     "days": "ورځ",
     "hours": "ساعت",
     "minutes": "دقیقې",
-    "seconds": "ثانیې"
+    "seconds": "ثانیې",
   },
   "gift_status": {
     "Unpaid": "د رسیدو په تمه",
     "Paid": "ورکړې",
     "Rejected": "رد کړل",
-    "Canceled": "لغوه شوی"
+    "Canceled": "لغوه شوی",
   },
   "gift_program_status": {
     "Airdrop": "د تادیاتو سیسټم",
     "Advertising": "اعلانونه",
     "PersonalGift": "شخصي ډالۍ",
-    "ShopGift": "د ډاليو هټۍ"
+    "ShopGift": "د ډاليو هټۍ",
   },
   "currency_selector": {
-    "label": "اسعارو"
+    "label": "اسعارو",
   },
   "need_login": {
     "title": "د ننه کیدل",
     "login_sms": "د SMS ننوتل",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "د ګوګل سره ننوتل",
     "login_facebook": "په فیسبوک کې ننوت",
+    "login_apple": "د ایپل سره ننوتل",
     "login_account": "د Selldone لخوا ننوتل",
     "register": "نوی کارونکی؟ اوس ې ثبت کړه.",
     "mobile_input": "خپل موبایل دننه کړئ",
     "verification_code": "د تایید کوډ",
     "msg_title": "سلام،",
     "msg_body": "مهرباني وکړئ ننوتل. دا یوازې څو ثانیې وخت نیسي.",
-    "login_apple": "د ایپل سره ننوتل",
     "login_email": "د بریښنالیک له لارې ننوتل",
     "email_login_step_1": "مهرباني وکړئ یو باوري بریښنالیک آدرس ورکړئ، او موږ به دې ته د ننوتلو کوډ واستوو. هیڅ راجسټریشن ته اړتیا نشته.",
     "email_login_step_2": "ایا تاسو ډاډه یاست چې تاسو خپل بریښنالیک آدرس په سمه توګه داخل کړی دی؟ موږ به چمتو شوي بریښنالیک ته د ننوتلو کوډ واستوو، نو مهرباني وکړئ د هغې دقت ډاډ ترلاسه کړئ.",
-    "email_login_step_3": "موږ ستاسو بریښنالیک ته یو کوډ لیږلی دی. مهرباني وکړئ په یاد ولرئ چې کوډ به په 10 دقیقو کې پای ته ورسیږي."
+    "email_login_step_3": "موږ ستاسو بریښنالیک ته یو کوډ لیږلی دی. مهرباني وکړئ په یاد ولرئ چې کوډ به په 10 دقیقو کې پای ته ورسیږي.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "د 5 کلن سرو زرو پلورنځی"
+      "name": "د 5 کلن سرو زرو پلورنځی",
     },
     "GOLDEN_2YEAR": {
-      "name": "د 4 کلن سرو زرو پلورنځی"
+      "name": "د 4 کلن سرو زرو پلورنځی",
     },
     "GOLDEN_3YEAR": {
-      "name": "د 3 کلن سرو زرو پلورنځی"
+      "name": "د 3 کلن سرو زرو پلورنځی",
     },
     "GOLDEN_4YEAR": {
-      "name": "د 2 کلن سرو زرو پلورنځی"
+      "name": "د 2 کلن سرو زرو پلورنځی",
     },
     "GOLDEN_5YEAR": {
-      "name": "د 1 کال د سرو زرو پلورنځی"
+      "name": "د 1 کال د سرو زرو پلورنځی",
     },
     "TOKEN_OWNER_1M": {
-      "name": "طلایی پانګه اچونکی"
+      "name": "طلایی پانګه اچونکی",
     },
     "TOKEN_OWNER_10M": {
-      "name": "د الماس پانګه اچونکی"
+      "name": "د الماس پانګه اچونکی",
     },
     "TOKEN_OWNER_100M": {
-      "name": "روبی پانګه اچونکی"
+      "name": "روبی پانګه اچونکی",
     },
     "COMMUNITY_LOYAL": {
-      "name": "د مخابراتي شبکو د عالي ټولنې غړی"
+      "name": "د مخابراتي شبکو د عالي ټولنې غړی",
     },
     "GOLD_SUPPLIER": {
-      "name": "د سرو زرو عرضه کوونکي"
+      "name": "د سرو زرو عرضه کوونکي",
     },
     "GOLD_SELLER": {
-      "name": "د سرو زرو سوداګر"
+      "name": "د سرو زرو سوداګر",
     },
     "CONTENT_SUPERMAN": {
-      "name": "د منځپانګې لوړ تولیدونکی"
+      "name": "د منځپانګې لوړ تولیدونکی",
     },
     "NINJA": {
-      "name": "ننجا"
+      "name": "ننجا",
     },
     "STAR": {
-      "name": "ستوری"
+      "name": "ستوری",
     },
     "GUARDIAN": {
-      "name": "د پیرودونکي عالي خدمت"
+      "name": "د پیرودونکي عالي خدمت",
     },
     "KING": {
-      "name": "د بازار پاچا"
-    }
+      "name": "د بازار پاچا",
+    },
   },
   "cookie": {
     "title": "دا ویب پاڼه کوکیز کاروي",
     "message": "دا ویب پاڼه د کاروونکي تجربې ښه کولو لپاره کوکیز کاروي. زموږ د ویب پاڼې په کارولو سره تاسو زموږ د کوکي پالیسي سره سم ټولو کوکیز ته رضایت ورکوئ.",
     "preferences_action": "غوره توبونه اداره کړئ",
-    "agree_action": "زه همغږی یم"
+    "agree_action": "زه همغږی یم",
   },
   "basket_item_message": {
     "title": "د دې توکي لپاره اړین معلومات",
     "save_actions": "پیغام خوندي کړئ",
+    "product_inputs_preview_message": "دا د اصلاح کولو اختیارونه ستاسو د امر شوي محصول لپاره شتون لري. یوځل چې توکي ستاسو په کارټ کې اضافه شي ، تاسو به وکولی شئ دلته تنظیمات وکړئ.",
     "notifications": {
-      "success": "ستاسو د ننوتلو معلومات خوندي شوي."
+      "success": "ستاسو د ننوتلو معلومات خوندي شوي.",
     },
-    "product_inputs_preview_message": "دا د اصلاح کولو اختیارونه ستاسو د امر شوي محصول لپاره شتون لري. یوځل چې توکي ستاسو په کارټ کې اضافه شي ، تاسو به وکولی شئ دلته تنظیمات وکړئ."
   },
   "faq": {
     "faq": "په مکرر ډول پوښتل شوي پوښتنې",
     "title": "پوښتنې او ځوابونه",
-    "sub_title": "هغه څه چې تاسو یې له موږ څخه وغوښتل.",
     "message": "د لاندې ځوابونو په منځ کې د خپلې پوښتنې ځواب وګورئ. له موږ څخه وپوښتئ که پوښتنې بې ځوابه پاتې شي.",
     "add_question_action": "نوې پوښتنه وکړئ",
     "read_more": "نور یی ولوله ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "پوښتنه",
     "question_input_placeholder": "خپله پوښتنه وکړئ.",
     "notifications": {
-      "success_add": "ستاسو پوښتنه په بریالیتوب سره وسپارل شوه."
-    }
+      "success_add": "ستاسو پوښتنه په بریالیتوب سره وسپارل شوه.",
+    },
+    "sub_title": "هغه څه چې تاسو یې له موږ څخه وغوښتل.",
   },
   "rating_labels": [
     "ډېر بد",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "د منزل پته دننه کړئ",
     "enter_your_address": "خپل ادرس دننه کړئ.",
     "postal_code": "پوسټ کوډ",
-    "phone_input": "تلیفون {type}",
+    "phone_input": "تلیفون",
     "building_number": "د ودانۍ شمیره",
     "building_unit": "واحد",
     "full_name_input": "بشپړ نوم {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "د پته لیبل (اړتیا)",
     "notifications": {
       "save_in_list": "دا پته ستاسو په لیست کې د ټولو توضیحاتو سره خوندي شوې.",
-      "edit_success": "د نوي پتې ارزښتونه په {title} کې خوندي شوي."
+      "edit_success": "د نوي پتې ارزښتونه په {title} کې خوندي شوي.",
     },
     "delete_address_dialog": {
       "title": "پته حذف کړئ",
       "message": "ایا تاسو ډاډه یاست چې دا پته حذف کول غواړئ؟",
-      "action": "پته لرې کړئ"
-    }
+      "action": "پته لرې کړئ",
+    },
   },
   "comment_manager": {
     "can_not_edit": "دا تبصره نشي سمولی!",
     "comment_input_empty": "د پیغام متن خالي دی!",
-    "article_not_saved": "مقاله خوندي کړئ!"
+    "article_not_saved": "مقاله خوندي کړئ!",
   },
   "wheel_fortune": {
     "title": "لوبه وکړئ او وګټئ",
     "message": "د هرې لوبې لګښت 10 چپس دی. تاسو اوس مهال {chips} چپ لرئ. د پلورنځي څخه پیرودلو سره نور چپ ترلاسه کړئ.",
     "win_message": "مبارک شه، تاسو وګټئ!",
     "lost_message": "بخښنه غواړم، تاسو لوبه له لاسه ورکړه.",
-    "try_again": "تاسو کولی شئ بیا هڅه وکړئ"
+    "try_again": "تاسو کولی شئ بیا هڅه وکړئ",
   },
   "json": {
     "add": "د جوړښت ډاټا اضافه کړئ",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "جوړښتونه",
     "book": {
       "title": "کتاب",
-      "desc": "د کتاب کړنې چې کاروونکو ته وړتیا ورکوي چې هغه کتاب واخلي چې دوی مستقیم د لټون پایلو څخه ومومي."
+      "desc": "د کتاب کړنې چې کاروونکو ته وړتیا ورکوي چې هغه کتاب واخلي چې دوی مستقیم د لټون پایلو څخه ومومي.",
     },
     "occupation": {
       "title": "اټکل شوی معاش",
-      "desc": "د معاش د اندازې په اړه معلومات، لکه د معاش سلسله او د دندې ډولونو لپاره د سیمې پر بنسټ د معاش اوسط، په ګوګل کې د کار لټون تجربه کې ښودل شوي."
+      "desc": "د معاش د اندازې په اړه معلومات، لکه د معاش سلسله او د دندې ډولونو لپاره د سیمې پر بنسټ د معاش اوسط، په ګوګل کې د کار لټون تجربه کې ښودل شوي.",
     },
     "course": {
       "title": "کورس",
-      "desc": "تعلیمي کورسونه چې د چمتو کونکي ځانګړي لیست کې څرګندیږي. په کورسونو کې د کورس سرلیک، چمتو کوونکی، او لنډ توضیحات شامل دي."
+      "desc": "تعلیمي کورسونه چې د چمتو کونکي ځانګړي لیست کې څرګندیږي. په کورسونو کې د کورس سرلیک، چمتو کوونکی، او لنډ توضیحات شامل دي.",
     },
     "howto": {
       "title": "څنګه",
-      "desc": "د څنګه کولو طریقه کاروونکي د یو کار په بریالیتوب سره بشپړولو لپاره د یو لړ مرحلو له لارې پرمخ وړي، د ویډیو، انځورونو او متن سره."
+      "desc": "د څنګه کولو طریقه کاروونکي د یو کار په بریالیتوب سره بشپړولو لپاره د یو لړ مرحلو له لارې پرمخ وړي، د ویډیو، انځورونو او متن سره.",
     },
     "recipe": {
       "title": "ترکیب",
-      "desc": "هغه ترکیبونه چې د انفرادي بډایه پایلې یا د کوربه کاروسیل برخې په توګه ښودل کیږي."
-    }
+      "desc": "هغه ترکیبونه چې د انفرادي بډایه پایلې یا د کوربه کاروسیل برخې په توګه ښودل کیږي.",
+    },
   },
   "support": {
     "Financial": "مالي",
     "Technical": "تخنیکي",
-    "Advisor": "مشاور"
+    "Advisor": "مشاور",
   },
   "condition": {
     "new": "نوی",
@@ -1885,91 +2098,152 @@ export default {
     "used": "کارول",
     "used_fair": "عادلانه کارول کیږي",
     "used_good": "ښه کارول کیږي",
-    "used_like_new": "د نوي په څیر کارول کیږي"
+    "used_like_new": "د نوي په څیر کارول کیږي",
   },
   "variant_filter": {
     "title": "د محصول ډول فلټر",
-    "only_available": "په ګدام کښي"
+    "only_available": "په ګدام کښي",
   },
   "service": {
     "task": {
       "title": "دندې",
-      "message": "په دې خدمت کې د ترسره شویو دندو لیست."
+      "message": "په دې خدمت کې د ترسره شویو دندو لیست.",
     },
     "appointment": {
       "title": "تقرر",
-      "message": "د اونۍ وختونه د لاندې وختونو څخه د ورځې او ساعت پراساس غوره کړئ چې ستاسو لپاره مناسب وي."
+      "message": "د اونۍ وختونه د لاندې وختونو څخه د ورځې او ساعت پراساس غوره کړئ چې ستاسو لپاره مناسب وي.",
     },
     "booking": {
       "title": "بکنگ",
-      "message": "د هغه ورځو موده مشخص کړئ چې تاسو غواړئ په لاندې کیلنڈر کې ریزرویشن وکړئ."
+      "message": "د هغه ورځو موده مشخص کړئ چې تاسو غواړئ په لاندې کیلنڈر کې ریزرویشن وکړئ.",
     },
     "subscription": {
-      "title": "ګډون"
+      "title": "ګډون",
     },
     "charge": {
-      "title": "چارج"
-    }
+      "title": "چارج",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "ثابت قیمت",
-      "message": "د نرخ په دې ډول کې، د محصول قیمت یو ټاکلی مقدار دی او پیرودونکي ته اړتیا نشته چې د نرخ حساب غوښتنه وکړي."
+      "message": "د نرخ په دې ډول کې، د محصول قیمت یو ټاکلی مقدار دی او پیرودونکي ته اړتیا نشته چې د نرخ حساب غوښتنه وکړي.",
     },
     "ESTIMATION": {
       "title": "د اټکل قیمت",
-      "message": "د محصولاتو او خدماتو نرخ به د پلورونکي لخوا تر یو حد پورې محاسبه شي کله چې فرمایش ورکړي ، د تادیې رسیدونه د خدمت پرمهال بدل یا اضافه کیدی شي."
+      "message": "د محصولاتو او خدماتو نرخ به د پلورونکي لخوا تر یو حد پورې محاسبه شي کله چې فرمایش ورکړي ، د تادیې رسیدونه د خدمت پرمهال بدل یا اضافه کیدی شي.",
     },
     "AGREEMENT": {
       "title": "د تړون قیمت",
-      "message": "د محصول یا خدماتو وروستنۍ بیه به د پلورونکي لخوا د سپارلو وروسته نه بدلیږي."
+      "message": "د محصول یا خدماتو وروستنۍ بیه به د پلورونکي لخوا د سپارلو وروسته نه بدلیږي.",
     },
     "BID": {
       "title": "داوطلبۍ / لیلام",
-      "message": "محصول به د احتمالي پیرودونکو لخوا په لوړه بیه پلورل کیږي."
-    }
+      "message": "محصول به د احتمالي پیرودونکو لخوا په لوړه بیه پلورل کیږي.",
+    },
   },
   "map": {
     "title": "د محصولاتو ترلاسه کولو منزل",
     "confirm": "ځای ټاکل",
     "address": "منزل",
-    "receptor": "رسیدونکی"
+    "receptor": "رسیدونکی",
   },
   "ShopBots": {
-    "telegram": "ټیلیګرام"
+    "telegram": "ټیلیګرام",
   },
   "article_tags": {
     "title": "د منځپانګې ټګ",
     "tags_input": "ټګونه",
     "tags_input_message": "د دې مقالې ټګ لیست",
     "notification": {
-      "add_success": "ټګونه اضافه شوي"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "ډیر پیچلی",
-    "hard": "سخت",
-    "intermediate": "منځګړی",
-    "easy": "اسانه"
-  },
-  "billing_period": {
-    "Daily": "ورځنی",
-    "Weekly": "اونیزه",
-    "Monthly": "میاشتنی",
-    "Every3Months": "په هرو 3 میاشتو کې",
-    "Every6Months": "په هرو 6 میاشتو کې",
-    "Yearly": "کلنۍ"
+      "add_success": "ټګونه اضافه شوي",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "او ښه نه!",
     "between2_3": "سمه ده!",
     "between3_4": "خلک یې خوښوي!",
-    "between4_5": "خلک یې خوښوي!"
+    "between4_5": "خلک یې خوښوي!",
   },
   "seasons": {
     "spring": "پسرلی",
     "summer": "اوړي",
     "autumn": "مني",
-    "winter": "ژمی"
-  }
+    "winter": "ژمی",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

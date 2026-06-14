@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Mo ti ka awọn ofin lilo ati eto imulo ipamọ ati gba pẹlu wọn.",
   "commons": {
     "Currency": "Owo owo",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Ìpínlẹ̀",
     "Price": "owo",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Nẹtiwọki owo",
     "tax": "Owo-ori",
     "tax_included": "To wa ninu owo",
+    "tax_included_abstract": "pẹlu.",
     "limit": "Idiwọn",
     "min_purchase": "O kere rira",
     "eligible_for": "Yẹ fun",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Ọjọ ti a ṣẹda",
     "updated_at": "Imudojuiwọn to kẹhin",
     "register_at": "Ọjọ iforukọsilẹ",
+    "last_modified": "Last modified",
     "old": "Atijo",
     "new": "Tuntun",
     "start": "Bẹrẹ",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Alatunta",
     "tracking_code": "Koodu ipasẹ",
     "tracking_url": "URL titele",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Awọn imuse",
     "reject": "Kọ",
     "reserved": "Ni ipamọ",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Nduro...",
     "waiting_connecting_payment": "Nduro fun iṣẹ isanwo naa...",
     "creating_secure_payment": "Ṣiṣẹda ni aabo owo sisan.",
+    "waiting_for_payment": "Jọwọ pari owo sisan...",
     "officer": "Oṣiṣẹ",
     "ticket": "Tiketi",
     "ticket_url": "url tiketi",
@@ -361,7 +366,6 @@ export default {
     "rates": "Idiwon",
     "seen_at": "Ti ri ni",
     "completed": "Ti pari",
-    "you": "Iwọ",
     "shop": "Itaja",
     "store": "itaja",
     "granted": "Ti gba",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tabulẹti",
     "pc": "PC",
     "acquisition_channel": "Akomora ikanni",
+    "channels_overview": "Channels overview",
     "to": "Si",
     "info": "Alaye",
     "general": "Gbogboogbo",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Fun ọja",
     "journey": "Irin ajo",
     "after": "Lẹhin",
-    "waiting_for_payment": "Jọwọ pari owo sisan...",
     "hour": "Wakati",
     "minute": "Iṣẹju",
     "premium": "Ere",
@@ -569,6 +573,7 @@ export default {
     "shops": "Awọn ile itaja",
     "vendor": "Olutaja",
     "vendors": "Awọn olutaja",
+    "no_vendors": "No vendors",
     "marketplace": "Ibi ọja",
     "verify_date": "Daju ọjọ",
     "note": "Akiyesi",
@@ -604,7 +609,6 @@ export default {
     "variant": "Iyatọ",
     "secure": "Ni aabo",
     "admin": "Abojuto",
-    "tax_included_abstract": "pẹlu.",
     "payment_not_settled": "Owo sisan ko yanju!",
     "orders_list": "Akojọ awọn ibere",
     "subscription_plan": "Eto ṣiṣe alabapin",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Awọn iṣupọ",
     "subscriptions": "Awọn iforukọsilẹ",
     "spam": "Àwúrúju",
-    "video": "Fidio"
+    "video": "Fidio",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Iwọ",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Idiju pupọ",
+    "hard": "Lile",
+    "intermediate": "Agbedemeji",
+    "easy": "Rọrun",
   },
   "dialogs": {
     "delete": {
       "title": "Paarẹ",
       "message": "Ṣe o da ọ loju pe o pa nkan yii rẹ bi?",
-      "action": "Bẹẹni, Parẹ ni bayi"
-    }
+      "action": "Bẹẹni, Parẹ ni bayi",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "fi kun Awon nkan ti o nra",
     "cancel": "Fagilee",
     "update": "Imudojuiwọn",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Fi ebun kaadi",
     "charge": "Gba agbara",
     "send_invites": "Fi awọn ifiwepe",
-    "past": "Ti o ti kọja",
+    "paste": "Lẹẹmọ",
     "restore": "Mu pada",
     "cut": "Ge",
     "get_sms_code": "Gba koodu ìfàṣẹsí",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Ṣe afihan awotẹlẹ",
     "hide_preview": "Tọju awotẹlẹ",
     "download_now": "Ṣe Agbesọ nisinyii",
+    "watch_now": "Wo Bayi",
     "auto_fill": "Fi laifọwọyi kun",
     "track": "Orin",
     "change_state": "Yi Ipo",
     "done": "Ti ṣe",
     "reply": "Fesi",
-    "watch_now": "Wo Bayi",
     "unlock": "Ṣii silẹ",
     "lock": "Titiipa",
     "create_clone": "Ṣẹda oniye",
@@ -773,41 +931,71 @@ export default {
     "buy": "Ra",
     "view_all": "Wo Gbogbo",
     "view_now": "Wo Bayi",
-    "paste": "Lẹẹmọ"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Ti o ti kọja",
+  },
+  "billing_period": {
+    "Daily": "Ojoojumọ",
+    "Weekly": "Osẹ-ọsẹ",
+    "Monthly": "Oṣooṣu",
+    "Every3Months": "Ni gbogbo oṣu mẹta",
+    "Every6Months": "Ni gbogbo oṣu 6",
+    "Yearly": "Odoodun",
   },
   "instance_message_title": "Firanṣẹ lẹsẹkẹsẹ ifiranṣẹ",
   "instance_message": "Hi {name}, Oruko mi ni {author} lati {company}.",
   "errors": {
     "419": "O ti wa aláìṣiṣẹ́mọ́ fún ìgbà pípẹ́, jọ̀wọ́ <b>⟳ TÚN ÌWÉ ONÍWỌ́ JỌ̀YỌ̀ SỌ́</b> fún àwọn ìdí ààbò.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Eto naa ko muuṣiṣẹpọ pẹlu blockchain. Kii yoo ṣee ṣe lati ṣẹda idunadura tuntun titi awọn amuṣiṣẹpọ awọn olupin wa yoo pari. A n yanju iṣoro naa.",
-    "gateway_network_error": "Iṣẹ ẹnu-ọna isanwo ti koju iṣoro ibaraẹnisọrọ kan."
+    "gateway_network_error": "Iṣẹ ẹnu-ọna isanwo ti koju iṣoro ibaraẹnisọrọ kan.",
   },
   "receiver_info": {
     "map": {
       "title": "Adiresi wo ni a ma gbe wa",
       "confirm": "Ṣeto ipo",
       "address_type": "Ibi-afẹde",
-      "receptor_type": "Olugba"
+      "receptor_type": "Olugba",
     },
     "receiver_address": "Yan adirẹsi sowo",
+    "service_address": "Yan adirẹsi rẹ",
+    "select_billing_address": "Select billing address",
     "address": "adirẹsi",
     "postcode": "koodu ifiweranṣẹ",
     "enter_value": "Fọwọsi nibi",
     "address_note": "Akiyesi",
     "tel": "Nọmba olubasọrọ",
-    "service_address": "Yan adirẹsi rẹ"
   },
   "weight": {
     "g": "g",
     "oz": "iwon",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "giramu",
     "oz": "Ounce",
     "lb": "Iwon",
-    "kg": "kilo"
+    "kg": "kilo",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimeter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Ẹsẹ",
     "mm": "millimeter",
     "m": "mita",
-    "yd": "Àgbàlá"
+    "yd": "Àgbàlá",
   },
   "distance": {
     "m": "mita",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Awọn ọjọ",
     "hours": "Awọn wakati",
     "minutes": "Iṣẹju",
-    "seconds": "Aaya"
+    "seconds": "Aaya",
   },
   "units": [
     "Ẹyọ",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Ìpínlẹ̀",
     "Territory": "Agbègbè",
-    "Province": "Agbegbe"
+    "Province": "Agbegbe",
   },
   "transaction_status": {
     "RequireAction": "Igbese ti beere",
     "Processing": "Ṣiṣẹda",
     "Canceled": "fagilee",
-    "Succeeded": "Aṣeyọri"
+    "Succeeded": "Aṣeyọri",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Yan ede..",
     "friend_email": "Imeeli ore re...",
     "friend_name": "Jáde. Oruko ore re",
-    "select_date": "Yan ọjọ kan..."
+    "select_date": "Yan ọjọ kan...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Jẹrisi",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Awọn lẹta {maxCount} ti o pọju",
     "invalid_url": "URL ti ko tọ",
     "country_invalid": "Yan orilẹ-ede ti nlo!",
-    "postal_code_invalid": "Ṣeto koodu ifiweranse to wulo!"
+    "postal_code_invalid": "Ṣeto koodu ifiweranse to wulo!",
   },
   "colors": {
     "#D32F2F": "Pupa",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Ẹyọ",
     "postcode": "koodu ifiweranṣẹ",
     "note": "Akiyesi",
-    "county": "Agbegbe"
+    "county": "Agbegbe",
   },
   "product_types": {
     "physical": "Ti ara",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Iṣẹ",
     "service_description": "Awọn iṣẹ bii: atunṣe, gbigbe, ẹkọ.",
     "subscription": "Ṣiṣe alabapin",
-    "subscription_description": "Ṣiṣe alabapin ati risiti fun awọn ọja, awọn iṣẹ, tabi akoonu."
+    "subscription_description": "Ṣiṣe alabapin ati risiti fun awọn ọja, awọn iṣẹ, tabi akoonu.",
   },
   "license": {
     "free": "Ọfẹ",
     "startup": "Ibẹrẹ",
     "company": "Ile-iṣẹ",
-    "enterprise": "Idawọlẹ"
+    "enterprise": "Idawọlẹ",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Àwọ̀",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Ka ni idii",
     "weight": "Iwọn",
     "type": "Ohun elo",
-    "style": "Ara"
+    "style": "Ara",
   },
   "delivery_state": {
     "check_queue": "Nduro awotẹlẹ",
     "order_confirm": "Bere fun ìmúdájú",
     "preparing_order": "Ngbaradi",
     "sent_order": "Lori ifijiṣẹ",
-    "to_customer": "Ti fi jiṣẹ"
+    "to_customer": "Ti fi jiṣẹ",
   },
   "status": {
     "unpaid": "Ti ko sanwo",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Kọ",
     "pending": "Ni isunmọtosi",
     "rejected": "Kọ silẹ",
-    "accepted": "Ti gba"
+    "accepted": "Ti gba",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Alupupu",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Gbigbe agbaye",
     "global_description": "Sowo si oke okun nipasẹ afẹfẹ, okun tabi ilẹ.",
     "pickup": "Gbigbe",
-    "pickup_description": "Awọn alabara gbe awọn nkan naa ni ile itaja tabi ile-itaja ti ara rẹ."
+    "pickup_description": "Awọn alabara gbe awọn nkan naa ni ile itaja tabi ile-itaja ti ara rẹ.",
   },
   "article": {
     "login_to_see_error": "Buwolu wọle lati wọle si nkan naa",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Ipo Ṣatunkọ",
       "view_mode": "Ipo wiwo",
-      "delete": "Pa Abala"
+      "delete": "Pa Abala",
     },
     "schedule_action": "Ṣe o fẹ lati seto titẹjade?",
     "schedule_title": "Iṣeto atẹjade aifọwọyi",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Jabọ ilokulo ati yọ akoonu kuro",
       "report_title": "Jabo akoonu yii bi irira",
       "message": "Kini idi fun fifisilẹ akoonu yii? Yan ọkan ninu awọn aṣayan wọnyi.",
-      "accept_and_delete_action": "Jẹrisi ati Pa akoonu rẹ"
+      "accept_and_delete_action": "Jẹrisi ati Pa akoonu rẹ",
     },
     "schedule_dialog": {
       "title": "Eto Itusilẹ akoonu",
       "publish_at": "Ṣe atẹjade ni",
       "last_edit": "kẹhin àtúnṣe",
-      "view_action": "Wo Abala"
+      "view_action": "Wo Abala",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Fi Alaye silẹ",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Jabo ati Parẹ",
       "report_and_delete_success_message": "Abala ti paarẹ ni aṣeyọri.",
       "report_success_title": "Iroyin Iroyin",
-      "report_success_message": "Ijabọ rẹ lori nkan yii ti gbejade."
+      "report_success_message": "Ijabọ rẹ lori nkan yii ti gbejade.",
     },
     "alert": {
       "delete_article": {
         "title": "Pa Abala",
         "message": "Ṣe o da ọ loju pe o fẹ paarẹ nkan yii patapata bi?",
-        "action": "Paarẹ"
-      }
+        "action": "Paarẹ",
+      },
     },
     "edit_window": {
       "title": "Yan Ọrọ Aworan ati Lakotan",
-      "digest": "Lakotan"
+      "digest": "Lakotan",
     },
     "editor": {
       "title_placeholder": "Akole..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Faili yii ti tobi ju:",
       "notifications": {
         "image_uploaded_success": "Aworan ti o fipamọ ni aṣeyọri",
-        "image_uploaded_failed": "Aṣiṣe gbigba aworan."
+        "image_uploaded_failed": "Aṣiṣe gbigba aworan.",
       },
       "embed_placeholder": "Tẹ koodu iframe sii, Facebook, Youtube tabi URL eyikeyi miiran ki o tẹ sii.",
       "embed_caption_placeholder": "Tẹ akọle sii (aṣayan)",
-      "images_caption_placeholder": "Tẹ akọle sii fun aworan yii.."
-    }
+      "images_caption_placeholder": "Tẹ akọle sii fun aworan yii..",
+    },
   },
   "article_report": {
     "inappropriate": "Awọn akoonu ti yi article ni sedede.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Mo ro pe akoonu yii ni awọn aworan iwokuwo ati pe o ṣẹ si awọn ofin.",
     "harassment": "Mo ro pe eyi jẹ ẹlẹyamẹya.",
     "hate": "Mo ro pe eyi jẹ nipa igbega iwa-ipa.",
-    "infringe": "Eyi tako awọn ẹtọ mi."
+    "infringe": "Eyi tako awọn ẹtọ mi.",
   },
   "comments": {
     "new_action": "Tẹ lati fi asọye kan silẹ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Gba awọn asọye diẹ sii ..",
     "cant_send_comment": "O ko le fi titun ifiweranṣẹ.",
     "cant_remove_this_comment": "O ko le pa yi ọrọìwòye!",
-    "product_buyer": "Olura",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Mi Comments",
     "delete_alert": {
       "title": "Pa Ọrọìwòye rẹ",
       "message": "Ṣe o fẹ lati pa asọye yii rẹ bi?",
-      "action": "Paarẹ"
+      "action": "Paarẹ",
     },
     "notifications": {
-      "delete_success": "Ọrọìwòye rẹ paarẹ ni aṣeyọri."
+      "delete_success": "Ọrọìwòye rẹ paarẹ ni aṣeyọri.",
     },
     "first_send": "Ifiweranṣẹ akọkọ",
     "comment_at": "Tan-an",
     "edit_comment": "Ṣatunkọ Ọrọìwòye",
-    "my_comments": "Mi Comments"
+    "product_buyer": "Olura",
   },
   "customer_club": {
     "bronze": "Idẹ",
     "silver": "Fadaka",
     "gold": "Wura",
     "platinum": "Platinum",
-    "diamond": "Diamond"
+    "diamond": "Diamond",
   },
   "application_categories": {
     "tracking": "Ṣiṣayẹwo ihuwasi olumulo",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Ipolowo",
     "staff": "Oṣiṣẹ",
     "incentive": "Awọn iwuri",
-    "shop": "Itaja"
+    "shop": "Itaja",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook ojiṣẹ"
+    "facebook_messenger": "Facebook ojiṣẹ",
   },
   "form_builder": {
     "add_item_action": "Fi nkan titun kun",
     "title_input": "Akọle",
+    "placeholder_input": "Ibi ipamọ",
     "name_input": "Orukọ oniyipada",
     "value_input": "Awọn iye",
     "value_input_message": "User Aw Akojọ",
     "default": "Iwọn aiyipada",
+    "file_type_input": "Awọn iru faili ti o ṣe itẹwọgba",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Rọrun",
       "selective": "Yiyan",
       "switch": "Yipada",
       "file": "Faili",
-      "number": "Nọmba"
+      "number": "Nọmba",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Ibi ipamọ",
-    "file_type_input": "Awọn iru faili ti o ṣe itẹwọgba",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "Orukọ ọja",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Ipo sisan",
     "payment_status_waiting": "Nduro fun sisanwo",
     "payment_status_paid": "Sanwo",
-    "buyer": "Olura"
+    "buyer": "Olura",
   },
   "virtual_item_info": {
     "title": "Nkan Foju",
     "outputs": {
       "title": "O wu Alaye",
       "sub_title": "Alaye Asiri ti Nkan yii",
-      "message": "Alaye yii yoo han si olumulo lẹhin rira ọja naa."
+      "message": "Alaye yii yoo han si olumulo lẹhin rira ọja naa.",
     },
     "inputs": {
       "title": "Alaye ti a beere",
       "sub_title": "Eniti o beere alaye",
-      "message": "Olura gbọdọ tẹ alaye ti o beere sii ni fọọmu naa"
+      "message": "Olura gbọdọ tẹ alaye ti o beere sii ni fọọmu naa",
     },
     "notifications": {
       "inputs_set_success": "Fọọmu alaye forukọsilẹ ni aṣeyọri.",
       "confirm_by_admin_success": "Ipari ibere timo.",
-      "confirm_by_buyer_success": "Ipari ibere timo."
-    }
+      "confirm_by_buyer_success": "Ipari ibere timo.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Aṣẹ yii ko le gba nipasẹ sisanwo COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Ko si ọja.",
     "legal_restriction": "Ko le gbe aṣẹ kan nitori awọn ihamọ ofin.",
     "pricing_fault": "Asise ifowoleri nipasẹ eniti o.",
-    "system_fault": "Kokoro eto."
+    "system_fault": "Kokoro eto.",
   },
   "basket_order_info_summery": {
     "receiver": "Olugba",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Eni owo",
     "final_price": "Ipari iye",
     "address": "Ifijiṣẹ adirẹsi",
-    "payment_status": "Ipo sisan"
+    "payment_status": "Ipo sisan",
   },
   "basket_status": {
     "open": "Ṣii",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "fagilee",
     "cod": "Sanwo Lori Ifijiṣẹ",
     "receipt_added": "Iwe-ẹri ti a ṣafikun",
-    "payment_processing": "Sise owo sisan"
+    "payment_processing": "Sise owo sisan",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Kọ silẹ",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Ìmúdájú",
     "step_3": "Igbaradi",
     "step_4": "Lori ifijiṣẹ",
-    "step_5": "Ti fi jiṣẹ"
+    "step_5": "Ti fi jiṣẹ",
   },
   "basket_return_request_view": {
     "title": "Ibere pada",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Kọ ìbéèrè",
     "message_for_admin": "Gẹgẹbi adehun ti o ti gba nipasẹ lilo Selldone, o gbọdọ kan si ẹniti o ra ọja naa ki o jẹ ki o sọ fun ilana ti mimu aṣẹ / aṣẹ rẹ pada. Eyi gbọdọ ṣee ṣe ti o ba gba ibeere tabi kọ ati gba aṣẹ ni kikun ti olura.",
     "notifications": {
-      "update_status_success": "Ipo ibeere imudojuiwọn."
-    }
+      "update_status_success": "Ipo ibeere imudojuiwọn.",
+    },
   },
   "basket_list": {
     "return_count": "Pada: {count} nọmba",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Iyatọ",
       "warranty": "Awọn iṣeduro",
       "count": "Ka",
-      "price": "owo"
-    }
+      "price": "owo",
+    },
   },
   "return_request_list": {
     "count": "Nọmba itọkasi",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Ọjọ ti a gba wọle",
       "state": "Ipo",
       "reason": "Idi",
-      "return_warranty_period": "Akoko atilẹyin ọja"
-    }
+      "return_warranty_period": "Akoko atilẹyin ọja",
+    },
   },
   "data_toolbar": {
     "search": "Wa",
     "sort_by": "Sa pelu",
-    "count_item": "Ṣafihan awọn nkan {item}"
+    "count_item": "Ṣafihan awọn nkan {item}",
   },
   "sort": {
     "created_at": "Ṣẹda ọjọ",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Oṣiṣẹ",
     "registered": "Iforukọsilẹ",
     "purchased": "Ti ra",
-    "sex": "abo"
+    "sex": "abo",
   },
   "search_box": {
     "result": "Awọn abajade wiwa",
     "tips": "Wa Awọn ọja ati Awọn ẹka",
     "label": "Wa...",
-    "category": "Ẹka"
+    "category": "Ẹka",
   },
   "lead_status": {
     "physical_fast_delivery": "Ifijiṣẹ lẹsẹkẹsẹ",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Ngbaradi ati ifisilẹ lati awọn ọjọ {days} ti nbọ",
     "virtual_fast_prepare": "Ifijiṣẹ lẹsẹkẹsẹ",
     "virtual_under_24h": "Yoo ṣee ṣe laarin awọn wakati {lead} atẹle",
-    "virtual_over_24h": "Yoo ṣee ṣe lati awọn ọjọ {days} to nbọ"
+    "virtual_over_24h": "Yoo ṣee ṣe lati awọn ọjọ {days} to nbọ",
   },
   "return_request_state": {
     "pending": "Ni isunmọtosi",
     "accepted": "Timo",
-    "rejected": "Kọ silẹ"
+    "rejected": "Kọ silẹ",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Package tabi nọmba ni tẹlentẹle fifọwọkan",
       "U5": "Diẹ ninu awọn ohun kan lati inu apo ti nsọnu",
       "U6": "Ọja kii ṣe atilẹba",
-      "U7": "Ọja ko ni itẹlọrun awọn pato"
-    }
+      "U7": "Ọja ko ni itẹlọrun awọn pato",
+    },
   },
   "image_uploader": {
     "label": "Fa & Ju silẹ tabi <u>Yan faili</u>",
-    "max_size": "Iwọn idasilẹ ti o pọju: {size}"
+    "max_size": "Iwọn idasilẹ ti o pọju: {size}",
   },
   "timespan": {
     "Morning": "8 owurọ - 12pm",
     "Evening": "12 kẹfa to 6 pm",
     "Night": "6 pm-12pm",
-    "Instant": "Ifiweranṣẹ lẹsẹkẹsẹ"
+    "Instant": "Ifiweranṣẹ lẹsẹkẹsẹ",
   },
   "week_day": {
     "Saturday": "Satidee",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Ọjọbọ",
     "Wednesday": "Wednesday",
     "Thursday": "Ojobo",
-    "Friday": "Friday"
+    "Friday": "Friday",
   },
   "payment_form": {
     "title": "Yan Ọna Isanwo",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Oriire, aṣẹ rẹ jẹ ọfẹ!",
     "order_free_payment_action": "Bere fun Ọfẹ Bayi",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Adirẹsi owo sisan",
-      "amount": "Iye"
-    }
+      "amount": "Iye",
+    },
   },
   "discount_input": {
     "limit": "ẹdinwo {percent}% titi di {limit} {currency}",
     "action": "Fi eni koodu",
     "code_input": "Eni koodu",
     "notifications": {
-      "add_success": "Oriire, wulo koodu eni."
-    }
+      "add_success": "Oriire, wulo koodu eni.",
+    },
   },
   "gift_card": {
     "inactive": "Kaadi ti wa ni alaabo",
     "expire": "Ipari",
     "transfer": "Gbigbe",
-    "send_to_friend": "Firanṣẹ si ọrẹ"
+    "send_to_friend": "Firanṣẹ si ọrẹ",
   },
   "count_down": {
     "days": "Ojo",
     "hours": "Wakati",
     "minutes": "Iṣẹju",
-    "seconds": "Aaya"
+    "seconds": "Aaya",
   },
   "gift_status": {
     "Unpaid": "Nduro gbigba",
     "Paid": "Sanwo",
     "Rejected": "Kọ silẹ",
-    "Canceled": "fagilee"
+    "Canceled": "fagilee",
   },
   "gift_program_status": {
     "Airdrop": "sisan System",
     "Advertising": "Ipolowo",
     "PersonalGift": "Ẹbun Ti ara ẹni",
-    "ShopGift": "Ile itaja ebun"
+    "ShopGift": "Ile itaja ebun",
   },
   "currency_selector": {
-    "label": "Owo owo"
+    "label": "Owo owo",
   },
   "need_login": {
     "title": "wo ile",
     "login_sms": "SMS Wọle",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Buwolu wọle pẹlu Google",
     "login_facebook": "Buwolu wọle pẹlu Facebook",
+    "login_apple": "Buwolu wọle pẹlu Apple",
     "login_account": "Buwolu wọle nipasẹ Selldone",
     "register": "Olumulo titun? Forukọsilẹ bayi.",
     "mobile_input": "Tẹ alagbeka rẹ sii",
     "verification_code": "Kodu afimo",
     "msg_title": "Hi,",
     "msg_body": "Jọwọ buwolu wọle. Yoo gba to iṣẹju-aaya diẹ.",
-    "login_apple": "Buwolu wọle pẹlu Apple",
     "login_email": "Buwolu wọle nipasẹ Imeeli",
     "email_login_step_1": "Jọwọ pese adirẹsi imeeli ti o wulo, ati pe a yoo fi koodu iwọle ranṣẹ si. Ko si ìforúkọsílẹ jẹ pataki.",
     "email_login_step_2": "Ṣe o da ọ loju pe o ti tẹ adirẹsi imeeli rẹ sii bi o ti tọ bi? A yoo firanṣẹ koodu iwọle si imeeli ti a pese, nitorinaa jọwọ rii daju pe deede.",
-    "email_login_step_3": "A ti fi koodu ranṣẹ si imeeli rẹ. Jọwọ ṣe akiyesi pe koodu naa yoo pari ni iṣẹju 10."
+    "email_login_step_3": "A ti fi koodu ranṣẹ si imeeli rẹ. Jọwọ ṣe akiyesi pe koodu naa yoo pari ni iṣẹju 10.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Odun Gold itaja"
+      "name": "5 Odun Gold itaja",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Odun Gold itaja"
+      "name": "4 Odun Gold itaja",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Odun Gold itaja"
+      "name": "3 Odun Gold itaja",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Odun Gold itaja"
+      "name": "2 Odun Gold itaja",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Odun Gold itaja"
+      "name": "1 Odun Gold itaja",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Golden oludokoowo"
+      "name": "Golden oludokoowo",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamond oludokoowo"
+      "name": "Diamond oludokoowo",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby oludokoowo"
+      "name": "Ruby oludokoowo",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Ọmọ ẹgbẹ ti Superior Community ti Awọn nẹtiwọki Ibaraẹnisọrọ"
+      "name": "Ọmọ ẹgbẹ ti Superior Community ti Awọn nẹtiwọki Ibaraẹnisọrọ",
     },
     "GOLD_SUPPLIER": {
-      "name": "Olupese goolu"
+      "name": "Olupese goolu",
     },
     "GOLD_SELLER": {
-      "name": "Gold Dealer"
+      "name": "Gold Dealer",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Top Akoonu o nse"
+      "name": "Top Akoonu o nse",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Irawọ"
+      "name": "Irawọ",
     },
     "GUARDIAN": {
-      "name": "Nla Onibara Service"
+      "name": "Nla Onibara Service",
     },
     "KING": {
-      "name": "Oba Oja"
-    }
+      "name": "Oba Oja",
+    },
   },
   "cookie": {
     "title": "Oju opo wẹẹbu yii nlo awọn kuki",
     "message": "Oju opo wẹẹbu yii nlo awọn kuki lati mu iriri olumulo dara si. Nipa lilo oju opo wẹẹbu wa o gba gbogbo awọn kuki ni ibamu pẹlu Ilana Kuki wa.",
     "preferences_action": "Ṣakoso Awọn ayanfẹ",
-    "agree_action": "Mo gba"
+    "agree_action": "Mo gba",
   },
   "basket_item_message": {
     "title": "Alaye ti a beere fun nkan yii",
     "save_actions": "Fi ifiranṣẹ pamọ",
+    "product_inputs_preview_message": "Awọn aṣayan isọdi wọnyi wa fun ọja ti o paṣẹ. Ni kete ti nkan naa ba ti ṣafikun si rira rẹ, iwọ yoo ni anfani lati ṣe awọn atunṣe nibi.",
     "notifications": {
-      "success": "Ti fipamọ data titẹ sii rẹ."
+      "success": "Ti fipamọ data titẹ sii rẹ.",
     },
-    "product_inputs_preview_message": "Awọn aṣayan isọdi wọnyi wa fun ọja ti o paṣẹ. Ni kete ti nkan naa ba ti ṣafikun si rira rẹ, iwọ yoo ni anfani lati ṣe awọn atunṣe nibi."
   },
   "faq": {
     "faq": "Awon ibeere ti awon eniyan saaba ma n beere",
     "title": "Awọn ibeere ati Idahun",
-    "sub_title": "Ohun ti o ni ki a ṣe.",
     "message": "Wa idahun si ibeere rẹ laarin awọn idahun ni isalẹ. Beere lọwọ wa ti awọn ibeere ko ba dahun.",
     "add_question_action": "Beere Ibeere Tuntun",
     "read_more": "Ka siwaju ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Ibeere",
     "question_input_placeholder": "Beere ibeere rẹ.",
     "notifications": {
-      "success_add": "Ibeere rẹ silẹ ni aṣeyọri."
-    }
+      "success_add": "Ibeere rẹ silẹ ni aṣeyọri.",
+    },
+    "sub_title": "Ohun ti o ni ki a ṣe.",
   },
   "rating_labels": [
     "Kodara rara",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Tẹ adirẹsi ibi sii",
     "enter_your_address": "Tẹ adirẹsi rẹ sii.",
     "postal_code": "koodu ifiweranṣẹ",
-    "phone_input": "Foonu {type}",
+    "phone_input": "Foonu",
     "building_number": "Nọmba ile",
     "building_unit": "Ẹyọ",
     "full_name_input": "Orukọ kikun {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Aami adirẹsi (Beere)",
     "notifications": {
       "save_in_list": "Adirẹsi yii ti wa ni ipamọ si atokọ rẹ pẹlu gbogbo awọn alaye rẹ.",
-      "edit_success": "Awọn iye adirẹsi titun ti a fipamọ sinu {title}."
+      "edit_success": "Awọn iye adirẹsi titun ti a fipamọ sinu {title}.",
     },
     "delete_address_dialog": {
       "title": "Pa Adirẹsi rẹ",
       "message": "Ṣe o da ọ loju pe o fẹ pa adirẹsi yii rẹ bi?",
-      "action": "Yọ adirẹsi kuro"
-    }
+      "action": "Yọ adirẹsi kuro",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ko le ṣatunkọ asọye yii!",
     "comment_input_empty": "Ọrọ ifiranṣẹ ti ṣofo!",
-    "article_not_saved": "Fi nkan pamọ!"
+    "article_not_saved": "Fi nkan pamọ!",
   },
   "wheel_fortune": {
     "title": "Play & Gba",
     "message": "Awọn iye owo ti kọọkan ere jẹ 10 eerun. Lọwọlọwọ o ni chips {chips}. Gba ërún diẹ sii nipa rira lati ile itaja.",
     "win_message": "Oriire, O ṣẹgun!",
     "lost_message": "Ma binu, O padanu ere naa.",
-    "try_again": "O le gbiyanju lẹẹkansi"
+    "try_again": "O le gbiyanju lẹẹkansi",
   },
   "json": {
     "add": "Ṣafikun data igbekalẹ",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Awọn ẹya ara ẹrọ",
     "book": {
       "title": "Iwe",
-      "desc": "Awọn iṣe iwe ti o fun awọn olumulo laaye lati ra iwe ti wọn rii taara lati awọn abajade wiwa."
+      "desc": "Awọn iṣe iwe ti o fun awọn olumulo laaye lati ra iwe ti wọn rii taara lati awọn abajade wiwa.",
     },
     "occupation": {
       "title": "Ifoju ekunwo",
-      "desc": "Alaye nipa idiyele owo osu, gẹgẹbi awọn sakani owo-oya ati awọn aropin owo-oya orisun agbegbe fun awọn iru iṣẹ, ti o han ni iriri wiwa iṣẹ lori Google."
+      "desc": "Alaye nipa idiyele owo osu, gẹgẹbi awọn sakani owo-oya ati awọn aropin owo-oya orisun agbegbe fun awọn iru iṣẹ, ti o han ni iriri wiwa iṣẹ lori Google.",
     },
     "course": {
       "title": "Dajudaju",
-      "desc": "Awọn iṣẹ ikẹkọ ti o han ninu atokọ olupese kan pato. Awọn iṣẹ ikẹkọ le pẹlu akọle ikẹkọ, olupese, ati apejuwe kukuru kan."
+      "desc": "Awọn iṣẹ ikẹkọ ti o han ninu atokọ olupese kan pato. Awọn iṣẹ ikẹkọ le pẹlu akọle ikẹkọ, olupese, ati apejuwe kukuru kan.",
     },
     "howto": {
       "title": "Bi o si",
-      "desc": "Bi o ṣe le rin awọn olumulo nipasẹ ṣeto awọn igbesẹ kan lati ṣaṣeyọri iṣẹ-ṣiṣe kan, ti n ṣafihan fidio, awọn aworan, ati ọrọ."
+      "desc": "Bi o ṣe le rin awọn olumulo nipasẹ ṣeto awọn igbesẹ kan lati ṣaṣeyọri iṣẹ-ṣiṣe kan, ti n ṣafihan fidio, awọn aworan, ati ọrọ.",
     },
     "recipe": {
       "title": "Ohunelo",
-      "desc": "Awọn ilana ti o ṣafihan bi abajade ọlọrọ kọọkan tabi apakan ti carousel agbalejo."
-    }
+      "desc": "Awọn ilana ti o ṣafihan bi abajade ọlọrọ kọọkan tabi apakan ti carousel agbalejo.",
+    },
   },
   "support": {
     "Financial": "Olowo",
     "Technical": "Imọ-ẹrọ",
-    "Advisor": "Oludamoran"
+    "Advisor": "Oludamoran",
   },
   "condition": {
     "new": "Tuntun",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Lo",
     "used_fair": "Lo itẹ",
     "used_good": "Lo dara",
-    "used_like_new": "Ti a lo bi tuntun"
+    "used_like_new": "Ti a lo bi tuntun",
   },
   "variant_filter": {
     "title": "Ajọ Iyatọ Ọja",
-    "only_available": "O wa"
+    "only_available": "O wa",
   },
   "service": {
     "task": {
       "title": "Awọn iṣẹ-ṣiṣe",
-      "message": "Akojọ awọn iṣẹ ṣiṣe ti a ṣe ni iṣẹ yii."
+      "message": "Akojọ awọn iṣẹ ṣiṣe ti a ṣe ni iṣẹ yii.",
     },
     "appointment": {
       "title": "Ipinnu",
-      "message": "Yan awọn akoko ti ọsẹ lati awọn akoko atẹle ti o da lori ọjọ ati wakati ti o tọ fun ọ."
+      "message": "Yan awọn akoko ti ọsẹ lati awọn akoko atẹle ti o da lori ọjọ ati wakati ti o tọ fun ọ.",
     },
     "booking": {
       "title": "Fowo si",
-      "message": "Pato akoko akoko ti awọn ọjọ ti o fẹ ṣe ifiṣura ninu kalẹnda ni isalẹ."
+      "message": "Pato akoko akoko ti awọn ọjọ ti o fẹ ṣe ifiṣura ninu kalẹnda ni isalẹ.",
     },
     "subscription": {
-      "title": "Ṣiṣe alabapin"
+      "title": "Ṣiṣe alabapin",
     },
     "charge": {
-      "title": "Gba agbara"
-    }
+      "title": "Gba agbara",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Idiyele ti o wa titi",
-      "message": "Ni iru idiyele yii, idiyele ọja jẹ iye ti o wa titi ati pe ko si iwulo fun olura lati beere iṣiro idiyele kan."
+      "message": "Ni iru idiyele yii, idiyele ọja jẹ iye ti o wa titi ati pe ko si iwulo fun olura lati beere iṣiro idiyele kan.",
     },
     "ESTIMATION": {
       "title": "Ifoju Ifilelẹ",
-      "message": "Iye owo ti awọn ọja ati iṣẹ yoo ṣe iṣiro si iye diẹ nipasẹ ẹniti o ta ọja nigbati o ba paṣẹ, awọn risiti isanwo le yipada tabi ṣafikun lakoko iṣẹ naa."
+      "message": "Iye owo ti awọn ọja ati iṣẹ yoo ṣe iṣiro si iye diẹ nipasẹ ẹniti o ta ọja nigbati o ba paṣẹ, awọn risiti isanwo le yipada tabi ṣafikun lakoko iṣẹ naa.",
     },
     "AGREEMENT": {
       "title": "Ifowoleri Adehun",
-      "message": "Owo ikẹhin ti awọn ọja tabi awọn iṣẹ kii yoo yipada nipasẹ ẹniti o ta ọja lẹhin ti o ti gbe aṣẹ naa."
+      "message": "Owo ikẹhin ti awọn ọja tabi awọn iṣẹ kii yoo yipada nipasẹ ẹniti o ta ọja lẹhin ti o ti gbe aṣẹ naa.",
     },
     "BID": {
       "title": "Bid / Auction",
-      "message": "Ọja naa yoo ta ni idiyele idu ti o ga julọ nipasẹ awọn olura ti o ni agbara."
-    }
+      "message": "Ọja naa yoo ta ni idiyele idu ti o ga julọ nipasẹ awọn olura ti o ni agbara.",
+    },
   },
   "map": {
     "title": "Nlo lati gba awọn ọja",
     "confirm": "Ṣeto ipo",
     "address": "Ibi-afẹde",
-    "receptor": "Olugba"
+    "receptor": "Olugba",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Akoonu Tags",
     "tags_input": "Awọn afi",
     "tags_input_message": "Tags Akojọ ti yi article",
     "notification": {
-      "add_success": "Awọn afi kun"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Idiju pupọ",
-    "hard": "Lile",
-    "intermediate": "Agbedemeji",
-    "easy": "Rọrun"
-  },
-  "billing_period": {
-    "Daily": "Ojoojumọ",
-    "Weekly": "Osẹ-ọsẹ",
-    "Monthly": "Oṣooṣu",
-    "Every3Months": "Ni gbogbo oṣu mẹta",
-    "Every6Months": "Ni gbogbo oṣu 6",
-    "Yearly": "Odoodun"
+      "add_success": "Awọn afi kun",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh ko dara!",
     "between2_3": "O dara!",
     "between3_4": "Eniyan fẹran rẹ!",
-    "between4_5": "Awọn eniyan nifẹ rẹ!"
+    "between4_5": "Awọn eniyan nifẹ rẹ!",
   },
   "seasons": {
     "spring": "Orisun omi",
     "summer": "Ooru",
     "autumn": "Igba Irẹdanu Ewe",
-    "winter": "Igba otutu"
-  }
+    "winter": "Igba otutu",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

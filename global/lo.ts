@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "ຂ້າພະເຈົ້າໄດ້ອ່ານເງື່ອນໄຂການນໍາໃຊ້ແລະນະໂຍບາຍຄວາມເປັນສ່ວນຕົວແລະຕົກລົງເຫັນດີກັບພວກເຂົາ.",
   "commons": {
     "Currency": "ສະກຸນເງິນ",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "ລັດ",
     "Price": "ລາຄາ",
@@ -169,6 +170,7 @@ export default {
     "net_price": "ລາຄາສຸດທິ",
     "tax": "ພາສີ",
     "tax_included": "ລວມຢູ່ໃນລາຄາ",
+    "tax_included_abstract": "ລວມ.",
     "limit": "ຈຳກັດ",
     "min_purchase": "ການຊື້ຂັ້ນຕ່ໍາ",
     "eligible_for": "ມີສິດໄດ້ຮັບ",
@@ -302,6 +304,7 @@ export default {
     "created_at": "ວັນທີສ້າງ",
     "updated_at": "ອັບເດດຫຼ້າສຸດ",
     "register_at": "ວັນທີລົງທະບຽນ",
+    "last_modified": "Last modified",
     "old": "ເກົ່າ",
     "new": "ໃຫມ່",
     "start": "ເລີ່ມ",
@@ -330,6 +333,7 @@ export default {
     "reseller": "ຕົວແທນຈໍາໜ່າຍ",
     "tracking_code": "ລະຫັດຕິດຕາມ",
     "tracking_url": "URL ຕິດຕາມ",
+    "fulfillment": "Fulfillment",
     "fulfillments": "ຄວາມສຳເລັດ",
     "reject": "ປະຕິເສດ",
     "reserved": "ສະຫງວນໄວ້",
@@ -341,6 +345,7 @@ export default {
     "waiting": "ກຳລັງລໍຖ້າ...",
     "waiting_connecting_payment": "ກຳລັງລໍຖ້າບໍລິການຊຳລະເງິນ...",
     "creating_secure_payment": "ການສ້າງການຈ່າຍເງິນທີ່ປອດໄພ.",
+    "waiting_for_payment": "ກະລຸນາຕື່ມເງິນໃຫ້ສຳເລັດ...",
     "officer": "ເຈົ້າໜ້າທີ່",
     "ticket": "ປີ້",
     "ticket_url": "url ປີ້",
@@ -361,7 +366,6 @@ export default {
     "rates": "ຄະແນນ",
     "seen_at": "ເຫັນຢູ່",
     "completed": "ສຳເລັດແລ້ວ",
-    "you": "ເຈົ້າ",
     "shop": "ຮ້ານຄ້າ",
     "store": "ຮ້ານ",
     "granted": "ອະນຸຍາດ",
@@ -498,6 +502,7 @@ export default {
     "tablet": "ແທັບເລັດ",
     "pc": "PC",
     "acquisition_channel": "ຊ່ອງທາງການຊື້",
+    "channels_overview": "Channels overview",
     "to": "ເຖິງ",
     "info": "ຂໍ້ມູນ",
     "general": "ທົ່ວໄປ",
@@ -559,7 +564,6 @@ export default {
     "per_product": "ຕໍ່ຜະລິດຕະພັນ",
     "journey": "ການເດີນທາງ",
     "after": "ຫຼັງຈາກ",
-    "waiting_for_payment": "ກະລຸນາຕື່ມເງິນໃຫ້ສຳເລັດ...",
     "hour": "ຊົ່ວໂມງ",
     "minute": "ນາທີ",
     "premium": "ພຣີມຽມ",
@@ -569,6 +573,7 @@ export default {
     "shops": "ຮ້ານຄ້າ",
     "vendor": "ຜູ້ຂາຍ",
     "vendors": "ຜູ້ຂາຍ",
+    "no_vendors": "No vendors",
     "marketplace": "ຕະຫຼາດ",
     "verify_date": "ຢືນຢັນວັນທີ",
     "note": "ຫມາຍ​ເຫດ​",
@@ -604,7 +609,6 @@ export default {
     "variant": "ຕົວແປ",
     "secure": "ປອດໄພ",
     "admin": "ບໍລິຫານ",
-    "tax_included_abstract": "ລວມ.",
     "payment_not_settled": "ຊໍາລະບໍ່ໄດ້!",
     "orders_list": "ລາຍການຄໍາສັ່ງ",
     "subscription_plan": "ແຜນການຈອງ",
@@ -642,16 +646,170 @@ export default {
     "clusters": "ກຸ່ມ",
     "subscriptions": "ການສະໝັກໃຊ້",
     "spam": "ຂີ້ເຫຍື້ອ",
-    "video": "ວິດີໂອ"
+    "video": "ວິດີໂອ",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "ເຈົ້າ",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "ສັບສົນຫຼາຍ",
+    "hard": "ແຂງ",
+    "intermediate": "ລະດັບປານກາງ",
+    "easy": "ງ່າຍ",
   },
   "dialogs": {
     "delete": {
       "title": "ລຶບ",
       "message": "ທ່ານແນ່ໃຈບໍ່ວ່າລຶບລາຍການນີ້?",
-      "action": "ແມ່ນແລ້ວ, ລຶບດຽວນີ້"
-    }
+      "action": "ແມ່ນແລ້ວ, ລຶບດຽວນີ້",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "ຕື່ມໃສ່ກະຕ່າ",
     "cancel": "ຍົກເລີກ",
     "update": "ອັບເດດ",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "ເພີ່ມບັດຂອງຂວັນ",
     "charge": "ຄ່າບໍລິການ",
     "send_invites": "ສົ່ງຄຳເຊີນ",
-    "past": "ທີ່ຜ່ານມາ",
+    "paste": "ວາງ",
     "restore": "ຟື້ນຟູ",
     "cut": "ຕັດ",
     "get_sms_code": "ເອົາລະຫັດຢືນຢັນ",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "ສະແດງຕົວຢ່າງ",
     "hide_preview": "ເຊື່ອງຕົວຢ່າງ",
     "download_now": "ດາວ​ໂຫຼດ​ດຽວ​ນີ້",
+    "watch_now": "ເບິ່ງດຽວນີ້",
     "auto_fill": "ຕື່ມຂໍ້ມູນອັດຕະໂນມັດ",
     "track": "ຕິດຕາມ",
     "change_state": "ປ່ຽນສະຖານະ",
     "done": "ສຳເລັດແລ້ວ",
     "reply": "ຕອບ",
-    "watch_now": "ເບິ່ງດຽວນີ້",
     "unlock": "ປົດລັອກ",
     "lock": "ລັອກ",
     "create_clone": "ສ້າງໂຄນ",
@@ -773,41 +931,71 @@ export default {
     "buy": "ຊື້",
     "view_all": "ເບິ່ງ​ທັງ​ຫມົດ",
     "view_now": "ເບິ່ງດຽວນີ້",
-    "paste": "ວາງ"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "ທີ່ຜ່ານມາ",
+  },
+  "billing_period": {
+    "Daily": "ປະຈໍາວັນ",
+    "Weekly": "ອາທິດ",
+    "Monthly": "ປະຈໍາເດືອນ",
+    "Every3Months": "ທຸກໆ 3 ເດືອນ",
+    "Every6Months": "ທຸກໆ 6 ເດືອນ",
+    "Yearly": "ປະຈຳປີ",
   },
   "instance_message_title": "ສົ່ງຂໍ້ຄວາມທັນທີ",
   "instance_message": "ສະບາຍດີ {name}, ຂ້ອຍຊື່ {author} ຈາກ {company}.",
   "errors": {
     "419": "ທ່ານບໍ່ໄດ້ເຄື່ອນໄຫວເປັນເວລາດົນນານ, ກະລຸນາ <b>⟳ ໂຫຼດຂໍ້ມູນໜ້ານີ້ຄືນໃໝ່</b> ເພື່ອເຫດຜົນດ້ານຄວາມປອດໄພ.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "ລະບົບບໍ່ synchronize ກັບ blockchain ໄດ້. ມັນຈະບໍ່ສາມາດສ້າງທຸລະກໍາໃຫມ່ໄດ້ຈົນກ່ວາການ synchronization ຂອງເຄື່ອງແມ່ຂ່າຍຂອງພວກເຮົາຈະສໍາເລັດ. ພວກເຮົາກໍາລັງແກ້ໄຂບັນຫາ.",
-    "gateway_network_error": "ບໍລິການຜ່ານປະຕູການຈ່າຍເງິນໄດ້ພົບບັນຫາການສື່ສານ."
+    "gateway_network_error": "ບໍລິການຜ່ານປະຕູການຈ່າຍເງິນໄດ້ພົບບັນຫາການສື່ສານ.",
   },
   "receiver_info": {
     "map": {
       "title": "ທີ່ຢູ່ຈັດສົ່ງ",
       "confirm": "ຕັ້ງສະຖານທີ່",
       "address_type": "ປາຍທາງ",
-      "receptor_type": "ຜູ້ຮັບ"
+      "receptor_type": "ຜູ້ຮັບ",
     },
     "receiver_address": "ເລືອກທີ່ຢູ່ຈັດສົ່ງ",
+    "service_address": "ເລືອກທີ່ຢູ່ຂອງເຈົ້າ",
+    "select_billing_address": "Select billing address",
     "address": "ທີ່ຢູ່",
     "postcode": "ລະຫັດໄປສະນີ",
     "enter_value": "ຕື່ມຂໍ້ມູນໃສ່ທີ່ນີ້",
     "address_note": "ຫມາຍ​ເຫດ​",
     "tel": "ເບີໂທຕິດຕໍ່",
-    "service_address": "ເລືອກທີ່ຢູ່ຂອງເຈົ້າ"
   },
   "weight": {
     "g": "g",
     "oz": "ອໍ",
     "lb": "ປອນ",
-    "kg": "ກິ​ໂລກ​ຣາມ"
+    "kg": "ກິ​ໂລກ​ຣາມ",
   },
   "mass_unit_name": {
     "g": "ກຣາມ",
     "oz": "ອອນສ໌",
     "lb": "ປອນ",
-    "kg": "ກິໂລກຣາມ"
+    "kg": "ກິໂລກຣາມ",
   },
   "length": {
     "cm": "ຊັງ​ຕີ​ແມັດ",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "ມມ",
     "m": "ມ",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "ຊັງຕີແມັດ",
@@ -823,17 +1011,21 @@ export default {
     "ft": "ຕີນ",
     "mm": "ມີລີແມັດ",
     "m": "ແມັດ",
-    "yd": "ເດີ່ນ"
+    "yd": "ເດີ່ນ",
   },
   "distance": {
     "m": "ແມັດ",
-    "km": "ກິໂລແມັດ"
+    "km": "ກິໂລແມັດ",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "ມື້",
     "hours": "ຊົ່ວໂມງ",
     "minutes": "ນາທີ",
-    "seconds": "ວິນາທີ"
+    "seconds": "ວິນາທີ",
   },
   "units": [
     "ໜ່ວຍ",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "ລັດ",
     "Territory": "ອານາເຂດ",
-    "Province": "ແຂວງ"
+    "Province": "ແຂວງ",
   },
   "transaction_status": {
     "RequireAction": "ຕ້ອງດຳເນີນການ",
     "Processing": "ການປຸງແຕ່ງ",
     "Canceled": "ຍົກເລີກ",
-    "Succeeded": "ປະສົບຜົນສໍາເລັດ"
+    "Succeeded": "ປະສົບຜົນສໍາເລັດ",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "ເລືອກພາສາ..",
     "friend_email": "ອີເມວຂອງໝູ່ເຈົ້າ...",
     "friend_name": "ເລືອກ. ຊື່ໝູ່ຂອງເຈົ້າ",
-    "select_date": "ເລືອກວັນທີ..."
+    "select_date": "ເລືອກວັນທີ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "ຢືນຢັນ",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "ສູງສຸດ {maxCount} ຕົວອັກສອນ",
     "invalid_url": "URL ບໍ່ຖືກຕ້ອງ",
     "country_invalid": "ເລືອກປະເທດປາຍທາງ!",
-    "postal_code_invalid": "ຕັ້ງລະຫັດໄປສະນີທີ່ຖືກຕ້ອງ!"
+    "postal_code_invalid": "ຕັ້ງລະຫັດໄປສະນີທີ່ຖືກຕ້ອງ!",
   },
   "colors": {
     "#D32F2F": "ສີແດງ",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "ໜ່ວຍ",
     "postcode": "ລະຫັດໄປສະນີ",
     "note": "ຫມາຍ​ເຫດ​",
-    "county": "ຄາວຕີ້"
+    "county": "ຄາວຕີ້",
   },
   "product_types": {
     "physical": "ທາງກາຍ",
@@ -1004,13 +1207,13 @@ export default {
     "service": "ການບໍລິການ",
     "service_description": "ການບໍລິການເຊັ່ນ: ການສ້ອມແປງ, ການຂົນສົ່ງ, ການສອນ.",
     "subscription": "ການສະໝັກໃຊ້",
-    "subscription_description": "ການສະໝັກໃຊ້ ແລະໃບແຈ້ງໜີ້ສຳລັບຜະລິດຕະພັນ, ບໍລິການ, ຫຼືເນື້ອຫາ."
+    "subscription_description": "ການສະໝັກໃຊ້ ແລະໃບແຈ້ງໜີ້ສຳລັບຜະລິດຕະພັນ, ບໍລິການ, ຫຼືເນື້ອຫາ.",
   },
   "license": {
     "free": "ຟຣີ",
     "startup": "ເລີ່ມ​ຕົ້ນ",
     "company": "ບໍລິສັດ",
-    "enterprise": "ວິສາຫະກິດ"
+    "enterprise": "ວິສາຫະກິດ",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "ສີ",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "ນັບຢູ່ໃນຊອງ",
     "weight": "ນ້ຳໜັກ",
     "type": "ວັດສະດຸ",
-    "style": "ແບບ"
+    "style": "ແບບ",
   },
   "delivery_state": {
     "check_queue": "ກຳລັງລໍຖ້າການທົບທວນຄືນ",
     "order_confirm": "ການຢືນຢັນຄໍາສັ່ງ",
     "preparing_order": "ກຳລັງກະກຽມ",
     "sent_order": "ກຳລັງຈັດສົ່ງ",
-    "to_customer": "ຈັດສົ່ງແລ້ວ"
+    "to_customer": "ຈັດສົ່ງແລ້ວ",
   },
   "status": {
     "unpaid": "ບໍ່ໄດ້ຈ່າຍ",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "ປະຕິເສດ",
     "pending": "ລໍຖ້າຢູ່",
     "rejected": "ປະຕິເສດ",
-    "accepted": "ຍອມຮັບ"
+    "accepted": "ຍອມຮັບ",
   },
   "dimensions": {
     "cm": "ຊັງ​ຕີ​ແມັດ",
     "km": "ກິໂລແມັດ",
-    "kg": "ກິ​ໂລກ​ຣາມ"
+    "kg": "ກິ​ໂລກ​ຣາມ",
   },
   "transportation_type": {
     "motorbike": "ລົດຈັກ",
@@ -1224,7 +1429,7 @@ export default {
     "global": "ການຂົນສົ່ງທົ່ວໂລກ",
     "global_description": "ການຂົນສົ່ງໄປຕ່າງປະເທດໂດຍທາງອາກາດ, ທາງທະເລຫຼືທາງບົກ.",
     "pickup": "ຮັບ",
-    "pickup_description": "ລູກຄ້າມາເອົາສິນຄ້າຢູ່ຮ້ານ ຫຼືສາງເຄື່ອງຂອງທ່ານ."
+    "pickup_description": "ລູກຄ້າມາເອົາສິນຄ້າຢູ່ຮ້ານ ຫຼືສາງເຄື່ອງຂອງທ່ານ.",
   },
   "article": {
     "login_to_see_error": "ເຂົ້າສູ່ລະບົບເພື່ອເຂົ້າເຖິງບົດຄວາມ",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "ແກ້ໄຂໂໝດ",
       "view_mode": "ໂໝດເບິ່ງ",
-      "delete": "ລຶບບົດຄວາມ"
+      "delete": "ລຶບບົດຄວາມ",
     },
     "schedule_action": "ທ່ານຕ້ອງການຈັດຕາຕະລາງການພິມເຜີຍແຜ່ບໍ?",
     "schedule_title": "ກຳນົດເວລາການເຜີຍແຜ່ອັດຕະໂນມັດ",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "ລາຍງານການລະເມີດ ແລະລຶບເນື້ອຫາອອກ",
       "report_title": "ລາຍງານເນື້ອຫານີ້ເປັນການລະເມີດ",
       "message": "ເຫດຜົນສໍາລັບການສົ່ງເນື້ອຫານີ້ແມ່ນຫຍັງ? ເລືອກໜຶ່ງໃນຕົວເລືອກຕໍ່ໄປນີ້.",
-      "accept_and_delete_action": "ຢືນຢັນແລະລຶບເນື້ອຫາ"
+      "accept_and_delete_action": "ຢືນຢັນແລະລຶບເນື້ອຫາ",
     },
     "schedule_dialog": {
       "title": "ຕາຕະລາງການປ່ອຍເນື້ອໃນ",
       "publish_at": "ເຜີຍແຜ່ຢູ່",
       "last_edit": "ແກ້ໄຂຄັ້ງສຸດທ້າຍ",
-      "view_action": "ເບິ່ງບົດຄວາມ"
+      "view_action": "ເບິ່ງບົດຄວາມ",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "ສົ່ງຂໍ້ມູນ",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "ລາຍງານ ແລະລຶບ",
       "report_and_delete_success_message": "ບົດຄວາມຖືກລຶບສຳເລັດແລ້ວ.",
       "report_success_title": "ລາຍງານບົດຄວາມ",
-      "report_success_message": "ບົດລາຍງານຂອງທ່ານກ່ຽວກັບບົດຄວາມນີ້ໄດ້ຖືກຈັດພີມມາ."
+      "report_success_message": "ບົດລາຍງານຂອງທ່ານກ່ຽວກັບບົດຄວາມນີ້ໄດ້ຖືກຈັດພີມມາ.",
     },
     "alert": {
       "delete_article": {
         "title": "ລຶບບົດຄວາມ",
         "message": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບບົດຄວາມນີ້ອອກຖາວອນ?",
-        "action": "ລຶບ"
-      }
+        "action": "ລຶບ",
+      },
     },
     "edit_window": {
       "title": "ເລືອກຂໍ້ຄວາມຮູບພາບແລະສະຫຼຸບ",
-      "digest": "ສະຫຼຸບ"
+      "digest": "ສະຫຼຸບ",
     },
     "editor": {
       "title_placeholder": "ຫົວຂໍ້..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "ໄຟລ໌ນີ້ໃຫຍ່ເກີນໄປ:",
       "notifications": {
         "image_uploaded_success": "ບັນທຶກຮູບພາບສຳເລັດແລ້ວ",
-        "image_uploaded_failed": "ເກີດຄວາມຜິດພາດໃນການໂຫຼດຮູບພາບ."
+        "image_uploaded_failed": "ເກີດຄວາມຜິດພາດໃນການໂຫຼດຮູບພາບ.",
       },
       "embed_placeholder": "ໃສ່ລະຫັດ iframe, Facebook, Youtube ຫຼື URL ອື່ນໆ ແລ້ວກົດ enter.",
       "embed_caption_placeholder": "ໃສ່ຊື່ (ທາງເລືອກ)",
-      "images_caption_placeholder": "ໃສ່ຊື່ສຳລັບຮູບນີ້.."
-    }
+      "images_caption_placeholder": "ໃສ່ຊື່ສຳລັບຮູບນີ້..",
+    },
   },
   "article_report": {
     "inappropriate": "ເນື້ອໃນຂອງບົດຄວາມນີ້ແມ່ນບໍ່ເຫມາະສົມ.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "ຂ້າພະເຈົ້າຄິດວ່າເນື້ອໃນນີ້ມີຮູບພາບລາມົກ ແລະເປັນການລະເມີດກົດໝາຍ.",
     "harassment": "ຂ້າພະເຈົ້າຄິດວ່ານີ້ແມ່ນການ racist.",
     "hate": "ຂ້າພະເຈົ້າຄິດວ່ານີ້ແມ່ນກ່ຽວກັບການສົ່ງເສີມຄວາມຮຸນແຮງ.",
-    "infringe": "ອັນນີ້ລະເມີດສິດທິຂອງຂ້ອຍ."
+    "infringe": "ອັນນີ້ລະເມີດສິດທິຂອງຂ້ອຍ.",
   },
   "comments": {
     "new_action": "ກົດອອກຄຳເຫັນ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "ໄດ້​ຮັບ​ຄໍາ​ເຫັນ​ເພີ່ມ​ເຕີມ ..",
     "cant_send_comment": "ທ່ານບໍ່ສາມາດເພີ່ມໂພສໃໝ່ໄດ້.",
     "cant_remove_this_comment": "ທ່ານບໍ່ສາມາດລຶບຄຳເຫັນນີ້ໄດ້!",
-    "product_buyer": "ຜູ້ຊື້",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "ຄວາມຄິດເຫັນຂອງຂ້ອຍ",
     "delete_alert": {
       "title": "ລຶບຄຳເຫັນ",
       "message": "ທ່ານຕ້ອງການລຶບຄຳເຫັນນີ້ບໍ?",
-      "action": "ລຶບ"
+      "action": "ລຶບ",
     },
     "notifications": {
-      "delete_success": "ຄຳເຫັນຂອງເຈົ້າຖືກລຶບສຳເລັດແລ້ວ."
+      "delete_success": "ຄຳເຫັນຂອງເຈົ້າຖືກລຶບສຳເລັດແລ້ວ.",
     },
     "first_send": "ຕອບທໍາອິດ",
     "comment_at": "ສຸດ",
     "edit_comment": "ແກ້ໄຂຄຳເຫັນ",
-    "my_comments": "ຄວາມຄິດເຫັນຂອງຂ້ອຍ"
+    "product_buyer": "ຜູ້ຊື້",
   },
   "customer_club": {
     "bronze": "ທອງແດງ",
     "silver": "ເງິນ",
     "gold": "ທອງ",
     "platinum": "Platinum",
-    "diamond": "ເພັດ"
+    "diamond": "ເພັດ",
   },
   "application_categories": {
     "tracking": "ການກວດສອບພຶດຕິກໍາຂອງຜູ້ໃຊ້",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "ການໂຄສະນາ",
     "staff": "ພະນັກງານ",
     "incentive": "ແຮງຈູງໃຈ",
-    "shop": "ຮ້ານຄ້າ"
+    "shop": "ຮ້ານຄ້າ",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "ເຟສບຸກ Messenger"
+    "facebook_messenger": "ເຟສບຸກ Messenger",
   },
   "form_builder": {
     "add_item_action": "ເພີ່ມລາຍການໃໝ່",
     "title_input": "ຫົວຂໍ້",
+    "placeholder_input": "ຕົວຍຶດ",
     "name_input": "ຊື່ຕົວແປ",
     "value_input": "ຄຸນຄ່າ",
     "value_input_message": "ລາຍຊື່ຕົວເລືອກຜູ້ໃຊ້",
     "default": "ຄ່າເລີ່ມຕົ້ນ",
+    "file_type_input": "ປະເພດໄຟລ໌ທີ່ຍອມຮັບໄດ້",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "ງ່າຍດາຍ",
       "selective": "ເລືອກ",
       "switch": "ສະຫຼັບ",
       "file": "ໄຟລ໌",
-      "number": "ເລກ"
+      "number": "ເລກ",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "ຕົວຍຶດ",
-    "file_type_input": "ປະເພດໄຟລ໌ທີ່ຍອມຮັບໄດ້",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "ຊື່​ຜະ​ລິດ​ຕະ​ພັນ",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "ສະຖານະການຈ່າຍເງິນ",
     "payment_status_waiting": "ລໍຖ້າການຈ່າຍເງິນ",
     "payment_status_paid": "ຈ່າຍແລ້ວ",
-    "buyer": "ຜູ້ຊື້"
+    "buyer": "ຜູ້ຊື້",
   },
   "virtual_item_info": {
     "title": "ລາຍການສະເໝືອນ",
     "outputs": {
       "title": "ຂໍ້ມູນຜົນຜະລິດ",
       "sub_title": "ຂໍ້ມູນລັບຂອງລາຍການນີ້",
-      "message": "ຂໍ້ມູນນີ້ຈະຖືກສະແດງໃຫ້ຜູ້ໃຊ້ຫຼັງຈາກຊື້ຜະລິດຕະພັນ."
+      "message": "ຂໍ້ມູນນີ້ຈະຖືກສະແດງໃຫ້ຜູ້ໃຊ້ຫຼັງຈາກຊື້ຜະລິດຕະພັນ.",
     },
     "inputs": {
       "title": "ຂໍ້ມູນທີ່ຕ້ອງການ",
       "sub_title": "ຕ້ອງການຂໍ້ມູນຜູ້ຊື້",
-      "message": "ຜູ້ຊື້ຕ້ອງໃສ່ຂໍ້ມູນທີ່ຕ້ອງການໃນແບບຟອມ"
+      "message": "ຜູ້ຊື້ຕ້ອງໃສ່ຂໍ້ມູນທີ່ຕ້ອງການໃນແບບຟອມ",
     },
     "notifications": {
       "inputs_set_success": "ແບບຟອມຂໍ້ມູນລົງທະບຽນສໍາເລັດ.",
       "confirm_by_admin_success": "ຢືນຢັນຄໍາສັ່ງສໍາເລັດ.",
-      "confirm_by_buyer_success": "ຢືນຢັນຄໍາສັ່ງສໍາເລັດ."
-    }
+      "confirm_by_buyer_success": "ຢືນຢັນຄໍາສັ່ງສໍາເລັດ.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "ຄໍາສັ່ງນີ້ບໍ່ສາມາດຍອມຮັບໄດ້ໂດຍການຈ່າຍເງິນ COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "ສິນຄ້າໝົດ.",
     "legal_restriction": "ບໍ່ສາມາດສັ່ງໄດ້ເນື່ອງຈາກມີຂໍ້ຈຳກັດທາງກົດໝາຍ.",
     "pricing_fault": "ຜູ້ຂາຍຜິດລາຄາ.",
-    "system_fault": "ບັກລະບົບ."
+    "system_fault": "ບັກລະບົບ.",
   },
   "basket_order_info_summery": {
     "receiver": "ຜູ້ຮັບ",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "ສ່ວນຫຼຸດ",
     "final_price": "ຈໍານວນສຸດທ້າຍ",
     "address": "ທີ່ຢູ່ຈັດສົ່ງ",
-    "payment_status": "ສະຖານະການຈ່າຍເງິນ"
+    "payment_status": "ສະຖານະການຈ່າຍເງິນ",
   },
   "basket_status": {
     "open": "ເປີດ",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "ຍົກເລີກ",
     "cod": "ຈ່າຍໃນການຈັດສົ່ງ",
     "receipt_added": "ເພີ່ມໃບຮັບເງິນແລ້ວ",
-    "payment_processing": "ການປະມວນຜົນການຈ່າຍເງິນ"
+    "payment_processing": "ການປະມວນຜົນການຈ່າຍເງິນ",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "ປະຕິເສດ",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "ການຢືນຢັນ",
     "step_3": "ການກະກຽມ",
     "step_4": "ກຳລັງຈັດສົ່ງ",
-    "step_5": "ຈັດສົ່ງແລ້ວ"
+    "step_5": "ຈັດສົ່ງແລ້ວ",
   },
   "basket_return_request_view": {
     "title": "ການຮ້ອງຂໍຄືນ",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "ປະຕິເສດຄຳຮ້ອງຂໍ",
     "message_for_admin": "ອີງຕາມຂໍ້ຕົກລົງທີ່ທ່ານໄດ້ຍອມຮັບໂດຍໃຊ້ Selldone, ທ່ານຕ້ອງຕິດຕໍ່ກັບຜູ້ຊື້ແລະແຈ້ງໃຫ້ລາວຮູ້ວ່າຂະບວນການສົ່ງຄືນຄໍາສັ່ງຂອງລາວ. ນີ້ຕ້ອງເຮັດຖ້າຄໍາຮ້ອງຂໍຖືກຍອມຮັບຫຼືປະຕິເສດແລະໄດ້ຮັບການຍິນຍອມເຫັນດີຢ່າງເຕັມທີ່ຂອງຜູ້ຊື້.",
     "notifications": {
-      "update_status_success": "ອັບເດດສະຖານະການຮ້ອງຂໍ."
-    }
+      "update_status_success": "ອັບເດດສະຖານະການຮ້ອງຂໍ.",
+    },
   },
   "basket_list": {
     "return_count": "ກັບຄືນ: ຈໍານວນ {count}",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "ຕົວແປ",
       "warranty": "ການຮັບປະກັນ",
       "count": "ນັບ",
-      "price": "ລາຄາ"
-    }
+      "price": "ລາຄາ",
+    },
   },
   "return_request_list": {
     "count": "ຫມາຍ​ເລກ​ອ້າງ​ອີງ",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "ວັນທີທີ່ໄດ້ຮັບ",
       "state": "ສະຖານະ",
       "reason": "ເຫດ​ຜົນ",
-      "return_warranty_period": "ໄລຍະເວລາຮັບປະກັນ"
-    }
+      "return_warranty_period": "ໄລຍະເວລາຮັບປະກັນ",
+    },
   },
   "data_toolbar": {
     "search": "ຊອກຫາ",
     "sort_by": "ຈັດຮຽງຕາມ",
-    "count_item": "ສະແດງ {item} ລາຍການ"
+    "count_item": "ສະແດງ {item} ລາຍການ",
   },
   "sort": {
     "created_at": "ສ້າງວັນທີ",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "ເຈົ້າໜ້າທີ່",
     "registered": "ລົງທະບຽນ",
     "purchased": "ຊື້ແລ້ວ",
-    "sex": "ເພດ"
+    "sex": "ເພດ",
   },
   "search_box": {
     "result": "ຜົນການຄົ້ນຫາ",
     "tips": "ຄົ້ນຫາຜະລິດຕະພັນແລະປະເພດ",
     "label": "ຊອກຫາ...",
-    "category": "ປະເພດ"
+    "category": "ປະເພດ",
   },
   "lead_status": {
     "physical_fast_delivery": "ການຈັດສົ່ງທັນທີ",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "ກຳລັງກະກຽມ ແລະສົ່ງຈາກ {days} ມື້ຕໍ່ໄປ",
     "virtual_fast_prepare": "ການຈັດສົ່ງທັນທີ",
     "virtual_under_24h": "ຈະສຳເລັດພາຍໃນ {lead} ຊົ່ວໂມງຕໍ່ໄປ",
-    "virtual_over_24h": "ຈະສຳເລັດຈາກ {days} ມື້ຕໍ່ໄປ"
+    "virtual_over_24h": "ຈະສຳເລັດຈາກ {days} ມື້ຕໍ່ໄປ",
   },
   "return_request_state": {
     "pending": "ລໍຖ້າຢູ່",
     "accepted": "ຢືນຢັນ",
-    "rejected": "ປະຕິເສດ"
+    "rejected": "ປະຕິເສດ",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "ການບິດເບືອນແພັກເກດ ຫຼືໝາຍເລກຊີຣຽວ",
       "U5": "ຂາດບາງລາຍການຈາກເຄື່ອງຫຸ້ມຫໍ່",
       "U6": "ຜະລິດຕະພັນບໍ່ແມ່ນຕົ້ນສະບັບ",
-      "U7": "ຜະລິດຕະພັນບໍ່ພໍໃຈກັບຂໍ້ມູນສະເພາະ"
-    }
+      "U7": "ຜະລິດຕະພັນບໍ່ພໍໃຈກັບຂໍ້ມູນສະເພາະ",
+    },
   },
   "image_uploader": {
     "label": "ລາກ ແລະວາງ ຫຼື <u>ເລືອກໄຟລ໌</u>",
-    "max_size": "ຂະໜາດສູງສຸດທີ່ອະນຸຍາດ: {size}"
+    "max_size": "ຂະໜາດສູງສຸດທີ່ອະນຸຍາດ: {size}",
   },
   "timespan": {
     "Morning": "8 ໂມງເຊົ້າ - 12 ໂມງແລງ",
     "Evening": "12 ໂມງແລງເຖິງ 6 ໂມງແລງ",
     "Night": "6ໂມງແລງ-12ໂມງແລງ",
-    "Instant": "ໂພສທັນທີ"
+    "Instant": "ໂພສທັນທີ",
   },
   "week_day": {
     "Saturday": "ວັນເສົາ",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "ວັນອັງຄານ",
     "Wednesday": "ວັນພຸດ",
     "Thursday": "ວັນພະຫັດ",
-    "Friday": "ວັນ​ສຸກ"
+    "Friday": "ວັນ​ສຸກ",
   },
   "payment_form": {
     "title": "ເລືອກວິທີການຊໍາລະເງິນ",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "ຂໍສະແດງຄວາມຍິນດີ, ຄໍາສັ່ງຂອງທ່ານແມ່ນບໍ່ເສຍຄ່າ!",
     "order_free_payment_action": "ສັ່ງຟຣີດຽວນີ້",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "ທີ່ຢູ່ການຊໍາລະ",
-      "amount": "ຈໍາ​ນວນ"
-    }
+      "amount": "ຈໍາ​ນວນ",
+    },
   },
   "discount_input": {
     "limit": "ສ່ວນຫຼຸດ {percent}% ເຖິງ {limit} {currency}",
     "action": "ເພີ່ມລະຫັດສ່ວນຫຼຸດ",
     "code_input": "ລະຫັດສ່ວນຫຼຸດ",
     "notifications": {
-      "add_success": "ຂໍສະແດງຄວາມຍິນດີ, ລະຫັດສ່ວນຫຼຸດທີ່ຖືກຕ້ອງ."
-    }
+      "add_success": "ຂໍສະແດງຄວາມຍິນດີ, ລະຫັດສ່ວນຫຼຸດທີ່ຖືກຕ້ອງ.",
+    },
   },
   "gift_card": {
     "inactive": "ບັດຖືກປິດໃຊ້ງານ",
     "expire": "ໝົດອາຍຸ",
     "transfer": "ໂອນ",
-    "send_to_friend": "ສົ່ງໃຫ້ໝູ່"
+    "send_to_friend": "ສົ່ງໃຫ້ໝູ່",
   },
   "count_down": {
     "days": "ມື້",
     "hours": "ຊົ່ວໂມງ",
     "minutes": "ນາທີ",
-    "seconds": "ວິນາທີ"
+    "seconds": "ວິນາທີ",
   },
   "gift_status": {
     "Unpaid": "ກຳລັງລໍຖ້າໃບຮັບເງິນ",
     "Paid": "ຈ່າຍແລ້ວ",
     "Rejected": "ປະຕິເສດ",
-    "Canceled": "ຍົກເລີກ"
+    "Canceled": "ຍົກເລີກ",
   },
   "gift_program_status": {
     "Airdrop": "ລະບົບການຈ່າຍເງິນ",
     "Advertising": "ການໂຄສະນາ",
     "PersonalGift": "ຂອງຂວັນສ່ວນຕົວ",
-    "ShopGift": "ຮ້ານ​ຂອງ​ຂວັນ"
+    "ShopGift": "ຮ້ານ​ຂອງ​ຂວັນ",
   },
   "currency_selector": {
-    "label": "ສະກຸນເງິນ"
+    "label": "ສະກຸນເງິນ",
   },
   "need_login": {
     "title": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
     "login_sms": "ເຂົ້າສູ່ລະບົບ SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "ເຂົ້າສູ່ລະບົບດ້ວຍ Google",
     "login_facebook": "ເຂົ້າສູ່ລະບົບດ້ວຍ Facebook",
+    "login_apple": "ເຂົ້າສູ່ລະບົບດ້ວຍ Apple",
     "login_account": "ເຂົ້າສູ່ລະບົບໂດຍ Selldone",
     "register": "ຜູ້ໃຊ້ໃຫມ່? ລົງ​ທະ​ບຽນ​ດຽວ​ນີ້.",
     "mobile_input": "ໃສ່ມືຖືຂອງເຈົ້າ",
     "verification_code": "ລະຫັດຢືນຢັນ",
     "msg_title": "ສະບາຍດີ,",
     "msg_body": "ກະລຸນາເຂົ້າສູ່ລະບົບ. ມັນໃຊ້ເວລາພຽງແຕ່ສອງສາມວິນາທີ.",
-    "login_apple": "ເຂົ້າສູ່ລະບົບດ້ວຍ Apple",
     "login_email": "ເຂົ້າສູ່ລະບົບທາງອີເມລ໌",
     "email_login_step_1": "ກະລຸນາໃຫ້ທີ່ຢູ່ອີເມວທີ່ຖືກຕ້ອງ, ແລະພວກເຮົາຈະສົ່ງລະຫັດເຂົ້າສູ່ລະບົບໄປຫາມັນ. ບໍ່ຈໍາເປັນຕ້ອງລົງທະບຽນ.",
     "email_login_step_2": "ທ່ານແນ່ໃຈບໍ່ວ່າທ່ານໄດ້ໃສ່ທີ່ຢູ່ອີເມວຂອງທ່ານຢ່າງຖືກຕ້ອງ? ພວກເຮົາຈະສົ່ງລະຫັດເຂົ້າສູ່ລະບົບໄປຫາອີເມລ໌ທີ່ສະຫນອງໃຫ້, ດັ່ງນັ້ນກະລຸນາຮັບປະກັນຄວາມຖືກຕ້ອງຂອງມັນ.",
-    "email_login_step_3": "ພວກເຮົາໄດ້ສົ່ງລະຫັດໄປຫາອີເມວຂອງທ່ານ. ກະລຸນາຮັບຊາບວ່າລະຫັດຈະໝົດອາຍຸໃນ 10 ນາທີ."
+    "email_login_step_3": "ພວກເຮົາໄດ້ສົ່ງລະຫັດໄປຫາອີເມວຂອງທ່ານ. ກະລຸນາຮັບຊາບວ່າລະຫັດຈະໝົດອາຍຸໃນ 10 ນາທີ.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "ຮ້ານຄຳ 5 ປີ"
+      "name": "ຮ້ານຄຳ 5 ປີ",
     },
     "GOLDEN_2YEAR": {
-      "name": "ຮ້ານຄຳ 4 ປີ"
+      "name": "ຮ້ານຄຳ 4 ປີ",
     },
     "GOLDEN_3YEAR": {
-      "name": "ຮ້ານຄຳ 3 ປີ"
+      "name": "ຮ້ານຄຳ 3 ປີ",
     },
     "GOLDEN_4YEAR": {
-      "name": "ຮ້ານຄຳ 2 ປີ"
+      "name": "ຮ້ານຄຳ 2 ປີ",
     },
     "GOLDEN_5YEAR": {
-      "name": "ຮ້ານຄຳ 1 ປີ"
+      "name": "ຮ້ານຄຳ 1 ປີ",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Golden Investor"
+      "name": "Golden Investor",
     },
     "TOKEN_OWNER_10M": {
-      "name": "ນັກລົງທຶນເພັດ"
+      "name": "ນັກລົງທຶນເພັດ",
     },
     "TOKEN_OWNER_100M": {
-      "name": "ນັກລົງທຶນ Ruby"
+      "name": "ນັກລົງທຶນ Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "ສະມາຊິກຂອງຊຸມຊົນຊັ້ນສູງຂອງເຄືອຂ່າຍການສື່ສານ"
+      "name": "ສະມາຊິກຂອງຊຸມຊົນຊັ້ນສູງຂອງເຄືອຂ່າຍການສື່ສານ",
     },
     "GOLD_SUPPLIER": {
-      "name": "Gold Supplier"
+      "name": "Gold Supplier",
     },
     "GOLD_SELLER": {
-      "name": "ຕົວແທນຈໍາຫນ່າຍຄໍາ"
+      "name": "ຕົວແທນຈໍາຫນ່າຍຄໍາ",
     },
     "CONTENT_SUPERMAN": {
-      "name": "ຜູ້ຜະລິດເນື້ອຫາອັນດັບຕົ້ນ"
+      "name": "ຜູ້ຜະລິດເນື້ອຫາອັນດັບຕົ້ນ",
     },
     "NINJA": {
-      "name": "ນິນຈາ"
+      "name": "ນິນຈາ",
     },
     "STAR": {
-      "name": "ດາວ"
+      "name": "ດາວ",
     },
     "GUARDIAN": {
-      "name": "ການບໍລິການລູກຄ້າທີ່ຍິ່ງໃຫຍ່"
+      "name": "ການບໍລິການລູກຄ້າທີ່ຍິ່ງໃຫຍ່",
     },
     "KING": {
-      "name": "ກະສັດຂອງຕະຫຼາດ"
-    }
+      "name": "ກະສັດຂອງຕະຫຼາດ",
+    },
   },
   "cookie": {
     "title": "ເວັບໄຊທ໌ນີ້ໃຊ້ cookies",
     "message": "ເວັບໄຊທ໌ນີ້ໃຊ້ cookies ເພື່ອປັບປຸງປະສົບການຂອງຜູ້ໃຊ້. ໂດຍການນໍາໃຊ້ເວັບໄຊທ໌ຂອງພວກເຮົາ, ທ່ານຍິນຍອມໃຫ້ cookies ທັງຫມົດໂດຍສອດຄ່ອງກັບນະໂຍບາຍ Cookie ຂອງພວກເຮົາ.",
     "preferences_action": "ຈັດການການຕັ້ງຄ່າ",
-    "agree_action": "ຂ້ອຍ​ຍອມ​ຮັບ"
+    "agree_action": "ຂ້ອຍ​ຍອມ​ຮັບ",
   },
   "basket_item_message": {
     "title": "ຂໍ້ມູນທີ່ຕ້ອງການສໍາລັບລາຍການນີ້",
     "save_actions": "ບັນທຶກຂໍ້ຄວາມ",
+    "product_inputs_preview_message": "ຕົວເລືອກການປັບແຕ່ງເຫຼົ່ານີ້ແມ່ນມີໃຫ້ສໍາລັບຜະລິດຕະພັນທີ່ທ່ານສັ່ງ. ເມື່ອລາຍການຖືກເພີ່ມໃສ່ກະຕ່າຂອງເຈົ້າ, ທ່ານຈະສາມາດປັບປ່ຽນໄດ້ທີ່ນີ້.",
     "notifications": {
-      "success": "ຂໍ້ມູນການປ້ອນຂໍ້ມູນຂອງທ່ານຖືກບັນທຶກໄວ້."
+      "success": "ຂໍ້ມູນການປ້ອນຂໍ້ມູນຂອງທ່ານຖືກບັນທຶກໄວ້.",
     },
-    "product_inputs_preview_message": "ຕົວເລືອກການປັບແຕ່ງເຫຼົ່ານີ້ແມ່ນມີໃຫ້ສໍາລັບຜະລິດຕະພັນທີ່ທ່ານສັ່ງ. ເມື່ອລາຍການຖືກເພີ່ມໃສ່ກະຕ່າຂອງເຈົ້າ, ທ່ານຈະສາມາດປັບປ່ຽນໄດ້ທີ່ນີ້."
   },
   "faq": {
     "faq": "ຄໍາ​ຖາມ​ທີ່​ຖືກ​ຖາມ​ເລື້ອຍໆ",
     "title": "ຄໍາຖາມແລະຄໍາຕອບ",
-    "sub_title": "ສິ່ງທີ່ທ່ານຮ້ອງຂໍໃຫ້ພວກເຮົາເຮັດ.",
     "message": "ຊອກຫາຄໍາຕອບຕໍ່ຄໍາຖາມຂອງເຈົ້າໃນບັນດາຄໍາຕອບຂ້າງລຸ່ມນີ້. ຖາມພວກເຮົາຖ້າຄໍາຖາມຍັງຄົງບໍ່ມີຄໍາຕອບ.",
     "add_question_action": "ຖາມຄໍາຖາມໃຫມ່",
     "read_more": "ອ່ານ​ຕື່ມ ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "ຄຳຖາມ",
     "question_input_placeholder": "ຖາມຄໍາຖາມຂອງເຈົ້າ.",
     "notifications": {
-      "success_add": "ສົ່ງຄຳຖາມຂອງເຈົ້າສຳເລັດແລ້ວ."
-    }
+      "success_add": "ສົ່ງຄຳຖາມຂອງເຈົ້າສຳເລັດແລ້ວ.",
+    },
+    "sub_title": "ສິ່ງທີ່ທ່ານຮ້ອງຂໍໃຫ້ພວກເຮົາເຮັດ.",
   },
   "rating_labels": [
     "ບໍ່ດີຫຼາຍ",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "ໃສ່ທີ່ຢູ່ປາຍທາງ",
     "enter_your_address": "ໃສ່ທີ່ຢູ່ຂອງເຈົ້າ.",
     "postal_code": "ລະຫັດໄປສະນີ",
-    "phone_input": "ໂທລະສັບ {type}",
+    "phone_input": "ໂທລະສັບ",
     "building_number": "ເລກອາຄານ",
     "building_unit": "ໜ່ວຍ",
     "full_name_input": "ຊື່ເຕັມ {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "ປ້າຍກຳກັບທີ່ຢູ່ (ຕ້ອງການ)",
     "notifications": {
       "save_in_list": "ທີ່ຢູ່ນີ້ຖືກບັນທຶກໄວ້ໃນລາຍຊື່ຂອງເຈົ້າພ້ອມກັບລາຍລະອຽດທັງໝົດຂອງມັນ.",
-      "edit_success": "ຄ່າທີ່ຢູ່ໃໝ່ທີ່ບັນທຶກໄວ້ໃນ {title}."
+      "edit_success": "ຄ່າທີ່ຢູ່ໃໝ່ທີ່ບັນທຶກໄວ້ໃນ {title}.",
     },
     "delete_address_dialog": {
       "title": "ລຶບທີ່ຢູ່",
       "message": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບທີ່ຢູ່ນີ້?",
-      "action": "ລຶບທີ່ຢູ່"
-    }
+      "action": "ລຶບທີ່ຢູ່",
+    },
   },
   "comment_manager": {
     "can_not_edit": "ບໍ່ສາມາດແກ້ໄຂຄຳເຫັນນີ້ໄດ້!",
     "comment_input_empty": "ຂໍ້ຄວາມຫວ່າງເປົ່າ!",
-    "article_not_saved": "ບັນທຶກບົດຄວາມ!"
+    "article_not_saved": "ບັນທຶກບົດຄວາມ!",
   },
   "wheel_fortune": {
     "title": "ຫຼິ້ນ & ຊະນະ",
     "message": "ຄ່າໃຊ້ຈ່າຍຂອງແຕ່ລະເກມແມ່ນ 10 chips. ໃນປັດຈຸບັນທ່ານມີຊິບ {chips}. ຮັບຊິບເພີ່ມເຕີມໂດຍການຊື້ຈາກຮ້ານ.",
     "win_message": "ຊົມເຊີຍ, ເຈົ້າຊະນະ!",
     "lost_message": "ຂໍໂທດ, ເຈົ້າເສຍເກມ.",
-    "try_again": "ທ່ານສາມາດລອງອີກຄັ້ງ"
+    "try_again": "ທ່ານສາມາດລອງອີກຄັ້ງ",
   },
   "json": {
     "add": "ເພີ່ມຂໍ້ມູນໂຄງສ້າງ",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "ໂຄງສ້າງ",
     "book": {
       "title": "ປື້ມບັນທຶກ",
-      "desc": "ການປະຕິບັດປື້ມທີ່ຊ່ວຍໃຫ້ຜູ້ໃຊ້ສາມາດຊື້ປື້ມທີ່ເຂົາເຈົ້າຊອກຫາໂດຍກົງຈາກຜົນການຄົ້ນຫາ."
+      "desc": "ການປະຕິບັດປື້ມທີ່ຊ່ວຍໃຫ້ຜູ້ໃຊ້ສາມາດຊື້ປື້ມທີ່ເຂົາເຈົ້າຊອກຫາໂດຍກົງຈາກຜົນການຄົ້ນຫາ.",
     },
     "occupation": {
       "title": "ເງິນເດືອນຄາດຄະເນ",
-      "desc": "ຂໍ້ມູນກ່ຽວກັບການຄາດຄະເນເງິນເດືອນ, ເຊັ່ນ: ລະດັບເງິນເດືອນແລະລະດັບເງິນເດືອນໂດຍສະເລ່ຍຕາມພາກພື້ນສໍາລັບປະເພດວຽກ, ສະແດງຢູ່ໃນປະສົບການການຊອກຫາວຽກຢູ່ໃນ Google."
+      "desc": "ຂໍ້ມູນກ່ຽວກັບການຄາດຄະເນເງິນເດືອນ, ເຊັ່ນ: ລະດັບເງິນເດືອນແລະລະດັບເງິນເດືອນໂດຍສະເລ່ຍຕາມພາກພື້ນສໍາລັບປະເພດວຽກ, ສະແດງຢູ່ໃນປະສົບການການຊອກຫາວຽກຢູ່ໃນ Google.",
     },
     "course": {
       "title": "ຫຼັກສູດ",
-      "desc": "ຫຼັກສູດການສຶກສາທີ່ປາກົດຢູ່ໃນລາຍຊື່ສະເພາະຂອງຜູ້ໃຫ້ບໍລິການ. ຫຼັກສູດສາມາດປະກອບມີຫົວຂໍ້ຫຼັກສູດ, ຜູ້ໃຫ້ບໍລິການ, ແລະຄໍາອະທິບາຍສັ້ນໆ."
+      "desc": "ຫຼັກສູດການສຶກສາທີ່ປາກົດຢູ່ໃນລາຍຊື່ສະເພາະຂອງຜູ້ໃຫ້ບໍລິການ. ຫຼັກສູດສາມາດປະກອບມີຫົວຂໍ້ຫຼັກສູດ, ຜູ້ໃຫ້ບໍລິການ, ແລະຄໍາອະທິບາຍສັ້ນໆ.",
     },
     "howto": {
       "title": "ວິທີ",
-      "desc": "A How-to walks ຜູ້​ໃຊ້​ໂດຍ​ຜ່ານ​ຊຸດ​ຂອງ​ຂັ້ນ​ຕອນ​ທີ່​ຈະ​ສໍາ​ເລັດ​ວຽກ​ງານ​ສໍາ​ເລັດ​ຮູບ​, ມີ​ວິ​ດີ​ໂອ​, ຮູບ​ພາບ​, ແລະ​ຂໍ້​ຄວາມ​."
+      "desc": "A How-to walks ຜູ້​ໃຊ້​ໂດຍ​ຜ່ານ​ຊຸດ​ຂອງ​ຂັ້ນ​ຕອນ​ທີ່​ຈະ​ສໍາ​ເລັດ​ວຽກ​ງານ​ສໍາ​ເລັດ​ຮູບ​, ມີ​ວິ​ດີ​ໂອ​, ຮູບ​ພາບ​, ແລະ​ຂໍ້​ຄວາມ​.",
     },
     "recipe": {
       "title": "ສູດ",
-      "desc": "ສູດອາຫານທີ່ສະແດງເປັນຜົນລັບທີ່ອຸດົມສົມບູນຂອງບຸກຄົນ ຫຼືສ່ວນໜຶ່ງຂອງ host carousel."
-    }
+      "desc": "ສູດອາຫານທີ່ສະແດງເປັນຜົນລັບທີ່ອຸດົມສົມບູນຂອງບຸກຄົນ ຫຼືສ່ວນໜຶ່ງຂອງ host carousel.",
+    },
   },
   "support": {
     "Financial": "ການເງິນ",
     "Technical": "ດ້ານວິຊາການ",
-    "Advisor": "ທີ່ປຶກສາ"
+    "Advisor": "ທີ່ປຶກສາ",
   },
   "condition": {
     "new": "ໃຫມ່",
@@ -1885,91 +2098,152 @@ export default {
     "used": "ໃຊ້ແລ້ວ",
     "used_fair": "ໃຊ້ແລ້ວຍຸດຕິທຳ",
     "used_good": "ໃຊ້ດີ",
-    "used_like_new": "ໃຊ້ແລ້ວຄືເກົ່າ"
+    "used_like_new": "ໃຊ້ແລ້ວຄືເກົ່າ",
   },
   "variant_filter": {
     "title": "ຕົວກັ່ນຕອງຜະລິດຕະພັນ",
-    "only_available": "ໃນ​ສາງ"
+    "only_available": "ໃນ​ສາງ",
   },
   "service": {
     "task": {
       "title": "ວຽກງານ",
-      "message": "ບັນຊີລາຍຊື່ຂອງວຽກງານທີ່ປະຕິບັດໃນການບໍລິການນີ້."
+      "message": "ບັນຊີລາຍຊື່ຂອງວຽກງານທີ່ປະຕິບັດໃນການບໍລິການນີ້.",
     },
     "appointment": {
       "title": "ນັດ",
-      "message": "ເລືອກເວລາຂອງອາທິດຈາກເວລາຕໍ່ໄປນີ້ໂດຍອີງໃສ່ມື້ແລະຊົ່ວໂມງທີ່ເຫມາະສົມສໍາລັບທ່ານ."
+      "message": "ເລືອກເວລາຂອງອາທິດຈາກເວລາຕໍ່ໄປນີ້ໂດຍອີງໃສ່ມື້ແລະຊົ່ວໂມງທີ່ເຫມາະສົມສໍາລັບທ່ານ.",
     },
     "booking": {
       "title": "ການຈອງ",
-      "message": "ລະບຸໄລຍະເວລາຂອງມື້ທີ່ທ່ານຕ້ອງການຈອງໃນປະຕິທິນຂ້າງລຸ່ມນີ້."
+      "message": "ລະບຸໄລຍະເວລາຂອງມື້ທີ່ທ່ານຕ້ອງການຈອງໃນປະຕິທິນຂ້າງລຸ່ມນີ້.",
     },
     "subscription": {
-      "title": "ການສະໝັກໃຊ້"
+      "title": "ການສະໝັກໃຊ້",
     },
     "charge": {
-      "title": "ຄ່າບໍລິການ"
-    }
+      "title": "ຄ່າບໍລິການ",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "ລາຄາຄົງທີ່",
-      "message": "ໃນປະເພດຂອງລາຄານີ້, ລາຄາຂອງຜະລິດຕະພັນແມ່ນເປັນຈໍານວນຄົງທີ່ແລະບໍ່ຈໍາເປັນຕ້ອງໃຫ້ຜູ້ຊື້ຮ້ອງຂໍການຄິດໄລ່ລາຄາ."
+      "message": "ໃນປະເພດຂອງລາຄານີ້, ລາຄາຂອງຜະລິດຕະພັນແມ່ນເປັນຈໍານວນຄົງທີ່ແລະບໍ່ຈໍາເປັນຕ້ອງໃຫ້ຜູ້ຊື້ຮ້ອງຂໍການຄິດໄລ່ລາຄາ.",
     },
     "ESTIMATION": {
       "title": "ການປະເມີນລາຄາ",
-      "message": "ລາຄາຂອງຜະລິດຕະພັນແລະການບໍລິການຈະຖືກຄິດໄລ່ໃນຂອບເຂດຈໍານວນຫນຶ່ງໂດຍຜູ້ຂາຍໃນເວລາທີ່ວາງຄໍາສັ່ງ, ໃບເກັບເງິນສາມາດປ່ຽນແປງຫຼືເພີ່ມໃນລະຫວ່າງການບໍລິການ."
+      "message": "ລາຄາຂອງຜະລິດຕະພັນແລະການບໍລິການຈະຖືກຄິດໄລ່ໃນຂອບເຂດຈໍານວນຫນຶ່ງໂດຍຜູ້ຂາຍໃນເວລາທີ່ວາງຄໍາສັ່ງ, ໃບເກັບເງິນສາມາດປ່ຽນແປງຫຼືເພີ່ມໃນລະຫວ່າງການບໍລິການ.",
     },
     "AGREEMENT": {
       "title": "ຂໍ້ຕົກລົງລາຄາ",
-      "message": "ລາຄາສຸດທ້າຍຂອງຜະລິດຕະພັນຫຼືການບໍລິການຈະບໍ່ມີການປ່ຽນແປງໂດຍຜູ້ຂາຍຫຼັງຈາກການສັ່ງຊື້ໄດ້ຖືກວາງໄວ້."
+      "message": "ລາຄາສຸດທ້າຍຂອງຜະລິດຕະພັນຫຼືການບໍລິການຈະບໍ່ມີການປ່ຽນແປງໂດຍຜູ້ຂາຍຫຼັງຈາກການສັ່ງຊື້ໄດ້ຖືກວາງໄວ້.",
     },
     "BID": {
       "title": "ປະມູນ/ປະມູນ",
-      "message": "ຜະລິດຕະພັນຈະຖືກຂາຍໃນລາຄາທີ່ສູງທີ່ສຸດໂດຍຜູ້ຊື້ທີ່ມີທ່າແຮງ."
-    }
+      "message": "ຜະລິດຕະພັນຈະຖືກຂາຍໃນລາຄາທີ່ສູງທີ່ສຸດໂດຍຜູ້ຊື້ທີ່ມີທ່າແຮງ.",
+    },
   },
   "map": {
     "title": "ຈຸດຫມາຍປາຍທາງທີ່ຈະໄດ້ຮັບຜະລິດຕະພັນ",
     "confirm": "ຕັ້ງສະຖານທີ່",
     "address": "ປາຍທາງ",
-    "receptor": "ຜູ້ຮັບ"
+    "receptor": "ຜູ້ຮັບ",
   },
   "ShopBots": {
-    "telegram": "ໂທລະເລກ"
+    "telegram": "ໂທລະເລກ",
   },
   "article_tags": {
     "title": "ແທັກເນື້ອຫາ",
     "tags_input": "ປ້າຍກຳກັບ",
     "tags_input_message": "Tags ບັນຊີລາຍຊື່ຂອງບົດຄວາມນີ້",
     "notification": {
-      "add_success": "ເພີ່ມແທັກແລ້ວ"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "ສັບສົນຫຼາຍ",
-    "hard": "ແຂງ",
-    "intermediate": "ລະດັບປານກາງ",
-    "easy": "ງ່າຍ"
-  },
-  "billing_period": {
-    "Daily": "ປະຈໍາວັນ",
-    "Weekly": "ອາທິດ",
-    "Monthly": "ປະຈໍາເດືອນ",
-    "Every3Months": "ທຸກໆ 3 ເດືອນ",
-    "Every6Months": "ທຸກໆ 6 ເດືອນ",
-    "Yearly": "ປະຈຳປີ"
+      "add_success": "ເພີ່ມແທັກແລ້ວ",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "ບໍ່ດີ!",
     "between2_3": "ບໍ່​ເປັນ​ຫຍັງ!",
     "between3_4": "ຄົນມັກ!",
-    "between4_5": "ຄົນຮັກມັນ!"
+    "between4_5": "ຄົນຮັກມັນ!",
   },
   "seasons": {
     "spring": "ພາກຮຽນ spring",
     "summer": "ລະດູຮ້ອນ",
     "autumn": "ດູໃບໄມ້ລົ່ນ",
-    "winter": "ລະ​ດູ​ຫນາວ"
-  }
+    "winter": "ລະ​ດູ​ຫນາວ",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Lin os termos de uso e a política de privacidade e estou de acordo con eles.",
   "commons": {
     "Currency": "Moeda",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Estado",
     "Price": "prezo",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Prezo neto",
     "tax": "Imposto",
     "tax_included": "Incluído no prezo",
+    "tax_included_abstract": "incl.",
     "limit": "Límite",
     "min_purchase": "Compra mínima",
     "eligible_for": "Apto para",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Data de creación",
     "updated_at": "Última actualización",
     "register_at": "Data de rexistro",
+    "last_modified": "Last modified",
     "old": "Vello",
     "new": "Novo",
     "start": "Comeza",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Revendedor",
     "tracking_code": "Código de seguimento",
     "tracking_url": "URL de seguimento",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Cumprimentos",
     "reject": "Rexeitar",
     "reserved": "Reservado",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Agardando...",
     "waiting_connecting_payment": "Agardando polo servizo de pago...",
     "creating_secure_payment": "Creando pago seguro.",
+    "waiting_for_payment": "Complete o pago...",
     "officer": "Oficial",
     "ticket": "Ticket",
     "ticket_url": "URL do billete",
@@ -361,7 +366,6 @@ export default {
     "rates": "Valoración",
     "seen_at": "Visto en",
     "completed": "Completado",
-    "you": "Ti",
     "shop": "Tenda",
     "store": "tenda",
     "granted": "Concedida",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Canle de adquisición",
+    "channels_overview": "Channels overview",
     "to": "Para",
     "info": "Información",
     "general": "Xeral",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Por produto",
     "journey": "Viaxe",
     "after": "Despois",
-    "waiting_for_payment": "Complete o pago...",
     "hour": "Hora",
     "minute": "Minuto",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Tendas",
     "vendor": "Vendedor",
     "vendors": "Vendedores",
+    "no_vendors": "No vendors",
     "marketplace": "Mercado",
     "verify_date": "Verifica a data",
     "note": "Nota",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variante",
     "secure": "Seguro",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Pago non liquidado!",
     "orders_list": "Lista de pedidos",
     "subscription_plan": "Plan de subscrición",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clústeres",
     "subscriptions": "Subscricións",
     "spam": "Correo non desexado",
-    "video": "Vídeo"
+    "video": "Vídeo",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Ti",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Moi complicado",
+    "hard": "Difícil",
+    "intermediate": "Intermediario",
+    "easy": "Fácil",
   },
   "dialogs": {
     "delete": {
       "title": "Eliminar",
       "message": "Estás seguro de eliminar este elemento?",
-      "action": "Si, eliminar agora"
-    }
+      "action": "Si, eliminar agora",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Engadir á cesta",
     "cancel": "Cancelar",
     "update": "Actualizar",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Engadir tarxeta de agasallo",
     "charge": "Cargar",
     "send_invites": "Enviar invitacións",
-    "past": "Pasado",
+    "paste": "Pegar",
     "restore": "Restaurar",
     "cut": "Corte",
     "get_sms_code": "Obter código de autenticación",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Mostrar vista previa",
     "hide_preview": "Ocultar vista previa",
     "download_now": "Descargar agora",
+    "watch_now": "Mira agora",
     "auto_fill": "Enchemento automático",
     "track": "Pista",
     "change_state": "Cambiar estado",
     "done": "Feito",
     "reply": "Responder",
-    "watch_now": "Mira agora",
     "unlock": "Desbloquear",
     "lock": "Botarlle o ferrollo",
     "create_clone": "Crear clon",
@@ -773,41 +931,71 @@ export default {
     "buy": "Mercar",
     "view_all": "Ver todo",
     "view_now": "Ver agora",
-    "paste": "Pegar"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Pasado",
+  },
+  "billing_period": {
+    "Daily": "Diariamente",
+    "Weekly": "Semanalmente",
+    "Monthly": "Mensuais",
+    "Every3Months": "Cada 3 meses",
+    "Every6Months": "Cada 6 meses",
+    "Yearly": "Anual",
   },
   "instance_message_title": "Enviar mensaxe instantánea",
   "instance_message": "Ola {name}: Chámome {author} de {company}.",
   "errors": {
     "419": "Estiveches inactivo durante moito tempo, por favor <b>⟳ ACTUALIZA A PÁXINA</b> por motivos de seguridade.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "O sistema non se sincroniza coa cadea de bloques. Non será posible crear unha nova transacción ata que se completen as sincronizacións dos nosos servidores. Estamos resolvendo o problema.",
-    "gateway_network_error": "O servizo de pasarela de pago atopou un problema de comunicación."
+    "gateway_network_error": "O servizo de pasarela de pago atopou un problema de comunicación.",
   },
   "receiver_info": {
     "map": {
       "title": "Dirección de envío",
       "confirm": "Establecer localización",
       "address_type": "Destino",
-      "receptor_type": "Receptor"
+      "receptor_type": "Receptor",
     },
     "receiver_address": "Seleccione o enderezo de envío",
+    "service_address": "Seleccione o seu enderezo",
+    "select_billing_address": "Select billing address",
     "address": "enderezo",
     "postcode": "Código postal",
     "enter_value": "Enche aquí",
     "address_note": "Nota",
     "tel": "Número de contacto",
-    "service_address": "Seleccione o seu enderezo"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gramo",
     "oz": "Onza",
     "lb": "Libra",
-    "kg": "quilogramo"
+    "kg": "quilogramo",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "pés",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centímetro",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Pé",
     "mm": "milímetro",
     "m": "metro",
-    "yd": "Iarda"
+    "yd": "Iarda",
   },
   "distance": {
     "m": "metro",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Días",
     "hours": "Horario",
     "minutes": "Minutos",
-    "seconds": "Segundos"
+    "seconds": "Segundos",
   },
   "units": [
     "Unidade",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Estado",
     "Territory": "Territorio",
-    "Province": "Provincia"
+    "Province": "Provincia",
   },
   "transaction_status": {
     "RequireAction": "Acción necesaria",
     "Processing": "Procesamento",
     "Canceled": "Cancelado",
-    "Succeeded": "Conseguido"
+    "Succeeded": "Conseguido",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Seleccionar idioma...",
     "friend_email": "O correo electrónico do teu amigo...",
     "friend_name": "Opt. O nome do teu amigo",
-    "select_date": "Selecciona unha data..."
+    "select_date": "Selecciona unha data...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Confirmar",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "{maxCount} caracteres como máximo",
     "invalid_url": "URL non válido",
     "country_invalid": "Seleccione o país de destino!",
-    "postal_code_invalid": "Establece un código postal válido!"
+    "postal_code_invalid": "Establece un código postal válido!",
   },
   "colors": {
     "#D32F2F": "vermello",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unidade",
     "postcode": "Código postal",
     "note": "Nota",
-    "county": "Condado"
+    "county": "Condado",
   },
   "product_types": {
     "physical": "Físico",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Servizo",
     "service_description": "Servizos como: reparación, transporte, docencia.",
     "subscription": "Subscrición",
-    "subscription_description": "Subscricións e facturación de produtos, servizos ou contidos."
+    "subscription_description": "Subscricións e facturación de produtos, servizos ou contidos.",
   },
   "license": {
     "free": "Libre",
     "startup": "Posta en marcha",
     "company": "Compañía",
-    "enterprise": "Empresa"
+    "enterprise": "Empresa",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Cor",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Conta en paquete",
     "weight": "Peso",
     "type": "Material",
-    "style": "Estilo"
+    "style": "Estilo",
   },
   "delivery_state": {
     "check_queue": "Agardando revisión",
     "order_confirm": "Confirmación do pedido",
     "preparing_order": "Preparando",
     "sent_order": "Na entrega",
-    "to_customer": "Entregado"
+    "to_customer": "Entregado",
   },
   "status": {
     "unpaid": "Sen pago",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Rexeitar",
     "pending": "Pendente",
     "rejected": "Rexeitado",
-    "accepted": "Aceptado"
+    "accepted": "Aceptado",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Moto",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Transporte global",
     "global_description": "Envíos ao exterior por vía aérea, marítima ou terrestre.",
     "pickup": "Recoller",
-    "pickup_description": "Os clientes recollen os artigos na súa tenda física ou almacén."
+    "pickup_description": "Os clientes recollen os artigos na súa tenda física ou almacén.",
   },
   "article": {
     "login_to_see_error": "Inicia sesión para acceder ao artigo",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Modo de edición",
       "view_mode": "Modo de visualización",
-      "delete": "Eliminar artigo"
+      "delete": "Eliminar artigo",
     },
     "schedule_action": "Queres programar a publicación?",
     "schedule_title": "Programar a publicación automática",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Informa dun abuso e elimina contido",
       "report_title": "Denuncia este contido como abusivo",
       "message": "Cal é o motivo para enviar este contido? Escolla unha das seguintes opcións.",
-      "accept_and_delete_action": "Confirmar e eliminar contido"
+      "accept_and_delete_action": "Confirmar e eliminar contido",
     },
     "schedule_dialog": {
       "title": "Horario de publicación de contidos",
       "publish_at": "Publicar en",
       "last_edit": "Última edición",
-      "view_action": "Ver artigo"
+      "view_action": "Ver artigo",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Enviar información",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Informar e eliminar",
       "report_and_delete_success_message": "O artigo eliminouse correctamente.",
       "report_success_title": "Informe artigo",
-      "report_success_message": "O teu informe sobre este artigo foi publicado."
+      "report_success_message": "O teu informe sobre este artigo foi publicado.",
     },
     "alert": {
       "delete_article": {
         "title": "Eliminar artigo",
         "message": "Estás seguro de que queres eliminar permanentemente este artigo?",
-        "action": "Eliminar"
-      }
+        "action": "Eliminar",
+      },
     },
     "edit_window": {
       "title": "Seleccione Texto da imaxe e Resumo",
-      "digest": "Resumo"
+      "digest": "Resumo",
     },
     "editor": {
       "title_placeholder": "Título..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Este ficheiro é demasiado grande:",
       "notifications": {
         "image_uploaded_success": "A imaxe gardouse correctamente",
-        "image_uploaded_failed": "Erro ao cargar a imaxe."
+        "image_uploaded_failed": "Erro ao cargar a imaxe.",
       },
       "embed_placeholder": "Introduza o código iframe, Facebook, Youtube ou calquera outro URL e prema Intro.",
       "embed_caption_placeholder": "Introduce un título (opcional)",
-      "images_caption_placeholder": "Introduce un título para esta imaxe.."
-    }
+      "images_caption_placeholder": "Introduce un título para esta imaxe..",
+    },
   },
   "article_report": {
     "inappropriate": "O contido deste artigo é inadecuado.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Creo que este contido contén pornografía e infrinxe as leis.",
     "harassment": "Creo que isto é racista.",
     "hate": "Creo que se trata de promover a violencia.",
-    "infringe": "Isto viola os meus dereitos."
+    "infringe": "Isto viola os meus dereitos.",
   },
   "comments": {
     "new_action": "Fai clic para deixar un comentario..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Recibe máis comentarios..",
     "cant_send_comment": "Non podes engadir unha nova publicación.",
     "cant_remove_this_comment": "Non podes eliminar este comentario!",
-    "product_buyer": "Comprador",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Os meus comentarios",
     "delete_alert": {
       "title": "Eliminar comentario",
       "message": "Queres eliminar este comentario?",
-      "action": "Eliminar"
+      "action": "Eliminar",
     },
     "notifications": {
-      "delete_success": "O teu comentario eliminouse correctamente."
+      "delete_success": "O teu comentario eliminouse correctamente.",
     },
     "first_send": "Primeira publicación",
     "comment_at": "Activado",
     "edit_comment": "Editar comentario",
-    "my_comments": "Os meus comentarios"
+    "product_buyer": "Comprador",
   },
   "customer_club": {
     "bronze": "Bronce",
     "silver": "Prata",
     "gold": "dourado",
     "platinum": "Platino",
-    "diamond": "Diamante"
+    "diamond": "Diamante",
   },
   "application_categories": {
     "tracking": "Comprobación do comportamento do usuario",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Publicidade",
     "staff": "Persoal",
     "incentive": "Incentivos",
-    "shop": "Tenda"
+    "shop": "Tenda",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Engadir novo elemento",
     "title_input": "Título",
+    "placeholder_input": "Marcador de posición",
     "name_input": "Nome da variable",
     "value_input": "Valores",
     "value_input_message": "Lista de opcións de usuario",
     "default": "Valor predeterminado",
+    "file_type_input": "Tipos de ficheiros aceptables",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Simple",
       "selective": "Selectivo",
       "switch": "Cambiar",
       "file": "Arquivo",
-      "number": "Número"
+      "number": "Número",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Marcador de posición",
-    "file_type_input": "Tipos de ficheiros aceptables",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "Nome do produto",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Estado do pago",
     "payment_status_waiting": "Agardando o pago",
     "payment_status_paid": "Pagado",
-    "buyer": "Comprador"
+    "buyer": "Comprador",
   },
   "virtual_item_info": {
     "title": "Elemento virtual",
     "outputs": {
       "title": "Información de saída",
       "sub_title": "Información confidencial deste elemento",
-      "message": "Esta información mostrarase ao usuario despois de comprar o produto."
+      "message": "Esta información mostrarase ao usuario despois de comprar o produto.",
     },
     "inputs": {
       "title": "Información requerida",
       "sub_title": "Requírese información do comprador",
-      "message": "O comprador debe introducir a información solicitada no formulario"
+      "message": "O comprador debe introducir a información solicitada no formulario",
     },
     "notifications": {
       "inputs_set_success": "Formulario de información rexistrado correctamente.",
       "confirm_by_admin_success": "Confirmouse a finalización do pedido.",
-      "confirm_by_buyer_success": "Confirmouse a finalización do pedido."
-    }
+      "confirm_by_buyer_success": "Confirmouse a finalización do pedido.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Este pedido non pode ser aceptado polo pago contra reembolso.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Esgotado.",
     "legal_restriction": "Non se pode facer un pedido debido a restricións legais.",
     "pricing_fault": "Erro de prezo por parte do vendedor.",
-    "system_fault": "Erro do sistema."
+    "system_fault": "Erro do sistema.",
   },
   "basket_order_info_summery": {
     "receiver": "Receptor",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Desconto",
     "final_price": "Importe final",
     "address": "Enderezo de entrega",
-    "payment_status": "Estado do pago"
+    "payment_status": "Estado do pago",
   },
   "basket_status": {
     "open": "Aberto",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Cancelado",
     "cod": "Pago contra entrega",
     "receipt_added": "Engadiuse o recibo",
-    "payment_processing": "Procesamento do pago"
+    "payment_processing": "Procesamento do pago",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Rexeitado",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Confirmación",
     "step_3": "Preparación",
     "step_4": "Na entrega",
-    "step_5": "Entregado"
+    "step_5": "Entregado",
   },
   "basket_return_request_view": {
     "title": "Solicitude de devolución",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Rexeitar a solicitude",
     "message_for_admin": "Segundo o acordo que aceptaches mediante o uso de Selldone, debes contactar co comprador e mantelo informado do proceso de devolución do seu pedido. Isto debe facerse se a solicitude é aceptada ou rexeitada e se obtén o consentimento total do comprador.",
     "notifications": {
-      "update_status_success": "Actualizouse o estado da solicitude."
-    }
+      "update_status_success": "Actualizouse o estado da solicitude.",
+    },
   },
   "basket_list": {
     "return_count": "Devolver: {count} número",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variante",
       "warranty": "Garantías",
       "count": "Conta",
-      "price": "prezo"
-    }
+      "price": "prezo",
+    },
   },
   "return_request_list": {
     "count": "Número de referencia",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Data de recepción",
       "state": "Estado",
       "reason": "Razón",
-      "return_warranty_period": "Período de garantía"
-    }
+      "return_warranty_period": "Período de garantía",
+    },
   },
   "data_toolbar": {
     "search": "Busca",
     "sort_by": "Ordenar por",
-    "count_item": "Mostrar {item} elementos"
+    "count_item": "Mostrar {item} elementos",
   },
   "sort": {
     "created_at": "Crear data",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Oficial",
     "registered": "Rexistrado",
     "purchased": "Comprado",
-    "sex": "Xénero"
+    "sex": "Xénero",
   },
   "search_box": {
     "result": "Resultados da busca",
     "tips": "Busca produtos e categorías",
     "label": "Busca...",
-    "category": "Categoría"
+    "category": "Categoría",
   },
   "lead_status": {
     "physical_fast_delivery": "Entrega instantánea",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Preparando e enviando a partir dos próximos {days} días",
     "virtual_fast_prepare": "Entrega instantánea",
     "virtual_under_24h": "Farase nas próximas {lead} horas",
-    "virtual_over_24h": "Farase a partir dos próximos {days} días"
+    "virtual_over_24h": "Farase a partir dos próximos {days} días",
   },
   "return_request_state": {
     "pending": "Pendente",
     "accepted": "Confirmado",
-    "rejected": "Rexeitado"
+    "rejected": "Rexeitado",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Manipulación do número de paquete ou de serie",
       "U5": "Faltan algúns elementos do paquete",
       "U6": "O produto non é orixinal",
-      "U7": "O produto non cumpre as especificacións"
-    }
+      "U7": "O produto non cumpre as especificacións",
+    },
   },
   "image_uploader": {
     "label": "Arrastra e solta ou <u>Selecciona un ficheiro</u>",
-    "max_size": "Tamaño máximo permitido: {size}"
+    "max_size": "Tamaño máximo permitido: {size}",
   },
   "timespan": {
     "Morning": "8h - 12h",
     "Evening": "12.00 a 18.00 h",
     "Night": "6 pm-12 pm",
-    "Instant": "Publicación instantánea"
+    "Instant": "Publicación instantánea",
   },
   "week_day": {
     "Saturday": "sábado",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "martes",
     "Wednesday": "mércores",
     "Thursday": "xoves",
-    "Friday": "venres"
+    "Friday": "venres",
   },
   "payment_form": {
     "title": "Seleccione Método de pago",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Parabéns, o teu pedido é gratuíto!",
     "order_free_payment_action": "Orde gratuíto agora",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Enderezo de pago",
-      "amount": "Cantidade"
-    }
+      "amount": "Cantidade",
+    },
   },
   "discount_input": {
     "limit": "{percent} % de desconto ata {limit} {currency}",
     "action": "Engadir código de desconto",
     "code_input": "Código de desconto",
     "notifications": {
-      "add_success": "Parabéns, código de desconto válido."
-    }
+      "add_success": "Parabéns, código de desconto válido.",
+    },
   },
   "gift_card": {
     "inactive": "A tarxeta está desactivada",
     "expire": "Caducidade",
     "transfer": "Transferencia",
-    "send_to_friend": "Enviar a un amigo"
+    "send_to_friend": "Enviar a un amigo",
   },
   "count_down": {
     "days": "Día",
     "hours": "Hora",
     "minutes": "Minutos",
-    "seconds": "Segundos"
+    "seconds": "Segundos",
   },
   "gift_status": {
     "Unpaid": "agardando o recibo",
     "Paid": "Pagado",
     "Rejected": "Rexeitado",
-    "Canceled": "Cancelado"
+    "Canceled": "Cancelado",
   },
   "gift_program_status": {
     "Airdrop": "Sistema de pago",
     "Advertising": "Publicidade",
     "PersonalGift": "Agasallo persoal",
-    "ShopGift": "Tenda de agasallos"
+    "ShopGift": "Tenda de agasallos",
   },
   "currency_selector": {
-    "label": "Moeda"
+    "label": "Moeda",
   },
   "need_login": {
     "title": "acceder",
     "login_sms": "Inicio de sesión SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Inicia sesión con Google",
     "login_facebook": "Inicia sesión con Facebook",
+    "login_apple": "Inicia sesión con Apple",
     "login_account": "Iniciar sesión por Selldone",
     "register": "Novo usuario? Rexistrarse agora.",
     "mobile_input": "Introduce o teu móbil",
     "verification_code": "Código de verificación",
     "msg_title": "Ola,",
     "msg_body": "Inicia sesión. Leva só uns segundos.",
-    "login_apple": "Inicia sesión con Apple",
     "login_email": "Iniciar sesión por correo electrónico",
     "email_login_step_1": "Proporcione un enderezo de correo electrónico válido e enviarémoslle o código de inicio de sesión. Non é necesario rexistro.",
     "email_login_step_2": "Estás seguro de que introduciches o teu enderezo de correo electrónico correctamente? Enviaremos o código de inicio de sesión ao correo electrónico proporcionado, polo que asegúrese de que sexa exacto.",
-    "email_login_step_3": "Enviamos un código ao teu correo electrónico. Ten en conta que o código caducará en 10 minutos."
+    "email_login_step_3": "Enviamos un código ao teu correo electrónico. Ten en conta que o código caducará en 10 minutos.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Tenda de Ouro 5 anos"
+      "name": "Tenda de Ouro 5 anos",
     },
     "GOLDEN_2YEAR": {
-      "name": "Tenda de Ouro de 4 anos"
+      "name": "Tenda de Ouro de 4 anos",
     },
     "GOLDEN_3YEAR": {
-      "name": "Tenda de ouro de 3 anos"
+      "name": "Tenda de ouro de 3 anos",
     },
     "GOLDEN_4YEAR": {
-      "name": "Tenda de ouro 2 anos"
+      "name": "Tenda de ouro 2 anos",
     },
     "GOLDEN_5YEAR": {
-      "name": "Tenda de ouro 1 ano"
+      "name": "Tenda de ouro 1 ano",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Investidor de Ouro"
+      "name": "Investidor de Ouro",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Investidor Diamante"
+      "name": "Investidor Diamante",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Investidor Ruby"
+      "name": "Investidor Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Membro da Comunidade Superior de Redes de Comunicación"
+      "name": "Membro da Comunidade Superior de Redes de Comunicación",
     },
     "GOLD_SUPPLIER": {
-      "name": "Provedor de ouro"
+      "name": "Provedor de ouro",
     },
     "GOLD_SELLER": {
-      "name": "Distribuidor de ouro"
+      "name": "Distribuidor de ouro",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Principal produtor de contidos"
+      "name": "Principal produtor de contidos",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Estrela"
+      "name": "Estrela",
     },
     "GUARDIAN": {
-      "name": "Gran atención ao cliente"
+      "name": "Gran atención ao cliente",
     },
     "KING": {
-      "name": "Rei do Mercado"
-    }
+      "name": "Rei do Mercado",
+    },
   },
   "cookie": {
     "title": "Este sitio web usa cookies",
     "message": "Este sitio web utiliza cookies para mellorar a experiencia do usuario. Ao usar o noso sitio web, acepta todas as cookies de acordo coa nosa Política de cookies.",
     "preferences_action": "Xestionar as preferencias",
-    "agree_action": "Estou de acordo"
+    "agree_action": "Estou de acordo",
   },
   "basket_item_message": {
     "title": "Información obrigatoria para este elemento",
     "save_actions": "Gardar mensaxe",
+    "product_inputs_preview_message": "Estas opcións de personalización están dispoñibles para o produto solicitado. Unha vez que se engade o artigo ao carro, poderás facer axustes aquí.",
     "notifications": {
-      "success": "Os teus datos de entrada gardáronse."
+      "success": "Os teus datos de entrada gardáronse.",
     },
-    "product_inputs_preview_message": "Estas opcións de personalización están dispoñibles para o produto solicitado. Unha vez que se engade o artigo ao carro, poderás facer axustes aquí."
   },
   "faq": {
     "faq": "Preguntas máis frecuentes",
     "title": "Preguntas e Respostas",
-    "sub_title": "O que nos pediches.",
     "message": "Busca a resposta á túa pregunta entre as seguintes respostas. Pregúntanos se quedan preguntas sen resposta.",
     "add_question_action": "Facer unha nova pregunta",
     "read_more": "Le máis ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Pregunta",
     "question_input_placeholder": "Fai a túa pregunta.",
     "notifications": {
-      "success_add": "A túa pregunta enviouse correctamente."
-    }
+      "success_add": "A túa pregunta enviouse correctamente.",
+    },
+    "sub_title": "O que nos pediches.",
   },
   "rating_labels": [
     "Moi malo",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Introduza o enderezo de destino",
     "enter_your_address": "Introduce o teu enderezo.",
     "postal_code": "Código postal",
-    "phone_input": "Teléfono {type}",
+    "phone_input": "Teléfono",
     "building_number": "Número de edificio",
     "building_unit": "Unidade",
     "full_name_input": "Nome completo {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Etiqueta de enderezo (obrigatorio)",
     "notifications": {
       "save_in_list": "Este enderezo gardouse na túa lista con todos os seus detalles.",
-      "edit_success": "Novos valores de enderezo gardados en {title}."
+      "edit_success": "Novos valores de enderezo gardados en {title}.",
     },
     "delete_address_dialog": {
       "title": "Eliminar enderezo",
       "message": "Estás seguro de que queres eliminar este enderezo?",
-      "action": "Eliminar enderezo"
-    }
+      "action": "Eliminar enderezo",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Non se pode editar este comentario!",
     "comment_input_empty": "O texto da mensaxe está en branco!",
-    "article_not_saved": "Garda o artigo!"
+    "article_not_saved": "Garda o artigo!",
   },
   "wheel_fortune": {
     "title": "Xoga e gaña",
     "message": "O custo de cada xogo é de 10 fichas. Actualmente tes {chips} chip. Consigue máis chip comprando na tenda.",
     "win_message": "Parabéns, gañas!",
     "lost_message": "Sentímolo, perdeches o xogo.",
-    "try_again": "Podes tentalo de novo"
+    "try_again": "Podes tentalo de novo",
   },
   "json": {
     "add": "Engadir datos de estrutura",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Estruturas",
     "book": {
       "title": "Libro",
-      "desc": "Accións de libros que permiten aos usuarios mercar o libro que atopan directamente nos resultados da busca."
+      "desc": "Accións de libros que permiten aos usuarios mercar o libro que atopan directamente nos resultados da busca.",
     },
     "occupation": {
       "title": "Salario estimado",
-      "desc": "A información sobre a estimación salarial, como os rangos salariais e as medias salariais por rexións para os tipos de traballo, móstrase na experiencia de busca de emprego en Google."
+      "desc": "A información sobre a estimación salarial, como os rangos salariais e as medias salariais por rexións para os tipos de traballo, móstrase na experiencia de busca de emprego en Google.",
     },
     "course": {
       "title": "Curso",
-      "desc": "Cursos educativos que aparecen nunha lista específica do provedor. Os cursos poden incluír o título do curso, o provedor e unha breve descrición."
+      "desc": "Cursos educativos que aparecen nunha lista específica do provedor. Os cursos poden incluír o título do curso, o provedor e unha breve descrición.",
     },
     "howto": {
       "title": "Como",
-      "desc": "Un Manual guía aos usuarios a través dun conxunto de pasos para completar con éxito unha tarefa, que inclúe vídeo, imaxes e texto."
+      "desc": "Un Manual guía aos usuarios a través dun conxunto de pasos para completar con éxito unha tarefa, que inclúe vídeo, imaxes e texto.",
     },
     "recipe": {
       "title": "Receita",
-      "desc": "Receitas que se mostran como un resultado enriquecido individual ou parte dun carrusel de host."
-    }
+      "desc": "Receitas que se mostran como un resultado enriquecido individual ou parte dun carrusel de host.",
+    },
   },
   "support": {
     "Financial": "Financeiro",
     "Technical": "Técnico",
-    "Advisor": "Conselleiro"
+    "Advisor": "Conselleiro",
   },
   "condition": {
     "new": "Novo",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Usado",
     "used_fair": "Feira de usados",
     "used_good": "Usado ben",
-    "used_like_new": "Usado como novo"
+    "used_like_new": "Usado como novo",
   },
   "variant_filter": {
     "title": "Filtro de variantes do produto",
-    "only_available": "En stock"
+    "only_available": "En stock",
   },
   "service": {
     "task": {
       "title": "Tarefas",
-      "message": "Relación de tarefas realizadas neste servizo."
+      "message": "Relación de tarefas realizadas neste servizo.",
     },
     "appointment": {
       "title": "Cita",
-      "message": "Escolle os horarios da semana entre os seguintes horarios en función do día e da hora que che convén."
+      "message": "Escolle os horarios da semana entre os seguintes horarios en función do día e da hora que che convén.",
     },
     "booking": {
       "title": "Reserva",
-      "message": "Especifique o período de tempo dos días nos que quere facer unha reserva no calendario a continuación."
+      "message": "Especifique o período de tempo dos días nos que quere facer unha reserva no calendario a continuación.",
     },
     "subscription": {
-      "title": "Subscrición"
+      "title": "Subscrición",
     },
     "charge": {
-      "title": "Cargar"
-    }
+      "title": "Cargar",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Prezo fixo",
-      "message": "Neste tipo de prezos, o prezo do produto é unha cantidade fixa e non é necesario que o comprador solicite un cálculo do prezo."
+      "message": "Neste tipo de prezos, o prezo do produto é unha cantidade fixa e non é necesario que o comprador solicite un cálculo do prezo.",
     },
     "ESTIMATION": {
       "title": "Estimación de prezos",
-      "message": "O prezo dos produtos e servizos será calculado en certa medida polo vendedor ao realizar un pedido, as facturas de pago pódense modificar ou engadir durante o servizo."
+      "message": "O prezo dos produtos e servizos será calculado en certa medida polo vendedor ao realizar un pedido, as facturas de pago pódense modificar ou engadir durante o servizo.",
     },
     "AGREEMENT": {
       "title": "Prezos do convenio",
-      "message": "O prezo final dos produtos ou servizos non será modificado polo vendedor unha vez realizado o pedido."
+      "message": "O prezo final dos produtos ou servizos non será modificado polo vendedor unha vez realizado o pedido.",
     },
     "BID": {
       "title": "Licita / Poxa",
-      "message": "Os potenciais compradores venderán o produto ao prezo de oferta máis alto."
-    }
+      "message": "Os potenciais compradores venderán o produto ao prezo de oferta máis alto.",
+    },
   },
   "map": {
     "title": "Destino para recibir produtos",
     "confirm": "Establecer localización",
     "address": "Destino",
-    "receptor": "Receptor"
+    "receptor": "Receptor",
   },
   "ShopBots": {
-    "telegram": "Telegrama"
+    "telegram": "Telegrama",
   },
   "article_tags": {
     "title": "Etiquetas de contido",
     "tags_input": "Etiquetas",
     "tags_input_message": "Etiquetas Lista deste artigo",
     "notification": {
-      "add_success": "Etiquetas engadidas"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Moi complicado",
-    "hard": "Difícil",
-    "intermediate": "Intermediario",
-    "easy": "Fácil"
-  },
-  "billing_period": {
-    "Daily": "Diariamente",
-    "Weekly": "Semanalmente",
-    "Monthly": "Mensuais",
-    "Every3Months": "Cada 3 meses",
-    "Every6Months": "Cada 6 meses",
-    "Yearly": "Anual"
+      "add_success": "Etiquetas engadidas",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Ai non bo!",
     "between2_3": "Está ben!",
     "between3_4": "Á xente gústalle!",
-    "between4_5": "Á xente encántalle!"
+    "between4_5": "Á xente encántalle!",
   },
   "seasons": {
     "spring": "Primavera",
     "summer": "Verán",
     "autumn": "Outono",
-    "winter": "Inverno"
-  }
+    "winter": "Inverno",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

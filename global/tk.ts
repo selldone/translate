@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ulanyş şertlerini we gizlinlik ýörelgelerini okadym we olar bilen ylalaşýaryn.",
   "commons": {
     "Currency": "Walýuta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Döwlet",
     "Price": "bahasy",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Arassa bahasy",
     "tax": "Salgyt",
     "tax_included": "Bahasyna goşulýar",
+    "tax_included_abstract": "goş.",
     "limit": "Çäk",
     "min_purchase": "Iň az satyn almak",
     "eligible_for": "Girip biler",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Döredilen senesi",
     "updated_at": "Soňky täzelenme",
     "register_at": "Hasaba alyş senesi",
+    "last_modified": "Last modified",
     "old": "Köne",
     "new": "Täze",
     "start": "Başla",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Satyjy",
     "tracking_code": "Gözleg kody",
     "tracking_url": "Gözleg URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Düzedişler",
     "reject": "Ret et",
     "reserved": "Goragly",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Garaşýan ...",
     "waiting_connecting_payment": "Töleg hyzmatyna garaşmak ...",
     "creating_secure_payment": "Ygtybarly töleg döretmek.",
+    "waiting_for_payment": "Tölegiňizi tamamlaň ...",
     "officer": "Ofiser",
     "ticket": "Bilet",
     "ticket_url": "Bilet url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Reýting",
     "seen_at": "Gördüň",
     "completed": "Tamamlandy",
-    "you": "Sen",
     "shop": "Dükan",
     "store": "dükan",
     "granted": "Elbetde",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Planşet",
     "pc": "PC",
     "acquisition_channel": "Satyn almak kanaly",
+    "channels_overview": "Channels overview",
     "to": "To",
     "info": "Maglumat",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Her önüm üçin",
     "journey": "Syýahat",
     "after": "Soň",
-    "waiting_for_payment": "Tölegiňizi tamamlaň ...",
     "hour": "Sagat",
     "minute": "Minut",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Dükanlar",
     "vendor": "Satyjy",
     "vendors": "Satyjylar",
+    "no_vendors": "No vendors",
     "marketplace": "Bazar",
     "verify_date": "Sene barlaň",
     "note": "Bellik",
@@ -604,7 +609,6 @@ export default {
     "variant": "Wariant",
     "secure": "Howpsuz",
     "admin": "Admin",
-    "tax_included_abstract": "goş.",
     "payment_not_settled": "Töleg çözülmedi!",
     "orders_list": "Sargytlaryň sanawy",
     "subscription_plan": "Abunalyk meýilnamasy",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Klasterler",
     "subscriptions": "Abuna ýazylmak",
     "spam": "Spam",
-    "video": "Wideo"
+    "video": "Wideo",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Sen",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Örän çylşyrymly",
+    "hard": "Gaty",
+    "intermediate": "Aralyk",
+    "easy": "Aňsat",
   },
   "dialogs": {
     "delete": {
       "title": "Öçür",
       "message": "Bu elementi pozjakdygyňyzy anyk bilýärsiňizmi?",
-      "action": "Hawa, ýok et"
-    }
+      "action": "Hawa, ýok et",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Sebete goşuň",
     "cancel": "Elatyr",
     "update": "Täzelen",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Sowgat kartyny goşuň",
     "charge": "Zarýad",
     "send_invites": "Çakylyk iberiň",
-    "past": "Geçmiş",
+    "paste": "Goýuň",
     "restore": "Dikelt",
     "cut": "Kesiň",
     "get_sms_code": "Hakyky tanamak kody alyň",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Deslapky syn görkez",
     "hide_preview": "Öňünden görüşi gizläň",
     "download_now": "Hazir indir",
+    "watch_now": "Indi serediň",
     "auto_fill": "Awtomatiki usulda doldurmak",
     "track": "Yzarla",
     "change_state": "Statusyny üýtgetmek",
     "done": "Boldy",
     "reply": "Jogap ber",
-    "watch_now": "Indi serediň",
     "unlock": "Gulpy aç",
     "lock": "Gulp",
     "create_clone": "Klon dörediň",
@@ -773,41 +931,71 @@ export default {
     "buy": "Satyn alyň",
     "view_all": "Hemmesini gormek",
     "view_now": "Indi gör",
-    "paste": "Goýuň"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Geçmiş",
+  },
+  "billing_period": {
+    "Daily": "Her gün",
+    "Weekly": "Hepdelik",
+    "Monthly": "Aýlyk",
+    "Every3Months": "Her 3 aýdan",
+    "Every6Months": "Her 6 aýdan",
+    "Yearly": "Lyyllyk",
   },
   "instance_message_title": "Derrew habar iber",
   "instance_message": "Salam {name}, Meniň adym {author} -dan {company}.",
   "errors": {
     "419": "Uzak wagt bäri hereketsiz bolmagyňyzy haýyş edýäris <b>security Howpsuzlyk sebäpli SAHYPA GÖRÜ</b> ..",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Ulgam blokirleme bilen sinhronlaşmaýar. Serwerlerimiziň sinhronizasiýasy gutarýança täze bir amal döretmek mümkin bolmaz. Meseläni çözýäris.",
-    "gateway_network_error": "Töleg şlýuz hyzmaty aragatnaşyk meselesine duş geldi."
+    "gateway_network_error": "Töleg şlýuz hyzmaty aragatnaşyk meselesine duş geldi.",
   },
   "receiver_info": {
     "map": {
       "title": "Iberilýän salgy",
       "confirm": "Locationer kesgitläň",
       "address_type": "Niýetlenen ýer",
-      "receptor_type": "Alyjy"
+      "receptor_type": "Alyjy",
     },
     "receiver_address": "Ibermek salgysyny saýlaň",
+    "service_address": "Salgyňyzy saýlaň",
+    "select_billing_address": "Select billing address",
     "address": "salgysy",
     "postcode": "Poçta kody",
     "enter_value": "Şu ýere dolduryň",
     "address_note": "Bellik",
     "tel": "Habarlaşmak üçin belgisi",
-    "service_address": "Salgyňyzy saýlaň"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "f",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ounce",
     "lb": "Funt",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "sm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "ýd"
+    "yd": "ýd",
   },
   "size_unit_name": {
     "cm": "Santimetr",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Aýak",
     "mm": "millimetr",
     "m": "metr",
-    "yd": "Howly"
+    "yd": "Howly",
   },
   "distance": {
     "m": "metr",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Günler",
     "hours": "Sagatlar",
     "minutes": "Minutlar",
-    "seconds": "Sekunt"
+    "seconds": "Sekunt",
   },
   "units": [
     "Bölüm",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Döwlet",
     "Territory": "Territory",
-    "Province": "Welaýat"
+    "Province": "Welaýat",
   },
   "transaction_status": {
     "RequireAction": "Hereket gerek",
     "Processing": "Gaýtadan işlemek",
     "Canceled": "Atyryldy",
-    "Succeeded": "Üstünlik"
+    "Succeeded": "Üstünlik",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Koks",
@@ -885,7 +1078,17 @@ export default {
     "language": "Dil saýlaň ..",
     "friend_email": "Dostuňyzyň e-poçta ...",
     "friend_name": "Opt. Dostuňyzyň ady",
-    "select_date": "Sene saýlaň ..."
+    "select_date": "Sene saýlaň ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Tassykla",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maks {maxCount} nyşanlary",
     "invalid_url": "Nädogry URL",
     "country_invalid": "Barjak ýurduňyzy saýlaň!",
-    "postal_code_invalid": "Dogry poçta koduny düzüň!"
+    "postal_code_invalid": "Dogry poçta koduny düzüň!",
   },
   "colors": {
     "#D32F2F": "Gyzyl",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Bölüm",
     "postcode": "Poçta kody",
     "note": "Bellik",
-    "county": "Welaýat"
+    "county": "Welaýat",
   },
   "product_types": {
     "physical": "Fiziki",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Hyzmat",
     "service_description": "Servicesaly hyzmatlar: abatlamak, daşamak, okatmak.",
     "subscription": "Abuna ýazylmak",
-    "subscription_description": "Önümler, hyzmatlar ýa-da mazmun üçin abunalyk we hasap-faktura."
+    "subscription_description": "Önümler, hyzmatlar ýa-da mazmun üçin abunalyk we hasap-faktura.",
   },
   "license": {
     "free": "Mugt",
     "startup": "Başlangyç",
     "company": "Kompaniýa",
-    "enterprise": "Kärhana"
+    "enterprise": "Kärhana",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Reňk",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Paketde hasaplaň",
     "weight": "Agramy",
     "type": "Material",
-    "style": "Stil"
+    "style": "Stil",
   },
   "delivery_state": {
     "check_queue": "Syn garaşýar",
     "order_confirm": "Sargyt tassyklamasy",
     "preparing_order": "Taýýarlyk",
     "sent_order": "Getirilende",
-    "to_customer": "Gowşuryldy"
+    "to_customer": "Gowşuryldy",
   },
   "status": {
     "unpaid": "Tölenmedik",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Ret et",
     "pending": "Garaşylýar",
     "rejected": "Ret edildi",
-    "accepted": "Kabul edildi"
+    "accepted": "Kabul edildi",
   },
   "dimensions": {
     "cm": "sm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motosikl",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Global transport",
     "global_description": "Howa, deňiz ýa-da gury ýer bilen daşary ýurda ibermek.",
     "pickup": "Pikap",
-    "pickup_description": "Müşderiler zatlary fiziki dükanyňyzda ýa-da ammaryňyzda alýarlar."
+    "pickup_description": "Müşderiler zatlary fiziki dükanyňyzda ýa-da ammaryňyzda alýarlar.",
   },
   "article": {
     "login_to_see_error": "Makala girmek üçin giriň",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Düzediş tertibi",
       "view_mode": "Re modeimi görmek",
-      "delete": "Makalany poz"
+      "delete": "Makalany poz",
     },
     "schedule_action": "Çap etmegi meýilleşdirmek isleýärsiňizmi?",
     "schedule_title": "Awto-neşir etmegiň tertibi",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Zalymlyk barada habar beriň we mazmuny aýyryň",
       "report_title": "Bu mazmuny kemsidiji diýip habar beriň",
       "message": "Bu mazmuny tabşyrmagyň sebäbi näme? Aşakdaky wariantlardan birini saýlaň.",
-      "accept_and_delete_action": "Mazmuny tassyklaň we pozuň"
+      "accept_and_delete_action": "Mazmuny tassyklaň we pozuň",
     },
     "schedule_dialog": {
       "title": "Mazmuny goýmagyň tertibi",
       "publish_at": "Neşir et",
       "last_edit": "Soňky redaktirleme",
-      "view_action": "Makalany gör"
+      "view_action": "Makalany gör",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Maglumat iberiň",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Hasabat ber we poz",
       "report_and_delete_success_message": "Makala üstünlikli öçürildi.",
       "report_success_title": "Makalany hasabat ber",
-      "report_success_message": "Bu makala baradaky hasabatyňyz ýerleşdirildi."
+      "report_success_message": "Bu makala baradaky hasabatyňyz ýerleşdirildi.",
     },
     "alert": {
       "delete_article": {
         "title": "Makalany poz",
         "message": "Bu makalany hemişelik ýok etmek isleýändigiňize ynanýarsyňyzmy?",
-        "action": "Öçür"
-      }
+        "action": "Öçür",
+      },
     },
     "edit_window": {
       "title": "Surat tekstini we gysgaça mazmuny saýlaň",
-      "digest": "Gysgaça mazmun"
+      "digest": "Gysgaça mazmun",
     },
     "editor": {
       "title_placeholder": "Ady ..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Bu faýl gaty uly:",
       "notifications": {
         "image_uploaded_success": "Surat üstünlikli saklandy",
-        "image_uploaded_failed": "Suraty ýüklemekde säwlik."
+        "image_uploaded_failed": "Suraty ýüklemekde säwlik.",
       },
       "embed_placeholder": "Iframe kody, Facebook, Youtube ýa-da başga bir URL giriziň we Enter basyň.",
       "embed_caption_placeholder": "Ady giriziň (islege görä)",
-      "images_caption_placeholder": "Bu surat üçin at ýazyň .."
-    }
+      "images_caption_placeholder": "Bu surat üçin at ýazyň ..",
+    },
   },
   "article_report": {
     "inappropriate": "Bu makalanyň mazmuny ýerliksiz.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Bu mazmunda pornografiýa bar we kanunlary bozýar diýip pikir edýärin.",
     "harassment": "Meniň pikirimçe, bu jynsparaz.",
     "hate": "Meniň pikirimçe, bu zorlugy wagyz etmek bilen baglanyşykly.",
-    "infringe": "Bu meniň hukuklarymy bozýar."
+    "infringe": "Bu meniň hukuklarymy bozýar.",
   },
   "comments": {
     "new_action": "Teswir ýazmak üçin basyň ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Has köp teswir alyň ..",
     "cant_send_comment": "Täze ýazgy goşup bilmersiňiz.",
     "cant_remove_this_comment": "Bu teswiri pozup bilmersiňiz!",
-    "product_buyer": "Alyjy",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Meniň teswirlerim",
     "delete_alert": {
       "title": "Teswirleri pozuň",
       "message": "Bu teswiri pozmak isleýärsiňizmi?",
-      "action": "Öçür"
+      "action": "Öçür",
     },
     "notifications": {
-      "delete_success": "Teswiriňiz üstünlikli öçürildi."
+      "delete_success": "Teswiriňiz üstünlikli öçürildi.",
     },
     "first_send": "Ilkinji ýazgy",
     "comment_at": "Işlediň",
     "edit_comment": "Teswirleri redaktirläň",
-    "my_comments": "Meniň teswirlerim"
+    "product_buyer": "Alyjy",
   },
   "customer_club": {
     "bronze": "Bürünç",
     "silver": "Kümüş",
     "gold": "Altyn",
     "platinum": "Platina",
-    "diamond": "Göwher"
+    "diamond": "Göwher",
   },
   "application_categories": {
     "tracking": "Ulanyjynyň özüni alyp barşyny barlamak",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Mahabat",
     "staff": "Işgärler",
     "incentive": "Höweslendiriş",
-    "shop": "Dükan"
+    "shop": "Dükan",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Täze element goşuň",
     "title_input": "Ady",
+    "placeholder_input": "Placeer eýesi",
     "name_input": "Üýtgeýjiniň ady",
     "value_input": "Gymmatlyklar",
     "value_input_message": "Ulanyjy opsiýalarynyň sanawy",
     "default": "Bellenen baha",
+    "file_type_input": "Kabul edilýän faýl görnüşleri",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Pleönekeý",
       "selective": "Saýlaw",
       "switch": "Geçmek",
       "file": "Faýl",
-      "number": "San"
+      "number": "San",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Placeer eýesi",
-    "file_type_input": "Kabul edilýän faýl görnüşleri",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Önümiň ady",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Töleg ýagdaýy",
     "payment_status_waiting": "Tölege garaşýarys",
     "payment_status_paid": "Tölegli",
-    "buyer": "Alyjy"
+    "buyer": "Alyjy",
   },
   "virtual_item_info": {
     "title": "Wirtual element",
     "outputs": {
       "title": "Çykyş maglumatlary",
       "sub_title": "Bu elementiň gizlin maglumatlary",
-      "message": "Bu maglumatlar önümi satyn alanyňyzdan soň ulanyja görkeziler."
+      "message": "Bu maglumatlar önümi satyn alanyňyzdan soň ulanyja görkeziler.",
     },
     "inputs": {
       "title": "Maglumat gerek",
       "sub_title": "Alyjy barada maglumat gerek",
-      "message": "Satyn alyjy talap edilýän maglumatlary blankada girizmeli"
+      "message": "Satyn alyjy talap edilýän maglumatlary blankada girizmeli",
     },
     "notifications": {
       "inputs_set_success": "Maglumat formasy üstünlikli hasaba alyndy.",
       "confirm_by_admin_success": "Sargyt tamamlandy",
-      "confirm_by_buyer_success": "Sargyt tamamlandy"
-    }
+      "confirm_by_buyer_success": "Sargyt tamamlandy",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Bu buýrugy COD tölegi bilen kabul edip bolmaz.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Elýeterli däl.",
     "legal_restriction": "Kanuny çäklendirmeler sebäpli sargyt goýup bolmaýar.",
     "pricing_fault": "Satyjy tarapyndan baha ýalňyşlygy.",
-    "system_fault": "Ulgam näsazlygy."
+    "system_fault": "Ulgam näsazlygy.",
   },
   "basket_order_info_summery": {
     "receiver": "Alyjy",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Arzanladyş",
     "final_price": "Jemleýji mukdar",
     "address": "Eltip berme adresi",
-    "payment_status": "Töleg ýagdaýy"
+    "payment_status": "Töleg ýagdaýy",
   },
   "basket_status": {
     "open": "Açyň",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Atyryldy",
     "cod": "Eltip bermek üçin töläň",
     "receipt_added": "Kwitansiýa goşuldy",
-    "payment_processing": "Tölegleri gaýtadan işlemek"
+    "payment_processing": "Tölegleri gaýtadan işlemek",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Ret edildi",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Tassyklama",
     "step_3": "Taýýarlyk",
     "step_4": "Getirilende",
-    "step_5": "Gowşuryldy"
+    "step_5": "Gowşuryldy",
   },
   "basket_return_request_view": {
     "title": "Yzyna gaýdyp gelmek haýyşy",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Haýyşy ret et",
     "message_for_admin": "“Selldone” -ny ulanmak bilen kabul eden şertnamaňyza görä, alyjy bilen habarlaşmaly we buýrugy yzyna gaýtarmak prosesi barada oňa habar bermeli. Isleg kabul edilse ýa-da ret edilse we alyjynyň doly razyçylygy alynsa, bu edilmelidir.",
     "notifications": {
-      "update_status_success": "Status täzelendi."
-    }
+      "update_status_success": "Status täzelendi.",
+    },
   },
   "basket_list": {
     "return_count": "Yzyna: {count} belgisi",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Wariant",
       "warranty": "Kepillikler",
       "count": "Hasapla",
-      "price": "bahasy"
-    }
+      "price": "bahasy",
+    },
   },
   "return_request_list": {
     "count": "Salgy belgisi",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Alnan senesi",
       "state": ".Agdaýy",
       "reason": "Sebäp",
-      "return_warranty_period": "Kepillik möhleti"
-    }
+      "return_warranty_period": "Kepillik möhleti",
+    },
   },
   "data_toolbar": {
     "search": "Gözlemek",
     "sort_by": "Tertipleşdir",
-    "count_item": "{item} elementleri görkez"
+    "count_item": "{item} elementleri görkez",
   },
   "sort": {
     "created_at": "Sene dörediň",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ofiser",
     "registered": "Hasaba alnan",
     "purchased": "Satyn alyndy",
-    "sex": "Jyns"
+    "sex": "Jyns",
   },
   "search_box": {
     "result": "Gözleg netijeleri",
     "tips": "Önümleri we kategoriýalary gözläň",
     "label": "Gözlemek ...",
-    "category": "Kategoriýa"
+    "category": "Kategoriýa",
   },
   "lead_status": {
     "physical_fast_delivery": "Derrew eltip bermek",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Indiki {days} günlerden taýýarlamak we tabşyrmak",
     "virtual_fast_prepare": "Derrew eltip bermek",
     "virtual_under_24h": "Indiki {lead} sagadyň dowamynda ediler",
-    "virtual_over_24h": "Indiki {günlerden başlap ediler"
+    "virtual_over_24h": "Will be done from the next {days} days",
   },
   "return_request_state": {
     "pending": "Garaşylýar",
     "accepted": "Tassyklandy",
-    "rejected": "Ret edildi"
+    "rejected": "Ret edildi",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Paket ýa-da seriýa nomerini üýtgetmek",
       "U5": "Bölümdäki käbir zatlar ýok",
       "U6": "Haryt asyl däl",
-      "U7": "Önüm aýratynlyklary kanagatlandyrmaýar"
-    }
+      "U7": "Önüm aýratynlyklary kanagatlandyrmaýar",
+    },
   },
   "image_uploader": {
     "label": "<u>Faýly süýräň we taşlaň ýa-da saýlaň</u>",
-    "max_size": "Iň ýokary rugsat berlen ululyk: {size}"
+    "max_size": "Iň ýokary rugsat berlen ululyk: {size}",
   },
   "timespan": {
     "Morning": "Irden 8-den agşam 12-e çenli",
     "Evening": "Günortan 12-den agşam 6-a çenli",
     "Night": "Agşam 6-dan 12-e çenli",
-    "Instant": "Derrew poçta"
+    "Instant": "Derrew poçta",
   },
   "week_day": {
     "Saturday": "Şenbe",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Sişenbe",
     "Wednesday": "Çarşenbe",
     "Thursday": "Penşenbe",
-    "Friday": "Juma"
+    "Friday": "Juma",
   },
   "payment_form": {
     "title": "Töleg usulyny saýlaň",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Gutlaýarys, sargydyňyz mugt!",
     "order_free_payment_action": "Mugt sargyt ediň",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Töleg salgysy",
-      "amount": "Mukdary"
-    }
+      "amount": "Mukdary",
+    },
   },
   "discount_input": {
-    "limit": "{percent}% walýuta {limit} göterim}% arzanladyş",
+    "limit": "{percent}% discount up to {limit} {currency}",
     "action": "Arzanladyş koduny goşuň",
     "code_input": "Arzanladyş kody",
     "notifications": {
-      "add_success": "Gutlaýarys, dogry arzanladyş kody."
-    }
+      "add_success": "Gutlaýarys, dogry arzanladyş kody.",
+    },
   },
   "gift_card": {
     "inactive": "Kart ýapyk",
     "expire": "Möhleti",
     "transfer": "Geçirmek",
-    "send_to_friend": "Dostuňa iber"
+    "send_to_friend": "Dostuňa iber",
   },
   "count_down": {
     "days": "Gün",
     "hours": "Sagat",
     "minutes": "Minutlar",
-    "seconds": "Sekunt"
+    "seconds": "Sekunt",
   },
   "gift_status": {
     "Unpaid": "Çykyşa garaşmak",
     "Paid": "Tölegli",
     "Rejected": "Ret edildi",
-    "Canceled": "Atyryldy"
+    "Canceled": "Atyryldy",
   },
   "gift_program_status": {
     "Airdrop": "Töleg ulgamy",
     "Advertising": "Mahabat",
     "PersonalGift": "Şahsy sowgat",
-    "ShopGift": "Sowgat dükany"
+    "ShopGift": "Sowgat dükany",
   },
   "currency_selector": {
-    "label": "Walýuta"
+    "label": "Walýuta",
   },
   "need_login": {
     "title": "giriş",
     "login_sms": "SMS giriş",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Google bilen giriň",
     "login_facebook": "“Facebook” -a giriň",
+    "login_apple": "Apple bilen giriň",
     "login_account": "Selldone tarapyndan giriň",
     "register": "Täze ulanyjy? Häzir hasaba alyň.",
     "mobile_input": "Jübi telefonyňyzy giriziň",
     "verification_code": "Barlag kody",
     "msg_title": "Salam,",
     "msg_body": "Girişiňizi haýyş edýäris. Birnäçe sekunt gerek.",
-    "login_apple": "Apple bilen giriň",
     "login_email": "E-poçta bilen giriň",
     "email_login_step_1": "Dogry e-poçta salgysyny bermegiňizi haýyş edýäris, biz oňa giriş koduny ibereris. Hasaba alynmak hökman däl.",
     "email_login_step_2": "E-poçta salgyňyzy dogry girizendigiňize ynanýarsyňyzmy? Giriş koduny berlen e-poçta ibereris, şonuň üçin onuň takyklygyna göz ýetiriň.",
-    "email_login_step_3": "E-poçtaňyza kod iberdik. Koduň 10 minutda gutarjakdygyny ýadyňyzdan çykarmaň."
+    "email_login_step_3": "E-poçtaňyza kod iberdik. Koduň 10 minutda gutarjakdygyny ýadyňyzdan çykarmaň.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 ýyllyk altyn dükany"
+      "name": "5 ýyllyk altyn dükany",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 ýyllyk altyn dükany"
+      "name": "4 ýyllyk altyn dükany",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 ýyllyk altyn dükany"
+      "name": "3 ýyllyk altyn dükany",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 ýyllyk altyn dükany"
+      "name": "2 ýyllyk altyn dükany",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 ýyllyk altyn dükany"
+      "name": "1 ýyllyk altyn dükany",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Altyn maýa goýujy"
+      "name": "Altyn maýa goýujy",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Göwher maýa goýujy"
+      "name": "Göwher maýa goýujy",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby inwestor"
+      "name": "Ruby inwestor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Aragatnaşyk torlarynyň ýokary jemgyýetiniň agzasy"
+      "name": "Aragatnaşyk torlarynyň ýokary jemgyýetiniň agzasy",
     },
     "GOLD_SUPPLIER": {
-      "name": "Altyn üpjün ediji"
+      "name": "Altyn üpjün ediji",
     },
     "GOLD_SELLER": {
-      "name": "Altyn diler"
+      "name": "Altyn diler",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Iň ýokary mazmun öndürijisi"
+      "name": "Iň ýokary mazmun öndürijisi",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Staryldyz"
+      "name": "Staryldyz",
     },
     "GUARDIAN": {
-      "name": "Uly müşderi hyzmaty"
+      "name": "Uly müşderi hyzmaty",
     },
     "KING": {
-      "name": "Bazaryň şasy"
-    }
+      "name": "Bazaryň şasy",
+    },
   },
   "cookie": {
     "title": "Bu web sahypasy gutapjyklary ulanýar",
     "message": "Bu web sahypasy, ulanyjy tejribesini ýokarlandyrmak üçin gutapjyklary ulanýar. Sahypamyzy ulanmak bilen, gutapjyklar syýasatymyza laýyklykda ähli gutapjyklara razylyk berýärsiňiz.",
     "preferences_action": "Saýlamalary dolandyryň",
-    "agree_action": "Men razy"
+    "agree_action": "Men razy",
   },
   "basket_item_message": {
     "title": "Bu element üçin zerur maglumatlar",
     "save_actions": "Habary ýazdyryň",
+    "product_inputs_preview_message": "Bu özleşdirme opsiýalary sargyt edilen önümiňiz üçin elýeterlidir. Haryt sebediňize goşulandan soň, bu ýerde düzediş girizip bilersiňiz.",
     "notifications": {
-      "success": "Giriş maglumatlaryňyz ýazdyryldy."
+      "success": "Giriş maglumatlaryňyz ýazdyryldy.",
     },
-    "product_inputs_preview_message": "Bu özleşdirme opsiýalary sargyt edilen önümiňiz üçin elýeterlidir. Haryt sebediňize goşulandan soň, bu ýerde düzediş girizip bilersiňiz."
   },
   "faq": {
     "faq": "Freygy-ýygydan berilýän soraglar",
     "title": "Soraglar we jogaplar",
-    "sub_title": "Bizden haýyş eden zadyňyz.",
     "message": "Soragyňyzyň jogabyny aşakdaky jogaplaryň arasynda gözläň. Soraglar jogapsyz galýarmy diýip soraň.",
     "add_question_action": "Täze sorag beriň",
     "read_more": "Koprak oka ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Sorag",
     "question_input_placeholder": "Soragyňyzy beriň.",
     "notifications": {
-      "success_add": "Soragyňyz üstünlikli tabşyryldy"
-    }
+      "success_add": "Soragyňyz üstünlikli tabşyryldy",
+    },
+    "sub_title": "Bizden haýyş eden zadyňyz.",
   },
   "rating_labels": [
     "Örän erbet",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Barjak salgyňyzy giriziň",
     "enter_your_address": "Salgyňyzy giriziň",
     "postal_code": "Poçta kody",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Gurluşyk belgisi",
     "building_unit": "Bölüm",
     "full_name_input": "Doly ady {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Salgy belligi (Talap)",
     "notifications": {
       "save_in_list": "Bu salgy ähli jikme-jiklikleri bilen sanawyňyza ýazdyryldy.",
-      "edit_success": "{Title in-de ýatda saklanan täze salgy bahalary."
+      "edit_success": "New address values ​​saved in {title}.",
     },
     "delete_address_dialog": {
       "title": "Salgyny pozuň",
       "message": "Bu adresi pozmak isleýändigiňize ynanýarsyňyzmy?",
-      "action": "Salgyny aýyryň"
-    }
+      "action": "Salgyny aýyryň",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Bu teswiri redaktirläp bilemok!",
     "comment_input_empty": "Habar teksti boş!",
-    "article_not_saved": "Makalany ýazdyryň!"
+    "article_not_saved": "Makalany ýazdyryň!",
   },
   "wheel_fortune": {
     "title": "Oýna we ýeň",
     "message": "Her oýnuň bahasy 10 çip. Häzirki wagtda {chips} çipiňiz bar. Dükandan satyn alyp, has köp çip alyň.",
     "win_message": "Gutlaýarys, ýeňersiňiz!",
     "lost_message": "Bagyşlaň, oýundan utuldyňyz.",
-    "try_again": "Againene synap görüp bilersiňiz"
+    "try_again": "Againene synap görüp bilersiňiz",
   },
   "json": {
     "add": "Gurluş maglumatlary goşuň",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Gurluşlar",
     "book": {
       "title": "Kitap",
-      "desc": "Ulanyjylara gözleg netijelerinden gönüden-göni tapýan kitabyny satyn almaga mümkinçilik berýän hereketler."
+      "desc": "Ulanyjylara gözleg netijelerinden gönüden-göni tapýan kitabyny satyn almaga mümkinçilik berýän hereketler.",
     },
     "occupation": {
       "title": "Takmynan aýlyk",
-      "desc": "Google-da iş gözleginde görkezilen aýlyk haklary we iş görnüşleri boýunça sebitdäki aýlyk ortaça aýlyk haklary baradaky maglumatlar."
+      "desc": "Google-da iş gözleginde görkezilen aýlyk haklary we iş görnüşleri boýunça sebitdäki aýlyk ortaça aýlyk haklary baradaky maglumatlar.",
     },
     "course": {
       "title": "Kurs",
-      "desc": "Üpjün edijiniň aýratyn sanawynda peýda bolan okuw kurslary. Kurslar kursyň adyny, üpjünçisini we gysga düşündirişini öz içine alyp biler."
+      "desc": "Üpjün edijiniň aýratyn sanawynda peýda bolan okuw kurslary. Kurslar kursyň adyny, üpjünçisini we gysga düşündirişini öz içine alyp biler.",
     },
     "howto": {
       "title": "Nähili",
-      "desc": "Wideo, şekilleri we teksti öz içine alýan bir işi üstünlikli ýerine ýetirmek üçin ulanyjylara nädip ýöremeli."
+      "desc": "Wideo, şekilleri we teksti öz içine alýan bir işi üstünlikli ýerine ýetirmek üçin ulanyjylara nädip ýöremeli.",
     },
     "recipe": {
       "title": "Resept",
-      "desc": "Aýry-aýry baý netije ýa-da ýer eýesi karuseliň bir bölegi hökmünde görkezýän reseptler."
-    }
+      "desc": "Aýry-aýry baý netije ýa-da ýer eýesi karuseliň bir bölegi hökmünde görkezýän reseptler.",
+    },
   },
   "support": {
     "Financial": "Maliýe",
     "Technical": "Tehniki",
-    "Advisor": "Geňeşçi"
+    "Advisor": "Geňeşçi",
   },
   "condition": {
     "new": "Täze",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Ulanyldy",
     "used_fair": "Ulanylan ýarmarka",
     "used_good": "Gowy ulanyldy",
-    "used_like_new": "Täze ýaly ulanylýar"
+    "used_like_new": "Täze ýaly ulanylýar",
   },
   "variant_filter": {
     "title": "Önümiň warianty süzgüji",
-    "only_available": "Bir Stockada"
+    "only_available": "Bir Stockada",
   },
   "service": {
     "task": {
       "title": "Wezipeler",
-      "message": "Bu hyzmatda ýerine ýetirilen meseleleriň sanawy."
+      "message": "Bu hyzmatda ýerine ýetirilen meseleleriň sanawy.",
     },
     "appointment": {
       "title": "Bellemek",
-      "message": "Hepdäniň wagtlaryny özüňize laýyk gün we sagat esasynda indiki wagtlardan saýlaň."
+      "message": "Hepdäniň wagtlaryny özüňize laýyk gün we sagat esasynda indiki wagtlardan saýlaň.",
     },
     "booking": {
       "title": "Zakaz bermek",
-      "message": "Aşakdaky senenamada öňünden bellik etmek isleýän günleriňiziň wagtyny kesgitläň."
+      "message": "Aşakdaky senenamada öňünden bellik etmek isleýän günleriňiziň wagtyny kesgitläň.",
     },
     "subscription": {
-      "title": "Abuna ýazylmak"
+      "title": "Abuna ýazylmak",
     },
     "charge": {
-      "title": "Zarýad"
-    }
+      "title": "Zarýad",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Bellenen bahalar",
-      "message": "Bahalaryň bu görnüşinde önümiň bahasy belli bir mukdar bolup, alyjynyň bahany hasaplamagyny talap etmegiň zerurlygy ýok."
+      "message": "Bahalaryň bu görnüşinde önümiň bahasy belli bir mukdar bolup, alyjynyň bahany hasaplamagyny talap etmegiň zerurlygy ýok.",
     },
     "ESTIMATION": {
       "title": "Bahalandyryş bahasy",
-      "message": "Önümleriň we hyzmatlaryň bahasy satyjy tarapyndan sargyt goýlanda belli bir derejede hasaplanar, hyzmat wagtynda töleg hasap-fakturalary üýtgedilip ýa-da goşulyp bilner."
+      "message": "Önümleriň we hyzmatlaryň bahasy satyjy tarapyndan sargyt goýlanda belli bir derejede hasaplanar, hyzmat wagtynda töleg hasap-fakturalary üýtgedilip ýa-da goşulyp bilner.",
     },
     "AGREEMENT": {
       "title": "Şertnamanyň bahasy",
-      "message": "Önümleriň ýa-da hyzmatlaryň soňky bahasy sargyt goýlandan soň satyjy tarapyndan üýtgemez."
+      "message": "Önümleriň ýa-da hyzmatlaryň soňky bahasy sargyt goýlandan soň satyjy tarapyndan üýtgemez.",
     },
     "BID": {
       "title": "Teklip / auksion",
-      "message": "Önüm potensial alyjylar tarapyndan iň ýokary bahadan satylar."
-    }
+      "message": "Önüm potensial alyjylar tarapyndan iň ýokary bahadan satylar.",
+    },
   },
   "map": {
     "title": "Önüm almak üçin niýetlenen ýer",
     "confirm": "Locationer kesgitläň",
     "address": "Niýetlenen ýer",
-    "receptor": "Alyjy"
+    "receptor": "Alyjy",
   },
   "ShopBots": {
-    "telegram": "Telegramma"
+    "telegram": "Telegramma",
   },
   "article_tags": {
     "title": "Mazmun bellikleri",
     "tags_input": "Bellikler",
     "tags_input_message": "Bellikler Bu makalanyň sanawy",
     "notification": {
-      "add_success": "Bellikler goşuldy"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Örän çylşyrymly",
-    "hard": "Gaty",
-    "intermediate": "Aralyk",
-    "easy": "Aňsat"
-  },
-  "billing_period": {
-    "Daily": "Her gün",
-    "Weekly": "Hepdelik",
-    "Monthly": "Aýlyk",
-    "Every3Months": "Her 3 aýdan",
-    "Every6Months": "Her 6 aýdan",
-    "Yearly": "Lyyllyk"
+      "add_success": "Bellikler goşuldy",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Gowy däl!",
     "between2_3": "Bolýar!",
     "between3_4": "Adamlar halaýarlar!",
-    "between4_5": "Adamlar muny gowy görýärler!"
+    "between4_5": "Adamlar muny gowy görýärler!",
   },
   "seasons": {
     "spring": "Bahar",
     "summer": "Tomus",
     "autumn": "Güýz",
-    "winter": "Gyş"
-  }
+    "winter": "Gyş",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

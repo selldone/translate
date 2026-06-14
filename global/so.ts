@@ -9,11 +9,12 @@ export default {
   "inactive": "firfircoonayn",
   "required_value": "Qiimaha loo baahan yahay",
   "original_warranty": "Dammaanadda Alaabada Asalka ah",
-  "return_warranty_days": "Maalmaha dammaanadda soo celinta",
+  "return_warranty_days": "Guarantee of return for {days} days.",
   "no_return_warranty": "Soo noqosho ma leh",
   "reed_agree_terms": "Waan akhriyay shuruudaha isticmaalka iyo siyaasadda qarsoodiga waanan ku raacay.",
   "commons": {
     "Currency": "Lacagta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Gobolka",
     "Price": "qiimo",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Qiimaha saafiga ah",
     "tax": "Canshuur",
     "tax_included": "Waxaa ku jira qiimaha",
+    "tax_included_abstract": "oo ay ku jiraan",
     "limit": "Xaddid",
     "min_purchase": "Iibka ugu yar",
     "eligible_for": "U qalma",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Taariikhda la sameeyay",
     "updated_at": "Cusbooneysii ugu dambeysay",
     "register_at": "Taariikhda diiwaan gelinta",
+    "last_modified": "Last modified",
     "old": "Duq",
     "new": "Cusub",
     "start": "Bilow",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Dib u iibiye",
     "tracking_code": "Koodhka raadraaca",
     "tracking_url": "Raadinta URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Oofinta",
     "reject": "Diid",
     "reserved": "La xafiday",
@@ -341,6 +345,7 @@ export default {
     "waiting": "sugaya...",
     "waiting_connecting_payment": "Sugitaanka adeegga lacag-bixinta...",
     "creating_secure_payment": "Abuuritaanka lacag-bixin sugan.",
+    "waiting_for_payment": "Fadlan dhamaystir lacag bixinta...",
     "officer": "Sarkaal",
     "ticket": "Tigidh",
     "ticket_url": "URL tigidh",
@@ -361,7 +366,6 @@ export default {
     "rates": "Qiimaynta",
     "seen_at": "Lagu arkay",
     "completed": "Dhammaystiran",
-    "you": "Adiga",
     "shop": "Dukaan",
     "store": "dukaan",
     "granted": "La siiyay",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Kiniinka",
     "pc": "PC",
     "acquisition_channel": "Kanaalka iibsiga",
+    "channels_overview": "Channels overview",
     "to": "Ku",
     "info": "Xog",
     "general": "Guud ahaan",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Alaabta kasta",
     "journey": "Safarka",
     "after": "Kadib",
-    "waiting_for_payment": "Fadlan dhamaystir lacag bixinta...",
     "hour": "Saacad",
     "minute": "Daqiiqado",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Dukaamada",
     "vendor": "Iibiyaha",
     "vendors": "Iibiyeyaasha",
+    "no_vendors": "No vendors",
     "marketplace": "Suuqa",
     "verify_date": "Xaqiiji taariikhda",
     "note": "Ogow",
@@ -604,7 +609,6 @@ export default {
     "variant": "Kala duwanaansho",
     "secure": "Aamin",
     "admin": "Admin",
-    "tax_included_abstract": "oo ay ku jiraan",
     "payment_not_settled": "Lacag-bixinta lama dejin!",
     "orders_list": "Liiska dalabaadka",
     "subscription_plan": "Qorshaha isdiiwaangelinta",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Kooxaha",
     "subscriptions": "Isdiiwaangelinta",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Adiga",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Aad u adag",
+    "hard": "Adag",
+    "intermediate": "Dhexdhexaad",
+    "easy": "Fudud",
   },
   "dialogs": {
     "delete": {
       "title": "Tirtir",
       "message": "Ma hubtaa inaad tirtirto shaygan?",
-      "action": "Haa, hadda tirtir"
-    }
+      "action": "Haa, hadda tirtir",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Ku dar Gaariga",
     "cancel": "Jooji",
     "update": "Cusbooneysii",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ku dar kaadhka hadyada",
     "charge": "Lacag",
     "send_invites": "Soo dir martiqaadyo",
-    "past": "Tagey",
+    "paste": "Ku dheji",
     "restore": "Soo celi",
     "cut": "jar",
     "get_sms_code": "Hel koodka aqoonsiga",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Muuji horudhac",
     "hide_preview": "Qari dulmarka",
     "download_now": "Download Hadda",
+    "watch_now": "Daawo Hadda",
     "auto_fill": "Buuxinta otomaatig ah",
     "track": "Raad raac",
     "change_state": "Beddel Xaaladda",
     "done": "La sameeyay",
     "reply": "jawaab",
-    "watch_now": "Daawo Hadda",
     "unlock": "Fur",
     "lock": "Quful",
     "create_clone": "Abuur clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Iibso",
     "view_all": "Daawo Dhammaan",
     "view_now": "Daawo Hadda",
-    "paste": "Ku dheji"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Tagey",
+  },
+  "billing_period": {
+    "Daily": "Maalin walba",
+    "Weekly": "Todobaadle",
+    "Monthly": "Bishii",
+    "Every3Months": "3dii biloodba mar",
+    "Every6Months": "6dii biloodba mar",
+    "Yearly": "Sannadkii",
   },
   "instance_message_title": "Dir fariin degdeg ah",
   "instance_message": "Hi {name}, Magacaygu waa {author} ka {company}.",
   "errors": {
     "419": "Muddo dheer ayaad shaqayn weyday, fadlan <b>⟳ cusboonaysii bogga</b> sababo ammaan dartood.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Nidaamku kuma eka blockchain. Suurtagal ma noqon doonto in la abuuro macaamil ganacsi cusub ilaa la dhamaystiro isku xidhka adeegayaashayada. Waxaan xallineynaa dhibaatada.",
-    "gateway_network_error": "Adeegga kadinka lacag bixinta waxa uu la kulmay dhibaato isgaarsiineed."
+    "gateway_network_error": "Adeegga kadinka lacag bixinta waxa uu la kulmay dhibaato isgaarsiineed.",
   },
   "receiver_info": {
     "map": {
       "title": "cinwaanka rarida",
       "confirm": "Deji goobta",
       "address_type": "Meesha loo socdo",
-      "receptor_type": "qaataha"
+      "receptor_type": "qaataha",
     },
     "receiver_address": "Dooro ciwaanka rarida",
+    "service_address": "Dooro ciwaanka",
+    "select_billing_address": "Select billing address",
     "address": "ciwaanka",
     "postcode": "Koodhka boostada",
     "enter_value": "Halkan ku buuxi",
     "address_note": "Ogow",
     "tel": "Lambarka xiriirka",
-    "service_address": "Dooro ciwaanka"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "garaam",
     "oz": "Ounce",
     "lb": "Pound",
-    "kg": "kiiloogaraam"
+    "kg": "kiiloogaraam",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "sentimitir",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Lug",
     "mm": "millimitir",
     "m": "mitir",
-    "yd": "Dayrka"
+    "yd": "Dayrka",
   },
   "distance": {
     "m": "mitir",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Maalmo",
     "hours": "Saacadaha",
     "minutes": "Daqiiqado",
-    "seconds": "Ilbiriqsi"
+    "seconds": "Ilbiriqsi",
   },
   "units": [
     "Unug",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Gobolka",
     "Territory": "Dhul",
-    "Province": "Gobolka"
+    "Province": "Gobolka",
   },
   "transaction_status": {
     "RequireAction": "Talaabo Loo Baahan Yahay",
     "Processing": "Habaynta",
     "Canceled": "La joojiyay",
-    "Succeeded": "Guulaystay"
+    "Succeeded": "Guulaystay",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Dooro luqadda",
     "friend_email": "iimaylka saaxiibkaa...",
     "friend_name": "Dooro Magaca saaxiibkaa",
-    "select_date": "Dooro taariikh..."
+    "select_date": "Dooro taariikh...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Xaqiiji",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Xarfaha ugu badan {maxCount}",
     "invalid_url": "URL aan sax ahayn",
     "country_invalid": "Dooro dalka aad u socoto!",
-    "postal_code_invalid": "Deji kood boosto sax ah!"
+    "postal_code_invalid": "Deji kood boosto sax ah!",
   },
   "colors": {
     "#D32F2F": "Casaan",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unug",
     "postcode": "Koodhka boostada",
     "note": "Ogow",
-    "county": "Gobolka"
+    "county": "Gobolka",
   },
   "product_types": {
     "physical": "Jireed",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Adeegga",
     "service_description": "Adeegyada sida: dayactirka, gaadiidka, waxbaridda.",
     "subscription": "Isdiiwaangelinta",
-    "subscription_description": "Diiwaangelinta iyo qaansheegta alaabada, adeegyada, ama waxa ku jira."
+    "subscription_description": "Diiwaangelinta iyo qaansheegta alaabada, adeegyada, ama waxa ku jira.",
   },
   "license": {
     "free": "Bilaash",
     "startup": "Bilawga",
     "company": "Shirkadda",
-    "enterprise": "Ganacsiga"
+    "enterprise": "Ganacsiga",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Midabka",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Ku tiri baakad",
     "weight": "Miisaanka",
     "type": "Qalab",
-    "style": "Qaabka"
+    "style": "Qaabka",
   },
   "delivery_state": {
     "check_queue": "Dib u eegis sugaya",
     "order_confirm": "Xaqiijinta Dalabka",
     "preparing_order": "Diyaarinta",
     "sent_order": "Dhimashada",
-    "to_customer": "la keenay"
+    "to_customer": "la keenay",
   },
   "status": {
     "unpaid": "Lacag la'aan",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Diid",
     "pending": "La sugayo",
     "rejected": "Waa la diiday",
-    "accepted": "Waa la aqbalay"
+    "accepted": "Waa la aqbalay",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Baaskiil",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Gaadiidka caalamiga ah",
     "global_description": "Ku dhoofinta hawada, badda ama dhulka.",
     "pickup": "Qaadista",
-    "pickup_description": "Macaamiishu waxay alaabta ka soo qaadaan dukaankaaga ama bakhaarkaada."
+    "pickup_description": "Macaamiishu waxay alaabta ka soo qaadaan dukaankaaga ama bakhaarkaada.",
   },
   "article": {
     "login_to_see_error": "Soo gal si aad u gasho maqaalka",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Habka wax ka beddel",
       "view_mode": "Qaabka muuqaalka",
-      "delete": "Tirtir Maqaalka"
+      "delete": "Tirtir Maqaalka",
     },
     "schedule_action": "Ma doonaysaa inaad jadwal u samayso daabacaadda?",
     "schedule_title": "Jadwal si toos ah u daabac",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Ka warbixi xadgudubka oo ka saar waxa ku jira",
       "report_title": "Ka warbixi macluumaadkan inuu yahay xadgudub",
       "message": "Waa maxay sababta soo gudbinta nuxurkan? Dooro mid ka mid ah xulashooyinka soo socda.",
-      "accept_and_delete_action": "Xaqiiji oo tirtir waxa ku jira"
+      "accept_and_delete_action": "Xaqiiji oo tirtir waxa ku jira",
     },
     "schedule_dialog": {
       "title": "Jadwalka Fasaxa Xogta",
       "publish_at": "Ku daabac",
       "last_edit": "Tafatirkii u dambeeyay",
-      "view_action": "Daawo Maqaal"
+      "view_action": "Daawo Maqaal",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Soo Gudbi Xog",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Ka warbixi oo tirtir",
       "report_and_delete_success_message": "Maqaalka si guul leh ayaa loo tirtiray",
       "report_success_title": "Warbixinta maqaalka",
-      "report_success_message": "Warbixintaada maqaalkan waa la dhajiyay."
+      "report_success_message": "Warbixintaada maqaalkan waa la dhajiyay.",
     },
     "alert": {
       "delete_article": {
         "title": "Tirtir Maqaalka",
         "message": "Ma hubtaa inaad rabto inaad si joogto ah u tirtirto maqaalkan?",
-        "action": "Tirtir"
-      }
+        "action": "Tirtir",
+      },
     },
     "edit_window": {
       "title": "Dooro Qoraalka Sawirka iyo Kooban",
-      "digest": "Soo koobid"
+      "digest": "Soo koobid",
     },
     "editor": {
       "title_placeholder": "Ciwaanka",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Faylkan aad buu u weyn yahay:",
       "notifications": {
         "image_uploaded_success": "Sawirka si guul leh ayaa loo keydiyay",
-        "image_uploaded_failed": "Cilad soo rarista sawirka"
+        "image_uploaded_failed": "Cilad soo rarista sawirka",
       },
       "embed_placeholder": "Geli code iframe, Facebook, Youtube ama URL kasta oo kale oo taabo geli.",
       "embed_caption_placeholder": "Geli cinwaan (ikhtiyaar)",
-      "images_caption_placeholder": "Geli cinwaan sawirkan"
-    }
+      "images_caption_placeholder": "Geli cinwaan sawirkan",
+    },
   },
   "article_report": {
     "inappropriate": "Nuxurka maqaalkani waa mid aan habboonayn.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Waxaan filayaa in qoraalkani ka kooban yahay sawirro qaawan oo xadgudub ku ah shuruucda.",
     "harassment": "Waxaan filayaa in tani ay tahay cunsurinimo.",
     "hate": "Waxaan u maleynayaa in tani ay ku saabsan tahay horumarinta rabshadaha.",
-    "infringe": "Tani waxay xadgudub ku tahay xuquuqdayda."
+    "infringe": "Tani waxay xadgudub ku tahay xuquuqdayda.",
   },
   "comments": {
     "new_action": "Guji si aad faallo uga tagto",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Faallo badan ka hel",
     "cant_send_comment": "Ma ku dari kartid qoraal cusub",
     "cant_remove_this_comment": "Ma tirtiri kartid faalladan!",
-    "product_buyer": "Iibsade",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Faallooyinkayga",
     "delete_alert": {
       "title": "Tirtir Faallada",
       "message": "Ma rabtaa inaad tirtirto faalladan?",
-      "action": "Tirtir"
+      "action": "Tirtir",
     },
     "notifications": {
-      "delete_success": "Faalladaadu si guul leh ayaa loo tirtiray"
+      "delete_success": "Faalladaadu si guul leh ayaa loo tirtiray",
     },
     "first_send": "Boostada ugu horeysa",
     "comment_at": "Daar",
     "edit_comment": "Wax ka beddel faallooyinka",
-    "my_comments": "Faallooyinkayga"
+    "product_buyer": "Iibsade",
   },
   "customer_club": {
     "bronze": "Bronze",
     "silver": "Silver",
     "gold": "Dahab",
     "platinum": "Platinum",
-    "diamond": "Dheeman"
+    "diamond": "Dheeman",
   },
   "application_categories": {
     "tracking": "Hubinta Dhaqanka Isticmaalaha",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Xayeysiinta",
     "staff": "Shaqaale",
     "incentive": "Dhiirigelin",
-    "shop": "Dukaan"
+    "shop": "Dukaan",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Ku dar shay cusub",
     "title_input": "Ciwaanka",
+    "placeholder_input": "Dhige",
     "name_input": "Magac kala duwan",
     "value_input": "Qiimaha",
     "value_input_message": "Liiska Ikhtiyaarada Isticmaalaha",
     "default": "Qiimaha caadiga ah",
+    "file_type_input": "Noocyada faylka la aqbali karo",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Fudud",
       "selective": "Xulasho",
       "switch": "Bedel",
       "file": "Faylka",
-      "number": "Tirada"
+      "number": "Tirada",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Dhige",
-    "file_type_input": "Noocyada faylka la aqbali karo",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Magaca Alaabta",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Heerka lacag bixinta",
     "payment_status_waiting": "Sugitaanka lacag bixinta",
     "payment_status_paid": "La bixiyay",
-    "buyer": "Iibsade"
+    "buyer": "Iibsade",
   },
   "virtual_item_info": {
     "title": "Shayga Virtual",
     "outputs": {
       "title": "Xogta Wax-soo-saarka",
       "sub_title": "Xogta Dahsoon ee Shaygan",
-      "message": "Macluumaadkan waxaa la tusi doonaa isticmaalaha ka dib iibsashada alaabta."
+      "message": "Macluumaadkan waxaa la tusi doonaa isticmaalaha ka dib iibsashada alaabta.",
     },
     "inputs": {
       "title": "Macluumaadka Loo Baahan Yahay",
       "sub_title": "Waxaa Loo Baahan Yahay Macluumaadka Iibsadaha",
-      "message": "Iibsaduhu waa inuu ku galaa macluumaadka la codsaday foomka"
+      "message": "Iibsaduhu waa inuu ku galaa macluumaadka la codsaday foomka",
     },
     "notifications": {
       "inputs_set_success": "Foomka macluumaadka ayaa si guul leh loo diiwaan geliyay.",
       "confirm_by_admin_success": "Dhamaystirka dalabka ayaa la xaqiijiyay.",
-      "confirm_by_buyer_success": "Dhamaystirka dalabka ayaa la xaqiijiyay."
-    }
+      "confirm_by_buyer_success": "Dhamaystirka dalabka ayaa la xaqiijiyay.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Dalabkan laguma aqbali karo bixinta COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Bakhaarkii",
     "legal_restriction": "Aan awoodin in la bixiyo amar sababo la xiriira xannibaado sharci ah.",
     "pricing_fault": "Qaladka qiimaha iibiyuhu.",
-    "system_fault": "Cayayaanka nidaamka"
+    "system_fault": "Cayayaanka nidaamka",
   },
   "basket_order_info_summery": {
     "receiver": "qaataha",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Qiimo dhimis",
     "final_price": "Qadarka ugu dambeeya",
     "address": "Cinwaanka gaarsiinta",
-    "payment_status": "Heerka lacag bixinta"
+    "payment_status": "Heerka lacag bixinta",
   },
   "basket_status": {
     "open": "Furan",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "La joojiyay",
     "cod": "Bixinta Bixinta",
     "receipt_added": "Rasiidka ayaa lagu daray",
-    "payment_processing": "Habka lacag bixinta"
+    "payment_processing": "Habka lacag bixinta",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Waa la diiday",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Xaqiijinta",
     "step_3": "Diyaarinta",
     "step_4": "Dhimashada",
-    "step_5": "la keenay"
+    "step_5": "la keenay",
   },
   "basket_return_request_view": {
     "title": "Codsiga soo celinta",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Diid codsiga",
     "message_for_admin": "Sida ku cad heshiiska aad aqbashay adigoo isticmaalaya Selldone, waa inaad la xiriirtaa iibsadaha oo aad la socodsiisaa isaga/iyada habka loo soo celinayo dalabkiisa. Tan waa in la sameeyaa haddii codsiga la aqbalo ama la diido oo ogolaanshaha buuxa ee iibsadaha la helo.",
     "notifications": {
-      "update_status_success": "Xaaladda codsiga waa la cusboonaysiiyay"
-    }
+      "update_status_success": "Xaaladda codsiga waa la cusboonaysiiyay",
+    },
   },
   "basket_list": {
     "return_count": "Soo celi: {count} nambar",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Kala duwanaansho",
       "warranty": "Garantiyada",
       "count": "Tiri",
-      "price": "qiimo"
-    }
+      "price": "qiimo",
+    },
   },
   "return_request_list": {
     "count": "Nambarka tixraaca",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Taariikhda la helay",
       "state": "Xaalada",
       "reason": "Sababta",
-      "return_warranty_period": "Muddada dammaanadda"
-    }
+      "return_warranty_period": "Muddada dammaanadda",
+    },
   },
   "data_toolbar": {
     "search": "Raadi",
     "sort_by": "Kala saar",
-    "count_item": "Muuji {item}"
+    "count_item": "Muuji {item}",
   },
   "sort": {
     "created_at": "Samee taariikhda",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Sarkaal",
     "registered": "diiwaan gashan",
     "purchased": "Iibsaday",
-    "sex": "Jinsiga"
+    "sex": "Jinsiga",
   },
   "search_box": {
     "result": "Natiijooyinka raadinta",
     "tips": "Ka raadi Alaabooyinka iyo Qaybaha",
     "label": "Raadi...",
-    "category": "Qaybta"
+    "category": "Qaybta",
   },
   "lead_status": {
     "physical_fast_delivery": "geyn degdeg ah",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Diyaarinta iyo soo gudbinta laga bilaabo {days} maalmaha soo socda",
     "virtual_fast_prepare": "geyn degdeg ah",
     "virtual_under_24h": "Waxa la samayn doonaa saacadaha {lead} ee soo socda gudahooda",
-    "virtual_over_24h": "Waxa la samayn doonaa laga bilaabo {days} soo socda"
+    "virtual_over_24h": "Waxa la samayn doonaa laga bilaabo {days} soo socda",
   },
   "return_request_state": {
     "pending": "La sugayo",
     "accepted": "La xaqiijiyay",
-    "rejected": "Waa la diiday"
+    "rejected": "Waa la diiday",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Xidhmada ama lambarka taxan ee faragelinta",
       "U5": "Alaabooyin ka mid ah xirmada ayaa maqan",
       "U6": "Alaabtu asal maaha",
-      "U7": "Alaabtu kuma qanciso tilmaamaha"
-    }
+      "U7": "Alaabtu kuma qanciso tilmaamaha",
+    },
   },
   "image_uploader": {
     "label": "Jiid & Tuur ama <u>Dooro faylka</u>",
-    "max_size": "Cabbirka ugu badan ee la oggol yahay: {size}"
+    "max_size": "Cabbirka ugu badan ee la oggol yahay: {size}",
   },
   "timespan": {
     "Morning": "8 subaxnimo - 12 galabnimo",
     "Evening": "12 duhurnimo ilaa 6 galabnimo",
     "Night": "6pm-12pm",
-    "Instant": "Boostada degdega ah"
+    "Instant": "Boostada degdega ah",
   },
   "week_day": {
     "Saturday": "Sabti",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Talaado",
     "Wednesday": "Arbacada",
     "Thursday": "Khamiis",
-    "Friday": "Jimcaha"
+    "Friday": "Jimcaha",
   },
   "payment_form": {
     "title": "Dooro Habka Lacag-bixinta",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Hambalyo, dalabkaagu waa bilaash!",
     "order_free_payment_action": "Dalbo Bilaash Hadda",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Cinwaanka lacag bixinta",
-      "amount": "Qadarka"
-    }
+      "amount": "Qadarka",
+    },
   },
   "discount_input": {
     "limit": "{percent}% dhimis ilaa {limit} {currency}",
     "action": "Kudar Koodhka Dhimista",
     "code_input": "Koodhka dhimista",
     "notifications": {
-      "add_success": "Hambalyo, code qiimo dhimis ansax ah."
-    }
+      "add_success": "Hambalyo, code qiimo dhimis ansax ah.",
+    },
   },
   "gift_card": {
     "inactive": "Kaarku waa naafo",
     "expire": "Dhicis",
     "transfer": "Wareejin",
-    "send_to_friend": "U dir saaxiib"
+    "send_to_friend": "U dir saaxiib",
   },
   "count_down": {
     "days": "Maalinta",
     "hours": "Saacada",
     "minutes": "Daqiiqado",
-    "seconds": "Ilbiriqsi"
+    "seconds": "Ilbiriqsi",
   },
   "gift_status": {
     "Unpaid": "Rasiidka sugaya",
     "Paid": "La bixiyay",
     "Rejected": "Waa la diiday",
-    "Canceled": "La joojiyay"
+    "Canceled": "La joojiyay",
   },
   "gift_program_status": {
     "Airdrop": "Nidaamka Lacag-bixinta",
     "Advertising": "Xayeysiinta",
     "PersonalGift": "Hadiyad Shakhsiyeed",
-    "ShopGift": "Dukaan hadiyadeed"
+    "ShopGift": "Dukaan hadiyadeed",
   },
   "currency_selector": {
-    "label": "Lacagta"
+    "label": "Lacagta",
   },
   "need_login": {
     "title": "soo gal",
     "login_sms": "Soo gal SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Soo gal Google",
     "login_facebook": "Soo gal Facebook",
+    "login_apple": "Ku soo gal Apple",
     "login_account": "Soo gal Selldone",
     "register": "Isticmaale cusub? Hadda isdiiwaangeli",
     "mobile_input": "Geli mobilkaaga",
     "verification_code": "Koodhka xaqiijinta",
     "msg_title": "Hi,",
     "msg_body": "Fadlan soo gal Waxay qaadataa dhowr ilbiriqsi oo kaliya.",
-    "login_apple": "Ku soo gal Apple",
     "login_email": "Ku soo gal iimaylka",
     "email_login_step_1": "Fadlan bixi ciwaanka iimayl sax ah, waxaanan u soo diri doonaa summada galitaanka Diiwaangelin looma baahna.",
     "email_login_step_2": "Ma hubtaa inaad si sax ah u gashay cinwaankaaga iimaylka? Waxaan u diri doonaa summada galitaanka iimaylka la bixiyay, marka fadlan hubi saxnimadiisa.",
-    "email_login_step_3": "Waxaan u dirnay kood emailkaaga Fadlan ogow in koodku ku dhacayo 10 daqiiqo gudahood."
+    "email_login_step_3": "Waxaan u dirnay kood emailkaaga Fadlan ogow in koodku ku dhacayo 10 daqiiqo gudahood.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Dukaanka Dahabka 5 Sano"
+      "name": "Dukaanka Dahabka 5 Sano",
     },
     "GOLDEN_2YEAR": {
-      "name": "Dukaanka Dahabka 4 Sano"
+      "name": "Dukaanka Dahabka 4 Sano",
     },
     "GOLDEN_3YEAR": {
-      "name": "Dukaanka Dahabka 3 Sano"
+      "name": "Dukaanka Dahabka 3 Sano",
     },
     "GOLDEN_4YEAR": {
-      "name": "Dukaanka Dahabka 2 Sano"
+      "name": "Dukaanka Dahabka 2 Sano",
     },
     "GOLDEN_5YEAR": {
-      "name": "Dukaanka Dahabka 1 Sano"
+      "name": "Dukaanka Dahabka 1 Sano",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Maalgeliyaha dahabiga ah"
+      "name": "Maalgeliyaha dahabiga ah",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Maalgeliyaha Dheeman"
+      "name": "Maalgeliyaha Dheeman",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Xubin ka tirsan Bulshada Sare ee Shabakadaha Isgaarsiinta"
+      "name": "Xubin ka tirsan Bulshada Sare ee Shabakadaha Isgaarsiinta",
     },
     "GOLD_SUPPLIER": {
-      "name": "Bixiyaha Dahabka"
+      "name": "Bixiyaha Dahabka",
     },
     "GOLD_SELLER": {
-      "name": "Ganacsade Dahab ah"
+      "name": "Ganacsade Dahab ah",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Soo saaraha ugu sarreeya ee Mawduuca"
+      "name": "Soo saaraha ugu sarreeya ee Mawduuca",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Xiddig"
+      "name": "Xiddig",
     },
     "GUARDIAN": {
-      "name": "Adeegga Macmiilka Weyn"
+      "name": "Adeegga Macmiilka Weyn",
     },
     "KING": {
-      "name": "Boqorka Suuqa"
-    }
+      "name": "Boqorka Suuqa",
+    },
   },
   "cookie": {
     "title": "Mareegtan waxay isticmaashaa cookies",
     "message": "Mareegtan waxay isticmaashaa cookies si ay u horumariso khibrada isticmaalaha. Adigoo isticmaalaya mareegahayaga waxaad ogolaatay dhammaan cookies-ka si waafaqsan Siyaasaddayada Kukiyada.",
     "preferences_action": "Maamul Dookhyada",
-    "agree_action": "Waan ogolahay"
+    "agree_action": "Waan ogolahay",
   },
   "basket_item_message": {
     "title": "Macluumaadka loo baahan yahay shaygan",
     "save_actions": "Keydi fariinta",
+    "product_inputs_preview_message": "Ikhtiyaaradan habaynta ayaa diyaar u ah alaabtaada dalbatay. Marka shayga lagu daro gaadhigaaga, waxaad awoodi doontaa inaad halkan ku hagaajiso.",
     "notifications": {
-      "success": "Xog galintaada waa la keydiyay"
+      "success": "Xog galintaada waa la keydiyay",
     },
-    "product_inputs_preview_message": "Ikhtiyaaradan habaynta ayaa diyaar u ah alaabtaada dalbatay. Marka shayga lagu daro gaadhigaaga, waxaad awoodi doontaa inaad halkan ku hagaajiso."
   },
   "faq": {
     "faq": "Su'aalaha Inta Badan La Isweydiiyo",
     "title": "Su'aalo iyo Jawaabo",
-    "sub_title": "Waxa aad naga codsatay inaan samayno.",
     "message": "Jawaabta su'aashaada ka raadi jawaabaha hoose. Na weydii haddii su'aalaha aan laga jawaabin.",
     "add_question_action": "Weydii Su'aal Cusub",
     "read_more": "Akhri wax dheeraad ah ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Su'aal",
     "question_input_placeholder": "Weydii su'aashaada.",
     "notifications": {
-      "success_add": "Su'aashaadii si guul leh ayaa loo gudbiyay"
-    }
+      "success_add": "Su'aashaadii si guul leh ayaa loo gudbiyay",
+    },
+    "sub_title": "Waxa aad naga codsatay inaan samayno.",
   },
   "rating_labels": [
     "Aad u xun",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Geli ciwaanka u socda",
     "enter_your_address": "Gali ciwaankaga",
     "postal_code": "Koodhka boostada",
-    "phone_input": "Taleefanka {type}",
+    "phone_input": "Taleefanka",
     "building_number": "Nambarka dhismaha",
     "building_unit": "Unug",
     "full_name_input": "Magaca buuxa {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Summada cinwaanka (loo baahan yahay)",
     "notifications": {
       "save_in_list": "Ciwaanka waxa lagu kaydiyay liiskaaga oo ay la socdaan tafaasiilkiisa oo dhan.",
-      "edit_success": "Qiimaha ciwaanka cusub ayaa lagu kaydiyay {title}"
+      "edit_success": "Qiimaha ciwaanka cusub ayaa lagu kaydiyay {title}",
     },
     "delete_address_dialog": {
       "title": "Tirtir Ciwaanka",
       "message": "Ma hubtaa inaad doonayso inaad tirtirto ciwaanka?",
-      "action": "Ciwaanka ka saar"
-    }
+      "action": "Ciwaanka ka saar",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ma tafatirin karo faalladan!",
     "comment_input_empty": "Qoraalka fariintu waa madhan!",
-    "article_not_saved": "Keydso maqaalka!"
+    "article_not_saved": "Keydso maqaalka!",
   },
   "wheel_fortune": {
     "title": "Ciyaar & Guul",
     "message": "Qiimaha ciyaar kasta waa 10 chips. Hadda waxaad haysataa {chips} chip. Soo hel chips badan adoo ka soo iibsanaya dukaanka.",
     "win_message": "Hambalyo, Waad guulaysataa!",
     "lost_message": "Waan ka xunahay, waa lagaa badiyay ciyaarta",
-    "try_again": "Mar kale ayaad isku dayi kartaa"
+    "try_again": "Mar kale ayaad isku dayi kartaa",
   },
   "json": {
     "add": "Ku dar xogta qaabdhismeedka",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Qaab dhismeedka",
     "book": {
       "title": "Buug",
-      "desc": "Ficilada buuga u sahlaya isticmaalayaasha inay iibsadaan buugga ay si toos ah uga helaan natiijooyinka raadinta."
+      "desc": "Ficilada buuga u sahlaya isticmaalayaasha inay iibsadaan buugga ay si toos ah uga helaan natiijooyinka raadinta.",
     },
     "occupation": {
       "title": "Mushaharka la qiyaasay",
-      "desc": "Macluumaadka ku saabsan qiyaasta mushaharka, sida kala duwanaanta mushaharka iyo celceliska mushaharka gobolka ku salaysan ee noocyada shaqada, oo lagu muujiyay waayo-aragnimada shaqo raadinta ee Google."
+      "desc": "Macluumaadka ku saabsan qiyaasta mushaharka, sida kala duwanaanta mushaharka iyo celceliska mushaharka gobolka ku salaysan ee noocyada shaqada, oo lagu muujiyay waayo-aragnimada shaqo raadinta ee Google.",
     },
     "course": {
       "title": "Koorso",
-      "desc": "Koorasyada waxbarashada ee ka muuqda liiska bixiyayaasha gaarka ah. Koorsooyinka waxaa ku jiri kara cinwaanka koorsada, bixiyaha, iyo sharaxaad gaaban."
+      "desc": "Koorasyada waxbarashada ee ka muuqda liiska bixiyayaasha gaarka ah. Koorsooyinka waxaa ku jiri kara cinwaanka koorsada, bixiyaha, iyo sharaxaad gaaban.",
     },
     "howto": {
       "title": "Sida loo",
-      "desc": "Sida loo maro isticmaaleyaasha iyada oo loo marayo tillaabooyin si guul leh loo dhammaystiro hawsha, oo muujinaya muuqaal, sawirro, iyo qoraal."
+      "desc": "Sida loo maro isticmaaleyaasha iyada oo loo marayo tillaabooyin si guul leh loo dhammaystiro hawsha, oo muujinaya muuqaal, sawirro, iyo qoraal.",
     },
     "recipe": {
       "title": "Recipe",
-      "desc": "Cuntooyinka soo bandhigaya natiijo qani ah oo gaar ah ama qayb ka mid ah carousel-ka martida loo yahay."
-    }
+      "desc": "Cuntooyinka soo bandhigaya natiijo qani ah oo gaar ah ama qayb ka mid ah carousel-ka martida loo yahay.",
+    },
   },
   "support": {
     "Financial": "Dhaqaale",
     "Technical": "Farsamo",
-    "Advisor": "Lataliye"
+    "Advisor": "Lataliye",
   },
   "condition": {
     "new": "Cusub",
@@ -1885,91 +2098,152 @@ export default {
     "used": "la isticmaalo",
     "used_fair": "Cadaalad la isticmaalay",
     "used_good": "Si fiican loo isticmaalo",
-    "used_like_new": "Loo isticmaalo sida cusub"
+    "used_like_new": "Loo isticmaalo sida cusub",
   },
   "variant_filter": {
     "title": "Kala Duwanaanshaha Alaabta",
-    "only_available": "In Stock"
+    "only_available": "In Stock",
   },
   "service": {
     "task": {
       "title": "Hawlaha",
-      "message": "Liiska hawlaha lagu qabtay adeeggan."
+      "message": "Liiska hawlaha lagu qabtay adeeggan.",
     },
     "appointment": {
       "title": "Ballanta",
-      "message": "Ka dooro wakhtiyada toddobaadka wakhtiyada soo socda oo ku salaysan maalinta iyo saacadda kugu habboon."
+      "message": "Ka dooro wakhtiyada toddobaadka wakhtiyada soo socda oo ku salaysan maalinta iyo saacadda kugu habboon.",
     },
     "booking": {
       "title": "Boos dhigashada",
-      "message": "Ku caddee wakhtiga maalmaha aad rabto inaad sii qabsato jadwalka hoose."
+      "message": "Ku caddee wakhtiga maalmaha aad rabto inaad sii qabsato jadwalka hoose.",
     },
     "subscription": {
-      "title": "Isdiiwaangelinta"
+      "title": "Isdiiwaangelinta",
     },
     "charge": {
-      "title": "Lacag"
-    }
+      "title": "Lacag",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Qiimaha go'an",
-      "message": "Qiimaha noocan oo kale ah, qiimaha alaabtu waa qadar go'an mana jirto baahi loo qabo iibsaduhu inuu codsado xisaabinta qiimaha."
+      "message": "Qiimaha noocan oo kale ah, qiimaha alaabtu waa qadar go'an mana jirto baahi loo qabo iibsaduhu inuu codsado xisaabinta qiimaha.",
     },
     "ESTIMATION": {
       "title": "Qiimaynta Qiimaynta",
-      "message": "Qiimaha badeecadaha iyo adeegyada waxaa xisaabin doona ilaa xad iibiyuhu marka uu dalbanayo, qaansheegyada lacag bixinta waa la bedeli karaa ama lagu dari karaa inta lagu jiro adeegga."
+      "message": "Qiimaha badeecadaha iyo adeegyada waxaa xisaabin doona ilaa xad iibiyuhu marka uu dalbanayo, qaansheegyada lacag bixinta waa la bedeli karaa ama lagu dari karaa inta lagu jiro adeegga.",
     },
     "AGREEMENT": {
       "title": "Qiimaha Heshiiska",
-      "message": "Qiimaha ugu dambeeya ee alaabta ama adeegyada ma beddeli doono iibiyuhu ka dib marka la dalbado."
+      "message": "Qiimaha ugu dambeeya ee alaabta ama adeegyada ma beddeli doono iibiyuhu ka dib marka la dalbado.",
     },
     "BID": {
       "title": "Bid / Xaraashka",
-      "message": "Alaabta waxaa lagu iibin doonaa qiimaha ugu sarreeya ee iibsadayaasha iman kara."
-    }
+      "message": "Alaabta waxaa lagu iibin doonaa qiimaha ugu sarreeya ee iibsadayaasha iman kara.",
+    },
   },
   "map": {
     "title": "Meesha aad ku heli lahayd alaabta",
     "confirm": "Deji goobta",
     "address": "Meesha loo socdo",
-    "receptor": "qaataha"
+    "receptor": "qaataha",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Tags Content",
     "tags_input": "Tags",
     "tags_input_message": "Tags Liiska maqaalkan",
     "notification": {
-      "add_success": "Tags daray"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Aad u adag",
-    "hard": "Adag",
-    "intermediate": "Dhexdhexaad",
-    "easy": "Fudud"
-  },
-  "billing_period": {
-    "Daily": "Maalin walba",
-    "Weekly": "Todobaadle",
-    "Monthly": "Bishii",
-    "Every3Months": "3dii biloodba mar",
-    "Every6Months": "6dii biloodba mar",
-    "Yearly": "Sannadkii"
+      "add_success": "Tags daray",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh ma wanaagsana!",
     "between2_3": "Waa Okay!",
     "between3_4": "Dadku way jecel yihiin!",
-    "between4_5": "Dadku way jecel yihiin!"
+    "between4_5": "Dadku way jecel yihiin!",
   },
   "seasons": {
     "spring": "Guga",
     "summer": "Xagaaga",
     "autumn": "Dayrta",
-    "winter": "Jiilaalka"
-  }
+    "winter": "Jiilaalka",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

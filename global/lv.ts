@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Esmu izlasījis lietošanas noteikumus un privātuma politiku un piekrītu tiem.",
   "commons": {
     "Currency": "Valūta",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Valsts",
     "Price": "cena",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Neto cena",
     "tax": "Nodoklis",
     "tax_included": "Iekļauts cenā",
+    "tax_included_abstract": "t.sk.",
     "limit": "Ierobežot",
     "min_purchase": "Minimālais pirkums",
     "eligible_for": "Piemērots",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Izveidošanas datums",
     "updated_at": "Pēdējā atjaunošana",
     "register_at": "Reģistrācijas datums",
+    "last_modified": "Last modified",
     "old": "Vecs",
     "new": "Jauns",
     "start": "Sākt",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Tālākpārdevējs",
     "tracking_code": "Izsekošanas kods",
     "tracking_url": "Izsekošanas URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Piepildījumi",
     "reject": "Noraidīt",
     "reserved": "Rezervēts",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Gaida...",
     "waiting_connecting_payment": "Gaida maksājumu pakalpojumu...",
     "creating_secure_payment": "Droša maksājuma izveide.",
+    "waiting_for_payment": "Lūdzu, pabeidziet maksājumu...",
     "officer": "virsnieks",
     "ticket": "Biļete",
     "ticket_url": "Biļetes url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Vērtējums",
     "seen_at": "Redzēts plkst",
     "completed": "Pabeigts",
-    "you": "Tu",
     "shop": "Veikals",
     "store": "veikals",
     "granted": "Piešķirts",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Planšetdators",
     "pc": "PC",
     "acquisition_channel": "Iegūšanas kanāls",
+    "channels_overview": "Channels overview",
     "to": "Uz",
     "info": "Informācija",
     "general": "Ģenerālis",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Katram produktam",
     "journey": "Ceļojums",
     "after": "Pēc",
-    "waiting_for_payment": "Lūdzu, pabeidziet maksājumu...",
     "hour": "Stunda",
     "minute": "Minūte",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Veikali",
     "vendor": "Pārdevējs",
     "vendors": "Pārdevēji",
+    "no_vendors": "No vendors",
     "marketplace": "Tirgus laukums",
     "verify_date": "Apstipriniet datumu",
     "note": "Piezīme",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variants",
     "secure": "Droši",
     "admin": "Administrators",
-    "tax_included_abstract": "t.sk.",
     "payment_not_settled": "Maksājums nav nokārtots!",
     "orders_list": "Pasūtījumu saraksts",
     "subscription_plan": "Abonēšanas plāns",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Kopas",
     "subscriptions": "Abonementi",
     "spam": "Spams",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Tu",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Ļoti sarežģīti",
+    "hard": "Grūti",
+    "intermediate": "Vidēja līmeņa",
+    "easy": "Viegli",
   },
   "dialogs": {
     "delete": {
       "title": "Dzēst",
       "message": "Vai tiešām dzēsīsit šo vienumu?",
-      "action": "Jā, dzēst tūlīt"
-    }
+      "action": "Jā, dzēst tūlīt",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Pievienot grozam",
     "cancel": "Atcelt",
     "update": "Atjaunināt",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Pievienojiet dāvanu karti",
     "charge": "Uzlādē",
     "send_invites": "Nosūtiet ielūgumus",
-    "past": "Pagātne",
+    "paste": "Ielīmēt",
     "restore": "Atjaunot",
     "cut": "Griezt",
     "get_sms_code": "Iegūstiet autentifikācijas kodu",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Rādīt priekšskatījumu",
     "hide_preview": "Paslēpt priekšskatījumu",
     "download_now": "Lejuplādēt tagad",
+    "watch_now": "Skatīties tagad",
     "auto_fill": "Automātiskā aizpilde",
     "track": "Trase",
     "change_state": "Mainīt statusu",
     "done": "Gatavs",
     "reply": "Atbildēt",
-    "watch_now": "Skatīties tagad",
     "unlock": "Atbloķēt",
     "lock": "Slēdzene",
     "create_clone": "Izveidot klonu",
@@ -773,41 +931,71 @@ export default {
     "buy": "Pirkt",
     "view_all": "Apskati visus",
     "view_now": "Skatīt tūlīt",
-    "paste": "Ielīmēt"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Pagātne",
+  },
+  "billing_period": {
+    "Daily": "Ikdienas",
+    "Weekly": "Iknedēļas",
+    "Monthly": "Ikmēneša",
+    "Every3Months": "Ik pēc 3 mēnešiem",
+    "Every6Months": "Ik pēc 6 mēnešiem",
+    "Yearly": "Ik gadu",
   },
   "instance_message_title": "Nosūtiet tūlītējo ziņojumu",
   "instance_message": "Sveiki, {name}! Mani sauc {author} no {company}.",
   "errors": {
     "419": "Jūs ilgu laiku esat bijis neaktīvs, lūdzu <b>⟳ Drošības apsvērumu dēļ ATSVIEDZIET LAPU</b> .",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistēma nesinhronizējas ar blokķēdi. Jaunu transakciju nevarēs izveidot, kamēr nebūs pabeigta mūsu serveru sinhronizācija. Mēs risinām problēmu.",
-    "gateway_network_error": "Maksājumu vārtejas pakalpojumam radās komunikācijas problēma."
+    "gateway_network_error": "Maksājumu vārtejas pakalpojumam radās komunikācijas problēma.",
   },
   "receiver_info": {
     "map": {
       "title": "Piegādes adrese",
       "confirm": "Iestatīt atrašanās vietu",
       "address_type": "Galamērķis",
-      "receptor_type": "Uztvērējs"
+      "receptor_type": "Uztvērējs",
     },
     "receiver_address": "Izvēlieties piegādes adresi",
+    "service_address": "Izvēlieties savu adresi",
+    "select_billing_address": "Select billing address",
     "address": "adrese",
     "postcode": "Pasta indekss",
     "enter_value": "Aizpildiet šeit",
     "address_note": "Piezīme",
     "tel": "Kontaktpersonas numurs",
-    "service_address": "Izvēlieties savu adresi"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "Mārciņas",
-    "kg": "Kilograms"
+    "kg": "Kilograms",
   },
   "mass_unit_name": {
     "g": "grams",
     "oz": "Unce",
     "lb": "Mārciņa",
-    "kg": "kilogramu"
+    "kg": "kilogramu",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "pēdas",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimetrs",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Pēda",
     "mm": "milimetrs",
     "m": "metrs",
-    "yd": "Pagalms"
+    "yd": "Pagalms",
   },
   "distance": {
     "m": "metrs",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Dienas",
     "hours": "Stundas",
     "minutes": "Minūtes",
-    "seconds": "Sekundes"
+    "seconds": "Sekundes",
   },
   "units": [
     "Vienība",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Valsts",
     "Territory": "Teritorija",
-    "Province": "Provincē"
+    "Province": "Provincē",
   },
   "transaction_status": {
     "RequireAction": "Nepieciešama darbība",
     "Processing": "Apstrāde",
     "Canceled": "Atcelts",
-    "Succeeded": "Izdevās"
+    "Succeeded": "Izdevās",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Džons Kokss",
@@ -885,7 +1078,17 @@ export default {
     "language": "Izvēlēties valodu..",
     "friend_email": "Jūsu drauga e-pasts...",
     "friend_name": "Izvēlēties. Tava drauga vārds",
-    "select_date": "Izvēlieties datumu..."
+    "select_date": "Izvēlieties datumu...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Apstiprināt",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maksimālais rakstzīmju skaits: {maxCount}",
     "invalid_url": "Nederīgs URL",
     "country_invalid": "Izvēlieties galamērķa valsti!",
-    "postal_code_invalid": "Iestatiet derīgu pasta indeksu!"
+    "postal_code_invalid": "Iestatiet derīgu pasta indeksu!",
   },
   "colors": {
     "#D32F2F": "sarkans",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Vienība",
     "postcode": "Pasta indekss",
     "note": "Piezīme",
-    "county": "Apgabals"
+    "county": "Apgabals",
   },
   "product_types": {
     "physical": "Fiziskā",
@@ -1004,13 +1207,13 @@ export default {
     "service": "apkalpošana",
     "service_description": "Pakalpojumi, piemēram: remonts, transportēšana, apmācība.",
     "subscription": "Abonēšana",
-    "subscription_description": "Produktu, pakalpojumu vai satura abonementi un rēķini."
+    "subscription_description": "Produktu, pakalpojumu vai satura abonementi un rēķini.",
   },
   "license": {
     "free": "Bezmaksas",
     "startup": "Uzsākt",
     "company": "Uzņēmums",
-    "enterprise": "Uzņēmums"
+    "enterprise": "Uzņēmums",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Krāsa",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Skaitīt iepakojumā",
     "weight": "Svars",
     "type": "Materiāls",
-    "style": "Stils"
+    "style": "Stils",
   },
   "delivery_state": {
     "check_queue": "Gaida pārskatīšanu",
     "order_confirm": "Pasūtījuma apstiprinājums",
     "preparing_order": "Gatavošanās",
     "sent_order": "Piegādes laikā",
-    "to_customer": "Piegādāts"
+    "to_customer": "Piegādāts",
   },
   "status": {
     "unpaid": "Neapmaksāts",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Noraidīt",
     "pending": "Gaida",
     "rejected": "Noraidīts",
-    "accepted": "Pieņemts"
+    "accepted": "Pieņemts",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "Kilograms"
+    "kg": "Kilograms",
   },
   "transportation_type": {
     "motorbike": "Motocikls",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Globālie pārvadājumi",
     "global_description": "Piegāde uz ārzemēm pa gaisu, jūru vai sauszemi.",
     "pickup": "Pacelt",
-    "pickup_description": "Klienti preces izņem jūsu fiziskajā veikalā vai noliktavā."
+    "pickup_description": "Klienti preces izņem jūsu fiziskajā veikalā vai noliktavā.",
   },
   "article": {
     "login_to_see_error": "Piesakieties, lai piekļūtu rakstam",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Rediģēšanas režīms",
       "view_mode": "Skatīšanas režīms",
-      "delete": "Dzēst rakstu"
+      "delete": "Dzēst rakstu",
     },
     "schedule_action": "Vai vēlaties ieplānot publicēšanu?",
     "schedule_title": "Ieplānot automātisko publicēšanu",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Ziņojiet par ļaunprātīgu izmantošanu un noņemiet saturu",
       "report_title": "Ziņojiet par šo saturu kā aizskarošu",
       "message": "Kāds ir šī satura iesniegšanas iemesls? Izvēlieties kādu no tālāk norādītajām opcijām.",
-      "accept_and_delete_action": "Apstipriniet un dzēsiet saturu"
+      "accept_and_delete_action": "Apstipriniet un dzēsiet saturu",
     },
     "schedule_dialog": {
       "title": "Satura izlaišanas grafiks",
       "publish_at": "Publicēt plkst",
       "last_edit": "Pēdējais labojums",
-      "view_action": "Skatīt rakstu"
+      "view_action": "Skatīt rakstu",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Iesniedziet informāciju",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Ziņot un dzēst",
       "report_and_delete_success_message": "Raksts ir veiksmīgi izdzēsts.",
       "report_success_title": "Ziņot par rakstu",
-      "report_success_message": "Jūsu ziņojums par šo rakstu ir publicēts."
+      "report_success_message": "Jūsu ziņojums par šo rakstu ir publicēts.",
     },
     "alert": {
       "delete_article": {
         "title": "Dzēst rakstu",
         "message": "Vai tiešām vēlaties neatgriezeniski dzēst šo rakstu?",
-        "action": "Dzēst"
-      }
+        "action": "Dzēst",
+      },
     },
     "edit_window": {
       "title": "Atlasiet Attēla teksts un kopsavilkums",
-      "digest": "Kopsavilkums"
+      "digest": "Kopsavilkums",
     },
     "editor": {
       "title_placeholder": "Nosaukums..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Šis fails ir pārāk liels:",
       "notifications": {
         "image_uploaded_success": "Attēls ir veiksmīgi saglabāts",
-        "image_uploaded_failed": "Ielādējot attēlu, radās kļūda."
+        "image_uploaded_failed": "Ielādējot attēlu, radās kļūda.",
       },
       "embed_placeholder": "Ievadiet iframe kodu, Facebook, Youtube vai jebkuru citu URL un nospiediet enter.",
       "embed_caption_placeholder": "Ievadiet nosaukumu (neobligāti)",
-      "images_caption_placeholder": "Ievadiet šī attēla nosaukumu."
-    }
+      "images_caption_placeholder": "Ievadiet šī attēla nosaukumu.",
+    },
   },
   "article_report": {
     "inappropriate": "Šī raksta saturs ir neatbilstošs.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Manuprāt, šis saturs satur pornogrāfiju un pārkāpj likumus.",
     "harassment": "Es domāju, ka tas ir rasistiski.",
     "hate": "Es domāju, ka šeit ir runa par vardarbības veicināšanu.",
-    "infringe": "Tas pārkāpj manas tiesības."
+    "infringe": "Tas pārkāpj manas tiesības.",
   },
   "comments": {
     "new_action": "Noklikšķiniet, lai atstātu komentāru..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Saņemiet vairāk komentāru..",
     "cant_send_comment": "Jūs nevarat pievienot jaunu ziņu.",
     "cant_remove_this_comment": "Jūs nevarat izdzēst šo komentāru!",
-    "product_buyer": "Pircējs",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Mani komentāri",
     "delete_alert": {
       "title": "Dzēst komentāru",
       "message": "Vai vēlaties dzēst šo komentāru?",
-      "action": "Dzēst"
+      "action": "Dzēst",
     },
     "notifications": {
-      "delete_success": "Jūsu komentārs ir veiksmīgi izdzēsts."
+      "delete_success": "Jūsu komentārs ir veiksmīgi izdzēsts.",
     },
     "first_send": "Pirmais ieraksts",
     "comment_at": "Ieslēgts",
     "edit_comment": "Rediģēt komentāru",
-    "my_comments": "Mani komentāri"
+    "product_buyer": "Pircējs",
   },
   "customer_club": {
     "bronze": "Bronza",
     "silver": "Sudrabs",
     "gold": "Zelta",
     "platinum": "Platīns",
-    "diamond": "Dimants"
+    "diamond": "Dimants",
   },
   "application_categories": {
     "tracking": "Lietotāja uzvedības pārbaude",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Reklāma",
     "staff": "Personāls",
     "incentive": "Stimuli",
-    "shop": "Veikals"
+    "shop": "Veikals",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Pievienot jaunu vienumu",
     "title_input": "Nosaukums",
+    "placeholder_input": "Vietturis",
     "name_input": "Mainīgais nosaukums",
     "value_input": "Vērtības",
     "value_input_message": "Lietotāju opciju saraksts",
     "default": "Noklusējuma vērtība",
+    "file_type_input": "Pieņemamie failu tipi",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Vienkārši",
       "selective": "Selektīvs",
       "switch": "Slēdzis",
       "file": "Fails",
-      "number": "Numurs"
+      "number": "Numurs",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Vietturis",
-    "file_type_input": "Pieņemamie failu tipi",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "produkta nosaukums",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Maksājuma statuss",
     "payment_status_waiting": "Gaida maksājumu",
     "payment_status_paid": "Apmaksāts",
-    "buyer": "Pircējs"
+    "buyer": "Pircējs",
   },
   "virtual_item_info": {
     "title": "Virtuāls vienums",
     "outputs": {
       "title": "Izvades informācija",
       "sub_title": "Konfidenciāla informācija par šo vienumu",
-      "message": "Šī informācija tiks parādīta lietotājam pēc preces iegādes."
+      "message": "Šī informācija tiks parādīta lietotājam pēc preces iegādes.",
     },
     "inputs": {
       "title": "Nepieciešama informācija",
       "sub_title": "Nepieciešama informācija par pircēju",
-      "message": "Pircējam veidlapā jāievada pieprasītā informācija"
+      "message": "Pircējam veidlapā jāievada pieprasītā informācija",
     },
     "notifications": {
       "inputs_set_success": "Informācijas veidlapa veiksmīgi reģistrēta.",
       "confirm_by_admin_success": "Pasūtījuma izpilde apstiprināta.",
-      "confirm_by_buyer_success": "Pasūtījuma izpilde apstiprināta."
-    }
+      "confirm_by_buyer_success": "Pasūtījuma izpilde apstiprināta.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Šo pasūtījumu nevar pieņemt ar COD maksājumu.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Nav noliktavā.",
     "legal_restriction": "Nevar veikt pasūtījumu juridisku ierobežojumu dēļ.",
     "pricing_fault": "Pārdevēja kļūda cenu noteikšanā.",
-    "system_fault": "Sistēmas kļūda."
+    "system_fault": "Sistēmas kļūda.",
   },
   "basket_order_info_summery": {
     "receiver": "Uztvērējs",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Atlaide",
     "final_price": "Galīgā summa",
     "address": "Piegādes adrese",
-    "payment_status": "Maksājuma statuss"
+    "payment_status": "Maksājuma statuss",
   },
   "basket_status": {
     "open": "Atvērt",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Atcelts",
     "cod": "Maksājiet pēc piegādes",
     "receipt_added": "Kvīts pievienota",
-    "payment_processing": "Maksājumu apstrāde"
+    "payment_processing": "Maksājumu apstrāde",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Noraidīts",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Apstiprinājums",
     "step_3": "Sagatavošana",
     "step_4": "Piegādes laikā",
-    "step_5": "Piegādāts"
+    "step_5": "Piegādāts",
   },
   "basket_return_request_view": {
     "title": "Atgriešanas pieprasījums",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Noraidīt pieprasījumu",
     "message_for_admin": "Saskaņā ar līgumu, kuru esat pieņēmis, izmantojot Selldone, jums ir jāsazinās ar pircēju un jāinformē viņš par pasūtījuma atgriešanas procesu. Tas jādara, ja pieprasījums tiek pieņemts vai noraidīts un ir iegūta pircēja pilnīga piekrišana.",
     "notifications": {
-      "update_status_success": "Pieprasījuma statuss atjaunināts."
-    }
+      "update_status_success": "Pieprasījuma statuss atjaunināts.",
+    },
   },
   "basket_list": {
     "return_count": "Atgriezties: {count} numurs",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variants",
       "warranty": "Garantijas",
       "count": "Skaitīt",
-      "price": "cena"
-    }
+      "price": "cena",
+    },
   },
   "return_request_list": {
     "count": "Atsauces numurs",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Saņemšanas datums",
       "state": "Statuss",
       "reason": "Iemesls",
-      "return_warranty_period": "Garantijas periods"
-    }
+      "return_warranty_period": "Garantijas periods",
+    },
   },
   "data_toolbar": {
     "search": "Meklēt",
     "sort_by": "Kārtot pēc",
-    "count_item": "Rādīt {item} vienumus"
+    "count_item": "Rādīt {item} vienumus",
   },
   "sort": {
     "created_at": "Izveidot datumu",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "virsnieks",
     "registered": "Reģistrēts",
     "purchased": "Iegādāts",
-    "sex": "Dzimums"
+    "sex": "Dzimums",
   },
   "search_box": {
     "result": "Meklēšanas rezultāti",
     "tips": "Meklēt produktus un kategorijas",
     "label": "Meklēt ...",
-    "category": "Kategorija"
+    "category": "Kategorija",
   },
   "lead_status": {
     "physical_fast_delivery": "Tūlītēja piegāde",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Notiek sagatavošana un iesniegšana no nākamajām {days} dienām",
     "virtual_fast_prepare": "Tūlītēja piegāde",
     "virtual_under_24h": "Tiks paveikts nākamo {lead} stundu laikā",
-    "virtual_over_24h": "Tiks veikts no nākamajām {days} dienām"
+    "virtual_over_24h": "Tiks veikts no nākamajām {days} dienām",
   },
   "return_request_state": {
     "pending": "Gaida",
     "accepted": "Apstiprināts",
-    "rejected": "Noraidīts"
+    "rejected": "Noraidīts",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Iepakojuma vai sērijas numura viltošana",
       "U5": "Trūkst dažas preces no pakas",
       "U6": "Prece nav oriģināla",
-      "U7": "Prece neatbilst specifikācijām"
-    }
+      "U7": "Prece neatbilst specifikācijām",
+    },
   },
   "image_uploader": {
     "label": "Velciet un nometiet vai <u>atlasiet failu</u>",
-    "max_size": "Maksimālais atļautais izmērs: {size}"
+    "max_size": "Maksimālais atļautais izmērs: {size}",
   },
   "timespan": {
     "Morning": "8:00–12:00",
     "Evening": "12:00 līdz 18:00",
     "Night": "18:00-12:00",
-    "Instant": "Tūlītēja ziņa"
+    "Instant": "Tūlītēja ziņa",
   },
   "week_day": {
     "Saturday": "sestdiena",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "otrdiena",
     "Wednesday": "trešdiena",
     "Thursday": "ceturtdiena",
-    "Friday": "piektdiena"
+    "Friday": "piektdiena",
   },
   "payment_form": {
     "title": "Izvēlieties Maksājuma veids",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Apsveicam, jūsu pasūtījums ir bezmaksas!",
     "order_free_payment_action": "Pasūtiet bez maksas tūlīt",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Maksājumu adrese",
-      "amount": "Summa"
-    }
+      "amount": "Summa",
+    },
   },
   "discount_input": {
     "limit": "{percent}% atlaide līdz {limit} {currency}",
     "action": "Pievienojiet atlaides kodu",
     "code_input": "Atlaides kods",
     "notifications": {
-      "add_success": "Apsveicam, derīgs atlaides kods."
-    }
+      "add_success": "Apsveicam, derīgs atlaides kods.",
+    },
   },
   "gift_card": {
     "inactive": "Karte ir atspējota",
     "expire": "Derīguma termiņš",
     "transfer": "Pārsūtīšana",
-    "send_to_friend": "Nosūtīt draugam"
+    "send_to_friend": "Nosūtīt draugam",
   },
   "count_down": {
     "days": "diena",
     "hours": "Stunda",
     "minutes": "Minūtes",
-    "seconds": "Sekundes"
+    "seconds": "Sekundes",
   },
   "gift_status": {
     "Unpaid": "Gaida kvīti",
     "Paid": "Apmaksāts",
     "Rejected": "Noraidīts",
-    "Canceled": "Atcelts"
+    "Canceled": "Atcelts",
   },
   "gift_program_status": {
     "Airdrop": "Maksājumu sistēma",
     "Advertising": "Reklāma",
     "PersonalGift": "Personīgā dāvana",
-    "ShopGift": "Dāvanu veikals"
+    "ShopGift": "Dāvanu veikals",
   },
   "currency_selector": {
-    "label": "Valūta"
+    "label": "Valūta",
   },
   "need_login": {
     "title": "Pieslēgties",
     "login_sms": "SMS pieteikšanās",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Piesakieties ar Google",
     "login_facebook": "Piesakieties ar Facebook",
+    "login_apple": "Piesakieties ar Apple",
     "login_account": "Pieteikšanās ar Selldone",
     "register": "Jauns lietotājs? Reģistrējies tagad.",
     "mobile_input": "Ievadiet savu mobilo tālruni",
     "verification_code": "Verifikācijas kods",
     "msg_title": "Sveiki,",
     "msg_body": "Lūdzu, piesakieties. Tas aizņem tikai dažas sekundes.",
-    "login_apple": "Piesakieties ar Apple",
     "login_email": "Pieteikšanās pa e-pastu",
     "email_login_step_1": "Lūdzu, norādiet derīgu e-pasta adresi, un mēs uz to nosūtīsim pieteikšanās kodu. Reģistrācija nav nepieciešama.",
     "email_login_step_2": "Vai esat pārliecināts, ka esat pareizi ievadījis savu e-pasta adresi? Mēs nosūtīsim pieteikšanās kodu uz norādīto e-pastu, tāpēc, lūdzu, pārbaudiet tā precizitāti.",
-    "email_login_step_3": "Mēs esam nosūtījuši kodu uz jūsu e-pastu. Lūdzu, ņemiet vērā, ka koda derīguma termiņš beigsies pēc 10 minūtēm."
+    "email_login_step_3": "Mēs esam nosūtījuši kodu uz jūsu e-pastu. Lūdzu, ņemiet vērā, ka koda derīguma termiņš beigsies pēc 10 minūtēm.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 gadu zelta veikals"
+      "name": "5 gadu zelta veikals",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 gadu zelta veikals"
+      "name": "4 gadu zelta veikals",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 gadu zelta veikals"
+      "name": "3 gadu zelta veikals",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 gadu zelta veikals"
+      "name": "2 gadu zelta veikals",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 gada zelta veikals"
+      "name": "1 gada zelta veikals",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Zelta investors"
+      "name": "Zelta investors",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Dimanta investors"
+      "name": "Dimanta investors",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Rubīna investors"
+      "name": "Rubīna investors",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Komunikāciju tīklu augstākās kopienas loceklis"
+      "name": "Komunikāciju tīklu augstākās kopienas loceklis",
     },
     "GOLD_SUPPLIER": {
-      "name": "Zelta piegādātājs"
+      "name": "Zelta piegādātājs",
     },
     "GOLD_SELLER": {
-      "name": "Zelta tirgotājs"
+      "name": "Zelta tirgotājs",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Labākais satura producents"
+      "name": "Labākais satura producents",
     },
     "NINJA": {
-      "name": "Nindzja"
+      "name": "Nindzja",
     },
     "STAR": {
-      "name": "Zvaigzne"
+      "name": "Zvaigzne",
     },
     "GUARDIAN": {
-      "name": "Lieliska klientu apkalpošana"
+      "name": "Lieliska klientu apkalpošana",
     },
     "KING": {
-      "name": "Tirgus karalis"
-    }
+      "name": "Tirgus karalis",
+    },
   },
   "cookie": {
     "title": "Šī vietne izmanto sīkdatnes",
     "message": "Šī vietne izmanto sīkfailus, lai uzlabotu lietotāja pieredzi. Izmantojot mūsu vietni, jūs piekrītat visām sīkdatnēm saskaņā ar mūsu sīkfailu politiku.",
     "preferences_action": "Pārvaldīt preferences",
-    "agree_action": "ES piekrītu"
+    "agree_action": "ES piekrītu",
   },
   "basket_item_message": {
     "title": "Nepieciešamā informācija par šo vienumu",
     "save_actions": "Saglabāt ziņojumu",
+    "product_inputs_preview_message": "Šīs pielāgošanas iespējas ir pieejamas jūsu pasūtītajam produktam. Kad prece ir pievienota jūsu grozam, šeit varēsiet veikt korekcijas.",
     "notifications": {
-      "success": "Jūsu ievadītie dati ir saglabāti."
+      "success": "Jūsu ievadītie dati ir saglabāti.",
     },
-    "product_inputs_preview_message": "Šīs pielāgošanas iespējas ir pieejamas jūsu pasūtītajam produktam. Kad prece ir pievienota jūsu grozam, šeit varēsiet veikt korekcijas."
   },
   "faq": {
     "faq": "bieži uzdotie jautājumi",
     "title": "Jautājumi un atbildes",
-    "sub_title": "Ko jūs lūdzāt mums darīt.",
     "message": "Atbildi uz savu jautājumu meklējiet starp tālāk sniegtajām atbildēm. Jautājiet mums, ja jautājumi paliek neatbildēti.",
     "add_question_action": "Uzdot jaunu jautājumu",
     "read_more": "Lasīt vairāk ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Jautājums",
     "question_input_placeholder": "Uzdodiet savu jautājumu.",
     "notifications": {
-      "success_add": "Jūsu jautājums ir veiksmīgi iesniegts."
-    }
+      "success_add": "Jūsu jautājums ir veiksmīgi iesniegts.",
+    },
+    "sub_title": "Ko jūs lūdzāt mums darīt.",
   },
   "rating_labels": [
     "Ļoti slikti",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Ievadiet galamērķa adresi",
     "enter_your_address": "Ievadiet savu adresi.",
     "postal_code": "Pasta indekss",
-    "phone_input": "Tālrunis {type}",
+    "phone_input": "Tālrunis",
     "building_number": "Ēkas numurs",
     "building_unit": "Vienība",
     "full_name_input": "Pilns vārds {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Adreses etiķete (obligāti)",
     "notifications": {
       "save_in_list": "Šī adrese ir saglabāta jūsu sarakstā ar visu informāciju.",
-      "edit_success": "Jaunas adreses vērtības ir saglabātas mapē {title}."
+      "edit_success": "Jaunas adreses vērtības ir saglabātas mapē {title}.",
     },
     "delete_address_dialog": {
       "title": "Dzēst adresi",
       "message": "Vai tiešām vēlaties dzēst šo adresi?",
-      "action": "Noņemt adresi"
-    }
+      "action": "Noņemt adresi",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Šo komentāru nevar rediģēt!",
     "comment_input_empty": "Ziņojuma teksts ir tukšs!",
-    "article_not_saved": "Saglabā rakstu!"
+    "article_not_saved": "Saglabā rakstu!",
   },
   "wheel_fortune": {
     "title": "Spēlēt un uzvarēt",
     "message": "Katras spēles cena ir 10 žetoni. Pašlaik jums ir {chips} mikroshēma. Iegūstiet vairāk mikroshēmu, iegādājoties veikalā.",
     "win_message": "Apsveicam, jūs uzvarējāt!",
     "lost_message": "Atvainojiet, jūs zaudējāt spēli.",
-    "try_again": "Varat mēģināt vēlreiz"
+    "try_again": "Varat mēģināt vēlreiz",
   },
   "json": {
     "add": "Pievienojiet struktūras datus",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Struktūras",
     "book": {
       "title": "Grāmata",
-      "desc": "Grāmatu darbības, kas ļauj lietotājiem iegādāties grāmatu, ko viņi atrod tieši no meklēšanas rezultātiem."
+      "desc": "Grāmatu darbības, kas ļauj lietotājiem iegādāties grāmatu, ko viņi atrod tieši no meklēšanas rezultātiem.",
     },
     "occupation": {
       "title": "Paredzamā alga",
-      "desc": "Informācija par algu aprēķiniem, piemēram, algu diapazoni un reģioniem noteiktās vidējās algas darba veidiem, kas tiek rādīta darba meklēšanas pieredzē Google tīklā."
+      "desc": "Informācija par algu aprēķiniem, piemēram, algu diapazoni un reģioniem noteiktās vidējās algas darba veidiem, kas tiek rādīta darba meklēšanas pieredzē Google tīklā.",
     },
     "course": {
       "title": "Kurss",
-      "desc": "Izglītības kursi, kas tiek rādīti pakalpojumu sniedzēja sarakstā. Kursi var ietvert kursa nosaukumu, nodrošinātāju un īsu aprakstu."
+      "desc": "Izglītības kursi, kas tiek rādīti pakalpojumu sniedzēja sarakstā. Kursi var ietvert kursa nosaukumu, nodrošinātāju un īsu aprakstu.",
     },
     "howto": {
       "title": "Kā",
-      "desc": "Pamācība palīdz lietotājiem veikt darbību kopumu, lai veiksmīgi izpildītu uzdevumu, ietverot video, attēlus un tekstu."
+      "desc": "Pamācība palīdz lietotājiem veikt darbību kopumu, lai veiksmīgi izpildītu uzdevumu, ietverot video, attēlus un tekstu.",
     },
     "recipe": {
       "title": "Recepte",
-      "desc": "Receptes, kas tiek rādītas kā individuāls bagātināts rezultāts vai daļa no saimniekdatora karuseļa."
-    }
+      "desc": "Receptes, kas tiek rādītas kā individuāls bagātināts rezultāts vai daļa no saimniekdatora karuseļa.",
+    },
   },
   "support": {
     "Financial": "Finanšu",
     "Technical": "Tehnisks",
-    "Advisor": "Padomnieks"
+    "Advisor": "Padomnieks",
   },
   "condition": {
     "new": "Jauns",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Lietots",
     "used_fair": "Lietots godīgs",
     "used_good": "Lietots labs",
-    "used_like_new": "Lietots kā jauns"
+    "used_like_new": "Lietots kā jauns",
   },
   "variant_filter": {
     "title": "Produkta variantu filtrs",
-    "only_available": "Noliktavā"
+    "only_available": "Noliktavā",
   },
   "service": {
     "task": {
       "title": "Uzdevumi",
-      "message": "Šajā pakalpojumā veikto uzdevumu saraksts."
+      "message": "Šajā pakalpojumā veikto uzdevumu saraksts.",
     },
     "appointment": {
       "title": "Pieraksts",
-      "message": "Izvēlieties nedēļas laikus no tālāk norādītajiem laikiem, pamatojoties uz jums piemērotāko dienu un stundu."
+      "message": "Izvēlieties nedēļas laikus no tālāk norādītajiem laikiem, pamatojoties uz jums piemērotāko dienu un stundu.",
     },
     "booking": {
       "title": "Rezervēšana",
-      "message": "Tālāk esošajā kalendārā norādiet dienu laika periodu, kurā vēlaties veikt rezervāciju."
+      "message": "Tālāk esošajā kalendārā norādiet dienu laika periodu, kurā vēlaties veikt rezervāciju.",
     },
     "subscription": {
-      "title": "Abonēšana"
+      "title": "Abonēšana",
     },
     "charge": {
-      "title": "Uzlādē"
-    }
+      "title": "Uzlādē",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fiksēta cenu noteikšana",
-      "message": "Šāda veida cenu veidošanā preces cena ir fiksēta summa un pircējam nav jāpieprasa cenas aprēķins."
+      "message": "Šāda veida cenu veidošanā preces cena ir fiksēta summa un pircējam nav jāpieprasa cenas aprēķins.",
     },
     "ESTIMATION": {
       "title": "Paredzamās cenas",
-      "message": "Preču un pakalpojumu cenas zināmā mērā aprēķinās pārdevējs, veicot pasūtījumu, pakalpojuma laikā var tikt mainīti vai pievienoti maksājumu rēķini."
+      "message": "Preču un pakalpojumu cenas zināmā mērā aprēķinās pārdevējs, veicot pasūtījumu, pakalpojuma laikā var tikt mainīti vai pievienoti maksājumu rēķini.",
     },
     "AGREEMENT": {
       "title": "Līguma cenas",
-      "message": "Preču vai pakalpojumu galīgo cenu pārdevējs nemainīs pēc pasūtījuma veikšanas."
+      "message": "Preču vai pakalpojumu galīgo cenu pārdevējs nemainīs pēc pasūtījuma veikšanas.",
     },
     "BID": {
       "title": "Solīšana / Izsole",
-      "message": "Prece tiks pārdota par augstāko piedāvāto cenu, ko piedāvās potenciālie pircēji."
-    }
+      "message": "Prece tiks pārdota par augstāko piedāvāto cenu, ko piedāvās potenciālie pircēji.",
+    },
   },
   "map": {
     "title": "Produktu saņemšanas galamērķis",
     "confirm": "Iestatīt atrašanās vietu",
     "address": "Galamērķis",
-    "receptor": "Uztvērējs"
+    "receptor": "Uztvērējs",
   },
   "ShopBots": {
-    "telegram": "Telegramma"
+    "telegram": "Telegramma",
   },
   "article_tags": {
     "title": "Satura tagi",
     "tags_input": "Tagi",
     "tags_input_message": "Tags Šī raksta saraksts",
     "notification": {
-      "add_success": "Atzīmes pievienotas"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Ļoti sarežģīti",
-    "hard": "Grūti",
-    "intermediate": "Vidēja līmeņa",
-    "easy": "Viegli"
-  },
-  "billing_period": {
-    "Daily": "Ikdienas",
-    "Weekly": "Iknedēļas",
-    "Monthly": "Ikmēneša",
-    "Every3Months": "Ik pēc 3 mēnešiem",
-    "Every6Months": "Ik pēc 6 mēnešiem",
-    "Yearly": "Ik gadu"
+      "add_success": "Atzīmes pievienotas",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Ak nav labi!",
     "between2_3": "Ir labi!",
     "between3_4": "Cilvēkiem patīk!",
-    "between4_5": "Cilvēkiem tas patīk!"
+    "between4_5": "Cilvēkiem tas patīk!",
   },
   "seasons": {
     "spring": "Pavasaris",
     "summer": "Vasara",
     "autumn": "Rudens",
-    "winter": "Ziema"
-  }
+    "winter": "Ziema",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

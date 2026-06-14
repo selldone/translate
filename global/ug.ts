@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "ئىشلىتىش شەرتلىرى ۋە مەخپىيەتلىك سىياسىتىنى ئوقۇپ ، ئۇلار بىلەن قوشۇلىمەن.",
   "commons": {
     "Currency": "پۇل",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "شىتات",
     "Price": "باھاسى",
@@ -169,6 +170,7 @@ export default {
     "net_price": "ساپ باھاسى",
     "tax": "باج",
     "tax_included": "باھاغا كىرگۈزۈلگەن",
+    "tax_included_abstract": "incl.",
     "limit": "چەك",
     "min_purchase": "ئەڭ تۆۋەن سېتىۋېلىش",
     "eligible_for": "لاياقەتلىك",
@@ -302,6 +304,7 @@ export default {
     "created_at": "قۇرۇلغان چېسلا",
     "updated_at": "ئاخىرقى يېڭىلانما",
     "register_at": "تىزىملىتىش ۋاقتى",
+    "last_modified": "Last modified",
     "old": "كونا",
     "new": "يېڭى",
     "start": "باشلاش",
@@ -330,6 +333,7 @@ export default {
     "reseller": "ساتقۇچى",
     "tracking_code": "ئىز قوغلاش كودى",
     "tracking_url": "ئىز قوغلاش URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Fulfillments",
     "reject": "رەت قىلىش",
     "reserved": "زاپاسلاندى",
@@ -341,6 +345,7 @@ export default {
     "waiting": "ساقلاش ...",
     "waiting_connecting_payment": "پۇل تۆلەش مۇلازىمىتىنى ساقلاش ...",
     "creating_secure_payment": "بىخەتەر پۇل تۆلەش.",
+    "waiting_for_payment": "پۇل تۆلەشنى تاماملاڭ ...",
     "officer": "ئەمەلدار",
     "ticket": "بېلەت",
     "ticket_url": "بېلەت ئادرېسى",
@@ -361,7 +366,6 @@ export default {
     "rates": "باھا",
     "seen_at": "Seen at",
     "completed": "تاماملاندى",
-    "you": "سەن",
     "shop": "دۇكان",
     "store": "دۇكان",
     "granted": "ماقۇل",
@@ -498,6 +502,7 @@ export default {
     "tablet": "تاختا كومپيۇتېر",
     "pc": "PC",
     "acquisition_channel": "سېتىۋېلىش قانىلى",
+    "channels_overview": "Channels overview",
     "to": "To",
     "info": "ئۇچۇر",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "ھەر بىر مەھسۇلات",
     "journey": "Journey",
     "after": "After",
-    "waiting_for_payment": "پۇل تۆلەشنى تاماملاڭ ...",
     "hour": "سائەت",
     "minute": "مىنۇت",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "دۇكانلار",
     "vendor": "ساتقۇچى",
     "vendors": "ساتقۇچىلار",
+    "no_vendors": "No vendors",
     "marketplace": "بازار",
     "verify_date": "چېسلانى دەلىللەڭ",
     "note": "دىققەت",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "بىخەتەر",
     "admin": "باشقۇرغۇچى",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "ھەق تۆلەنمىدى!",
     "orders_list": "زاكاز تىزىملىكى",
     "subscription_plan": "مۇشتەرىلىك پىلانى",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clusters",
     "subscriptions": "مۇشتەرى بولۇش",
     "spam": "ئەخلەت خەت",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "سەن",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "بەك مۇرەككەپ",
+    "hard": "قاتتىق",
+    "intermediate": "Intermediate",
+    "easy": "ئاسان",
   },
   "dialogs": {
     "delete": {
       "title": "ئۆچۈرۈش",
       "message": "بۇ تۈرنى ئۆچۈرەمسىز؟",
-      "action": "ھەئە ، ھازىر ئۆچۈرۈڭ"
-    }
+      "action": "ھەئە ، ھازىر ئۆچۈرۈڭ",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "ھارۋىغا قوشۇڭ",
     "cancel": "بىكار قىلىش",
     "update": "يېڭىلاش",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "سوۋغات كارتىسى قوشۇڭ",
     "charge": "ھەق ئېلىش",
     "send_invites": "تەكلىپنامە ئەۋەتىڭ",
-    "past": "ئۆتمۈش",
+    "paste": "چاپلاش",
     "restore": "ئەسلىگە كەلتۈرۈش",
     "cut": "كېسىڭ",
     "get_sms_code": "دەلىللەش كودىغا ئېرىشىڭ",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "ئالدىن كۆرۈش",
     "hide_preview": "ئالدىن كۆرۈشنى يوشۇرۇش",
     "download_now": "ھازىر چۈشۈرۈڭ",
+    "watch_now": "ھازىر كۆرۈڭ",
     "auto_fill": "Autofill",
     "track": "ئىز قوغلاش",
     "change_state": "ھالەتنى ئۆزگەرتىش",
     "done": "تامام",
     "reply": "جاۋاب",
-    "watch_now": "ھازىر كۆرۈڭ",
     "unlock": "قۇلۇپ ئېچىش",
     "lock": "قۇلۇپ",
     "create_clone": "كلون قۇر",
@@ -773,41 +931,71 @@ export default {
     "buy": "سېتىۋېلىش",
     "view_all": "ھەممىنى كۆرۈش",
     "view_now": "ھازىر كۆرۈش",
-    "paste": "چاپلاش"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "ئۆتمۈش",
+  },
+  "billing_period": {
+    "Daily": "كۈندىلىك",
+    "Weekly": "ھەپتىلىك",
+    "Monthly": "ئايلىق",
+    "Every3Months": "ھەر 3 ئايدا",
+    "Every6Months": "ھەر 6 ئايدا",
+    "Yearly": "يىللىق",
   },
   "instance_message_title": "تېز ئۇچۇر يوللاڭ",
-  "instance_message": "ئەسسالامۇئەلەيكۇم {name} ، مېنىڭ ئىسمىم {شىركەت {author} ئاپتور}.",
+  "instance_message": "Hi {name}, \nMy name is {author} from {company}.",
   "errors": {
     "419": "سىز ئۇزۇندىن بۇيان ھەرىكەتسىز <b>بولۇپسىز</b> ، بىخەتەرلىكنى كۆزدە تۇتۇڭ.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "بۇ سىستېما blockchain بىلەن ماسلاشمايدۇ. مۇلازىمېتىرلىرىمىزنىڭ ماس قەدەملىرى تاماملانمىغۇچە يېڭى سودا ھاسىل قىلىش مۇمكىن ئەمەس. بىز مەسىلىنى ھەل قىلىۋاتىمىز.",
-    "gateway_network_error": "ھەق تۆلەش ئېغىزى مۇلازىمىتى ئالاقىلىشىش مەسىلىسىگە يولۇقتى."
+    "gateway_network_error": "ھەق تۆلەش ئېغىزى مۇلازىمىتى ئالاقىلىشىش مەسىلىسىگە يولۇقتى.",
   },
   "receiver_info": {
     "map": {
       "title": "توشۇش ئادرېسى",
       "confirm": "ئورۇن بەلگىلەڭ",
       "address_type": "مەنزىل",
-      "receptor_type": "تاپشۇرۇۋالغۇچى"
+      "receptor_type": "تاپشۇرۇۋالغۇچى",
     },
     "receiver_address": "توشۇش ئادرېسىنى تاللاڭ",
+    "service_address": "ئادرېسىڭىزنى تاللاڭ",
+    "select_billing_address": "Select billing address",
     "address": "ئادرېس",
     "postcode": "پوچتا نومۇرى",
     "enter_value": "بۇ يەرنى تولدۇرۇڭ",
     "address_note": "دىققەت",
     "tel": "ئالاقىلىشىش نومۇرى",
-    "service_address": "ئادرېسىڭىزنى تاللاڭ"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb.",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "گرام",
     "oz": "Ounce",
     "lb": "Pound",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimeter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "پۇت",
     "mm": "مىللىمېتىر",
     "m": "مېتىر",
-    "yd": "Yard"
+    "yd": "Yard",
   },
   "distance": {
     "m": "مېتىر",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "كۈنلەر",
     "hours": "سائەت",
     "minutes": "مىنۇت",
-    "seconds": "سېكۇنت"
+    "seconds": "سېكۇنت",
   },
   "units": [
     "بىرلىك",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "شىتات",
     "Territory": "Territory",
-    "Province": "ئۆلكە"
+    "Province": "ئۆلكە",
   },
   "transaction_status": {
     "RequireAction": "ھەرىكەت تەلەپ قىلىنىدۇ",
     "Processing": "بىر تەرەپ قىلىش",
     "Canceled": "ئەمەلدىن قالدۇرۇلدى",
-    "Succeeded": "مۇۋەپپەقىيەت قازاندى"
+    "Succeeded": "مۇۋەپپەقىيەت قازاندى",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "تىل تاللاڭ ..",
     "friend_email": "دوستىڭىزنىڭ ئېلېكترونلۇق خەت ...",
     "friend_name": "Opt. دوستىڭىزنىڭ ئىسمى",
-    "select_date": "چېسلانى تاللاڭ ..."
+    "select_date": "چېسلانى تاللاڭ ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "جەزملەشتۈرۈڭ",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max {maxCount} ھەرپلىرى",
     "invalid_url": "ئىناۋەتسىز URL",
     "country_invalid": "نىشان دۆلەتنى تاللاڭ!",
-    "postal_code_invalid": "ئىناۋەتلىك پوچتا نومۇرىنى بەلگىلەڭ!"
+    "postal_code_invalid": "ئىناۋەتلىك پوچتا نومۇرىنى بەلگىلەڭ!",
   },
   "colors": {
     "#D32F2F": "قىزىل",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "بىرلىك",
     "postcode": "پوچتا نومۇرى",
     "note": "دىققەت",
-    "county": "ناھىيە"
+    "county": "ناھىيە",
   },
   "product_types": {
     "physical": "Physical",
@@ -1004,13 +1207,13 @@ export default {
     "service": "مۇلازىمەت",
     "service_description": "قاتارلىق مۇلازىمەتلەر: رېمونت قىلىش ، توشۇش ، ئوقۇتۇش.",
     "subscription": "مۇشتەرى بولۇش",
-    "subscription_description": "مەھسۇلات ، مۇلازىمەت ياكى مەزمۇنغا مۇشتەرى بولۇش ۋە تالون."
+    "subscription_description": "مەھسۇلات ، مۇلازىمەت ياكى مەزمۇنغا مۇشتەرى بولۇش ۋە تالون.",
   },
   "license": {
     "free": "ھەقسىز",
     "startup": "ئىگىلىك تىكلەش",
     "company": "شىركەت",
-    "enterprise": "كارخانا"
+    "enterprise": "كارخانا",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "رەڭ",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "بوغچا ساناپ بېقىڭ",
     "weight": "ئېغىرلىقى",
     "type": "ماتېرىيال",
-    "style": "ئۇسلۇب"
+    "style": "ئۇسلۇب",
   },
   "delivery_state": {
     "check_queue": "تەكشۈرۈشنى كۈتمەكتە",
     "order_confirm": "زاكاز جەزملەشتۈرۈش",
     "preparing_order": "تەييارلىق قىلىش",
     "sent_order": "مال يەتكۈزۈشتە",
-    "to_customer": "يەتكۈزۈلدى"
+    "to_customer": "يەتكۈزۈلدى",
   },
   "status": {
     "unpaid": "تۆلىمىگەن",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "رەت قىلىش",
     "pending": "ساقلىنىۋاتىدۇ",
     "rejected": "رەت قىلىندى",
-    "accepted": "قوبۇل قىلىندى"
+    "accepted": "قوبۇل قىلىندى",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "موتسىكلىت",
@@ -1224,7 +1429,7 @@ export default {
     "global": "يەرشارى قاتناش",
     "global_description": "ھاۋا ، دېڭىز ياكى قۇرۇقلۇق ئارقىلىق چەتئەلگە توشۇش.",
     "pickup": "Pickup",
-    "pickup_description": "خېرىدارلار فىزىكىلىق دۇكىنىڭىز ياكى ئامبىرىڭىزدىكى نەرسىلەرنى ئالىدۇ."
+    "pickup_description": "خېرىدارلار فىزىكىلىق دۇكىنىڭىز ياكى ئامبىرىڭىزدىكى نەرسىلەرنى ئالىدۇ.",
   },
   "article": {
     "login_to_see_error": "ماقالىگە كىرىش ئۈچۈن كىرىڭ",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "تەھرىرلەش ھالىتى",
       "view_mode": "كۆرۈش ھالىتىنى كۆرۈش",
-      "delete": "ماقالىنى ئۆچۈرۈڭ"
+      "delete": "ماقالىنى ئۆچۈرۈڭ",
     },
     "schedule_action": "نەشر قىلىشنى ئورۇنلاشتۇرماقچىمۇ؟",
     "schedule_title": "ئاپتوماتىك نەشر قىلىش جەدۋىلى",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "سۇيىئىستېمالنى دوكلات قىلىڭ ۋە مەزمۇننى ئۆچۈرۈڭ",
       "report_title": "بۇ مەزمۇننى ھاقارەت دەپ دوكلات قىلىڭ",
       "message": "بۇ مەزمۇننى يوللاشنىڭ سەۋەبى نېمە؟ تۆۋەندىكى تاللاشلارنىڭ بىرىنى تاللاڭ.",
-      "accept_and_delete_action": "مەزمۇننى جەزملەشتۈرۈش ۋە ئۆچۈرۈش"
+      "accept_and_delete_action": "مەزمۇننى جەزملەشتۈرۈش ۋە ئۆچۈرۈش",
     },
     "schedule_dialog": {
       "title": "مەزمۇن ئېلان قىلىش جەدۋىلى",
       "publish_at": "ئېلان قىلىڭ",
       "last_edit": "ئاخىرقى تەھرىر",
-      "view_action": "ماقالىنى كۆرۈش"
+      "view_action": "ماقالىنى كۆرۈش",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "ئۇچۇر يوللاش",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "دوكلات ۋە ئۆچۈرۈش",
       "report_and_delete_success_message": "ماقالە مۇۋەپپەقىيەتلىك ئۆچۈرۈلدى.",
       "report_success_title": "دوكلات ماقالىسى",
-      "report_success_message": "بۇ ماقالىڭىزدىكى دوكلاتىڭىز ئېلان قىلىندى."
+      "report_success_message": "بۇ ماقالىڭىزدىكى دوكلاتىڭىز ئېلان قىلىندى.",
     },
     "alert": {
       "delete_article": {
         "title": "ماقالىنى ئۆچۈرۈڭ",
         "message": "بۇ ماقالىنى مەڭگۈلۈك ئۆچۈرمەكچىمۇ؟",
-        "action": "ئۆچۈرۈش"
-      }
+        "action": "ئۆچۈرۈش",
+      },
     },
     "edit_window": {
       "title": "رەسىم تېكىستى ۋە خۇلاسە تاللاڭ",
-      "digest": "خۇلاسە"
+      "digest": "خۇلاسە",
     },
     "editor": {
       "title_placeholder": "Title ..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "بۇ ھۆججەت بەك چوڭ:",
       "notifications": {
         "image_uploaded_success": "رەسىم مۇۋەپپەقىيەتلىك ساقلاندى",
-        "image_uploaded_failed": "رەسىم يۈكلەشتە خاتالىق."
+        "image_uploaded_failed": "رەسىم يۈكلەشتە خاتالىق.",
       },
       "embed_placeholder": "Iframe كودى ، Facebook ، Youtube ياكى باشقا URL لارنى كىرگۈزۈپ Enter نى بېسىڭ.",
       "embed_caption_placeholder": "ماۋزۇ كىرگۈزۈڭ (ئىختىيارىي)",
-      "images_caption_placeholder": "بۇ رەسىمنىڭ نامىنى كىرگۈزۈڭ .."
-    }
+      "images_caption_placeholder": "بۇ رەسىمنىڭ نامىنى كىرگۈزۈڭ ..",
+    },
   },
   "article_report": {
     "inappropriate": "بۇ ماقالىنىڭ مەزمۇنى مۇۋاپىق ئەمەس.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "مېنىڭچە بۇ مەزمۇندا شەھۋانىي مەزمۇنلار بار بولۇپ ، قانۇنغا خىلاپ.",
     "harassment": "مېنىڭچە بۇ ئىرقچىلىق.",
     "hate": "مېنىڭچە بۇ زوراۋانلىقنى ئىلگىرى سۈرۈش بىلەن مۇناسىۋەتلىك.",
-    "infringe": "بۇ مېنىڭ ھوقۇقىمغا دەخلى-تەرۇز قىلدى."
+    "infringe": "بۇ مېنىڭ ھوقۇقىمغا دەخلى-تەرۇز قىلدى.",
   },
   "comments": {
     "new_action": "باھا يېزىش ئۈچۈن چېكىڭ ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "تېخىمۇ كۆپ باھاغا ئېرىشىڭ ..",
     "cant_send_comment": "يېڭى يازما قوشالمايسىز.",
     "cant_remove_this_comment": "بۇ باھانى ئۆچۈرەلمەيسىز!",
-    "product_buyer": "سېتىۋالغۇچى",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "مېنىڭ باھالىرىم",
     "delete_alert": {
       "title": "ئىنكاسنى ئۆچۈرۈڭ",
       "message": "بۇ باھانى ئۆچۈرمەكچىمۇ؟",
-      "action": "ئۆچۈرۈش"
+      "action": "ئۆچۈرۈش",
     },
     "notifications": {
-      "delete_success": "باھايىڭىز مۇۋەپپەقىيەتلىك ئۆچۈرۈلدى."
+      "delete_success": "باھايىڭىز مۇۋەپپەقىيەتلىك ئۆچۈرۈلدى.",
     },
     "first_send": "بىرىنچى يازما",
     "comment_at": "On",
     "edit_comment": "ئىنكاسنى تەھرىرلەش",
-    "my_comments": "مېنىڭ باھالىرىم"
+    "product_buyer": "سېتىۋالغۇچى",
   },
   "customer_club": {
     "bronze": "مىس",
     "silver": "كۈمۈش",
     "gold": "ئالتۇن",
     "platinum": "پىلاتىنا",
-    "diamond": "ئالماس"
+    "diamond": "ئالماس",
   },
   "application_categories": {
     "tracking": "ئىشلەتكۈچىنىڭ ھەرىكىتىنى تەكشۈرۈش",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "ئېلان",
     "staff": "خىزمەتچىلەر",
     "incentive": "رىغبەتلەندۈرۈش",
-    "shop": "دۇكان"
+    "shop": "دۇكان",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "يېڭى تۈر قوشۇڭ",
     "title_input": "Title",
+    "placeholder_input": "ئورۇن ئىگىسى",
     "name_input": "ئۆزگەرگۈچى ئىسىم",
     "value_input": "قىممەت",
     "value_input_message": "ئىشلەتكۈچى تاللاش تىزىملىكى",
     "default": "كۆڭۈلدىكى قىممىتى",
+    "file_type_input": "قوبۇل قىلىشقا بولىدىغان ھۆججەت تىپلىرى",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "ئاددىي",
       "selective": "تاللانما",
       "switch": "Switch",
       "file": "ھۆججەت",
-      "number": "سان"
+      "number": "سان",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "ئورۇن ئىگىسى",
-    "file_type_input": "قوبۇل قىلىشقا بولىدىغان ھۆججەت تىپلىرى",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "مەھسۇلات ئىسمى",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "ھەق تۆلەش ھالىتى",
     "payment_status_waiting": "پۇل تۆلەشنى ساقلاش",
     "payment_status_paid": "ھەقلىق",
-    "buyer": "سېتىۋالغۇچى"
+    "buyer": "سېتىۋالغۇچى",
   },
   "virtual_item_info": {
     "title": "مەۋھۇم تۈر",
     "outputs": {
       "title": "چىقىرىش ئۇچۇرى",
       "sub_title": "بۇ تۈرنىڭ مەخپىي ئۇچۇرلىرى",
-      "message": "بۇ ئۇچۇرلار مەھسۇلاتنى سېتىۋالغاندىن كېيىن ئىشلەتكۈچىگە كۆرسىتىلىدۇ."
+      "message": "بۇ ئۇچۇرلار مەھسۇلاتنى سېتىۋالغاندىن كېيىن ئىشلەتكۈچىگە كۆرسىتىلىدۇ.",
     },
     "inputs": {
       "title": "ئۇچۇر تەلەپ قىلىنىدۇ",
       "sub_title": "سېتىۋالغۇچى ئۇچۇرى تەلەپ قىلىنىدۇ",
-      "message": "سېتىۋالغۇچى جەدۋەلدە تەلەپ قىلىنغان ئۇچۇرلارنى كىرگۈزۈشى كېرەك"
+      "message": "سېتىۋالغۇچى جەدۋەلدە تەلەپ قىلىنغان ئۇچۇرلارنى كىرگۈزۈشى كېرەك",
     },
     "notifications": {
       "inputs_set_success": "ئۇچۇر جەدۋىلى مۇۋەپپەقىيەتلىك تىزىملىتىلدى.",
       "confirm_by_admin_success": "زاكاز تاماملاندى.",
-      "confirm_by_buyer_success": "زاكاز تاماملاندى."
-    }
+      "confirm_by_buyer_success": "زاكاز تاماملاندى.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "بۇ بۇيرۇقنى COD تۆلەش ئارقىلىق قوبۇل قىلىشقا بولمايدۇ.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "پاي چېكى يوق.",
     "legal_restriction": "قانۇنىي چەكلىمىلەر سەۋەبىدىن زاكاز قىلالمىدى.",
     "pricing_fault": "ساتقۇچىنىڭ باھا خاتالىقى.",
-    "system_fault": "سىستېما خاتالىقى."
+    "system_fault": "سىستېما خاتالىقى.",
   },
   "basket_order_info_summery": {
     "receiver": "تاپشۇرۇۋالغۇچى",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "ئېتىبار",
     "final_price": "ئاخىرقى سومما",
     "address": "يەتكۈزۈش ئادرېسى",
-    "payment_status": "ھەق تۆلەش ھالىتى"
+    "payment_status": "ھەق تۆلەش ھالىتى",
   },
   "basket_status": {
     "open": "ئېچىڭ",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "ئەمەلدىن قالدۇرۇلدى",
     "cod": "مال تاپشۇرۇشتا پۇل تۆلەش",
     "receipt_added": "تالون قوشۇلدى",
-    "payment_processing": "چىقىم بىر تەرەپ قىلىش"
+    "payment_processing": "چىقىم بىر تەرەپ قىلىش",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "رەت قىلىندى",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "جەزملەشتۈرۈش",
     "step_3": "تەييارلىق",
     "step_4": "مال يەتكۈزۈشتە",
-    "step_5": "يەتكۈزۈلدى"
+    "step_5": "يەتكۈزۈلدى",
   },
   "basket_return_request_view": {
     "title": "قايتىش تەلىپى",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "تەلەپنى رەت قىلىش",
     "message_for_admin": "سىز Selldone نى ئىشلىتىپ قوبۇل قىلغان كېلىشىمگە ئاساسەن ، چوقۇم سېتىۋالغۇچى بىلەن ئالاقىلىشىڭ ھەمدە ئۇنىڭ زاكازنى قايتۇرۇش جەريانىدىن خەۋەردار بولۇشىڭىز كېرەك. تەلەپ قوبۇل قىلىنسا ياكى رەت قىلىنسا ھەمدە سېتىۋالغۇچىنىڭ تولۇق ماقۇللۇقىغا ئېرىشسە ، بۇ چوقۇم قىلىنىشى كېرەك.",
     "notifications": {
-      "update_status_success": "تەلەپ ھالىتى يېڭىلاندى."
-    }
+      "update_status_success": "تەلەپ ھالىتى يېڭىلاندى.",
+    },
   },
   "basket_list": {
     "return_count": "قايتىش: {count} سان",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "كاپالەت",
       "count": "ساناپ بېقىڭ",
-      "price": "باھاسى"
-    }
+      "price": "باھاسى",
+    },
   },
   "return_request_list": {
     "count": "پايدىلىنىش نومۇرى",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "قوبۇل قىلىنغان ۋاقىت",
       "state": "ھالەت",
       "reason": "سەۋەبى",
-      "return_warranty_period": "كاپالەت مۇددىتى"
-    }
+      "return_warranty_period": "كاپالەت مۇددىتى",
+    },
   },
   "data_toolbar": {
     "search": "ئىزدەش",
     "sort_by": "تەرتىپلەش",
-    "count_item": "{item} تۈرلىرىنى كۆرسىتىش"
+    "count_item": "{item} تۈرلىرىنى كۆرسىتىش",
   },
   "sort": {
     "created_at": "چېسلا قۇرۇش",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "ئەمەلدار",
     "registered": "تىزىملاتتى",
     "purchased": "سېتىۋېلىندى",
-    "sex": "جىنىس"
+    "sex": "جىنىس",
   },
   "search_box": {
     "result": "ئىزدەش نەتىجىسى",
     "tips": "مەھسۇلات ۋە تۈرلەرنى ئىزدەش",
     "label": "ئىزدەش ...",
-    "category": "سەھىپە"
+    "category": "سەھىپە",
   },
   "lead_status": {
     "physical_fast_delivery": "دەرھال يەتكۈزۈش",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "كېيىنكى {days} كۈندىن باشلاپ تەييارلىق قىلىش ۋە يوللاش",
     "virtual_fast_prepare": "دەرھال يەتكۈزۈش",
     "virtual_under_24h": "كېيىنكى {lead} سائەت ئىچىدە ئىشلىنىدۇ",
-    "virtual_over_24h": "كېيىنكى {days} كۈنلەردىن باشلاپ ئىشلىنىدۇ"
+    "virtual_over_24h": "كېيىنكى {days} كۈنلەردىن باشلاپ ئىشلىنىدۇ",
   },
   "return_request_state": {
     "pending": "ساقلىنىۋاتىدۇ",
     "accepted": "جەزملەشتۈرۈلدى",
-    "rejected": "رەت قىلىندى"
+    "rejected": "رەت قىلىندى",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "ئورالما ياكى تەرتىپ نومۇرى",
       "U5": "پوسۇلكىدىن بەزى بۇيۇملار يوقاپ كەتتى",
       "U6": "مەھسۇلات ئەسلى ئەمەس",
-      "U7": "مەھسۇلات ئۆلچەمگە توشمايدۇ"
-    }
+      "U7": "مەھسۇلات ئۆلچەمگە توشمايدۇ",
+    },
   },
   "image_uploader": {
     "label": "<u>ھۆججەتنى سۆرەپ تاشلاش ياكى تاللاش</u>",
-    "max_size": "رۇخسەت قىلىنغان ئەڭ چوڭ چوڭلۇقى: {size}"
+    "max_size": "رۇخسەت قىلىنغان ئەڭ چوڭ چوڭلۇقى: {size}",
   },
   "timespan": {
     "Morning": "ئەتىگەن سائەت 8 دىن كەچ سائەت 12 گىچە",
     "Evening": "چۈشتىن كېيىن سائەت 12 دىن كەچ سائەت 6 گىچە",
     "Night": "كەچ سائەت 6 دىن 12 گىچە",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "شەنبە",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "سەيشەنبە",
     "Wednesday": "چارشەنبە",
     "Thursday": "پەيشەنبە",
-    "Friday": "جۈمە"
+    "Friday": "جۈمە",
   },
   "payment_form": {
     "title": "ھەق تۆلەش ئۇسۇلىنى تاللاڭ",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "مۇبارەك بولسۇن ، زاكازڭىز ھەقسىز!",
     "order_free_payment_action": "ھازىر ھەقسىز زاكاز قىلىڭ",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "ھەق تۆلەش ئادرېسى",
-      "amount": "سومما"
-    }
+      "amount": "سومما",
+    },
   },
   "discount_input": {
     "limit": "{percent}% ئېتىبار {limit} {currency}",
     "action": "ئېتىبار كودى قوشۇڭ",
     "code_input": "ئېتىبار كودى",
     "notifications": {
-      "add_success": "مۇبارەك ، ئىناۋەتلىك ئېتىبار كودى."
-    }
+      "add_success": "مۇبارەك ، ئىناۋەتلىك ئېتىبار كودى.",
+    },
   },
   "gift_card": {
     "inactive": "كارتا چەكلەنگەن",
     "expire": "ۋاقتى توشىدۇ",
     "transfer": "يۆتكەش",
-    "send_to_friend": "دوستقا ئەۋەتىڭ"
+    "send_to_friend": "دوستقا ئەۋەتىڭ",
   },
   "count_down": {
     "days": "كۈن",
     "hours": "سائەت",
     "minutes": "مىنۇت",
-    "seconds": "سېكۇنت"
+    "seconds": "سېكۇنت",
   },
   "gift_status": {
     "Unpaid": "كۈتۈۋېلىش تالونى",
     "Paid": "ھەقلىق",
     "Rejected": "رەت قىلىندى",
-    "Canceled": "ئەمەلدىن قالدۇرۇلدى"
+    "Canceled": "ئەمەلدىن قالدۇرۇلدى",
   },
   "gift_program_status": {
     "Airdrop": "ھەق تۆلەش سىستېمىسى",
     "Advertising": "ئېلان",
     "PersonalGift": "شەخسىي سوۋغات",
-    "ShopGift": "سوۋغات دۇكىنى"
+    "ShopGift": "سوۋغات دۇكىنى",
   },
   "currency_selector": {
-    "label": "پۇل"
+    "label": "پۇل",
   },
   "need_login": {
     "title": "كىرىش",
     "login_sms": "قىسقا ئۇچۇر كىرىش",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Google بىلەن كىرىڭ",
     "login_facebook": "Facebook بىلەن كىرىڭ",
+    "login_apple": "ئالما بىلەن كىرىش",
     "login_account": "Selldone تەرىپىدىن كىرىش",
     "register": "يېڭى ئىشلەتكۈچى؟ ھازىر تىزىملىتىڭ.",
     "mobile_input": "يانفونىڭىزغا كىرىڭ",
     "verification_code": "دەلىللەش كودى",
     "msg_title": "ياخشىمۇسىز ،",
     "msg_body": "كىرىڭ. بۇنىڭغا بىر نەچچە سېكۇنت كېتىدۇ.",
-    "login_apple": "ئالما بىلەن كىرىش",
     "login_email": "ئېلخەت ئارقىلىق كىرىش",
     "email_login_step_1": "ئىناۋەتلىك ئېلېكترونلۇق خەت ئادرېسى بىلەن تەمىنلەڭ ، بىز ئۇنىڭغا كىرىش كودىنى ئەۋەتىمىز. تىزىملىتىش ھاجەتسىز.",
     "email_login_step_2": "ئېلېكترونلۇق خەت ئادرېسىڭىزنى توغرا كىرگۈزگەنلىكىڭىزگە ئىشىنەمسىز؟ بىز تەمىنلەنگەن ئېلېكترونلۇق خەتكە كىرىش كودىنى ئەۋەتىمىز ، شۇڭا ئۇنىڭ توغرىلىقىغا كاپالەتلىك قىلىڭ.",
-    "email_login_step_3": "بىز ئېلېكترونلۇق خەتكە بىر كود ئەۋەتتۇق. شۇنىڭغا دىققەت قىلىڭكى ، بۇ كودنىڭ ۋاقتى 10 مىنۇتتا توشىدۇ."
+    "email_login_step_3": "بىز ئېلېكترونلۇق خەتكە بىر كود ئەۋەتتۇق. شۇنىڭغا دىققەت قىلىڭكى ، بۇ كودنىڭ ۋاقتى 10 مىنۇتتا توشىدۇ.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 يىللىق ئالتۇن دۇكىنى"
+      "name": "5 يىللىق ئالتۇن دۇكىنى",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 يىللىق ئالتۇن دۇكىنى"
+      "name": "4 يىللىق ئالتۇن دۇكىنى",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 يىللىق ئالتۇن دۇكىنى"
+      "name": "3 يىللىق ئالتۇن دۇكىنى",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 يىللىق ئالتۇن دۇكىنى"
+      "name": "2 يىللىق ئالتۇن دۇكىنى",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 يىللىق ئالتۇن دۇكىنى"
+      "name": "1 يىللىق ئالتۇن دۇكىنى",
     },
     "TOKEN_OWNER_1M": {
-      "name": "ئالتۇن مەبلەغ سالغۇچى"
+      "name": "ئالتۇن مەبلەغ سالغۇچى",
     },
     "TOKEN_OWNER_10M": {
-      "name": "ئالماس مەبلەغ سالغۇچى"
+      "name": "ئالماس مەبلەغ سالغۇچى",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "ئالاقە تورىنىڭ يۇقىرى جەمئىيىتىنىڭ ئەزاسى"
+      "name": "ئالاقە تورىنىڭ يۇقىرى جەمئىيىتىنىڭ ئەزاسى",
     },
     "GOLD_SUPPLIER": {
-      "name": "ئالتۇن تەمىنلىگۈچى"
+      "name": "ئالتۇن تەمىنلىگۈچى",
     },
     "GOLD_SELLER": {
-      "name": "Gold Dealer"
+      "name": "Gold Dealer",
     },
     "CONTENT_SUPERMAN": {
-      "name": "ئەڭ يۇقىرى مەزمۇن ئىشلەپچىقارغۇچى"
+      "name": "ئەڭ يۇقىرى مەزمۇن ئىشلەپچىقارغۇچى",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Star"
+      "name": "Star",
     },
     "GUARDIAN": {
-      "name": "ئېسىل خېرىدارلار مۇلازىمىتى"
+      "name": "ئېسىل خېرىدارلار مۇلازىمىتى",
     },
     "KING": {
-      "name": "بازار پادىشاھى"
-    }
+      "name": "بازار پادىشاھى",
+    },
   },
   "cookie": {
     "title": "بۇ تور بېكەت ساقلانمىلارنى ئىشلىتىدۇ",
     "message": "بۇ تور بېكەت ئابونتلارنىڭ تەجرىبىسىنى ياخشىلاش ئۈچۈن ساقلانمىلارنى ئىشلىتىدۇ. تور بېتىمىزنى ئىشلىتىش ئارقىلىق بارلىق ساقلانمىلارغا بىزنىڭ ساقلانما سىياسىتىمىز بويىچە قوشۇلىسىز.",
     "preferences_action": "مايىللىقنى باشقۇرۇش",
-    "agree_action": "ماقۇل"
+    "agree_action": "ماقۇل",
   },
   "basket_item_message": {
     "title": "بۇ تۈر ئۈچۈن لازىملىق ئۇچۇرلار",
     "save_actions": "ئۇچۇرنى ساقلاش",
+    "product_inputs_preview_message": "بۇ خاسلاشتۇرۇش تاللانمىلىرى زاكاز قىلىنغان مەھسۇلاتىڭىزغا تەمىنلىنىدۇ. بۇ نەرسە ھارۋىڭىزغا قوشۇلغاندىن كېيىن ، بۇ يەردە تەڭشىيەلەيسىز.",
     "notifications": {
-      "success": "كىرگۈزگەن سانلىق مەلۇماتلىرىڭىز ساقلاندى."
+      "success": "كىرگۈزگەن سانلىق مەلۇماتلىرىڭىز ساقلاندى.",
     },
-    "product_inputs_preview_message": "بۇ خاسلاشتۇرۇش تاللانمىلىرى زاكاز قىلىنغان مەھسۇلاتىڭىزغا تەمىنلىنىدۇ. بۇ نەرسە ھارۋىڭىزغا قوشۇلغاندىن كېيىن ، بۇ يەردە تەڭشىيەلەيسىز."
   },
   "faq": {
     "faq": "دائىم سورايدىغان سوئاللار",
     "title": "سوئال ۋە جاۋاب",
-    "sub_title": "بىزدىن نېمە تەلەپ قىلدىڭىز.",
     "message": "سوئالىڭىزنىڭ جاۋابىنى تۆۋەندىكى جاۋابلاردىن ئىزدەڭ. سوئاللار جاۋابسىز قالسا بىزدىن سوراڭ.",
     "add_question_action": "يېڭى سوئال سوراڭ",
     "read_more": "تېخىمۇ كۆپ ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "سوئال",
     "question_input_placeholder": "سوئالىڭىزنى سوراڭ.",
     "notifications": {
-      "success_add": "سوئالىڭىز مۇۋەپپەقىيەتلىك يوللاندى."
-    }
+      "success_add": "سوئالىڭىز مۇۋەپپەقىيەتلىك يوللاندى.",
+    },
+    "sub_title": "بىزدىن نېمە تەلەپ قىلدىڭىز.",
   },
   "rating_labels": [
     "بەك ناچار",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "نىشان ئادرېسىنى كىرگۈزۈڭ",
     "enter_your_address": "ئادرېسىڭىزنى كىرگۈزۈڭ.",
     "postal_code": "پوچتا نومۇرى",
-    "phone_input": "تېلېفون {type}",
+    "phone_input": "تېلېفون",
     "building_number": "قۇرۇلۇش نومۇرى",
     "building_unit": "بىرلىك",
     "full_name_input": "تولۇق ئىسمى {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "ئادرېس بەلگىسى (تەلەپ)",
     "notifications": {
       "save_in_list": "بۇ ئادرېس بارلىق تەپسىلاتلىرى بىلەن تىزىملىكىڭىزگە ساقلاندى.",
-      "edit_success": "{ماۋزۇدا ساقلانغان يېڭى ئادرېس قىممىتى."
+      "edit_success": "New address values ​​saved in {title}.",
     },
     "delete_address_dialog": {
       "title": "ئادرېسنى ئۆچۈرۈڭ",
       "message": "بۇ ئادرېسنى ئۆچۈرمەكچىمۇ؟",
-      "action": "ئادرېسنى ئۆچۈرۈڭ"
-    }
+      "action": "ئادرېسنى ئۆچۈرۈڭ",
+    },
   },
   "comment_manager": {
     "can_not_edit": "بۇ باھانى تەھرىرلىيەلمەيسىز!",
     "comment_input_empty": "ئۇچۇر تېكىستى قۇرۇق!",
-    "article_not_saved": "ماقالىنى ساقلاڭ!"
+    "article_not_saved": "ماقالىنى ساقلاڭ!",
   },
   "wheel_fortune": {
     "title": "Play & Win",
     "message": "ھەر بىر ئويۇننىڭ تەننەرخى 10 ئۆزەك. ھازىر سىزدە {chips} ئۆزەك بار. دۇكاندىن سېتىۋېلىش ئارقىلىق تېخىمۇ كۆپ ئۆزەككە ئېرىشىڭ.",
     "win_message": "مۇبارەك بولسۇن ، سىز يەڭدىڭىز!",
     "lost_message": "كەچۈرۈڭ ، سىز ئويۇندا مەغلۇپ بولدىڭىز.",
-    "try_again": "قايتا سىناڭ"
+    "try_again": "قايتا سىناڭ",
   },
   "json": {
     "add": "قۇرۇلما سانلىق مەلۇماتلىرىنى قوشۇڭ",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "قۇرۇلمىلار",
     "book": {
       "title": "كىتاب",
-      "desc": "ئىشلەتكۈچىلەر ئىزدەش نەتىجىسىدىن بىۋاسىتە تاپقان كىتابنى سېتىۋالالايدىغان كىتاب ھەرىكەتلىرى."
+      "desc": "ئىشلەتكۈچىلەر ئىزدەش نەتىجىسىدىن بىۋاسىتە تاپقان كىتابنى سېتىۋالالايدىغان كىتاب ھەرىكەتلىرى.",
     },
     "occupation": {
       "title": "مۆلچەرلەنگەن ئىش ھەققى",
-      "desc": "مائاش مۆلچەرىگە ئائىت ئۇچۇرلار ، مەسىلەن مائاش دائىرىسى ۋە خىزمەت تۈرلىرىنىڭ رايون خاراكتېرلىك مائاش ئوتتۇرىچە سەۋىيىسى گۇگۇلدىكى خىزمەت ئىزدەش تەجرىبىسىدە كۆرسىتىلدى."
+      "desc": "مائاش مۆلچەرىگە ئائىت ئۇچۇرلار ، مەسىلەن مائاش دائىرىسى ۋە خىزمەت تۈرلىرىنىڭ رايون خاراكتېرلىك مائاش ئوتتۇرىچە سەۋىيىسى گۇگۇلدىكى خىزمەت ئىزدەش تەجرىبىسىدە كۆرسىتىلدى.",
     },
     "course": {
       "title": "دەرس",
-      "desc": "تەمىنلىگۈچىلەرگە خاس تىزىملىكتە كۆرۈلىدىغان مائارىپ دەرسلىكى. دەرسلەر دەرس تېمىسى ، تەمىنلىگۈچى ۋە قىسقىچە چۈشەندۈرۈشنى ئۆز ئىچىگە ئالىدۇ."
+      "desc": "تەمىنلىگۈچىلەرگە خاس تىزىملىكتە كۆرۈلىدىغان مائارىپ دەرسلىكى. دەرسلەر دەرس تېمىسى ، تەمىنلىگۈچى ۋە قىسقىچە چۈشەندۈرۈشنى ئۆز ئىچىگە ئالىدۇ.",
     },
     "howto": {
       "title": "قانداق قىلىش",
-      "desc": "سىن ، رەسىم ۋە تېكىستنى ئۆز ئىچىگە ئالغان بىر ۋەزىپىنى مۇۋەپپەقىيەتلىك ئورۇنداش ئۈچۈن بىر يۈرۈش باسقۇچلار ئارقىلىق ئابونتلارنى قانداق مېڭىش."
+      "desc": "سىن ، رەسىم ۋە تېكىستنى ئۆز ئىچىگە ئالغان بىر ۋەزىپىنى مۇۋەپپەقىيەتلىك ئورۇنداش ئۈچۈن بىر يۈرۈش باسقۇچلار ئارقىلىق ئابونتلارنى قانداق مېڭىش.",
     },
     "recipe": {
       "title": "رېتسېپ",
-      "desc": "يەككە مول نەتىجە ياكى ساھىبجامال كارۇسېلنىڭ بىر قىسمى سۈپىتىدە كۆرسىتىدىغان رېتسېپلار."
-    }
+      "desc": "يەككە مول نەتىجە ياكى ساھىبجامال كارۇسېلنىڭ بىر قىسمى سۈپىتىدە كۆرسىتىدىغان رېتسېپلار.",
+    },
   },
   "support": {
     "Financial": "مالىيە",
     "Technical": "تېخنىكىلىق",
-    "Advisor": "مەسلىھەتچى"
+    "Advisor": "مەسلىھەتچى",
   },
   "condition": {
     "new": "يېڭى",
@@ -1885,91 +2098,152 @@ export default {
     "used": "ئىشلىتىلگەن",
     "used_fair": "ئادىل ئىشلىتىلگەن",
     "used_good": "ياخشى ئىشلىتىلگەن",
-    "used_like_new": "يېڭىدەك ئىشلىتىلىدۇ"
+    "used_like_new": "يېڭىدەك ئىشلىتىلىدۇ",
   },
   "variant_filter": {
     "title": "مەھسۇلات ئۆزگىرىشچان سۈزگۈچ",
-    "only_available": "پاي چېكىدە"
+    "only_available": "پاي چېكىدە",
   },
   "service": {
     "task": {
       "title": "ۋەزىپە",
-      "message": "بۇ مۇلازىمەتتە ئورۇنلانغان ۋەزىپىلەرنىڭ تىزىملىكى."
+      "message": "بۇ مۇلازىمەتتە ئورۇنلانغان ۋەزىپىلەرنىڭ تىزىملىكى.",
     },
     "appointment": {
       "title": "تەيىنلەش",
-      "message": "ئۆزىڭىزگە ماس كېلىدىغان كۈن ۋە سائەتكە ئاساسەن تۆۋەندىكى ۋاقىتلاردىن ھەپتىنىڭ ۋاقىتلىرىنى تاللاڭ."
+      "message": "ئۆزىڭىزگە ماس كېلىدىغان كۈن ۋە سائەتكە ئاساسەن تۆۋەندىكى ۋاقىتلاردىن ھەپتىنىڭ ۋاقىتلىرىنى تاللاڭ.",
     },
     "booking": {
       "title": "زاكاز قىلىش",
-      "message": "تۆۋەندىكى كالېنداردا زاكاس قىلماقچى بولغان كۈنلەرنىڭ ۋاقىت ۋاقتىنى بەلگىلەڭ."
+      "message": "تۆۋەندىكى كالېنداردا زاكاس قىلماقچى بولغان كۈنلەرنىڭ ۋاقىت ۋاقتىنى بەلگىلەڭ.",
     },
     "subscription": {
-      "title": "مۇشتەرى بولۇش"
+      "title": "مۇشتەرى بولۇش",
     },
     "charge": {
-      "title": "ھەق ئېلىش"
-    }
+      "title": "ھەق ئېلىش",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "مۇقىم باھا",
-      "message": "بۇ خىل باھادا مەھسۇلاتنىڭ باھاسى مۇقىم سومما بولۇپ ، سېتىۋالغۇچىنىڭ باھا ھېسابلىشىنى تەلەپ قىلىشىنىڭ ھاجىتى يوق."
+      "message": "بۇ خىل باھادا مەھسۇلاتنىڭ باھاسى مۇقىم سومما بولۇپ ، سېتىۋالغۇچىنىڭ باھا ھېسابلىشىنى تەلەپ قىلىشىنىڭ ھاجىتى يوق.",
     },
     "ESTIMATION": {
       "title": "مۆلچەر باھاسى",
-      "message": "مەھسۇلات ۋە مۇلازىمەتنىڭ باھاسى ساتقۇچى زاكاز قىلغاندا مەلۇم دەرىجىدە ھېسابلىنىدۇ ، مۇلازىمەت جەريانىدا ھەق تاپشۇرۇش تالونىنى ئۆزگەرتكىلى ياكى قوشقىلى بولىدۇ."
+      "message": "مەھسۇلات ۋە مۇلازىمەتنىڭ باھاسى ساتقۇچى زاكاز قىلغاندا مەلۇم دەرىجىدە ھېسابلىنىدۇ ، مۇلازىمەت جەريانىدا ھەق تاپشۇرۇش تالونىنى ئۆزگەرتكىلى ياكى قوشقىلى بولىدۇ.",
     },
     "AGREEMENT": {
       "title": "كېلىشىم باھاسى",
-      "message": "مەھسۇلات ياكى مۇلازىمەتنىڭ ئاخىرقى باھاسى زاكاز قويۇلغاندىن كېيىن ساتقۇچى تەرىپىدىن ئۆزگەرتىلمەيدۇ."
+      "message": "مەھسۇلات ياكى مۇلازىمەتنىڭ ئاخىرقى باھاسى زاكاز قويۇلغاندىن كېيىن ساتقۇچى تەرىپىدىن ئۆزگەرتىلمەيدۇ.",
     },
     "BID": {
       "title": "خېرىدار چاقىرىش / كىمئارتۇق سودىسى",
-      "message": "بۇ مەھسۇلات يوشۇرۇن سېتىۋالغۇچىلار تەرىپىدىن ئەڭ يۇقىرى باھادا سېتىلىدۇ."
-    }
+      "message": "بۇ مەھسۇلات يوشۇرۇن سېتىۋالغۇچىلار تەرىپىدىن ئەڭ يۇقىرى باھادا سېتىلىدۇ.",
+    },
   },
   "map": {
     "title": "مەھسۇلات قوبۇل قىلىدىغان نىشان",
     "confirm": "ئورۇن بەلگىلەڭ",
     "address": "مەنزىل",
-    "receptor": "تاپشۇرۇۋالغۇچى"
+    "receptor": "تاپشۇرۇۋالغۇچى",
   },
   "ShopBots": {
-    "telegram": "تېلېگرامما"
+    "telegram": "تېلېگرامما",
   },
   "article_tags": {
     "title": "مەزمۇن خەتكۈچلىرى",
     "tags_input": "خەتكۈچ",
     "tags_input_message": "خەتكۈچلەر بۇ ماقالىنىڭ تىزىملىكى",
     "notification": {
-      "add_success": "خەتكۈچ قوشۇلدى"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "بەك مۇرەككەپ",
-    "hard": "قاتتىق",
-    "intermediate": "Intermediate",
-    "easy": "ئاسان"
-  },
-  "billing_period": {
-    "Daily": "كۈندىلىك",
-    "Weekly": "ھەپتىلىك",
-    "Monthly": "ئايلىق",
-    "Every3Months": "ھەر 3 ئايدا",
-    "Every6Months": "ھەر 6 ئايدا",
-    "Yearly": "يىللىق"
+      "add_success": "خەتكۈچ قوشۇلدى",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "ياخشى ئەمەس!",
     "between2_3": "بولدى!",
     "between3_4": "كىشىلەر ياقتۇرىدۇ!",
-    "between4_5": "كىشىلەر ئۇنى ياخشى كۆرىدۇ!"
+    "between4_5": "كىشىلەر ئۇنى ياخشى كۆرىدۇ!",
   },
   "seasons": {
     "spring": "باھار",
     "summer": "ياز",
     "autumn": "كۈز",
-    "winter": "قىش"
-  }
+    "winter": "قىش",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

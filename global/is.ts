@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ég hef lesið notkunarskilmálana og persónuverndarstefnuna og er sammála þeim.",
   "commons": {
     "Currency": "Gjaldmiðill",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Ríki",
     "Price": "verð",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Nettóverð",
     "tax": "Skattur",
     "tax_included": "Innifalið í verði",
+    "tax_included_abstract": "þ.m.t.",
     "limit": "Takmarka",
     "min_purchase": "Lágmarkskaup",
     "eligible_for": "Gjaldgengir fyrir",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Stofnuð dagsetning",
     "updated_at": "Síðasta uppfærsla",
     "register_at": "Skráningardagur",
+    "last_modified": "Last modified",
     "old": "Gamalt",
     "new": "Nýtt",
     "start": "Byrjaðu",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Endursölumaður",
     "tracking_code": "Rakningarkóði",
     "tracking_url": "Vefslóð rakningar",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Uppfyllingar",
     "reject": "Hafna",
     "reserved": "Frátekið",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Bíður...",
     "waiting_connecting_payment": "Bíð eftir greiðsluþjónustu...",
     "creating_secure_payment": "Að búa til örugga greiðslu.",
+    "waiting_for_payment": "Vinsamlegast ljúktu við greiðslu...",
     "officer": "Lögreglumaður",
     "ticket": "Miði",
     "ticket_url": "Vefslóð miða",
@@ -361,7 +366,6 @@ export default {
     "rates": "Einkunn",
     "seen_at": "Sést kl",
     "completed": "Lokið",
-    "you": "Þú",
     "shop": "Verslun",
     "store": "verslun",
     "granted": "Veitt",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Spjaldtölva",
     "pc": "PC",
     "acquisition_channel": "Kauprás",
+    "channels_overview": "Channels overview",
     "to": "Til",
     "info": "Upplýsingar",
     "general": "Almennt",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Á hverja vöru",
     "journey": "Ferðalag",
     "after": "Eftir",
-    "waiting_for_payment": "Vinsamlegast ljúktu við greiðslu...",
     "hour": "Klukkutími",
     "minute": "Mínúta",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Búðir",
     "vendor": "Seljandi",
     "vendors": "Söluaðilar",
+    "no_vendors": "No vendors",
     "marketplace": "Markaðstorg",
     "verify_date": "Staðfestu dagsetningu",
     "note": "Athugið",
@@ -604,7 +609,6 @@ export default {
     "variant": "Afbrigði",
     "secure": "Öruggt",
     "admin": "Admin",
-    "tax_included_abstract": "þ.m.t.",
     "payment_not_settled": "Greiðsla ekki gerð upp!",
     "orders_list": "Pantanalisti",
     "subscription_plan": "Áskriftaráætlun",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Klasar",
     "subscriptions": "Áskriftir",
     "spam": "Ruslpóstur",
-    "video": "Myndband"
+    "video": "Myndband",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Þú",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Mjög flókið",
+    "hard": "Erfitt",
+    "intermediate": "Millistig",
+    "easy": "Auðvelt",
   },
   "dialogs": {
     "delete": {
       "title": "Eyða",
       "message": "Ertu viss um að þú eigir að eyða þessu atriði?",
-      "action": "Já, eyða núna"
-    }
+      "action": "Já, eyða núna",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Bæta í körfu",
     "cancel": "Hætta við",
     "update": "Uppfærsla",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Bæta við gjafakorti",
     "charge": "Hleðsla",
     "send_invites": "Sendu boð",
-    "past": "Fortíð",
+    "paste": "Líma",
     "restore": "Endurheimta",
     "cut": "Skera",
     "get_sms_code": "Sækja auðkenningarkóða",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Sýna forskoðun",
     "hide_preview": "Fela forskoðun",
     "download_now": "Hlaða niður núna",
+    "watch_now": "Horfa núna",
     "auto_fill": "Sjálfvirk útfylling",
     "track": "Lag",
     "change_state": "Breyta stöðu",
     "done": "Búið",
     "reply": "Svaraðu",
-    "watch_now": "Horfa núna",
     "unlock": "Opnaðu",
     "lock": "Læsa",
     "create_clone": "Búðu til klón",
@@ -773,41 +931,71 @@ export default {
     "buy": "Kaupa",
     "view_all": "Sjá allt",
     "view_now": "Skoða núna",
-    "paste": "Líma"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Fortíð",
+  },
+  "billing_period": {
+    "Daily": "Daglega",
+    "Weekly": "Vikulega",
+    "Monthly": "Mánaðarlega",
+    "Every3Months": "Á 3ja mánaða fresti",
+    "Every6Months": "Á 6 mánaða fresti",
+    "Yearly": "Árlega",
   },
   "instance_message_title": "Sendu spjallskilaboð",
   "instance_message": "Hæ {name}, ég heiti {author} frá {company}.",
   "errors": {
     "419": "Þú hefur verið óvirkur í langan tíma, vinsamlegast <b>⟳ endurnýjaðu síðuna</b> af öryggisástæðum.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Kerfið samstillist ekki við blockchain. Það verður ekki hægt að búa til nýja færslu fyrr en samstillingu netþjóna okkar er lokið. Við erum að leysa vandamálið.",
-    "gateway_network_error": "Greiðslugáttarþjónusta hefur lent í samskiptavandamálum."
+    "gateway_network_error": "Greiðslugáttarþjónusta hefur lent í samskiptavandamálum.",
   },
   "receiver_info": {
     "map": {
       "title": "Heimilisfang sendingar",
       "confirm": "Stilltu staðsetningu",
       "address_type": "Áfangastaður",
-      "receptor_type": "Viðtakandi"
+      "receptor_type": "Viðtakandi",
     },
     "receiver_address": "Veldu sendingarfang",
+    "service_address": "Veldu heimilisfangið þitt",
+    "select_billing_address": "Select billing address",
     "address": "heimilisfang",
     "postcode": "Póstnúmer",
     "enter_value": "Fylltu út hér",
     "address_note": "Athugið",
     "tel": "Númer tengiliðs",
-    "service_address": "Veldu heimilisfangið þitt"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "pund",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gramm",
     "oz": "Únsa",
     "lb": "Pund",
-    "kg": "kíló"
+    "kg": "kíló",
   },
   "length": {
     "cm": "sentimetri",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Sentimetra",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Fótur",
     "mm": "millimetra",
     "m": "metra",
-    "yd": "Garð"
+    "yd": "Garð",
   },
   "distance": {
     "m": "metra",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Dagar",
     "hours": "Klukkutímar",
     "minutes": "Fundargerð",
-    "seconds": "Sekúndur"
+    "seconds": "Sekúndur",
   },
   "units": [
     "Eining",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Ríki",
     "Territory": "Landsvæði",
-    "Province": "Hérað"
+    "Province": "Hérað",
   },
   "transaction_status": {
     "RequireAction": "Aðgerða krafist",
     "Processing": "Vinnsla",
     "Canceled": "Hætt við",
-    "Succeeded": "Tókst"
+    "Succeeded": "Tókst",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jón Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Veldu tungumál..",
     "friend_email": "Netfang vinar þíns...",
     "friend_name": "Opt. Nafn vinar þíns",
-    "select_date": "Veldu dagsetningu..."
+    "select_date": "Veldu dagsetningu...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Staðfesta",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Hámark {maxCount} stafir",
     "invalid_url": "Ógild vefslóð",
     "country_invalid": "Veldu áfangastað!",
-    "postal_code_invalid": "Stilltu gilt póstnúmer!"
+    "postal_code_invalid": "Stilltu gilt póstnúmer!",
   },
   "colors": {
     "#D32F2F": "Rauður",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Eining",
     "postcode": "Póstnúmer",
     "note": "Athugið",
-    "county": "Sýsla"
+    "county": "Sýsla",
   },
   "product_types": {
     "physical": "Líkamlegt",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Þjónusta",
     "service_description": "Þjónusta eins og: viðgerðir, flutningar, kennsla.",
     "subscription": "Áskrift",
-    "subscription_description": "Áskriftir og reikningar fyrir vörur, þjónustu eða innihald."
+    "subscription_description": "Áskriftir og reikningar fyrir vörur, þjónustu eða innihald.",
   },
   "license": {
     "free": "Ókeypis",
     "startup": "Gangsetning",
     "company": "Fyrirtæki",
-    "enterprise": "Fyrirtæki"
+    "enterprise": "Fyrirtæki",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Litur",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Telja í pakka",
     "weight": "Þyngd",
     "type": "Efni",
-    "style": "Stíll"
+    "style": "Stíll",
   },
   "delivery_state": {
     "check_queue": "Bíður skoðunar",
     "order_confirm": "Staðfesting á pöntun",
     "preparing_order": "Undirbúa",
     "sent_order": "Við afhendingu",
-    "to_customer": "Afhent"
+    "to_customer": "Afhent",
   },
   "status": {
     "unpaid": "Ógreitt",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Hafna",
     "pending": "Í bið",
     "rejected": "Hafnað",
-    "accepted": "Samþykkt"
+    "accepted": "Samþykkt",
   },
   "dimensions": {
     "cm": "sentimetri",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Mótorhjól",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Samgöngur á heimsvísu",
     "global_description": "Sendingar til útlanda með flugi, sjó eða landi.",
     "pickup": "Afhending",
-    "pickup_description": "Viðskiptavinir sækja vörurnar í verslun þinni eða vöruhúsi."
+    "pickup_description": "Viðskiptavinir sækja vörurnar í verslun þinni eða vöruhúsi.",
   },
   "article": {
     "login_to_see_error": "Skráðu þig inn til að fá aðgang að greininni",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Breytingarhamur",
       "view_mode": "Skoða ham",
-      "delete": "Eyða grein"
+      "delete": "Eyða grein",
     },
     "schedule_action": "Viltu skipuleggja útgáfu?",
     "schedule_title": "Tímasettu sjálfvirka birtingu",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Tilkynna misnotkun og fjarlægja efni",
       "report_title": "Tilkynna þetta efni sem móðgandi",
       "message": "Hver er ástæðan fyrir því að senda inn þetta efni? Veldu einn af eftirfarandi valkostum.",
-      "accept_and_delete_action": "Staðfestu og eyddu efni"
+      "accept_and_delete_action": "Staðfestu og eyddu efni",
     },
     "schedule_dialog": {
       "title": "Áætlun um útgáfu efnis",
       "publish_at": "Birta kl",
       "last_edit": "Síðasta breyting",
-      "view_action": "Skoða grein"
+      "view_action": "Skoða grein",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Sendu upplýsingar",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Tilkynna og eyða",
       "report_and_delete_success_message": "Greininni hefur verið eytt.",
       "report_success_title": "Tilkynna grein",
-      "report_success_message": "Skýrsla þín um þessa grein hefur verið birt."
+      "report_success_message": "Skýrsla þín um þessa grein hefur verið birt.",
     },
     "alert": {
       "delete_article": {
         "title": "Eyða grein",
         "message": "Ertu viss um að þú viljir eyða þessari grein varanlega?",
-        "action": "Eyða"
-      }
+        "action": "Eyða",
+      },
     },
     "edit_window": {
       "title": "Veldu Myndatexti og Samantekt",
-      "digest": "Samantekt"
+      "digest": "Samantekt",
     },
     "editor": {
       "title_placeholder": "Titill..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Þessi skrá er of stór:",
       "notifications": {
         "image_uploaded_success": "Mynd vistuð",
-        "image_uploaded_failed": "Villa við að hlaða mynd."
+        "image_uploaded_failed": "Villa við að hlaða mynd.",
       },
       "embed_placeholder": "Sláðu inn iframe kóðann, Facebook, Youtube eða aðra vefslóð og ýttu á Enter.",
       "embed_caption_placeholder": "Sláðu inn titil (valfrjálst)",
-      "images_caption_placeholder": "Sláðu inn titil fyrir þessa mynd .."
-    }
+      "images_caption_placeholder": "Sláðu inn titil fyrir þessa mynd ..",
+    },
   },
   "article_report": {
     "inappropriate": "Efni þessarar greinar er óviðeigandi.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ég held að þetta efni innihaldi klám og brjóti í bága við lög.",
     "harassment": "Ég held að þetta sé rasisti.",
     "hate": "Ég held að þetta snúist um að efla ofbeldi.",
-    "infringe": "Þetta brýtur á réttindum mínum."
+    "infringe": "Þetta brýtur á réttindum mínum.",
   },
   "comments": {
     "new_action": "Smelltu til að skilja eftir athugasemd..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Fáðu fleiri athugasemdir..",
     "cant_send_comment": "Þú getur ekki bætt við nýrri færslu.",
     "cant_remove_this_comment": "Þú getur ekki eytt þessari athugasemd!",
-    "product_buyer": "Kaupandi",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Athugasemdir mínar",
     "delete_alert": {
       "title": "Eyða athugasemd",
       "message": "Viltu eyða þessari athugasemd?",
-      "action": "Eyða"
+      "action": "Eyða",
     },
     "notifications": {
-      "delete_success": "Ummælum þínum var eytt."
+      "delete_success": "Ummælum þínum var eytt.",
     },
     "first_send": "Fyrsta færslan",
     "comment_at": "Á",
     "edit_comment": "Breyta athugasemd",
-    "my_comments": "Athugasemdir mínar"
+    "product_buyer": "Kaupandi",
   },
   "customer_club": {
     "bronze": "Brons",
     "silver": "Silfur",
     "gold": "Gull",
     "platinum": "Platínu",
-    "diamond": "Demantur"
+    "diamond": "Demantur",
   },
   "application_categories": {
     "tracking": "Athugar hegðun notenda",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Auglýsingar",
     "staff": "Starfsfólk",
     "incentive": "Hvatningar",
-    "shop": "Verslun"
+    "shop": "Verslun",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Bæta við nýjum hlut",
     "title_input": "Titill",
+    "placeholder_input": "Staðfestir",
     "name_input": "Breytilegt nafn",
     "value_input": "Gildi",
     "value_input_message": "Listi notendavalkosta",
     "default": "Sjálfgefið gildi",
+    "file_type_input": "Viðunandi skráargerðir",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Einfalt",
       "selective": "Sértækur",
       "switch": "Skipta",
       "file": "Skrá",
-      "number": "Númer"
+      "number": "Númer",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Staðfestir",
-    "file_type_input": "Viðunandi skráargerðir",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "vöru Nafn",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Greiðslustaða",
     "payment_status_waiting": "Beðið eftir greiðslu",
     "payment_status_paid": "Greitt",
-    "buyer": "Kaupandi"
+    "buyer": "Kaupandi",
   },
   "virtual_item_info": {
     "title": "Sýndarhlutur",
     "outputs": {
       "title": "Upplýsingar um úttak",
       "sub_title": "Trúnaðarupplýsingar um þetta atriði",
-      "message": "Þessar upplýsingar verða sýndar notandanum eftir að hann hefur keypt vöruna."
+      "message": "Þessar upplýsingar verða sýndar notandanum eftir að hann hefur keypt vöruna.",
     },
     "inputs": {
       "title": "Upplýsingar nauðsynlegar",
       "sub_title": "Upplýsingar kaupanda krafist",
-      "message": "Kaupandi þarf að slá inn umbeðnar upplýsingar á eyðublaðinu"
+      "message": "Kaupandi þarf að slá inn umbeðnar upplýsingar á eyðublaðinu",
     },
     "notifications": {
       "inputs_set_success": "Upplýsingaeyðublað skráð með góðum árangri.",
       "confirm_by_admin_success": "Frágangur pöntunar staðfest.",
-      "confirm_by_buyer_success": "Frágangur pöntunar staðfest."
-    }
+      "confirm_by_buyer_success": "Frágangur pöntunar staðfest.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ekki er hægt að samþykkja þessa pöntun með COD greiðslunni.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Uppselt.",
     "legal_restriction": "Ekki er hægt að leggja inn pöntun vegna lagalegra takmarkana.",
     "pricing_fault": "Verðmistök hjá seljanda.",
-    "system_fault": "Kerfisvilla."
+    "system_fault": "Kerfisvilla.",
   },
   "basket_order_info_summery": {
     "receiver": "Viðtakandi",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Afsláttur",
     "final_price": "Lokaupphæð",
     "address": "Heimilisfang afhendingar",
-    "payment_status": "Greiðslustaða"
+    "payment_status": "Greiðslustaða",
   },
   "basket_status": {
     "open": "Opið",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Hætt við",
     "cod": "Borga við afhendingu",
     "receipt_added": "Kvittun bætt við",
-    "payment_processing": "Greiðsluafgreiðsla"
+    "payment_processing": "Greiðsluafgreiðsla",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Hafnað",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Staðfesting",
     "step_3": "Undirbúningur",
     "step_4": "Við afhendingu",
-    "step_5": "Afhent"
+    "step_5": "Afhent",
   },
   "basket_return_request_view": {
     "title": "Skilabeiðni",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Hafna beiðni",
     "message_for_admin": "Samkvæmt samningnum sem þú hefur samþykkt með því að nota Selldone, verður þú að hafa samband við kaupandann og upplýsa hann um ferlið við að skila pöntun sinni. Það þarf að gera ef beiðni er samþykkt eða henni hafnað og fullt samþykki kaupanda fengið.",
     "notifications": {
-      "update_status_success": "Staða beiðni uppfærð."
-    }
+      "update_status_success": "Staða beiðni uppfærð.",
+    },
   },
   "basket_list": {
     "return_count": "Skila: {count} tala",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Afbrigði",
       "warranty": "Ábyrgðir",
       "count": "Telja",
-      "price": "verð"
-    }
+      "price": "verð",
+    },
   },
   "return_request_list": {
     "count": "Tilvísunarnúmer",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Móttekin dagsetning",
       "state": "Staða",
       "reason": "Ástæða",
-      "return_warranty_period": "Ábyrgðartímabil"
-    }
+      "return_warranty_period": "Ábyrgðartímabil",
+    },
   },
   "data_toolbar": {
     "search": "Leita",
     "sort_by": "Raða eftir",
-    "count_item": "Sýna {item} atriði"
+    "count_item": "Sýna {item} atriði",
   },
   "sort": {
     "created_at": "Búðu til dagsetningu",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Lögreglumaður",
     "registered": "Skráður",
     "purchased": "Keypt",
-    "sex": "Kyn"
+    "sex": "Kyn",
   },
   "search_box": {
     "result": "Leitarniðurstöður",
     "tips": "Leitaðu að vörum og flokkum",
     "label": "Leita...",
-    "category": "Flokkur"
+    "category": "Flokkur",
   },
   "lead_status": {
     "physical_fast_delivery": "Augnablik afhending",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Undirbúningur og innsending frá næstu {days} dögum",
     "virtual_fast_prepare": "Augnablik afhending",
     "virtual_under_24h": "Verður gert á næstu {lead} klukkustundum",
-    "virtual_over_24h": "Verður gert frá næstu {days} dögum"
+    "virtual_over_24h": "Verður gert frá næstu {days} dögum",
   },
   "return_request_state": {
     "pending": "Í bið",
     "accepted": "Staðfest",
-    "rejected": "Hafnað"
+    "rejected": "Hafnað",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pakka eða raðnúmer átt við",
       "U5": "Það vantar nokkra hluti úr pakkanum",
       "U6": "Varan er ekki upprunaleg",
-      "U7": "Varan uppfyllir ekki forskriftirnar"
-    }
+      "U7": "Varan uppfyllir ekki forskriftirnar",
+    },
   },
   "image_uploader": {
     "label": "Dragðu og slepptu eða <u>Veldu skrá</u>",
-    "max_size": "Leyfileg hámarksstærð: {size}"
+    "max_size": "Leyfileg hámarksstærð: {size}",
   },
   "timespan": {
     "Morning": "8:00 - 12:00",
     "Evening": "12 á hádegi til 18",
     "Night": "18:00-12:00",
-    "Instant": "Skyndipóstur"
+    "Instant": "Skyndipóstur",
   },
   "week_day": {
     "Saturday": "laugardag",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "þriðjudag",
     "Wednesday": "miðvikudag",
     "Thursday": "fimmtudag",
-    "Friday": "föstudag"
+    "Friday": "föstudag",
   },
   "payment_form": {
     "title": "Veldu greiðslumáta",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Til hamingju, pöntunin þín er ókeypis!",
     "order_free_payment_action": "Pantaðu ókeypis núna",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Greiðslu heimilisfang",
-      "amount": "Magn"
-    }
+      "amount": "Magn",
+    },
   },
   "discount_input": {
     "limit": "{percent}% afsláttur allt að {limit} {currency}",
     "action": "Bæta við afsláttarkóða",
     "code_input": "Afsláttarkóði",
     "notifications": {
-      "add_success": "Til hamingju, gildur afsláttarkóði."
-    }
+      "add_success": "Til hamingju, gildur afsláttarkóði.",
+    },
   },
   "gift_card": {
     "inactive": "Kortið er óvirkt",
     "expire": "Rennur út",
     "transfer": "Flytja",
-    "send_to_friend": "Sendu til vinar"
+    "send_to_friend": "Sendu til vinar",
   },
   "count_down": {
     "days": "Dagur",
     "hours": "Klukkutími",
     "minutes": "Fundargerð",
-    "seconds": "Sekúndur"
+    "seconds": "Sekúndur",
   },
   "gift_status": {
     "Unpaid": "Beðið eftir kvittun",
     "Paid": "Greitt",
     "Rejected": "Hafnað",
-    "Canceled": "Hætt við"
+    "Canceled": "Hætt við",
   },
   "gift_program_status": {
     "Airdrop": "Greiðslukerfi",
     "Advertising": "Auglýsingar",
     "PersonalGift": "Persónuleg gjöf",
-    "ShopGift": "Gjafabúð"
+    "ShopGift": "Gjafabúð",
   },
   "currency_selector": {
-    "label": "Gjaldmiðill"
+    "label": "Gjaldmiðill",
   },
   "need_login": {
     "title": "skrá inn",
     "login_sms": "SMS Innskráning",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Skráðu þig inn með Google",
     "login_facebook": "Skráðu þig inn með Facebook",
+    "login_apple": "Skráðu þig inn með Apple",
     "login_account": "Innskráning með Selldone",
     "register": "Nýr notandi? Skráðu þig núna.",
     "mobile_input": "Sláðu inn farsímann þinn",
     "verification_code": "Staðfestingarkóði",
     "msg_title": "Hæ,",
     "msg_body": "Vinsamlegast skráðu þig inn. Það tekur aðeins nokkrar sekúndur.",
-    "login_apple": "Skráðu þig inn með Apple",
     "login_email": "Innskráning með tölvupósti",
     "email_login_step_1": "Vinsamlegast gefðu upp gilt netfang og við munum senda innskráningarkóðann á það. Engin skráning er nauðsynleg.",
     "email_login_step_2": "Ertu viss um að þú hafir slegið inn netfangið þitt rétt? Við munum senda innskráningarkóðann á uppgefið netfang, svo vinsamlegast vertu viss um að hann sé nákvæmur.",
-    "email_login_step_3": "Við höfum sent kóða á netfangið þitt. Athugið að kóðinn rennur út eftir 10 mínútur."
+    "email_login_step_3": "Við höfum sent kóða á netfangið þitt. Athugið að kóðinn rennur út eftir 10 mínútur.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 ára gullverslun"
+      "name": "5 ára gullverslun",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 ára gullverslun"
+      "name": "4 ára gullverslun",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 ára gullverslun"
+      "name": "3 ára gullverslun",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 ára Gullverslun"
+      "name": "2 ára Gullverslun",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 árs Gullverslun"
+      "name": "1 árs Gullverslun",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Gull fjárfestir"
+      "name": "Gull fjárfestir",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Demantafjárfestir"
+      "name": "Demantafjárfestir",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby fjárfestir"
+      "name": "Ruby fjárfestir",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Meðlimur í Superior Community of Communication Networks"
+      "name": "Meðlimur í Superior Community of Communication Networks",
     },
     "GOLD_SUPPLIER": {
-      "name": "Gull birgir"
+      "name": "Gull birgir",
     },
     "GOLD_SELLER": {
-      "name": "Gullsali"
+      "name": "Gullsali",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Topp efnisframleiðandi"
+      "name": "Topp efnisframleiðandi",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Stjarna"
+      "name": "Stjarna",
     },
     "GUARDIAN": {
-      "name": "Frábær þjónusta við viðskiptavini"
+      "name": "Frábær þjónusta við viðskiptavini",
     },
     "KING": {
-      "name": "Konungur markaðarins"
-    }
+      "name": "Konungur markaðarins",
+    },
   },
   "cookie": {
     "title": "Þessi vefsíða notar vafrakökur",
     "message": "Þessi vefsíða notar vafrakökur til að bæta upplifun notenda. Með því að nota vefsíðu okkar samþykkir þú allar vafrakökur í samræmi við vafrakökurstefnu okkar.",
     "preferences_action": "Stjórna kjörstillingum",
-    "agree_action": "Ég er sammála"
+    "agree_action": "Ég er sammála",
   },
   "basket_item_message": {
     "title": "Nauðsynlegar upplýsingar fyrir þetta atriði",
     "save_actions": "Vista skilaboð",
+    "product_inputs_preview_message": "Þessir sérsniðmöguleikar eru í boði fyrir pantaða vöru. Þegar hlutnum hefur verið bætt við körfuna þína muntu geta gert breytingar hér.",
     "notifications": {
-      "success": "Inntaksgögnin þín hafa verið vistuð."
+      "success": "Inntaksgögnin þín hafa verið vistuð.",
     },
-    "product_inputs_preview_message": "Þessir sérsniðmöguleikar eru í boði fyrir pantaða vöru. Þegar hlutnum hefur verið bætt við körfuna þína muntu geta gert breytingar hér."
   },
   "faq": {
     "faq": "Algengar spurningar",
     "title": "Spurningar og svör",
-    "sub_title": "Það sem þú baðst okkur að gera.",
     "message": "Leitaðu að svarinu við spurningunni þinni meðal svara hér að neðan. Spyrðu okkur ef spurningum er ósvarað.",
     "add_question_action": "Spyrðu nýja spurningu",
     "read_more": "Lestu meira ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Spurning",
     "question_input_placeholder": "Spyrðu spurningu þinnar.",
     "notifications": {
-      "success_add": "Spurningin þín var send inn."
-    }
+      "success_add": "Spurningin þín var send inn.",
+    },
+    "sub_title": "Það sem þú baðst okkur að gera.",
   },
   "rating_labels": [
     "Mjög slæmt",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Sláðu inn heimilisfang áfangastaðar",
     "enter_your_address": "Sláðu inn heimilisfangið þitt.",
     "postal_code": "Póstnúmer",
-    "phone_input": "Sími {type}",
+    "phone_input": "Sími",
     "building_number": "Byggingarnúmer",
     "building_unit": "Eining",
     "full_name_input": "Fullt nafn {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Heimilisfangsmerki (krafa)",
     "notifications": {
       "save_in_list": "Þetta heimilisfang hefur verið vistað á listanum þínum með öllum upplýsingum um það.",
-      "edit_success": "Ný heimilisfangsgildi vistuð í {title}."
+      "edit_success": "Ný heimilisfangsgildi vistuð í {title}.",
     },
     "delete_address_dialog": {
       "title": "Eyða heimilisfangi",
       "message": "Ertu viss um að þú viljir eyða þessu heimilisfangi?",
-      "action": "Fjarlægja heimilisfang"
-    }
+      "action": "Fjarlægja heimilisfang",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Get ekki breytt þessari athugasemd!",
     "comment_input_empty": "Skilaboðatexti er auður!",
-    "article_not_saved": "Vistaðu greinina!"
+    "article_not_saved": "Vistaðu greinina!",
   },
   "wheel_fortune": {
     "title": "Spila og vinna",
     "message": "Kostnaður við hvern leik er 10 spilapeningar. Þú ert með {chips} flís. Fáðu meiri flís með því að kaupa í versluninni.",
     "win_message": "Til hamingju, þú vinnur!",
     "lost_message": "Því miður, þú tapaðir leiknum.",
-    "try_again": "Þú getur reynt aftur"
+    "try_again": "Þú getur reynt aftur",
   },
   "json": {
     "add": "Bættu við skipulagsgögnum",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Mannvirki",
     "book": {
       "title": "Bók",
-      "desc": "Bókaaðgerðir sem gera notendum kleift að kaupa bókina sem þeir finna beint úr leitarniðurstöðum."
+      "desc": "Bókaaðgerðir sem gera notendum kleift að kaupa bókina sem þeir finna beint úr leitarniðurstöðum.",
     },
     "occupation": {
       "title": "Áætluð laun",
-      "desc": "Upplýsingar um launamat, svo sem launabil og svæðisbundin launameðaltöl fyrir starfstegundir, birtar í starfsleitarupplifuninni á Google."
+      "desc": "Upplýsingar um launamat, svo sem launabil og svæðisbundin launameðaltöl fyrir starfstegundir, birtar í starfsleitarupplifuninni á Google.",
     },
     "course": {
       "title": "Námskeið",
-      "desc": "Fræðslunámskeið sem birtast á sérstökum lista fyrir veitendur. Námskeið geta innihaldið heiti námskeiðsins, veitanda og stutta lýsingu."
+      "desc": "Fræðslunámskeið sem birtast á sérstökum lista fyrir veitendur. Námskeið geta innihaldið heiti námskeiðsins, veitanda og stutta lýsingu.",
     },
     "howto": {
       "title": "Hvernig á að",
-      "desc": "Hvernig-til leiðir notendur í gegnum sett af skrefum til að klára verkefni með góðum árangri, með myndbandi, myndum og texta."
+      "desc": "Hvernig-til leiðir notendur í gegnum sett af skrefum til að klára verkefni með góðum árangri, með myndbandi, myndum og texta.",
     },
     "recipe": {
       "title": "Uppskrift",
-      "desc": "Uppskriftir sem birtast sem einstök útkoma eða hluti af hýsingarhringekjunni."
-    }
+      "desc": "Uppskriftir sem birtast sem einstök útkoma eða hluti af hýsingarhringekjunni.",
+    },
   },
   "support": {
     "Financial": "Fjármála",
     "Technical": "Tæknilegt",
-    "Advisor": "Ráðgjafi"
+    "Advisor": "Ráðgjafi",
   },
   "condition": {
     "new": "Nýtt",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Notað",
     "used_fair": "Notað sanngjarnt",
     "used_good": "Notað gott",
-    "used_like_new": "Notaður eins og nýr"
+    "used_like_new": "Notaður eins og nýr",
   },
   "variant_filter": {
     "title": "Vöruafbrigðissía",
-    "only_available": "Á lager"
+    "only_available": "Á lager",
   },
   "service": {
     "task": {
       "title": "Verkefni",
-      "message": "Listi yfir verkefni sem unnin eru í þessari þjónustu."
+      "message": "Listi yfir verkefni sem unnin eru í þessari þjónustu.",
     },
     "appointment": {
       "title": "Skipun",
-      "message": "Veldu tíma vikunnar úr eftirfarandi tímum miðað við daginn og tímann sem hentar þér."
+      "message": "Veldu tíma vikunnar úr eftirfarandi tímum miðað við daginn og tímann sem hentar þér.",
     },
     "booking": {
       "title": "Bókun",
-      "message": "Tilgreindu tímabil daganna sem þú vilt bóka í dagatalinu hér að neðan."
+      "message": "Tilgreindu tímabil daganna sem þú vilt bóka í dagatalinu hér að neðan.",
     },
     "subscription": {
-      "title": "Áskrift"
+      "title": "Áskrift",
     },
     "charge": {
-      "title": "Hleðsla"
-    }
+      "title": "Hleðsla",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fast verð",
-      "message": "Í þessari tegund verðlagningar er verð vörunnar föst upphæð og þarf ekki að biðja kaupanda um verðútreikning."
+      "message": "Í þessari tegund verðlagningar er verð vörunnar föst upphæð og þarf ekki að biðja kaupanda um verðútreikning.",
     },
     "ESTIMATION": {
       "title": "Áætlun Verðlagning",
-      "message": "Verð vöru og þjónustu verður að einhverju leyti reiknað út af seljanda við pöntun, greiðslureikningum er hægt að breyta eða bæta við meðan á þjónustu stendur."
+      "message": "Verð vöru og þjónustu verður að einhverju leyti reiknað út af seljanda við pöntun, greiðslureikningum er hægt að breyta eða bæta við meðan á þjónustu stendur.",
     },
     "AGREEMENT": {
       "title": "Verðlagning samnings",
-      "message": "Lokaverði vöru eða þjónustu verður ekki breytt af seljanda eftir að pöntun hefur verið lögð."
+      "message": "Lokaverði vöru eða þjónustu verður ekki breytt af seljanda eftir að pöntun hefur verið lögð.",
     },
     "BID": {
       "title": "Tilboð/uppboð",
-      "message": "Varan verður seld á hæsta tilboðsverði af hugsanlegum kaupendum."
-    }
+      "message": "Varan verður seld á hæsta tilboðsverði af hugsanlegum kaupendum.",
+    },
   },
   "map": {
     "title": "Áfangastaður til að fá vörur",
     "confirm": "Stilltu staðsetningu",
     "address": "Áfangastaður",
-    "receptor": "Viðtakandi"
+    "receptor": "Viðtakandi",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Efnismerki",
     "tags_input": "Merki",
     "tags_input_message": "Tags Listi yfir þessa grein",
     "notification": {
-      "add_success": "Merkjum bætt við"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Mjög flókið",
-    "hard": "Erfitt",
-    "intermediate": "Millistig",
-    "easy": "Auðvelt"
-  },
-  "billing_period": {
-    "Daily": "Daglega",
-    "Weekly": "Vikulega",
-    "Monthly": "Mánaðarlega",
-    "Every3Months": "Á 3ja mánaða fresti",
-    "Every6Months": "Á 6 mánaða fresti",
-    "Yearly": "Árlega"
+      "add_success": "Merkjum bætt við",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och ekki gott!",
     "between2_3": "Það er í lagi!",
     "between3_4": "Fólki líkar það!",
-    "between4_5": "Fólk elskar það!"
+    "between4_5": "Fólk elskar það!",
   },
   "seasons": {
     "spring": "Vor",
     "summer": "Sumar",
     "autumn": "Haust",
-    "winter": "Vetur"
-  }
+    "winter": "Vetur",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Am citit termenii de utilizare și politica de confidențialitate și sunt de acord cu acestea.",
   "commons": {
     "Currency": "Valută",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Stat",
     "Price": "Preț",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Preț net",
     "tax": "Impozit",
     "tax_included": "Inclus in pret",
+    "tax_included_abstract": "incl.",
     "limit": "Limită",
     "min_purchase": "Achizitie minima",
     "eligible_for": "Eligibil pentru",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Data creata",
     "updated_at": "Ultima actualizare",
     "register_at": "Data inregistrarii",
+    "last_modified": "Last modified",
     "old": "Vechi",
     "new": "Nou",
     "start": "start",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Revânzător",
     "tracking_code": "Cod de urmarire",
     "tracking_url": "URL de urmărire",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Împliniri",
     "reject": "Respinge",
     "reserved": "Rezervat",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Aşteptare...",
     "waiting_connecting_payment": "În așteptarea serviciului de plată...",
     "creating_secure_payment": "Crearea plății sigure.",
+    "waiting_for_payment": "Vă rugăm să finalizați plata...",
     "officer": "Ofiţer",
     "ticket": "Bilet",
     "ticket_url": "URL-ul biletului",
@@ -361,7 +366,6 @@ export default {
     "rates": "Evaluare",
     "seen_at": "Văzut la",
     "completed": "Efectuat",
-    "you": "Tu",
     "shop": "Magazin",
     "store": "magazin",
     "granted": "De acord",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Comprimat",
     "pc": "PC",
     "acquisition_channel": "Canal de achiziție",
+    "channels_overview": "Channels overview",
     "to": "La",
     "info": "Info",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per produs",
     "journey": "Călătorie",
     "after": "După",
-    "waiting_for_payment": "Vă rugăm să finalizați plata...",
     "hour": "Ora",
     "minute": "Minut",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Magazine",
     "vendor": "Furnizor",
     "vendors": "Furnizori",
+    "no_vendors": "No vendors",
     "marketplace": "Piata de desfacere",
     "verify_date": "Verificați data",
     "note": "Notă",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variantă",
     "secure": "Sigur",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Plata nu a fost decontată!",
     "orders_list": "Lista comenzilor",
     "subscription_plan": "Plan de abonament",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clustere",
     "subscriptions": "Abonamente",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Tu",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Foarte complicat",
+    "hard": "Greu",
+    "intermediate": "Intermediar",
+    "easy": "Uşor",
   },
   "dialogs": {
     "delete": {
       "title": "Șterge",
       "message": "Sigur ștergeți acest articol?",
-      "action": "Da, șterge acum"
-    }
+      "action": "Da, șterge acum",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Adaugă în coș",
     "cancel": "Anulare",
     "update": "Actualizați",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Adăugați un card cadou",
     "charge": "Încărca",
     "send_invites": "Trimite invitații",
-    "past": "Trecut",
+    "paste": "Pastă",
     "restore": "Restabili",
     "cut": "A tăia",
     "get_sms_code": "Obțineți codul de autentificare",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Afișează previzualizarea",
     "hide_preview": "Ascunde previzualizarea",
     "download_now": "Descarcă acum",
+    "watch_now": "Priveste acum",
     "auto_fill": "Completare automată",
     "track": "Urmări",
     "change_state": "Schimba starea",
     "done": "Terminat",
     "reply": "Răspuns",
-    "watch_now": "Priveste acum",
     "unlock": "Deblocați",
     "lock": "Lacăt",
     "create_clone": "Creați o clonă",
@@ -773,41 +931,71 @@ export default {
     "buy": "Cumpără",
     "view_all": "A vedea tot",
     "view_now": "Vezi acum",
-    "paste": "Pastă"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Trecut",
+  },
+  "billing_period": {
+    "Daily": "Zilnic",
+    "Weekly": "Săptămânal",
+    "Monthly": "Lunar",
+    "Every3Months": "La fiecare 3 luni",
+    "Every6Months": "La fiecare 6 luni",
+    "Yearly": "Anual",
   },
   "instance_message_title": "Trimite mesaj instant",
   "instance_message": "Bună {name}, Numele meu este {author} de la {company}.",
   "errors": {
     "419": "Ești inactiv de mult timp, te rog <b>⟳ ACTUALIZAȚI PAGINA</b> din motive de securitate.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Sistemul nu se sincronizează cu blockchain-ul. Nu va fi posibilă crearea unei noi tranzacții până la finalizarea sincronizării serverelor noastre. Rezolvăm problema.",
-    "gateway_network_error": "Serviciul gateway de plată a întâmpinat o problemă de comunicare."
+    "gateway_network_error": "Serviciul gateway de plată a întâmpinat o problemă de comunicare.",
   },
   "receiver_info": {
     "map": {
       "title": "Adresa de transport",
       "confirm": "Setați locația",
       "address_type": "Destinaţie",
-      "receptor_type": "Receptor"
+      "receptor_type": "Receptor",
     },
     "receiver_address": "Selectați adresa de livrare",
+    "service_address": "Selectați adresa dvs",
+    "select_billing_address": "Select billing address",
     "address": "abordare",
     "postcode": "Cod poștal",
     "enter_value": "Completați aici",
     "address_note": "Notă",
     "tel": "Numar de contact",
-    "service_address": "Selectați adresa dvs"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "livre",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Uncie",
     "lb": "Livră",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimetru",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Picior",
     "mm": "milimetru",
     "m": "metru",
-    "yd": "Curte"
+    "yd": "Curte",
   },
   "distance": {
     "m": "metru",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Zile",
     "hours": "Ore",
     "minutes": "Minute",
-    "seconds": "secunde"
+    "seconds": "secunde",
   },
   "units": [
     "Unitate",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Stat",
     "Territory": "Teritoriu",
-    "Province": "Provincie"
+    "Province": "Provincie",
   },
   "transaction_status": {
     "RequireAction": "Actiune ceruta",
     "Processing": "Prelucrare",
     "Canceled": "Anulat",
-    "Succeeded": "Reușit"
+    "Succeeded": "Reușit",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Selecteaza limba..",
     "friend_email": "E-mailul prietenului tău...",
     "friend_name": "Opta. Numele prietenului tau",
-    "select_date": "Selectați o dată..."
+    "select_date": "Selectați o dată...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "A confirma",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Maximum {maxCount} caractere",
     "invalid_url": "URL invalid",
     "country_invalid": "Selectați țara de destinație!",
-    "postal_code_invalid": "Setați codul poștal valid!"
+    "postal_code_invalid": "Setați codul poștal valid!",
   },
   "colors": {
     "#D32F2F": "roșu",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unitate",
     "postcode": "Cod poștal",
     "note": "Notă",
-    "county": "judetul"
+    "county": "judetul",
   },
   "product_types": {
     "physical": "Fizic",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Serviciu",
     "service_description": "Servicii precum: reparatii, transport, predare.",
     "subscription": "Abonament",
-    "subscription_description": "Abonamente și facturare pentru produse, servicii sau conținut."
+    "subscription_description": "Abonamente și facturare pentru produse, servicii sau conținut.",
   },
   "license": {
     "free": "Liber",
     "startup": "Lansare",
     "company": "Companie",
-    "enterprise": "Afacere"
+    "enterprise": "Afacere",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Culoare",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Numărați în pachet",
     "weight": "Greutate",
     "type": "Material",
-    "style": "Stil"
+    "style": "Stil",
   },
   "delivery_state": {
     "check_queue": "În așteptarea revizuirii",
     "order_confirm": "Confirmarea comenzii",
     "preparing_order": "Pregătirea",
     "sent_order": "La livrare",
-    "to_customer": "Livrat"
+    "to_customer": "Livrat",
   },
   "status": {
     "unpaid": "Neplătit",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Respinge",
     "pending": "In asteptarea",
     "rejected": "Respins",
-    "accepted": "Admis"
+    "accepted": "Admis",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motocicletă",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Transport global",
     "global_description": "Livrare în străinătate pe calea aerului, maritim sau terestră.",
     "pickup": "Ridica",
-    "pickup_description": "Clienții ridică articolele din magazinul sau depozitul dvs. fizic."
+    "pickup_description": "Clienții ridică articolele din magazinul sau depozitul dvs. fizic.",
   },
   "article": {
     "login_to_see_error": "Autentifică-te pentru a accesa articolul",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Mod de editare",
       "view_mode": "Modul de vizualizare",
-      "delete": "Ștergeți articolul"
+      "delete": "Ștergeți articolul",
     },
     "schedule_action": "Doriți să programați publicarea?",
     "schedule_title": "Programați publicarea automată",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Raportați abuzul și eliminați conținutul",
       "report_title": "Raportați acest conținut ca fiind abuziv",
       "message": "Care este motivul trimiterii acestui conținut? Alegeți una dintre următoarele opțiuni.",
-      "accept_and_delete_action": "Confirmați și ștergeți conținutul"
+      "accept_and_delete_action": "Confirmați și ștergeți conținutul",
     },
     "schedule_dialog": {
       "title": "Programul de lansare a conținutului",
       "publish_at": "Publicați la",
       "last_edit": "Ultima modificare",
-      "view_action": "Vezi articolul"
+      "view_action": "Vezi articolul",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Trimiteți informații",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Raportați și ștergeți",
       "report_and_delete_success_message": "Articolul a fost șters cu succes.",
       "report_success_title": "Raportează articol",
-      "report_success_message": "Raportul dvs. despre acest articol a fost postat."
+      "report_success_message": "Raportul dvs. despre acest articol a fost postat.",
     },
     "alert": {
       "delete_article": {
         "title": "Ștergeți articolul",
         "message": "Sigur doriți să ștergeți definitiv acest articol?",
-        "action": "Șterge"
-      }
+        "action": "Șterge",
+      },
     },
     "edit_window": {
       "title": "Selectați Textul imaginii și Rezumatul",
-      "digest": "rezumat"
+      "digest": "rezumat",
     },
     "editor": {
       "title_placeholder": "Titlu..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Acest fișier este prea mare:",
       "notifications": {
         "image_uploaded_success": "Imaginea a fost salvată cu succes",
-        "image_uploaded_failed": "Eroare la încărcarea imaginii."
+        "image_uploaded_failed": "Eroare la încărcarea imaginii.",
       },
       "embed_placeholder": "Introduceți codul iframe, Facebook, Youtube sau orice altă adresă URL și apăsați Enter.",
       "embed_caption_placeholder": "Introduceți un titlu (opțional)",
-      "images_caption_placeholder": "Introduceți un titlu pentru această imagine.."
-    }
+      "images_caption_placeholder": "Introduceți un titlu pentru această imagine..",
+    },
   },
   "article_report": {
     "inappropriate": "Conținutul acestui articol este nepotrivit.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Cred că acest conținut conține pornografie și încalcă legile.",
     "harassment": "Cred că asta este rasist.",
     "hate": "Cred că este vorba despre promovarea violenței.",
-    "infringe": "Acest lucru îmi încalcă drepturile."
+    "infringe": "Acest lucru îmi încalcă drepturile.",
   },
   "comments": {
     "new_action": "Click pentru a lasa un comentariu..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Obțineți mai multe comentarii..",
     "cant_send_comment": "Nu puteți adăuga o nouă postare.",
     "cant_remove_this_comment": "Nu poți șterge acest comentariu!",
-    "product_buyer": "Cumpărător",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Comentariile mele",
     "delete_alert": {
       "title": "Șterge comentariul",
       "message": "Doriți să ștergeți acest comentariu?",
-      "action": "Șterge"
+      "action": "Șterge",
     },
     "notifications": {
-      "delete_success": "Comentariul tău a fost șters cu succes."
+      "delete_success": "Comentariul tău a fost șters cu succes.",
     },
     "first_send": "Prima postare",
     "comment_at": "Pe",
     "edit_comment": "Editați comentariul",
-    "my_comments": "Comentariile mele"
+    "product_buyer": "Cumpărător",
   },
   "customer_club": {
     "bronze": "Bronz",
     "silver": "Argint",
     "gold": "De aur",
     "platinum": "Platină",
-    "diamond": "Diamant"
+    "diamond": "Diamant",
   },
   "application_categories": {
     "tracking": "Verificarea comportamentului utilizatorului",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Publicitate",
     "staff": "Personal",
     "incentive": "Stimulente",
-    "shop": "Magazin"
+    "shop": "Magazin",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Adăugați un articol nou",
     "title_input": "Titlu",
+    "placeholder_input": "Substituent",
     "name_input": "Nume variabilă",
     "value_input": "Valori",
     "value_input_message": "Lista de opțiuni pentru utilizator",
     "default": "Valoare implicită",
+    "file_type_input": "Tipuri de fișiere acceptabile",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Simplu",
       "selective": "Selectiv",
       "switch": "Intrerupator",
       "file": "Fişier",
-      "number": "Număr"
+      "number": "Număr",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Substituent",
-    "file_type_input": "Tipuri de fișiere acceptabile",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "numele produsului",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Starea plății",
     "payment_status_waiting": "asteptand plata",
     "payment_status_paid": "Plătit",
-    "buyer": "Cumpărător"
+    "buyer": "Cumpărător",
   },
   "virtual_item_info": {
     "title": "Articol virtual",
     "outputs": {
       "title": "Informații de ieșire",
       "sub_title": "Informații confidențiale ale acestui articol",
-      "message": "Aceste informații vor fi afișate utilizatorului după achiziționarea produsului."
+      "message": "Aceste informații vor fi afișate utilizatorului după achiziționarea produsului.",
     },
     "inputs": {
       "title": "Informație cerută",
       "sub_title": "Sunt necesare informații despre cumpărător",
-      "message": "Cumpărătorul trebuie să introducă informațiile solicitate în formular"
+      "message": "Cumpărătorul trebuie să introducă informațiile solicitate în formular",
     },
     "notifications": {
       "inputs_set_success": "Formular de informații înregistrat cu succes.",
       "confirm_by_admin_success": "Finalizarea comenzii a fost confirmată.",
-      "confirm_by_buyer_success": "Finalizarea comenzii a fost confirmată."
-    }
+      "confirm_by_buyer_success": "Finalizarea comenzii a fost confirmată.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Această comandă nu poate fi acceptată prin plata contra cost.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Stoc epuizat.",
     "legal_restriction": "Nu se poate plasa o comandă din cauza restricțiilor legale.",
     "pricing_fault": "Greșeală de preț de către vânzător.",
-    "system_fault": "Eroare de sistem."
+    "system_fault": "Eroare de sistem.",
   },
   "basket_order_info_summery": {
     "receiver": "Receptor",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Reducere",
     "final_price": "Cantitate finala",
     "address": "Adresă de livrare",
-    "payment_status": "Starea plății"
+    "payment_status": "Starea plății",
   },
   "basket_status": {
     "open": "Deschis",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Anulat",
     "cod": "Plata la livrare",
     "receipt_added": "Chitanța adăugată",
-    "payment_processing": "Procesarea plății"
+    "payment_processing": "Procesarea plății",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Respins",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Confirmare",
     "step_3": "Pregătirea",
     "step_4": "La livrare",
-    "step_5": "Livrat"
+    "step_5": "Livrat",
   },
   "basket_return_request_view": {
     "title": "Cerere de returnare",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Respinge cererea",
     "message_for_admin": "Conform acordului pe care l-ați acceptat prin utilizarea Selldone, trebuie să contactați cumpărătorul și să-l țineți informat cu privire la procesul de returnare a comenzii sale. Acest lucru trebuie făcut dacă cererea este acceptată sau respinsă și se obține acordul deplin al cumpărătorului.",
     "notifications": {
-      "update_status_success": "Starea solicitării a fost actualizată."
-    }
+      "update_status_success": "Starea solicitării a fost actualizată.",
+    },
   },
   "basket_list": {
     "return_count": "Retur: {count} număr",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variantă",
       "warranty": "garanții",
       "count": "Numara",
-      "price": "Preț"
-    }
+      "price": "Preț",
+    },
   },
   "return_request_list": {
     "count": "Numar de referinta",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Data primirii",
       "state": "stare",
       "reason": "Motiv",
-      "return_warranty_period": "Perioada de garantie"
-    }
+      "return_warranty_period": "Perioada de garantie",
+    },
   },
   "data_toolbar": {
     "search": "Căutare",
     "sort_by": "Filtrează după",
-    "count_item": "Afișați {item} articole"
+    "count_item": "Afișați {item} articole",
   },
   "sort": {
     "created_at": "Creeaza o data",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Ofiţer",
     "registered": "Înregistrat",
     "purchased": "Cumparat",
-    "sex": "Gen"
+    "sex": "Gen",
   },
   "search_box": {
     "result": "Rezultatele cautarii",
     "tips": "Căutați produse și categorii",
     "label": "Căutare ...",
-    "category": "Categorie"
+    "category": "Categorie",
   },
   "lead_status": {
     "physical_fast_delivery": "Livrare instantanee",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Se pregătește și se trimite din următoarele {days} zile",
     "virtual_fast_prepare": "Livrare instantanee",
     "virtual_under_24h": "Se va realiza în următoarele {lead} ore",
-    "virtual_over_24h": "Se va face din următoarele {days} zile"
+    "virtual_over_24h": "Se va face din următoarele {days} zile",
   },
   "return_request_state": {
     "pending": "In asteptarea",
     "accepted": "Confirmat",
-    "rejected": "Respins"
+    "rejected": "Respins",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Modificarea pachetului sau a numărului de serie",
       "U5": "Unele articole din colet lipsesc",
       "U6": "Produsul nu este original",
-      "U7": "Produsul nu satisface specificatiile"
-    }
+      "U7": "Produsul nu satisface specificatiile",
+    },
   },
   "image_uploader": {
     "label": "Trageți și plasați sau <u>selectați fișierul</u>",
-    "max_size": "Dimensiunea maximă permisă: {size}"
+    "max_size": "Dimensiunea maximă permisă: {size}",
   },
   "timespan": {
     "Morning": "8:00 - 12:00",
     "Evening": "12 amiază până la 6 pm",
     "Night": "18:00-12:00",
-    "Instant": "Postare instantanee"
+    "Instant": "Postare instantanee",
   },
   "week_day": {
     "Saturday": "sâmbătă",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "marţi",
     "Wednesday": "miercuri",
     "Thursday": "joi",
-    "Friday": "vineri"
+    "Friday": "vineri",
   },
   "payment_form": {
     "title": "selecteaza metoda de plata",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Felicitări, comanda dumneavoastră este gratuită!",
     "order_free_payment_action": "Comanda gratuit acum",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Adresa de plata",
-      "amount": "Cantitate"
-    }
+      "amount": "Cantitate",
+    },
   },
   "discount_input": {
     "limit": "Reducere de {percent}% până la {limit} {currency}",
     "action": "Adăugați codul de reducere",
     "code_input": "Cod de reducere",
     "notifications": {
-      "add_success": "Felicitări, cod de reducere valabil."
-    }
+      "add_success": "Felicitări, cod de reducere valabil.",
+    },
   },
   "gift_card": {
     "inactive": "Cardul este dezactivat",
     "expire": "Expirare",
     "transfer": "Transfer",
-    "send_to_friend": "Trimite unui prieten"
+    "send_to_friend": "Trimite unui prieten",
   },
   "count_down": {
     "days": "Zi",
     "hours": "Ora",
     "minutes": "Minute",
-    "seconds": "secunde"
+    "seconds": "secunde",
   },
   "gift_status": {
     "Unpaid": "În așteptarea primirii",
     "Paid": "Plătit",
     "Rejected": "Respins",
-    "Canceled": "Anulat"
+    "Canceled": "Anulat",
   },
   "gift_program_status": {
     "Airdrop": "Sistem de plata",
     "Advertising": "Publicitate",
     "PersonalGift": "Cadou personal",
-    "ShopGift": "Magazin de cadouri"
+    "ShopGift": "Magazin de cadouri",
   },
   "currency_selector": {
-    "label": "Valută"
+    "label": "Valută",
   },
   "need_login": {
     "title": "Autentificare",
     "login_sms": "Conectare prin SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Conectați-vă cu Google",
     "login_facebook": "Logheaza-te cu Facebook",
+    "login_apple": "Conectați-vă cu Apple",
     "login_account": "Conectați-vă de către Selldone",
     "register": "Utilizator nou? Înregistrează-te acum.",
     "mobile_input": "Introduceți mobilul dvs",
     "verification_code": "Cod de verificare",
     "msg_title": "Salut,",
     "msg_body": "Va rugam sa va logati. Durează doar câteva secunde.",
-    "login_apple": "Conectați-vă cu Apple",
     "login_email": "Conectați-vă prin e-mail",
     "email_login_step_1": "Vă rugăm să furnizați o adresă de e-mail validă, iar noi îi vom trimite codul de autentificare. Nu este necesară înregistrarea.",
     "email_login_step_2": "Sunteți sigur că ați introdus corect adresa de e-mail? Vom trimite codul de conectare la adresa de e-mail furnizată, așa că vă rugăm să vă asigurați exactitatea acestuia.",
-    "email_login_step_3": "Am trimis un cod pe adresa ta de e-mail. Vă rugăm să rețineți că codul va expira în 10 minute."
+    "email_login_step_3": "Am trimis un cod pe adresa ta de e-mail. Vă rugăm să rețineți că codul va expira în 10 minute.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Magazin de aur de 5 ani"
+      "name": "Magazin de aur de 5 ani",
     },
     "GOLDEN_2YEAR": {
-      "name": "Magazin de aur de 4 ani"
+      "name": "Magazin de aur de 4 ani",
     },
     "GOLDEN_3YEAR": {
-      "name": "Magazin de aur de 3 ani"
+      "name": "Magazin de aur de 3 ani",
     },
     "GOLDEN_4YEAR": {
-      "name": "Magazin de aur de 2 ani"
+      "name": "Magazin de aur de 2 ani",
     },
     "GOLDEN_5YEAR": {
-      "name": "Magazin de aur de 1 an"
+      "name": "Magazin de aur de 1 an",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Investitorul de Aur"
+      "name": "Investitorul de Aur",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Investitor de diamant"
+      "name": "Investitor de diamant",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Membru al Comunității Superioare a Rețelelor de Comunicare"
+      "name": "Membru al Comunității Superioare a Rețelelor de Comunicare",
     },
     "GOLD_SUPPLIER": {
-      "name": "Furnizor de aur"
+      "name": "Furnizor de aur",
     },
     "GOLD_SELLER": {
-      "name": "Dealer de aur"
+      "name": "Dealer de aur",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Producător de conținut de top"
+      "name": "Producător de conținut de top",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Stea"
+      "name": "Stea",
     },
     "GUARDIAN": {
-      "name": "Servicii excelente pentru clienți"
+      "name": "Servicii excelente pentru clienți",
     },
     "KING": {
-      "name": "Regele Pieței"
-    }
+      "name": "Regele Pieței",
+    },
   },
   "cookie": {
     "title": "Acest site web folosește cookie-uri",
     "message": "Acest site web folosește cookie-uri pentru a îmbunătăți experiența utilizatorului. Prin utilizarea site-ului nostru web sunteți de acord cu toate cookie-urile în conformitate cu Politica noastră privind cookie-urile.",
     "preferences_action": "Gestionați preferințele",
-    "agree_action": "Sunt de acord"
+    "agree_action": "Sunt de acord",
   },
   "basket_item_message": {
     "title": "Informații necesare pentru acest articol",
     "save_actions": "Salvați mesajul",
+    "product_inputs_preview_message": "Aceste opțiuni de personalizare sunt disponibile pentru produsul comandat. Odată ce articolul este adăugat în coș, veți putea face ajustări aici.",
     "notifications": {
-      "success": "Datele dvs. introduse au fost salvate."
+      "success": "Datele dvs. introduse au fost salvate.",
     },
-    "product_inputs_preview_message": "Aceste opțiuni de personalizare sunt disponibile pentru produsul comandat. Odată ce articolul este adăugat în coș, veți putea face ajustări aici."
   },
   "faq": {
     "faq": "întrebări frecvente",
     "title": "Intrebari si raspunsuri",
-    "sub_title": "Ce ne-ai cerut să facem.",
     "message": "Căutați răspunsul la întrebarea dvs. printre răspunsurile de mai jos. Întrebați-ne dacă întrebările rămân fără răspuns.",
     "add_question_action": "Pune o întrebare nouă",
     "read_more": "Citeşte mai mult ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Întrebare",
     "question_input_placeholder": "Spune intrebarea ta.",
     "notifications": {
-      "success_add": "Întrebarea dvs. a fost trimisă cu succes."
-    }
+      "success_add": "Întrebarea dvs. a fost trimisă cu succes.",
+    },
+    "sub_title": "Ce ne-ai cerut să facem.",
   },
   "rating_labels": [
     "Foarte rău",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Introdu adresa de destinație",
     "enter_your_address": "Introduceți adresa dvs.",
     "postal_code": "Cod poștal",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Numarul cladirii",
     "building_unit": "Unitate",
     "full_name_input": "Nume complet {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Etichetă de adresă (necesar)",
     "notifications": {
       "save_in_list": "Această adresă a fost salvată în lista dvs. cu toate detaliile ei.",
-      "edit_success": "Noile valori ale adresei au fost salvate în {title}."
+      "edit_success": "Noile valori ale adresei au fost salvate în {title}.",
     },
     "delete_address_dialog": {
       "title": "Ștergeți adresa",
       "message": "Sigur doriți să ștergeți această adresă?",
-      "action": "Eliminați adresa"
-    }
+      "action": "Eliminați adresa",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Nu pot edita acest comentariu!",
     "comment_input_empty": "Textul mesajului este gol!",
-    "article_not_saved": "Salvează articolul!"
+    "article_not_saved": "Salvează articolul!",
   },
   "wheel_fortune": {
     "title": "Joacă și câștigă",
     "message": "Costul fiecărui joc este de 10 jetoane. Momentan aveți {chips} cip. Obțineți mai mult cip cumpărând din magazin.",
     "win_message": "Felicitări, ai câștigat!",
     "lost_message": "Ne pare rău, ai pierdut jocul.",
-    "try_again": "Puteți încerca din nou"
+    "try_again": "Puteți încerca din nou",
   },
   "json": {
     "add": "Adăugați date de structură",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Structuri",
     "book": {
       "title": "Carte",
-      "desc": "Acțiuni de carte care le permit utilizatorilor să cumpere cartea pe care o găsesc direct din rezultatele căutării."
+      "desc": "Acțiuni de carte care le permit utilizatorilor să cumpere cartea pe care o găsesc direct din rezultatele căutării.",
     },
     "occupation": {
       "title": "Salariu estimativ",
-      "desc": "Informații despre estimarea salariului, cum ar fi intervalele de salariu și mediile salariale pe regiune pentru tipurile de locuri de muncă, afișate în experiența de căutare a unui loc de muncă pe Google."
+      "desc": "Informații despre estimarea salariului, cum ar fi intervalele de salariu și mediile salariale pe regiune pentru tipurile de locuri de muncă, afișate în experiența de căutare a unui loc de muncă pe Google.",
     },
     "course": {
       "title": "Curs",
-      "desc": "Cursuri educaționale care apar într-o listă specifică furnizorului. Cursurile pot include titlul cursului, furnizorul și o scurtă descriere."
+      "desc": "Cursuri educaționale care apar într-o listă specifică furnizorului. Cursurile pot include titlul cursului, furnizorul și o scurtă descriere.",
     },
     "howto": {
       "title": "Cum se face",
-      "desc": "O instrucțiune ghidează utilizatorii printr-un set de pași pentru a finaliza cu succes o sarcină, cu videoclipuri, imagini și text."
+      "desc": "O instrucțiune ghidează utilizatorii printr-un set de pași pentru a finaliza cu succes o sarcină, cu videoclipuri, imagini și text.",
     },
     "recipe": {
       "title": "Reţetă",
-      "desc": "Rețete care se afișează ca rezultat individual bogat sau parte dintr-un carusel gazdă."
-    }
+      "desc": "Rețete care se afișează ca rezultat individual bogat sau parte dintr-un carusel gazdă.",
+    },
   },
   "support": {
     "Financial": "Financiar",
     "Technical": "Tehnic",
-    "Advisor": "Consilier"
+    "Advisor": "Consilier",
   },
   "condition": {
     "new": "Nou",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Folosit",
     "used_fair": "Targ de folosit",
     "used_good": "Folosit bine",
-    "used_like_new": "Folosit - ca nou"
+    "used_like_new": "Folosit - ca nou",
   },
   "variant_filter": {
     "title": "Filtru de variante de produs",
-    "only_available": "În stoc"
+    "only_available": "În stoc",
   },
   "service": {
     "task": {
       "title": "Sarcini",
-      "message": "Lista sarcinilor efectuate în acest serviciu."
+      "message": "Lista sarcinilor efectuate în acest serviciu.",
     },
     "appointment": {
       "title": "Programare",
-      "message": "Alegeți orele săptămânii din următoarele ore în funcție de ziua și ora potrivite pentru dvs."
+      "message": "Alegeți orele săptămânii din următoarele ore în funcție de ziua și ora potrivite pentru dvs.",
     },
     "booking": {
       "title": "Rezervare",
-      "message": "Specificați perioada de timp a zilelor în care doriți să faceți o rezervare în calendarul de mai jos."
+      "message": "Specificați perioada de timp a zilelor în care doriți să faceți o rezervare în calendarul de mai jos.",
     },
     "subscription": {
-      "title": "Abonament"
+      "title": "Abonament",
     },
     "charge": {
-      "title": "Încărca"
-    }
+      "title": "Încărca",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Preț fix",
-      "message": "În acest tip de preț, prețul produsului este o sumă fixă și nu este nevoie ca cumpărătorul să solicite un calcul al prețului."
+      "message": "În acest tip de preț, prețul produsului este o sumă fixă și nu este nevoie ca cumpărătorul să solicite un calcul al prețului.",
     },
     "ESTIMATION": {
       "title": "Estimare Pret",
-      "message": "Prețul produselor și serviciilor va fi calculat într-o oarecare măsură de către vânzător la plasarea unei comenzi, facturile de plată putând fi modificate sau adăugate în timpul serviciului."
+      "message": "Prețul produselor și serviciilor va fi calculat într-o oarecare măsură de către vânzător la plasarea unei comenzi, facturile de plată putând fi modificate sau adăugate în timpul serviciului.",
     },
     "AGREEMENT": {
       "title": "Prețul acordului",
-      "message": "Pretul final al produselor sau serviciilor nu va fi modificat de catre vanzator dupa plasarea comenzii."
+      "message": "Pretul final al produselor sau serviciilor nu va fi modificat de catre vanzator dupa plasarea comenzii.",
     },
     "BID": {
       "title": "Licitatie/Licitatie",
-      "message": "Produsul va fi vândut la cel mai mare preț licitat de către potențialii cumpărători."
-    }
+      "message": "Produsul va fi vândut la cel mai mare preț licitat de către potențialii cumpărători.",
+    },
   },
   "map": {
     "title": "Destinație pentru primirea produselor",
     "confirm": "Setați locația",
     "address": "Destinaţie",
-    "receptor": "Receptor"
+    "receptor": "Receptor",
   },
   "ShopBots": {
-    "telegram": "Telegramă"
+    "telegram": "Telegramă",
   },
   "article_tags": {
     "title": "Etichete de conținut",
     "tags_input": "Etichete",
     "tags_input_message": "Lista de etichete a acestui articol",
     "notification": {
-      "add_success": "Etichete adăugate"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Foarte complicat",
-    "hard": "Greu",
-    "intermediate": "Intermediar",
-    "easy": "Uşor"
-  },
-  "billing_period": {
-    "Daily": "Zilnic",
-    "Weekly": "Săptămânal",
-    "Monthly": "Lunar",
-    "Every3Months": "La fiecare 3 luni",
-    "Every6Months": "La fiecare 6 luni",
-    "Yearly": "Anual"
+      "add_success": "Etichete adăugate",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh, nu e bine!",
     "between2_3": "E bine!",
     "between3_4": "Oamenilor le place!",
-    "between4_5": "Oamenilor le place!"
+    "between4_5": "Oamenilor le place!",
   },
   "seasons": {
     "spring": "Arc",
     "summer": "Vară",
     "autumn": "Toamnă",
-    "winter": "Iarnă"
-  }
+    "winter": "Iarnă",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

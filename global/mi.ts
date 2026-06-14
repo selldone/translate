@@ -9,11 +9,12 @@ export default {
   "inactive": "hohekore",
   "required_value": "Nga uara e hiahiatia ana",
   "original_warranty": "Taurangi Hua Taketake",
-  "return_warranty_days": "{ngā) rā taurangi whakahoki",
+  "return_warranty_days": "Guarantee of return for {days} days.",
   "no_return_warranty": "Karekau he hokinga mai",
   "reed_agree_terms": "Kua panuihia e au nga tikanga mo te whakamahi me te kaupapa here tūmataiti me te whakaae ki a raatau.",
   "commons": {
     "Currency": "Moni",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "State",
     "Price": "utu",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Utu kupenga",
     "tax": "Taake",
     "tax_included": "Kei roto i te utu",
+    "tax_included_abstract": "incl.",
     "limit": "Tepe",
     "min_purchase": "Te hokonga iti",
     "eligible_for": "E tika ana mo",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Te ra i hanga",
     "updated_at": "Whakahoutanga whakamutunga",
     "register_at": "Te ra rehita",
+    "last_modified": "Last modified",
     "old": "Tawhito",
     "new": "Hou",
     "start": "Tīmata",
@@ -319,7 +322,7 @@ export default {
     "sales": "Hokonga",
     "total_views": "Katoa nga tirohanga",
     "total_sales": "Tapeke hoko",
-    "from_previous_n_days": "No nga ra whakamutunga",
+    "from_previous_n_days": "From last {days} days",
     "drop_shipping": "Te tuku tuku",
     "commission": "Komihana",
     "shipping_area": "Te waahi tuku",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Kaihoko",
     "tracking_code": "Waehere aroturuki",
     "tracking_url": "URL Aroturuki",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Nga tutukitanga",
     "reject": "Whakakahore",
     "reserved": "Kua rahuitia",
@@ -341,6 +345,7 @@ export default {
     "waiting": "E tatari ana...",
     "waiting_connecting_payment": "E tatari ana mo te ratonga utu...",
     "creating_secure_payment": "Te hanga utu haumaru.",
+    "waiting_for_payment": "Tena koa whakaoti utu...",
     "officer": "Apiha",
     "ticket": "Tikiti",
     "ticket_url": "url tikiti",
@@ -361,7 +366,6 @@ export default {
     "rates": "Whakatauranga",
     "seen_at": "Ka kitea i",
     "completed": "Kua oti",
-    "you": "Ko koe",
     "shop": "Toa",
     "store": "toa",
     "granted": "Whakaaetia",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Papa",
     "pc": "PC",
     "acquisition_channel": "Hongere hoko",
+    "channels_overview": "Channels overview",
     "to": "Ki",
     "info": "Nga korero",
     "general": "Whānui",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Ia hua",
     "journey": "Haerenga",
     "after": "I muri",
-    "waiting_for_payment": "Tena koa whakaoti utu...",
     "hour": "Haora",
     "minute": "Te meneti",
     "premium": "Moni",
@@ -569,6 +573,7 @@ export default {
     "shops": "Toa",
     "vendor": "Kaihoko",
     "vendors": "Kaihoko",
+    "no_vendors": "No vendors",
     "marketplace": "Te kainga hokohoko",
     "verify_date": "Manatokohia te ra",
     "note": "Tuhipoka",
@@ -604,7 +609,6 @@ export default {
     "variant": "He rereke",
     "secure": "Haumaru",
     "admin": "Kaiwhakahaere",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Kare ano te utu i tau!",
     "orders_list": "Rarangi ota",
     "subscription_plan": "Mahere ohaurunga",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Huihuinga",
     "subscriptions": "Ohaurunga",
     "spam": "Pāme",
-    "video": "Ataata"
+    "video": "Ataata",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Ko koe",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Tino uaua",
+    "hard": "pakeke",
+    "intermediate": "Takawaenga",
+    "easy": "Māmā",
   },
   "dialogs": {
     "delete": {
       "title": "Mukua",
       "message": "Me muku tonu tenei mea?",
-      "action": "Ae, Mukua inaianei"
-    }
+      "action": "Ae, Mukua inaianei",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Tāpiri ki te Kete",
     "cancel": "Whakakore",
     "update": "Whakahou",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Tāpiri kāri koha",
     "charge": "Te utu",
     "send_invites": "Tuku pōwhiri",
-    "past": "o mua",
+    "paste": "Whakapiri",
     "restore": "Whakaora",
     "cut": "Tapahia",
     "get_sms_code": "Tikina te waehere motuhēhēnga",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Whakaatu arokite",
     "hide_preview": "Huna arokite",
     "download_now": "Tikiake Na",
+    "watch_now": "Matakitaki Inaianei",
     "auto_fill": "WhakakīAunoa",
     "track": "Aroturuki",
     "change_state": "Huri Tūnga",
     "done": "Kua oti",
     "reply": "Whakautu",
-    "watch_now": "Matakitaki Inaianei",
     "unlock": "Wewete",
     "lock": "Maukati",
     "create_clone": "Waihangahia te clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Hoko",
     "view_all": "Tiro Katoa",
     "view_now": "Tirohia Inaianei",
-    "paste": "Whakapiri"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "o mua",
+  },
+  "billing_period": {
+    "Daily": "Ia rā",
+    "Weekly": "Ia wiki",
+    "Monthly": "Ia marama",
+    "Every3Months": "Ia 3 marama",
+    "Every6Months": "Ia 6 marama",
+    "Yearly": "Ia tau",
   },
   "instance_message_title": "Tukuna he karere inamata",
   "instance_message": "Kia ora {name}, Ko {author} toku ingoa no {company}.",
   "errors": {
     "419": "Kua roa koe e kore e mahi, tena koa <b>⟳ WHAKATAUIA TE wharangi</b> mo nga take haumaru.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Kaore te punaha e tukutahi me te poraka. E kore e taea te hanga i tetahi tauwhitinga hou kia oti ra ano nga tukutahitanga a o tatou kaimau. Kei te whakaoti rapanga.",
-    "gateway_network_error": "Kua raru te ratonga kuaha utu utu."
+    "gateway_network_error": "Kua raru te ratonga kuaha utu utu.",
   },
   "receiver_info": {
     "map": {
       "title": "Wāhitau tuku",
       "confirm": "Tautuhia te waahi",
       "address_type": "tauranga",
-      "receptor_type": "Kaiwhiwhi"
+      "receptor_type": "Kaiwhiwhi",
     },
     "receiver_address": "Tīpakohia te wāhitau kaipuke",
+    "service_address": "Tīpakohia tō wāhitau",
+    "select_billing_address": "Select billing address",
     "address": "wāhi noho",
     "postcode": "Waehere poutāpeta",
     "enter_value": "Whakakiia ki konei",
     "address_note": "Tuhipoka",
     "tel": "Tau whakapā",
-    "service_address": "Tīpakohia tō wāhitau"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "karamu",
     "oz": "hekere",
     "lb": "Pauna",
-    "kg": "kirokaramu"
+    "kg": "kirokaramu",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Henemita",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Waewae",
     "mm": "mirimita",
     "m": "mita",
-    "yd": "Iari"
+    "yd": "Iari",
   },
   "distance": {
     "m": "mita",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Nga ra",
     "hours": "Nga haora",
     "minutes": "Nga meneti",
-    "seconds": "Hekona"
+    "seconds": "Hekona",
   },
   "units": [
     "Waeine",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "State",
     "Territory": "Te rohe",
-    "Province": "Porowini"
+    "Province": "Porowini",
   },
   "transaction_status": {
     "RequireAction": "Me Mahi",
     "Processing": "Tukatuka",
     "Canceled": "Kua whakakorehia",
-    "Succeeded": "I angitu"
+    "Succeeded": "I angitu",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Tīpakohia te reo..",
     "friend_email": "Te imeera a to hoa...",
     "friend_name": "Kōwhiringa. Te ingoa o to hoa",
-    "select_date": "Tīpakohia he rā..."
+    "select_date": "Tīpakohia he rā...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Whakaū",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max {maxCount} pūāhua",
     "invalid_url": "URL muhu",
     "country_invalid": "Tīpakohia te whenua ūnga!",
-    "postal_code_invalid": "Tautuhi waehere poutāpeta whaimana!"
+    "postal_code_invalid": "Tautuhi waehere poutāpeta whaimana!",
   },
   "colors": {
     "#D32F2F": "Whero",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Waeine",
     "postcode": "Waehere poutāpeta",
     "note": "Tuhipoka",
-    "county": "Kaute"
+    "county": "Kaute",
   },
   "product_types": {
     "physical": "Tinana",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Ratonga",
     "service_description": "Nga ratonga penei: whakatika, kawe waka, whakaako.",
     "subscription": "Ohaurunga",
-    "subscription_description": "Ohaurunga me te nama mo nga hua, ratonga, ihirangi ranei."
+    "subscription_description": "Ohaurunga me te nama mo nga hua, ratonga, ihirangi ranei.",
   },
   "license": {
     "free": "Kore utu",
     "startup": "Whakaoho",
     "company": "Kamupene",
-    "enterprise": "hinonga"
+    "enterprise": "hinonga",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Tae",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Tatauhia i roto i te kete",
     "weight": "Taumaha",
     "type": "Rauemi",
-    "style": "Kāhua"
+    "style": "Kāhua",
   },
   "delivery_state": {
     "check_queue": "E tatari ana ki te arotake",
     "order_confirm": "Whakaaetanga Whakatau",
     "preparing_order": "Te whakarite",
     "sent_order": "I runga i te tuku",
-    "to_customer": "Kua tukuna"
+    "to_customer": "Kua tukuna",
   },
   "status": {
     "unpaid": "Kare i utua",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Whakakahore",
     "pending": "Tarewa ana",
     "rejected": "Kua whakakorehia",
-    "accepted": "Whakaaetia"
+    "accepted": "Whakaaetia",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motopaika",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Te kawe waka o te ao",
     "global_description": "Te tuku ki tawahi ma te rangi, moana, whenua ranei.",
     "pickup": "Te tiki",
-    "pickup_description": "Ka kohia e nga kaihoko nga taonga i to toa tinana, whare putunga ranei."
+    "pickup_description": "Ka kohia e nga kaihoko nga taonga i to toa tinana, whare putunga ranei.",
   },
   "article": {
     "login_to_see_error": "Takiuru ki te uru atu ki te tuhinga",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Whakatika aratau",
       "view_mode": "Tirohia te aratau",
-      "delete": "Mukua Tuhinga"
+      "delete": "Mukua Tuhinga",
     },
     "schedule_action": "Kei te pirangi koe ki te whakarite i te whakaputanga?",
     "schedule_title": "Whakaritea te whakaputa-aunoa",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Pūrongo tūkino me te tango ihirangi",
       "report_title": "Ripoatatia tenei ihirangi he mahi kino",
       "message": "He aha te take mo te tuku i enei korero? Kōwhiria tētahi o ngā kōwhiringa e whai ake nei.",
-      "accept_and_delete_action": "Whakaū me te Mukua Ihirangi"
+      "accept_and_delete_action": "Whakaū me te Mukua Ihirangi",
     },
     "schedule_dialog": {
       "title": "Apiti Tuku Ihirangi",
       "publish_at": "Whakaputa i",
       "last_edit": "Whakatikanga whakamutunga",
-      "view_action": "Tirohia Tuhinga"
+      "view_action": "Tirohia Tuhinga",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Tukua nga korero",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Pūrongo me te Mukua",
       "report_and_delete_success_message": "Kua pai te whakakore i te tuhinga.",
       "report_success_title": "Purongo tuhinga",
-      "report_success_message": "Kua whakairihia to ripoata mo tenei tuhinga."
+      "report_success_message": "Kua whakairihia to ripoata mo tenei tuhinga.",
     },
     "alert": {
       "delete_article": {
         "title": "Mukua Tuhinga",
         "message": "Me muku tonu tenei tuhinga?",
-        "action": "Mukua"
-      }
+        "action": "Mukua",
+      },
     },
     "edit_window": {
       "title": "Tīpakohia te Kuputuhi Atahanga me te Whakarāpopototanga",
-      "digest": "Whakarāpopototanga"
+      "digest": "Whakarāpopototanga",
     },
     "editor": {
       "title_placeholder": "Taitara..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "He nui rawa tenei kōnae:",
       "notifications": {
         "image_uploaded_success": "I ora pai te atahanga",
-        "image_uploaded_failed": "Hapa te uta atahanga."
+        "image_uploaded_failed": "Hapa te uta atahanga.",
       },
       "embed_placeholder": "Whakauruhia te waehere iframe, Facebook, Youtube, tetahi atu URL ranei ka peehia te tomo.",
       "embed_caption_placeholder": "Whakauruhia he taitara (he kōwhiringa)",
-      "images_caption_placeholder": "Whakauruhia he taitara mo tenei ahua .."
-    }
+      "images_caption_placeholder": "Whakauruhia he taitara mo tenei ahua ..",
+    },
   },
   "article_report": {
     "inappropriate": "Ko nga korero o tenei tuhinga kaore i te tika.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ki taku whakaaro kei roto i tenei ihirangi nga whakaahua karekau, kei te takahi i nga ture.",
     "harassment": "Ki taku whakaaro he kaikiri tenei.",
     "hate": "Ki taku whakaaro he whakatairanga tenei i te tutu.",
-    "infringe": "Ka takahi tenei i aku mana."
+    "infringe": "Ka takahi tenei i aku mana.",
   },
   "comments": {
     "new_action": "Paatohia ki te waiho he korero ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Tikina atu nga korero..",
     "cant_send_comment": "Kaore e taea e koe te taapiri i te panui hou.",
     "cant_remove_this_comment": "Kaore e taea e koe te muku i tenei korero!",
-    "product_buyer": "Kaihoko",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Aku Korero",
     "delete_alert": {
       "title": "Mukua te korero",
       "message": "Me muku tenei korero?",
-      "action": "Mukua"
+      "action": "Mukua",
     },
     "notifications": {
-      "delete_success": "I tutuki pai to korero."
+      "delete_success": "I tutuki pai to korero.",
     },
     "first_send": "Panui tuatahi",
     "comment_at": "Kei runga",
     "edit_comment": "Whakatika Kōrero",
-    "my_comments": "Aku Korero"
+    "product_buyer": "Kaihoko",
   },
   "customer_club": {
     "bronze": "Parahi",
     "silver": "Hiriwa",
     "gold": "koura",
     "platinum": "Platinum",
-    "diamond": "Taimana"
+    "diamond": "Taimana",
   },
   "application_categories": {
     "tracking": "Takina Whanonga Kaiwhakamahi",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Panuitanga",
     "staff": "Kaimahi",
     "incentive": "Nga whakatenatena",
-    "shop": "Toa"
+    "shop": "Toa",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Pukamata Karere"
+    "facebook_messenger": "Pukamata Karere",
   },
   "form_builder": {
     "add_item_action": "Tāpiri tūemi hōu",
     "title_input": "Taitara",
+    "placeholder_input": "Kaipupuri",
     "name_input": "Ingoa taurangi",
     "value_input": "Uara",
     "value_input_message": "Rarangi Kōwhiringa Kaiwhakamahi",
     "default": "Uara taunoa",
+    "file_type_input": "Momo kōnae e whakaaetia ana",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Maamaa",
       "selective": "Whiriwhiri",
       "switch": "Whakawhiti",
       "file": "Kōnae",
-      "number": "Tau"
+      "number": "Tau",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Kaipupuri",
-    "file_type_input": "Momo kōnae e whakaaetia ana",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Ingoa Hua",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Te mana utu",
     "payment_status_waiting": "E tatari ana mo te utu",
     "payment_status_paid": "Ka utua",
-    "buyer": "Kaihoko"
+    "buyer": "Kaihoko",
   },
   "virtual_item_info": {
     "title": "Tūemi Mariko",
     "outputs": {
       "title": "Nga Korero Putanga",
       "sub_title": "Nga Korero Matatapu o tenei mea",
-      "message": "Ka whakaatuhia enei korero ki te kaiwhakamahi i muri i te hokonga o te hua."
+      "message": "Ka whakaatuhia enei korero ki te kaiwhakamahi i muri i te hokonga o te hua.",
     },
     "inputs": {
       "title": "Ko nga korero e hiahiatia ana",
       "sub_title": "E hiahiatia ana nga korero mo te kaihoko",
-      "message": "Me whakauru e te kaihoko nga korero i tonoa i roto i te puka"
+      "message": "Me whakauru e te kaihoko nga korero i tonoa i roto i te puka",
     },
     "notifications": {
       "inputs_set_success": "Kua rehita angitu te puka korero.",
       "confirm_by_admin_success": "Kua whakamanahia te whakaotinga ota.",
-      "confirm_by_buyer_success": "Kua whakamanahia te whakaotinga ota."
-    }
+      "confirm_by_buyer_success": "Kua whakamanahia te whakaotinga ota.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ko tenei ota kaore e whakaaetia e te utu COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Kua pau nga taonga.",
     "legal_restriction": "Kaore e taea te ota na runga i nga here ture.",
     "pricing_fault": "He he te utu na te kaihoko.",
-    "system_fault": "Pūnaha bug."
+    "system_fault": "Pūnaha bug.",
   },
   "basket_order_info_summery": {
     "receiver": "Kaiwhiwhi",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Te utu",
     "final_price": "Te moni whakamutunga",
     "address": "Wāhitau Tukunga",
-    "payment_status": "Te mana utu"
+    "payment_status": "Te mana utu",
   },
   "basket_status": {
     "open": "Tuwhera",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Kua whakakorehia",
     "cod": "Utu I te Tukunga",
     "receipt_added": "Kua tapirihia te rihīti",
-    "payment_processing": "Te tukatuka utu"
+    "payment_processing": "Te tukatuka utu",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Kua whakakorehia",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Whakapumautanga",
     "step_3": "Whakaritenga",
     "step_4": "I runga i te tuku",
-    "step_5": "Kua tukuna"
+    "step_5": "Kua tukuna",
   },
   "basket_return_request_view": {
     "title": "Tono Whakahoki",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Whakakahoretia te tono",
     "message_for_admin": "E ai ki te whakaaetanga i whakaaetia e koe ma te whakamahi i te Seldone, me whakapa atu koe ki te kaihoko me te whakamohio ki a ia mo te tikanga whakahoki i tana ota. Me mahi tenei mena ka whakaaehia, ka whakakorehia ranei te tono, ka riro te whakaaetanga katoa a te kaihoko.",
     "notifications": {
-      "update_status_success": "Tono mana kia whakahoutia."
-    }
+      "update_status_success": "Tono mana kia whakahoutia.",
+    },
   },
   "basket_list": {
     "return_count": "Whakahoki: {count} tau",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "He rereke",
       "warranty": "Pūtāhui",
       "count": "Tatau",
-      "price": "utu"
-    }
+      "price": "utu",
+    },
   },
   "return_request_list": {
     "count": "Tau tohutoro",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Te ra i riro mai",
       "state": "Tūnga",
       "reason": "Te take",
-      "return_warranty_period": "wā pūtāhui"
-    }
+      "return_warranty_period": "wā pūtāhui",
+    },
   },
   "data_toolbar": {
     "search": "Rapu",
     "sort_by": "Kōmaka mā",
-    "count_item": "Whakaaturia {item} tūemi"
+    "count_item": "Whakaaturia {item} tūemi",
   },
   "sort": {
     "created_at": "Waihangahia te ra",
@@ -1602,26 +1813,26 @@ export default {
     "officer": "Apiha",
     "registered": "Kua rehitatia",
     "purchased": "Kua hokona",
-    "sex": "Ira tangata"
+    "sex": "Ira tangata",
   },
   "search_box": {
     "result": "Nga hua rapu",
     "tips": "Rapu Hua me nga waahanga",
     "label": "Rapu ...",
-    "category": "Kāwai"
+    "category": "Kāwai",
   },
   "lead_status": {
     "physical_fast_delivery": "Tukunga inamata",
     "physical_under_24h_delivery": "Tukuna i roto i nga haora {lead} e whai ake nei",
-    "physical_over_24h_delivery": "Te whakarite me te tuku mai i nga ra e whai ake nei",
+    "physical_over_24h_delivery": `Preparing and submitting from next {days} days`,
     "virtual_fast_prepare": "Tukunga inamata",
     "virtual_under_24h": "Ka mahia i roto i nga haora {lead} e whai ake nei",
-    "virtual_over_24h": "Ka mahia mai i nga ra e whai ake nei"
+    "virtual_over_24h": "Will be done from the next {days} days",
   },
   "return_request_state": {
     "pending": "Tarewa ana",
     "accepted": "Kua whakapumautia",
-    "rejected": "Kua whakakorehia"
+    "rejected": "Kua whakakorehia",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Whakararuraru i te mokete, tau rangatū ranei",
       "U5": "Kei te ngaro etahi taonga mai i te peera",
       "U6": "Ko te hua ehara i te mea taketake",
-      "U7": "Kaore te hua e tutuki i nga whakaritenga"
-    }
+      "U7": "Kaore te hua e tutuki i nga whakaritenga",
+    },
   },
   "image_uploader": {
     "label": "Tōia & Whakataka, <u>Tīpakohia rānei te konae</u>",
-    "max_size": "Rahi mōrahi e whakaaetia ana: {size}"
+    "max_size": "Rahi mōrahi e whakaaetia ana: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "12 i te ahiahi ki te 6 i te ahiahi",
     "Night": "6pm-12pm",
-    "Instant": "Panui Inamata"
+    "Instant": "Panui Inamata",
   },
   "week_day": {
     "Saturday": "Rāhoroi",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Turei",
     "Wednesday": "Wenerei",
     "Thursday": "Rāpare",
-    "Friday": "Paraire"
+    "Friday": "Paraire",
   },
   "payment_form": {
     "title": "Tīpakohia te tikanga utu",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Tena koe, he kore utu to ota!",
     "order_free_payment_action": "Ota Koreutu Inaianei",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Wāhitau utu",
-      "amount": "Te nui"
-    }
+      "amount": "Te nui",
+    },
   },
   "discount_input": {
     "limit": "{percent}% hekenga ki te {limit} {currency}",
     "action": "Tāpiri Waehere hekenga",
     "code_input": "Waehere hekenga",
     "notifications": {
-      "add_success": "Kia ora, waehere utu whaimana."
-    }
+      "add_success": "Kia ora, waehere utu whaimana.",
+    },
   },
   "gift_card": {
     "inactive": "Kua monoa te kaari",
     "expire": "Whakamutunga",
     "transfer": "Whakawhiti",
-    "send_to_friend": "Tukuna ki te hoa"
+    "send_to_friend": "Tukuna ki te hoa",
   },
   "count_down": {
     "days": "Ra",
     "hours": "Haora",
     "minutes": "Nga meneti",
-    "seconds": "Hekona"
+    "seconds": "Hekona",
   },
   "gift_status": {
     "Unpaid": "Tatari Rihitiwhi",
     "Paid": "Ka utua",
     "Rejected": "Kua whakakorehia",
-    "Canceled": "Kua whakakorehia"
+    "Canceled": "Kua whakakorehia",
   },
   "gift_program_status": {
     "Airdrop": "Pūnaha Utu",
     "Advertising": "Panuitanga",
     "PersonalGift": "Koha Whaiaro",
-    "ShopGift": "Toa Taonga"
+    "ShopGift": "Toa Taonga",
   },
   "currency_selector": {
-    "label": "Moni"
+    "label": "Moni",
   },
   "need_login": {
     "title": "takiuru",
     "login_sms": "Takiuru SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Takiuru me Google",
     "login_facebook": "Takiuru me Facebook",
+    "login_apple": "Takiuru me Apple",
     "login_account": "Takiuru na Seldone",
     "register": "Kaiwhakamahi hou? Rēhita ināianei.",
     "mobile_input": "Whakauruhia to waea pūkoro",
     "verification_code": "Waehere manatoko",
     "msg_title": "Kia ora,",
     "msg_body": "Takiuru koa. He hēkona noa iho.",
-    "login_apple": "Takiuru me Apple",
     "login_email": "Takiuru mā te Īmēra",
     "email_login_step_1": "Tena koa homai he wahitau imeera whaimana, ka tukuna atu e matou te waehere takiuru. Kaore he rehitatanga.",
     "email_login_step_2": "Kei te tino mohio koe kua whakauru tika koe i to wahitau imeera? Ka tukuna atu e matou te waehere takiuru ki te imeera kua whakaratohia, na me whakarite te tika.",
-    "email_login_step_3": "Kua tukuna e matou he waehere ki to imeera. Kia mahara ka pau te waehere i roto i te 10 meneti."
+    "email_login_step_3": "Kua tukuna e matou he waehere ki to imeera. Kia mahara ka pau te waehere i roto i te 10 meneti.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Tau Toa Koura"
+      "name": "5 Tau Toa Koura",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Tau Toa Koura"
+      "name": "4 Tau Toa Koura",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Tau Toa Koura"
+      "name": "3 Tau Toa Koura",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Tau Toa Koura"
+      "name": "2 Tau Toa Koura",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Tau Toa Koura"
+      "name": "1 Tau Toa Koura",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Kaipupuri koura"
+      "name": "Kaipupuri koura",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Taimana Investor"
+      "name": "Taimana Investor",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "He mema o te Hapori Nui o nga Whatunga Whakawhitiwhiti"
+      "name": "He mema o te Hapori Nui o nga Whatunga Whakawhitiwhiti",
     },
     "GOLD_SUPPLIER": {
-      "name": "Kaiwhakarato koura"
+      "name": "Kaiwhakarato koura",
     },
     "GOLD_SELLER": {
-      "name": "Kaihokohoko koura"
+      "name": "Kaihokohoko koura",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Kaihanga Ihirangi Runga Rawa"
+      "name": "Kaihanga Ihirangi Runga Rawa",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Whetu"
+      "name": "Whetu",
     },
     "GUARDIAN": {
-      "name": "Ratonga Kiritaki Nui"
+      "name": "Ratonga Kiritaki Nui",
     },
     "KING": {
-      "name": "Kingi o te Maakete"
-    }
+      "name": "Kingi o te Maakete",
+    },
   },
   "cookie": {
     "title": "Ka whakamahia e tenei paetukutuku nga pihikete",
     "message": "Ka whakamahia e tenei paetukutuku nga pihikete hei whakapai ake i te wheako kaiwhakamahi. Ma te whakamahi i to maatau paetukutuku ka whakaae koe ki nga pihikete katoa i runga i ta maatau Kaupapahere Pihikete.",
     "preferences_action": "Whakahaere Manakohanga",
-    "agree_action": "E whakaae ana ahau"
+    "agree_action": "E whakaae ana ahau",
   },
   "basket_item_message": {
     "title": "Nga korero e hiahiatia ana mo tenei mea",
     "save_actions": "Tiaki Karere",
+    "product_inputs_preview_message": "Kei te waatea enei whiringa whakaritenga mo to hua kua ota. Ina whakauruhia te taonga ki to kaata, ka taea e koe te whakarereke i konei.",
     "notifications": {
-      "success": "Kua tiakina to raraunga whakauru."
+      "success": "Kua tiakina to raraunga whakauru.",
     },
-    "product_inputs_preview_message": "Kei te waatea enei whiringa whakaritenga mo to hua kua ota. Ina whakauruhia te taonga ki to kaata, ka taea e koe te whakarereke i konei."
   },
   "faq": {
     "faq": "Pātai Auau",
     "title": "Nga Patapatai me nga Whakautu",
-    "sub_title": "Ko ta koe i tono mai kia mahia e matou.",
     "message": "Rapua te whakautu ki to patai i waenga i nga whakautu kei raro nei. Patai mai mena kare tonu nga patai i whakautu.",
     "add_question_action": "Patai Hou",
     "read_more": "Pānuitia atu..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Pātai",
     "question_input_placeholder": "Uia to patai.",
     "notifications": {
-      "success_add": "I tutuki pai to patai."
-    }
+      "success_add": "I tutuki pai to patai.",
+    },
+    "sub_title": "Ko ta koe i tono mai kia mahia e matou.",
   },
   "rating_labels": [
     "Tino kino",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Tāuru wāhitau ūnga",
     "enter_your_address": "Whakauruhia to wahitau.",
     "postal_code": "Waehere poutāpeta",
-    "phone_input": "Waea {type}",
+    "phone_input": "Waea",
     "building_number": "Te nama whare",
     "building_unit": "Waeine",
     "full_name_input": "Ingoa katoa {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Tapanga Wāhitau (Hiahia)",
     "notifications": {
       "save_in_list": "Kua tiakina tenei wahitau ki to rarangi ingoa me ona korero katoa.",
-      "edit_success": "Ko nga uara wahitau hou kua tiakina ki {title}."
+      "edit_success": "Ko nga uara wahitau hou kua tiakina ki {title}.",
     },
     "delete_address_dialog": {
       "title": "Muku Wāhitau",
       "message": "Kei te tino hiahia koe ki te muku i tenei wahitau?",
-      "action": "Tango wāhitau"
-    }
+      "action": "Tango wāhitau",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Kaore e taea te whakatika i tenei korero!",
     "comment_input_empty": "Kei te waatea te kupu karere!",
-    "article_not_saved": "Tiakina te tuhinga!"
+    "article_not_saved": "Tiakina te tuhinga!",
   },
   "wheel_fortune": {
     "title": "Play & Win",
     "message": "Ko te utu mo ia keemu he 10 maramara. Kei a koe he maramara {chips} inaianei. Tikina atu maramara ma te hoko mai i te toa.",
     "win_message": "Kia ora, Ka toa koe!",
     "lost_message": "Aroha mai, kua ngaro koe i te keemu.",
-    "try_again": "Ka taea e koe te ngana ano"
+    "try_again": "Ka taea e koe te ngana ano",
   },
   "json": {
     "add": "Tāpirihia nga raraunga hanganga",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Hanganga",
     "book": {
       "title": "Pukapuka",
-      "desc": "Nga mahi pukapuka ka taea e nga kaiwhakamahi te hoko pukapuka ka kitea tika mai i nga hua Rapu."
+      "desc": "Nga mahi pukapuka ka taea e nga kaiwhakamahi te hoko pukapuka ka kitea tika mai i nga hua Rapu.",
     },
     "occupation": {
       "title": "Te utu utu",
-      "desc": "Ko nga korero mo te whakatau tata utu, penei i nga awhe utu me nga tauwaenga utu-a-rohe mo nga momo mahi, ka whakaatuhia i roto i te wheako rapu mahi i runga i a Google."
+      "desc": "Ko nga korero mo te whakatau tata utu, penei i nga awhe utu me nga tauwaenga utu-a-rohe mo nga momo mahi, ka whakaatuhia i roto i te wheako rapu mahi i runga i a Google.",
     },
     "course": {
       "title": "Akoranga",
-      "desc": "Ko nga akoranga ako ka puta i roto i te rarangi kaiwhakarato-motuhake. Ka taea e nga akoranga te whakauru i te taitara akoranga, te kaiwhakarato, me te whakaahuatanga poto."
+      "desc": "Ko nga akoranga ako ka puta i roto i te rarangi kaiwhakarato-motuhake. Ka taea e nga akoranga te whakauru i te taitara akoranga, te kaiwhakarato, me te whakaahuatanga poto.",
     },
     "howto": {
       "title": "Me pehea",
-      "desc": "He Me pehea te hikoi i nga kaiwhakamahi i roto i te huinga o nga hikoinga ki te whakaoti angitu i tetahi mahi, e whakaatu ana i nga ataata, nga whakaahua, me nga tuhinga."
+      "desc": "He Me pehea te hikoi i nga kaiwhakamahi i roto i te huinga o nga hikoinga ki te whakaoti angitu i tetahi mahi, e whakaatu ana i nga ataata, nga whakaahua, me nga tuhinga.",
     },
     "recipe": {
       "title": "Recipe",
-      "desc": "Ko nga tohutao e whakaatu ana he hua whai hua takitahi, he waahanga ranei o te carousel manaaki."
-    }
+      "desc": "Ko nga tohutao e whakaatu ana he hua whai hua takitahi, he waahanga ranei o te carousel manaaki.",
+    },
   },
   "support": {
     "Financial": "Pūtea",
     "Technical": "Hangarau",
-    "Advisor": "Kaitohutohu"
+    "Advisor": "Kaitohutohu",
   },
   "condition": {
     "new": "Hou",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Kua whakamahia",
     "used_fair": "I whakamahia tika",
     "used_good": "I whakamahia pai",
-    "used_like_new": "I whakamahia ano he hou"
+    "used_like_new": "I whakamahia ano he hou",
   },
   "variant_filter": {
     "title": "Tātari Rerekē Hua",
-    "only_available": "Kei roto i nga taonga"
+    "only_available": "Kei roto i nga taonga",
   },
   "service": {
     "task": {
       "title": "Nga Mahi",
-      "message": "Rarangi o nga mahi i mahia i tenei ratonga."
+      "message": "Rarangi o nga mahi i mahia i tenei ratonga.",
     },
     "appointment": {
       "title": "Whakaritenga",
-      "message": "Whiriwhiria nga wa o te wiki mai i nga wa e whai ake nei i runga i te ra me te haora e tika ana mo koe."
+      "message": "Whiriwhiria nga wa o te wiki mai i nga wa e whai ake nei i runga i te ra me te haora e tika ana mo koe.",
     },
     "booking": {
       "title": "Rahui",
-      "message": "Tauwhāitihia te wa o nga ra e hiahia ana koe ki te rahui ki te maramataka kei raro nei."
+      "message": "Tauwhāitihia te wa o nga ra e hiahia ana koe ki te rahui ki te maramataka kei raro nei.",
     },
     "subscription": {
-      "title": "Ohaurunga"
+      "title": "Ohaurunga",
     },
     "charge": {
-      "title": "Te utu"
-    }
+      "title": "Te utu",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Utu tuturu",
-      "message": "I roto i tenei momo utu, ko te utu o te hua he moni tuturu, kaore he hiahia mo te kaihoko ki te tono i te tatauranga utu."
+      "message": "I roto i tenei momo utu, ko te utu o te hua he moni tuturu, kaore he hiahia mo te kaihoko ki te tono i te tatauranga utu.",
     },
     "ESTIMATION": {
       "title": "Utu Whakatau",
-      "message": "Ko te utu o nga hua me nga ratonga ka tatauhia e te kaihoko i te wa e ota ana, ka taea te whakarereke, te taapiri ranei i nga nama utu i te wa o te ratonga."
+      "message": "Ko te utu o nga hua me nga ratonga ka tatauhia e te kaihoko i te wa e ota ana, ka taea te whakarereke, te taapiri ranei i nga nama utu i te wa o te ratonga.",
     },
     "AGREEMENT": {
       "title": "Utu Whakaaetanga",
-      "message": "Ko te utu whakamutunga o nga hua, ratonga ranei e kore e whakarereketia e te kaihoko i muri i te tukunga o te ota."
+      "message": "Ko te utu whakamutunga o nga hua, ratonga ranei e kore e whakarereketia e te kaihoko i muri i te tukunga o te ota.",
     },
     "BID": {
       "title": "Tono / Auction",
-      "message": "Ka hokona te hua ki te utu utu nui rawa atu e nga kaihoko pea."
-    }
+      "message": "Ka hokona te hua ki te utu utu nui rawa atu e nga kaihoko pea.",
+    },
   },
   "map": {
     "title": "Te tauranga ki te whiwhi hua",
     "confirm": "Tautuhia te waahi",
     "address": "tauranga",
-    "receptor": "Kaiwhiwhi"
+    "receptor": "Kaiwhiwhi",
   },
   "ShopBots": {
-    "telegram": "Waeaea"
+    "telegram": "Waeaea",
   },
   "article_tags": {
     "title": "Tohu Ihirangi",
     "tags_input": "Tohutohu",
     "tags_input_message": "Nga Tohu Rarangi o tenei tuhinga",
     "notification": {
-      "add_success": "Kua taapirihia nga tohu"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Tino uaua",
-    "hard": "pakeke",
-    "intermediate": "Takawaenga",
-    "easy": "Māmā"
-  },
-  "billing_period": {
-    "Daily": "Ia rā",
-    "Weekly": "Ia wiki",
-    "Monthly": "Ia marama",
-    "Every3Months": "Ia 3 marama",
-    "Every6Months": "Ia 6 marama",
-    "Yearly": "Ia tau"
+      "add_success": "Kua taapirihia nga tohu",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Aue kaore i te pai!",
     "between2_3": "Kei te pai!",
     "between3_4": "He pai ki nga tangata!",
-    "between4_5": "Aroha ana te tangata!"
+    "between4_5": "Aroha ana te tangata!",
   },
   "seasons": {
     "spring": "Puna",
     "summer": "Raumati",
     "autumn": "Ngahuru",
-    "winter": "Te takurua"
-  }
+    "winter": "Te takurua",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

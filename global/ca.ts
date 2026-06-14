@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "He llegit les condicions d'ús i la política de privadesa i estic d'acord amb elles.",
   "commons": {
     "Currency": "Moneda",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Estat",
     "Price": "preu",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Preu net",
     "tax": "Impost",
     "tax_included": "Inclòs en el preu",
+    "tax_included_abstract": "incl.",
     "limit": "Límit",
     "min_purchase": "Compra mínima",
     "eligible_for": "Apte per a",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Data de creació",
     "updated_at": "Darrera actualització",
     "register_at": "Data de registre",
+    "last_modified": "Last modified",
     "old": "vell",
     "new": "Nou",
     "start": "Començar",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Distribuïdor",
     "tracking_code": "Codi de seguiment",
     "tracking_url": "URL de seguiment",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Compliments",
     "reject": "Rebutjar",
     "reserved": "Reservat",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Esperant...",
     "waiting_connecting_payment": "Esperant el servei de pagament...",
     "creating_secure_payment": "Creació de pagament segur.",
+    "waiting_for_payment": "Si us plau, completa el pagament...",
     "officer": "Oficial",
     "ticket": "Bitllet",
     "ticket_url": "URL del bitllet",
@@ -361,7 +366,6 @@ export default {
     "rates": "Valoració",
     "seen_at": "Vist a",
     "completed": "Completat",
-    "you": "Vostè",
     "shop": "Botiga",
     "store": "botiga",
     "granted": "D'acord",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tauleta",
     "pc": "PC",
     "acquisition_channel": "Canal d'adquisició",
+    "channels_overview": "Channels overview",
     "to": "A",
     "info": "Informació",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per producte",
     "journey": "Viatge",
     "after": "Després",
-    "waiting_for_payment": "Si us plau, completa el pagament...",
     "hour": "Hores",
     "minute": "Minut",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Botigues",
     "vendor": "Venedor",
     "vendors": "Venedors",
+    "no_vendors": "No vendors",
     "marketplace": "Mercat",
     "verify_date": "Verifica la data",
     "note": "Nota",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Segur",
     "admin": "Admin",
-    "tax_included_abstract": "incl.",
     "payment_not_settled": "Pagament no liquidat!",
     "orders_list": "Llista de comandes",
     "subscription_plan": "Pla de subscripció",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clústers",
     "subscriptions": "Subscripcions",
     "spam": "Correu brossa",
-    "video": "Vídeo"
+    "video": "Vídeo",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Vostè",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Molt complicat",
+    "hard": "Dur",
+    "intermediate": "Intermedi",
+    "easy": "Fàcil",
   },
   "dialogs": {
     "delete": {
       "title": "Suprimeix",
       "message": "Esteu segur que suprimiu aquest element?",
-      "action": "Sí, esborra ara"
-    }
+      "action": "Sí, esborra ara",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Afegeix a la cistella",
     "cancel": "Cancel · lar",
     "update": "Actualització",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Afegeix una targeta regal",
     "charge": "Càrrega",
     "send_invites": "Enviar invitacions",
-    "past": "Passat",
+    "paste": "Enganxa",
     "restore": "Restaurar",
     "cut": "Tallar",
     "get_sms_code": "Obteniu el codi d'autenticació",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Mostra la vista prèvia",
     "hide_preview": "Amaga la vista prèvia",
     "download_now": "Descarrega ara",
+    "watch_now": "Veure ara",
     "auto_fill": "Emplenament automàtic",
     "track": "Pista",
     "change_state": "Canvia d'estat",
     "done": "Fet",
     "reply": "Respon",
-    "watch_now": "Veure ara",
     "unlock": "Descobrir",
     "lock": "Bloqueig",
     "create_clone": "Crea un clon",
@@ -773,41 +931,71 @@ export default {
     "buy": "Comprar",
     "view_all": "Veure tot",
     "view_now": "Veure ara",
-    "paste": "Enganxa"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Passat",
+  },
+  "billing_period": {
+    "Daily": "Diàriament",
+    "Weekly": "Setmanalment",
+    "Monthly": "Mensual",
+    "Every3Months": "Cada 3 mesos",
+    "Every6Months": "Cada 6 mesos",
+    "Yearly": "Anualment",
   },
   "instance_message_title": "Enviar missatge instantani",
   "instance_message": "Hola {name}, Em dic {author} de {company}.",
   "errors": {
     "419": "Fa temps que estàs inactiu, si us plau <b>⟳ ACTUALITZA LA PÀGINA</b> per motius de seguretat.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "El sistema no es sincronitza amb la cadena de blocs. No serà possible crear una nova transacció fins que no s'hagin completat les sincronitzacions dels nostres servidors. Estem resolent el problema.",
-    "gateway_network_error": "El servei de passarel·la de pagament ha trobat un problema de comunicació."
+    "gateway_network_error": "El servei de passarel·la de pagament ha trobat un problema de comunicació.",
   },
   "receiver_info": {
     "map": {
       "title": "Adreça d'enviament",
       "confirm": "Estableix la ubicació",
       "address_type": "Destinació",
-      "receptor_type": "Receptor"
+      "receptor_type": "Receptor",
     },
     "receiver_address": "Seleccioneu l'adreça d'enviament",
+    "service_address": "Seleccioneu la vostra adreça",
+    "select_billing_address": "Select billing address",
     "address": "adreça",
     "postcode": "Codi postal",
     "enter_value": "Ompliu aquí",
     "address_note": "Nota",
     "tel": "Nombre de contacte",
-    "service_address": "Seleccioneu la vostra adreça"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Unça",
     "lb": "Lliura",
-    "kg": "quilogram"
+    "kg": "quilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "peus",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centímetre",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Peu",
     "mm": "mil·límetre",
     "m": "metre",
-    "yd": "Pati"
+    "yd": "Pati",
   },
   "distance": {
     "m": "metre",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Dies",
     "hours": "Hores",
     "minutes": "Minuts",
-    "seconds": "segons"
+    "seconds": "segons",
   },
   "units": [
     "Unitat",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Estat",
     "Territory": "Territori",
-    "Province": "Província"
+    "Province": "Província",
   },
   "transaction_status": {
     "RequireAction": "Acció requerida",
     "Processing": "Tramitació",
     "Canceled": "Cancel·lat",
-    "Succeeded": "Encertat"
+    "Succeeded": "Encertat",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Escolliu l'idioma..",
     "friend_email": "El correu electrònic del teu amic...",
     "friend_name": "Opt. El nom del teu amic",
-    "select_date": "Selecciona una data..."
+    "select_date": "Selecciona una data...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Confirmeu",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "{maxCount} caràcters com a màxim",
     "invalid_url": "URL no vàlid",
     "country_invalid": "Seleccioneu el país de destinació!",
-    "postal_code_invalid": "Estableix un codi postal vàlid!"
+    "postal_code_invalid": "Estableix un codi postal vàlid!",
   },
   "colors": {
     "#D32F2F": "Vermell",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unitat",
     "postcode": "Codi postal",
     "note": "Nota",
-    "county": "comtat"
+    "county": "comtat",
   },
   "product_types": {
     "physical": "Física",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Servei",
     "service_description": "Serveis com: reparació, transport, docència.",
     "subscription": "Subscripció",
-    "subscription_description": "Subscripcions i facturació de productes, serveis o continguts."
+    "subscription_description": "Subscripcions i facturació de productes, serveis o continguts.",
   },
   "license": {
     "free": "Gratuït",
     "startup": "Posada en marxa",
     "company": "Companyia",
-    "enterprise": "Empresa"
+    "enterprise": "Empresa",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Color",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Comptar en paquet",
     "weight": "Pes",
     "type": "Material",
-    "style": "Estil"
+    "style": "Estil",
   },
   "delivery_state": {
     "check_queue": "A l'espera de revisió",
     "order_confirm": "Confirmació de l'ordre",
     "preparing_order": "Preparant",
     "sent_order": "En entrega",
-    "to_customer": "Lliurat"
+    "to_customer": "Lliurat",
   },
   "status": {
     "unpaid": "Sense pagar",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Rebutjar",
     "pending": "Pendents",
     "rejected": "Rebutjada",
-    "accepted": "Acceptat"
+    "accepted": "Acceptat",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "moto",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Transport global",
     "global_description": "Enviament a l'estranger per aire, mar o terra.",
     "pickup": "Recollida",
-    "pickup_description": "Els clients recullen els articles a la vostra botiga física o magatzem."
+    "pickup_description": "Els clients recullen els articles a la vostra botiga física o magatzem.",
   },
   "article": {
     "login_to_see_error": "Inicieu sessió per accedir a l'article",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Mode d'edició",
       "view_mode": "Mode de visualització",
-      "delete": "Esborra l'article"
+      "delete": "Esborra l'article",
     },
     "schedule_action": "Vols programar la publicació?",
     "schedule_title": "Programa la publicació automàtica",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Informa d'un abús i elimina contingut",
       "report_title": "Informa d'aquest contingut com a abusiu",
       "message": "Quin és el motiu per enviar aquest contingut? Trieu una de les opcions següents.",
-      "accept_and_delete_action": "Confirmeu i suprimiu el contingut"
+      "accept_and_delete_action": "Confirmeu i suprimiu el contingut",
     },
     "schedule_dialog": {
       "title": "Calendari de publicació de contingut",
       "publish_at": "Publicar a",
       "last_edit": "Última edició",
-      "view_action": "Veure article"
+      "view_action": "Veure article",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Envia informació",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Informa i elimina",
       "report_and_delete_success_message": "L'article s'ha suprimit correctament.",
       "report_success_title": "Reportatge d'article",
-      "report_success_message": "S'ha publicat el vostre informe sobre aquest article."
+      "report_success_message": "S'ha publicat el vostre informe sobre aquest article.",
     },
     "alert": {
       "delete_article": {
         "title": "Esborra l'article",
         "message": "Esteu segur que voleu suprimir permanentment aquest article?",
-        "action": "Suprimeix"
-      }
+        "action": "Suprimeix",
+      },
     },
     "edit_window": {
       "title": "Seleccioneu Text de la imatge i Resum",
-      "digest": "Resum"
+      "digest": "Resum",
     },
     "editor": {
       "title_placeholder": "Títol..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Aquest fitxer és massa gran:",
       "notifications": {
         "image_uploaded_success": "La imatge s'ha desat correctament",
-        "image_uploaded_failed": "S'ha produït un error en carregar la imatge."
+        "image_uploaded_failed": "S'ha produït un error en carregar la imatge.",
       },
       "embed_placeholder": "Introduïu el codi iframe, Facebook, Youtube o qualsevol altre URL i premeu Intro.",
       "embed_caption_placeholder": "Introduïu un títol (opcional)",
-      "images_caption_placeholder": "Introduïu un títol per a aquesta imatge.."
-    }
+      "images_caption_placeholder": "Introduïu un títol per a aquesta imatge..",
+    },
   },
   "article_report": {
     "inappropriate": "El contingut d'aquest article és inadequat.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Crec que aquest contingut conté pornografia i infringeix les lleis.",
     "harassment": "Crec que això és racista.",
     "hate": "Crec que es tracta de promoure la violència.",
-    "infringe": "Això vulnera els meus drets."
+    "infringe": "Això vulnera els meus drets.",
   },
   "comments": {
     "new_action": "Feu clic per deixar un comentari..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Obteniu més comentaris..",
     "cant_send_comment": "No pots afegir una nova publicació.",
     "cant_remove_this_comment": "No pots eliminar aquest comentari!",
-    "product_buyer": "Comprador",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Els meus comentaris",
     "delete_alert": {
       "title": "Suprimeix el comentari",
       "message": "Vols suprimir aquest comentari?",
-      "action": "Suprimeix"
+      "action": "Suprimeix",
     },
     "notifications": {
-      "delete_success": "El teu comentari s'ha suprimit correctament."
+      "delete_success": "El teu comentari s'ha suprimit correctament.",
     },
     "first_send": "Primera publicació",
     "comment_at": "Encès",
     "edit_comment": "Edita el comentari",
-    "my_comments": "Els meus comentaris"
+    "product_buyer": "Comprador",
   },
   "customer_club": {
     "bronze": "Bronze",
     "silver": "Plata",
     "gold": "Daurat",
     "platinum": "Platí",
-    "diamond": "Diamant"
+    "diamond": "Diamant",
   },
   "application_categories": {
     "tracking": "Comprovació del comportament de l'usuari",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Publicitat",
     "staff": "Personal",
     "incentive": "Incentius",
-    "shop": "Botiga"
+    "shop": "Botiga",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "Què tal",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Afegeix un element nou",
     "title_input": "Títol",
+    "placeholder_input": "Posseïdor del lloc",
     "name_input": "Nom variable",
     "value_input": "Valors",
     "value_input_message": "Llista d'opcions d'usuari",
     "default": "Valor per defecte",
+    "file_type_input": "Tipus de fitxers acceptables",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Simple",
       "selective": "Selectiu",
       "switch": "Interruptor",
       "file": "Dossier",
-      "number": "Número"
+      "number": "Número",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Posseïdor del lloc",
-    "file_type_input": "Tipus de fitxers acceptables",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "nom del producte",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Estat de pagament",
     "payment_status_waiting": "Esperant el pagament",
     "payment_status_paid": "Pagat",
-    "buyer": "Comprador"
+    "buyer": "Comprador",
   },
   "virtual_item_info": {
     "title": "Element virtual",
     "outputs": {
       "title": "Informació de sortida",
       "sub_title": "Informació confidencial d'aquest article",
-      "message": "Aquesta informació es mostrarà a l'usuari després de comprar el producte."
+      "message": "Aquesta informació es mostrarà a l'usuari després de comprar el producte.",
     },
     "inputs": {
       "title": "Informació requerida",
       "sub_title": "Informació del comprador requerida",
-      "message": "El comprador ha d'introduir la informació sol·licitada al formulari"
+      "message": "El comprador ha d'introduir la informació sol·licitada al formulari",
     },
     "notifications": {
       "inputs_set_success": "Formulari d'informació registrat correctament.",
       "confirm_by_admin_success": "S'ha confirmat la finalització de la comanda.",
-      "confirm_by_buyer_success": "S'ha confirmat la finalització de la comanda."
-    }
+      "confirm_by_buyer_success": "S'ha confirmat la finalització de la comanda.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Aquesta comanda no es pot acceptar pel pagament de COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Esgotat.",
     "legal_restriction": "No es pot fer una comanda a causa de restriccions legals.",
     "pricing_fault": "Error de preu per part del venedor.",
-    "system_fault": "Error del sistema."
+    "system_fault": "Error del sistema.",
   },
   "basket_order_info_summery": {
     "receiver": "Receptor",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Descompte",
     "final_price": "Import final",
     "address": "Adreça d'entrega",
-    "payment_status": "Estat de pagament"
+    "payment_status": "Estat de pagament",
   },
   "basket_status": {
     "open": "Obert",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Cancel·lat",
     "cod": "Pagament a l'entrega",
     "receipt_added": "S'ha afegit el rebut",
-    "payment_processing": "Tramitació de pagaments"
+    "payment_processing": "Tramitació de pagaments",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Rebutjada",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Confirmació",
     "step_3": "Preparació",
     "step_4": "En entrega",
-    "step_5": "Lliurat"
+    "step_5": "Lliurat",
   },
   "basket_return_request_view": {
     "title": "Sol·licitud de devolució",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Rebutja la sol·licitud",
     "message_for_admin": "D'acord amb l'acord que has acceptat mitjançant l'ús de Selldone, has de contactar amb el comprador i mantenir-lo informat del procés de devolució de la seva comanda. Això s'ha de fer si la sol·licitud és acceptada o rebutjada i s'obté el consentiment total del comprador.",
     "notifications": {
-      "update_status_success": "Estat de la sol·licitud actualitzat."
-    }
+      "update_status_success": "Estat de la sol·licitud actualitzat.",
+    },
   },
   "basket_list": {
     "return_count": "Retorn: {count} nombre",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Garanties",
       "count": "Compte",
-      "price": "preu"
-    }
+      "price": "preu",
+    },
   },
   "return_request_list": {
     "count": "Número de referència",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Data de recepció",
       "state": "Estat",
       "reason": "Raó",
-      "return_warranty_period": "Període de garantia"
-    }
+      "return_warranty_period": "Període de garantia",
+    },
   },
   "data_toolbar": {
     "search": "Cerca",
     "sort_by": "Ordenar per",
-    "count_item": "Mostra {item} elements"
+    "count_item": "Mostra {item} elements",
   },
   "sort": {
     "created_at": "Crear data",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Oficial",
     "registered": "Enregistrat",
     "purchased": "Comprat",
-    "sex": "Gènere"
+    "sex": "Gènere",
   },
   "search_box": {
     "result": "Resultats de la cerca",
     "tips": "Cerca productes i categories",
     "label": "Cerca ...",
-    "category": "Categoria"
+    "category": "Categoria",
   },
   "lead_status": {
     "physical_fast_delivery": "Lliurament instantani",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "S'està preparant i enviant a partir dels propers {days} dies",
     "virtual_fast_prepare": "Lliurament instantani",
     "virtual_under_24h": "Es farà en les properes {lead} hores",
-    "virtual_over_24h": "Es farà a partir dels propers {days} dies"
+    "virtual_over_24h": "Es farà a partir dels propers {days} dies",
   },
   "return_request_state": {
     "pending": "Pendents",
     "accepted": "Confirmat",
-    "rejected": "Rebutjada"
+    "rejected": "Rebutjada",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Manipulació del paquet o del número de sèrie",
       "U5": "Falten alguns articles del paquet",
       "U6": "El producte no és original",
-      "U7": "El producte no compleix les especificacions"
-    }
+      "U7": "El producte no compleix les especificacions",
+    },
   },
   "image_uploader": {
     "label": "Arrossega i deixa anar o <u>Selecciona un fitxer</u>",
-    "max_size": "Mida màxima permesa: {size}"
+    "max_size": "Mida màxima permesa: {size}",
   },
   "timespan": {
     "Morning": "8h - 12h",
     "Evening": "De 12 a 18 h",
     "Night": "18h-12h",
-    "Instant": "Publicació instantània"
+    "Instant": "Publicació instantània",
   },
   "week_day": {
     "Saturday": "dissabte",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "dimarts",
     "Wednesday": "dimecres",
     "Thursday": "dijous",
-    "Friday": "divendres"
+    "Friday": "divendres",
   },
   "payment_form": {
     "title": "Seleccioneu Mètode de pagament",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Enhorabona, la teva comanda és gratuïta!",
     "order_free_payment_action": "Comanda gratuïta ara",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Adreça de pagament",
-      "amount": "Import"
-    }
+      "amount": "Import",
+    },
   },
   "discount_input": {
     "limit": "{percent}% de descompte fins a {limit} {currency}",
     "action": "Afegeix el codi de descompte",
     "code_input": "Codi de descompte",
     "notifications": {
-      "add_success": "Enhorabona, codi de descompte vàlid."
-    }
+      "add_success": "Enhorabona, codi de descompte vàlid.",
+    },
   },
   "gift_card": {
     "inactive": "La targeta està desactivada",
     "expire": "Caducitat",
     "transfer": "Transferència",
-    "send_to_friend": "Enviar a un amic"
+    "send_to_friend": "Enviar a un amic",
   },
   "count_down": {
     "days": "Dia",
     "hours": "Hores",
     "minutes": "Minuts",
-    "seconds": "segons"
+    "seconds": "segons",
   },
   "gift_status": {
     "Unpaid": "rebut pendent",
     "Paid": "Pagat",
     "Rejected": "Rebutjada",
-    "Canceled": "Cancel·lat"
+    "Canceled": "Cancel·lat",
   },
   "gift_program_status": {
     "Airdrop": "Sistema de pagament",
     "Advertising": "Publicitat",
     "PersonalGift": "Regal personal",
-    "ShopGift": "Botiga de regals"
+    "ShopGift": "Botiga de regals",
   },
   "currency_selector": {
-    "label": "Moneda"
+    "label": "Moneda",
   },
   "need_login": {
     "title": "iniciar Sessió",
     "login_sms": "Inici de sessió per SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Inicieu sessió amb Google",
     "login_facebook": "Inicia sessió amb Facebook",
+    "login_apple": "Inicieu sessió amb Apple",
     "login_account": "Inici de sessió per Selldone",
     "register": "Nou usuari? Registra't ara.",
     "mobile_input": "Introdueix el teu mòbil",
     "verification_code": "Codi de verificació",
     "msg_title": "hola,",
     "msg_body": "Si us plau inicieu sessió. Només triguen uns segons.",
-    "login_apple": "Inicieu sessió amb Apple",
     "login_email": "Inicieu sessió per correu electrònic",
     "email_login_step_1": "Proporcioneu una adreça de correu electrònic vàlida i li enviarem el codi d'inici de sessió. No cal registrar-se.",
     "email_login_step_2": "Esteu segur que heu introduït la vostra adreça de correu electrònic correctament? Enviarem el codi d'inici de sessió al correu electrònic proporcionat, així que assegureu-vos que sigui exacte.",
-    "email_login_step_3": "Hem enviat un codi al teu correu electrònic. Tingueu en compte que el codi caducarà en 10 minuts."
+    "email_login_step_3": "Hem enviat un codi al teu correu electrònic. Tingueu en compte que el codi caducarà en 10 minuts.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Botiga d'or de 5 anys"
+      "name": "Botiga d'or de 5 anys",
     },
     "GOLDEN_2YEAR": {
-      "name": "Botiga d'or de 4 anys"
+      "name": "Botiga d'or de 4 anys",
     },
     "GOLDEN_3YEAR": {
-      "name": "Botiga d'or de 3 anys"
+      "name": "Botiga d'or de 3 anys",
     },
     "GOLDEN_4YEAR": {
-      "name": "Botiga d'or de 2 anys"
+      "name": "Botiga d'or de 2 anys",
     },
     "GOLDEN_5YEAR": {
-      "name": "Botiga d'or d'1 any"
+      "name": "Botiga d'or d'1 any",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Inversor d'or"
+      "name": "Inversor d'or",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Inversor de diamants"
+      "name": "Inversor de diamants",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Inversor Rubí"
+      "name": "Inversor Rubí",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Membre de la Comunitat Superior de Xarxes de Comunicació"
+      "name": "Membre de la Comunitat Superior de Xarxes de Comunicació",
     },
     "GOLD_SUPPLIER": {
-      "name": "Proveïdor d'or"
+      "name": "Proveïdor d'or",
     },
     "GOLD_SELLER": {
-      "name": "Distribuïdor d'or"
+      "name": "Distribuïdor d'or",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Principal productor de contingut"
+      "name": "Principal productor de contingut",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Estrella"
+      "name": "Estrella",
     },
     "GUARDIAN": {
-      "name": "Gran servei al client"
+      "name": "Gran servei al client",
     },
     "KING": {
-      "name": "Rei del Mercat"
-    }
+      "name": "Rei del Mercat",
+    },
   },
   "cookie": {
     "title": "Aquest lloc web utilitza cookies",
     "message": "Aquest lloc web utilitza cookies per millorar l'experiència de l'usuari. En utilitzar el nostre lloc web, accepteu totes les cookies d'acord amb la nostra Política de cookies.",
     "preferences_action": "Gestiona les preferències",
-    "agree_action": "Estic dacord"
+    "agree_action": "Estic dacord",
   },
   "basket_item_message": {
     "title": "Informació necessària per a aquest article",
     "save_actions": "Guarda el missatge",
+    "product_inputs_preview_message": "Aquestes opcions de personalització estan disponibles per al producte demanat. Un cop l'article s'ha afegit al carretó, aquí podreu fer els ajustos.",
     "notifications": {
-      "success": "Les vostres dades d'entrada s'han desat."
+      "success": "Les vostres dades d'entrada s'han desat.",
     },
-    "product_inputs_preview_message": "Aquestes opcions de personalització estan disponibles per al producte demanat. Un cop l'article s'ha afegit al carretó, aquí podreu fer els ajustos."
   },
   "faq": {
     "faq": "Preguntes freqüents",
     "title": "Preguntes i respostes",
-    "sub_title": "El que ens vas demanar.",
     "message": "Busqueu la resposta a la vostra pregunta entre les respostes següents. Pregunteu-nos si queden preguntes sense resposta.",
     "add_question_action": "Fes una nova pregunta",
     "read_more": "Llegeix més ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Pregunta",
     "question_input_placeholder": "Fes la teva pregunta.",
     "notifications": {
-      "success_add": "La teva pregunta s'ha enviat correctament."
-    }
+      "success_add": "La teva pregunta s'ha enviat correctament.",
+    },
+    "sub_title": "El que ens vas demanar.",
   },
   "rating_labels": [
     "Molt malament",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Introduïu l'adreça de destinació",
     "enter_your_address": "Introduïu la vostra adreça.",
     "postal_code": "Codi postal",
-    "phone_input": "Telèfon {type}",
+    "phone_input": "Telèfon",
     "building_number": "Número d'edifici",
     "building_unit": "Unitat",
     "full_name_input": "Nom complet {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Etiqueta d'adreça (obligatori)",
     "notifications": {
       "save_in_list": "Aquesta adreça s'ha desat a la vostra llista amb tots els seus detalls.",
-      "edit_success": "Nous valors d'adreça desats a {title}."
+      "edit_success": "Nous valors d'adreça desats a {title}.",
     },
     "delete_address_dialog": {
       "title": "Esborra l'adreça",
       "message": "Esteu segur que voleu suprimir aquesta adreça?",
-      "action": "Elimina l'adreça"
-    }
+      "action": "Elimina l'adreça",
+    },
   },
   "comment_manager": {
     "can_not_edit": "No es pot editar aquest comentari!",
     "comment_input_empty": "El text del missatge està en blanc!",
-    "article_not_saved": "Guarda l'article!"
+    "article_not_saved": "Guarda l'article!",
   },
   "wheel_fortune": {
     "title": "Juga i guanya",
     "message": "El cost de cada joc és de 10 fitxes. Actualment tens un xip de {chips}. Aconsegueix més xip comprant a la botiga.",
     "win_message": "Enhorabona, has guanyat!",
     "lost_message": "Ho sentim, has perdut el joc.",
-    "try_again": "Podeu tornar-ho a provar"
+    "try_again": "Podeu tornar-ho a provar",
   },
   "json": {
     "add": "Afegeix dades d'estructura",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Estructures",
     "book": {
       "title": "Llibre",
-      "desc": "Accions de llibre que permeten als usuaris comprar el llibre que troben directament als resultats de la cerca."
+      "desc": "Accions de llibre que permeten als usuaris comprar el llibre que troben directament als resultats de la cerca.",
     },
     "occupation": {
       "title": "Salari estimat",
-      "desc": "La informació sobre l'estimació salarial, com ara els rangs salarials i les mitjanes salarials per regions per als tipus de feina, es mostra a l'experiència de cerca de feina a Google."
+      "desc": "La informació sobre l'estimació salarial, com ara els rangs salarials i les mitjanes salarials per regions per als tipus de feina, es mostra a l'experiència de cerca de feina a Google.",
     },
     "course": {
       "title": "Curs",
-      "desc": "Cursos educatius que apareixen en una llista específica del proveïdor. Els cursos poden incloure el títol del curs, el proveïdor i una breu descripció."
+      "desc": "Cursos educatius que apareixen en una llista específica del proveïdor. Els cursos poden incloure el títol del curs, el proveïdor i una breu descripció.",
     },
     "howto": {
       "title": "Com",
-      "desc": "Una guia guia als usuaris a través d'un conjunt de passos per completar amb èxit una tasca, que inclou vídeo, imatges i text."
+      "desc": "Una guia guia als usuaris a través d'un conjunt de passos per completar amb èxit una tasca, que inclou vídeo, imatges i text.",
     },
     "recipe": {
       "title": "Recepta",
-      "desc": "Receptes que es mostren com a resultat ric individual o com a part d'un carrusel d'amfitrió."
-    }
+      "desc": "Receptes que es mostren com a resultat ric individual o com a part d'un carrusel d'amfitrió.",
+    },
   },
   "support": {
     "Financial": "Financera",
     "Technical": "Tècnic",
-    "Advisor": "Assessor"
+    "Advisor": "Assessor",
   },
   "condition": {
     "new": "Nou",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Usat",
     "used_fair": "Fira d'usats",
     "used_good": "Usat bé",
-    "used_like_new": "Usat com nou"
+    "used_like_new": "Usat com nou",
   },
   "variant_filter": {
     "title": "Filtre de variants de producte",
-    "only_available": "En estoc"
+    "only_available": "En estoc",
   },
   "service": {
     "task": {
       "title": "Tasques",
-      "message": "Relació de tasques realitzades en aquest servei."
+      "message": "Relació de tasques realitzades en aquest servei.",
     },
     "appointment": {
       "title": "Cita",
-      "message": "Trieu els horaris de la setmana entre els següents segons el dia i l'hora que us convingui."
+      "message": "Trieu els horaris de la setmana entre els següents segons el dia i l'hora que us convingui.",
     },
     "booking": {
       "title": "Reserva",
-      "message": "Especifiqueu el període de temps dels dies que voleu fer una reserva al calendari següent."
+      "message": "Especifiqueu el període de temps dels dies que voleu fer una reserva al calendari següent.",
     },
     "subscription": {
-      "title": "Subscripció"
+      "title": "Subscripció",
     },
     "charge": {
-      "title": "Càrrega"
-    }
+      "title": "Càrrega",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Preu fix",
-      "message": "En aquest tipus de preus, el preu del producte és una quantitat fixa i no cal que el comprador sol·liciti un càlcul de preu."
+      "message": "En aquest tipus de preus, el preu del producte és una quantitat fixa i no cal que el comprador sol·liciti un càlcul de preu.",
     },
     "ESTIMATION": {
       "title": "Estimació de preus",
-      "message": "El preu dels productes i serveis serà calculat fins a cert punt pel venedor en fer una comanda, les factures de pagament es poden modificar o afegir durant el servei."
+      "message": "El preu dels productes i serveis serà calculat fins a cert punt pel venedor en fer una comanda, les factures de pagament es poden modificar o afegir durant el servei.",
     },
     "AGREEMENT": {
       "title": "Preus de l'acord",
-      "message": "El venedor no modificarà el preu final dels productes o serveis un cop realitzada la comanda."
+      "message": "El venedor no modificarà el preu final dels productes o serveis un cop realitzada la comanda.",
     },
     "BID": {
       "title": "Licitació / Subhasta",
-      "message": "Els compradors potencials vendran el producte al preu d'oferta més alt."
-    }
+      "message": "Els compradors potencials vendran el producte al preu d'oferta més alt.",
+    },
   },
   "map": {
     "title": "Destinació per rebre productes",
     "confirm": "Estableix la ubicació",
     "address": "Destinació",
-    "receptor": "Receptor"
+    "receptor": "Receptor",
   },
   "ShopBots": {
-    "telegram": "Telegrama"
+    "telegram": "Telegrama",
   },
   "article_tags": {
     "title": "Etiquetes de contingut",
     "tags_input": "Etiquetes",
     "tags_input_message": "Llista d'etiquetes d'aquest article",
     "notification": {
-      "add_success": "S'han afegit etiquetes"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Molt complicat",
-    "hard": "Dur",
-    "intermediate": "Intermedi",
-    "easy": "Fàcil"
-  },
-  "billing_period": {
-    "Daily": "Diàriament",
-    "Weekly": "Setmanalment",
-    "Monthly": "Mensual",
-    "Every3Months": "Cada 3 mesos",
-    "Every6Months": "Cada 6 mesos",
-    "Yearly": "Anualment"
+      "add_success": "S'han afegit etiquetes",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Oh, no està bé!",
     "between2_3": "Està bé!",
     "between3_4": "A la gent li agrada!",
-    "between4_5": "A la gent li encanta!"
+    "between4_5": "A la gent li encanta!",
   },
   "seasons": {
     "spring": "Primavera",
     "summer": "Estiu",
     "autumn": "Tardor",
-    "winter": "Hivern"
-  }
+    "winter": "Hivern",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

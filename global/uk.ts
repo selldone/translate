@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Я прочитав умови використання та політику конфіденційності та погоджуюся з ними.",
   "commons": {
     "Currency": "Валюта",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "держава",
     "Price": "ціна",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Ціна нетто",
     "tax": "податок",
     "tax_included": "Входить у вартість",
+    "tax_included_abstract": "в т.ч.",
     "limit": "Ліміт",
     "min_purchase": "Мінімальна закупівля",
     "eligible_for": "Придатний для",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Дата створення",
     "updated_at": "Останнє оновлення",
     "register_at": "Дата реєстрації",
+    "last_modified": "Last modified",
     "old": "Старий",
     "new": "Новий",
     "start": "Почніть",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Торговий посередник",
     "tracking_code": "Код відстеження",
     "tracking_url": "URL-адреса для відстеження",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Виконання",
     "reject": "Відхилити",
     "reserved": "Зарезервований",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Очікування...",
     "waiting_connecting_payment": "Чекаємо на платіжний сервіс...",
     "creating_secure_payment": "Створення безпечного платежу.",
+    "waiting_for_payment": "Будь ласка, завершіть оплату...",
     "officer": "Офіцер",
     "ticket": "Квиток",
     "ticket_url": "URL-адреса квитка",
@@ -361,7 +366,6 @@ export default {
     "rates": "Рейтинг",
     "seen_at": "Побачено на",
     "completed": "Завершено",
-    "you": "ви",
     "shop": "Магазин",
     "store": "магазин",
     "granted": "Допущено",
@@ -498,6 +502,7 @@ export default {
     "tablet": "планшет",
     "pc": "PC",
     "acquisition_channel": "Канал залучення",
+    "channels_overview": "Channels overview",
     "to": "До",
     "info": "Інформація",
     "general": "Генеральний",
@@ -559,7 +564,6 @@ export default {
     "per_product": "За продукт",
     "journey": "Подорож",
     "after": "Після",
-    "waiting_for_payment": "Будь ласка, завершіть оплату...",
     "hour": "годину",
     "minute": "хвилина",
     "premium": "Преміум",
@@ -569,6 +573,7 @@ export default {
     "shops": "Магазини",
     "vendor": "Продавець",
     "vendors": "Продавці",
+    "no_vendors": "No vendors",
     "marketplace": "Ринок",
     "verify_date": "Перевірити дату",
     "note": "Примітка",
@@ -604,7 +609,6 @@ export default {
     "variant": "Варіант",
     "secure": "Безпечний",
     "admin": "адмін",
-    "tax_included_abstract": "в т.ч.",
     "payment_not_settled": "Оплата не проведена!",
     "orders_list": "Список замовлень",
     "subscription_plan": "План підписки",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Кластери",
     "subscriptions": "Підписки",
     "spam": "Спам",
-    "video": "Відео"
+    "video": "Відео",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "ви",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Дуже складно",
+    "hard": "важко",
+    "intermediate": "Середній",
+    "easy": "легко",
   },
   "dialogs": {
     "delete": {
       "title": "Видалити",
       "message": "Ви впевнені, що видалили цей елемент?",
-      "action": "Так, видалити зараз"
-    }
+      "action": "Так, видалити зараз",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Додати в кошик",
     "cancel": "Скасувати",
     "update": "Оновлення",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Додати подарункову картку",
     "charge": "Зарядити",
     "send_invites": "Надішліть запрошення",
-    "past": "Минуле",
+    "paste": "Вставити",
     "restore": "Відновлення",
     "cut": "Вирізати",
     "get_sms_code": "Отримати код аутентифікації",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Показати попередній перегляд",
     "hide_preview": "Приховати попередній перегляд",
     "download_now": "Скачати зараз",
+    "watch_now": "Дивитися зараз",
     "auto_fill": "Автозаповнення",
     "track": "Трек",
     "change_state": "Змінити статус",
     "done": "Готово",
     "reply": "Відповісти",
-    "watch_now": "Дивитися зараз",
     "unlock": "Розблокувати",
     "lock": "Замок",
     "create_clone": "Створити клон",
@@ -773,41 +931,71 @@ export default {
     "buy": "Купуйте",
     "view_all": "Подивитись все",
     "view_now": "Переглянути зараз",
-    "paste": "Вставити"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Минуле",
+  },
+  "billing_period": {
+    "Daily": "Щодня",
+    "Weekly": "Щотижня",
+    "Monthly": "Щомісячно",
+    "Every3Months": "Кожні 3 місяці",
+    "Every6Months": "Кожні 6 місяців",
+    "Yearly": "Щорічно",
   },
   "instance_message_title": "Відправити миттєве повідомлення",
   "instance_message": "Привіт, {name}! Мене звати {author} з {company}.",
   "errors": {
     "419": "Ви були неактивні протягом тривалого часу, будь ласка, <b>⟳ ОНОВІТЬ СТОРІНКУ</b> з міркувань безпеки.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Система не синхронізується з блокчейном. Створити нову транзакцію буде неможливо, доки не буде завершена синхронізація наших серверів. Ми вирішуємо проблему.",
-    "gateway_network_error": "Служба платіжного шлюзу зіткнулася з проблемою зв’язку."
+    "gateway_network_error": "Служба платіжного шлюзу зіткнулася з проблемою зв’язку.",
   },
   "receiver_info": {
     "map": {
       "title": "Адреса доставки",
       "confirm": "Встановити місце розташування",
       "address_type": "Пункт призначення",
-      "receptor_type": "Приймач"
+      "receptor_type": "Приймач",
     },
     "receiver_address": "Виберіть адресу доставки",
+    "service_address": "Виберіть свою адресу",
+    "select_billing_address": "Select billing address",
     "address": "адреса",
     "postcode": "Поштовий індекс",
     "enter_value": "Заповніть тут",
     "address_note": "Примітка",
     "tel": "Контактний номер",
-    "service_address": "Виберіть свою адресу"
   },
   "weight": {
     "g": "g",
     "oz": "унцій",
     "lb": "фунт",
-    "kg": "кг"
+    "kg": "кг",
   },
   "mass_unit_name": {
     "g": "грам",
     "oz": "унція",
     "lb": "фунт",
-    "kg": "кілограм"
+    "kg": "кілограм",
   },
   "length": {
     "cm": "см",
@@ -815,7 +1003,7 @@ export default {
     "ft": "футів",
     "mm": "мм",
     "m": "м",
-    "yd": "ярд"
+    "yd": "ярд",
   },
   "size_unit_name": {
     "cm": "Сантиметр",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Нога",
     "mm": "міліметр",
     "m": "метр",
-    "yd": "Двір"
+    "yd": "Двір",
   },
   "distance": {
     "m": "метр",
-    "km": "км"
+    "km": "км",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "днів",
     "hours": "годин",
     "minutes": "Хвилини",
-    "seconds": "Секунди"
+    "seconds": "Секунди",
   },
   "units": [
     "одиниця",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "держава",
     "Territory": "Територія",
-    "Province": "провінція"
+    "Province": "провінція",
   },
   "transaction_status": {
     "RequireAction": "Потрібна дія",
     "Processing": "Обробка",
     "Canceled": "Скасовано",
-    "Succeeded": "Вдалось"
+    "Succeeded": "Вдалось",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Джон Кокс",
@@ -885,7 +1078,17 @@ export default {
     "language": "Оберіть мову..",
     "friend_email": "Електронна пошта вашого друга...",
     "friend_name": "Opt. Ім'я вашого друга",
-    "select_date": "Виберіть дату..."
+    "select_date": "Виберіть дату...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Підтвердьте",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Максимальна кількість символів: {maxCount}",
     "invalid_url": "Недійсна URL-адреса",
     "country_invalid": "Виберіть країну призначення!",
-    "postal_code_invalid": "Встановіть дійсний поштовий індекс!"
+    "postal_code_invalid": "Встановіть дійсний поштовий індекс!",
   },
   "colors": {
     "#D32F2F": "червоний",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "одиниця",
     "postcode": "Поштовий індекс",
     "note": "Примітка",
-    "county": "графство"
+    "county": "графство",
   },
   "product_types": {
     "physical": "Фізичний",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Обслуговування",
     "service_description": "Послуги: ремонт, транспорт, навчання.",
     "subscription": "Підписка",
-    "subscription_description": "Підписки та виставлення рахунків за продукти, послуги чи вміст."
+    "subscription_description": "Підписки та виставлення рахунків за продукти, послуги чи вміст.",
   },
   "license": {
     "free": "Безкоштовно",
     "startup": "Стартап",
     "company": "Компанія",
-    "enterprise": "Підприємство"
+    "enterprise": "Підприємство",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Колір",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Порахуйте в пачці",
     "weight": "Вага",
     "type": "Матеріал",
-    "style": "Стиль"
+    "style": "Стиль",
   },
   "delivery_state": {
     "check_queue": "Очікування огляду",
     "order_confirm": "Підтвердження замовлення",
     "preparing_order": "Підготовка",
     "sent_order": "При доставці",
-    "to_customer": "Доставлено"
+    "to_customer": "Доставлено",
   },
   "status": {
     "unpaid": "Неоплачений",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Відхилити",
     "pending": "Очікується",
     "rejected": "Відхилено",
-    "accepted": "Прийнято"
+    "accepted": "Прийнято",
   },
   "dimensions": {
     "cm": "см",
     "km": "км",
-    "kg": "кг"
+    "kg": "кг",
   },
   "transportation_type": {
     "motorbike": "мотоцикл",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Глобальні перевезення",
     "global_description": "Доставка за кордон повітряним, морським або наземним транспортом.",
     "pickup": "Самовивіз",
-    "pickup_description": "Клієнти забирають товари у вашому фізичному магазині або на складі."
+    "pickup_description": "Клієнти забирають товари у вашому фізичному магазині або на складі.",
   },
   "article": {
     "login_to_see_error": "Увійдіть, щоб отримати доступ до статті",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Режим редагування",
       "view_mode": "Режим перегляду",
-      "delete": "Видалити статтю"
+      "delete": "Видалити статтю",
     },
     "schedule_action": "Бажаєте запланувати публікацію?",
     "schedule_title": "Заплануйте автоматичну публікацію",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Повідомте про порушення та видаліть вміст",
       "report_title": "Повідомити про цей вміст як образливий",
       "message": "Яка причина подання цього вмісту? Виберіть один із наступних варіантів.",
-      "accept_and_delete_action": "Підтвердьте та видаліть вміст"
+      "accept_and_delete_action": "Підтвердьте та видаліть вміст",
     },
     "schedule_dialog": {
       "title": "Розклад випуску контенту",
       "publish_at": "Опублікувати за адресою",
       "last_edit": "Останнє редагування",
-      "view_action": "Переглянути статтю"
+      "view_action": "Переглянути статтю",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Подати інформацію",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Повідомити та видалити",
       "report_and_delete_success_message": "Статтю успішно видалено.",
       "report_success_title": "Звітна стаття",
-      "report_success_message": "Ваш звіт про цю статтю опубліковано."
+      "report_success_message": "Ваш звіт про цю статтю опубліковано.",
     },
     "alert": {
       "delete_article": {
         "title": "Видалити статтю",
         "message": "Ви впевнені, що хочете назавжди видалити цю статтю?",
-        "action": "Видалити"
-      }
+        "action": "Видалити",
+      },
     },
     "edit_window": {
       "title": "Виберіть Текст зображення та підсумок",
-      "digest": "Резюме"
+      "digest": "Резюме",
     },
     "editor": {
       "title_placeholder": "Назва..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Цей файл завеликий:",
       "notifications": {
         "image_uploaded_success": "Зображення успішно збережено",
-        "image_uploaded_failed": "Помилка завантаження зображення."
+        "image_uploaded_failed": "Помилка завантаження зображення.",
       },
       "embed_placeholder": "Введіть код iframe, Facebook, Youtube або будь-яку іншу URL-адресу та натисніть Enter.",
       "embed_caption_placeholder": "Введіть назву (необов'язково)",
-      "images_caption_placeholder": "Введіть назву для цього зображення .."
-    }
+      "images_caption_placeholder": "Введіть назву для цього зображення ..",
+    },
   },
   "article_report": {
     "inappropriate": "Зміст цієї статті є невідповідним.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Я вважаю, що цей вміст містить порнографію та порушує закони.",
     "harassment": "Я думаю, що це расизм.",
     "hate": "Я думаю, що мова йде про пропаганду насильства.",
-    "infringe": "Це порушує мої права."
+    "infringe": "Це порушує мої права.",
   },
   "comments": {
     "new_action": "Натисніть, щоб залишити коментар..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Отримайте більше коментарів..",
     "cant_send_comment": "Ви не можете додати новий пост.",
     "cant_remove_this_comment": "Ви не можете видалити цей коментар!",
-    "product_buyer": "Покупець",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Мої коментарі",
     "delete_alert": {
       "title": "Видалити коментар",
       "message": "Видалити цей коментар?",
-      "action": "Видалити"
+      "action": "Видалити",
     },
     "notifications": {
-      "delete_success": "Ваш коментар успішно видалено."
+      "delete_success": "Ваш коментар успішно видалено.",
     },
     "first_send": "Перший пост",
     "comment_at": "Увімкнено",
     "edit_comment": "Редагувати коментар",
-    "my_comments": "Мої коментарі"
+    "product_buyer": "Покупець",
   },
   "customer_club": {
     "bronze": "Бронза",
     "silver": "Срібло",
     "gold": "Золотий",
     "platinum": "платина",
-    "diamond": "діамант"
+    "diamond": "діамант",
   },
   "application_categories": {
     "tracking": "Перевірка поведінки користувача",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Реклама",
     "staff": "Персонал",
     "incentive": "Заохочення",
-    "shop": "Магазин"
+    "shop": "Магазин",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Додати новий елемент",
     "title_input": "Назва",
+    "placeholder_input": "Заповнювач",
     "name_input": "Ім'я змінної",
     "value_input": "Цінності",
     "value_input_message": "Список параметрів користувача",
     "default": "Значення за замовчуванням",
+    "file_type_input": "Прийнятні типи файлів",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Просто",
       "selective": "Вибірковий",
       "switch": "Перемикач",
       "file": "Файл",
-      "number": "Номер"
+      "number": "Номер",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Заповнювач",
-    "file_type_input": "Прийнятні типи файлів",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Назва продукту",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Стан платежу",
     "payment_status_waiting": "Очікування оплати",
     "payment_status_paid": "Оплачено",
-    "buyer": "Покупець"
+    "buyer": "Покупець",
   },
   "virtual_item_info": {
     "title": "Віртуальний предмет",
     "outputs": {
       "title": "Вихідна інформація",
       "sub_title": "Конфіденційна інформація цього пункту",
-      "message": "Ця інформація буде показана користувачеві після покупки товару."
+      "message": "Ця інформація буде показана користувачеві після покупки товару.",
     },
     "inputs": {
       "title": "Потрібна інформація",
       "sub_title": "Потрібна інформація про покупця",
-      "message": "Покупець повинен ввести запитувану інформацію у форму"
+      "message": "Покупець повинен ввести запитувану інформацію у форму",
     },
     "notifications": {
       "inputs_set_success": "Інформаційна форма успішно зареєстрована.",
       "confirm_by_admin_success": "Завершення замовлення підтверджено.",
-      "confirm_by_buyer_success": "Завершення замовлення підтверджено."
-    }
+      "confirm_by_buyer_success": "Завершення замовлення підтверджено.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Це замовлення не може бути прийнято платіжною накладною на накладну плату.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Немає в наявності.",
     "legal_restriction": "Неможливо зробити замовлення через юридичні обмеження.",
     "pricing_fault": "Помилка в ціні продавця.",
-    "system_fault": "Системна помилка."
+    "system_fault": "Системна помилка.",
   },
   "basket_order_info_summery": {
     "receiver": "Приймач",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Знижка",
     "final_price": "Остаточна сума",
     "address": "Адреса доставки",
-    "payment_status": "Стан платежу"
+    "payment_status": "Стан платежу",
   },
   "basket_status": {
     "open": "ВІДЧИНЕНО",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Скасовано",
     "cod": "Оплата при доставці",
     "receipt_added": "Квитанцію додано",
-    "payment_processing": "Обробка платежів"
+    "payment_processing": "Обробка платежів",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Відхилено",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Підтвердження",
     "step_3": "Підготовка",
     "step_4": "При доставці",
-    "step_5": "Доставлено"
+    "step_5": "Доставлено",
   },
   "basket_return_request_view": {
     "title": "Запит на повернення",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Відхилити запит",
     "message_for_admin": "Відповідно до угоди, яку ви прийняли, використовуючи Selldone, ви повинні зв’язатися з покупцем і інформувати його/її про процес повернення його/її замовлення. Це необхідно зробити, якщо запит прийнято або відхилено та отримана повна згода покупця.",
     "notifications": {
-      "update_status_success": "Статус запиту оновлено."
-    }
+      "update_status_success": "Статус запиту оновлено.",
+    },
   },
   "basket_list": {
     "return_count": "Повернення: {count} номер",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Варіант",
       "warranty": "Гарантії",
       "count": "Рахувати",
-      "price": "ціна"
-    }
+      "price": "ціна",
+    },
   },
   "return_request_list": {
     "count": "Номер для посилань",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Дата отримання",
       "state": "Статус",
       "reason": "Причина",
-      "return_warranty_period": "Гарантійний термін"
-    }
+      "return_warranty_period": "Гарантійний термін",
+    },
   },
   "data_toolbar": {
     "search": "Пошук",
     "sort_by": "Сортувати за",
-    "count_item": "Показати {item} елементів"
+    "count_item": "Показати {item} елементів",
   },
   "sort": {
     "created_at": "Створити дату",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Офіцер",
     "registered": "Зареєстровано",
     "purchased": "Придбано",
-    "sex": "Стать"
+    "sex": "Стать",
   },
   "search_box": {
     "result": "Результати пошуку",
     "tips": "Пошук продуктів і категорій",
     "label": "Шукати...",
-    "category": "Категорія"
+    "category": "Категорія",
   },
   "lead_status": {
     "physical_fast_delivery": "Миттєва доставка",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Підготовка та подача з наступних {days} днів",
     "virtual_fast_prepare": "Миттєва доставка",
     "virtual_under_24h": "Буде виконано протягом наступних {lead} год",
-    "virtual_over_24h": "Буде виконано з наступних {days} днів"
+    "virtual_over_24h": "Буде виконано з наступних {days} днів",
   },
   "return_request_state": {
     "pending": "Очікується",
     "accepted": "Підтверджено",
-    "rejected": "Відхилено"
+    "rejected": "Відхилено",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Підробка пакету або серійного номера",
       "U5": "Деякі предмети з посилки відсутні",
       "U6": "Товар не оригінальний",
-      "U7": "Товар не відповідає специфікаціям"
-    }
+      "U7": "Товар не відповідає специфікаціям",
+    },
   },
   "image_uploader": {
     "label": "Перетягніть або <u>виберіть файл</u>",
-    "max_size": "Максимально дозволений розмір: {size}"
+    "max_size": "Максимально дозволений розмір: {size}",
   },
   "timespan": {
     "Morning": "8 ранку - 12 вечора",
     "Evening": "з 12:00 до 18:00",
     "Night": "18:00-12:00",
-    "Instant": "Миттєва публікація"
+    "Instant": "Миттєва публікація",
   },
   "week_day": {
     "Saturday": "субота",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "вівторок",
     "Wednesday": "середа",
     "Thursday": "четвер",
-    "Friday": "п'ятниця"
+    "Friday": "п'ятниця",
   },
   "payment_form": {
     "title": "Виберіть Спосіб оплати",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Вітаємо, Ваше замовлення безкоштовне!",
     "order_free_payment_action": "Замовляйте безкоштовно зараз",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Платіжна адреса",
-      "amount": "Сума"
-    }
+      "amount": "Сума",
+    },
   },
   "discount_input": {
     "limit": "{percent}% знижки до {limit} {currency}",
     "action": "Додайте код знижки",
     "code_input": "Код на знижку",
     "notifications": {
-      "add_success": "Вітаємо, дійсний код знижки."
-    }
+      "add_success": "Вітаємо, дійсний код знижки.",
+    },
   },
   "gift_card": {
     "inactive": "Картка вимкнена",
     "expire": "Термін дії",
     "transfer": "Передача",
-    "send_to_friend": "Надіслати другу"
+    "send_to_friend": "Надіслати другу",
   },
   "count_down": {
     "days": "День",
     "hours": "годину",
     "minutes": "Хвилини",
-    "seconds": "Секунди"
+    "seconds": "Секунди",
   },
   "gift_status": {
     "Unpaid": "очікуючи квитанцію",
     "Paid": "Оплачено",
     "Rejected": "Відхилено",
-    "Canceled": "Скасовано"
+    "Canceled": "Скасовано",
   },
   "gift_program_status": {
     "Airdrop": "Платіжна система",
     "Advertising": "Реклама",
     "PersonalGift": "Особистий подарунок",
-    "ShopGift": "Сувенірна лавка"
+    "ShopGift": "Сувенірна лавка",
   },
   "currency_selector": {
-    "label": "Валюта"
+    "label": "Валюта",
   },
   "need_login": {
     "title": "увійти",
     "login_sms": "Вхід по SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Увійдіть за допомогою Google",
     "login_facebook": "Увійти через Facebook",
+    "login_apple": "Увійдіть через Apple",
     "login_account": "Вхід через Selldone",
     "register": "Новий користувач? Зареєструйтеся зараз.",
     "mobile_input": "Введіть свій мобільний",
     "verification_code": "Код підтвердження",
     "msg_title": "Привіт,",
     "msg_body": "Будь ласка, увійдіть. Це займає всього кілька секунд.",
-    "login_apple": "Увійдіть через Apple",
     "login_email": "Вхід по електронній пошті",
     "email_login_step_1": "Будь ласка, вкажіть дійсну електронну адресу, і ми надішлемо на неї код входу. Реєстрація не потрібна.",
     "email_login_step_2": "Ви впевнені, що правильно ввели адресу електронної пошти? Ми надішлемо код входу на вказану електронну адресу, тому переконайтеся, що він точний.",
-    "email_login_step_3": "Ми надіслали код на вашу електронну пошту. Зверніть увагу, що термін дії коду закінчується через 10 хвилин."
+    "email_login_step_3": "Ми надіслали код на вашу електронну пошту. Зверніть увагу, що термін дії коду закінчується через 10 хвилин.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Магазин золота 5 років"
+      "name": "Магазин золота 5 років",
     },
     "GOLDEN_2YEAR": {
-      "name": "Магазин золота 4 роки"
+      "name": "Магазин золота 4 роки",
     },
     "GOLDEN_3YEAR": {
-      "name": "Магазин золота 3 роки"
+      "name": "Магазин золота 3 роки",
     },
     "GOLDEN_4YEAR": {
-      "name": "Магазин золота 2 роки"
+      "name": "Магазин золота 2 роки",
     },
     "GOLDEN_5YEAR": {
-      "name": "Золотий магазин на 1 рік"
+      "name": "Золотий магазин на 1 рік",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Золотий інвестор"
+      "name": "Золотий інвестор",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Діамантовий інвестор"
+      "name": "Діамантовий інвестор",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Рубіновий інвестор"
+      "name": "Рубіновий інвестор",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Член вищої спільноти комунікаційних мереж"
+      "name": "Член вищої спільноти комунікаційних мереж",
     },
     "GOLD_SUPPLIER": {
-      "name": "Постачальник золота"
+      "name": "Постачальник золота",
     },
     "GOLD_SELLER": {
-      "name": "Торговець золотом"
+      "name": "Торговець золотом",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Найкращий виробник контенту"
+      "name": "Найкращий виробник контенту",
     },
     "NINJA": {
-      "name": "ніндзя"
+      "name": "ніндзя",
     },
     "STAR": {
-      "name": "Зірка"
+      "name": "Зірка",
     },
     "GUARDIAN": {
-      "name": "Чудове обслуговування клієнтів"
+      "name": "Чудове обслуговування клієнтів",
     },
     "KING": {
-      "name": "Король ринку"
-    }
+      "name": "Король ринку",
+    },
   },
   "cookie": {
     "title": "Цей веб-сайт використовує файли cookie",
     "message": "Цей веб-сайт використовує файли cookie для покращення роботи користувача. Використовуючи наш веб-сайт, ви погоджуєтесь на всі файли cookie відповідно до нашої Політики щодо файлів cookie.",
     "preferences_action": "Керувати налаштуваннями",
-    "agree_action": "Я згоден"
+    "agree_action": "Я згоден",
   },
   "basket_item_message": {
     "title": "Необхідна інформація для цього елемента",
     "save_actions": "Зберегти повідомлення",
+    "product_inputs_preview_message": "Ці параметри налаштування доступні для замовленого продукту. Щойно товар буде додано до кошика, ви зможете внести зміни тут.",
     "notifications": {
-      "success": "Ваші вхідні дані збережено."
+      "success": "Ваші вхідні дані збережено.",
     },
-    "product_inputs_preview_message": "Ці параметри налаштування доступні для замовленого продукту. Щойно товар буде додано до кошика, ви зможете внести зміни тут."
   },
   "faq": {
     "faq": "Часті запитання",
     "title": "Питання та відповіді",
-    "sub_title": "Те, що ви просили нас зробити.",
     "message": "Шукайте відповідь на своє запитання серед відповідей нижче. Запитайте нас, якщо питання залишилися без відповіді.",
     "add_question_action": "Задайте нове запитання",
     "read_more": "Детальніше ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Питання",
     "question_input_placeholder": "Задайте своє запитання.",
     "notifications": {
-      "success_add": "Ваше запитання успішно надіслано."
-    }
+      "success_add": "Ваше запитання успішно надіслано.",
+    },
+    "sub_title": "Те, що ви просили нас зробити.",
   },
   "rating_labels": [
     "Дуже погано",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Введіть адресу призначення",
     "enter_your_address": "Введіть свою адресу.",
     "postal_code": "Поштовий індекс",
-    "phone_input": "Телефон {type}",
+    "phone_input": "Телефон",
     "building_number": "Номер будівлі",
     "building_unit": "одиниця",
     "full_name_input": "Повне ім'я {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Мітка адреси (обов'язково)",
     "notifications": {
       "save_in_list": "Цю адресу збережено у вашому списку з усіма деталями.",
-      "edit_success": "Нові значення адреси збережено в {title}."
+      "edit_success": "Нові значення адреси збережено в {title}.",
     },
     "delete_address_dialog": {
       "title": "Видалити адресу",
       "message": "Ви впевнені, що хочете видалити цю адресу?",
-      "action": "Видалити адресу"
-    }
+      "action": "Видалити адресу",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Неможливо редагувати цей коментар!",
     "comment_input_empty": "Текст повідомлення порожній!",
-    "article_not_saved": "Збережіть статтю!"
+    "article_not_saved": "Збережіть статтю!",
   },
   "wheel_fortune": {
     "title": "Грай і виграй",
     "message": "Вартість кожної гри становить 10 фішок. Зараз у вас є фішка {chips}. Отримайте більше фішок, купивши в магазині.",
     "win_message": "Вітаємо, ти переміг!",
     "lost_message": "Вибачте, ви програли гру.",
-    "try_again": "Ви можете спробувати ще раз"
+    "try_again": "Ви можете спробувати ще раз",
   },
   "json": {
     "add": "Додайте структурні дані",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Конструкції",
     "book": {
       "title": "Книга",
-      "desc": "Дії з книгою, які дозволяють користувачам купувати книгу, яку вони знаходять безпосередньо з результатів пошуку."
+      "desc": "Дії з книгою, які дозволяють користувачам купувати книгу, яку вони знаходять безпосередньо з результатів пошуку.",
     },
     "occupation": {
       "title": "Орієнтовна заробітна плата",
-      "desc": "Інформація про розрахунок заробітної плати, як-от діапазони заробітної плати та середня заробітна плата на основі регіону для типів вакансій, відображається в пошуку роботи в Google."
+      "desc": "Інформація про розрахунок заробітної плати, як-от діапазони заробітної плати та середня заробітна плата на основі регіону для типів вакансій, відображається в пошуку роботи в Google.",
     },
     "course": {
       "title": "курс",
-      "desc": "Освітні курси, які відображаються в списку постачальника послуг. Курси можуть містити назву курсу, постачальника та короткий опис."
+      "desc": "Освітні курси, які відображаються в списку постачальника послуг. Курси можуть містити назву курсу, постачальника та короткий опис.",
     },
     "howto": {
       "title": "Як",
-      "desc": "Інструкція містить набір кроків для успішного виконання завдання, показуючи відео, зображення та текст."
+      "desc": "Інструкція містить набір кроків для успішного виконання завдання, показуючи відео, зображення та текст.",
     },
     "recipe": {
       "title": "Рецепт",
-      "desc": "Рецепти, які відображаються як індивідуальний багатий результат або частина каруселі хоста."
-    }
+      "desc": "Рецепти, які відображаються як індивідуальний багатий результат або частина каруселі хоста.",
+    },
   },
   "support": {
     "Financial": "фінансовий",
     "Technical": "Технічний",
-    "Advisor": "радник"
+    "Advisor": "радник",
   },
   "condition": {
     "new": "Новий",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Використовується",
     "used_fair": "Використовується справедливо",
     "used_good": "Вживаний добре",
-    "used_like_new": "Використовувався як новий"
+    "used_like_new": "Використовувався як новий",
   },
   "variant_filter": {
     "title": "Фільтр варіантів продукту",
-    "only_available": "В наявності"
+    "only_available": "В наявності",
   },
   "service": {
     "task": {
       "title": "Завдання",
-      "message": "Список завдань, що виконуються в цій службі."
+      "message": "Список завдань, що виконуються в цій службі.",
     },
     "appointment": {
       "title": "Призначення",
-      "message": "Виберіть час тижня з наступних, виходячи з дня та години, які вам підходять."
+      "message": "Виберіть час тижня з наступних, виходячи з дня та години, які вам підходять.",
     },
     "booking": {
       "title": "Бронювання",
-      "message": "У календарі нижче вкажіть період часу, коли ви хочете зробити бронювання."
+      "message": "У календарі нижче вкажіть період часу, коли ви хочете зробити бронювання.",
     },
     "subscription": {
-      "title": "Підписка"
+      "title": "Підписка",
     },
     "charge": {
-      "title": "Зарядити"
-    }
+      "title": "Зарядити",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Фіксована ціна",
-      "message": "У цьому типі ціноутворення ціна товару є фіксованою сумою, і покупець не має потреби вимагати розрахунок ціни."
+      "message": "У цьому типі ціноутворення ціна товару є фіксованою сумою, і покупець не має потреби вимагати розрахунок ціни.",
     },
     "ESTIMATION": {
       "title": "Оцінка ціни",
-      "message": "Ціна на товари та послуги буде певною мірою розрахована продавцем при оформленні замовлення, рахунки на оплату можуть бути змінені або додані під час обслуговування."
+      "message": "Ціна на товари та послуги буде певною мірою розрахована продавцем при оформленні замовлення, рахунки на оплату можуть бути змінені або додані під час обслуговування.",
     },
     "AGREEMENT": {
       "title": "Ціноутворення за договором",
-      "message": "Кінцева ціна товарів або послуг не буде змінена продавцем після розміщення замовлення."
+      "message": "Кінцева ціна товарів або послуг не буде змінена продавцем після розміщення замовлення.",
     },
     "BID": {
       "title": "Ставка / Аукціон",
-      "message": "Товар буде проданий потенційними покупцями за найвищою ціною."
-    }
+      "message": "Товар буде проданий потенційними покупцями за найвищою ціною.",
+    },
   },
   "map": {
     "title": "Пункт призначення для отримання продукції",
     "confirm": "Встановити місце розташування",
     "address": "Пункт призначення",
-    "receptor": "Приймач"
+    "receptor": "Приймач",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Теги вмісту",
     "tags_input": "Мітки",
     "tags_input_message": "Теги Список цієї статті",
     "notification": {
-      "add_success": "Додано теги"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Дуже складно",
-    "hard": "важко",
-    "intermediate": "Середній",
-    "easy": "легко"
-  },
-  "billing_period": {
-    "Daily": "Щодня",
-    "Weekly": "Щотижня",
-    "Monthly": "Щомісячно",
-    "Every3Months": "Кожні 3 місяці",
-    "Every6Months": "Кожні 6 місяців",
-    "Yearly": "Щорічно"
+      "add_success": "Додано теги",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Ох не добре!",
     "between2_3": "Все добре!",
     "between3_4": "Людям подобається!",
-    "between4_5": "Люди люблять це!"
+    "between4_5": "Люди люблять це!",
   },
   "seasons": {
     "spring": "Весна",
     "summer": "Літо",
     "autumn": "осінь",
-    "winter": "Зима"
-  }
+    "winter": "Зима",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

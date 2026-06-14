@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Я прачытаў умовы выкарыстання і палітыку прыватнасці і згодны з імі.",
   "commons": {
     "Currency": "Валюта",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Дзяржава",
     "Price": "цана",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Цана чыстая",
     "tax": "Падатак",
     "tax_included": "Уключана ў кошт",
+    "tax_included_abstract": "укл.",
     "limit": "Ліміт",
     "min_purchase": "Мінімальная купля",
     "eligible_for": "Права на",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Дата стварэння",
     "updated_at": "Апошняе абнаўленне",
     "register_at": "Дата рэгістрацыі",
+    "last_modified": "Last modified",
     "old": "Стары",
     "new": "Новае",
     "start": "Пачаць",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Прадавец",
     "tracking_code": "Код адсочвання",
     "tracking_url": "URL адсочвання",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Выкананні",
     "reject": "Адхіліць",
     "reserved": "Зарэзерваваны",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Чаканне...",
     "waiting_connecting_payment": "Чакаем плацежны сэрвіс...",
     "creating_secure_payment": "Стварэнне бяспечнай аплаты.",
+    "waiting_for_payment": "Завяршыце аплату...",
     "officer": "Афіцэр",
     "ticket": "Білет",
     "ticket_url": "URL білета",
@@ -361,7 +366,6 @@ export default {
     "rates": "Рэйтынг",
     "seen_at": "Бачылі ў",
     "completed": "Завершана",
-    "you": "Вы",
     "shop": "Крама",
     "store": "крама",
     "granted": "Прадастаўлена",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Планшэт",
     "pc": "PC",
     "acquisition_channel": "Канал набыцця",
+    "channels_overview": "Channels overview",
     "to": "Каб",
     "info": "Інфармацыя",
     "general": "Агульны",
@@ -559,7 +564,6 @@ export default {
     "per_product": "На прадукт",
     "journey": "Падарожжа",
     "after": "Пасля",
-    "waiting_for_payment": "Завяршыце аплату...",
     "hour": "гадзіна",
     "minute": "хвіліна",
     "premium": "Прэміум",
@@ -569,6 +573,7 @@ export default {
     "shops": "Крамы",
     "vendor": "Пастаўшчык",
     "vendors": "Прадаўцы",
+    "no_vendors": "No vendors",
     "marketplace": "Рынак",
     "verify_date": "Праверце дату",
     "note": "Нататка",
@@ -604,7 +609,6 @@ export default {
     "variant": "Варыянт",
     "secure": "Бяспечны",
     "admin": "Адмін",
-    "tax_included_abstract": "укл.",
     "payment_not_settled": "Аплата не праведзена!",
     "orders_list": "Спіс заказаў",
     "subscription_plan": "План падпіскі",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Кластары",
     "subscriptions": "Падпіскі",
     "spam": "Спам",
-    "video": "Відэа"
+    "video": "Відэа",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Вы",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Вельмі складаная",
+    "hard": "Цяжка",
+    "intermediate": "Сярэдні",
+    "easy": "лёгка",
   },
   "dialogs": {
     "delete": {
       "title": "Выдаліць",
       "message": "Вы ўпэўненыя, што выдаліце гэты элемент?",
-      "action": "Так, выдаліць зараз"
-    }
+      "action": "Так, выдаліць зараз",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Дадаць у кошык",
     "cancel": "Адмяніць",
     "update": "Абнаўленне",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Дадаць падарункавую карту",
     "charge": "Зарадка",
     "send_invites": "Дасылайце запрашэнні",
-    "past": "Мінулае",
+    "paste": "Уставіць",
     "restore": "Аднавіць",
     "cut": "Выразаць",
     "get_sms_code": "Атрымаць код аўтэнтыфікацыі",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Паказаць папярэдні прагляд",
     "hide_preview": "Схаваць папярэдні прагляд",
     "download_now": "Спампаваць зараз",
+    "watch_now": "Глядзець зараз",
     "auto_fill": "Аўтазапаўненне",
     "track": "Трэк",
     "change_state": "Змяніць статус",
     "done": "Зроблена",
     "reply": "Адказаць",
-    "watch_now": "Глядзець зараз",
     "unlock": "Разблакіраваць",
     "lock": "Замак",
     "create_clone": "Стварыць клон",
@@ -773,41 +931,71 @@ export default {
     "buy": "Купіць",
     "view_all": "Прагледзець усе",
     "view_now": "Праглядзіце зараз",
-    "paste": "Уставіць"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Мінулае",
+  },
+  "billing_period": {
+    "Daily": "Штодня",
+    "Weekly": "Штотыдзень",
+    "Monthly": "Штомесяц",
+    "Every3Months": "Кожныя 3 месяцы",
+    "Every6Months": "Кожныя 6 месяцаў",
+    "Yearly": "Штогод",
   },
   "instance_message_title": "Адправіць імгненнае паведамленне",
   "instance_message": "Прывітанне, {name}, мяне завуць {author} з {company}.",
   "errors": {
     "419": "Вы былі неактыўныя на працягу доўгага часу, калі ласка, <b>⟳ АБНАВІЦЬ СТАРОНКУ</b> з меркаванняў бяспекі.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Сістэма не сінхранізуецца з блокчейном. Немагчыма стварыць новую транзакцыю, пакуль не будзе завершана сінхранізацыя нашых сервераў. Мы вырашаем праблему.",
-    "gateway_network_error": "Служба плацежнага шлюзу сутыкнулася з праблемай сувязі."
+    "gateway_network_error": "Служба плацежнага шлюзу сутыкнулася з праблемай сувязі.",
   },
   "receiver_info": {
     "map": {
       "title": "Адрас дастаўкі",
       "confirm": "Задаць месцазнаходжанне",
       "address_type": "Пункт прызначэння",
-      "receptor_type": "Прыёмнік"
+      "receptor_type": "Прыёмнік",
     },
     "receiver_address": "Выберыце адрас дастаўкі",
+    "service_address": "Выберыце свой адрас",
+    "select_billing_address": "Select billing address",
     "address": "адрас",
     "postcode": "Паштовы індэкс",
     "enter_value": "Запоўніце тут",
     "address_note": "Нататка",
     "tel": "Кантактны нумар",
-    "service_address": "Выберыце свой адрас"
   },
   "weight": {
     "g": "г",
     "oz": "унцый",
     "lb": "фунт",
-    "kg": "кг"
+    "kg": "кг",
   },
   "mass_unit_name": {
     "g": "грам",
     "oz": "Унцыя",
     "lb": "Фунт",
-    "kg": "кілаграм"
+    "kg": "кілаграм",
   },
   "length": {
     "cm": "см",
@@ -815,7 +1003,7 @@ export default {
     "ft": "футаў",
     "mm": "мм",
     "m": "м",
-    "yd": "ярд"
+    "yd": "ярд",
   },
   "size_unit_name": {
     "cm": "Сантыметр",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Ступня",
     "mm": "міліметр",
     "m": "метр",
-    "yd": "Двор"
+    "yd": "Двор",
   },
   "distance": {
     "m": "метр",
-    "km": "км"
+    "km": "км",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Дні",
     "hours": "Гадзін",
     "minutes": "Хвіліны",
-    "seconds": "Сэкунды"
+    "seconds": "Сэкунды",
   },
   "units": [
     "Адзінка",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Дзяржава",
     "Territory": "Тэрыторыя",
-    "Province": "Правінцыя"
+    "Province": "Правінцыя",
   },
   "transaction_status": {
     "RequireAction": "Патрабуецца дзеянне",
     "Processing": "Апрацоўка",
     "Canceled": "Адменены",
-    "Succeeded": "Атрымалася"
+    "Succeeded": "Атрымалася",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Джон Кокс",
@@ -885,7 +1078,17 @@ export default {
     "language": "Выберыце мову..",
     "friend_email": "Электронная пошта вашага сябра...",
     "friend_name": "Opt. Імя вашага сябра",
-    "select_date": "Выберыце дату..."
+    "select_date": "Выберыце дату...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Пацвердзіць",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Максімальная колькасць сімвалаў: {maxCount}",
     "invalid_url": "Няправільны URL",
     "country_invalid": "Выберыце краіну прызначэння!",
-    "postal_code_invalid": "Усталюйце сапраўдны паштовы індэкс!"
+    "postal_code_invalid": "Усталюйце сапраўдны паштовы індэкс!",
   },
   "colors": {
     "#D32F2F": "Чырвоны",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Адзінка",
     "postcode": "Паштовы індэкс",
     "note": "Нататка",
-    "county": "графства"
+    "county": "графства",
   },
   "product_types": {
     "physical": "Фізічны",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Абслугоўванне",
     "service_description": "Такія паслугі, як: рамонт, транспарт, навучанне.",
     "subscription": "Падпіска",
-    "subscription_description": "Падпіскі і выстаўленне рахункаў за прадукты, паслугі або кантэнт."
+    "subscription_description": "Падпіскі і выстаўленне рахункаў за прадукты, паслугі або кантэнт.",
   },
   "license": {
     "free": "Бясплатна",
     "startup": "Запуск",
     "company": "Кампанія",
-    "enterprise": "Прадпрыемства"
+    "enterprise": "Прадпрыемства",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Колер",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Лічыць у пачку",
     "weight": "Вага",
     "type": "Матэрыял",
-    "style": "Стыль"
+    "style": "Стыль",
   },
   "delivery_state": {
     "check_queue": "Чакаем агляду",
     "order_confirm": "Пацверджанне замовы",
     "preparing_order": "Рыхтуецца",
     "sent_order": "Пры дастаўцы",
-    "to_customer": "Дастаўлены"
+    "to_customer": "Дастаўлены",
   },
   "status": {
     "unpaid": "Неаплочаны",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Адхіліць",
     "pending": "У чаканні",
     "rejected": "Адхілена",
-    "accepted": "Прыняты"
+    "accepted": "Прыняты",
   },
   "dimensions": {
     "cm": "см",
     "km": "км",
-    "kg": "кг"
+    "kg": "кг",
   },
   "transportation_type": {
     "motorbike": "Матацыкл",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Глабальны транспарт",
     "global_description": "Дастаўка за мяжу паветраным, марскім або наземным транспартам.",
     "pickup": "Падняць",
-    "pickup_description": "Кліенты забіраюць тавары ў вашай фізічнай краме або на складзе."
+    "pickup_description": "Кліенты забіраюць тавары ў вашай фізічнай краме або на складзе.",
   },
   "article": {
     "login_to_see_error": "Увайдзіце, каб атрымаць доступ да артыкула",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Рэжым рэдагавання",
       "view_mode": "Рэжым прагляду",
-      "delete": "Выдаліць артыкул"
+      "delete": "Выдаліць артыкул",
     },
     "schedule_action": "Вы хочаце запланаваць публікацыю?",
     "schedule_title": "Расклад аўтаматычнай публікацыі",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Паведаміць аб парушэнні і выдаліць змесціва",
       "report_title": "Паскардзіцца на гэты кантэнт як абразлівы",
       "message": "Якая прычына адпраўкі гэтага кантэнту? Выберыце адзін з наступных варыянтаў.",
-      "accept_and_delete_action": "Пацвердзіце і выдаліце змесціва"
+      "accept_and_delete_action": "Пацвердзіце і выдаліце змесціва",
     },
     "schedule_dialog": {
       "title": "Расклад выпуску кантэнту",
       "publish_at": "Апублікаваць у",
       "last_edit": "Апошняе рэдагаванне",
-      "view_action": "Глядзець артыкул"
+      "view_action": "Глядзець артыкул",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Адправіць інфармацыю",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Паведаміць і выдаліць",
       "report_and_delete_success_message": "Артыкул быў паспяхова выдалены.",
       "report_success_title": "Справаздача артыкул",
-      "report_success_message": "Ваша справаздача па гэтым артыкуле была апублікавана."
+      "report_success_message": "Ваша справаздача па гэтым артыкуле была апублікавана.",
     },
     "alert": {
       "delete_article": {
         "title": "Выдаліць артыкул",
         "message": "Вы ўпэўнены, што жадаеце назаўсёды выдаліць гэты артыкул?",
-        "action": "Выдаліць"
-      }
+        "action": "Выдаліць",
+      },
     },
     "edit_window": {
       "title": "Выберыце «Тэкст малюнка» і «Зводка».",
-      "digest": "Рэзюмэ"
+      "digest": "Рэзюмэ",
     },
     "editor": {
       "title_placeholder": "Загаловак..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Гэты файл занадта вялікі:",
       "notifications": {
         "image_uploaded_success": "Выява паспяхова захавана",
-        "image_uploaded_failed": "Памылка загрузкі выявы."
+        "image_uploaded_failed": "Памылка загрузкі выявы.",
       },
       "embed_placeholder": "Увядзіце код iframe, Facebook, Youtube або любы іншы URL і націсніце Enter.",
       "embed_caption_placeholder": "Увядзіце назву (неабавязкова)",
-      "images_caption_placeholder": "Увядзіце назву для гэтай выявы .."
-    }
+      "images_caption_placeholder": "Увядзіце назву для гэтай выявы ..",
+    },
   },
   "article_report": {
     "inappropriate": "Змест гэтага артыкула неадпаведны.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Я думаю, што гэты кантэнт змяшчае парнаграфію і парушае законы.",
     "harassment": "Я думаю, што гэта расізм.",
     "hate": "Я думаю, што гаворка ідзе пра прапаганду гвалту.",
-    "infringe": "Гэта парушае мае правы."
+    "infringe": "Гэта парушае мае правы.",
   },
   "comments": {
     "new_action": "Націсніце, каб пакінуць каментар ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Атрымаць больш каментарыяў ..",
     "cant_send_comment": "Вы не можаце дадаць новы пост.",
     "cant_remove_this_comment": "Вы не можаце выдаліць гэты каментар!",
-    "product_buyer": "Пакупнік",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Мае каментарыі",
     "delete_alert": {
       "title": "Выдаліць каментар",
       "message": "Вы хочаце выдаліць гэты каментар?",
-      "action": "Выдаліць"
+      "action": "Выдаліць",
     },
     "notifications": {
-      "delete_success": "Ваш каментар паспяхова выдалены."
+      "delete_success": "Ваш каментар паспяхова выдалены.",
     },
     "first_send": "Першы пост",
     "comment_at": "На",
     "edit_comment": "Рэдагаваць каментар",
-    "my_comments": "Мае каментарыі"
+    "product_buyer": "Пакупнік",
   },
   "customer_club": {
     "bronze": "Бронзавы",
     "silver": "Срэбра",
     "gold": "Залаты",
     "platinum": "Плацінавы",
-    "diamond": "Алмазны"
+    "diamond": "Алмазны",
   },
   "application_categories": {
     "tracking": "Праверка паводзін карыстальнікаў",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Рэклама",
     "staff": "Персанал",
     "incentive": "Стымулы",
-    "shop": "Крама"
+    "shop": "Крама",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Дадаць новы элемент",
     "title_input": "Загаловак",
+    "placeholder_input": "Запаўняльнік",
     "name_input": "Імя зменнай",
     "value_input": "Каштоўнасці",
     "value_input_message": "Спіс параметраў карыстальніка",
     "default": "Значэнне па змаўчанні",
+    "file_type_input": "Дапушчальныя тыпы файлаў",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Простая",
       "selective": "Выбарачны",
       "switch": "Пераключальнік",
       "file": "Файл",
-      "number": "Нумар"
+      "number": "Нумар",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Запаўняльнік",
-    "file_type_input": "Дапушчальныя тыпы файлаў",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Назва прадукту",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Стан аплаты",
     "payment_status_waiting": "Чаканне аплаты",
     "payment_status_paid": "Платныя",
-    "buyer": "Пакупнік"
+    "buyer": "Пакупнік",
   },
   "virtual_item_info": {
     "title": "Віртуальны элемент",
     "outputs": {
       "title": "Вывадная інфармацыя",
       "sub_title": "Канфідэнцыйная інфармацыя аб гэтым аб'екце",
-      "message": "Гэтая інфармацыя будзе паказана карыстачу пасля куплі прадукту."
+      "message": "Гэтая інфармацыя будзе паказана карыстачу пасля куплі прадукту.",
     },
     "inputs": {
       "title": "Неабходная інфармацыя",
       "sub_title": "Патрабуецца інфармацыя пра пакупніка",
-      "message": "Пакупнік павінен увесці запытаную інфармацыю ў форму"
+      "message": "Пакупнік павінен увесці запытаную інфармацыю ў форму",
     },
     "notifications": {
       "inputs_set_success": "Форма інфармацыі паспяхова зарэгістравана.",
       "confirm_by_admin_success": "Завяршэнне замовы пацверджана.",
-      "confirm_by_buyer_success": "Завяршэнне замовы пацверджана."
-    }
+      "confirm_by_buyer_success": "Завяршэнне замовы пацверджана.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Гэты заказ не можа быць прыняты плацёжнай плацяжом.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Няма ў наяўнасці.",
     "legal_restriction": "Немагчыма аформіць заказ з-за юрыдычных абмежаванняў.",
     "pricing_fault": "Памылка цэнаўтварэння прадаўца.",
-    "system_fault": "Сістэмная памылка."
+    "system_fault": "Сістэмная памылка.",
   },
   "basket_order_info_summery": {
     "receiver": "Прыёмнік",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Зніжка",
     "final_price": "Канчатковая сума",
     "address": "Адрас дастаўкі",
-    "payment_status": "Стан аплаты"
+    "payment_status": "Стан аплаты",
   },
   "basket_status": {
     "open": "Адкрыць",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Адменены",
     "cod": "Аплата пры дастаўцы",
     "receipt_added": "Квітанцыя дададзена",
-    "payment_processing": "Апрацоўка плацяжоў"
+    "payment_processing": "Апрацоўка плацяжоў",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Адхілена",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Пацвярджэнне",
     "step_3": "Падрыхтоўка",
     "step_4": "Пры дастаўцы",
-    "step_5": "Дастаўлены"
+    "step_5": "Дастаўлены",
   },
   "basket_return_request_view": {
     "title": "Запыт на вяртанне",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Адхіліць запыт",
     "message_for_admin": "У адпаведнасці з пагадненнем, якое вы прынялі з дапамогай Selldone, вы павінны звязацца з пакупніком і інфармаваць яго аб працэсе вяртання яго замовы. Гэта неабходна зрабіць, калі запыт будзе прыняты або адхілены і атрымана поўная згода пакупніка.",
     "notifications": {
-      "update_status_success": "Статус запыту абноўлены."
-    }
+      "update_status_success": "Статус запыту абноўлены.",
+    },
   },
   "basket_list": {
     "return_count": "Вяртанне: {count} нумар",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Варыянт",
       "warranty": "Гарантыі",
       "count": "Граф",
-      "price": "цана"
-    }
+      "price": "цана",
+    },
   },
   "return_request_list": {
     "count": "Нумар спасылкі",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Дата атрымання",
       "state": "Статус",
       "reason": "Прычына",
-      "return_warranty_period": "Гарантыйны тэрмін"
-    }
+      "return_warranty_period": "Гарантыйны тэрмін",
+    },
   },
   "data_toolbar": {
     "search": "Пошук",
     "sort_by": "Сартаваць па",
-    "count_item": "Паказаць {item} элементаў"
+    "count_item": "Паказаць {item} элементаў",
   },
   "sort": {
     "created_at": "Стварыць дату",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Афіцэр",
     "registered": "Зарэгістраваны",
     "purchased": "Набыты",
-    "sex": "Пол"
+    "sex": "Пол",
   },
   "search_box": {
     "result": "Вынікі пошуку",
     "tips": "Пошук прадуктаў і катэгорый",
     "label": "Шукаць ...",
-    "category": "Катэгорыя"
+    "category": "Катэгорыя",
   },
   "lead_status": {
     "physical_fast_delivery": "Імгненная дастаўка",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Падрыхтоўка і адпраўка з наступных {days} дзён",
     "virtual_fast_prepare": "Імгненная дастаўка",
     "virtual_under_24h": "Будзе зроблена на працягу наступных {lead} гадзін",
-    "virtual_over_24h": "Будзе зроблена з наступных {days} дзён"
+    "virtual_over_24h": "Будзе зроблена з наступных {days} дзён",
   },
   "return_request_state": {
     "pending": "У чаканні",
     "accepted": "Пацверджана",
-    "rejected": "Адхілена"
+    "rejected": "Адхілена",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Падробка пакета або серыйнага нумара",
       "U5": "Некаторыя рэчы з пасылкі адсутнічаюць",
       "U6": "Прадукт не арыгінальны",
-      "U7": "Прадукт не адпавядае спецыфікацыям"
-    }
+      "U7": "Прадукт не адпавядае спецыфікацыям",
+    },
   },
   "image_uploader": {
     "label": "Перацягніце або <u>Выберыце файл</u>",
-    "max_size": "Максімальна дазволены памер: {size}"
+    "max_size": "Максімальна дазволены памер: {size}",
   },
   "timespan": {
     "Morning": "8 раніцы - 12 вечара",
     "Evening": "З 12 да 18 гадзін",
     "Night": "18:00-12:00",
-    "Instant": "Імгненная публікацыя"
+    "Instant": "Імгненная публікацыя",
   },
   "week_day": {
     "Saturday": "Субота",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "аўторак",
     "Wednesday": "серада",
     "Thursday": "чацвер",
-    "Friday": "пятніца"
+    "Friday": "пятніца",
   },
   "payment_form": {
     "title": "Выберыце Спосаб аплаты",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Віншуем, ваш заказ бясплатны!",
     "order_free_payment_action": "Замовіць бясплатна зараз",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Адрас аплаты",
-      "amount": "Сума"
-    }
+      "amount": "Сума",
+    },
   },
   "discount_input": {
     "limit": "{percent}% зніжка да {limit} {currency}",
     "action": "Дадаць код зніжкі",
     "code_input": "Код зніжкі",
     "notifications": {
-      "add_success": "Віншуем, сапраўдны код зніжкі."
-    }
+      "add_success": "Віншуем, сапраўдны код зніжкі.",
+    },
   },
   "gift_card": {
     "inactive": "Карта адключана",
     "expire": "Тэрмін прыдатнасці",
     "transfer": "Перадача",
-    "send_to_friend": "Адправіць сябру"
+    "send_to_friend": "Адправіць сябру",
   },
   "count_down": {
     "days": "Дзень",
     "hours": "Гадзіна",
     "minutes": "Хвіліны",
-    "seconds": "Сэкунды"
+    "seconds": "Сэкунды",
   },
   "gift_status": {
     "Unpaid": "У чаканні атрымання",
     "Paid": "Платныя",
     "Rejected": "Адхілена",
-    "Canceled": "Адменены"
+    "Canceled": "Адменены",
   },
   "gift_program_status": {
     "Airdrop": "Аплатная сістэма",
     "Advertising": "Рэклама",
     "PersonalGift": "Асабісты падарунак",
-    "ShopGift": "Сувенірная крама"
+    "ShopGift": "Сувенірная крама",
   },
   "currency_selector": {
-    "label": "Валюта"
+    "label": "Валюта",
   },
   "need_login": {
     "title": "увайсці",
     "login_sms": "Уваход па смс",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Увайдзіце праз Google",
     "login_facebook": "Увайдзіце праз Facebook",
+    "login_apple": "Уваход праз Apple",
     "login_account": "Уваход ад Selldone",
     "register": "Новы карыстальнік? Зарэгіструйцеся зараз.",
     "mobile_input": "Увядзіце свой мабільны",
     "verification_code": "Код верыфікацыі",
     "msg_title": "прывітанне,",
     "msg_body": "Калі ласка, увайдзіце. Гэта займае ўсяго некалькі секунд.",
-    "login_apple": "Уваход праз Apple",
     "login_email": "Уваход па электроннай пошце",
     "email_login_step_1": "Увядзіце сапраўдны адрас электроннай пошты, і мы вышлем на яго код для ўваходу. Рэгістрацыя не патрабуецца.",
     "email_login_step_2": "Вы ўпэўнены, што ўвялі свой адрас электроннай пошты правільна? Мы вышлем код для ўваходу на ўказаны адрас электроннай пошты, таму пераканайцеся, што ён дакладны.",
-    "email_login_step_3": "Мы адправілі код на вашу электронную пошту. Звярніце ўвагу, што тэрмін дзеяння кода скончыцца праз 10 хвілін."
+    "email_login_step_3": "Мы адправілі код на вашу электронную пошту. Звярніце ўвагу, што тэрмін дзеяння кода скончыцца праз 10 хвілін.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5-гадовы магазін золата"
+      "name": "5-гадовы магазін золата",
     },
     "GOLDEN_2YEAR": {
-      "name": "4-гадовы магазін золата"
+      "name": "4-гадовы магазін золата",
     },
     "GOLDEN_3YEAR": {
-      "name": "3-гадовая залатая крама"
+      "name": "3-гадовая залатая крама",
     },
     "GOLDEN_4YEAR": {
-      "name": "2-гадовая крама золата"
+      "name": "2-гадовая крама золата",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 год Gold Store"
+      "name": "1 год Gold Store",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Залаты інвестар"
+      "name": "Залаты інвестар",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Алмазны інвестар"
+      "name": "Алмазны інвестар",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investor"
+      "name": "Ruby Investor",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Член Вышэйшай супольнасці камунікацыйных сетак"
+      "name": "Член Вышэйшай супольнасці камунікацыйных сетак",
     },
     "GOLD_SUPPLIER": {
-      "name": "Пастаўшчык золата"
+      "name": "Пастаўшчык золата",
     },
     "GOLD_SELLER": {
-      "name": "Гандляр золатам"
+      "name": "Гандляр золатам",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Лепшы вытворца кантэнту"
+      "name": "Лепшы вытворца кантэнту",
     },
     "NINJA": {
-      "name": "Ніндзя"
+      "name": "Ніндзя",
     },
     "STAR": {
-      "name": "Зорка"
+      "name": "Зорка",
     },
     "GUARDIAN": {
-      "name": "Выдатнае абслугоўванне кліентаў"
+      "name": "Выдатнае абслугоўванне кліентаў",
     },
     "KING": {
-      "name": "Кароль рынку"
-    }
+      "name": "Кароль рынку",
+    },
   },
   "cookie": {
     "title": "Гэты вэб-сайт выкарыстоўвае файлы cookie",
     "message": "Гэты вэб-сайт выкарыстоўвае файлы cookie для паляпшэння карыстальніцкага досведу. Выкарыстоўваючы наш вэб-сайт, вы даеце згоду на ўсе файлы cookie ў адпаведнасці з нашай Палітыкай выкарыстання файлаў cookie.",
     "preferences_action": "Кіраванне наладамі",
-    "agree_action": "Я згодзен"
+    "agree_action": "Я згодзен",
   },
   "basket_item_message": {
     "title": "Неабходная інфармацыя для гэтага элемента",
     "save_actions": "Захаваць паведамленне",
+    "product_inputs_preview_message": "Гэтыя параметры налады даступныя для замоўленага прадукту. Пасля таго, як тавар будзе дададзены ў ваш кошык, вы зможаце ўнесці тут карэктывы.",
     "notifications": {
-      "success": "Вашы ўваходныя даныя былі захаваны."
+      "success": "Вашы ўваходныя даныя былі захаваны.",
     },
-    "product_inputs_preview_message": "Гэтыя параметры налады даступныя для замоўленага прадукту. Пасля таго, як тавар будзе дададзены ў ваш кошык, вы зможаце ўнесці тут карэктывы."
   },
   "faq": {
     "faq": "Частыя пытанні",
     "title": "Пытанні і адказы",
-    "sub_title": "Што вы прасілі нас зрабіць.",
     "message": "Шукайце адказ на сваё пытанне сярод адказаў ніжэй. Спытайце нас, калі пытанні застаюцца без адказу.",
     "add_question_action": "Задаць новае пытанне",
     "read_more": "Чытаць далей ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Пытанне",
     "question_input_placeholder": "Задайце сваё пытанне.",
     "notifications": {
-      "success_add": "Ваша пытанне паспяхова адпраўлена."
-    }
+      "success_add": "Ваша пытанне паспяхова адпраўлена.",
+    },
+    "sub_title": "Што вы прасілі нас зрабіць.",
   },
   "rating_labels": [
     "Вельмі дрэнна",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Увядзіце адрас прызначэння",
     "enter_your_address": "Увядзіце свой адрас.",
     "postal_code": "Паштовы індэкс",
-    "phone_input": "Тэлефон {type}",
+    "phone_input": "Тэлефон",
     "building_number": "Нумар будынка",
     "building_unit": "Адзінка",
     "full_name_input": "Поўнае імя {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Адрасная пазнака (патрабуецца)",
     "notifications": {
       "save_in_list": "Гэты адрас быў захаваны ў вашым спісе з усімі яго дэталямі.",
-      "edit_success": "Новыя значэнні адраса захаваны ў {title}."
+      "edit_success": "Новыя значэнні адраса захаваны ў {title}.",
     },
     "delete_address_dialog": {
       "title": "Выдаліць адрас",
       "message": "Вы ўпэўнены, што жадаеце выдаліць гэты адрас?",
-      "action": "Выдаліць адрас"
-    }
+      "action": "Выдаліць адрас",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Немагчыма рэдагаваць гэты каментар!",
     "comment_input_empty": "Тэкст паведамлення пусты!",
-    "article_not_saved": "Захавайце артыкул!"
+    "article_not_saved": "Захавайце артыкул!",
   },
   "wheel_fortune": {
     "title": "Гуляй і выйграй",
     "message": "Кошт кожнай гульні складае 10 фішак. Зараз у вас ёсць фішка {chips}. Атрымайце больш фішак, купіўшы ў краме.",
     "win_message": "Віншуем, вы выйгралі!",
     "lost_message": "На жаль, вы прайгралі гульню.",
-    "try_again": "Вы можаце паспрабаваць яшчэ раз"
+    "try_again": "Вы можаце паспрабаваць яшчэ раз",
   },
   "json": {
     "add": "Дадаць структурныя дадзеныя",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Структуры",
     "book": {
       "title": "Кніга",
-      "desc": "Дзеянні з кнігай, якія дазваляюць карыстальнікам купляць кнігу, якую яны знаходзяць непасрэдна з вынікаў пошуку."
+      "desc": "Дзеянні з кнігай, якія дазваляюць карыстальнікам купляць кнігу, якую яны знаходзяць непасрэдна з вынікаў пошуку.",
     },
     "occupation": {
       "title": "Разліковая зарплата",
-      "desc": "Інфармацыя пра ацэнку заробку, напрыклад, дыяпазоны заробкаў і сярэднія заробкі па рэгіёнах для тыпаў вакансій, якія адлюстроўваюцца ў пошуку працы ў Google."
+      "desc": "Інфармацыя пра ацэнку заробку, напрыклад, дыяпазоны заробкаў і сярэднія заробкі па рэгіёнах для тыпаў вакансій, якія адлюстроўваюцца ў пошуку працы ў Google.",
     },
     "course": {
       "title": "Вядома",
-      "desc": "Навучальныя курсы, якія з'яўляюцца ў спісе пастаўшчыка. Курсы могуць уключаць назву курса, пастаўшчыка і кароткае апісанне."
+      "desc": "Навучальныя курсы, якія з'яўляюцца ў спісе пастаўшчыка. Курсы могуць уключаць назву курса, пастаўшчыка і кароткае апісанне.",
     },
     "howto": {
       "title": "Як",
-      "desc": "Інструкцыя правядзе карыстальнікаў праз набор крокаў для паспяховага выканання задачы, у тым ліку відэа, выявы і тэкст."
+      "desc": "Інструкцыя правядзе карыстальнікаў праз набор крокаў для паспяховага выканання задачы, у тым ліку відэа, выявы і тэкст.",
     },
     "recipe": {
       "title": "Рэцэпт",
-      "desc": "Рэцэпты, якія адлюстроўваюцца як асобны багаты вынік або частка каруселі хоста."
-    }
+      "desc": "Рэцэпты, якія адлюстроўваюцца як асобны багаты вынік або частка каруселі хоста.",
+    },
   },
   "support": {
     "Financial": "Фінансавыя",
     "Technical": "Тэхнічныя",
-    "Advisor": "Дарадца"
+    "Advisor": "Дарадца",
   },
   "condition": {
     "new": "Новае",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Выкарыстоўваецца",
     "used_fair": "Выкарыстоўваецца кірмаш",
     "used_good": "Выкарыстоўваецца добра",
-    "used_like_new": "Выкарыстоўваўся як новы"
+    "used_like_new": "Выкарыстоўваўся як новы",
   },
   "variant_filter": {
     "title": "Фільтр варыянтаў прадукту",
-    "only_available": "У наяўнасці"
+    "only_available": "У наяўнасці",
   },
   "service": {
     "task": {
       "title": "Задачы",
-      "message": "Спіс задач, якія выконваюцца ў гэтай службе."
+      "message": "Спіс задач, якія выконваюцца ў гэтай службе.",
     },
     "appointment": {
       "title": "Прызначэнне",
-      "message": "Выберыце час тыдня з наступных часоў у залежнасці ад дня і гадзіны, якія падыходзяць вам."
+      "message": "Выберыце час тыдня з наступных часоў у залежнасці ад дня і гадзіны, якія падыходзяць вам.",
     },
     "booking": {
       "title": "Браніраванне",
-      "message": "Укажыце перыяд часу ў дні, калі вы хочаце зрабіць браніраванне ў календары ніжэй."
+      "message": "Укажыце перыяд часу ў дні, калі вы хочаце зрабіць браніраванне ў календары ніжэй.",
     },
     "subscription": {
-      "title": "Падпіска"
+      "title": "Падпіска",
     },
     "charge": {
-      "title": "Зарадка"
-    }
+      "title": "Зарадка",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Фіксаваныя цэны",
-      "message": "Пры гэтым тыпе цэнаўтварэння цана тавару з'яўляецца фіксаванай сумай, і пакупніку няма неабходнасці запытваць разлік цаны."
+      "message": "Пры гэтым тыпе цэнаўтварэння цана тавару з'яўляецца фіксаванай сумай, і пакупніку няма неабходнасці запытваць разлік цаны.",
     },
     "ESTIMATION": {
       "title": "Ацэнка цэнаўтварэння",
-      "message": "Кошт тавараў і паслуг будзе ў пэўнай ступені разлічвацца прадаўцом пры афармленні замовы, аплатныя рахункі могуць быць зменены або дададзены ў працэсе абслугоўвання."
+      "message": "Кошт тавараў і паслуг будзе ў пэўнай ступені разлічвацца прадаўцом пры афармленні замовы, аплатныя рахункі могуць быць зменены або дададзены ў працэсе абслугоўвання.",
     },
     "AGREEMENT": {
       "title": "Цэны па пагадненні",
-      "message": "Канчатковы кошт тавараў або паслуг не будзе зменены прадаўцом пасля размяшчэння замовы."
+      "message": "Канчатковы кошт тавараў або паслуг не будзе зменены прадаўцом пасля размяшчэння замовы.",
     },
     "BID": {
       "title": "Стаўка / Аўкцыён",
-      "message": "Прадукт будзе прададзены патэнцыйным пакупнікам па самай высокай цане."
-    }
+      "message": "Прадукт будзе прададзены патэнцыйным пакупнікам па самай высокай цане.",
+    },
   },
   "map": {
     "title": "Пункт прызначэння для атрымання прадуктаў",
     "confirm": "Задаць месцазнаходжанне",
     "address": "Пункт прызначэння",
-    "receptor": "Прыёмнік"
+    "receptor": "Прыёмнік",
   },
   "ShopBots": {
-    "telegram": "Тэлеграма"
+    "telegram": "Тэлеграма",
   },
   "article_tags": {
     "title": "Тэгі кантэнту",
     "tags_input": "Тэгі",
     "tags_input_message": "Тэгі Спіс гэтага артыкула",
     "notification": {
-      "add_success": "Тэгі дададзены"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Вельмі складаная",
-    "hard": "Цяжка",
-    "intermediate": "Сярэдні",
-    "easy": "лёгка"
-  },
-  "billing_period": {
-    "Daily": "Штодня",
-    "Weekly": "Штотыдзень",
-    "Monthly": "Штомесяц",
-    "Every3Months": "Кожныя 3 месяцы",
-    "Every6Months": "Кожныя 6 месяцаў",
-    "Yearly": "Штогод"
+      "add_success": "Тэгі дададзены",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Ох нядобра!",
     "between2_3": "Добра!",
     "between3_4": "Людзям падабаецца!",
-    "between4_5": "Людзі любяць гэта!"
+    "between4_5": "Людзі любяць гэта!",
   },
   "seasons": {
     "spring": "Вясна",
     "summer": "лета",
     "autumn": "Восень",
-    "winter": "зіма"
-  }
+    "winter": "зіма",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Rwyf wedi darllen y telerau defnyddio a pholisi preifatrwydd ac yn cytuno â nhw.",
   "commons": {
     "Currency": "Arian cyfred",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Cyflwr",
     "Price": "pris",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Pris net",
     "tax": "Treth",
     "tax_included": "Yn gynwysedig yn y pris",
+    "tax_included_abstract": "gan gynnwys.",
     "limit": "Terfyn",
     "min_purchase": "Isafswm pryniant",
     "eligible_for": "Cymwys ar gyfer",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Dyddiad creu",
     "updated_at": "Diweddariad diwethaf",
     "register_at": "Dyddiad cofrestru",
+    "last_modified": "Last modified",
     "old": "Hen",
     "new": "Newydd",
     "start": "Dechrau",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Ailwerthwr",
     "tracking_code": "Cod olrhain",
     "tracking_url": "URL olrhain",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Cyflawniadau",
     "reject": "Gwrthod",
     "reserved": "Wedi'i gadw",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Aros...",
     "waiting_connecting_payment": "Aros am y gwasanaeth talu...",
     "creating_secure_payment": "Creu taliad diogel.",
+    "waiting_for_payment": "Cwblhewch y taliad...",
     "officer": "Swyddog",
     "ticket": "Tocyn",
     "ticket_url": "url tocyn",
@@ -361,7 +366,6 @@ export default {
     "rates": "Graddio",
     "seen_at": "Wedi'i weld yn",
     "completed": "Cwblhawyd",
-    "you": "Ti",
     "shop": "Siop",
     "store": "storfa",
     "granted": "Caniatawyd",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tabled",
     "pc": "PC",
     "acquisition_channel": "Sianel caffael",
+    "channels_overview": "Channels overview",
     "to": "I",
     "info": "Gwybodaeth",
     "general": "Cyffredinol",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Fesul cynnyrch",
     "journey": "Taith",
     "after": "Wedi",
-    "waiting_for_payment": "Cwblhewch y taliad...",
     "hour": "Awr",
     "minute": "Munud",
     "premium": "Premiwm",
@@ -569,6 +573,7 @@ export default {
     "shops": "Storfeydd",
     "vendor": "Gwerthwr",
     "vendors": "Gwerthwyr",
+    "no_vendors": "No vendors",
     "marketplace": "Marchnad",
     "verify_date": "Dilysu dyddiad",
     "note": "Nodyn",
@@ -604,7 +609,6 @@ export default {
     "variant": "Amrywiad",
     "secure": "Diogel",
     "admin": "Gweinyddol",
-    "tax_included_abstract": "gan gynnwys.",
     "payment_not_settled": "Taliad heb ei setlo!",
     "orders_list": "Rhestr archebion",
     "subscription_plan": "Cynllun tanysgrifio",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clystyrau",
     "subscriptions": "Tanysgrifiadau",
     "spam": "Sbam",
-    "video": "Fideo"
+    "video": "Fideo",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Ti",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Cymhleth iawn",
+    "hard": "Caled",
+    "intermediate": "Canolradd",
+    "easy": "Hawdd",
   },
   "dialogs": {
     "delete": {
       "title": "Dileu",
       "message": "A ydych yn sicr i ddileu'r eitem hon?",
-      "action": "Ie, Dileu nawr"
-    }
+      "action": "Ie, Dileu nawr",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Ychwanegu at y Cert",
     "cancel": "Canslo",
     "update": "Diweddariad",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ychwanegu cerdyn rhodd",
     "charge": "Tâl",
     "send_invites": "Anfon gwahoddiadau",
-    "past": "Gorffennol",
+    "paste": "Gludo",
     "restore": "Adfer",
     "cut": "Torri",
     "get_sms_code": "Cael cod dilysu",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Dangos rhagolwg",
     "hide_preview": "Cuddio rhagolwg",
     "download_now": "Lawrlwytho nawr",
+    "watch_now": "Gwylio nawr",
     "auto_fill": "Autofill",
     "track": "Trac",
     "change_state": "Newid Statws",
     "done": "Wedi'i wneud",
     "reply": "Ateb",
-    "watch_now": "Gwylio nawr",
     "unlock": "Datgloi",
     "lock": "Cloi",
     "create_clone": "Creu clôn",
@@ -773,41 +931,71 @@ export default {
     "buy": "Prynwch",
     "view_all": "Gweld popeth",
     "view_now": "Gweld Nawr",
-    "paste": "Gludo"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Gorffennol",
+  },
+  "billing_period": {
+    "Daily": "Dyddiol",
+    "Weekly": "Wythnosol",
+    "Monthly": "Yn fisol",
+    "Every3Months": "Bob 3 mis",
+    "Every6Months": "Bob 6 mis",
+    "Yearly": "Yn flynyddol",
   },
   "instance_message_title": "Anfon neges ar unwaith",
   "instance_message": "Helo {name}, Fy enw i yw {author} o {company}.",
   "errors": {
     "419": "Rydych wedi bod yn segur ers amser maith, os gwelwch yn dda <b>⟳ ADNEWCH Y DUDALEN</b> am resymau diogelwch.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Nid yw'r system yn cydamseru â'r blockchain. Ni fydd yn bosibl creu trafodiad newydd nes bod cydamseriadau ein gweinyddwyr wedi'u cwblhau. Rydym yn datrys y broblem.",
-    "gateway_network_error": "Mae gwasanaeth porth talu wedi dod ar draws problem cyfathrebu."
+    "gateway_network_error": "Mae gwasanaeth porth talu wedi dod ar draws problem cyfathrebu.",
   },
   "receiver_info": {
     "map": {
       "title": "Cyfeiriad cludo",
       "confirm": "Gosod lleoliad",
       "address_type": "Cyrchfan",
-      "receptor_type": "Derbynnydd"
+      "receptor_type": "Derbynnydd",
     },
     "receiver_address": "Dewiswch gyfeiriad cludo",
+    "service_address": "Dewiswch eich cyfeiriad",
+    "select_billing_address": "Select billing address",
     "address": "cyfeiriad",
     "postcode": "Côd post",
     "enter_value": "Llenwch yma",
     "address_note": "Nodyn",
     "tel": "Rhif Cyswllt",
-    "service_address": "Dewiswch eich cyfeiriad"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "owns",
     "lb": "Punt",
-    "kg": "cilogram"
+    "kg": "cilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "centimedr",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Troedfedd",
     "mm": "milimetr",
     "m": "metr",
-    "yd": "Iard"
+    "yd": "Iard",
   },
   "distance": {
     "m": "metr",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Dyddiau",
     "hours": "Oriau",
     "minutes": "Munudau",
-    "seconds": "Eiliadau"
+    "seconds": "Eiliadau",
   },
   "units": [
     "Uned",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Cyflwr",
     "Territory": "Tiriogaeth",
-    "Province": "Talaith"
+    "Province": "Talaith",
   },
   "transaction_status": {
     "RequireAction": "Camau i'w Cymryd",
     "Processing": "Prosesu",
     "Canceled": "Wedi'i ganslo",
-    "Succeeded": "Wedi llwyddo"
+    "Succeeded": "Wedi llwyddo",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jones Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Dewiswch iaith..",
     "friend_email": "E-bost eich ffrind...",
     "friend_name": "Opt. Enw dy ffrind",
-    "select_date": "Dewiswch ddyddiad..."
+    "select_date": "Dewiswch ddyddiad...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Cadarnhau",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Uchafswm {maxCount} nod",
     "invalid_url": "URL annilys",
     "country_invalid": "Dewiswch wlad gyrchfan!",
-    "postal_code_invalid": "Gosod cod post dilys!"
+    "postal_code_invalid": "Gosod cod post dilys!",
   },
   "colors": {
     "#D32F2F": "Coch",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Uned",
     "postcode": "Côd post",
     "note": "Nodyn",
-    "county": "Sir"
+    "county": "Sir",
   },
   "product_types": {
     "physical": "Corfforol",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Gwasanaeth",
     "service_description": "Gwasanaethau fel: atgyweirio, cludo, addysgu.",
     "subscription": "Tanysgrifiad",
-    "subscription_description": "Tanysgrifiadau ac anfonebu ar gyfer cynhyrchion, gwasanaethau neu gynnwys."
+    "subscription_description": "Tanysgrifiadau ac anfonebu ar gyfer cynhyrchion, gwasanaethau neu gynnwys.",
   },
   "license": {
     "free": "Rhad ac am ddim",
     "startup": "Cychwyn",
     "company": "Cwmni",
-    "enterprise": "Menter"
+    "enterprise": "Menter",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Lliw",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Cyfrwch yn y pecyn",
     "weight": "Pwysau",
     "type": "Deunydd",
-    "style": "Arddull"
+    "style": "Arddull",
   },
   "delivery_state": {
     "check_queue": "Aros am adolygiad",
     "order_confirm": "Cadarnhad Gorchymyn",
     "preparing_order": "Paratoi",
     "sent_order": "Ar ddanfon",
-    "to_customer": "Wedi'i gyflwyno"
+    "to_customer": "Wedi'i gyflwyno",
   },
   "status": {
     "unpaid": "Di-dâl",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Gwrthod",
     "pending": "Arfaeth",
     "rejected": "Gwrthodwyd",
-    "accepted": "Derbyniwyd"
+    "accepted": "Derbyniwyd",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Beic modur",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Cludiant byd-eang",
     "global_description": "Cludo dramor mewn awyren, môr neu dir.",
     "pickup": "Codi",
-    "pickup_description": "Mae cwsmeriaid yn codi'r eitemau yn eich storfa gorfforol neu warws."
+    "pickup_description": "Mae cwsmeriaid yn codi'r eitemau yn eich storfa gorfforol neu warws.",
   },
   "article": {
     "login_to_see_error": "Mewngofnodwch i gael mynediad i'r erthygl",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Modd golygu",
       "view_mode": "Modd gweld",
-      "delete": "Dileu Erthygl"
+      "delete": "Dileu Erthygl",
     },
     "schedule_action": "Ydych chi am drefnu cyhoeddi?",
     "schedule_title": "Atodlen auto-gyhoeddi",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Rhoi gwybod am gamddefnydd a dileu cynnwys",
       "report_title": "Adrodd y cynnwys hwn fel sarhaus",
       "message": "Beth yw'r rheswm dros gyflwyno'r cynnwys hwn? Dewiswch un o'r opsiynau canlynol.",
-      "accept_and_delete_action": "Cadarnhau a Dileu Cynnwys"
+      "accept_and_delete_action": "Cadarnhau a Dileu Cynnwys",
     },
     "schedule_dialog": {
       "title": "Amserlen Rhyddhau Cynnwys",
       "publish_at": "Cyhoeddi yn",
       "last_edit": "Golygiad diwethaf",
-      "view_action": "Dechrau'r erthygl"
+      "view_action": "Dechrau'r erthygl",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Cyflwyno Gwybodaeth",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Adrodd a Dileu",
       "report_and_delete_success_message": "Erthygl wedi'i ddileu yn llwyddiannus.",
       "report_success_title": "Adroddiad erthygl",
-      "report_success_message": "Mae eich adroddiad ar yr erthygl hon wedi'i bostio."
+      "report_success_message": "Mae eich adroddiad ar yr erthygl hon wedi'i bostio.",
     },
     "alert": {
       "delete_article": {
         "title": "Dileu Erthygl",
         "message": "Ydych chi'n siŵr eich bod am ddileu'r erthygl hon yn barhaol?",
-        "action": "Dileu"
-      }
+        "action": "Dileu",
+      },
     },
     "edit_window": {
       "title": "Dewiswch Testun Delwedd a Chrynodeb",
-      "digest": "Crynodeb"
+      "digest": "Crynodeb",
     },
     "editor": {
       "title_placeholder": "Teitl..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Mae'r ffeil hon yn rhy fawr:",
       "notifications": {
         "image_uploaded_success": "Delwedd wedi'i chadw'n llwyddiannus",
-        "image_uploaded_failed": "Gwall wrth lwytho'r ddelwedd."
+        "image_uploaded_failed": "Gwall wrth lwytho'r ddelwedd.",
       },
       "embed_placeholder": "Rhowch y cod iframe, Facebook, Youtube neu unrhyw URL arall a gwasgwch enter.",
       "embed_caption_placeholder": "Rhowch deitl (dewisol)",
-      "images_caption_placeholder": "Rhowch deitl ar gyfer y ddelwedd hon .."
-    }
+      "images_caption_placeholder": "Rhowch deitl ar gyfer y ddelwedd hon ..",
+    },
   },
   "article_report": {
     "inappropriate": "Mae cynnwys yr erthygl hon yn amhriodol.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Rwy'n credu bod y cynnwys hwn yn cynnwys pornograffi a'i fod yn groes i'r deddfau.",
     "harassment": "Rwy'n meddwl bod hyn yn hiliol.",
     "hate": "Rwy’n meddwl bod hyn yn ymwneud â hyrwyddo trais.",
-    "infringe": "Mae hyn yn torri fy hawliau."
+    "infringe": "Mae hyn yn torri fy hawliau.",
   },
   "comments": {
     "new_action": "Cliciwch i adael sylw..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Cael mwy o sylwadau..",
     "cant_send_comment": "Ni allwch ychwanegu postiad newydd.",
     "cant_remove_this_comment": "Ni allwch ddileu'r sylw hwn!",
-    "product_buyer": "Prynwr",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Fy Sylwadau",
     "delete_alert": {
       "title": "Dileu Sylw",
       "message": "Ydych chi am ddileu'r sylw hwn?",
-      "action": "Dileu"
+      "action": "Dileu",
     },
     "notifications": {
-      "delete_success": "Cafodd eich sylw ei ddileu yn llwyddiannus."
+      "delete_success": "Cafodd eich sylw ei ddileu yn llwyddiannus.",
     },
     "first_send": "Post cyntaf",
     "comment_at": "Ar",
     "edit_comment": "Golygu Sylw",
-    "my_comments": "Fy Sylwadau"
+    "product_buyer": "Prynwr",
   },
   "customer_club": {
     "bronze": "Efydd",
     "silver": "Arian",
     "gold": "Euraidd",
     "platinum": "Platinwm",
-    "diamond": "Diemwnt"
+    "diamond": "Diemwnt",
   },
   "application_categories": {
     "tracking": "Gwirio Ymddygiad Defnyddwyr",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Hysbysebu",
     "staff": "Staff",
     "incentive": "Cymhellion",
-    "shop": "Siop"
+    "shop": "Siop",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Negesydd Facebook"
+    "facebook_messenger": "Negesydd Facebook",
   },
   "form_builder": {
     "add_item_action": "Ychwanegu eitem newydd",
     "title_input": "Teitl",
+    "placeholder_input": "Dalfan",
     "name_input": "Enw amrywiol",
     "value_input": "Gwerthoedd",
     "value_input_message": "Rhestr Opsiynau Defnyddwyr",
     "default": "Gwerth diofyn",
+    "file_type_input": "Mathau o ffeiliau derbyniol",
+    "file_type_message": "jpeg , png , sip , ...",
     "types": {
       "simple": "Syml",
       "selective": "Dewisol",
       "switch": "Switsh",
       "file": "Ffeil",
-      "number": "Rhif"
+      "number": "Rhif",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Dalfan",
-    "file_type_input": "Mathau o ffeiliau derbyniol",
-    "file_type_message": "jpeg , png , sip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Enw Cynnyrch",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Statws talu",
     "payment_status_waiting": "Aros am daliad",
     "payment_status_paid": "Talwyd",
-    "buyer": "Prynwr"
+    "buyer": "Prynwr",
   },
   "virtual_item_info": {
     "title": "Eitem Rhithwir",
     "outputs": {
       "title": "Gwybodaeth Allbwn",
       "sub_title": "Gwybodaeth Gyfrinachol o'r Eitem hon",
-      "message": "Bydd y wybodaeth hon yn cael ei dangos i'r defnyddiwr ar ôl prynu'r cynnyrch."
+      "message": "Bydd y wybodaeth hon yn cael ei dangos i'r defnyddiwr ar ôl prynu'r cynnyrch.",
     },
     "inputs": {
       "title": "Gwybodaeth Angenrheidiol",
       "sub_title": "Gwybodaeth Prynwr Angenrheidiol",
-      "message": "Rhaid i'r prynwr nodi'r wybodaeth y gofynnwyd amdani yn y ffurflen"
+      "message": "Rhaid i'r prynwr nodi'r wybodaeth y gofynnwyd amdani yn y ffurflen",
     },
     "notifications": {
       "inputs_set_success": "Ffurflen wybodaeth wedi'i chofrestru'n llwyddiannus.",
       "confirm_by_admin_success": "Cadarnhawyd cwblhau'r archeb.",
-      "confirm_by_buyer_success": "Cadarnhawyd cwblhau'r archeb."
-    }
+      "confirm_by_buyer_success": "Cadarnhawyd cwblhau'r archeb.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Ni all y taliad COD dderbyn y gorchymyn hwn.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Allan o stoc.",
     "legal_restriction": "Methu â gosod archeb oherwydd cyfyngiadau cyfreithiol.",
     "pricing_fault": "Camgymeriad prisio gan y gwerthwr.",
-    "system_fault": "Bug system."
+    "system_fault": "Bug system.",
   },
   "basket_order_info_summery": {
     "receiver": "Derbynnydd",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Disgownt",
     "final_price": "Swm terfynol",
     "address": "Cyfeiriad Dosbarthu",
-    "payment_status": "Statws talu"
+    "payment_status": "Statws talu",
   },
   "basket_status": {
     "open": "Agored",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Wedi'i ganslo",
     "cod": "Talu Wrth Gyflenwi",
     "receipt_added": "Ychwanegwyd derbynneb",
-    "payment_processing": "Prosesu taliadau"
+    "payment_processing": "Prosesu taliadau",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Gwrthodwyd",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Cadarnhad",
     "step_3": "Paratoi",
     "step_4": "Ar ddanfon",
-    "step_5": "Wedi'i gyflwyno"
+    "step_5": "Wedi'i gyflwyno",
   },
   "basket_return_request_view": {
     "title": "Cais Dychwelyd",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Gwrthod cais",
     "message_for_admin": "Yn ôl y cytundeb yr ydych wedi ei dderbyn trwy ddefnyddio'r Selldone, rhaid i chi gysylltu â'r prynwr a rhoi gwybod iddo am y broses o ddychwelyd ei archeb. Rhaid gwneud hyn os caiff y cais ei dderbyn neu ei wrthod a chael caniatâd llawn y prynwr.",
     "notifications": {
-      "update_status_success": "Statws cais wedi'i ddiweddaru."
-    }
+      "update_status_success": "Statws cais wedi'i ddiweddaru.",
+    },
   },
   "basket_list": {
     "return_count": "Dychwelyd: {count} rhif",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Amrywiad",
       "warranty": "Gwarantau",
       "count": "Cyfri",
-      "price": "pris"
-    }
+      "price": "pris",
+    },
   },
   "return_request_list": {
     "count": "Rhif Cyfeirnod",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Dyddiad Derbyn",
       "state": "Statws",
       "reason": "Rheswm",
-      "return_warranty_period": "Cyfnod gwarant"
-    }
+      "return_warranty_period": "Cyfnod gwarant",
+    },
   },
   "data_toolbar": {
     "search": "Chwiliwch",
     "sort_by": "Trefnu yn ôl",
-    "count_item": "Dangos {item} o eitemau"
+    "count_item": "Dangos {item} o eitemau",
   },
   "sort": {
     "created_at": "Creu dyddiad",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Swyddog",
     "registered": "Wedi cofrestru",
     "purchased": "Prynwyd",
-    "sex": "Rhyw"
+    "sex": "Rhyw",
   },
   "search_box": {
     "result": "Canlyniadau chwilio",
     "tips": "Chwilio Cynhyrchion a Chategorïau",
     "label": "Chwilio ...",
-    "category": "Categori"
+    "category": "Categori",
   },
   "lead_status": {
     "physical_fast_delivery": "Cyflwyno ar unwaith",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Paratoi a chyflwyno o'r {days} diwrnod nesaf",
     "virtual_fast_prepare": "Cyflwyno ar unwaith",
     "virtual_under_24h": "Bydd yn cael ei wneud o fewn yr {lead} oriau nesaf",
-    "virtual_over_24h": "Bydd yn cael ei wneud o'r {days} diwrnod nesaf"
+    "virtual_over_24h": "Bydd yn cael ei wneud o'r {days} diwrnod nesaf",
   },
   "return_request_state": {
     "pending": "Arfaeth",
     "accepted": "Cadarnhawyd",
-    "rejected": "Gwrthodwyd"
+    "rejected": "Gwrthodwyd",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Ymyrryd â phecyn neu rif cyfresol",
       "U5": "Mae rhai eitemau o'r parsel ar goll",
       "U6": "Nid yw'r cynnyrch yn wreiddiol",
-      "U7": "Nid yw'r cynnyrch yn bodloni'r manylebau"
-    }
+      "U7": "Nid yw'r cynnyrch yn bodloni'r manylebau",
+    },
   },
   "image_uploader": {
     "label": "Llusgo a Gollwng neu <u>Dewiswch ffeil</u>",
-    "max_size": "Uchafswm maint a ganiateir: {size}"
+    "max_size": "Uchafswm maint a ganiateir: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "12 canol dydd tan 6pm",
     "Night": "6pm-12pm",
-    "Instant": "Post Sydyn"
+    "Instant": "Post Sydyn",
   },
   "week_day": {
     "Saturday": "dydd Sadwrn",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Dydd Mawrth",
     "Wednesday": "Mercher",
     "Thursday": "Dydd Iau",
-    "Friday": "Gwener"
+    "Friday": "Gwener",
   },
   "payment_form": {
     "title": "Dewiswch Dull Talu",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Llongyfarchiadau, mae eich archeb am ddim!",
     "order_free_payment_action": "Archebwch Rhad Ac Am Ddim",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Cyfeiriad talu",
-      "amount": "Swm"
-    }
+      "amount": "Swm",
+    },
   },
   "discount_input": {
     "limit": "gostyngiad o {percent}% hyd at {limit} {currency}",
     "action": "Ychwanegu Cod Disgownt",
     "code_input": "Cod Disgownt",
     "notifications": {
-      "add_success": "Llongyfarchiadau, cod disgownt dilys."
-    }
+      "add_success": "Llongyfarchiadau, cod disgownt dilys.",
+    },
   },
   "gift_card": {
     "inactive": "Mae'r cerdyn wedi'i analluogi",
     "expire": "Dod i ben",
     "transfer": "Trosglwyddiad",
-    "send_to_friend": "Anfon at ffrind"
+    "send_to_friend": "Anfon at ffrind",
   },
   "count_down": {
     "days": "Dydd",
     "hours": "Awr",
     "minutes": "Munudau",
-    "seconds": "Eiliadau"
+    "seconds": "Eiliadau",
   },
   "gift_status": {
     "Unpaid": "Disgwyl Derbyneb",
     "Paid": "Talwyd",
     "Rejected": "Gwrthodwyd",
-    "Canceled": "Wedi'i ganslo"
+    "Canceled": "Wedi'i ganslo",
   },
   "gift_program_status": {
     "Airdrop": "System Dalu",
     "Advertising": "Hysbysebu",
     "PersonalGift": "Anrheg Personol",
-    "ShopGift": "Siop anrhegion"
+    "ShopGift": "Siop anrhegion",
   },
   "currency_selector": {
-    "label": "Arian cyfred"
+    "label": "Arian cyfred",
   },
   "need_login": {
     "title": "Mewngofnodi",
     "login_sms": "Mewngofnodi SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Mewngofnodi gyda Google",
     "login_facebook": "Mewngofnodi gyda Facebook",
+    "login_apple": "Mewngofnodi gydag Apple",
     "login_account": "Mewngofnodi gan Soldone",
     "register": "Defnyddiwr newydd? Cofrestrwch nawr.",
     "mobile_input": "Rhowch eich ffôn symudol",
     "verification_code": "Cod dilysu",
     "msg_title": "Helo,",
     "msg_body": "Mewngofnodwch os gwelwch yn dda. Mae'n cymryd dim ond ychydig eiliadau.",
-    "login_apple": "Mewngofnodi gydag Apple",
     "login_email": "Mewngofnodi trwy E-bost",
     "email_login_step_1": "Rhowch gyfeiriad e-bost dilys, a byddwn yn anfon y cod mewngofnodi iddo. Nid oes angen cofrestru.",
     "email_login_step_2": "A ydych yn sicr eich bod wedi rhoi eich cyfeiriad e-bost yn gywir? Byddwn yn anfon y cod mewngofnodi i'r e-bost a ddarparwyd, felly sicrhewch ei fod yn gywir.",
-    "email_login_step_3": "Rydym wedi anfon cod i'ch e-bost. Sylwch y bydd y cod yn dod i ben mewn 10 munud."
+    "email_login_step_3": "Rydym wedi anfon cod i'ch e-bost. Sylwch y bydd y cod yn dod i ben mewn 10 munud.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Storfa Aur 5 Mlynedd"
+      "name": "Storfa Aur 5 Mlynedd",
     },
     "GOLDEN_2YEAR": {
-      "name": "Storfa Aur 4 Blynedd"
+      "name": "Storfa Aur 4 Blynedd",
     },
     "GOLDEN_3YEAR": {
-      "name": "Storfa Aur 3 Blynedd"
+      "name": "Storfa Aur 3 Blynedd",
     },
     "GOLDEN_4YEAR": {
-      "name": "Storfa Aur 2 Flynedd"
+      "name": "Storfa Aur 2 Flynedd",
     },
     "GOLDEN_5YEAR": {
-      "name": "Storfa Aur 1 Flwyddyn"
+      "name": "Storfa Aur 1 Flwyddyn",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Buddsoddwr Aur"
+      "name": "Buddsoddwr Aur",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Buddsoddwr Diemwnt"
+      "name": "Buddsoddwr Diemwnt",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Buddsoddwr Ruby"
+      "name": "Buddsoddwr Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Aelod o'r Gymuned Uwch o Rwydweithiau Cyfathrebu"
+      "name": "Aelod o'r Gymuned Uwch o Rwydweithiau Cyfathrebu",
     },
     "GOLD_SUPPLIER": {
-      "name": "Cyflenwr Aur"
+      "name": "Cyflenwr Aur",
     },
     "GOLD_SELLER": {
-      "name": "Gwerthwr Aur"
+      "name": "Gwerthwr Aur",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Cynhyrchydd Cynnwys Gorau"
+      "name": "Cynhyrchydd Cynnwys Gorau",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Seren"
+      "name": "Seren",
     },
     "GUARDIAN": {
-      "name": "Gwasanaeth Cwsmer Gwych"
+      "name": "Gwasanaeth Cwsmer Gwych",
     },
     "KING": {
-      "name": "Brenin y Farchnad"
-    }
+      "name": "Brenin y Farchnad",
+    },
   },
   "cookie": {
     "title": "Mae'r wefan hon yn defnyddio cwcis",
     "message": "Mae'r wefan hon yn defnyddio cwcis i wella profiad y defnyddiwr. Trwy ddefnyddio ein gwefan rydych chi'n cydsynio i bob cwci yn unol â'n Polisi Cwcis.",
     "preferences_action": "Rheoli Dewisiadau",
-    "agree_action": "Rwy'n cytuno"
+    "agree_action": "Rwy'n cytuno",
   },
   "basket_item_message": {
     "title": "Gwybodaeth ofynnol ar gyfer yr eitem hon",
     "save_actions": "Cadw Neges",
+    "product_inputs_preview_message": "Mae'r opsiynau addasu hyn ar gael ar gyfer eich cynnyrch a archebwyd. Unwaith y bydd yr eitem yn cael ei hychwanegu at eich trol, byddwch yn gallu gwneud addasiadau yma.",
     "notifications": {
-      "success": "Mae eich data mewnbwn wedi'i gadw."
+      "success": "Mae eich data mewnbwn wedi'i gadw.",
     },
-    "product_inputs_preview_message": "Mae'r opsiynau addasu hyn ar gael ar gyfer eich cynnyrch a archebwyd. Unwaith y bydd yr eitem yn cael ei hychwanegu at eich trol, byddwch yn gallu gwneud addasiadau yma."
   },
   "faq": {
     "faq": "Cwestiynau Cyffredin",
     "title": "Cwestiynau ac Atebion",
-    "sub_title": "Beth wnaethoch chi ofyn i ni ei wneud.",
     "message": "Chwiliwch am yr ateb i'ch cwestiwn ymhlith yr atebion isod. Gofynnwch i ni a yw'r cwestiynau'n parhau heb eu hateb.",
     "add_question_action": "Gofyn Cwestiwn Newydd",
     "read_more": "Darllen mwy ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Cwestiwn",
     "question_input_placeholder": "Gofynnwch eich cwestiwn.",
     "notifications": {
-      "success_add": "Cyflwynwyd eich cwestiwn yn llwyddiannus."
-    }
+      "success_add": "Cyflwynwyd eich cwestiwn yn llwyddiannus.",
+    },
+    "sub_title": "Beth wnaethoch chi ofyn i ni ei wneud.",
   },
   "rating_labels": [
     "Drwg iawn",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Rhowch gyfeiriad cyrchfan",
     "enter_your_address": "Rhowch eich cyfeiriad.",
     "postal_code": "Côd post",
-    "phone_input": "Ffôn {type}",
+    "phone_input": "Ffôn",
     "building_number": "Rhif adeiladu",
     "building_unit": "Uned",
     "full_name_input": "Enw llawn {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Label cyfeiriad (Angen)",
     "notifications": {
       "save_in_list": "Mae'r cyfeiriad hwn wedi'i gadw ar eich rhestr gyda'i holl fanylion.",
-      "edit_success": "Gwerthoedd cyfeiriad newydd wedi'u cadw yn {title}."
+      "edit_success": "Gwerthoedd cyfeiriad newydd wedi'u cadw yn {title}.",
     },
     "delete_address_dialog": {
       "title": "Dileu Cyfeiriad",
       "message": "Ydych chi'n siŵr eich bod am ddileu'r cyfeiriad hwn?",
-      "action": "Dileu cyfeiriad"
-    }
+      "action": "Dileu cyfeiriad",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Methu golygu'r sylw hwn!",
     "comment_input_empty": "Testun y neges yn wag!",
-    "article_not_saved": "Arbedwch yr erthygl!"
+    "article_not_saved": "Arbedwch yr erthygl!",
   },
   "wheel_fortune": {
     "title": "Chwarae ac Ennill",
     "message": "Cost pob gêm yw 10 sglodion. Mae gennych chi sglodyn {chips} ar hyn o bryd. Sicrhewch fwy o sglodion trwy brynu o'r siop.",
     "win_message": "Llongyfarchiadau, Rydych chi'n ennill!",
     "lost_message": "Mae'n ddrwg gennyf, rydych chi wedi colli'r gêm.",
-    "try_again": "Gallwch geisio eto"
+    "try_again": "Gallwch geisio eto",
   },
   "json": {
     "add": "Ychwanegu data strwythur",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Strwythurau",
     "book": {
       "title": "Llyfr",
-      "desc": "Gweithredoedd llyfr sy'n galluogi defnyddwyr i brynu'r llyfr y maent yn dod o hyd iddo yn uniongyrchol o Canlyniadau Chwilio."
+      "desc": "Gweithredoedd llyfr sy'n galluogi defnyddwyr i brynu'r llyfr y maent yn dod o hyd iddo yn uniongyrchol o Canlyniadau Chwilio.",
     },
     "occupation": {
       "title": "Amcangyfrif o'r cyflog",
-      "desc": "Gwybodaeth am amcangyfrif cyflog, megis ystodau cyflog a chyfartaleddau cyflog ar sail rhanbarth ar gyfer mathau o swyddi, wedi'i harddangos yn y profiad chwilio am swydd ar Google."
+      "desc": "Gwybodaeth am amcangyfrif cyflog, megis ystodau cyflog a chyfartaleddau cyflog ar sail rhanbarth ar gyfer mathau o swyddi, wedi'i harddangos yn y profiad chwilio am swydd ar Google.",
     },
     "course": {
       "title": "Cwrs",
-      "desc": "Cyrsiau addysgol sy'n ymddangos mewn rhestr darparwr-benodol. Gall cyrsiau gynnwys teitl y cwrs, darparwr, a disgrifiad byr."
+      "desc": "Cyrsiau addysgol sy'n ymddangos mewn rhestr darparwr-benodol. Gall cyrsiau gynnwys teitl y cwrs, darparwr, a disgrifiad byr.",
     },
     "howto": {
       "title": "Sut-i",
-      "desc": "Mae Sut-i yn tywys defnyddwyr trwy gyfres o gamau i gwblhau tasg yn llwyddiannus, gan gynnwys fideo, delweddau a thestun."
+      "desc": "Mae Sut-i yn tywys defnyddwyr trwy gyfres o gamau i gwblhau tasg yn llwyddiannus, gan gynnwys fideo, delweddau a thestun.",
     },
     "recipe": {
       "title": "Rysáit",
-      "desc": "Ryseitiau sy'n arddangos fel canlyniad cyfoethog unigol neu ran o garwsél gwesteiwr."
-    }
+      "desc": "Ryseitiau sy'n arddangos fel canlyniad cyfoethog unigol neu ran o garwsél gwesteiwr.",
+    },
   },
   "support": {
     "Financial": "Ariannol",
     "Technical": "Technegol",
-    "Advisor": "Cynghorydd"
+    "Advisor": "Cynghorydd",
   },
   "condition": {
     "new": "Newydd",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Defnyddiwyd",
     "used_fair": "Wedi'i ddefnyddio'n deg",
     "used_good": "Wedi'i ddefnyddio'n dda",
-    "used_like_new": "Wedi'i ddefnyddio fel newydd"
+    "used_like_new": "Wedi'i ddefnyddio fel newydd",
   },
   "variant_filter": {
     "title": "Hidlydd Amrywiad Cynnyrch",
-    "only_available": "Mewn Stoc"
+    "only_available": "Mewn Stoc",
   },
   "service": {
     "task": {
       "title": "Tasgau",
-      "message": "Rhestr o dasgau a gyflawnir yn y gwasanaeth hwn."
+      "message": "Rhestr o dasgau a gyflawnir yn y gwasanaeth hwn.",
     },
     "appointment": {
       "title": "Apwyntiad",
-      "message": "Dewiswch amseroedd yr wythnos o'r amseroedd canlynol yn seiliedig ar y diwrnod a'r awr sy'n iawn i chi."
+      "message": "Dewiswch amseroedd yr wythnos o'r amseroedd canlynol yn seiliedig ar y diwrnod a'r awr sy'n iawn i chi.",
     },
     "booking": {
       "title": "Archebu",
-      "message": "Nodwch gyfnod amser y dyddiau yr ydych am gadw lle yn y calendr isod."
+      "message": "Nodwch gyfnod amser y dyddiau yr ydych am gadw lle yn y calendr isod.",
     },
     "subscription": {
-      "title": "Tanysgrifiad"
+      "title": "Tanysgrifiad",
     },
     "charge": {
-      "title": "Tâl"
-    }
+      "title": "Tâl",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Prisiau sefydlog",
-      "message": "Yn y math hwn o brisio, mae pris y cynnyrch yn swm sefydlog ac nid oes angen i'r prynwr ofyn am gyfrifiad pris."
+      "message": "Yn y math hwn o brisio, mae pris y cynnyrch yn swm sefydlog ac nid oes angen i'r prynwr ofyn am gyfrifiad pris.",
     },
     "ESTIMATION": {
       "title": "Pris Amcangyfrif",
-      "message": "Bydd pris cynhyrchion a gwasanaethau yn cael eu cyfrifo i ryw raddau gan y gwerthwr wrth osod archeb, gellir newid neu ychwanegu anfonebau talu yn ystod y gwasanaeth."
+      "message": "Bydd pris cynhyrchion a gwasanaethau yn cael eu cyfrifo i ryw raddau gan y gwerthwr wrth osod archeb, gellir newid neu ychwanegu anfonebau talu yn ystod y gwasanaeth.",
     },
     "AGREEMENT": {
       "title": "Pris Cytundeb",
-      "message": "Ni fydd pris terfynol y cynhyrchion neu'r gwasanaethau yn cael ei newid gan y gwerthwr ar ôl i'r archeb gael ei gosod."
+      "message": "Ni fydd pris terfynol y cynhyrchion neu'r gwasanaethau yn cael ei newid gan y gwerthwr ar ôl i'r archeb gael ei gosod.",
     },
     "BID": {
       "title": "Bid / Arwerthiant",
-      "message": "Bydd y cynnyrch yn cael ei werthu am y pris cynnig uchaf gan ddarpar brynwyr."
-    }
+      "message": "Bydd y cynnyrch yn cael ei werthu am y pris cynnig uchaf gan ddarpar brynwyr.",
+    },
   },
   "map": {
     "title": "Cyrchfan i dderbyn cynhyrchion",
     "confirm": "Gosod lleoliad",
     "address": "Cyrchfan",
-    "receptor": "Derbynnydd"
+    "receptor": "Derbynnydd",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Tagiau Cynnwys",
     "tags_input": "Tagiau",
     "tags_input_message": "Tagiau Rhestr o'r erthygl hon",
     "notification": {
-      "add_success": "Tagiau wedi'u hychwanegu"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Cymhleth iawn",
-    "hard": "Caled",
-    "intermediate": "Canolradd",
-    "easy": "Hawdd"
-  },
-  "billing_period": {
-    "Daily": "Dyddiol",
-    "Weekly": "Wythnosol",
-    "Monthly": "Yn fisol",
-    "Every3Months": "Bob 3 mis",
-    "Every6Months": "Bob 6 mis",
-    "Yearly": "Yn flynyddol"
+      "add_success": "Tagiau wedi'u hychwanegu",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och ddim yn dda!",
     "between2_3": "Mae'n iawn!",
     "between3_4": "Mae pobl yn ei hoffi!",
-    "between4_5": "Mae pobl wrth eu bodd!"
+    "between4_5": "Mae pobl wrth eu bodd!",
   },
   "seasons": {
     "spring": "Gwanwyn",
     "summer": "Haf",
     "autumn": "Hydref",
-    "winter": "Gaeaf"
-  }
+    "winter": "Gaeaf",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

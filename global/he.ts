@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "קראתי את תנאי השימוש ומדיניות הפרטיות ואני מסכים איתם.",
   "commons": {
     "Currency": "מַטְבֵּעַ",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "מדינה",
     "Price": "מחיר",
@@ -169,6 +170,7 @@ export default {
     "net_price": "מחיר נטו",
     "tax": "מַס",
     "tax_included": "כלול במחיר",
+    "tax_included_abstract": "כולל",
     "limit": "לְהַגבִּיל",
     "min_purchase": "מינימום רכישה",
     "eligible_for": "זכאי ל",
@@ -302,6 +304,7 @@ export default {
     "created_at": "תאריך יצירה",
     "updated_at": "העדכון אחרון",
     "register_at": "תאריך הרשמה",
+    "last_modified": "Last modified",
     "old": "ישן",
     "new": "חָדָשׁ",
     "start": "הַתחָלָה",
@@ -330,6 +333,7 @@ export default {
     "reseller": "משווק",
     "tracking_code": "קוד מעקב",
     "tracking_url": "כתובת אתר למעקב",
+    "fulfillment": "Fulfillment",
     "fulfillments": "הגשמות",
     "reject": "לִדחוֹת",
     "reserved": "שמורות",
@@ -341,6 +345,7 @@ export default {
     "waiting": "הַמתָנָה...",
     "waiting_connecting_payment": "מחכה לשירות התשלומים...",
     "creating_secure_payment": "יצירת תשלום מאובטח.",
+    "waiting_for_payment": "נא להשלים את התשלום...",
     "officer": "קָצִין",
     "ticket": "כַּרְטִיס",
     "ticket_url": "כתובת אתר של כרטיס",
@@ -361,7 +366,6 @@ export default {
     "rates": "דֵרוּג",
     "seen_at": "נראה ב",
     "completed": "הושלם",
-    "you": "אתה",
     "shop": "לִקְנוֹת",
     "store": "חנות",
     "granted": "נכון",
@@ -498,6 +502,7 @@ export default {
     "tablet": "לוּחַ",
     "pc": "PC",
     "acquisition_channel": "ערוץ רכישה",
+    "channels_overview": "Channels overview",
     "to": "ל",
     "info": "מידע",
     "general": "כללי",
@@ -559,7 +564,6 @@ export default {
     "per_product": "לכל מוצר",
     "journey": "מסע",
     "after": "לאחר",
-    "waiting_for_payment": "נא להשלים את התשלום...",
     "hour": "שָׁעָה",
     "minute": "דַקָה",
     "premium": "פּרֶמיָה",
@@ -569,6 +573,7 @@ export default {
     "shops": "חנויות",
     "vendor": "מוֹכֵר",
     "vendors": "ספקים",
+    "no_vendors": "No vendors",
     "marketplace": "זירת מסחר",
     "verify_date": "אמת את התאריך",
     "note": "פתק",
@@ -604,7 +609,6 @@ export default {
     "variant": "גִרְסָה אַחֶרֶת",
     "secure": "לבטח",
     "admin": "מנהל מערכת",
-    "tax_included_abstract": "כולל",
     "payment_not_settled": "התשלום לא הוסדר!",
     "orders_list": "רשימת הזמנות",
     "subscription_plan": "תוכנית מנוי",
@@ -642,16 +646,170 @@ export default {
     "clusters": "אשכולות",
     "subscriptions": "מנויים",
     "spam": "ספאם",
-    "video": "וִידֵאוֹ"
+    "video": "וִידֵאוֹ",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "אתה",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "מאוד מסובך",
+    "hard": "קָשֶׁה",
+    "intermediate": "ביניים",
+    "easy": "קַל",
   },
   "dialogs": {
     "delete": {
       "title": "לִמְחוֹק",
       "message": "האם אתה בטוח שתמחק את הפריט הזה?",
-      "action": "כן, מחק עכשיו"
-    }
+      "action": "כן, מחק עכשיו",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "הוסף לעגלה",
     "cancel": "לְבַטֵל",
     "update": "עדכון",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "הוסף כרטיס מתנה",
     "charge": "לחייב",
     "send_invites": "לשלוח הזמנות",
-    "past": "עבר",
+    "paste": "לְהַדבִּיק",
     "restore": "לשחזר",
     "cut": "גזירה",
     "get_sms_code": "קבל קוד אימות",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "הצג תצוגה מקדימה",
     "hide_preview": "הסתר תצוגה מקדימה",
     "download_now": "הורד עכשיו",
+    "watch_now": "צפה עכשיו",
     "auto_fill": "מילוי אוטומטי",
     "track": "מַסלוּל",
     "change_state": "לשנות סטטוס",
     "done": "בוצע",
     "reply": "תשובה",
-    "watch_now": "צפה עכשיו",
     "unlock": "לבטל נעילה",
     "lock": "לנעול",
     "create_clone": "צור שיבוט",
@@ -773,41 +931,71 @@ export default {
     "buy": "לִקְנוֹת",
     "view_all": "צפה בהכל",
     "view_now": "תראה עכשיו",
-    "paste": "לְהַדבִּיק"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "עבר",
+  },
+  "billing_period": {
+    "Daily": "יומי",
+    "Weekly": "שְׁבוּעִי",
+    "Monthly": "יַרחוֹן",
+    "Every3Months": "כל 3 חודשים",
+    "Every6Months": "כל 6 חודשים",
+    "Yearly": "שְׁנָתִי",
   },
   "instance_message_title": "שלח הודעה מיידית",
   "instance_message": "היי {name}, שמי {author} מ-{company}.",
   "errors": {
     "419": "לא היית פעיל במשך זמן רב, אנא <b>⟳ רענן את העמוד</b> מסיבות אבטחה.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "המערכת לא מסתנכרנת עם הבלוקצ'יין. לא ניתן יהיה ליצור עסקה חדשה עד להשלמת הסנכרון של השרתים שלנו. אנחנו פותרים את הבעיה.",
-    "gateway_network_error": "שירות שער תשלום נתקל בבעיית תקשורת."
+    "gateway_network_error": "שירות שער תשלום נתקל בבעיית תקשורת.",
   },
   "receiver_info": {
     "map": {
       "title": "כתובת למשלוח",
       "confirm": "הזן מיקום",
       "address_type": "יַעַד",
-      "receptor_type": "מַקְלֵט"
+      "receptor_type": "מַקְלֵט",
     },
     "receiver_address": "בחר כתובת למשלוח",
+    "service_address": "בחר את הכתובת שלך",
+    "select_billing_address": "Select billing address",
     "address": "כתובת",
     "postcode": "מיקוד",
     "enter_value": "מלא כאן",
     "address_note": "פתק",
     "tel": "מספר איש קשר",
-    "service_address": "בחר את הכתובת שלך"
   },
   "weight": {
     "g": "ז",
     "oz": "עוז",
     "lb": "lb",
-    "kg": "ק\"ג"
+    "kg": "ק\"ג",
   },
   "mass_unit_name": {
     "g": "גְרַם",
     "oz": "אוּנְקִיָה",
     "lb": "לִירָה",
-    "kg": "קִילוֹגרָם"
+    "kg": "קִילוֹגרָם",
   },
   "length": {
     "cm": "ס\"מ",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "מ\"מ",
     "m": "M",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "סַנטִימֶטֶר",
@@ -823,17 +1011,21 @@ export default {
     "ft": "כף רגל",
     "mm": "מִילִימֶטֶר",
     "m": "מטר",
-    "yd": "חָצֵר"
+    "yd": "חָצֵר",
   },
   "distance": {
     "m": "מטר",
-    "km": "ק\"מ"
+    "km": "ק\"מ",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "ימים",
     "hours": "שעה (ות",
     "minutes": "דקות",
-    "seconds": "שניות"
+    "seconds": "שניות",
   },
   "units": [
     "יחידה",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "מדינה",
     "Territory": "שֶׁטַח",
-    "Province": "מָחוֹז"
+    "Province": "מָחוֹז",
   },
   "transaction_status": {
     "RequireAction": "פעולה נדרשת",
     "Processing": "מעבד",
     "Canceled": "מבוטל",
-    "Succeeded": "הצליח"
+    "Succeeded": "הצליח",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "ג'ון קוקס",
@@ -885,7 +1078,17 @@ export default {
     "language": "בחר שפה..",
     "friend_email": "האימייל של חבריך...",
     "friend_name": "העדיף. שם חברך",
-    "select_date": "בחר תאריך..."
+    "select_date": "בחר תאריך...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "לְאַשֵׁר",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "מקסימום {maxCount} תווים",
     "invalid_url": "כתובת אתר לא חוקית",
     "country_invalid": "בחר מדינת יעד!",
-    "postal_code_invalid": "הגדר מיקוד חוקי!"
+    "postal_code_invalid": "הגדר מיקוד חוקי!",
   },
   "colors": {
     "#D32F2F": "אָדוֹם",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "יחידה",
     "postcode": "מיקוד",
     "note": "פתק",
-    "county": "מָחוֹז"
+    "county": "מָחוֹז",
   },
   "product_types": {
     "physical": "גוּפָנִי",
@@ -1004,13 +1207,13 @@ export default {
     "service": "שֵׁרוּת",
     "service_description": "שירותים כמו: תיקון, הובלה, הוראה.",
     "subscription": "מִנוּי",
-    "subscription_description": "מנויים וחשבוניות עבור מוצרים, שירותים או תוכן."
+    "subscription_description": "מנויים וחשבוניות עבור מוצרים, שירותים או תוכן.",
   },
   "license": {
     "free": "חינם",
     "startup": "סטארט - אפ",
     "company": "חֶברָה",
-    "enterprise": "מִפְעָל"
+    "enterprise": "מִפְעָל",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "צֶבַע",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "לספור בחבילה",
     "weight": "מִשׁקָל",
     "type": "חוֹמֶר",
-    "style": "סִגְנוֹן"
+    "style": "סִגְנוֹן",
   },
   "delivery_state": {
     "check_queue": "ממתין לסקירה",
     "order_confirm": "אישור הזמנה",
     "preparing_order": "מכין",
     "sent_order": "במשלוח",
-    "to_customer": "נמסר"
+    "to_customer": "נמסר",
   },
   "status": {
     "unpaid": "ללא תשלום",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "לִדחוֹת",
     "pending": "ממתין ל",
     "rejected": "נִדחֶה",
-    "accepted": "מְקוּבָּל"
+    "accepted": "מְקוּבָּל",
   },
   "dimensions": {
     "cm": "ס\"מ",
     "km": "ק\"מ",
-    "kg": "ק\"ג"
+    "kg": "ק\"ג",
   },
   "transportation_type": {
     "motorbike": "אוֹפנוֹעַ",
@@ -1224,7 +1429,7 @@ export default {
     "global": "תחבורה גלובלית",
     "global_description": "משלוח לחו\"ל באוויר, בים או יבשתי.",
     "pickup": "לאסוף",
-    "pickup_description": "לקוחות אוספים את הפריטים בחנות או במחסן הפיזי שלך."
+    "pickup_description": "לקוחות אוספים את הפריטים בחנות או במחסן הפיזי שלך.",
   },
   "article": {
     "login_to_see_error": "התחבר כדי לגשת למאמר",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "מצב עריכה",
       "view_mode": "מצב צפייה",
-      "delete": "מחק מאמר"
+      "delete": "מחק מאמר",
     },
     "schedule_action": "האם אתה רוצה לתזמן פרסום?",
     "schedule_title": "תזמן פרסום אוטומטי",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "דווח על שימוש לרעה והסר תוכן",
       "report_title": "דווח על תוכן זה כפוגעני",
       "message": "מהי הסיבה להגשת תוכן זה? בחר אחת מהאפשרויות הבאות.",
-      "accept_and_delete_action": "אשר ומחק תוכן"
+      "accept_and_delete_action": "אשר ומחק תוכן",
     },
     "schedule_dialog": {
       "title": "לוח זמנים לפרסום תוכן",
       "publish_at": "פרסם ב",
       "last_edit": "עריכה אחרונה",
-      "view_action": "צפו במאמר"
+      "view_action": "צפו במאמר",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "שלח מידע",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "דווח ומחק",
       "report_and_delete_success_message": "המאמר נמחק בהצלחה.",
       "report_success_title": "מאמר דיווח",
-      "report_success_message": "הדיווח שלך על מאמר זה פורסם."
+      "report_success_message": "הדיווח שלך על מאמר זה פורסם.",
     },
     "alert": {
       "delete_article": {
         "title": "מחק מאמר",
         "message": "האם אתה בטוח שברצונך למחוק מאמר זה לצמיתות?",
-        "action": "לִמְחוֹק"
-      }
+        "action": "לִמְחוֹק",
+      },
     },
     "edit_window": {
       "title": "בחר טקסט תמונה וסיכום",
-      "digest": "סיכום"
+      "digest": "סיכום",
     },
     "editor": {
       "title_placeholder": "כותרת..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "הקובץ הזה גדול מדי:",
       "notifications": {
         "image_uploaded_success": "התמונה נשמרה בהצלחה",
-        "image_uploaded_failed": "שגיאה בטעינת התמונה."
+        "image_uploaded_failed": "שגיאה בטעינת התמונה.",
       },
       "embed_placeholder": "הזן את קוד ה-iframe, Facebook, Youtube או כל כתובת אתר אחרת והקש אנטר.",
       "embed_caption_placeholder": "הזן כותרת (אופציונלי)",
-      "images_caption_placeholder": "הזן כותרת לתמונה זו .."
-    }
+      "images_caption_placeholder": "הזן כותרת לתמונה זו ..",
+    },
   },
   "article_report": {
     "inappropriate": "התוכן של מאמר זה אינו הולם.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "אני חושב שהתוכן הזה מכיל פורנוגרפיה והוא מפר את החוקים.",
     "harassment": "אני חושב שזה גזעני.",
     "hate": "אני חושב שזה קשור לקידום אלימות.",
-    "infringe": "זה פוגע בזכויות שלי."
+    "infringe": "זה פוגע בזכויות שלי.",
   },
   "comments": {
     "new_action": "לחץ כדי להשאיר תגובה..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "קבלו עוד תגובות..",
     "cant_send_comment": "אתה לא יכול להוסיף פוסט חדש.",
     "cant_remove_this_comment": "אתה לא יכול למחוק את התגובה הזו!",
-    "product_buyer": "קוֹנֶה",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "התגובות שלי",
     "delete_alert": {
       "title": "מחק תגובה",
       "message": "האם אתה רוצה למחוק את התגובה הזו?",
-      "action": "לִמְחוֹק"
+      "action": "לִמְחוֹק",
     },
     "notifications": {
-      "delete_success": "התגובה שלך נמחקה בהצלחה."
+      "delete_success": "התגובה שלך נמחקה בהצלחה.",
     },
     "first_send": "פוסט ראשון",
     "comment_at": "עַל",
     "edit_comment": "ערוך תגובה",
-    "my_comments": "התגובות שלי"
+    "product_buyer": "קוֹנֶה",
   },
   "customer_club": {
     "bronze": "בְּרוֹנזָה",
     "silver": "כסף",
     "gold": "זָהוּב",
     "platinum": "פְּלָטִינָה",
-    "diamond": "יהלום"
+    "diamond": "יהלום",
   },
   "application_categories": {
     "tracking": "בדיקת התנהגות משתמש",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "פִּרסוּם",
     "staff": "צוות",
     "incentive": "תמריצים",
-    "shop": "לִקְנוֹת"
+    "shop": "לִקְנוֹת",
   },
   "social_network": {
     "instagram": "אינסטגרם",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "פינטרסט",
     "whatsapp": "וואטסאפ",
     "skype": "סקייפ",
-    "facebook_messenger": "מסנג'ר של פייסבוק"
+    "facebook_messenger": "מסנג'ר של פייסבוק",
   },
   "form_builder": {
     "add_item_action": "הוסף פריט חדש",
     "title_input": "כותרת",
+    "placeholder_input": "מציין מקום",
     "name_input": "שם משתנה",
     "value_input": "ערכים",
     "value_input_message": "רשימת אפשרויות משתמש",
     "default": "ערך ברירת מחדל",
+    "file_type_input": "סוגי קבצים מקובלים",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "פָּשׁוּט",
       "selective": "סֶלֶקטִיבִי",
       "switch": "החלף",
       "file": "קוֹבֶץ",
-      "number": "מספר"
+      "number": "מספר",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "מציין מקום",
-    "file_type_input": "סוגי קבצים מקובלים",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "שם מוצר",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "מצב תשלום",
     "payment_status_waiting": "מחכה לתשלום",
     "payment_status_paid": "שולם",
-    "buyer": "קוֹנֶה"
+    "buyer": "קוֹנֶה",
   },
   "virtual_item_info": {
     "title": "פריט וירטואלי",
     "outputs": {
       "title": "מידע פלט",
       "sub_title": "מידע סודי של פריט זה",
-      "message": "מידע זה יוצג למשתמש לאחר רכישת המוצר."
+      "message": "מידע זה יוצג למשתמש לאחר רכישת המוצר.",
     },
     "inputs": {
       "title": "מידע נדרש",
       "sub_title": "נדרש מידע לקונה",
-      "message": "על הקונה להזין את המידע המבוקש בטופס"
+      "message": "על הקונה להזין את המידע המבוקש בטופס",
     },
     "notifications": {
       "inputs_set_success": "טופס מידע נרשם בהצלחה.",
       "confirm_by_admin_success": "השלמת ההזמנה אושרה.",
-      "confirm_by_buyer_success": "השלמת ההזמנה אושרה."
-    }
+      "confirm_by_buyer_success": "השלמת ההזמנה אושרה.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "לא ניתן לקבל הזמנה זו על ידי תשלום COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "אזל במלאי.",
     "legal_restriction": "לא ניתן לבצע הזמנה עקב מגבלות חוקיות.",
     "pricing_fault": "טעות בתמחור של המוכר.",
-    "system_fault": "באג מערכת."
+    "system_fault": "באג מערכת.",
   },
   "basket_order_info_summery": {
     "receiver": "מַקְלֵט",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "הנחה",
     "final_price": "סכום סופי",
     "address": "כתובת למשלוח",
-    "payment_status": "מצב תשלום"
+    "payment_status": "מצב תשלום",
   },
   "basket_status": {
     "open": "לִפְתוֹחַ",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "מבוטל",
     "cod": "תשלום במשלוח",
     "receipt_added": "נוספה קבלה",
-    "payment_processing": "עיבוד תשלומים"
+    "payment_processing": "עיבוד תשלומים",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "נִדחֶה",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "אִשׁוּר",
     "step_3": "הכנה",
     "step_4": "במשלוח",
-    "step_5": "נמסר"
+    "step_5": "נמסר",
   },
   "basket_return_request_view": {
     "title": "בקשת החזרה",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "דחה בקשה",
     "message_for_admin": "על פי ההסכם שקיבלת על ידי שימוש ב-Seldone, עליך ליצור קשר עם הקונה ולעדכן אותו בתהליך החזרת ההזמנה שלו. יש לעשות זאת במידה והבקשה מתקבלת או נדחית ומתקבלת הסכמתו המלאה של הקונה.",
     "notifications": {
-      "update_status_success": "סטטוס הבקשה עודכן."
-    }
+      "update_status_success": "סטטוס הבקשה עודכן.",
+    },
   },
   "basket_list": {
     "return_count": "החזרה: מספר {count}",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "גִרְסָה אַחֶרֶת",
       "warranty": "אחריות",
       "count": "לספור",
-      "price": "מחיר"
-    }
+      "price": "מחיר",
+    },
   },
   "return_request_list": {
     "count": "מספר אסמכתא",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "תאריך קבלה",
       "state": "סטָטוּס",
       "reason": "סיבה",
-      "return_warranty_period": "תקופת אחריות"
-    }
+      "return_warranty_period": "תקופת אחריות",
+    },
   },
   "data_toolbar": {
     "search": "לחפש",
     "sort_by": "מיין לפי",
-    "count_item": "הצג {item} פריטים"
+    "count_item": "הצג {item} פריטים",
   },
   "sort": {
     "created_at": "צור תאריך",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "קָצִין",
     "registered": "רשום",
     "purchased": "נרכש",
-    "sex": "מִין"
+    "sex": "מִין",
   },
   "search_box": {
     "result": "תוצאות חיפוש",
     "tips": "חפש מוצרים וקטגוריות",
     "label": "לחפש ...",
-    "category": "קטגוריה"
+    "category": "קטגוריה",
   },
   "lead_status": {
     "physical_fast_delivery": "משלוח מיידי",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "הכנה ושליחה מ-{days} הימים הבאים",
     "virtual_fast_prepare": "משלוח מיידי",
     "virtual_under_24h": "יתבצע במהלך {lead} השעות הבאות",
-    "virtual_over_24h": "יתבצע החל מ-{days} הימים הבאים"
+    "virtual_over_24h": "יתבצע החל מ-{days} הימים הבאים",
   },
   "return_request_state": {
     "pending": "ממתין ל",
     "accepted": "מְאוּשָׁר",
-    "rejected": "נִדחֶה"
+    "rejected": "נִדחֶה",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "שיבוש חבילה או מספר סידורי",
       "U5": "חלק מהפריטים מהחבילה חסרים",
       "U6": "המוצר אינו מקורי",
-      "U7": "המוצר אינו עומד במפרט"
-    }
+      "U7": "המוצר אינו עומד במפרט",
+    },
   },
   "image_uploader": {
     "label": "גרור ושחרר או <u>בחר קובץ</u>",
-    "max_size": "גודל מקסימלי מותר: {size}"
+    "max_size": "גודל מקסימלי מותר: {size}",
   },
   "timespan": {
     "Morning": "8:00 - 12:00",
     "Evening": "12 בצהריים עד 6 בערב",
     "Night": "18:00-12:00",
-    "Instant": "פוסט מיידי"
+    "Instant": "פוסט מיידי",
   },
   "week_day": {
     "Saturday": "יום שבת",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "יוֹם שְׁלִישִׁי",
     "Wednesday": "יום רביעי",
     "Thursday": "יוֹם חֲמִישִׁי",
-    "Friday": "יוֹם שִׁישִׁי"
+    "Friday": "יוֹם שִׁישִׁי",
   },
   "payment_form": {
     "title": "בחר שיטת תשלום",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "מזל טוב, ההזמנה שלך בחינם!",
     "order_free_payment_action": "הזמינו בחינם עכשיו",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "כתובת לתשלום",
-      "amount": "כמות"
-    }
+      "amount": "כמות",
+    },
   },
   "discount_input": {
     "limit": "{percent}% הנחה עד {limit} {currency}",
     "action": "הוסף קוד הנחה",
     "code_input": "קוד הנחה",
     "notifications": {
-      "add_success": "מזל טוב, קוד הנחה תקף."
-    }
+      "add_success": "מזל טוב, קוד הנחה תקף.",
+    },
   },
   "gift_card": {
     "inactive": "הכרטיס מושבת",
     "expire": "תְפוּגָה",
     "transfer": "לְהַעֲבִיר",
-    "send_to_friend": "לשלוח לחבר"
+    "send_to_friend": "לשלוח לחבר",
   },
   "count_down": {
     "days": "יְוֹם",
     "hours": "שָׁעָה",
     "minutes": "דקות",
-    "seconds": "שניות"
+    "seconds": "שניות",
   },
   "gift_status": {
     "Unpaid": "ממתין לקבלה",
     "Paid": "שולם",
     "Rejected": "נִדחֶה",
-    "Canceled": "מבוטל"
+    "Canceled": "מבוטל",
   },
   "gift_program_status": {
     "Airdrop": "מערכת תשלום",
     "Advertising": "פִּרסוּם",
     "PersonalGift": "מתנה אישית",
-    "ShopGift": "חנות מתנות"
+    "ShopGift": "חנות מתנות",
   },
   "currency_selector": {
-    "label": "מַטְבֵּעַ"
+    "label": "מַטְבֵּעַ",
   },
   "need_login": {
     "title": "התחברות",
     "login_sms": "כניסה ל-SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "התחבר עם גוגל",
     "login_facebook": "התחבר עם פייסבוק",
+    "login_apple": "התחבר עם אפל",
     "login_account": "התחברות על ידי Seldone",
     "register": "משתמש חדש? הירשם עכשיו.",
     "mobile_input": "הכנס לנייד שלך",
     "verification_code": "קוד אימות",
     "msg_title": "היי,",
     "msg_body": "אנא התחבר. זה לוקח רק כמה שניות.",
-    "login_apple": "התחבר עם אפל",
     "login_email": "כניסה באמצעות דואר אלקטרוני",
     "email_login_step_1": "אנא ספק כתובת דוא\"ל חוקית, ואנו נשלח אליה את קוד הכניסה. אין צורך ברישום.",
     "email_login_step_2": "האם אתה בטוח שהזנת את כתובת הדוא\"ל שלך כהלכה? אנו נשלח את קוד הכניסה לאימייל שסופק, אז נא לוודא את דיוקו.",
-    "email_login_step_3": "שלחנו קוד למייל שלך. שימו לב שתוקף הקוד יפוג בעוד 10 דקות."
+    "email_login_step_3": "שלחנו קוד למייל שלך. שימו לב שתוקף הקוד יפוג בעוד 10 דקות.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "חנות זהב 5 שנים"
+      "name": "חנות זהב 5 שנים",
     },
     "GOLDEN_2YEAR": {
-      "name": "חנות זהב 4 שנים"
+      "name": "חנות זהב 4 שנים",
     },
     "GOLDEN_3YEAR": {
-      "name": "חנות זהב לשלוש שנים"
+      "name": "חנות זהב לשלוש שנים",
     },
     "GOLDEN_4YEAR": {
-      "name": "חנות זהב לשנתיים"
+      "name": "חנות זהב לשנתיים",
     },
     "GOLDEN_5YEAR": {
-      "name": "חנות זהב לשנה"
+      "name": "חנות זהב לשנה",
     },
     "TOKEN_OWNER_1M": {
-      "name": "משקיע זהב"
+      "name": "משקיע זהב",
     },
     "TOKEN_OWNER_10M": {
-      "name": "משקיע יהלומים"
+      "name": "משקיע יהלומים",
     },
     "TOKEN_OWNER_100M": {
-      "name": "רובי משקיע"
+      "name": "רובי משקיע",
     },
     "COMMUNITY_LOYAL": {
-      "name": "חבר בקהילה המעולה של רשתות תקשורת"
+      "name": "חבר בקהילה המעולה של רשתות תקשורת",
     },
     "GOLD_SUPPLIER": {
-      "name": "מספק זהב"
+      "name": "מספק זהב",
     },
     "GOLD_SELLER": {
-      "name": "סוחר זהב"
+      "name": "סוחר זהב",
     },
     "CONTENT_SUPERMAN": {
-      "name": "מפיק תוכן מוביל"
+      "name": "מפיק תוכן מוביל",
     },
     "NINJA": {
-      "name": "נינג'ה"
+      "name": "נינג'ה",
     },
     "STAR": {
-      "name": "כוכב"
+      "name": "כוכב",
     },
     "GUARDIAN": {
-      "name": "שירות לקוחות מעולה"
+      "name": "שירות לקוחות מעולה",
     },
     "KING": {
-      "name": "מלך השוק"
-    }
+      "name": "מלך השוק",
+    },
   },
   "cookie": {
     "title": "אתר זה משתמש בעוגיות",
     "message": "אתר זה משתמש בקובצי Cookie כדי לשפר את חווית המשתמש. על ידי שימוש באתר האינטרנט שלנו אתה מסכים לכל קובצי ה-Cookie בהתאם למדיניות העוגיות שלנו.",
     "preferences_action": "נהל העדפות",
-    "agree_action": "אני מסכים"
+    "agree_action": "אני מסכים",
   },
   "basket_item_message": {
     "title": "מידע נדרש עבור פריט זה",
     "save_actions": "שמור הודעה",
+    "product_inputs_preview_message": "אפשרויות התאמה אישית אלו זמינות עבור המוצר שהזמנת. לאחר הוספת הפריט לעגלת הקניות שלך, תוכל לבצע התאמות כאן.",
     "notifications": {
-      "success": "נתוני הקלט שלך נשמרו."
+      "success": "נתוני הקלט שלך נשמרו.",
     },
-    "product_inputs_preview_message": "אפשרויות התאמה אישית אלו זמינות עבור המוצר שהזמנת. לאחר הוספת הפריט לעגלת הקניות שלך, תוכל לבצע התאמות כאן."
   },
   "faq": {
     "faq": "שאלות נפוצות",
     "title": "שאלות ותשובות",
-    "sub_title": "מה שביקשת מאיתנו לעשות.",
     "message": "חפש את התשובה לשאלתך בין התשובות למטה. שאל אותנו אם שאלות נותרו ללא מענה.",
     "add_question_action": "שאל שאלה חדשה",
     "read_more": "קרא עוד ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "שְׁאֵלָה",
     "question_input_placeholder": "תשאל את השאלה שלך.",
     "notifications": {
-      "success_add": "שאלתך נשלחה בהצלחה."
-    }
+      "success_add": "שאלתך נשלחה בהצלחה.",
+    },
+    "sub_title": "מה שביקשת מאיתנו לעשות.",
   },
   "rating_labels": [
     "רע מאוד",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "הזן כתובת יעד",
     "enter_your_address": "הזן את כתובתך.",
     "postal_code": "מיקוד",
-    "phone_input": "טלפון {type}",
+    "phone_input": "טלפון",
     "building_number": "מספר בניין",
     "building_unit": "יחידה",
     "full_name_input": "שם מלא {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "תווית כתובת (דרוש)",
     "notifications": {
       "save_in_list": "כתובת זו נשמרה ברשימה שלך עם כל הפרטים שלה.",
-      "edit_success": "ערכי כתובת חדשים שנשמרו ב-{title}."
+      "edit_success": "ערכי כתובת חדשים שנשמרו ב-{title}.",
     },
     "delete_address_dialog": {
       "title": "מחק כתובת",
       "message": "האם אתה בטוח שברצונך למחוק כתובת זו?",
-      "action": "הסר כתובת"
-    }
+      "action": "הסר כתובת",
+    },
   },
   "comment_manager": {
     "can_not_edit": "לא ניתן לערוך את התגובה הזו!",
     "comment_input_empty": "טקסט ההודעה ריק!",
-    "article_not_saved": "שמור את המאמר!"
+    "article_not_saved": "שמור את המאמר!",
   },
   "wheel_fortune": {
     "title": "שחק ונצח",
     "message": "עלות כל משחק היא 10 צ'יפים. יש לך כרגע שבב {chips}. קבל יותר שבב על ידי רכישה מהחנות.",
     "win_message": "מזל טוב, זכית!",
     "lost_message": "סליחה, הפסדתם את המשחק.",
-    "try_again": "אתה יכול לנסות שוב"
+    "try_again": "אתה יכול לנסות שוב",
   },
   "json": {
     "add": "הוסף נתוני מבנה",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "מבנים",
     "book": {
       "title": "סֵפֶר",
-      "desc": "פעולות ספר המאפשרות למשתמשים לקנות את הספר שהם מוצאים ישירות מתוצאות החיפוש."
+      "desc": "פעולות ספר המאפשרות למשתמשים לקנות את הספר שהם מוצאים ישירות מתוצאות החיפוש.",
     },
     "occupation": {
       "title": "שכר משוער",
-      "desc": "מידע על הערכת שכר, כגון טווחי שכר וממוצעי שכר מבוססי אזור עבור סוגי משרות, המוצג בחוויית חיפוש העבודה בגוגל."
+      "desc": "מידע על הערכת שכר, כגון טווחי שכר וממוצעי שכר מבוססי אזור עבור סוגי משרות, המוצג בחוויית חיפוש העבודה בגוגל.",
     },
     "course": {
       "title": "קוּרס",
-      "desc": "קורסים חינוכיים המופיעים ברשימה ספציפית לספק. הקורסים יכולים לכלול את כותרת הקורס, ספק ותיאור קצר."
+      "desc": "קורסים חינוכיים המופיעים ברשימה ספציפית לספק. הקורסים יכולים לכלול את כותרת הקורס, ספק ותיאור קצר.",
     },
     "howto": {
       "title": "איך ל",
-      "desc": "A How-to מנחה את המשתמשים בקבוצה של שלבים להשלמת משימה בהצלחה, הכוללת וידאו, תמונות וטקסט."
+      "desc": "A How-to מנחה את המשתמשים בקבוצה של שלבים להשלמת משימה בהצלחה, הכוללת וידאו, תמונות וטקסט.",
     },
     "recipe": {
       "title": "מתכון",
-      "desc": "מתכונים המוצגים כתוצאה עשירה אינדיבידואלית או כחלק מקרוסלת מארח."
-    }
+      "desc": "מתכונים המוצגים כתוצאה עשירה אינדיבידואלית או כחלק מקרוסלת מארח.",
+    },
   },
   "support": {
     "Financial": "כַּספִּי",
     "Technical": "טֶכנִי",
-    "Advisor": "יועץ"
+    "Advisor": "יועץ",
   },
   "condition": {
     "new": "חָדָשׁ",
@@ -1885,91 +2098,152 @@ export default {
     "used": "בשימוש",
     "used_fair": "משומש הוגן",
     "used_good": "משומש טוב",
-    "used_like_new": "משומש - כמו חדש"
+    "used_like_new": "משומש - כמו חדש",
   },
   "variant_filter": {
     "title": "מסנן וריאציות מוצר",
-    "only_available": "במלאי"
+    "only_available": "במלאי",
   },
   "service": {
     "task": {
       "title": "משימות",
-      "message": "רשימת המשימות שבוצעו בשירות זה."
+      "message": "רשימת המשימות שבוצעו בשירות זה.",
     },
     "appointment": {
       "title": "קביעת פגישה",
-      "message": "בחר את שעות השבוע מהזמנים הבאים על סמך היום והשעה המתאימים לך."
+      "message": "בחר את שעות השבוע מהזמנים הבאים על סמך היום והשעה המתאימים לך.",
     },
     "booking": {
       "title": "הזמנה",
-      "message": "ציין את פרק הזמן של הימים שבהם ברצונך לבצע הזמנה בלוח השנה למטה."
+      "message": "ציין את פרק הזמן של הימים שבהם ברצונך לבצע הזמנה בלוח השנה למטה.",
     },
     "subscription": {
-      "title": "מִנוּי"
+      "title": "מִנוּי",
     },
     "charge": {
-      "title": "לחייב"
-    }
+      "title": "לחייב",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "תמחור קבוע",
-      "message": "בתמחור מסוג זה, מחיר המוצר הינו סכום קבוע ואין צורך של הקונה לבקש חישוב מחיר."
+      "message": "בתמחור מסוג זה, מחיר המוצר הינו סכום קבוע ואין צורך של הקונה לבקש חישוב מחיר.",
     },
     "ESTIMATION": {
       "title": "אומדן תמחור",
-      "message": "מחיר המוצרים והשירותים יחושב במידה מסוימת על ידי המוכר בעת ביצוע ההזמנה, ניתן לשנות או להוסיף חשבוניות תשלום במהלך השירות."
+      "message": "מחיר המוצרים והשירותים יחושב במידה מסוימת על ידי המוכר בעת ביצוע ההזמנה, ניתן לשנות או להוסיף חשבוניות תשלום במהלך השירות.",
     },
     "AGREEMENT": {
       "title": "תמחור הסכם",
-      "message": "המחיר הסופי של המוצרים או השירותים לא ישונה על ידי המוכר לאחר ביצוע ההזמנה."
+      "message": "המחיר הסופי של המוצרים או השירותים לא ישונה על ידי המוכר לאחר ביצוע ההזמנה.",
     },
     "BID": {
       "title": "הצעה / מכירה פומבית",
-      "message": "המוצר יימכר במחיר ההצעה הגבוה ביותר על ידי קונים פוטנציאליים."
-    }
+      "message": "המוצר יימכר במחיר ההצעה הגבוה ביותר על ידי קונים פוטנציאליים.",
+    },
   },
   "map": {
     "title": "יעד לקבלת מוצרים",
     "confirm": "הזן מיקום",
     "address": "יַעַד",
-    "receptor": "מַקְלֵט"
+    "receptor": "מַקְלֵט",
   },
   "ShopBots": {
-    "telegram": "מִברָק"
+    "telegram": "מִברָק",
   },
   "article_tags": {
     "title": "תגיות תוכן",
     "tags_input": "תגים",
     "tags_input_message": "רשימת תגים של מאמר זה",
     "notification": {
-      "add_success": "נוספו תגים"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "מאוד מסובך",
-    "hard": "קָשֶׁה",
-    "intermediate": "ביניים",
-    "easy": "קַל"
-  },
-  "billing_period": {
-    "Daily": "יומי",
-    "Weekly": "שְׁבוּעִי",
-    "Monthly": "יַרחוֹן",
-    "Every3Months": "כל 3 חודשים",
-    "Every6Months": "כל 6 חודשים",
-    "Yearly": "שְׁנָתִי"
+      "add_success": "נוספו תגים",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "אוח לא טוב!",
     "between2_3": "זה בסדר!",
     "between3_4": "אנשים אוהבים את זה!",
-    "between4_5": "אנשים אוהבים את זה!"
+    "between4_5": "אנשים אוהבים את זה!",
   },
   "seasons": {
     "spring": "אביב",
     "summer": "קַיִץ",
     "autumn": "סתָיו",
-    "winter": "חוֹרֶף"
-  }
+    "winter": "חוֹרֶף",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

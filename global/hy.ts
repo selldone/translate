@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ես կարդացել եմ օգտագործման պայմանները և գաղտնիության քաղաքականությունը և համաձայն եմ դրանց հետ:",
   "commons": {
     "Currency": "Արժույթ",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Պետություն",
     "Price": "գինը",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Զուտ գինը",
     "tax": "Հարկային",
     "tax_included": "Ներառված է գնի մեջ",
+    "tax_included_abstract": "ներառյալ",
     "limit": "Սահման",
     "min_purchase": "Նվազագույն գնում",
     "eligible_for": "Իրավասու է",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Ստեղծման ամսաթիվը",
     "updated_at": "Վերջին թարմացում",
     "register_at": "Գրանցման ամսաթիվը",
+    "last_modified": "Last modified",
     "old": "Հին",
     "new": "Նոր",
     "start": "Սկսել",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Վերավաճառող",
     "tracking_code": "Հետևման կոդը",
     "tracking_url": "Հետևման URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Իրականացումներ",
     "reject": "Մերժել",
     "reserved": "Վերապահված է",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Սպասում...",
     "waiting_connecting_payment": "Սպասում է վճարման ծառայությանը...",
     "creating_secure_payment": "Ապահով վճարումների ստեղծում:",
+    "waiting_for_payment": "Խնդրում ենք լրացնել վճարումը...",
     "officer": "սպա",
     "ticket": "Տոմս",
     "ticket_url": "Տոմսի url",
@@ -361,7 +366,6 @@ export default {
     "rates": "Վարկանիշ",
     "seen_at": "Տեսել է",
     "completed": "Ավարտված է",
-    "you": "Դուք",
     "shop": "Խանութ",
     "store": "խանութ",
     "granted": "Տրված է",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Պլանշետ",
     "pc": "PC",
     "acquisition_channel": "Ձեռքբերման ալիք",
+    "channels_overview": "Channels overview",
     "to": "Դեպի",
     "info": "Ինֆո",
     "general": "Գեներալ",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Մեկ ապրանքի համար",
     "journey": "Ճանապարհորդություն",
     "after": "հետո",
-    "waiting_for_payment": "Խնդրում ենք լրացնել վճարումը...",
     "hour": "Ժամ",
     "minute": "Րոպե",
     "premium": "Հավելավճար",
@@ -569,6 +573,7 @@ export default {
     "shops": "Խանութներ",
     "vendor": "Վաճառող",
     "vendors": "Վաճառողներ",
+    "no_vendors": "No vendors",
     "marketplace": "Շուկա",
     "verify_date": "Ստուգեք ամսաթիվը",
     "note": "Նշում",
@@ -604,7 +609,6 @@ export default {
     "variant": "Տարբերակ",
     "secure": "Ապահով",
     "admin": "Ադմին",
-    "tax_included_abstract": "ներառյալ",
     "payment_not_settled": "Վճարը չի մարվել:",
     "orders_list": "Պատվերների ցուցակ",
     "subscription_plan": "Բաժանորդագրման պլան",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Կլաստերներ",
     "subscriptions": "Բաժանորդագրություններ",
     "spam": "Սպամ",
-    "video": "Տեսանյութ"
+    "video": "Տեսանյութ",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Դուք",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Շատ բարդ",
+    "hard": "Դժվար",
+    "intermediate": "Միջանկյալ",
+    "easy": "Հեշտ",
   },
   "dialogs": {
     "delete": {
       "title": "Ջնջել",
       "message": "Վստա՞հ եք ջնջելու այս տարրը:",
-      "action": "Այո, ջնջել հիմա"
-    }
+      "action": "Այո, ջնջել հիմա",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Ավելացնել քարտին",
     "cancel": "Չեղարկել",
     "update": "Թարմացնել",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Ավելացնել նվեր քարտ",
     "charge": "Լիցքավորում",
     "send_invites": "Ուղարկեք հրավերներ",
-    "past": "Անցյալ",
+    "paste": "Կպցնել",
     "restore": "Վերականգնել",
     "cut": "Կտրել",
     "get_sms_code": "Ստացեք նույնականացման կոդը",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Ցույց տալ նախադիտումը",
     "hide_preview": "Թաքցնել նախադիտումը",
     "download_now": "Ներբեռնել հիմա",
+    "watch_now": "Դիտեք հիմա",
     "auto_fill": "Ինքնալրացում",
     "track": "Հետևել",
     "change_state": "Փոխել կարգավիճակը",
     "done": "Կատարած",
     "reply": "Պատասխանել",
-    "watch_now": "Դիտեք հիմա",
     "unlock": "Ապակողպել",
     "lock": "Կողպեք",
     "create_clone": "Ստեղծեք կլոն",
@@ -773,41 +931,71 @@ export default {
     "buy": "Գնել",
     "view_all": "Դիտել բոլորը",
     "view_now": "Դիտել հիմա",
-    "paste": "Կպցնել"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Անցյալ",
+  },
+  "billing_period": {
+    "Daily": "Ամենօրյա",
+    "Weekly": "Շաբաթական",
+    "Monthly": "Ամսական",
+    "Every3Months": "Ամեն 3 ամիսը մեկ",
+    "Every6Months": "Ամեն 6 ամիսը մեկ",
+    "Yearly": "Տարեկան",
   },
   "instance_message_title": "Ուղարկել ակնթարթային հաղորդագրություն",
   "instance_message": "Ողջույն, {name}, իմ անունը {author} է {company}-ից:",
   "errors": {
     "419": "Դուք երկար ժամանակ անգործուն եք եղել, խնդրում ենք <b>⟳ ԹԱՐՄԱՑԵՔ ԷՋԸ</b> ՝ անվտանգության նկատառումներից ելնելով:",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Համակարգը չի համաժամանակացվում բլոկչեյնի հետ։ Մինչև մեր սերվերների համաժամացման ավարտը հնարավոր չի լինի ստեղծել նոր գործարք: Մենք խնդիրը լուծում ենք։",
-    "gateway_network_error": "Վճարման դարպասի ծառայությունը կապի խնդրի հետ է հանդիպել:"
+    "gateway_network_error": "Վճարման դարպասի ծառայությունը կապի խնդրի հետ է հանդիպել:",
   },
   "receiver_info": {
     "map": {
       "title": "Աոաքման Հասցե",
       "confirm": "Սահմանել գտնվելու վայրը",
       "address_type": "Նպատակակետ",
-      "receptor_type": "Ընդունիչ"
+      "receptor_type": "Ընդունիչ",
     },
     "receiver_address": "Ընտրեք առաքման հասցեն",
+    "service_address": "Ընտրեք ձեր հասցեն",
+    "select_billing_address": "Select billing address",
     "address": "հասցեն",
     "postcode": "Ինդեքս",
     "enter_value": "Լրացրեք այստեղ",
     "address_note": "Նշում",
     "tel": "Կոնտակտային համարը",
-    "service_address": "Ընտրեք ձեր հասցեն"
   },
   "weight": {
     "g": "է",
     "oz": "ունցիա",
     "lb": "լբ",
-    "kg": "կգ"
+    "kg": "կգ",
   },
   "mass_unit_name": {
     "g": "գրամ",
     "oz": "Ունցիա",
     "lb": "ֆունտ",
-    "kg": "կիլոգրամ"
+    "kg": "կիլոգրամ",
   },
   "length": {
     "cm": "սմ",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ոտնաչափ",
     "mm": "մմ",
     "m": "մ",
-    "yd": "յդ"
+    "yd": "յդ",
   },
   "size_unit_name": {
     "cm": "սանտիմետր",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Ոտք",
     "mm": "միլիմետր",
     "m": "մետր",
-    "yd": "բակ"
+    "yd": "բակ",
   },
   "distance": {
     "m": "մետր",
-    "km": "կմ"
+    "km": "կմ",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Օրեր",
     "hours": "Ժամեր",
     "minutes": "Րոպեներ",
-    "seconds": "Վայրկյաններ"
+    "seconds": "Վայրկյաններ",
   },
   "units": [
     "Միավոր",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Պետություն",
     "Territory": "Տարածք",
-    "Province": "Նահանգ"
+    "Province": "Նահանգ",
   },
   "transaction_status": {
     "RequireAction": "Պահանջվում է գործողություն",
     "Processing": "Մշակում",
     "Canceled": "Չեղարկված է",
-    "Succeeded": "Հաջողվել"
+    "Succeeded": "Հաջողվել",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Ջոն Քոքս",
@@ -885,7 +1078,17 @@ export default {
     "language": "Ընտրել լեզուն..",
     "friend_email": "Ձեր ընկերոջ էլ․․․",
     "friend_name": "Ընտրել Ձեր ընկերոջ անունը",
-    "select_date": "Ընտրեք ամսաթիվ..."
+    "select_date": "Ընտրեք ամսաթիվ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Հաստատել",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Առավելագույնը {maxCount} նիշ",
     "invalid_url": "Անվավեր URL",
     "country_invalid": "Ընտրեք նպատակակետ երկիրը:",
-    "postal_code_invalid": "Սահմանեք վավեր փոստային կոդը:"
+    "postal_code_invalid": "Սահմանեք վավեր փոստային կոդը:",
   },
   "colors": {
     "#D32F2F": "Կարմիր",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Միավոր",
     "postcode": "Ինդեքս",
     "note": "Նշում",
-    "county": "կոմսություն"
+    "county": "կոմսություն",
   },
   "product_types": {
     "physical": "Ֆիզիկական",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Ծառայություն",
     "service_description": "Ծառայություններ՝ վերանորոգում, տեղափոխում, ուսուցում։",
     "subscription": "Բաժանորդագրություն",
-    "subscription_description": "Ապրանքների, ծառայությունների կամ բովանդակության բաժանորդագրություններ և հաշիվ-ապրանքագրեր:"
+    "subscription_description": "Ապրանքների, ծառայությունների կամ բովանդակության բաժանորդագրություններ և հաշիվ-ապրանքագրեր:",
   },
   "license": {
     "free": "Անվճար",
     "startup": "Սկսնակ",
     "company": "Ընկերություն",
-    "enterprise": "Ձեռնարկություն"
+    "enterprise": "Ձեռնարկություն",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Գույն",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Հաշվեք փաթեթում",
     "weight": "Քաշը",
     "type": "Նյութ",
-    "style": "Ոճ"
+    "style": "Ոճ",
   },
   "delivery_state": {
     "check_queue": "Սպասում է վերանայմանը",
     "order_confirm": "Պատվերի հաստատում",
     "preparing_order": "Պատրաստում",
     "sent_order": "Առաքման ժամանակ",
-    "to_customer": "Հանձնվել է"
+    "to_customer": "Հանձնվել է",
   },
   "status": {
     "unpaid": "Չվճարված",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Մերժել",
     "pending": "Սպասվում է",
     "rejected": "Մերժված է",
-    "accepted": "Ընդունված է"
+    "accepted": "Ընդունված է",
   },
   "dimensions": {
     "cm": "սմ",
     "km": "կմ",
-    "kg": "կգ"
+    "kg": "կգ",
   },
   "transportation_type": {
     "motorbike": "Մոտոցիկլետ",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Համաշխարհային տրանսպորտ",
     "global_description": "Օդային, ծովային կամ ցամաքային բեռնափոխադրումներ արտերկիր:",
     "pickup": "Վերցնել",
-    "pickup_description": "Հաճախորդները վերցնում են ապրանքները ձեր ֆիզիկական խանութից կամ պահեստից:"
+    "pickup_description": "Հաճախորդները վերցնում են ապրանքները ձեր ֆիզիկական խանութից կամ պահեստից:",
   },
   "article": {
     "login_to_see_error": "Մուտք գործեք՝ հոդվածին ծանոթանալու համար",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Խմբագրման ռեժիմ",
       "view_mode": "Դիտման ռեժիմ",
-      "delete": "Ջնջել հոդվածը"
+      "delete": "Ջնջել հոդվածը",
     },
     "schedule_action": "Ցանկանու՞մ եք պլանավորել հրապարակումը:",
     "schedule_title": "Պլանավորեք ինքնահրապարակումը",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Հաղորդել չարաշահման մասին և հեռացնել բովանդակությունը",
       "report_title": "Հաղորդել այս բովանդակության մասին որպես վիրավորական",
       "message": "Ո՞րն է այս բովանդակությունը ներկայացնելու պատճառը: Ընտրեք հետևյալ տարբերակներից մեկը.",
-      "accept_and_delete_action": "Հաստատեք և ջնջեք բովանդակությունը"
+      "accept_and_delete_action": "Հաստատեք և ջնջեք բովանդակությունը",
     },
     "schedule_dialog": {
       "title": "Բովանդակության թողարկման ժամանակացույց",
       "publish_at": "Հրապարակել ժամը",
       "last_edit": "Վերջին խմբագրումը",
-      "view_action": "Դիտել հոդվածը"
+      "view_action": "Դիտել հոդվածը",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Ներկայացրեք Տեղեկատվություն",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Զեկուցել և ջնջել",
       "report_and_delete_success_message": "Հոդվածը հաջողությամբ ջնջվել է:",
       "report_success_title": "Հաղորդել հոդվածը",
-      "report_success_message": "Այս հոդվածի վերաբերյալ ձեր զեկույցը տեղադրվել է:"
+      "report_success_message": "Այս հոդվածի վերաբերյալ ձեր զեկույցը տեղադրվել է:",
     },
     "alert": {
       "delete_article": {
         "title": "Ջնջել հոդվածը",
         "message": "Իսկապե՞ս ուզում եք ընդմիշտ ջնջել այս հոդվածը:",
-        "action": "Ջնջել"
-      }
+        "action": "Ջնջել",
+      },
     },
     "edit_window": {
       "title": "Ընտրեք Պատկերի տեքստ և ամփոփում",
-      "digest": "Ամփոփում"
+      "digest": "Ամփոփում",
     },
     "editor": {
       "title_placeholder": "Կոչում..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Այս ֆայլը չափազանց մեծ է.",
       "notifications": {
         "image_uploaded_success": "Պատկերը հաջողությամբ պահպանվեց",
-        "image_uploaded_failed": "Պատկերը բեռնելիս սխալ առաջացավ:"
+        "image_uploaded_failed": "Պատկերը բեռնելիս սխալ առաջացավ:",
       },
       "embed_placeholder": "Մուտքագրեք iframe կոդը, Facebook-ը, Youtube-ը կամ ցանկացած այլ URL և սեղմեք enter:",
       "embed_caption_placeholder": "Մուտքագրեք վերնագիր (ըստ ցանկության)",
-      "images_caption_placeholder": "Մուտքագրեք վերնագիր այս պատկերի համար.."
-    }
+      "images_caption_placeholder": "Մուտքագրեք վերնագիր այս պատկերի համար..",
+    },
   },
   "article_report": {
     "inappropriate": "Այս հոդվածի բովանդակությունը անպատշաճ է:",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Կարծում եմ, որ այս բովանդակությունը պարունակում է պոռնոգրաֆիա և խախտում է օրենքները:",
     "harassment": "Ես կարծում եմ, որ սա ռասիստական է:",
     "hate": "Կարծում եմ՝ սա բռնությունը խթանելու մասին է:",
-    "infringe": "Սա խախտում է իմ իրավունքները։"
+    "infringe": "Սա խախտում է իմ իրավունքները։",
   },
   "comments": {
     "new_action": "Սեղմեք մեկնաբանություն թողնելու համար..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Ստացեք ավելի շատ մեկնաբանություններ..",
     "cant_send_comment": "Դուք չեք կարող նոր գրառում ավելացնել:",
     "cant_remove_this_comment": "Դուք չեք կարող ջնջել այս մեկնաբանությունը:",
-    "product_buyer": "Գնորդ",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Իմ մեկնաբանությունները",
     "delete_alert": {
       "title": "Ջնջել մեկնաբանությունը",
       "message": "Ցանկանու՞մ եք ջնջել այս մեկնաբանությունը:",
-      "action": "Ջնջել"
+      "action": "Ջնջել",
     },
     "notifications": {
-      "delete_success": "Ձեր մեկնաբանությունը հաջողությամբ ջնջվեց:"
+      "delete_success": "Ձեր մեկնաբանությունը հաջողությամբ ջնջվեց:",
     },
     "first_send": "Առաջին գրառումը",
     "comment_at": "Վրա",
     "edit_comment": "Խմբագրել մեկնաբանությունը",
-    "my_comments": "Իմ մեկնաբանությունները"
+    "product_buyer": "Գնորդ",
   },
   "customer_club": {
     "bronze": "Բրոնզե",
     "silver": "Արծաթե",
     "gold": "Ոսկեգույն",
     "platinum": "Պլատին",
-    "diamond": "Ադամանդ"
+    "diamond": "Ադամանդ",
   },
   "application_categories": {
     "tracking": "Օգտագործողի վարքագծի ստուգում",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Գովազդ",
     "staff": "Անձնակազմ",
     "incentive": "Խրախուսանքներ",
-    "shop": "Խանութ"
+    "shop": "Խանութ",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Ավելացնել նոր տարր",
     "title_input": "Կոչում",
+    "placeholder_input": "Տեղապահ",
     "name_input": "Փոփոխական անուն",
     "value_input": "Արժեքներ",
     "value_input_message": "Օգտագործողի ընտրանքների ցանկ",
     "default": "Կանխադրված արժեք",
+    "file_type_input": "Ընդունելի ֆայլերի տեսակներ",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Պարզ",
       "selective": "Ընտրովի",
       "switch": "Անջատիչ",
       "file": "Ֆայլ",
-      "number": "Թիվ"
+      "number": "Թիվ",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Տեղապահ",
-    "file_type_input": "Ընդունելի ֆայլերի տեսակներ",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "ապրանքային անուն",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Վճարման կարգավիճակը",
     "payment_status_waiting": "Սպասում է վճարմանը",
     "payment_status_paid": "Վճարված",
-    "buyer": "Գնորդ"
+    "buyer": "Գնորդ",
   },
   "virtual_item_info": {
     "title": "Վիրտուալ նյութ",
     "outputs": {
       "title": "Արդյունք տեղեկատվություն",
       "sub_title": "Այս կետի գաղտնի տեղեկատվությունը",
-      "message": "Այս տեղեկատվությունը կցուցադրվի օգտագործողին ապրանքը գնելուց հետո:"
+      "message": "Այս տեղեկատվությունը կցուցադրվի օգտագործողին ապրանքը գնելուց հետո:",
     },
     "inputs": {
       "title": "Պահանջվում է տեղեկատվություն",
       "sub_title": "Պահանջվում է գնորդի տեղեկատվությունը",
-      "message": "Գնորդը պետք է մուտքագրի պահանջվող տեղեկատվությունը ձևաթղթում"
+      "message": "Գնորդը պետք է մուտքագրի պահանջվող տեղեկատվությունը ձևաթղթում",
     },
     "notifications": {
       "inputs_set_success": "Տեղեկատվական ձևը հաջողությամբ գրանցվել է:",
       "confirm_by_admin_success": "Պատվերի ավարտը հաստատված է:",
-      "confirm_by_buyer_success": "Պատվերի ավարտը հաստատված է:"
-    }
+      "confirm_by_buyer_success": "Պատվերի ավարտը հաստատված է:",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Այս պատվերը չի կարող ընդունվել COD վճարման միջոցով:",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Առկա չէ պահեստում.",
     "legal_restriction": "Իրավական սահմանափակումների պատճառով հնարավոր չէ պատվեր կատարել:",
     "pricing_fault": "Վաճառողի կողմից գնագոյացման սխալ:",
-    "system_fault": "Համակարգի սխալ:"
+    "system_fault": "Համակարգի սխալ:",
   },
   "basket_order_info_summery": {
     "receiver": "Ընդունիչ",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Զեղչ",
     "final_price": "Վերջնական գումար",
     "address": "Առաքման հասցե",
-    "payment_status": "Վճարման կարգավիճակը"
+    "payment_status": "Վճարման կարգավիճակը",
   },
   "basket_status": {
     "open": "Բաց",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Չեղարկված է",
     "cod": "Վճարեք առաքման ժամանակ",
     "receipt_added": "Անդորրագիրը ավելացվել է",
-    "payment_processing": "Վճարումների մշակում"
+    "payment_processing": "Վճարումների մշակում",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Մերժված է",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Հաստատում",
     "step_3": "Նախապատրաստում",
     "step_4": "Առաքման ժամանակ",
-    "step_5": "Հանձնվել է"
+    "step_5": "Հանձնվել է",
   },
   "basket_return_request_view": {
     "title": "Վերադարձի հարցում",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Մերժել հարցումը",
     "message_for_admin": "Համաձայն այն պայմանագրի, որը դուք ընդունել եք՝ օգտագործելով Seldone-ը, դուք պետք է կապ հաստատեք գնորդի հետ և տեղեկացնեք նրան իր պատվերը վերադարձնելու գործընթացի մասին: Դա պետք է արվի, եթե հարցումն ընդունվի կամ մերժվի, և գնորդի լիակատար համաձայնությունը ստացվի:",
     "notifications": {
-      "update_status_success": "Հարցման կարգավիճակը թարմացվել է:"
-    }
+      "update_status_success": "Հարցման կարգավիճակը թարմացվել է:",
+    },
   },
   "basket_list": {
     "return_count": "Վերադարձ՝ {count} համար",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Տարբերակ",
       "warranty": "Երաշխիքներ",
       "count": "հաշվել",
-      "price": "գինը"
-    }
+      "price": "գինը",
+    },
   },
   "return_request_list": {
     "count": "Հղման համարը",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Ստանալու ամսաթիվ",
       "state": "Կարգավիճակ",
       "reason": "Պատճառ",
-      "return_warranty_period": "Երաշխիքային ժամկետ"
-    }
+      "return_warranty_period": "Երաշխիքային ժամկետ",
+    },
   },
   "data_toolbar": {
     "search": "Որոնել",
     "sort_by": "Դասավորել ըստ",
-    "count_item": "Ցույց տալ {item} տարր"
+    "count_item": "Ցույց տալ {item} տարր",
   },
   "sort": {
     "created_at": "Ստեղծել ամսաթիվ",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "սպա",
     "registered": "Գրանցված է",
     "purchased": "Գնված",
-    "sex": "Սեռ"
+    "sex": "Սեռ",
   },
   "search_box": {
     "result": "Որոնման արդյունքները",
     "tips": "Որոնեք ապրանքներ և կատեգորիաներ",
     "label": "Որոնել...",
-    "category": "Կարգավիճակ"
+    "category": "Կարգավիճակ",
   },
   "lead_status": {
     "physical_fast_delivery": "Ակնթարթային առաքում",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Պատրաստվում և ուղարկվում է հաջորդ {days} օրվա ընթացքում",
     "virtual_fast_prepare": "Ակնթարթային առաքում",
     "virtual_under_24h": "Կկատարվի հաջորդ {lead} ժամվա ընթացքում",
-    "virtual_over_24h": "Կկատարվի հաջորդ {days} օրվա ընթացքում"
+    "virtual_over_24h": "Կկատարվի հաջորդ {days} օրվա ընթացքում",
   },
   "return_request_state": {
     "pending": "Սպասվում է",
     "accepted": "Հաստատված է",
-    "rejected": "Մերժված է"
+    "rejected": "Մերժված է",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Փաթեթի կամ սերիական համարի կեղծում",
       "U5": "Ծանրոցից որոշ իրեր բացակայում են",
       "U6": "Ապրանքը օրիգինալ չէ",
-      "U7": "Ապրանքը չի բավարարում տեխնիկական պայմանները"
-    }
+      "U7": "Ապրանքը չի բավարարում տեխնիկական պայմանները",
+    },
   },
   "image_uploader": {
     "label": "Քաշել և թողնել կամ <u>Ընտրել ֆայլը</u>",
-    "max_size": "Առավելագույն թույլատրելի չափը՝ {size}"
+    "max_size": "Առավելագույն թույլատրելի չափը՝ {size}",
   },
   "timespan": {
     "Morning": "8-ից 12-ը",
     "Evening": "12-ից մինչև երեկոյան 6-ը",
     "Night": "18:00-12:00",
-    "Instant": "Ակնթարթային գրառում"
+    "Instant": "Ակնթարթային գրառում",
   },
   "week_day": {
     "Saturday": "շաբաթ օրը",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "երեքշաբթի",
     "Wednesday": "չորեքշաբթի",
     "Thursday": "հինգշաբթի",
-    "Friday": "Ուրբաթ"
+    "Friday": "Ուրբաթ",
   },
   "payment_form": {
     "title": "Ընտրեք վճարման եղանակը",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Շնորհավորում ենք, ձեր պատվերն անվճար է:",
     "order_free_payment_action": "Պատվիրեք անվճար հիմա",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Վճարման հասցե",
-      "amount": "Գումարը"
-    }
+      "amount": "Գումարը",
+    },
   },
   "discount_input": {
     "limit": "{percent}% զեղչ մինչև {limit} {currency}",
     "action": "Ավելացնել զեղչի կոդը",
     "code_input": "Զեղչի կոդը",
     "notifications": {
-      "add_success": "Շնորհավորում եմ, վավեր զեղչի կոդը:"
-    }
+      "add_success": "Շնորհավորում եմ, վավեր զեղչի կոդը:",
+    },
   },
   "gift_card": {
     "inactive": "Քարտն անջատված է",
     "expire": "Ժամկետը",
     "transfer": "Փոխանցում",
-    "send_to_friend": "Ուղարկել ընկերոջը"
+    "send_to_friend": "Ուղարկել ընկերոջը",
   },
   "count_down": {
     "days": "Օր",
     "hours": "Ժամ",
     "minutes": "Րոպեներ",
-    "seconds": "Վայրկյաններ"
+    "seconds": "Վայրկյաններ",
   },
   "gift_status": {
     "Unpaid": "Սպասում է ստացման",
     "Paid": "Վճարված",
     "Rejected": "Մերժված է",
-    "Canceled": "Չեղարկված է"
+    "Canceled": "Չեղարկված է",
   },
   "gift_program_status": {
     "Airdrop": "Վճարային համակարգ",
     "Advertising": "Գովազդ",
     "PersonalGift": "Անձնական նվեր",
-    "ShopGift": "Նվերների խանութ"
+    "ShopGift": "Նվերների խանութ",
   },
   "currency_selector": {
-    "label": "Արժույթ"
+    "label": "Արժույթ",
   },
   "need_login": {
     "title": "մուտք",
     "login_sms": "SMS մուտք",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Մուտք գործեք Google-ով",
     "login_facebook": "Մտնել Ֆեյսբուքով",
+    "login_apple": "Մուտք գործեք Apple-ով",
     "login_account": "Մուտք գործեք Selldone-ի կողմից",
     "register": "Նոր օգտատեր? Գրանցվիր հիմա.",
     "mobile_input": "Մուտքագրեք ձեր բջջային հեռախոսը",
     "verification_code": "Ստուգման կոդը",
     "msg_title": "Ողջու՜յն,",
     "msg_body": "Խնդրում ենք մուտք գործել: Դա տեւում է ընդամենը մի քանի վայրկյան:",
-    "login_apple": "Մուտք գործեք Apple-ով",
     "login_email": "Մուտք գործեք էլփոստով",
     "email_login_step_1": "Խնդրում ենք տրամադրել վավեր էլփոստի հասցե, և մենք մուտքի կոդը կուղարկենք դրան: Ոչ մի գրանցում անհրաժեշտ չէ:",
     "email_login_step_2": "Համոզվա՞ծ եք, որ ճիշտ եք մուտքագրել ձեր էլ.փոստի հասցեն: Մենք մուտքի կոդը կուղարկենք տրամադրված էլ.փոստին, ուստի խնդրում ենք համոզվել դրա ճշգրտությունը:",
-    "email_login_step_3": "Մենք կոդ ենք ուղարկել ձեր էլ. Խնդրում ենք նկատի ունենալ, որ կոդը կսպառվի 10 րոպեից:"
+    "email_login_step_3": "Մենք կոդ ենք ուղարկել ձեր էլ. Խնդրում ենք նկատի ունենալ, որ կոդը կսպառվի 10 րոպեից:",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 տարվա ոսկու խանութ"
+      "name": "5 տարվա ոսկու խանութ",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 տարվա ոսկու խանութ"
+      "name": "4 տարվա ոսկու խանութ",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 տարվա ոսկու խանութ"
+      "name": "3 տարվա ոսկու խանութ",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 տարվա ոսկու խանութ"
+      "name": "2 տարվա ոսկու խանութ",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 տարվա ոսկու խանութ"
+      "name": "1 տարվա ոսկու խանութ",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Ոսկե ներդրող"
+      "name": "Ոսկե ներդրող",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Ադամանդի ներդրող"
+      "name": "Ադամանդի ներդրող",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ռուբի ներդրող"
+      "name": "Ռուբի ներդրող",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Կապի ցանցերի բարձրագույն համայնքի անդամ"
+      "name": "Կապի ցանցերի բարձրագույն համայնքի անդամ",
     },
     "GOLD_SUPPLIER": {
-      "name": "Ոսկու մատակարար"
+      "name": "Ոսկու մատակարար",
     },
     "GOLD_SELLER": {
-      "name": "Ոսկու դիլեր"
+      "name": "Ոսկու դիլեր",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Բովանդակության լավագույն արտադրող"
+      "name": "Բովանդակության լավագույն արտադրող",
     },
     "NINJA": {
-      "name": "Նինջա"
+      "name": "Նինջա",
     },
     "STAR": {
-      "name": "Աստղ"
+      "name": "Աստղ",
     },
     "GUARDIAN": {
-      "name": "Մեծ հաճախորդների սպասարկում"
+      "name": "Մեծ հաճախորդների սպասարկում",
     },
     "KING": {
-      "name": "Շուկայի արքան"
-    }
+      "name": "Շուկայի արքան",
+    },
   },
   "cookie": {
     "title": "Այս կայքը օգտագործում է թխուկներ",
     "message": "Այս կայքը օգտագործում է թխուկներ՝ օգտատերերի փորձը բարելավելու համար: Օգտագործելով մեր կայքը, դուք համաձայնում եք բոլոր թխուկներին՝ համաձայն մեր թխուկների քաղաքականության:",
     "preferences_action": "Կառավարեք նախապատվությունները",
-    "agree_action": "Համաձայն եմ"
+    "agree_action": "Համաձայն եմ",
   },
   "basket_item_message": {
     "title": "Պահանջվող տեղեկատվություն այս կետի համար",
     "save_actions": "Պահպանել հաղորդագրությունը",
+    "product_inputs_preview_message": "Այս հարմարեցման տարբերակները հասանելի են ձեր պատվիրած ապրանքի համար: Հենց որ ապրանքը ավելացվի ձեր զամբյուղին, դուք կկարողանաք ճշգրտումներ կատարել այստեղ:",
     "notifications": {
-      "success": "Ձեր մուտքային տվյալները պահպանվել են:"
+      "success": "Ձեր մուտքային տվյալները պահպանվել են:",
     },
-    "product_inputs_preview_message": "Այս հարմարեցման տարբերակները հասանելի են ձեր պատվիրած ապրանքի համար: Հենց որ ապրանքը ավելացվի ձեր զամբյուղին, դուք կկարողանաք ճշգրտումներ կատարել այստեղ:"
   },
   "faq": {
     "faq": "Հաճախակի տրվող հարցեր",
     "title": "Հարցեր եւ պատասխաններ",
-    "sub_title": "Այն, ինչ դուք մեզ խնդրեցիք անել:",
     "message": "Ստորև տրված պատասխանների մեջ փնտրեք ձեր հարցի պատասխանը: Հարցրեք մեզ, եթե հարցերը մնում են անպատասխան:",
     "add_question_action": "Նոր Հարց տվեք",
     "read_more": "Կարդալ ավելին ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Հարց",
     "question_input_placeholder": "Հարցրեք ձեր հարցը.",
     "notifications": {
-      "success_add": "Ձեր հարցը հաջողությամբ ուղարկվեց:"
-    }
+      "success_add": "Ձեր հարցը հաջողությամբ ուղարկվեց:",
+    },
+    "sub_title": "Այն, ինչ դուք մեզ խնդրեցիք անել:",
   },
   "rating_labels": [
     "Շատ վատ",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Մուտքագրեք նպատակակետի հասցեն",
     "enter_your_address": "Մուտքագրեք ձեր հասցեն:",
     "postal_code": "Ինդեքս",
-    "phone_input": "Հեռախոս {type}",
+    "phone_input": "Հեռախոս",
     "building_number": "Շենքի համարը",
     "building_unit": "Միավոր",
     "full_name_input": "Ամբողջական անուն {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Հասցեի պիտակ (պահանջվում է)",
     "notifications": {
       "save_in_list": "Այս հասցեն պահվել է ձեր ցուցակում՝ իր բոլոր մանրամասներով:",
-      "edit_success": "Հասցեի նոր արժեքները պահպանված են {title}-ում:"
+      "edit_success": "Հասցեի նոր արժեքները պահպանված են {title}-ում:",
     },
     "delete_address_dialog": {
       "title": "Ջնջել հասցեն",
       "message": "Իսկապե՞ս ուզում եք ջնջել այս հասցեն:",
-      "action": "Հեռացնել հասցեն"
-    }
+      "action": "Հեռացնել հասցեն",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Հնարավոր չէ խմբագրել այս մեկնաբանությունը:",
     "comment_input_empty": "Հաղորդագրության տեքստը դատարկ է:",
-    "article_not_saved": "Պահպանե՛ք հոդվածը:"
+    "article_not_saved": "Պահպանե՛ք հոդվածը:",
   },
   "wheel_fortune": {
     "title": "Խաղալ և հաղթել",
     "message": "Յուրաքանչյուր խաղի արժեքը 10 չիպ է։ Դուք ներկայումս ունեք {chips} չիպ: Ստացեք ավելի շատ չիպեր՝ գնելով խանութից:",
     "win_message": "Շնորհավորում եմ, դու հաղթում ես:",
     "lost_message": "Կներեք, դուք պարտվել եք խաղը:",
-    "try_again": "Կարող եք նորից փորձել"
+    "try_again": "Կարող եք նորից փորձել",
   },
   "json": {
     "add": "Ավելացրեք կառուցվածքի տվյալները",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Կառուցվածքներ",
     "book": {
       "title": "Գիրք",
-      "desc": "Գրքի գործողություններ, որոնք օգտատերերին հնարավորություն են տալիս գնել այն գիրքը, որը նրանք գտնում են անմիջապես Որոնման արդյունքներից:"
+      "desc": "Գրքի գործողություններ, որոնք օգտատերերին հնարավորություն են տալիս գնել այն գիրքը, որը նրանք գտնում են անմիջապես Որոնման արդյունքներից:",
     },
     "occupation": {
       "title": "Մոտավոր աշխատավարձ",
-      "desc": "Աշխատավարձի գնահատման մասին տեղեկությունները, ինչպիսիք են աշխատավարձի միջակայքերը և աշխատանքի տեսակների համար ըստ տարածաշրջանի միջին աշխատավարձերը, ցուցադրվում են Google-ում աշխատանք փնտրելու փորձի մեջ:"
+      "desc": "Աշխատավարձի գնահատման մասին տեղեկությունները, ինչպիսիք են աշխատավարձի միջակայքերը և աշխատանքի տեսակների համար ըստ տարածաշրջանի միջին աշխատավարձերը, ցուցադրվում են Google-ում աշխատանք փնտրելու փորձի մեջ:",
     },
     "course": {
       "title": "Դասընթաց",
-      "desc": "Կրթական դասընթացներ, որոնք հայտնվում են մատակարարի հատուկ ցանկում: Դասընթացները կարող են ներառել դասընթացի անվանումը, մատակարարը և կարճ նկարագրությունը:"
+      "desc": "Կրթական դասընթացներ, որոնք հայտնվում են մատակարարի հատուկ ցանկում: Դասընթացները կարող են ներառել դասընթացի անվանումը, մատակարարը և կարճ նկարագրությունը:",
     },
     "howto": {
       "title": "Ինչպես",
-      "desc": "«How-to»-ն օգտատերերին առաջնորդում է մի շարք քայլերով՝ առաջադրանքը հաջողությամբ ավարտելու համար՝ ներառելով տեսանյութեր, պատկերներ և տեքստ:"
+      "desc": "«How-to»-ն օգտատերերին առաջնորդում է մի շարք քայլերով՝ առաջադրանքը հաջողությամբ ավարտելու համար՝ ներառելով տեսանյութեր, պատկերներ և տեքստ:",
     },
     "recipe": {
       "title": "Բաղադրատոմսը",
-      "desc": "Բաղադրատոմսեր, որոնք ցուցադրվում են որպես անհատական հարուստ արդյունք կամ հյուրընկալող կարուսելի մաս:"
-    }
+      "desc": "Բաղադրատոմսեր, որոնք ցուցադրվում են որպես անհատական հարուստ արդյունք կամ հյուրընկալող կարուսելի մաս:",
+    },
   },
   "support": {
     "Financial": "Ֆինանսական",
     "Technical": "Տեխնիկական",
-    "Advisor": "խորհրդական"
+    "Advisor": "խորհրդական",
   },
   "condition": {
     "new": "Նոր",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Օգտագործված",
     "used_fair": "Օգտագործված արդար",
     "used_good": "Լավ օգտագործված",
-    "used_like_new": "Օգտագործված է որպես նոր"
+    "used_like_new": "Օգտագործված է որպես նոր",
   },
   "variant_filter": {
     "title": "Ապրանքի տարբերակի զտիչ",
-    "only_available": "Պահեստում"
+    "only_available": "Պահեստում",
   },
   "service": {
     "task": {
       "title": "Առաջադրանքներ",
-      "message": "Այս ծառայության մեջ կատարված առաջադրանքների ցանկը:"
+      "message": "Այս ծառայության մեջ կատարված առաջադրանքների ցանկը:",
     },
     "appointment": {
       "title": "Նշանակում",
-      "message": "Ընտրեք շաբաթվա ժամանակը հետևյալ ժամանակներից՝ հիմնվելով ձեզ համար հարմար օրվա և ժամի վրա:"
+      "message": "Ընտրեք շաբաթվա ժամանակը հետևյալ ժամանակներից՝ հիմնվելով ձեզ համար հարմար օրվա և ժամի վրա:",
     },
     "booking": {
       "title": "Ամրագրում",
-      "message": "Ստորև բերված օրացույցում նշեք այն օրերի ժամանակահատվածը, որոնք ցանկանում եք ամրագրել:"
+      "message": "Ստորև բերված օրացույցում նշեք այն օրերի ժամանակահատվածը, որոնք ցանկանում եք ամրագրել:",
     },
     "subscription": {
-      "title": "Բաժանորդագրություն"
+      "title": "Բաժանորդագրություն",
     },
     "charge": {
-      "title": "Լիցքավորում"
-    }
+      "title": "Լիցքավորում",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Ֆիքսված գներ",
-      "message": "Այս տեսակի գնագոյացման դեպքում ապրանքի գինը ֆիքսված գումար է և գնորդի կողմից գնի հաշվարկ պահանջելու կարիք չկա:"
+      "message": "Այս տեսակի գնագոյացման դեպքում ապրանքի գինը ֆիքսված գումար է և գնորդի կողմից գնի հաշվարկ պահանջելու կարիք չկա:",
     },
     "ESTIMATION": {
       "title": "Գնագոյացման գնահատում",
-      "message": "Ապրանքների և ծառայությունների գինը որոշ չափով կհաշվարկվի վաճառողի կողմից պատվեր կատարելիս, ծառայության ընթացքում վճարման հաշիվ-ապրանքագրերը կարող են փոփոխվել կամ ավելացվել:"
+      "message": "Ապրանքների և ծառայությունների գինը որոշ չափով կհաշվարկվի վաճառողի կողմից պատվեր կատարելիս, ծառայության ընթացքում վճարման հաշիվ-ապրանքագրերը կարող են փոփոխվել կամ ավելացվել:",
     },
     "AGREEMENT": {
       "title": "Համաձայնագրի գնագոյացում",
-      "message": "Ապրանքների կամ ծառայությունների վերջնական գինը չի փոխվի վաճառողի կողմից պատվերի տեղադրումից հետո:"
+      "message": "Ապրանքների կամ ծառայությունների վերջնական գինը չի փոխվի վաճառողի կողմից պատվերի տեղադրումից հետո:",
     },
     "BID": {
       "title": "Հայտ / Աճուրդ",
-      "message": "Ապրանքը հնարավոր գնորդների կողմից կվաճառվի ամենաբարձր գնով:"
-    }
+      "message": "Ապրանքը հնարավոր գնորդների կողմից կվաճառվի ամենաբարձր գնով:",
+    },
   },
   "map": {
     "title": "Ապրանքներ ստանալու նպատակակետ",
     "confirm": "Սահմանել գտնվելու վայրը",
     "address": "Նպատակակետ",
-    "receptor": "Ընդունիչ"
+    "receptor": "Ընդունիչ",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Բովանդակության պիտակներ",
     "tags_input": "Պիտակներ",
     "tags_input_message": "Tags Այս հոդվածի ցանկը",
     "notification": {
-      "add_success": "Ավելացված են պիտակներ"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Շատ բարդ",
-    "hard": "Դժվար",
-    "intermediate": "Միջանկյալ",
-    "easy": "Հեշտ"
-  },
-  "billing_period": {
-    "Daily": "Ամենօրյա",
-    "Weekly": "Շաբաթական",
-    "Monthly": "Ամսական",
-    "Every3Months": "Ամեն 3 ամիսը մեկ",
-    "Every6Months": "Ամեն 6 ամիսը մեկ",
-    "Yearly": "Տարեկան"
+      "add_success": "Ավելացված են պիտակներ",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Օ՜, լավ չէ:",
     "between2_3": "Ամեն ինչ կարգին է!",
     "between3_4": "Մարդկանց դուր է գալիս:",
-    "between4_5": "Մարդիկ սիրում են այն:"
+    "between4_5": "Մարդիկ սիրում են այն:",
   },
   "seasons": {
     "spring": "Գարուն",
     "summer": "Ամառ",
     "autumn": "Աշուն",
-    "winter": "Ձմեռ"
-  }
+    "winter": "Ձմեռ",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

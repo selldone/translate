@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ndiyifundile imigaqo yokusetyenziswa kunye nomgaqo-nkqubo wabucala kwaye ndiyavumelana nawo.",
   "commons": {
     "Currency": "Imali",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Umbuso",
     "Price": "ixabiso",
@@ -169,6 +170,7 @@ export default {
     "net_price": "ixabiso Net",
     "tax": "Irhafu",
     "tax_included": "Ibandakanyiwe kwixabiso",
+    "tax_included_abstract": "kuquka.",
     "limit": "Umda",
     "min_purchase": "Ubuncinci bokuthenga",
     "eligible_for": "Ifanelekile",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Umhla owenziweyo",
     "updated_at": "Uhlaziyo lokugqibela",
     "register_at": "Umhla wokubhalisa",
+    "last_modified": "Last modified",
     "old": "Ndala",
     "new": "Entsha",
     "start": "Qala",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Umthengisi",
     "tracking_code": "Ikhowudi yokulandelela",
     "tracking_url": "I-URL yokulandela umkhondo",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Ukuzaliseka",
     "reject": "Yala",
     "reserved": "Igciniwe",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Ilindile...",
     "waiting_connecting_payment": "Ilinde inkonzo yentlawulo...",
     "creating_secure_payment": "Ukudala intlawulo ekhuselekileyo.",
+    "waiting_for_payment": "Nceda ugcwalise intlawulo...",
     "officer": "Igosa",
     "ticket": "Itikiti",
     "ticket_url": "I-url yetikiti",
@@ -361,7 +366,6 @@ export default {
     "rates": "Ukukala",
     "seen_at": "Kubonwa e",
     "completed": "Igqityiwe",
-    "you": "Wena",
     "shop": "Thenga",
     "store": "ivenkile",
     "granted": "Kuyavunywa",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Icwecwe",
     "pc": "PC",
     "acquisition_channel": "Umjelo wokufumana",
+    "channels_overview": "Channels overview",
     "to": "Ukuya",
     "info": "Ulwazi",
     "general": "Ngokubanzi",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Ngemveliso nganye",
     "journey": "Uhambo",
     "after": "Emva koko",
-    "waiting_for_payment": "Nceda ugcwalise intlawulo...",
     "hour": "Yure",
     "minute": "Mzuzu",
     "premium": "Intlawulo yanyanga le",
@@ -569,6 +573,7 @@ export default {
     "shops": "Iivenkile",
     "vendor": "Umthengisi",
     "vendors": "Abathengisi",
+    "no_vendors": "No vendors",
     "marketplace": "Indawo yentengiso",
     "verify_date": "Qinisekisa umhla",
     "note": "Phawula",
@@ -604,7 +609,6 @@ export default {
     "variant": "Ukwahluka",
     "secure": "Khusela",
     "admin": "Admin",
-    "tax_included_abstract": "kuquka.",
     "payment_not_settled": "Intlawulo ayilungiswanga!",
     "orders_list": "Uluhlu lweeodolo",
     "subscription_plan": "Isicwangciso sokurhuma",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Amaqela",
     "subscriptions": "Imirhumo",
     "spam": "Ispemu",
-    "video": "Ividiyo"
+    "video": "Ividiyo",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Wena",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Inzima kakhulu",
+    "hard": "Kunzima",
+    "intermediate": "Phakathi",
+    "easy": "Kulula",
   },
   "dialogs": {
     "delete": {
       "title": "Cima",
       "message": "Uqinisekile ukuba uyayicima le nto?",
-      "action": "Ewe, cima ngoku"
-    }
+      "action": "Ewe, cima ngoku",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "ngeza kwitshathi",
     "cancel": "Rhoxisa",
     "update": "Hlaziya",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Yongeza ikhadi lesipho",
     "charge": "Ukuhlawulisa",
     "send_invites": "Thumela izimemo",
-    "past": "Ixesha elidlulileyo",
+    "paste": "Ncamathelisa",
     "restore": "Buyisela",
     "cut": "Sika",
     "get_sms_code": "Fumana ikhowudi yokuqinisekisa",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Bonisa imboniso",
     "hide_preview": "Fihla imboniso",
     "download_now": "Khuphella ngoku",
+    "watch_now": "Jonga Ngoku",
     "auto_fill": "Zalisa ngokuzenzekela",
     "track": "Umkhondo",
     "change_state": "Guqula ubume",
     "done": "Ugqibile",
     "reply": "Phendula",
-    "watch_now": "Jonga Ngoku",
     "unlock": "Vula",
     "lock": "Tshixa",
     "create_clone": "Yenza i-clone",
@@ -773,41 +931,71 @@ export default {
     "buy": "Thenga",
     "view_all": "Jonga zonke",
     "view_now": "Jonga Ngoku",
-    "paste": "Ncamathelisa"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Ixesha elidlulileyo",
+  },
+  "billing_period": {
+    "Daily": "Yonke imihla",
+    "Weekly": "Rhoqo ngeveki",
+    "Monthly": "Ngenyanga",
+    "Every3Months": "Rhoqo kwiinyanga ezi-3",
+    "Every6Months": "Rhoqo kwiinyanga ezi-6",
+    "Yearly": "Ngonyaka",
   },
   "instance_message_title": "Thumela umyalezo ngoko nangoko",
   "instance_message": "Molo {name}, Igama lam ndingu{author} osuka {company}.",
   "errors": {
     "419": "Ubungasebenzi ixesha elide, nceda <b>⟳ HLAZIYA IPHEPHA</b> ngenxa yezizathu zokhuseleko.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Inkqubo ayihambelani ne-blockchain. Akunakwenzeka ukwenza intengiselwano entsha de ungqamaniso lweeseva zethu lugqitywe. Sisombulula ingxaki.",
-    "gateway_network_error": "Inkonzo yesango lentlawulo idibene nengxaki yonxibelelwano."
+    "gateway_network_error": "Inkonzo yesango lentlawulo idibene nengxaki yonxibelelwano.",
   },
   "receiver_info": {
     "map": {
       "title": "Idilesi yokuyithumela ngenqanawe",
       "confirm": "Seta indawo",
       "address_type": "Indawo ekuyiwa kuyo",
-      "receptor_type": "Umamkeli"
+      "receptor_type": "Umamkeli",
     },
     "receiver_address": "Khetha idilesi yokuthumela ngenqanawa",
+    "service_address": "Khetha idilesi yakho",
+    "select_billing_address": "Select billing address",
     "address": "idilesi",
     "postcode": "Ikhowudi yeposi",
     "enter_value": "Gcwalisa apha",
     "address_note": "Phawula",
     "tel": "Inombolo YOQHAGAMSHELWANO",
-    "service_address": "Khetha idilesi yakho"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "i-Ib",
-    "kg": "ikg"
+    "kg": "ikg",
   },
   "mass_unit_name": {
     "g": "igram",
     "oz": "I-Once",
     "lb": "Iponti",
-    "kg": "ikhilogram"
+    "kg": "ikhilogram",
   },
   "length": {
     "cm": "i-cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Isentimitha",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Unyawo",
     "mm": "imilimitha",
     "m": "imitha",
-    "yd": "Iyadi"
+    "yd": "Iyadi",
   },
   "distance": {
     "m": "imitha",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Iintsuku",
     "hours": "Iiyure",
     "minutes": "Imizuzu",
-    "seconds": "Imizuzwana"
+    "seconds": "Imizuzwana",
   },
   "units": [
     "Iyunithi",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Umbuso",
     "Territory": "Ummandla",
-    "Province": "iPhondo"
+    "Province": "iPhondo",
   },
   "transaction_status": {
     "RequireAction": "Kufuneka Inyathelo",
     "Processing": "Iyaqhuba",
     "Canceled": "Irhoxisiwe",
-    "Succeeded": "Iphumelele"
+    "Succeeded": "Iphumelele",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "UJone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Khetha ulwimi..",
     "friend_email": "I-imeyile yomhlobo wakho...",
     "friend_name": "Khetha. Igama lomhlobo wakho",
-    "select_date": "Khetha umhla..."
+    "select_date": "Khetha umhla...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Qinisekisa",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Ubuninzi beempawu {maxCount}",
     "invalid_url": "I-URL engasebenziyo",
     "country_invalid": "Khetha ilizwe ekuyiwa kulo!",
-    "postal_code_invalid": "Misela ikhowudi yeposi esebenzayo!"
+    "postal_code_invalid": "Misela ikhowudi yeposi esebenzayo!",
   },
   "colors": {
     "#D32F2F": "Bomvu",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Iyunithi",
     "postcode": "Ikhowudi yeposi",
     "note": "Phawula",
-    "county": "County"
+    "county": "County",
   },
   "product_types": {
     "physical": "Enyameni",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Inkonzo",
     "service_description": "Iinkonzo ezifana: ukulungisa, ukuthutha, ukufundisa.",
     "subscription": "Umrhumo",
-    "subscription_description": "Imirhumo kunye ne-invoyisi yeemveliso, iinkonzo, okanye imixholo."
+    "subscription_description": "Imirhumo kunye ne-invoyisi yeemveliso, iinkonzo, okanye imixholo.",
   },
   "license": {
     "free": "Mahala",
     "startup": "Ukuqala eqala",
     "company": "Inkampani",
-    "enterprise": "Ishishini"
+    "enterprise": "Ishishini",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Umbala",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Bala ngokwepakethe",
     "weight": "Ubunzima",
     "type": "Izinto eziphathekayo",
-    "style": "Isimbo"
+    "style": "Isimbo",
   },
   "delivery_state": {
     "check_queue": "Ilindele ukuphononongwa",
     "order_confirm": "Odola isingqino",
     "preparing_order": "Ukulungiselela",
     "sent_order": "Ekuhanjisweni",
-    "to_customer": "Inikezelwe"
+    "to_customer": "Inikezelwe",
   },
   "status": {
     "unpaid": "Engahlawulwanga",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Yala",
     "pending": "Ilindile",
     "rejected": "Yaliwe",
-    "accepted": "Yamkelwe"
+    "accepted": "Yamkelwe",
   },
   "dimensions": {
     "cm": "i-cm",
     "km": "km",
-    "kg": "ikg"
+    "kg": "ikg",
   },
   "transportation_type": {
     "motorbike": "Isithuthuthu",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Uthutho lwehlabathi",
     "global_description": "Ukuthumela phesheya kolwandle ngomoya, elwandle okanye emhlabeni.",
     "pickup": "Phakamisa",
-    "pickup_description": "Abathengi bathatha izinto kwivenkile yakho ebonakalayo okanye kwindawo yokugcina."
+    "pickup_description": "Abathengi bathatha izinto kwivenkile yakho ebonakalayo okanye kwindawo yokugcina.",
   },
   "article": {
     "login_to_see_error": "Ngena ukufikelela kwinqaku",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Imo yokuhlela",
       "view_mode": "Imowudi yokujonga",
-      "delete": "Cima Inqaku"
+      "delete": "Cima Inqaku",
     },
     "schedule_action": "Ngaba uyafuna ukucwangcisa upapasho?",
     "schedule_title": "Cwangcisa ukupapasha ngokuzenzekelayo",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Xela uxhatshazo kwaye ususe umxholo",
       "report_title": "Xela lo mxholo njengokuhlukumezayo",
       "message": "Sithini isizathu sokungeniswa kwalo mxholo? Khetha enye yezi ndlela zilandelayo.",
-      "accept_and_delete_action": "Qinisekisa kwaye Cima Umxholo"
+      "accept_and_delete_action": "Qinisekisa kwaye Cima Umxholo",
     },
     "schedule_dialog": {
       "title": "IShedyuli yokukhutshwa komxholo",
       "publish_at": "Papasha apha",
       "last_edit": "Ukuhlelwa kokugqibela",
-      "view_action": "Jonga inqaku"
+      "view_action": "Jonga inqaku",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Ngenisa Ulwazi",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Ingxelo kwaye Cima",
       "report_and_delete_success_message": "Inqaku licinywe ngempumelelo.",
       "report_success_title": "Inqaku lengxelo",
-      "report_success_message": "Ingxelo yakho kweli nqaku ithunyelwe."
+      "report_success_message": "Ingxelo yakho kweli nqaku ithunyelwe.",
     },
     "alert": {
       "delete_article": {
         "title": "Cima Inqaku",
         "message": "Uqinisekile ukuba ufuna ukucima ngokusisigxina eli nqaku?",
-        "action": "Cima"
-      }
+        "action": "Cima",
+      },
     },
     "edit_window": {
       "title": "Khetha Isiqendu somfanekiso kunye nesiShwankathelo",
-      "digest": "Isishwankathelo"
+      "digest": "Isishwankathelo",
     },
     "editor": {
       "title_placeholder": "Isihloko..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Le fayile inkulu kakhulu:",
       "notifications": {
         "image_uploaded_success": "Umfanekiso ugcinwe ngempumelelo",
-        "image_uploaded_failed": "Impazamo yokulayisha umfanekiso."
+        "image_uploaded_failed": "Impazamo yokulayisha umfanekiso.",
       },
       "embed_placeholder": "Faka ikhowudi ye-iframe, i-Facebook, i-Youtube okanye nayiphi na enye i-URL kwaye ucinezele ukungena.",
       "embed_caption_placeholder": "Ngenisa isihloko (ukhetho)",
-      "images_caption_placeholder": "Ngenisa isihloko salo mfanekiso .."
-    }
+      "images_caption_placeholder": "Ngenisa isihloko salo mfanekiso ..",
+    },
   },
   "article_report": {
     "inappropriate": "Umxholo weli nqaku awufanelekanga.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ndicinga ukuba lo mxholo unephonografi kwaye wophula imithetho.",
     "harassment": "Ndicinga ukuba olu lucalucalulo.",
     "hate": "Ndicinga ukuba oku kukukhuthaza ubundlobongela.",
-    "infringe": "Oku kunyhasha amalungelo am."
+    "infringe": "Oku kunyhasha amalungelo am.",
   },
   "comments": {
     "new_action": "Cofa ukushiya uluvo ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Fumana ezinye izimvo..",
     "cant_send_comment": "Awukwazi ukongeza iposti entsha.",
     "cant_remove_this_comment": "Awukwazi ukucima le ngxelo!",
-    "product_buyer": "Umthengi",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Izimvo zam",
     "delete_alert": {
       "title": "Cima Izimvo",
       "message": "Ngaba uyafuna ukucima le nkcazo?",
-      "action": "Cima"
+      "action": "Cima",
     },
     "notifications": {
-      "delete_success": "Izimvo zakho zicinywe ngempumelelo."
+      "delete_success": "Izimvo zakho zicinywe ngempumelelo.",
     },
     "first_send": "Isithuba sokuqala",
     "comment_at": "Vula",
     "edit_comment": "Hlela amagqabantshintshi",
-    "my_comments": "Izimvo zam"
+    "product_buyer": "Umthengi",
   },
   "customer_club": {
     "bronze": "Ubhedu",
     "silver": "Isilivere",
     "gold": "Golden",
     "platinum": "iPlatinam",
-    "diamond": "Idayimani"
+    "diamond": "Idayimani",
   },
   "application_categories": {
     "tracking": "Ukujonga iNdlela yokuziPhatha yoMsebenzisi",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Intengiso",
     "staff": "Abasebenzi",
     "incentive": "Inkuthazo",
-    "shop": "Thenga"
+    "shop": "Thenga",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "I-Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Yongeza into entsha",
     "title_input": "Isihloko",
+    "placeholder_input": "Isibambi-ndawo",
     "name_input": "Igama eliguquguqukayo",
     "value_input": "Imilinganiselo",
     "value_input_message": "Uluhlu lweeKhetho zabasebenzisi",
     "default": "Ixabiso elimiselweyo",
+    "file_type_input": "Iintlobo zeefayile ezamkelekileyo",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "Elula",
       "selective": "Khetha",
       "switch": "Tshintsha",
       "file": "Ifayile",
-      "number": "Inani"
+      "number": "Inani",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Isibambi-ndawo",
-    "file_type_input": "Iintlobo zeefayile ezamkelekileyo",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Igama lemveliso",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Ubume bentlawulo",
     "payment_status_waiting": "Ilinde intlawulo",
     "payment_status_paid": "Ihlawulwe",
-    "buyer": "Umthengi"
+    "buyer": "Umthengi",
   },
   "virtual_item_info": {
     "title": "Into ebonakalayo",
     "outputs": {
       "title": "Ulwazi Lweziphumo",
       "sub_title": "Ulwazi oluyiMfihlo lwale Nto",
-      "message": "Olu lwazi luya kuboniswa kumsebenzisi emva kokuthenga imveliso."
+      "message": "Olu lwazi luya kuboniswa kumsebenzisi emva kokuthenga imveliso.",
     },
     "inputs": {
       "title": "Ulwazi olufunekayo",
       "sub_title": "Ulwazi lomthengi olufunekayo",
-      "message": "Umthengi kufuneka afake ulwazi oluceliweyo kwifom"
+      "message": "Umthengi kufuneka afake ulwazi oluceliweyo kwifom",
     },
     "notifications": {
       "inputs_set_success": "Ifomu yolwazi ibhaliswe ngempumelelo.",
       "confirm_by_admin_success": "Ukugqitywa komyalelo kuqinisekisiwe.",
-      "confirm_by_buyer_success": "Ukugqitywa komyalelo kuqinisekisiwe."
-    }
+      "confirm_by_buyer_success": "Ukugqitywa komyalelo kuqinisekisiwe.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Lo myalelo awunakwamkelwa yintlawulo yeCOD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Iphelile kwisitokhwe.",
     "legal_restriction": "Ayikwazanga ukwenza umyalelo ngenxa yezithintelo ezisemthethweni.",
     "pricing_fault": "Impazamo yamaxabiso ngumthengisi.",
-    "system_fault": "Inkqubo bug."
+    "system_fault": "Inkqubo bug.",
   },
   "basket_order_info_summery": {
     "receiver": "Umamkeli",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Isaphulelo",
     "final_price": "Imali yokugqibela",
     "address": "Idilesi yokuhambisa",
-    "payment_status": "Ubume bentlawulo"
+    "payment_status": "Ubume bentlawulo",
   },
   "basket_status": {
     "open": "Vula",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Irhoxisiwe",
     "cod": "Hlawula Ekuhanjisweni",
     "receipt_added": "Irisithi yongeziwe",
-    "payment_processing": "Ukwenziwa kwentlawulo"
+    "payment_processing": "Ukwenziwa kwentlawulo",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Yaliwe",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Isiqinisekiso",
     "step_3": "Ukulungiselela",
     "step_4": "Ekuhanjisweni",
-    "step_5": "Inikezelwe"
+    "step_5": "Inikezelwe",
   },
   "basket_return_request_view": {
     "title": "Buyisela isicelo",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Sale isicelo",
     "message_for_admin": "Ngokwesivumelwano owamkeleyo ngokusebenzisa i-Selldone, kufuneka uqhagamshelane nomthengi kwaye umgcine esazi ngenkqubo yokubuyisela iodolo yakhe. Oku kufuneka kwenziwe ukuba isicelo samkelwe okanye saliwe kwaye imvume epheleleyo yomthengi ifunyenwe.",
     "notifications": {
-      "update_status_success": "Isimo sesicelo sihlaziyiwe."
-    }
+      "update_status_success": "Isimo sesicelo sihlaziyiwe.",
+    },
   },
   "basket_list": {
     "return_count": "Buyela: {count} inombolo",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Ukwahluka",
       "warranty": "Iziqinisekiso",
       "count": "Bala",
-      "price": "ixabiso"
-    }
+      "price": "ixabiso",
+    },
   },
   "return_request_list": {
     "count": "Inombolo yerefurensi",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Umhla wokufunyanwa",
       "state": "Ubume",
       "reason": "Isizathu",
-      "return_warranty_period": "Ixesha lewaranti"
-    }
+      "return_warranty_period": "Ixesha lewaranti",
+    },
   },
   "data_toolbar": {
     "search": "Khangela",
     "sort_by": "Misa nge",
-    "count_item": "Bonisa {item} izinto"
+    "count_item": "Bonisa {item} izinto",
   },
   "sort": {
     "created_at": "Yenza umhla",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Igosa",
     "registered": "Ibhalisiwe",
     "purchased": "Ithengiwe",
-    "sex": "Isini"
+    "sex": "Isini",
   },
   "search_box": {
     "result": "Iziphumo zokukhangela",
     "tips": "Khangela iMveliso kunye neeCategories",
     "label": "Phendla...",
-    "category": "Udidi"
+    "category": "Udidi",
   },
   "lead_status": {
     "physical_fast_delivery": "Ukuhanjiswa kwangoko",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Ukulungiselela nokungeniswa ukusuka kwimihla {days} elandelayo",
     "virtual_fast_prepare": "Ukuhanjiswa kwangoko",
     "virtual_under_24h": "Iza kwenziwa kwiiyure ezilandelayo ezi- {lead}",
-    "virtual_over_24h": "Izakwenziwa ukusuka kwi{days} ezilandelayo"
+    "virtual_over_24h": "Izakwenziwa ukusuka kwi{days} ezilandelayo",
   },
   "return_request_state": {
     "pending": "Ilindile",
     "accepted": "Iqinisekisiwe",
-    "rejected": "Yaliwe"
+    "rejected": "Yaliwe",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Ipakethe okanye uthotho lwenombolo yesiriyali",
       "U5": "Ezinye izinto ezikwipasile azikho",
       "U6": "Imveliso ayiyoqobo",
-      "U7": "Imveliso ayiyonelisi ingcaciso"
-    }
+      "U7": "Imveliso ayiyonelisi ingcaciso",
+    },
   },
   "image_uploader": {
     "label": "Tsala & Lahla okanye <u>Khetha ifayile</u>",
-    "max_size": "Obona bungakanani buvumelekileyo: {size}"
+    "max_size": "Obona bungakanani buvumelekileyo: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "12 emini ukuya 6pm",
     "Night": "6pm-12pm",
-    "Instant": "Thumela ngoko nangoko"
+    "Instant": "Thumela ngoko nangoko",
   },
   "week_day": {
     "Saturday": "uMgqibelo",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "uLwesibini",
     "Wednesday": "uLwesithathu",
     "Thursday": "uLwesine",
-    "Friday": "uLwesihlanu"
+    "Friday": "uLwesihlanu",
   },
   "payment_form": {
     "title": "Khetha iNdlela yokuHlawula",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Sivuyisana nawe, iodolo yakho isimahla!",
     "order_free_payment_action": "Oda Mahala Ngoku",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Idilesi yentlawulo",
-      "amount": "Isixa"
-    }
+      "amount": "Isixa",
+    },
   },
   "discount_input": {
     "limit": "{percent}% isaphulelo ukuya kuthi ga kwi {limit} {currency}",
     "action": "Yongeza iKhowudi yesaphulelo",
     "code_input": "Ikhowudi yesaphulelo",
     "notifications": {
-      "add_success": "Sivuyisana nawe, ikhowudi yesaphulelo esebenzayo."
-    }
+      "add_success": "Sivuyisana nawe, ikhowudi yesaphulelo esebenzayo.",
+    },
   },
   "gift_card": {
     "inactive": "Ikhadi livaliwe",
     "expire": "Ukuphelelwa lixesha",
     "transfer": "Udluliselo",
-    "send_to_friend": "Thumela kumhlobo"
+    "send_to_friend": "Thumela kumhlobo",
   },
   "count_down": {
     "days": "Usuku",
     "hours": "Yure",
     "minutes": "Imizuzu",
-    "seconds": "Imizuzwana"
+    "seconds": "Imizuzwana",
   },
   "gift_status": {
     "Unpaid": "linde isiliphu",
     "Paid": "Ihlawulwe",
     "Rejected": "Yaliwe",
-    "Canceled": "Irhoxisiwe"
+    "Canceled": "Irhoxisiwe",
   },
   "gift_program_status": {
     "Airdrop": "Inkqubo yentlawulo",
     "Advertising": "Intengiso",
     "PersonalGift": "Isipho Sakho",
-    "ShopGift": "Ivenkile yezipho"
+    "ShopGift": "Ivenkile yezipho",
   },
   "currency_selector": {
-    "label": "Imali"
+    "label": "Imali",
   },
   "need_login": {
     "title": "Ngema",
     "login_sms": "Ngena ngeSMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Ngena ngoGoogle",
     "login_facebook": "Ngena kuFacebook",
+    "login_apple": "Ngena ngeApple",
     "login_account": "Ngena nguSelldone",
     "register": "Umsebenzisi omtsha? Bhalisa ngoku.",
     "mobile_input": "Faka ifowuni yakho",
     "verification_code": "Gqina ikhowudi",
     "msg_title": "Mholo,",
     "msg_body": "Nceda ungene. Kuthatha nje imizuzwana embalwa.",
-    "login_apple": "Ngena ngeApple",
     "login_email": "Ngena nge-imeyile",
     "email_login_step_1": "Nceda unikeze idilesi ye-imeyile esebenzayo, kwaye siya kuthumela ikhowudi yokungena kuyo. Akukho bhaliso luyimfuneko.",
     "email_login_step_2": "Ngaba uqinisekile ukuba uyifake ngokuchanekileyo idilesi yemeyile yakho? Siza kuthumela ikhowudi yokungena kwi-imeyile enikeziweyo, ngoko ke nceda uqinisekise ukuchaneka kwayo.",
-    "email_login_step_3": "Sithumele ikhowudi kwi-imeyile yakho. Nceda uqaphele ukuba ikhowudi iya kuphelelwa yimizuzu eyi-10."
+    "email_login_step_3": "Sithumele ikhowudi kwi-imeyile yakho. Nceda uqaphele ukuba ikhowudi iya kuphelelwa yimizuzu eyi-10.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Year Gold Store"
+      "name": "5 Year Gold Store",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Year Gold Store"
+      "name": "4 Year Gold Store",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Year Gold Store"
+      "name": "3 Year Gold Store",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Year Gold Store"
+      "name": "2 Year Gold Store",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Year Gold Store"
+      "name": "1 Year Gold Store",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Umtyali-mali wegolide"
+      "name": "Umtyali-mali wegolide",
     },
     "TOKEN_OWNER_10M": {
-      "name": "UMtyali-mali weDayimani"
+      "name": "UMtyali-mali weDayimani",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Umtyali mali weRuby"
+      "name": "Umtyali mali weRuby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Ilungu loNxibelelwano oluPhezulu loLuntu loThungelwano"
+      "name": "Ilungu loNxibelelwano oluPhezulu loLuntu loThungelwano",
     },
     "GOLD_SUPPLIER": {
-      "name": "Umthengisi weGolide"
+      "name": "Umthengisi weGolide",
     },
     "GOLD_SELLER": {
-      "name": "Umthengisi wegolide"
+      "name": "Umthengisi wegolide",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Umvelisi woMxholo oPhezulu"
+      "name": "Umvelisi woMxholo oPhezulu",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "inkwenkwezi"
+      "name": "inkwenkwezi",
     },
     "GUARDIAN": {
-      "name": "Inkonzo enkulu yabaThengi"
+      "name": "Inkonzo enkulu yabaThengi",
     },
     "KING": {
-      "name": "Kumkani weMarike"
-    }
+      "name": "Kumkani weMarike",
+    },
   },
   "cookie": {
     "title": "Le webhusayithi isebenzisa iikuki",
     "message": "Le webhusayithi isebenzisa iikuki ukuphucula amava omsebenzisi. Ngokusebenzisa iwebhusayithi yethu uvumela zonke iikuki ngokuhambelana nePolisi yethu yeCookie.",
     "preferences_action": "Lawula Okukhethwayo",
-    "agree_action": "Ndiyavuma"
+    "agree_action": "Ndiyavuma",
   },
   "basket_item_message": {
     "title": "Ulwazi olufunekayo lwale nto",
     "save_actions": "Gcina umyalezo",
+    "product_inputs_preview_message": "Ezi zikhetho zokwenza ngokwezifiso ziyafumaneka kwimveliso yakho eyalelweyo. Nje ukuba into yongezwe kwinqwelo yakho, uya kukwazi ukwenza uhlengahlengiso apha.",
     "notifications": {
-      "success": "Igalelo lakho ledatha ligciniwe."
+      "success": "Igalelo lakho ledatha ligciniwe.",
     },
-    "product_inputs_preview_message": "Ezi zikhetho zokwenza ngokwezifiso ziyafumaneka kwimveliso yakho eyalelweyo. Nje ukuba into yongezwe kwinqwelo yakho, uya kukwazi ukwenza uhlengahlengiso apha."
   },
   "faq": {
     "faq": "Imibuzo ebuzwa qho",
     "title": "Imibuzo neempendulo",
-    "sub_title": "Into osicelileyo ukuba siyenze.",
     "message": "Khangela impendulo yombuzo wakho phakathi kwezi mpendulo zingezantsi. Sibuze ukuba imibuzo ihlala ingaphendulwanga.",
     "add_question_action": "Buza Umbuzo Omtsha",
     "read_more": "Funda ngokugqithisileyo ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Umbuzo",
     "question_input_placeholder": "Buza umbuzo wakho.",
     "notifications": {
-      "success_add": "Umbuzo wakho ungeniswe ngempumelelo."
-    }
+      "success_add": "Umbuzo wakho ungeniswe ngempumelelo.",
+    },
+    "sub_title": "Into osicelileyo ukuba siyenze.",
   },
   "rating_labels": [
     "Imbi kakhulu",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Ngenisa idilesi yendawo",
     "enter_your_address": "Faka idilesi yakho.",
     "postal_code": "Ikhowudi yeposi",
-    "phone_input": "Ifowuni {type}",
+    "phone_input": "Ifowuni",
     "building_number": "Inombolo yesakhiwo",
     "building_unit": "Iyunithi",
     "full_name_input": "Igama elipheleleyo {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Ileyibhile yedilesi (Funa)",
     "notifications": {
       "save_in_list": "Le dilesi igcinwe kuluhlu lwakho nazo zonke iinkcukacha zayo.",
-      "edit_success": "Amaxabiso edilesi amatsha agcinwe kwi- {title}."
+      "edit_success": "Amaxabiso edilesi amatsha agcinwe kwi- {title}.",
     },
     "delete_address_dialog": {
       "title": "Cima idilesi",
       "message": "Uqinisekile ufuna ukucima le dilesi?",
-      "action": "Susa idilesi"
-    }
+      "action": "Susa idilesi",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ayikwazi ukuhlela le nkcazo!",
     "comment_input_empty": "Umyalezo obhaliweyo awunanto!",
-    "article_not_saved": "Gcina inqaku!"
+    "article_not_saved": "Gcina inqaku!",
   },
   "wheel_fortune": {
     "title": "Dlala & Phumelela",
     "message": "Iindleko zomdlalo ngamnye ziitshiphusi ezili-10. Ngoku une {chips} chip. Fumana itshiphu eninzi ngokuyithenga evenkileni.",
     "win_message": "Sivuyisana nawe, Uphumelele!",
     "lost_message": "Uxolo, uphulukene nomdlalo.",
-    "try_again": "Ungazama kwakhona"
+    "try_again": "Ungazama kwakhona",
   },
   "json": {
     "add": "Yongeza idatha yesakhiwo",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Ulwakhiwo",
     "book": {
       "title": "Incwadi",
-      "desc": "Iintshukumo zencwadi ezenza abasebenzisi bathenge incwadi abayifumene ngokuthe ngqo kwiziphumo zoPhendlo."
+      "desc": "Iintshukumo zencwadi ezenza abasebenzisi bathenge incwadi abayifumene ngokuthe ngqo kwiziphumo zoPhendlo.",
     },
     "occupation": {
       "title": "Umvuzo oqikelelweyo",
-      "desc": "Ulwazi malunga noqikelelo lwemivuzo, olufana noluhlu lwemivuzo kunye ne-avareji yomvuzo esekwe kwingingqi kwiintlobo zemisebenzi, eboniswe kumava okukhangela umsebenzi kuGoogle."
+      "desc": "Ulwazi malunga noqikelelo lwemivuzo, olufana noluhlu lwemivuzo kunye ne-avareji yomvuzo esekwe kwingingqi kwiintlobo zemisebenzi, eboniswe kumava okukhangela umsebenzi kuGoogle.",
     },
     "course": {
       "title": "Ikhosi",
-      "desc": "Iikhosi zemfundo ezivela kuluhlu oluthile lwababoneleli. Izifundo zinokubandakanya isihloko sekhosi, umboneleli, kunye nenkcazo emfutshane."
+      "desc": "Iikhosi zemfundo ezivela kuluhlu oluthile lwababoneleli. Izifundo zinokubandakanya isihloko sekhosi, umboneleli, kunye nenkcazo emfutshane.",
     },
     "howto": {
       "title": "Kwenziwa kanjani",
-      "desc": "Ubahamba njani abasebenzisi ngokweseti yamanyathelo ukugqiba ngempumelelo umsebenzi, onevidiyo, imifanekiso, kunye nombhalo."
+      "desc": "Ubahamba njani abasebenzisi ngokweseti yamanyathelo ukugqiba ngempumelelo umsebenzi, onevidiyo, imifanekiso, kunye nombhalo.",
     },
     "recipe": {
       "title": "Indlela yokupheka",
-      "desc": "Iiresiphi ezibonisa njengesiphumo esityebileyo somntu okanye inxalenye yecarousel yomkhosi."
-    }
+      "desc": "Iiresiphi ezibonisa njengesiphumo esityebileyo somntu okanye inxalenye yecarousel yomkhosi.",
+    },
   },
   "support": {
     "Financial": "Ezemali",
     "Technical": "Ezobugcisa",
-    "Advisor": "Umcebisi"
+    "Advisor": "Umcebisi",
   },
   "condition": {
     "new": "Entsha",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Isetyenzisiwe",
     "used_fair": "Isetyenziswe ngokufanelekileyo",
     "used_good": "Isetyenziswe kakuhle",
-    "used_like_new": "Isetyenziswa njengentsha"
+    "used_like_new": "Isetyenziswa njengentsha",
   },
   "variant_filter": {
     "title": "Isihluzi esahlukileyo seMveliso",
-    "only_available": "Ikhona evenkileni"
+    "only_available": "Ikhona evenkileni",
   },
   "service": {
     "task": {
       "title": "Imisebenzi",
-      "message": "Uluhlu lwemisebenzi eyenziwa kule nkonzo."
+      "message": "Uluhlu lwemisebenzi eyenziwa kule nkonzo.",
     },
     "appointment": {
       "title": "Ukuqeshwa",
-      "message": "Khetha amaxesha eveki kula maxesha alandelayo ngokusekwe kumhla kunye neyure ekulungeleyo."
+      "message": "Khetha amaxesha eveki kula maxesha alandelayo ngokusekwe kumhla kunye neyure ekulungeleyo.",
     },
     "booking": {
       "title": "Ukubhukisha",
-      "message": "Chaza ixesha leentsuku ofuna ukubhukisha ngazo kwikhalenda engezantsi."
+      "message": "Chaza ixesha leentsuku ofuna ukubhukisha ngazo kwikhalenda engezantsi.",
     },
     "subscription": {
-      "title": "Umrhumo"
+      "title": "Umrhumo",
     },
     "charge": {
-      "title": "Ukuhlawulisa"
-    }
+      "title": "Ukuhlawulisa",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Amaxabiso azinzileyo",
-      "message": "Kulo hlobo lwamaxabiso, ixabiso lemveliso liyimali emiselweyo kwaye akukho mfuneko yokuba umthengi acele ukubalwa kwexabiso."
+      "message": "Kulo hlobo lwamaxabiso, ixabiso lemveliso liyimali emiselweyo kwaye akukho mfuneko yokuba umthengi acele ukubalwa kwexabiso.",
     },
     "ESTIMATION": {
       "title": "Amaxabiso oqikelelo",
-      "message": "Ixabiso leemveliso kunye neenkonzo ziya kubalwa kwinqanaba elithile ngumthengisi xa ebeka umyalelo, ii-invoyisi zokuhlawula zingatshintshwa okanye zongezwe ngexesha lenkonzo."
+      "message": "Ixabiso leemveliso kunye neenkonzo ziya kubalwa kwinqanaba elithile ngumthengisi xa ebeka umyalelo, ii-invoyisi zokuhlawula zingatshintshwa okanye zongezwe ngexesha lenkonzo.",
     },
     "AGREEMENT": {
       "title": "Amaxabiso esivumelwano",
-      "message": "Ixabiso lokugqibela leemveliso okanye iinkonzo aziyi kutshintshwa ngumthengisi emva kokuba umyalelo ubekwe."
+      "message": "Ixabiso lokugqibela leemveliso okanye iinkonzo aziyi kutshintshwa ngumthengisi emva kokuba umyalelo ubekwe.",
     },
     "BID": {
       "title": "Ibhidi / ifandesi",
-      "message": "Imveliso iya kuthengiswa ngexabiso eliphezulu lebhidi ngabo banokuba ngabathengi."
-    }
+      "message": "Imveliso iya kuthengiswa ngexabiso eliphezulu lebhidi ngabo banokuba ngabathengi.",
+    },
   },
   "map": {
     "title": "Indawo yokufumana iimveliso",
     "confirm": "Seta indawo",
     "address": "Indawo ekuyiwa kuyo",
-    "receptor": "Umamkeli"
+    "receptor": "Umamkeli",
   },
   "ShopBots": {
-    "telegram": "ITelegram"
+    "telegram": "ITelegram",
   },
   "article_tags": {
     "title": "Iithegi zomxholo",
     "tags_input": "Iithegi",
     "tags_input_message": "Iithegi Uluhlu lweli nqaku",
     "notification": {
-      "add_success": "Iithegi zongeziwe"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Inzima kakhulu",
-    "hard": "Kunzima",
-    "intermediate": "Phakathi",
-    "easy": "Kulula"
-  },
-  "billing_period": {
-    "Daily": "Yonke imihla",
-    "Weekly": "Rhoqo ngeveki",
-    "Monthly": "Ngenyanga",
-    "Every3Months": "Rhoqo kwiinyanga ezi-3",
-    "Every6Months": "Rhoqo kwiinyanga ezi-6",
-    "Yearly": "Ngonyaka"
+      "add_success": "Iithegi zongeziwe",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Hayi kuhle!",
     "between2_3": "Kulungile!",
     "between3_4": "Abantu bayayithanda!",
-    "between4_5": "Abantu bayayithanda!"
+    "between4_5": "Abantu bayayithanda!",
   },
   "seasons": {
     "spring": "Intwasahlobo",
     "summer": "Ihlobo",
     "autumn": "Ekwindla",
-    "winter": "Ubusika"
-  }
+    "winter": "Ubusika",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

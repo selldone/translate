@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ech hunn d'Benotzungsbedéngungen an d'Privatsphär Politik gelies an averstane mat hinnen.",
   "commons": {
     "Currency": "Währung",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Staat",
     "Price": "Präis",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Netto Präis",
     "tax": "Steier",
     "tax_included": "Am Präis abegraff",
+    "tax_included_abstract": "inkl.",
     "limit": "Limitéieren",
     "min_purchase": "Minimum Akaf",
     "eligible_for": "Usproch fir",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Erstellt Datum",
     "updated_at": "Leschten Update",
     "register_at": "Aschreiwen Datum",
+    "last_modified": "Last modified",
     "old": "Alt",
     "new": "Nei",
     "start": "Start",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Reseller",
     "tracking_code": "Tracking Code",
     "tracking_url": "Tracking URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Erfëllungen",
     "reject": "Oflehnen",
     "reserved": "Reservéiert",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Waarden ...",
     "waiting_connecting_payment": "Waart op de Bezuelungsservice ...",
     "creating_secure_payment": "Schafen sécher Bezuelen.",
+    "waiting_for_payment": "Fëllt w.e.g. d'Bezuelung ...",
     "officer": "Offizéier",
     "ticket": "Ticket",
     "ticket_url": "Ticket URL",
@@ -361,7 +366,6 @@ export default {
     "rates": "Bewäertung",
     "seen_at": "Gesinn am",
     "completed": "Ofgeschloss",
-    "you": "Dir",
     "shop": "Shop",
     "store": "Buttek",
     "granted": "Gewëss",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Acquisitioun Kanal",
+    "channels_overview": "Channels overview",
     "to": "Zu",
     "info": "Info",
     "general": "General",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Pro Produkt",
     "journey": "Rees",
     "after": "Nach",
-    "waiting_for_payment": "Fëllt w.e.g. d'Bezuelung ...",
     "hour": "Stonn",
     "minute": "Minutt",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Geschäfter",
     "vendor": "Verkeefer",
     "vendors": "Verkeefer",
+    "no_vendors": "No vendors",
     "marketplace": "Maartplaz",
     "verify_date": "Verifizéiert Datum",
     "note": "Note",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Séchert",
     "admin": "Admin",
-    "tax_included_abstract": "inkl.",
     "payment_not_settled": "Bezuelung net geléist!",
     "orders_list": "Bestellungslëscht",
     "subscription_plan": "Abonnement plangen",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Cluster",
     "subscriptions": "Abonnementer",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Dir",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Ganz komplizéiert",
+    "hard": "Schwéier",
+    "intermediate": "Mëttelméisseg",
+    "easy": "Einfach",
   },
   "dialogs": {
     "delete": {
       "title": "Läschen",
       "message": "Sidd Dir sécher dëst Element ze läschen?",
-      "action": "Jo, Elo läschen"
-    }
+      "action": "Jo, Elo läschen",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "An de Weenche leeën",
     "cancel": "Ofbriechen",
     "update": "Update",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Kaddokaart dobäisetzen",
     "charge": "Charge",
     "send_invites": "Schécken Invitatiounen",
-    "past": "Vergaangenheet",
+    "paste": "Paste",
     "restore": "Restauréieren",
     "cut": "Schnëtt",
     "get_sms_code": "Kritt Authentifikatiounscode",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Virschau weisen",
     "hide_preview": "Verstoppen Virschau",
     "download_now": "Elo roflueden",
+    "watch_now": "Kuckt elo",
     "auto_fill": "Autofill",
     "track": "Streck",
     "change_state": "Status änneren",
     "done": "Gemaach",
     "reply": "Äntwert",
-    "watch_now": "Kuckt elo",
     "unlock": "Spär op",
     "lock": "Spär",
     "create_clone": "Klon erstellen",
@@ -773,41 +931,71 @@ export default {
     "buy": "Kafen",
     "view_all": "View All",
     "view_now": "Kuckt elo",
-    "paste": "Paste"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Vergaangenheet",
+  },
+  "billing_period": {
+    "Daily": "Deeglech",
+    "Weekly": "Wochemaart",
+    "Monthly": "Mount",
+    "Every3Months": "All 3 Méint",
+    "Every6Months": "All 6 Méint",
+    "Yearly": "Jährlech",
   },
   "instance_message_title": "Schécken Direktnoriichten",
   "instance_message": "Salut {name}, Mäin Numm ass {author} vun {company}.",
   "errors": {
     "419": "Dir sidd laang inaktiv gewiescht, <b>w.e.g. ⟳ FRÉSCHT D'SÄIT</b> aus Sécherheetsgrënn.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "De System synchroniséiert net mat der Blockchain. Et wäert net méiglech sinn eng nei Transaktioun ze kreéieren bis d'Synchroniséierunge vun eise Serveren ofgeschloss sinn. Mir léisen de Problem.",
-    "gateway_network_error": "Bezuelen Gateway Service huet e Kommunikatiounsproblem begéint."
+    "gateway_network_error": "Bezuelen Gateway Service huet e Kommunikatiounsproblem begéint.",
   },
   "receiver_info": {
     "map": {
       "title": "Liwweradress",
       "confirm": "Setzt Plaz",
       "address_type": "Destinatioun",
-      "receptor_type": "Empfänger"
+      "receptor_type": "Empfänger",
     },
     "receiver_address": "Wielt Versandadress",
+    "service_address": "Wielt Är Adress",
+    "select_billing_address": "Select billing address",
     "address": "Adress",
     "postcode": "Postleitzuel",
     "enter_value": "Fëllt hei",
     "address_note": "Note",
     "tel": "Kontakt Zuel",
-    "service_address": "Wielt Är Adress"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gramm",
     "oz": "Unze",
     "lb": "Pound",
-    "kg": "kilogramm"
+    "kg": "kilogramm",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Zentimeter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Fouss",
     "mm": "millimeter",
     "m": "Meter",
-    "yd": "Haff"
+    "yd": "Haff",
   },
   "distance": {
     "m": "Meter",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Deeg",
     "hours": "Stonnen",
     "minutes": "Minutt",
-    "seconds": "Sekonnen"
+    "seconds": "Sekonnen",
   },
   "units": [
     "Eenheet",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Staat",
     "Territory": "Territoire",
-    "Province": "Provënz"
+    "Province": "Provënz",
   },
   "transaction_status": {
     "RequireAction": "Aktioun néideg",
     "Processing": "Veraarbechtung",
     "Canceled": "Annuléiert",
-    "Succeeded": "gelongen"
+    "Succeeded": "gelongen",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Sprooch auswielen..",
     "friend_email": "E-Mail vun Ärem Frënd ...",
     "friend_name": "Opt. Den Numm vun Ärem Frënd",
-    "select_date": "Wielt en Datum ..."
+    "select_date": "Wielt en Datum ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Confirméieren",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max {maxCount} Zeechen",
     "invalid_url": "Invalid URL",
     "country_invalid": "Wielt Destinatiounsland!",
-    "postal_code_invalid": "Set valabel Postleitzuel!"
+    "postal_code_invalid": "Set valabel Postleitzuel!",
   },
   "colors": {
     "#D32F2F": "Rout",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Eenheet",
     "postcode": "Postleitzuel",
     "note": "Note",
-    "county": "Grofschaft"
+    "county": "Grofschaft",
   },
   "product_types": {
     "physical": "Kierperlech",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Service",
     "service_description": "Servicer wéi: Reparatur, Transport, Unterrécht.",
     "subscription": "Abonnement",
-    "subscription_description": "Abonnementer a Rechnung fir Produkter, Servicer oder Inhalter."
+    "subscription_description": "Abonnementer a Rechnung fir Produkter, Servicer oder Inhalter.",
   },
   "license": {
     "free": "fräi",
     "startup": "Nei gegrënnt",
     "company": "Firma",
-    "enterprise": "Entreprise"
+    "enterprise": "Entreprise",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Faarf",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Zielen am Pak",
     "weight": "Gewiicht",
     "type": "Material",
-    "style": "Stil"
+    "style": "Stil",
   },
   "delivery_state": {
     "check_queue": "Waart op Iwwerpréiwung",
     "order_confirm": "Bestellung Bestätegung",
     "preparing_order": "Preparéieren",
     "sent_order": "Op Liwwerung",
-    "to_customer": "Geliwwert"
+    "to_customer": "Geliwwert",
   },
   "status": {
     "unpaid": "Onbezuelt",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Oflehnen",
     "pending": "Erwaardung",
     "rejected": "Refuséiert",
-    "accepted": "Akzeptéiert"
+    "accepted": "Akzeptéiert",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Moto",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Global Transport",
     "global_description": "Versand iwwerséiesch duerch Loft, Mier oder Land.",
     "pickup": "Ophiewen",
-    "pickup_description": "D'Clientë sammelen d'Elementer an Ärem kierperleche Geschäft oder Lager."
+    "pickup_description": "D'Clientë sammelen d'Elementer an Ärem kierperleche Geschäft oder Lager.",
   },
   "article": {
     "login_to_see_error": "Login fir Zougang zum Artikel",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Modus änneren",
       "view_mode": "View Modus",
-      "delete": "Läschen Artikel"
+      "delete": "Läschen Artikel",
     },
     "schedule_action": "Wëllt Dir d'Publikatioun plangen?",
     "schedule_title": "Zäitplang automatesch Verëffentlechung",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Mëssbrauch mellen an Inhalt läschen",
       "report_title": "Rapport dësen Inhalt als beleidegend",
       "message": "Wat ass de Grond fir dësen Inhalt ofzeginn? Wielt eng vun den folgenden Optiounen.",
-      "accept_and_delete_action": "Confirméieren a läschen Inhalt"
+      "accept_and_delete_action": "Confirméieren a läschen Inhalt",
     },
     "schedule_dialog": {
       "title": "Inhalt Release Zäitplang",
       "publish_at": "Verëffentlechen am",
       "last_edit": "Lescht Ännerung",
-      "view_action": "Gesinn Artikel"
+      "view_action": "Gesinn Artikel",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Informatioun ofginn",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Rapportéieren a läschen",
       "report_and_delete_success_message": "Artikel gouf erfollegräich geläscht.",
       "report_success_title": "Bericht Artikel",
-      "report_success_message": "Äre Bericht iwwer dësen Artikel gouf gepost."
+      "report_success_message": "Äre Bericht iwwer dësen Artikel gouf gepost.",
     },
     "alert": {
       "delete_article": {
         "title": "Läschen Artikel",
         "message": "Sidd Dir sécher, datt Dir dësen Artikel permanent läschen wëllt?",
-        "action": "Läschen"
-      }
+        "action": "Läschen",
+      },
     },
     "edit_window": {
       "title": "Wielt Bild Text a Resumé",
-      "digest": "Resumé"
+      "digest": "Resumé",
     },
     "editor": {
       "title_placeholder": "Titel..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Dëse Fichier ass ze grouss:",
       "notifications": {
         "image_uploaded_success": "Bild erfollegräich gespäichert",
-        "image_uploaded_failed": "Feeler beim Laden vum Bild."
+        "image_uploaded_failed": "Feeler beim Laden vum Bild.",
       },
       "embed_placeholder": "Gitt den iframe Code, Facebook, Youtube oder all aner URL an dréckt Enter.",
       "embed_caption_placeholder": "Gitt en Titel (optional)",
-      "images_caption_placeholder": "Gitt en Titel fir dëst Bild un .."
-    }
+      "images_caption_placeholder": "Gitt en Titel fir dëst Bild un ..",
+    },
   },
   "article_report": {
     "inappropriate": "Den Inhalt vun dësem Artikel ass onpassend.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ech mengen dësen Inhalt enthält Pornographie a verletzt d'Gesetzer.",
     "harassment": "Ech mengen dat ass racistesch.",
     "hate": "Ech mengen, et geet ëm d'Promotioun vun Gewalt.",
-    "infringe": "Dëst verstéisst meng Rechter."
+    "infringe": "Dëst verstéisst meng Rechter.",
   },
   "comments": {
     "new_action": "Klickt fir e Kommentar ze hannerloossen ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Kritt méi Kommentarer ..",
     "cant_send_comment": "Dir kënnt net neie Post derbäi.",
     "cant_remove_this_comment": "Dir kënnt dëse Kommentar net läschen!",
-    "product_buyer": "Keefer",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Meng Kommentaren",
     "delete_alert": {
       "title": "Läschen Kommentar",
       "message": "Wëllt Dir dëse Kommentar läschen?",
-      "action": "Läschen"
+      "action": "Läschen",
     },
     "notifications": {
-      "delete_success": "Äre Kommentar erfollegräich geläscht."
+      "delete_success": "Äre Kommentar erfollegräich geläscht.",
     },
     "first_send": "Éischte Post",
     "comment_at": "Op",
     "edit_comment": "Commentaire änneren",
-    "my_comments": "Meng Kommentaren"
+    "product_buyer": "Keefer",
   },
   "customer_club": {
     "bronze": "Bronze",
     "silver": "Sëlwer",
     "gold": "Golden",
     "platinum": "Platin",
-    "diamond": "Diamant"
+    "diamond": "Diamant",
   },
   "application_categories": {
     "tracking": "Iwwerpréift vum Benotzerverhalen",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Publicitéit",
     "staff": "Personal",
     "incentive": "Ureizer",
-    "shop": "Shop"
+    "shop": "Shop",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Neien Artikel derbäi",
     "title_input": "Titel",
+    "placeholder_input": "Plazhalter",
     "name_input": "Variabel Numm",
     "value_input": "Wäerter",
     "value_input_message": "Benotzer Optiounen Lëscht",
     "default": "Default Wäert",
+    "file_type_input": "Akzeptabel Dateitypen",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Einfach",
       "selective": "Selektiv",
       "switch": "Wiesselen",
       "file": "Fichier",
-      "number": "Zuel"
+      "number": "Zuel",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Plazhalter",
-    "file_type_input": "Akzeptabel Dateitypen",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Produit Numm",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Bezuelen Status",
     "payment_status_waiting": "Op Bezuelung waarden",
     "payment_status_paid": "Bezuelt",
-    "buyer": "Keefer"
+    "buyer": "Keefer",
   },
   "virtual_item_info": {
     "title": "Virtuell Element",
     "outputs": {
       "title": "Ausgang Informatiounen",
       "sub_title": "Vertraulech Informatioun vun dësem Artikel",
-      "message": "Dës Informatioun gëtt dem Benotzer gewise nodeems de Produit kaaft huet."
+      "message": "Dës Informatioun gëtt dem Benotzer gewise nodeems de Produit kaaft huet.",
     },
     "inputs": {
       "title": "Informatiounen néideg",
       "sub_title": "Keefer Informatioun erfuerderlech",
-      "message": "De Keefer muss déi ugefrote Informatioun an der Form aginn"
+      "message": "De Keefer muss déi ugefrote Informatioun an der Form aginn",
     },
     "notifications": {
       "inputs_set_success": "Informatiounen Form erfollegräich ugemellt.",
       "confirm_by_admin_success": "Bestellung fäerdeg bestätegt.",
-      "confirm_by_buyer_success": "Bestellung fäerdeg bestätegt."
-    }
+      "confirm_by_buyer_success": "Bestellung fäerdeg bestätegt.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Dës Bestellung kann net vun der COD Bezuelung ugeholl ginn.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Net op Lager.",
     "legal_restriction": "Kann net eng Bestellung maachen wéinst gesetzleche Restriktiounen.",
     "pricing_fault": "Präis Feeler vum Verkeefer.",
-    "system_fault": "System Feeler."
+    "system_fault": "System Feeler.",
   },
   "basket_order_info_summery": {
     "receiver": "Empfänger",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Remise",
     "final_price": "Finale Betrag",
     "address": "Liwweradress",
-    "payment_status": "Bezuelen Status"
+    "payment_status": "Bezuelen Status",
   },
   "basket_status": {
     "open": "Oppen",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Annuléiert",
     "cod": "Bezuelen Op Liwwerung",
     "receipt_added": "Empfang dobäi",
-    "payment_processing": "Bezuelen Veraarbechtung"
+    "payment_processing": "Bezuelen Veraarbechtung",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Refuséiert",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Bestätegung",
     "step_3": "Virbereedung",
     "step_4": "Op Liwwerung",
-    "step_5": "Geliwwert"
+    "step_5": "Geliwwert",
   },
   "basket_return_request_view": {
     "title": "Retour Ufro",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Refusen Ufro",
     "message_for_admin": "Geméiss dem Ofkommes, deen Dir akzeptéiert hutt andeems Dir de Sellone benotzt, musst Dir de Keefer kontaktéieren an hien / hatt informéiert iwwer de Prozess fir seng Bestellung zréckzeginn. Dëst muss gemaach ginn wann d'Demande ugeholl oder verworf gëtt an déi voll Zoustëmmung vum Keefer kritt gëtt.",
     "notifications": {
-      "update_status_success": "Ufro Status aktualiséiert."
-    }
+      "update_status_success": "Ufro Status aktualiséiert.",
+    },
   },
   "basket_list": {
     "return_count": "Retour: {count} Zuel",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Garantien",
       "count": "Grof",
-      "price": "Präis"
-    }
+      "price": "Präis",
+    },
   },
   "return_request_list": {
     "count": "Referenz Zuel",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Datum kritt",
       "state": "Status",
       "reason": "Grond",
-      "return_warranty_period": "Garantie Period"
-    }
+      "return_warranty_period": "Garantie Period",
+    },
   },
   "data_toolbar": {
     "search": "Sichen",
     "sort_by": "Sortéieren no",
-    "count_item": "{item} Artikelen weisen"
+    "count_item": "{item} Artikelen weisen",
   },
   "sort": {
     "created_at": "Datum erstellen",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Offizéier",
     "registered": "Registréiert",
     "purchased": "Kaaft",
-    "sex": "Geschlecht"
+    "sex": "Geschlecht",
   },
   "search_box": {
     "result": "Sich Resultater",
     "tips": "Sich Produkter a Kategorien",
     "label": "Sichen ...",
-    "category": "Kategorie"
+    "category": "Kategorie",
   },
   "lead_status": {
     "physical_fast_delivery": "Direkt Liwwerung",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Preparéieren an ofginn vun den nächsten {days} Deeg",
     "virtual_fast_prepare": "Direkt Liwwerung",
     "virtual_under_24h": "Gëtt an den nächsten {lead} Stonnen gemaach",
-    "virtual_over_24h": "Gëtt vun den nächsten {days} Deeg gemaach"
+    "virtual_over_24h": "Gëtt vun den nächsten {days} Deeg gemaach",
   },
   "return_request_state": {
     "pending": "Erwaardung",
     "accepted": "Confirméiert",
-    "rejected": "Refuséiert"
+    "rejected": "Refuséiert",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Pauschal oder Seriennummer manipuléieren",
       "U5": "E puer Elementer aus der Pak feelen",
       "U6": "Produkt ass net originell",
-      "U7": "Produkt entsprécht d'Spezifikatioune net"
-    }
+      "U7": "Produkt entsprécht d'Spezifikatioune net",
+    },
   },
   "image_uploader": {
     "label": "Drag & Drop oder <u>Wielt Datei</u>",
-    "max_size": "Maximal erlaabt Gréisst: {size}"
+    "max_size": "Maximal erlaabt Gréisst: {size}",
   },
   "timespan": {
     "Morning": "8-12 Uhr",
     "Evening": "12.00 ze 18.00",
     "Night": "18.00-12.00 Uhr",
-    "Instant": "Instant Post"
+    "Instant": "Instant Post",
   },
   "week_day": {
     "Saturday": "Samschdeg",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Dënschdeg",
     "Wednesday": "Mëttwoch",
     "Thursday": "Donneschdeg",
-    "Friday": "Freideg"
+    "Friday": "Freideg",
   },
   "payment_form": {
     "title": "Wielt Bezuelmethod",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Gratulatioun, Är Bestellung ass gratis!",
     "order_free_payment_action": "Bestellt elo gratis",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Bezuelen Adress",
-      "amount": "Betrag"
-    }
+      "amount": "Betrag",
+    },
   },
   "discount_input": {
     "limit": "{percent}% Remise bis zu {limit} {currency}",
     "action": "Dobäizemaachen Remise Code",
     "code_input": "Remise Code",
     "notifications": {
-      "add_success": "Gratulatioun, valabel Remise Code."
-    }
+      "add_success": "Gratulatioun, valabel Remise Code.",
+    },
   },
   "gift_card": {
     "inactive": "Kaart ass behënnert",
     "expire": "Verfall",
     "transfer": "Transfert",
-    "send_to_friend": "Schécken un Frënd"
+    "send_to_friend": "Schécken un Frënd",
   },
   "count_down": {
     "days": "Dag",
     "hours": "Stonn",
     "minutes": "Minutt",
-    "seconds": "Sekonnen"
+    "seconds": "Sekonnen",
   },
   "gift_status": {
     "Unpaid": "Waart op Empfang",
     "Paid": "Bezuelt",
     "Rejected": "Refuséiert",
-    "Canceled": "Annuléiert"
+    "Canceled": "Annuléiert",
   },
   "gift_program_status": {
     "Airdrop": "Bezuelen System",
     "Advertising": "Publicitéit",
     "PersonalGift": "Perséinleche Cadeau",
-    "ShopGift": "Geschenk Shop"
+    "ShopGift": "Geschenk Shop",
   },
   "currency_selector": {
-    "label": "Währung"
+    "label": "Währung",
   },
   "need_login": {
     "title": "aloggen",
     "login_sms": "SMS Login",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Login mat Google",
     "login_facebook": "Login mat Facebook",
+    "login_apple": "Login mat Apple",
     "login_account": "Login vun Selldone",
     "register": "Neie Benotzer? Registréier dech elo.",
     "mobile_input": "Gitt Ären Handy un",
     "verification_code": "Sëcherheetscode",
     "msg_title": "Salut,",
     "msg_body": "Weg aloggen. Et dauert just e puer Sekonnen.",
-    "login_apple": "Login mat Apple",
     "login_email": "Login per E-Mail",
     "email_login_step_1": "Gitt w.e.g. eng valabel E-Mailadress un, a mir schécken de Logincode un. Keng Aschreiwung ass néideg.",
     "email_login_step_2": "Sidd Dir sécher datt Dir Är E-Mailadress richteg aginn hutt? Mir schécken de Logincode op déi geliwwert E-Mail, also vergewëssert Iech datt seng Richtegkeet ass.",
-    "email_login_step_3": "Mir hunn e Code op Är E-Mail geschéckt. Maacht weg datt de Code an 10 Minutten ofleeft."
+    "email_login_step_3": "Mir hunn e Code op Är E-Mail geschéckt. Maacht weg datt de Code an 10 Minutten ofleeft.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Joer Gold Store"
+      "name": "5 Joer Gold Store",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Joer Gold Store"
+      "name": "4 Joer Gold Store",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Joer Gold Store"
+      "name": "3 Joer Gold Store",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Joer Gold Store"
+      "name": "2 Joer Gold Store",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Joer Gold Store"
+      "name": "1 Joer Gold Store",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Golden Investisseur"
+      "name": "Golden Investisseur",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamant Investisseur"
+      "name": "Diamant Investisseur",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investisseur"
+      "name": "Ruby Investisseur",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Member vun der Superior Communautéit vu Kommunikatiounsnetzwierker"
+      "name": "Member vun der Superior Communautéit vu Kommunikatiounsnetzwierker",
     },
     "GOLD_SUPPLIER": {
-      "name": "Gold Fournisseur"
+      "name": "Gold Fournisseur",
     },
     "GOLD_SELLER": {
-      "name": "Gold Händler"
+      "name": "Gold Händler",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Top Inhalt Produzent"
+      "name": "Top Inhalt Produzent",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Stär"
+      "name": "Stär",
     },
     "GUARDIAN": {
-      "name": "Great Client Service"
+      "name": "Great Client Service",
     },
     "KING": {
-      "name": "Kinnek vum Maart"
-    }
+      "name": "Kinnek vum Maart",
+    },
   },
   "cookie": {
     "title": "Dës Websäit benotzt Cookien",
     "message": "Dës Websäit benotzt Cookien fir d'Benotzererfarung ze verbesseren. Andeems Dir eis Websäit benotzt, averstanen Dir all Cookien am Aklang mat eiser Cookie Politik.",
     "preferences_action": "Managen Preferences",
-    "agree_action": "Ech stëmmen zou"
+    "agree_action": "Ech stëmmen zou",
   },
   "basket_item_message": {
     "title": "Néideg Informatioun fir dësen Artikel",
     "save_actions": "Message späicheren",
+    "product_inputs_preview_message": "Dës Personnalisatiounsoptioune si verfügbar fir Ären bestallte Produkt. Wann den Artikel an Äre Wuerekuerf bäigefüügt ass, kënnt Dir hei Upassunge maachen.",
     "notifications": {
-      "success": "Är Inputdaten goufen gespäichert."
+      "success": "Är Inputdaten goufen gespäichert.",
     },
-    "product_inputs_preview_message": "Dës Personnalisatiounsoptioune si verfügbar fir Ären bestallte Produkt. Wann den Artikel an Äre Wuerekuerf bäigefüügt ass, kënnt Dir hei Upassunge maachen."
   },
   "faq": {
     "faq": "Oft gestallten Froen",
     "title": "Froen an Äntwerten",
-    "sub_title": "Wat Dir eis gefrot hutt ze maachen.",
     "message": "Kuckt no der Äntwert op Är Fro ënnert den Äntwerten hei ënnen. Frot eis wann Froen onbeäntwert bleiwen.",
     "add_question_action": "Stellt nei Fro",
     "read_more": "Liest méi ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Fro",
     "question_input_placeholder": "Stellt Är Fro.",
     "notifications": {
-      "success_add": "Är Fro erfollegräich presentéiert."
-    }
+      "success_add": "Är Fro erfollegräich presentéiert.",
+    },
+    "sub_title": "Wat Dir eis gefrot hutt ze maachen.",
   },
   "rating_labels": [
     "Ganz schlecht",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Gitt Destinatiounsadress un",
     "enter_your_address": "Gitt Är Adress un.",
     "postal_code": "Postleitzuel",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Gebai Zuel",
     "building_unit": "Eenheet",
     "full_name_input": "Vollen Numm {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Adressetikett (erfuerderlech)",
     "notifications": {
       "save_in_list": "Dës Adress gouf op Är Lëscht mat all sengen Detailer gespäichert.",
-      "edit_success": "Nei Adresswäerter gespäichert am {title}."
+      "edit_success": "Nei Adresswäerter gespäichert am {title}.",
     },
     "delete_address_dialog": {
       "title": "Adress läschen",
       "message": "Sidd Dir sécher, datt Dir dës Adress läschen wëllt?",
-      "action": "Adress ewechhuelen"
-    }
+      "action": "Adress ewechhuelen",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Kann dëse Kommentar net änneren!",
     "comment_input_empty": "Message Text ass eidel!",
-    "article_not_saved": "Späichert den Artikel!"
+    "article_not_saved": "Späichert den Artikel!",
   },
   "wheel_fortune": {
     "title": "Spill & gewannen",
     "message": "D'Käschte vun all Spill sinn 10 Chips. Dir hutt de Moment {chips} Chip. Kritt méi Chip andeems Dir aus dem Geschäft kaaft.",
     "win_message": "Gratulatioun, Dir gewënnt!",
     "lost_message": "Entschëllegt, Dir hutt d'Spill verluer.",
-    "try_again": "Dir kënnt nach eng Kéier probéieren"
+    "try_again": "Dir kënnt nach eng Kéier probéieren",
   },
   "json": {
     "add": "Füügt Strukturdaten dobäi",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Strukturen",
     "book": {
       "title": "Buch",
-      "desc": "Buchaktiounen déi d'Benotzer erlaben d'Buch ze kafen, déi se direkt aus de Sichresultater fannen."
+      "desc": "Buchaktiounen déi d'Benotzer erlaben d'Buch ze kafen, déi se direkt aus de Sichresultater fannen.",
     },
     "occupation": {
       "title": "Geschätzte Pai",
-      "desc": "Informatioun iwwer d'Salariatsschätzung, sou wéi d'Gehaltbereich a Regioun-baséiert Pai-Duerchschnëtt fir Aarbechtsarten, ugewisen an der Aarbechtssicherfahrung op Google."
+      "desc": "Informatioun iwwer d'Salariatsschätzung, sou wéi d'Gehaltbereich a Regioun-baséiert Pai-Duerchschnëtt fir Aarbechtsarten, ugewisen an der Aarbechtssicherfahrung op Google.",
     },
     "course": {
       "title": "Course",
-      "desc": "Educatiounscoursen déi an enger Providerspezifesch Lëscht erschéngen. Coursen kënnen de Courstitel, de Fournisseur an eng kuerz Beschreiwung enthalen."
+      "desc": "Educatiounscoursen déi an enger Providerspezifesch Lëscht erschéngen. Coursen kënnen de Courstitel, de Fournisseur an eng kuerz Beschreiwung enthalen.",
     },
     "howto": {
       "title": "Wéi",
-      "desc": "A How-to trëfft d'Benotzer duerch eng Rei vu Schrëtt fir eng Aufgab erfollegräich ofzeschléissen, mat Video, Biller an Text."
+      "desc": "A How-to trëfft d'Benotzer duerch eng Rei vu Schrëtt fir eng Aufgab erfollegräich ofzeschléissen, mat Video, Biller an Text.",
     },
     "recipe": {
       "title": "Rezept",
-      "desc": "Rezepter déi als individuell räich Resultat oder als Deel vun enger Hostkarussell ugewise ginn."
-    }
+      "desc": "Rezepter déi als individuell räich Resultat oder als Deel vun enger Hostkarussell ugewise ginn.",
+    },
   },
   "support": {
     "Financial": "Finanziell",
     "Technical": "Technesch",
-    "Advisor": "Beroder"
+    "Advisor": "Beroder",
   },
   "condition": {
     "new": "Nei",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Benotzt",
     "used_fair": "Benotzt fair",
     "used_good": "Gutt benotzt",
-    "used_like_new": "Benotzt wéi nei"
+    "used_like_new": "Benotzt wéi nei",
   },
   "variant_filter": {
     "title": "Produkt Variant Filter",
-    "only_available": "Op Lager"
+    "only_available": "Op Lager",
   },
   "service": {
     "task": {
       "title": "Aufgaben",
-      "message": "Lëscht vun Aufgaben an dësem Service gemaach."
+      "message": "Lëscht vun Aufgaben an dësem Service gemaach.",
     },
     "appointment": {
       "title": "Rendez-vous",
-      "message": "Wielt d'Zäite vun der Woch aus de folgenden Zäiten baséiert op den Dag an d'Stonn déi fir Iech richteg ass."
+      "message": "Wielt d'Zäite vun der Woch aus de folgenden Zäiten baséiert op den Dag an d'Stonn déi fir Iech richteg ass.",
     },
     "booking": {
       "title": "Buchung",
-      "message": "Gitt d'Zäitperiod vun den Deeg un, déi Dir wëllt reservéieren am Kalenner hei ënnen."
+      "message": "Gitt d'Zäitperiod vun den Deeg un, déi Dir wëllt reservéieren am Kalenner hei ënnen.",
     },
     "subscription": {
-      "title": "Abonnement"
+      "title": "Abonnement",
     },
     "charge": {
-      "title": "Charge"
-    }
+      "title": "Charge",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Fixe Präisser",
-      "message": "An dëser Aart vu Präisser ass de Präis vum Produkt e fixe Betrag an et ass kee Besoin fir de Keefer eng Präisberechnung ze froen."
+      "message": "An dëser Aart vu Präisser ass de Präis vum Produkt e fixe Betrag an et ass kee Besoin fir de Keefer eng Präisberechnung ze froen.",
     },
     "ESTIMATION": {
       "title": "Estimatioun Präisser",
-      "message": "De Präis vun de Produkter a Servicer gëtt zum Deel vum Verkeefer berechent wann Dir eng Bestellung mécht, Bezuelungsrechnungen kënne während dem Service geännert oder bäigefüügt ginn."
+      "message": "De Präis vun de Produkter a Servicer gëtt zum Deel vum Verkeefer berechent wann Dir eng Bestellung mécht, Bezuelungsrechnungen kënne während dem Service geännert oder bäigefüügt ginn.",
     },
     "AGREEMENT": {
       "title": "Accord Präispolitik",
-      "message": "Den definitive Präis vun de Produkter oder Servicer gëtt vum Verkeefer net geännert nodeems d'Bestellung gemaach gouf."
+      "message": "Den definitive Präis vun de Produkter oder Servicer gëtt vum Verkeefer net geännert nodeems d'Bestellung gemaach gouf.",
     },
     "BID": {
       "title": "Offer / Auktioun",
-      "message": "D'Produkt gëtt um héchsten Offerpräis vu potenzielle Keefer verkaaft."
-    }
+      "message": "D'Produkt gëtt um héchsten Offerpräis vu potenzielle Keefer verkaaft.",
+    },
   },
   "map": {
     "title": "Destinatioun fir Produkter ze kréien",
     "confirm": "Setzt Plaz",
     "address": "Destinatioun",
-    "receptor": "Empfänger"
+    "receptor": "Empfänger",
   },
   "ShopBots": {
-    "telegram": "Telegramm"
+    "telegram": "Telegramm",
   },
   "article_tags": {
     "title": "Inhalt Tags",
     "tags_input": "Tags",
     "tags_input_message": "Tags Lëscht vun dësem Artikel",
     "notification": {
-      "add_success": "Tags dobäi"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Ganz komplizéiert",
-    "hard": "Schwéier",
-    "intermediate": "Mëttelméisseg",
-    "easy": "Einfach"
-  },
-  "billing_period": {
-    "Daily": "Deeglech",
-    "Weekly": "Wochemaart",
-    "Monthly": "Mount",
-    "Every3Months": "All 3 Méint",
-    "Every6Months": "All 6 Méint",
-    "Yearly": "Jährlech"
+      "add_success": "Tags dobäi",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och net gutt!",
     "between2_3": "Et ass ok!",
     "between3_4": "D'Leit hunn et gär!",
-    "between4_5": "D'Leit hunn et gär!"
+    "between4_5": "D'Leit hunn et gär!",
   },
   "seasons": {
     "spring": "Fréijoer",
     "summer": "Summer",
     "autumn": "Hierscht",
-    "winter": "Wanter"
-  }
+    "winter": "Wanter",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

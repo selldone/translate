@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Би ашиглалтын нөхцөл, нууцлалын бодлогыг уншсан бөгөөд тэдэнтэй санал нийлж байна.",
   "commons": {
     "Currency": "Валют",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "муж",
     "Price": "Үнэ",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Цэвэр үнэ",
     "tax": "Татвар",
     "tax_included": "Үнэд багтсан",
+    "tax_included_abstract": "зэрэг",
     "limit": "Хязгаар",
     "min_purchase": "Хамгийн бага худалдан авалт",
     "eligible_for": "Эрхтэй",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Үүсгэсэн огноо",
     "updated_at": "Сүүлийн шинэчлэл",
     "register_at": "Бүртгүүлэх огноо",
+    "last_modified": "Last modified",
     "old": "Хуучин",
     "new": "Шинэ",
     "start": "Эхлэх",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Борлуулагч",
     "tracking_code": "Хяналтын код",
     "tracking_url": "Хяналтын URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Биелэлт",
     "reject": "Татгалзах",
     "reserved": "Захиалагдсан",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Хүлээж байна...",
     "waiting_connecting_payment": "Төлбөрийн үйлчилгээг хүлээж байна...",
     "creating_secure_payment": "Аюулгүй төлбөр бий болгох.",
+    "waiting_for_payment": "Төлбөрийг дуусгана уу...",
     "officer": "Офицер",
     "ticket": "Тасалбар",
     "ticket_url": "Тасалбарын URL",
@@ -361,7 +366,6 @@ export default {
     "rates": "Үнэлгээ",
     "seen_at": "Үзсэн",
     "completed": "Дууссан",
-    "you": "Та",
     "shop": "Дэлгүүр",
     "store": "дэлгүүр",
     "granted": "Зөвшөөрөгдсөн",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Таблет",
     "pc": "PC",
     "acquisition_channel": "Худалдан авах суваг",
+    "channels_overview": "Channels overview",
     "to": "руу",
     "info": "Мэдээлэл",
     "general": "Генерал",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Бүтээгдэхүүн бүрт",
     "journey": "Аялал",
     "after": "Дараа нь",
-    "waiting_for_payment": "Төлбөрийг дуусгана уу...",
     "hour": "Цаг",
     "minute": "Минут",
     "premium": "Дээд зэргийн",
@@ -569,6 +573,7 @@ export default {
     "shops": "Дэлгүүрүүд",
     "vendor": "Худалдагч",
     "vendors": "Борлуулагчид",
+    "no_vendors": "No vendors",
     "marketplace": "Зах зээл",
     "verify_date": "Огноог баталгаажуулах",
     "note": "Анхаарна уу",
@@ -604,7 +609,6 @@ export default {
     "variant": "Хувилбар",
     "secure": "Аюулгүй",
     "admin": "админ",
-    "tax_included_abstract": "зэрэг",
     "payment_not_settled": "Төлбөрийг барагдуулаагүй!",
     "orders_list": "Захиалгын жагсаалт",
     "subscription_plan": "Захиалгын төлөвлөгөө",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Кластерууд",
     "subscriptions": "Захиалга",
     "spam": "Спам",
-    "video": "Видео"
+    "video": "Видео",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Та",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Маш төвөгтэй",
+    "hard": "Хэцүү",
+    "intermediate": "Дунд зэрэг",
+    "easy": "Хялбар",
   },
   "dialogs": {
     "delete": {
       "title": "Устгах",
       "message": "Та энэ зүйлийг устгахдаа итгэлтэй байна уу?",
-      "action": "Тийм ээ, одоо устга"
-    }
+      "action": "Тийм ээ, одоо устга",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Картанд нэмэх",
     "cancel": "Цуцлах",
     "update": "Шинэчлэх",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Бэлгийн карт нэмнэ үү",
     "charge": "Цэнэглэх",
     "send_invites": "Урилга илгээх",
-    "past": "Өнгөрсөн",
+    "paste": "Буулгах",
     "restore": "Сэргээх",
     "cut": "Таслах",
     "get_sms_code": "Баталгаажуулах код авах",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Урьдчилан харах",
     "hide_preview": "Урьдчилан үзэхийг нуух",
     "download_now": "Одоо Татах",
+    "watch_now": "Одоо харах",
     "auto_fill": "Автоматаар бөглөх",
     "track": "Мөр",
     "change_state": "Статус өөрчлөх",
     "done": "Дууслаа",
     "reply": "Хариулах",
-    "watch_now": "Одоо харах",
     "unlock": "Түгжээг тайлах",
     "lock": "Түгжих",
     "create_clone": "Клон үүсгэх",
@@ -773,41 +931,71 @@ export default {
     "buy": "Худалдан авах",
     "view_all": "Бүгдийг харах",
     "view_now": "Одоо үзэх",
-    "paste": "Буулгах"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Өнгөрсөн",
+  },
+  "billing_period": {
+    "Daily": "Өдөр бүр",
+    "Weekly": "Долоо хоног бүр",
+    "Monthly": "Сар бүр",
+    "Every3Months": "3 сар тутамд",
+    "Every6Months": "6 сар тутамд",
+    "Yearly": "Жил бүр",
   },
   "instance_message_title": "Шуурхай мессеж илгээх",
   "instance_message": "Сайн уу {name}, миний нэр {company}-н {author}.",
   "errors": {
     "419": "Та удаан хугацаанд идэвхгүй байсан тул ⟳ Аюулгүй байдлын үүднээс <b>ХУУДАСГАА СЭРГЭЭНЭ</b> үү.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Систем нь блокчэйнтэй синхрончлогддоггүй. Манай серверүүдийн синхрончлол дуусах хүртэл шинэ гүйлгээ үүсгэх боломжгүй болно. Бид асуудлыг шийдэж байна.",
-    "gateway_network_error": "Төлбөрийн гарцын үйлчилгээ харилцаа холбооны асуудалтай тулгарлаа."
+    "gateway_network_error": "Төлбөрийн гарцын үйлчилгээ харилцаа холбооны асуудалтай тулгарлаа.",
   },
   "receiver_info": {
     "map": {
       "title": "Хүргэлтийн хаяг",
       "confirm": "Байршлыг тохируулах",
       "address_type": "Очих газар",
-      "receptor_type": "Хүлээн авагч"
+      "receptor_type": "Хүлээн авагч",
     },
     "receiver_address": "Хүргэлтийн хаягийг сонгоно уу",
+    "service_address": "Өөрийн хаягийг сонгоно уу",
+    "select_billing_address": "Select billing address",
     "address": "хаяг",
     "postcode": "Шуудангийн код",
     "enter_value": "Энд бөглөнө үү",
     "address_note": "Анхаарна уу",
     "tel": "Холбогдох дугаар",
-    "service_address": "Өөрийн хаягийг сонгоно уу"
   },
   "weight": {
     "g": "g",
     "oz": "унц",
     "lb": "фунт",
-    "kg": "кг"
+    "kg": "кг",
   },
   "mass_unit_name": {
     "g": "грамм",
     "oz": "Унци",
     "lb": "фунт",
-    "kg": "килограмм"
+    "kg": "килограмм",
   },
   "length": {
     "cm": "см",
@@ -815,7 +1003,7 @@ export default {
     "ft": "фут",
     "mm": "мм",
     "m": "м",
-    "yd": "Яд"
+    "yd": "Яд",
   },
   "size_unit_name": {
     "cm": "Сантиметр",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Хөл",
     "mm": "миллиметр",
     "m": "метр",
-    "yd": "Хашаа"
+    "yd": "Хашаа",
   },
   "distance": {
     "m": "метр",
-    "km": "км"
+    "km": "км",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Өдөр",
     "hours": "Цаг",
     "minutes": "Минут",
-    "seconds": "Секунд"
+    "seconds": "Секунд",
   },
   "units": [
     "Нэгж",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "муж",
     "Territory": "Нутаг дэвсгэр",
-    "Province": "муж"
+    "Province": "муж",
   },
   "transaction_status": {
     "RequireAction": "Үйлдэл хийх шаардлагатай",
     "Processing": "Боловсруулж байна",
     "Canceled": "Цуцлагдсан",
-    "Succeeded": "Амжилттай"
+    "Succeeded": "Амжилттай",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Жон Кокс",
@@ -885,7 +1078,17 @@ export default {
     "language": "Хэл сонгох..",
     "friend_email": "Таны найзын имэйл...",
     "friend_name": "Сонголт. Таны найзын нэр",
-    "select_date": "Огноо сонгоно уу..."
+    "select_date": "Огноо сонгоно уу...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Баталгаажуулах",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Хамгийн ихдээ {maxCount} тэмдэгт",
     "invalid_url": "Хүчингүй URL",
     "country_invalid": "Очих улсаа сонго!",
-    "postal_code_invalid": "Хүчинтэй шуудангийн код тохируул!"
+    "postal_code_invalid": "Хүчинтэй шуудангийн код тохируул!",
   },
   "colors": {
     "#D32F2F": "Улаан",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Нэгж",
     "postcode": "Шуудангийн код",
     "note": "Анхаарна уу",
-    "county": "County"
+    "county": "County",
   },
   "product_types": {
     "physical": "Физик",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Үйлчилгээ",
     "service_description": "Засвар, тээвэрлэлт, заах зэрэг үйлчилгээ.",
     "subscription": "Захиалга",
-    "subscription_description": "Бүтээгдэхүүн, үйлчилгээ, контентын захиалга, нэхэмжлэх."
+    "subscription_description": "Бүтээгдэхүүн, үйлчилгээ, контентын захиалга, нэхэмжлэх.",
   },
   "license": {
     "free": "Үнэгүй",
     "startup": "Эхлэл",
     "company": "Компани",
-    "enterprise": "Аж ахуйн нэгж"
+    "enterprise": "Аж ахуйн нэгж",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Өнгө",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Багцанд тоол",
     "weight": "Жин",
     "type": "Материал",
-    "style": "Загвар"
+    "style": "Загвар",
   },
   "delivery_state": {
     "check_queue": "Шалгалт хүлээж байна",
     "order_confirm": "Захиалга баталгаажуулах",
     "preparing_order": "Бэлтгэж байна",
     "sent_order": "Хүргэлт дээр",
-    "to_customer": "Хүргэсэн"
+    "to_customer": "Хүргэсэн",
   },
   "status": {
     "unpaid": "Төлбөргүй",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Татгалзах",
     "pending": "Хүлээгдэж байна",
     "rejected": "Татгалзсан",
-    "accepted": "Хүлээн зөвшөөрсөн"
+    "accepted": "Хүлээн зөвшөөрсөн",
   },
   "dimensions": {
     "cm": "см",
     "km": "км",
-    "kg": "кг"
+    "kg": "кг",
   },
   "transportation_type": {
     "motorbike": "Мотоцикль",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Дэлхийн тээвэр",
     "global_description": "Хилийн чанад руу агаар, далай эсвэл хуурай замаар тээвэрлэх.",
     "pickup": "Татаж авах",
-    "pickup_description": "Үйлчлүүлэгчид таны биет дэлгүүр эсвэл агуулахаас бараагаа авдаг."
+    "pickup_description": "Үйлчлүүлэгчид таны биет дэлгүүр эсвэл агуулахаас бараагаа авдаг.",
   },
   "article": {
     "login_to_see_error": "Нийтлэл рүү нэвтрэхийн тулд нэвтэрнэ үү",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Засварлах горим",
       "view_mode": "Харах горим",
-      "delete": "Нийтлэлийг устгах"
+      "delete": "Нийтлэлийг устгах",
     },
     "schedule_action": "Та нийтлэлээ төлөвлөхийг хүсч байна уу?",
     "schedule_title": "Автоматаар нийтлэх хуваарь",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Зохисгүй ашиглалтын талаар мэдээлэх, агуулгыг устгах",
       "report_title": "Энэ агуулгыг доромжилсон гэж мэдээлнэ үү",
       "message": "Энэ агуулгыг оруулах болсон шалтгаан нь юу вэ? Дараах сонголтуудаас аль нэгийг нь сонгоно уу.",
-      "accept_and_delete_action": "Агуулгыг баталгаажуулж, устгана уу"
+      "accept_and_delete_action": "Агуулгыг баталгаажуулж, устгана уу",
     },
     "schedule_dialog": {
       "title": "Агуулга гаргах хуваарь",
       "publish_at": "Нийтлэх",
       "last_edit": "Сүүлийн засвар",
-      "view_action": "Нийтлэлийг үзэх"
+      "view_action": "Нийтлэлийг үзэх",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Мэдээлэл оруулах",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Мэдээлэх, устгах",
       "report_and_delete_success_message": "Нийтлэлийг амжилттай устгалаа.",
       "report_success_title": "Тайлан нийтлэл",
-      "report_success_message": "Энэ нийтлэлийн талаарх таны тайлан нийтлэгдсэн байна."
+      "report_success_message": "Энэ нийтлэлийн талаарх таны тайлан нийтлэгдсэн байна.",
     },
     "alert": {
       "delete_article": {
         "title": "Нийтлэлийг устгах",
         "message": "Та энэ нийтлэлийг бүрмөсөн устгахдаа итгэлтэй байна уу?",
-        "action": "Устгах"
-      }
+        "action": "Устгах",
+      },
     },
     "edit_window": {
       "title": "Зургийн текст болон хураангуйг сонгоно уу",
-      "digest": "Дүгнэлт"
+      "digest": "Дүгнэлт",
     },
     "editor": {
       "title_placeholder": "Гарчиг..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Энэ файл хэт том байна:",
       "notifications": {
         "image_uploaded_success": "Зургийг амжилттай хадгаллаа",
-        "image_uploaded_failed": "Зургийг ачаалахад алдаа гарлаа."
+        "image_uploaded_failed": "Зургийг ачаалахад алдаа гарлаа.",
       },
       "embed_placeholder": "iframe код, Facebook, Youtube эсвэл бусад URL-г оруулаад enter дарна уу.",
       "embed_caption_placeholder": "Гарчиг оруулна уу (заавал биш)",
-      "images_caption_placeholder": "Энэ зургийн гарчиг оруулна уу.."
-    }
+      "images_caption_placeholder": "Энэ зургийн гарчиг оруулна уу..",
+    },
   },
   "article_report": {
     "inappropriate": "Энэ нийтлэлийн агуулга тохиромжгүй байна.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Энэ контент нь садар самууныг агуулсан, хууль зөрчсөн гэж бодож байна.",
     "harassment": "Энэ бол арьс өнгөөр ялгаварлан гадуурхах явдал гэж би бодож байна.",
     "hate": "Энэ бол хүчирхийллийг сурталчлах явдал гэж би бодож байна.",
-    "infringe": "Энэ нь миний эрхийг зөрчиж байна."
+    "infringe": "Энэ нь миний эрхийг зөрчиж байна.",
   },
   "comments": {
     "new_action": "Сэтгэгдэл үлдээхийн тулд дарна уу..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Илүү олон сэтгэгдэл аваарай..",
     "cant_send_comment": "Та шинэ нийтлэл нэмэх боломжгүй.",
     "cant_remove_this_comment": "Та энэ сэтгэгдлийг устгах боломжгүй!",
-    "product_buyer": "Худалдан авагч",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Миний сэтгэгдэл",
     "delete_alert": {
       "title": "Сэтгэгдэл устгах",
       "message": "Та энэ сэтгэгдлийг устгахыг хүсэж байна уу?",
-      "action": "Устгах"
+      "action": "Устгах",
     },
     "notifications": {
-      "delete_success": "Таны сэтгэгдлийг амжилттай устгалаа."
+      "delete_success": "Таны сэтгэгдлийг амжилттай устгалаа.",
     },
     "first_send": "Эхний бичлэг",
     "comment_at": "Асаалттай",
     "edit_comment": "Сэтгэгдэл засах",
-    "my_comments": "Миний сэтгэгдэл"
+    "product_buyer": "Худалдан авагч",
   },
   "customer_club": {
     "bronze": "Хүрэл",
     "silver": "Мөнгө",
     "gold": "Алтан",
     "platinum": "Платинум",
-    "diamond": "Алмаз"
+    "diamond": "Алмаз",
   },
   "application_categories": {
     "tracking": "Хэрэглэгчийн зан төлөвийг шалгаж байна",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Зар сурталчилгаа",
     "staff": "Ажилтнууд",
     "incentive": "Урамшуулал",
-    "shop": "Дэлгүүр"
+    "shop": "Дэлгүүр",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Шинэ зүйл нэмнэ үү",
     "title_input": "Гарчиг",
+    "placeholder_input": "Орлуулагч",
     "name_input": "Хувьсагчийн нэр",
     "value_input": "Үнэ цэнэ",
     "value_input_message": "Хэрэглэгчийн сонголтуудын жагсаалт",
     "default": "Өгөгдмөл утга",
+    "file_type_input": "Зөвшөөрөгдсөн файлын төрлүүд",
+    "file_type_message": "jpeg, png, зип, ...",
     "types": {
       "simple": "Энгийн",
       "selective": "Сонгодог",
       "switch": "Солих",
       "file": "Файл",
-      "number": "Тоо"
+      "number": "Тоо",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Орлуулагч",
-    "file_type_input": "Зөвшөөрөгдсөн файлын төрлүүд",
-    "file_type_message": "jpeg, png, зип, ..."
   },
   "virtual_order_info_summery": {
     "title": "Бүтээгдэхүүний нэр",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Төлбөрийн төлөв",
     "payment_status_waiting": "Төлбөрийг хүлээж байна",
     "payment_status_paid": "Төлбөртэй",
-    "buyer": "Худалдан авагч"
+    "buyer": "Худалдан авагч",
   },
   "virtual_item_info": {
     "title": "Виртуал зүйл",
     "outputs": {
       "title": "Гаралтын мэдээлэл",
       "sub_title": "Энэ зүйлийн нууц мэдээлэл",
-      "message": "Бүтээгдэхүүнийг худалдан авсны дараа энэ мэдээллийг хэрэглэгчдэд харуулах болно."
+      "message": "Бүтээгдэхүүнийг худалдан авсны дараа энэ мэдээллийг хэрэглэгчдэд харуулах болно.",
     },
     "inputs": {
       "title": "Шаардлагатай мэдээлэл",
       "sub_title": "Худалдан авагчийн мэдээлэл шаардлагатай",
-      "message": "Худалдан авагч нь хүссэн мэдээллээ маягтанд оруулах ёстой"
+      "message": "Худалдан авагч нь хүссэн мэдээллээ маягтанд оруулах ёстой",
     },
     "notifications": {
       "inputs_set_success": "Мэдээллийн маягтыг амжилттай бүртгүүллээ.",
       "confirm_by_admin_success": "Захиалгын гүйцэтгэлийг баталгаажууллаа.",
-      "confirm_by_buyer_success": "Захиалгын гүйцэтгэлийг баталгаажууллаа."
-    }
+      "confirm_by_buyer_success": "Захиалгын гүйцэтгэлийг баталгаажууллаа.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Энэ захиалгыг COD төлбөр хүлээн авах боломжгүй.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Зарагдаж дууссан.",
     "legal_restriction": "Хуулийн хязгаарлалтын улмаас захиалга өгөх боломжгүй.",
     "pricing_fault": "Худалдагчийн үнийн алдаа.",
-    "system_fault": "Системийн алдаа."
+    "system_fault": "Системийн алдаа.",
   },
   "basket_order_info_summery": {
     "receiver": "Хүлээн авагч",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Хөнгөлөлт",
     "final_price": "Эцсийн дүн",
     "address": "Хүргэлтийн хаяг",
-    "payment_status": "Төлбөрийн төлөв"
+    "payment_status": "Төлбөрийн төлөв",
   },
   "basket_status": {
     "open": "Нээлттэй",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Цуцлагдсан",
     "cod": "Хүргэлтээр төлнө",
     "receipt_added": "Баримт нэмсэн",
-    "payment_processing": "Төлбөрийн боловсруулалт"
+    "payment_processing": "Төлбөрийн боловсруулалт",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Татгалзсан",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Баталгаажуулалт",
     "step_3": "Бэлтгэл",
     "step_4": "Хүргэлт дээр",
-    "step_5": "Хүргэсэн"
+    "step_5": "Хүргэсэн",
   },
   "basket_return_request_view": {
     "title": "Буцаах хүсэлт",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Хүсэлтийг татгалзах",
     "message_for_admin": "Selldone-г ашигласнаар та хүлээн зөвшөөрсөн гэрээний дагуу та худалдан авагчтай холбоо барьж, захиалгаа буцааж өгөх үйл явцын талаар мэдээлэл өгөх ёстой. Хүсэлтийг хүлээн авсан эсвэл татгалзсан, худалдан авагчийн бүрэн зөвшөөрлийг авсан тохиолдолд үүнийг хийх ёстой.",
     "notifications": {
-      "update_status_success": "Хүсэлтийн статус шинэчлэгдсэн."
-    }
+      "update_status_success": "Хүсэлтийн статус шинэчлэгдсэн.",
+    },
   },
   "basket_list": {
     "return_count": "Буцах: {count} тоо",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Хувилбар",
       "warranty": "Баталгаат хугацаа",
       "count": "Тоол",
-      "price": "Үнэ"
-    }
+      "price": "Үнэ",
+    },
   },
   "return_request_list": {
     "count": "Лавлах дугаар",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Хүлээн авсан огноо",
       "state": "Статус",
       "reason": "Шалтгаан",
-      "return_warranty_period": "Баталгаат хугацаа"
-    }
+      "return_warranty_period": "Баталгаат хугацаа",
+    },
   },
   "data_toolbar": {
     "search": "Хайх",
     "sort_by": "Эрэмбэлэх",
-    "count_item": "{item} зүйлийг харуулах"
+    "count_item": "{item} зүйлийг харуулах",
   },
   "sort": {
     "created_at": "Огноо үүсгэх",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Офицер",
     "registered": "Бүртгүүлсэн",
     "purchased": "Худалдан авсан",
-    "sex": "Хүйс"
+    "sex": "Хүйс",
   },
   "search_box": {
     "result": "Хайлтын үр дүн",
     "tips": "Бүтээгдэхүүн, ангилал хайх",
     "label": "Хайх ...",
-    "category": "Ангилал"
+    "category": "Ангилал",
   },
   "lead_status": {
     "physical_fast_delivery": "Шууд хүргэлт",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Дараагийн {days} хоногоос бэлдэж, илгээж байна",
     "virtual_fast_prepare": "Шууд хүргэлт",
     "virtual_under_24h": "Дараагийн {lead} цагийн дотор хийгдэнэ",
-    "virtual_over_24h": "Дараагийн {days} өдрөөс эхлэн хийгдэнэ"
+    "virtual_over_24h": "Дараагийн {days} өдрөөс эхлэн хийгдэнэ",
   },
   "return_request_state": {
     "pending": "Хүлээгдэж байна",
     "accepted": "Батлагдсан",
-    "rejected": "Татгалзсан"
+    "rejected": "Татгалзсан",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Багц эсвэл серийн дугаарыг өөрчлөх",
       "U5": "Илгээмжийн зарим зүйл дутуу байна",
       "U6": "Бүтээгдэхүүн оригинал биш",
-      "U7": "Бүтээгдэхүүн нь техникийн үзүүлэлтийг хангахгүй байна"
-    }
+      "U7": "Бүтээгдэхүүн нь техникийн үзүүлэлтийг хангахгүй байна",
+    },
   },
   "image_uploader": {
     "label": "Чирэх, буулгах эсвэл <u>файл сонгох</u>",
-    "max_size": "Зөвшөөрөгдсөн дээд хэмжээ: {size}"
+    "max_size": "Зөвшөөрөгдсөн дээд хэмжээ: {size}",
   },
   "timespan": {
     "Morning": "Өглөөний 8-12 цаг",
     "Evening": "12 цагаас оройн 6 цаг хүртэл",
     "Night": "18.00-12.00",
-    "Instant": "Шуурхай нийтлэл"
+    "Instant": "Шуурхай нийтлэл",
   },
   "week_day": {
     "Saturday": "Бямба гариг",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Мягмар гараг",
     "Wednesday": "Лхагва гараг",
     "Thursday": "Пүрэв гараг",
-    "Friday": "Баасан гараг"
+    "Friday": "Баасан гараг",
   },
   "payment_form": {
     "title": "Төлбөрийн аргыг сонгоно уу",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Баяр хүргэе, таны захиалга үнэгүй!",
     "order_free_payment_action": "Яг одоо үнэгүй захиалаарай",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Төлбөрийн хаяг",
-      "amount": "Дүн"
-    }
+      "amount": "Дүн",
+    },
   },
   "discount_input": {
     "limit": "{currency} {limit} хүртэлх {percent}%-ийн хөнгөлөлт",
     "action": "Хөнгөлөлтийн код нэмнэ үү",
     "code_input": "Хөнгөлөлтийн код",
     "notifications": {
-      "add_success": "Баяр хүргэе, хөнгөлөлтийн код хүчинтэй."
-    }
+      "add_success": "Баяр хүргэе, хөнгөлөлтийн код хүчинтэй.",
+    },
   },
   "gift_card": {
     "inactive": "Карт идэвхгүй байна",
     "expire": "Хугацаа дуусах",
     "transfer": "Дамжуулах",
-    "send_to_friend": "Найздаа илгээнэ үү"
+    "send_to_friend": "Найздаа илгээнэ үү",
   },
   "count_down": {
     "days": "Өдөр",
     "hours": "Цаг",
     "minutes": "Минут",
-    "seconds": "Секунд"
+    "seconds": "Секунд",
   },
   "gift_status": {
     "Unpaid": "Хүлээн авахыг хүлээж байна",
     "Paid": "Төлбөртэй",
     "Rejected": "Татгалзсан",
-    "Canceled": "Цуцлагдсан"
+    "Canceled": "Цуцлагдсан",
   },
   "gift_program_status": {
     "Airdrop": "Төлбөрийн систем",
     "Advertising": "Зар сурталчилгаа",
     "PersonalGift": "Хувийн бэлэг",
-    "ShopGift": "Бэлэг дурсгалын дэлгүүр"
+    "ShopGift": "Бэлэг дурсгалын дэлгүүр",
   },
   "currency_selector": {
-    "label": "Валют"
+    "label": "Валют",
   },
   "need_login": {
     "title": "нэвтрэх",
     "login_sms": "SMS нэвтрэх",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Google-ээр нэвтэрнэ үү",
     "login_facebook": "Facebook-ээр нэвтэрнэ үү",
+    "login_apple": "Apple-ээр нэвтэрнэ үү",
     "login_account": "Selldone-ээр нэвтэрнэ үү",
     "register": "Шинэ хэрэглэгч? Яг одоо бүртгүүл.",
     "mobile_input": "Гар утсаа оруулна уу",
     "verification_code": "Баталгаажуулах код",
     "msg_title": "Сайн уу",
     "msg_body": "Та нэвтэрнэ үү. Энэ нь хэдхэн секунд болно.",
-    "login_apple": "Apple-ээр нэвтэрнэ үү",
     "login_email": "Имэйлээр нэвтэрнэ үү",
     "email_login_step_1": "Хүчинтэй и-мэйл хаягаа оруулна уу, бид түүнд нэвтрэх кодыг илгээх болно. Бүртгүүлэх шаардлагагүй.",
     "email_login_step_2": "Та имэйл хаягаа зөв оруулсан гэдэгтээ итгэлтэй байна уу? Бид оруулсан имэйл рүү нэвтрэх кодыг илгээх тул түүний үнэн зөвийг шалгана уу.",
-    "email_login_step_3": "Бид таны имэйл рүү код илгээсэн. Кодын хугацаа 10 минутын дараа дуусна гэдгийг анхаарна уу."
+    "email_login_step_3": "Бид таны имэйл рүү код илгээсэн. Кодын хугацаа 10 минутын дараа дуусна гэдгийг анхаарна уу.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 жилийн алтны дэлгүүр"
+      "name": "5 жилийн алтны дэлгүүр",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 жилийн алтны дэлгүүр"
+      "name": "4 жилийн алтны дэлгүүр",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 жилийн алтны дэлгүүр"
+      "name": "3 жилийн алтны дэлгүүр",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 жилийн алтны дэлгүүр"
+      "name": "2 жилийн алтны дэлгүүр",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 жилийн алтны дэлгүүр"
+      "name": "1 жилийн алтны дэлгүүр",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Алтан хөрөнгө оруулагч"
+      "name": "Алтан хөрөнгө оруулагч",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Алмазан хөрөнгө оруулагч"
+      "name": "Алмазан хөрөнгө оруулагч",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Руби хөрөнгө оруулагч"
+      "name": "Руби хөрөнгө оруулагч",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Харилцаа холбооны сүлжээний дээд нийгэмлэгийн гишүүн"
+      "name": "Харилцаа холбооны сүлжээний дээд нийгэмлэгийн гишүүн",
     },
     "GOLD_SUPPLIER": {
-      "name": "Алт нийлүүлэгч"
+      "name": "Алт нийлүүлэгч",
     },
     "GOLD_SELLER": {
-      "name": "Алт дилер"
+      "name": "Алт дилер",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Шилдэг контент үйлдвэрлэгч"
+      "name": "Шилдэг контент үйлдвэрлэгч",
     },
     "NINJA": {
-      "name": "Нинжа"
+      "name": "Нинжа",
     },
     "STAR": {
-      "name": "Од"
+      "name": "Од",
     },
     "GUARDIAN": {
-      "name": "Хэрэглэгчийн гайхалтай үйлчилгээ"
+      "name": "Хэрэглэгчийн гайхалтай үйлчилгээ",
     },
     "KING": {
-      "name": "Зах зээлийн хаан"
-    }
+      "name": "Зах зээлийн хаан",
+    },
   },
   "cookie": {
     "title": "Энэ вэбсайт нь күүки ашигладаг",
     "message": "Энэхүү вэбсайт нь хэрэглэгчийн туршлагыг сайжруулах зорилгоор күүки ашигладаг. Манай вэбсайтыг ашигласнаар та манай күүкийн бодлогын дагуу бүх күүки ашиглахыг зөвшөөрч байна.",
     "preferences_action": "Тохиргоог удирдах",
-    "agree_action": "Би зөвшөөрч байна"
+    "agree_action": "Би зөвшөөрч байна",
   },
   "basket_item_message": {
     "title": "Энэ зүйлд шаардлагатай мэдээлэл",
     "save_actions": "Зурвас хадгалах",
+    "product_inputs_preview_message": "Эдгээр тохируулгын сонголтууд таны захиалсан бүтээгдэхүүнд боломжтой. Тухайн зүйлийг сагсандаа нэмсний дараа та энд тохируулга хийх боломжтой болно.",
     "notifications": {
-      "success": "Таны оруулсан өгөгдөл хадгалагдлаа."
+      "success": "Таны оруулсан өгөгдөл хадгалагдлаа.",
     },
-    "product_inputs_preview_message": "Эдгээр тохируулгын сонголтууд таны захиалсан бүтээгдэхүүнд боломжтой. Тухайн зүйлийг сагсандаа нэмсний дараа та энд тохируулга хийх боломжтой болно."
   },
   "faq": {
     "faq": "Түгээмэл асуултууд",
     "title": "Асуултууд ба хариултууд",
-    "sub_title": "Та биднээс юу хийхийг хүссэн.",
     "message": "Асуултынхаа хариултыг доорх хариултуудаас хайна уу. Асуулт хариултгүй хэвээр байвал биднээс асуу.",
     "add_question_action": "Шинэ асуулт асуу",
     "read_more": "Цааш унших ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Асуулт",
     "question_input_placeholder": "Асуултаа асуу.",
     "notifications": {
-      "success_add": "Таны асуултыг амжилттай илгээлээ."
-    }
+      "success_add": "Таны асуултыг амжилттай илгээлээ.",
+    },
+    "sub_title": "Та биднээс юу хийхийг хүссэн.",
   },
   "rating_labels": [
     "Маш муу",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Очих хаягаа оруулна уу",
     "enter_your_address": "хаягаа оруулна уу.",
     "postal_code": "Шуудангийн код",
-    "phone_input": "Утас {type}",
+    "phone_input": "Утас",
     "building_number": "Барилгын дугаар",
     "building_unit": "Нэгж",
     "full_name_input": "Бүтэн нэр {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Хаягийн шошго (шаардлагатай)",
     "notifications": {
       "save_in_list": "Энэ хаягийг бүх дэлгэрэнгүй мэдээлэлтэй нь таны жагсаалтад хадгаллаа.",
-      "edit_success": "Шинэ хаягийн утгыг {title}-д хадгалсан."
+      "edit_success": "Шинэ хаягийн утгыг {title}-д хадгалсан.",
     },
     "delete_address_dialog": {
       "title": "Хаяг устгах",
       "message": "Та энэ хаягийг устгахдаа итгэлтэй байна уу?",
-      "action": "Хаяг арилгах"
-    }
+      "action": "Хаяг арилгах",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Энэ сэтгэгдлийг засах боломжгүй!",
     "comment_input_empty": "Мессежийн текст хоосон байна!",
-    "article_not_saved": "Нийтлэлийг хадгалаарай!"
+    "article_not_saved": "Нийтлэлийг хадгалаарай!",
   },
   "wheel_fortune": {
     "title": "Тоглож, хож",
     "message": "Тоглоом бүрийн үнэ нь 10 чип юм. Танд одоогоор {chips} чип байна. Дэлгүүрээс худалдаж аваад илүү их чип аваарай.",
     "win_message": "Баяр хүргэе, чи яллаа!",
     "lost_message": "Уучлаарай, та хожигдсон.",
-    "try_again": "Та дахин оролдож болно"
+    "try_again": "Та дахин оролдож болно",
   },
   "json": {
     "add": "Бүтцийн өгөгдөл нэмэх",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Бүтэцүүд",
     "book": {
       "title": "Ном",
-      "desc": "Хэрэглэгчдэд хайлтын илэрцээс олсон номоо шууд худалдан авах боломжийг олгодог номын үйлдлүүд."
+      "desc": "Хэрэглэгчдэд хайлтын илэрцээс олсон номоо шууд худалдан авах боломжийг олгодог номын үйлдлүүд.",
     },
     "occupation": {
       "title": "Тооцоолсон цалин",
-      "desc": "Цалингийн хүрээ, ажлын төрлүүдийн бүс нутагт суурилсан дундаж цалин зэрэг цалингийн тооцооллын талаарх мэдээллийг Google дээрх ажил хайх туршлагад харуулдаг."
+      "desc": "Цалингийн хүрээ, ажлын төрлүүдийн бүс нутагт суурилсан дундаж цалин зэрэг цалингийн тооцооллын талаарх мэдээллийг Google дээрх ажил хайх туршлагад харуулдаг.",
     },
     "course": {
       "title": "Мэдээж",
-      "desc": "Тусгай үйлчилгээ үзүүлэгчийн жагсаалтад харагдах боловсролын курсууд. Хичээлүүд нь сургалтын нэр, үйлчилгээ үзүүлэгч, товч тайлбарыг багтааж болно."
+      "desc": "Тусгай үйлчилгээ үзүүлэгчийн жагсаалтад харагдах боловсролын курсууд. Хичээлүүд нь сургалтын нэр, үйлчилгээ үзүүлэгч, товч тайлбарыг багтааж болно.",
     },
     "howto": {
       "title": "Яаж",
-      "desc": "Хэрхэн хийх заавар нь видео, зураг, текст агуулсан даалгаврыг амжилттай гүйцэтгэхийн тулд хэрэглэгчдэд зориулсан хэд хэдэн алхмуудыг гүйцэтгэдэг."
+      "desc": "Хэрхэн хийх заавар нь видео, зураг, текст агуулсан даалгаврыг амжилттай гүйцэтгэхийн тулд хэрэглэгчдэд зориулсан хэд хэдэн алхмуудыг гүйцэтгэдэг.",
     },
     "recipe": {
       "title": "Жор",
-      "desc": "Хувь хүний баялаг үр дүн эсвэл үндсэн тойруулгын хэсэг болгон харуулсан жор."
-    }
+      "desc": "Хувь хүний баялаг үр дүн эсвэл үндсэн тойруулгын хэсэг болгон харуулсан жор.",
+    },
   },
   "support": {
     "Financial": "Санхүүгийн",
     "Technical": "Техникийн",
-    "Advisor": "Зөвлөх"
+    "Advisor": "Зөвлөх",
   },
   "condition": {
     "new": "Шинэ",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Ашигласан",
     "used_fair": "Ашигласан үзэсгэлэн худалдаа",
     "used_good": "Сайн ашигласан",
-    "used_like_new": "Шинэ юм шиг ашигласан"
+    "used_like_new": "Шинэ юм шиг ашигласан",
   },
   "variant_filter": {
     "title": "Бүтээгдэхүүний хувилбар шүүлтүүр",
-    "only_available": "Нөөцөд байна"
+    "only_available": "Нөөцөд байна",
   },
   "service": {
     "task": {
       "title": "Даалгаврууд",
-      "message": "Энэ үйлчилгээнд гүйцэтгэсэн ажлуудын жагсаалт."
+      "message": "Энэ үйлчилгээнд гүйцэтгэсэн ажлуудын жагсаалт.",
     },
     "appointment": {
       "title": "Уулзалт",
-      "message": "Дараах цагуудаас өөрт тохирох өдөр, цагийг харгалзан долоо хоногийн цагийг сонго."
+      "message": "Дараах цагуудаас өөрт тохирох өдөр, цагийг харгалзан долоо хоногийн цагийг сонго.",
     },
     "booking": {
       "title": "Захиалга",
-      "message": "Доорх хуанли дээр захиалга хийх өдрүүдийнхээ хугацааг зааж өгнө үү."
+      "message": "Доорх хуанли дээр захиалга хийх өдрүүдийнхээ хугацааг зааж өгнө үү.",
     },
     "subscription": {
-      "title": "Захиалга"
+      "title": "Захиалга",
     },
     "charge": {
-      "title": "Цэнэглэх"
-    }
+      "title": "Цэнэглэх",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Тогтмол үнэ тогтоох",
-      "message": "Энэ төрлийн үнийн хувьд бүтээгдэхүүний үнэ нь тогтсон үнэ бөгөөд худалдан авагч үнийн тооцоолол хийх хүсэлт гаргах шаардлагагүй болно."
+      "message": "Энэ төрлийн үнийн хувьд бүтээгдэхүүний үнэ нь тогтсон үнэ бөгөөд худалдан авагч үнийн тооцоолол хийх хүсэлт гаргах шаардлагагүй болно.",
     },
     "ESTIMATION": {
       "title": "Үнийн тооцоолол",
-      "message": "Бүтээгдэхүүн, үйлчилгээний үнийг худалдагч захиалга өгөхдөө тодорхой хэмжээгээр тооцож, үйлчилгээний явцад төлбөрийн нэхэмжлэхийг өөрчлөх, нэмэх боломжтой."
+      "message": "Бүтээгдэхүүн, үйлчилгээний үнийг худалдагч захиалга өгөхдөө тодорхой хэмжээгээр тооцож, үйлчилгээний явцад төлбөрийн нэхэмжлэхийг өөрчлөх, нэмэх боломжтой.",
     },
     "AGREEMENT": {
       "title": "Үнийн тохиролцоо",
-      "message": "Бүтээгдэхүүн, үйлчилгээний эцсийн үнийг худалдагч захиалга өгсний дараа өөрчлөхгүй."
+      "message": "Бүтээгдэхүүн, үйлчилгээний эцсийн үнийг худалдагч захиалга өгсний дараа өөрчлөхгүй.",
     },
     "BID": {
       "title": "Үнийн санал / дуудлага худалдаа",
-      "message": "Бүтээгдэхүүнийг боломжит худалдан авагчдын санал болгож буй хамгийн өндөр үнээр худалдах болно."
-    }
+      "message": "Бүтээгдэхүүнийг боломжит худалдан авагчдын санал болгож буй хамгийн өндөр үнээр худалдах болно.",
+    },
   },
   "map": {
     "title": "Бүтээгдэхүүн хүлээн авах газар",
     "confirm": "Байршлыг тохируулах",
     "address": "Очих газар",
-    "receptor": "Хүлээн авагч"
+    "receptor": "Хүлээн авагч",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Агуулгын шошго",
     "tags_input": "Шошго",
     "tags_input_message": "Энэ нийтлэлийн шошго жагсаалт",
     "notification": {
-      "add_success": "Шошго нэмсэн"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Маш төвөгтэй",
-    "hard": "Хэцүү",
-    "intermediate": "Дунд зэрэг",
-    "easy": "Хялбар"
-  },
-  "billing_period": {
-    "Daily": "Өдөр бүр",
-    "Weekly": "Долоо хоног бүр",
-    "Monthly": "Сар бүр",
-    "Every3Months": "3 сар тутамд",
-    "Every6Months": "6 сар тутамд",
-    "Yearly": "Жил бүр"
+      "add_success": "Шошго нэмсэн",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Өө сайн биш!",
     "between2_3": "Зүгээр дээ!",
     "between3_4": "Хүмүүст таалагдаж байна!",
-    "between4_5": "Хүмүүс үүнд дуртай!"
+    "between4_5": "Хүмүүс үүнд дуртай!",
   },
   "seasons": {
     "spring": "Хавар",
     "summer": "Зун",
     "autumn": "Намар",
-    "winter": "Өвөл"
-  }
+    "winter": "Өвөл",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

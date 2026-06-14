@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Tôi đã đọc các điều khoản sử dụng và chính sách bảo mật và đồng ý với chúng.",
   "commons": {
     "Currency": "Tiền tệ",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Trạng thái",
     "Price": "giá",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Giá ròng",
     "tax": "Thuế",
     "tax_included": "Đã bao gồm trong giá",
+    "tax_included_abstract": "bao gồm",
     "limit": "Giới hạn",
     "min_purchase": "Mua tối thiểu",
     "eligible_for": "Đủ điều kiện cho",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Ngày tạo ra",
     "updated_at": "Cập nhật cuối cùng",
     "register_at": "Ngày đăng ký",
+    "last_modified": "Last modified",
     "old": "Cũ",
     "new": "Mới mẻ",
     "start": "Khởi đầu",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Người bán lại",
     "tracking_code": "Mã theo dõi",
     "tracking_url": "URL theo dõi",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Thực hiện",
     "reject": "Từ chối",
     "reserved": "Để dành",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Chờ...",
     "waiting_connecting_payment": "Đang chờ dịch vụ thanh toán ...",
     "creating_secure_payment": "Tạo thanh toán an toàn.",
+    "waiting_for_payment": "Vui lòng hoàn tất thanh toán ...",
     "officer": "Nhân viên văn phòng",
     "ticket": "Vé",
     "ticket_url": "Url vé",
@@ -361,7 +366,6 @@ export default {
     "rates": "Xếp hạng",
     "seen_at": "Đã nhìn thấy tại",
     "completed": "Hoàn thành",
-    "you": "Bạn",
     "shop": "Cửa hàng",
     "store": "cửa hàng",
     "granted": "Được cấp",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Máy tính bảng",
     "pc": "PC",
     "acquisition_channel": "Kênh chuyển đổi",
+    "channels_overview": "Channels overview",
     "to": "Đến",
     "info": "Thông tin",
     "general": "Chung",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Mỗi sản phẩm",
     "journey": "Chuyến đi",
     "after": "Sau",
-    "waiting_for_payment": "Vui lòng hoàn tất thanh toán ...",
     "hour": "Giờ",
     "minute": "Phút",
     "premium": "Phần thưởng",
@@ -569,6 +573,7 @@ export default {
     "shops": "Cửa hàng",
     "vendor": "Người bán",
     "vendors": "Nhà cung cấp",
+    "no_vendors": "No vendors",
     "marketplace": "Thương trường",
     "verify_date": "Xác minh ngày",
     "note": "Ghi chú",
@@ -604,7 +609,6 @@ export default {
     "variant": "Khác nhau",
     "secure": "Chắc chắn",
     "admin": "Quản trị viên",
-    "tax_included_abstract": "bao gồm",
     "payment_not_settled": "Thanh toán không được giải quyết!",
     "orders_list": "danh sách đơn hàng",
     "subscription_plan": "kế hoạch đăng ký",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Cụm",
     "subscriptions": "Đăng ký",
     "spam": "Thư rác",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Bạn",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Rất phức tạp",
+    "hard": "Cứng",
+    "intermediate": "Trung gian",
+    "easy": "Dễ",
   },
   "dialogs": {
     "delete": {
       "title": "Xóa bỏ",
       "message": "Bạn có chắc chắn để xóa mục này?",
-      "action": "Có, xóa ngay bây giờ"
-    }
+      "action": "Có, xóa ngay bây giờ",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Thêm vào giỏ hàng",
     "cancel": "Hủy bỏ",
     "update": "Cập nhật",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Thêm thẻ quà tặng",
     "charge": "Thù lao",
     "send_invites": "Gửi những lời mời",
-    "past": "Quá khứ",
+    "paste": "Dán",
     "restore": "Khôi phục",
     "cut": "Cắt",
     "get_sms_code": "Nhận mã xác thực",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Hiển thị bản xem trước",
     "hide_preview": "Ẩn bản xem trước",
     "download_now": "Tải ngay",
+    "watch_now": "Xem bây giờ",
     "auto_fill": "Tự động điền",
     "track": "Theo dõi",
     "change_state": "Thay đổi trạng thái",
     "done": "Xong",
     "reply": "Đáp lại",
-    "watch_now": "Xem bây giờ",
     "unlock": "Mở khóa",
     "lock": "Khóa",
     "create_clone": "Tạo bản sao",
@@ -773,41 +931,71 @@ export default {
     "buy": "Mua",
     "view_all": "Xem tất cả",
     "view_now": "Xem ngay bây giờ",
-    "paste": "Dán"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Quá khứ",
+  },
+  "billing_period": {
+    "Daily": "Hằng ngày",
+    "Weekly": "hàng tuần",
+    "Monthly": "Hàng tháng",
+    "Every3Months": "3 tháng một lần",
+    "Every6Months": "6 tháng một lần",
+    "Yearly": "Hàng năm",
   },
   "instance_message_title": "Gửi tin nhắn tức thì",
   "instance_message": "Xin chào {name}, Tên tôi là {author} đến từ {company}.",
   "errors": {
     "419": "Bạn đã không hoạt động trong một thời gian dài, vui lòng <b>⟳ LÀM MỚI TRANG</b> vì lý do bảo mật.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Hệ thống không đồng bộ hóa với blockchain. Sẽ không thể tạo giao dịch mới cho đến khi quá trình đồng bộ hóa máy chủ của chúng tôi hoàn tất. Chúng tôi đang giải quyết vấn đề.",
-    "gateway_network_error": "Dịch vụ cổng thanh toán đã gặp sự cố liên lạc."
+    "gateway_network_error": "Dịch vụ cổng thanh toán đã gặp sự cố liên lạc.",
   },
   "receiver_info": {
     "map": {
       "title": "Địa chỉ giao hàng",
       "confirm": "Thiết lập địa điểm",
       "address_type": "Điểm đến",
-      "receptor_type": "Người nhận"
+      "receptor_type": "Người nhận",
     },
     "receiver_address": "Chọn địa chỉ giao hàng",
+    "service_address": "Chọn địa chỉ của bạn",
+    "select_billing_address": "Select billing address",
     "address": "Địa chỉ",
     "postcode": "Mã bưu điện",
     "enter_value": "Điền vào đây",
     "address_note": "Ghi chú",
     "tel": "Số liên lạc",
-    "service_address": "Chọn địa chỉ của bạn"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "lb",
-    "kg": "Kilôgam"
+    "kg": "Kilôgam",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ounce",
     "lb": "Pao",
-    "kg": "kg"
+    "kg": "kg",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimet",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Bàn Chân",
     "mm": "milimét",
     "m": "Mét",
-    "yd": "Sân"
+    "yd": "Sân",
   },
   "distance": {
     "m": "Mét",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Ngày",
     "hours": "Giờ",
     "minutes": "Phút",
-    "seconds": "Giây"
+    "seconds": "Giây",
   },
   "units": [
     "Đơn vị",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Trạng thái",
     "Territory": "Lãnh thổ",
-    "Province": "Tỉnh"
+    "Province": "Tỉnh",
   },
   "transaction_status": {
     "RequireAction": "Cần hành động",
     "Processing": "Xử lý",
     "Canceled": "Đã hủy",
-    "Succeeded": "Thành công"
+    "Succeeded": "Thành công",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Chọn ngôn ngữ..",
     "friend_email": "Email của bạn bè ...",
     "friend_name": "Opt. Tên bạn của bạn",
-    "select_date": "Chọn một ngày ..."
+    "select_date": "Chọn một ngày ...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Xác nhận",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Tối đa {maxCount} ký tự",
     "invalid_url": "URL không hợp lệ",
     "country_invalid": "Chọn quốc gia đến!",
-    "postal_code_invalid": "Đặt mã bưu điện hợp lệ!"
+    "postal_code_invalid": "Đặt mã bưu điện hợp lệ!",
   },
   "colors": {
     "#D32F2F": "Màu đỏ",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Đơn vị",
     "postcode": "Mã bưu điện",
     "note": "Ghi chú",
-    "county": "Quận"
+    "county": "Quận",
   },
   "product_types": {
     "physical": "Vật lý",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Dịch vụ",
     "service_description": "Các dịch vụ như: sửa chữa, vận chuyển, dạy học.",
     "subscription": "Đăng ký",
-    "subscription_description": "Đăng ký và lập hóa đơn cho các sản phẩm, dịch vụ hoặc nội dung."
+    "subscription_description": "Đăng ký và lập hóa đơn cho các sản phẩm, dịch vụ hoặc nội dung.",
   },
   "license": {
     "free": "Miễn phí",
     "startup": "Khởi động",
     "company": "Công ty",
-    "enterprise": "Doanh nghiệp"
+    "enterprise": "Doanh nghiệp",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Màu sắc",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Đếm trong gói",
     "weight": "Cân nặng",
     "type": "Vật chất",
-    "style": "Phong cách"
+    "style": "Phong cách",
   },
   "delivery_state": {
     "check_queue": "Đang chờ xem xét",
     "order_confirm": "Xác nhận đơn hàng",
     "preparing_order": "Chuẩn bị",
     "sent_order": "Khi giao hàng",
-    "to_customer": "Đã giao hàng"
+    "to_customer": "Đã giao hàng",
   },
   "status": {
     "unpaid": "Chưa thanh toán",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Từ chối",
     "pending": "Chưa giải quyết",
     "rejected": "Từ chối",
-    "accepted": "Đã được chấp nhận"
+    "accepted": "Đã được chấp nhận",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "Kilôgam"
+    "kg": "Kilôgam",
   },
   "transportation_type": {
     "motorbike": "Xe máy",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Vận chuyển toàn cầu",
     "global_description": "Vận chuyển ra nước ngoài bằng đường hàng không, đường biển hoặc đường bộ.",
     "pickup": "Nhặt lên",
-    "pickup_description": "Khách hàng nhận các mặt hàng tại cửa hàng thực hoặc nhà kho của bạn."
+    "pickup_description": "Khách hàng nhận các mặt hàng tại cửa hàng thực hoặc nhà kho của bạn.",
   },
   "article": {
     "login_to_see_error": "Đăng nhập để truy cập bài viết",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Chế độ chỉnh sửa",
       "view_mode": "Chế độ xem",
-      "delete": "Xóa bài viết"
+      "delete": "Xóa bài viết",
     },
     "schedule_action": "Bạn có muốn lên lịch xuất bản không?",
     "schedule_title": "Lên lịch tự động xuất bản",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Báo cáo lạm dụng và xóa nội dung",
       "report_title": "Báo cáo nội dung này là lạm dụng",
       "message": "Lý do để gửi nội dung này là gì? Chọn một trong các tùy chọn sau.",
-      "accept_and_delete_action": "Xác nhận và Xóa nội dung"
+      "accept_and_delete_action": "Xác nhận và Xóa nội dung",
     },
     "schedule_dialog": {
       "title": "Lịch trình phát hành nội dung",
       "publish_at": "Xuất bản tại",
       "last_edit": "Lần chỉnh sửa cuối cùng",
-      "view_action": "Xem bài viết"
+      "view_action": "Xem bài viết",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Gửi thông tin",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Báo cáo và Xóa",
       "report_and_delete_success_message": "Bài viết đã được xóa thành công.",
       "report_success_title": "Báo cáo bài báo",
-      "report_success_message": "Báo cáo của bạn về bài viết này đã được đăng."
+      "report_success_message": "Báo cáo của bạn về bài viết này đã được đăng.",
     },
     "alert": {
       "delete_article": {
         "title": "Xóa bài viết",
         "message": "Bạn có chắc chắn muốn xóa vĩnh viễn bài viết này không?",
-        "action": "Xóa bỏ"
-      }
+        "action": "Xóa bỏ",
+      },
     },
     "edit_window": {
       "title": "Chọn Văn bản Hình ảnh và Tóm tắt",
-      "digest": "Tóm lược"
+      "digest": "Tóm lược",
     },
     "editor": {
       "title_placeholder": "Tiêu đề..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Tệp này quá lớn:",
       "notifications": {
         "image_uploaded_success": "Đã lưu hình ảnh thành công",
-        "image_uploaded_failed": "Lỗi khi tải hình ảnh."
+        "image_uploaded_failed": "Lỗi khi tải hình ảnh.",
       },
       "embed_placeholder": "Nhập mã iframe, Facebook, Youtube hoặc bất kỳ URL nào khác và nhấn enter.",
       "embed_caption_placeholder": "Nhập tiêu đề (tùy chọn)",
-      "images_caption_placeholder": "Nhập tiêu đề cho hình ảnh này .."
-    }
+      "images_caption_placeholder": "Nhập tiêu đề cho hình ảnh này ..",
+    },
   },
   "article_report": {
     "inappropriate": "Nội dung của bài viết này là không phù hợp.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Tôi cho rằng nội dung này chứa nội dung khiêu dâm và vi phạm pháp luật.",
     "harassment": "Tôi nghĩ điều này là phân biệt chủng tộc.",
     "hate": "Tôi nghĩ rằng đây là về việc thúc đẩy bạo lực.",
-    "infringe": "Điều này vi phạm quyền của tôi."
+    "infringe": "Điều này vi phạm quyền của tôi.",
   },
   "comments": {
     "new_action": "Bấm để lại bình luận ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Nhận thêm ý kiến ..",
     "cant_send_comment": "Bạn không thể thêm bài mới.",
     "cant_remove_this_comment": "Bạn không thể xóa bình luận này!",
-    "product_buyer": "Người mua",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Những bình luận của tôi",
     "delete_alert": {
       "title": "Xóa nhận xét",
       "message": "Bạn muốn xóa bình luận này?",
-      "action": "Xóa bỏ"
+      "action": "Xóa bỏ",
     },
     "notifications": {
-      "delete_success": "Đã xóa bình luận của bạn thành công."
+      "delete_success": "Đã xóa bình luận của bạn thành công.",
     },
     "first_send": "Bài viết đầu tiên",
     "comment_at": "Trên",
     "edit_comment": "Chỉnh sửa nhận xét",
-    "my_comments": "Những bình luận của tôi"
+    "product_buyer": "Người mua",
   },
   "customer_club": {
     "bronze": "Đồng",
     "silver": "Bạc",
     "gold": "Vàng",
     "platinum": "Bạch kim",
-    "diamond": "Kim cương"
+    "diamond": "Kim cương",
   },
   "application_categories": {
     "tracking": "Kiểm tra hành vi của người dùng",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Quảng cáo",
     "staff": "Nhân viên",
     "incentive": "Ưu đãi",
-    "shop": "Cửa hàng"
+    "shop": "Cửa hàng",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Ứng dụng trò chuyện",
-    "facebook_messenger": "tin nhắn Facebook"
+    "facebook_messenger": "tin nhắn Facebook",
   },
   "form_builder": {
     "add_item_action": "thêm mục mới",
     "title_input": "Tiêu đề",
+    "placeholder_input": "Trình giữ chỗ",
     "name_input": "Tên biến",
     "value_input": "Giá trị",
     "value_input_message": "Danh sách tùy chọn người dùng",
     "default": "Giá trị mặc định",
+    "file_type_input": "Các loại tệp được chấp nhận",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Giản dị",
       "selective": "Chọn lọc",
       "switch": "Công tắc điện",
       "file": "Tập tin",
-      "number": "Con số"
+      "number": "Con số",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Trình giữ chỗ",
-    "file_type_input": "Các loại tệp được chấp nhận",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "tên sản phẩm",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Tình trạng thanh toán",
     "payment_status_waiting": "Đang chờ thanh toán",
     "payment_status_paid": "Trả",
-    "buyer": "Người mua"
+    "buyer": "Người mua",
   },
   "virtual_item_info": {
     "title": "Vật phẩm ảo",
     "outputs": {
       "title": "Thông tin đầu ra",
       "sub_title": "Thông tin bí mật của mặt hàng này",
-      "message": "Thông tin này sẽ được hiển thị cho người dùng sau khi mua sản phẩm."
+      "message": "Thông tin này sẽ được hiển thị cho người dùng sau khi mua sản phẩm.",
     },
     "inputs": {
       "title": "Thông tin bắt buộc",
       "sub_title": "Yêu cầu thông tin người mua",
-      "message": "Người mua phải nhập thông tin được yêu cầu vào biểu mẫu"
+      "message": "Người mua phải nhập thông tin được yêu cầu vào biểu mẫu",
     },
     "notifications": {
       "inputs_set_success": "Mẫu thông tin đã đăng ký thành công.",
       "confirm_by_admin_success": "Đã xác nhận hoàn tất đơn hàng.",
-      "confirm_by_buyer_success": "Đã xác nhận hoàn tất đơn hàng."
-    }
+      "confirm_by_buyer_success": "Đã xác nhận hoàn tất đơn hàng.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Đơn hàng này không được chấp nhận thanh toán COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Hết hàng.",
     "legal_restriction": "Không thể đặt hàng do các hạn chế pháp lý.",
     "pricing_fault": "Định giá do người bán nhầm lẫn.",
-    "system_fault": "Lỗi hệ thống."
+    "system_fault": "Lỗi hệ thống.",
   },
   "basket_order_info_summery": {
     "receiver": "Người nhận",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Chiết khấu",
     "final_price": "Số tiền cuối cùng",
     "address": "Địa chỉ giao hàng",
-    "payment_status": "Tình trạng thanh toán"
+    "payment_status": "Tình trạng thanh toán",
   },
   "basket_status": {
     "open": "Mở",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Đã hủy",
     "cod": "Thanh toán khi giao hàng",
     "receipt_added": "Đã thêm biên nhận",
-    "payment_processing": "Xử lý thanh toán"
+    "payment_processing": "Xử lý thanh toán",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Từ chối",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Xác nhận",
     "step_3": "Sự chuẩn bị",
     "step_4": "Khi giao hàng",
-    "step_5": "Đã giao hàng"
+    "step_5": "Đã giao hàng",
   },
   "basket_return_request_view": {
     "title": "Yêu cầu trả lại",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Từ chối yêu cầu",
     "message_for_admin": "Theo thỏa thuận mà bạn đã chấp nhận khi sử dụng Selldone, bạn phải liên hệ với người mua và thông báo cho họ về quá trình trả lại đơn đặt hàng của họ. Việc này phải được thực hiện nếu yêu cầu được chấp nhận hoặc bị từ chối và được sự đồng ý hoàn toàn của người mua.",
     "notifications": {
-      "update_status_success": "Đã cập nhật trạng thái yêu cầu."
-    }
+      "update_status_success": "Đã cập nhật trạng thái yêu cầu.",
+    },
   },
   "basket_list": {
     "return_count": "Trả về: số {count}",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Khác nhau",
       "warranty": "Bảo hành",
       "count": "Đếm",
-      "price": "giá"
-    }
+      "price": "giá",
+    },
   },
   "return_request_list": {
     "count": "Số tham chiếu",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Ngày nhận",
       "state": "Tình trạng",
       "reason": "Lý do",
-      "return_warranty_period": "Thời hạn bảo hành"
-    }
+      "return_warranty_period": "Thời hạn bảo hành",
+    },
   },
   "data_toolbar": {
     "search": "Tìm kiếm",
     "sort_by": "Sắp xếp theo",
-    "count_item": "Hiển thị các mục {item}"
+    "count_item": "Hiển thị các mục {item}",
   },
   "sort": {
     "created_at": "Tạo ngày",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Nhân viên văn phòng",
     "registered": "Đăng ký",
     "purchased": "Đã mua",
-    "sex": "Giới tính"
+    "sex": "Giới tính",
   },
   "search_box": {
     "result": "Kết quả tìm kiếm",
     "tips": "Tìm kiếm Sản phẩm và Danh mục",
     "label": "Tìm kiếm ...",
-    "category": "Danh mục"
+    "category": "Danh mục",
   },
   "lead_status": {
     "physical_fast_delivery": "Giao hàng ngay lập tức",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Chuẩn bị và gửi từ {days} ngày tới",
     "virtual_fast_prepare": "Giao hàng ngay lập tức",
     "virtual_under_24h": "Sẽ được thực hiện trong vòng {lead} giờ tới",
-    "virtual_over_24h": "Sẽ được thực hiện từ {days} ngày tới"
+    "virtual_over_24h": "Sẽ được thực hiện từ {days} ngày tới",
   },
   "return_request_state": {
     "pending": "Chưa giải quyết",
     "accepted": "Đã xác nhận",
-    "rejected": "Từ chối"
+    "rejected": "Từ chối",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Đóng gói hoặc giả mạo số sê-ri",
       "U5": "Một số mặt hàng từ bưu kiện bị thiếu",
       "U6": "Sản phẩm không phải là nguyên bản",
-      "U7": "Sản phẩm không đáp ứng các thông số kỹ thuật"
-    }
+      "U7": "Sản phẩm không đáp ứng các thông số kỹ thuật",
+    },
   },
   "image_uploader": {
     "label": "Kéo & Thả hoặc <u>Chọn tệp</u>",
-    "max_size": "Kích thước tối đa cho phép: {size}"
+    "max_size": "Kích thước tối đa cho phép: {size}",
   },
   "timespan": {
     "Morning": "8 giờ sáng - 12 giờ đêm",
     "Evening": "12 giờ trưa đến 6 giờ chiều",
     "Night": "6 giờ chiều đến 12 giờ đêm",
-    "Instant": "Bài viết tức thì"
+    "Instant": "Bài viết tức thì",
   },
   "week_day": {
     "Saturday": "Thứ bảy",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Thứ ba",
     "Wednesday": "Thứ Tư",
     "Thursday": "thứ năm",
-    "Friday": "Thứ sáu"
+    "Friday": "Thứ sáu",
   },
   "payment_form": {
     "title": "Chọn phương thức thanh toán",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Xin chúc mừng, đơn đặt hàng của bạn là miễn phí!",
     "order_free_payment_action": "Đặt hàng miễn phí ngay bây giờ",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Địa chỉ thanh toán",
-      "amount": "Số lượng"
-    }
+      "amount": "Số lượng",
+    },
   },
   "discount_input": {
     "limit": "Giảm giá {percent}% lên đến {limit} {currency}",
     "action": "Thêm mã giảm giá",
     "code_input": "Mã giảm giá",
     "notifications": {
-      "add_success": "Xin chúc mừng, mã giảm giá hợp lệ."
-    }
+      "add_success": "Xin chúc mừng, mã giảm giá hợp lệ.",
+    },
   },
   "gift_card": {
     "inactive": "Thẻ bị vô hiệu hóa",
     "expire": "Hết hạn",
     "transfer": "Chuyển giao",
-    "send_to_friend": "Gửi cho bạn bè"
+    "send_to_friend": "Gửi cho bạn bè",
   },
   "count_down": {
     "days": "Ngày",
     "hours": "Giờ",
     "minutes": "Phút",
-    "seconds": "Giây"
+    "seconds": "Giây",
   },
   "gift_status": {
     "Unpaid": "Đang chờ nhận",
     "Paid": "Trả",
     "Rejected": "Từ chối",
-    "Canceled": "Đã hủy"
+    "Canceled": "Đã hủy",
   },
   "gift_program_status": {
     "Airdrop": "Hệ thống thanh toán",
     "Advertising": "Quảng cáo",
     "PersonalGift": "Quà tặng cá nhân",
-    "ShopGift": "Cửa hàng quà tặng"
+    "ShopGift": "Cửa hàng quà tặng",
   },
   "currency_selector": {
-    "label": "Tiền tệ"
+    "label": "Tiền tệ",
   },
   "need_login": {
     "title": "đăng nhập",
     "login_sms": "Đăng nhập SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Đăng nhập với Google",
     "login_facebook": "Đăng nhập Facebook",
+    "login_apple": "Đăng nhập với Apple",
     "login_account": "Đăng nhập bằng Selldone",
     "register": "Người dùng mới? Đăng ký ngay bây giờ.",
     "mobile_input": "Nhập điện thoại di động của bạn",
     "verification_code": "Mã xác nhận",
     "msg_title": "Xin chào,",
     "msg_body": "Vui lòng hãy đăng nhập. Nó chỉ mất một vài giây.",
-    "login_apple": "Đăng nhập với Apple",
     "login_email": "Đăng nhập bằng Email",
     "email_login_step_1": "Vui lòng cung cấp địa chỉ email hợp lệ và chúng tôi sẽ gửi mã đăng nhập đến địa chỉ đó. Không đăng ký là cần thiết.",
     "email_login_step_2": "Bạn có chắc chắn rằng bạn đã nhập chính xác địa chỉ email của mình không? Chúng tôi sẽ gửi mã đăng nhập đến email được cung cấp, vì vậy hãy đảm bảo tính chính xác của nó.",
-    "email_login_step_3": "Chúng tôi đã gửi một mã đến email của bạn. Xin lưu ý rằng mã sẽ hết hạn sau 10 phút."
+    "email_login_step_3": "Chúng tôi đã gửi một mã đến email của bạn. Xin lưu ý rằng mã sẽ hết hạn sau 10 phút.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "Cửa hàng vàng 5 năm"
+      "name": "Cửa hàng vàng 5 năm",
     },
     "GOLDEN_2YEAR": {
-      "name": "Cửa hàng vàng 4 năm"
+      "name": "Cửa hàng vàng 4 năm",
     },
     "GOLDEN_3YEAR": {
-      "name": "Cửa hàng vàng 3 năm"
+      "name": "Cửa hàng vàng 3 năm",
     },
     "GOLDEN_4YEAR": {
-      "name": "Cửa hàng vàng 2 năm"
+      "name": "Cửa hàng vàng 2 năm",
     },
     "GOLDEN_5YEAR": {
-      "name": "Cửa hàng vàng 1 năm"
+      "name": "Cửa hàng vàng 1 năm",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Nhà đầu tư vàng"
+      "name": "Nhà đầu tư vàng",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Chủ đầu tư kim cương"
+      "name": "Chủ đầu tư kim cương",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Chủ đầu tư Ruby"
+      "name": "Chủ đầu tư Ruby",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Thành viên của Cộng đồng Cấp cao của Mạng lưới Truyền thông"
+      "name": "Thành viên của Cộng đồng Cấp cao của Mạng lưới Truyền thông",
     },
     "GOLD_SUPPLIER": {
-      "name": "nhà cung cấp vàng"
+      "name": "nhà cung cấp vàng",
     },
     "GOLD_SELLER": {
-      "name": "Đại lý vàng"
+      "name": "Đại lý vàng",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Nhà sản xuất nội dung hàng đầu"
+      "name": "Nhà sản xuất nội dung hàng đầu",
     },
     "NINJA": {
-      "name": "nhẫn giả"
+      "name": "nhẫn giả",
     },
     "STAR": {
-      "name": "Ngôi sao"
+      "name": "Ngôi sao",
     },
     "GUARDIAN": {
-      "name": "Dịch vụ khách hàng tuyệt vời"
+      "name": "Dịch vụ khách hàng tuyệt vời",
     },
     "KING": {
-      "name": "Vua của thị trường"
-    }
+      "name": "Vua của thị trường",
+    },
   },
   "cookie": {
     "title": "Trang web này sử dụng cookie",
     "message": "Trang web này sử dụng cookie để cải thiện trải nghiệm người dùng. Bằng cách sử dụng trang web của chúng tôi, bạn đồng ý với tất cả các cookie theo Chính sách Cookie của chúng tôi.",
     "preferences_action": "Quản lý các tùy chọn",
-    "agree_action": "Tôi đồng ý"
+    "agree_action": "Tôi đồng ý",
   },
   "basket_item_message": {
     "title": "Thông tin cần thiết cho mặt hàng này",
     "save_actions": "Lưu tin nhắn",
+    "product_inputs_preview_message": "Các tùy chọn tùy chỉnh này có sẵn cho sản phẩm đã đặt hàng của bạn. Sau khi mặt hàng được thêm vào giỏ hàng của bạn, bạn sẽ có thể thực hiện các điều chỉnh tại đây.",
     "notifications": {
-      "success": "Dữ liệu đầu vào của bạn đã được lưu."
+      "success": "Dữ liệu đầu vào của bạn đã được lưu.",
     },
-    "product_inputs_preview_message": "Các tùy chọn tùy chỉnh này có sẵn cho sản phẩm đã đặt hàng của bạn. Sau khi mặt hàng được thêm vào giỏ hàng của bạn, bạn sẽ có thể thực hiện các điều chỉnh tại đây."
   },
   "faq": {
     "faq": "Các câu hỏi thường gặp",
     "title": "Câu hỏi và trả lời",
-    "sub_title": "Những gì bạn yêu cầu chúng tôi làm.",
     "message": "Hãy tìm câu trả lời cho câu hỏi của bạn trong số các câu trả lời bên dưới. Hỏi chúng tôi nếu câu hỏi vẫn chưa được trả lời.",
     "add_question_action": "Đặt câu hỏi mới",
     "read_more": "Đọc thêm ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Câu hỏi",
     "question_input_placeholder": "Đặt câu hỏi của bạn.",
     "notifications": {
-      "success_add": "Câu hỏi của bạn đã được gửi thành công."
-    }
+      "success_add": "Câu hỏi của bạn đã được gửi thành công.",
+    },
+    "sub_title": "Những gì bạn yêu cầu chúng tôi làm.",
   },
   "rating_labels": [
     "Rất tệ",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Nhãn địa chỉ (Yêu cầu)",
     "notifications": {
       "save_in_list": "Địa chỉ này đã được lưu vào danh sách của bạn với tất cả các chi tiết của nó.",
-      "edit_success": "Các giá trị địa chỉ mới được lưu trong {title}."
+      "edit_success": "Các giá trị địa chỉ mới được lưu trong {title}.",
     },
     "delete_address_dialog": {
       "title": "Xóa địa chỉ",
       "message": "Bạn có chắc chắn muốn xóa địa chỉ này không?",
-      "action": "Xóa địa chỉ"
-    }
+      "action": "Xóa địa chỉ",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Không thể chỉnh sửa nhận xét này!",
     "comment_input_empty": "Nội dung tin nhắn trống!",
-    "article_not_saved": "Lưu bài viết!"
+    "article_not_saved": "Lưu bài viết!",
   },
   "wheel_fortune": {
     "title": "Chơi và giành chiến thắng",
     "message": "Chi phí của mỗi trò chơi là 10 chip. Bạn hiện có chip {chips}. Nhận thêm chip bằng cách mua từ cửa hàng.",
     "win_message": "Xin chúc mừng, Bạn chiến thắng!",
     "lost_message": "Xin lỗi, bạn đã thua trò chơi.",
-    "try_again": "Bạn có thể thử lại"
+    "try_again": "Bạn có thể thử lại",
   },
   "json": {
     "add": "Thêm dữ liệu cấu trúc",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "cấu trúc",
     "book": {
       "title": "Sách",
-      "desc": "Các hành động đặt sách cho phép người dùng mua sách mà họ tìm thấy trực tiếp từ kết quả Tìm kiếm."
+      "desc": "Các hành động đặt sách cho phép người dùng mua sách mà họ tìm thấy trực tiếp từ kết quả Tìm kiếm.",
     },
     "occupation": {
       "title": "Mức lương ước tính",
-      "desc": "Thông tin về ước tính tiền lương, chẳng hạn như mức lương và mức lương trung bình theo vùng cho các loại công việc, được hiển thị trong trải nghiệm tìm kiếm việc làm trên Google."
+      "desc": "Thông tin về ước tính tiền lương, chẳng hạn như mức lương và mức lương trung bình theo vùng cho các loại công việc, được hiển thị trong trải nghiệm tìm kiếm việc làm trên Google.",
     },
     "course": {
       "title": "Khóa học",
-      "desc": "Các khóa học giáo dục xuất hiện trong danh sách dành riêng cho nhà cung cấp. Các khóa học có thể bao gồm tiêu đề khóa học, nhà cung cấp và một mô tả ngắn."
+      "desc": "Các khóa học giáo dục xuất hiện trong danh sách dành riêng cho nhà cung cấp. Các khóa học có thể bao gồm tiêu đề khóa học, nhà cung cấp và một mô tả ngắn.",
     },
     "howto": {
       "title": "Làm cách nào để",
-      "desc": "Hướng dẫn hướng dẫn người dùng qua một loạt các bước để hoàn thành thành công một tác vụ, bao gồm video, hình ảnh và văn bản."
+      "desc": "Hướng dẫn hướng dẫn người dùng qua một loạt các bước để hoàn thành thành công một tác vụ, bao gồm video, hình ảnh và văn bản.",
     },
     "recipe": {
       "title": "Công thức",
-      "desc": "Công thức hiển thị dưới dạng kết quả nhiều định dạng riêng lẻ hoặc một phần của băng chuyền lưu trữ."
-    }
+      "desc": "Công thức hiển thị dưới dạng kết quả nhiều định dạng riêng lẻ hoặc một phần của băng chuyền lưu trữ.",
+    },
   },
   "support": {
     "Financial": "Tài chính",
     "Technical": "Kỹ thuật",
-    "Advisor": "Cố vấn"
+    "Advisor": "Cố vấn",
   },
   "condition": {
     "new": "Mới mẻ",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Đã sử dụng",
     "used_fair": "Đã qua sử dụng hội chợ",
     "used_good": "Đã qua sử dụng tốt",
-    "used_like_new": "Đã qua sử dụng như mới"
+    "used_like_new": "Đã qua sử dụng như mới",
   },
   "variant_filter": {
     "title": "Bộ lọc biến thể sản phẩm",
-    "only_available": "Trong kho"
+    "only_available": "Trong kho",
   },
   "service": {
     "task": {
       "title": "Nhiệm vụ",
-      "message": "Danh sách các tác vụ được thực hiện trong dịch vụ này."
+      "message": "Danh sách các tác vụ được thực hiện trong dịch vụ này.",
     },
     "appointment": {
       "title": "Cuộc hẹn",
-      "message": "Chọn thời gian trong tuần từ những thời điểm sau đây dựa trên ngày và giờ phù hợp với bạn."
+      "message": "Chọn thời gian trong tuần từ những thời điểm sau đây dựa trên ngày và giờ phù hợp với bạn.",
     },
     "booking": {
       "title": "Đặt trước",
-      "message": "Ghi rõ khoảng thời gian của những ngày bạn muốn đặt chỗ trong lịch bên dưới."
+      "message": "Ghi rõ khoảng thời gian của những ngày bạn muốn đặt chỗ trong lịch bên dưới.",
     },
     "subscription": {
-      "title": "Đăng ký"
+      "title": "Đăng ký",
     },
     "charge": {
-      "title": "Thù lao"
-    }
+      "title": "Thù lao",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Định giá cố định",
-      "message": "Trong kiểu định giá này, giá của sản phẩm là một số tiền cố định và người mua không cần yêu cầu tính giá."
+      "message": "Trong kiểu định giá này, giá của sản phẩm là một số tiền cố định và người mua không cần yêu cầu tính giá.",
     },
     "ESTIMATION": {
       "title": "Định giá ước tính",
-      "message": "Giá của sản phẩm và dịch vụ sẽ được người bán tính toán ở một mức độ nào đó khi đặt hàng, hóa đơn thanh toán có thể thay đổi hoặc bổ sung trong quá trình sử dụng dịch vụ."
+      "message": "Giá của sản phẩm và dịch vụ sẽ được người bán tính toán ở một mức độ nào đó khi đặt hàng, hóa đơn thanh toán có thể thay đổi hoặc bổ sung trong quá trình sử dụng dịch vụ.",
     },
     "AGREEMENT": {
       "title": "Giá cả thỏa thuận",
-      "message": "Giá cuối cùng của sản phẩm hoặc dịch vụ sẽ không được thay đổi bởi người bán sau khi đơn hàng đã được đặt."
+      "message": "Giá cuối cùng của sản phẩm hoặc dịch vụ sẽ không được thay đổi bởi người bán sau khi đơn hàng đã được đặt.",
     },
     "BID": {
       "title": "Giá thầu / đấu giá",
-      "message": "Sản phẩm sẽ được bán với giá chào mua cao nhất bởi những người mua tiềm năng."
-    }
+      "message": "Sản phẩm sẽ được bán với giá chào mua cao nhất bởi những người mua tiềm năng.",
+    },
   },
   "map": {
     "title": "Điểm đến để nhận sản phẩm",
     "confirm": "Thiết lập địa điểm",
     "address": "Điểm đến",
-    "receptor": "Người nhận"
+    "receptor": "Người nhận",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Thẻ nội dung",
     "tags_input": "Thẻ",
     "tags_input_message": "Thẻ Danh sách của bài viết này",
     "notification": {
-      "add_success": "Các thẻ đã được thêm vào"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Rất phức tạp",
-    "hard": "Cứng",
-    "intermediate": "Trung gian",
-    "easy": "Dễ"
-  },
-  "billing_period": {
-    "Daily": "Hằng ngày",
-    "Weekly": "hàng tuần",
-    "Monthly": "Hàng tháng",
-    "Every3Months": "3 tháng một lần",
-    "Every6Months": "6 tháng một lần",
-    "Yearly": "Hàng năm"
+      "add_success": "Các thẻ đã được thêm vào",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Ách không tốt!",
     "between2_3": "Được rồi!",
     "between3_4": "Mọi người thích nó!",
-    "between4_5": "Mọi người yêu thích nó!"
+    "between4_5": "Mọi người yêu thích nó!",
   },
   "seasons": {
     "spring": "Mùa xuân",
     "summer": "Mùa hè",
     "autumn": "Mùa thu",
-    "winter": "Mùa đông"
-  }
+    "winter": "Mùa đông",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

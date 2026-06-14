@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "لقد قرأت شروط الاستخدام وسياسة الخصوصية وأوافق عليها.",
   "commons": {
     "Currency": "عملة",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "حالة",
     "Price": "السعر",
@@ -169,6 +170,7 @@ export default {
     "net_price": "السعر الصافي",
     "tax": "ضريبة",
     "tax_included": "مشمول في السعر",
+    "tax_included_abstract": "بما في ذلك.",
     "limit": "حد",
     "min_purchase": "الحد الأدنى للشراء",
     "eligible_for": "مؤهلة لل",
@@ -302,6 +304,7 @@ export default {
     "created_at": "تاريخ الإنشاء",
     "updated_at": "اخر تحديث",
     "register_at": "تاريخ التسجيل",
+    "last_modified": "Last modified",
     "old": "عمر او قديم",
     "new": "جديد",
     "start": "يبدأ",
@@ -330,6 +333,7 @@ export default {
     "reseller": "موزع",
     "tracking_code": "شفرة التتبع",
     "tracking_url": "تتبع URL",
+    "fulfillment": "تحقيق، إنجاز",
     "fulfillments": "الإنجازات",
     "reject": "رفض",
     "reserved": "محجوز",
@@ -341,6 +345,7 @@ export default {
     "waiting": "انتظار...",
     "waiting_connecting_payment": "في انتظار خدمة الدفع ...",
     "creating_secure_payment": "إنشاء دفع آمن.",
+    "waiting_for_payment": "الرجاء إتمام الدفع ...",
     "officer": "ضابط",
     "ticket": "تذكرة",
     "ticket_url": "عنوان url للتذكرة",
@@ -361,7 +366,6 @@ export default {
     "rates": "تقييم",
     "seen_at": "شوهد في",
     "completed": "مكتمل",
-    "you": "أنت",
     "shop": "محل",
     "store": "متجر",
     "granted": "ممنوح",
@@ -498,6 +502,7 @@ export default {
     "tablet": "لوح",
     "pc": "PC",
     "acquisition_channel": "قناة الاستحواذ",
+    "channels_overview": "نظرة عامة على القنوات",
     "to": "ل",
     "info": "معلومات",
     "general": "عام",
@@ -559,7 +564,6 @@ export default {
     "per_product": "لكل منتج",
     "journey": "رحلة",
     "after": "بعد",
-    "waiting_for_payment": "الرجاء إتمام الدفع ...",
     "hour": "ساعة",
     "minute": "اللحظة",
     "premium": "الممتازة",
@@ -569,6 +573,7 @@ export default {
     "shops": "المتاجر",
     "vendor": "بائع",
     "vendors": "الباعة",
+    "no_vendors": "لا يوجد بائعين",
     "marketplace": "المتجر",
     "verify_date": "تحقق من التاريخ",
     "note": "ملحوظة",
@@ -604,7 +609,6 @@ export default {
     "variant": "متغير",
     "secure": "يؤمن",
     "admin": "مسؤل",
-    "tax_included_abstract": "بما في ذلك.",
     "payment_not_settled": "الدفع لم يتم تسويته!",
     "orders_list": "قائمة الطلبات",
     "subscription_plan": "خطة الاشتراك",
@@ -643,9 +647,6 @@ export default {
     "subscriptions": "الاشتراكات",
     "spam": "رسائل إلكترونية مزعجة",
     "video": "فيديو",
-    "fulfillment": "تحقيق، إنجاز",
-    "channels_overview": "نظرة عامة على القنوات",
-    "no_vendors": "لا يوجد بائعين",
     "ends_in": "ينتهي في",
     "current": "حاضِر",
     "important": "مهم",
@@ -682,6 +683,7 @@ export default {
     "refund": "استرداد",
     "items": "أغراض",
     "incentives": "حوافز",
+    "you": "أنت",
     "recurring_payment": "الدفع المتكرر",
     "pricing": "التسعير",
     "purchase": "شراء",
@@ -712,16 +714,102 @@ export default {
     "system": "نظام",
     "unknown": "مجهول",
     "week": "أسبوع",
-    "agencies": "الوكالات"
+    "agencies": "الوكالات",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "معقد جدا",
+    "hard": "الصعب",
+    "intermediate": "متوسط",
+    "easy": "سهل",
   },
   "dialogs": {
     "delete": {
       "title": "حذف",
       "message": "هل أنت متأكد من حذف هذا العنصر؟",
-      "action": "نعم ، احذف الآن"
-    }
+      "action": "نعم ، احذف الآن",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "أضف إلى السلة",
     "cancel": "يلغي",
     "update": "تحديث",
@@ -790,7 +878,7 @@ export default {
     "add_giftcard": "أضف بطاقة هدايا",
     "charge": "الشحنة",
     "send_invites": "يرسل دعوات",
-    "past": "ماضي",
+    "paste": "معجون",
     "restore": "يعيد",
     "cut": "يقطع",
     "get_sms_code": "احصل على رمز المصادقة",
@@ -819,12 +907,12 @@ export default {
     "show_preview": "عرض المعاينة",
     "hide_preview": "إخفاء المعاينة",
     "download_now": "التحميل الان",
+    "watch_now": "شاهد الآن",
     "auto_fill": "الملء التلقائي",
     "track": "مسار",
     "change_state": "تغيير الوضع",
     "done": "منتهي",
     "reply": "رد",
-    "watch_now": "شاهد الآن",
     "unlock": "الغاء القفل",
     "lock": "قفل",
     "create_clone": "خلق استنساخ",
@@ -843,7 +931,6 @@ export default {
     "buy": "يشتري",
     "view_all": "مشاهدة الكل",
     "view_now": "عرض الآن",
-    "paste": "معجون",
     "edit_address": "تعديل العنوان",
     "resend": "إعادة الإرسال",
     "deploy_now": "نشر الآن",
@@ -856,41 +943,59 @@ export default {
     "duplicate": "ينسخ",
     "connect": "يتصل",
     "connect_now": "تواصل الآن",
-    "verify_now": "تأكد الآن"
+    "verify_now": "تأكد الآن",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "ماضي",
+  },
+  "billing_period": {
+    "Daily": "يوميًا",
+    "Weekly": "أسبوعي",
+    "Monthly": "شهريا",
+    "Every3Months": "كل 3 أشهر",
+    "Every6Months": "كل 6 شهور",
+    "Yearly": "سنوي",
   },
   "instance_message_title": "إرسال رسالة فورية",
   "instance_message": "مرحبًا {name} ، اسمي {author} من {company}.",
   "errors": {
     "419": "لقد كنت غير نشط لفترة طويلة ، يرجى <b>⟳ تحديث الصفحة</b> لأسباب أمنية.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "لا يتزامن النظام مع blockchain. لن يكون من الممكن إنشاء معاملة جديدة حتى تكتمل عمليات مزامنة خوادمنا. نحن نحل المشكلة.",
-    "gateway_network_error": "واجهت خدمة بوابة الدفع مشكلة في الاتصال."
+    "gateway_network_error": "واجهت خدمة بوابة الدفع مشكلة في الاتصال.",
   },
   "receiver_info": {
     "map": {
       "title": "عنوان الشحن",
       "confirm": "تحديد المكان",
       "address_type": "وجهة",
-      "receptor_type": "المتلقي"
+      "receptor_type": "المتلقي",
     },
     "receiver_address": "حدد عنوان الشحن",
+    "service_address": "حدد عنوانك",
+    "select_billing_address": "Select billing address",
     "address": "عنوان",
     "postcode": "الرمز البريدي",
     "enter_value": "املأ هنا",
     "address_note": "ملحوظة",
     "tel": "رقم الاتصال",
-    "service_address": "حدد عنوانك"
   },
   "weight": {
     "g": "ز",
     "oz": "أوقية",
     "lb": "رطل",
-    "kg": "كلغ"
+    "kg": "كلغ",
   },
   "mass_unit_name": {
     "g": "غرام",
     "oz": "أوقية",
     "lb": "جنيه",
-    "kg": "كيلوغرام"
+    "kg": "كيلوغرام",
   },
   "length": {
     "cm": "سم",
@@ -898,7 +1003,7 @@ export default {
     "ft": "قدم",
     "mm": "مم",
     "m": "م",
-    "yd": "ياردة"
+    "yd": "ياردة",
   },
   "size_unit_name": {
     "cm": "سنتيمتر",
@@ -906,17 +1011,21 @@ export default {
     "ft": "قدم",
     "mm": "ملليمتر",
     "m": "متر",
-    "yd": "حديقة منزل"
+    "yd": "حديقة منزل",
   },
   "distance": {
     "m": "متر",
-    "km": "كم"
+    "km": "كم",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "أيام",
     "hours": "ساعات",
     "minutes": "الدقائق",
-    "seconds": "ثواني"
+    "seconds": "ثواني",
   },
   "units": [
     "وحدة",
@@ -953,14 +1062,14 @@ export default {
   "region_types": {
     "State": "حالة",
     "Territory": "إِقلِيم",
-    "Province": "المحافظة"
+    "Province": "المحافظة",
   },
   "transaction_status": {
     "RequireAction": "الإجراء مطلوب",
     "Processing": "يعالج",
     "Canceled": "ألغيت",
     "Succeeded": "نجح",
-    "RequireCapture": "تتطلب التقاط"
+    "RequireCapture": "تتطلب التقاط",
   },
   "placeholders": {
     "name": "جون كوكس",
@@ -976,7 +1085,10 @@ export default {
     "birthday": "حدد تاريخ الميلاد",
     "select_category": "إختر الفئة...",
     "select_a_country": "حدد البلد...",
-    "filter_country": "تصفية حسب البلد..."
+    "filter_country": "تصفية حسب البلد...",
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "يتأكد",
@@ -1001,7 +1113,7 @@ export default {
     "invalid_max_chars": "الحد الأقصى {maxCount} حرفًا",
     "invalid_url": "URL غير صالح",
     "country_invalid": "حدد بلد المقصد!",
-    "postal_code_invalid": "تعيين رمز بريدي صالح!"
+    "postal_code_invalid": "تعيين رمز بريدي صالح!",
   },
   "colors": {
     "#D32F2F": "أحمر",
@@ -1083,7 +1195,7 @@ export default {
     "building_unit": "وحدة",
     "postcode": "الرمز البريدي",
     "note": "ملحوظة",
-    "county": "مقاطعة"
+    "county": "مقاطعة",
   },
   "product_types": {
     "physical": "منتج مادي",
@@ -1095,13 +1207,13 @@ export default {
     "service": "خدمة",
     "service_description": "خدمات مثل: الإصلاح ، النقل ، التدريس.",
     "subscription": "الاشتراك",
-    "subscription_description": "الاشتراكات والفواتير للمنتجات أو الخدمات أو المحتويات."
+    "subscription_description": "الاشتراكات والفواتير للمنتجات أو الخدمات أو المحتويات.",
   },
   "license": {
     "free": "حر",
     "startup": "بدء",
     "company": "شركة",
-    "enterprise": "مَشرُوع"
+    "enterprise": "مَشرُوع",
   },
   "currency": {
     "IRR": "IRR",
@@ -1167,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1247,12 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
     "SYP": "SYP",
     "KWD": "KWD",
-    "BTN": "BTN"
+    "BTN": "BTN",
   },
   "variants": {
     "color": "اللون",
@@ -1260,14 +1372,14 @@ export default {
     "count_in_pack": "عد في العبوة",
     "weight": "وزن",
     "type": "مادة",
-    "style": "أسلوب"
+    "style": "أسلوب",
   },
   "delivery_state": {
     "check_queue": "في انتظار المراجعة",
     "order_confirm": "تأكيد الطلب",
     "preparing_order": "خطة",
     "sent_order": "عند التسليم",
-    "to_customer": "تم التوصيل"
+    "to_customer": "تم التوصيل",
   },
   "status": {
     "unpaid": "غير مدفوعة",
@@ -1290,12 +1402,12 @@ export default {
     "reject": "رفض",
     "pending": "قيد الانتظار",
     "rejected": "مرفوض",
-    "accepted": "قبلت"
+    "accepted": "قبلت",
   },
   "dimensions": {
     "cm": "سم",
     "km": "كم",
-    "kg": "كلغ"
+    "kg": "كلغ",
   },
   "transportation_type": {
     "motorbike": "دراجات نارية",
@@ -1317,7 +1429,7 @@ export default {
     "global": "النقل العالمي",
     "global_description": "الشحن إلى الخارج عن طريق الجو أو البحر أو البر.",
     "pickup": "يلتقط",
-    "pickup_description": "يستلم العملاء العناصر من متجرك الفعلي أو المستودع الخاص بك."
+    "pickup_description": "يستلم العملاء العناصر من متجرك الفعلي أو المستودع الخاص بك.",
   },
   "article": {
     "login_to_see_error": "تسجيل الدخول للوصول إلى المقال",
@@ -1326,7 +1438,7 @@ export default {
     "menu": {
       "edit": "وضع التحرير",
       "view_mode": "نمط العرض",
-      "delete": "حذف المادة"
+      "delete": "حذف المادة",
     },
     "schedule_action": "هل تريد جدولة النشر؟",
     "schedule_title": "جدولة النشر التلقائي",
@@ -1369,7 +1481,7 @@ export default {
       "report_and_delete_title": "الإبلاغ عن إساءة وإزالة المحتوى",
       "report_title": "الإبلاغ عن هذا المحتوى بأنه مسيء",
       "message": "ما هو سبب تقديم هذا المحتوى؟ اختيار واحد من الخيارات التالية.",
-      "accept_and_delete_action": "تأكيد وحذف المحتوى"
+      "accept_and_delete_action": "تأكيد وحذف المحتوى",
     },
     "schedule_dialog": {
       "title": "جدول إصدار المحتوى",
@@ -1378,7 +1490,7 @@ export default {
       "view_action": "مشاهدة المقال",
       "no_article": "لا يوجد مقال مجدول!",
       "current_article": "المقال الحالي",
-      "article_for_product": "مقالة عن المنتج"
+      "article_for_product": "مقالة عن المنتج",
     },
     "notifications": {
       "update_success_title": "إرسال المعلومات",
@@ -1388,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "تقرير وحذف",
       "report_and_delete_success_message": "تم حذف المادة بنجاح.",
       "report_success_title": "تقرير المادة",
-      "report_success_message": "تم نشر تقريرك على هذه المقالة."
+      "report_success_message": "تم نشر تقريرك على هذه المقالة.",
     },
     "alert": {
       "delete_article": {
         "title": "حذف المادة",
         "message": "هل أنت متأكد أنك تريد حذف هذه المقالة نهائيًا؟",
-        "action": "حذف"
-      }
+        "action": "حذف",
+      },
     },
     "edit_window": {
       "title": "حدد نص الصورة والملخص",
-      "digest": "ملخص"
+      "digest": "ملخص",
     },
     "editor": {
       "title_placeholder": "عنوان..",
@@ -1408,12 +1520,12 @@ export default {
       "max_file_size_error": "هذا الملف كبير جدًا:",
       "notifications": {
         "image_uploaded_success": "تم حفظ الصورة بنجاح",
-        "image_uploaded_failed": "خطأ في تحميل الصورة."
+        "image_uploaded_failed": "خطأ في تحميل الصورة.",
       },
       "embed_placeholder": "أدخل رمز iframe أو Facebook أو Youtube أو أي عنوان URL آخر واضغط على Enter.",
       "embed_caption_placeholder": "أدخل عنوان (اختياري)",
-      "images_caption_placeholder": "أدخل عنوانًا لهذه الصورة .."
-    }
+      "images_caption_placeholder": "أدخل عنوانًا لهذه الصورة ..",
+    },
   },
   "article_report": {
     "inappropriate": "محتوى هذه المقالة غير مناسب.",
@@ -1425,7 +1537,7 @@ export default {
     "violent": "أعتقد أن هذا المحتوى يحتوي على مواد إباحية وينتهك القوانين.",
     "harassment": "أعتقد أن هذا عنصري.",
     "hate": "أعتقد أن هذا يتعلق بالترويج للعنف.",
-    "infringe": "هذا ينتهك حقوقي."
+    "infringe": "هذا ينتهك حقوقي.",
   },
   "comments": {
     "new_action": "انقر لترك تعليق ..",
@@ -1438,27 +1550,27 @@ export default {
     "load_more_action": "احصل على المزيد من التعليقات ..",
     "cant_send_comment": "لا يمكنك إضافة وظيفة جديدة.",
     "cant_remove_this_comment": "لا يمكنك حذف هذا التعليق!",
-    "product_buyer": "مشتر",
+    "verified_buyer": "مشتري تم التحقق منه",
+    "my_comments": "تعليقاتي",
     "delete_alert": {
       "title": "حذف تعليق",
       "message": "هل تريد حذف هذا التعليق؟",
-      "action": "حذف"
+      "action": "حذف",
     },
     "notifications": {
-      "delete_success": "تم حذف تعليقك بنجاح."
+      "delete_success": "تم حذف تعليقك بنجاح.",
     },
     "first_send": "أول منشور",
     "comment_at": "تشغيل",
     "edit_comment": "تعديل التعليق",
-    "my_comments": "تعليقاتي",
-    "verified_buyer": "مشتري تم التحقق منه"
+    "product_buyer": "مشتر",
   },
   "customer_club": {
     "bronze": "برونزية",
     "silver": "فضة",
     "gold": "ذهبي",
     "platinum": "البلاتين",
-    "diamond": "الماس"
+    "diamond": "الماس",
   },
   "application_categories": {
     "tracking": "التحقق من سلوك المستخدم",
@@ -1473,7 +1585,7 @@ export default {
     "advertising": "دعاية",
     "staff": "العاملين",
     "incentive": "حوافز",
-    "shop": "محل"
+    "shop": "محل",
   },
   "social_network": {
     "instagram": "انستغرام",
@@ -1488,25 +1600,26 @@ export default {
     "pinterest": "بينتيريست",
     "whatsapp": "ال WhatsApp",
     "skype": "سكايب",
-    "facebook_messenger": "الفيسبوك رسول"
+    "facebook_messenger": "الفيسبوك رسول",
   },
   "form_builder": {
     "add_item_action": "أضف أداة جديدة",
     "title_input": "عنوان",
+    "placeholder_input": "عنصر نائب",
     "name_input": "اسم المتغير",
     "value_input": "قيم",
     "value_input_message": "قائمة خيارات المستخدم",
     "default": "القيمة الافتراضية",
+    "file_type_input": "أنواع الملفات المقبولة",
+    "file_type_message": "jpeg ، png ، الرمز البريدي ، ...",
     "types": {
       "simple": "بسيط",
       "selective": "انتقائي",
       "switch": "يُحوّل",
       "file": "ملف",
-      "number": "رقم"
+      "number": "رقم",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "عنصر نائب",
-    "file_type_input": "أنواع الملفات المقبولة",
-    "file_type_message": "jpeg ، png ، الرمز البريدي ، ..."
   },
   "virtual_order_info_summery": {
     "title": "اسم المنتج",
@@ -1517,25 +1630,25 @@ export default {
     "payment_status": "حالة السداد",
     "payment_status_waiting": "في انتظار السداد",
     "payment_status_paid": "دفع",
-    "buyer": "مشتر"
+    "buyer": "مشتر",
   },
   "virtual_item_info": {
     "title": "عنصر افتراضي",
     "outputs": {
       "title": "معلومات الإخراج",
       "sub_title": "المعلومات السرية لهذا العنصر",
-      "message": "ستظهر هذه المعلومات للمستخدم بعد شراء المنتج."
+      "message": "ستظهر هذه المعلومات للمستخدم بعد شراء المنتج.",
     },
     "inputs": {
       "title": "المعلومات المطلوبة",
       "sub_title": "معلومات المشتري مطلوبة",
-      "message": "يجب على المشتري إدخال المعلومات المطلوبة في النموذج"
+      "message": "يجب على المشتري إدخال المعلومات المطلوبة في النموذج",
     },
     "notifications": {
       "inputs_set_success": "تم تسجيل نموذج المعلومات بنجاح.",
       "confirm_by_admin_success": "تم تأكيد إتمام الطلب.",
-      "confirm_by_buyer_success": "تم تأكيد إتمام الطلب."
-    }
+      "confirm_by_buyer_success": "تم تأكيد إتمام الطلب.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "لا يمكن قبول هذا الطلب عن طريق الدفع عند الاستلام.",
@@ -1547,7 +1660,7 @@ export default {
     "lack_of_inventory": "إنتهى من المخزن.",
     "legal_restriction": "غير قادر على تقديم طلب بسبب القيود القانونية.",
     "pricing_fault": "خطأ التسعير من قبل البائع.",
-    "system_fault": "خلل في النظام."
+    "system_fault": "خلل في النظام.",
   },
   "basket_order_info_summery": {
     "receiver": "المتلقي",
@@ -1557,7 +1670,7 @@ export default {
     "discount": "خصم",
     "final_price": "القيمة النهائية",
     "address": "عنوان التسليم",
-    "payment_status": "حالة السداد"
+    "payment_status": "حالة السداد",
   },
   "basket_status": {
     "open": "يفتح",
@@ -1567,7 +1680,7 @@ export default {
     "cod": "الدفع عند الاستلام",
     "receipt_added": "تمت إضافة الإيصال",
     "payment_processing": "معالجة الدفع",
-    "payment_require_capture": "تتطلب التقاط"
+    "payment_require_capture": "تتطلب التقاط",
   },
   "basket_delivery_state": {
     "rejected": "مرفوض",
@@ -1576,7 +1689,7 @@ export default {
     "step_2": "تأكيد",
     "step_3": "تحضير",
     "step_4": "عند التسليم",
-    "step_5": "تم التوصيل"
+    "step_5": "تم التوصيل",
   },
   "basket_return_request_view": {
     "title": "طلب ارجاع",
@@ -1594,8 +1707,8 @@ export default {
     "reject_by_admin_action": "رفض الطلب",
     "message_for_admin": "وفقًا للاتفاقية التي قبلتها باستخدام Selldone ، يجب عليك الاتصال بالمشتري وإبلاغه بعملية إعادة الطلب. يجب القيام بذلك في حالة قبول الطلب أو رفضه والحصول على موافقة المشتري الكاملة.",
     "notifications": {
-      "update_status_success": "تم تحديث حالة الطلب."
-    }
+      "update_status_success": "تم تحديث حالة الطلب.",
+    },
   },
   "basket_list": {
     "return_count": "العودة: {count} number",
@@ -1606,8 +1719,8 @@ export default {
       "variant": "متغير",
       "warranty": "الضمانات",
       "count": "عدد",
-      "price": "السعر"
-    }
+      "price": "السعر",
+    },
   },
   "return_request_list": {
     "count": "رقم المرجع",
@@ -1619,13 +1732,13 @@ export default {
       "delivery_at": "تاريخ الحصول عليه",
       "state": "حالة",
       "reason": "سبب",
-      "return_warranty_period": "فترة الضمان"
-    }
+      "return_warranty_period": "فترة الضمان",
+    },
   },
   "data_toolbar": {
     "search": "بحث",
     "sort_by": "ترتيب حسب",
-    "count_item": "إظهار العناصر {item}"
+    "count_item": "إظهار العناصر {item}",
   },
   "sort": {
     "created_at": "تاريخ الإنشاء",
@@ -1700,13 +1813,13 @@ export default {
     "officer": "ضابط",
     "registered": "مسجل",
     "purchased": "تم شراؤها",
-    "sex": "جنس"
+    "sex": "جنس",
   },
   "search_box": {
     "result": "نتائج البحث",
     "tips": "البحث عن المنتجات والفئات",
     "label": "بحث ...",
-    "category": "فئة"
+    "category": "فئة",
   },
   "lead_status": {
     "physical_fast_delivery": "توصيل فوري",
@@ -1714,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "التحضير والإرسال من الأيام الـ {days} القادمة",
     "virtual_fast_prepare": "توصيل فوري",
     "virtual_under_24h": "سيتم إجراؤه في غضون {lead} ساعة القادمة",
-    "virtual_over_24h": "سيتم إجراؤه اعتبارًا من {days} القادمة"
+    "virtual_over_24h": "سيتم إجراؤه اعتبارًا من {days} القادمة",
   },
   "return_request_state": {
     "pending": "قيد الانتظار",
     "accepted": "مؤكد",
-    "rejected": "مرفوض"
+    "rejected": "مرفوض",
   },
   "return_order_reason": {
     "physical": {
@@ -1729,18 +1842,18 @@ export default {
       "U4": "العبث بالطرد أو الرقم التسلسلي",
       "U5": "بعض العناصر من الطرد مفقودة",
       "U6": "المنتج غير أصلي",
-      "U7": "المنتج لا يلبي المواصفات"
-    }
+      "U7": "المنتج لا يلبي المواصفات",
+    },
   },
   "image_uploader": {
     "label": "قم بسحب وإفلات أو <u>تحديد ملف</u>",
-    "max_size": "أقصى حجم مسموح به: {size}"
+    "max_size": "أقصى حجم مسموح به: {size}",
   },
   "timespan": {
     "Morning": "8 ص - 12 م",
     "Evening": "من 12 ظهرًا حتى 6 مساءً",
     "Night": "6 م - 12 م",
-    "Instant": "النشر الفوري"
+    "Instant": "النشر الفوري",
   },
   "week_day": {
     "Saturday": "السبت",
@@ -1749,7 +1862,7 @@ export default {
     "Tuesday": "يوم الثلاثاء",
     "Wednesday": "الأربعاء",
     "Thursday": "يوم الخميس",
-    "Friday": "جمعة"
+    "Friday": "جمعة",
   },
   "payment_form": {
     "title": "اختار طريقة الدفع",
@@ -1765,130 +1878,131 @@ export default {
     "order_free_payment": "تهانينا ، طلبك مجاني!",
     "order_free_payment_action": "اطلب مجانا الآن",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "عنوان الدفع",
-      "amount": "مقدار"
-    }
+      "amount": "مقدار",
+    },
   },
   "discount_input": {
     "limit": "{percent}٪ خصم يصل إلى {limit} {currency}",
     "action": "أضف كود الخصم",
     "code_input": "رمز التخفيض",
     "notifications": {
-      "add_success": "تهانينا ، كود خصم صالح."
-    }
+      "add_success": "تهانينا ، كود خصم صالح.",
+    },
   },
   "gift_card": {
     "inactive": "البطاقة معطلة",
     "expire": "انقضاء",
     "transfer": "تحويل",
-    "send_to_friend": "أرسل إلى صديق"
+    "send_to_friend": "أرسل إلى صديق",
   },
   "count_down": {
     "days": "يوم",
     "hours": "ساعة",
     "minutes": "الدقائق",
-    "seconds": "ثواني"
+    "seconds": "ثواني",
   },
   "gift_status": {
     "Unpaid": "بانتظار استلام",
     "Paid": "دفع",
     "Rejected": "مرفوض",
-    "Canceled": "ألغيت"
+    "Canceled": "ألغيت",
   },
   "gift_program_status": {
     "Airdrop": "نظام الدفع",
     "Advertising": "دعاية",
     "PersonalGift": "هدية شخصية",
-    "ShopGift": "متجر الهدايا"
+    "ShopGift": "متجر الهدايا",
   },
   "currency_selector": {
-    "label": "عملة"
+    "label": "عملة",
   },
   "need_login": {
     "title": "تسجيل الدخول",
     "login_sms": "تسجيل الدخول عبر الرسائل القصيرة",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "تسجيل الدخول عبر جوجل",
     "login_facebook": "تسجيل الدخول باستخدام الفيسبوك",
+    "login_apple": "تسجيل الدخول مع Apple",
     "login_account": "تسجيل الدخول عن طريق Selldone",
     "register": "مستخدم جديد؟ سجل الان.",
     "mobile_input": "أدخل هاتفك المحمول",
     "verification_code": "شيفرة التأكيد",
     "msg_title": "أهلاً،",
     "msg_body": "الرجاء تسجيل الدخول. يستغرق بضع ثوان فقط.",
-    "login_apple": "تسجيل الدخول مع Apple",
     "login_email": "تسجيل الدخول عن طريق البريد الإلكتروني",
     "email_login_step_1": "يرجى تقديم عنوان بريد إلكتروني صالح وسنرسل رمز تسجيل الدخول إليه. لا يلزم التسجيل.",
     "email_login_step_2": "هل أنت متأكد من أنك أدخلت عنوان بريدك الإلكتروني بشكل صحيح؟ سنرسل رمز تسجيل الدخول إلى البريد الإلكتروني المقدم ، لذا يرجى التأكد من دقته.",
-    "email_login_step_3": "لقد أرسلنا رمزًا إلى بريدك الإلكتروني. يرجى ملاحظة أن الرمز ستنتهي صلاحيته خلال 10 دقائق."
+    "email_login_step_3": "لقد أرسلنا رمزًا إلى بريدك الإلكتروني. يرجى ملاحظة أن الرمز ستنتهي صلاحيته خلال 10 دقائق.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "متجر ذهب لمدة 5 سنوات"
+      "name": "متجر ذهب لمدة 5 سنوات",
     },
     "GOLDEN_2YEAR": {
-      "name": "متجر ذهب لمدة 4 سنوات"
+      "name": "متجر ذهب لمدة 4 سنوات",
     },
     "GOLDEN_3YEAR": {
-      "name": "متجر ذهب لمدة 3 سنوات"
+      "name": "متجر ذهب لمدة 3 سنوات",
     },
     "GOLDEN_4YEAR": {
-      "name": "متجر ذهب لمدة عامين"
+      "name": "متجر ذهب لمدة عامين",
     },
     "GOLDEN_5YEAR": {
-      "name": "متجر ذهب لمدة عام"
+      "name": "متجر ذهب لمدة عام",
     },
     "TOKEN_OWNER_1M": {
-      "name": "المستثمر الذهبي"
+      "name": "المستثمر الذهبي",
     },
     "TOKEN_OWNER_10M": {
-      "name": "المستثمر الماسي"
+      "name": "المستثمر الماسي",
     },
     "TOKEN_OWNER_100M": {
-      "name": "روبي المستثمر"
+      "name": "روبي المستثمر",
     },
     "COMMUNITY_LOYAL": {
-      "name": "عضو في المجتمع المتفوق لشبكات الاتصالات"
+      "name": "عضو في المجتمع المتفوق لشبكات الاتصالات",
     },
     "GOLD_SUPPLIER": {
-      "name": "مورد ذهب"
+      "name": "مورد ذهب",
     },
     "GOLD_SELLER": {
-      "name": "تاجر ذهب"
+      "name": "تاجر ذهب",
     },
     "CONTENT_SUPERMAN": {
-      "name": "أفضل منتج للمحتوى"
+      "name": "أفضل منتج للمحتوى",
     },
     "NINJA": {
-      "name": "النينجا"
+      "name": "النينجا",
     },
     "STAR": {
-      "name": "نجمة"
+      "name": "نجمة",
     },
     "GUARDIAN": {
-      "name": "خدمة عملاء رائعة"
+      "name": "خدمة عملاء رائعة",
     },
     "KING": {
-      "name": "ملك السوق"
-    }
+      "name": "ملك السوق",
+    },
   },
   "cookie": {
     "title": "هذا الموقع يستخدم الكوكيز",
     "message": "يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين تجربة المستخدم. باستخدام موقعنا ، فإنك توافق على جميع ملفات تعريف الارتباط وفقًا لسياسة ملفات تعريف الارتباط الخاصة بنا.",
     "preferences_action": "إدارة التفضيلات",
-    "agree_action": "أنا موافق"
+    "agree_action": "أنا موافق",
   },
   "basket_item_message": {
     "title": "المعلومات المطلوبة لهذا العنصر",
     "save_actions": "حفظ الرسالة",
+    "product_inputs_preview_message": "خيارات التخصيص هذه متاحة لمنتجك الذي طلبته. بمجرد إضافة العنصر إلى سلة التسوق الخاصة بك ، ستتمكن من إجراء التعديلات هنا.",
     "notifications": {
-      "success": "تم حفظ بيانات الإدخال الخاصة بك."
+      "success": "تم حفظ بيانات الإدخال الخاصة بك.",
     },
-    "product_inputs_preview_message": "خيارات التخصيص هذه متاحة لمنتجك الذي طلبته. بمجرد إضافة العنصر إلى سلة التسوق الخاصة بك ، ستتمكن من إجراء التعديلات هنا."
   },
   "faq": {
     "faq": "أسئلة مكررة",
     "title": "أسئلة وأجوبة",
-    "sub_title": "ما طلبت منا القيام به.",
     "message": "ابحث عن إجابة سؤالك من بين الإجابات أدناه. اسألنا إذا بقيت الأسئلة دون إجابة.",
     "add_question_action": "اطرح سؤال جديد",
     "read_more": "اقرأ أكثر ..",
@@ -1899,8 +2013,9 @@ export default {
     "question_input": "سؤال",
     "question_input_placeholder": "اسأل سؤالك.",
     "notifications": {
-      "success_add": "تم إرسال سؤالك بنجاح."
-    }
+      "success_add": "تم إرسال سؤالك بنجاح.",
+    },
+    "sub_title": "ما طلبت منا القيام به.",
   },
   "rating_labels": [
     "سيئ جدا",
@@ -1927,25 +2042,25 @@ export default {
     "address_title_input": "تسمية العنوان (مطلوب)",
     "notifications": {
       "save_in_list": "تم حفظ هذا العنوان في قائمتك بكل تفاصيله.",
-      "edit_success": "تم حفظ قيم العناوين الجديدة في {title}."
+      "edit_success": "تم حفظ قيم العناوين الجديدة في {title}.",
     },
     "delete_address_dialog": {
       "title": "حذف العنوان",
       "message": "هل أنت متأكد أنك تريد حذف هذا العنوان؟",
-      "action": "إزالة العنوان"
-    }
+      "action": "إزالة العنوان",
+    },
   },
   "comment_manager": {
     "can_not_edit": "لا يمكن تعديل هذا التعليق!",
     "comment_input_empty": "نص الرسالة فارغ!",
-    "article_not_saved": "احفظ المقال!"
+    "article_not_saved": "احفظ المقال!",
   },
   "wheel_fortune": {
     "title": "العب واربح",
     "message": "تكلفة كل لعبة 10 فيشات. لديك حاليًا شريحة {chips}. احصل على المزيد من الشرائح بالشراء من المتجر.",
     "win_message": "مبروك ، لقد فزت!",
     "lost_message": "آسف ، لقد خسرت اللعبة.",
-    "try_again": "يمكنك إعادة المحاولة"
+    "try_again": "يمكنك إعادة المحاولة",
   },
   "json": {
     "add": "أضف بيانات الهيكل",
@@ -1953,29 +2068,29 @@ export default {
     "structures": "الهياكل",
     "book": {
       "title": "الكتاب",
-      "desc": "تمكّن إجراءات الكتاب المستخدمين من شراء الكتاب الذي يعثرون عليه مباشرةً من نتائج البحث."
+      "desc": "تمكّن إجراءات الكتاب المستخدمين من شراء الكتاب الذي يعثرون عليه مباشرةً من نتائج البحث.",
     },
     "occupation": {
       "title": "الراتب المقدر",
-      "desc": "معلومات حول تقدير الراتب ، مثل نطاقات الرواتب ومتوسطات الرواتب على أساس المنطقة لأنواع الوظائف ، معروضة في تجربة البحث عن وظيفة على Google."
+      "desc": "معلومات حول تقدير الراتب ، مثل نطاقات الرواتب ومتوسطات الرواتب على أساس المنطقة لأنواع الوظائف ، معروضة في تجربة البحث عن وظيفة على Google.",
     },
     "course": {
       "title": "مسار",
-      "desc": "الدورات التعليمية التي تظهر في قائمة خاصة بمقدم الخدمة. يمكن أن تتضمن الدورات عنوان الدورة التدريبية والمزود ووصفًا موجزًا."
+      "desc": "الدورات التعليمية التي تظهر في قائمة خاصة بمقدم الخدمة. يمكن أن تتضمن الدورات عنوان الدورة التدريبية والمزود ووصفًا موجزًا.",
     },
     "howto": {
       "title": "كيف",
-      "desc": "يرشد برنامج \"How to\" المستخدمين عبر مجموعة من الخطوات لإكمال مهمة بنجاح ، من خلال عرض مقاطع فيديو وصور ونص."
+      "desc": "يرشد برنامج \"How to\" المستخدمين عبر مجموعة من الخطوات لإكمال مهمة بنجاح ، من خلال عرض مقاطع فيديو وصور ونص.",
     },
     "recipe": {
       "title": "وصفة",
-      "desc": "الوصفات التي يتم عرضها كنتيجة منسقة فردية أو كجزء من مكتبة مضيفة."
-    }
+      "desc": "الوصفات التي يتم عرضها كنتيجة منسقة فردية أو كجزء من مكتبة مضيفة.",
+    },
   },
   "support": {
     "Financial": "مالي",
     "Technical": "اِصطِلاحِيّ",
-    "Advisor": "مستشار"
+    "Advisor": "مستشار",
   },
   "condition": {
     "new": "جديد",
@@ -1983,139 +2098,152 @@ export default {
     "used": "تستخدم",
     "used_fair": "معرض مستعمل",
     "used_good": "مستعملة جيدة",
-    "used_like_new": "تستخدم كالجديد"
+    "used_like_new": "تستخدم كالجديد",
   },
   "variant_filter": {
     "title": "مرشح متغير المنتج",
-    "only_available": "في المخزن"
+    "only_available": "في المخزن",
   },
   "service": {
     "task": {
       "title": "مهام",
-      "message": "قائمة المهام المنجزة في هذه الخدمة."
+      "message": "قائمة المهام المنجزة في هذه الخدمة.",
     },
     "appointment": {
       "title": "ميعاد",
-      "message": "اختر أوقات الأسبوع من الأوقات التالية بناءً على اليوم والساعة المناسبين لك."
+      "message": "اختر أوقات الأسبوع من الأوقات التالية بناءً على اليوم والساعة المناسبين لك.",
     },
     "booking": {
       "title": "الحجز",
-      "message": "حدد الفترة الزمنية للأيام التي تريد إجراء حجز فيها في التقويم أدناه."
+      "message": "حدد الفترة الزمنية للأيام التي تريد إجراء حجز فيها في التقويم أدناه.",
     },
     "subscription": {
-      "title": "الاشتراك"
+      "title": "الاشتراك",
     },
     "charge": {
-      "title": "الشحنة"
-    }
+      "title": "الشحنة",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "التسعير الثابت",
-      "message": "في هذا النوع من التسعير ، يكون سعر المنتج مبلغًا ثابتًا وليس هناك حاجة للمشتري لطلب حساب السعر."
+      "message": "في هذا النوع من التسعير ، يكون سعر المنتج مبلغًا ثابتًا وليس هناك حاجة للمشتري لطلب حساب السعر.",
     },
     "ESTIMATION": {
       "title": "التسعير التقديري",
-      "message": "سيتم احتساب سعر المنتجات والخدمات إلى حد ما من قبل البائع عند تقديم طلب ، ويمكن تغيير فواتير الدفع أو إضافتها أثناء الخدمة."
+      "message": "سيتم احتساب سعر المنتجات والخدمات إلى حد ما من قبل البائع عند تقديم طلب ، ويمكن تغيير فواتير الدفع أو إضافتها أثناء الخدمة.",
     },
     "AGREEMENT": {
       "title": "تسعير الاتفاقية",
-      "message": "لن يتم تغيير السعر النهائي للمنتجات أو الخدمات من قبل البائع بعد تقديم الطلب."
+      "message": "لن يتم تغيير السعر النهائي للمنتجات أو الخدمات من قبل البائع بعد تقديم الطلب.",
     },
     "BID": {
       "title": "العطاء / المزاد",
-      "message": "سيتم بيع المنتج بأعلى سعر عرض من قبل المشترين المحتملين."
-    }
+      "message": "سيتم بيع المنتج بأعلى سعر عرض من قبل المشترين المحتملين.",
+    },
   },
   "map": {
     "title": "الوجهة لتلقي المنتجات",
     "confirm": "تحديد المكان",
     "address": "وجهة",
-    "receptor": "المتلقي"
+    "receptor": "المتلقي",
   },
   "ShopBots": {
-    "telegram": "برقية"
+    "telegram": "برقية",
   },
   "article_tags": {
     "title": "علامات المحتوى",
     "tags_input": "العلامات",
     "tags_input_message": "العلامات قائمة هذه المقالة",
     "notification": {
-      "add_success": "تمت إضافة العلامات"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "معقد جدا",
-    "hard": "الصعب",
-    "intermediate": "متوسط",
-    "easy": "سهل"
-  },
-  "billing_period": {
-    "Daily": "يوميًا",
-    "Weekly": "أسبوعي",
-    "Monthly": "شهريا",
-    "Every3Months": "كل 3 أشهر",
-    "Every6Months": "كل 6 شهور",
-    "Yearly": "سنوي"
+      "add_success": "تمت إضافة العلامات",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "اوك ليس جيدا!",
     "between2_3": "لا بأس!",
     "between3_4": "يحبها الناس!",
-    "between4_5": "الناس يحبونه!"
+    "between4_5": "الناس يحبونه!",
   },
   "seasons": {
     "spring": "ربيع",
     "summer": "صيف",
     "autumn": "خريف",
-    "winter": "شتاء"
+    "winter": "شتاء",
   },
   "order_chat": {
     "seller": {
       "history": {
-        "subtitle": "عرض سجل الرسائل بينك وبين العميل."
+        "subtitle": "عرض سجل الرسائل بينك وبين العميل.",
       },
       "new_message": {
-        "subtitle": "يمكنك إرسال الرسائل مباشرة إلى العملاء هنا. عند إرسال رسالة، سيتلقى العميل إشعارًا عبر البريد الإلكتروني بعد 20 دقيقة. سيتم إرسال هذا الإشعار مرة واحدة فقط كل 24 ساعة."
-      }
+        "subtitle": "يمكنك إرسال الرسائل مباشرة إلى العملاء هنا. عند إرسال رسالة، سيتلقى العميل إشعارًا عبر البريد الإلكتروني بعد 20 دقيقة. سيتم إرسال هذا الإشعار مرة واحدة فقط كل 24 ساعة.",
+      },
     },
     "customer": {
       "history": {
-        "subtitle": "عرض سجل الرسائل بينك وبين البائع."
+        "subtitle": "عرض سجل الرسائل بينك وبين البائع.",
       },
       "new_message": {
-        "subtitle": "يمكنك إرسال الرسائل إلينا مباشرة هنا."
-      }
-    }
+        "subtitle": "يمكنك إرسال الرسائل إلينا مباشرة هنا.",
+      },
+    },
   },
   "ServiceTypes": {
     "DEMAND": {
       "title": "على الطلب",
-      "desc": "مثل إصلاحات المنزل ، والطلاء ، وإصلاح السيارات ، وما إلى ذلك."
+      "desc": "مثل إصلاحات المنزل ، والطلاء ، وإصلاح السيارات ، وما إلى ذلك.",
     },
     "BOOKING": {
       "title": "الحجز",
-      "desc": "مثل حجز غرفة فندقية أو فيلا."
+      "desc": "مثل حجز غرفة فندقية أو فيلا.",
     },
     "APPOINTMENT": {
       "title": "ميعاد",
-      "desc": "مثل موعد رعاية الحيوانات الأليفة أو التدريب الشخصي."
+      "desc": "مثل موعد رعاية الحيوانات الأليفة أو التدريب الشخصي.",
     },
     "RENTAL": {
       "title": "تأجير",
-      "desc": "مثل تأجير مكان أو سيارة."
+      "desc": "مثل تأجير مكان أو سيارة.",
     },
     "SUBSCRIPTION": {
       "title": "الاشتراك",
-      "desc": "مثل عضوية النادي أو التدريب عبر الإنترنت."
+      "desc": "مثل عضوية النادي أو التدريب عبر الإنترنت.",
     },
     "CHARGE": {
       "title": "الشحنة",
-      "desc": "مثل فرض رسوم على حساب أو فرض رسوم على استخدام أحد التطبيقات."
+      "desc": "مثل فرض رسوم على حساب أو فرض رسوم على استخدام أحد التطبيقات.",
     },
     "CUSTOM": {
       "title": "مخصص",
-      "desc": "حدد هذا الخيار إذا كانت الخدمة التي تقدمها ليست مما سبق."
-    }
-  }
+      "desc": "حدد هذا الخيار إذا كانت الخدمة التي تقدمها ليست مما سبق.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

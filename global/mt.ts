@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Qrajt it-termini tal-użu u l-politika tal-privatezza u naqbel magħhom.",
   "commons": {
     "Currency": "Munita",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Stat",
     "Price": "prezz",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Prezz nett",
     "tax": "Taxxa",
     "tax_included": "Inkluż fil-prezz",
+    "tax_included_abstract": "inkl.",
     "limit": "Limitu",
     "min_purchase": "Xiri minimu",
     "eligible_for": "Eliġibbli għal",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Data maħluqa",
     "updated_at": "L-aħħar aġġornament",
     "register_at": "Data tar-reġistru",
+    "last_modified": "Last modified",
     "old": "Qadim",
     "new": "Ġdid",
     "start": "Ibda",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Bejjiegħ mill-ġdid",
     "tracking_code": "Kodiċi tat-traċċar",
     "tracking_url": "URL tat-traċċar",
+    "fulfillment": "Fulfillment",
     "fulfillments": "Soddisfazzjonijiet",
     "reject": "Tiċħad",
     "reserved": "Riżervat",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Stennija...",
     "waiting_connecting_payment": "Nistennew is-servizz tal-ħlas...",
     "creating_secure_payment": "Ħolqien ta 'ħlas sigur.",
+    "waiting_for_payment": "Jekk jogħġbok imla l-ħlas...",
     "officer": "Uffiċjal",
     "ticket": "Biljett",
     "ticket_url": "Url tal-biljett",
@@ -361,7 +366,6 @@ export default {
     "rates": "Klassifikazzjoni",
     "seen_at": "Jidher fi",
     "completed": "Imlesta",
-    "you": "Inti",
     "shop": "Ħanut",
     "store": "jaħżen",
     "granted": "Mogħtija",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Pillola",
     "pc": "PC",
     "acquisition_channel": "Kanal ta' akkwist",
+    "channels_overview": "Channels overview",
     "to": "Biex",
     "info": "Info",
     "general": "Ġenerali",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Għal kull prodott",
     "journey": "Vjaġġ",
     "after": "Wara",
-    "waiting_for_payment": "Jekk jogħġbok imla l-ħlas...",
     "hour": "Siegha",
     "minute": "Minuta",
     "premium": "Premium",
@@ -569,6 +573,7 @@ export default {
     "shops": "Ħwienet",
     "vendor": "Bejjiegh",
     "vendors": "Bejjiegħa",
+    "no_vendors": "No vendors",
     "marketplace": "Suq",
     "verify_date": "Ivverifika d-data",
     "note": "Nota",
@@ -604,7 +609,6 @@ export default {
     "variant": "Varjant",
     "secure": "Sikura",
     "admin": "Amministratur",
-    "tax_included_abstract": "inkl.",
     "payment_not_settled": "Ħlas mhux regolat!",
     "orders_list": "Lista ta' ordnijiet",
     "subscription_plan": "Pjan ta' abbonament",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clusters",
     "subscriptions": "Abbonamenti",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Inti",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Kkumplikata ħafna",
+    "hard": "Iebsa",
+    "intermediate": "Intermedju",
+    "easy": "Faċli",
   },
   "dialogs": {
     "delete": {
       "title": "Ħassar",
       "message": "Żgur li tħassar dan l-oġġett?",
-      "action": "Iva, Ħassar issa"
-    }
+      "action": "Iva, Ħassar issa",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Żid mal-CART",
     "cancel": "Ikkanċella",
     "update": "Aġġornament",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Żid karta rigal",
     "charge": "Ħlas",
     "send_invites": "Ibgħat stediniet",
-    "past": "Passat",
+    "paste": "Pejst",
     "restore": "Irrestawra",
     "cut": "Aqta’",
     "get_sms_code": "Ikseb kodiċi ta 'awtentikazzjoni",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Uri preview",
     "hide_preview": "Aħbi preview",
     "download_now": "Niżżel Issa",
+    "watch_now": "Watch Issa",
     "auto_fill": "Imla awtomatikament",
     "track": "Track",
     "change_state": "Bidla l-Istatus",
     "done": "Magħmul",
     "reply": "Irrispondi",
-    "watch_now": "Watch Issa",
     "unlock": "Nisfruttaw",
     "lock": "Lock",
     "create_clone": "Oħloq klonu",
@@ -773,41 +931,71 @@ export default {
     "buy": "Ixtri",
     "view_all": "Ara Kollha",
     "view_now": "Ara Issa",
-    "paste": "Pejst"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Passat",
+  },
+  "billing_period": {
+    "Daily": "Kuljum",
+    "Weekly": "Kull ġimgħa",
+    "Monthly": "Kull xahar",
+    "Every3Months": "Kull 3 xhur",
+    "Every6Months": "Kull 6 xhur",
+    "Yearly": "Kull sena",
   },
   "instance_message_title": "Ibgħat messaġġ immedjat",
   "instance_message": "Hi {name}, Jisimni {author} minn {company}.",
   "errors": {
     "419": "Int ilek inattiv għal żmien twil, jekk jogħġbok <b>⟳ AFFRESKA L-PAĠNA</b> għal raġunijiet ta’ sigurtà.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Is-sistema ma tissinkronizzax mal-blockchain. Mhux se jkun possibbli li tinħoloq transazzjoni ġdida sakemm jitlestew is-sinkronizzazzjoni tas-servers tagħna. Qed insolvu l-problema.",
-    "gateway_network_error": "Is-servizz tal-gateway tal-ħlas iltaqa' ma' problema ta' komunikazzjoni."
+    "gateway_network_error": "Is-servizz tal-gateway tal-ħlas iltaqa' ma' problema ta' komunikazzjoni.",
   },
   "receiver_info": {
     "map": {
       "title": "Indirizz tat-tbaħħir",
       "confirm": "Issettja l-post",
       "address_type": "Destinazzjoni",
-      "receptor_type": "Riċevitur"
+      "receptor_type": "Riċevitur",
     },
     "receiver_address": "Agħżel l-indirizz tat-tbaħħir",
+    "service_address": "Agħżel l-indirizz tiegħek",
+    "select_billing_address": "Select billing address",
     "address": "indirizz",
     "postcode": "Kodiċi Postali",
     "enter_value": "Imla hawn",
     "address_note": "Nota",
     "tel": "Numru ta' kuntatt",
-    "service_address": "Agħżel l-indirizz tiegħek"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "LB",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gramma",
     "oz": "Uqija",
     "lb": "Lira",
-    "kg": "kilogramma"
+    "kg": "kilogramma",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "pied",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Ċentimetru",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Sieq",
     "mm": "millimetru",
     "m": "metru",
-    "yd": "Tarzna"
+    "yd": "Tarzna",
   },
   "distance": {
     "m": "metru",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "Jiem",
     "hours": "Sigħat",
     "minutes": "Minuti",
-    "seconds": "Sekondi"
+    "seconds": "Sekondi",
   },
   "units": [
     "Unità",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Stat",
     "Territory": "Territorju",
-    "Province": "Provinċja"
+    "Province": "Provinċja",
   },
   "transaction_status": {
     "RequireAction": "Azzjoni Meħtieġa",
     "Processing": "Ipproċessar",
     "Canceled": "Ikkanċellat",
-    "Succeeded": "Irnexxielu"
+    "Succeeded": "Irnexxielu",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Agħżel il-lingwa..",
     "friend_email": "L-email tal-ħabib tiegħek...",
     "friend_name": "Opt. Isem il-ħabib tiegħek",
-    "select_date": "Agħżel data..."
+    "select_date": "Agħżel data...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Ikkonferma",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max {maxCount} karattri",
     "invalid_url": "URL invalidu",
     "country_invalid": "Agħżel il-pajjiż tad-destinazzjoni!",
-    "postal_code_invalid": "Issettja kodiċi postali validu!"
+    "postal_code_invalid": "Issettja kodiċi postali validu!",
   },
   "colors": {
     "#D32F2F": "aħmar",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Unità",
     "postcode": "Kodiċi Postali",
     "note": "Nota",
-    "county": "Kontea"
+    "county": "Kontea",
   },
   "product_types": {
     "physical": "Fiżiku",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Servizz",
     "service_description": "Servizzi bħal: tiswija, trasport, tagħlim.",
     "subscription": "Abbonament",
-    "subscription_description": "Abbonamenti u fatturazzjoni għal prodotti, servizzi, jew kontenut."
+    "subscription_description": "Abbonamenti u fatturazzjoni għal prodotti, servizzi, jew kontenut.",
   },
   "license": {
     "free": "Libera",
     "startup": "Ibda",
     "company": "Kumpanija",
-    "enterprise": "Intrapriża"
+    "enterprise": "Intrapriża",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Kulur",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Għadd fil-pakkett",
     "weight": "Piż",
     "type": "Materjal",
-    "style": "Stil"
+    "style": "Stil",
   },
   "delivery_state": {
     "check_queue": "Jistenna reviżjoni",
     "order_confirm": "Konfermazzjoni tal-ordni",
     "preparing_order": "Tħejjija",
     "sent_order": "Mal-kunsinna",
-    "to_customer": "Mogħtija"
+    "to_customer": "Mogħtija",
   },
   "status": {
     "unpaid": "Mhux imħallas",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Tiċħad",
     "pending": "Pendenti",
     "rejected": "Miċħuda",
-    "accepted": "Aċċettata"
+    "accepted": "Aċċettata",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Mutur",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Trasport globali",
     "global_description": "Tbaħħir barra mill-pajjiż bl-ajru, bil-baħar jew bl-art.",
     "pickup": "Pickup",
-    "pickup_description": "Il-klijenti jtellgħu l-oġġetti fil-maħżen jew fil-maħżen fiżiku tiegħek."
+    "pickup_description": "Il-klijenti jtellgħu l-oġġetti fil-maħżen jew fil-maħżen fiżiku tiegħek.",
   },
   "article": {
     "login_to_see_error": "Idħol biex taċċessa l-artiklu",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Modalità Editja",
       "view_mode": "Modalità View",
-      "delete": "Ħassar l-Artikolu"
+      "delete": "Ħassar l-Artikolu",
     },
     "schedule_action": "Trid tiskeda l-pubblikazzjoni?",
     "schedule_title": "Skeda awto-pubblikazzjoni",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Irrapporta abbuż u neħħi l-kontenut",
       "report_title": "Irrapporta dan il-kontenut bħala abbużiv",
       "message": "X'inhi r-raġuni għas-sottomissjoni ta' dan il-kontenut? Agħżel waħda mill-għażliet li ġejjin.",
-      "accept_and_delete_action": "Ikkonferma u Ħassar il-Kontenut"
+      "accept_and_delete_action": "Ikkonferma u Ħassar il-Kontenut",
     },
     "schedule_dialog": {
       "title": "Skeda ta' Ħruġ tal-Kontenut",
       "publish_at": "Ippubblika fi",
       "last_edit": "L-aħħar editjar",
-      "view_action": "Ara l-Artikolu"
+      "view_action": "Ara l-Artikolu",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Issottometti Informazzjoni",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Irrapporta u Ħassar",
       "report_and_delete_success_message": "L-artikolu tħassar b'suċċess.",
       "report_success_title": "Artiklu tar-rapport",
-      "report_success_message": "Ir-rapport tiegħek dwar dan l-artiklu tpoġġa."
+      "report_success_message": "Ir-rapport tiegħek dwar dan l-artiklu tpoġġa.",
     },
     "alert": {
       "delete_article": {
         "title": "Ħassar l-Artikolu",
         "message": "Int żgur li trid tħassar dan l-artikolu b'mod permanenti?",
-        "action": "Ħassar"
-      }
+        "action": "Ħassar",
+      },
     },
     "edit_window": {
       "title": "Agħżel l-Immaġini Test u Sommarju",
-      "digest": "Sommarju"
+      "digest": "Sommarju",
     },
     "editor": {
       "title_placeholder": "Titolu..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Dan il-fajl huwa kbir wisq:",
       "notifications": {
         "image_uploaded_success": "Immaġini ssejvjata b'suċċess",
-        "image_uploaded_failed": "Żball fit-tagħbija tal-immaġni."
+        "image_uploaded_failed": "Żball fit-tagħbija tal-immaġni.",
       },
       "embed_placeholder": "Daħħal il-kodiċi iframe, Facebook, Youtube jew kwalunkwe URL ieħor u agħfas Enter.",
       "embed_caption_placeholder": "Daħħal titolu (mhux obbligatorju)",
-      "images_caption_placeholder": "Daħħal titolu għal din l-immaġni .."
-    }
+      "images_caption_placeholder": "Daħħal titolu għal din l-immaġni ..",
+    },
   },
   "article_report": {
     "inappropriate": "Il-kontenut ta' dan l-artikolu mhuwiex xieraq.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Naħseb li dan il-kontenut fih pornografija u jikser il-liġijiet.",
     "harassment": "Naħseb li dan huwa razzist.",
     "hate": "Naħseb li dan huwa dwar il-promozzjoni tal-vjolenza.",
-    "infringe": "Dan jikser id-drittijiet tiegħi."
+    "infringe": "Dan jikser id-drittijiet tiegħi.",
   },
   "comments": {
     "new_action": "Ikklikkja biex tħalli kumment ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Ikseb aktar kummenti ..",
     "cant_send_comment": "Ma tistax iżżid post ġdid.",
     "cant_remove_this_comment": "Ma tistax tħassar dan il-kumment!",
-    "product_buyer": "Xerrej",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Il-Kummenti Tiegħi",
     "delete_alert": {
       "title": "Ħassar Kumment",
       "message": "Trid tħassar dan il-kumment?",
-      "action": "Ħassar"
+      "action": "Ħassar",
     },
     "notifications": {
-      "delete_success": "Il-kumment tiegħek tħassar b'suċċess."
+      "delete_success": "Il-kumment tiegħek tħassar b'suċċess.",
     },
     "first_send": "L-ewwel post",
     "comment_at": "Fuq",
     "edit_comment": "Editja Kumment",
-    "my_comments": "Il-Kummenti Tiegħi"
+    "product_buyer": "Xerrej",
   },
   "customer_club": {
     "bronze": "Bronż",
     "silver": "Fidda",
     "gold": "Golden",
     "platinum": "Platinu",
-    "diamond": "Djamant"
+    "diamond": "Djamant",
   },
   "application_categories": {
     "tracking": "Iċċekkja l-Imġieba tal-Utent",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Reklamar",
     "staff": "Persunal",
     "incentive": "Inċentivi",
-    "shop": "Ħanut"
+    "shop": "Ħanut",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "Żid oġġett ġdid",
     "title_input": "Titolu",
+    "placeholder_input": "Placeholder",
     "name_input": "Isem varjabbli",
     "value_input": "Valuri",
     "value_input_message": "Lista tal-Għażliet tal-Utent",
     "default": "Valur default",
+    "file_type_input": "Tipi ta' fajls aċċettabbli",
+    "file_type_message": "jpeg, png, zip,...",
     "types": {
       "simple": "Sempliċi",
       "selective": "Selettiv",
       "switch": "Aqleb",
       "file": "Fajl",
-      "number": "Numru"
+      "number": "Numru",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Placeholder",
-    "file_type_input": "Tipi ta' fajls aċċettabbli",
-    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "Isem tal-Prodott",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Status tal-ħlas",
     "payment_status_waiting": "Stennija għall-ħlas",
     "payment_status_paid": "Imħallas",
-    "buyer": "Xerrej"
+    "buyer": "Xerrej",
   },
   "virtual_item_info": {
     "title": "Oġġett Virtwali",
     "outputs": {
       "title": "Informazzjoni dwar l-Output",
       "sub_title": "Informazzjoni Kunfidenzjali ta' dan il-Punt",
-      "message": "Din l-informazzjoni se tintwera lill-utent wara li jixtri l-prodott."
+      "message": "Din l-informazzjoni se tintwera lill-utent wara li jixtri l-prodott.",
     },
     "inputs": {
       "title": "Informazzjoni Meħtieġa",
       "sub_title": "Informazzjoni tax-Xerrej Meħtieġa",
-      "message": "Ix-xerrej għandu jdaħħal l-informazzjoni mitluba fil-formola"
+      "message": "Ix-xerrej għandu jdaħħal l-informazzjoni mitluba fil-formola",
     },
     "notifications": {
       "inputs_set_success": "Formola ta' informazzjoni rreġistrata b'suċċess.",
       "confirm_by_admin_success": "It-tlestija tal-ordni kkonfermata.",
-      "confirm_by_buyer_success": "It-tlestija tal-ordni kkonfermata."
-    }
+      "confirm_by_buyer_success": "It-tlestija tal-ordni kkonfermata.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Din l-ordni ma tistax tiġi aċċettata mill-ħlas COD.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Out of stock.",
     "legal_restriction": "Ma tistax tagħmel ordni minħabba restrizzjonijiet legali.",
     "pricing_fault": "Żball fil-prezz mill-bejjiegħ.",
-    "system_fault": "Bug tas-sistema."
+    "system_fault": "Bug tas-sistema.",
   },
   "basket_order_info_summery": {
     "receiver": "Riċevitur",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Roħs",
     "final_price": "Ammont finali",
     "address": "Indirizz ta' Kunsinna",
-    "payment_status": "Status tal-ħlas"
+    "payment_status": "Status tal-ħlas",
   },
   "basket_status": {
     "open": "Miftuħa",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Ikkanċellat",
     "cod": "Ħlas Mal-Konsenja",
     "receipt_added": "Irċevuta miżjuda",
-    "payment_processing": "Ipproċessar tal-ħlas"
+    "payment_processing": "Ipproċessar tal-ħlas",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Miċħuda",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Konferma",
     "step_3": "Preparazzjoni",
     "step_4": "Mal-kunsinna",
-    "step_5": "Mogħtija"
+    "step_5": "Mogħtija",
   },
   "basket_return_request_view": {
     "title": "Talba għal Ritorn",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Tiċħad it-talba",
     "message_for_admin": "Skont il-ftehim li aċċettajt billi tuża s-Selldone, trid tikkuntattja lix-xerrej u żżommu infurmat dwar il-proċess tar-ritorn tal-ordni tiegħu/tagħha. Dan għandu jsir jekk it-talba tiġi aċċettata jew miċħuda u jinkiseb il-kunsens sħiħ tax-xerrej.",
     "notifications": {
-      "update_status_success": "L-istatus tat-talba aġġornat."
-    }
+      "update_status_success": "L-istatus tat-talba aġġornat.",
+    },
   },
   "basket_list": {
     "return_count": "Ritorn: {count} numru",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Varjant",
       "warranty": "Garanziji",
       "count": "Għadd",
-      "price": "prezz"
-    }
+      "price": "prezz",
+    },
   },
   "return_request_list": {
     "count": "Numru ta 'referenza",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Data Riċevuta",
       "state": "Status",
       "reason": "Raġuni",
-      "return_warranty_period": "Perjodu ta' garanzija"
-    }
+      "return_warranty_period": "Perjodu ta' garanzija",
+    },
   },
   "data_toolbar": {
     "search": "Fittex",
     "sort_by": "Irranġa skond",
-    "count_item": "Uri {item} oġġetti"
+    "count_item": "Uri {item} oġġetti",
   },
   "sort": {
     "created_at": "Oħloq data",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Uffiċjal",
     "registered": "Reġistrat",
     "purchased": "Mixtrija",
-    "sex": "Is-sess"
+    "sex": "Is-sess",
   },
   "search_box": {
     "result": "Riżultati tat-tfittxija",
     "tips": "Fittex Prodotti u Kategoriji",
     "label": "Fittex...",
-    "category": "Kategorija"
+    "category": "Kategorija",
   },
   "lead_status": {
     "physical_fast_delivery": "Kunsinna immedjata",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Tħejjija u sottomissjoni minn {days} ijiem li ġejjin",
     "virtual_fast_prepare": "Kunsinna immedjata",
     "virtual_under_24h": "Se jsir fi żmien {lead} sigħat li ġejjin",
-    "virtual_over_24h": "Se jsir mill-{days} ijiem li jmiss"
+    "virtual_over_24h": "Se jsir mill-{days} ijiem li jmiss",
   },
   "return_request_state": {
     "pending": "Pendenti",
     "accepted": "Ikkonfermat",
-    "rejected": "Miċħuda"
+    "rejected": "Miċħuda",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Tbagħbis tal-pakkett jew tan-numru tas-serje",
       "U5": "Xi oġġetti mill-pakkett huma neqsin",
       "U6": "Il-prodott mhuwiex oriġinali",
-      "U7": "Il-prodott ma jissodisfax l-ispeċifikazzjonijiet"
-    }
+      "U7": "Il-prodott ma jissodisfax l-ispeċifikazzjonijiet",
+    },
   },
   "image_uploader": {
     "label": "Drag & Drop jew <u>Agħżel fajl</u>",
-    "max_size": "Daqs massimu permess: {size}"
+    "max_size": "Daqs massimu permess: {size}",
   },
   "timespan": {
     "Morning": "8am - 12pm",
     "Evening": "12 nofsinhar sas-6 pm",
     "Night": "6 pm-12pm",
-    "Instant": "Post Instant"
+    "Instant": "Post Instant",
   },
   "week_day": {
     "Saturday": "is-Sibt",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "it-Tlieta",
     "Wednesday": "l-Erbgħa",
     "Thursday": "il-Ħamis",
-    "Friday": "il-Ġimgħa"
+    "Friday": "il-Ġimgħa",
   },
   "payment_form": {
     "title": "Agħżel Metodu ta' Ħlas",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Prosit, l-ordni tiegħek hija b'xejn!",
     "order_free_payment_action": "Ordni Ħieles Issa",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Indirizz tal-ħlas",
-      "amount": "Ammont"
-    }
+      "amount": "Ammont",
+    },
   },
   "discount_input": {
     "limit": "{percent}% skont sa {limit} {currency}",
     "action": "Żid Kodiċi ta' Skont",
     "code_input": "Kodiċi ta' Skont",
     "notifications": {
-      "add_success": "Prosit, kodiċi ta' skont validu."
-    }
+      "add_success": "Prosit, kodiċi ta' skont validu.",
+    },
   },
   "gift_card": {
     "inactive": "Il-karta hija diżattivata",
     "expire": "Skadenza",
     "transfer": "Trasferiment",
-    "send_to_friend": "Ibgħat lil ħabib"
+    "send_to_friend": "Ibgħat lil ħabib",
   },
   "count_down": {
     "days": "Jum",
     "hours": "Siegha",
     "minutes": "Minuti",
-    "seconds": "Sekondi"
+    "seconds": "Sekondi",
   },
   "gift_status": {
     "Unpaid": "Jistenna Irċevuta",
     "Paid": "Imħallas",
     "Rejected": "Miċħuda",
-    "Canceled": "Ikkanċellat"
+    "Canceled": "Ikkanċellat",
   },
   "gift_program_status": {
     "Airdrop": "Sistema ta' Ħlas",
     "Advertising": "Reklamar",
     "PersonalGift": "Rigal Personali",
-    "ShopGift": "Ħanut tar-Rigali"
+    "ShopGift": "Ħanut tar-Rigali",
   },
   "currency_selector": {
-    "label": "Munita"
+    "label": "Munita",
   },
   "need_login": {
     "title": "Idħol",
     "login_sms": "Login SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Idħol ma' Google",
     "login_facebook": "Idħol ma' Facebook",
+    "login_apple": "Idħol ma 'Apple",
     "login_account": "Idħol minn Selldone",
     "register": "Utent ġdid? Irreġistra issa.",
     "mobile_input": "Daħħal il-mowbajl tiegħek",
     "verification_code": "Kodiċi ta' verifika",
     "msg_title": "Hi,",
     "msg_body": "Jekk jogħġbok illoginja. Huwa jieħu biss ftit sekondi.",
-    "login_apple": "Idħol ma 'Apple",
     "login_email": "Idħol bl-Email",
     "email_login_step_1": "Jekk jogħġbok ipprovdi indirizz elettroniku validu, u aħna nibagħtulu l-kodiċi tal-login. L-ebda reġistrazzjoni mhi meħtieġa.",
     "email_login_step_2": "Int ċert li daħħalt l-indirizz elettroniku tiegħek b'mod korrett? Aħna se nibagħtu l-kodiċi tal-login lill-email ipprovduta, għalhekk jekk jogħġbok aċċerta l-eżattezza tiegħu.",
-    "email_login_step_3": "Bgħatna kodiċi għall-email tiegħek. Jekk jogħġbok innota li l-kodiċi se jiskadi fi żmien 10 minuti."
+    "email_login_step_3": "Bgħatna kodiċi għall-email tiegħek. Jekk jogħġbok innota li l-kodiċi se jiskadi fi żmien 10 minuti.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 Snin Gold Store"
+      "name": "5 Snin Gold Store",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 Sena Gold Store"
+      "name": "4 Sena Gold Store",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 Year Gold Store"
+      "name": "3 Year Gold Store",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 Sena Gold Store"
+      "name": "2 Sena Gold Store",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 Sena Gold Store"
+      "name": "1 Sena Gold Store",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Investitur tad-Deheb"
+      "name": "Investitur tad-Deheb",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Investitur Diamond"
+      "name": "Investitur Diamond",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investitur"
+      "name": "Ruby Investitur",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Membru tal-Komunità Superjuri tan-Netwerks tal-Komunikazzjoni"
+      "name": "Membru tal-Komunità Superjuri tan-Netwerks tal-Komunikazzjoni",
     },
     "GOLD_SUPPLIER": {
-      "name": "Fornitur tad-Deheb"
+      "name": "Fornitur tad-Deheb",
     },
     "GOLD_SELLER": {
-      "name": "Negozjant tad-Deheb"
+      "name": "Negozjant tad-Deheb",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Top Produttur tal-Kontenut"
+      "name": "Top Produttur tal-Kontenut",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Stilla"
+      "name": "Stilla",
     },
     "GUARDIAN": {
-      "name": "Servizz tal-Klijent Kbir"
+      "name": "Servizz tal-Klijent Kbir",
     },
     "KING": {
-      "name": "Re tas-Suq"
-    }
+      "name": "Re tas-Suq",
+    },
   },
   "cookie": {
     "title": "Din il-websajt tuża cookies",
     "message": "Din il-websajt tuża cookies biex ittejjeb l-esperjenza tal-utent. Billi tuża l-websajt tagħna inti tagħti l-kunsens għall-cookies kollha skont il-Politika tal-Cookie tagħna.",
     "preferences_action": "Immaniġġja l-Preferenzi",
-    "agree_action": "Naqbel"
+    "agree_action": "Naqbel",
   },
   "basket_item_message": {
     "title": "Informazzjoni meħtieġa għal dan l-oġġett",
     "save_actions": "Ħlief Messaġġ",
+    "product_inputs_preview_message": "Dawn l-għażliet ta 'personalizzazzjoni huma disponibbli għall-prodott ordnat tiegħek. Ladarba l-oġġett jiġi miżjud mal-karrettun tiegħek, inti tkun tista 'tagħmel aġġustamenti hawn.",
     "notifications": {
-      "success": "Id-dejta tal-input tiegħek ġiet salvata."
+      "success": "Id-dejta tal-input tiegħek ġiet salvata.",
     },
-    "product_inputs_preview_message": "Dawn l-għażliet ta 'personalizzazzjoni huma disponibbli għall-prodott ordnat tiegħek. Ladarba l-oġġett jiġi miżjud mal-karrettun tiegħek, inti tkun tista 'tagħmel aġġustamenti hawn."
   },
   "faq": {
     "faq": "Mistoqsijiet Frekwenti",
     "title": "Mistoqsijiet u Tweġibiet",
-    "sub_title": "Dak li tlabtna nagħmlu.",
     "message": "Fittex it-tweġiba għall-mistoqsija tiegħek fost it-tweġibiet hawn taħt. Staqsina jekk il-mistoqsijiet jibqgħu mhux imwieġba.",
     "add_question_action": "Staqsi Mistoqsija Ġdida",
     "read_more": "Aqra iktar ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Mistoqsija",
     "question_input_placeholder": "Staqsi l-mistoqsija tiegħek.",
     "notifications": {
-      "success_add": "Il-mistoqsija tiegħek intbagħtet b'suċċess."
-    }
+      "success_add": "Il-mistoqsija tiegħek intbagħtet b'suċċess.",
+    },
+    "sub_title": "Dak li tlabtna nagħmlu.",
   },
   "rating_labels": [
     "Hazin hafna",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "Daħħal l-indirizz tad-destinazzjoni",
     "enter_your_address": "Daħħal l-indirizz tiegħek.",
     "postal_code": "Kodiċi Postali",
-    "phone_input": "Telefon {type}",
+    "phone_input": "Telefon",
     "building_number": "Numru tal-bini",
     "building_unit": "Unità",
     "full_name_input": "Isem sħiħ {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Tikketta ta' l-indirizz (Jeħtieġ)",
     "notifications": {
       "save_in_list": "Dan l-indirizz ġie salvat fil-lista tiegħek bid-dettalji kollha tiegħu.",
-      "edit_success": "Valuri ta' indirizzi ġodda ssejvjati f'{title}."
+      "edit_success": "Valuri ta' indirizzi ġodda ssejvjati f'{title}.",
     },
     "delete_address_dialog": {
       "title": "Ħassar Indirizz",
       "message": "Żgur li trid tħassar dan l-indirizz?",
-      "action": "Neħħi l-indirizz"
-    }
+      "action": "Neħħi l-indirizz",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Ma nistax teditja dan il-kumment!",
     "comment_input_empty": "It-test tal-messaġġ huwa vojt!",
-    "article_not_saved": "Salv l-artiklu!"
+    "article_not_saved": "Salv l-artiklu!",
   },
   "wheel_fortune": {
     "title": "Ilgħab u Irbaħ",
     "message": "L-ispiża ta 'kull logħba hija 10 ċipep. Bħalissa għandek {chips} ċippa. Ikseb aktar ċippa billi tixtri mill-maħżen.",
     "win_message": "Prosit, tirbaħ!",
     "lost_message": "Jiddispjacini, Tlift il-logħba.",
-    "try_again": "Tista' terġa' tipprova"
+    "try_again": "Tista' terġa' tipprova",
   },
   "json": {
     "add": "Żid data tal-istruttura",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "Strutturi",
     "book": {
       "title": "Ktieb",
-      "desc": "Azzjonijiet tal-ktieb li jippermettu lill-utenti jixtru l-ktieb li jsibu direttament mir-riżultati tat-Tiftix."
+      "desc": "Azzjonijiet tal-ktieb li jippermettu lill-utenti jixtru l-ktieb li jsibu direttament mir-riżultati tat-Tiftix.",
     },
     "occupation": {
       "title": "Salarju stmat",
-      "desc": "Informazzjoni dwar l-istima tas-salarji, bħal firxiet tas-salarji u medji tas-salarji bbażati fuq ir-reġjun għal tipi ta' impjiegi, murija fl-esperjenza ta' tfittxija ta' xogħol fuq Google."
+      "desc": "Informazzjoni dwar l-istima tas-salarji, bħal firxiet tas-salarji u medji tas-salarji bbażati fuq ir-reġjun għal tipi ta' impjiegi, murija fl-esperjenza ta' tfittxija ta' xogħol fuq Google.",
     },
     "course": {
       "title": "Kors",
-      "desc": "Korsijiet edukattivi li jidhru f'lista speċifika għall-fornitur. Il-korsijiet jistgħu jinkludu t-titlu tal-kors, il-fornitur, u deskrizzjoni qasira."
+      "desc": "Korsijiet edukattivi li jidhru f'lista speċifika għall-fornitur. Il-korsijiet jistgħu jinkludu t-titlu tal-kors, il-fornitur, u deskrizzjoni qasira.",
     },
     "howto": {
       "title": "Kif",
-      "desc": "Kif tagħmel lill-utenti permezz ta' sett ta' passi biex itemmu b'suċċess biċċa xogħol, li tinkludi vidjow, stampi u test."
+      "desc": "Kif tagħmel lill-utenti permezz ta' sett ta' passi biex itemmu b'suċċess biċċa xogħol, li tinkludi vidjow, stampi u test.",
     },
     "recipe": {
       "title": "Riċetta",
-      "desc": "Riċetti li juru bħala riżultat għani individwali jew parti minn carousel ospitanti."
-    }
+      "desc": "Riċetti li juru bħala riżultat għani individwali jew parti minn carousel ospitanti.",
+    },
   },
   "support": {
     "Financial": "Finanzjarju",
     "Technical": "Tekniku",
-    "Advisor": "Konsulent"
+    "Advisor": "Konsulent",
   },
   "condition": {
     "new": "Ġdid",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Użati",
     "used_fair": "Użat ġust",
     "used_good": "Użat tajjeb",
-    "used_like_new": "Użat bħal ġdid"
+    "used_like_new": "Użat bħal ġdid",
   },
   "variant_filter": {
     "title": "Filtru tal-Varjant tal-Prodott",
-    "only_available": "Fl-istokk"
+    "only_available": "Fl-istokk",
   },
   "service": {
     "task": {
       "title": "Kompiti",
-      "message": "Lista tal-kompiti mwettqa f'dan is-servizz."
+      "message": "Lista tal-kompiti mwettqa f'dan is-servizz.",
     },
     "appointment": {
       "title": "Ħatra",
-      "message": "Agħżel il-ħinijiet tal-ġimgħa mill-ħinijiet li ġejjin ibbażati fuq il-ġurnata u s-siegħa li hija tajba għalik."
+      "message": "Agħżel il-ħinijiet tal-ġimgħa mill-ħinijiet li ġejjin ibbażati fuq il-ġurnata u s-siegħa li hija tajba għalik.",
     },
     "booking": {
       "title": "Booking",
-      "message": "Speċifika l-perjodu ta’ żmien tal-jiem li trid tagħmel riżerva fil-kalendarju hawn taħt."
+      "message": "Speċifika l-perjodu ta’ żmien tal-jiem li trid tagħmel riżerva fil-kalendarju hawn taħt.",
     },
     "subscription": {
-      "title": "Abbonament"
+      "title": "Abbonament",
     },
     "charge": {
-      "title": "Ħlas"
-    }
+      "title": "Ħlas",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Prezzijiet fissi",
-      "message": "F'dan it-tip ta' pprezzar, il-prezz tal-prodott huwa ammont fiss u m'hemmx bżonn li x-xerrej jitlob kalkolu tal-prezz."
+      "message": "F'dan it-tip ta' pprezzar, il-prezz tal-prodott huwa ammont fiss u m'hemmx bżonn li x-xerrej jitlob kalkolu tal-prezz.",
     },
     "ESTIMATION": {
       "title": "Stima tal-Ipprezzar",
-      "message": "Il-prezz tal-prodotti u s-servizzi se jiġi kkalkulat sa ċertu punt mill-bejjiegħ meta jagħmel ordni, il-fatturi tal-ħlas jistgħu jinbidlu jew jiżdiedu matul is-servizz."
+      "message": "Il-prezz tal-prodotti u s-servizzi se jiġi kkalkulat sa ċertu punt mill-bejjiegħ meta jagħmel ordni, il-fatturi tal-ħlas jistgħu jinbidlu jew jiżdiedu matul is-servizz.",
     },
     "AGREEMENT": {
       "title": "Ipprezzar tal-Ftehim",
-      "message": "Il-prezz finali tal-prodotti jew servizzi mhux se jinbidel mill-bejjiegħ wara li tkun saret l-ordni."
+      "message": "Il-prezz finali tal-prodotti jew servizzi mhux se jinbidel mill-bejjiegħ wara li tkun saret l-ordni.",
     },
     "BID": {
       "title": "Offerta / Irkant",
-      "message": "Il-prodott se jinbiegħ bl-ogħla prezz tal-offerta minn xerrejja potenzjali."
-    }
+      "message": "Il-prodott se jinbiegħ bl-ogħla prezz tal-offerta minn xerrejja potenzjali.",
+    },
   },
   "map": {
     "title": "Destinazzjoni biex tirċievi prodotti",
     "confirm": "Issettja l-post",
     "address": "Destinazzjoni",
-    "receptor": "Riċevitur"
+    "receptor": "Riċevitur",
   },
   "ShopBots": {
-    "telegram": "Telegramma"
+    "telegram": "Telegramma",
   },
   "article_tags": {
     "title": "Tags tal-Kontenut",
     "tags_input": "Tikketti",
     "tags_input_message": "Tags Lista ta 'dan l-artikolu",
     "notification": {
-      "add_success": "Tikketti miżjuda"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Kkumplikata ħafna",
-    "hard": "Iebsa",
-    "intermediate": "Intermedju",
-    "easy": "Faċli"
-  },
-  "billing_period": {
-    "Daily": "Kuljum",
-    "Weekly": "Kull ġimgħa",
-    "Monthly": "Kull xahar",
-    "Every3Months": "Kull 3 xhur",
-    "Every6Months": "Kull 6 xhur",
-    "Yearly": "Kull sena"
+      "add_success": "Tikketti miżjuda",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och mhux tajjeb!",
     "between2_3": "Orrajt!",
     "between3_4": "Nies bhalu!",
-    "between4_5": "In-nies iħobbuha!"
+    "between4_5": "In-nies iħobbuha!",
   },
   "seasons": {
     "spring": "Rebbiegħa",
     "summer": "Sajf",
     "autumn": "Ħarifa",
-    "winter": "Xitwa"
-  }
+    "winter": "Xitwa",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

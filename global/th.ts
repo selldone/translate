@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "ฉันได้อ่านข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัวและเห็นด้วยกับพวกเขา",
   "commons": {
     "Currency": "สกุลเงิน",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "สถานะ",
     "Price": "ราคา",
@@ -169,6 +170,7 @@ export default {
     "net_price": "ราคาขาดตัว",
     "tax": "ภาษี",
     "tax_included": "รวมในราคา",
+    "tax_included_abstract": "รวม",
     "limit": "ขีดจำกัด",
     "min_purchase": "ซื้อขั้นต่ำ",
     "eligible_for": "มีสิทธิ์ได้รับ",
@@ -302,6 +304,7 @@ export default {
     "created_at": "วันที่สร้าง",
     "updated_at": "การปรับปรุงครั้งล่าสุด",
     "register_at": "วันที่ลงทะเบียน",
+    "last_modified": "Last modified",
     "old": "เก่า",
     "new": "ใหม่",
     "start": "เริ่ม",
@@ -330,6 +333,7 @@ export default {
     "reseller": "ตัวแทนจำหน่าย",
     "tracking_code": "รหัสติดตาม",
     "tracking_url": "URL ติดตามผล",
+    "fulfillment": "Fulfillment",
     "fulfillments": "การปฏิบัติตาม",
     "reject": "ปฏิเสธ",
     "reserved": "ที่สงวนไว้",
@@ -341,6 +345,7 @@ export default {
     "waiting": "ซึ่งรอคอย...",
     "waiting_connecting_payment": "รอรับบริการชำระเงิน...",
     "creating_secure_payment": "การสร้างการชำระเงินที่ปลอดภัย",
+    "waiting_for_payment": "กรุณาชำระเงินให้ครบถ้วน...",
     "officer": "เจ้าหน้าที่",
     "ticket": "ตั๋ว",
     "ticket_url": "URL ตั๋ว",
@@ -361,7 +366,6 @@ export default {
     "rates": "เรตติ้ง",
     "seen_at": "เห็นที่",
     "completed": "สมบูรณ์",
-    "you": "คุณ",
     "shop": "ร้านค้า",
     "store": "เก็บ",
     "granted": "ได้รับ",
@@ -498,6 +502,7 @@ export default {
     "tablet": "ยาเม็ด",
     "pc": "PC",
     "acquisition_channel": "ช่องทางการได้มา",
+    "channels_overview": "Channels overview",
     "to": "ถึง",
     "info": "ข้อมูล",
     "general": "ทั่วไป",
@@ -559,7 +564,6 @@ export default {
     "per_product": "ต่อผลิตภัณฑ์",
     "journey": "การเดินทาง",
     "after": "หลังจาก",
-    "waiting_for_payment": "กรุณาชำระเงินให้ครบถ้วน...",
     "hour": "ชั่วโมง",
     "minute": "นาที",
     "premium": "พรีเมี่ยม",
@@ -569,6 +573,7 @@ export default {
     "shops": "ร้านค้า",
     "vendor": "ผู้ขาย",
     "vendors": "ผู้ขาย",
+    "no_vendors": "No vendors",
     "marketplace": "ตลาดกลาง",
     "verify_date": "ยืนยันวันที่",
     "note": "บันทึก",
@@ -604,7 +609,6 @@ export default {
     "variant": "ตัวแปร",
     "secure": "ปลอดภัย",
     "admin": "แอดมิน",
-    "tax_included_abstract": "รวม",
     "payment_not_settled": "การชำระเงินไม่ถูกตัดสิน!",
     "orders_list": "รายการสั่งซื้อ",
     "subscription_plan": "แผนการสมัครสมาชิก",
@@ -642,16 +646,170 @@ export default {
     "clusters": "คลัสเตอร์",
     "subscriptions": "การสมัครรับข้อมูล",
     "spam": "สแปม",
-    "video": "วีดีโอ"
+    "video": "วีดีโอ",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "คุณ",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "ซับซ้อนมาก",
+    "hard": "แข็ง",
+    "intermediate": "ระดับกลาง",
+    "easy": "ง่าย",
   },
   "dialogs": {
     "delete": {
       "title": "ลบ",
       "message": "คุณแน่ใจหรือว่าลบรายการนี้?",
-      "action": "ใช่ ลบเดี๋ยวนี้"
-    }
+      "action": "ใช่ ลบเดี๋ยวนี้",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "ใส่ในรถเข็น",
     "cancel": "ยกเลิก",
     "update": "อัปเดต",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "เพิ่มบัตรของขวัญ",
     "charge": "ค่าใช้จ่าย",
     "send_invites": "ส่งคำเชิญ",
-    "past": "อดีต",
+    "paste": "แปะ",
     "restore": "คืนค่า",
     "cut": "ตัด",
     "get_sms_code": "รับรหัสยืนยันตัวตน",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "แสดงตัวอย่าง",
     "hide_preview": "ซ่อนตัวอย่าง",
     "download_now": "ดาวน์โหลดเดี๋ยวนี้",
+    "watch_now": "ดูตอนนี้",
     "auto_fill": "ป้อนอัตโนมัติ",
     "track": "ติดตาม",
     "change_state": "เปลี่ยนสถานะ",
     "done": "เสร็จแล้ว",
     "reply": "ตอบกลับ",
-    "watch_now": "ดูตอนนี้",
     "unlock": "ปลดล็อค",
     "lock": "ล็อค",
     "create_clone": "สร้างโคลน",
@@ -773,41 +931,71 @@ export default {
     "buy": "ซื้อ",
     "view_all": "ดูทั้งหมด",
     "view_now": "ดูตอนนี้",
-    "paste": "แปะ"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "อดีต",
+  },
+  "billing_period": {
+    "Daily": "รายวัน",
+    "Weekly": "รายสัปดาห์",
+    "Monthly": "รายเดือน",
+    "Every3Months": "ทุก 3 เดือน",
+    "Every6Months": "ทุก 6 เดือน",
+    "Yearly": "รายปี",
   },
   "instance_message_title": "ส่งข้อความโต้ตอบแบบทันที",
   "instance_message": "สวัสดี {name} ฉันชื่อ {author} จาก {company}",
   "errors": {
     "419": "คุณไม่ได้ใช้งานมาเป็นเวลานาน โปรด <b>⟳ รีเฟรชหน้า</b> ด้วยเหตุผลด้านความปลอดภัย",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "ระบบไม่ซิงโครไนซ์กับบล็อคเชน จะไม่สามารถสร้างธุรกรรมใหม่ได้จนกว่าการซิงโครไนซ์เซิร์ฟเวอร์ของเราจะเสร็จสมบูรณ์ เรากำลังแก้ปัญหา",
-    "gateway_network_error": "บริการเกตเวย์การชำระเงินพบปัญหาในการสื่อสาร"
+    "gateway_network_error": "บริการเกตเวย์การชำระเงินพบปัญหาในการสื่อสาร",
   },
   "receiver_info": {
     "map": {
       "title": "ที่อยู่จัดส่ง",
       "confirm": "กำหนดตำแหน่ง",
       "address_type": "ปลายทาง",
-      "receptor_type": "ผู้รับ"
+      "receptor_type": "ผู้รับ",
     },
     "receiver_address": "เลือกที่อยู่จัดส่ง",
+    "service_address": "เลือกที่อยู่ของคุณ",
+    "select_billing_address": "Select billing address",
     "address": "ที่อยู่",
     "postcode": "รหัสไปรษณีย์",
     "enter_value": "กรอกที่นี่",
     "address_note": "บันทึก",
     "tel": "เบอร์ติดต่อ",
-    "service_address": "เลือกที่อยู่ของคุณ"
   },
   "weight": {
     "g": "g",
     "oz": "ออนซ์",
     "lb": "ปอนด์",
-    "kg": "กิโลกรัม"
+    "kg": "กิโลกรัม",
   },
   "mass_unit_name": {
     "g": "กรัม",
     "oz": "ออนซ์",
     "lb": "ปอนด์",
-    "kg": "กิโลกรัม"
+    "kg": "กิโลกรัม",
   },
   "length": {
     "cm": "ซม",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ฟุต",
     "mm": "mm",
     "m": "ม",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "เซนติเมตร",
@@ -823,17 +1011,21 @@ export default {
     "ft": "เท้า",
     "mm": "มิลลิเมตร",
     "m": "เมตร",
-    "yd": "ลาน"
+    "yd": "ลาน",
   },
   "distance": {
     "m": "เมตร",
-    "km": "กม."
+    "km": "กม.",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "วัน",
     "hours": "ชั่วโมง",
     "minutes": "นาที",
-    "seconds": "วินาที"
+    "seconds": "วินาที",
   },
   "units": [
     "หน่วย",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "สถานะ",
     "Territory": "อาณาเขต",
-    "Province": "จังหวัด"
+    "Province": "จังหวัด",
   },
   "transaction_status": {
     "RequireAction": "ต้องดำเนินการ",
     "Processing": "กำลังประมวลผล",
     "Canceled": "ยกเลิก",
-    "Succeeded": "ที่ประสบความสำเร็จ"
+    "Succeeded": "ที่ประสบความสำเร็จ",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "โจน ค็อกซ์",
@@ -885,7 +1078,17 @@ export default {
     "language": "เลือกภาษา..",
     "friend_email": "อีเมลของเพื่อนคุณ...",
     "friend_name": "เลือก. ชื่อเพื่อนของคุณ",
-    "select_date": "เลือกวันที่..."
+    "select_date": "เลือกวันที่...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "ยืนยัน",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "อักขระสูงสุด {maxCount} ตัว",
     "invalid_url": "URL ไม่ถูกต้อง",
     "country_invalid": "เลือกประเทศปลายทาง!",
-    "postal_code_invalid": "ตั้งรหัสไปรษณีย์ที่ถูกต้อง!"
+    "postal_code_invalid": "ตั้งรหัสไปรษณีย์ที่ถูกต้อง!",
   },
   "colors": {
     "#D32F2F": "สีแดง",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "หน่วย",
     "postcode": "รหัสไปรษณีย์",
     "note": "บันทึก",
-    "county": "เขต"
+    "county": "เขต",
   },
   "product_types": {
     "physical": "ทางกายภาพ",
@@ -1004,13 +1207,13 @@ export default {
     "service": "บริการ",
     "service_description": "บริการเช่น: ซ่อม, ขนส่ง, การสอน.",
     "subscription": "สมัครสมาชิก",
-    "subscription_description": "การสมัครสมาชิกและการออกใบแจ้งหนี้สำหรับผลิตภัณฑ์ บริการ หรือเนื้อหา"
+    "subscription_description": "การสมัครสมาชิกและการออกใบแจ้งหนี้สำหรับผลิตภัณฑ์ บริการ หรือเนื้อหา",
   },
   "license": {
     "free": "ฟรี",
     "startup": "สตาร์ทอัพ",
     "company": "บริษัท",
-    "enterprise": "องค์กร"
+    "enterprise": "องค์กร",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "สี",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "นับในแพ็ค",
     "weight": "น้ำหนัก",
     "type": "วัสดุ",
-    "style": "สไตล์"
+    "style": "สไตล์",
   },
   "delivery_state": {
     "check_queue": "รอการตรวจสอบ",
     "order_confirm": "ยืนยันการสั่งซื้อ",
     "preparing_order": "เตรียมความพร้อม",
     "sent_order": "กำลังจัดส่ง",
-    "to_customer": "ส่ง"
+    "to_customer": "ส่ง",
   },
   "status": {
     "unpaid": "ค้างชำระ",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "ปฏิเสธ",
     "pending": "รอดำเนินการ",
     "rejected": "ถูกปฏิเสธ",
-    "accepted": "รับแล้ว"
+    "accepted": "รับแล้ว",
   },
   "dimensions": {
     "cm": "ซม",
     "km": "กม.",
-    "kg": "กิโลกรัม"
+    "kg": "กิโลกรัม",
   },
   "transportation_type": {
     "motorbike": "มอเตอร์ไซค์",
@@ -1224,7 +1429,7 @@ export default {
     "global": "การขนส่งทั่วโลก",
     "global_description": "จัดส่งไปต่างประเทศ ทางอากาศ ทางทะเล หรือทางบก",
     "pickup": "หยิบ",
-    "pickup_description": "ลูกค้ามารับสินค้าที่หน้าร้านหรือคลังสินค้าของคุณ"
+    "pickup_description": "ลูกค้ามารับสินค้าที่หน้าร้านหรือคลังสินค้าของคุณ",
   },
   "article": {
     "login_to_see_error": "เข้าสู่ระบบเพื่อเข้าสู่บทความ",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "โหมดแก้ไข",
       "view_mode": "โหมดดู",
-      "delete": "ลบบทความ"
+      "delete": "ลบบทความ",
     },
     "schedule_action": "คุณต้องการกำหนดเวลาเผยแพร่หรือไม่",
     "schedule_title": "ตั้งเวลาเผยแพร่อัตโนมัติ",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "รายงานการละเมิดและลบเนื้อหา",
       "report_title": "รายงานเนื้อหานี้ว่าไม่เหมาะสม",
       "message": "เหตุผลในการส่งเนื้อหานี้คืออะไร? เลือกหนึ่งในตัวเลือกต่อไปนี้",
-      "accept_and_delete_action": "ยืนยันและลบเนื้อหา"
+      "accept_and_delete_action": "ยืนยันและลบเนื้อหา",
     },
     "schedule_dialog": {
       "title": "กำหนดการเผยแพร่เนื้อหา",
       "publish_at": "เผยแพร่ที่",
       "last_edit": "แก้ไขล่าสุด",
-      "view_action": "ดูบทความ"
+      "view_action": "ดูบทความ",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "ส่งข้อมูล",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "รายงานและลบ",
       "report_and_delete_success_message": "ลบบทความเรียบร้อยแล้ว",
       "report_success_title": "บทความรายงาน",
-      "report_success_message": "โพสต์รายงานของคุณเกี่ยวกับบทความนี้แล้ว"
+      "report_success_message": "โพสต์รายงานของคุณเกี่ยวกับบทความนี้แล้ว",
     },
     "alert": {
       "delete_article": {
         "title": "ลบบทความ",
         "message": "คุณแน่ใจหรือไม่ว่าต้องการลบบทความนี้อย่างถาวร",
-        "action": "ลบ"
-      }
+        "action": "ลบ",
+      },
     },
     "edit_window": {
       "title": "เลือกข้อความรูปภาพและสรุป",
-      "digest": "สรุป"
+      "digest": "สรุป",
     },
     "editor": {
       "title_placeholder": "ชื่อ..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "ไฟล์นี้ใหญ่เกินไป:",
       "notifications": {
         "image_uploaded_success": "บันทึกรูปภาพเรียบร้อยแล้ว",
-        "image_uploaded_failed": "เกิดข้อผิดพลาดในการโหลดรูปภาพ"
+        "image_uploaded_failed": "เกิดข้อผิดพลาดในการโหลดรูปภาพ",
       },
       "embed_placeholder": "ป้อนรหัส iframe, Facebook, Youtube หรือ URL อื่น ๆ แล้วกด Enter",
       "embed_caption_placeholder": "ป้อนชื่อ (ไม่บังคับ)",
-      "images_caption_placeholder": "ใส่ชื่อสำหรับภาพนี้ .."
-    }
+      "images_caption_placeholder": "ใส่ชื่อสำหรับภาพนี้ ..",
+    },
   },
   "article_report": {
     "inappropriate": "เนื้อหาของบทความนี้ไม่เหมาะสม",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "ฉันคิดว่าเนื้อหานี้มีภาพอนาจารและละเมิดกฎหมาย",
     "harassment": "ฉันคิดว่านี่เป็นการเหยียดเชื้อชาติ",
     "hate": "ฉันคิดว่านี่เป็นการส่งเสริมความรุนแรง",
-    "infringe": "สิ่งนี้ละเมิดสิทธิ์ของฉัน"
+    "infringe": "สิ่งนี้ละเมิดสิทธิ์ของฉัน",
   },
   "comments": {
     "new_action": "คลิกเพื่อแสดงความคิดเห็น ..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "รับความคิดเห็นเพิ่มเติม ..",
     "cant_send_comment": "คุณไม่สามารถเพิ่มโพสต์ใหม่",
     "cant_remove_this_comment": "คุณไม่สามารถลบความคิดเห็นนี้!",
-    "product_buyer": "ผู้ซื้อ",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "ความคิดเห็นของฉัน",
     "delete_alert": {
       "title": "ลบความคิดเห็น",
       "message": "คุณต้องการลบความคิดเห็นนี้หรือไม่?",
-      "action": "ลบ"
+      "action": "ลบ",
     },
     "notifications": {
-      "delete_success": "ความคิดเห็นของคุณถูกลบเรียบร้อยแล้ว"
+      "delete_success": "ความคิดเห็นของคุณถูกลบเรียบร้อยแล้ว",
     },
     "first_send": "โพสต์แรก",
     "comment_at": "บน",
     "edit_comment": "แก้ไขความคิดเห็น",
-    "my_comments": "ความคิดเห็นของฉัน"
+    "product_buyer": "ผู้ซื้อ",
   },
   "customer_club": {
     "bronze": "บรอนซ์",
     "silver": "เงิน",
     "gold": "โกลเด้น",
     "platinum": "แพลตตินั่ม",
-    "diamond": "เพชร"
+    "diamond": "เพชร",
   },
   "application_categories": {
     "tracking": "การตรวจสอบพฤติกรรมผู้ใช้",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "การโฆษณา",
     "staff": "พนักงาน",
     "incentive": "สิ่งจูงใจ",
-    "shop": "ร้านค้า"
+    "shop": "ร้านค้า",
   },
   "social_network": {
     "instagram": "อินสตาแกรม",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "เพิ่มรายการใหม่",
     "title_input": "ชื่อ",
+    "placeholder_input": "ตัวยึด",
     "name_input": "ชื่อตัวแปร",
     "value_input": "ค่านิยม",
     "value_input_message": "รายการตัวเลือกผู้ใช้",
     "default": "ค่าเริ่มต้น",
+    "file_type_input": "ประเภทไฟล์ที่ยอมรับได้",
+    "file_type_message": "jpeg , png , zip , ...",
     "types": {
       "simple": "เรียบง่าย",
       "selective": "คัดเลือก",
       "switch": "สวิตช์",
       "file": "ไฟล์",
-      "number": "ตัวเลข"
+      "number": "ตัวเลข",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "ตัวยึด",
-    "file_type_input": "ประเภทไฟล์ที่ยอมรับได้",
-    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "ชื่อผลิตภัณฑ์",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "สถานะการชำระเงิน",
     "payment_status_waiting": "รอการชำระเงิน",
     "payment_status_paid": "จ่าย",
-    "buyer": "ผู้ซื้อ"
+    "buyer": "ผู้ซื้อ",
   },
   "virtual_item_info": {
     "title": "ไอเทมเสมือนจริง",
     "outputs": {
       "title": "ข้อมูลเอาท์พุต",
       "sub_title": "ข้อมูลที่เป็นความลับของรายการนี้",
-      "message": "ข้อมูลนี้จะแสดงให้ผู้ใช้เห็นหลังจากซื้อผลิตภัณฑ์"
+      "message": "ข้อมูลนี้จะแสดงให้ผู้ใช้เห็นหลังจากซื้อผลิตภัณฑ์",
     },
     "inputs": {
       "title": "ข้อมูลที่จำเป็น",
       "sub_title": "ข้อมูลผู้ซื้อที่จำเป็น",
-      "message": "ผู้ซื้อจะต้องป้อนข้อมูลที่ร้องขอในแบบฟอร์ม"
+      "message": "ผู้ซื้อจะต้องป้อนข้อมูลที่ร้องขอในแบบฟอร์ม",
     },
     "notifications": {
       "inputs_set_success": "แบบฟอร์มข้อมูลลงทะเบียนเรียบร้อยแล้ว",
       "confirm_by_admin_success": "ยืนยันการสั่งซื้อเสร็จสมบูรณ์",
-      "confirm_by_buyer_success": "ยืนยันการสั่งซื้อเสร็จสมบูรณ์"
-    }
+      "confirm_by_buyer_success": "ยืนยันการสั่งซื้อเสร็จสมบูรณ์",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "คำสั่งซื้อนี้ไม่สามารถยอมรับได้โดยการชำระเงิน COD",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "สินค้าหมด.",
     "legal_restriction": "ไม่สามารถสั่งซื้อได้เนื่องจากข้อจำกัดทางกฎหมาย",
     "pricing_fault": "ราคาผิดพลาดจากผู้ขาย",
-    "system_fault": "ข้อผิดพลาดของระบบ"
+    "system_fault": "ข้อผิดพลาดของระบบ",
   },
   "basket_order_info_summery": {
     "receiver": "ผู้รับ",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "การลดราคา",
     "final_price": "จำนวนเงินสุดท้าย",
     "address": "ที่อยู่สำหรับการจัดส่ง",
-    "payment_status": "สถานะการชำระเงิน"
+    "payment_status": "สถานะการชำระเงิน",
   },
   "basket_status": {
     "open": "เปิด",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "ยกเลิก",
     "cod": "ชำระเงินปลายทาง",
     "receipt_added": "เพิ่มใบเสร็จ",
-    "payment_processing": "การประมวลผลการชำระเงิน"
+    "payment_processing": "การประมวลผลการชำระเงิน",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "ถูกปฏิเสธ",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "การยืนยัน",
     "step_3": "การตระเตรียม",
     "step_4": "กำลังจัดส่ง",
-    "step_5": "ส่ง"
+    "step_5": "ส่ง",
   },
   "basket_return_request_view": {
     "title": "ขอคืนสินค้า",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "ปฏิเสธคำขอ",
     "message_for_admin": "ตามข้อตกลงที่คุณยอมรับโดยใช้ Selldone คุณต้องติดต่อผู้ซื้อและแจ้งให้เขา/เธอทราบถึงกระบวนการคืนคำสั่งซื้อของเขา/เธอ ต้องดำเนินการนี้หากคำขอได้รับการยอมรับหรือปฏิเสธและได้รับความยินยอมจากผู้ซื้ออย่างเต็มที่",
     "notifications": {
-      "update_status_success": "อัปเดตสถานะคำขอแล้ว"
-    }
+      "update_status_success": "อัปเดตสถานะคำขอแล้ว",
+    },
   },
   "basket_list": {
     "return_count": "ส่งคืน: {count} หมายเลข",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "ตัวแปร",
       "warranty": "การรับประกัน",
       "count": "นับ",
-      "price": "ราคา"
-    }
+      "price": "ราคา",
+    },
   },
   "return_request_list": {
     "count": "หมายเลขอ้างอิง",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "วันที่ได้รับ",
       "state": "สถานะ",
       "reason": "เหตุผล",
-      "return_warranty_period": "ระยะเวลาการรับประกัน"
-    }
+      "return_warranty_period": "ระยะเวลาการรับประกัน",
+    },
   },
   "data_toolbar": {
     "search": "ค้นหา",
     "sort_by": "เรียงโดย",
-    "count_item": "แสดง {item} รายการ"
+    "count_item": "แสดง {item} รายการ",
   },
   "sort": {
     "created_at": "วันที่สร้าง",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "เจ้าหน้าที่",
     "registered": "ลงทะเบียน",
     "purchased": "ซื้อแล้ว",
-    "sex": "เพศ"
+    "sex": "เพศ",
   },
   "search_box": {
     "result": "ผลการค้นหา",
     "tips": "ค้นหาผลิตภัณฑ์และหมวดหมู่",
     "label": "ค้นหา ...",
-    "category": "หมวดหมู่"
+    "category": "หมวดหมู่",
   },
   "lead_status": {
     "physical_fast_delivery": "จัดส่งทันที",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "กำลังเตรียมและส่งจาก {days} วันถัดไป",
     "virtual_fast_prepare": "จัดส่งทันที",
     "virtual_under_24h": "จะทำภายใน {lead} ชั่วโมงถัดไป",
-    "virtual_over_24h": "จะทำภายใน {days} วันข้างหน้า"
+    "virtual_over_24h": "จะทำภายใน {days} วันข้างหน้า",
   },
   "return_request_state": {
     "pending": "รอดำเนินการ",
     "accepted": "ยืนยันแล้ว",
-    "rejected": "ถูกปฏิเสธ"
+    "rejected": "ถูกปฏิเสธ",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "การปลอมแปลงบรรจุภัณฑ์หรือหมายเลขซีเรียล",
       "U5": "พัสดุบางรายการหายไป",
       "U6": "สินค้าไม่ใช่ของแท้",
-      "U7": "สินค้าไม่ตรงตามข้อกำหนด"
-    }
+      "U7": "สินค้าไม่ตรงตามข้อกำหนด",
+    },
   },
   "image_uploader": {
     "label": "ลากและวางหรือ <u>เลือกไฟล์</u>",
-    "max_size": "ขนาดสูงสุดที่อนุญาต: {size}"
+    "max_size": "ขนาดสูงสุดที่อนุญาต: {size}",
   },
   "timespan": {
     "Morning": "8.00 - 12.00 น.",
     "Evening": "12.00 น. ถึง 18.00 น.",
     "Night": "18:00-12:00 น.",
-    "Instant": "โพสต์ทันที"
+    "Instant": "โพสต์ทันที",
   },
   "week_day": {
     "Saturday": "วันเสาร์",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "วันอังคาร",
     "Wednesday": "วันพุธ",
     "Thursday": "วันพฤหัสบดี",
-    "Friday": "วันศุกร์"
+    "Friday": "วันศุกร์",
   },
   "payment_form": {
     "title": "เลือกวิธีการชำระเงิน",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "ยินดีด้วย คำสั่งซื้อของคุณฟรี!",
     "order_free_payment_action": "สั่งซื้อฟรีตอนนี้",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "ที่อยู่การชำระเงิน",
-      "amount": "จำนวน"
-    }
+      "amount": "จำนวน",
+    },
   },
   "discount_input": {
     "limit": "ส่วนลด {percent}% สูงสุด {limit} {currency}",
     "action": "เพิ่มรหัสส่วนลด",
     "code_input": "รหัสส่วนลด",
     "notifications": {
-      "add_success": "ขอแสดงความยินดี รหัสส่วนลดที่ถูกต้อง"
-    }
+      "add_success": "ขอแสดงความยินดี รหัสส่วนลดที่ถูกต้อง",
+    },
   },
   "gift_card": {
     "inactive": "บัตรถูกปิดการใช้งาน",
     "expire": "หมดอายุ",
     "transfer": "โอนย้าย",
-    "send_to_friend": "ส่งให้เพื่อน"
+    "send_to_friend": "ส่งให้เพื่อน",
   },
   "count_down": {
     "days": "วัน",
     "hours": "ชั่วโมง",
     "minutes": "นาที",
-    "seconds": "วินาที"
+    "seconds": "วินาที",
   },
   "gift_status": {
     "Unpaid": "รอใบเสร็จรับเงิน",
     "Paid": "จ่าย",
     "Rejected": "ถูกปฏิเสธ",
-    "Canceled": "ยกเลิก"
+    "Canceled": "ยกเลิก",
   },
   "gift_program_status": {
     "Airdrop": "ระบบการชำระเงิน",
     "Advertising": "การโฆษณา",
     "PersonalGift": "ของขวัญส่วนตัว",
-    "ShopGift": "ร้านขายของที่ระลึก"
+    "ShopGift": "ร้านขายของที่ระลึก",
   },
   "currency_selector": {
-    "label": "สกุลเงิน"
+    "label": "สกุลเงิน",
   },
   "need_login": {
     "title": "เข้าสู่ระบบ",
     "login_sms": "เข้าสู่ระบบ SMS",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "เข้าสู่ระบบด้วย Google",
     "login_facebook": "เข้าสู่ระบบด้วย Facebook",
+    "login_apple": "เข้าสู่ระบบด้วย Apple",
     "login_account": "เข้าสู่ระบบโดย Selldone",
     "register": "ผู้ใช้ใหม่? สมัครตอนนี้.",
     "mobile_input": "ใส่มือถือของคุณ",
     "verification_code": "รหัสยืนยัน",
     "msg_title": "สวัสดี,",
     "msg_body": "กรุณาเข้าสู่ระบบ. ใช้เวลาเพียงไม่กี่วินาที",
-    "login_apple": "เข้าสู่ระบบด้วย Apple",
     "login_email": "เข้าสู่ระบบด้วยอีเมล",
     "email_login_step_1": "โปรดระบุที่อยู่อีเมลที่ถูกต้อง แล้วเราจะส่งรหัสเข้าสู่ระบบไปให้ ไม่จำเป็นต้องลงทะเบียน",
     "email_login_step_2": "คุณแน่ใจหรือไม่ว่าคุณป้อนที่อยู่อีเมลถูกต้อง เราจะส่งรหัสเข้าสู่ระบบไปยังอีเมลที่ให้ไว้ ดังนั้นโปรดตรวจสอบความถูกต้อง",
-    "email_login_step_3": "เราได้ส่งรหัสไปยังอีเมลของคุณแล้ว โปรดทราบว่ารหัสจะหมดอายุใน 10 นาที"
+    "email_login_step_3": "เราได้ส่งรหัสไปยังอีเมลของคุณแล้ว โปรดทราบว่ารหัสจะหมดอายุใน 10 นาที",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "ร้านทอง 5 ปี"
+      "name": "ร้านทอง 5 ปี",
     },
     "GOLDEN_2YEAR": {
-      "name": "ร้านทอง 4 ปี"
+      "name": "ร้านทอง 4 ปี",
     },
     "GOLDEN_3YEAR": {
-      "name": "ร้านทอง 3 ปี"
+      "name": "ร้านทอง 3 ปี",
     },
     "GOLDEN_4YEAR": {
-      "name": "ร้านทอง 2 ปี"
+      "name": "ร้านทอง 2 ปี",
     },
     "GOLDEN_5YEAR": {
-      "name": "ร้านทอง 1 ปี"
+      "name": "ร้านทอง 1 ปี",
     },
     "TOKEN_OWNER_1M": {
-      "name": "นักลงทุนทองคำ"
+      "name": "นักลงทุนทองคำ",
     },
     "TOKEN_OWNER_10M": {
-      "name": "นักลงทุนเพชร"
+      "name": "นักลงทุนเพชร",
     },
     "TOKEN_OWNER_100M": {
-      "name": "นักลงทุนทับทิม"
+      "name": "นักลงทุนทับทิม",
     },
     "COMMUNITY_LOYAL": {
-      "name": "สมาชิกของชุมชนเครือข่ายการสื่อสารที่เหนือกว่า"
+      "name": "สมาชิกของชุมชนเครือข่ายการสื่อสารที่เหนือกว่า",
     },
     "GOLD_SUPPLIER": {
-      "name": "ผู้จัดจำหน่ายทองคำ"
+      "name": "ผู้จัดจำหน่ายทองคำ",
     },
     "GOLD_SELLER": {
-      "name": "ตัวแทนจำหน่ายทองคำ"
+      "name": "ตัวแทนจำหน่ายทองคำ",
     },
     "CONTENT_SUPERMAN": {
-      "name": "ผู้ผลิตเนื้อหายอดนิยม"
+      "name": "ผู้ผลิตเนื้อหายอดนิยม",
     },
     "NINJA": {
-      "name": "นินจา"
+      "name": "นินจา",
     },
     "STAR": {
-      "name": "ดาว"
+      "name": "ดาว",
     },
     "GUARDIAN": {
-      "name": "การบริการลูกค้าที่ดีเยี่ยม"
+      "name": "การบริการลูกค้าที่ดีเยี่ยม",
     },
     "KING": {
-      "name": "ราชาแห่งตลาด"
-    }
+      "name": "ราชาแห่งตลาด",
+    },
   },
   "cookie": {
     "title": "เว็บไซต์นี้ใช้คุกกี้",
     "message": "เว็บไซต์นี้ใช้คุกกี้เพื่อปรับปรุงประสบการณ์ผู้ใช้ การใช้เว็บไซต์ของเราแสดงว่าคุณยินยอมให้ใช้คุกกี้ทั้งหมดตามนโยบายคุกกี้ของเรา",
     "preferences_action": "จัดการการตั้งค่า",
-    "agree_action": "ฉันเห็นด้วย"
+    "agree_action": "ฉันเห็นด้วย",
   },
   "basket_item_message": {
     "title": "ข้อมูลที่จำเป็นสำหรับรายการนี้",
     "save_actions": "บันทึกข้อความ",
+    "product_inputs_preview_message": "ตัวเลือกการปรับแต่งเหล่านี้มีให้สำหรับผลิตภัณฑ์ที่คุณสั่งซื้อ เมื่อเพิ่มสินค้าลงในรถเข็นแล้ว คุณจะสามารถปรับเปลี่ยนได้ที่นี่",
     "notifications": {
-      "success": "ข้อมูลที่ป้อนของคุณได้รับการบันทึกแล้ว"
+      "success": "ข้อมูลที่ป้อนของคุณได้รับการบันทึกแล้ว",
     },
-    "product_inputs_preview_message": "ตัวเลือกการปรับแต่งเหล่านี้มีให้สำหรับผลิตภัณฑ์ที่คุณสั่งซื้อ เมื่อเพิ่มสินค้าลงในรถเข็นแล้ว คุณจะสามารถปรับเปลี่ยนได้ที่นี่"
   },
   "faq": {
     "faq": "คำถามที่พบบ่อย",
     "title": "คำถามและคำตอบ",
-    "sub_title": "สิ่งที่คุณขอให้เราทำ",
     "message": "ค้นหาคำตอบสำหรับคำถามของคุณจากคำตอบด้านล่าง ถามเราว่าคำถามยังคงไม่มีคำตอบหรือไม่",
     "add_question_action": "ถามคำถามใหม่",
     "read_more": "อ่านเพิ่มเติม ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "คำถาม",
     "question_input_placeholder": "ถามคำถามของคุณ",
     "notifications": {
-      "success_add": "ส่งคำถามของคุณเรียบร้อยแล้ว"
-    }
+      "success_add": "ส่งคำถามของคุณเรียบร้อยแล้ว",
+    },
+    "sub_title": "สิ่งที่คุณขอให้เราทำ",
   },
   "rating_labels": [
     "ที่เลวร้ายมาก",
@@ -1819,7 +2032,7 @@ export default {
     "enter_address_hint": "ใส่ที่อยู่ปลายทาง",
     "enter_your_address": "ป้อนที่อยู่ของคุณ",
     "postal_code": "รหัสไปรษณีย์",
-    "phone_input": "โทรศัพท์ {type}",
+    "phone_input": "โทรศัพท์",
     "building_number": "อาคารเลขที่",
     "building_unit": "หน่วย",
     "full_name_input": "ชื่อเต็ม {type}",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "ป้ายกำกับที่อยู่ (จำเป็น)",
     "notifications": {
       "save_in_list": "ที่อยู่นี้ได้รับการบันทึกลงในรายการของคุณพร้อมรายละเอียดทั้งหมดแล้ว",
-      "edit_success": "ค่าที่อยู่ใหม่ถูกบันทึกไว้ใน {title}"
+      "edit_success": "ค่าที่อยู่ใหม่ถูกบันทึกไว้ใน {title}",
     },
     "delete_address_dialog": {
       "title": "ลบที่อยู่",
       "message": "คุณแน่ใจหรือไม่ว่าต้องการลบที่อยู่นี้",
-      "action": "ลบที่อยู่"
-    }
+      "action": "ลบที่อยู่",
+    },
   },
   "comment_manager": {
     "can_not_edit": "แก้ไขความคิดเห็นนี้ไม่ได้!",
     "comment_input_empty": "ข้อความว่างเปล่า!",
-    "article_not_saved": "บันทึกบทความ!"
+    "article_not_saved": "บันทึกบทความ!",
   },
   "wheel_fortune": {
     "title": "เล่นและชนะ",
     "message": "ค่าใช้จ่ายของแต่ละเกมคือ 10 ชิป ขณะนี้คุณมีชิป {chips} ชิป รับชิปมากขึ้นโดยการซื้อจากร้านค้า",
     "win_message": "ขอแสดงความยินดี คุณชนะ!",
     "lost_message": "ขออภัย คุณแพ้เกม",
-    "try_again": "คุณสามารถลองอีกครั้ง"
+    "try_again": "คุณสามารถลองอีกครั้ง",
   },
   "json": {
     "add": "เพิ่มข้อมูลโครงสร้าง",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "โครงสร้าง",
     "book": {
       "title": "หนังสือ",
-      "desc": "การดำเนินการหนังสือที่ทำให้ผู้ใช้สามารถซื้อหนังสือที่พวกเขาพบได้โดยตรงจากผลการค้นหา"
+      "desc": "การดำเนินการหนังสือที่ทำให้ผู้ใช้สามารถซื้อหนังสือที่พวกเขาพบได้โดยตรงจากผลการค้นหา",
     },
     "occupation": {
       "title": "เงินเดือนโดยประมาณ",
-      "desc": "ข้อมูลเกี่ยวกับการประมาณเงินเดือน เช่น ช่วงเงินเดือนและค่าเฉลี่ยเงินเดือนตามภูมิภาคสำหรับประเภทงานที่แสดงในประสบการณ์การค้นหางานบน Google"
+      "desc": "ข้อมูลเกี่ยวกับการประมาณเงินเดือน เช่น ช่วงเงินเดือนและค่าเฉลี่ยเงินเดือนตามภูมิภาคสำหรับประเภทงานที่แสดงในประสบการณ์การค้นหางานบน Google",
     },
     "course": {
       "title": "คอร์ส",
-      "desc": "หลักสูตรการศึกษาที่ปรากฏในรายการเฉพาะของผู้ให้บริการ หลักสูตรสามารถรวมชื่อหลักสูตร ผู้ให้บริการ และคำอธิบายสั้นๆ"
+      "desc": "หลักสูตรการศึกษาที่ปรากฏในรายการเฉพาะของผู้ให้บริการ หลักสูตรสามารถรวมชื่อหลักสูตร ผู้ให้บริการ และคำอธิบายสั้นๆ",
     },
     "howto": {
       "title": "วิธีทำ",
-      "desc": "How-to จะแนะนำผู้ใช้ผ่านชุดขั้นตอนต่างๆ เพื่อทำงานให้สำเร็จ โดยมีวิดีโอ รูปภาพ และข้อความ"
+      "desc": "How-to จะแนะนำผู้ใช้ผ่านชุดขั้นตอนต่างๆ เพื่อทำงานให้สำเร็จ โดยมีวิดีโอ รูปภาพ และข้อความ",
     },
     "recipe": {
       "title": "สูตรอาหาร",
-      "desc": "สูตรที่แสดงเป็นผลการค้นหาที่เป็นสื่อสมบูรณ์แต่ละรายการหรือเป็นส่วนหนึ่งของภาพหมุนของโฮสต์"
-    }
+      "desc": "สูตรที่แสดงเป็นผลการค้นหาที่เป็นสื่อสมบูรณ์แต่ละรายการหรือเป็นส่วนหนึ่งของภาพหมุนของโฮสต์",
+    },
   },
   "support": {
     "Financial": "การเงิน",
     "Technical": "เทคนิค",
-    "Advisor": "ที่ปรึกษา"
+    "Advisor": "ที่ปรึกษา",
   },
   "condition": {
     "new": "ใหม่",
@@ -1885,91 +2098,152 @@ export default {
     "used": "ใช้แล้ว",
     "used_fair": "มือสองยุติธรรม",
     "used_good": "ใช้ดี",
-    "used_like_new": "ใช้แล้ว - เหมือนใหม่"
+    "used_like_new": "ใช้แล้ว - เหมือนใหม่",
   },
   "variant_filter": {
     "title": "ตัวกรองตัวเลือกสินค้า",
-    "only_available": "มีสินค้าในสต๊อก"
+    "only_available": "มีสินค้าในสต๊อก",
   },
   "service": {
     "task": {
       "title": "งาน",
-      "message": "รายการงานที่ดำเนินการในบริการนี้"
+      "message": "รายการงานที่ดำเนินการในบริการนี้",
     },
     "appointment": {
       "title": "การนัดหมาย",
-      "message": "เลือกเวลาของสัปดาห์จากเวลาต่อไปนี้ตามวันและชั่วโมงที่เหมาะกับคุณ"
+      "message": "เลือกเวลาของสัปดาห์จากเวลาต่อไปนี้ตามวันและชั่วโมงที่เหมาะกับคุณ",
     },
     "booking": {
       "title": "การจอง",
-      "message": "ระบุช่วงเวลาของวันที่คุณต้องการจองในปฏิทินด้านล่าง"
+      "message": "ระบุช่วงเวลาของวันที่คุณต้องการจองในปฏิทินด้านล่าง",
     },
     "subscription": {
-      "title": "สมัครสมาชิก"
+      "title": "สมัครสมาชิก",
     },
     "charge": {
-      "title": "ค่าใช้จ่าย"
-    }
+      "title": "ค่าใช้จ่าย",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "ราคาคงที่",
-      "message": "ในการกำหนดราคาประเภทนี้ ราคาของผลิตภัณฑ์เป็นจำนวนคงที่และผู้ซื้อไม่จำเป็นต้องขอการคำนวณราคา"
+      "message": "ในการกำหนดราคาประเภทนี้ ราคาของผลิตภัณฑ์เป็นจำนวนคงที่และผู้ซื้อไม่จำเป็นต้องขอการคำนวณราคา",
     },
     "ESTIMATION": {
       "title": "ราคาประเมิน",
-      "message": "ผู้ขายจะคำนวณราคาสินค้าและบริการในระดับหนึ่งเมื่อทำการสั่งซื้อ สามารถเปลี่ยนหรือเพิ่มใบแจ้งหนี้การชำระเงินระหว่างบริการได้"
+      "message": "ผู้ขายจะคำนวณราคาสินค้าและบริการในระดับหนึ่งเมื่อทำการสั่งซื้อ สามารถเปลี่ยนหรือเพิ่มใบแจ้งหนี้การชำระเงินระหว่างบริการได้",
     },
     "AGREEMENT": {
       "title": "ราคาตามข้อตกลง",
-      "message": "ราคาสุดท้ายของผลิตภัณฑ์หรือบริการจะไม่ถูกเปลี่ยนแปลงโดยผู้ขายหลังจากทำการสั่งซื้อแล้ว"
+      "message": "ราคาสุดท้ายของผลิตภัณฑ์หรือบริการจะไม่ถูกเปลี่ยนแปลงโดยผู้ขายหลังจากทำการสั่งซื้อแล้ว",
     },
     "BID": {
       "title": "ประมูล / ประมูล",
-      "message": "ผลิตภัณฑ์จะถูกขายในราคาเสนอซื้อสูงสุดโดยผู้ซื้อที่มีศักยภาพ"
-    }
+      "message": "ผลิตภัณฑ์จะถูกขายในราคาเสนอซื้อสูงสุดโดยผู้ซื้อที่มีศักยภาพ",
+    },
   },
   "map": {
     "title": "ปลายทางรับสินค้า",
     "confirm": "กำหนดตำแหน่ง",
     "address": "ปลายทาง",
-    "receptor": "ผู้รับ"
+    "receptor": "ผู้รับ",
   },
   "ShopBots": {
-    "telegram": "โทรเลข"
+    "telegram": "โทรเลข",
   },
   "article_tags": {
     "title": "แท็กเนื้อหา",
     "tags_input": "แท็ก",
     "tags_input_message": "แท็ก รายชื่อบทความนี้",
     "notification": {
-      "add_success": "แท็กเพิ่ม"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "ซับซ้อนมาก",
-    "hard": "แข็ง",
-    "intermediate": "ระดับกลาง",
-    "easy": "ง่าย"
-  },
-  "billing_period": {
-    "Daily": "รายวัน",
-    "Weekly": "รายสัปดาห์",
-    "Monthly": "รายเดือน",
-    "Every3Months": "ทุก 3 เดือน",
-    "Every6Months": "ทุก 6 เดือน",
-    "Yearly": "รายปี"
+      "add_success": "แท็กเพิ่ม",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "โอเค ไม่ดี!",
     "between2_3": "ไม่เป็นไร!",
     "between3_4": "คนชอบ!",
-    "between4_5": "คนรักมัน!"
+    "between4_5": "คนรักมัน!",
   },
   "seasons": {
     "spring": "ฤดูใบไม้ผลิ",
     "summer": "ฤดูร้อน",
     "autumn": "ฤดูใบไม้ร่วง",
-    "winter": "ฤดูหนาว"
-  }
+    "winter": "ฤดูหนาว",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };

@@ -170,6 +170,7 @@ export default {
     "net_price": "净价",
     "tax": "税",
     "tax_included": "已含税",
+    "tax_included_abstract": "包括。",
     "limit": "限制",
     "min_purchase": "最低购买量",
     "eligible_for": "适用",
@@ -332,6 +333,7 @@ export default {
     "reseller": "转售经销商",
     "tracking_code": "跟踪码",
     "tracking_url": "跟踪网址",
+    "fulfillment": "履单",
     "fulfillments": "履单情况",
     "reject": "拒绝",
     "reserved": "已保留",
@@ -343,6 +345,7 @@ export default {
     "waiting": "等待...",
     "waiting_connecting_payment": "正在连接支付服务...",
     "creating_secure_payment": "正在创建安全支付...",
+    "waiting_for_payment": "请完成付款...",
     "officer": "负责人",
     "ticket": "工单",
     "ticket_url": "工单网址",
@@ -363,7 +366,6 @@ export default {
     "rates": "评分",
     "seen_at": "查看时间",
     "completed": "已完成",
-    "you": "你",
     "shop": "店铺",
     "store": "店铺",
     "granted": "已授权",
@@ -500,6 +502,7 @@ export default {
     "tablet": "平板",
     "pc": "桌面电脑",
     "acquisition_channel": "获客渠道",
+    "channels_overview": "渠道概述",
     "to": "到",
     "info": "信息",
     "general": "通用",
@@ -561,7 +564,6 @@ export default {
     "per_product": "每个产品",
     "journey": "旅程",
     "after": "之后",
-    "waiting_for_payment": "请完成付款...",
     "hour": "小时",
     "minute": "分钟",
     "premium": "高级",
@@ -571,6 +573,7 @@ export default {
     "shops": "商店",
     "vendor": "供应商",
     "vendors": "供应商",
+    "no_vendors": "没有供应商",
     "marketplace": "市场",
     "verify_date": "验证日期",
     "note": "备注",
@@ -606,7 +609,6 @@ export default {
     "variant": "变体",
     "secure": "安全",
     "admin": "管理员",
-    "tax_included_abstract": "包括。",
     "payment_not_settled": "付款未结清！",
     "orders_list": "订单列表",
     "subscription_plan": "订阅计划",
@@ -645,9 +647,6 @@ export default {
     "subscriptions": "订阅",
     "spam": "垃圾邮件",
     "video": "视频",
-    "fulfillment": "履单",
-    "channels_overview": "渠道概述",
-    "no_vendors": "没有供应商",
     "ends_in": "结束于",
     "current": "当前",
     "important": "重要",
@@ -684,6 +683,7 @@ export default {
     "refund": "退款",
     "items": "商品",
     "incentives": "激励措施",
+    "you": "你",
     "recurring_payment": "定期付款",
     "pricing": "价格",
     "purchase": "购买",
@@ -716,6 +716,7 @@ export default {
     "week": "星期",
     "agencies": "代理机构",
     "not_available": "Not Available",
+    "accounting": "Accounting",
     "gateways": "网关",
     "repository": "代码库",
     "clone": "克隆",
@@ -775,16 +776,40 @@ export default {
     "archived": "已归档",
     "archive": "归档",
     "billing": "账单",
-    "enter_email": "输入邮箱"
+    "enter_email": "输入邮箱",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "极难",
+    "hard": "困难",
+    "intermediate": "一般",
+    "easy": "简单",
   },
   "dialogs": {
     "delete": {
       "title": "删除",
       "message": "您确定要删除此项目吗？",
-      "action": "是的，立即删除"
-    }
+      "action": "是的，立即删除",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "添加到购物车",
     "cancel": "取消",
     "update": "更新",
@@ -882,12 +907,12 @@ export default {
     "show_preview": "显示预览",
     "hide_preview": "隐藏预览",
     "download_now": "立即下载",
+    "watch_now": "立即观看",
     "auto_fill": "自动填充",
     "track": "追踪",
     "change_state": "更改状态",
     "done": "完成",
     "reply": "回复",
-    "watch_now": "立即观看",
     "unlock": "解锁",
     "lock": "锁定",
     "create_clone": "创建副本",
@@ -921,7 +946,18 @@ export default {
     "verify_now": "立即验证",
     "learn_more": "了解更多",
     "learn_more_about": "了解有关{name}的更多信息",
-    "select_category": "选择分类"
+    "select_category": "选择分类",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+  },
+  "billing_period": {
+    "Daily": "每日",
+    "Weekly": "每周",
+    "Monthly": "每月",
+    "Every3Months": "每3个月",
+    "Every6Months": "每6个月",
+    "Yearly": "每年",
   },
   "instance_message_title": "发送即时消息",
   "instance_message": "嗨，你好 {name}，\n我是来自 {company} 的 {author}。",
@@ -930,35 +966,35 @@ export default {
     "403": "您无权执行此操作。尝试刷新页面，问题可能会得到解决。",
     "404": "请求的页面未找到。页面可能已被移动、重命名或删除。",
     "gateway_blockchain_sync_error": "系统未能与区块链同步。在我们的服务器完成同步之前，无法创建新的交易。我们正在解决该问题。",
-    "gateway_network_error": "支付网关服务遇到通信问题。"
+    "gateway_network_error": "支付网关服务遇到通信问题。",
   },
   "receiver_info": {
     "map": {
       "title": "收件地址",
       "confirm": "设置位置",
       "address_type": "目的地",
-      "receptor_type": "收件人"
+      "receptor_type": "收件人",
     },
     "receiver_address": "选择送货地址",
+    "service_address": "选择您的地址",
     "select_billing_address": "选择账单地址",
     "address": "地址",
     "postcode": "邮政编码",
     "enter_value": "在这里填写",
     "address_note": "备注",
     "tel": "联系电话",
-    "service_address": "选择您的地址"
   },
   "weight": {
     "g": "克",
     "oz": "盎司",
     "lb": "磅",
-    "kg": "千克"
+    "kg": "千克",
   },
   "mass_unit_name": {
     "g": "克",
     "oz": "盎司",
     "lb": "磅",
-    "kg": "公斤"
+    "kg": "公斤",
   },
   "length": {
     "cm": "厘米",
@@ -966,7 +1002,7 @@ export default {
     "ft": "英尺",
     "mm": "毫米",
     "m": "米",
-    "yd": "码"
+    "yd": "码",
   },
   "size_unit_name": {
     "cm": "厘米",
@@ -974,11 +1010,11 @@ export default {
     "ft": "英尺",
     "mm": "毫米",
     "m": "米",
-    "yd": "码"
+    "yd": "码",
   },
   "distance": {
     "m": "米",
-    "km": "千米"
+    "km": "千米",
   },
   "distance_unit_name": {
     "km": "千米",
@@ -988,7 +1024,7 @@ export default {
     "days": "天",
     "hours": "小时",
     "minutes": "分钟",
-    "seconds": "秒"
+    "seconds": "秒",
   },
   "units": [
     "单位",
@@ -1025,14 +1061,14 @@ export default {
   "region_types": {
     "State": "州",
     "Territory": "地区",
-    "Province": "省"
+    "Province": "省",
   },
   "transaction_status": {
     "RequireAction": "需要操作",
     "Processing": "处理中",
     "Canceled": "已取消",
     "Succeeded": "成功",
-    "RequireCapture": "需要捕获"
+    "RequireCapture": "需要捕获",
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -1051,7 +1087,7 @@ export default {
     "filter_country": "按国家筛选...",
     "search": "搜索...",
     "select_wallet": "选择钱包...",
-    "filter_by": "按条件筛选..."
+    "filter_by": "按条件筛选...",
   },
   "notification": {
     "confirm": "确认",
@@ -1076,7 +1112,7 @@ export default {
     "invalid_max_chars": "最多 {maxCount} 个字符",
     "invalid_url": "无效的网址",
     "country_invalid": "选择目的地国家！",
-    "postal_code_invalid": "设置有效的邮政编码！"
+    "postal_code_invalid": "设置有效的邮政编码！",
   },
   "colors": {
     "#D32F2F": "红色的",
@@ -1158,7 +1194,7 @@ export default {
     "building_unit": "单元",
     "postcode": "邮政编码",
     "note": "备注",
-    "county": "县"
+    "county": "县",
   },
   "product_types": {
     "physical": "实物产品",
@@ -1170,13 +1206,13 @@ export default {
     "service": "服务",
     "service_description": "服务类型，如：维修、运输、教学。",
     "subscription": "订阅",
-    "subscription_description": "用于产品、服务或内容的订阅和开票。"
+    "subscription_description": "用于产品、服务或内容的订阅和开票。",
   },
   "license": {
     "free": "免费版",
     "startup": "初创版",
     "company": "公司版",
-    "enterprise": "大型企业版"
+    "enterprise": "大型企业版",
   },
   "currency": {
     "IRR": "IRR",
@@ -1242,6 +1278,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1322,12 +1359,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
     "SYP": "SYP",
     "KWD": "KWD",
-    "BTN": "BTN"
+    "BTN": "BTN",
   },
   "variants": {
     "color": "颜色",
@@ -1335,14 +1371,14 @@ export default {
     "count_in_pack": "每包数量",
     "weight": "重量",
     "type": "材料",
-    "style": "风格"
+    "style": "风格",
   },
   "delivery_state": {
     "check_queue": "待审核",
     "order_confirm": "订单确认",
     "preparing_order": "准备中",
     "sent_order": "配送中",
-    "to_customer": "已送达"
+    "to_customer": "已送达",
   },
   "status": {
     "unpaid": "未支付",
@@ -1365,12 +1401,12 @@ export default {
     "reject": "拒绝",
     "pending": "等待中",
     "rejected": "已拒绝",
-    "accepted": "已接受"
+    "accepted": "已接受",
   },
   "dimensions": {
     "cm": "厘米",
     "km": "千米",
-    "kg": "千克"
+    "kg": "千克",
   },
   "transportation_type": {
     "motorbike": "摩托车",
@@ -1392,7 +1428,7 @@ export default {
     "global": "国际运输",
     "global_description": "通过空运、海运或陆运进行海外运。",
     "pickup": "自提",
-    "pickup_description": "顾客可自行到实体店或仓库提货。"
+    "pickup_description": "顾客可自行到实体店或仓库提货。",
   },
   "article": {
     "login_to_see_error": "登录后查看文章",
@@ -1401,7 +1437,7 @@ export default {
     "menu": {
       "edit": "编辑模式",
       "view_mode": "查看模式",
-      "delete": "删除文章"
+      "delete": "删除文章",
     },
     "schedule_action": "是否需要定时发布？",
     "schedule_title": "设置自动发布",
@@ -1444,7 +1480,7 @@ export default {
       "report_and_delete_title": "举报并删除内容",
       "report_title": "举报该内容为违规",
       "message": "请告诉我们举报的原因，选择以下选项之一。",
-      "accept_and_delete_action": "确认并删除内容"
+      "accept_and_delete_action": "确认并删除内容",
     },
     "schedule_dialog": {
       "title": "内容发布计划",
@@ -1453,7 +1489,7 @@ export default {
       "view_action": "查看文章",
       "no_article": "暂无计划发布的文章！",
       "current_article": "当前文章",
-      "article_for_product": "产品相关文章"
+      "article_for_product": "产品相关文章",
     },
     "notifications": {
       "update_success_title": "提交信息",
@@ -1463,18 +1499,18 @@ export default {
       "report_and_delete_success_title": "举报并删除",
       "report_and_delete_success_message": "文章已成功删除。",
       "report_success_title": "举报文章",
-      "report_success_message": "您对该文章的举报已提交。"
+      "report_success_message": "您对该文章的举报已提交。",
     },
     "alert": {
       "delete_article": {
         "title": "删除文章",
         "message": "您确定要永久删除这篇文章吗？",
-        "action": "删除"
-      }
+        "action": "删除",
+      },
     },
     "edit_window": {
       "title": "选择图文和摘要",
-      "digest": "摘要"
+      "digest": "摘要",
     },
     "editor": {
       "title_placeholder": "标题..",
@@ -1483,12 +1519,12 @@ export default {
       "max_file_size_error": "此文件太大：",
       "notifications": {
         "image_uploaded_success": "图片保存成功",
-        "image_uploaded_failed": "加载图像时出错。"
+        "image_uploaded_failed": "加载图像时出错。",
       },
       "embed_placeholder": "输入HTML、iframe代码，或Facebook、Youtube等任意 URL，然后按回车。",
       "embed_caption_placeholder": "输入标题（可选）",
-      "images_caption_placeholder": "为此图片输入标题.."
-    }
+      "images_caption_placeholder": "为此图片输入标题..",
+    },
   },
   "article_report": {
     "inappropriate": "这篇文章的内容不合适。",
@@ -1500,7 +1536,7 @@ export default {
     "violent": "我认为该内容涉及色情，并违反法律。",
     "harassment": "我认为这是种族歧视。",
     "hate": "我认为这在宣传暴力。",
-    "infringe": "这侵犯了我的权利。"
+    "infringe": "这侵犯了我的权利。",
   },
   "comments": {
     "new_action": "点击发表评论..",
@@ -1513,27 +1549,27 @@ export default {
     "load_more_action": "获得更多评论..",
     "cant_send_comment": "您无法添加新的评论。",
     "cant_remove_this_comment": "您无法删除此评论！",
-    "product_buyer": "买方",
+    "verified_buyer": "已验证买家",
+    "my_comments": "我的评论",
     "delete_alert": {
       "title": "删除评论",
       "message": "你想删除这条评论吗？",
-      "action": "删除"
+      "action": "删除",
     },
     "notifications": {
-      "delete_success": "您的评论已成功删除。"
+      "delete_success": "您的评论已成功删除。",
     },
     "first_send": "首条评论",
     "comment_at": "于",
     "edit_comment": "编辑评论",
-    "my_comments": "我的评论",
-    "verified_buyer": "已验证买家"
+    "product_buyer": "买方",
   },
   "customer_club": {
     "bronze": "铜牌",
     "silver": "银牌",
     "gold": "金牌",
     "platinum": "铂金",
-    "diamond": "钻石"
+    "diamond": "钻石",
   },
   "application_categories": {
     "tracking": "用户行为追踪",
@@ -1548,7 +1584,7 @@ export default {
     "advertising": "广告",
     "staff": "员工",
     "incentive": "激励",
-    "shop": "店铺"
+    "shop": "店铺",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1563,25 +1599,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook Messenger"
+    "facebook_messenger": "Facebook Messenger",
   },
   "form_builder": {
     "add_item_action": "添加新项目",
     "title_input": "标题",
+    "placeholder_input": "占位符",
     "name_input": "变量的名称",
     "value_input": "值",
     "value_input_message": "用户选项列表",
     "default": "默认值",
+    "file_type_input": "可接受的文件类型",
+    "file_type_message": "JPEG，PNG，zip压缩文件，...",
     "types": {
       "simple": "简单文本",
       "selective": "下拉选择",
       "switch": "开关按钮",
       "file": "文件上传",
-      "number": "数字"
+      "number": "数字",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "占位符",
-    "file_type_input": "可接受的文件类型",
-    "file_type_message": "JPEG，PNG，zip压缩文件，..."
   },
   "virtual_order_info_summery": {
     "title": "产品名称",
@@ -1592,25 +1629,25 @@ export default {
     "payment_status": "支付状态",
     "payment_status_waiting": "等待付款",
     "payment_status_paid": "已付款",
-    "buyer": "买家"
+    "buyer": "买家",
   },
   "virtual_item_info": {
     "title": "虚拟物品",
     "outputs": {
       "title": "输出信息",
       "sub_title": "本产品的专属信息",
-      "message": "此信息将在购买产品后显示给用户。"
+      "message": "此信息将在购买产品后显示给用户。",
     },
     "inputs": {
       "title": "所需信息",
       "sub_title": "需要买家填写信息",
-      "message": "买方必须在表格中输入所要求的信息"
+      "message": "买方必须在表格中输入所要求的信息",
     },
     "notifications": {
       "inputs_set_success": "信息表登记成功。",
       "confirm_by_admin_success": "订单完成确认。",
-      "confirm_by_buyer_success": "订单完成确认。"
-    }
+      "confirm_by_buyer_success": "订单完成确认。",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "此订单不能接受货到付款。",
@@ -1622,7 +1659,7 @@ export default {
     "lack_of_inventory": "库存不足。",
     "legal_restriction": "由于法律限制，无法下订单。",
     "pricing_fault": "卖方定价错误。",
-    "system_fault": "系统错误。"
+    "system_fault": "系统错误。",
   },
   "basket_order_info_summery": {
     "receiver": "收货人",
@@ -1632,7 +1669,7 @@ export default {
     "discount": "折扣",
     "final_price": "最终金额",
     "address": "收货地址",
-    "payment_status": "支付状态"
+    "payment_status": "支付状态",
   },
   "basket_status": {
     "open": "处理中",
@@ -1642,7 +1679,7 @@ export default {
     "cod": "货到付款",
     "receipt_added": "已添加收据",
     "payment_processing": "交付处理中",
-    "payment_require_capture": "需要确认付款"
+    "payment_require_capture": "需要确认付款",
   },
   "basket_delivery_state": {
     "rejected": "已拒绝",
@@ -1651,7 +1688,7 @@ export default {
     "step_2": "确认中",
     "step_3": "备货中",
     "step_4": "配送中",
-    "step_5": "已送达"
+    "step_5": "已送达",
   },
   "basket_return_request_view": {
     "title": "退货申请",
@@ -1669,8 +1706,8 @@ export default {
     "reject_by_admin_action": "拒绝请求",
     "message_for_admin": "根据您使用Selldone时接受的协议，您可以联系买家并告知其订单退货流程的进展。若申请被接受或拒绝，须取得买家充分同意后进行沟通。",
     "notifications": {
-      "update_status_success": "请求状态已更新。"
-    }
+      "update_status_success": "请求状态已更新。",
+    },
   },
   "basket_list": {
     "return_count": "退货数量：{count} 件",
@@ -1681,8 +1718,8 @@ export default {
       "variant": "变体",
       "warranty": "保修",
       "count": "数量",
-      "price": "价格"
-    }
+      "price": "价格",
+    },
   },
   "return_request_list": {
     "count": "参考编号",
@@ -1694,13 +1731,13 @@ export default {
       "delivery_at": "配送日期",
       "state": "状态",
       "reason": "原因",
-      "return_warranty_period": "保修期"
-    }
+      "return_warranty_period": "保修期",
+    },
   },
   "data_toolbar": {
     "search": "搜索",
     "sort_by": "排序方式",
-    "count_item": "显示 {item} 条"
+    "count_item": "显示 {item} 条",
   },
   "sort": {
     "created_at": "创建日期",
@@ -1775,13 +1812,13 @@ export default {
     "officer": "负责人",
     "registered": "已注册",
     "purchased": "已购买",
-    "sex": "性别"
+    "sex": "性别",
   },
   "search_box": {
     "result": "搜索结果",
     "tips": "搜索产品和分类",
     "label": "搜索 ...",
-    "category": "分类"
+    "category": "分类",
   },
   "lead_status": {
     "physical_fast_delivery": "即时配送",
@@ -1789,12 +1826,12 @@ export default {
     "physical_over_24h_delivery": "准备并将在未来 {days} 天内发货",
     "virtual_fast_prepare": "即时发货",
     "virtual_under_24h": "将在接下来的 {lead} 小时内完成",
-    "virtual_over_24h": "将从接下来的 {days} 天内完成"
+    "virtual_over_24h": "将从接下来的 {days} 天内完成",
   },
   "return_request_state": {
     "pending": "待处理",
     "accepted": "已确认",
-    "rejected": "已拒绝"
+    "rejected": "已拒绝",
   },
   "return_order_reason": {
     "physical": {
@@ -1804,18 +1841,18 @@ export default {
       "U4": "包裹或序列号篡改",
       "U5": "包裹中的某些物品丢失",
       "U6": "产品非正品",
-      "U7": "产品规格不符"
-    }
+      "U7": "产品规格不符",
+    },
   },
   "image_uploader": {
     "label": "拖拽上传或 <u>选择文件</u>",
-    "max_size": "最大允许大小：{size}"
+    "max_size": "最大允许大小：{size}",
   },
   "timespan": {
     "Morning": "上午8点至中午12点",
     "Evening": "中午12点至下午6点",
     "Night": "下午6点至12点",
-    "Instant": "即时发布"
+    "Instant": "即时发布",
   },
   "week_day": {
     "Saturday": "周六",
@@ -1824,7 +1861,7 @@ export default {
     "Tuesday": "周二",
     "Wednesday": "周三",
     "Thursday": "周四",
-    "Friday": "周五"
+    "Friday": "周五",
   },
   "payment_form": {
     "title": "选择付款方式",
@@ -1842,43 +1879,43 @@ export default {
     "qr": {
       "guide": "请使用您的钱包扫描二维码，或准确复制显示的地址和金额完成付款。付款完成后，您可以安全关闭此对话框，系统将自动验证您的付款。",
       "address": "付款地址",
-      "amount": "金额"
-    }
+      "amount": "金额",
+    },
   },
   "discount_input": {
     "limit": "最高 {percent}% 折扣，限额 {limit} {currency}",
     "action": "添加折扣码",
     "code_input": "折扣码",
     "notifications": {
-      "add_success": "恭喜，折扣码有效。"
-    }
+      "add_success": "恭喜，折扣码有效。",
+    },
   },
   "gift_card": {
     "inactive": "卡已禁用",
     "expire": "到期",
     "transfer": "转账",
-    "send_to_friend": "发送给朋友"
+    "send_to_friend": "发送给朋友",
   },
   "count_down": {
     "days": "天",
     "hours": "小时",
     "minutes": "分钟",
-    "seconds": "秒"
+    "seconds": "秒",
   },
   "gift_status": {
     "Unpaid": "未付款",
     "Paid": "已付款",
     "Rejected": "已拒绝",
-    "Canceled": "已取消"
+    "Canceled": "已取消",
   },
   "gift_program_status": {
     "Airdrop": "支付系统",
     "Advertising": "广告",
     "PersonalGift": "个人礼物",
-    "ShopGift": "礼品店"
+    "ShopGift": "礼品店",
   },
   "currency_selector": {
-    "label": "货币"
+    "label": "货币",
   },
   "need_login": {
     "title": "登录",
@@ -1886,86 +1923,85 @@ export default {
     "login_sms_description": "在一些国家收短信是免费的，我们正在努力为所有用户提供免费的服务。",
     "login_google": "用谷歌登录",
     "login_facebook": "使用Facebook登录",
+    "login_apple": "用Apple登录",
     "login_account": "由Selldone登录",
     "register": "新的用户？现在注册。",
     "mobile_input": "输入您的手机",
     "verification_code": "验证码",
     "msg_title": "你好，",
     "msg_body": "请登录。只需几秒钟。",
-    "login_apple": "用Apple登录",
     "login_email": "邮箱登录",
     "email_login_step_1": "请输入有效的邮箱地址，我们将发送登录验证码。无需注册。",
     "email_login_step_2": "请确认您输入的邮箱地址无误。我们将把验证码发送到该邮箱，请确保其准确无误。",
-    "email_login_step_3": "我们已将验证码发送到您的邮箱。请注意，该验证码将在 10 分钟后失效。"
+    "email_login_step_3": "我们已将验证码发送到您的邮箱。请注意，该验证码将在 10 分钟后失效。",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5年金牌店铺"
+      "name": "5年金牌店铺",
     },
     "GOLDEN_2YEAR": {
-      "name": "4年金牌店铺"
+      "name": "4年金牌店铺",
     },
     "GOLDEN_3YEAR": {
-      "name": "3年金牌店铺"
+      "name": "3年金牌店铺",
     },
     "GOLDEN_4YEAR": {
-      "name": "2年金牌店铺"
+      "name": "2年金牌店铺",
     },
     "GOLDEN_5YEAR": {
-      "name": "1年金牌店铺"
+      "name": "1年金牌店铺",
     },
     "TOKEN_OWNER_1M": {
-      "name": "黄金投资者"
+      "name": "黄金投资者",
     },
     "TOKEN_OWNER_10M": {
-      "name": "钻石投资者"
+      "name": "钻石投资者",
     },
     "TOKEN_OWNER_100M": {
-      "name": "红宝石投资者"
+      "name": "红宝石投资者",
     },
     "COMMUNITY_LOYAL": {
-      "name": "通信网络高级社区成员"
+      "name": "通信网络高级社区成员",
     },
     "GOLD_SUPPLIER": {
-      "name": "金牌供应商"
+      "name": "金牌供应商",
     },
     "GOLD_SELLER": {
-      "name": "黄金经销商"
+      "name": "黄金经销商",
     },
     "CONTENT_SUPERMAN": {
-      "name": "顶级内容制作人"
+      "name": "顶级内容制作人",
     },
     "NINJA": {
-      "name": "忍者"
+      "name": "忍者",
     },
     "STAR": {
-      "name": "明星"
+      "name": "明星",
     },
     "GUARDIAN": {
-      "name": "优质客服"
+      "name": "优质客服",
     },
     "KING": {
-      "name": "市场之王"
-    }
+      "name": "市场之王",
+    },
   },
   "cookie": {
     "title": "本网站使用cookies",
     "message": "本网站使用Cookies以提升用户体验。使用本网站即表示您同意按照我们的Cookie政策使用所有Cookies。",
     "preferences_action": "管理首选项",
-    "agree_action": "我同意"
+    "agree_action": "我同意",
   },
   "basket_item_message": {
     "title": "此商品需要填写的信息",
     "save_actions": "保存消息",
+    "product_inputs_preview_message": "以下是您所订购产品可用的自定义选项。商品加入购物车后，您可以在此进行调整。",
     "notifications": {
-      "success": "您的留言已保存。"
+      "success": "您的留言已保存。",
     },
-    "product_inputs_preview_message": "以下是您所订购产品可用的自定义选项。商品加入购物车后，您可以在此进行调整。"
   },
   "faq": {
     "faq": "常见问题",
     "title": "问题与解答",
-    "sub_title": "你要求我们做什么。",
     "message": "在下面的回答中查找您问题的答案。如果仍有疑问，请随时联系我们。",
     "add_question_action": "提问",
     "read_more": "阅读更多 ..",
@@ -1976,8 +2012,9 @@ export default {
     "question_input": "问题",
     "question_input_placeholder": "请提问。",
     "notifications": {
-      "success_add": "您的问题已成功提交。"
-    }
+      "success_add": "您的问题已成功提交。",
+    },
+    "sub_title": "你要求我们做什么。",
   },
   "rating_labels": [
     "很差",
@@ -2004,25 +2041,25 @@ export default {
     "address_title_input": "地址标签（必填）",
     "notifications": {
       "save_in_list": "该地址及其所有详细信息已保存到您的地址列表中。",
-      "edit_success": "新的地址信息已保存在 {title}。"
+      "edit_success": "新的地址信息已保存在 {title}。",
     },
     "delete_address_dialog": {
       "title": "删除地址",
       "message": "您确定要删除此地址吗？",
-      "action": "删除地址"
-    }
+      "action": "删除地址",
+    },
   },
   "comment_manager": {
     "can_not_edit": "无法编辑此评论！",
     "comment_input_empty": "评论内容为空！",
-    "article_not_saved": "请先保存文章！"
+    "article_not_saved": "请先保存文章！",
   },
   "wheel_fortune": {
     "title": "转盘抽奖",
     "message": "每次游戏消耗10枚筹码。您当前有 {chips} 枚筹码。可在商店购买更多筹码。",
     "win_message": "恭喜你，你赢了！",
     "lost_message": "对不起，你输了。",
-    "try_again": "你可以再试一次"
+    "try_again": "你可以再试一次",
   },
   "json": {
     "add": "添加结构化数据",
@@ -2030,29 +2067,29 @@ export default {
     "structures": "结构化数据",
     "book": {
       "title": "图书",
-      "desc": "可让用户直接从搜索结果中购买的图书操作。"
+      "desc": "可让用户直接从搜索结果中购买的图书操作。",
     },
     "occupation": {
       "title": "预计工资",
-      "desc": "关于薪资预估的信息，例如各地区职业类型的薪资范围和平均值，将在 Google 的职位搜索中显示。"
+      "desc": "关于薪资预估的信息，例如各地区职业类型的薪资范围和平均值，将在 Google 的职位搜索中显示。",
     },
     "course": {
       "title": "课程",
-      "desc": "在特定提供商列表中显示的教育课程，可包含课程名称、提供者及简短描述。"
+      "desc": "在特定提供商列表中显示的教育课程，可包含课程名称、提供者及简短描述。",
     },
     "howto": {
       "title": "操作步骤",
-      "desc": "向用户演示分步完成任务的操作方式，可包含视频、图片和文字。"
+      "desc": "向用户演示分步完成任务的操作方式，可包含视频、图片和文字。",
     },
     "recipe": {
       "title": "食谱",
-      "desc": "食谱内容可单独以丰富结果显示，或作为轮播的一部分呈现。"
-    }
+      "desc": "食谱内容可单独以丰富结果显示，或作为轮播的一部分呈现。",
+    },
   },
   "support": {
     "Financial": "财务支持",
     "Technical": "技术支持",
-    "Advisor": "顾问支持"
+    "Advisor": "顾问支持",
   },
   "condition": {
     "new": "全新",
@@ -2060,168 +2097,152 @@ export default {
     "used": "二手",
     "used_fair": "一般成色",
     "used_good": "成色良好",
-    "used_like_new": "近乎全新"
+    "used_like_new": "近乎全新",
   },
   "variant_filter": {
     "title": "产品变体筛选器",
-    "only_available": "仅显示有库存"
+    "only_available": "仅显示有库存",
   },
   "service": {
     "task": {
       "title": "任务",
-      "message": "该服务中执行的任务列表。"
+      "message": "该服务中执行的任务列表。",
     },
     "appointment": {
       "title": "约定",
-      "message": "根据适合您的日期和时间，从以下时间中选择一周中的时间。"
+      "message": "根据适合您的日期和时间，从以下时间中选择一周中的时间。",
     },
     "booking": {
       "title": "预约",
-      "message": "在下方日历中选择想要预订的日期范围。"
+      "message": "在下方日历中选择想要预订的日期范围。",
     },
     "subscription": {
-      "title": "订阅"
+      "title": "订阅",
     },
     "charge": {
-      "title": "收费"
-    }
+      "title": "收费",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "固定定价",
-      "message": "在这种定价方式中，产品的价格是一个固定的金额，买家无需要求计算价格。"
+      "message": "在这种定价方式中，产品的价格是一个固定的金额，买家无需要求计算价格。",
     },
     "ESTIMATION": {
       "title": "估价",
-      "message": "下单时，产品或服务价格将由卖家大致计算。服务过程中，账单可能会变更或新增。"
+      "message": "下单时，产品或服务价格将由卖家大致计算。服务过程中，账单可能会变更或新增。",
     },
     "AGREEMENT": {
       "title": "协议定价",
-      "message": "下单后，产品或服务的最终价格不会由卖家更改。"
+      "message": "下单后，产品或服务的最终价格不会由卖家更改。",
     },
     "BID": {
       "title": "拍卖",
-      "message": "商品将以潜在买家出的最高价出售。"
-    }
+      "message": "商品将以潜在买家出的最高价出售。",
+    },
   },
   "map": {
     "title": "商品送达目的地",
     "confirm": "设置位置",
     "address": "目的地",
-    "receptor": "收件人"
+    "receptor": "收件人",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "内容标签",
     "tags_input": "标签",
     "tags_input_message": "文章标签列表",
     "notification": {
-      "add_success": "标签已添加"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "极难",
-    "hard": "困难",
-    "intermediate": "一般",
-    "easy": "简单"
-  },
-  "billing_period": {
-    "Daily": "每日",
-    "Weekly": "每周",
-    "Monthly": "每月",
-    "Every3Months": "每3个月",
-    "Every6Months": "每6个月",
-    "Yearly": "每年"
+      "add_success": "标签已添加",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "哦，不太好！",
     "between2_3": "还可以！",
     "between3_4": "大家喜欢！",
-    "between4_5": "大家很喜欢！"
+    "between4_5": "大家很喜欢！",
   },
   "seasons": {
     "spring": "春天",
     "summer": "夏天",
     "autumn": "秋天",
-    "winter": "冬天"
+    "winter": "冬天",
   },
   "order_chat": {
     "seller": {
       "history": {
-        "subtitle": "查看您与客户之间的消息历史记录。"
+        "subtitle": "查看您与客户之间的消息历史记录。",
       },
       "new_message": {
-        "subtitle": "您可以在这里直接向客户发送消息。当您发送消息后，客户将在20分钟后收到邮件通知。该通知每24小时只发送一次。"
-      }
+        "subtitle": "您可以在这里直接向客户发送消息。当您发送消息后，客户将在20分钟后收到邮件通知。该通知每24小时只发送一次。",
+      },
     },
     "customer": {
       "history": {
-        "subtitle": "查看您与卖家之间的消息历史记录。"
+        "subtitle": "查看您与卖家之间的消息历史记录。",
       },
       "new_message": {
-        "subtitle": "您可以在这里直接向我们发送消息。"
-      }
-    }
+        "subtitle": "您可以在这里直接向我们发送消息。",
+      },
+    },
   },
   "ServiceTypes": {
     "DEMAND": {
       "title": "按需服务",
-      "desc": "例如家庭维修、绘画、汽车修理等。"
+      "desc": "例如家庭维修、绘画、汽车修理等。",
     },
     "BOOKING": {
       "title": "预订",
-      "desc": "例如预订酒店客房或别墅。"
+      "desc": "例如预订酒店客房或别墅。",
     },
     "APPOINTMENT": {
       "title": "预约",
-      "desc": "例如宠物护理预约或面对面培训。"
+      "desc": "例如宠物护理预约或面对面培训。",
     },
     "RENTAL": {
       "title": "租赁",
-      "desc": "例如租赁场所或汽车。"
+      "desc": "例如租赁场所或汽车。",
     },
     "SUBSCRIPTION": {
       "title": "订阅",
-      "desc": "例如俱乐部会员或在线辅导。"
+      "desc": "例如俱乐部会员或在线辅导。",
     },
     "CHARGE": {
       "title": "充值",
-      "desc": "例如账户充值或应用程序使用收费。"
+      "desc": "例如账户充值或应用程序使用收费。",
     },
     "CUSTOM": {
       "title": "自定义",
-      "desc": "如果您提供的服务不在以上范围内，请选择此选项。"
-    }
+      "desc": "如果您提供的服务不在以上范围内，请选择此选项。",
+    },
   },
-   "ProductExternal": {
-  "Amazon": {
-    "name": "亚马逊",
-    "actionText": "在亚马逊购买",
+  "ProductExternal": {
+    "Amazon": {
+      "name": "亚马逊",
+      "actionText": "在亚马逊购买",
+    },
+    "Airbnb": {
+      "name": "Airbnb",
+      "actionText": "在Airbnb预订",
+    },
   },
-  "Airbnb": {
-    "name": "Airbnb",
-    "actionText": "在Airbnb预订",
+  "product_section_incentivise": {
+    "total_sold": "总销量",
+    "available_items": "可用库存",
+    "have_in_their_bag": "<b>{in_carts}</b> 人已将此商品加入购物车！",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 热门选择！库存紧张，赶快抢购！",
+      "has_sell_has_quantity": "🌟 非常受欢迎的商品！售完即止。",
+      "just_has_low_quantity": "🛒 库存有限，别错过！",
+      "just_has_very_low_quantity": "⏳ 商品即将售罄，抓紧时间！",
+    },
+    "file": {
+      "very_popular_selling": "🔥 畅销文件！快来下载吧！",
+      "popular_selling": "🎉 这份文件非常受欢迎，别错过！",
+      "has_normal_selling": "📈 热门文件，赶快获取你的副本。",
+      "just_release_has_some_sales": "✨ 新发布！成为首批拥有者之一。",
+    },
   },
-}, 
- "product_section_incentivise": {
-  "total_sold": "总销量",
-  "available_items": "可用库存",
-  "have_in_their_bag": "<b>{in_carts}</b> 人已将此商品加入购物车！",
-
-  "physical": {
-    "popular_selling_with_low_quantity": "🔥 热门选择！库存紧张，赶快抢购！",
-    "has_sell_has_quantity": "🌟 非常受欢迎的商品！售完即止。",
-    "just_has_low_quantity": "🛒 库存有限，别错过！",
-    "just_has_very_low_quantity": "⏳ 商品即将售罄，抓紧时间！"
-  },
-      
-  "file": {
-    "very_popular_selling": "🔥 畅销文件！快来下载吧！",
-    "popular_selling": "🎉 这份文件非常受欢迎，别错过！",
-    "has_normal_selling": "📈 热门文件，赶快获取你的副本。",
-    "just_release_has_some_sales": "✨ 新发布！成为首批拥有者之一。"
-  }
-}     
 };

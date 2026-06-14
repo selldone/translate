@@ -14,6 +14,7 @@ export default {
   "reed_agree_terms": "Ik heb de gebruiksvoorwaarden en het privacybeleid gelezen en ga ermee akkoord.",
   "commons": {
     "Currency": "Munteenheid",
+    "currencies": "Currencies",
     "COD": "COD",
     "State": "Staat",
     "Price": "prijs",
@@ -169,6 +170,7 @@ export default {
     "net_price": "Nettoprijs",
     "tax": "Belasting",
     "tax_included": "Inbegrepen in prijs",
+    "tax_included_abstract": "inclusief",
     "limit": "Begrenzing",
     "min_purchase": "Minimale afname",
     "eligible_for": "In aanmerking komen voor",
@@ -302,6 +304,7 @@ export default {
     "created_at": "Aanmaakdatum",
     "updated_at": "Laatste update",
     "register_at": "Inschrijfdatum",
+    "last_modified": "Last modified",
     "old": "Oud",
     "new": "Nieuw",
     "start": "Begin",
@@ -330,6 +333,7 @@ export default {
     "reseller": "Tussenpersoon",
     "tracking_code": "Traceercode",
     "tracking_url": "Tracking-URL",
+    "fulfillment": "Fulfillment",
     "fulfillments": "vervullingen",
     "reject": "Afwijzen",
     "reserved": "Gereserveerd",
@@ -341,6 +345,7 @@ export default {
     "waiting": "Aan het wachten...",
     "waiting_connecting_payment": "Wachten op de betaalservice...",
     "creating_secure_payment": "Veilig betalen creëren.",
+    "waiting_for_payment": "Gelieve de betaling af te ronden...",
     "officer": "Officier",
     "ticket": "Ticket",
     "ticket_url": "Ticket-URL",
@@ -361,7 +366,6 @@ export default {
     "rates": "Beoordeling",
     "seen_at": "gezien bij",
     "completed": "Voltooid",
-    "you": "Jij",
     "shop": "Winkel",
     "store": "op te slaan",
     "granted": "Toegekend",
@@ -498,6 +502,7 @@ export default {
     "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Acquisitiekanaal",
+    "channels_overview": "Channels overview",
     "to": "Tot",
     "info": "Info",
     "general": "Algemeen",
@@ -559,7 +564,6 @@ export default {
     "per_product": "Per product",
     "journey": "Reis",
     "after": "Na",
-    "waiting_for_payment": "Gelieve de betaling af te ronden...",
     "hour": "Uur",
     "minute": "Minuut",
     "premium": "Premie",
@@ -569,6 +573,7 @@ export default {
     "shops": "Winkels",
     "vendor": "Leverancier",
     "vendors": "Verkoper",
+    "no_vendors": "No vendors",
     "marketplace": "Marktplaats",
     "verify_date": "Verifieer datum",
     "note": "Opmerking",
@@ -604,7 +609,6 @@ export default {
     "variant": "Variant",
     "secure": "Zeker",
     "admin": "beheerder",
-    "tax_included_abstract": "inclusief",
     "payment_not_settled": "Betaling niet geregeld!",
     "orders_list": "Bestellingen lijst",
     "subscription_plan": "Abonnementsplan",
@@ -642,16 +646,170 @@ export default {
     "clusters": "Clusters",
     "subscriptions": "Abonnementen",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "ends_in": "Ends in",
+    "current": "Current",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Payout",
+    "vendor_panel": "Vendor panel",
+    "vendors_panel": "Vendors panel",
+    "syncing": "Syncing",
+    "level": "Level",
+    "available": "Available",
+    "limited": "Limited",
+    "management": "Management",
+    "topics": "Topics",
+    "posts": "Posts",
+    "replies": "Replies",
+    "reports": "Reports",
+    "post": "Post",
+    "impressions": "Impressions",
+    "resources": "Resources",
+    "engine": "Engine",
+    "attachments": "Attachments",
+    "owner": "Owner",
+    "wholesaler": "Wholesaler",
+    "hidden": "Hidden",
+    "visible": "Visible",
+    "warehouse": "Warehouse",
+    "billed_yearly": "Billed yearly",
+    "my_wallet": "My wallet",
+    "boosted": "Boosted",
+    "cashback": "Cashback",
+    "leads": "Leads",
+    "invalid": "Invalid",
+    "refund_date": "Refund date",
+    "refund": "Refund",
+    "items": "Items",
+    "incentives": "Incentives",
+    "you": "Jij",
+    "recurring_payment": "Recurring payment",
+    "pricing": "Pricing",
+    "purchase": "Purchase",
+    "confirmation": "Confirmation",
+    "manage": "Manage",
+    "warning": "Warning",
+    "custom": "Custom",
+    "read": "Read",
+    "write": "Write",
+    "root": "Root",
+    "nothing_set": 'Nothing set!',
+    "installment": "Installment",
+    "split_payment": "Split payment",
+    "profiles": "Profiles",
+    "location_limited": 'Location limited',
+    "no_limit": 'No limit',
+    "max_range": 'Max range',
+    "settled_date": "Settled Date",
+    "paid_date": "Paid Date",
+    "physical_orders": "Physical orders",
+    "virtual_orders": "Virtual orders",
+    "file_orders": "File orders",
+    "service_orders": "Service orders",
+    "subscription_orders": "Subscription orders",
+    "avocado_orders": "Avocado orders",
+    "hyper_orders": "Hyper orders",
+    "connected": "Connected",
+    "system": "System",
+    "unknown": "Unknown",
+    "week": "Week",
+    "agencies": "Agencies",
+    "not_available": "Not Available",
+    "accounting": "Accounting",
+    "gateways": "Gateways",
+    "repository": "Repository",
+    "clone": "Clone",
+    "hotkey": 'Hotkey',
+    "bank_info": "Bank Information",
+    "structure": "Structure",
+    "conditions": "Conditions",
+    "unavailable": "Unavailable",
+    "rows": "Rows",
+    "eligible": "Eligible",
+    "share": "Share",
+    "fulfilling": "Fulfilling",
+    "pickup_options": "Pickup Options",
+    "pickup_selected": "Pickup Selected",
+    "delivery_selected": "Delivery Selected",
+    "delivery_options": "Delivery Options",
+    "for": "for",
+    "giveaway": "Giveaway",
+    "purchased": "Purchased",
+    "loading": "Loading",
+    "pricing_model": "Pricing model",
+    "vendor_price": "Vendor price",
+    "marketplace_price": "Marketplace price",
+    "vendor_wallet": "Vendor wallet",
+    "lead_time": "Lead time",
+    "listing": "Listing",
+    "can_not_edit": "Can not edit",
+    "override": "Override",
+    "worldwide": "Worldwide",
+    "member": "Member",
+    "invitation": "Invitation",
+    "europe": "Europe",
+    "buy": "Buy",
+    "levels": "Levels",
+    "sex": 'Sex',
+    "repeat": "Repeat",
+    "interval": "Interval",
+    "parcel": "Parcel",
+    "receiver": "Receiver",
+    "billing_address": "Billing address",
+    "shipping_address": "Shipping address",
+    "added": "Added",
+    "automation": "Automation",
+    "avatar": "Avatar",
+    "variants": "Variants",
+    "property_set": "Property set",
+    "more_info_needed": "More Info Needed",
+    "required": "Required",
+    "seo_preview": 'SEO Preview',
+    "icon": "Icon",
+    "values": "Values",
+    "remove_item": "Remove Item",
+    "adjusted": 'Adjusted',
+    "original_amount": 'Original Amount',
+    "adjustment_amount": 'Adjustment Amount',
+    "final_amount": 'Final Amount',
+    "archived": "Archived",
+    "archive": "Archive",
+    "billing": "Billing",
+    "enter_email": "Enter email",
+    "favorite": "Favorite",
+    "moderator": "Moderator",
+    "moderators": "Moderators",
+    "supervision": "Supervision",
+    "subtitle": "Subtitle",
+    "slug": "Slug",
+    "advanced": "Advanced",
+    "media": "Media",
+    "none": "None",
+    "not_set": "Not set",
+    "alt": "Alt",
+    "meta": "Meta",
+    "templates": "Templates",
+    "folder": "Folder",
+    "unpublished": "Unpublished",
+    "featured": "Featured",
+    "links": "Links",
+  },
+  "difficulties": {
+    "very_complicated": "Erg ingewikkeld",
+    "hard": "Moeilijk",
+    "intermediate": "Tussenliggend",
+    "easy": "Eenvoudig",
   },
   "dialogs": {
     "delete": {
       "title": "Verwijderen",
       "message": "Weet je zeker dat je dit item wilt verwijderen?",
-      "action": "Ja, nu verwijderen"
-    }
+      "action": "Ja, nu verwijderen",
+    },
   },
   "actions": {
+    "upload": "Upload",
     "add_to_cart": "Voeg toe aan winkelmandje",
     "cancel": "Annuleren",
     "update": "Bijwerken",
@@ -720,7 +878,7 @@ export default {
     "add_giftcard": "Cadeaubon toevoegen",
     "charge": "Aanval",
     "send_invites": "Uitnodigingen versturen",
-    "past": "Verleden",
+    "paste": "Plakken",
     "restore": "Herstellen",
     "cut": "Snee",
     "get_sms_code": "Verificatiecode ophalen",
@@ -749,12 +907,12 @@ export default {
     "show_preview": "Voorbeeld weergeven",
     "hide_preview": "Voorbeeld verbergen",
     "download_now": "Download nu",
+    "watch_now": "Kijk nu",
     "auto_fill": "Automatisch aanvullen",
     "track": "Spoor",
     "change_state": "Verander status",
     "done": "Klaar",
     "reply": "Antwoord",
-    "watch_now": "Kijk nu",
     "unlock": "Ontgrendelen",
     "lock": "Op slot doen",
     "create_clone": "Kloon maken",
@@ -773,41 +931,71 @@ export default {
     "buy": "Kopen",
     "view_all": "Bekijk alles",
     "view_now": "Kijk nu",
-    "paste": "Plakken"
+    "edit_address": "Edit address",
+    "resend": "Resend",
+    "deploy_now": "Deploy Now",
+    "become_premium": "Become Premium",
+    "bulk_export": "Bulk Export",
+    "see_all": "See All",
+    "visit": "Visit",
+    "rate_now": 'Rate Now',
+    "load": 'Load',
+    "duplicate": 'Duplicate',
+    "connect": 'Connect',
+    "connect_now": 'Connect Now',
+    "verify_now": "Verify now",
+    "learn_more": "Learn more",
+    "learn_more_about": "Learn more about {name}",
+    "select_category": "Select category",
+    "approve": "Approve",
+    "archive": "Archive",
+    "unpublish": "Unpublish",
+    "past": "Verleden",
+  },
+  "billing_period": {
+    "Daily": "Dagelijks",
+    "Weekly": "Wekelijks",
+    "Monthly": "Maandelijks",
+    "Every3Months": "Elke 3 maanden",
+    "Every6Months": "Elke 6 maanden",
+    "Yearly": "Jaarlijks",
   },
   "instance_message_title": "Stuur een expresbericht",
   "instance_message": "Hallo {name}, Mijn naam is {author} van {company}.",
   "errors": {
     "419": "U bent lange tijd inactief geweest, gelieve <b>⟳ VERFRISS DE PAGINA</b> om veiligheidsredenen.",
+    "403": "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    "404": "The requested page could not be found. It might have been moved, renamed, or deleted.",
     "gateway_blockchain_sync_error": "Het systeem synchroniseert niet met de blockchain. Het is niet mogelijk om een nieuwe transactie aan te maken totdat de synchronisaties van onze servers zijn voltooid. We zijn het probleem aan het oplossen.",
-    "gateway_network_error": "Er is een communicatieprobleem opgetreden bij de betalingsgatewayservice."
+    "gateway_network_error": "Er is een communicatieprobleem opgetreden bij de betalingsgatewayservice.",
   },
   "receiver_info": {
     "map": {
       "title": "Afleveradres",
       "confirm": "Locatie instellen",
       "address_type": "Bestemming",
-      "receptor_type": "Ontvanger"
+      "receptor_type": "Ontvanger",
     },
     "receiver_address": "Selecteer verzendadres",
+    "service_address": "Selecteer je adres",
+    "select_billing_address": "Select billing address",
     "address": "adres",
     "postcode": "postcode",
     "enter_value": "Vul hier in",
     "address_note": "Opmerking",
     "tel": "Contact nummer",
-    "service_address": "Selecteer je adres"
   },
   "weight": {
     "g": "g",
     "oz": "oz",
     "lb": "pond",
-    "kg": "kg"
+    "kg": "kg",
   },
   "mass_unit_name": {
     "g": "gram",
     "oz": "Ons",
     "lb": "Pond",
-    "kg": "kilogram"
+    "kg": "kilogram",
   },
   "length": {
     "cm": "cm",
@@ -815,7 +1003,7 @@ export default {
     "ft": "ft",
     "mm": "mm",
     "m": "m",
-    "yd": "yd"
+    "yd": "yd",
   },
   "size_unit_name": {
     "cm": "Centimeter",
@@ -823,17 +1011,21 @@ export default {
     "ft": "Voet",
     "mm": "millimeter",
     "m": "meter",
-    "yd": "Tuin"
+    "yd": "Tuin",
   },
   "distance": {
     "m": "meter",
-    "km": "km"
+    "km": "km",
+  },
+  "distance_unit_name": {
+    "km": "Kilometer",
+    "mi": "Mile",
   },
   "time": {
     "days": "dagen",
     "hours": "Uren",
     "minutes": "Minuten",
-    "seconds": "seconden"
+    "seconds": "seconden",
   },
   "units": [
     "Eenheid",
@@ -870,13 +1062,14 @@ export default {
   "region_types": {
     "State": "Staat",
     "Territory": "Grondgebied",
-    "Province": "Provincie"
+    "Province": "Provincie",
   },
   "transaction_status": {
     "RequireAction": "Actie vereist",
     "Processing": "Verwerken",
     "Canceled": "Geannuleerd",
-    "Succeeded": "Geslaagd"
+    "Succeeded": "Geslaagd",
+    "RequireCapture": "Require Capture",
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +1078,17 @@ export default {
     "language": "Selecteer taal..",
     "friend_email": "De email van jouw vriend...",
     "friend_name": "opt. De naam van je vriend",
-    "select_date": "Kies een datum..."
+    "select_date": "Kies een datum...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Select a cluster...",
+    "select_products": "Select products",
+    "birthday": "Select birthday",
+    "select_category": "Select a category...",
+    "select_a_country": "Select a country...",
+    "filter_country": 'Filter by country...',
+    "search": "Search...",
+    "select_wallet": 'Select a wallet...',
+    "filter_by": 'Filter by...',
   },
   "notification": {
     "confirm": "Bevestigen",
@@ -910,7 +1113,7 @@ export default {
     "invalid_max_chars": "Max {maxCount} tekens",
     "invalid_url": "Ongeldige URL",
     "country_invalid": "Selecteer het land van bestemming!",
-    "postal_code_invalid": "Stel een geldige postcode in!"
+    "postal_code_invalid": "Stel een geldige postcode in!",
   },
   "colors": {
     "#D32F2F": "Rood",
@@ -992,7 +1195,7 @@ export default {
     "building_unit": "Eenheid",
     "postcode": "postcode",
     "note": "Opmerking",
-    "county": "District"
+    "county": "District",
   },
   "product_types": {
     "physical": "Fysiek",
@@ -1004,13 +1207,13 @@ export default {
     "service": "Onderhoud",
     "service_description": "Diensten zoals: reparatie, transport, onderwijs.",
     "subscription": "Abonnement",
-    "subscription_description": "Abonnementen en facturering voor producten, diensten of inhoud."
+    "subscription_description": "Abonnementen en facturering voor producten, diensten of inhoud.",
   },
   "license": {
     "free": "Vrij",
     "startup": "Opstarten",
     "company": "Bedrijf",
-    "enterprise": "Onderneming"
+    "enterprise": "Onderneming",
   },
   "currency": {
     "IRR": "IRR",
@@ -1076,6 +1279,7 @@ export default {
     "GNF": "GNF",
     "GTQ": "GTQ",
     "GYD": "GYD",
+    "GHS": "GHS",
     "HKD": "HKD",
     "HNL": "HNL",
     "HRK": "HRK",
@@ -1156,10 +1360,11 @@ export default {
     "YER": "YER",
     "ZAR": "ZAR",
     "ZMW": "ZMW",
-    "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN",
   },
   "variants": {
     "color": "Kleur",
@@ -1167,14 +1372,14 @@ export default {
     "count_in_pack": "Tel in pakket",
     "weight": "Gewicht",
     "type": "Materiaal",
-    "style": "Stijl"
+    "style": "Stijl",
   },
   "delivery_state": {
     "check_queue": "In afwachting van beoordeling",
     "order_confirm": "Order bevestiging",
     "preparing_order": "voorbereidingen treffen",
     "sent_order": "Bij levering",
-    "to_customer": "Afgeleverd"
+    "to_customer": "Afgeleverd",
   },
   "status": {
     "unpaid": "onbetaald",
@@ -1197,12 +1402,12 @@ export default {
     "reject": "Afwijzen",
     "pending": "In afwachting",
     "rejected": "Afgekeurd",
-    "accepted": "Geaccepteerd"
+    "accepted": "Geaccepteerd",
   },
   "dimensions": {
     "cm": "cm",
     "km": "km",
-    "kg": "kg"
+    "kg": "kg",
   },
   "transportation_type": {
     "motorbike": "Motor",
@@ -1224,7 +1429,7 @@ export default {
     "global": "Wereldwijd transport",
     "global_description": "Verzending overzee door de lucht, over zee of over land.",
     "pickup": "Raap op",
-    "pickup_description": "Klanten halen de artikelen op bij uw fysieke winkel of magazijn."
+    "pickup_description": "Klanten halen de artikelen op bij uw fysieke winkel of magazijn.",
   },
   "article": {
     "login_to_see_error": "Log in om toegang te krijgen tot het artikel",
@@ -1233,7 +1438,7 @@ export default {
     "menu": {
       "edit": "Bewerkingsmodus",
       "view_mode": "Weergavemodus",
-      "delete": "Artikel verwijderen"
+      "delete": "Artikel verwijderen",
     },
     "schedule_action": "Wil je publicatie inplannen?",
     "schedule_title": "Automatisch publiceren plannen",
@@ -1276,13 +1481,16 @@ export default {
       "report_and_delete_title": "Misbruik melden en inhoud verwijderen",
       "report_title": "Deze inhoud rapporteren als beledigend",
       "message": "Wat is de reden voor het indienen van deze inhoud? Kies een van de volgende opties.",
-      "accept_and_delete_action": "Inhoud bevestigen en verwijderen"
+      "accept_and_delete_action": "Inhoud bevestigen en verwijderen",
     },
     "schedule_dialog": {
       "title": "Inhoud releaseschema",
       "publish_at": "Publiceren op",
       "last_edit": "Laatste bewerking",
-      "view_action": "Bekijk artikel"
+      "view_action": "Bekijk artikel",
+      "no_article": "No scheduled article!",
+      "current_article": "Current Article",
+      "article_for_product": "Article For Product",
     },
     "notifications": {
       "update_success_title": "Informatie indienen",
@@ -1292,18 +1500,18 @@ export default {
       "report_and_delete_success_title": "Rapporteren en verwijderen",
       "report_and_delete_success_message": "Artikel is succesvol verwijderd.",
       "report_success_title": "Artikel rapporteren",
-      "report_success_message": "Uw verslag over dit artikel is geplaatst."
+      "report_success_message": "Uw verslag over dit artikel is geplaatst.",
     },
     "alert": {
       "delete_article": {
         "title": "Artikel verwijderen",
         "message": "Weet je zeker dat je dit artikel definitief wilt verwijderen?",
-        "action": "Verwijderen"
-      }
+        "action": "Verwijderen",
+      },
     },
     "edit_window": {
       "title": "Selecteer Afbeeldingstekst en Samenvatting",
-      "digest": "Samenvatting"
+      "digest": "Samenvatting",
     },
     "editor": {
       "title_placeholder": "Titel..",
@@ -1312,12 +1520,12 @@ export default {
       "max_file_size_error": "Dit bestand is te groot:",
       "notifications": {
         "image_uploaded_success": "Afbeelding succesvol opgeslagen",
-        "image_uploaded_failed": "Fout bij laden van afbeelding."
+        "image_uploaded_failed": "Fout bij laden van afbeelding.",
       },
       "embed_placeholder": "Voer de iframe-code, Facebook, YouTube of een andere URL in en druk op enter.",
       "embed_caption_placeholder": "Voer een titel in (optioneel)",
-      "images_caption_placeholder": "Voer een titel in voor deze afbeelding .."
-    }
+      "images_caption_placeholder": "Voer een titel in voor deze afbeelding ..",
+    },
   },
   "article_report": {
     "inappropriate": "De inhoud van dit artikel is ongepast.",
@@ -1329,7 +1537,7 @@ export default {
     "violent": "Ik denk dat deze inhoud pornografie bevat en in strijd is met de wetten.",
     "harassment": "Ik vind dit racistisch.",
     "hate": "Ik denk dat dit gaat over het promoten van geweld.",
-    "infringe": "Dit schendt mijn rechten."
+    "infringe": "Dit schendt mijn rechten.",
   },
   "comments": {
     "new_action": "Klik om een reactie achter te laten..",
@@ -1342,26 +1550,27 @@ export default {
     "load_more_action": "Krijg meer reacties..",
     "cant_send_comment": "U kunt geen nieuw bericht toevoegen.",
     "cant_remove_this_comment": "Je kunt deze reactie niet verwijderen!",
-    "product_buyer": "Koper",
+    "verified_buyer": "Verified Buyer",
+    "my_comments": "Mijn opmerkingen",
     "delete_alert": {
       "title": "Opmerking verwijderen",
       "message": "Wil je deze reactie verwijderen?",
-      "action": "Verwijderen"
+      "action": "Verwijderen",
     },
     "notifications": {
-      "delete_success": "Je reactie is succesvol verwijderd."
+      "delete_success": "Je reactie is succesvol verwijderd.",
     },
     "first_send": "Eerste post",
     "comment_at": "Op",
     "edit_comment": "Opmerking bewerken",
-    "my_comments": "Mijn opmerkingen"
+    "product_buyer": "Koper",
   },
   "customer_club": {
     "bronze": "Bronzen",
     "silver": "Zilver",
     "gold": "gouden",
     "platinum": "Platina",
-    "diamond": "Diamant"
+    "diamond": "Diamant",
   },
   "application_categories": {
     "tracking": "Gebruikersgedrag controleren",
@@ -1376,7 +1585,7 @@ export default {
     "advertising": "Adverteren",
     "staff": "Personeel",
     "incentive": "Stimulansen",
-    "shop": "Winkel"
+    "shop": "Winkel",
   },
   "social_network": {
     "instagram": "Instagram",
@@ -1391,25 +1600,26 @@ export default {
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Facebook messenger"
+    "facebook_messenger": "Facebook messenger",
   },
   "form_builder": {
     "add_item_action": "Voeg een nieuw item toe",
     "title_input": "Titel",
+    "placeholder_input": "Tijdelijke aanduiding",
     "name_input": "Variabele naam",
     "value_input": "Waarden",
     "value_input_message": "Lijst met gebruikersopties",
     "default": "Standaardwaarde",
+    "file_type_input": "Aanvaardbare bestandstypen",
+    "file_type_message": "jpeg, png, zip, ...",
     "types": {
       "simple": "Gemakkelijk",
       "selective": "Selectief",
       "switch": "Schakelaar",
       "file": "Bestand",
-      "number": "Nummer"
+      "number": "Nummer",
+      "key_value": "Key-value pair",
     },
-    "placeholder_input": "Tijdelijke aanduiding",
-    "file_type_input": "Aanvaardbare bestandstypen",
-    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "productnaam",
@@ -1420,25 +1630,25 @@ export default {
     "payment_status": "Betalingsstatus",
     "payment_status_waiting": "wachten op betaling",
     "payment_status_paid": "Betaald",
-    "buyer": "Koper"
+    "buyer": "Koper",
   },
   "virtual_item_info": {
     "title": "Virtueel item",
     "outputs": {
       "title": "Uitvoerinformatie",
       "sub_title": "Vertrouwelijke informatie van dit item",
-      "message": "Deze informatie wordt aan de gebruiker getoond na aankoop van het product."
+      "message": "Deze informatie wordt aan de gebruiker getoond na aankoop van het product.",
     },
     "inputs": {
       "title": "Informatie benodigd",
       "sub_title": "Kopersinformatie vereist:",
-      "message": "De koper moet de gevraagde informatie in het formulier invullen"
+      "message": "De koper moet de gevraagde informatie in het formulier invullen",
     },
     "notifications": {
       "inputs_set_success": "Informatieformulier succesvol geregistreerd.",
       "confirm_by_admin_success": "Voltooiing van de bestelling bevestigd.",
-      "confirm_by_buyer_success": "Voltooiing van de bestelling bevestigd."
-    }
+      "confirm_by_buyer_success": "Voltooiing van de bestelling bevestigd.",
+    },
   },
   "order_reject_reasons": {
     "cant_accept_cod": "Deze bestelling kan niet worden geaccepteerd onder rembours.",
@@ -1450,7 +1660,7 @@ export default {
     "lack_of_inventory": "Uitverkocht.",
     "legal_restriction": "Kan geen bestelling plaatsen vanwege wettelijke beperkingen.",
     "pricing_fault": "Prijsfout door verkoper.",
-    "system_fault": "Systeemfout."
+    "system_fault": "Systeemfout.",
   },
   "basket_order_info_summery": {
     "receiver": "Ontvanger",
@@ -1460,7 +1670,7 @@ export default {
     "discount": "Korting",
     "final_price": "Eindbedrag",
     "address": "Bezorgadres",
-    "payment_status": "Betalingsstatus"
+    "payment_status": "Betalingsstatus",
   },
   "basket_status": {
     "open": "Open",
@@ -1469,7 +1679,8 @@ export default {
     "canceled": "Geannuleerd",
     "cod": "Betalen bij levering",
     "receipt_added": "Bon toegevoegd",
-    "payment_processing": "Verwerking van betalingen"
+    "payment_processing": "Verwerking van betalingen",
+    "payment_require_capture": "Require capture",
   },
   "basket_delivery_state": {
     "rejected": "Afgekeurd",
@@ -1478,7 +1689,7 @@ export default {
     "step_2": "Bevestiging",
     "step_3": "Voorbereiding",
     "step_4": "Bij levering",
-    "step_5": "Afgeleverd"
+    "step_5": "Afgeleverd",
   },
   "basket_return_request_view": {
     "title": "Retourverzoek",
@@ -1496,8 +1707,8 @@ export default {
     "reject_by_admin_action": "Verzoek afwijzen",
     "message_for_admin": "Volgens de overeenkomst die u heeft geaccepteerd door gebruik te maken van de Selldone, moet u contact opnemen met de koper en hem/haar op de hoogte houden van het retourproces van zijn/haar bestelling. Dit moet worden gedaan als het verzoek wordt geaccepteerd of afgewezen en de volledige toestemming van de koper is verkregen.",
     "notifications": {
-      "update_status_success": "Verzoekstatus bijgewerkt."
-    }
+      "update_status_success": "Verzoekstatus bijgewerkt.",
+    },
   },
   "basket_list": {
     "return_count": "Retour: {count} nummer",
@@ -1508,8 +1719,8 @@ export default {
       "variant": "Variant",
       "warranty": "Garanties",
       "count": "Graaf",
-      "price": "prijs"
-    }
+      "price": "prijs",
+    },
   },
   "return_request_list": {
     "count": "Referentienummer",
@@ -1521,13 +1732,13 @@ export default {
       "delivery_at": "Ontvangen datum",
       "state": "Toestand",
       "reason": "Reden",
-      "return_warranty_period": "Garantieperiode"
-    }
+      "return_warranty_period": "Garantieperiode",
+    },
   },
   "data_toolbar": {
     "search": "Zoekopdracht",
     "sort_by": "Sorteer op",
-    "count_item": "Toon {item} items"
+    "count_item": "Toon {item} items",
   },
   "sort": {
     "created_at": "Datum aanmaken",
@@ -1602,13 +1813,13 @@ export default {
     "officer": "Officier",
     "registered": "Geregistreerd",
     "purchased": "Gekocht",
-    "sex": "Geslacht"
+    "sex": "Geslacht",
   },
   "search_box": {
     "result": "Zoekresultaten",
     "tips": "Zoek producten en categorieën",
     "label": "Zoekopdracht ...",
-    "category": "Categorie"
+    "category": "Categorie",
   },
   "lead_status": {
     "physical_fast_delivery": "Onmiddellijke levering",
@@ -1616,12 +1827,12 @@ export default {
     "physical_over_24h_delivery": "Voorbereiden en indienen vanaf de komende {days} dagen",
     "virtual_fast_prepare": "Onmiddellijke levering",
     "virtual_under_24h": "Wordt binnen de volgende {lead} uur gedaan",
-    "virtual_over_24h": "Wordt gedaan vanaf de komende {days} dagen"
+    "virtual_over_24h": "Wordt gedaan vanaf de komende {days} dagen",
   },
   "return_request_state": {
     "pending": "In afwachting",
     "accepted": "Bevestigd",
-    "rejected": "Afgekeurd"
+    "rejected": "Afgekeurd",
   },
   "return_order_reason": {
     "physical": {
@@ -1631,18 +1842,18 @@ export default {
       "U4": "Knoeien met pakket- of serienummer",
       "U5": "Sommige items uit het pakket ontbreken",
       "U6": "Product is niet origineel",
-      "U7": "Product voldoet niet aan de specificaties"
-    }
+      "U7": "Product voldoet niet aan de specificaties",
+    },
   },
   "image_uploader": {
     "label": "Slepen & neerzetten of <u>bestand selecteren</u>",
-    "max_size": "Maximaal toegestane maat: {size}"
+    "max_size": "Maximaal toegestane maat: {size}",
   },
   "timespan": {
     "Morning": "8u - 12u",
     "Evening": "12.00 uur tot 18.00 uur",
     "Night": "18u-12u",
-    "Instant": "Direct posten"
+    "Instant": "Direct posten",
   },
   "week_day": {
     "Saturday": "zaterdag",
@@ -1651,7 +1862,7 @@ export default {
     "Tuesday": "Dinsdag",
     "Wednesday": "Woensdag",
     "Thursday": "Donderdag",
-    "Friday": "Vrijdag"
+    "Friday": "Vrijdag",
   },
   "payment_form": {
     "title": "Selecteer betaalmethode",
@@ -1667,130 +1878,131 @@ export default {
     "order_free_payment": "Gefeliciteerd, je bestelling is gratis!",
     "order_free_payment_action": "Bestel nu gratis",
     "qr": {
+      "guide": "Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
       "address": "Betaal adres",
-      "amount": "Hoeveelheid"
-    }
+      "amount": "Hoeveelheid",
+    },
   },
   "discount_input": {
     "limit": "{percent}% korting tot {limit} {currency}",
     "action": "Kortingscode toevoegen",
     "code_input": "Kortingscode",
     "notifications": {
-      "add_success": "Gefeliciteerd, geldige kortingscode."
-    }
+      "add_success": "Gefeliciteerd, geldige kortingscode.",
+    },
   },
   "gift_card": {
     "inactive": "Kaart is uitgeschakeld",
     "expire": "Vervaldatum",
     "transfer": "Overdracht",
-    "send_to_friend": "Stuur naar een vriend"
+    "send_to_friend": "Stuur naar een vriend",
   },
   "count_down": {
     "days": "Dag",
     "hours": "Uur",
     "minutes": "Minuten",
-    "seconds": "seconden"
+    "seconds": "seconden",
   },
   "gift_status": {
     "Unpaid": "In afwachting van ontvangst",
     "Paid": "Betaald",
     "Rejected": "Afgekeurd",
-    "Canceled": "Geannuleerd"
+    "Canceled": "Geannuleerd",
   },
   "gift_program_status": {
     "Airdrop": "Betaalsysteem",
     "Advertising": "Adverteren",
     "PersonalGift": "Persoonlijk cadeau",
-    "ShopGift": "Cadeauwinkel"
+    "ShopGift": "Cadeauwinkel",
   },
   "currency_selector": {
-    "label": "Munteenheid"
+    "label": "Munteenheid",
   },
   "need_login": {
     "title": "Log in",
     "login_sms": "Sms-login",
+    "login_sms_description": "In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     "login_google": "Inloggen met Google",
     "login_facebook": "Inloggen met Facebook",
+    "login_apple": "Inloggen met Apple",
     "login_account": "Inloggen door Selldone",
     "register": "Nieuwe gebruiker? Registreer nu.",
     "mobile_input": "Vul je mobiel in",
     "verification_code": "Verificatie code",
     "msg_title": "Hoi,",
     "msg_body": "Log alsjeblieft in. Het duurt slechts een paar seconden.",
-    "login_apple": "Inloggen met Apple",
     "login_email": "Inloggen via e-mail",
     "email_login_step_1": "Geef een geldig e-mailadres op, dan sturen we de inlogcode ernaar toe. Registratie is niet nodig.",
     "email_login_step_2": "Weet je zeker dat je je e-mailadres correct hebt ingevuld? We sturen de inlogcode naar het opgegeven e-mailadres, dus zorg ervoor dat deze correct is.",
-    "email_login_step_3": "We hebben een code naar je e-mailadres gestuurd. Houd er rekening mee dat de code binnen 10 minuten verloopt."
+    "email_login_step_3": "We hebben een code naar je e-mailadres gestuurd. Houd er rekening mee dat de code binnen 10 minuten verloopt.",
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
-      "name": "5 jaar goudwinkel"
+      "name": "5 jaar goudwinkel",
     },
     "GOLDEN_2YEAR": {
-      "name": "4 jaar goudwinkel"
+      "name": "4 jaar goudwinkel",
     },
     "GOLDEN_3YEAR": {
-      "name": "3 jaar goudwinkel"
+      "name": "3 jaar goudwinkel",
     },
     "GOLDEN_4YEAR": {
-      "name": "2 jaar goudwinkel"
+      "name": "2 jaar goudwinkel",
     },
     "GOLDEN_5YEAR": {
-      "name": "1 jaar goudwinkel"
+      "name": "1 jaar goudwinkel",
     },
     "TOKEN_OWNER_1M": {
-      "name": "Gouden Investeerder"
+      "name": "Gouden Investeerder",
     },
     "TOKEN_OWNER_10M": {
-      "name": "Diamantbelegger:"
+      "name": "Diamantbelegger:",
     },
     "TOKEN_OWNER_100M": {
-      "name": "Ruby Investeerder"
+      "name": "Ruby Investeerder",
     },
     "COMMUNITY_LOYAL": {
-      "name": "Lid van de Superior Community of Communication Networks"
+      "name": "Lid van de Superior Community of Communication Networks",
     },
     "GOLD_SUPPLIER": {
-      "name": "goud leverancier"
+      "name": "goud leverancier",
     },
     "GOLD_SELLER": {
-      "name": "Goudhandelaar"
+      "name": "Goudhandelaar",
     },
     "CONTENT_SUPERMAN": {
-      "name": "Producent van topinhoud"
+      "name": "Producent van topinhoud",
     },
     "NINJA": {
-      "name": "Ninja"
+      "name": "Ninja",
     },
     "STAR": {
-      "name": "Ster"
+      "name": "Ster",
     },
     "GUARDIAN": {
-      "name": "Geweldige klantenservice"
+      "name": "Geweldige klantenservice",
     },
     "KING": {
-      "name": "Koning van de markt"
-    }
+      "name": "Koning van de markt",
+    },
   },
   "cookie": {
     "title": "Deze website maakt gebruik van cookies",
     "message": "Deze website maakt gebruik van cookies om de gebruikerservaring te verbeteren. Door onze website te gebruiken, stemt u in met alle cookies in overeenstemming met ons Cookiebeleid.",
     "preferences_action": "Voorkeuren beheren",
-    "agree_action": "Ik ga akkoord"
+    "agree_action": "Ik ga akkoord",
   },
   "basket_item_message": {
     "title": "Vereiste informatie voor dit item",
     "save_actions": "Bericht opslaan",
+    "product_inputs_preview_message": "Deze aanpassingsopties zijn beschikbaar voor uw bestelde product. Zodra het artikel aan uw winkelwagen is toegevoegd, kunt u hier aanpassingen maken.",
     "notifications": {
-      "success": "Uw invoergegevens zijn opgeslagen."
+      "success": "Uw invoergegevens zijn opgeslagen.",
     },
-    "product_inputs_preview_message": "Deze aanpassingsopties zijn beschikbaar voor uw bestelde product. Zodra het artikel aan uw winkelwagen is toegevoegd, kunt u hier aanpassingen maken."
   },
   "faq": {
     "faq": "Veel Gestelde Vragen",
     "title": "Vragen en antwoorden",
-    "sub_title": "Wat je ons hebt gevraagd te doen.",
     "message": "Zoek het antwoord op uw vraag tussen onderstaande antwoorden. Vraag het ons als er vragen onbeantwoord blijven.",
     "add_question_action": "Nieuwe vraag stellen",
     "read_more": "Lees verder ..",
@@ -1801,8 +2013,9 @@ export default {
     "question_input": "Vraag",
     "question_input_placeholder": "Stel je vraag.",
     "notifications": {
-      "success_add": "Uw vraag is succesvol ingediend."
-    }
+      "success_add": "Uw vraag is succesvol ingediend.",
+    },
+    "sub_title": "Wat je ons hebt gevraagd te doen.",
   },
   "rating_labels": [
     "Heel slecht",
@@ -1829,25 +2042,25 @@ export default {
     "address_title_input": "Adreslabel (vereist)",
     "notifications": {
       "save_in_list": "Dit adres is met alle details in uw lijst opgeslagen.",
-      "edit_success": "Nieuwe adreswaarden opgeslagen in {title}."
+      "edit_success": "Nieuwe adreswaarden opgeslagen in {title}.",
     },
     "delete_address_dialog": {
       "title": "Adres verwijderen",
       "message": "Weet je zeker dat je dit adres wilt verwijderen?",
-      "action": "Adres verwijderen"
-    }
+      "action": "Adres verwijderen",
+    },
   },
   "comment_manager": {
     "can_not_edit": "Kan deze reactie niet bewerken!",
     "comment_input_empty": "Berichttekst is leeg!",
-    "article_not_saved": "Bewaar het artikel!"
+    "article_not_saved": "Bewaar het artikel!",
   },
   "wheel_fortune": {
     "title": "Speel & Win",
     "message": "De kosten van elk spel zijn 10 fiches. Je hebt momenteel een {chips}-chip. Krijg meer chip door in de winkel te kopen.",
     "win_message": "Gefeliciteerd, je hebt gewonnen!",
     "lost_message": "Sorry, je hebt het spel verloren.",
-    "try_again": "Je kunt het opnieuw proberen"
+    "try_again": "Je kunt het opnieuw proberen",
   },
   "json": {
     "add": "Structuurgegevens toevoegen",
@@ -1855,29 +2068,29 @@ export default {
     "structures": "structuren",
     "book": {
       "title": "Boek",
-      "desc": "Boekacties waarmee gebruikers het boek dat ze vinden rechtstreeks in de zoekresultaten kunnen kopen."
+      "desc": "Boekacties waarmee gebruikers het boek dat ze vinden rechtstreeks in de zoekresultaten kunnen kopen.",
     },
     "occupation": {
       "title": "Geschat salaris",
-      "desc": "Informatie over salarisschattingen, zoals salarisbereiken en op regio gebaseerde salarisgemiddelden voor functietypen, weergegeven in de zoekervaring naar een baan op Google."
+      "desc": "Informatie over salarisschattingen, zoals salarisbereiken en op regio gebaseerde salarisgemiddelden voor functietypen, weergegeven in de zoekervaring naar een baan op Google.",
     },
     "course": {
       "title": "Cursus",
-      "desc": "Educatieve cursussen die voorkomen in een providerspecifieke lijst. Cursussen kunnen de cursustitel, de aanbieder en een korte beschrijving bevatten."
+      "desc": "Educatieve cursussen die voorkomen in een providerspecifieke lijst. Cursussen kunnen de cursustitel, de aanbieder en een korte beschrijving bevatten.",
     },
     "howto": {
       "title": "Hoe",
-      "desc": "Een instructie leidt gebruikers door een reeks stappen om een taak met succes te voltooien, met video, afbeeldingen en tekst."
+      "desc": "Een instructie leidt gebruikers door een reeks stappen om een taak met succes te voltooien, met video, afbeeldingen en tekst.",
     },
     "recipe": {
       "title": "Recept",
-      "desc": "Recepten die worden weergegeven als een individueel rijk resultaat of als onderdeel van een hostcarrousel."
-    }
+      "desc": "Recepten die worden weergegeven als een individueel rijk resultaat of als onderdeel van een hostcarrousel.",
+    },
   },
   "support": {
     "Financial": "financieel",
     "Technical": "Technisch",
-    "Advisor": "Adviseur"
+    "Advisor": "Adviseur",
   },
   "condition": {
     "new": "Nieuw",
@@ -1885,91 +2098,152 @@ export default {
     "used": "Gebruikt",
     "used_fair": "Redelijk gebruikt",
     "used_good": "Goed gebruikt",
-    "used_like_new": "Gebruikt - als nieuw"
+    "used_like_new": "Gebruikt - als nieuw",
   },
   "variant_filter": {
     "title": "Productvariantfilter",
-    "only_available": "Op voorraad"
+    "only_available": "Op voorraad",
   },
   "service": {
     "task": {
       "title": "Taken",
-      "message": "Lijst met taken die in deze service worden uitgevoerd."
+      "message": "Lijst met taken die in deze service worden uitgevoerd.",
     },
     "appointment": {
       "title": "Afspraak",
-      "message": "Kies de tijden van de week uit de volgende tijden op basis van de dag en het uur dat voor u geschikt is."
+      "message": "Kies de tijden van de week uit de volgende tijden op basis van de dag en het uur dat voor u geschikt is.",
     },
     "booking": {
       "title": "Boeking",
-      "message": "Geef in onderstaande kalender de periode aan van de dagen waarop u wilt reserveren."
+      "message": "Geef in onderstaande kalender de periode aan van de dagen waarop u wilt reserveren.",
     },
     "subscription": {
-      "title": "Abonnement"
+      "title": "Abonnement",
     },
     "charge": {
-      "title": "Aanval"
-    }
+      "title": "Aanval",
+    },
   },
   "PricingTypes": {
     "FIX": {
       "title": "Vaste prijs",
-      "message": "Bij dit type prijsstelling is de prijs van het product een vast bedrag en hoeft de koper geen prijsberekening aan te vragen."
+      "message": "Bij dit type prijsstelling is de prijs van het product een vast bedrag en hoeft de koper geen prijsberekening aan te vragen.",
     },
     "ESTIMATION": {
       "title": "Geschatte prijzen",
-      "message": "De prijs van producten en diensten wordt tot op zekere hoogte door de verkoper berekend bij het plaatsen van een bestelling, betalingsfacturen kunnen tijdens de service worden gewijzigd of toegevoegd."
+      "message": "De prijs van producten en diensten wordt tot op zekere hoogte door de verkoper berekend bij het plaatsen van een bestelling, betalingsfacturen kunnen tijdens de service worden gewijzigd of toegevoegd.",
     },
     "AGREEMENT": {
       "title": "Overeenkomst prijzen",
-      "message": "De uiteindelijke prijs van de producten of diensten wordt door de verkoper niet gewijzigd nadat de bestelling is geplaatst."
+      "message": "De uiteindelijke prijs van de producten of diensten wordt door de verkoper niet gewijzigd nadat de bestelling is geplaatst.",
     },
     "BID": {
       "title": "Bod / Veiling",
-      "message": "Het product wordt door potentiële kopers tegen de hoogste biedprijs verkocht."
-    }
+      "message": "Het product wordt door potentiële kopers tegen de hoogste biedprijs verkocht.",
+    },
   },
   "map": {
     "title": "Bestemming om producten te ontvangen",
     "confirm": "Locatie instellen",
     "address": "Bestemming",
-    "receptor": "Ontvanger"
+    "receptor": "Ontvanger",
   },
   "ShopBots": {
-    "telegram": "Telegram"
+    "telegram": "Telegram",
   },
   "article_tags": {
     "title": "Inhoudstags",
     "tags_input": "Tags",
     "tags_input_message": "Tags Lijst van dit artikel",
     "notification": {
-      "add_success": "Tags toegevoegd"
-    }
-  },
-  "difficulties": {
-    "very_complicated": "Erg ingewikkeld",
-    "hard": "Moeilijk",
-    "intermediate": "Tussenliggend",
-    "easy": "Eenvoudig"
-  },
-  "billing_period": {
-    "Daily": "Dagelijks",
-    "Weekly": "Wekelijks",
-    "Monthly": "Maandelijks",
-    "Every3Months": "Elke 3 maanden",
-    "Every6Months": "Elke 6 maanden",
-    "Yearly": "Jaarlijks"
+      "add_success": "Tags toegevoegd",
+    },
   },
   "buyer_rating_statement": {
     "between1_2": "Och niet goed!",
     "between2_3": "Het is ok!",
     "between3_4": "Mensen vinden het leuk!",
-    "between4_5": "Mensen zijn er dol op!"
+    "between4_5": "Mensen zijn er dol op!",
   },
   "seasons": {
     "spring": "Lente",
     "summer": "Zomer",
     "autumn": "Herfst",
-    "winter": "Winter"
-  }
+    "winter": "Winter",
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "View the message history between you and the customer.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours.",
+      },
+    },
+    "customer": {
+      "history": {
+        "subtitle": "View the message history between you and the seller.",
+      },
+      "new_message": {
+        "subtitle": "You can send messages directly to us here.",
+      },
+    },
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "such as home repairs, painting, car repair, etc.",
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Like booking a hotel room or villa.",
+    },
+    "APPOINTMENT": {
+      "title": "Appointment",
+      "desc": "Like a pet care appointment or in-person training.",
+    },
+    "RENTAL": {
+      "title": "Rental",
+      "desc": "Like renting a place or a car.",
+    },
+    "SUBSCRIPTION": {
+      "title": "Subscription",
+      "desc": "Like club membership or Online Coaching.",
+    },
+    "CHARGE": {
+      "title": "Charge",
+      "desc": "Such as charging an account or charging to use an application.",
+    },
+    "CUSTOM": {
+      "title": "Custom",
+      "desc": "Select this option if the service you provide is none of the above.",
+    },
+  },
+  "ProductExternal": {
+    "Amazon": {
+      "name": 'Amazon',
+      "actionText": "Buy on Amazon",
+    },
+    "Airbnb": {
+      "name": 'Airbnb',
+      "actionText": "Book on Airbnb",
+    },
+  },
+  "product_section_incentivise": {
+    "total_sold": 'Total Sold',
+    "available_items": 'Available Items',
+    "have_in_their_bag": "<b>{in_carts}</b> others have this in their carts!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      "has_sell_has_quantity": "🌟 Highly sought-after item! Get it before it's gone.",
+      "just_has_low_quantity": "🛒 Limited stock available! Don't miss out!",
+      "just_has_very_low_quantity": "⏳ Almost out of stock! Act fast before it's too late!",
+    },
+    "file": {
+      "very_popular_selling": "🔥 Top seller! Join the crowd and download it now!",
+      "popular_selling": "🎉 This file is getting a lot of attention. Don't miss out!",
+      "has_normal_selling": "📈 Popular file! Secure your copy today.",
+      "just_release_has_some_sales": "✨ Just released! Be one of the first to get it.",
+    },
+  },
 };
