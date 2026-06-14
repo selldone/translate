@@ -296,7 +296,7 @@ export default {
       order_delivered: "Odara e fihlile.",
       delivery_time: "Nako ea thomello",
       tracking_code: "Khoutu ea ho sala morao",
-      tracking_url: "Ho latela Url",
+      tracking_url: "Ho latela URL",
 
       notifications: {
         confirm_delivery: "Odara ea hau e netefalitsoe.",

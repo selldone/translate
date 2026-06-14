@@ -111,7 +111,7 @@ export default {
     offer_message: "Gura {min_quantity} Kubona {percent}% kubintu",
     up_to: "Kugeza kuri {per_order} x kuri buri cyegeranyo",
     get_free: "SHAKA KUBUNTU",
-    get_off: "KUBONA {percent}% OFF",
+    get_off: "BONA IGABANYIRIZWA RYA {percent}%",
     select_a_vendor_message: "Nyamuneka hitamo umucuruzi.",
     product_description_header: "Kumenyekanisha {product}",
   },
@@ -296,7 +296,7 @@ export default {
       order_delivered: "Icyemezo cyatanzwe.",
       delivery_time: "Igihe cyo gutanga",
       tracking_code: "Kode yo gukurikirana",
-      tracking_url: "Gukurikirana Url",
+      tracking_url: "Gukurikirana URL",
 
       notifications: {
         confirm_delivery: "Ibicuruzwa byawe byemejwe.",

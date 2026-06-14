@@ -349,7 +349,7 @@ export default {
     title: "Meine persönlichen Informationen",
     name: "Name",
     email: "E-Mail",
-    tel: "Tel",
+    tel: "Telefon",
     identity: "Authentifizierung",
     success_kyc: "KYC verifiziert",
     no_kyc: "Keine KYC-Verifizierung",
@@ -467,7 +467,7 @@ export default {
     building_no: "Hausnummer",
     building_unit: "Einheit",
     postcode: "Postleitzahl",
-    tel: "Tel",
+    tel: "Telefon",
     description: "Notiz",
 
     map: {

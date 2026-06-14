@@ -296,7 +296,7 @@ export default {
       order_delivered: "pesenan geus dikirimkeun.",
       delivery_time: "Waktos pangiriman",
       tracking_code: "Kodeu nyukcruk",
-      tracking_url: "Url nyukcruk",
+      tracking_url: "URL nyukcruk",
 
       notifications: {
         confirm_delivery: "pesenan anjeun dikonfirmasi.",

@@ -296,7 +296,7 @@ export default {
       order_delivered: "Mae'r gorchymyn wedi'i gyflwyno.",
       delivery_time: "Amser dosbarthu",
       tracking_code: "Cod olrhain",
-      tracking_url: "Url Olrhain",
+      tracking_url: "URL Olrhain",
 
       notifications: {
         confirm_delivery: "Mae eich archeb wedi'i gadarnhau.",

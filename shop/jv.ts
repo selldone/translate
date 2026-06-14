@@ -296,7 +296,7 @@ export default {
       order_delivered: "Pesen wis dikirim.",
       delivery_time: "wektu pangiriman",
       tracking_code: "Kode nelusuri",
-      tracking_url: "Url nelusuri",
+      tracking_url: "URL nelusuri",
 
       notifications: {
         confirm_delivery: "Pesenan sampeyan wis dikonfirmasi.",

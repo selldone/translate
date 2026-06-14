@@ -48,7 +48,7 @@ export default {
   shop: {
     products_filter: "Filtro",
     native: {
-      title: "Login do aplicativo",
+      title: "Acesso ao aplicativo",
       message:
         "Este aplicativo requer acesso às informações da sua conta da loja. Isso inclui acesso ao nome, número de contato, endereço, e-mail, histórico de pedidos, pedidos e postagem de comentários nesta loja.",
       message_bold:

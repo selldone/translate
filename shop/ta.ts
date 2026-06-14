@@ -296,7 +296,7 @@ export default {
       order_delivered: "ஆர்டர் வழங்கப்பட்டுள்ளது.",
       delivery_time: "டெலிவரி நேரம்",
       tracking_code: "கண்காணிப்பு குறியீடு",
-      tracking_url: "கண்காணிப்பு Url",
+      tracking_url: "கண்காணிப்பு URL",
 
       notifications: {
         confirm_delivery: "உங்கள் ஆர்டர் உறுதிப்படுத்தப்பட்டது.",

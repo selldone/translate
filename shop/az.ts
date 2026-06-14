@@ -14,7 +14,7 @@
 
 export default {
   /** @see SShopProductRatingView **/
-  surveys: ["Çox kasıb", "Yazıq", "Normal", "Yaxşı", "Əla"],
+  surveys: ["Çox kasıb", "Yazıq", "Orta", "Yaxşı", "Əla"],
 
   /** @see SFooterSection **/
   footer: {
@@ -69,7 +69,7 @@ export default {
     most_expensive: "Ən bahalı",
     only_available: "Mövcuddur",
     view_mode: {
-      normal: "Normal",
+      normal: "Adi",
       grid: "Tor",
       list: "Siyahı",
       insta: "İnsta",
@@ -349,7 +349,7 @@ export default {
     title: "Şəxsi Məlumatlarım",
     name: "ad",
     email: "E-poçt",
-    tel: "Tel",
+    tel: "Telefon",
     identity: "İdentifikasiyası",
     success_kyc: "Doğrulanmış KYC",
     no_kyc: "KYC yoxdur",

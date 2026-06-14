@@ -349,7 +349,7 @@ export default {
     title: "Mijn persoonlijke informatie",
     name: "Naam",
     email: "E-mail",
-    tel: "Tel",
+    tel: "Telefoon",
     identity: "authenticatie",
     success_kyc: "Geverifieerde KYC",
     no_kyc: "Geen KYC",
@@ -399,7 +399,7 @@ export default {
     free_shipping: "Gratis verzending",
     shipping_not_pay: "Niet inbegrepen",
     total_discount: "Totale korting",
-    customer_club: "Client Club-lid",
+    customer_club: "Klantenclub-lid",
     customer_club_discount: "Ledenkorting",
     final_price: "Laatste betaling",
     lead_time: "Voorbereidingstijd",
@@ -467,7 +467,7 @@ export default {
     building_no: "nummerplaat",
     building_unit: "eenheid",
     postcode: "postcode",
-    tel: "Tel",
+    tel: "Telefoon",
     description: "Opmerking",
 
     map: {

@@ -296,7 +296,7 @@ export default {
       order_delivered: "Sargyt gowşuryldy",
       delivery_time: "Eltip bermegiň wagty",
       tracking_code: "Gözleg kody",
-      tracking_url: "Url yzarlamak",
+      tracking_url: "URL yzarlamak",
 
       notifications: {
         confirm_delivery: "Sargydyňyz tassyklandy",

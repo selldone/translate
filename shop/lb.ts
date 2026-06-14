@@ -399,7 +399,7 @@ export default {
     free_shipping: "Versand fräi",
     shipping_not_pay: "Net abegraff",
     total_discount: "Gesamtremise",
-    customer_club: "Client Club Member",
+    customer_club: "Clientsklub-Member",
     customer_club_discount: "Member Remise",
     final_price: "Finale Bezuelen",
     lead_time: "Virbereedung Zäit",

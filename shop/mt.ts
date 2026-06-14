@@ -108,10 +108,10 @@ export default {
       waiting_list_delete_success: "Int ħriġt mil-lista ta' stennija tal-irkant.",
     },
 
-    offer_message: "Ixtri {min_quantity} Ikseb {percent}% off għal dawn l-oġġetti",
+    offer_message: "Ixtri {min_quantity} u ikseb skont ta' {percent}% fuq dawn l-oġġetti",
     up_to: "Sa {per_order}x għal kull ordni",
     get_free: "IKOLLOK B'XEJN",
-    get_off: "IKOLLOK {percent}% OFF",
+    get_off: "IKOLLOK SKONT TA' {percent}%",
     select_a_vendor_message: "Jekk jogħġbok agħżel bejjiegħ.",
     product_description_header: "Nintroduċu {product}",
   },
@@ -264,7 +264,7 @@ export default {
 
       total_price: "Prezz tal-Oġġetti Totali",
       total_items_discount: "Oġġetti Discount",
-      total_price_after_offers: "Offerti applikati wara t-total",
+      total_price_after_offers: "Total wara l-applikazzjoni tal-offerti",
       total_order_price_before_tax: "Prezz Totali qabel it-taxxa",
 
       buyer_payment: "Ammont tal-ħlas tax-xerrej",
@@ -296,7 +296,7 @@ export default {
       order_delivered: "L-ordni ġiet ikkunsinnata.",
       delivery_time: "Ħin tal-kunsinna",
       tracking_code: "Kodiċi tat-traċċar",
-      tracking_url: "Url tat-Traċċar",
+      tracking_url: "URL tat-Traċċar",
 
       notifications: {
         confirm_delivery: "L-ordni tiegħek hija kkonfermata.",
@@ -453,7 +453,7 @@ export default {
     count_input: "Għadd",
 
     price_changed: "Il-prezz inbidel. prezz ġdid:",
-    offer: "Ikseb {count}x oġġett bi {percent}% off",
+    offer: "Ikseb {count}x oġġett bi skont ta' {percent}%",
     offer_free: "Ikseb {count}x b'xejn",
   },
 

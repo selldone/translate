@@ -399,7 +399,7 @@ export default {
     free_shipping: "Fergese fersending",
     shipping_not_pay: "Net ynbegrepen",
     total_discount: "Totale koarting",
-    customer_club: "Client Club lid",
+    customer_club: "Klanteklub-lid",
     customer_club_discount: "Member koarting",
     final_price: "Finale betelling",
     lead_time: "Tariedingstiid",

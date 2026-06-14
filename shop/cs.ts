@@ -349,7 +349,7 @@ export default {
     title: "Moje osobní údaje",
     name: "název",
     email: "E-mailem",
-    tel: "Tel",
+    tel: "Telefon",
     identity: "Autentizace",
     success_kyc: "Ověřeno KYC",
     no_kyc: "Žádné KYC",

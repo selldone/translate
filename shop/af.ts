@@ -122,7 +122,7 @@ export default {
     waiting_for_availability: "Wag vir beskikbaarheid",
     inform_me_when_available: "Wag jy hiervoor?",
     pay_buy: "Betaal & Koop",
-    quantity: "Tel",
+    quantity: "Telefoon",
     quantity_in_basket: "Items in kar",
     count_unit: "x",
     remove: "Verwyder",
@@ -308,7 +308,7 @@ export default {
       return: "Keer terug",
       table: {
         product: "Produk Naam",
-        count: "Tel",
+        count: "Telefoon",
         unit_price: "Eenheidsprys",
         total_price: "Totale prys",
         discount: "Afslag",
@@ -349,7 +349,7 @@ export default {
     title: "My persoonlike inligting",
     name: "Naam",
     email: "E-pos",
-    tel: "Tel",
+    tel: "Telefoon",
     identity: "Stawing",
     success_kyc: "Geverifieerde KYC",
     no_kyc: "Geen KYC",
@@ -450,7 +450,7 @@ export default {
   basket_items: {
     items_unit: "x",
     lead_unit: "Uur",
-    count_input: "Tel",
+    count_input: "Telefoon",
 
     price_changed: "Prys het verander. nuwe prys:",
     offer: "Kry {count}x item met {percent}% afslag",

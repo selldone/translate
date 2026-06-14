@@ -399,7 +399,7 @@ export default {
     free_shipping: "Kutumiza kwaulere",
     shipping_not_pay: "Osaphatikizidwa",
     total_discount: "Kuchotsera kwathunthu",
-    customer_club: "Mamembala a Client Club",
+    customer_club: "Membala wa kalabu ya makasitomala",
     customer_club_discount: "Kuchotsera kwa Membala",
     final_price: "Malipiro Omaliza",
     lead_time: "Nthawi yokonzekera",

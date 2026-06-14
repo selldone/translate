@@ -296,7 +296,7 @@ export default {
       order_delivered: "आदेश दिया जा चुका है।",
       delivery_time: "डिलीवरी का समय",
       tracking_code: "ट्रैकिंग कोड",
-      tracking_url: "ट्रैकिंग Url",
+      tracking_url: "ट्रैकिंग URL",
 
       notifications: {
         confirm_delivery: "आपके आदेश की पुष्टि हो गई है।",

@@ -296,7 +296,7 @@ export default {
       order_delivered: "Odha yatumirwa.",
       delivery_time: "Nguva yekutumirwa",
       tracking_code: "Kodhi yekutevera",
-      tracking_url: "Kutsvaga Url",
+      tracking_url: "Kutsvaga URL",
 
       notifications: {
         confirm_delivery: "Odha yako yakasimbiswa.",

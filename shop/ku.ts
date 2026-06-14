@@ -296,7 +296,7 @@ export default {
       order_delivered: "Ferman hatiye dayîn.",
       delivery_time: "Dema teslîmkirinê",
       tracking_code: "Koda şopandinê",
-      tracking_url: "Şopandina Url",
+      tracking_url: "Şopandina URL",
 
       notifications: {
         confirm_delivery: "Fermana we tê pejirandin.",

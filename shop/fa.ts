@@ -13,6 +13,7 @@
  */
 
 export default {
+  /** @see SShopProductRatingView **/
   surveys: ["خیلی ضعیف", "ضعیف", "معمولی", "خوب", "عالی"],
 
   /** @see SFooterSection **/
@@ -28,11 +29,11 @@ export default {
 
     privacy: "حریم خصوصی",
     term_of_use: "قوانین استفاده",
-    shop_app_setting: "تظیمات فروشگاه و GDPR",
+    shop_app_setting: "تنظیمات فروشگاه و GDPR",
 
     dialog_setting: {
-      title: "اپلیکیشن های فعال",
-      app_list: "لیست اپپلیکیشن ها",
+      title: "تنظیمات اپلیکیشن‌های فروشگاه",
+      app_list: "فهرست اپلیکیشن‌ها",
     },
   },
 
@@ -44,6 +45,7 @@ export default {
   },
 
   /** @see ShopPage **/
+  /** @see Shop **/
   shop: {
     products_filter: "فیلتر",
     native: {
@@ -51,7 +53,7 @@ export default {
       message:
         "این اپلیکیشن درخواست دسترسی به اطلاعات حساب شما در این فروشگاه را دارد. این دسترسی شامل دسترسی به نام، شماره تماس،آدرس، ایمیل، تاریخچه سفارشات، ثبت سفارش و ارسال نظر در این فروشگاه می باشد.",
       message_bold:
-        "حتما از اپلیکشن رسمی فروشگاه برای وارد شدن به این فروشگاه استفاده نمایید.",
+        "حتماً از اپلیکیشن رسمی فروشگاه برای وارد شدن به این فروشگاه استفاده نمایید.",
     },
   },
 
@@ -226,7 +228,6 @@ export default {
       profile: "پروفایل",
       orders: "سفارشات",
       wallets: "کیف پول",
-
     },
   },
   /**
@@ -239,14 +240,9 @@ export default {
   /**
    * @see SWalletInput
    */
-  wallet_input:{
-    my_wallet_balance:'موجودی کیف پول من',
+  wallet_input: {
+    my_wallet_balance: "موجودی کیف پول من",
   },
-
-  /**
-   * @see SWalletInput
-   */
-
 
   /** {@see StorefrontPageBasketOrderPhysicalDashboard} **/
   order_page: {
@@ -286,6 +282,7 @@ export default {
       confirm_received_action: "تایید دریافت محصول",
       confirm_received_info:
         "در صورتی که سفارش را دریافت نموده اید کلید تایید سفارش را کلیک نمایید. درصورت نیاز پس از تایید دریافت، قادر خواهید بود درخواست مرجوعی ارسال نمایید.",
+      Recipient: "گیرنده",
       receiver: "گیرنده",
       bill: "فاکتور",
       name: "نام",
@@ -456,7 +453,7 @@ export default {
     no_billing_title: "بدون صورتحساب",
     no_billing_desc: "خالی رها کردن آدرس صورت حساب.",
 
-    can_pay_cod_message: "شما می‌توانید هزینه این سفارش را هنگام تحویل به صورت نقدی پرداخت کنید."
+    can_pay_cod_message: "شما می‌توانید هزینه این سفارش را هنگام تحویل به صورت نقدی پرداخت کنید.",
 
 
   },
@@ -500,7 +497,7 @@ export default {
   /** {@see StorefrontPageUserReturns} **/
   return_requests: {
     title: "درخواست های مرجوعی",
-    subtitle: "درخواست‌های بازگشت خود را اینجا مشاهده کنید. برای اقلامی که سیاست بازگشت دارند، می‌توانید درخواست بازگشت را در صفحه سفارش ثبت کنید."
+    subtitle: "درخواست‌های بازگشت خود را اینجا مشاهده کنید. برای اقلامی که سیاست بازگشت دارند، می‌توانید درخواست بازگشت را در صفحه سفارش ثبت کنید.",
 
   },
 
@@ -585,7 +582,7 @@ export default {
   /** @see StorefrontPageOfficial **/
   official_pages: {
     about_us: "درباره ما",
-    terms: "قوانین و مقرارت",
+    terms: "قوانین و مقررات",
     privacy: "حریم خصوصی",
     contact_us: "تماس با ما",
   },
@@ -736,14 +733,14 @@ export default {
       show_calendar: "نمایش تقویم سفارشات",
     },
     pricing: {
-      title: "قیت گذاری سرویس",
+      title: "قیمت‌گذاری سرویس",
       message: "چه مبلغی برای این سرویس تعیین می کنید؟",
     },
     subscription: {
       title: "اشتراک",
       message:
         "مدت زمان اشتراک با خرید این سرویس رابر اساس روز می توانید انتخاب نمایید. در صورتی که می خواهید مقادیر پیش فرضی که قبلا وارد کرده اید را تغییر دهید، خریدار را مطلع سازید.",
-      duration: "Subscription period",
+      duration: "دوره اشتراک",
     },
     charge: {
       title: "شارژ",

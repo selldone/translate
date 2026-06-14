@@ -349,7 +349,7 @@ export default {
     title: "Moji lični podaci",
     name: "Ime",
     email: "E-pošta",
-    tel: "Tel",
+    tel: "Telefon",
     identity: "Autentifikacija",
     success_kyc: "Verificiran KYC",
     no_kyc: "Nema KYC-a",

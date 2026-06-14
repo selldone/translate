@@ -296,7 +296,7 @@ export default {
       order_delivered: "Pesanan telah dihantar.",
       delivery_time: "Masa penghantaran",
       tracking_code: "Kod Penjejakan",
-      tracking_url: "Url Penjejakan",
+      tracking_url: "URL Penjejakan",
 
       notifications: {
         confirm_delivery: "Pesanan anda disahkan.",

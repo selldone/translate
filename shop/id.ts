@@ -296,7 +296,7 @@ export default {
       order_delivered: "Pesanan sudah diantar.",
       delivery_time: "Waktu pengiriman",
       tracking_code: "Kode lacak",
-      tracking_url: "Url Pelacakan",
+      tracking_url: "URL Pelacakan",
 
       notifications: {
         confirm_delivery: "Pesanan Anda telah dikonfirmasi.",
@@ -597,7 +597,7 @@ export default {
       buy_title: "Membeli",
       pay_by_giftcards: "Pesanan Anda telah dibayar dengan kartu hadiah.",
       free_order: "Pesanan Anda gratis.",
-      pay_by_cod: "Pesanan Anda telah ditambahkan sebagai cash on delivery.",
+      pay_by_cod: "Pesanan Anda telah ditambahkan sebagai pembayaran di tempat.",
       pay_by_dir:
         "Pesanan Anda telah berhasil ditambahkan. Sekarang Anda dapat membayar dengan transfer uang langsung dan kemudian mengunggah tanda terima pembayaran di halaman pesanan.",
       pay_title: "Pembayaran",

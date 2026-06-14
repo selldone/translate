@@ -296,7 +296,7 @@ export default {
       order_delivered: "Comanda a fost livrată.",
       delivery_time: "Timp de livrare",
       tracking_code: "Cod de urmărire",
-      tracking_url: "Url de urmărire",
+      tracking_url: "URL de urmărire",
 
       notifications: {
         confirm_delivery: "Comanda dvs. este confirmată.",

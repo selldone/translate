@@ -296,7 +296,7 @@ export default {
       order_delivered: "An isar da odar.",
       delivery_time: "Lokacin bayarwa",
       tracking_code: "Lambar bin diddigi",
-      tracking_url: "Bibiya Url",
+      tracking_url: "Bibiya URL",
 
       notifications: {
         confirm_delivery: "An tabbatar da odar ku.",

@@ -296,7 +296,7 @@ export default {
       order_delivered: "ઓર્ડર પહોંચાડવામાં આવ્યો છે.",
       delivery_time: "ડિલિવરી સમય",
       tracking_code: "ટ્રેકિંગ કોડ",
-      tracking_url: "ટ્રેકિંગ Url",
+      tracking_url: "ટ્રેકિંગ URL",
 
       notifications: {
         confirm_delivery: "તમારો ઓર્ડર કન્ફર્મ થયો છે.",

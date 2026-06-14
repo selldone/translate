@@ -296,7 +296,7 @@ export default {
       order_delivered: "Dalabka waa la keenay",
       delivery_time: "Waqtiga dirida",
       tracking_code: "Koodhka raadraaca",
-      tracking_url: "Raadinta Url",
+      tracking_url: "Raadinta URL",
 
       notifications: {
         confirm_delivery: "Dalabkaaga waa la xaqiijiyay",

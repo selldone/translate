@@ -296,7 +296,7 @@ export default {
       order_delivered: "Agizo limewasilishwa.",
       delivery_time: "Wakati wa utoaji",
       tracking_code: "Msimbo wa ufuatiliaji",
-      tracking_url: "Url ya Kufuatilia",
+      tracking_url: "URL ya Kufuatilia",
 
       notifications: {
         confirm_delivery: "Agizo lako limethibitishwa.",

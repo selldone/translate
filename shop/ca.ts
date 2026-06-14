@@ -349,7 +349,7 @@ export default {
     title: "La meva informació personal",
     name: "Nom",
     email: "Correu electrònic",
-    tel: "Tel",
+    tel: "Tel?fon",
     identity: "Autenticació",
     success_kyc: "KYC verificat",
     no_kyc: "Sense KYC",
@@ -467,7 +467,7 @@ export default {
     building_no: "número de l’edifici",
     building_unit: "unitat",
     postcode: "Codi postal",
-    tel: "Tel",
+    tel: "Tel?fon",
     description: "Nota",
 
     map: {

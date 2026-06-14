@@ -296,7 +296,7 @@ export default {
       order_delivered: "Tá an t-ordú seachadta.",
       delivery_time: "Am seachadta",
       tracking_code: "Cóid rianaithe",
-      tracking_url: "Url Rianaithe",
+      tracking_url: "URL Rianaithe",
 
       notifications: {
         confirm_delivery: "Deimhnítear d’ordú.",

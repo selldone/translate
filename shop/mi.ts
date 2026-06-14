@@ -108,7 +108,7 @@ export default {
       waiting_list_delete_success: "I puta koe i te rarangi tatari hokohoko.",
     },
 
-    offer_message: "Hokona {min_quantity} Whiwhi {percent}% mo enei mea",
+    offer_message: "Hokona {min_quantity} ka whiwhi {percent}% hekenga mō ēnei mea",
     up_to: "Tae atu ki te {per_order}x mo ia ota",
     get_free: "HAERE KOREUTU",
     get_off: "Tīkina he hekenga {percent}%",
@@ -296,7 +296,7 @@ export default {
       order_delivered: "Kua tukuna te ota.",
       delivery_time: "Te wa tuku",
       tracking_code: "Waehere aroturuki",
-      tracking_url: "Url Aroturuki",
+      tracking_url: "URL Aroturuki",
 
       notifications: {
         confirm_delivery: "Kua whakamanahia to ota.",
@@ -453,7 +453,7 @@ export default {
     count_input: "Tatau",
 
     price_changed: "Kua rereke te utu. utu hou:",
-    offer: "Tikina te {count}x tūemi mā te {percent}% off",
+    offer: "Tikina te {count}x tūemi me te {percent}% hekenga",
     offer_free: "Tikina {count}x kore utu",
   },
 

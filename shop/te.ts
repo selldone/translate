@@ -296,7 +296,7 @@ export default {
       order_delivered: "ఆర్డర్ డెలివరీ చేయబడింది.",
       delivery_time: "డెలివరీ సమయం",
       tracking_code: "ట్రాకింగ్ కోడ్",
-      tracking_url: "ట్రాకింగ్ Url",
+      tracking_url: "ట్రాకింగ్ URL",
 
       notifications: {
         confirm_delivery: "మీ ఆర్డర్ నిర్ధారించబడింది.",

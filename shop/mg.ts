@@ -296,7 +296,7 @@ export default {
       order_delivered: "Efa tonga ny commande.",
       delivery_time: "Ora nanomezana",
       tracking_code: "Kaody fanaraha-maso",
-      tracking_url: "Url fanaraha-maso",
+      tracking_url: "URL fanaraha-maso",
 
       notifications: {
         confirm_delivery: "Voamarina ny kaomanao.",
