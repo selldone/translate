@@ -1,8 +1,8 @@
 <?php
 
 
-use App\Samin\Expert\enums\JobCategory;
-use App\Samin\Expert\enums\JobTopic;
+use App\Backoffice\Expert\enums\JobCategory;
+use App\Backoffice\Expert\enums\JobTopic;
 
 return [
 

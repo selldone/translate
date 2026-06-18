@@ -3,7 +3,7 @@
 use App\Http\Controllers\Shop\Product\ProductAddController;
 use App\Http\Controllers\Shop\Product\ProductController;
 use App\Http\Controllers\Shop\Product\ProductEditController;
-use App\Samin\Account\Enums\Currency;
+use App\Backoffice\Account\Enums\Currency;
 use App\Shop\Category\ShopCategory;
 use App\Shop\Products\Enums\ProductCondition;
 use App\Shop\Products\Product;

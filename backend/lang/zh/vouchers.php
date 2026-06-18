@@ -1,7 +1,7 @@
 <?php
 
 
-use App\Samin\Voucher\Enums\VoucherTypes;
+use App\Backoffice\Voucher\Enums\VoucherTypes;
 
 return [
 
