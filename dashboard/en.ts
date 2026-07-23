@@ -7613,7 +7613,80 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "Main Website Font",
-      subtitle: "Choose your favorite font from Google Fonts.",
+      subtitle: "Choose an uploaded custom font or a family from Google Fonts.",
+      custom_font: "Uploaded custom font",
+      custom_font_message:
+        "Select an uploaded font to automatically generate both the font family and font resource.",
+      custom_resource_message:
+        "Generated automatically from this font's public CDN files.",
+    },
+    custom_fonts: {
+      title: "Custom Fonts",
+      subtitle:
+        "Upload and manage font families owned by your shop. Add a separate face for every weight and style you need.",
+      quota: "{used} of {limit} fonts",
+      quota_reached: "Your current license font limit has been reached.",
+      css_name: "CSS font-family name",
+      css_name_hint:
+        "Copy this value to use the font in Page Builder or custom CSS.",
+      file_hint:
+        "Each file can be up to {size}. Supported formats: {formats}. WOFF2 is recommended for modern browsers.",
+      empty_title: "No custom font yet",
+      empty_description:
+        "Upload your first font family to use it across your storefront and Page Builder.",
+      actions: {
+        add: "Add custom font",
+        add_weight: "Add weight",
+      },
+      dialog: {
+        add_title: "Add Custom Font",
+        edit_title: "Edit Custom Font",
+        subtitle:
+          "Define the family once, then add only the weights and styles your storefront uses.",
+      },
+      inputs: {
+        name: "Font name",
+        name_message: "A recognizable name for this font in your dashboard.",
+        fallback: "Fallback family",
+        fallback_message: "Used when the custom font cannot be loaded.",
+        weight: "Weight",
+        style: "Style",
+        files: "Font files",
+      },
+      faces: {
+        title: "Font weights and styles",
+        subtitle:
+          "Attach one or more browser formats to each weight/style combination.",
+        face: "Face {index}",
+      },
+      styles: {
+        normal: "Normal",
+        italic: "Italic",
+      },
+      weights: {
+        regular: "Regular",
+        bold: "Bold",
+      },
+      errors: {
+        name_required: "Enter a name for this font.",
+        format: "{name} is not a supported font format.",
+        size: "{name} exceeds the {size} file-size limit.",
+        duplicate_format: "Only one {format} file can be added to this face.",
+        name_length: "The font name cannot exceed 80 characters.",
+        face_required: "Add at least one font face.",
+        duplicate_face: "Each weight and style combination must be unique.",
+        file_required: "Attach at least one file to this font face.",
+      },
+      delete: {
+        title: "Delete custom font",
+        message:
+          "Delete {name} and all of its uploaded files? Pages using it will fall back to their next available font.",
+      },
+      notifications: {
+        created: "Custom font has been created.",
+        updated: "Custom font has been updated.",
+        deleted: "Custom font has been deleted.",
+      },
     },
     inputs: {
       font_family: {
