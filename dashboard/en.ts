@@ -9202,6 +9202,35 @@ export default {
     title: "My Shops",
     message:
       "Here is a list of your owned shops, authorized shops, and sample shops. To hide sample shops, navigate to the bottom of the page and select the preferences.",
+    created_at: "Created {time}",
+    total_views: "Total storefront views",
+    empty: "No shops to show.",
+
+    view: {
+      list: "List view",
+      cards: "Card view",
+    },
+    sort: {
+      label: "Sort shops",
+      newest: "Newest",
+      oldest: "Oldest",
+      most_visited: "Most visited",
+    },
+    deleted: {
+      message: "Only your recoverable deleted shops are shown here.",
+      deleted_at: "Deleted {time}",
+      recover: "Recover shop",
+      recovered_title: "Shop recovered",
+      recovered_message: "{shop} is active again.",
+      recovery_dialog: {
+        title: "Recover shop",
+        message:
+          "Recovering {shop} will make it active and available in your shop list again.",
+        instruction: "To confirm, type the following word below.",
+        input_label: "Confirmation word",
+        input_hint: "Enter {phrase} to continue.",
+      },
+    },
 
     sample: {
       title: "Sample Stores",
