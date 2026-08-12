@@ -226,7 +226,7 @@ export default {
     pwa: "وب اپ پیشرفته",
     android: "Android",
     android_info: "اپلیکیشن مخصوص گوشی و تبلت اندروید",
-    ios: "iOS (به زودی)",
+    ios: "iOS",
     ios_info: "اپلیکیشن مخصوص گوشی و تبلت iOS",
   },
   custom_domain: {

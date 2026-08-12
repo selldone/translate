@@ -225,7 +225,7 @@ export default {
     pwa: "Advanced Web App",
     android: "Android",
     android_info: "Android Phone and Tablet App",
-    ios: "iOS (coming soon)",
+    ios: "iOS",
     ios_info: "Apple Phone & Tablet App",
   },
   custom_domain: {
