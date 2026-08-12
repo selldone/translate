@@ -20,6 +20,14 @@ export default {
     "To use this service, you are required to comply with the laws of <b>{country_name}</b> and the <b>European Union</b>.",
 
   my_shops: "My Shops",
+  shop_dock: {
+    shop_count: "{count} shops",
+    helper:
+      "Open a shop here, or let your connected AI work across approved tasks.",
+    manage: "Manage all shops",
+    expand: "Expand shop list",
+    open_shop: "Open the {shop} dashboard",
+  },
   select_language_dialog_title: "Do your business in your favorite language",
 
   welcome_title: "Reduce Your Many Daily Decisions into One",
@@ -473,6 +481,530 @@ export default {
   hero: {
     intro: "#1 Operating System for Businesses",
     title: "Replace {infinite} Plugins & Apps with One {app}",
+    agent: {
+      eyebrow: "Selldone Business OS × Your AI operator",
+      title: "Give your business an AI operator.",
+      title_accent: "Build it. Run it. With an always-on agent, 24/7.",
+      lead: "Connect ChatGPT, Claude, Codex, or any MCP agent to Selldone. Let it build products, pages, and campaigns, handle approved operations, and report back in your conversation—without living in another dashboard.",
+      connect_action: "Connect my AI",
+      genesis_action: "Explore Selldone Genesis",
+      genesis_aria: "Explore Selldone Genesis; opens in a new tab",
+      trust: {
+        shop_scoped: "Shop-scoped access",
+        revocable: "Revocable anytime",
+        approval_controls: "Approval controls for sensitive changes",
+      },
+      workflow: {
+        label: "Illustrative workflow",
+        title: "Work from the AI you already use.",
+        supported_agents_aria: "AI agent examples",
+        prompt_label: "Example request",
+        prompt:
+          "Prepare the summer collection, inventory update, and landing page for my confirmation.",
+        outcomes: {
+          storefront: "Storefront",
+          products: "Products",
+          operations: "Operations",
+        },
+        steps_aria: "Request workflow steps",
+        steps: {
+          understand: {
+            title: "Understand",
+            description: "Read your shop context and goal",
+          },
+          prepare: {
+            title: "Prepare",
+            description: "Plan the work and validate changes",
+          },
+          confirm: {
+            title: "Explicit confirmation",
+            description: "Sensitive changes wait for confirmation",
+          },
+        },
+        approval_status: "Waiting for confirmation on sensitive changes",
+        note: "A secure connection scoped to the shop and permissions you approve.",
+      },
+      panel: {
+        label: "Interactive demo · sample data",
+        aria: "Interactive Selldone dashboard preview with sample data",
+      },
+    },
+  },
+
+  redesign: {
+    genesis: {
+      eyebrow: "Selldone Genesis",
+      title: "Your business does not have to fit the interface.",
+      title_accent: "The interface can fit your business.",
+      lead: "Use AI to shape the customer and operator experience around the way your business actually works—from a custom storefront and landing pages to purpose-built back-office, vendor, and partner surfaces—all connected to Selldone's commerce engine.",
+      capabilities: {
+        storefront: "Custom storefront",
+        backoffice: "Custom back office",
+        vendor: "Vendor & partner panels",
+        landing: "Landing experiences",
+      },
+      surface_tabs_aria: "Genesis interface examples",
+      live_preview: "Interface preview",
+      ai_built_label: "Shaped with AI",
+      interface_label: "Interface",
+      engine_label: "Commerce engine",
+      prompt_label: "Direction for the AI",
+      agent_connected: "Shop context connected",
+      context_ready: "Ready for review",
+      surfaces: {
+        storefront: {
+          label: "Storefront",
+          short: "A customer experience unique to the business",
+          title: "A storefront built around the customer's real journey.",
+          interface: "Customer-facing",
+          prompt:
+            "Create a calm, editorial shopping journey with guided product discovery.",
+          alt: "A custom Genesis storefront for Aging Parent Care with an editorial commerce experience.",
+        },
+        marketplace: {
+          label: "Multi-vendor",
+          short: "Marketplace listings, vendors, and commissions",
+          title: "Turn one operation into a multi-vendor marketplace.",
+          interface: "Customers & vendors",
+          prompt:
+            "Create a multi-vendor services marketplace with searchable listings, vendor profiles, and role-specific workspaces.",
+          alt: "A custom Genesis multi-vendor services marketplace with searchable local provider listings.",
+        },
+        booking: {
+          label: "Services & booking",
+          short: "Listings, availability, booking, and maps",
+          title:
+            "Build a service or booking experience around place and availability.",
+          interface: "Guests & providers",
+          prompt:
+            "Create a map-first booking journey with listings, date search, availability, and provider operations.",
+          alt: "A custom Genesis booking site with accommodation listings, date search, filters, and a map.",
+        },
+        social: {
+          label: "Social commerce",
+          short: "TikTok, Instagram, and Facebook journeys",
+          title: "Turn social attention into a connected sales journey.",
+          interface: "Social audiences",
+          prompt:
+            "Design a mobile-first sales journey for TikTok, Instagram, and Facebook audiences with one connected checkout.",
+          alt: "A custom Genesis storefront showing product categories and featured products for a social sales journey.",
+        },
+        operators: {
+          label: "Operator surfaces",
+          short: "Back office, vendor, and partner workspaces",
+          title: "Give every operator the workspace their role needs.",
+          interface: "Partners & teams",
+          prompt:
+            "Build a focused partner dashboard for reservations, performance, and guest communication.",
+          alt: "A custom Genesis partner dashboard for a hospitality booking business.",
+        },
+        builder: {
+          label: "Landing Builder",
+          short: "Visual control with AI-assisted creation",
+          title: "Launch campaigns without waiting on a development queue.",
+          interface: "Campaign pages",
+          prompt:
+            "Generate a responsive summer campaign page, then let me refine every section visually.",
+          alt: "Selldone visual Landing Builder with a live storefront preview and editing controls.",
+        },
+      },
+      principles: {
+        design: {
+          title: "Your design language",
+          description:
+            "No universal theme has to define how customers experience your brand.",
+        },
+        workflow: {
+          title: "Your operating workflow",
+          description:
+            "Expose the right actions and context to each customer, staff, vendor, or partner.",
+        },
+        engine: {
+          title: "One commerce engine",
+          description:
+            "Products, orders, payments, logistics, and permissions remain grounded in Selldone.",
+        },
+      },
+      action: "Explore Selldone Genesis",
+    },
+    design_paths: {
+      eyebrow: "Three storefront paths",
+      title: "Choose how much of the experience",
+      title_accent: "you want to own.",
+      lead: "Start selling with Selldone's ready storefront, open the Layout source and shape it with an AI agent, or build an entirely custom Genesis experience. The commerce engine stays the same.",
+      paths_aria: "Three ways to design and deliver a Selldone storefront",
+      swipe_hint: "Swipe to compare all three paths",
+      ready: {
+        tag: "Ready on day one",
+        title: "Dynamic storefront + Landing Builder",
+        description:
+          "Create your store and the storefront is already ready to sell. There is no theme installation, hosting setup, or deployment pipeline.",
+        items: {
+          one: "A dynamic storefront configured from your shop data",
+          two: "Visual Landing Builder for campaign and content pages",
+          three: "Managed updates, hosting, and responsive behavior",
+        },
+        action: "Explore Landing Builder",
+        action_aria: "Explore Selldone Landing Builder",
+        preview_label: "Live storefront",
+        image_alt: "Selldone Landing Builder editing a ready storefront page",
+      },
+      layout: {
+        tag: "Fully open source",
+        title: "Layout, editable with your AI",
+        description:
+          "Use Selldone's fully open-source Layout storefront, connect ChatGPT or Claude through MCP, change the interface in code, then deploy it to Selldone hosting.",
+        items: {
+          one: "Own and extend the storefront source code",
+          two: "Build with ChatGPT, Claude, or another MCP client",
+          three: "Deploy on Selldone's managed infrastructure",
+        },
+        action: "Connect an AI agent",
+        action_aria: "Connect an AI agent to Selldone through MCP",
+        flow_aria:
+          "ChatGPT and Claude connect through MCP to edit Layout and deploy it to Selldone hosting",
+        chatgpt: "ChatGPT",
+        claude: "Claude",
+        layout_node: "Layout",
+        hosting_node: "Selldone hosting",
+      },
+      genesis: {
+        tag: "Any business model",
+        title: "Genesis custom experiences",
+        description:
+          "Build the storefront and operating experience around the business itself—from foundational code—not around a fixed commerce template.",
+        items: {
+          one: "Custom customer, operator, and vendor interfaces",
+          two: "Multi-vendor services, listings, and marketplace flows",
+          three: "Map-based discovery, availability, and booking experiences",
+        },
+        action: "Explore Genesis",
+        action_aria: "Explore Selldone Genesis custom experiences",
+        image_alt: "A custom service storefront built with Selldone Genesis",
+        models_aria: "Examples of business models supported by Genesis",
+        models: {
+          marketplace: "Marketplace",
+          booking: "Booking",
+          map: "Map based",
+        },
+      },
+      foundation: {
+        title: "One operational core, whichever path you choose.",
+        description:
+          "Catalog, orders, customers, payments, automation, and AI-agent access remain connected through Selldone Business OS.",
+      },
+    },
+    features: {
+      eyebrow: "Built-in Business OS",
+      title: "One operating system your AI can actually operate.",
+      title_accent: "No plugin maze in the middle.",
+      lead: "Selldone keeps commerce, operations, growth, and customer experience in one connected model. Your team—and your AI agent—can coordinate real work end to end instead of stitching disconnected apps together.",
+      pillars_aria: "Selldone Business OS capability groups",
+      pillars: {
+        sell: {
+          title: "Sell anything",
+          description: "Use the business model that fits what you offer.",
+          items: {
+            one: "Products, services & files",
+            two: "Subscriptions & bookings",
+            three: "Multi-vendor marketplaces",
+          },
+        },
+        payments: {
+          title: "Get paid",
+          description: "Keep checkout, settlement, and finance connected.",
+          items: {
+            one: "Global payment gateways",
+            two: "Vendor payouts & wallets",
+            three: "Tax, invoices & accounting",
+          },
+        },
+        fulfillment: {
+          title: "Fulfill & stock",
+          description: "Coordinate inventory and delivery across channels.",
+          items: {
+            one: "Warehouses & inventory",
+            two: "Shipping & pickup",
+            three: "Returns, POD & dropshipping",
+          },
+        },
+        growth: {
+          title: "Market & grow",
+          description: "Turn customer activity into lasting relationships.",
+          items: {
+            one: "Campaigns & promotions",
+            two: "Loyalty, cashback & referrals",
+            three: "CRM, email & automation",
+          },
+        },
+        experience: {
+          title: "Build the experience",
+          description: "Own every surface where customers meet the brand.",
+          items: {
+            one: "Landing & page builder",
+            two: "Content, blog & community",
+            three: "Genesis custom interfaces",
+          },
+        },
+        operations: {
+          title: "Run the business",
+          description: "Give people and agents the context to act safely.",
+          items: {
+            one: "Roles & scoped permissions",
+            two: "Analytics & smart reports",
+            three: "Open API, SDKs & MCP",
+          },
+        },
+      },
+      builder: {
+        label: "Landing & Page Builder",
+        title: "Go from an idea to a live campaign in one workspace.",
+        description:
+          "Start visually, ask AI to prepare a page, or combine both. Every landing stays connected to your real catalog, offers, customers, and analytics.",
+        items: {
+          visual: {
+            label: "Visual control",
+            description:
+              "Compose and refine sections without giving up detailed control.",
+          },
+          ai: {
+            label: "AI-assisted creation",
+            description:
+              "Turn a campaign brief into a structured first draft you can review.",
+          },
+          responsive: {
+            label: "Responsive by design",
+            description:
+              "Preview and tune the experience across customer devices.",
+          },
+        },
+        primary_action: "Explore Landing Builder",
+        secondary_action: "Explore Business OS",
+        preview_label: "Selldone Landing Builder",
+        live_label: "Live preview",
+        image_alt:
+          "Selldone Landing Builder with visual section controls and a live campaign preview.",
+        ai_label: "Ask AI inside the workflow",
+        ai_prompt:
+          "Prepare a launch page for this collection using my brand direction.",
+      },
+      agent_note: {
+        title: "This is why an AI agent can do more than generate text.",
+        description:
+          "With approved MCP access, it can understand connected business context, prepare work across these systems, and report the result where you already chat.",
+        action: "Connect an AI agent",
+      },
+    },
+    how_it_works: {
+      eyebrow: "How it works",
+      title: "Three steps from prompt",
+      title_accent: "to a running business.",
+      lead: "Connect ChatGPT, Claude, Codex, or any MCP-compatible agent. Selldone provides the tools, shop-scoped access, and approval gates.",
+      steps_aria: "How an AI agent works with Selldone",
+      steps: {
+        connect: {
+          title: "Connect the agent you already use",
+          description:
+            "Add Selldone through MCP in ChatGPT, Claude, Codex, or another compatible client.",
+          agents_aria: "Supported AI agents",
+          connector: "Selldone MCP",
+          agents: {
+            any_mcp: "Any MCP agent",
+          },
+        },
+        scope: {
+          title: "Choose a shop and its permissions",
+          description:
+            "Choose one shop, then grant only the capabilities the agent needs. Access can be changed or revoked.",
+          shop_label: "Selected shop",
+          shop_name: "Your shop",
+          permissions_label: "Allowed in this shop",
+          permissions: {
+            catalog: "Catalog",
+            orders: "Orders",
+            analytics: "Analytics",
+          },
+          note: "Limited to this shop",
+        },
+        operate: {
+          title: "Let it build, operate, and report",
+          description:
+            "With an always-on agent runtime, it can carry out approved work and report back in your conversation around the clock.",
+          availability: "24/7 with an always-on agent",
+          states: {
+            build: "Build",
+            operate: "Operate",
+            report: "Report",
+          },
+          approval: {
+            title: "Sensitive action",
+            status: "Explicit confirmation required in the agent workflow",
+          },
+        },
+      },
+      control: {
+        title: "You stay in control",
+        description:
+          "Shop scope, permissions, and approval rules stay visible before the agent acts.",
+        badge: "Approval required",
+      },
+    },
+    platform_how: {
+      eyebrow: "How Selldone works",
+      title: "From your first product",
+      title_accent: "to a completed order.",
+      lead: "Follow the complete Selldone workflow across storefront, catalog, payments, design, and unified checkout. The essential commerce journey is connected and ready from day one.",
+    },
+    scale: {
+      eyebrow: "Unified commerce operations",
+      title: "Optimized for online & in-store sales",
+      title_accent: "at scale.",
+      lead: "Run every sales channel on one source of truth. Catalog, customers, orders, payments, fulfillment, and analytics stay connected whether the transaction starts on a storefront, at a counter, through a marketplace, or on social media.",
+      channels_aria: "Connected sales channels",
+      connected: "Connected",
+      channels: {
+        online: {
+          title: "Online storefront",
+          description: "Web, mobile, and custom Genesis experiences",
+        },
+        pos: {
+          title: "In-store POS",
+          description: "Counter sales, staff, and local operations",
+        },
+        marketplace: {
+          title: "Marketplace",
+          description: "Vendors, listings, commissions, and payouts",
+        },
+        social: {
+          title: "Social & direct",
+          description: "Campaign links and conversational selling",
+        },
+      },
+      engine: {
+        label: "Selldone Business OS",
+        title: "One operational source of truth",
+        live: "Synchronized",
+        catalog: "Catalog & pricing",
+        orders: "Orders & checkout",
+        customers: "Customers & loyalty",
+        finance: "Payments & finance",
+        agent_note:
+          "The same connected context is available to approved AI agents through MCP.",
+      },
+      outcomes_aria: "Coordinated business outcomes",
+      outcomes: {
+        inventory: {
+          title: "Shared inventory",
+          description: "Availability stays coordinated across channels.",
+        },
+        fulfillment: {
+          title: "Flexible fulfillment",
+          description: "Ship, deliver, collect, or fulfill digitally.",
+        },
+        insight: {
+          title: "Unified insight",
+          description: "See performance in one business context.",
+        },
+        automation: {
+          title: "Connected automation",
+          description: "Trigger workflows without brittle app chains.",
+        },
+      },
+      proof: {
+        models: {
+          title: "Multiple business models",
+          description:
+            "Retail, subscriptions, booking, wholesale, services, and marketplaces.",
+        },
+        permissions: {
+          title: "Role-aware operations",
+          description:
+            "Give staff, vendors, partners, and AI agents the right scope.",
+        },
+        global: {
+          title: "Local and global readiness",
+          description:
+            "Adapt payment, currency, tax, and fulfillment to where you sell.",
+        },
+      },
+      action: "Explore the Business OS",
+    },
+    developers: {
+      eyebrow: "Open APIs & developer SDKs",
+      title: "Open to your code.",
+      title_accent: "Ready for your agents.",
+      lead: "Connect ChatGPT, Claude, Codex, or any MCP client to operate approved work—without opening a dashboard. Build on open APIs and SDKs, then use Genesis to make every customer and operator interface your own.",
+      actions: {
+        connect_mcp: "Connect an AI agent",
+        api_docs: "Explore API docs",
+      },
+      capabilities_aria: "Ways to build and operate with Selldone",
+      mcp: {
+        kicker: "MCP",
+        title: "Put AI agents to work",
+        description:
+          "Give an MCP client shop-scoped permissions to handle day-to-day work while its runtime is active, with approval controls where they matter.",
+        action: "Set up MCP",
+        aria: "Connect an AI agent through Selldone MCP",
+      },
+      api: {
+        kicker: "APIs & SDKs",
+        title: "Build with documented interfaces",
+        description:
+          "Create integrations and workflows for products, orders, customers, and operations with the stack you already use.",
+        action: "Read the docs",
+        aria: "Open Selldone API documentation",
+      },
+      genesis: {
+        kicker: "Genesis",
+        title: "Own every interface",
+        description:
+          "Build custom storefronts, management backoffices, and vendor experiences with your own design and functionality.",
+        action: "Explore Genesis",
+        aria: "Explore Selldone Genesis",
+      },
+      console: {
+        label: "Illustrative SDK example",
+        title: "Read orders through the Backoffice SDK",
+        source_action: "View source",
+        source_aria: "View the Selldone Backoffice SDK source code on GitHub",
+        preview_aria:
+          "Example of reading orders through the Selldone JavaScript SDK",
+        note: "One business engine, shared across agents, APIs, storefronts, and backoffices.",
+        access: "Scoped access. Approval-aware actions.",
+      },
+    },
+    community: {
+      eyebrow: "Meet our community",
+      title: "Real businesses, built and run on Selldone.",
+      subtitle:
+        "From solo founders to growing teams, operators use Selldone to launch, manage, and grow every day—and can connect AI agents to the same Business OS.",
+      rating_summary: "Reviews you can verify",
+      rating_note: "Every score links to its original source.",
+      rating_rail_aria: "Selldone ratings on independent review platforms",
+      review_source_aria:
+        "Open Selldone reviews on {source}; rated {score} out of 5.",
+      stories_label: "Customer stories",
+      stories_title: "See what people are building with Selldone",
+      stories_hint: "Use the arrows or swipe to explore.",
+      next_story: "Make your success story the next one.",
+    },
+    final_cta: {
+      eyebrow: "Start with Selldone",
+      title:
+        "Give your business an AI operator—and a platform built for the work.",
+      lead: "Launch the business for free, then connect the AI you already use when you are ready. Selldone keeps the shop, permissions, and operations in one place.",
+      primary_action: "Start my business",
+      secondary_action: "Connect an AI agent",
+      stripe_note: "Automatically create your ecommerce",
+      note: "Shop-scoped access with approval controls for sensitive actions.",
+    },
+    theme_switch: {
+      label: "Appearance",
+      aria: "Homepage color theme",
+      light: "Light",
+      dark: "Dark",
+    },
   },
 
   /**
