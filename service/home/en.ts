@@ -121,14 +121,17 @@ export default {
   how_it_work: {
     title: "How it works",
     msg: "No-Credit card, No-Plugin, No-Template, No-Setup, No-Host, No-Technical solution for those who want to game like professionals.",
+    payment_methods_aria: "Supported payment providers and methods",
 
     step0: {
       title: "Designed for Shoppers, Adored by Sellers, Just One Step Away.",
       msg1: "Experience the power of real ecommerce, build a loyal customer base, and focus on what you love with our tool.",
+      action_aria: "Explore Selldone storefront features",
     },
     step1: {
       title: "Add Your Products.",
       msg1: "Easily add products manually or import up to 100,000 items with an excel file. Sell products, services, subscriptions, and files all in one place, just like adding photos on instagram!",
+      action_aria: "Learn about product and logistics management",
     },
     step2: {
       title: "Connect Payment Methods that Meet Your Needs.",
@@ -139,11 +142,18 @@ export default {
       title: "White Label, Flexible, and Deeply Customizable.",
       msg1: "Easily design your landing pages and customize the theme colors of your site to reflect your brand message with the drag-and-drop feature - no expert required.",
       view_sample_pages: "Great SD Stores to Inspire You",
+      action_aria: "Explore the Selldone Landing Builder",
     },
     step4: {
       title:
         "One-click checkout: Unified checkout experience around the world.",
       msg1: "Customers do not have to enter the information and fill out the registration form to buy from you! They log in via SMS and fill the checkout form with one click and pay. You grow, we grow.",
+      action_aria: "Learn how Selldone Business OS works",
+    },
+    marketplace: {
+      title: "Multi-vendor marketplace",
+      description: "Automatic payouts and split payments.",
+      action_aria: "See supported marketplace payout countries",
     },
   },
 
@@ -285,6 +295,8 @@ export default {
   /** @see ConvertibleSelldoneView **/
   convertible: {
     store_name: "Your Store",
+    variants: "Variants",
+    new_product: "New Product",
     variant_1: "Product Variant Amber",
     variant_2: "Product Variant Red",
     buy: "Buy Now",
@@ -527,6 +539,7 @@ export default {
       panel: {
         label: "Interactive demo · sample data",
         aria: "Interactive Selldone dashboard preview with sample data",
+        status: "Live workflow",
       },
     },
   },
