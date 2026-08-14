@@ -320,6 +320,12 @@ export default {
 
       check3: "Paypal",
       check3msg: "One click payment.",
+      tax_profile: "Product tax profiles",
+      tax_profile_msg: "Per-product rules",
+      auto_tax: "Automatic tax",
+      auto_tax_msg: "VAT · GST · location",
+      unified_accounting: "Unified accounting",
+      unified_accounting_msg: "Orders · payments",
     },
     checkout: {
       title: "Your Brand",

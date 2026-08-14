@@ -317,6 +317,12 @@ export default {
 
       check3: "پی پینگ",
       check3msg: "اتصال به درگاه با یک کلیک.",
+      tax_profile: "پروفایل مالیاتی محصول",
+      tax_profile_msg: "قانون اختصاصی محصول",
+      auto_tax: "مالیات خودکار",
+      auto_tax_msg: "VAT · GST · موقعیت",
+      unified_accounting: "حسابداری یکپارچه",
+      unified_accounting_msg: "سفارش‌ها · پرداخت‌ها",
     },
     checkout: {
       title: "برند شما",
