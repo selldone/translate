@@ -194,7 +194,7 @@ return [
 
 
     'page.press' => ['title' => 'Press Resources — Selldone', 'image' => '/images/seo/en/press.png', 'description' => " Resources for anyone interested in writing about Selldone."],
-    'page.roadmap' => ['title' => 'Roadmap — Selldone', 'image' => '/images/seo/roadmap.jpg', 'description' => "It's a one-of-a-kind platform: an all-in-one, no-code business operating system as a service with enterprise-grade tools for SMEs."],
+    'page.roadmap' => ['title' => 'What’s New — Selldone', 'image' => '/images/seo/features.png', 'description' => "See the latest Selldone product updates, integrations, AI capabilities, payment improvements, logistics releases, and platform enhancements."],
 
     'page.onboarding' => ['title' => 'Free Online Store Website Creator - Responsive and Professional', 'image' => '/images/seo/ui-kit.jpg', 'description' => "Selldone is an e-commerce platform built to help your business grow. Whether you have a small brick-and-mortar store or a large company, you need professional, easy-to-use tools."],
 
