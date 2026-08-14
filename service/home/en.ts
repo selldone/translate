@@ -418,6 +418,23 @@ export default {
     shipping: "Shipping",
     fulfilment: "Fulfillment",
     community: "Community & Feedback",
+    supervisor: {
+      title: "AI Supervisor",
+      agents: "ChatGPT · Claude · MCP",
+      status: "On duty across your business · 24/7",
+      aria: "AI supervisor coordinating approved work across pages, email, customer care, orders, and finance",
+      back_office: "Your AI Back Office",
+      engine_title: "Your business, operated by",
+      engine_accent: "AI.",
+      engine_message:
+        "Selldone runs the engine. ChatGPT or Claude keeps approved work moving across pages, customers, orders, and finance—24/7.",
+      work: {
+        design: "Pages & email",
+        customers: "Customer care",
+        orders: "Orders",
+        finance: "Finance",
+      },
+    },
   },
 
   team: {
@@ -538,8 +555,8 @@ export default {
       },
       panel: {
         label: "Interactive demo · sample data",
-        aria: "Interactive Selldone dashboard preview with sample data",
-        status: "Live workflow",
+        aria: "Interactive Selldone operations preview with an AI supervisor coordinating approved work",
+        status: "AI workforce live",
       },
     },
   },
@@ -555,6 +572,33 @@ export default {
         backoffice: "Custom back office",
         vendor: "Vendor & partner panels",
         landing: "Landing experiences",
+      },
+      business_models: {
+        label: "What are you building?",
+        hint: "Choose a model to preview how Genesis shapes its storefront and operations.",
+        aria: "Choose a business model to preview in Selldone Genesis",
+        items: {
+          store: {
+            label: "Online store",
+            short: "Products, checkout, orders, and fulfillment",
+          },
+          marketplace: {
+            label: "Multi-vendor marketplace",
+            short: "Vendors, commissions, payouts, and shared operations",
+          },
+          pod: {
+            label: "Print on demand",
+            short: "Designs, production, and fulfillment per order",
+          },
+          services: {
+            label: "Services & booking",
+            short: "Availability, appointments, listings, and providers",
+          },
+          social: {
+            label: "Social commerce",
+            short: "Mobile-first journeys from social content to checkout",
+          },
+        },
       },
       surface_tabs_aria: "Genesis interface examples",
       live_preview: "Interface preview",
@@ -582,6 +626,15 @@ export default {
           prompt:
             "Create a multi-vendor services marketplace with searchable listings, vendor profiles, and role-specific workspaces.",
           alt: "A custom Genesis multi-vendor services marketplace with searchable local provider listings.",
+        },
+        pod: {
+          label: "Print on demand",
+          short: "Design, production, and fulfillment for every order",
+          title: "Turn every design into a product—without holding stock.",
+          interface: "Brand & fulfillment",
+          prompt:
+            "Build a print-on-demand storefront where designs become products and approved orders flow to fulfillment automatically.",
+          alt: "A custom Genesis print-on-demand storefront connected to product design, orders, and fulfillment.",
         },
         booking: {
           label: "Services & booking",
@@ -648,6 +701,7 @@ export default {
       paths_aria: "Three ways to design and deliver a Selldone storefront",
       swipe_hint: "Swipe to compare all three paths",
       ready: {
+        level: "Quick-start level",
         tag: "Ready on day one",
         title: "Dynamic storefront + Landing Builder",
         description:
@@ -663,6 +717,7 @@ export default {
         image_alt: "Selldone Landing Builder editing a ready storefront page",
       },
       layout: {
+        level: "Geek developer level",
         tag: "Fully open source",
         title: "Layout, editable with your AI",
         description:
@@ -682,6 +737,7 @@ export default {
         hosting_node: "Selldone hosting",
       },
       genesis: {
+        level: "Enterprise level · Build a unicorn",
         tag: "Any business model",
         title: "Genesis custom experiences",
         description:
