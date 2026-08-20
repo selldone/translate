@@ -461,6 +461,7 @@ export default {
           indexed: "Indexed",
           and_more: "& more..",
           auto_repair: "Auto repair",
+          externally_hosted: "External hosted",
         },
         add_dialog: {
           title: "Configure Store Domain",
@@ -480,6 +481,32 @@ export default {
           inactive: "Domain is disabled",
           success_message:
             "Congratulations, your site is enabled on {domain}. You can introduce your business and brand to the world through this domain.",
+
+          hosting: {
+            title: "Storefront hosting",
+            subtitle: "Choose where this storefront is served from.",
+            selldone_title: "Hosted by Selldone",
+            selldone_description:
+              "Use Selldone's storefront. Connect the domain with A/CNAME and verify ownership with TXT.",
+            external_title: "External storefront (Custom storefront)",
+            external_description:
+              "Keep your custom storefront on Cloudflare or another hosting provider.",
+            external_note:
+              "Selldone will only verify ownership. Your DNS destination, hosting, and SSL remain externally managed.",
+          },
+          ownership: {
+            title: "Verify ownership",
+            subtitle:
+              "Choose one proof method. An externally hosted storefront does not need a Selldone A or CNAME record.",
+            meta_title: "HTML meta tag",
+            meta_description:
+              "Publish the tag inside the <head> of the exact host shown below. That host must return successful initial HTML without a redirect; tags injected only by JavaScript are not detected.",
+            meta_code: "Verification meta tag",
+            meta_url: "Page checked by Selldone",
+            txt_title: "DNS TXT record",
+            txt_description:
+              "Add the TXT token at the dedicated verification host shown below. No A or CNAME record is required.",
+          },
 
           delete_action: "Delete domain?",
         },
