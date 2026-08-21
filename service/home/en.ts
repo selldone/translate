@@ -755,7 +755,8 @@ export default {
         },
         action: "Explore Genesis",
         action_aria: "Explore Selldone Genesis custom experiences",
-        image_alt: "A custom service storefront built with Selldone Genesis",
+        image_alt:
+          "A restaurant storefront with table reservations and online ordering, built with Selldone Genesis",
         models_aria: "Examples of business models supported by Genesis",
         models: {
           marketplace: "Marketplace",
@@ -1073,6 +1074,45 @@ export default {
       secondary_action: "Connect an AI agent",
       stripe_note: "Automatically create your ecommerce",
       note: "Shop-scoped access with approval controls for sensitive actions.",
+    },
+    setup_packages: {
+      eyebrow: "Store setup, delivered",
+      title: "Start with a ready package.",
+      title_accent: "Make it yours with AI.",
+      lead: "Choose a tested store setup or send us your existing site, catalog, and goals. We shape the scope and estimate around your business, then you keep improving it with the AI you already use.",
+      capabilities_aria: "Store improvements available with AI",
+      capabilities: {
+        pages: "Pages & theme",
+        products: "Products & catalog",
+        offers: "Discounts & coupons",
+        campaigns: "Campaign launches",
+      },
+      setup_paths_aria: "Store setup options",
+      paths: {
+        ready: {
+          title: "Ready setup",
+          description: "A proven storefront and launch essentials",
+        },
+        custom: {
+          title: "Custom build",
+          description:
+            "Your site, catalog, and requirements shaped into a store",
+        },
+      },
+      review: {
+        label: "Verified setup plan",
+        title: "Scope first. A clear estimate before checkout.",
+        description:
+          "Get a verified estimate and delivery range. Pay in full or reserve your slot with a deposit when eligible.",
+      },
+      ai: {
+        title: "Stay in control after launch",
+        description:
+          "Change pages, theme, products, offers, and campaigns with the AI you already use.",
+      },
+      action: "Plan my store setup",
+      action_aria: "Explore Selldone store setup packages (opens in a new tab)",
+      note: "Official Selldone team · No paid theme required",
     },
     theme_switch: {
       label: "Appearance",
