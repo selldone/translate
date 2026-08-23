@@ -12,7 +12,6 @@
  * Tread carefully, for you're treading on dreams.
  */
 
-
 export default {
   commons: {
     pay_today: "Today payment",
@@ -419,6 +418,108 @@ export default {
     dashboard: {
       title: "Shop dashboard",
       online_staff: "Online staff",
+
+      setup_packages: {
+        nav: "Setup packages",
+        eyebrow: "Selldone setup service",
+        title: "Setup packages",
+        subtitle:
+          "Choose the right setup path for {shop}, then track purchased projects and their progress below.",
+        refund_policy:
+          "Refunds are available for 24 hours after purchase, only until our team starts work. Once work begins, service costs are non-refundable.",
+        paths_eyebrow: "Choose how to start",
+        paths_title: "Two ways to launch your shop",
+        paths_body:
+          "Ready packages are our recommendation: fixed scope, steep savings, and the fastest path to launch. Choose custom when your business needs a tailored plan.",
+        preview_loading: "Loading recommended packages...",
+        preview_unavailable_title:
+          "Package previews are temporarily unavailable",
+        preview_unavailable_body:
+          "You can still open the full catalog while we reconnect the previews.",
+        recommended: "Recommended",
+        up_to_discount: "Up to {value}% off",
+        ready_eyebrow: "Ready-made path",
+        ready_title: "Launch faster for much less",
+        ready_body:
+          "Pick a proven setup package with transparent pricing and a clear delivery scope. It is the quickest way to get your shop ready for revenue.",
+        ready_benefit_scope: "Fixed, clear scope",
+        ready_benefit_speed: "Faster launch",
+        ready_benefit_value: "Best package value",
+        available_now: "Ready to purchase",
+        featured_title: "Available packages",
+        offer_count: "{count} options",
+        discount_badge: "{value}% off",
+        choose_package: "Choose package",
+        view_package: "View package",
+        delivery_range: "{min}–{max} days",
+        delivery_up_to: "Up to {max} days",
+        offer_aria: "Open {title}, {price}, in a new tab",
+        offers_empty_title: "No eligible previews right now",
+        offers_empty_body:
+          "You can still browse the full catalog and compare every available package.",
+        ready_action: "Browse all packages",
+        ready_note: "See every package and compare the full scope.",
+        custom_badge: "Premium custom build",
+        custom_eyebrow: "Tailored service",
+        custom_title: "A setup designed around your business",
+        custom_body:
+          "Choose your business model, product volume, data, design, marketplace scale, and add-ons to receive a calculated estimate.",
+        custom_step_brief: "Describe your business",
+        custom_step_brief_body:
+          "Tell us about your catalog, data, and launch goals.",
+        custom_step_estimate: "See a calculated estimate",
+        custom_step_estimate_body:
+          "Your choices update the projected scope and price.",
+        custom_step_review: "Selldone team review",
+        custom_step_review_body:
+          "Our team confirms the scope, timeline, and payable quote.",
+        custom_quote_note:
+          "Use this route when a ready package does not fit your business.",
+        custom_action: "Build my custom estimate",
+        custom_payment_note: "Payment becomes available after team review.",
+        active_eyebrow: "Setup service",
+        active_title: "Active setup orders",
+        active_subtitle:
+          "Track the work Selldone's setup team is doing for this shop.",
+        view_all: "View all",
+        loading: "Loading setup orders...",
+        loading_body:
+          "We're getting the latest package progress for this shop.",
+        error_title: "Setup orders are unavailable",
+        error_body:
+          "We couldn't load them right now. Your other dashboard data is unaffected.",
+        retry: "Try again",
+        more_active: "Plus {count} more active",
+        empty_active_title: "No active setup orders",
+        empty_active_body:
+          "When you buy a setup package for this shop, its progress appears here.",
+        promo_title: "Want us to set up your shop?",
+        promo_body: "Explore our ready-made setup packages.",
+        explore: "Explore packages",
+        progress: "Setup progress: {value}%",
+        summary_aria: "Setup order summary",
+        total_orders: "Total orders",
+        active_orders: "Active orders",
+        refundable: "Refund eligible",
+        projects_eyebrow: "Purchased for this shop",
+        projects_title: "Setup projects",
+        orders_count: "{count} orders",
+        loaded_count: "{loaded} of {total} orders shown",
+        load_more: "Load more",
+        load_more_aria: "Load more setup orders ({count} remaining)",
+        load_more_error: "We couldn't load the next orders. Try again.",
+        buyer_only: "Order details are available to the purchaser.",
+        progress_label: "Progress",
+        amount: "Amount",
+        status: "Status",
+        refund_available: "Refund is available",
+        refund_until: "Refund deadline: {date}",
+        view_project: "View project",
+        manage_refund: "Manage or refund",
+        empty_title: "No setup projects yet",
+        empty_body:
+          "After you purchase a ready package, its order and live progress will appear here.",
+      },
 
       notify_referral: {
         message: "Send your invitation link to friends and get free vouchers.",
@@ -5278,7 +5379,10 @@ export default {
   },
   /** {@see ShopPermissions} **/
   shop_permissions: {
-    ADMIN: { text: "Super Admin", description: "Full access to all storefronts." },
+    ADMIN: {
+      text: "Super Admin",
+      description: "Full access to all storefronts.",
+    },
     PRODUCT: {
       text: "Product Manager",
       description: "Add, edit and manage store products.",
@@ -7198,15 +7302,14 @@ export default {
 
       listing: {
         label: "Listing for vendors",
-        true_description: "Listing is enabled for vendors. Vendors can manage listing items and companies.",
-        false_description: "Listing is disabled for vendors. Only the shop owner can manage listing items and companies.",
+        true_description:
+          "Listing is enabled for vendors. Vendors can manage listing items and companies.",
+        false_description:
+          "Listing is disabled for vendors. Only the shop owner can manage listing items and companies.",
         requires_listing_active_text:
           "To let vendors use Listing (items + companies), first enable the shop Listing feature in Channel → Listing. Then come back here to allow vendor access.",
         requires_listing_active_button: "Open Channel Listing settings",
       },
-
-
-
     },
     notifications: {
       update_success: "Vendor settings updated successfully.",
@@ -11077,32 +11180,11 @@ export default {
     define_package_hint: "Create or edit your predefined package sizes",
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /** {@see BPageShopListing} **/
-  listing:{
-    name:"Listing",
-    message:"Create a searchable, moderated directory for any type of listing—properties, hotels, doctors, services, and more."
+  listing: {
+    name: "Listing",
+    message:
+      "Create a searchable, moderated directory for any type of listing—properties, hotels, doctors, services, and more.",
   },
 
   shop_listing: {
@@ -11135,12 +11217,11 @@ export default {
       delete_success: "Item deleted successfully.",
       restore_success: "Item restored successfully.",
 
-      opening_hours:"Opening Hours",
-      form_fields:"Form Fields",
+      opening_hours: "Opening Hours",
+      form_fields: "Form Fields",
 
       company: "Company",
       badges: "Badges",
-
     },
 
     categories: {
@@ -11186,7 +11267,7 @@ export default {
       details_template: "Details template",
 
       form_schema_title: "Form schema",
-      settings_title: "Extra settings"
+      settings_title: "Extra settings",
     },
 
     supervision: {
@@ -11207,7 +11288,6 @@ export default {
       open_review: "Open review",
       reset_to_pending: "Reset to pending",
       items_title: "Items",
-
     },
 
     moderation: {
@@ -11224,20 +11304,15 @@ export default {
       penalty: "Penalty",
       penalty_title: "Penalty",
       penalty_points: "Penalty points",
-      penalty_note: "Penalty note"
+      penalty_note: "Penalty note",
     },
 
     media: {
       upload_images: "Upload images",
       url_type: "Type",
       url: "URL",
-      is_main: "Set as main"
+      is_main: "Set as main",
     },
-
-
-
-
-
 
     /** {@see BShopListingDesignsList, BShopListingDesignUpsert} **/
     designs: {
@@ -11265,10 +11340,6 @@ export default {
       delete_message:
         "Delete this design? Categories using it will automatically lose design_id.",
     },
-
-
-
-
 
     badges: {
       title: "Badges",
@@ -11298,8 +11369,7 @@ export default {
         "Create and manage companies. Each listing item can optionally be linked to one company.",
 
       empty_title: "No companies yet",
-      empty_subtitle:
-        "Add your first company to link it to listing items.",
+      empty_subtitle: "Add your first company to link it to listing items.",
 
       add_title: "Add company",
       edit_title: "Edit company",
@@ -11314,8 +11384,6 @@ export default {
       delete_message:
         "Delete this company? Items using it will automatically lose the company link.",
     },
-
-
 
     messages: {
       title: "Messages",
@@ -11332,7 +11400,8 @@ export default {
       dialog_title: "Message",
       owner_reply: "Owner reply",
       reply: "Reply",
-      reply_hint: "Write a reply to the user. You can also mark the message as read/spam from actions.",
+      reply_hint:
+        "Write a reply to the user. You can also mark the message as read/spam from actions.",
 
       mark_read: "Mark as read",
       mark_unread: "Mark as unread",
@@ -11346,9 +11415,12 @@ export default {
 
     enable: {
       title: "Listing",
-      subtitle: "Enable or disable your public listing page. When enabled for the first time, Selldone will create the listing configuration automatically.",
-      true_description: "Listing is enabled. Customers can browse listing pages.",
-      false_description: "Listing is disabled. The listing pages and submissions are blocked.",
+      subtitle:
+        "Enable or disable your public listing page. When enabled for the first time, Selldone will create the listing configuration automatically.",
+      true_description:
+        "Listing is enabled. Customers can browse listing pages.",
+      false_description:
+        "Listing is disabled. The listing pages and submissions are blocked.",
       open_listing: "Open listing",
       note: "You can later configure moderation, limits, forms, and design inside Listing settings.",
       vendor_prereq_text:
@@ -11367,25 +11439,31 @@ export default {
       update_failed: "Failed to update listing.",
     },
 
-
     search: {
       title: "Search settings",
-      subtitle: "Design how customers search your listing. Enable location-based search and build filters from your custom form fields.",
+      subtitle:
+        "Design how customers search your listing. Enable location-based search and build filters from your custom form fields.",
 
       location_title: "Location search",
-      location_subtitle: "Allow customers to pick a location and find nearby results within a configurable radius.",
-      location_enabled_true: "Location filter is enabled. Customers can search by distance.",
-      location_enabled_false: "Location filter is disabled. Results will not be filtered by distance.",
+      location_subtitle:
+        "Allow customers to pick a location and find nearby results within a configurable radius.",
+      location_enabled_true:
+        "Location filter is enabled. Customers can search by distance.",
+      location_enabled_false:
+        "Location filter is disabled. Results will not be filtered by distance.",
 
       radius_default: "Default radius (km)",
-      radius_default_hint: "Used when the customer selects a location but does not pick a radius.",
+      radius_default_hint:
+        "Used when the customer selects a location but does not pick a radius.",
       radius_max: "Maximum radius (km)",
       radius_max_hint: "The storefront radius will be clamped to this value.",
       radius_options: "Radius options (km)",
-      radius_options_hint: "These values can be shown as quick options in the storefront UI.",
+      radius_options_hint:
+        "These values can be shown as quick options in the storefront UI.",
 
       filters_title: "Search filters",
-      filters_subtitle: "Add filters that read values from item meta fields (your listing/category form fields). Use Auto-generate to collect real options from published items.",
+      filters_subtitle:
+        "Add filters that read values from item meta fields (your listing/category form fields). Use Auto-generate to collect real options from published items.",
       no_filters: "No filters added yet.",
       auto_generate: "Auto-generate options",
 
@@ -11393,32 +11471,16 @@ export default {
       filter_label: "Label",
       filter_type: "Type",
       filter_options: "Options",
-      filter_options_hint: "For select filters, options can be manual or generated.",
+      filter_options_hint:
+        "For select filters, options can be manual or generated.",
       multiple: "Multiple",
       single: "Single",
       kv_mode: "Key/Value mode",
 
-      requires_listing_active: "Listing is not active. Enable Listing first to use it on the storefront.",
-
-
+      requires_listing_active:
+        "Listing is not active. Enable Listing first to use it on the storefront.",
     },
-
-
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   /**
    * Auto fill suggestions

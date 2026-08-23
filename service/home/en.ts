@@ -181,6 +181,23 @@ export default {
         "Help you in importing products by Excel",
         "Add your custom domain",
       ],
+      promo: {
+        eyebrow: "Optional expert team",
+        title: "Set it up yourself with AI — free.",
+        description:
+          "Set up your store yourself with AI, ChatGPT, Codex, and MCP — with no setup fee. Or bring in Selldone's expert team for a faster, guided launch.",
+        delivery_24h_value: "24h",
+        delivery_24h_label: "Fastest listed delivery",
+        delivery_fast_value: "Fast launch",
+        delivery_fast_label: "Choose the scope that fits your store",
+        starting_at: "Live packages from",
+        regular_price_aria: "Regular price {price}",
+        discount: "Up to {discount}% off",
+        action: "Explore setup packages",
+        action_aria: "Explore setup packages (opens in a new tab)",
+        note:
+          "Expert help is optional; building your store with Selldone stays free.",
+      },
     },
 
     sample: {
