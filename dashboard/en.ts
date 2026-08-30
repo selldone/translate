@@ -9678,8 +9678,221 @@ export default {
   /** {@see BPageShopSettingQuota**/
   shop_quota: {
     title: "Usage quota",
+    eyebrow: "Daily action limits",
+    beta: "Beta",
     sub_title:
-      "This is the usage quota list for your shop. You can increase these limits by upgrading your shop's license. If you exceed the limits, you can request additional daily quota allowances from us. All usage will reset daily.\n",
+      "See what uses each daily allowance, how much remains, and whether the capacity comes from your license or a custom allowance.",
+    refresh: "Refresh quota usage",
+    loading: "Loading daily quotas",
+    loading_hint: "We are reading the latest usage for this shop.",
+    load_failed: "Quota usage could not be loaded",
+    load_failed_hint:
+      "The latest daily allowance data is not available right now. Try again.",
+    refresh_failed:
+      "The latest refresh failed. The last successfully loaded values are still shown.",
+    retry: "Try again",
+    search: "Search quotas",
+    no_results: "No matching quotas",
+    no_results_hint:
+      "Try another search or show all quotas to return to the complete list.",
+    show_all: "Show all quotas",
+    resource_open_accessible:
+      "{resource}. {status}. {usage} of {total} used; {available} available. Open details.",
+    resource_close_accessible:
+      "{resource}. {status}. {usage} of {total} used; {available} available. Close details.",
+    filters: {
+      all: "All",
+      attention: "Attention",
+      custom: "Custom",
+    },
+    overview: {
+      resources: "Daily quotas",
+      attention: "Need attention",
+      custom: "Custom allowances",
+      last_reset: "Last reset",
+      not_reset: "Not reset yet",
+      rolling_reset: "Usage follows a rolling daily reset.",
+    },
+    guide: {
+      title: "Daily quota is different from your license limit",
+      body: "Most quotas increase only after a new item is successfully created. Edits, restores, failed actions, and deletes normally use nothing; deleting an item does not return capacity. Orders, product imports, and AI services follow the expanded rules below. Current-count limits in your license can still apply independently. If you need more daily capacity, upgrade the shop license or contact Selldone for a custom allowance.",
+    },
+    groups: {
+      catalog: {
+        title: "Catalog",
+        description: "Products, marketplace listings, and catalog structure.",
+      },
+      storefront: {
+        title: "Storefront",
+        description: "Domains and the content customers see in your shop.",
+      },
+      promotions: {
+        title: "Promotions",
+        description: "Discounts, campaigns, affiliates, and outreach tools.",
+      },
+      operations: {
+        title: "Operations",
+        description: "Customers, couriers, and marketplace vendors.",
+      },
+      orders_community: {
+        title: "Orders & community",
+        description:
+          "Counted order events and activity in your shop community.",
+      },
+      ai: {
+        title: "AI services",
+        description: "Measured AI usage and image background removal.",
+      },
+      other: {
+        title: "Other",
+        description: "New quota resources that are not documented yet.",
+      },
+    },
+    capacity: {
+      available: "Available",
+      near_limit: "Near limit",
+      at_limit: "Limit reached",
+      exceeded: "Over limit",
+      no_capacity: "No capacity",
+      available_count: "{count} available",
+      custom: "custom",
+      license_only: "License allowance",
+      accessible: "{usage} of {total} daily quota used",
+    },
+    details: {
+      counts: "What uses this quota",
+      allowance: "Daily allowance",
+      included: "License",
+      extra: "Custom",
+      daily_total: "Total",
+    },
+    rules: {
+      create:
+        "One unit is used only when a new item is successfully created. Editing, restoring, validation failures, and rolled-back operations use nothing. Deleting an item does not return its unit during the current quota period.",
+      product:
+        "Manual, cloned, AI, repository, connector, dropshipping, and gift-card product creates use one unit. An import row intended to create a product can be charged when it is staged; later matching or worker failure does not currently refund that unit. Updates, restores, and deletes do not count.",
+      online_order:
+        "Standard, Avocado, and Hyper orders use one unit the first time an open order becomes Reserved or COD. A seller-created Avocado order that starts Reserved and a newly created Reserved subscription basket use one unit on creation. Retries and later status changes do not count again, and cancellation, expiry, or refund does not return the unit.",
+      pos_order:
+        "A POS order uses one unit the first time it moves from Open to Reserved or COD. Retries and later status changes do not count again, and cancellation does not return the unit.",
+      ai_tokens:
+        "This is an aggregate AI usage allowance. Supported provider calls are checked using an estimate and then add the actual returned tokens; legacy AI translation can add its character-by-language unit. Some speech-to-text paths are not currently included.",
+      bg_remove:
+        "A provider-backed background removal uses one unit when the result is not already cached. Reusing a cached result uses zero units.",
+      unknown:
+        "This quota exists in the shared registry, but its counting rule has not been documented in this version of the dashboard.",
+    },
+    resources: {
+      Product: {
+        title: "Product",
+        description:
+          "New products made manually, by clone or AI, through imports, repositories, dropshipping tools, gift cards, and connected sales channels.",
+      },
+      ListingItem: {
+        title: "Listing item",
+        description: "New marketplace listing items created for this shop.",
+      },
+      Category: {
+        title: "Category",
+        description:
+          "New categories made manually, by imports, AI, repositories, connected catalog tools, or product processing.",
+      },
+      Domain: {
+        title: "Domain",
+        description:
+          "New managed or external domains connected to the shop. Editing or restoring an existing domain does not count.",
+      },
+      DiscountCodes: {
+        title: "Discount code",
+        description:
+          "New discount codes created manually, with AI, or during shop onboarding.",
+      },
+      Coupon: {
+        title: "Coupon",
+        description:
+          "New coupons created manually, with AI, or during shop onboarding.",
+      },
+      Offer: {
+        title: "Offer",
+        description: "New promotional offers created for products or baskets.",
+      },
+      Lottery: {
+        title: "Lottery",
+        description: "New lottery incentives created for this shop.",
+      },
+      Campaign: {
+        title: "Campaign",
+        description: "New marketing campaigns created for this shop.",
+      },
+      Affiliate: {
+        title: "Affiliate",
+        description:
+          "New affiliate programs; an optional domain assignment is part of the same creation.",
+      },
+      EmailMarketing: {
+        title: "Email marketing",
+        description: "New email marketing campaigns created for this shop.",
+      },
+      Courier: {
+        title: "Courier",
+        description:
+          "New courier assignments. Editing an existing courier does not count.",
+      },
+      Page: {
+        title: "Page",
+        description:
+          "New storefront pages created manually, through MCP tools, or during onboarding and cloning.",
+      },
+      Popup: {
+        title: "Popup",
+        description: "New storefront popups created for this shop.",
+      },
+      Customer: {
+        title: "Customer",
+        description:
+          "New seller-managed customers created manually, in bulk, by import, integrations, or gift-card flows. Shopper self-sign-up does not count.",
+      },
+      CommunityPost: {
+        title: "Community post",
+        description:
+          "New posts in this shop's community. Posts in the global Selldone community do not count.",
+      },
+      CommunityComment: {
+        title: "Community comment",
+        description:
+          "New comments in this shop's community. Comments in the global Selldone community do not count.",
+      },
+      OnlineOrder: {
+        title: "Online order",
+        description:
+          "Online, Avocado, Hyper, and subscription orders count when they are first reserved or set to COD.",
+      },
+      POSOrder: {
+        title: "POS order",
+        description:
+          "Point-of-sale orders count when they first move from Open to Reserved or COD.",
+      },
+      Blog: {
+        title: "Blog post",
+        description:
+          "New blog posts, including onboarding clones. Editing an existing post does not count.",
+      },
+      AITokens: {
+        title: "AI tokens",
+        description:
+          "Aggregate AI usage: returned tokens for supported provider calls, plus the legacy unit used by AI translation.",
+      },
+      BgRemove: {
+        title: "AI background removal",
+        description:
+          "Provider-backed background removals. A cached result does not use quota.",
+      },
+      Vendor: {
+        title: "Vendor",
+        description:
+          "Genuinely new vendors created manually, by import, or by vendor request. Existing vendor rows do not count.",
+      },
+    },
   },
 
   /** {@see WidgetAppCard} **/
