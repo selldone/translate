@@ -121,8 +121,8 @@ export default {
   buy_button: {
     waiting_for_availability: "Esperando disponibilidad",
     inform_me_when_available: "¿Esperando por esto?",
-    pay_buy: "Pagar comprar",
-    quantity: "Contar",
+    pay_buy: "Comprar y pagar",
+    quantity: "Cantidad",
     quantity_in_basket: "artículos en el carrito",
     count_unit: "X",
     remove: "Remover",
@@ -308,7 +308,7 @@ export default {
       return: "Devolver",
       table: {
         product: "nombre del producto",
-        count: "Contar",
+        count: "Cantidad",
         unit_price: "Precio unitario",
         total_price: "Precio total",
         discount: "Descuento",
@@ -450,7 +450,7 @@ export default {
   basket_items: {
     items_unit: "X",
     lead_unit: "Hora",
-    count_input: "Contar",
+    count_input: "Cantidad",
 
     price_changed: "El precio ha cambiado. nuevo precio:",
     offer: "Consigue {count}x artículo con un {percent}% de descuento",
@@ -631,7 +631,7 @@ export default {
   /** {@see StorefrontPageAvocadoCart} **/
 
   avocado: {
-    not_enable: "¡El formulario de aguacate no está habilitado!",
+    not_enable: "¡El formulario de Avocado no está habilitado!",
     last_update: "Última actualización:",
     step1:
       "1. Ingrese el nombre y los detalles del producto que desea ordenar y haga clic en el botón Agregar.",
@@ -712,7 +712,7 @@ export default {
       message: "Este pedido se procesará en un tiempo específico, el cliente ha seleccionado el período deseado, si desea realizar algún cambio en el período seleccionado, comuníqueselo al cliente.",
 
       selected_checkin: "Check-in seleccionado por el cliente",
-      selected_checkout: "Check-out seleccionado por el cliente",
+      selected_checkout: "Salida seleccionada por el cliente",
       change_days_question:
         "¿Necesita cambiar durante los días seleccionados por el cliente?",
       show_calendar: "Mostrar calendario de pedidos",

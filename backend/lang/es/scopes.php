@@ -72,7 +72,7 @@ return [
     AuthServiceProvider::SCOPE_BACKOFFICE_RIBBON_WRITE => 'Gestionar suscripciones.',
     AuthServiceProvider::SCOPE_BACKOFFICE_RIBBON_READ => 'Ver suscripciones.',
 
-    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_READ => 'Acceso a acciones de cumplimiento de pedidos de proveedores.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_READ => 'Acceso a las acciones de preparación de pedidos de los vendedores.',
     AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_WRITE => 'Órdenes de cambio, pago y otra información del proveedor.',
 
     AuthServiceProvider::SCOPE_CONNECT_PROVIDER_WRITE => 'Administrar proveedores de conexión.',

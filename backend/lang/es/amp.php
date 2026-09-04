@@ -16,23 +16,23 @@ return [
     'likes' => 'Gustos',
     'power' => 'alegría',
     'build_free_shop' => 'Crea tu tienda gratis',
-    'shop_name' => 'shop name',
+    'shop_name' => 'Nombre de la tienda',
     'Categories' => 'Categorías',
-    'sub_articles' => 'More',
+    'sub_articles' => 'Más',
     'terms' => 'Términos',
 
 
 
     'Color' => 'Color',
-    'style' => 'style',
-    'volume' => 'volume',
-    'weight' => 'weight',
+    'style' => 'estilo',
+    'volume' => 'volumen',
+    'weight' => 'peso',
     'pack' => 'Paquete',
-    'type' => 'type',
+    'type' => 'tipo',
 
     'add_to_card' => 'Añadir al carrito',
 
-    'overview' => 'Overview',
+    'overview' => 'Descripción general',
     'reviews' => 'Reseñas',
     'spec' => 'especificaciones completas',
     'you_may_also_like' => 'También te puede interesar',
@@ -43,7 +43,7 @@ return [
     'category' => 'Categoría',
 
 
-    'author' => 'Written by ',
+    'author' => 'Escrito por ',
     'published_at' => 'Publicado en',
     'modified_at' => 'Modificado en',
 

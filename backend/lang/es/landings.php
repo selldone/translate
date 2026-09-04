@@ -71,7 +71,7 @@ return [
 
 
         'title3s' => '¡Juego directo completo!',
-        'title3' => "¡El pago en línea en tu tienda se realizará con tu dominio y directamente a tu cuenta! Podrás elegir los tipos de portales online y pago presencial.",
+        'title3' => "Los pagos en línea de tu tienda se realizarán desde tu dominio y llegarán directamente a tu cuenta. Podrás elegir entre distintas pasarelas de pago en línea y métodos de pago presencial.",
 
         'list3_1' => 'Pasarela de pago online (directo a tu cuenta)',
         'list3_2' => 'Posibilidad de habilitar el pago en el sitio',

@@ -58,9 +58,9 @@ export default {
     },
     "social": {
       "title": "Ventas Sociales",
-      "subtitle": "Aguacate ╏ Empieza a vender con solo un enlace",
+      "subtitle": "Avocado ╏ Empieza a vender con solo un enlace",
       "custom_form": "formulario de pedido personalizado",
-      "step1": "Cumplimiento de aguacate",
+      "step1": "Preparación del pedido de Avocado",
       "step2": "Emisión de precios y facturas",
       "step3": "Notificar automáticamente al cliente",
       "step4": "Pago en línea del cliente",

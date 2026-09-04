@@ -164,19 +164,19 @@ export default {
     "tax_pro": "Pro."
   },
   "gateways": {
-    "title": "Portal de pago",
-    "sub_title": "Pronto se añadirán nuevos puertos.",
+    "title": "Pasarelas de pago",
+    "sub_title": "Se añadirán nuevos métodos de pago.",
     "gateways": "Pasarelas",
     "currencies": "Monedas",
-    "currencies_info": "Pronto se agregarán nuevas monedas.",
-    "currencies_encrypted": "Código de moneda",
-    "currencies_encrypted_info": "Monedas en la plataforma blockchain",
-    "online_pay_wage": "Tarifa de puerto en línea",
+    "currencies_info": "Actualmente se admiten más de 143 monedas.",
+    "currencies_encrypted": "Criptomonedas",
+    "currencies_encrypted_info": "Monedas basadas en blockchain (requieren revisión para su activación).",
+    "online_pay_wage": "Comisión por pagos en línea",
     "online_pay_wage_info": "Este importe se descontará de tu cuenta de recarga en Selldone.",
-    "cod_wage": "Tarifas de pago COD",
-    "cod_wage_info": "Esta cantidad se deducirá de su cuenta de cargo",
+    "cod_wage": "Comisión por pago contra reembolso",
+    "cod_wage_info": "Este importe se descontará de tu cuenta de saldo.",
     "file_wage": "Tarifa de venta de archivos",
-    "file_wage_info": "Comisión de venta de archivos que se acredita a su cuenta después de una venta exitosa (alojado en almacenamiento en la nube SSD de alta velocidad vendido)."
+    "file_wage_info": "Comisión por venta de archivos que se abona en tu cuenta tras una venta correcta (alojados en el almacenamiento SSD de alta velocidad de Selldone)."
   },
   "apps": {
     "title": "Tienda / Aplicación del sitio",
@@ -260,7 +260,9 @@ export default {
     "funnel_desc": "Filtre a los usuarios por género, historial de compras, último inicio de sesión, etc.",
     "ab_test": "Prueba A/B",
     "user_reaction": "Análisis de la página de destino",
-    "user_reaction_desc": "Ver las secciones aterrizadas y en las que se hizo clic de las páginas de destino como un mapa térmico y un diagrama"
+    "user_reaction_desc": "Ver las secciones visitadas y pulsadas de las páginas de destino como mapa térmico y diagrama",
+    "cross_selling": "Venta cruzada",
+    "cross_selling_desc": "Ofrece productos adicionales a los clientes según sus compras actuales."
   },
   "customers": {
     "title": "Clientes e Incentivos",
@@ -274,7 +276,9 @@ export default {
     "offer": "Oferta",
     "offer_desc": "Compre este producto, llévelo gratis (o con descuento)",
     "game": "Gamificación",
-    "game_desc": "Diseña un juego con premios"
+    "game_desc": "Diseña un juego con premios",
+    "cashback": "Reembolso",
+    "cashback_desc": "Devuelve al cliente un porcentaje del precio de compra."
   },
   "bots": {
     "title": "Bots, Redes Sociales y Canales de Venta",
@@ -284,7 +288,7 @@ export default {
     "instagram_info": "Conecta tu tienda a Instagram.",
     "facebook": "Facebook",
     "facebook_info": "Generación automática y sincronización de la lista de productos con funciones completas.",
-    "avocado": "Servicio de Venta de Aguacate en Redes Sociales",
+    "avocado": "Servicio de Venta de Avocado en Redes Sociales",
     "avocado_info": "Con este servicio podrás recibir pedidos de clientes sin añadir un producto y a través de un formulario en las redes sociales.",
     "hyper": "Pedido hiperrápido",
     "hyper_info": "Para vender cientos de productos por minuto en ferias, festivales, puestos y donde quiera vender algunos productos a una gran cantidad de clientes."
@@ -314,13 +318,13 @@ export default {
     "pos_info": "El sistema POS conectado a su tienda en línea le brinda todos los procesos de almacenamiento, ventas y soporte con una interfaz de usuario única.",
     "online_payment": "Pago en línea",
     "online_payment_info": "Posibilidad de pago online para tus clientes en tu tienda física.",
-    "hardware": "Hardwares",
+    "hardware": "Hardware",
     "hardware_info": "Capacidad para conectarse a lectores de códigos de barras, pantallas orientadas al cliente, impresoras de etiquetas y otro hardware para simplificar el proceso de ventas."
   },
   "dropshipping": {
     "title": "Centro de envío directo",
     "reseller": "reventa",
-    "reseller_info": "Puede agregar los productos del mayorista a su tienda con un solo clic, todos los pasos de cumplimiento y envío se realizarán automáticamente.",
+    "reseller_info": "Puedes añadir los productos del mayorista a tu tienda con un solo clic; todos los pasos de preparación y envío se gestionarán automáticamente.",
     "wholesaler": "Mayorista",
     "wholesaler_info": "Sus productos serán comercializados y vendidos por revendedores aprobados por usted."
   },

@@ -69,7 +69,7 @@ return [
     'NOT_FOUNT_RECEIPT_ERROR' => "Recibo no encontrado.",
     'NOT_VERIFIED_EMAIL_ERROR' => 'Primero confirme su dirección de correo electrónico.',
     'SETTING_NOT_AVAILABLE_ERROR' => 'Esta configuración no está disponible.',
-    'NOT_FOUNT_GATEWAY_ERROR' => "Puerta de enlace no encontrada.",
+    'NOT_FOUNT_GATEWAY_ERROR' => "Pasarela no encontrada.",
     'CHARGE_REQUEST_ERROR' => "Hubo un error al generar una solicitud de cobro.",
     'NOT_FOUND_BLOG_ERROR' => "Blog no encontrado.",
     'NOT_FOUND_GIFT_PROGRAM_ERROR' => "Programa de regalo no encontrado.",
@@ -80,8 +80,8 @@ return [
 
 
 
-    'GATEWAY_CODE_DUPLICATED_ERROR' => "Este código ya se ha utilizado para otro puerto.",
-    'CANT_CREATE_GATEWAY_ERROR' => "Se ha producido un error. No se puede crear el puerto.",
+    'GATEWAY_CODE_DUPLICATED_ERROR' => "Este código ya se ha utilizado para otra pasarela de pago.",
+    'CANT_CREATE_GATEWAY_ERROR' => "Se ha producido un error. No se pudo crear la pasarela de pago.",
     'PERMISSION_NOT_DEFINED_ERROR' => "¡Tal acceso no está definido!",
     'NOT_FOUND_COMPANY_ERROR' => "No se encontró ninguna empresa.",
     'NO_ACCESS_TO_ADD_APPLICATION_ERROR' => "No tienes permiso para agregar la aplicación.",
@@ -116,7 +116,7 @@ return [
     'NOT_FOUNT_EXCHANGE_RATE_ERROR' => "Tasa de conversión no encontrada.",
     'YOU_ADD_GIFT_CARD_ALREADY_ERROR' => "Ya has añadido esta tarjeta a tu lista.",
     'CHARGE_AMOUNT_ERROR' => "El importe del cargo debe ser superior a 0",
-    'GATEWAY_NOT_ENABLE_ERROR' => "El puerto de pago no está habilitado.",
+    'GATEWAY_NOT_ENABLE_ERROR' => "La pasarela de pago no está habilitada.",
     'GATEWAY_CURRENCY_NOT_MATCH_ERROR' => "La moneda del método de pago no coincide con la moneda de la solicitud.",
     'SHOP_EXCHANGE_RATE_NOT_VALID_ERROR' => "¡Las tasas de conversión de la tienda son incorrectas!",
     'BASKET_CHANGED_ERROR' => "El precio del producto en el carrito ha cambiado. Artículo: :item_name, Precio anterior: :old_price :currency, Precio nuevo: :new_price :currency",
@@ -129,8 +129,8 @@ return [
     'GIFT_CARD_NOT_ENABLE_ERROR' => "La tarjeta :number no está habilitada.",
     'GIFT_CARD_PAYMENT_AMOUNT_ERROR' => "Error en los cálculos. Cobrar pago con tarjeta: :amount_pay_by_gift_cards, importe total: :total_price",
     'STRUCTURAL_SELLDONE_ERROR' => "Error en la estructura de la aplicación.",
-    'GATEWAY_AMOUNT_LESS_THAN_MINIMUM_ERROR' => "El monto de la transacción es menor que el monto mínimo portátil con este puerto.",
-    'GATEWAY_AMOUNT_GREATER_THAN_MAXIMUM_ERROR' => "El monto de la transacción excede el monto máximo transferible con este puerto.",
+    'GATEWAY_AMOUNT_LESS_THAN_MINIMUM_ERROR' => "El importe de la transacción es inferior al mínimo permitido por esta pasarela.",
+    'GATEWAY_AMOUNT_GREATER_THAN_MAXIMUM_ERROR' => "El importe de la transacción supera el máximo permitido por esta pasarela.",
     'NOT_FOUNT_BASKET_ERROR' => "Carrito no encontrado.",
     'NOT_FOUNT_PRODUCT_ERROR' => "Producto no encontrado.",
     'NOT_FOUNT_BASKET_ITEM_ERROR' => "El artículo no se encontró en su carrito.",
@@ -191,7 +191,7 @@ return [
 
 
     'COD_PAYED_BEFORE_ERROR' => "Los recibos de pago ya han sido cancelados o pagados.",
-    'GATEWAY_NOT_COD_ERROR' => "Puerta de enlace no COD.",
+    'GATEWAY_NOT_COD_ERROR' => "Pasarela no COD.",
     'GATEWAY_NOT_DIR_ERROR' => "Pasarela no Pago directo en efectivo.",
     'NOT_FOUND_DELIVERY_SERVICE_ERROR' => "Servicio de entrega no encontrado.",
     'NOT_FOUND_TRANSPORTATION_ERROR' => "Transporte no encontrado.",
@@ -211,9 +211,9 @@ return [
     'CAN_NOT_EDIT_PAYED_ERROR' => "No se puede editar la factura pagada.",
 
     'EXPIRED_AVOCADO_ERROR' => "Esta factura es de hace más de un mes y por lo tanto no es visible.",
-    'NOT_FOUND_AVOCADO_ERROR' => "Aguacate no encontrado.",
+    'NOT_FOUND_AVOCADO_ERROR' => "Avocado no encontrado.",
 
-    'NOT_FOUND_HYPER_ERROR' => "Hipercanasta no encontrada.",
+    'NOT_FOUND_HYPER_ERROR' => "Pedido Hyper no encontrado.",
 
 
 

@@ -54,7 +54,7 @@ return [
         'string' => 'El :attribute debe ser mayor o igual a los caracteres :value.',
         'array' => 'El :attribute debe tener elementos :value o más.',
     ],
-    'image' => 'The :attribute must be an image.',
+    'image' => 'El campo :attribute debe ser una imagen.',
     'in' => 'El :attribute seleccionado no es válido.',
     'in_array' => 'El campo :attribute no existe en :other.',
     'integer' => 'El :attribute debe ser un número entero.',
@@ -111,7 +111,7 @@ return [
     'timezone' => 'El :attribute debe ser una zona válida.',
     'unique' => 'El :attribute ya ha sido tomado.',
     'uploaded' => 'El :attribute no se pudo cargar.',
-    'url' => 'The :attribute format is invalid.',
+    'url' => 'El formato del campo :attribute no es válido.',
 
     /*
     |--------------------------------------------------------------------------

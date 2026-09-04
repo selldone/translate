@@ -61,32 +61,32 @@ return [
     ],
 
     'avocado-order-submit' => [
-        'title' => 'Nuevo pedido de aguacate enviado al comprador',
+        'title' => 'Nuevo pedido de Avocado enviado al comprador',
         'sample' => "<b>El nombre de tu tienda</b><br>Estimado <b>Tu nombre</b>,<br>Hemos recibido tu pedido y lo estamos revisando.<br>N.º de pedido: <b>AVO-246</b><br>Selldone",
         'body' => ":param3\nEstimado :param1,\nHemos recibido tu pedido y lo estamos revisando.\nN.º de pedido: :param2\nSelldone",
         'icon' => 'fact_check',
-        'description' => 'Envía un mensaje al cliente después de realizar un pedido de aguacate.',
+        'description' => 'Envía un mensaje al cliente después de realizar un pedido de Avocado.',
 
     ],
 
 
     'avocado-order-submit-seller' => [
-        'title' => 'Aguacate recibe nuevo pedido enviado al vendedor',
-        'sample' => "Recibiste un pedido de aguacate:<br>Tienda: <b>Nombre de tu tienda</b><br>Comprador: <b>Nombre del comprador</b><br>Orden: <b>AVO-246</b><br>Selldone",
-        'body' => "Recibiste un pedido de aguacate:\nTienda: :param1\nComprador: :param2\nOrden: :param3\nSelldone",
+        'title' => 'Avocado recibe nuevo pedido enviado al vendedor',
+        'sample' => "Recibiste un pedido de Avocado:<br>Tienda: <b>Nombre de tu tienda</b><br>Comprador: <b>Nombre del comprador</b><br>Pedido: <b>AVO-246</b><br>Selldone",
+        'body' => "Recibiste un pedido de Avocado:\nTienda: :param1\nComprador: :param2\nPedido: :param3\nSelldone",
         'icon' => 'how_to_reg',
-        'description' => 'Envíe un mensaje al propietario de la tienda para informarle sobre la recepción de un nuevo pedido de aguacate.',
+        'description' => 'Envíe un mensaje al propietario de la tienda para informarle sobre la recepción de un nuevo pedido de Avocado.',
 
     ],
 
 
 
     'avocado-ready-to-pay' => [
-        'title' => 'Pedido de aguacate listo para pagar',
+        'title' => 'Pedido de Avocado listo para pagar',
         'sample' => "<b>El nombre de tu tienda</b><br>Tu pedido ha sido confirmado y se puede pagar a través del siguiente enlace.<br>N.º de pedido: <b>AVO-246</b><br>Enlace: <b>https://your-domain/avocado</b><br>Selldone",
         'body' => ":param3\nSu pedido ha sido confirmado y puede pagarse a través del siguiente enlace.\nN.º de pedido: :param2\nEnlace: :param1\nSelldone",
         'icon' => 'receipt',
-        'description' => 'Envíe un mensaje con el enlace de pago al cliente después de que el vendedor establezca el costo y confirme su pedido de Aguacate.',
+        'description' => 'Envíe un mensaje con el enlace de pago al cliente después de que el vendedor establezca el costo y confirme su pedido de Avocado.',
 
     ],
 

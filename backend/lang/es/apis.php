@@ -168,7 +168,7 @@ return [
             'headers' => StandardJsonHeaders,
             'parameters' => [
 
-                'type' => ['title' => 'Set type of the product / service.', 'type' => 'enum', 'require' => true, 'values' => ['VIRTUAL', 'PHYSICAL', 'SERVICE', 'FILE']],
+                'type' => ['title' => 'Define el tipo de producto o servicio.', 'type' => 'enum', 'require' => true, 'values' => ['VIRTUAL', 'PHYSICAL', 'SERVICE', 'FILE']],
                 'price' => ['title' => 'Precio del producto.', 'type' => 'float', 'require' => true],
                 'commission' => ['title' => 'Añade comisión al precio.', 'type' => 'float', 'default' => 0],
                 'discount' => ['title' => 'Descuento en el precio del producto predeterminado.', 'type' => 'float', 'default' => 0],
@@ -226,7 +226,7 @@ return [
             'headers' => StandardJsonHeaders,
             'parameters' => [
 
-                'type' => ['title' => 'Set type of the product / service.', 'type' => 'enum', 'require' => true, 'values' => ['VIRTUAL', 'PHYSICAL', 'SERVICE', 'FILE']],
+                'type' => ['title' => 'Define el tipo de producto o servicio.', 'type' => 'enum', 'require' => true, 'values' => ['VIRTUAL', 'PHYSICAL', 'SERVICE', 'FILE']],
                 'price' => ['title' => 'Precio del producto.', 'type' => 'float', 'require' => true],
                 'commission' => ['title' => 'Añade comisión al precio.', 'type' => 'float', 'default' => 0],
                 'discount' => ['title' => 'Descuento en el precio del producto predeterminado.', 'type' => 'float', 'default' => 0],

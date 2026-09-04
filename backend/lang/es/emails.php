@@ -60,7 +60,7 @@ return [
         'renewal' => "Renovación",
         'view' => "Vista",
 
-        'balance' => "Equilibrio",
+        'balance' => "Saldo",
         'card_number' => "Número de tarjeta",
         'cvv' => "cvv",
         'expire_date' => "Fecha de caducidad",
@@ -68,12 +68,12 @@ return [
         'Dashboard' => "Panel de control",
         'order' => "orden",
         'view_order' => "Ver pedido",
-        'pay_now' => "Pay now",
+        'pay_now' => "Pagar ahora",
 
         'official_selldone' => "VENTA OFICIAL HECHA",
 
-        'account-number' => "Account number",
-        'account-name' => "Account name",
+        'account-number' => "Número de cuenta",
+        'account-name' => "Nombre de la cuenta",
         'currency' => "Divisa",
         'free-balance' => "Saldo libre",
         'locked-balance' => "Saldo bloqueado",
@@ -81,10 +81,10 @@ return [
         'requests' => "Peticiones",
         'baskets' => 'carros',
         'physical' => "Físico",
-        'virtual' => "Virtual",
+        'virtual' => "Producto virtual",
         'file' => "Archivo",
         'service' => "Servicio",
-        'fulfillment' => "Cumplimiento",
+        'fulfillment' => "Preparación de pedidos",
         'open' => "Abierto",
         'reserved' => "Reservado",
         'canceled' => "Cancelado",
@@ -95,7 +95,7 @@ return [
         'confirms-count' => 'Confirma',
         'sends-count' => 'envía',
         'delivers-count' => 'entrega',
-        'count' => 'Contar',
+        'count' => 'Cantidad',
         'transactions-count' => 'Cuenta de transacciones',
         'success-transactions' => 'Transacciones exitosas',
         'total-amount' => 'Cantidad total',
@@ -141,7 +141,7 @@ return [
         'transaction' => 'Transacción',
         'fee' => 'Tarifa',
 
-        'location' => 'Location',
+        'location' => 'Ubicación',
         'ip' => 'IP',
 
         'bill' => 'Factura',
@@ -152,8 +152,8 @@ return [
         'avocado' => 'Palta',
         'hyper' => 'Hiper',
         'buy-now' => "Compra ahora",
-        'add-domain' => "Add Domain",
-        'views' => 'Puntos de vista',
+        'add-domain' => "Añadir dominio",
+        'views' => 'Vistas',
 
 
         'country' => 'País',
@@ -301,7 +301,7 @@ return [
         ],
         'step-payment' => [
             'title' => 'Configurar métodos de pago',
-            'message' => "Comience a aceptar pagos directamente en su cuenta bancaria. Para conectar sus proveedores de pago como Stripe, PayPal y más, vaya a Panel > Contabilidad > Puerta de enlace.",
+            'message' => "Comience a aceptar pagos directamente en su cuenta bancaria. Para conectar sus proveedores de pago como Stripe, PayPal y más, vaya a Panel > Contabilidad > Pasarela.",
             'action' => 'Agregar métodos de pago',
         ],
         'step-products' => [
@@ -333,7 +333,7 @@ return [
         'message' => "Se ha cargado <b>:amount</b> correctamente a su cuenta <b>:account_number</b>.",
         'account' => 'Cuenta',
         'charge' => 'Cargo',
-        'balance' => 'Equilibrio',
+        'balance' => 'Saldo',
         'footer' => "Haga que los negocios sean fáciles, alcanzables y accesibles para cualquier persona en todo el mundo."
     ],
 
@@ -375,7 +375,7 @@ return [
         'subject' => "🎊 ¡Tu tienda ya está lista!",
         'category' => "NACE NUEVA TIENDA ONLINE EN EL MUNDO",
         'title' => "¡Felicitaciones, :name!",
-        'message' => "<b>¡Felicitaciones, :name! ¡Su nuevo negocio en línea ya está activo!</b> Estamos encantados de darle la bienvenida a la comunidad de Selldoners. Has dado el primer paso hacia el éxito y estamos aquí para ayudarte en cada paso del camino.<br>Ahora que tu tienda está lista, asegurémonos de que estás preparado para recibir pagos directamente de tus clientes y comenzar a hacer crecer tu imperio. Si alguna vez necesita ayuda, estamos a solo un mensaje de distancia: nuestro equipo de soporte siempre está aquí para ayudarlo.<br><br><b>Ipróximos pasos importantes:</b> Para comenzar, asegúrese de que esté todo configurado para recibir pagos y realizar operaciones sin problemas. Lo guiaremos a través de cada etapa para que su tienda funcione sin problemas.",
+        'message' => "<b>¡Felicidades, :name! Tu nuevo negocio en línea ya está activo.</b> Nos alegra darte la bienvenida a la comunidad de Selldoners. Has dado el primer paso hacia el éxito y estaremos contigo durante todo el proceso.<br>Ahora que tu tienda está lista, vamos a prepararla para recibir pagos directamente de tus clientes y hacer crecer tu negocio. Si necesitas ayuda, nuestro equipo de soporte está a solo un mensaje de distancia.<br><br><b>Próximos pasos importantes:</b> Comprueba que todo esté configurado para recibir pagos y operar sin problemas. Te guiaremos en cada etapa para que tu tienda funcione correctamente.",
         'pdf-book' => "No se pierda el manual adjunto: Haga sus negocios como un juego",
 
         'account' => [
@@ -385,45 +385,45 @@ return [
         ],
 
         'shop-account' => [
-            'title' => 'Paso 2: conecta la cuenta a la tienda',
-            'message' => "Luego, conecte su cuenta de billetera a su tienda. Dirígete a <b>Store > Contabilidad > Invoice</b> y vincula tu billetera. Esto garantiza que todos los pagos de los clientes se depositen directamente en su cuenta bancaria; Selldone no deduce ningún monto de sus ganancias.",
-            'action' => 'Panel Factura de tienda',
+            'title' => 'Paso 2: conecta tu billetera con tu tienda',
+            'message' => "A continuación, conecta la cuenta de tu billetera con tu tienda. Ve a <b>Tienda > Contabilidad > Facturación</b> y vincula la billetera. Así, todos los pagos de los clientes se depositarán directamente en tu cuenta bancaria; Selldone no descuenta ningún importe de tus ingresos.",
+            'action' => 'Ir a la facturación de la tienda',
         ],
 
         'gateway' => [
-            'title' => 'Paso 3: Conecte la pasarela de pago en línea',
-            'message' => "Ahora, configuremos su pasarela de pago en línea. Vaya a <b>Store > Contabilidad > Port</b> y haga clic en <b>Agregar nuevo puerto</b>. Seleccione su moneda y verá una lista de pasarelas de pago disponibles. Conectar una puerta de enlace es rápido y fácil, pero si necesita ayuda, no dude en consultar las guías Selldone o comunicarse con nosotros.",
-            'action' => 'Agregar un portal a la tienda',
+            'title' => 'Paso 3: configura tu pasarela de pago en línea',
+            'message' => "Ahora vamos a configurar tu pasarela de pago en línea. Ve a <b>Tienda > Contabilidad > Pasarelas</b> y selecciona <b>Añadir nueva pasarela</b>. Elige la moneda y verás las pasarelas de pago disponibles. Conectar una es rápido y sencillo; si necesitas ayuda, consulta las guías de Selldone o ponte en contacto con nosotros.",
+            'action' => 'Añadir una pasarela de pago',
         ],
 
         'domain' => [
             'title' => 'Último paso: conectar un dominio dedicado',
             'message' => "Ahora, vincula tu dominio personalizado a tu tienda. Esto permite a los clientes comprar sus productos o servicios y realizarle pagos directamente.",
-            'action' => 'Presentar y recibir tarjetas de regalo ilimitadas',
+            'action' => 'Conectar dominio personalizado',
         ],
     ],
 
 
     'basket-list' => [
-        'item' => "ít",
-        'count' => "Contar",
-        'price' => "precio",
+        'item' => "Artículo",
+        'count' => "Cantidad",
+        'price' => "Precio",
         'discount-code' => "Código de descuento",
         'customer-club' => 'club de clientes',
         'shipping' => "Envío",
         'total' => "Total",
         'offer' => "Oferta",
         'coupon' => "Cupón",
-        'lottery' => "Otorgar",
+        'lottery' => "Premio",
         'tax' => "Impuesto",
         'tax_included' => "Incluido en el precio",
-        'tax_shipping' => "Shipping Tax",
+        'tax_shipping' => "Impuesto de envío",
     ],
 
     'buyable-payments' => [
         'method' => 'Método',
         'amount' => 'Monto',
-        'giftcard' => 'Gift card',
+        'giftcard' => 'Tarjeta de regalo',
         'payment' => 'Pago',
     ],
 
@@ -460,7 +460,7 @@ return [
         'subject' => "Incorporación de proveedores | :shop_title",
         'category' => "Celebración de nuevos proveedores",
         'title' => "Estamos felices por su membresía",
-        'action' => "Vendor Panel",
+        'action' => "Panel del vendedor",
     ],
 
 
@@ -562,7 +562,7 @@ return [
 
     'order-payment-admin' => [
         'subject' => "🛍️ Nuevo pedido recibido | :order_id",
-        'title' => "New Order",
+        'title' => "Nuevo pedido",
         'message' => "Has recibido un nuevo pedido. Vaya a la página de procesamiento de pedidos en su tienda.",
     ],
 
@@ -637,7 +637,7 @@ return [
             'title' => 'Visitas',
             'subtitle' => '¿Cuántas veces has visitado la tienda?',
         ],
-        'new_visitors' => 'New Users',
+        'new_visitors' => 'Usuarios nuevos',
         'returning_visitors' => 'Usuarios devueltos',
 
         'shop_views' => 'Vistas de la tienda',
@@ -690,8 +690,8 @@ return [
         'sub-title' => '¿Qué profesionales trabajan en mi tienda?',
         'cost' => 'Monto del contrato',
         'duration' => 'Duración',
-        'start_at' => 'Start Date',
-        'complete_at' => 'Completion Date',
+        'start_at' => 'Fecha de inicio',
+        'complete_at' => 'Fecha de finalización',
         'cancel_at' => 'Fecha Cancelar',
         'end_at' => 'Fecha de entrega',
         'tip' => 'Puede contratar a los mejores especialistas en Selldone para desarrollar su negocio.',
@@ -701,12 +701,12 @@ return [
 
 // -------------------------------------- EC-ShopGateways ------------------------------------
     'EC-ShopGateways' => [
-        'title' => 'Payment gateways',
+        'title' => 'Pasarelas de pago',
         'sub-title' => 'Reportar pasarelas de pago activas en la tienda :shop.',
         'tip-title' => 'Consejos importantes',
-        'tip' => "Vaya a la página de administración del portal en su tienda y agregue al menos un puerto en unos minutos. A tus clientes les gusta pagar de forma rápida y segura a través de portales online.",
-        'view-shop-gateways' => 'Inicie sesión en la gestión del portal de mi tienda.',
-        'view-gateways' => 'Vea más puertas de enlace',
+        'tip' => "Ve a la página de gestión de pasarelas de tu tienda y añade una pasarela de pago en pocos minutos. Tus clientes prefieren opciones de pago rápidas y seguras.",
+        'view-shop-gateways' => 'Abrir la gestión de pasarelas de la tienda',
+        'view-gateways' => 'Ver más pasarelas de pago',
     ],
 
 
@@ -825,7 +825,7 @@ return [
         'type' => "Tipo de transacción",
 
         'from' => "Cuenta de origen",
-        'to' => "Destination account",
+        'to' => "Cuenta de destino",
 
         'desc' => "Descripción de la transacción",
         'action' => "Ver transacción",
@@ -880,7 +880,7 @@ return [
         'title' => 'Tu actuación',
         'sub-title' => 'Descripción general del negocio de :start a :end',
 
-        'new_visitors' => 'New Users',
+        'new_visitors' => 'Usuarios nuevos',
         'returning_visitors' => 'Usuarios devueltos',
 
         'shop_views' => 'Vistas de la tienda',
@@ -895,7 +895,7 @@ return [
             'value_name' => 'productos'
         ],
         'views' => [
-            'title' => 'Page Views',
+            'title' => 'Vistas de página',
             'subtitle' => 'Vistas totales de la página del sitio web',
         ],
     ],
@@ -903,7 +903,7 @@ return [
 
     // ██████████████████████ Marketplace ██████████████████████
     'vendor-order' => [
-        'title' => 'New Order',
+        'title' => 'Nuevo pedido',
         'message' => "Ha recibido un nuevo pedido. Vaya a la página de procesamiento de pedidos en su panel de proveedor.",
         'subject' => "🛍️ Nuevo pedido recibido | :order_id",
         'your_revenue' => "Sus ingresos",

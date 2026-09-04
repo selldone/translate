@@ -57,11 +57,11 @@ return [
             'title' => 'Características',
             'items' => [
                 ['title' => 'características y beneficios', 'href' => '/features'],
-                ['title' => 'Marketing tools', 'href' => '/marketing'],
-                ['title' => 'Processing center', 'href' => '/order-processing'],
+                ['title' => 'Herramientas de marketing', 'href' => '/marketing'],
+                ['title' => 'Centro de procesamiento', 'href' => '/order-processing'],
                 ['title' => 'Incentivos y Clubes', 'href' => '/incentives'],
                 ['title' => 'Auditoría y Contabilidad', 'href' => '/auditing'],
-                ['title' => 'Cloud hosting', 'href' => '/cloud'],
+                ['title' => 'Alojamiento en la nube', 'href' => '/cloud'],
 
             ],
         ],
@@ -72,10 +72,10 @@ return [
             'items' => [
                 ['title' => 'Colección NFT', 'href' => '/nft'],
                 ['title' => 'Gremio', 'href' => '/guild'],
-                ['title' => 'Palta', 'href' => '/avocado'],
+                ['title' => 'Avocado', 'href' => '/avocado'],
                 ['title' => 'Expertos', 'href' => '/experts'],
-                ['title' => 'SEO engine', 'href' => '/seo'],
-                ['title' => 'Smart report', 'href' => '/smart-report'],
+                ['title' => 'Motor SEO', 'href' => '/seo'],
+                ['title' => 'Informes inteligentes', 'href' => '/smart-report'],
             ],
         ],
 
@@ -85,9 +85,9 @@ return [
             'items' => [
                 ['title' => 'Precio y Planes', 'href' => '/price'],
                 ['title' => 'Aplicaciones', 'href' => '/apps'],
-                ['title' => 'Application builder', 'href' => '/app-builder'],
+                ['title' => 'Creador de aplicaciones', 'href' => '/app-builder'],
                 ['title' => 'Creador de páginas', 'href' => '/page-builder'],
-                ['title' => 'Logistic solution', 'href' => '/logistic'],
+                ['title' => 'Solución logística', 'href' => '/logistic'],
                 ['title' => 'Automatización e IoT', 'href' => '/automation'],
 
             ],
@@ -175,7 +175,7 @@ return [
     'page.experts' => ['title' => 'Expertos', 'image' => '/images/seo/en/expert.jpg', 'description' => "No te preocupes por diseñar, lanzar, publicitar o administrar tu tienda, los especialistas de Selldone están listos para ayudarte. Contrate a un especialista certificado para hacer las cosas mejor y más rápido."],
 
 
-    'page.avocado' => ['title' => 'Aguacate: canal de ventas social moderno', 'image' => '/images/seo/en/create-avocado-seo.jpg?v=1',
+    'page.avocado' => ['title' => 'Avocado: canal de ventas social moderno', 'image' => '/images/seo/en/create-avocado-seo.jpg?v=1',
         'description' => "Un monto y un título es todo lo que necesita para cobrar los pagos de sus clientes. El dinero se acredita directamente en su cuenta y sus clientes obtienen una experiencia de compra perfecta."],
 
     // All private dashboards:
@@ -304,7 +304,7 @@ return [
             'description' => 'No te preocupes por diseñar, lanzar, publicitar o administrar tu tienda, los especialistas de Selldone están listos para ayudarte. Contrata a un especialista certificado para hacer las cosas mejor y más rápido.',
         ],
         'avocado' => [
-            'title' => 'Aguacate — Canal moderno de ventas sociales',
+            'title' => 'Avocado — Canal moderno de ventas sociales',
             'image' => '/images/seo/en/create-avocado-seo.jpg?v=1',
             'description' => '¡Una cantidad y un título es todo lo que necesita para obtener dinero de sus clientes! El dinero se acreditará directamente en su cuenta y sus clientes tendrán una experiencia de compra única.',
         ],

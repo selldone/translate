@@ -15,9 +15,19 @@
 export default {
   local_service: "Servicio local para {country_name}",
   local_service_message:
-    "Este servicio está diseñado exclusivamente para usuarios que viven en <u>{country_name}</u> y venden sus servicios y productos en este país.Solo se permite usar los servicios locales o el servicio internacional de Selldone.Para usar este servicio, se requiere que cumplas con las leyes de <b>{country_name}</b> y de la <b>Unión Europea</b>.",
+    "Este servicio está diseñado exclusivamente para usuarios que viven en <u>{country_name}</u> y venden sus productos y servicios en este país." +
+    "Solo puedes utilizar los servicios locales o el servicio internacional de Selldone." +
+    "Para utilizar este servicio, debes cumplir las leyes de <b>{country_name}</b> y de la <b>Unión Europea</b>.",
 
   my_shops: "Mis Tiendas",
+  shop_dock: {
+    shop_count: "{count} tiendas",
+    helper:
+      "Abra una tienda aquí o deje que su IA conectada funcione en tareas aprobadas.",
+    manage: "Administrar todas las tiendas",
+    expand: "Ampliar lista de tiendas",
+    open_shop: "Abra el panel de {shop}",
+  },
   select_language_dialog_title: "Haz negocios en tu idioma favorito",
 
   welcome_title: "Reduce tus múltiples decisiones diarias en una sola",
@@ -111,14 +121,17 @@ export default {
   how_it_work: {
     title: "Cómo funciona",
     msg: "Sin tarjeta de crédito, sin complementos, sin plantillas, sin configuración, sin alojamiento y sin complicaciones técnicas para quienes quieren actuar como profesionales.",
+    payment_methods_aria: "Proveedores y métodos de pago admitidos",
 
     step0: {
       title: "Diseñado para compradores, adorado por vendedores, a solo un paso de distancia.",
       msg1: "Experimenta el poder del verdadero comercio electrónico, construye una base de clientes fieles y concéntrate en lo que amas con nuestra herramienta.",
+      action_aria: "Explora las características del escaparate de Selldone",
     },
     step1: {
       title: "Añade tus productos.",
       msg1: "Agrega fácilmente productos manualmente o importa hasta 100,000 artículos con un archivo Excel. Vende productos, servicios, suscripciones y archivos todo en un solo lugar, ¡igual que añadir fotos en Instagram!",
+      action_aria: "Aprenda sobre la gestión de productos y logística.",
     },
     step2: {
       title: "Conecta métodos de pago que se adapten a tus necesidades.",
@@ -129,11 +142,18 @@ export default {
       title: "Etiqueta blanca, flexible y profundamente personalizable.",
       msg1: "Diseña fácilmente tus páginas de aterrizaje y personaliza los colores del tema de tu sitio para reflejar el mensaje de tu marca con la función de arrastrar y soltar - sin necesidad de expertos.",
       view_sample_pages: "Grandes tiendas SD para inspirarte",
+      action_aria: "Explora el constructor de aterrizajes de Selldone",
     },
     step4: {
       title:
         "Pago con un clic: experiencia de pago unificada en todo el mundo.",
       msg1: "¡Los clientes no tienen que ingresar información ni completar el formulario de registro para comprar contigo! Inician sesión vía SMS y completan el formulario de pago con un solo clic y pagan. Tú creces, nosotros crecemos.",
+      action_aria: "Descubra cómo funciona Selldone Business OS",
+    },
+    marketplace: {
+      title: "Mercado de múltiples proveedores",
+      description: "Pagos automáticos y pagos divididos.",
+      action_aria: "Ver países de pago admitidos en el mercado",
     },
   },
 
@@ -161,6 +181,23 @@ export default {
         "Ayudarte a importar productos mediante Excel",
         "Añadir tu dominio personalizado",
       ],
+      promo: {
+        eyebrow: "Equipo de expertos opcional",
+        title: "Configúrelo usted mismo con IA, gratis.",
+        description:
+          "Configure su tienda usted mismo con AI, ChatGPT, Codex y MCP, sin cargo de instalación. O recurra al equipo de expertos de Selldone para un lanzamiento guiado y más rápido.",
+        delivery_24h_value: "24h",
+        delivery_24h_label: "Entrega listada más rápida",
+        delivery_fast_value: "Lanzamiento rápido",
+        delivery_fast_label: "Elige el alcance que se adapta a tu tienda",
+        starting_at: "Paquetes en vivo desde",
+        regular_price_aria: "Precio habitual {price}",
+        discount: "Hasta {discount} % de descuento",
+        action: "Explorar paquetes de instalación",
+        action_aria: "Explorar paquetes de instalación (se abre en una nueva pestaña)",
+        note:
+          "La ayuda de expertos es opcional; construir tu tienda con Selldone sigue siendo gratis.",
+      },
     },
 
     sample: {
@@ -275,6 +312,8 @@ export default {
   /** @see ConvertibleSelldoneView **/
   convertible: {
     store_name: "Tu Tienda",
+    variants: "Variantes",
+    new_product: "Nuevo producto",
     variant_1: "Variante de Producto Ámbar",
     variant_2: "Variante de Producto Rojo",
     buy: "Comprar Ahora",
@@ -298,6 +337,12 @@ export default {
 
       check3: "Paypal",
       check3msg: "Pago con un clic.",
+      tax_profile: "Perfiles de impuestos sobre productos",
+      tax_profile_msg: "Reglas por producto",
+      auto_tax: "Impuesto automático",
+      auto_tax_msg: "IVA · GST · ubicación",
+      unified_accounting: "Contabilidad unificada",
+      unified_accounting_msg: "Pedidos · pagos",
     },
     checkout: {
       title: "Tu Marca",
@@ -394,8 +439,25 @@ export default {
     cart: "Gestión de Carritos",
     payment: "Pago",
     shipping: "Envío",
-    fulfilment: "Cumplimiento",
+    fulfilment: "Preparación de pedidos",
     community: "Comunidad & Retroalimentación",
+    supervisor: {
+      title: "Supervisor de IA",
+      agents: "ChatGPT · Claude · MCP",
+      status: "De guardia en toda su empresa · 24 horas al día, 7 días a la semana",
+      aria: "Supervisor de IA que coordina el trabajo aprobado en páginas, correo electrónico, atención al cliente, pedidos y finanzas.",
+      back_office: "Su back office de IA",
+      engine_title: "Su negocio, operado por",
+      engine_accent: "AI.",
+      engine_message:
+        "Selldone pone en marcha el motor. ChatGPT o Claude mantienen el trabajo aprobado en movimiento entre páginas, clientes, pedidos y finanzas, las 24 horas del día, los 7 días de la semana.",
+      work: {
+        design: "Páginas y correo electrónico",
+        customers: "Atención al cliente",
+        orders: "Órdenes",
+        finance: "Finanzas",
+      },
+    },
   },
 
   team: {
@@ -449,7 +511,7 @@ export default {
     tax: {
       title: "Amigable con los Impuestos",
       message:
-        "Configura fácilmente perfiles de impuestos para diferentes categorías de productos, adaptándose automáticamente a los países y estados de los compradores. Mantente en cumplimiento y aumenta tu alcance global.",
+        "Configura fácilmente perfiles fiscales para distintas categorías de productos, adaptados automáticamente a los países y estados de los compradores. Cumple la normativa y amplía tu alcance global.",
     },
     global: {
       title: "Ventas Globales",
@@ -471,6 +533,610 @@ export default {
   hero: {
     intro: "#1 Sistema Operativo para Negocios",
     title: "Reemplaza {infinite} complementos y aplicaciones por una sola {app}",
+    agent: {
+      eyebrow: "Selldone Business OS × Su operador de IA",
+      title: "Dale a tu negocio un operador de IA.",
+      title_accent: "Constrúyelo. Ejecútelo. Con un agente siempre disponible, 24 horas al día, 7 días a la semana.",
+      lead: "Conecte ChatGPT, Claude, Codex o cualquier agente de MCP a Selldone. Permítale crear productos, páginas y campañas, manejar operaciones aprobadas e informar en su conversación, sin tener que vivir en otro panel.",
+      connect_action: "Conecta mi IA",
+      genesis_action: "Explorar Selldone Génesis",
+      genesis_aria: "Explora Selldone Génesis; se abre en una nueva pestaña",
+      trust: {
+        shop_scoped: "Acceso exclusivo a la tienda",
+        revocable: "Revocable en cualquier momento",
+        approval_controls: "Controles de aprobación para cambios sensibles",
+      },
+      workflow: {
+        label: "Flujo de trabajo ilustrativo",
+        title: "Trabaja con la IA que ya utilizas.",
+        supported_agents_aria: "Ejemplos de agentes de IA",
+        prompt_label: "Solicitud de ejemplo",
+        prompt:
+          "Prepare la colección de verano, la actualización del inventario y la página de inicio para mi confirmación.",
+        outcomes: {
+          storefront: "Escaparate",
+          products: "Productos",
+          operations: "Operaciones",
+        },
+        steps_aria: "Solicitar pasos del flujo de trabajo",
+        steps: {
+          understand: {
+            title: "entender",
+            description: "Lea el contexto y el objetivo de su tienda",
+          },
+          prepare: {
+            title: "preparar",
+            description: "Planificar el trabajo y validar los cambios.",
+          },
+          confirm: {
+            title: "Confirmación explícita",
+            description: "Los cambios sensibles esperan confirmación",
+          },
+        },
+        approval_status: "Esperando confirmación sobre cambios sensibles",
+        note: "Una conexión segura limitada a la tienda y los permisos que usted apruebe.",
+      },
+      panel: {
+        label: "Demostración interactiva · datos de muestra",
+        aria: "Vista previa interactiva de las operaciones de Selldone con un supervisor de IA que coordina el trabajo aprobado",
+        status: "Fuerza laboral de IA en vivo",
+      },
+    },
+  },
+
+  redesign: {
+    genesis: {
+      eyebrow: "Selldone Génesis",
+      title: "Su empresa no tiene por qué adaptarse a la interfaz.",
+      title_accent: "La interfaz puede adaptarse a su negocio.",
+      lead: "Utilice la IA para dar forma a la experiencia del cliente y del operador en torno a la forma en que realmente funciona su negocio, desde un escaparate personalizado y páginas de destino hasta superficies administrativas, de proveedores y de socios especialmente diseñadas, todo ello conectado al motor de comercio de Selldone.",
+      capabilities: {
+        storefront: "Escaparate personalizado",
+        backoffice: "Back office personalizado",
+        vendor: "Paneles de proveedores y socios",
+        landing: "Experiencias de aterrizaje",
+      },
+      business_models: {
+        label: "¿Qué estás construyendo?",
+        hint: "Elija un modelo para obtener una vista previa de cómo Genesis da forma a su tienda y sus operaciones.",
+        aria: "Elija un modelo de negocio para obtener una vista previa en Selldone Genesis",
+        items: {
+          store: {
+            label: "tienda en línea",
+            short: "Productos, pagos y preparación de pedidos",
+          },
+          marketplace: {
+            label: "Mercado de múltiples proveedores",
+            short: "Proveedores, comisiones, pagos y operaciones compartidas",
+          },
+          pod: {
+            label: "Imprimir bajo demanda",
+            short: "Diseño, producción y preparación de cada pedido.",
+          },
+          services: {
+            label: "Servicios y reservas",
+            short: "Disponibilidad, citas, listados y proveedores",
+          },
+          social: {
+            label: "Comercio social",
+            short: "Viajes móviles primero desde el contenido social hasta el pago",
+          },
+        },
+      },
+      surface_tabs_aria: "Ejemplos de interfaz de Génesis",
+      live_preview: "Vista previa de la interfaz",
+      ai_built_label: "Formado con IA",
+      interface_label: "Interfaz",
+      engine_label: "motor de comercio",
+      prompt_label: "Dirección para la IA",
+      agent_connected: "Contexto de tienda conectado",
+      context_ready: "Listo para revisión",
+      surfaces: {
+        storefront: {
+          label: "Escaparate",
+          short: "Una experiencia de cliente única para el negocio.",
+          title: "Un escaparate construido en torno al recorrido real del cliente.",
+          interface: "Orientación al cliente",
+          prompt:
+            "Cree un viaje de compras editorial tranquilo con el descubrimiento guiado de productos.",
+          alt: "Un escaparate personalizado de Genesis para Aging Parent Care con una experiencia de comercio editorial.",
+        },
+        marketplace: {
+          label: "Multiproveedor",
+          short: "Listados de mercado, proveedores y comisiones",
+          title: "Convierta una operación en un mercado de múltiples proveedores.",
+          interface: "Clientes y proveedores",
+          prompt:
+            "Cree un mercado de servicios de múltiples proveedores con listados con capacidad de búsqueda, perfiles de proveedores y espacios de trabajo para roles específicos.",
+          alt: "Un mercado personalizado de servicios de múltiples proveedores de Genesis con listados de proveedores locales con capacidad de búsqueda.",
+        },
+        pod: {
+          label: "Imprimir bajo demanda",
+          short: "Diseño, producción y preparación de cada pedido.",
+          title: "Convierta cada diseño en un producto, sin tener que mantener existencias.",
+          interface: "Marca y gestión logística",
+          prompt:
+            "Cree un escaparate de impresión bajo demanda donde los diseños se convierten en productos y los pedidos aprobados se procesan automáticamente.",
+          alt: "Un escaparate personalizado de impresión bajo demanda de Genesis, conectado con el diseño, los pedidos y la preparación de productos.",
+        },
+        booking: {
+          label: "Servicios y reservas",
+          short: "Listados, disponibilidad, reservas y mapas.",
+          title:
+            "Cree una experiencia de servicio o reserva en torno al lugar y la disponibilidad.",
+          interface: "Invitados y proveedores",
+          prompt:
+            "Cree un viaje de reserva basado en el mapa con listados, búsqueda de fechas, disponibilidad y operaciones de proveedores.",
+          alt: "Un sitio de reservas personalizado de Genesis con listados de alojamiento, búsqueda de fechas, filtros y un mapa.",
+        },
+        social: {
+          label: "Comercio social",
+          short: "Viajes de TikTok, Instagram y Facebook",
+          title: "Convierta la atención social en un viaje de ventas conectado.",
+          interface: "Audiencias sociales",
+          prompt:
+            "Diseñe un viaje de ventas centrado en dispositivos móviles para audiencias de TikTok, Instagram y Facebook con un pago conectado.",
+          alt: "Un escaparate personalizado de Genesis que muestra categorías de productos y productos destacados para un viaje de ventas sociales.",
+        },
+        operators: {
+          label: "Superficies del operador",
+          short: "Espacios de trabajo administrativos, de proveedores y socios",
+          title: "Ofrezca a cada operador el espacio de trabajo que su función necesita.",
+          interface: "Socios y equipos",
+          prompt:
+            "Cree un panel de socios centrado en las reservas, el rendimiento y la comunicación con los huéspedes.",
+          alt: "Un panel de control personalizado para socios de Genesis para una empresa de reservas hoteleras.",
+        },
+        builder: {
+          label: "Constructor de aterrizaje",
+          short: "Control visual con creación asistida por IA",
+          title: "Lanza campañas sin esperar en la cola de desarrollo.",
+          interface: "Páginas de campaña",
+          prompt:
+            "Genere una página de campaña de verano receptiva y luego permítame perfeccionar cada sección visualmente.",
+          alt: "Selldone Visual Landing Builder con vista previa en vivo del escaparate y controles de edición.",
+        },
+      },
+      principles: {
+        design: {
+          title: "Tu lenguaje de diseño",
+          description:
+            "Ningún tema universal tiene por qué definir cómo los clientes experimentan su marca.",
+        },
+        workflow: {
+          title: "Su flujo de trabajo operativo",
+          description:
+            "Exponga las acciones y el contexto correctos a cada cliente, personal, proveedor o socio.",
+        },
+        engine: {
+          title: "Un motor de comercio",
+          description:
+            "Los productos, pedidos, pagos, logística y permisos permanecen basados en Selldone.",
+        },
+      },
+      action: "Explorar Selldone Génesis",
+    },
+    design_paths: {
+      eyebrow: "Tres caminos de escaparate",
+      title: "Elige cuánto de la experiencia",
+      title_accent: "quieres poseer.",
+      lead: "Comience a vender con el escaparate listo para usar de Selldone, abra la fuente de diseño y déle forma con un agente de inteligencia artificial, o cree una experiencia Génesis completamente personalizada. El motor de comercio sigue siendo el mismo.",
+      paths_aria: "Tres formas de diseñar y ofrecer un escaparate de Selldone",
+      swipe_hint: "Desliza para comparar los tres caminos",
+      ready: {
+        level: "Nivel de inicio rápido",
+        tag: "Listo el primer día",
+        title: "Escaparate dinámico + Landing Builder",
+        description:
+          "Crea tu tienda y el escaparate ya estará listo para vender. No hay instalación de temas, configuración de alojamiento ni proceso de implementación.",
+        items: {
+          one: "Un escaparate dinámico configurado a partir de los datos de tu tienda",
+          two: "Visual Landing Builder para campañas y páginas de contenido",
+          three: "Actualizaciones administradas, alojamiento y comportamiento responsivo",
+        },
+        action: "Explorar Landing Builder",
+        action_aria: "Explorar Selldone Landing Builder",
+        preview_label: "Escaparate en vivo",
+        image_alt: "Selldone Landing Builder editando una página de escaparate lista",
+      },
+      layout: {
+        level: "Nivel de desarrollador geek",
+        tag: "Código completamente abierto",
+        title: "Diseño editable con tu IA",
+        description:
+          "Utilice el escaparate de diseño de código abierto de Selldone, conecte ChatGPT o Claude a través de MCP, cambie la interfaz en el código y luego impleméntelo en el hosting de Selldone.",
+        items: {
+          one: "Poseer y ampliar el código fuente del escaparate",
+          two: "Compile con ChatGPT, Claude u otro cliente MCP",
+          three: "Implementar en la infraestructura administrada de Selldone",
+        },
+        action: "Conecte un agente de IA",
+        action_aria: "Conecte un agente de IA a Selldone a través de MCP",
+        flow_aria:
+          "ChatGPT y Claude se conectan a través de MCP para editar el diseño e implementarlo en Selldone hosting",
+        chatgpt: "ChatGPT",
+        claude: "claudio",
+        layout_node: "Diseño",
+        hosting_node: "Alojamiento vendido",
+      },
+      genesis: {
+        level: "Nivel empresarial · Construir un unicornio",
+        tag: "cualquier modelo de negocio",
+        title: "Experiencias personalizadas de Génesis",
+        description:
+          "Construya el escaparate y la experiencia operativa en torno a la propia empresa, a partir del código fundamental, y no en torno a una plantilla de comercio fija.",
+        items: {
+          one: "Interfaces personalizadas para clientes, operadores y proveedores",
+          two: "Servicios, listados y flujos de mercado de múltiples proveedores",
+          three: "Experiencias de descubrimiento, disponibilidad y reserva basadas en mapas",
+        },
+        action: "Explora Génesis",
+        action_aria: "Explora las experiencias personalizadas de Selldone Genesis",
+        image_alt:
+          "Un escaparate de restaurante con reservas de mesa y pedidos online, creado con Selldone Genesis",
+        models_aria: "Ejemplos de modelos de negocio respaldados por Génesis",
+        models: {
+          marketplace: "Mercado",
+          booking: "Reserva",
+          map: "Basado en mapas",
+        },
+      },
+      foundation: {
+        title: "Un núcleo operativo, sea cual sea el camino que elijas.",
+        description:
+          "El catálogo, los pedidos, los clientes, los pagos, la automatización y el acceso de los agentes de IA permanecen conectados a través del sistema operativo Selldone Business.",
+      },
+    },
+    features: {
+      eyebrow: "SO empresarial integrado",
+      title: "Un sistema operativo que su IA realmente puede operar.",
+      title_accent: "Sin laberinto de complementos en el medio.",
+      lead: "Selldone mantiene el comercio, las operaciones, el crecimiento y la experiencia del cliente en un modelo conectado. Su equipo (y su agente de IA) pueden coordinar el trabajo real de principio a fin en lugar de unir aplicaciones desconectadas.",
+      pillars_aria: "Grupos de capacidades de Selldone Business OS",
+      pillars: {
+        sell: {
+          title: "vender cualquier cosa",
+          description: "Utilice el modelo de negocio que se ajuste a lo que ofrece.",
+          items: {
+            one: "Productos, servicios y archivos",
+            two: "Suscripciones y reservas",
+            three: "Mercados de múltiples proveedores",
+          },
+        },
+        payments: {
+          title: "recibir pago",
+          description: "Mantenga conectados el pago, la liquidación y las finanzas.",
+          items: {
+            one: "Pasarelas de pago globales",
+            two: "Pagos y billeteras a proveedores",
+            three: "Impuestos, facturas y contabilidad",
+          },
+        },
+        fulfillment: {
+          title: "Cumplir y almacenar",
+          description: "Coordinar el inventario y la entrega en todos los canales.",
+          items: {
+            one: "Almacenes e inventario",
+            two: "Envío y recogida",
+            three: "Devoluciones, POD y dropshipping",
+          },
+        },
+        growth: {
+          title: "Comercializar y crecer",
+          description: "Convierta la actividad del cliente en relaciones duraderas.",
+          items: {
+            one: "Campañas y promociones",
+            two: "Fidelización, reembolso y referencias",
+            three: "CRM, correo electrónico y automatización",
+          },
+        },
+        experience: {
+          title: "Construye la experiencia",
+          description: "Sea dueño de cada superficie donde los clientes encuentran la marca.",
+          items: {
+            one: "Creador de páginas y aterrizaje",
+            two: "Contenido, blog y comunidad",
+            three: "Interfaces personalizadas de Génesis",
+          },
+        },
+        operations: {
+          title: "Dirige el negocio",
+          description: "Brinde a las personas y agentes el contexto para actuar de manera segura.",
+          items: {
+            one: "Roles y permisos de ámbito",
+            two: "Análisis e informes inteligentes",
+            three: "API abierta, SDK y MCP",
+          },
+        },
+      },
+      builder: {
+        label: "Creador de páginas y aterrizaje",
+        title: "Pase de una idea a una campaña en vivo en un solo espacio de trabajo.",
+        description:
+          "Comience visualmente, pídale a AI que prepare una página o combine ambos. Cada aterrizaje permanece conectado a su catálogo, ofertas, clientes y análisis reales.",
+        items: {
+          visual: {
+            label: "controles visuales",
+            description:
+              "Redacte y perfeccione secciones sin renunciar al control detallado.",
+          },
+          ai: {
+            label: "Creación asistida por IA",
+            description:
+              "Convierta un resumen de campaña en un primer borrador estructurado que pueda revisar.",
+          },
+          responsive: {
+            label: "Responsivo por diseño",
+            description:
+              "Obtenga una vista previa y ajuste la experiencia en los dispositivos de los clientes.",
+          },
+        },
+        primary_action: "Explorar Landing Builder",
+        secondary_action: "Explorar el sistema operativo empresarial",
+        preview_label: "Constructor de aterrizaje Selldone",
+        live_label: "Vista previa en vivo",
+        image_alt:
+          "Selldone Landing Builder con controles de sección visual y una vista previa de la campaña en vivo.",
+        ai_label: "Pregúntale a la IA dentro del flujo de trabajo",
+        ai_prompt:
+          "Prepare una página de lanzamiento para esta colección siguiendo la dirección de mi marca.",
+      },
+      agent_note: {
+        title: "Por eso un agente de IA puede hacer más que generar texto.",
+        description:
+          "Con acceso MCP aprobado, puede comprender el contexto empresarial conectado, preparar el trabajo en estos sistemas e informar el resultado donde ya está chateando.",
+        action: "Conecte un agente de IA",
+      },
+    },
+    how_it_works: {
+      eyebrow: "como funciona",
+      title: "Tres pasos desde el aviso",
+      title_accent: "a un negocio en funcionamiento.",
+      lead: "Conecte ChatGPT, Claude, Codex o cualquier agente compatible con MCP. Selldone proporciona las herramientas, el acceso exclusivo al taller y las puertas de aprobación.",
+      steps_aria: "Cómo trabaja un agente de IA con Selldone",
+      steps: {
+        connect: {
+          title: "Conecta el agente que ya utilizas",
+          description:
+            "Agregue Selldone a través de MCP en ChatGPT, Claude, Codex u otro cliente compatible.",
+          agents_aria: "Agentes de IA compatibles",
+          connector: "MCP vendido",
+          agents: {
+            any_mcp: "Cualquier agente MCP",
+          },
+        },
+        scope: {
+          title: "Elige una tienda y sus permisos",
+          description:
+            "Elija una tienda y luego otorgue solo las capacidades que el agente necesita. El acceso se puede cambiar o revocar.",
+          shop_label: "Tienda seleccionada",
+          shop_name: "tu tienda",
+          permissions_label: "Permitido en esta tienda",
+          permissions: {
+            catalog: "Catálogo",
+            orders: "Órdenes",
+            analytics: "Analítica",
+          },
+          note: "Limitado a esta tienda",
+        },
+        operate: {
+          title: "Déjelo construir, operar e informar",
+          description:
+            "Con un tiempo de ejecución del agente siempre activo, puede realizar el trabajo aprobado e informar sobre su conversación las 24 horas del día.",
+          availability: "24 horas al día, 7 días a la semana con un agente siempre disponible",
+          states: {
+            build: "construir",
+            operate: "Operar",
+            report: "Informe",
+          },
+          approval: {
+            title: "acción sensible",
+            status: "Se requiere confirmación explícita en el flujo de trabajo del agente",
+          },
+        },
+      },
+      control: {
+        title: "Mantienes el control",
+        description:
+          "El alcance, los permisos y las reglas de aprobación de la tienda permanecen visibles antes de que actúe el agente.",
+        badge: "Se requiere aprobación",
+      },
+    },
+    platform_how: {
+      eyebrow: "Cómo funciona Selldone",
+      title: "Desde tu primer producto",
+      title_accent: "a un pedido completado.",
+      lead: "Siga el flujo de trabajo completo de Selldone en el escaparate, el catálogo, los pagos, el diseño y el pago unificado. El viaje comercial esencial está conectado y listo desde el primer día.",
+    },
+    scale: {
+      eyebrow: "Operaciones de comercio unificado",
+      title: "Optimizado para ventas en línea y en tienda",
+      title_accent: "a escala.",
+      lead: "Gestiona todos los canales de venta desde una única fuente de información. El catálogo, los clientes, los pedidos, los pagos, la preparación y los análisis permanecen conectados, tanto si la transacción comienza en una tienda como en un mostrador, un marketplace o las redes sociales.",
+      channels_aria: "Canales de venta conectados",
+      connected: "Conectado",
+      channels: {
+        online: {
+          title: "escaparate en línea",
+          description: "Experiencias web, móviles y personalizadas de Genesis",
+        },
+        pos: {
+          title: "Punto de venta en tienda",
+          description: "Ventas de mostrador, personal y operaciones locales.",
+        },
+        marketplace: {
+          title: "Mercado",
+          description: "Proveedores, listados, comisiones y pagos",
+        },
+        social: {
+          title: "Social y directo",
+          description: "Enlaces de campaña y venta conversacional",
+        },
+      },
+      engine: {
+        label: "Sistema operativo comercial Selldone",
+        title: "Una fuente operativa de verdad",
+        live: "sincronizado",
+        catalog: "Catálogo y precios",
+        orders: "Pedidos y pago",
+        customers: "Clientes y fidelización",
+        finance: "Pagos y finanzas",
+        agent_note:
+          "El mismo contexto conectado está disponible para los agentes de IA aprobados a través de MCP.",
+      },
+      outcomes_aria: "Resultados comerciales coordinados",
+      outcomes: {
+        inventory: {
+          title: "Inventario compartido",
+          description: "La disponibilidad se mantiene coordinada en todos los canales.",
+        },
+        fulfillment: {
+          title: "Preparación de pedidos flexible",
+          description: "Envíe, entregue, recoja o cumpla digitalmente.",
+        },
+        insight: {
+          title: "Visión unificada",
+          description: "Vea el rendimiento en un contexto empresarial.",
+        },
+        automation: {
+          title: "Automatización conectada",
+          description: "Active flujos de trabajo sin cadenas de aplicaciones frágiles.",
+        },
+      },
+      proof: {
+        models: {
+          title: "Múltiples modelos de negocio",
+          description:
+            "Venta minorista, suscripciones, reservas, venta mayorista, servicios y mercados.",
+        },
+        permissions: {
+          title: "Operaciones con reconocimiento de roles",
+          description:
+            "Ofrezca al personal, proveedores, socios y agentes de IA el alcance adecuado.",
+        },
+        global: {
+          title: "Preparación local y global",
+          description:
+            "Adapta el pago, la moneda, los impuestos y la logística al lugar donde vendes.",
+        },
+      },
+      action: "Explora el sistema operativo empresarial",
+    },
+    developers: {
+      eyebrow: "API abiertas y SDK para desarrolladores",
+      title: "Abierto a su código.",
+      title_accent: "Listo para sus agentes.",
+      lead: "Conecte ChatGPT, Claude, Codex o cualquier cliente MCP para ejecutar trabajos aprobados, sin abrir un panel. Construya sobre API y SDK abiertos, luego use Genesis para hacer suya la interfaz de cada cliente y operador.",
+      actions: {
+        connect_mcp: "Conecte un agente de IA",
+        api_docs: "Explorar documentos API",
+      },
+      capabilities_aria: "Formas de construir y operar con Selldone",
+      mcp: {
+        kicker: "MCP",
+        title: "Ponga a trabajar a los agentes de IA",
+        description:
+          "Otorgue a un cliente de MCP permisos específicos para manejar el trabajo diario mientras su tiempo de ejecución está activo, con controles de aprobación cuando sean importantes.",
+        action: "Configurar MCP",
+        aria: "Conecte un agente de IA a través de Selldone MCP",
+      },
+      api: {
+        kicker: "API y SDK",
+        title: "Construya con interfaces documentadas",
+        description:
+          "Cree integraciones y flujos de trabajo para productos, pedidos, clientes y operaciones con la pila que ya utiliza.",
+        action: "Lea los documentos",
+        aria: "Abrir la documentación de la API de Selldone",
+      },
+      genesis: {
+        kicker: "Génesis",
+        title: "Posee cada interfaz",
+        description:
+          "Cree escaparates personalizados, oficinas administrativas y experiencias de proveedores con su propio diseño y funcionalidad.",
+        action: "Explora Génesis",
+        aria: "Explorar Selldone Génesis",
+      },
+      console: {
+        label: "Ejemplo ilustrativo de SDK",
+        title: "Leer pedidos a través del SDK de Backoffice",
+        source_action: "Ver fuente",
+        source_aria: "Vea el código fuente del SDK Backoffice de Selldone en GitHub",
+        preview_aria:
+          "Ejemplo de lectura de órdenes a través del SDK de JavaScript de Selldone",
+        note: "Un motor de negocios, compartido entre agentes, API, escaparates y oficinas administrativas.",
+        access: "Acceso con alcance. Acciones conscientes de la aprobación.",
+      },
+    },
+    community: {
+      eyebrow: "Conoce nuestra comunidad",
+      title: "Negocios reales, creados y administrados en Selldone.",
+      subtitle:
+        "Desde fundadores individuales hasta equipos en crecimiento, los operadores utilizan Selldone para lanzar, administrar y crecer todos los días, y pueden conectar agentes de IA al mismo sistema operativo empresarial.",
+      rating_summary: "Reseñas que puedes verificar",
+      rating_note: "Cada partitura enlaza con su fuente original.",
+      rating_rail_aria: "Calificaciones de Selldone en plataformas de revisión independientes",
+      review_source_aria:
+        "Abra reseñas de Selldone en {source}; puntuado {score} sobre 5.",
+      stories_label: "Historias de clientes",
+      stories_title: "Vea lo que la gente está construyendo con Selldone",
+      stories_hint: "Usa las flechas o desliza el dedo para explorar.",
+      next_story: "Haz de tu historia de éxito la siguiente.",
+    },
+    final_cta: {
+      eyebrow: "Comience con Selldone",
+      title:
+        "Ofrezca a su empresa un operador de IA y una plataforma diseñada para el trabajo.",
+      lead: "Inicie el negocio de forma gratuita y luego conecte la IA que ya utiliza cuando esté listo. Selldone mantiene la tienda, los permisos y las operaciones en un solo lugar.",
+      primary_action: "iniciar mi negocio",
+      secondary_action: "Conecte un agente de IA",
+      stripe_note: "Crea automáticamente tu ecommerce",
+      note: "Acceso exclusivo de la tienda con controles de aprobación para acciones confidenciales.",
+    },
+    setup_packages: {
+      eyebrow: "Configuración de la tienda, entregada",
+      title: "Comience con un paquete listo.",
+      title_accent: "Hazlo tuyo con IA.",
+      lead: "Elija una configuración de tienda probada o envíenos su sitio, catálogo y objetivos existentes. Damos forma al alcance y realizamos estimaciones en torno a su negocio, luego usted continúa mejorándolo con la IA que ya utiliza.",
+      capabilities_aria: "Mejoras en la tienda disponibles con IA",
+      capabilities: {
+        pages: "Páginas y tema",
+        products: "Productos y catálogo",
+        offers: "Descuentos y cupones",
+        campaigns: "Lanzamientos de campaña",
+      },
+      setup_paths_aria: "Opciones de configuración de la tienda",
+      paths: {
+        ready: {
+          title: "Configuración lista",
+          description: "Un escaparate probado y elementos esenciales de lanzamiento",
+        },
+        custom: {
+          title: "Construcción personalizada",
+          description:
+            "Su sitio, catálogo y requisitos plasmados en una tienda",
+        },
+      },
+      review: {
+        label: "Plan de instalación verificado",
+        title: "Alcance primero. Un presupuesto claro antes de realizar el pago.",
+        description:
+          "Obtenga un presupuesto verificado y un rango de entrega. Pague el total o reserve su lugar con un depósito cuando sea elegible.",
+      },
+      ai: {
+        title: "Mantén el control después del lanzamiento",
+        description:
+          "Cambie páginas, temas, productos, ofertas y campañas con la IA que ya utiliza.",
+      },
+      action: "Planificar la configuración de mi tienda",
+      action_aria: "Explore los paquetes de configuración de la tienda Selldone (se abre en una nueva pestaña)",
+      note: "Equipo oficial de Selldone · No se requiere tema pago",
+    },
+    theme_switch: {
+      label: "Apariencia",
+      aria: "Tema de color de la página de inicio",
+      light: "Luz",
+      dark: "oscuro",
+    },
   },
 
   /**
@@ -543,7 +1209,7 @@ export default {
     },
     item_3: {
       title: "Cumple pedidos con herramientas empresariales intuitivas.",
-      desc: "Experimenta un proceso de pedidos simplificado con la capacidad de formatear solicitudes de manera intuitiva, hacer cambios necesarios y actualizar el estado con solo un clic. Eleva tus capacidades de cumplimiento a nuevas alturas con nuestras herramientas de nivel empresarial.",
+      desc: "Disfruta de un flujo de pedidos simplificado: organiza solicitudes, realiza cambios y actualiza el estado con un solo clic. Mejora la preparación de pedidos con nuestras herramientas de nivel empresarial.",
     },
     item_4: {
       title: "Rastrea acciones en la línea de tiempo del pedido.",
