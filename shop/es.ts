@@ -711,8 +711,8 @@ export default {
       title: "Reserva",
       message: "He seleccionado el rango de fechas para recibir este pedido.",
 
-      selected_checkin: "Check-in seleccionado por el cliente",
-      selected_checkout: "Check-out seleccionado por el cliente",
+      selected_checkin: "Fecha de entrada seleccionada por el cliente",
+      selected_checkout: "Fecha de salida seleccionada por el cliente",
       change_days_question:
         "¿Necesitas modificar la duración de la reserva para los días seleccionados?",
       show_calendar: "Mostrar calendario de pedidos",
