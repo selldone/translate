@@ -79,7 +79,7 @@ export default {
       desc: "Ficción, no ficción, educativo, cómics",
     },
     Marketplace: {
-      title: "Mercado de todo",
+      title: "Marketplace de todo",
       desc: "Una amplia variedad de productos de múltiples categorías",
     },
     Other: {
@@ -91,10 +91,10 @@ export default {
   partners: {
     title: "{name} se asocia con Selldone",
     subtitle: "para desbloquear la próxima generación de negocios en línea.",
-    subtitle_official: "Desbloquee la próxima generación de negocios en línea.",
+    subtitle_official: "Desbloquea la próxima generación de negocios en línea.",
 
     create_new_shop: "Crear una nueva tienda",
-    select_a_shop: "Seleccione una tienda",
+    select_a_shop: "Selecciona una tienda",
     apply_deal_to: "Aplicar oferta a {shop}",
     notifications: {
       success_apply: "¡Oferta activada con éxito!",
@@ -113,28 +113,28 @@ export default {
     subtitle: "Pasa al siguiente nivel completando estos sencillos pasos.",
   },
 
-  open_website: "abrir mi sitio web",
+  open_website: "Abrir mi sitio web",
 
   customize_theme: "Personalizar sitio web",
   setup_business: "Configurar negocio",
-  add_product: "Agregar producto",
-  setup_shipping: "Configuración de envío",
-  add_domain: "Agregar dominio",
-  add_payment: "Conectarse a una pasarela de pago",
+  add_product: "Añadir productos",
+  setup_shipping: "Configurar envíos",
+  add_domain: "Añadir dominio",
+  add_payment: "Conectar pagos",
 
   product: {
     step1: {
       title: "Opción 1. Agregar manualmente",
-      msg: "Puede agregar productos físicos, artículos virtuales, archivos y servicios a su tienda y comenzar a venderlos.",
+      msg: "Puedes añadir productos físicos, artículos virtuales, archivos y servicios a tu tienda y empezar a venderlos.",
       action_on: "Agrega tu primer producto",
       action_off: "Añadir más productos",
       category:
-        "Las categorías son la obra maestra de su sitio web de compras en línea en comparación con otros. Haga que todo esté categorizado y organizado agregando categorías y administrando con arrastrar y soltar.",
-      add_category: "añadir categoría",
+        "Las categorías son la obra maestra de tu sitio web de compras en línea frente a los demás. Ten todo categorizado y ordenado añadiendo categorías y organizándolas con arrastrar y soltar.",
+      add_category: "Añadir categoría",
     },
     step2: {
       title: "Opción 2. Agregar por Excel",
-      msg: "¿Tiene muchos productos, como artículos 1K, 10K? No se preocupe, importe todo con una sola acción.",
+      msg: "¿Tienes muchos productos, como 1K o 10K artículos? No te preocupes, impórtalos todos con una sola acción.",
       import_excel: "Importar por Excel",
       download_template: "Descargar plantilla",
     },
@@ -142,13 +142,13 @@ export default {
   shipping: {
     step1: {
       title: "Paso 1. Establecer ubicación",
-      msg: "En el primer paso, configure su almacén (origen del envío). Esta información se utiliza para calcular la distancia, el costo de envío y verificar estar en el área de servicio de envío.",
+      msg: "En el primer paso, configura tu almacén (origen del envío). Esta información se usa para calcular la distancia y el costo de envío, y para comprobar que estás dentro del área de servicio de envío.",
       edit_warehouse: "Editar almacén",
       add_warehouse: "Añade tu almacén",
     },
     step2: {
       title: "Paso 2. Activa los métodos de envío",
-      msg: "Agrega al menos un método de envío a tu tienda. Puede establecer precios en función del peso, la distancia y otros parámetros. No olvide establecer límites de distancia, peso y tamaño de los paquetes que admite cada servicio de envío.",
+      msg: "Añade al menos un método de envío a tu tienda. Puedes fijar precios en función del peso, la distancia y otros parámetros. No olvides establecer los límites de distancia, peso y tamaño de los paquetes que admite cada servicio de envío.",
       add_delivery: "Añadir métodos de envío",
     },
   },
@@ -168,24 +168,24 @@ export default {
   payment: {
     step1: {
       title: "Monedas de precios",
-      msg: "Puede aceptar dinero en diferentes monedas y su tienda puede admitir más de una moneda para el precio. Por cierto, si configura la moneda de su tienda en USD, los clientes pueden pagar en cualquier moneda como USD, EUR, GBP, etc., para comprarle.",
+      msg: "Puedes aceptar dinero en distintas monedas, y tu tienda puede admitir más de una moneda para fijar precios. Por cierto, si configuras la moneda de tu tienda en USD, los clientes podrán pagarte en cualquier moneda, como USD, EUR, GBP, etc.",
       manage_currencies: "Administrar monedas de precios",
     },
     step2: {
-      title: "aceptar dinero",
-      msg: "Agregue pago contra reembolso, transferencia directa de dinero y otros métodos de pago disponibles en su tienda.",
+      title: "Aceptar dinero",
+      msg: "Añade el pago contra reembolso, la transferencia directa de dinero y otros métodos de pago disponibles en tu tienda.",
       online_title: "Métodos de pago en línea",
       online_msg:
-        "Acepte pagos con tarjetas, nuevas aplicaciones bancarias, compre ahora, pague después y muchos otros métodos de pago en línea.",
+        "Acepta pagos con tarjeta, con las nuevas aplicaciones bancarias, con «compra ahora y paga después» y con muchos otros métodos de pago en línea.",
       add_online_gateway: "Agregar un método de pago en línea",
-      cod_title: "Forma de pago contrareembolso",
+      cod_title: "Método de pago contra reembolso",
       cod_msg:
-        "Aceptar el pago después de la entrega de los pedidos. Puede confirmar los pagos contra reembolso de forma manual.",
+        "Acepta el pago después de la entrega de los pedidos. Puedes confirmar manualmente los pagos contra reembolso.",
       cash_title: "Métodos de pago en efectivo",
       cash_msg: "Este tipo de pago se utiliza en Selldone® POS.",
       dir_title: "Métodos de pago directo",
       dir_msg:
-        "Puede aceptar el pago mediante transferencia directa de dinero, transferencia bancaria y otras formas tradicionales.",
+        "Puedes aceptar pagos mediante transferencia directa de dinero, transferencia bancaria y otras formas tradicionales.",
     },
     step3: {
       msg: "Conecta Selldone a tu cuenta de Stripe con un solo clic en 30 segundos. Actualmente admitimos el proceso de configuración automática de Stripe. Ve a la pestaña de tu pasarela, agrega Stripe y haz clic en el botón «<b>Conectar automáticamente a Stripe</b>».",
@@ -205,12 +205,12 @@ export default {
        * @see BShopOnboardingTour
        */
       avocado:{
-        title:"Avocado - vende sin agregar ningún producto",
+        title:"Avocado - Vende sin añadir ningún producto",
         description: "Con Avocado, puedes ofrecer servicios o productos sin precios ni detalles predefinidos. Crea un formulario personalizado para que tus clientes soliciten servicios o productos. Cuando envíen la solicitud, podrás definir el precio y procesar el pago. Comparte el formulario en tus redes sociales para que los clientes puedan agregar artículos, subir imágenes y enviar pedidos fácilmente.",
         action:'Leer sobre Avocado',
       },
       marketplace:{
-        title: "Mercado multivendedor y pago automático",
+        title: "Marketplace multivendedor y pago automático",
         description: "Crea un marketplace próspero con Selldone agregando varios vendedores. Los vendedores pueden listar sus productos y tú puedes definir una tasa de comisión para cada venta. Cuando un cliente realiza una compra, el vendedor recibe el pago directamente, gestiona el pedido desde su panel dedicado y tú ganas una comisión mediante la función de pago automático.",
         action:'Pago automático a vendedores',
       },
@@ -229,7 +229,7 @@ export default {
 
     template: {
       title: "Plantillas",
-      msg: "¡Inicia tu tienda con nuestras plantillas prediseñadas! Diversifique fácilmente agregando varias páginas, cada una con su propio diseño único.",
+      msg: "¡Pon en marcha tu tienda con nuestras plantillas prediseñadas! Diversifica fácilmente añadiendo varias páginas, cada una con su propio diseño único.",
       action:'Ver todas las plantillas...'
 
     },
@@ -237,7 +237,7 @@ export default {
     colors: {
       title: "Colores y diseño",
 
-      msg: "¿Quiere adaptar la página de su producto y el diseño de su tienda para que se ajusten mejor a su visión? ¡Sumérgete en la sección de personalización de temas de tu tienda y observa cómo se desarrolla la magia sin esfuerzo!",
+      msg: "¿Quieres adaptar la página de producto y el diseño de tu tienda para que encajen mejor con tu visión? Entra en la sección de personalización del tema de tu tienda y descubre la magia sin ningún esfuerzo.",
 
       action:'Personalizar colores y tema'
 
@@ -250,18 +250,18 @@ export default {
    */
   business: {
     step1: {
-      title: "modelo de negocio",
-      msg: "Cada negocio es único y, a menudo, requiere algo más que una simple tienda en línea. Defina su modelo de ingresos y nosotros nos encargaremos del resto sin problemas.",
+      title: "Modelo de negocio",
+      msg: "Cada negocio es único y, a menudo, necesita algo más que una simple tienda en línea. Define tu modelo de ingresos y nosotros nos encargamos del resto sin complicaciones.",
     },
   },
 
   migration: {
     title: "Migración",
     shopify: {
-      msg: "¡Cámbiate a Selldone sin problemas desde Shopify! Disfrute de una migración sencilla, funciones mejoradas y soluciones rentables para su tienda en línea.",
+      msg: "¡Cámbiate a Selldone desde Shopify sin complicaciones! Disfruta de una migración sencilla, funciones mejoradas y soluciones rentables para tu tienda en línea.",
     },
     woocommerce: {
-      msg: "¡Migre sin problemas sus productos WooCommerce a Selldone con solo unos pocos clics! Disfrute de un rendimiento mejorado, un diseño intuitivo y una atención al cliente de primer nivel. Actualice su experiencia de comercio electrónico ahora.",
+      msg: "¡Migra tus productos de WooCommerce a Selldone en solo unos clics! Disfruta de un mejor rendimiento, un diseño intuitivo y una atención al cliente de primer nivel. Mejora ya tu experiencia de comercio electrónico.",
     },
   },
 

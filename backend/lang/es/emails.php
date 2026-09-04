@@ -15,37 +15,37 @@ return [
         ShopMailTemplateCodes::PosCheckout => 'Esta notificación se envía para confirmar un pedido de punto de venta para un comprador.',
         ShopMailTemplateCodes::PosPayment => 'Esta notificación confirma un pago en el punto de venta realizado por un comprador.',
         ShopMailTemplateCodes::PosPaymentAdmin => 'Este mensaje notifica al vendedor de una compra realizada en su punto de venta.',
-        ShopMailTemplateCodes::ShopContact => 'Esta notificación se envía cuando se envía un formulario de contacto.',
-        ShopMailTemplateCodes::ShopGiftCard => 'Esta notificación informa al usuario que ha recibido una tarjeta de regalo.',
+        ShopMailTemplateCodes::ShopContact => 'Esta notificación se envía cuando alguien completa el formulario de contacto.',
+        ShopMailTemplateCodes::ShopGiftCard => 'Esta notificación informa al usuario de que ha recibido una tarjeta de regalo.',
 
         ShopMailTemplateCodes::ShopVendorJoin => 'Este mensaje da la bienvenida a un nuevo vendedor a la tienda.',
-        ShopMailTemplateCodes::ShopVendorInvite => "Este mensaje se envía para invitar a un proveedor a unirse a su mercado.",
-        ShopMailTemplateCodes::ShopVendorOrder => "Este mensaje se envía al proveedor cuando se recibe un pedido en estado Pagado o Contra reembolso (COD).",
-        ShopMailTemplateCodes::ShopVendorProducts => "Se envía diariamente para actualizar a los proveedores sobre el estado de sus productos.",
-        ShopMailTemplateCodes::ShopVendorMemberInvite => "Este mensaje se envía para invitar a un proveedor a unirse a su mercado.",
+        ShopMailTemplateCodes::ShopVendorInvite => "Este mensaje se envía para invitar a un vendedor a unirse a tu marketplace.",
+        ShopMailTemplateCodes::ShopVendorOrder => "Este mensaje se envía al vendedor cuando se recibe un pedido en estado Pagado o Contra reembolso (COD).",
+        ShopMailTemplateCodes::ShopVendorProducts => "Se envía a diario para informar a los vendedores sobre el estado de sus productos.",
+        ShopMailTemplateCodes::ShopVendorMemberInvite => "Este mensaje se envía para invitar a un vendedor a unirse a tu marketplace.",
 
-        ShopMailTemplateCodes::UserLogin => "Notificar al usuario los detalles de inicio de sesión, incluida la dirección IP, la fecha y el dispositivo, por motivos de seguridad.",
-        ShopMailTemplateCodes::LoginCode => "Envíe un código de contraseña de un solo uso para que los usuarios inicien sesión en la tienda.",
+        ShopMailTemplateCodes::UserLogin => "Notifica al usuario los detalles del inicio de sesión (dirección IP, fecha y dispositivo) por motivos de seguridad.",
+        ShopMailTemplateCodes::LoginCode => "Envía un código de un solo uso para que los usuarios inicien sesión en la tienda.",
 
-        ShopMailTemplateCodes::EmailVerifyLink => "Envía un enlace para verificar la dirección de correo electrónico del usuario. Este correo se envía cuando un usuario se registra por SMS e ingresa su correo electrónico y no se envía cuando el usuario se registra por redes sociales o correo electrónico directamente.",
+        ShopMailTemplateCodes::EmailVerifyLink => "Envía un enlace para verificar la dirección de correo electrónico del usuario. Este correo se envía cuando un usuario se registra por SMS e introduce su correo electrónico. No se envía cuando el usuario se registra directamente con inicio de sesión social o con su correo electrónico.",
 
-        ShopMailTemplateCodes::EmailBulkOrder => "Envíe una lista de pedidos recibidos y pagados de forma masiva para un día específico."
+        ShopMailTemplateCodes::EmailBulkOrder => "Envía una lista de los pedidos recibidos y pagados de forma masiva en un día concreto."
 
 
     ],
 
 
     'global' => [
-        'greetings' => 'Hola, :name!',
-        'end-statement' => 'Equipo de apoyo',
+        'greetings' => '¡Hola, :name!',
+        'end-statement' => 'Equipo de soporte',
 
         'receiver_name' => 'Hola :user_name',
-        'footer-help' => "¿Necesitas ayuda? Pregunte en [support@selldone.com](mailto:support@selldone.com) o visite nuestro [centro de ayuda](https://selldone.com/community).",
+        'footer-help' => "¿Necesitas ayuda? Escríbenos a [support@selldone.com](mailto:support@selldone.com) o visita nuestro [centro de ayuda](https://selldone.com/community).",
         'selldone-team' => 'El equipo de Selldone',
-        'footer-shop' => "Si necesita ayuda con algo, no dude en enviarnos un correo electrónico: :shop_mail",
+        'footer-shop' => "Si necesitas ayuda con cualquier cosa, no dudes en escribirnos a: :shop_mail",
         'accept' => "Aceptar",
         'reject' => "Rechazar",
-        'verify' => "verificar",
+        'verify' => "Verificar",
         'title' => "Título",
         'value' => "Valor",
         'description' => "Descripción",
@@ -55,36 +55,36 @@ return [
         'user-info' => "Información de la cuenta",
         'license' => "Licencia",
         'status' => "Estado",
-        'start' => "Comienzo",
+        'start' => "Inicio",
         'end' => "Fin",
         'renewal' => "Renovación",
-        'view' => "Vista",
+        'view' => "Ver",
 
-        'balance' => "Equilibrio",
+        'balance' => "Saldo",
         'card_number' => "Número de tarjeta",
-        'cvv' => "cvv",
-        'expire_date' => "Fecha de caducidad",
+        'cvv' => "CVV",
+        'expire_date' => "Fecha de vencimiento",
 
-        'Dashboard' => "Panel de control",
-        'order' => "orden",
+        'Dashboard' => "Panel",
+        'order' => "Pedido",
         'view_order' => "Ver pedido",
-        'pay_now' => "Pay now",
+        'pay_now' => "Pagar ahora",
 
-        'official_selldone' => "VENTA OFICIAL HECHA",
+        'official_selldone' => "SELLDONE OFICIAL",
 
-        'account-number' => "Account number",
-        'account-name' => "Account name",
-        'currency' => "Divisa",
-        'free-balance' => "Saldo libre",
+        'account-number' => "Número de cuenta",
+        'account-name' => "Nombre de la cuenta",
+        'currency' => "Moneda",
+        'free-balance' => "Saldo disponible",
         'locked-balance' => "Saldo bloqueado",
         'bot' => "Bot",
-        'requests' => "Peticiones",
-        'baskets' => 'carros',
+        'requests' => "Solicitudes",
+        'baskets' => 'Carritos',
         'physical' => "Físico",
         'virtual' => "Virtual",
         'file' => "Archivo",
         'service' => "Servicio",
-        'fulfillment' => "Cumplimiento",
+        'fulfillment' => "Procesamiento",
         'open' => "Abierto",
         'reserved' => "Reservado",
         'canceled' => "Cancelado",
@@ -92,22 +92,22 @@ return [
         'cod' => "COD",
         'orders-count' => 'Pedidos',
         'payments-count' => 'Pagos',
-        'confirms-count' => 'Confirma',
-        'sends-count' => 'envía',
-        'delivers-count' => 'entrega',
-        'count' => 'Contar',
-        'transactions-count' => 'Cuenta de transacciones',
+        'confirms-count' => 'Confirmaciones',
+        'sends-count' => 'Envíos',
+        'delivers-count' => 'Entregas',
+        'count' => 'Cantidad',
+        'transactions-count' => 'Número de transacciones',
         'success-transactions' => 'Transacciones exitosas',
-        'total-amount' => 'Cantidad total',
+        'total-amount' => 'Monto total',
         'amount' => 'Monto',
-        'wage' => 'Salario',
+        'wage' => 'Comisión',
         'debug' => 'Depurar',
         'pos' => 'POS',
-        'live' => 'Vivir',
-        'CheckQueue' => 'comprobar la cola',
+        'live' => 'En vivo',
+        'CheckQueue' => 'En cola de revisión',
         'OrderConfirm' => 'Confirmación de pedido',
         'PreparingOrder' => 'Preparando pedido',
-        'SentOrder' => 'pedido enviado',
+        'SentOrder' => 'Pedido enviado',
         'ToCustomer' => 'Entregado al cliente',
         'Pending' => 'Pendiente',
         'Accepted' => 'Aceptado',
@@ -116,76 +116,76 @@ return [
         'tablet' => 'Tableta',
         'phone' => 'Teléfono',
         'total' => 'Total',
-        'view-detail' => 'Ver Detalle',
+        'view-detail' => 'Ver detalles',
         'empty' => 'Vacío',
-        'dropshipping' => 'Envío directo',
+        'dropshipping' => 'Dropshipping',
         'reply' => 'Respuesta',
-        'reactions' => 'reacciones',
+        'reactions' => 'Reacciones',
         'Comments' => 'Comentarios',
         'last-comment' => 'Último comentario',
         'response-to' => 'Respuesta a',
         'posts' => 'Publicaciones',
-        'post' => 'Correo',
+        'post' => 'Publicación',
 
         'name' => 'Nombre',
         'email' => 'Correo electrónico',
-        'type' => 'escribe',
+        'type' => 'Tipo',
         'device' => 'Dispositivo',
         'platform' => 'Plataforma',
         'browser' => 'Navegador',
-        'time' => 'Tiempo',
-        'Wallet' => 'Cartera',
+        'time' => 'Hora',
+        'Wallet' => 'Billetera',
         'date' => 'Fecha',
 
         'account' => 'Cuenta',
         'transaction' => 'Transacción',
         'fee' => 'Tarifa',
 
-        'location' => 'Location',
+        'location' => 'Ubicación',
         'ip' => 'IP',
 
         'bill' => 'Factura',
         'category' => 'Categoría',
-        'password' => 'Clave',
+        'password' => 'Contraseña',
         'verify-login' => "Verificar e iniciar sesión",
         'url' => 'URL',
-        'avocado' => 'Palta',
-        'hyper' => 'Hiper',
-        'buy-now' => "Compra ahora",
-        'add-domain' => "Add Domain",
-        'views' => 'Puntos de vista',
+        'avocado' => 'Avocado',
+        'hyper' => 'Hyper',
+        'buy-now' => "Comprar ahora",
+        'add-domain' => "Añadir dominio",
+        'views' => 'Visitas',
 
 
         'country' => 'País',
-        'address' => 'dirección',
+        'address' => 'Dirección',
         'postal' => 'Código postal',
-        'building_no' => 'Edificio #',
-        'building_unit' => 'Unidad #',
+        'building_no' => 'N.º de edificio',
+        'building_unit' => 'N.º de unidad',
         'message' => 'Mensaje',
 
 
         'customer' => 'Cliente',
         'cart-items' => 'Artículos del carrito',
         'payment' => 'Pago',
-        'receiver' => 'Receptor',
+        'receiver' => 'Destinatario',
         'virtual-items' => 'Artículos virtuales',
         'no-payment' => '¡Sin pago!',
 
-        'enable' => 'Permitir',
+        'enable' => 'Activar',
         'access' => 'Acceso',
-        'bank' => 'información bancaria',
+        'bank' => 'Información bancaria',
 
         'vendor' => 'Vendedor',
 
         'view_content' => "Ver contenido completo",
-        'files' => 'archivos',
+        'files' => 'Archivos',
         'download' => 'Descargar',
         'file_name' => 'Nombre del archivo',
         'file_size' => 'Tamaño',
 
         'subscription' => 'Suscripción',
-        'products' => 'productos',
-        'vendor_products' => 'Productos del proveedor',
+        'products' => 'Productos',
+        'vendor_products' => 'Productos del vendedor',
 
         'pickup' => 'Recogida',
 
@@ -195,7 +195,7 @@ return [
         'refund' => 'Reembolso',
         'recipient_address' => 'Dirección del destinatario',
         'signature' => 'Firma',
-        'blockchain' => 'cadena de bloques',
+        'blockchain' => 'Blockchain',
         'details' => 'Detalles',
 
 
@@ -206,21 +206,21 @@ return [
         'wallet' => 'cartera',
     ],
     //―――――――――――――――――――――――――――― Titles ―――――――――――――――――――――――――
-    'selldone-business-os' => "Sistema operativo comercial Selldone",
+    'selldone-business-os' => "Selldone Business OS",
 
     //―――――――――――――――――――――――――――― Senders name & emails ―――――――――――――――――――――――――
     'senders' => [
         'WeeklyReport' => [
             'id' => 'performance',
-            'name' => 'Informe de rendimiento, Selldone'
+            'name' => 'Informe de rendimiento de Selldone'
         ],
         'SeasonalReport' => [
             'id' => 'seasonal',
-            'name' => 'Informe de temporada, Selldone'
+            'name' => 'Informe de temporada de Selldone'
         ],
         'Onboarding' => [
-            'id' => 'hola',
-            'name' => 'Selldone Comerciantes'
+            'id' => 'hi',
+            'name' => 'Comerciantes de Selldone'
         ],
         'Support' => [
             'id' => 'support',
@@ -231,24 +231,24 @@ return [
             'name' => 'Selldone'
         ],
         'Welcome' => [
-            'id' => 'hola',
-            'name' => 'Comunidad, Selldone'
+            'id' => 'hi',
+            'name' => 'Comunidad de Selldone'
         ],
         'NewShop' => [
-            'id' => 'comerciantes',
-            'name' => 'Selldone Comerciantes'
+            'id' => 'merchants',
+            'name' => 'Comerciantes de Selldone'
         ],
         'Approve' => [
-            'id' => 'aprobar',
-            'name' => 'Selldone Comerciantes'
+            'id' => 'approve',
+            'name' => 'Comerciantes de Selldone'
         ],
         'SellerReceiveOrder' => [
             'id' => 'order',
-            'name' => 'Gestión de Órdenes :name'
+            'name' => 'Gestión de pedidos :name'
         ],
 
         'Recovery' => [
-            'id' => 'recuperación',
+            'id' => 'recovery',
             'name' => 'Equipo de recuperación de Selldone'
         ],
 
@@ -265,53 +265,53 @@ return [
     'shop-invite' => [
         'LEVEL-NAME' => [
             'ADMIN' => 'Administrador',
-            'OFFICER' => 'oficial y supervisor',
-            'AUDITING' => 'gerente de auditoria',
+            'OFFICER' => 'Responsable y supervisor',
+            'AUDITING' => 'Gestor de auditoría',
             'EMPLOYEE' => 'Empleado',
-            'PRODUCT' => 'gerente de productos',
+            'PRODUCT' => 'Gestor de productos',
             'CONTENT' => 'Gestor de contenidos',
-            'MARKETING' => 'gerente de mercadotecnia',
-            'VIEWER' => 'Espectador',
+            'MARKETING' => 'Gestor de marketing',
+            'VIEWER' => 'Observador',
 
         ],
         'subject' => ":inviter te invitó como :level | :shop",
-        'category' => "invitación del personal",
-        'title' => "Ha sido invitado a <b>:shop_name</b> como <b>:level</b> .",
-        'message' => "Recibiste una invitación para colaborar con el equipo de <b>:shop_title</b> en el ámbito empresarial. Tienes la opción de aceptar o rechazar esta oferta. Si decide aceptar, inicie sesión en el servicio Selldone para confirmar su decisión. Tras la confirmación, accederá a la sección de gestión de la tienda.",
+        'category' => "Invitación de personal",
+        'title' => "Has sido invitado a <b>:shop_name</b> como <b>:level</b>.",
+        'message' => "Has recibido una invitación para colaborar con el equipo de <b>:shop_title</b>. Puedes aceptar o rechazar esta oferta. Si decides aceptar, inicia sesión en Selldone para confirmar tu decisión. Una vez confirmada, tendrás acceso a la sección de gestión de la tienda.",
 
     ],
 
     'welcome-email' => [
         'subject' => "👋 Bienvenido :name, ¡comencemos con Selldone!",
-        'category' => 'CONGRATULATION',
+        'category' => 'FELICIDADES',
         'title' => "Bienvenido a Selldone",
-        'message' => "¡Gracias por elegir Selldone! Ahora eres parte de una comunidad vibrante que conecta a vendedores globales con clientes, negocios locales con empresas y individuos con corporaciones. Todas nuestras herramientas Master y Pro están disponibles **gratis** e **ilimitadas**. Estamos aquí para apoyarlo y abrirle las puertas a su éxito.",
+        'message' => "¡Gracias por elegir Selldone! Ahora formas parte de una comunidad vibrante que conecta a vendedores de todo el mundo con clientes, a negocios locales con grandes empresas y a particulares con corporaciones. Todas nuestras herramientas Master y Pro están disponibles para ti de forma **gratuita** e **ilimitada**. Estamos aquí para apoyarte y abrirte las puertas al éxito.",
 
-        'index' => "Paso :step.",
+        'index' => "Paso :step. ",
 
         'step-domain' => [
-            'title' => 'Agregue su dominio personalizado',
-            'message' => "Para comenzar, agregue su dominio personalizado de forma gratuita en el Panel de la tienda en Configuración > Configuración de dominios.",
+            'title' => 'Añade tu dominio personalizado',
+            'message' => "Para empezar, añade tu dominio personalizado de forma gratuita en el panel de la tienda, en Ajustes > Ajustes de dominios.",
             'action' => 'Administrar mis dominios',
         ],
         'step-landing' => [
             'title' => 'Personaliza tu página de inicio',
-            'message' => "Personalice su página de inicio yendo a Panel > Páginas. Elija una página de destino o cree una nueva. Es fácil e intuitivo y puedes empezar a trabajar en él de inmediato.",
+            'message' => "Personaliza tu página de inicio desde Panel > Páginas. Elige una página de destino o crea una nueva. Es fácil e intuitivo, y puedes empezar a trabajar en ella de inmediato.",
             'action' => 'Personalizar mi página de destino',
         ],
         'step-payment' => [
             'title' => 'Configurar métodos de pago',
-            'message' => "Comience a aceptar pagos directamente en su cuenta bancaria. Para conectar sus proveedores de pago como Stripe, PayPal y más, vaya a Panel > Contabilidad > Puerta de enlace.",
-            'action' => 'Agregar métodos de pago',
+            'message' => "Empieza a aceptar pagos directamente en tu cuenta bancaria. Para conectar tus proveedores de pago como Stripe, PayPal y más, ve a Panel > Contabilidad > Pasarela de pago.",
+            'action' => 'Añadir métodos de pago',
         ],
         'step-products' => [
             'title' => 'Añade tus productos',
-            'message' => "Agregue fácilmente productos y categorías en el Panel > Productos. Es como administrar archivos y carpetas en su PC: completamente listo para arrastrar y soltar. También puede importar productos de forma masiva utilizando Excel. Hay una plantilla de muestra disponible para ayudarle a comenzar.",
+            'message' => "Añade productos y categorías fácilmente en Panel > Productos. Es como gestionar archivos y carpetas en tu PC: todo funciona con arrastrar y soltar. También puedes importar productos de forma masiva con Excel. Hay una plantilla de ejemplo disponible para ayudarte a empezar.",
             'action' => 'Administrar mis productos',
         ],
         'step-shipping' => [
             'title' => 'Configurar métodos de envío',
-            'message' => "Para cobrar a los clientes por el envío, defina sus métodos de envío en Panel > Logística > Envío. Puede establecer diferentes precios y soporte para varias ubicaciones. No olvide configurar el origen de su almacén en Panel > Logística > Almacén.",
+            'message' => "Para cobrar a los clientes por el envío, define tus métodos de envío en Panel > Logística > Envío. Puedes establecer precios y cobertura diferentes para distintas ubicaciones. No olvides configurar el origen de tu almacén en Panel > Logística > Almacén.",
             'action' => 'Administrar métodos de envío',
         ],
     
@@ -328,213 +328,213 @@ return [
 
 
     'charge-account' => [
-        'category' => 'Monedero > Cuenta > Cargo',
-        'title' => "Cargo de éxito",
-        'message' => "Se ha cargado <b>:amount</b> correctamente a su cuenta <b>:account_number</b>.",
+        'category' => 'Billetera > Cuenta > Recarga',
+        'title' => "Recarga exitosa",
+        'message' => "Tu cuenta <b>:account_number</b> se ha recargado con <b>:amount</b> correctamente.",
         'account' => 'Cuenta',
-        'charge' => 'Cargo',
-        'balance' => 'Equilibrio',
-        'footer' => "Haga que los negocios sean fáciles, alcanzables y accesibles para cualquier persona en todo el mundo."
+        'charge' => 'Recarga',
+        'balance' => 'Saldo',
+        'footer' => "Hacemos que los negocios sean fáciles, alcanzables y accesibles para cualquier persona en todo el mundo."
     ],
 
     'verify-email' => [
-        'subject' => "🙌 ¡Completa tu registro en Selldone! Verificar enlace.",
-        'category' => "ESTÁS A UN PASO DE DISTANCIA",
-        'title' => "Verifique su dirección de correo electrónico",
-        'message' => "Hola :name,<br><br>¡Gracias por elegir Selldone!<br><br>Para confirmar que <b>:email</b> es su dirección de correo electrónico correcta, haga clic en el botón a continuación o utilice el enlace proporcionado. Tienes 48 horas para completar esta verificación.",
-        'footer' => "Si tiene problemas para hacer clic en el botón Verificar, copie y pegue la siguiente URL en su navegador web: :activation_url",
-        'next-step' => "A continuación, le enviaremos algunos materiales útiles y una guía paso a paso para que le resulte más fácil agregar su dominio personalizado, configurar pagos, agregar productos y obtener su primer pedido.",
+        'subject' => "🙌 ¡Completa tu registro en Selldone! Enlace de verificación.",
+        'category' => "ESTÁS A UN PASO",
+        'title' => "Verifica tu dirección de correo electrónico",
+        'message' => "Hola :name,<br><br>¡Gracias por elegir Selldone!<br><br>Para confirmar que <b>:email</b> es tu dirección de correo electrónico correcta, haz clic en el botón de abajo o usa el enlace proporcionado. Tienes 48 horas para completar esta verificación.",
+        'footer' => "Si tienes problemas para hacer clic en el botón Verificar, copia y pega la siguiente URL en tu navegador web: :activation_url",
+        'next-step' => "A continuación, te enviaremos materiales útiles y una guía paso a paso para que te resulte fácil añadir tu dominio personalizado, configurar los pagos, añadir productos y conseguir tu primer pedido.",
 
     ],
     'verify-email-code' => [
         'subject' => "Código de verificación para :name",
-        'category' => "SECURITY",
+        'category' => "SEGURIDAD",
         'title' => "Código de verificación de correo electrónico",
-        'message' => "Hola :name:<br><br>Para confirmar que <b>:email</b> es su dirección de correo electrónico correcta, ingrese el siguiente código dentro de los próximos <b>10 minutos</b>:",
+        'message' => "Hola :name,<br><br>Para confirmar que <b>:email</b> es tu dirección de correo electrónico correcta, introduce el siguiente código en los próximos <b>10 minutos</b>:",
     ],
     'onboarding-verify-email' => [
         'subject' => "🎉 Tu tienda está lista | :name",
-        'category' => "ESTÁS A UN PASO DE DISTANCIA",
+        'category' => "ESTÁS A UN PASO",
         'title' => "Configuración completada",
-        'account_title' => "Su cuenta",
-        'account_msg' => "Verifique e inicie sesión en su cuenta con esta información.",
-        'shop_msg' => "Información de la cuenta en el sistema operativo comercial de Selldone.",
+        'account_title' => "Tu cuenta",
+        'account_msg' => "Verifica e inicia sesión en tu cuenta con esta información.",
+        'shop_msg' => "Información de tu cuenta en Selldone Business OS.",
 
     ],
 
     'reset2fa' => [
         'category' => "MENSAJE OFICIAL DE SEGURIDAD",
-        'title' => "Solicitar deshabilitar inicio de sesión en 2 pasos",
-        'message' => "Estás recibiendo este correo electrónico porque recibimos una solicitud para restablecer la autenticación de dos factores para la cuenta **:name** con el correo electrónico **:email**.<br><br>Encontramos los siguientes detalles para tu cuenta:",
-        'footer' => "Si no solicitó un restablecimiento de contraseña, no se requiere ninguna otra acción.",
-        'action' => 'Deshabilitar el inicio de sesión en dos pasos',
+        'title' => "Solicitud para desactivar la verificación en dos pasos",
+        'message' => "Estás recibiendo este correo porque hemos recibido una solicitud para restablecer la autenticación de dos factores de la cuenta **:name** con el correo electrónico **:email**.<br><br>Hemos encontrado los siguientes datos de tu cuenta:",
+        'footer' => "Si no solicitaste restablecer la contraseña, no es necesario que hagas nada más.",
+        'action' => 'Desactivar la verificación en dos pasos',
     ],
 
 
     'build-new-shop' => [
-        'subject' => "🎊 ¡Tu tienda ya está lista!",
-        'category' => "NACE NUEVA TIENDA ONLINE EN EL MUNDO",
+        'subject' => "🎊 ¡Tu tienda ya está en línea y lista para crecer!",
+        'category' => "Nace una nueva tienda online",
         'title' => "¡Felicitaciones, :name!",
-        'message' => "<b>¡Felicitaciones, :name! ¡Su nuevo negocio en línea ya está activo!</b> Estamos encantados de darle la bienvenida a la comunidad de Selldoners. Has dado el primer paso hacia el éxito y estamos aquí para ayudarte en cada paso del camino.<br>Ahora que tu tienda está lista, asegurémonos de que estás preparado para recibir pagos directamente de tus clientes y comenzar a hacer crecer tu imperio. Si alguna vez necesita ayuda, estamos a solo un mensaje de distancia: nuestro equipo de soporte siempre está aquí para ayudarlo.<br><br><b>Ipróximos pasos importantes:</b> Para comenzar, asegúrese de que esté todo configurado para recibir pagos y realizar operaciones sin problemas. Lo guiaremos a través de cada etapa para que su tienda funcione sin problemas.",
-        'pdf-book' => "No se pierda el manual adjunto: Haga sus negocios como un juego",
+        'message' => "<b>¡Felicidades, :name! ¡Tu nuevo negocio en línea ya está activo!</b> Estamos encantados de darte la bienvenida a la comunidad de Selldoners. Has dado el primer paso hacia el éxito y estamos aquí para ayudarte en cada etapa del camino.<br>Ahora que tu tienda está lista, asegurémonos de que puedas recibir pagos directamente de tus clientes y empezar a hacer crecer tu imperio. Si alguna vez necesitas ayuda, estamos a solo un mensaje de distancia: nuestro equipo de soporte siempre está aquí para ti.<br><br><b>Próximos pasos importantes:</b> Para empezar, asegúrate de tener todo configurado para recibir pagos y operar sin problemas. Te guiaremos en cada etapa para que tu tienda funcione a la perfección.",
+        'pdf-book' => "📘 No te pierdas el manual adjunto: 'Do Your Business Like A Game', tu guía esencial hacia el éxito.",
 
         'account' => [
-            'title' => 'Paso 1: Crea una cuenta en la billetera Selldone',
-            'message' => "Para comenzar, cree una cuenta en su billetera Selldone. Aquí es donde se deducirán tus tarifas y también donde podrás recargar para mantener tu tienda funcionando sin problemas. Si tu saldo alguna vez se vuelve negativo, ¡no te preocupes! Tu tienda seguirá funcionando sin interrupciones.",
+            'title' => 'Paso 1: Configura tu billetera de Selldone',
+            'message' => "Para empezar, crea una cuenta en tu billetera de Selldone. Aquí es donde se deducirán tus comisiones y también donde podrás recargar saldo para que tu tienda siga funcionando sin problemas. Si tu saldo llega a ser negativo, ¡no te preocupes! Tu tienda seguirá funcionando sin interrupciones.",
             'action' => 'Iniciar sesión en la billetera',
         ],
 
         'shop-account' => [
-            'title' => 'Paso 2: conecta la cuenta a la tienda',
-            'message' => "Luego, conecte su cuenta de billetera a su tienda. Dirígete a <b>Store > Contabilidad > Invoice</b> y vincula tu billetera. Esto garantiza que todos los pagos de los clientes se depositen directamente en su cuenta bancaria; Selldone no deduce ningún monto de sus ganancias.",
-            'action' => 'Panel Factura de tienda',
+            'title' => 'Paso 2: Conecta tu billetera a tu tienda',
+            'message' => "Después, conecta tu cuenta de billetera a tu tienda. Ve a <b>Tienda > Contabilidad > Factura</b> y vincula tu billetera. Así te aseguras de que todos los pagos de los clientes se depositen directamente en tu cuenta bancaria: Selldone no deduce ningún importe de tus ganancias.",
+            'action' => 'Ir al panel de facturas de la tienda',
         ],
 
         'gateway' => [
-            'title' => 'Paso 3: Conecte la pasarela de pago en línea',
-            'message' => "Ahora, configuremos su pasarela de pago en línea. Vaya a <b>Store > Contabilidad > Port</b> y haga clic en <b>Agregar nuevo puerto</b>. Seleccione su moneda y verá una lista de pasarelas de pago disponibles. Conectar una puerta de enlace es rápido y fácil, pero si necesita ayuda, no dude en consultar las guías Selldone o comunicarse con nosotros.",
-            'action' => 'Agregar un portal a la tienda',
+            'title' => 'Paso 3: Configura tu pasarela de pago en línea',
+            'message' => "Ahora, configuremos tu pasarela de pago en línea. Ve a <b>Tienda > Contabilidad > Pasarelas</b> y haz clic en <b>Añadir nueva pasarela</b>. Selecciona tu moneda y verás una lista de pasarelas de pago disponibles. Conectar una pasarela es rápido y sencillo, pero si necesitas ayuda, consulta las guías de Selldone o contáctanos.",
+            'action' => 'Añadir pasarela de pago a la tienda',
         ],
 
         'domain' => [
-            'title' => 'Último paso: conectar un dominio dedicado',
-            'message' => "Ahora, vincula tu dominio personalizado a tu tienda. Esto permite a los clientes comprar sus productos o servicios y realizarle pagos directamente.",
-            'action' => 'Presentar y recibir tarjetas de regalo ilimitadas',
+            'title' => 'Último paso: Conecta tu dominio personalizado',
+            'message' => "Ahora, vincula tu dominio personalizado a tu tienda. Así tus clientes podrán comprar tus productos o servicios y pagarte directamente.",
+            'action' => 'Conectar dominio personalizado',
         ],
     ],
 
 
     'basket-list' => [
-        'item' => "ít",
-        'count' => "Contar",
-        'price' => "precio",
+        'item' => "Artículo",
+        'count' => "Cantidad",
+        'price' => "Precio",
         'discount-code' => "Código de descuento",
-        'customer-club' => 'club de clientes',
+        'customer-club' => 'Club de clientes',
         'shipping' => "Envío",
         'total' => "Total",
         'offer' => "Oferta",
         'coupon' => "Cupón",
-        'lottery' => "Otorgar",
+        'lottery' => "Premio",
         'tax' => "Impuesto",
         'tax_included' => "Incluido en el precio",
-        'tax_shipping' => "Shipping Tax",
+        'tax_shipping' => "Impuesto de envío",
     ],
 
     'buyable-payments' => [
         'method' => 'Método',
         'amount' => 'Monto',
-        'giftcard' => 'Gift card',
+        'giftcard' => 'Tarjeta de regalo',
         'payment' => 'Pago',
     ],
 
 
     'shop-subscription-email' => [
-        'category' => "actualización de suscripción",
+        'category' => "Actualización de suscripción",
         'title' => "Licencia de tienda: :shop_title",
-        'title-reserved' => "Reservar licencia: :shop_title",
+        'title-reserved' => "Licencia reservada: :shop_title",
         'title-active' => "Licencia activa: :shop_title",
-        'title-finished' => "Licencia terminada: :shop_title",
-        'title-cancel' => "Cancelar licencia: :shop_title",
-        'message' => "Su plan de licencia de tienda actualizado,",
-        'RESERVED' => "⚡ Su plan de suscripción ha sido **reservado**.",
-        'ACTIVE' => "🟢 Su plan de suscripción ha sido **activado**.",
-        'FINISHED' => "🚧 Su plan de suscripción ha sido **terminado**.",
+        'title-finished' => "Licencia finalizada: :shop_title",
+        'title-cancel' => "Licencia cancelada: :shop_title",
+        'message' => "Se ha actualizado el plan de licencia de tu tienda,",
+        'RESERVED' => "⚡ Tu plan de suscripción ha sido **reservado**.",
+        'ACTIVE' => "🟢 Tu plan de suscripción ha sido **activado**.",
+        'FINISHED' => "🚧 Tu plan de suscripción ha **finalizado**.",
         'CANCEL' => "⛔ Tu plan de suscripción ha sido **cancelado**.",
     ],
 
     'support' => [
         'subject' => "Centro de soporte | :name respondió",
-        'category' => "Centro de Apoyo",
+        'category' => "Centro de soporte",
         'title' => "Recibiste una respuesta",
-        'action' => "Abrir administrador de tienda",
+        'action' => "Abrir la administración de la tienda",
     ],
 
     'shop-customer-join' => [
         'subject' => "Únete a :shop_title",
         'category' => "Celebración de nuevos clientes",
-        'title' => "Estamos felices por su membresía",
-        'action' => "Visitar ahora",
+        'title' => "Nos alegra tenerte como miembro",
+        'action' => "Ver lista de compras",
     ],
 
     'shop-vendor-join' => [
-        'subject' => "Incorporación de proveedores | :shop_title",
-        'category' => "Celebración de nuevos proveedores",
-        'title' => "Estamos felices por su membresía",
-        'action' => "Vendor Panel",
+        'subject' => "Incorporación de vendedores | :shop_title",
+        'category' => "Celebración de nuevos vendedores",
+        'title' => "Nos alegra tenerte como miembro",
+        'action' => "Panel del vendedor",
     ],
 
 
     'shop-giftcard' => [
         'subject' => "Tarjeta de regalo :shop_title",
-        'category' => "Agregar nueva tarjeta",
-        'title' => "Enhorabuena, has recibido una tarjeta regalo",
-        'action' => "Compra ahora",
-        'message' => "Ha recibido una tarjeta regalo por valor de :balance :currency. Puedes utilizar esta tarjeta regalo en nuestra tienda.",
+        'category' => "Añadir nueva tarjeta",
+        'title' => "¡Felicidades! Has recibido una tarjeta de regalo",
+        'action' => "Comprar ahora",
+        'message' => "Has recibido una tarjeta de regalo por valor de :balance :currency. Puedes usarla en nuestra tienda.",
 
     ],
     // -------------------------------------- Shop Contact ------------------------------------
     'contact' => [
         'subject' => "Centro de soporte | :shop",
-        'category' => "apoyo",
+        'category' => "Soporte",
         'title' => "Recibiste una respuesta",
     ],
 
     // -------------------------------------- Shop Customer ------------------------------------
     'order-checkout' => [
-        'subject' => "🛍️ Confirmación de pedido | Orden :order_id",
-        'title' => "orden",
-        'message' => "Hiciste un pedido en nuestra tienda. Recibimos su pedido y le enviaremos otro correo electrónico una vez confirmado el pago."
+        'subject' => "🛍️ Confirmación de pedido | Pedido :order_id",
+        'title' => "Confirmación de pedido",
+        'message' => "Has realizado un pedido en nuestra tienda. Ya lo hemos recibido y te enviaremos otro correo electrónico en cuanto se confirme el pago."
     ,
         'payments' => 'Pagos',
     ],
 
     'order-payment' => [
-        'subject' => "🛍️ Confirmación de Pago | Orden :order_id",
-        'title' => "Orden de pago",
-        'message' => "Su pago completado,<br> Tenemos tu pedido. Le enviaremos otro correo electrónico cuando se envíe su pedido.",
+        'subject' => "🛍️ Confirmación de pago | Pedido :order_id",
+        'title' => "Confirmación de pago",
+        'message' => "¡Tu pago se ha realizado correctamente!<br>Hemos recibido tu pedido y te avisaremos cuando esté en camino.",
     
         'payments' => 'Pagos',
     ],
 
     'order-update' => [
-        'subject' => "🛍️ Actualización del estado del pedido | Orden :order_id",
+        'subject' => "🛍️ Actualización del estado del pedido | Pedido :order_id",
         'title' => "Actualización del estado del pedido",
-        'message' => "Su pedido ha sido actualizado. Puede consultar el estado más reciente de este pedido en su cuenta.",
+        'message' => "Tu pedido se ha actualizado. Puedes consultar el estado más reciente de este pedido en tu cuenta.",
         'instructions' => [
             'PHYSICAL' => [
-                'CheckQueue' => "Su pedido está en cola para ser procesado. Le avisaremos cuando se esté preparando.",
-                'OrderConfirm' => "Su pedido está confirmado y la preparación ha comenzado.",
-                'PreparingOrder' => "Su pedido se está preparando y se enviará pronto.",
-                'SentOrder' => "Su pedido ha sido enviado. Lo recibirás en breve.",
-                'ToCustomer' => "Su pedido ha sido entregado. ¡Esperamos que lo disfrutes!",
+                'CheckQueue' => "Tu pedido está en cola para ser procesado. Te avisaremos cuando empecemos a prepararlo.",
+                'OrderConfirm' => "Tu pedido está confirmado y ya hemos empezado a prepararlo.",
+                'PreparingOrder' => "Tu pedido se está preparando y se enviará pronto.",
+                'SentOrder' => "Tu pedido ha sido enviado. Lo recibirás en breve.",
+                'ToCustomer' => "Tu pedido ha sido entregado. ¡Esperamos que lo disfrutes!",
 
                 'PreparingOrder-PICKUP' => "Tu pedido se está preparando. Recibirás una notificación cuando esté listo para ser recogido.",
-                'SentOrder-PICKUP' => "Su pedido está listo para ser recogido. Por favor ven a la tienda a recogerlo.",
-                'ToCustomer-PICKUP' => "Su pedido ha sido recogido. ¡Esperamos que lo disfrutes!"
+                'SentOrder-PICKUP' => "Tu pedido está listo para recoger. Pásate por la tienda para recogerlo.",
+                'ToCustomer-PICKUP' => "Has recogido tu pedido. ¡Esperamos que lo disfrutes!"
 
             ],
             'VIRTUAL' => [
-                'CheckQueue' => "Su pedido está en cola para ser procesado. Te avisaremos cuando esté listo.",
-                'OrderConfirm' => "Su pedido está confirmado y la preparación está en progreso.",
-                'PreparingOrder' => "Su pedido se está preparando y se le enviará pronto.",
-                'ToCustomer' => "Su pedido virtual ha sido entregado a su cuenta. ¡Gracias!"
+                'CheckQueue' => "Tu pedido está en cola para ser procesado. Te avisaremos cuando esté listo.",
+                'OrderConfirm' => "Tu pedido está confirmado y lo estamos preparando.",
+                'PreparingOrder' => "Tu pedido se está preparando y te lo enviaremos pronto.",
+                'ToCustomer' => "Tu pedido virtual se ha entregado en tu cuenta. ¡Gracias!"
             ],
             'SERVICE' => [
-                'CheckQueue' => "Su solicitud de servicio está en cola. Te avisaremos cuando empecemos.",
-                'OrderConfirm' => "Su servicio está confirmado y nos estamos preparando para comenzar.",
-                'PreparingOrder' => "Estamos preparando su servicio y le notificaremos una vez que esté completo.",
-                'ToCustomer' => "Su servicio está completo. ¡Gracias por elegirnos!"
+                'CheckQueue' => "Tu solicitud de servicio está en cola. Te avisaremos cuando empecemos.",
+                'OrderConfirm' => "Tu servicio está confirmado y nos estamos preparando para comenzar.",
+                'PreparingOrder' => "Estamos preparando tu servicio y te avisaremos en cuanto esté completado.",
+                'ToCustomer' => "Tu servicio está completado. ¡Gracias por elegirnos!"
             ],
             'FILE' => [
-                'PreparingOrder' => "Su archivo se está preparando y estará disponible pronto.",
-                'ToCustomer' => "Su archivo está listo y ha sido entregado. Ya puedes descargarlo."
+                'PreparingOrder' => "Tu archivo se está preparando y estará disponible pronto.",
+                'ToCustomer' => "Tu archivo está listo y ya se ha entregado. Ya puedes descargarlo."
             ],
             'SUBSCRIPTION' => [
-                'CheckQueue' => "Su pedido de suscripción está en cola. Le notificaremos cuando comience el procesamiento.",
-                'OrderConfirm' => "Su suscripción ha sido confirmada y se está configurando.",
+                'CheckQueue' => "Tu pedido de suscripción está en cola. Te avisaremos cuando comience el procesamiento.",
+                'OrderConfirm' => "Tu suscripción se ha confirmado y la estamos configurando.",
                 'PreparingOrder' => "Estamos preparando tu suscripción y comenzará pronto.",
                 'SentOrder' => "Tu suscripción ha sido activada. Recibirás actualizaciones continuas.",
-                'ToCustomer' => "Su servicio de suscripción se ha activado correctamente."
+                'ToCustomer' => "Tu servicio de suscripción se ha activado correctamente."
             ]
         ]
 
@@ -542,142 +542,142 @@ return [
 
     // -------------------------------------- Vouchers ------------------------------------
     'get-voucher' => [
-        'subject' => 'Felicitaciones :name | Nuevo cupón: :title',
-        'category' => "ENHORABUENA, NUEVO VALE",
-        'message' => "Hola :name:<br><br>¡Has recibido un nuevo cupón como regalo de nuestra parte! Puedes ganar aún más vales presentando Selldone a tus amigos y a todos tus conocidos. Este cupón vale **:price :currency**.<br><br>¡Has dado el primer paso y estamos aquí para ayudarte a desbloquear nuevas funciones con tu cupón! Inicie sesión con **:email** y busque su cupón en la Tienda **Panel** > **Configuración** > **Licencia**.<br><br>¡Felicitaciones!",
-        'action' => "Mi tablero",
+        'subject' => '¡Felicidades, :name! | Nuevo vale: :title',
+        'category' => "FELICIDADES, NUEVO VALE",
+        'message' => "Hola :name,<br><br>¡Has recibido un nuevo vale de regalo! Puedes conseguir más vales presentando Selldone a tus amigos y a todas las personas que conozcas. Este vale tiene un valor de **:price :currency**.<br><br>Ya has dado el primer paso y estamos aquí para ayudarte a desbloquear nuevas funciones con tu vale. Inicia sesión con **:email** y encuentra tu vale en el **Panel** de la tienda > **Ajustes** > **Licencia**.<br><br>¡Felicidades!",
+        'action' => "Ir a mi panel",
     ],
 
 
     // -------------------------------------- Received Gift ------------------------------------
     'received-gift' => [
-        'subject' => 'Felicitaciones, querido :name | ¡Has recibido un regalo especial!',
-        'category' => "Anuncio de recibir un regalo",
-        'title' => "regalos para ti",
-        'message' => "Hola :name, ¡nos complace informarle que recibió un regalo especial de Selldone! 🎉 Puede ganar más regalos si se mantiene activo, hace crecer su tienda y mejora su experiencia en Selldone. Para retirar su regalo, simplemente inicie sesión con :email y búsquelo en la esquina superior derecha de su panel de control.<br><br>Este regalo vale **:price :currency** y puede depositarlo fácilmente en su billetera dentro de Selldone.<br><br>Utilice su regalo para actualizar la licencia de su tienda y desbloquear herramientas aún más poderosas para impulsar su negocio en línea.",
-        'action' => "Regalos",
+        'subject' => 'Felicidades, :name | ¡Has recibido un regalo especial!',
+        'category' => "Notificación de regalo",
+        'title' => "¡Tu regalo te está esperando!",
+        'message' => "Hola :name, ¡nos alegra decirte que has recibido un regalo especial de Selldone! 🎉 Puedes conseguir más regalos manteniéndote activo, haciendo crecer tu tienda y mejorando tus conocimientos en Selldone. Para ver tu regalo, inicia sesión con :email y búscalo en la esquina superior derecha de tu panel.<br><br>Este regalo tiene un valor de **:price :currency** y puedes depositarlo fácilmente en tu billetera dentro de Selldone.<br><br>¡Usa tu regalo para mejorar la licencia de tu tienda y desbloquear herramientas aún más potentes para impulsar tu negocio en línea!",
+        'action' => "Ver mis regalos",
     ],
 
     // -------------------------------------- Shop Order Payment Admin (Seller) ------------------------------------
 
     'order-payment-admin' => [
         'subject' => "🛍️ Nuevo pedido recibido | :order_id",
-        'title' => "New Order",
-        'message' => "Has recibido un nuevo pedido. Vaya a la página de procesamiento de pedidos en su tienda.",
+        'title' => "Nuevo pedido",
+        'message' => "Has recibido un nuevo pedido. Ve a la página de procesamiento de pedidos de tu tienda.",
     ],
 
 
     // -------------------------------------- Virtual item info component ------------------------------------
 
     'virtual-item' => [
-        'input-form-title' => 'Su información completa',
+        'input-form-title' => 'La información que has introducido',
         'output-form-title' => 'Información del artículo comprado',
     ],
 
     // -------------------------------------- Weekly shop report ------------------------------------
     'selldone-weekly-report' => [
-        'subject' => '📬 :shop_title | Informe Semanal :time',
+        'subject' => '📬 :shop_title | Informe semanal :time',
         'title' => 'Informe semanal de rendimiento de la tienda',
         'message' => "Este es el informe semanal de tu tienda desde <b>:start</b> hasta <b>:end</b>. Este informe incluye consejos para mejorar tu negocio, también podrás consultar el estado de tu tienda online y los pedidos recientes. Espero que tengas un buen día y una buena semana por delante."
     ],
 
     // -------------------------------------- Seasonal shop report ------------------------------------
     'shop-seasonal-report' => [
-        'subject' => '☘ Tu informe de ahorro :amount en los últimos tres meses | :shop_title',
-        'title' => 'Informe estacional sobre la actividad de su negocio, recompensas y ahorros financieros',
-        'message' => "Este es su informe estacional <b>:shop_title</b> de <b>:start</b> a <b>:end</b>."
+        'subject' => '☘ Tu informe de ahorro de :amount en los últimos tres meses | :shop_title',
+        'title' => 'Informe de temporada sobre la actividad de tu negocio, tus recompensas y tu ahorro',
+        'message' => "Este es el informe de temporada de <b>:shop_title</b>, del <b>:start</b> al <b>:end</b>."
     ],
 
 
 // -------------------------------------- EC-ShopAccounts ------------------------------------
     'EC-ShopAccounts' => [
-        'title' => 'Cuentas conectadas',
-        'sub-title' => '¿Cuál es el estado más reciente de las cuentas de billetera conectadas a mi tienda?',
-        'view-wallet' => 'Ver billetera',
-        'tip-title' => 'Consejos importantes',
-        'tip' => "Configure una billetera Selldone gratuita y vincúlela a su tienda. Incluso si su saldo es negativo, sus clientes aún pueden comprar y pagar sin ningún problema. No te preocupes, las operaciones y los datos de tu tienda continuarán sin problemas durante hasta 1 mes, sin interrupciones.",
-        'view-my-wallet' => 'My wallet',
-        'connect-account' => 'Conectar a la cuenta'
+        'title' => 'Tus billeteras conectadas',
+        'sub-title' => 'Consulta el estado de las cuentas de billetera vinculadas a esta tienda.',
+        'view-wallet' => 'Ver detalles de la billetera',
+        'tip-title' => 'Consejos rápidos',
+        'tip' => "Crea una billetera de Selldone gratis y vincúlala a tu tienda. Aunque tu saldo sea negativo, tus clientes podrán seguir comprando y pagando sin problemas. No te preocupes: las operaciones y los datos de tu tienda continuarán con normalidad hasta 1 mes, sin interrupciones.",
+        'view-my-wallet' => 'Ir a mi billetera',
+        'connect-account' => 'Conectar tu billetera'
     ],
 
 // -------------------------------------- EC-ShopApps ------------------------------------
     'EC-ShopApps' => [
         'title' => 'Aplicaciones instaladas',
-        'sub-title' => 'Lista de aplicaciones que has instalado en tu tienda esta semana.',
-        'tip' => "¿Quieres encontrar más aplicaciones para tu tienda?",
-        'view-app-store' => 'Visite la tienda de aplicaciones de Selldone..',
+        'sub-title' => 'Consulta las aplicaciones instaladas en tu tienda esta semana.',
+        'tip' => "¿Buscas más aplicaciones para mejorar tu tienda?",
+        'view-app-store' => 'Explorar la tienda de aplicaciones de Selldone',
     ],
 
 // -------------------------------------- EC-ShopBots ------------------------------------
     'EC-ShopBots' => [
-        'title' => 'Los robots de tu tienda',
-        'sub-title' => 'Bots de ventas activos en mi tienda.',
-        'tip-title' => 'Venta de bots',
-        'tip' => "Selldone le ha proporcionado bots de ventas automáticos. Todo lo que tienes que hacer es ir al panel Complementos > Bots y activar los bots de tu tienda. Tenga en cuenta que el servicio correspondiente debe estar disponible en su país.",
+        'title' => 'Tus bots de ventas',
+        'sub-title' => 'Descubre los bots de ventas activos en tu tienda.',
+        'tip-title' => 'Impulsa tus ventas con bots',
+        'tip' => "Selldone pone a tu disposición bots de ventas automáticos. Solo tienes que activarlos en la sección Complementos > Bots. Asegúrate de que los servicios necesarios estén disponibles en tu región para que funcionen correctamente.",
         'view-bots' => 'Administrar bots',
     ],
 
 // -------------------------------------- EC-ShopContacts ------------------------------------
     'EC-ShopContacts' => [
-        'title' => 'Comunicación con los Clientes',
-        'sub-title' => '¿Cuántos contactos he tenido con mis clientes esta semana?',
+        'title' => 'Comunicación con los clientes',
+        'sub-title' => 'Consulta el número de interacciones con tus clientes esta semana.',
         'faqs' => 'Preguntas frecuentes',
-        'tickets' => 'Boletos de clientes',
+        'tickets' => 'Tickets de soporte de clientes',
     ],
 
 // -------------------------------------- EC-ShopData ------------------------------------
     'EC-ShopData' => [
-        'title' => 'Estado de los usuarios',
-        'sub-title' => 'Actividad de :start a :end',
+        'title' => 'Resumen de la actividad de los usuarios',
+        'sub-title' => 'Actividad del :start al :end',
         'users' => [
-            'title' => 'Clientes',
-            'subtitle' => 'Registrar Usuarios',
+            'title' => 'Análisis de clientes',
+            'subtitle' => 'Nuevos registros',
         ],
         'views' => [
-            'title' => 'Visitas',
-            'subtitle' => '¿Cuántas veces has visitado la tienda?',
+            'title' => 'Tráfico de la tienda',
+            'subtitle' => 'Cuántas veces se ha visitado tu tienda',
         ],
-        'new_visitors' => 'New Users',
-        'returning_visitors' => 'Usuarios devueltos',
+        'new_visitors' => 'Visitantes nuevos',
+        'returning_visitors' => 'Clientes recurrentes',
 
-        'shop_views' => 'Vistas de la tienda',
+        'shop_views' => 'Vistas totales de la tienda',
         'baskets' => [
             'title' => 'Carritos de compra',
-            'subtitle' => 'Informar el número de carritos de compra nuevos',
+            'subtitle' => 'Número de carritos de compra nuevos creados',
         ],
         'products' => [
             'title' => 'Resumen de productos',
-            'subtitle' => 'Estado de los productos en la tienda por tipo',
-            'value_name' => 'productos'
+            'subtitle' => 'Estado actual de los productos por categoría',
+            'value_name' => 'Productos en la tienda'
         ],
-        'products_count' => 'Tipos de productos',
-        'views_count' => 'Conteo de visitas',
-        'sell_count' => 'Vender cuenta',
-        'send_count' => 'Recuento de envíos',
+        'products_count' => 'Número de categorías de productos',
+        'views_count' => 'Número de vistas',
+        'sell_count' => 'Ventas totales',
+        'send_count' => 'Envíos procesados',
     ],
 
 
 // -------------------------------------- EC-ShopDropShipping ------------------------------------
     'EC-ShopDropShipping' => [
-        'title' => 'Envío de la gota',
-        'sub-title' => 'Panel para los principales vendedores de Drop Shipping Selldone.',
-        'total_fulfillments' => 'Total de pedidos recibidos',
-        'ds_count' => 'Pedidos recibidos',
-        'statistics_title' => 'Reportar pedidos recibidos',
-        'ds_cancels' => 'Cancelar por vendedor de interfaz',
-        'ds_rejects' => 'Cancelar por usted',
-        'tip' => "¿Es usted un importante vendedor de mercancías? ¿Es dueño de un almacén, fábrica o distribuidor de productos? Puede ofrecer sus productos a otros vendedores en el servicio Drop Shipping de Selldone para vender su producto a gran escala. Envíenos un correo electrónico a support@selldone.com para guiarlo.",
-        'view-drop-shipping-panel' => 'Inicie sesión en el panel de venta al por mayor',
+        'title' => 'Resumen de dropshipping',
+        'sub-title' => 'Panel principal para los grandes vendedores de dropshipping de Selldone.',
+        'total_fulfillments' => 'Total de pedidos procesados',
+        'ds_count' => 'Pedidos completados',
+        'statistics_title' => 'Informe de procesamiento de pedidos',
+        'ds_cancels' => 'Cancelados por el vendedor',
+        'ds_rejects' => 'Cancelados por ti',
+        'tip' => "¿Eres un gran vendedor con almacén, fábrica o distribución de productos? Puedes ampliar tu alcance ofreciendo tus productos a otros vendedores a través del servicio de dropshipping de Selldone. Escríbenos a support@selldone.com para conocer más detalles.",
+        'view-drop-shipping-panel' => 'Acceder al panel de venta al por mayor',
     ],
 
 
 // -------------------------------------- EC-ShopExchangeRates ------------------------------------
     'EC-ShopExchangeRates' => [
-        'title' => 'Los tipos de cambio',
-        'sub-title' => 'Lista de las últimas tasas de conversión de moneda en su tienda.',
+        'title' => 'Tipos de cambio',
+        'sub-title' => 'Tipos de cambio actualizados de las monedas de tu tienda.',
         'from' => 'Moneda de origen',
         'to' => 'Moneda de destino',
-        'rate' => 'Tasa de conversión',
+        'rate' => 'Tipo de cambio',
         'view-exchange-panel' => 'Administrar tipos de cambio',
     
         'vew-exchange-panel' => 'panel de gestión de tipo de cambio',
@@ -687,127 +687,127 @@ return [
 // -------------------------------------- EC-ShopExperts ------------------------------------
     'EC-ShopExperts' => [
         'title' => 'Contratos de expertos',
-        'sub-title' => '¿Qué profesionales trabajan en mi tienda?',
+        'sub-title' => '¿Qué expertos están trabajando en tu tienda?',
         'cost' => 'Monto del contrato',
-        'duration' => 'Duración',
-        'start_at' => 'Start Date',
-        'complete_at' => 'Completion Date',
-        'cancel_at' => 'Fecha Cancelar',
+        'duration' => 'Duración del contrato',
+        'start_at' => 'Fecha de inicio',
+        'complete_at' => 'Fecha de finalización',
+        'cancel_at' => 'Fecha de cancelación',
         'end_at' => 'Fecha de entrega',
-        'tip' => 'Puede contratar a los mejores especialistas en Selldone para desarrollar su negocio.',
-        'view-experts' => 'Haga clic para comenzar.',
+        'tip' => 'Contrata a los mejores expertos de Selldone para hacer crecer tu negocio.',
+        'view-experts' => 'Empezar con los expertos',
     ],
 
 
 // -------------------------------------- EC-ShopGateways ------------------------------------
     'EC-ShopGateways' => [
-        'title' => 'Payment gateways',
-        'sub-title' => 'Reportar pasarelas de pago activas en la tienda :shop.',
-        'tip-title' => 'Consejos importantes',
-        'tip' => "Vaya a la página de administración del portal en su tienda y agregue al menos un puerto en unos minutos. A tus clientes les gusta pagar de forma rápida y segura a través de portales online.",
-        'view-shop-gateways' => 'Inicie sesión en la gestión del portal de mi tienda.',
-        'view-gateways' => 'Vea más puertas de enlace',
+        'title' => 'Pasarelas de pago',
+        'sub-title' => 'Pasarelas de pago activas en tu tienda :shop.',
+        'tip-title' => 'Consejos rápidos',
+        'tip' => "Ve a la página de gestión de pasarelas de tu tienda y añade una pasarela de pago en solo unos minutos. Tus clientes prefieren opciones de pago rápidas y seguras.",
+        'view-shop-gateways' => 'Acceder a la gestión de pasarelas de la tienda',
+        'view-gateways' => 'Ver más pasarelas de pago',
     ],
 
 
 // -------------------------------------- EC-ShopOrders ------------------------------------
     'EC-ShopOrders' => [
-        'title' => 'Pedidos',
-        'sub-title' => 'Lista de pedidos que he recibido esta semana.',
+        'title' => 'Resumen de pedidos',
+        'sub-title' => 'Todos los pedidos recibidos esta semana.',
         'total_baskets' => 'Pedidos totales',
-        'total_posBaskets' => 'Total de pedidos en efectivo',
-        'pos-title' => 'Caja de tienda POS',
-        'chart-label' => 'Pedidos completados (¡estos pedidos no están necesariamente pagados!)',
-        'tip-title' => 'Deberías esforzarte más...',
-        'tip' => "Ningún éxito sencillo.",
+        'total_posBaskets' => 'Total de pagos en efectivo',
+        'pos-title' => 'Caja registradora POS',
+        'chart-label' => 'Pedidos completados (nota: no todos los pedidos completados están pagados)',
+        'tip-title' => 'Sigue esforzándote...',
+        'tip' => "El éxito requiere esfuerzo constante. ¡No pierdas la motivación!",
     ],
 
 // -------------------------------------- EC-ShopProcessCenter ------------------------------------
     'EC-ShopProcessCenter' => [
         'title' => 'Centro de procesamiento',
-        'sub-title' => '¿Cuánto pedido procesamos en la tienda esta semana?',
-        'tip-title' => '¡No tuviste una venta!',
-        'tip' => "Desafortunadamente no tuviste ninguna venta esta semana. Necesitas llegar más a tu tienda. Puede agregar más productos, elegir mejores imágenes o escribir mejores descripciones para sus productos. Considere un trabajo de tiempo completo para su negocio. Si lo haces bien y no te frustras, tendrás éxito.",
-        'view-process-center' => 'Ver centro de procesos',
+        'sub-title' => '¿Cuántos pedidos se han procesado en tu tienda esta semana?',
+        'tip-title' => '¿Sin ventas esta semana?',
+        'tip' => "Parece que esta semana no has tenido ventas. No te preocupes: todos los negocios pasan por periodos lentos. Mejora el rendimiento de tu tienda añadiendo más productos, cuidando las imágenes y perfeccionando las descripciones. Plantéate dedicar a tu negocio el mismo compromiso que a un trabajo a tiempo completo. Sigue adelante, mantén una actitud positiva y el éxito llegará.",
+        'view-process-center' => 'Ver el centro de procesamiento',
         'return' => [
-            'title' => 'Pedido devuelto',
-            'subtitle' => 'Informe de pedidos devueltos.',
-            'tip-title' => 'Sabía usted que ...',
-            'tip' => "¡Puedes crear tantas cajas registradoras como necesites con Selldone POS! Ya sea tu tablet, móvil o portátil, podrás convertir cualquier dispositivo en el punto de venta de tu tienda. Es simple, rápido de configurar y completamente preparado para su servidor. ¡Empieza a usarlo hoy!",
-            'view-pos' => 'Iniciar sesión en el cajero de mi tienda en línea'
+            'title' => 'Pedidos devueltos',
+            'subtitle' => 'Haz seguimiento de tus pedidos devueltos.',
+            'tip-title' => '¿Sabías que...?',
+            'tip' => "¡Puedes crear tantas cajas registradoras como necesites con Selldone POS! Ya sea tu tablet, tu móvil o tu portátil, puedes convertir cualquier dispositivo en el punto de venta de tu tienda. Es sencillo, rápido de configurar y está totalmente listo para tu servidor. ¡Empieza a usarlo hoy mismo!",
+            'view-pos' => 'Acceder a la caja de mi tienda'
         ]
     ],
 
 
 // -------------------------------------- EC-ShopSessions ------------------------------------
     'EC-ShopSessions' => [
-        'title' => 'Sesiones',
-        'sub-title' => '¿Cuántas veces visité mi tienda?',
-        'countries-title' => '¿Qué países han sido los más visitados?',
+        'title' => 'Sesiones de la tienda',
+        'sub-title' => '¿Con qué frecuencia visitan tu tienda los clientes?',
+        'countries-title' => '¿De qué países llegan más visitantes?',
     ],
 
 
 // -------------------------------------- EC-PublicMessage ------------------------------------
     'EC-PublicMessage' => [
         'title' => '¿Quieres ganar dinero sin gastar un dólar?',
-        'message' => "Hola :name, ¡es hora de empezar a ganar con Selldone! Vaya a Panel de control > Más > Monetización > Obtenga su enlace de referencia. Comparte el enlace con tus amigos y gana tarjetas de regalo y una parte de sus pagos. ¿La mejor parte? ¡Tanto tú como tu amigo recibirán una tarjeta de regalo!",
-        'action' => 'Ver mi enlace de introducción',
-        'mail-clip' => "<b style='color: #C2185B'>Importante:</b> si utiliza servicios de correo electrónico como Gmail que limitan la longitud del correo electrónico, busque la siguiente opción al final del correo electrónico para mostrar el informe completo y haga clic en él:",
+        'message' => "Hola :name, ¡es hora de empezar a ganar dinero con Selldone! Ve a Panel > Más > Monetización > Obtén tu enlace de referido. Comparte el enlace con tus amigos y consigue tarjetas de regalo y una parte de sus pagos. ¿Lo mejor de todo? ¡Una tarjeta de regalo para ti y otra para tu amigo!",
+        'action' => 'Obtener mi enlace de referido',
+        'mail-clip' => "<b style='color: #C2185B'>Importante:</b> Si usas servicios de correo como Gmail, que limitan la longitud de los mensajes, desplázate hasta el final de este correo para ver el informe completo. Haz clic para leer más:",
 
-        'no-coin-reward' => "<b style='color: #C2185B'>Lo sentimos:</b> su actividad no cumplió con los requisitos para obtener la recompensa de SEL Coins gratis. Esfuérzate más y vende más en tu tienda para la próxima temporada.",
-        'yes-coin-reward' => "<b style='color: #4CAF50'>Recompensa:</b> Felicitaciones, debido a su fantástico desempeño, le otorgamos una recompensa gratuita de :amount SEL Coin.",
+        'no-coin-reward' => "<b style='color: #C2185B'>Vaya:</b> Tu actividad de este periodo no ha alcanzado el mínimo para recibir SEL Coins gratis. Sigue esforzándote y vende más la próxima temporada para conseguirlos.",
+        'yes-coin-reward' => "<b style='color: #4CAF50'>Felicidades:</b> ¡Buen trabajo! Por tu excelente rendimiento, hemos abonado :amount SEL Coins en tu cuenta como recompensa.",
 
-        'need-buy-license' => "<b>Sube de nivel tu negocio:</b> ¡Parece que aún no has registrado ningún plan de suscripción para tu sitio web! Actualice ahora para desbloquear más funciones por solo :amount por mes si paga anualmente.",
-        'not-afford-message' => "Si no puede pagar o tiene algún problema con el pago, no dude en comunicárnoslo a través de support@selldone.com.",
-        'add-domain' => "<b>¿Por qué no tener un dominio personalizado para su negocio?</b><br> Agregue un dominio a su sitio web ahora; ¡es gratis!"
+        'need-buy-license' => "<b>Lleva tu negocio al siguiente nivel:</b> ¡Parece que aún no has contratado ningún plan de suscripción para tu sitio web! Mejóralo ahora y desbloquea más funciones por solo :amount al mes con pago anual.",
+        'not-afford-message' => "Si tienes algún problema con el pago o ahora mismo no puedes permitírtelo, no dudes en escribirnos a support@selldone.com.",
+        'add-domain' => "<b>¡Refuerza tu marca con un dominio personalizado!</b><br>Consigue hoy mismo un dominio personalizado para tu sitio web: es gratis y aporta un toque profesional."
     ],
 
 
     // -------------------------------------- Widget-Socials ------------------------------------
     'Widget-Socials' => [
-        'title' => "Selldone es un<del> producto</del> <span style = 'color: forestgreen'>comunidad</span><br> ¡Sé un Selldoner profesional!",
-        'message' => "Siga las páginas oficiales de Selldone en Twitter, LinkedIn y redes sociales. Envíenos cualquier comentario, solicitud o crítica o participe en debates sobre Selldone. También somos parte de la comunidad de Selldone que <b>Tú haces</b> ."
+        'title' => "Selldone <del>es un producto</del> <span style = 'color: forestgreen'> es una comunidad</span>.<br>¡Sé un Selldoner profesional!",
+        'message' => "Sigue las páginas oficiales de Selldone en Twitter, LinkedIn y otras redes sociales. Envíanos tus comentarios, solicitudes o críticas, o participa en los debates sobre Selldone. Nosotros también formamos parte de la comunidad de Selldone que <b>tú creas</b>."
     ],
 
 
     // -------------------------------------- Avocado (Seller) ------------------------------------
     'avocado-seller-daily-report' => [
-        'subject' => 'Se reciben nuevos pedidos de aguacates | :shop_title :time',
-        'title' => "Informe de rendimiento de las últimas 24 horas",
-        'message' => "Sus clientes están esperando que sus pedidos sean revisados y cotizados. Responda a las solicitudes de sus clientes lo antes posible para obtener más ventas.",
-        'card_title' => "Pedidos en la cola",
+        'subject' => 'Nuevos pedidos de Avocado recibidos | :shop_title :time',
+        'title' => "Informe de ventas de Avocado de las últimas 24 horas",
+        'message' => "Tienes nuevos pedidos pendientes de revisar y presupuestar. Responde rápido a las solicitudes de tus clientes para aumentar tus ventas.",
+        'card_title' => "Pedidos pendientes",
         'card_subtitle' => "Desde :date",
 
-        'card_payed' => "pedidos pagados"
+        'card_payed' => "Pedidos pagados"
     ],
 
 
     // -------------------------------------- Community > Post ------------------------------------
     'community-comments' => [
-        'subject' => 'Responde a tu publicación en :community_title',
-        'title' => ":name, y :count otros comentaron en tus publicaciones.",
-        'message' => "Hola :name, ¡tus publicaciones están llamando la atención! Has recibido comentarios en nuestra comunidad. Inicie sesión en su cuenta para unirse a la discusión y ver lo que todos dicen.",
-        'title-simple' => ":name comentó en tus publicaciones.",
+        'subject' => 'Nuevas respuestas a tu publicación en :community_title',
+        'title' => "¡:name y otras :count personas se han unido a la conversación en tus publicaciones!",
+        'message' => "Hola :name, ¡tus publicaciones están llamando la atención! Has recibido comentarios en nuestra comunidad. Inicia sesión en tu cuenta para unirte a la conversación y ver lo que dicen todos.",
+        'title-simple' => "¡:name ha comentado en tu publicación!",
     ],
 
 
     // -------------------------------------- Community > Topic ------------------------------------
     'community-topic' => [
-        'subject' => '🔔 Responde a tu tema :topic_title',
-        'title' => ":name, y :count otros respondieron sobre tu tema.",
-        'message' => "Hola :name, ¡tu tema está llamando la atención! Has recibido respuestas en nuestra comunidad. Inicie sesión en su cuenta para unirse a la discusión y ver lo que todos dicen.",
-        'title-simple' => ":name respondió sobre tu tema.",
+        'subject' => '🔔 Respuesta a tu tema :topic_title',
+        'title' => ":name y otras :count personas han respondido a tu tema.",
+        'message' => "Hola :name, ¡tu tema está llamando la atención! Has recibido respuestas en nuestra comunidad. Inicia sesión en tu cuenta para unirte a la conversación y ver lo que dicen todos.",
+        'title-simple' => ":name ha respondido a tu tema.",
     ],
 
     // -------------------------------------- User > Login ------------------------------------
     'user-login' => [
         'subject' => '🔔 Nuevo inicio de sesión :name',
         'category' => 'Notificaciones de seguridad',
-        'title' => "Iniciar sesión en la cuenta",
-        'message' => "Estimado :name, se detectó un inicio de sesión en su cuenta de Selldone.",   // Login in selldone (seller)
-        'message-shop' => "Estimado :name, has iniciado sesión en :shop_title .",  // Login in shop (buyer)
+        'title' => "Inicio de sesión en tu cuenta",
+        'message' => "Hola :name, hemos detectado un inicio de sesión en tu cuenta de Selldone.",   // Login in selldone (seller)
+        'message-shop' => "Hola :name, hemos detectado un inicio de sesión en :shop_title.",  // Login in shop (buyer)
 
-        'footer' => "Si no ha iniciado sesión, cambie su contraseña.",
+        'footer' => "Si no has sido tú quien ha iniciado sesión, cambia tu contraseña.",
 
     ],
 
@@ -817,15 +817,15 @@ return [
         'withdraw' => "Retiro",
         'deposit' => "Depósito",
 
-        'withdraw_subject' => "Retirar de la cuenta :account",
-        'deposit_subject' => "Depositar en cuenta :account",
+        'withdraw_subject' => "Retiro de la cuenta :account",
+        'deposit_subject' => "Depósito en la cuenta :account",
 
-        'message' => "La transferencia de dinero se ha realizado con las siguientes especificaciones.",
+        'message' => "La transferencia se ha realizado con los siguientes datos.",
 
         'type' => "Tipo de transacción",
 
         'from' => "Cuenta de origen",
-        'to' => "Destination account",
+        'to' => "Cuenta de destino",
 
         'desc' => "Descripción de la transacción",
         'action' => "Ver transacción",
@@ -833,19 +833,19 @@ return [
     // -------------------------------------- Shop > Penalty ------------------------------------
 
     'penalty' => [
-        'subject' => "⛔ ¡Importante! Violación de reglas | :shop",
-        'category' => "Informe crítico",
+        'subject' => "⛔ ¡Importante! Incumplimiento de las normas | :shop",
+        'category' => "Aviso importante",
         'title' => "Tu tienda ha sido penalizada",
-        'action' => "Abrir panel de control de la tienda",
+        'action' => "Abrir el panel de la tienda",
     ],
 
 
     // -------------------------------------- User > Invite friend ------------------------------------
     'invite' => [
-        'subject' => ":inviter te invitó a Selldone",
-        'title' => ":name le envió :amount para ayudarlo a lanzar su nuevo sitio web en línea y monetizarlo.",
-        'message' => "Hola **:receiver_name**,<br><br>¡Bienvenido a Selldone! En Selldone, puede crear fácilmente su sitio de comercio electrónico, blog, comunidad en línea e incluso configurar un sistema POS en línea para ventas en persona, todo en cuestión de minutos. Es el sistema operativo empresarial en línea completo diseñado para hacer que su negocio sea mejor, más rápido y más fácil de administrar.<br><br>Regístrese mediante <b>:date</b> y reciba un cupón :amount para comenzar.",
-        'accept' => "Aceptar la invitacion",
+        'subject' => ":inviter te ha invitado a unirte a Selldone",
+        'title' => "¡:name te ha enviado :amount para ayudarte a lanzar tu nueva tienda online y monetizarla!",
+        'message' => "Hola **:receiver_name**,<br><br>¡Te damos la bienvenida a Selldone! Con Selldone puedes crear fácilmente tu sitio de comercio electrónico, tu blog y tu comunidad en línea, e incluso configurar un sistema POS en línea para tus ventas presenciales, todo en cuestión de minutos. Es el sistema operativo completo para negocios en línea, diseñado para que gestiones tu negocio mejor, más rápido y con menos esfuerzo.<br><br>Regístrate antes del <b>:date</b> y recibe un vale de :amount para empezar.",
+        'accept' => "Aceptar la invitación",
         'owner' => "Propietario de",
         'join-date' => "En Selldone desde",
     ],
@@ -853,9 +853,9 @@ return [
     // -------------------------------------- Shop > Recovery mail ------------------------------------
     'shop-recovery' => [
         'subject' => "Enlace de recuperación | :shop",
-        'category' => "Tienda de seguridad",
-        'title' => "Almacene el enlace de recuperación de <b>:shop_name</b> .",
-        'message' => "Te enviamos este correo electrónico porque solicitaste restaurar tu tienda. Al hacer clic en el enlace a continuación, recuperará su tienda y todos los datos que le pertenecen.",
+        'category' => "Seguridad de la tienda",
+        'title' => "Enlace de recuperación de la tienda <b>:shop_name</b>.",
+        'message' => "Te enviamos este correo electrónico porque has solicitado restaurar tu tienda. Al hacer clic en el enlace de abajo, recuperarás tu tienda y todos los datos que le pertenecen.",
         'action' => "Confirmar la recuperación de la tienda",
 
     ],
@@ -863,8 +863,8 @@ return [
 
     // -------------------------------------- SR-SeasonalSaving ------------------------------------
     'SR-SeasonalSaving' => [
-        'title' => '¿Cuánto dinero ahorró Selldone para su negocio?',
-        'sub-title' => 'Desde fecha :start a :end',
+        'title' => '¿Cuánto dinero le ha ahorrado Selldone a tu negocio?',
+        'sub-title' => 'Del :start al :end',
         'infrastructure' => [
             'title' => 'Infraestructura',
             'subtitle' => 'Servidores, CDN, almacenamiento y otros servicios en la nube',
@@ -873,55 +873,55 @@ return [
             'title' => 'Expertos y personal',
             'subtitle' => 'Desarrolladores, mantenimiento y soporte',
         ],
-        'total_save' => 'Dinero total ahorrado'
+        'total_save' => 'Ahorro total'
     ],
     // -------------------------------------- SR-SeasonalPerformance ------------------------------------
     'SR-SeasonalPerformance' => [
-        'title' => 'Tu actuación',
-        'sub-title' => 'Descripción general del negocio de :start a :end',
+        'title' => 'Tu rendimiento',
+        'sub-title' => 'Resumen de tu negocio del :start al :end',
 
-        'new_visitors' => 'New Users',
-        'returning_visitors' => 'Usuarios devueltos',
+        'new_visitors' => 'Usuarios nuevos',
+        'returning_visitors' => 'Usuarios recurrentes',
 
         'shop_views' => 'Vistas de la tienda',
         'baskets' => [
             'title' => 'Carritos de compra',
-            'subtitle' => 'Informar el número de carritos de compra nuevos',
+            'subtitle' => 'Número de carritos de compra nuevos',
 
         ],
         'products' => [
             'title' => 'Resumen de productos',
             'subtitle' => 'Estado de los productos en la tienda por tipo',
-            'value_name' => 'productos'
+            'value_name' => 'Productos'
         ],
         'views' => [
-            'title' => 'Page Views',
-            'subtitle' => 'Vistas totales de la página del sitio web',
+            'title' => 'Vistas de página',
+            'subtitle' => 'Vistas totales de las páginas del sitio web',
         ],
     ],
 
 
     // ██████████████████████ Marketplace ██████████████████████
     'vendor-order' => [
-        'title' => 'New Order',
-        'message' => "Ha recibido un nuevo pedido. Vaya a la página de procesamiento de pedidos en su panel de proveedor.",
+        'title' => 'Nuevo pedido',
+        'message' => "Has recibido un nuevo pedido. Ve a la página de procesamiento de pedidos en tu panel de vendedor.",
         'subject' => "🛍️ Nuevo pedido recibido | :order_id",
-        'your_revenue' => "Sus ingresos",
+        'your_revenue' => "Tus ingresos",
     ],
     'vendor-invite' => [
-        'title' => 'Invitación del vendedor',
+        'title' => 'Invitación para ser vendedor',
         'message' => "Has recibido una invitación para convertirte en vendedor de :shop_name. Puedes aceptarla o rechazarla haciendo clic en los siguientes botones.",
-        'subject' => ":shop_name | Recibiste una invitación para convertirte en nuestro proveedor",
-        'accept' => "Acepte y conviértase en proveedor",
+        'subject' => ":shop_name | Invitación para convertirte en nuestro vendedor",
+        'accept' => "Acepta y conviértete en vendedor",
         'reject' => "Rechazar",
 
     ],
 
     // Staff of vendor
     'vendor-member-invite' => [
-        'title' => 'Invitación a unirse a nuestro equipo',
-        'message' => "Ha sido invitado a unirse a :vendor_name en :shop_name. Puede aceptar o rechazar esta invitación utilizando los botones a continuación.",
-        'subject' => "Invitación a unirse a :vendor_name | Conviértete en miembro del equipo",
+        'title' => 'Invitación para unirte a nuestro equipo',
+        'message' => "Te han invitado a unirte a :vendor_name en :shop_name. Puedes aceptar o rechazar esta invitación con los botones de abajo.",
+        'subject' => "Invitación para unirte a :vendor_name | Conviértete en miembro del equipo",
         'accept' => "Acepta y únete al equipo",
         'reject' => "Rechazar",
 
@@ -929,16 +929,16 @@ return [
 
     // -------------------------------------- ShopEmailLogin ------------------------------------
     'shop-email-login' => [
-        'subject' => "Su código de acceso para :shop",
-        'header-message' => "Le enviamos este correo electrónico porque solicitó un código de inicio de sesión para la tienda. A continuación, encontrará su contraseña de un solo uso (OTP):",
-        'footer-message' => "Este código será válido durante 10 minutos. Si no solicitó este código de inicio de sesión, ignore este correo electrónico."
+        'subject' => "Tu código de acceso para :shop",
+        'header-message' => "Te enviamos este correo electrónico porque has solicitado un código de acceso para la tienda. A continuación encontrarás tu contraseña de un solo uso (OTP):",
+        'footer-message' => "Este código será válido durante 10 minutos. Si no has solicitado este código de acceso, ignora este correo electrónico."
     ],
 
     // -------------------------------------- ShopEmailVerifyLinkEmail ------------------------------------
     'shop-email-verify-link' => [
         'subject' => "Verifica tu correo electrónico | :shop",
         'title' => 'Verificación de correo electrónico',
-        'header-message' => "Hola :name:<br>Confirme que **:email** es su dirección de correo electrónico haciendo clic en el botón a continuación o utilizando el enlace a continuación dentro de las 48 horas.",
+        'header-message' => "Hola :name,<br>Confirma que **:email** es tu dirección de correo electrónico haciendo clic en el botón de abajo o usando el enlace, en un plazo de 48 horas.",
         'footer-message' => ""
     ],
 
@@ -946,22 +946,22 @@ return [
     // -------------------------------------- VendorProductsChangeEmail ------------------------------------
     'vendor-products' => [
         'subject' => "Actualizaciones de productos | :shop",
-        'title' => "Actualización del estado del producto: últimas 24 horas",
-        'message' => "Espero que este mensaje te encuentre bien. Esta es una breve actualización para informarle sobre el estado de sus productos en nuestra plataforma durante las últimas 24 horas.\nDurante este período se han producido cambios en el estado de algunos productos. Estos cambios pueden deberse a compras, actualizaciones de stock u otros eventos relacionados.\nPara obtener información más detallada sobre cada producto, inicie sesión en su cuenta y consulte la sección \"Estado del producto\".",
-        'action' => "Abrir panel de proveedores",
+        'title' => "Actualización del estado de tus productos: últimas 24 horas",
+        'message' => "Espero que estés bien. Esta es una breve actualización para informarte del estado de tus productos en nuestra plataforma durante las últimas 24 horas.\nDurante este periodo se han producido cambios en el estado de algunos productos. Estos cambios pueden deberse a compras, actualizaciones de existencias u otros eventos relacionados.\nPara obtener información más detallada sobre cada producto, inicia sesión en tu cuenta y consulta la sección \"Estado del producto\".",
+        'action' => "Abrir el panel de vendedor",
     ],
 
     // -------------------------------------- ShopBulkOrdersEmail ------------------------------------
     'bulk-orders' => [
-        'subject' => "Pedidos al por mayor recibidos | :shop | :date",
-        'title' => "Notificación de pedidos al por mayor",
-        'message' => "Ha recibido un lote de pedidos al por mayor. Visite la página de procesamiento de pedidos en su panel para obtener más detalles. También puede descargar la lista de pedidos a través del enlace seguro proporcionado, válido por 7 días.<br><br>\r\n        <b>IMPORTANTE:</b> Este enlace es válido por 7 días.<br>\r\n        Este enlace es dinámico, por lo que cada vez que hagas clic en él recibirás los pedidos más actualizados para esta fecha específica. <b>Esto significa que si el estado de pago del pedido cambia a rechazado, ya no verá ese pedido en el CSV descargado, o si el pedido se paga, aparecerá en la lista.</b><br><br>\r\n        <ul>\r\n            <li>El CSV contiene pedidos pagados con fecha reservada en :date.</li>\r\n            <li>La fecha reservada es la fecha en la que el usuario hace clic en pagar en la página del pedido.</li>\r\n        </ul>\r\n        <b>Para evitar pedidos duplicados, verifique siempre el ID del pedido antes de enviarlo.</b>",
+        'subject' => "Pedidos masivos recibidos | :shop | :date",
+        'title' => "Notificación de pedidos masivos",
+        'message' => "Has recibido un lote de pedidos masivos. Visita la página de procesamiento de pedidos en tu panel para ver más detalles. También puedes descargar la lista de pedidos mediante el enlace seguro proporcionado, válido durante 7 días.<br><br>\n        <b>IMPORTANTE:</b> Este enlace es válido durante 7 días.<br>\n        Este enlace es dinámico, por lo que cada vez que hagas clic en él recibirás los pedidos más actualizados de esa fecha concreta. <b>Esto significa que, si el estado de pago de un pedido cambia a rechazado, ese pedido ya no aparecerá en el CSV descargado, y que si el pedido se paga, sí aparecerá en la lista.</b><br><br>\n        <ul>\n            <li>El CSV contiene los pedidos pagados con fecha de reserva en :date.</li>\n            <li>La fecha de reserva es la fecha en la que el usuario hace clic en finalizar compra en la página del pedido.</li>\n        </ul>\n        <b>Para evitar pedidos duplicados, comprueba siempre el ID del pedido antes de enviarlo.</b>\n    ",
         'action' => "Descargar lista de pedidos",
     ],
 
     // -------------------------------------- Order Refund ------------------------------------
     'order-refund' => [
-        'message' => "Algunos artículos de su pedido no fueron aceptados y no se pueden entregar. El importe de estos artículos se reembolsará en su tarjeta en breve."
+        'message' => "Algunos artículos de tu pedido no se han aceptado y no se pueden entregar. El importe de esos artículos se reembolsará en tu tarjeta en breve."
     ]
 
 ,

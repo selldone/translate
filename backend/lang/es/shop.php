@@ -21,15 +21,15 @@ return [
 
     ],
     'about' => 'Sobre nosotros',
-    'contact' => 'Contáctenos',
+    'contact' => 'Contáctanos',
 
 
     'buy-action' => "Comprar ahora",
-    'buy-action-variant' => "Seleccione y compre ahora",
+    'buy-action-variant' => "Selecciona y compra ahora",
 
     'product-images' => "Imágenes",
     'product-spec' => "Especificaciones",
-    'Comments' => "Reseñas y calificaciones",
+    'Comments' => "Reseñas y valoraciones",
     'related' => "Productos relacionados",
     'view-now' => "Ver ahora",
 

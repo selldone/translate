@@ -13,14 +13,14 @@ return [
     AuthServiceProvider::SCOPE_SELLDONE_ADMINISTRATOR => 'Alcance del administrador de Selldone.',
     AuthServiceProvider::SCOPE_SELLDONE_INVESTOR => 'Acceso restringido a inversores.',
 
-    AuthServiceProvider::SCOPE_USER_PROFILE_READ => 'Lea la información del perfil, incluido el nombre, la dirección de correo electrónico, la imagen y el estado de autenticación.',
-    AuthServiceProvider::SCOPE_USER_PHONE => 'Acceso al número de contacto',
-    AuthServiceProvider::SCOPE_USER_ADDRESS => 'Leer y editar la dirección de la libreta de direcciones guardada',
+    AuthServiceProvider::SCOPE_USER_PROFILE_READ => 'Ver los detalles del perfil de usuario.',
+    AuthServiceProvider::SCOPE_USER_PHONE => 'Leer el número de teléfono.',
+    AuthServiceProvider::SCOPE_USER_ADDRESS => 'Leer y actualizar las direcciones guardadas.',
     AuthServiceProvider::SCOPE_USER_PROFILE_WRITE => 'Actualizar perfil de usuario.',
 
-    AuthServiceProvider::SCOPE_STOREFRONT_BUY => 'Pedido y pedido de tienda.',
-    AuthServiceProvider::SCOPE_STOREFRONT_ORDER_HISTORY => 'Leer historial de pedidos.',
-    AuthServiceProvider::SCOPE_STOREFRONT_MY_GIFT_CARDS => 'Acceso a mis tarjetas de regalo.',
+    AuthServiceProvider::SCOPE_STOREFRONT_BUY => 'Realizar pedidos.',
+    AuthServiceProvider::SCOPE_STOREFRONT_ORDER_HISTORY => 'Ver el historial de pedidos.',
+    AuthServiceProvider::SCOPE_STOREFRONT_MY_GIFT_CARDS => 'Acceder a las tarjetas de regalo.',
 
     AuthServiceProvider::SCOPE_ARTICLES => 'Editar artículos.',
     AuthServiceProvider::SCOPE_BACKOFFICE_NOTIFICATION => 'Gestionar notificaciones.',
@@ -42,7 +42,7 @@ return [
     AuthServiceProvider::SCOPE_BACKOFFICE_PRODUCT_READ => 'Ver productos.',
 
     AuthServiceProvider::SCOPE_BACKOFFICE_REPORT_READ => 'Ver informes.',
-    AuthServiceProvider::SCOPE_BACKOFFICE_FINANCE_WRITE => 'Administrar cuentas financieras.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_FINANCE_WRITE => 'Gestionar cuentas financieras.',
     AuthServiceProvider::SCOPE_BACKOFFICE_FINANCE_READ => 'Ver cuentas financieras.',
     AuthServiceProvider::SCOPE_BACKOFFICE_PAGE_WRITE => 'Editar páginas de la tienda.',
     AuthServiceProvider::SCOPE_BACKOFFICE_PAGE_READ => 'Ver páginas de la tienda.',
@@ -56,12 +56,12 @@ return [
     AuthServiceProvider::SCOPE_BACKOFFICE_BUSINESS_PROFILE_READ => 'Ver perfil comercial.',
     AuthServiceProvider::SCOPE_BACKOFFICE_DISCOUNT_CODE_WRITE => 'Gestionar códigos de descuento.',
     AuthServiceProvider::SCOPE_BACKOFFICE_DISCOUNT_CODE_READ => 'Ver códigos de descuento.',
-    AuthServiceProvider::SCOPE_BACKOFFICE_COUPON_WRITE => 'Administrar cupones.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_COUPON_WRITE => 'Gestionar cupones.',
     AuthServiceProvider::SCOPE_BACKOFFICE_COUPON_READ => 'Ver cupones.',
     AuthServiceProvider::SCOPE_BACKOFFICE_OFFER_WRITE => 'Gestionar ofertas.',
     AuthServiceProvider::SCOPE_BACKOFFICE_OFFER_READ => 'Ver ofertas.',
-    AuthServiceProvider::SCOPE_BACKOFFICE_CASHBACK_WRITE => 'Gestionar reembolsos.',
-    AuthServiceProvider::SCOPE_BACKOFFICE_CASHBACK_READ => 'Ver reembolsos.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_CASHBACK_WRITE => 'Gestionar cashbacks.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_CASHBACK_READ => 'Ver cashbacks.',
 
     AuthServiceProvider::SCOPE_BACKOFFICE_LOTTERY_WRITE => 'Gestionar loterías.',
     AuthServiceProvider::SCOPE_BACKOFFICE_LOTTERY_READ => 'Ver loterías.',
@@ -72,17 +72,17 @@ return [
     AuthServiceProvider::SCOPE_BACKOFFICE_RIBBON_WRITE => 'Gestionar suscripciones.',
     AuthServiceProvider::SCOPE_BACKOFFICE_RIBBON_READ => 'Ver suscripciones.',
 
-    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_READ => 'Acceso a acciones de cumplimiento de pedidos de proveedores.',
-    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_WRITE => 'Órdenes de cambio, pago y otra información del proveedor.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_READ => 'Ver los pedidos de los vendedores.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_WRITE => 'Gestionar los pedidos y pagos de los vendedores.',
 
-    AuthServiceProvider::SCOPE_CONNECT_PROVIDER_WRITE => 'Administrar proveedores de conexión.',
+    AuthServiceProvider::SCOPE_CONNECT_PROVIDER_WRITE => 'Gestionar proveedores de conexión.',
     AuthServiceProvider::SCOPE_CONNECT_PROVIDER_READ => 'Ver proveedores de conexión.',
 
-    AuthServiceProvider::SCOPE_BACKOFFICE_AI_WRITE => 'Ejecuta comandos de IA.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_AI_WRITE => 'Ejecutar comandos de IA.',
     AuthServiceProvider::SCOPE_BACKOFFICE_AI_READ => 'Ver información de IA.',
 
-    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_PAYMENT_WRITE => 'Gestionar pagos a proveedores.',
-    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_PAYMENT_READ => 'Ver pagos de proveedores.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_PAYMENT_WRITE => 'Gestionar los pagos a los vendedores.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_VENDOR_PAYMENT_READ => 'Ver los pagos a los vendedores.',
 
     AuthServiceProvider::SCOPE_BACKOFFICE_COMPANY_READ => 'Ver perfil comercial.',
     AuthServiceProvider::SCOPE_BACKOFFICE_COMPANY_WRITE => 'Gestionar perfil comercial.',
@@ -98,16 +98,16 @@ return [
 
     // Restricted:
     AuthServiceProvider::SCOPE_SELLDONE_IDENTIFICATION => 'Acceder a información personal y configuración de cuenta.',
-    AuthServiceProvider::SCOPE_BACKOFFICE_WALLET_WRITE => 'Administrar billetera y transacciones.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_WALLET_WRITE => 'Gestionar la billetera y las transacciones.',
     AuthServiceProvider::SCOPE_BACKOFFICE_WALLET_READ => 'Ver transacciones de billetera.',
     AuthServiceProvider::SCOPE_SELLDONE_TOKEN_READ => 'Ver tokens y clientes de OAuth.',
-    AuthServiceProvider::SCOPE_SELLDONE_TOKEN_WRITE => 'Administre tokens y clientes de OAuth.',
-    AuthServiceProvider::SCOPE_SELLDONE_SECURITY_WRITE => 'Administrar la configuración de seguridad.',
+    AuthServiceProvider::SCOPE_SELLDONE_TOKEN_WRITE => 'Gestionar tokens y clientes de OAuth.',
+    AuthServiceProvider::SCOPE_SELLDONE_SECURITY_WRITE => 'Gestionar la configuración de seguridad.',
 
-    AuthServiceProvider::SCOPE_BACKOFFICE_AFFILIATE_WRITE => 'Administrar afiliados.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_AFFILIATE_WRITE => 'Gestionar afiliados.',
     AuthServiceProvider::SCOPE_BACKOFFICE_AFFILIATE_READ => 'Ver afiliados.',
 
-    AuthServiceProvider::SCOPE_BACKOFFICE_PRINT_WRITE => 'Administrar plantillas de impresión.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_PRINT_WRITE => 'Gestionar plantillas de impresión.',
     AuthServiceProvider::SCOPE_BACKOFFICE_PRINT_READ => 'Ver plantillas de impresión.',
 
     AuthServiceProvider::SCOPE_BACKOFFICE_REVIEWS_WRITE => 'Gestionar reseñas.',
