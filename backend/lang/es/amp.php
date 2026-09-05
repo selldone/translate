@@ -5,59 +5,59 @@ return [
 
     'home' => 'Selldone',
     'blogs' => 'Blog',
-    'helps' => 'Ayudar',
-    'current_location' => 'esta entrada',
+    'helps' => 'Ayuda',
+    'current_location' => 'Esta entrada',
     'Dashboard' => 'Panel de control',
     'my_shops' => 'Mis tiendas',
-    'Wallet' => 'Cartera',
+    'Wallet' => 'Billetera',
     'about' => 'Acerca de Selldone',
-    'contact' => 'contact us',
+    'contact' => 'Contáctanos',
     'Comments' => 'Comentarios',
-    'likes' => 'Gustos',
-    'power' => 'alegría',
+    'likes' => 'Me gusta',
+    'power' => 'Aplausos',
     'build_free_shop' => 'Crea tu tienda gratis',
-    'shop_name' => 'shop name',
+    'shop_name' => 'Nombre de la tienda',
     'Categories' => 'Categorías',
-    'sub_articles' => 'More',
+    'sub_articles' => 'Más',
     'terms' => 'Términos',
 
 
 
     'Color' => 'Color',
-    'style' => 'style',
-    'volume' => 'volume',
-    'weight' => 'weight',
+    'style' => 'Estilo',
+    'volume' => 'Volumen',
+    'weight' => 'Peso',
     'pack' => 'Paquete',
-    'type' => 'type',
+    'type' => 'Tipo',
 
     'add_to_card' => 'Añadir al carrito',
 
-    'overview' => 'Overview',
+    'overview' => 'Resumen',
     'reviews' => 'Reseñas',
-    'spec' => 'especificaciones completas',
+    'spec' => 'Especificaciones completas',
     'you_may_also_like' => 'También te puede interesar',
     'about_us' => 'Sobre nosotros',
-    'contact_us' => 'contact us',
-    'cookie_privacy' => 'Cookie &amp; privacy policy',
-    'follow_us' => 'Síganos',
+    'contact_us' => 'Contáctanos',
+    'cookie_privacy' => 'Política de cookies y privacidad',
+    'follow_us' => 'Síguenos',
     'category' => 'Categoría',
 
 
-    'author' => 'Written by ',
-    'published_at' => 'Publicado en',
-    'modified_at' => 'Modificado en',
+    'author' => 'Escrito por ',
+    'published_at' => 'Publicado el',
+    'modified_at' => 'Modificado el',
 
 
 
-    'price' => 'precio',
+    'price' => 'Precio',
     'discount' => 'Descuento',
     'price_after_discount' => 'Precio después del descuento',
     'available' => 'Disponible',
     'sold_out' => 'Agotado',
-    'buy' => 'Compra ahora',
-    'login_shop' => 'Entrar Tienda',
+    'buy' => 'Comprar ahora',
+    'login_shop' => 'Iniciar sesión en la tienda',
 
-    'posted_on' => "Publicado en :date"
+    'posted_on' => "Publicado el :date"
 
 
 

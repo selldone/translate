@@ -31,7 +31,7 @@ export default {
     },
 
     affiliate: {
-      title: "Programa de afiliados ● de por vida",
+      title: "Programa de afiliados ● De por vida",
       subtitle:
         "Cualquier persona puede inscribirse en este programa y ganar comisiones de suscripciones y transacciones de por vida.",
     },

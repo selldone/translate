@@ -5,20 +5,20 @@ use App\Backoffice\Voucher\Enums\VoucherTypes;
 
 return [
 
-    VoucherTypes::ONE_MONTH_STARTUP => ['title' => 'Plan de inicio gratuito de un mes', 'image' => '/images/email/vouchers/one-month-startup.png', 'price' => '9.99', 'currency' => 'USD'],
-    VoucherTypes::THREE_MONTHS_STARTUP => ['title' => 'Plan de inicio gratuito de tres meses', 'image' => '/images/email/vouchers/three-months-startup.png', 'price' => '30', 'currency' => 'USD'],
-    VoucherTypes::SIX_MONTHS_STARTUP => ['title' => 'Plan de inicio gratuito de seis meses', 'image' => '/images/email/vouchers/six-months-startup.png', 'price' => '60', 'currency' => 'USD'],
-    VoucherTypes::TWELVE_MONTHS_STARTUP => ['title' => 'Plan de inicio gratuito de doce meses', 'image' => '/images/email/vouchers/twelve-months-startup.png', 'price' => '120', 'currency' => 'USD'],
+    VoucherTypes::ONE_MONTH_STARTUP => ['title' => 'Plan Startup gratis durante un mes', 'image' => '/images/email/vouchers/one-month-startup.png', 'price' => '9.99', 'currency' => 'USD'],
+    VoucherTypes::THREE_MONTHS_STARTUP => ['title' => 'Plan Startup gratis durante tres meses', 'image' => '/images/email/vouchers/three-months-startup.png', 'price' => '30', 'currency' => 'USD'],
+    VoucherTypes::SIX_MONTHS_STARTUP => ['title' => 'Plan Startup gratis durante seis meses', 'image' => '/images/email/vouchers/six-months-startup.png', 'price' => '60', 'currency' => 'USD'],
+    VoucherTypes::TWELVE_MONTHS_STARTUP => ['title' => 'Plan Startup gratis durante doce meses', 'image' => '/images/email/vouchers/twelve-months-startup.png', 'price' => '120', 'currency' => 'USD'],
 
-    VoucherTypes::ONE_MONTH_COMPANY => ['title' => 'Plan de empresa de un mes gratis', 'image' => '/images/email/vouchers/one-month-company.png', 'price' => '69', 'currency' => 'USD'],
-    VoucherTypes::THREE_MONTHS_COMPANY => ['title' => 'Plan de empresa gratuito de tres meses', 'image' => '/images/email/vouchers/three-months-company.png', 'price' => '207', 'currency' => 'USD'],
-    VoucherTypes::SIX_MONTHS_COMPANY => ['title' => 'Plan de empresa gratuito de seis meses', 'image' => '/images/email/vouchers/six-months-company.png', 'price' => '414', 'currency' => 'USD'],
-    VoucherTypes::TWELVE_MONTHS_COMPANY => ['title' => 'Plan de empresa gratuito de doce meses', 'image' => '/images/email/vouchers/twelve-months-company.png', 'price' => '828', 'currency' => 'USD'],
+    VoucherTypes::ONE_MONTH_COMPANY => ['title' => 'Plan Company gratis durante un mes', 'image' => '/images/email/vouchers/one-month-company.png', 'price' => '69', 'currency' => 'USD'],
+    VoucherTypes::THREE_MONTHS_COMPANY => ['title' => 'Plan Company gratis durante tres meses', 'image' => '/images/email/vouchers/three-months-company.png', 'price' => '207', 'currency' => 'USD'],
+    VoucherTypes::SIX_MONTHS_COMPANY => ['title' => 'Plan Company gratis durante seis meses', 'image' => '/images/email/vouchers/six-months-company.png', 'price' => '414', 'currency' => 'USD'],
+    VoucherTypes::TWELVE_MONTHS_COMPANY => ['title' => 'Plan Company gratis durante doce meses', 'image' => '/images/email/vouchers/twelve-months-company.png', 'price' => '828', 'currency' => 'USD'],
 
-    VoucherTypes::ONE_MONTH_ENTERPRISE => ['title' => 'Plan empresarial gratuito de un mes', 'image' => '/images/email/vouchers/one-month-enterprise.png', 'price' => '299', 'currency' => 'USD'],
-    VoucherTypes::THREE_MONTHS_ENTERPRISE => ['title' => 'Plan empresarial gratuito de tres meses', 'image' => '/images/email/vouchers/three-months-enterprise.png', 'price' => '897', 'currency' => 'USD'],
-    VoucherTypes::SIX_MONTHS_ENTERPRISE => ['title' => 'Plan empresarial gratuito de seis meses', 'image' => '/images/email/vouchers/six-months-enterprise.png', 'price' => '1,794', 'currency' => 'USD'],
-    VoucherTypes::TWELVE_MONTHS_ENTERPRISE => ['title' => 'Plan empresarial gratuito de doce meses', 'image' => '/images/email/vouchers/twelve-months-enterprise.png', 'price' => '3,588', 'currency' => 'USD'],
+    VoucherTypes::ONE_MONTH_ENTERPRISE => ['title' => 'Plan Enterprise gratis durante un mes', 'image' => '/images/email/vouchers/one-month-enterprise.png', 'price' => '299', 'currency' => 'USD'],
+    VoucherTypes::THREE_MONTHS_ENTERPRISE => ['title' => 'Plan Enterprise gratis durante tres meses', 'image' => '/images/email/vouchers/three-months-enterprise.png', 'price' => '897', 'currency' => 'USD'],
+    VoucherTypes::SIX_MONTHS_ENTERPRISE => ['title' => 'Plan Enterprise gratis durante seis meses', 'image' => '/images/email/vouchers/six-months-enterprise.png', 'price' => '1,794', 'currency' => 'USD'],
+    VoucherTypes::TWELVE_MONTHS_ENTERPRISE => ['title' => 'Plan Enterprise gratis durante doce meses', 'image' => '/images/email/vouchers/twelve-months-enterprise.png', 'price' => '3,588', 'currency' => 'USD'],
 
 
     // Default register voucher for invited user by referral link:

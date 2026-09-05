@@ -4,13 +4,13 @@
 
 return [
 
-    'loading-title' => "Escalar de fuera de línea a en línea",
+    'loading-title' => "Escala de lo offline a lo online",
     'loading-message' => "Lo intentas, te abrimos las puertas.",
 
 
     // --- Global Message --- Show for all shop owners in top of all messages!
     'GLOBAL_MESSAGE' => ['title' => 'Selldone es beta', 'priority' => 'm',
-        'message' => "<p>\r\n            Nos encantaría que participaras en la Beta Abierta. como beta\r\n            tester, podrá utilizar funciones que no se han lanzado a\r\n            el público. Estas funciones podrían estar disponibles públicamente en el\r\n            futuro. Considere que <b>todas las transacciones están en modo de prueba</b> y\r\n            <b>quedará claro</b> antes del lanzamiento final. Usuarios, tiendas y\r\n            Los productos <u>no serán eliminados</u>.\r\n          </p>\r\n\r\n          <p>Gracias,<br />CEO Selldone</p>"],
+        'message' => " <p>\n            Nos encantaría que participaras en la beta abierta. Como beta\n            tester, podrás usar funciones que aún no se han lanzado al\n            público. Estas funciones podrían estar disponibles públicamente en el\n            futuro. Ten en cuenta que <b>todas las transacciones están en modo de prueba</b> y\n            <b>se borrarán</b> antes del lanzamiento final. Los usuarios, las tiendas y\n            los productos <u>no se eliminarán</u>.\n          </p>\n\n          <p>Gracias,<br />CEO de Selldone</p>"],
 
 
 

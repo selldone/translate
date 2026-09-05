@@ -1,12 +1,12 @@
 export default {
   "footer": {
     "title": "El sistema operativo n.º 1 para empresas de rápido crecimiento",
-    "message": "Selldone, como plataforma de comercio electrónico, opera como un ángel para el crecimiento de los negocios. Ya sea que tenga una tienda física o una gran empresa, debe exhibir su producto en Internet. Selldone solía construir tiendas en línea con costos operativos más bajos y mayor flexibilidad. Además, proporcionamos una cadena de herramientas de gestión de comercio electrónico en constante mejora que obtiene nuevas funciones cada semana, como la integración de la administración de la tienda y la interfaz de programación visual para crear procesos de automatización personalizados o integración de IA.",
-    "contact_us": "Contáctenos",
+    "message": "Selldone, como plataforma de comercio electrónico, funciona como un ángel para el crecimiento de los negocios. Tanto si tienes una tienda física como una gran empresa, necesitas mostrar tus productos en Internet. Selldone se usa para crear tiendas en línea con menores costos operativos y mayor flexibilidad. Además, ofrecemos un conjunto de herramientas de gestión de comercio electrónico en mejora continua que suma nuevas funciones cada semana, como la integración de la administración de la tienda con una interfaz de programación visual para crear procesos de automatización personalizados o integrar IA.",
+    "contact_us": "Contáctanos",
     "about_us": "Acerca de Selldone",
     "menu": [
       {
-        "title": "vendidohecho",
+        "title": "Selldone",
         "items": [
           {
             "title": "¿Qué es Selldone?",
@@ -21,19 +21,19 @@ export default {
             }
           },
           {
-            "title": "Ayudar",
+            "title": "🎁 Regalos de la comunidad",
             "to": {
               "name": "ParticipantPage"
             }
           },
           {
-            "title": "Blog",
+            "title": "Ayuda",
             "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Blog",
             "to": {
               "name": "Blogs"
             }
@@ -56,13 +56,13 @@ export default {
         "title": "Características",
         "items": [
           {
-            "title": "características y beneficios",
+            "title": "Funciones y beneficios",
             "to": {
               "name": "Landing_Features"
             }
           },
           {
-            "title": "Personal y Escala",
+            "title": "Personal y escalabilidad",
             "to": {
               "name": "Landing_Staffs"
             }
@@ -80,7 +80,7 @@ export default {
             }
           },
           {
-            "title": "Incentivos y Clubes",
+            "title": "Incentivos y clubes",
             "to": {
               "name": "Landing_Incentives"
             }
@@ -92,7 +92,7 @@ export default {
             }
           },
           {
-            "title": "Comercio IA",
+            "title": "IA para comercio",
             "to": {
               "name": "Landing_AI"
             }
@@ -103,43 +103,43 @@ export default {
         "title": "Soluciones",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "🎨 Arte",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 gremio",
+            "title": "🤝 Gremio",
             "to": {
               "name": "GPageHome"
             }
           },
           {
-            "title": "🥑 Aguacate",
+            "title": "🥑 Avocado",
             "to": {
               "name": "AvocadoHomePage"
             }
           },
           {
-            "title": "Motor SEO",
+            "title": "🧱 API / Desarrolladores",
             "to": {
               "name": "DocHome"
             }
           },
           {
-            "title": "Informe inteligente",
+            "title": "Motor SEO",
             "to": {
               "name": "Landing_SEO"
             }
           },
           {
-            "title": "Alojamiento en la nube",
+            "title": "Informes inteligentes",
             "to": {
               "name": "Landing_SmartReport"
             }
           },
           {
-            "title": "Solución Logística",
+            "title": "Alojamiento en la nube",
             "to": {
               "name": "Landing_Cloud"
             }
@@ -180,13 +180,13 @@ export default {
             }
           },
           {
-            "title": "Plataforma comunitaria",
+            "title": "Plataforma de comunidad",
             "to": {
               "name": "Landing_Community"
             }
           },
           {
-            "title": "Manuales de Ventas",
+            "title": "Manuales de ventas",
             "to": {
               "name": "Handbooks"
             }
@@ -194,41 +194,43 @@ export default {
         ]
       }
     ],
-    "copyright": "El uso del contenido solo para fines no comerciales y con referencia a la fuente (enlace con Selldone.com). Todos los derechos reservados a Selldone Group.",
+    "copyright": "Vive la elegancia. Descubre la innovación. Impulsa la imaginación. Todos los derechos reservados.",
+
+    red_alert:'Alerta roja',
     "supported_countries_and_payments": "Países y pagos admitidos",
     "affiliate_program": "Programa de afiliados",
-    "business_idea": "Ideas de negocios",
+    "business_idea": "Ideas de negocio",
     "roadmap": "Hoja de ruta",
-    "apply_partner": "Solicitar socio",
+    "apply_partner": "Solicitar ser socio",
     "partner": {
-      "title": "Únase como socio",
-      "subtitle": "Ofrecemos a nuestros socios una oportunidad fantástica para expandir sus negocios y obtener ingresos mensuales consistentes."
+      "title": "Únete como socio",
+      "subtitle": "Ofrecemos a nuestros socios una oportunidad excelente para hacer crecer sus negocios y obtener ingresos mensuales constantes."
     },
-    "add_service": "Agregar servicio",
+    "add_service": "Añadir servicio",
     "service": {
       "title": "Integra tu servicio",
-      "subtitle": "¡Muestre su servicio a miles de empresas prósperas hoy y a millones más en el futuro!"
+      "subtitle": "¡Muestra tu servicio a miles de empresas prósperas hoy y a millones más en el futuro!"
     },
-    "add_supplier": "Agregar proveedor",
+    "add_supplier": "Añadir proveedor",
     "supplier": {
-      "title": "Únase como proveedor",
-      "subtitle": "Podemos ayudar a que sus productos lleguen a miles de tiendas locales y online activas en todo el mundo."
+      "title": "Únete como proveedor",
+      "subtitle": "Podemos ayudar a que tus productos lleguen a miles de tiendas locales y en línea activas en todo el mundo."
     }
   },
   "admin_footer": {
-    "title": "Menú de acceso rápido:",
-    "boost_mode": "Aumentar",
+    "title": "Menú de acceso rápido",
+    "boost_mode": "Turbo",
     "normal_mode": "Normal",
-    "boost_message": "¿Conexión a Internet deficiente y necesita ayuda?",
+    "boost_message": "¿Tienes mala conexión a Internet y necesitas más velocidad?",
     "dark": "Oscuro",
-    "light": "Luz",
+    "light": "Claro",
     "theme_message": "Activar inversión inteligente",
-    "preferences": "preferencias",
-    "select_language": "elige tu idioma",
+    "preferences": "Preferencias",
+    "select_language": "Elige tu idioma",
     "preferences_dialog": {
       "title": "Preferencias del usuario"
     },
-    "invite_link": "Comparte este enlace único para invitar a nuevos miembros"
+    "invite_link": "Mi enlace de referido para monetizar"
   },
   "admin_shop_footer": {
     "title": "Panel de acceso rápido de {shop_name}"

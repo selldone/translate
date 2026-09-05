@@ -1,19 +1,19 @@
 export default {
   "feedback": {
-    "title": "¿Estás feliz?",
+    "title": "¿Estás satisfecho?",
     "sad_reasons": [
-      "¡Difícil de trabajar!",
+      "¡Es difícil de usar!",
       "¡No encontré lo que estaba buscando!",
       "Necesito ayuda.",
-      "Necesito a alguien para hacer todo.",
-      "¡Quiero agregar un dominio gratis!"
+      "Necesito a alguien que lo haga todo.",
+      "¡Quiero añadir un dominio gratis!"
     ],
-    "happy_message": "Si necesita más funciones o aplicaciones, escríbalas en nuestra página de comunidad.",
+    "happy_message": "Si necesitas más funciones o aplicaciones, escríbelas en nuestra página de la comunidad.",
     "happy_title": "Gracias",
-    "sad_title": "¿Por qué no eres feliz?",
-    "sad_title_score_mode": "Última pregunta, ¿por qué no recomienda Selldone a otros?",
-    "sad_other": "¿Otra razón? Dinos...",
-    "yes_trail": "Se lo presentaré a los demás.",
+    "sad_title": "¿Por qué no estás satisfecho?",
+    "sad_title_score_mode": "Última pregunta: ¿por qué no recomiendas Selldone a otras personas?",
+    "sad_other": "¿Otro motivo? Cuéntanos...",
+    "yes_trail": "Se lo recomendaré a los demás.",
     "meh_trail": "No está mal, no tengo ni idea.",
     "no_trail": "Hay algunos problemas.",
     "score_question": "Del 1 al 10, ¿cuánto te gusta Selldone?"

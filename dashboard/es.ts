@@ -17,7 +17,7 @@ export default {
   commons: {
     pay_today: "Pago de hoy",
     pay_yesterday: "Pago de ayer",
-    pay_last30days: "Últimos 30 días de pago",
+    pay_last30days: "Pagos de los últimos 30 días",
     create_a_shop: "Crear una tienda",
     start_free: "Empieza gratis",
     featured_apps: "Aplicaciones destacadas",
@@ -27,7 +27,7 @@ export default {
     make_money_affiliate: "Ganar dinero",
     see_live_shop: "Ver tienda en vivo",
     see_live_product: "Ver producto en vivo",
-    has_inputs: "Tiene entradas",
+    has_inputs: "Tiene campos de entrada",
     main_domain: "Dominio principal",
     domains: "Dominios",
     home_page: "Página de inicio",
@@ -51,10 +51,10 @@ export default {
     days_range: "Rango de días",
     today: "Hoy",
     yesterday: "Ayer",
-    last_7: "Los últimos 7 días",
-    last_14: "últimos 14 días",
-    last_30: "últimos 30 días",
-    last_90: "últimos 90 días",
+    last_7: "Últimos 7 días",
+    last_14: "Últimos 14 días",
+    last_30: "Últimos 30 días",
+    last_90: "Últimos 90 días",
     custom: "Personalizado",
   },
   device_types: {
@@ -79,10 +79,10 @@ export default {
   theme: {
     dark_mode: "Modo oscuro",
     dark_mode_description:
-      "Elija esta opción si desea un fondo oscuro con color de texto blanco.",
+      "Elige esta opción si deseas un fondo oscuro con el texto en color blanco.",
     light_mode: "Modo claro",
     light_mode_description:
-      "Elija esta opción si desea que el fondo sea claro y el texto en color negro.",
+      "Elige esta opción si prefieres un fondo claro con el texto en color negro.",
   },
 
   ai: {
@@ -106,22 +106,22 @@ export default {
     login: "Iniciar sesión",
     register: "Registro",
     auth_2fa: "Autenticación de 2 factores 🔐",
-    academy: "Blog",
+    academy: "Revista Business OS",
     help: "Centro de ayuda",
     price_list: "Lista de precios",
     my_stores: "Mis tiendas",
     roles: "Mis roles",
-    wallet: "Mi billetera",
+    wallet: "Mis billeteras",
     personal_info: "Información personal ╏ KYC",
-    companies: "Mis Empresas",
+    companies: "Mis empresas",
     access_control: "Control de acceso",
-    security_center: "Centro de Seguridad",
+    security_center: "Centro de seguridad",
     gifts: {
       received: "Regalos ╏ Recibidos",
       send: "Regalos ╏ Enviados",
     },
     monetization: {
-      linked_accounts: "Monetización ╏ Cuentas Vinculadas",
+      linked_accounts: "Monetización ╏ Cuentas vinculadas",
       plans: "Monetización ╏ Plan y enlaces",
     },
     affiliate: "Afiliado",
@@ -154,60 +154,60 @@ export default {
     },
   },*/
 
-  blank_is_all_products: "¡Deje en blanco para incluir todos los productos!",
+  blank_is_all_products: "¡Déjalo en blanco para incluir todos los productos!",
 
   // ---------------------------------------------
 
   /** @see ShopCautionHelper **/
   cautions: {
     title:
-      "Administre su negocio profesionalmente siguiendo los siguientes consejos. Siga leyendo para obtener consejos sobre cómo aumentar el margen de beneficio y más. Estamos contigo en el camino.",
+      "Gestiona tu negocio de forma profesional siguiendo estos consejos. Sigue leyendo para descubrir cómo aumentar tu margen de beneficio y mucho más. Estamos contigo en todo el camino.",
     no_payment_method: {
       title: "Método de pago",
       message:
-        "Debes añadir un método de pago a tu tienda.",
-      action: "Pasarelas de compras",
+        "Para aprovechar todo el potencial de tu tienda, ¡añade un método de pago! 🛍️💳",
+      action: "Pasarelas de pago de la tienda",
     },
     link_account: {
       title: "Vincular cuenta",
       message:
-        "Debe vincular una cuenta ({currency}) a su tienda.",
-      action: "Comprar cuentas",
+        "Para mejorar la experiencia de tu tienda, ¡vincula una cuenta en {currency}!",
+      action: "Cuentas de la tienda",
     },
     no_domain: {
       title: "Agregar dominio",
       message:
-        "Puede conectar uno o más dominios personales a su tienda. Su sitio web se instalará en su dominio. Este proceso es rápido y fácil.",
+        "Vincula fácilmente uno o varios dominios propios a tu tienda y verás tu sitio web funcionando en tu propio dominio en muy poco tiempo. Es rápido y sencillo.",
     },
     domain_not_approved: {
       title: "Verificación de dominio",
       message:
-        "Su dominio {domain} no ha sido verificado. Verifique la configuración de DNS y confirme el dominio.",
+        "¡Pongamos en marcha tu dominio {domain}! Revisa la configuración de DNS y confirma el dominio para asegurarte de que todo esté configurado correctamente.",
     },
     no_currency: {
       title: "Agregar moneda",
       message:
-        "Debe definir al menos una moneda para su tienda.",
+        "Asegúrate de definir al menos una moneda para tu tienda y mejora así la experiencia de compra.",
       action: "Gestión de divisas",
     },
     no_primary_domain: {
-      title: "el dominio principal",
+      title: "Dominio principal",
       message:
-        "Seleccione un dominio como su dominio principal. Al hacer clic en el botón de estrella junto al nombre de dominio, puede seleccionar el dominio como el dominio principal de su tienda. Esto es fundamental para los motores de búsqueda. Tenga en cuenta que su tienda seguirá estando disponible a través de todos los dominios activos.",
+        "Establece tu dominio principal con un solo clic. Pulsa el botón de estrella junto al nombre de dominio que desees para convertirlo en el dominio principal de tu tienda. Esto es esencial para un buen posicionamiento en los motores de búsqueda. No te preocupes: tu tienda seguirá siendo accesible a través de todos los dominios activos.",
     },
     shop_complete: {
       title: "Información completa",
       action: "Configuración de la tienda",
       location_msg: "Agrega tu ubicación",
-      days_open_msg: "Establecer días de puertas abiertas",
-      time_open_msg: "Establecer hora de apertura y cierre",
-      description_msg: "Escribe una breve descripción sobre tu negocio.",
+      days_open_msg: "Establece los días de apertura",
+      time_open_msg: "Establece el horario de apertura y cierre",
+      description_msg: "Escribe una breve descripción sobre tu negocio",
       icon_msg: "Establece el logotipo de tu tienda",
       shop_gateways_msg: "Añadir método de pago",
-      socials_msg: "Agrega tus enlaces sociales",
-      clubs_msg: "Establecer clubes de clientes",
-      domains_msg: "Agregar dominio personalizado",
-      primary_msg: "Establecer un dominio como principal",
+      socials_msg: "Añade tus enlaces de redes sociales",
+      clubs_msg: "Configura los clubes de clientes",
+      domains_msg: "Añade un dominio personalizado",
+      primary_msg: "Establece un dominio como principal",
     },
   },
 
@@ -218,70 +218,70 @@ export default {
     category: "Categoría",
     title: "Soporte",
     message:
-      "Haga cualquier solicitud o pregunta. Nuestro equipo de soporte lo guiará. Le sugerimos que haga su pregunta en la página relacionada con su solicitud. Por ejemplo, si tiene una pregunta sobre la configuración del dominio, envíela a la página de configuración del dominio de su tienda.",
+      "Envía cualquier solicitud o pregunta. Nuestro equipo de soporte te guiará. Te sugerimos que hagas tu pregunta en la página relacionada con tu solicitud. Por ejemplo, si tienes una pregunta sobre la configuración del dominio, envíala desde la página de configuración de dominios de tu tienda.",
 
     close_at: "Cerrado el {date}",
-    close_ticket_by_user: "Gracias, tengo la respuesta.",
+    close_ticket_by_user: "Gracias, ya tengo la respuesta",
   },
 
   /** @see SShopProductRatingView **/
-  surveys: ["Muy pobre", "Pobre", "Normal", "Bueno", "Excelente"],
+  surveys: ["Muy malo", "Malo", "Normal", "Bueno", "Excelente"],
 
   /** @see SortView **/
   sort: {
     title: "Ordenar por",
     title_small: "Ordenar por..",
-    nothing: "Ninguna cosa",
-    most_views: "La mayoría de las vistas",
-    most_likes: "Más popular",
-    most_recent: "El más nuevo",
-    most_sell: "Más Selldone",
-    cheapest: "Lo mas barato",
-    most_expensive: "Más caro",
-    only_available: "Disponible",
+    nothing: "Ninguno",
+    most_views: "Más vistos",
+    most_likes: "Más populares",
+    most_recent: "Más recientes",
+    most_sell: "Más vendidos",
+    cheapest: "Más baratos",
+    most_expensive: "Más caros",
+    only_available: "Solo disponibles",
     view_mode: {
       normal: "Normal",
-      grid: "Red",
+      grid: "Cuadrícula",
       list: "Lista",
-      insta: "insta",
+      insta: "Insta",
     },
   },
 
   /** {@see Helps} **/
 
   helps: {
-    title: "Centro de ayuda Selldone",
+    title: "Centro de ayuda de Selldone",
     subtitle:
-      "Bienvenido a Selldone. Si está creando una nueva tienda en línea en un sistema operativo comercial, puede encontrar más información aquí.",
+      "Bienvenido al Centro de ayuda de Selldone, tu guía completa para crear y gestionar una tienda en línea dentro de un potente sistema operativo de negocios. Explora nuestros recursos, tutoriales y buenas prácticas para agilizar la configuración de tu tienda, maximizar la eficiencia e impulsar el crecimiento.",
 
     add_new_help: "Nueva ayuda",
     resources: "Recursos",
 
     categories: {
-      Welcome: "Empezar",
-      Setup: "Tienda",
-      Sell: "Ventas y Marketing",
-      Developer: "Desarrollar",
+      Welcome: "Primeros pasos",
+      Setup: "Configuración",
+      Sell: "Ventas y marketing",
+      Developer: "Desarrollo",
 
       Product: "Gestión de productos y categorías",
-      Blog: "CMS y blogs",
-      Order: "Centro de cumplimiento de pedidos",
+      Blog: "CMS y blog",
+      Order: "Centro de procesamiento de pedidos",
       Channel: "Canales de venta",
       Accounting: "Contabilidad y métodos de pago",
-      Incentives: "incentivos",
-      Marketing: "Campañas de marketing",
+      Incentives: "Incentivos",
+      Marketing: "Marketing y campañas",
       Logistic: "Logística y envío",
       Customers: "Club de clientes y segmentación",
       Page: "Páginas de destino y personalizadas",
-      Access: "Personal / Administración de acceso a la API",
+      Access: "Gestión de acceso de personal / API",
       Application: "Aplicaciones",
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Repositorio GitHub",
+    github: "Repositorio de GitHub",
     admin_api_app: "Servicio web de la API de administración",
-    shop_api_app: "Comprar servicio web API",
-    design_kit: "Estuches de diseño",
+    shop_api_app: "Servicio web de la API de la tienda",
+    design_kit: "Kits de diseño",
     community: "Comunidad",
   },
 
@@ -291,12 +291,12 @@ export default {
   blogs: {
     title: "Blog",
     subtitle:
-      "Lecciones para los negocios, la confianza y el conocimiento que necesita para crear un negocio próspero.",
-    add_new_blog: "nuevo blog",
+      "Lecciones de negocios, confianza y los conocimientos que necesitas para crear un negocio próspero.",
+    add_new_blog: "Nuevo blog",
     popular: "Popular",
     topics: "Temas",
-    select_topics: "Seleccione su trabajo.",
-    select_job_topics: "Seleccione sus temas relacionados con el trabajo",
+    select_topics: "Selecciona tu profesión.",
+    select_job_topics: "Selecciona los temas relacionados con tu trabajo",
     select_interested_topics: "¿Qué temas te interesan?",
   },
 
@@ -304,13 +304,13 @@ export default {
   api: {
     title: "API e integración",
     message:
-      "Una de las características clave de Selldone es proporcionar API sólidas y seguras para administrar y conectar tiendas a otros servicios, como almacenamiento, contabilidad, etc. También puede diseñar aplicaciones personalizadas y aplicaciones web para su tienda. Sin tener que preocuparse por el servidor y la gestión de datos. Simplemente use las API de dominio. Tendrás todo el proceso de gestión de usuarios, autenticación y otras funcionalidades del dominio.",
+      "Una de las características clave de Selldone es ofrecer API robustas y seguras para gestionar y conectar tiendas con otros servicios, como almacenamiento, contabilidad, etc. También puedes diseñar aplicaciones personalizadas y aplicaciones web para tu tienda sin tener que preocuparte por el servidor ni la gestión de datos. Simplemente usa las API del dominio. Tendrás todo el proceso de gestión de usuarios, autenticación y otras funcionalidades del dominio.",
   },
 
   /** {@see BPageShuttle} **/
   user_dashboard: {
-    title: "mi transbordador",
-    subtitle: "Administre su negocio con información actualizada y perspectiva clara.",
+    title: "Mi lanzadera",
+    subtitle: "Visión general completa de mis negocios.",
     menu: {
       affiliate: "Afiliado",
       monetize: "Monetizar",
@@ -318,23 +318,23 @@ export default {
       security: "Seguridad",
       access: "Acceso",
       business: "Empresa",
-      wallet: "Cartera",
-      identification: "KYC",
-      stores: "Historias",
-      roles: "roles",
-      home: "Casa",
+      wallet: "Billetera",
+      identification: "Identidad",
+      stores: "Tiendas",
+      roles: "Roles",
+      home: "Inicio",
       expert: "Experto",
-      deals: "ofertas",
+      deals: "Acuerdos",
       providers: "Proveedores",
     },
     shops: {
       create_new: "Crear nueva tienda",
       create_new_sub_need_initial_charge:
-        "Construir la primera tienda es gratis. Probablemente una tienda sea suficiente para su negocio, pero si necesita construir más tiendas, el costo de construir una nueva tienda es de 25 $. Retiramos el monto de su cuenta de billetera.",
+        "Crear la primera tienda es gratis. Probablemente una tienda sea suficiente para tu negocio, pero si necesitas crear más tiendas, el costo de crear una nueva tienda es de 25 $. Retiraremos el importe de tu cuenta de billetera.",
 
       menu: {
         title: "Mis tiendas",
-        shops: "tiendas",
+        shops: "Tiendas",
         new: "Nuevo",
       },
 
@@ -345,23 +345,23 @@ export default {
         menu_orders: {
           physical: "Pedidos de productos físicos",
           virtual: "Pedidos de productos virtuales",
-          files: "Órdenes de archivo",
-          services: "órdenes de servicio",
+          files: "Pedidos de archivos",
+          services: "Pedidos de servicios",
           subscriptions: "Pedidos de suscripciones",
         },
         status: "Estado",
         license: "Licencia",
         volume: "Espacio usado",
-        expire: "Licencia expirada",
-        products: "productos",
-        page_views: "Puntos de vista",
+        expire: "Vencimiento de la licencia",
+        products: "Productos",
+        page_views: "Visitas",
         user_behavior: "Comportamiento del cliente",
         time_span: "desde {time} hasta ahora",
         finance_report: "Informe financiero",
-        buys: "compras",
+        buys: "Compras",
         payments: "Pagos",
         orders: "Pedidos",
-        currency: "Divisa",
+        currency: "Moneda",
         no_payment: "¡Sin pago!",
         no_purchase: "¡Sin compra!",
       },
@@ -371,15 +371,15 @@ export default {
   widgets: {
     /** {@see BDashboardFeedback} **/
     overview: {
-      title: "comentarios de los clientes",
-      title_small: "Visión de conjunto",
+      title: "Opiniones de los clientes",
+      title_small: "Resumen",
       wishlist: "Lista de deseos",
       comments: "Comentarios",
-      likes: "Gustos",
+      likes: "Me gusta",
       favorites: "Favoritos",
-      powers: "aplausos",
-      views: "Puntos de vista",
-      report_today: "informe de hoy",
+      powers: "Aplausos",
+      views: "Visitas",
+      report_today: "Informe de hoy",
       report_last7days: "Informe de los últimos 7 días",
       report_last30days: "Informe de los últimos 30 días",
     },
@@ -393,21 +393,21 @@ export default {
       automation: "Automatización",
       application: "Aplicaciones",
       access: "Acceso",
-      pages: "Paginas",
+      pages: "Páginas",
       channels: "Canales",
       classification: "Clasificación",
-      marketing: "Márketing",
+      marketing: "Marketing",
       customers: "Clientes",
-      logistic: "Logístico",
+      logistic: "Logística",
       auditing: "Contabilidad",
-      incentives: "incentivos",
+      incentives: "Incentivos",
       process_center: "Pedidos",
       blog: "Blog",
-      products: "productos",
-      shops: "tiendas",
+      products: "Productos",
+      shops: "Tiendas",
       dashboard: "Panel",
       autopilot: "Piloto automático",
-      apps: "aplicaciones",
+      apps: "Aplicaciones",
       pos: "POS",
       seo: "SEO",
       localization: "Localización",
@@ -417,69 +417,198 @@ export default {
 
     /** {@see BPageShopDashboard} **/
     dashboard: {
-      title: "Panel de control de la tienda",
+      title: "Panel de la tienda",
       online_staff: "Personal en línea",
 
+      setup_packages: {
+        nav: "Paquetes de configuración",
+        eyebrow: "Servicio de configuración de Selldone",
+        title: "Paquetes de configuración",
+        subtitle:
+          "Elige la ruta de configuración adecuada para {shop} y, a continuación, sigue más abajo los proyectos comprados y su progreso.",
+        refund_policy:
+          "Los reembolsos están disponibles durante las 24 horas posteriores a la compra, solo hasta que nuestro equipo comience a trabajar. Una vez iniciado el trabajo, el costo del servicio no es reembolsable.",
+        paths_eyebrow: "Elige cómo empezar",
+        paths_title: "Dos formas de lanzar tu tienda",
+        paths_body:
+          "Los paquetes predefinidos son nuestra recomendación: alcance fijo, grandes ahorros y el camino más rápido para lanzar tu tienda. Elige la opción personalizada cuando tu negocio necesite un plan a medida.",
+        preview_loading: "Cargando paquetes recomendados...",
+        preview_unavailable_title:
+          "Las vistas previas de los paquetes no están disponibles temporalmente",
+        preview_unavailable_body:
+          "Mientras restablecemos las vistas previas, puedes abrir el catálogo completo.",
+        recommended: "Recomendado",
+        up_to_discount: "Hasta {value}% de descuento",
+        ready_eyebrow: "Ruta predefinida",
+        ready_title: "Lanza más rápido por mucho menos",
+        ready_body:
+          "Elige un paquete de configuración probado, con precios transparentes y un alcance de entrega claro. Es la forma más rápida de preparar tu tienda para generar ingresos.",
+        ready_benefit_scope: "Alcance fijo y claro",
+        ready_benefit_speed: "Lanzamiento más rápido",
+        ready_benefit_value: "La mejor relación calidad-precio",
+        available_now: "Listo para comprar",
+        featured_title: "Paquetes disponibles",
+        offer_count: "{count} opciones",
+        discount_badge: "{value}% de descuento",
+        choose_package: "Elegir paquete",
+        view_package: "Ver paquete",
+        delivery_range: "{min}–{max} días",
+        delivery_up_to: "Hasta {max} días",
+        offer_aria: "Abrir {title}, {price}, en una pestaña nueva",
+        offers_empty_title: "No hay vistas previas disponibles en este momento",
+        offers_empty_body:
+          "Aún puedes explorar el catálogo completo y comparar todos los paquetes disponibles.",
+        ready_action: "Ver todos los paquetes",
+        ready_note: "Consulta todos los paquetes y compara el alcance completo.",
+        custom_badge: "Desarrollo personalizado premium",
+        custom_eyebrow: "Servicio a medida",
+        custom_title: "Una configuración diseñada en torno a tu negocio",
+        custom_body:
+          "Elige tu modelo de negocio, volumen de productos, datos, diseño, escala del marketplace y complementos para recibir una estimación calculada.",
+        custom_step_brief: "Describe tu negocio",
+        custom_step_brief_body:
+          "Cuéntanos sobre tu catálogo, tus datos y tus objetivos de lanzamiento.",
+        custom_step_estimate: "Consulta una estimación calculada",
+        custom_step_estimate_body:
+          "Tus elecciones actualizan el alcance y el precio previstos.",
+        custom_step_review: "Revisión del equipo de Selldone",
+        custom_step_review_body:
+          "Nuestro equipo confirma el alcance, el calendario y el presupuesto a pagar.",
+        custom_quote_note:
+          "Usa esta vía cuando un paquete predefinido no se ajuste a tu negocio.",
+        custom_action: "Crear mi estimación personalizada",
+        custom_payment_note: "El pago estará disponible tras la revisión del equipo.",
+        active_eyebrow: "Servicio de configuración",
+        active_title: "Pedidos de configuración activos",
+        active_subtitle:
+          "Sigue el trabajo que el equipo de configuración de Selldone está realizando para esta tienda.",
+        view_all: "Ver todo",
+        loading: "Cargando pedidos de configuración...",
+        loading_body:
+          "Estamos obteniendo el progreso más reciente de los paquetes de esta tienda.",
+        error_title: "Los pedidos de configuración no están disponibles",
+        error_body:
+          "No hemos podido cargarlos en este momento. El resto de los datos de tu panel no se ven afectados.",
+        retry: "Intentar de nuevo",
+        more_active: "Y {count} más activos",
+        empty_active_title: "No hay pedidos de configuración activos",
+        empty_active_body:
+          "Cuando compres un paquete de configuración para esta tienda, su progreso aparecerá aquí.",
+        promo_title: "¿Quieres que configuremos tu tienda?",
+        promo_body: "Explora nuestros paquetes de configuración predefinidos.",
+        explore: "Explorar paquetes",
+        progress: "Progreso de la configuración: {value}%",
+        summary_aria: "Resumen de pedidos de configuración",
+        total_orders: "Pedidos totales",
+        active_orders: "Pedidos activos",
+        refundable: "Reembolsable",
+        projects_eyebrow: "Comprados para esta tienda",
+        projects_title: "Proyectos de configuración",
+        orders_count: "{count} pedidos",
+        loaded_count: "Mostrando {loaded} de {total} pedidos",
+        load_more: "Cargar más",
+        load_more_aria: "Cargar más pedidos de configuración ({count} restantes)",
+        load_more_error: "No hemos podido cargar los siguientes pedidos. Inténtalo de nuevo.",
+        buyer_only: "Los detalles del pedido solo están disponibles para el comprador.",
+        progress_label: "Progreso",
+        amount: "Importe",
+        status: "Estado",
+        refund_available: "El reembolso está disponible",
+        refund_until: "Fecha límite de reembolso: {date}",
+        view_project: "Ver proyecto",
+        manage_refund: "Gestionar o reembolsar",
+        empty_title: "Aún no hay proyectos de configuración",
+        empty_body:
+          "Después de comprar un paquete predefinido, su pedido y su progreso en tiempo real aparecerán aquí.",
+      },
+
       notify_referral: {
-        message: "Envíe su enlace de invitación a sus amigos y obtenga vales gratis.",
-        action: "Mi enlace de referencia",
+        message: "Envía tu enlace de invitación a tus amigos y consigue vales gratis.",
+        action: "Mi enlace de referido",
       },
 
       /** {@see BDashboardShopTechnical} **/
       info: {
         title: "Técnico",
-        subtitle: "Resumen técnico del sistema operativo de su empresa.",
+        subtitle: "Resumen técnico de tu sistema operativo de negocios.",
 
-        shop_name: "Nombre de tienda",
-        shop_link: "enlace de la tienda",
-        site_map: "mapa del sitio",
+        shop_name: "Nombre de la tienda",
+        shop_link: "Enlace de la tienda",
+        site_map: "Mapa del sitio",
         shop_domains: "Dominios",
         shop_domains_msg: "Lista de dominios personalizados conectados.",
 
         home_msg:
-          "Establezca la página de inicio predeterminada de su sitio web. Se puede cambiar para cada dominio personalizado.",
+          "Establece la página de inicio predeterminada de tu sitio web. Se puede cambiar para cada dominio personalizado.",
 
-        add_domain: "Agregar nuevo dominio",
+        add_domain: "Añadir nuevo dominio",
         currencies: "Monedas activas",
-        currencies_alert: "¡Seleccione al menos una moneda para la tienda!",
+        currencies_alert: "¡Selecciona al menos una moneda para la tienda!",
         status: "Estado",
         license: "Licencia",
         expire: "Fecha de caducidad de la licencia",
-        upgrade_license_action: "Actualizar a {name}",
-        wage: "Tarifa",
+        upgrade_license_action: "Mejorar a {name}",
+        wage: "Comisión",
         cpu_message:
-          "La cantidad de recursos que ha adaptado al plan adquirido y los recursos que agrega a su servicio.",
+          "La cantidad de recursos ajustada al plan adquirido y los recursos que añades a tu servicio.",
         hide_domains: "Ocultar mis dominios",
-        show_domains: "mostrar mis dominios",
+        show_domains: "Mostrar mis dominios",
 
         /** {@see BDomainsList} **/
         table: {
-          primary: "Primario",
+          primary: "Principal",
           url: "URL",
           site_map: "Mapa del sitio",
-          enable: "Permitir",
+          enable: "Activar",
           indexed: "Indexado",
-          and_more: "& más..",
+          and_more: "y más..",
           auto_repair: "Reparación automática",
+          externally_hosted: "Alojamiento externo",
         },
         add_dialog: {
           title: "Configurar el dominio de la tienda",
           step1:
-            "Puede definir el límite de IP del registro A para un dominio o subdominio DNS a partir de los siguientes valores:",
-          step2: "Agregue un registro DNS TXT:",
+            "Puedes definir el límite de IP del registro A para un dominio o subdominio DNS a partir de los siguientes valores:",
+          step2: "Añade un registro DNS TXT:",
           set_ip_alert:
-            "Establezca el valor de IP del registro A <b>{ip}</b> .",
+            "Establece el valor de IP del registro A en <b> {ip} </b> (si tu dominio no se ha añadido a través de una CDN).",
 
-          input_domain: "URL de dominio",
+          input_domain: "URL del dominio",
           correct: "La configuración del dominio es correcta.",
-          set_message: "Establezca el CNAME de este dominio en {cname}.",
-          input_domain_message: "Ingrese el nombre de dominio sin http y https.",
+          set_message: "Establece el CNAME de este dominio en {cname}.",
+          input_domain_message: "Introduce el nombre de dominio sin http ni https.",
           ssl_message:
-            "No se preocupe por el certificado SSL para su sitio web. Selldone (beta) emitirá automáticamente esta certificación para su dominio.",
+            "No te preocupes por el certificado SSL de tu sitio web. Puedes obtener SSL a través de proveedores de CDN gratuitos o de pago, como Cloudflare.",
           active: "El dominio está activo",
-          inactive: "El dominio está deshabilitado",
+          inactive: "El dominio está desactivado",
           success_message:
-            "Felicitaciones, su sitio está habilitado en {domain}. Puede presentar su negocio y marca al mundo a través de este dominio.",
+            "Felicidades, tu sitio está activado en {domain}. Puedes presentar tu negocio y tu marca al mundo a través de este dominio.",
+
+          hosting: {
+            title: "Alojamiento del escaparate",
+            subtitle: "Elige desde dónde se sirve este escaparate.",
+            selldone_title: "Alojado por Selldone",
+            selldone_description:
+              "Usa el escaparate de Selldone. Conecta el dominio con registros A/CNAME y verifica la propiedad con un registro TXT.",
+            external_title: "Escaparate externo (escaparate personalizado)",
+            external_description:
+              "Mantén tu escaparate personalizado en Cloudflare u otro proveedor de alojamiento.",
+            external_note:
+              "Selldone solo verificará la propiedad. El destino de tu DNS, el alojamiento y el SSL seguirán gestionándose externamente.",
+          },
+          ownership: {
+            title: "Verificar propiedad",
+            subtitle:
+              "Elige un método de verificación. Un escaparate alojado externamente no necesita un registro A o CNAME de Selldone.",
+            meta_title: "Metaetiqueta HTML",
+            meta_description:
+              "Publica la etiqueta dentro del <head> del host exacto que se muestra a continuación. Ese host debe devolver correctamente el HTML inicial sin redirección; las etiquetas inyectadas solo mediante JavaScript no se detectan.",
+            meta_code: "Metaetiqueta de verificación",
+            meta_url: "Página comprobada por Selldone",
+            txt_title: "Registro DNS TXT",
+            txt_description:
+              "Añade el token TXT en el host de verificación dedicado que se muestra a continuación. No se requiere ningún registro A ni CNAME.",
+          },
 
           delete_action: "¿Eliminar dominio?",
         },
@@ -487,14 +616,14 @@ export default {
           title: "Establecer la página de inicio del dominio",
         },
         notification: {
-          add_message: "Dirección de dominio agregada con éxito.",
+          add_message: "Dirección de dominio añadida correctamente.",
           update_message: "El dominio se actualizó correctamente.",
           delete_domain_message: "El dominio se eliminó con éxito.",
         },
         alert: {
           title: "Eliminar dominio",
           message:
-            "¿Quieres eliminar este dominio? Asegúrese de restablecer los valores de registro DNS de su dominio para evitar que otros cometan fraude.",
+            "¿Quieres eliminar este dominio? Asegúrate de restablecer los valores de los registros DNS de tu dominio para evitar que otros cometan fraude.",
         },
       },
 
@@ -502,59 +631,59 @@ export default {
       active_orders: {
         title: "Pedidos",
         title_small:
-          "Órdenes Físicas, de Archivo, Virtuales y de Servicio",
-        pending_orders: "Ordenes pendientes",
+          "Pedidos físicos, de archivos, virtuales, de servicios y de suscripción a través de los canales online, Avocado e Hyper.",
+        pending_orders: "Pedidos pendientes",
         physical: "Pedidos de productos físicos",
         virtual: "Pedidos de productos virtuales",
-        file: "Archivo de pedidos de productos",
-        service: "Pedidos de productos de servicio",
-        subscription: "Órdenes de suscripción",
+        file: "Pedidos de archivos",
+        service: "Pedidos de servicios",
+        subscription: "Pedidos de suscripción",
       },
       /** {@see BDashboardShopProducts} **/
       products: {
         title: "Inventario",
-        title_small: "Productos, Servicios, Archivos",
+        title_small: "Productos, servicios, archivos",
 
-        total_products: "Tipos de productos totales",
+        total_products: "Total de tipos de producto",
       },
       /** {@see BDashboardShopFinance} **/
       finance: {
-        title: "Financiero",
+        title: "Finanzas",
         title_small: "Informe financiero",
-        total_30days_title: "Cantidad total de ventas",
-        last_30_day: "últimos 30 días",
+        total_30days_title: "Importe total de ventas",
+        last_30_day: "Últimos 30 días",
         pay_amount_chart_title: "Pagos",
         sell_amount_chart_title: "Ventas",
         discount_amount_chart_title: "Descuento",
-        currency_convert_to: "a la moneda",
+        currency_convert_to: "Convertir a moneda",
         active_currencies: "Monedas activas",
         sell_count_chart_title: "Número de ventas por variante",
         active_gateways: "Pasarela de pago activa",
-        received_last_24h: "Recibido las últimas 7 horas",
+        received_last_24h: "Recibido en las últimas 7 horas",
         pie: {
-          title: "Relación de ventas de hoy",
-          no_data: "No hay venta hoy",
+          title: "Proporción de ventas de hoy",
+          no_data: "Sin ventas hoy",
         },
-        pay_amount: "Monto del pago",
-        sell_amount: "Monto en ventas",
+        pay_amount: "Importe del pago",
+        sell_amount: "Importe de ventas",
         discount_amount: "Importe de descuento",
-        sell_count: "Recuento de ventas",
+        sell_count: "Número de ventas",
         table: {
-          currency: "Divisa",
+          currency: "Moneda",
           total_sell_30days: "Ventas totales de 30 días",
-          sell_daily: "Tarifa diaria de ventas",
-          sell: "Rebaja",
-          pay: "Pagar",
+          sell_daily: "Tasa de ventas diaria",
+          sell: "Venta",
+          pay: "Pago",
         },
       },
       /** {@see BDashboardShopCustomers} **/
       customers: {
-        title: "comprar clientes",
+        title: "Clientes de la tienda",
         title_small: "Informe de conversión",
-        total_customers: "Opción",
+        total_customers: "Total",
         new_customers_today: "Hoy",
-        new_customers_week: "Los últimos 7 días",
-        orders_count: "recuento de pedidos",
+        new_customers_week: "Últimos 7 días",
+        orders_count: "Número de pedidos",
         days_range: "Rango de días",
         new_users: "Nuevos usuarios registrados",
 
@@ -576,7 +705,7 @@ export default {
         title: "Hoy",
         title_small: "Resumen de usuarios y ventas",
         users: "Usuarios",
-        views: "Puntos de vista",
+        views: "Visitas",
         orders: "Pedidos",
         payments: "Pagos",
         no_visitor_today: "No tuviste visitas hoy.",
@@ -586,22 +715,22 @@ export default {
     /** {@see BPageShopProductsList} **/
     products: {
       title: "Lista de productos",
-      products_list: "volver a la lista",
+      products_list: "Volver a la lista",
       products_menu: "Gestión de productos",
 
-      view_que_list: "Ver lista de colas",
+      view_que_list: "Ver lista de la cola",
       menu_products_list: "Lista de productos",
       menu_export: "Exportar productos",
       menu_import: "Importar productos",
       drop_import_message:
-        "Suelte el archivo de lista de productos (formato CSV, XLS, XLSX) aquí para comenzar a agregar productos a granel. Asegúrese de que el archivo tenga el formato de lista de productos de Selldone.",
+        "Suelta aquí el archivo de lista de productos (formato CSV, XLS, XLSX) para empezar a añadir productos de forma masiva. Asegúrate de que el archivo tenga el formato de lista de productos de Selldone.",
 
       menu_advanced_options: "Opciones avanzadas",
       menu_advanced_options_description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Conecta Google Sheets, elimina productos duplicados y más...",
 
       products_rss: {
-        title: "Productos RSS",
+        title: "RSS de productos",
         subtitle: "Importar productos a Google, Meta, ...",
       },
       products_api: {
@@ -614,9 +743,9 @@ export default {
           "Los productos de esta tienda están vinculados a una hoja de cálculo de Google en Google Drive.",
       },
       show_deletes: {
-        false_title: "Ocultar eliminado",
+        false_title: "Ocultar eliminados",
         false_description: "Ocultar productos eliminados.",
-        true_title: "Mostrar eliminado",
+        true_title: "Mostrar eliminados",
         true_description: "Mostrar productos eliminados.",
       },
       show_vendors: {
@@ -628,37 +757,37 @@ export default {
       table_mode: {
         false_title: "Modo arrastrar y soltar",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Ver los productos organizados por categorías y subcategorías.",
         true_title: "Modo tabla",
-        true_description: "Sí Descripción",
+        true_description: "Ver los productos en una tabla detallada.",
       },
 
       show_notes: {
         false_title: "Ocultar notas",
         false_description: "Ocultar notas vacías.",
-        true_title: "Notas del programa",
+        true_title: "Mostrar notas",
         true_description: "Mostrar todas las notas, ⌘Ctrl+2",
       },
 
       rss_dialog: {
-        title: "Productos RSS",
+        title: "RSS de productos",
         subtitle:
-          "Utilice esta fuente RSS para mantener una lista actualizada de todos los productos.",
+          "Utiliza esta fuente RSS para mantener actualizada la lista de todos los productos.",
       },
       api_dialog: {
         title: "API de productos",
         subtitle:
-          "Utilice esta fuente API para mantener actualizada su lista de productos. Proporciona una API de acceso público para obtener productos de su tienda, lo que la hace ideal para sitios web de comparación y listado de productos.",
+          "Utiliza esta fuente API para mantener actualizada tu lista de productos. Proporciona una API de acceso público para obtener los productos de tu tienda, lo que la hace ideal para sitios web de listados y comparación de productos.",
       },
 
       /** {@see BProductWindowProductLarge} **/
 
       product_widget: {
         product_type: "Tipo de producto",
-        price: "precio",
+        price: "Precio",
         value_added: "Comisión",
         discount: "Descuento",
-        in_stock: "En stock",
+        in_stock: "En existencia",
         product_unit: "Unidad",
         total_sell: "Ventas totales",
         total_view: "Vistas totales",
@@ -668,37 +797,37 @@ export default {
 
       /** {@see WidgetFolderCard} **/
       folder_widget: {
-        products: "productos",
+        products: "Productos",
         products_unit: "Tipos",
         sub_categories: "Categorías",
         sub_categories_unit: "Artículos",
-        views: "Puntos de vista",
+        views: "Visitas",
         views_unit: "Veces",
       },
     },
 
     /** {@see BPageShopBlogs}  **/
     blogs: {
-      new: "escribir nuevo",
+      new: "Escribir nuevo",
       blogs: "Blog",
 
       /** {@see BPageShopBlogsList} **/
       list: {
         title: "Mis artículos",
         subtitle:
-          "Escribe artículos con un moderno editor en línea para presentarte a ti mismo y a tu negocio. El contenido original es lo primero en lo que debe concentrarse al escribir una publicación de blog de alta calidad compatible con SEO.",
-        waiting_message: "Recibiendo información... por favor espere",
+          "Redacta artículos con un editor en línea moderno para presentarte a ti y a tu negocio de forma eficaz. Dar prioridad al contenido original es esencial para crear publicaciones de blog de alta calidad y optimizadas para SEO.",
+        waiting_message: "Recibiendo información... espera, por favor",
         published: "Publicado",
-        draft: "Sequía",
+        draft: "Borrador",
         private: "Privado",
         public: "Público",
         table: {
           title: "Título",
           author: "Autor",
-          claps: "aplausos",
+          claps: "Aplausos",
           like: "Me gusta",
           comments: "Comentarios",
-          views: "Puntos de vista",
+          views: "Visitas",
           publish_state: "Estado",
           created_at: "Fecha de creación",
           updated_at: "Última actualización",
@@ -710,32 +839,32 @@ export default {
     orders: {
       /** {@see BProcessCenterList} **/
       physical: {
-        waiting_message: "Recibiendo información... por favor espere",
+        waiting_message: "Recibiendo información... espera, por favor",
         rejected: "Rechazado",
         delivery: "Envío",
         discount: "Descuento",
         not_paid: "No pagado",
 
         table: {
-          order_number: "Código de orden",
-          order_date: "Echa un vistazo a la fecha",
-          status: "último estado",
-          price: "Cantidad total",
+          order_number: "Código de pedido",
+          order_date: "Fecha de compra",
+          status: "Último estado",
+          price: "Importe total",
           payment_status: "Estado de pago",
         },
       },
 
       /** {@see BPageShopOrdersVirtual} **/
       virtual: {
-        waiting_message: "Recibiendo información... por favor espere",
+        waiting_message: "Recibiendo información... espera, por favor",
 
         discount: "Descuento",
         table: {
-          order_number: "Código de orden",
+          order_number: "Código de pedido",
           product: "Producto",
-          order_date: "Fecha de Registro",
-          status: "último estado",
-          price: "Cantidad total",
+          order_date: "Fecha de registro",
+          status: "Último estado",
+          price: "Importe total",
           payment_status: "Estado de pago",
         },
       },
@@ -744,45 +873,45 @@ export default {
     /** {@see BPageShopFinance} **/
     auditing: {
       menu: {
-        exchange: "Intercambio",
-        gateway: "Puerta",
+        exchange: "Tipo de cambio",
+        gateway: "Pasarela de pago",
         invoice: "Facturación",
-        report: "Reporte",
+        report: "Informe",
         tax: "Impuesto",
         drop_shipping: "Recibos de revendedor",
-        reseller_accounts: "cuentas de revendedor",
+        reseller_accounts: "Cuentas de revendedor",
         valuations: "Valoraciones",
-        customer_wallets: "Carteras de clientes",
+        customer_wallets: "Billeteras de clientes",
       },
 
       /** {@see BPageShopFinanceBill} **/
       invoice: {
-        title: "Comprar carteras vinculadas",
+        title: "Billeteras vinculadas a la tienda",
         subtitle:
-          "Los cargos, comisiones y costos de tienda se deducen de estas cuentas de billetera.",
+          "Las tarifas, comisiones y gastos de la tienda se debitan de estas cuentas de billetera virtual.",
 
         title_add: "Conectar nueva cuenta de billetera",
         subtitle_add:
-          "Debe crear una nueva billetera para cada moneda y conectarla a su tienda. La tarifa de servicio se retirará de esta billetera.",
+          "Debes crear una nueva billetera para cada moneda y conectarla a tu tienda. La tarifa de servicio se retirará de esta billetera.",
         add_account: "Añadir cuenta",
-        charge_account: "Cuenta de cargo",
+        charge_account: "Recargar cuenta",
         show_transaction: "Mostrar transacciones",
 
         table: {
-          currency: "Divisa",
+          currency: "Moneda",
           account_number: "Número de cuenta",
           account_name: "Nombre de la cuenta",
-          balance: "Equilibrio",
+          balance: "Saldo",
           free_balance: "Saldo disponible",
-          actions: "Remover",
+          actions: "Quitar",
         },
         add_account_dialog: {
-          title: "Conexión de la cuenta de crédito a la tienda",
+          title: "Conectar cuenta de crédito a la tienda",
           subtitle:
-            "Cuando abra una cuenta de billetera con Selldone, le daremos una tarjeta de crédito virtual y una cuenta como cualquier otra tarjeta de crédito. La tarifa de venta de Selldone se deducirá de esta cuenta, pero si el saldo de su cuenta no es suficiente, se adeudará esta cantidad. Puede utilizar los servicios de Selldone tanto como necesite.",
+            "Al abrir una cuenta de billetera en Selldone, recibirás una tarjeta de crédito virtual. La tarifa de servicio de Selldone se cargará a esta cuenta. Sin embargo, si el saldo de tu cuenta es insuficiente, la tarifa se convertirá en una deuda pendiente de pago.",
           account_number: "Número de cuenta",
           account_number_input_message:
-            "La tienda se vinculará a esta cuenta. Esta cuenta se utilizará para honorarios y costos.",
+            "La tienda se vinculará a esta cuenta. Esta cuenta se utilizará para tarifas y costos.",
           balance: "Saldo de la cuenta",
           connect_account_to_shop: "Conectar cuenta a la tienda",
         },
@@ -795,55 +924,55 @@ export default {
           delete_account: "Desconectar cuenta",
           delete_account_message:
             "¿Quieres eliminar esta cuenta de la lista de cuentas de la tienda?",
-          delete_account_action: "Borrar cuenta",
+          delete_account_action: "Eliminar cuenta",
         },
-        inform_charge_account: "¡Carga tu cuenta!",
+        inform_charge_account: "¡Recarga tu cuenta!",
         inform_charge_account_critical:
-          "¡Cargue su cuenta para evitar la suspensión del servicio!",
+          "¡Recarga tu cuenta para evitar la suspensión del servicio!",
       },
 
       /** {@see BPageShopFinanceExchange} **/
       exchange: {
-        title: "Almacenar monedas activas",
+        title: "Monedas activas de la tienda",
         subtitle:
           "Los usuarios podrán seleccionar una de las monedas activas y se calcularán y mostrarán los precios de los productos. Corresponde al vendedor introducir el tipo de cambio.",
         shop_currencies_input: "Monedas activas para los usuarios",
-        shop_currencies_input_error: "Seleccione al menos una moneda",
+        shop_currencies_input_error: "Selecciona al menos una moneda",
         rates: {
-          title: "Tasa de cambio de moneda",
+          title: "Tipo de cambio de moneda",
           sub_title:
-            "Puede ingresar precios de productos basados en cualquiera de las monedas a continuación y los precios de los productos se calcularán automáticamente según las tasas de conversión entre sus monedas.",
+            "Puedes introducir los precios de los productos en cualquiera de las monedas siguientes y los precios se calcularán automáticamente según los tipos de cambio entre tus monedas.",
           message:
-            "Al ingresar los tipos de cambio entre monedas, los precios de sus productos se calcularán y actualizarán automáticamente.",
-          add_new_rate: "Agregar nueva tarifa",
+            "Al introducir los tipos de cambio entre monedas, los precios de tus productos se calcularán y actualizarán automáticamente.",
+          add_new_rate: "Añadir nuevo tipo de cambio",
         },
         table: {
-          waiting_receive_data: "Obteniendo información... por favor espere",
+          waiting_receive_data: "Obteniendo información... espera, por favor",
           rate_input: "Tipo de cambio",
           from: "Desde",
-          to: "Para",
+          to: "A",
           exchange_rate: "Tipo de cambio",
           edit: "Editar",
-          delete: "Borrar",
-          auto: "Tarifa automática",
+          delete: "Eliminar",
+          auto: "Tipo de cambio automático",
         },
         add_rate_dialog: {
           title: "Establecer tipo de cambio",
           message:
-            "Tenga cuidado al ingresar la información. Los precios de sus productos se calcularán en base a las tarifas ingresadas aquí.",
-          currency_from: "De moneda",
-          currency_to: "a la moneda",
+            "Ten cuidado al introducir la información. Los precios de tus productos se calcularán según los tipos de cambio introducidos aquí.",
+          currency_from: "Moneda de origen",
+          currency_to: "Moneda de destino",
           exchange_rate: "Tipo de cambio",
         },
         alert: {
           title: "Eliminar tasa de conversión",
-          message: "¿Desea eliminar esta tasa de conversión?",
-          action: "Borrar",
+          message: "¿Quieres eliminar este tipo de cambio?",
+          action: "Eliminar",
         },
         notifications: {
-          delete_success: "Tasa de cambio eliminada.",
+          delete_success: "Tipo de cambio eliminado.",
           add_success: "Tipo de cambio actualizado.",
-          update_success: "Almacenar monedas activas actualizadas.",
+          update_success: "Monedas activas de la tienda actualizadas.",
         },
       },
     }, // End of auditing
@@ -858,9 +987,9 @@ export default {
       restriction: {
         title: "Restricción de envío",
         subtitle:
-          "¡Puede implementar restricciones para garantizar que solo los clientes dentro de las áreas de envío designadas puedan realizarle compras!",
+          "¡Puedes aplicar restricciones para garantizar que solo los clientes dentro de las zonas de envío designadas puedan comprarte!",
         no_enable_shipping_error:
-          "¡Nadie puede comprarte porque no tienes un método de envío habilitado!",
+          "¡Nadie puede comprarte porque no tienes ningún método de envío activado!",
         customer_must_select_a_shipping_msg:
           "El cliente debe seleccionar un método de envío para realizar el pedido.",
         customer_can_order_without_shipping_method_msg:
@@ -870,7 +999,7 @@ export default {
             false_description:
               "Los clientes aún pueden realizar pedidos incluso si no han seleccionado ningún método de envío específico.",
             false_title: "Aceptar todos los pedidos",
-            true_title: "Orden de aceptación restringida",
+            true_title: "Aceptación restringida de pedidos",
             true_description:
               "Los clientes deben elegir una opción de envío o recogida para completar su compra.",
           },
@@ -887,23 +1016,23 @@ export default {
         subtitle: "La unidad utilizada para la longitud, el ancho y la altura.",
       },
       mass_unit: {
-        title: "unidad de masa",
+        title: "Unidad de masa",
         subtitle: "La unidad utilizada para el peso.",
       },
       distance_unit: {
-        title: "Título",
-        subtitle: "Subtítulo",
+        title: "Unidad de distancia",
+        subtitle: "La unidad utilizada para la distancia.",
       },
 
       menu: {
-        return_request: "devuelto",
+        return_request: "Devoluciones",
         delivery: "Envío",
         inventory: "Inventario",
-        warehouse: "Depósito",
+        warehouse: "Almacén",
         logistic_apps: "Logística",
         profiles: "Perfiles",
-        includes: "Incluye",
-        property_sets: "Propiedad Establecer",
+        includes: "Contenido",
+        property_sets: "Conjuntos de propiedades",
         boxes: "Paquetes",
       },
 
@@ -923,8 +1052,8 @@ export default {
         title: "Métodos de envío",
 
         sub_title:
-          "Al establecer los valores en esta sección, se activan una variedad de métodos de envío en su tienda. En esta sección también se puede activar el método Contra Reembolso.",
-        add_transportation: "Agregar transporte",
+          "Al incorporar opciones de envío a tu tienda en esta sección, activas una variedad de métodos de entrega. El método contra reembolso (COD) se puede activar para cada servicio de envío. Cada servicio permite calcular los costos de forma independiente, y puedes personalizar estos servicios de transporte según tus necesidades. Además, tienes la opción de integrar servicios de envío de terceros o mensajeros propios con cada opción de envío.",
+        add_transportation: "Añadir método de envío",
 
         /** {@see DeliveryFormWidget} **/
         delivery_form: {
@@ -933,7 +1062,7 @@ export default {
 
           currency_input: "Moneda de referencia para los cálculos de costos",
           currency_input_message: "Los costos se calculan en esta moneda",
-          distance_input: "Distancia recorrida desde el almacén",
+          distance_input: "Distancia cubierta desde el almacén",
           distance_input_message: "0 o -1 significa sin límite.",
           max_weight_input: "Peso máximo aceptable del paquete",
           max_weight_input_message: "0 o -1 significa sin límite.",
@@ -942,36 +1071,36 @@ export default {
           length: "Largo",
           height: "Altura",
           days_input: "Fechas de entrega disponibles",
-          days_input_nodata: "Seleccione el día de entrega",
-          hours_input: "Plazos de entrega disponibles",
-          hours_input_nodata: "Seleccione un período de tiempo",
-          vacation_input: "¿Hacéis entregas en días festivos?",
+          days_input_nodata: "Selecciona el día de entrega",
+          hours_input: "Horarios de entrega disponibles",
+          hours_input_nodata: "Selecciona un intervalo de tiempo",
+          vacation_input: "¿Realizas entregas en días festivos?",
 
           pricing: "Calcular precio",
           const_input: "Costo fijo",
-          distance_cof_input: "Coeficiente de costo por distancia",
-          distance_cof_input_dim: "por {dim}",
-          weight_cof_input: "Factor de costo por peso",
-          weight_cof_input_dim: "por {dim}",
-          price_cof_input: "Costo de envío al factor precio del producto",
+          distance_cof_input: "Factor de distancia",
+          distance_cof_input_dim: "Por {dim}",
+          weight_cof_input: "Factor de peso",
+          weight_cof_input_dim: "Por {dim}",
+          price_cof_input: "Factor de precio del pedido",
           price_cof_input_message:
-            "Incluye costos de seguros y otros servicios como costos COD.",
-          price_cof_input_dim: "por {dim}",
-          distance_weight_cof_input: "Multiplicador de costos por multiplicador de peso",
+            "Incluye costos de seguro y otros servicios, como los costos de contra reembolso (COD).",
+          price_cof_input_dim: "Por {dim}",
+          distance_weight_cof_input: "Factor de distancia 🞬 peso",
           distance_weight_cof_input_dim: "Por cada {weight} por {distance}",
           free_shipping_input: "Envío gratis",
-          free_shipping_limit_input: "Costo mínimo de pedido para envío gratis",
+          free_shipping_limit_input: "Importe mínimo del pedido para envío gratis",
 
           shipping_cost_calculation: "Cálculo del costo de envío",
-          sod_true: "Obtener costo de envío en destino",
+          sod_true: "Cobrar el costo de envío en destino",
           sod_true_message:
-            "Asegúrese de que su servicio de envío acepte el costo de envío en destino.",
-          sod_false: "Cálculo del costo de envío automático",
+            "Asegúrate de que tu servicio de envío acepte el cobro del costo de envío en destino.",
+          sod_false: "Cálculo automático del costo de envío",
 
-          cod_input: "Soporte contra reembolso",
-          cod_true: "Acepta pago contra entrega",
-          cod_false: "Aceptar pago en línea solamente",
-          cod_true_message: "Asegúrese de que su servicio de envío acepte COD.",
+          cod_input: "Admite contra reembolso (COD)",
+          cod_true: "Aceptar pago contra reembolso",
+          cod_false: "Aceptar solo pago en línea",
+          cod_true_message: "Asegúrate de que tu servicio de envío acepte contra reembolso (COD).",
 
           notifications: {
             update_success: "La configuración del servicio de envío se completó correctamente.",
@@ -986,45 +1115,45 @@ export default {
         customers: "Clientes",
         contact_form: "Contactos",
         faq: "FAQ",
-        club: "Opción",
-        report: "Reporte",
+        club: "Club",
+        report: "Informe",
       },
 
       /** {@see BPageShopCrmReport} **/
       report: {
         title: "Resumen de clientes",
-        sub_title: "Verá el estado en vivo de sus clientes aquí.",
+        sub_title: "Aquí verás el estado en vivo de tus clientes.",
         report_30days_by_time:
-          "Actividad del usuario basada en fecha y hora en los últimos 30 días",
+          "Actividad de los usuarios por fecha y hora en los últimos 30 días",
         report_30days_by_location:
-          "Actividad de usuarios de geolocalización en los últimos 30 días",
+          "Actividad de los usuarios por geolocalización en los últimos 30 días",
       },
       /** {@see BPageShopCrmClub} **/
       club: {
-        title: "club de clientes",
+        title: "Club de clientes",
         sub_title:
-          "Ingrese el monto de la compra mensual y anual y la moneda para activar cada nivel. Sus clientes iniciarán sesión en su club de clientes a medida que cumplan con los requisitos de compra mensual o anual.",
+          "Introduce el importe de compra mensual y anual y la moneda para activar cada nivel. Tus clientes entrarán en tu club de clientes a medida que cumplan los requisitos de compra mensual o anual.",
         item: {
           members_count: "Número de miembros",
-          purchases_count: "El número de pedidos",
+          purchases_count: "Número de pedidos",
           monthly: "Mensual",
           annually: "Anual",
-          discount_percent: "Tasa de descuento",
+          discount_percent: "Porcentaje de descuento",
           discount_limit: "Límite de descuento",
         },
 
         edit_dialog: {
-          title: "Gestión de nivel de cliente",
-          currency_input: "Divisa",
+          title: "Gestión de niveles de clientes",
+          currency_input: "Moneda",
           currency_input_message:
             "Las compras totales se calculan en esta moneda.",
           free_shipping_input: "Envío gratis",
-          monthly_input: "Tasa de compra mensual",
-          annually_input: "Tasa de compra anual",
-          discount_percent_input: "Tasa de descuento para socios del club",
+          monthly_input: "Importe de compra mensual",
+          annually_input: "Importe de compra anual",
+          discount_percent_input: "Porcentaje de descuento para los miembros del club",
           discount_limit_input: "Límite de descuento",
           description_input: "Descripción",
-          description_input_message: "Introduzca una breve descripción de este nivel.",
+          description_input_message: "Introduce una breve descripción de este nivel.",
         },
         notifications: {
           update_success: "Cambios aplicados al club de clientes.",
@@ -1033,7 +1162,7 @@ export default {
       /** {@see BPageShopCrmFaq} **/
       faq: {
         title: "Preguntas frecuentes",
-        sub_title: "Agregue, edite y responda las preguntas de sus clientes.",
+        sub_title: "Añade, edita y responde las preguntas de tus clientes.",
       },
     }, // End of users
 
@@ -1049,59 +1178,59 @@ export default {
 
       /** {@see BPageShopMarketingCampaign} **/
       campaign: {
-        name_input_name: "Nombre de campaña",
-        name_input_placeholder: "Nombre de campaña",
+        name_input_name: "Nombre de la campaña",
+        name_input_placeholder: "Introduce el título de tu campaña.",
         create_campaign_action: "Crear nueva campaña",
         table: {
           title: "Título",
           state: "Estado",
           discount: "Descuento",
           landing: "Página de destino",
-          start: "Comienzo",
+          start: "Inicio",
           end: "Fin",
         },
         notifications: {
           add_success_title: "Crear una campaña",
-          add_success: "Su campaña fue creada.",
+          add_success: "Tu campaña se ha creado.",
         },
       },
     }, // End of marketing
 
     /** {@see BPageShopClassification} **/
     categories: {
-      title: "Lista de categoría",
+      title: "Lista de categorías",
       subtitle:
-        "Las categorías son la característica clave de su tienda en línea. Lo alentamos a utilizar estas poderosas herramientas de categorización para crear una tienda moderna y facilitar que sus clientes encuentren los productos correctos.",
+        "Las categorías son la característica clave de tu tienda en línea. Te animamos a usar estas potentes herramientas de categorización para crear un escaparate moderno y facilitar que tus clientes encuentren los productos adecuados.",
 
       menu: {
-        add_new: "Añadir nueva categoria",
+        add_new: "Añadir nueva categoría",
         categories_list: "Lista de categorías",
         export: "Exportar categorías",
         import: "Importar categorías (CSV)",
       },
       /** {@see categoriesGraph} **/
       graph: {
-        title: "Jerarquía de Categorías",
+        title: "Jerarquía de categorías",
         subtitle:
-          "Puede tener una descripción completa de las categorías de su tienda y cómo los usuarios las navegan. Con la disposición correcta de categorías, sus clientes pueden encontrar productos rápidamente y la tasa de conversión aumentará.",
-        visits_count: "Visitar",
+          "Puedes tener una visión completa de las categorías de tu tienda y de cómo las recorren los usuarios. Con una disposición adecuada de las categorías, tus clientes encontrarán los productos rápidamente y la tasa de conversión aumentará.",
+        visits_count: "Visitas",
         normal: "Sencillo",
-        items_count: "Número de items",
-        home: "Casa",
+        items_count: "Número de elementos",
+        home: "Inicio",
       },
     }, // End of categories
     /** {@see AdminShopApps} **/
     apps: {
       menu: {
-        app_store: "Tienda",
-        my_apps: "aplicaciones",
+        app_store: "App Store",
+        my_apps: "Aplicaciones",
       },
       /** {@see BPageShopSettingApplications} **/
       my_apps: {
-        title: "Almacenar aplicaciones activas",
+        title: "Aplicaciones",
         subtitle:
-          "Descubra la facilidad de administrar sus aplicaciones comerciales con Selldone App Store. Nuestra plataforma ofrece un conjunto completo de herramientas diseñadas para optimizar sus operaciones comerciales. Desde soluciones de gestión innovadoras hasta aplicaciones que aumentan la productividad, Selldone ofrece una experiencia perfecta para las empresas que buscan eficiencia y crecimiento.",
-        all: "todos",
+          "Descubre lo fácil que es gestionar las aplicaciones de tu negocio con la App Store de Selldone. Nuestra plataforma ofrece un conjunto completo de herramientas diseñadas para optimizar las operaciones de tu negocio. Desde soluciones de gestión innovadoras hasta aplicaciones que aumentan la productividad, Selldone ofrece una experiencia fluida para las empresas que buscan eficiencia y crecimiento.",
+        all: "Todos",
       },
       /** {@see BAppShopStore} **/
       store: {
@@ -1117,14 +1246,14 @@ export default {
     /** {@see BPageShopPages} **/
     pages: {
       menu: {
-        new_page: "Nueva pagina",
-        contact_us: "Contáctenos",
+        new_page: "Nueva página",
+        contact_us: "Contacto",
         privacy: "Privacidad",
         terms: "Términos",
         about_us: "Sobre nosotros",
-        landings: "Aterrizaje",
-        popup: "Surgir",
-        static: "Estático",
+        landings: "Página de destino",
+        popup: "Ventana emergente",
+        static: "Estática",
       },
     }, // End of pages
 
@@ -1132,24 +1261,24 @@ export default {
     permissions: {
       menu: {
         persons: "Personal",
-        roles: "roles",
+        roles: "Roles",
         api: "API",
       },
       /** {@see BPageShopPermissionStaff} **/
       shop_permissions: {
         menu: {
           users: "Lista de personal",
-          new_user: "Agregar nuevo personal",
+          new_user: "Añadir nuevo miembro del personal",
           new_user_message:
-            "Usuarios que tendrán acceso al panel de control y secciones de administración de esta tienda.",
+            "Usuarios con acceso al panel y a las secciones administrativas de esta tienda.",
         },
         delete_alert: {
           title: "Eliminar acceso",
           message: "¿Quieres eliminar este usuario?",
-          action: "Borrar",
+          action: "Eliminar",
         },
         notifications: {
-          add_success_title: "Agregar acceso",
+          add_success_title: "Añadir acceso",
           add_success: "Nuevo acceso añadido.",
           delete_success_title: "Eliminar acceso",
           delete_success: "Acceso eliminado.",
@@ -1158,90 +1287,90 @@ export default {
 
       /** {@see BPageShopPermissionApi} **/
       shop_api: {
-        title: "Almacenar claves de acceso",
+        title: "Clientes API",
         message:
-          "Estas claves se utilizan para crear tokens de acceso por parte de su servidor. Tenga en cuenta que las claves son confidenciales y solo en el servidor de una manera que no es visible para otros.",
+          "Estas claves se utilizan para que tu servidor cree tokens de acceso. Ten en cuenta que las claves son confidenciales y deben permanecer únicamente en el servidor, de forma que no sean visibles para otros.",
       },
     }, // End of permissions
     /** {@see BPageShopApplications} **/
     applications: {
       /** {@see BPageShopApplicationsPwa} **/
       pwa: {
-        title: "Aplicación Web",
-        sub_title: "Vea la aplicación web de su tienda aquí",
+        title: "Aplicación web",
+        sub_title: "Esta es la vista previa de la aplicación web de tu tienda.",
         message:
-          "Nota: Puede editar la página de bienvenida de su sitio web en su iPhone y iPad en la aplicación iOS",
-        ios_app: "aplicación para iOS",
+          "Puedes editar la página de bienvenida de tu sitio web en tu iPhone y iPad desde la aplicación de iOS.",
+        ios_app: "Aplicación de iOS",
       },
 
       /** {@see BPageShopApplicationsIos} **/
       ios: {
-        title: "aplicación para iOS",
-        sub_title: "Pronto podrá crear una aplicación de iOS para su tienda.",
+        title: "Aplicación de iOS",
+        sub_title: "Pronto podrás crear una aplicación de iOS para tu tienda.",
         message:
-          "Tamaño máximo de archivo: 512 KB, puede cargar archivos de hasta 1 MB de tamaño, siempre que nuestro sistema de compresión sea capaz de reducir el tamaño a 512 KB. La imagen cargada cambiará de tamaño de forma inteligente.",
+          "Tamaño máximo de archivo: 512 KB. Puedes subir archivos de hasta 1 MB, siempre que nuestro sistema de compresión pueda reducir el tamaño a 512 KB. La imagen subida se redimensionará de forma inteligente.",
       },
       /** {@see BPageShopApplicationsAndroid} **/
       android: {
-        title: "Aplicación Android",
-        sub_title: "Cree su propia aplicación para Android",
+        title: "Aplicación de Android",
+        sub_title: "Crea tu propia aplicación de Android",
         message:
-          "Complete este formulario y presione la tecla de compilación. No habrá necesidad de nada más. Todos los pasos del proceso de creación y firma de su aplicación se realizan en los servidores de la nube. La aplicación final se cargará en todas las tiendas de aplicaciones.",
+          "Rellena este formulario y pulsa el botón de compilar. No necesitarás nada más. Todos los pasos del proceso de compilación y firma de tu aplicación se realizan en servidores en la nube. La aplicación final se subirá a todas las tiendas de aplicaciones.",
         server_un_available:
-          "Experimentalmente, el servidor de aplicaciones no está conectado en este momento.",
-        app_building_progress: "Su aplicación se está construyendo.",
+          "De forma experimental, el servidor de aplicaciones no está conectado en este momento.",
+        app_building_progress: "Tu aplicación se está compilando.",
         app_build_success: "Tu aplicación está lista.",
         download_app_action: "Obtener la aplicación",
         firmware_version: "Versión de firmware",
-        main_info: "Paquete de aplicación",
-        package_name_input_message: "Asegúrese de que el nombre del paquete sea único.",
+        main_info: "Paquete de la aplicación",
+        package_name_input_message: "Asegúrate de que el nombre del paquete sea único.",
         package_name_input_alert:
-          "Si cambia este nombre, ya no podrá actualizar sus aplicaciones anteriores en AppStore e instalar una nueva. Tenga en cuenta que los usuarios de versiones anteriores de la aplicación tampoco podrán iniciar sesión en sus cuentas.",
+          "Si cambias este nombre, ya no podrás actualizar tus aplicaciones anteriores en la AppStore ni instalar una nueva. Ten en cuenta que los usuarios de versiones anteriores de la aplicación tampoco podrán iniciar sesión en sus cuentas.",
         version_input: "Versión",
         version_input_message:
           "Este número siempre debe ser mayor que su valor anterior.",
-        version_name_input: "nombre de la versión",
+        version_name_input: "Nombre de la versión",
         version_name_input_message:
-          "Ingrese un nombre único para esta versión de la aplicación.",
-        use_selldone_key: "Claves predeterminadas Selldone",
+          "Introduce un nombre único para esta versión de la aplicación.",
+        use_selldone_key: "Claves predeterminadas de Selldone",
         use_last_key: "Clave guardada",
-        use_new_key: "Nueva llave",
+        use_new_key: "Nueva clave",
         appearance: "Apariencia",
         app_name_input: "Nombre de la aplicación",
-        app_name_input_message: "Este será el nombre principal de su aplicación.",
-        app_title_input: "título de la aplicación",
+        app_name_input_message: "Este será el nombre principal de tu aplicación.",
+        app_title_input: "Título de la aplicación",
         app_title_input_message: "Este título aparece en la parte superior de la aplicación.",
         app_title_input_placeholder: "Introduce un título",
         app_icon_input: "Icono de la aplicación",
-        app_icon_input_placeholder: "Seleccione el archivo zip de los iconos de la aplicación.",
-        generate_icon_pack_action: "Paquete de iconos de construcción",
+        app_icon_input_placeholder: "Selecciona el archivo zip de los iconos de la aplicación.",
+        generate_icon_pack_action: "Generar paquete de iconos",
         splash_design: "Diseño de pantalla de bienvenida",
         splash_logo_input: "Logotipo de la pantalla de bienvenida",
-        splash_logo_input_placeholder: "Seleccione una imagen para la pantalla de bienvenida.",
+        splash_logo_input_placeholder: "Selecciona una imagen para la pantalla de bienvenida.",
         splash_title_input: "Título de la pantalla de bienvenida",
-        splash_title_input_placeholder: "Ingrese un título para la pantalla de bienvenida",
+        splash_title_input_placeholder: "Introduce un título para la pantalla de bienvenida",
         splash_title_input_message:
           "Este título se mostrará en tamaño de fuente grande.",
         splash_message_input: "Mensaje de la pantalla de bienvenida",
         splash_message_input_placeholder: "Mensaje ...",
         splash_message_input_message:
-          "Este mensaje se mostrará como una miniatura a continuación.",
+          "Este mensaje se mostrará en tamaño pequeño debajo del título.",
 
-        dark_theme: "tema oscuro",
-        light_theme: "tema ligero",
-        build: "Construir",
+        dark_theme: "Tema oscuro",
+        light_theme: "Tema claro",
+        build: "Compilar",
         building_info:
-          "La creación de una aplicación en un servidor en la nube lleva de 10 segundos a varios minutos. Por favor sea paciente. El enlace del archivo de descarga aparecerá aquí una vez que la aplicación esté lista.",
+          "La compilación de una aplicación en un servidor en la nube tarda entre 10 segundos y varios minutos. Ten paciencia. El enlace de descarga del archivo aparecerá aquí cuando la aplicación esté lista.",
         update_mode_action: "Actualizar",
-        build_mode_action: "Crear aplicación",
+        build_mode_action: "Compilar aplicación",
         notifications: {
           icon_pack_not_valid_error: "El archivo no es correcto.",
-          start_building_title: "Edificio ...",
+          start_building_title: "Compilando...",
           start_building_message:
-            "Se envió la solicitud para crear una aplicación de Android.",
+            "Solicitud de compilación de la aplicación Android enviada.",
           build_success_title: "Felicidades",
           build_success:
-            "Su aplicación de Android está lista y puede descargarla ahora.",
+            "Tu aplicación Android está lista y ya puedes descargarla.",
         },
       },
     }, // End of applications
@@ -1257,24 +1386,24 @@ export default {
     edit: {
       menu: {
         delete: "Eliminar tienda",
-        activity_time: "Tiempo",
+        activity_time: "Horario",
         footer: "Menú",
         info: "Información",
         notification: "Notificaciones",
-        home: "Casa",
+        home: "Inicio",
         locations: "Ubicaciones",
         license: "Licencia",
-        theme: "Temática",
+        theme: "Tema",
         sms: "SMS",
         email: "Correo electrónico",
         domain: "Dominio",
         verifications: "Verificaciones",
-        flow: "Caudal",
-        business_model: "modelo de negocio",
+        flow: "Flujo",
+        business_model: "Modelo de negocio",
       },
       delete_dialog: {
         title: "Eliminar tienda",
-        message: "¿Quieres eliminar la tienda <b>{title}</b> ?",
+        message: "¿Quieres eliminar la tienda <b>{title}</b>?",
         action: "Eliminar tienda",
       },
 
@@ -1286,31 +1415,31 @@ export default {
       info: {
         title_tab: {
           title: "Nombre comercial e idioma",
-          subtitle: "Establezca un nombre público y un idioma predeterminado.",
+          subtitle: "Establece un nombre público y un idioma predeterminado.",
         },
         name_tab: {
-          title: "Comprar nombre único",
-          subtitle: "Es el nombre de usuario de su empresa.",
+          title: "Nombre único de la tienda",
+          subtitle: "Es el nombre de usuario de tu negocio.",
         },
 
         description_tab: {
-          title: "tu historia empresarial",
+          title: "La historia de tu negocio",
           subtitle:
-            "Escriba sobre su negocio y su propuesta de valor única.",
+            "Escribe sobre tu negocio y su propuesta de valor única.",
         },
         contact_tab: {
           title: "Contacto y negocio local",
           subtitle:
-            "Información de contacto pública y configuración de empresas locales de Google.",
+            "Información de contacto pública y configuración de negocio local de Google.",
         },
         image_tab: {
-          title: "Título",
-          subtitle: "Seleccione un logotipo único para su marca.",
+          title: "Logotipo",
+          subtitle: "Selecciona un logotipo único para tu marca.",
         },
         favicon: {
-          title: "Título",
+          title: "Favicon",
           subtitle:
-            "Configura y gestiona esta opción para tu tienda.",
+            "Los favicons son pequeñas imágenes icónicas que representan un sitio web en las pestañas del navegador, los marcadores y las interfaces de aplicaciones móviles.",
         },
       },
 
@@ -1318,7 +1447,7 @@ export default {
       badge: {
         external_title: "Administrar insignias externas",
         external_message:
-          "Aquí, puede ingresar la dirección de la imagen de la insignia y el enlace a ella. Las URL deben ser de un sitio web aprobado.",
+          "Aquí puedes introducir la dirección de la imagen de la insignia y el enlace a ella. Las URL deben ser de un sitio web aprobado.",
       },
       /** {@see BPageShopSettingMenus} **/
       edit_menu: {
@@ -1331,25 +1460,25 @@ export default {
         },
 
         header: {
-          title: "menú de encabezado",
+          title: "Menú de cabecera",
           sub_title:
-            "Este menú solo se muestra en pantallas más grandes que las de los dispositivos móviles y en la parte superior de la página de inicio, las categorías de productos, los aterrizajes y las páginas de productos.",
+            "Este menú solo se muestra en pantallas más grandes que las de móvil, en la parte superior de la página de inicio, las categorías de productos, las páginas de destino y las páginas de producto.",
         },
 
-        save_menu: "Menú Guardar",
+        save_menu: "Guardar menú",
         dialog: {
           main_pages: "Páginas principales",
           custom_pages: "Páginas de destino",
         },
         table: {
-          home: "Casa",
+          home: "Inicio",
           shop: "Tienda",
           blogs: "Blog",
           about_us: "Sobre nosotros",
           privacy: "Privacidad",
-          terms: "Términos de Uso",
+          terms: "Términos de uso",
           faq: "FAQ",
-          contact_us: "Contáctenos",
+          contact_us: "Contáctanos",
         },
         notifications: {
           save_success: "El menú ha sido actualizado con éxito.",
@@ -1358,22 +1487,22 @@ export default {
 
       /** {@see ShopSocialField} **/
       social: {
-        title: "Medios de comunicación social",
+        title: "Redes sociales",
         message:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Introduce el enlace oficial de tus redes sociales en esta sección. Sigue las instrucciones de cada elemento para confirmar las direcciones.",
       },
 
       /** {@see BShopSettingWorkingDays} **/
       time: {
         title: "Días laborables",
-        sub_title: "Establecer días y horas de trabajo",
-        days_open_input: "Dias",
-        days_open_input_nodata: "Seleccione al menos un día",
+        sub_title: "Establece los días y el horario de trabajo",
+        days_open_input: "Días",
+        days_open_input_nodata: "Selecciona al menos un día",
         start_time_input: "Hora de inicio de la actividad de la tienda",
         start_time_input_hint: "Horario de apertura de la tienda",
         end_time_input: "Hora de cierre de la tienda",
         end_time_input_hint: "Hora de finalización de la actividad de la tienda",
-        customer_support_service: "Responsabilidad y Servicio al Cliente",
+        customer_support_service: "Servicio de atención al cliente",
         response_time_input: "Estado del servicio de atención al cliente",
         support_24h: "24 horas 7 días a la semana",
         support_normal: "Solo en horario de oficina",
@@ -1387,7 +1516,7 @@ export default {
 
   /** {@see BCategoryInput} **/
   category_select: {
-    category_input_no_category: "Ninguna Categoria",
+    category_input_no_category: "Sin categoría",
   },
 
   /** {@see BProductAddFull} **/
@@ -1398,7 +1527,7 @@ export default {
 
     title_edit: "Editar producto",
     delete: "Eliminar producto",
-    completed: "Terminado",
+    completed: "Completado",
 
     menu: {
       type: "Tipo de producto",
@@ -1406,31 +1535,31 @@ export default {
       rating: "Encuesta y características",
       spec: "Especificaciones",
       images: "Imágenes",
-      price: "precio",
-      inputs: "Aporte",
-      outputs: "producción",
+      price: "Precio",
+      inputs: "Entrada",
+      outputs: "Salida",
       extra: "Detalles adicionales",
-      review: "Revision de producto",
+      review: "Descripción del producto",
       inventory: "Inventario / Variantes",
-      change_status: "Cambiar Estado",
+      change_status: "Cambiar estado",
     },
     menu_extra: {
       description: "Descripción",
       form: "Formulario",
-      no_spec: "Opción",
-      has_spec: "Opción",
+      no_spec: "Sin especificaciones",
+      has_spec: "Con especificaciones",
     },
 
     select_type: {
-      title: "Elige tu tipo de producto o servicio",
+      title: "Elige el tipo de producto o servicio.",
     },
 
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Categoría",
-      category_input_msg: "Vacío: En la raíz de la tienda",
+      category_input_msg: "Vacío: en la raíz de la tienda",
       product_name: "Nombre del producto*",
-      product_name_placeholder: "El nombre de su producto aquí..",
+      product_name_placeholder: "El nombre de tu producto aquí..",
       product_code: "Código de producto (inglés)",
       sku: {
         label: "SKU",
@@ -1443,78 +1572,78 @@ export default {
 
       external_link: "Enlace externo",
 
-      brand_placeholder: "Marca Ej. Manzana.. (Opcional)",
+      brand_placeholder: "Marca, p. ej. Apple.. (opcional)",
 
       is_original: "¿Es este un producto original?",
       is_original_message:
-        "Si no configura su producto original, se mostrará la insignia falsa para este producto.",
+        "Si no marcas tu producto como original, se mostrará la insignia de imitación para este producto.",
       return_warranty:
         "¿Cuántos días tiene garantía de devolución este producto?",
-      warehouse_section: "Almacén y Fabricación",
+      warehouse_section: "Almacén y fabricación",
       conditions_section: "Condiciones del producto",
-      warranty_section: "Garantía y Entrega",
+      warranty_section: "Garantía y entrega",
 
-      unit_input: "unidad de producto",
-      unit_message: "Introduzca la unidad si es necesario. Ej: KG, Metro, ...",
+      unit_input: "Unidad del producto",
+      unit_message: "Introduce la unidad si es necesario. Ej.: kg, metro, ...",
 
-      unit_section: "unidad de producto",
+      unit_section: "Unidad del producto",
 
-      unit_float: "Unidad flotante (pronto)",
+      unit_float: "Unidad decimal",
       unit_float_hint:
-        "Por ejemplo, el cliente puede pedir 3 kg de fruta, pero la cantidad enviada al cliente es ligeramente diferente de la cantidad pedida.",
+        "Por ejemplo, un cliente puede pedir 2,5 kg de fruta, pero la cantidad finalmente enviada podría ser ligeramente distinta de la pedida.",
       unit_float_message:
-        "Durante el procesamiento del pedido, la cantidad entregada puede diferir de la cantidad solicitada. El sistema calcula automáticamente esta diferencia y la registra como su deuda con el cliente, que se puede aplicar a los próximos pedidos.",
+        "Si hay una diferencia entre la cantidad pedida y la entregada, el sistema la calcula automáticamente como importe de reembolso. Después puedes reembolsar ese importe a la tarjeta del cliente o aplicarlo como cashback en su billetera.",
 
       marketplace: {
         // Vendor panel > Fixed mode
         vendor_panel_message:
-          "El <b>{vendor_name}</b> es el propietario del producto.",
+          "<b>{vendor_name}</b> es el propietario del producto.",
         // Marketplace panel > Subscription products
         subscription_message:
-          "Los productos de suscripción pueden tener un proveedor, por lo que puede crearlos en el panel de proveedores o asignarles un proveedor en el paso de creación. El proveedor seleccionado será el propietario del producto.",
+          "Los productos de suscripción pueden tener un solo vendedor, así que puedes crearlos en el panel del vendedor o asignarles un vendedor en el paso de creación. El vendedor seleccionado será el propietario del producto.",
         default_message:
-          "Puede especificar si este producto pertenece a un proveedor y, por lo tanto, solo un proveedor puede venderlo, o si este producto pertenece a Marketplace y más de un proveedor puede venderlo.",
+          "Puedes especificar si este producto pertenece a un solo vendedor y, por lo tanto, solo ese vendedor puede venderlo, o si pertenece al marketplace y más de un vendedor puede venderlo.",
 
-        single_vendor_title: "Proveedor único",
+        single_vendor_title: "Vendedor único",
         single_vendor_desc:
-          "Este producto pertenece a un proveedor y el proveedor seleccionado puede gestionarlo.",
+          "Este producto pertenece a un vendedor y el vendedor seleccionado puede gestionarlo.",
 
-        multi_vendors_title: "Múltiples proveedores",
+        multi_vendors_title: "Varios vendedores",
         multi_vendors_desc:
-          "Este producto pertenece al mercado y solo se puede editar en el panel del mercado.",
+          "Este producto pertenece al marketplace y solo se puede editar en el panel del marketplace.",
       },
 
       category: {
         subtitle:
-          "Configure la categoría y el título que se mostrarán en su listado.",
+          "Configura la categoría y el título que se mostrarán en tu listado.",
       },
       unit: {
         subtitle:
-          "Puede personalizar la visualización de precios y elementos de llamada a la acción en la página del producto.",
+          "Puedes personalizar cómo se muestran el precio y los elementos de llamada a la acción en la página del producto.",
       },
       custom_pricing: {
         title: "Formulario de precios personalizado",
         subtitle:
-          "Puede crear o asignar una valoración (un formulario de entrada de precios) al producto, y sus clientes pueden seleccionar entre variantes o personalizar su mercancía mediante un formulario de entrada intuitivo.",
+          "Puedes crear o asignar una valoración (un formulario de entrada de precios) al producto, y tus clientes podrán elegir entre variantes o personalizar tu mercancía mediante un formulario intuitivo.",
         valuation_need_saved_product_message:
-          "Primero guarde el producto y luego podrá asignar un modelo de valoración.",
+          "Guarda primero el producto y luego podrás asignar un modelo de valoración.",
         assign_valuation_message:
-          "Por favor, asigne un modelo de valoración a este producto.",
+          "Asigna un modelo de valoración a este producto.",
         edit_pricing_action: "Editar formulario de precios",
         add_pricing_action: "Crear nuevo formulario de precios",
       },
       action: {
         title: "Botón de compra personalizado",
         message:
-          "Puedes cambiar el ícono siguiendo este patrón: {icon name} título...",
-        placeholder: "Introduzca una llamada a la acción...",
-        multi_language_dialog_title: "Título de botón de compra personalizado",
+          "Puedes cambiar el icono siguiendo este patrón: {icon name} texto...",
+        placeholder: "Introduce la llamada a la acción...",
+        multi_language_dialog_title: "Texto del botón de compra personalizado",
       },
       external: {
         not_available_message:
-          "Configura y gestiona esta opción para tu tienda.",
-        available_message: "Disponible Mensaje",
-        input_label: "Opción",
+          "La acción adicional está disponible con las licencias Company y Enterprise.",
+        available_message: "Puedes añadir una llamada a la acción externa adicional.",
+        input_label: "Segunda llamada a la acción",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1651,8 @@ export default {
       },
       gtin: {
         hint: "Los valores admitidos son UPC (América del Norte, 12 dígitos), EAN (Europa, 13 dígitos), JAN (Japón, 8 o 13 dígitos), ISBN (libros, 13 dígitos).",
-        label: "Número de artículo comercial global del producto",
-        placeholder: "Número de comercio global aquí. (Opcional)",
+        label: "Número global de artículo comercial (GTIN) del producto",
+        placeholder: "Número global de artículo comercial aquí.. (opcional)",
       },
       hsn: {
         hint: "HSN, o Sistema Armonizado de Nomenclatura, es un sistema de clasificación estandarizado internacionalmente para categorizar bienes y productos.",
@@ -1532,35 +1661,35 @@ export default {
       },
       condition: {
         label: "Estado del producto en tu tienda",
-        message: "Por favor, elija la condición de este producto.",
+        message: "Elige el estado de este producto.",
         subtitle:
-          "Informe a sus clientes sobre la condición y la marca del producto que está ofreciendo.",
+          "Informa a tus clientes sobre el estado y la marca del producto que ofreces.",
       },
       brand: {
         label: "Marca",
-        placeholder: "Marca Ej. Manzana.. (Opcional)",
+        placeholder: "Marca, p. ej. Apple.. (opcional)",
       },
       warranty: {
         subtitle:
-          "Establezca la garantía y el estado del producto, ya que esta información sobre la garantía se mostrará al cliente y ayudará a establecer el plazo dentro del cual se pueden devolver los productos después de la compra.",
+          "Establece la garantía y el estado del producto; esta información sobre la garantía se mostrará al cliente y ayuda a definir el plazo en el que se pueden devolver los productos después de la compra.",
 
         label: "Garantía",
-        placeholder: "Garantía dorada de 24 meses. (Opcional)",
+        placeholder: "Garantía dorada de 24 meses.. (opcional)",
       },
       status: {
         title: "Estado",
         subtitle:
-          "El estado del producto determina su disponibilidad en línea y en la tienda. Para crear un borrador de producto, simplemente cambie su estado a \"Inactivo\".",
+          "El estado del producto determina su disponibilidad en línea y en la tienda física. Para convertir un producto en borrador, simplemente cambia su estado a «Inactivo».",
       },
       profiles: {
         title: "Perfiles",
         subtitle:
-          "Puedes definir garantía, política de devolución, envío y guía y asignarlos a este producto. Se mostrarán como nuevas pestañas en la página del producto.",
+          "Puedes definir perfiles de garantía, política de devoluciones, envío y guía, y asignarlos a este producto. Se mostrarán como pestañas nuevas en la página del producto.",
       },
       shortcuts: {
         title: "Asignar producto a categorías adicionales",
         subtitle:
-          "Esta función le permite incluir el producto en varias categorías y conservar su ubicación en la categoría principal establecida en Producto > Editar > Categoría. Básicamente, funciona de manera similar a la creación de \"accesos directos\" en los sistemas operativos, lo que permite que el producto aparezca en categorías adicionales específicas.",
+          "Esta función te permite mostrar el producto en varias categorías conservando su ubicación en la categoría principal definida en Producto > Editar > Categoría. Básicamente, funciona de forma similar a crear «accesos directos» en los sistemas operativos, permitiendo que el producto aparezca en las categorías adicionales indicadas.",
       },
     },
 
@@ -1568,49 +1697,49 @@ export default {
     rating_pros_cons: {
       title: "Encuesta",
       message:
-        "Ingrese una lista de especificaciones del producto para que sus clientes califiquen su producto. (Hasta 5 artículos)",
-      rating_input: "Centro",
-      rating_input_message: "Puede agregar 5 elementos a la encuesta.",
+        "Introduce una lista de características del producto para que tus clientes lo valoren. (Hasta 5 elementos)",
+      rating_input: "Preguntas de la encuesta",
+      rating_input_message: "Puedes añadir hasta 5 elementos a la encuesta.",
       rating_input_placeholder:
         "Escribe aquí tu pregunta de encuesta personalizada... ¡y presiona Enter!",
 
-      item_unit: "ít",
+      item_unit: "Elemento",
 
-      pros_title: "ventajas",
-      pros_message: "Introduzca las características del producto. (Hasta 5 artículos)",
-      pros_input_title: "Título de la función",
-      pros_input_value: "Valor de característica",
+      pros_title: "Ventajas",
+      pros_message: "Introduce las características del producto. (Hasta 5 elementos)",
+      pros_input_title: "Título de la característica",
+      pros_input_value: "Valor de la característica",
       pros_group: "Ventajas del producto",
 
-      cons_title: "Contras",
-      cons_message: "Introduzca las debilidades del producto. (Hasta 5 artículos)",
-      cons_input_title: "título de debilidad",
-      cons_input_value: "Valor de debilidad",
-      cons_group: "debilidades del producto",
+      cons_title: "Desventajas",
+      cons_message: "Introduce los puntos débiles del producto. (Hasta 5 elementos)",
+      cons_input_title: "Título del punto débil",
+      cons_input_value: "Valor del punto débil",
+      cons_group: "Puntos débiles del producto",
 
       select_from_list: "Seleccionar de la lista",
 
       suggestion_rating: [
         "Buena calidad",
-        "Buen valor",
-        "Recomendaría",
+        "Buena relación calidad-precio",
+        "Lo recomendaría",
         "Características y capacidades",
         "Facilidad de uso",
         "Bien diseñado",
-        "Desempeño confiable",
+        "Rendimiento fiable",
         "Atención al cliente eficaz",
         "Tiempo de entrega satisfactorio",
-        "Producto coincide con la descripción",
-        "Durable y duradero",
+        "El producto coincide con la descripción",
+        "Resistente y duradero",
         "Económico",
         "Embalaje atractivo",
         "Diseño innovador",
-        "Amigable con el medio ambiente",
+        "Respetuoso con el medio ambiente",
         "Instrucciones/manual suficientes",
         "Expectativas cumplidas",
-        "Interfaz amigable",
+        "Interfaz fácil de usar",
         "Alta eficiencia",
-        "Gran servicio postventa",
+        "Excelente servicio posventa",
         "Funcionalidad versátil",
         "Precio competitivo",
         "Disponibilidad de repuestos/accesorios",
@@ -1620,14 +1749,14 @@ export default {
       ],
 
       notifications: {
-        add_rating_success: `Se agregó la opción {rating_name} de calificación del usuario.`,
-        delete_rating_success: `Se eliminó la opción de calificación de usuario {rating_name}.`,
+        add_rating_success: `Opción de valoración {rating_name} añadida.`,
+        delete_rating_success: `Opción de valoración {rating_name} eliminada.`,
 
         add_pros_success: "Característica del producto añadida.",
         delete_pros_success: "Característica del producto eliminada.",
 
-        add_cons_success: "Se agregó la debilidad del producto.",
-        delete_cons_success: "Se eliminó la debilidad del producto.",
+        add_cons_success: "Punto débil del producto añadido.",
+        delete_cons_success: "Punto débil del producto eliminado.",
       },
     },
 
@@ -1635,63 +1764,63 @@ export default {
     edit_spec: {
       title: "Especificaciones técnicas",
       subtitle:
-        "Introduzca aquí las especificaciones del producto. Esta información se mostrará a los clientes y también podrá utilizarse en el sistema de filtrado inteligente de la categoría.",
+        "Introduce aquí las especificaciones del producto. Esta información se mostrará a los clientes y también puede utilizarse en el sistema de filtrado inteligente de la categoría.",
       manual: {
-        title: "A mano",
+        title: "Manualmente",
         subtitle:
-          "Agregue especificaciones de producto manualmente definiendo grupos y pares clave-valores.",
+          "Añade las especificaciones del producto manualmente definiendo grupos y pares clave-valor.",
         add_group_action: "Añadir grupo",
         add_item_action: "Añadir valor de especificación",
       },
       import: {
         subtitle:
-          "Puede importar especificaciones técnicas de productos similares.",
+          "Puedes importar las especificaciones técnicas de productos similares.",
         action_title: "Importar",
-        action_subtitle: "Clonar especificación de otro producto.",
+        action_subtitle: "Clonar las especificaciones de otro producto.",
       },
       ai: {
-        title: "AI",
+        title: "IA",
         subtitle:
-          "Puede crear automáticamente especificaciones de producto enviando los datos sin procesar del producto en formato de texto.",
-        action_title: "Generación automática por IA",
-        action_subtitle: "Crear especificaciones de producto mediante indicaciones abstractas.",
+          "Puedes crear automáticamente las especificaciones del producto enviando los datos sin procesar del producto en formato de texto.",
+        action_title: "Generar automáticamente con IA",
+        action_subtitle: "Crear las especificaciones del producto a partir de una breve descripción.",
       },
 
       group_input_header: "Añadir grupo",
-      item_title_header: "Añadir artículo",
+      item_title_header: "Añadir elemento",
       group_input: "Encabezado de grupo",
-      group_input_message: "Introduzca el título.",
+      group_input_message: "Introduce el título.",
       group_add_action: "Añadir grupo",
 
       item_title_input: "Título",
-      item_title_input_message: "Introduzca el título de la función.",
+      item_title_input_message: "Introduce el título de la característica.",
 
       item_value_input: "Valor",
-      item_value_input_message: "Introduzca el valor de la característica.",
+      item_value_input_message: "Introduce el valor de la característica.",
 
-      add_item_action: "Añadir artículo",
+      add_item_action: "Añadir elemento",
 
       dialog: {
-        title: "Ingrese las especificaciones técnicas",
-        code_input: "ID del Producto",
+        title: "Importar especificaciones técnicas",
+        code_input: "ID del producto",
         code_input_message: "Código de producto: P0000 ...",
         spec_view_title: "Especificaciones del producto seleccionado",
         spec_view_subtitle:
           "Las especificaciones se han importado del producto elegido.",
-        set_spec_action: "Especificaciones técnicas duplicadas",
+        set_spec_action: "Duplicar especificaciones técnicas",
       },
       notifications: {
-        enter_group_title_error: "Introduzca el valor del título",
+        enter_group_title_error: "Introduce el valor del encabezado",
         enter_item_title_and_value_error:
-          "Ingrese el título y el valor de la característica",
+          "Introduce el título y el valor de la característica",
         spec_saved_success: "Especificaciones del producto guardadas.",
       },
       dialog_ai: {
-        title: "Generar automáticamente especificaciones de productos",
+        title: "Generar automáticamente las especificaciones del producto",
         prompt: {
           title: "Descripción general del producto",
           subtitle:
-            "Proporcione una descripción breve y clara del producto, destacando sus características y detalles principales. Esta información se utilizará para generar automáticamente las especificaciones del producto.",
+            "Proporciona una descripción breve y clara del producto, destacando sus características y detalles principales. Esta información se utilizará para generar automáticamente las especificaciones del producto.",
         },
         generated_spec: {
           title: "Especificaciones generadas por IA",
@@ -1708,9 +1837,9 @@ export default {
           run: {
             title: "Generar especificaciones",
             subtitle:
-              "Haga clic para crear automáticamente especificaciones de producto a partir de la descripción general proporcionada.",
+              "Haz clic para crear automáticamente las especificaciones del producto a partir de la descripción general proporcionada.",
           },
-          add_generated_spec: "Agregar especificaciones generadas",
+          add_generated_spec: "Añadir especificaciones generadas",
         },
       },
     },
@@ -1719,26 +1848,26 @@ export default {
       title: "Imagen principal",
       main_image_input_nodata: "Subir imagen del producto.",
       main_image_input_message: "Esta imagen se muestra en la lista de productos.",
-      preview: "Avance",
+      preview: "Vista previa",
       image_style: "Estilo de imagen",
       background_is_white: "Fondo blanco",
-      background_is_white_msg: "la imagen tiene fondo blanco??",
+      background_is_white_msg: "¿La imagen tiene fondo blanco?",
 
       images: {
-        title: "Galería de imágenes de productos",
+        title: "Galería de imágenes del producto",
         sub_title:
-          "Cargue imágenes de productos, comunes a todas las variantes de productos, en esta sección.",
+          "Sube en esta sección las imágenes del producto comunes a todas sus variantes.",
       },
       video: {
         title: "Vídeo",
         sub_title:
-          "Primero, cargue el video de su producto en YouTube y luego coloque la URL del video aquí.",
+          "Primero sube el vídeo de tu producto a YouTube y luego pega aquí la URL del vídeo.",
       },
       change_bg_ai: {
         title: "Crear imagen con nuevo fondo",
         inputs: {
           prompt: {
-            label: "Descripción de antecedentes",
+            label: "Descripción del fondo",
             placeholder: "Describe el fondo deseado...",
           },
         },
@@ -1756,38 +1885,38 @@ export default {
     /** {@see BProductEditPrice} **/
     pricing: {
       edit_price: "Precios",
-      price_input: "precio",
-      currency_input: "Divisa",
+      price_input: "Precio",
+      currency_input: "Moneda",
       currency_input_messages: "El precio se calcula en esta moneda.",
       commission_input: "Comisión",
       commission_message:
-        "Esta opción es útil solo para determinados tipos de comerciantes, como los mayoristas. Si no es mayorista, deje esta opción en blanco. El precio que ven los compradores es la suma del precio y la comisión. Para agregar impuestos, haga clic en Contabilidad > Impuestos.",
-      add_commission_action: "Agregar comisión",
+        "Esta opción es útil solo para determinados tipos de comerciantes, como los mayoristas. Si no eres mayorista, deja esta opción en blanco. El precio que ven los compradores es la suma del precio y la comisión. Para añadir impuestos, ve a Contabilidad > Impuestos.",
+      add_commission_action: "Añadir comisión",
 
       price_label_input: "Etiqueta de precio",
       price_label_message:
-        "Agregue información adicional sobre el precio como ($1.5/Fl Oz). Casos de uso: supermercado, FMCG.",
-      add_price_label_action: "Agregar etiqueta de precio",
+        "Añade información adicional sobre el precio, como ( $1.5/Fl Oz ). Casos de uso: alimentación, productos de gran consumo.",
+      add_price_label_action: "Añadir etiqueta de precio",
       discount_input: "Descuento",
       discount_input_message: "Tasa de descuento",
-      has_discount_period_input: "¿Este descuento es válido para un tiempo específico?",
-      discount_timespan: "Introduzca el período de descuento.",
-      start_input: "Comienzo",
+      has_discount_period_input: "¿Este descuento es válido durante un periodo específico?",
+      discount_timespan: "Introduce el periodo del descuento.",
+      start_input: "Inicio",
       end_input: "Fin",
-      start_input_placeholder: "Seleccione la hora de inicio",
-      end_input_placeholder: "Seleccione la hora de finalización",
-      independent_price: "El precio solo para esta variante.",
-      same_price: "El precio del producto principal.",
+      start_input_placeholder: "Selecciona la hora de inicio",
+      end_input_placeholder: "Selecciona la hora de finalización",
+      independent_price: "Precio solo para esta variante",
+      same_price: "Precio del producto principal",
       variant_pricing_message:
         "Al seleccionar esta opción, el precio de esta variante se puede establecer independientemente del producto principal.",
 
       subtitle: {
         marketplace:
-          "Dentro del mercado, el precio principal del producto que se muestra es el precio de lista, mientras que el precio real se determina en función de los registros de la relación entre el proveedor y el producto.",
+          "En el marketplace, el precio principal que se muestra es el precio del listado, mientras que el precio real se determina según los registros de la relación vendedor-producto.",
         subscription:
-          "Para las suscripciones, solo se muestra el precio de lista, mientras que el costo real se determinará en función del plan de suscripción seleccionado.",
+          "Para las suscripciones, solo se muestra el precio del listado, mientras que el costo real se determinará según el plan de suscripción seleccionado.",
         service:
-          "En el caso de los productos basados en servicios, los precios que se indican son solo a modo de ejemplo y brindan un costo estimado del servicio. El precio real del servicio lo determinará usted una vez que el cliente haya realizado su pedido (al finalizar la compra).",
+          "En el caso de los productos de tipo servicio, el precio indicado es solo informativo y ofrece un costo estimado del servicio. El precio real del servicio lo determinarás tú una vez que el cliente haya realizado su pedido (al finalizar la compra).",
         file: "Esto se refiere al precio listado y real del archivo, que los clientes deben pagar para poder acceder a los archivos.",
         default:
           "Esto se refiere al precio indicado del producto y también tiene en cuenta el precio de cualquier variante que no tenga precios separados.",
@@ -1798,27 +1927,27 @@ export default {
       },
 
       vendor: {
-        title: "Precios del proveedor",
+        title: "Precios del vendedor",
         subtitle:
-          "Este precio se mostrará únicamente en la lista de productos. Puede establecer el precio del proveedor en la pestaña Producto > Proveedores.",
-        manage_vendors: "Administrar proveedores",
+          "Este precio se mostrará únicamente en el listado de productos. Puedes establecer el precio del vendedor en la pestaña Producto > Vendedores.",
+        manage_vendors: "Gestionar vendedores",
         vendor_product_pricing_link:
-          "El precio del producto del vendedor está conectado. Si se cambia el precio de venta aquí, se afectarán los productos del vendedor sin variantes o aquellos con variantes que no tienen su propio precio (usando el mismo precio que el producto principal). Este precio se considerará el precio del mercado y el precio del vendedor se establecerá en función del modelo de precios o del margen de beneficio del mercado anterior.",
+          "El precio del producto del vendedor está vinculado. Cambiar aquí el precio del listado afectará a los productos del vendedor sin variantes o con variantes que no tienen precio propio (que usan el mismo precio que el producto principal). Este precio se considerará el precio del marketplace, y el precio del vendedor se establecerá según el modelo de precios o el margen de beneficio anterior del marketplace.",
         vendor_variant_pricing_link:
-          "Si se cambia el precio de la variante aquí, se afectará el precio de los productos del vendedor con la misma variante. Este precio se considerará el precio del mercado y el precio del vendedor se establecerá de acuerdo con el modelo de precios o el margen de beneficio del mercado anterior.",
+          "Cambiar aquí el precio de la variante afectará al precio de los productos del vendedor con la misma variante. Este precio se considerará el precio del marketplace, y el precio del vendedor se establecerá según el modelo de precios o el margen de beneficio anterior del marketplace.",
       },
     },
     /** {@see ProductEditInputs} **/
     inputs_edit: {
       title: "Formulario de entrada de información del comprador",
       sub_title:
-        "Puede crear un formulario de entrada de datos para cada producto, de modo que los compradores le envíen información al comprar un producto. Por ejemplo, esta información podría ser un nombre para un grabado en una piedra.",
+        "Puedes crear un formulario de entrada de datos para cada producto, de modo que los compradores te envíen información al comprar. Por ejemplo, esta información podría ser un nombre para grabar en una piedra.",
       message_input: "Mensaje al usuario",
       message_input_message:
         "Este mensaje se le mostrará al cliente al comprar productos.",
-      inputs_form: "Estructura de la información (entrada)",
+      inputs_form: "Estructura del formulario de entrada",
       inputs_hint:
-        "Tiene la opción de configurar un formulario personalizado para recopilar detalles de sus clientes cuando estén listos para realizar un pedido.",
+        "Tienes la opción de configurar un formulario personalizado para recopilar datos de tus clientes cuando estén listos para realizar un pedido.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1826,16 +1955,16 @@ export default {
       physical: {
         title: "Información de envío",
         sub_title:
-          "El costo y el tiempo de preparación se calculan con base en la información de esta sección. Asegúrese de ingresar la información según las unidades seleccionadas en la tienda (peso, dimensiones, distancia).",
+          "El costo y el tiempo de preparación se calculan a partir de la información de esta sección. Asegúrate de introducir la información según las unidades seleccionadas en la tienda (peso, dimensiones, distancia).",
       },
 
       notifications: {
         save_title: "Embalaje actualizado",
-        save_msg: "Información del empaque del producto actualizada con éxito.",
+        save_msg: "Información de embalaje del producto actualizada correctamente.",
       },
 
       order_limit: {
-        title: "Límites de pedidos",
+        title: "Límites de pedido",
         subtitle:
           "Si eres mayorista o hay un límite mínimo o máximo en la cantidad de este artículo por pedido, puedes especificarlo aquí.",
         no_limit: "Sin límite",
@@ -1850,17 +1979,17 @@ export default {
     },
 
     delete_product: {
-      title: "Quitar producto",
-      message: `¿Quieres eliminar <b>{product_title}</b> ?`,
-      tips: "Si elimina accidentalmente un producto, puede recuperarlo navegando a su Tienda > Productos, habilitando Mostrar artículos eliminados, haciendo clic derecho en el producto y seleccionando Restaurar.",
+      title: "Eliminar producto",
+      message: `¿Quieres eliminar <b>{product_title}</b>?`,
+      tips: "Si eliminas un producto por accidente, puedes recuperarlo yendo a Tienda > Productos, activando «Mostrar elementos eliminados», haciendo clic derecho sobre el producto y seleccionando «Restaurar».",
     },
   },
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "Precio adicional por más de {min}",
+    title: "Precio adicional para más de {min}",
     subtitle:
-      "El sistema determina automáticamente el orden y la prioridad para el cálculo del precio. Ingrese la cantidad mínima requerida para que este precio tenga efecto.",
+      "El sistema determina automáticamente el orden y la prioridad para el cálculo del precio. Introduce la cantidad mínima requerida para que este precio se aplique.",
     min_quantity: "Cantidad mínima",
   },
   /** {@see BProductInventoryManagementPhysical} **/
@@ -1869,17 +1998,17 @@ export default {
       dropshipping:
         "El inventario de productos de dropshipping lo establecen los mayoristas y no se puede modificar aquí.",
       marketplace:
-        "El inventario total de productos en el mercado se determina sumando los inventarios de todos los vendedores. No se puede modificar aquí.",
-      default: "Especifique aquí el número de inventario del producto.",
+        "El inventario total del producto en el marketplace se determina sumando los inventarios de todos los vendedores. No puedes modificarlo aquí.",
+      default: "Especifica aquí la cantidad en inventario del producto.",
     },
     menu: {
       add_bulk: {
-        title: "Masivo Añadir",
-        subtitle: "Subtítulo",
+        title: "Añadir en bloque",
+        subtitle: "Añade varias variantes en una sola acción.",
       },
       edit_property_set: {
-        title: "Título",
-        subtitle: "Subtítulo",
+        title: "Personalizar conjunto de propiedades",
+        subtitle: "Cambia los nombres, iconos y orden de las variantes.",
       },
     },
   },
@@ -1888,14 +2017,14 @@ export default {
    * @see USmartMenu
    */
   smart_menu: {
-    show_delete_items: "Opción",
+    show_delete_items: "Mostrar elementos eliminados",
   },
 
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Código de categoría de producto de Google",
-    hint: "Representa la categoría de su producto según la taxonomía de productos de Google.",
-    placeholder: "Introduzca la categoría del producto o servicio. (Opcional)",
+    hint: "Representa la categoría de tu producto según la taxonomía de productos de Google.",
+    placeholder: "Introduce la categoría del producto o servicio.. (opcional)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1920,8 +2049,8 @@ export default {
   product_logistic_profile: {
     dialog: {
       title: "Seleccionar perfil logístico",
-      add_new_action: "Agregar nuevo perfil",
-      add_new_disable_msg: "Propietario del mercado",
+      add_new_action: "Añadir nuevo perfil",
+      add_new_disable_msg: "Propietario del marketplace",
     },
   },
 
@@ -1929,24 +2058,24 @@ export default {
    * @see BPageShopPagesPopups
    */
   b_shop_popups: {
-    title: "Popups Gestión",
+    title: "Gestión de ventanas emergentes",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
-    add_action: "Añadir Nuevo Popup",
+      "Crea ventanas emergentes personalizadas, inteligentes e interactivas.",
+    add_action: "Añadir nueva ventana emergente",
   },
 
   /** {@see BProductProfileTax} **/
   product_tax_profile: {
     description: {
-      default: "Defecto",
+      default: "Predeterminado",
       dedicated: "Dedicado",
 
       subscription: "Podemos aplicar impuestos solo en el paso de creación del pago.",
-      is_disabled: "¡Este perfil fiscal está deshabilitado! (⚠️Advertencia)",
+      is_disabled: "¡Este perfil fiscal está desactivado! (⚠️Advertencia)",
       shipping: "Envío",
       fixed_rate: "Impuesto",
-      location_based_rate: "Impuestos: basados en la ubicación",
-      shipping_location_based_rate: "Envío: basado en la ubicación",
+      location_based_rate: "Impuesto: según la ubicación",
+      shipping_location_based_rate: "Envío: según la ubicación",
       include_in_price: "Incluido en el precio",
     },
     dialog: {
@@ -1954,13 +2083,13 @@ export default {
 
       title: "Perfil fiscal",
       subtitle:
-        "Puede asignar regulaciones impositivas específicas al producto. Si no se elige un perfil impositivo para el producto, se aplicarán las regulaciones impositivas predeterminadas de la tienda.",
+        "Puedes asignar normas fiscales específicas al producto. Si no se elige un perfil fiscal para el producto, se aplicarán las normas fiscales predeterminadas de la tienda.",
 
       action_manage: "Gestionar impuestos",
       action_manage_sub: "Tienda > Finanzas > Impuestos",
 
       subscription_tips:
-        "Cuando selecciona un perfil de impuestos para un producto de suscripción, actualizamos <code>tax code</code> y configuramos el modo inclusivo/exclusivo en su proveedor de servicios de pago. El perfil de impuestos seleccionado especifica si el precio se considera que incluye o excluye impuestos. Uno de los dos: <code>inclusive</code> o <code>exclusive</code> . Una vez especificado como inclusivo o exclusivo, no se puede cambiar.<br /><br /> <b>¡Importante!</b> Después de cambiar el perfil impositivo, debe hacer clic en Planes de precios en la pestaña Producto > Inventario y hacer clic en el botón Guardar para aplicar los cambios.",
+        "Cuando seleccionas un perfil fiscal para un producto de suscripción, actualizamos el <code>tax code</code> y configuramos el modo inclusivo/exclusivo en tu proveedor de servicios de pago. El perfil fiscal seleccionado especifica si el precio se considera con impuestos incluidos o sin incluir: <code>inclusive</code> o <code>exclusive</code>. Una vez definido como inclusivo o exclusivo, no se puede cambiar.<br /><br /><b>¡Importante!</b> Después de cambiar el perfil fiscal, debes hacer clic en los planes de precios en la pestaña Producto > Inventario y pulsar el botón Guardar para aplicar los cambios.",
     },
   },
 
@@ -1970,7 +2099,7 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "El precio y la cantidad de este producto los establece el proveedor particular al que pertenece.",
+        "El precio y la cantidad de este producto los establece el vendedor específico al que pertenece.",
     },
     vendors: {
       subtitle:
@@ -1982,10 +2111,10 @@ export default {
    */
   vendor_add: {
     menu: {
-      profile: "Perfil & Información",
-      business: "Negocio & Pago",
+      profile: "Perfil e información",
+      business: "Negocio y pago",
       documents: "Documentos",
-      page: "Página Plantilla",
+      page: "Plantilla de página",
       shipping: "Envío",
       access: "Acceso",
       critical_zone: "Zona crítica",
@@ -1994,49 +2123,49 @@ export default {
     profile: {
       title: "Información del vendedor",
       subtitle: "Esta información se muestra a los clientes públicamente.",
-      action_sub_caption: "Página de listado de productos públicos.",
+      action_sub_caption: "Página pública de listado de productos.",
       action_see_listing_page: "Ver página de listado",
-      send_invitation_email: "Opción",
-      invitation_link: "Opción",
+      send_invitation_email: "Enviar correo de invitación",
+      invitation_link: "Enlace de invitación",
     },
 
     profiles: {
       title: "Perfiles",
-      subtitle: "Subtítulo",
+      subtitle: "Puedes asignar una ubicación a este vendedor.",
     },
     map: {
       no_map_message:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Asigna una ubicación al vendedor si es un vendedor basado en ubicación.",
     },
     page: {
       title: "Página personalizada",
       subtitle:
-        "Configure una página de destino personalizada para el proveedor, proporcionándole un enlace único a su página dedicada.",
+        "Configura una página de destino personalizada para el vendedor, proporcionándole un enlace único a su página dedicada.",
       action_set_page: "Ver página pública",
       action_sub_caption: "Página de destino personalizada.",
-      vendor_has_landing_msg: "El proveedor tiene una página de destino personalizada.",
+      vendor_has_landing_msg: "El vendedor tiene una página de destino personalizada.",
       no_landing_selected_msg: "No se ha seleccionado ninguna página de destino.",
       no_landing_page: "Sin página de destino",
       we_can_create_dedicated_landing_msg:
-        "Podemos crear una página de destino dedicada para usted.",
+        "Podemos crear una página de destino dedicada para ti.",
     },
     contact: {
       title: "Datos de contacto",
-      subtitle: "Por favor proporcione datos de contacto válidos.",
+      subtitle: "Proporciona datos de contacto válidos.",
     },
     business: {
-      title: "Información comercial",
+      title: "Información del negocio",
       subtitle:
-        "Proporcione información precisa sobre su negocio para garantizar un proceso de recaudación de ingresos rápido y sin problemas.",
+        "Proporciona información precisa sobre tu negocio para garantizar un proceso de cobro de ingresos rápido y sin problemas.",
     },
     bank: {
-      title: "Información de pago",
-      subtitle: "Ingrese aquí sus datos bancarios para realizar los pagos.",
+      title: "Información de pagos",
+      subtitle: "Introduce aquí tus datos bancarios para recibir los pagos.",
     },
     default_pricing: {
       title: "Precios predeterminados",
       subtitle:
-        "Puede asignar un modelo de precios predeterminado para el proveedor. Cuando el proveedor agrega un nuevo producto, este modelo de precios se utilizará para calcular el margen de mercado sobre el precio del producto. Posteriormente, puede ajustar el modelo de precios para cada producto individualmente.",
+        "Puedes asignar un modelo de precios predeterminado al vendedor. Cuando el vendedor añada un nuevo producto, este modelo de precios se utilizará para calcular el margen del marketplace sobre el precio del producto. Más adelante puedes ajustar el modelo de precios de cada producto individualmente.",
       no_pricing: "Sin precios",
     },
     shipping: {
@@ -2044,48 +2173,48 @@ export default {
       subtitle: "Los vendedores pueden configurar sus propios servicios de envío y mensajería.",
       shipping_services: "Servicios de envío",
       total_number_of_services:
-        "El número total de servicios de envío que tiene el proveedor.",
-      couriers: "mensajeros",
-      total_couriers_count: "El número total de mensajeros que tiene el vendedor.",
+        "El número total de servicios de envío que tiene el vendedor.",
+      couriers: "Mensajerías",
+      total_couriers_count: "El número total de mensajerías que tiene el vendedor.",
     },
     configuration: {
       title: "Configuración",
     },
     delete: {
-      title: "Eliminar proveedor",
-      action: "Eliminar proveedor",
+      title: "Eliminar vendedor",
+      action: "Eliminar vendedor",
       verify_description:
-        "¡Sé que se eliminarán todas las relaciones con productos y proveedores!",
-      verify_title: "Quiero eliminar este proveedor.",
+        "¡Entiendo que se eliminarán todas las relaciones entre el vendedor y sus productos!",
+      verify_title: "Quiero eliminar este vendedor.",
     },
 
     send_invitation_tips:
-      "Le enviaremos un correo electrónico de invitación a este usuario. Si el usuario se une a su tienda como vendedor, su cuenta se le asignará automáticamente.",
+      "Enviaremos un correo electrónico de invitación a este usuario. Si el usuario se une a tu tienda como vendedor, su cuenta se le asignará automáticamente.",
     only_marketplace_owner_can_edit_user:
-      "Solo el propietario del mercado puede editar el usuario. Si desea cambiar el propietario de este vendedor, puede enviarnos la solicitud.",
-    vendor_is_disable_msg: "El vendedor está deshabilitado.",
+      "Solo el propietario del marketplace puede editar el usuario. Si quieres cambiar el propietario de este vendedor, puedes enviarnos la solicitud.",
+    vendor_is_disable_msg: "El vendedor está desactivado.",
     email_not_match_with_user_msg:
-      "El correo electrónico ingresado no coincide con el correo electrónico del usuario ( <b>{user_name}:</b> {user_email}). ¿Está seguro de enviar correos electrónicos a <b>{email}</b> ?",
+      "El correo electrónico introducido no coincide con el del usuario (<b>{user_name}:</b>{user_email}). ¿Seguro que quieres enviar correos a <b>{email}</b>?",
 
     order_information_email_to_email:
-      "<b></b> Configura y gestiona esta opción para tu tienda. {email}",
+      "Enviaremos la información de los pedidos a <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "Primero, establezca un usuario para el proveedor.",
+    set_a_user_for_the_vendor_first_msg: "Primero asigna un usuario al vendedor.",
 
     inputs: {
       slug: {
-        label: "Camino",
-        placeholder: "Introduzca una ruta personalizada...",
-        hint: "Cambiar la ruta de la página de destino dinámica del proveedor.",
+        label: "Ruta",
+        placeholder: "Introduce una ruta personalizada...",
+        hint: "Cambia la ruta de la página de destino dinámica del vendedor.",
       },
       email: {
         message: "Este correo electrónico recibirá todas las notificaciones y actualizaciones.",
       },
       business: {
-        false_description: "Yo trabajo como individuo.",
+        false_description: "Trabajo como particular.",
         true_description: "Opero como una entidad comercial legalmente reconocida.",
-        false_title: "No Título",
-        true_title: "Negocio",
+        false_title: "Particular",
+        true_title: "Empresa",
       },
       bank: {
         hint: "El nombre del banco donde el vendedor tiene su cuenta.",
@@ -2093,47 +2222,47 @@ export default {
       },
       account_name: {
         hint: "Este debe coincidir con el nombre asociado a la cuenta bancaria.",
-        placeholder: "Su nombre..",
+        placeholder: "Tu nombre..",
       },
       account_number: {
         hint: "El número de cuenta único del vendedor.",
-        placeholder: "Su número de cuenta bancaria.",
+        placeholder: "Tu número de cuenta bancaria..",
       },
       routing_number: {
-        hint: "Este número varía según el país. Se utiliza para identificar la sucursal bancaria específica que utiliza el proveedor.",
-        placeholder: "Su número de ruta bancaria, código de clasificación o número BSB.",
+        hint: "Este número varía según el país. Se utiliza para identificar la sucursal bancaria específica que utiliza el vendedor.",
+        placeholder: "Tu número de ruta bancaria, sort code o número BSB..",
       },
       iban: {
-        hint: "Número de cuenta bancaria internacional): si el banco del vendedor está en Europa o en otros países determinados.",
-        placeholder: "Su número IBAN, por ejemplo: DE89 3704 0044 0000 0000 00",
+        hint: "IBAN (Número de cuenta bancaria internacional): si el banco del vendedor está en Europa o en otros países determinados.",
+        placeholder: "Tu número IBAN.. p. ej. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "Número de cuenta bancaria internacional): si el banco del vendedor está en Europa o en otros países determinados.",
-        placeholder: "Su código Swift/BIC.",
+        hint: "Código SWIFT/BIC: necesario si el banco del vendedor está en Europa o en otros países determinados.",
+        placeholder: "Tu código SWIFT/BIC..",
       },
       branch_address: {
         hint: "La dirección de la sucursal bancaria donde el vendedor tiene su cuenta.",
-        placeholder: "Su dirección bancaria.",
+        placeholder: "La dirección de tu banco..",
       },
       enable: {
-        label: "Estado del proveedor",
-        hint: "Puedes habilitar o deshabilitar proveedores a nivel global. Los clientes no podrán comprar nada a los proveedores deshabilitados.",
+        label: "Estado del vendedor",
+        hint: "Puedes activar o desactivar vendedores de forma global. Los clientes no podrán comprar nada a los vendedores desactivados.",
         true_description:
-          "Podrán vender sus productos a través de su marketplace.",
+          "Podrán vender sus productos a través de tu marketplace.",
       },
       access: {
-        label: "Panel de proveedores y acceso",
+        label: "Panel y acceso del vendedor",
         true_description:
           "El vendedor tiene un panel dedicado para actualizar la cantidad y el precio.",
-        hint: "Puede habilitar o deshabilitar el panel de proveedores, que les permite actualizar las cantidades y los precios de los productos y recibir pedidos parciales.",
+        hint: "Puedes activar o desactivar el panel del vendedor, que permite a los vendedores actualizar las cantidades y precios de los productos y recibir pedidos parciales.",
         false_description: "El vendedor no tiene acceso a nada.",
       },
 
       logo: {
-        label: "Opción",
+        label: "Logotipo del vendedor",
       },
       description: {
-        placeholder: "Opción",
+        placeholder: "Escribe una descripción pública...",
       },
     },
   },
@@ -2145,15 +2274,15 @@ export default {
     title: "Documentos",
     action_upload_doc: "Subir documento",
     vendor_subtitle:
-      "Cargue los documentos necesarios para verificar su empresa, IP y dirección. Necesitamos esta información para confirmar su asociación y brindarle el acceso necesario.",
+      "Sube los documentos necesarios de verificación de negocio, propiedad intelectual y dirección. Necesitamos esta información para confirmar tu colaboración y darte el acceso necesario.",
     marketplace_subtitle:
-      "Los proveedores pueden enviar documentos como verificación comercial, de propiedad intelectual y de dirección para facilitar su proceso KYC, lo que le permitirá otorgarles el acceso adecuado.",
+      "Los vendedores pueden enviar documentos como verificación de negocio, propiedad intelectual y dirección para facilitar su proceso KYC, lo que te permitirá concederles el acceso adecuado.",
     upload_dialog: {
       title: "Subir documento",
       type: {
         title: "Tipo de documento",
         subtitle:
-          "Cargue únicamente los documentos necesarios. Evite compartir documentos que contengan información confidencial. Solicitamos documentos que estén disponibles públicamente.",
+          "Sube únicamente los documentos necesarios. Evita compartir documentos que contengan información confidencial. Solicitamos documentos que estén disponibles públicamente.",
       },
     },
   },
@@ -2163,45 +2292,45 @@ export default {
    */
   product_badges: {
     title: "Insignias",
-    subtitle: "Agregar y editar insignias de productos personalizadas.",
-    only_marketplace_owner_msg: "Solo propietarios de mercados",
+    subtitle: "Añade y edita insignias de producto personalizadas.",
+    only_marketplace_owner_msg: "Solo propietarios del marketplace",
     create_new_badge_action: "Crear nueva insignia",
-    select_a_badge: "Seleccione una insignia...",
+    select_a_badge: "Selecciona una insignia...",
     inputs: {
       custom: {
         false_description: "Las insignias de productos se crean automáticamente.",
         false_title: "Automático",
-        true_title: "Insignias de productos personalizados",
-        true_description: "Agregue insignias personalizadas en la página del producto.",
+        true_title: "Insignias de producto personalizadas",
+        true_description: "Añade insignias personalizadas en la página del producto.",
       },
     },
     add_custom_badge: {
       title: "Insignia personalizada",
       subtitle:
         "Agrega una nueva insignia personalizada a mi tienda. Mantén la cantidad de insignias por debajo de 10. Si tienes más insignias, tu tienda se ralentizará.",
-      show_advanced_options: "Mostrar opción avanzada",
+      show_advanced_options: "Mostrar opciones avanzadas",
 
       inputs: {
         title: {
           placeholder: "Título público...",
         },
         image: {
-          label: "imagen",
+          label: "Imagen",
           message: "Tamaño máximo de imagen: 128 KB",
-          placeholder: "Seleccione una imagen de portada",
+          placeholder: "Selecciona una imagen de portada",
         },
         pattern: {
           label: "Patrón",
           message:
             "Muestra automáticamente esta insignia para los productos que tienen este valor coincidente en su especificación. Se admiten expresiones regulares.",
-          placeholder: "Para mostrar todos los productos escriba: *.*",
+          placeholder: "Para mostrarla en todos los productos escribe: *.*",
         },
       },
       notifications: {
         badge_added: "¡La insignia se ha añadido correctamente!",
         badge_updated: "¡La insignia se ha actualizado correctamente!",
         item_not_found_error:
-          "No se pudo encontrar el artículo. Actualice la página o comuníquese con el servicio de asistencia.",
+          "No se pudo encontrar el elemento. Actualiza la página o contacta con soporte.",
       },
     },
   },
@@ -2211,13 +2340,13 @@ export default {
   product_tags: {
     title: "Etiquetas",
     tips: [
-      "Puede filtrar productos según etiquetas en <b>las páginas de destino</b> .",
-      "Usted y sus clientes pueden buscar estas etiquetas en la barra <b>de búsqueda</b> .",
+      "Puedes filtrar productos según sus etiquetas en las <b>páginas de destino</b>.",
+      "Tú y tus clientes pueden buscar estas etiquetas en la barra de <b>búsqueda</b>.",
       "Si se establecen etiquetas, solo los productos con <b>etiquetas comunes</b> se mostrarán en la <b>sección de productos relacionados</b> en la página del producto; de lo contrario, se mostrarán los productos de la misma categoría.",
     ],
     inputs: {
       tags: {
-        placeholder: "Coloque las etiquetas aquí y presione enter. ej. nueva colección",
+        placeholder: "Escribe las etiquetas aquí y pulsa Enter. Ej.: nueva colección",
       },
     },
     notifications: {
@@ -2229,18 +2358,18 @@ export default {
    * @see VPageVendorShippingTransportation
    */
   vendor_shipping_services: {
-    title: "Envío",
+    title: "Servicios de envío",
     subtitle:
-      "Aquí puede agregar servicios de envío y mensajería. Los servicios de envío y mensajería deben estar dentro de los métodos de transporte predefinidos definidos por el mercado. Al agregar servicios de envío y mensajería, puede asignarles pedidos fácilmente y solicitar etiquetas o mensajería automáticamente.",
+      "El marketplace ofrece métodos de envío para ayudar a los vendedores a completar sus pedidos. Aquí puedes añadir servicios de envío para solicitar fácilmente etiquetas de envío desde la página del pedido. Esto simplifica el proceso al sincronizar las direcciones y los códigos de seguimiento con el proveedor de envío.",
 
     subtitle_pickup:
-      "Configura y gestiona esta opción para tu tienda.",
-    action: "Agregar servicio",
+      "El marketplace permite la recogida para los vendedores, de modo que los compradores pueden elegir la recogida en tu ubicación como opción de envío. Puedes añadir tu punto de recogida en tu perfil (tu almacén se usará como punto de recogida predeterminado).",
+    action: "Añadir servicio",
 
     add_dialog: {
       select_service_msg:
-        "Seleccione un servicio de envío de la lista que aparece a continuación. Aquí solo se muestran los servicios disponibles que se pueden agregar a su tienda.",
-      no_available_service: "¡No hay servicio disponible!",
+        "Los métodos de envío los define el marketplace y los clientes pueden elegir entre ellos. Los vendedores no tienen control sobre estas opciones, pero pueden integrar su panel con servicios de envío para comprar etiquetas directamente. Selecciona un método de la lista siguiente para ver los servicios disponibles. Elige un servicio de envío de la lista siguiente. Aquí solo se muestran los servicios disponibles que se pueden añadir a tu tienda.",
+      no_available_service: "¡No hay servicios disponibles!",
     },
   },
   /**
@@ -2254,20 +2383,20 @@ export default {
   product_location_profile: {
     title: "Ubicación",
     empty_subtitle:
-      "Asigne una ubicación al producto si es un artículo basado en la ubicación.",
+      "Asigna una ubicación al producto si es un artículo basado en ubicación.",
     dialog: {
       header: "Seleccionar perfil de ubicación",
-      action_new_location: "Agregar nueva ubicación",
+      action_new_location: "Añadir nueva ubicación",
       title: "Perfil de ubicación",
       subtitle:
-        "Puede fijar productos en la ubicación del mapa asignándoles etiquetas de ubicación.",
-      tips: "<b>Importante:</b> Asigna una ubicación al producto <b>solo</b> si deseas mostrar el producto en la ubicación específica en el mapa. El producto marcado debe tener la ubicación como su especificación principal, como <b>casas o lugares de alquiler</b> o servicios en persona como <b>peluquería y spa</b> .",
+        "Puedes fijar productos en una ubicación del mapa asignándoles etiquetas de ubicación.",
+      tips: "<b>Importante:</b> Asigna una ubicación al producto <b>solo</b> si quieres mostrar el producto en una ubicación específica del mapa. El producto fijado debe tener la ubicación como su especificación principal, como <b>casas o lugares de alquiler</b> o servicios presenciales como <b>peluquería y spa</b>.",
     },
   },
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "Multi idioma",
+    header: "Multiidioma",
     auto_action: "Traducir automáticamente",
     premium_user_only: "Usuarios Premium",
   },
@@ -2275,18 +2404,18 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "Incluya una lista de artículos que vienen con el paquete del producto o servicio.",
+      "Incluye una lista de los artículos que vienen con el paquete del producto o servicio.",
     dialog: {
       header: "Elementos del paquete del producto",
       title: "Artículos incluidos",
       subtitle: "Esta es una recopilación de artículos que vienen con el producto.",
       action_manage: "Administrar artículos",
-      action_disable_msg: "Propietario del mercado",
+      action_disable_msg: "Propietario del marketplace",
       select_items_tips:
-        "Cree o elija los componentes del paquete que vienen con el producto o servicio. Utilice esta función para destacar lo que los clientes pueden esperar recibir al comprar el artículo. Recomendamos utilizar esta función solo cuando sea crucial para el cliente comprender el contenido incluido, como cuando compra un teléfono inteligente.",
+        "Crea o elige los componentes del paquete que vienen con el producto o servicio. Utiliza esta función para destacar lo que los clientes pueden esperar recibir al comprar el artículo. Recomendamos usarla solo cuando sea crucial que el cliente entienda el contenido incluido, como al comprar un smartphone.",
       create_item_tips:
-        "Como alternativa, puede incluir un nuevo artículo. Utilice imágenes cuadradas, ya que cambiaremos automáticamente el tamaño de las imágenes cargadas a un formato cuadrado de 256 x 256. Para garantizar una apariencia óptima en todas las plantillas, utilice imágenes minimalistas con fondos transparentes y mantenga un patrón uniforme para todos sus productos.",
-      create_new_item_action: "Crear Nuevo opción Acción",
+        "Como alternativa, puedes añadir un artículo nuevo. Utiliza imágenes cuadradas, ya que redimensionaremos automáticamente las imágenes subidas a un formato cuadrado de 256x256. Para garantizar una apariencia óptima en todas las plantillas, usa imágenes minimalistas con fondo transparente y mantén un patrón uniforme en todos tus productos.",
+      create_new_item_action: "Crear nuevo artículo incluido",
     },
   },
 
@@ -2297,12 +2426,12 @@ export default {
 
     menu: {
       edit: "Editar",
-      review: "Revisar",
+      review: "Descripción",
       orders: "Pedidos",
       inventory: "Inventario",
       dashboard: "Panel",
-      back_to_products: "productos",
-      drop_shipping: "Envío directo",
+      back_to_products: "Productos",
+      drop_shipping: "Dropshipping",
     },
 
     /** {@see BPageProductDashboard} **/
@@ -2311,84 +2440,84 @@ export default {
       info: {
         title: "Perfil",
         title_small: "Producto",
-        category: "categoria de producto",
+        category: "Categoría del producto",
         link: "Enlace del producto",
         type: "Tipo",
         inputs: "Información de entrada",
         outputs: "Información de salida",
         user_data_form: "Formulario de información del comprador",
         staff_messages: "Mensajes del personal",
-        add_note: "Añadir la nota",
-        product_tags: "Etiquetas de productos",
+        add_note: "Añadir nota",
+        product_tags: "Etiquetas del producto",
         edit_tags: "Editar etiquetas",
       },
       /** {@see BProductOrdersAbstractView} **/
       orders: {
         title: "Pedidos",
-        title_small: "sin procesar",
-        physical_orders_title: "Carritos de compras con este producto",
+        title_small: "Sin procesar",
+        physical_orders_title: "Carritos de compra con este producto",
         send_count_in_period: "Pedidos enviados entre {start} ~ {end}",
         downloads_count_in_period:
-          "Recuento de archivos descargados entre {start} ~ {end}",
+          "Número de descargas del archivo entre {start} ~ {end}",
       },
 
       /** {@see BProductInventoryAbstractView} **/
       inventory: {
         title: "Inventario",
-        title_small: "Depósito",
+        title_small: "Almacén",
         total_sell: "Ventas totales",
         total_sell_today: "Ventas de hoy",
         total_sell_timespan: "Ventas totales entre {start} ~ {end}",
         chart: {
-          labels: ["Inventario", "Rebaja"],
+          labels: ["Inventario", "Ventas"],
         },
         subscribers_title: "Suscriptores",
-        subscribers_title_small: "Total de pedidos suscritos",
+        subscribers_title_small: "Total de pedidos de suscripción",
       },
 
       /** {@see BProductFinanceCharts} **/
       finance: {
-        title: "Financiero",
+        title: "Finanzas",
         title_small: "Informe de compras entre {start} ~ {end}.",
         select_mode_title: "Mostrar por",
         modes: {
-          sell: "Rebaja",
+          sell: "Ventas",
           payment: "Pago",
           discount: "Descuento",
         },
-        currency_select_title: "Precio por moneda seleccionada",
+        currency_select_title: "Precio según la moneda seleccionada",
         sell_today: "Ventas de hoy",
         product_price: "Precio del producto",
         currency_unit: "Unidad monetaria",
-        sell_30days: "30 días de ventas",
+        sell_30days: "Ventas de 30 días",
         sell_daily: "Ventas diarias",
         sell_yesterday: "Ventas de ayer",
       },
 
       /** {@see BProductRatingCharts} **/
       survey: {
-        title: "Calificación del producto",
+        title: "Valoración del producto",
         title_small: "Informe de satisfacción del cliente",
-        total_participation: "Número total de contribuciones",
-        total_participation_tooltip: "Recuento total de evaluadores del producto.",
-        today_participation: "Calificaciones de hoy",
-        last7days_participation: "Contribuciones de los últimos 7 días",
+        total_participation: "Total de participaciones",
+        total_participation_tooltip: "Número total de personas que han valorado el producto.",
+        today_participation: "Valoraciones de hoy",
+        last7days_participation: "Participaciones de los últimos 7 días",
         chart: {
           participate: "Participación",
-          participate_title: "El número de contribuciones",
-          score: "Puntaje",
+          participate_title: "Número de participaciones",
+          score: "Puntuación",
         },
-        users_not_rated_msg: "Los usuarios aún no han calificado este producto.",
+        users_not_rated_msg: "Los usuarios aún no han valorado este producto.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
       inform: {
         title: "Expectativas del cliente",
-        title_small: "Esperando descuentos o disponibilidad",
+        title_small: "En espera de descuentos o disponibilidad.",
         message:
-          "Notificar a los clientes cuando los productos salgan a la venta o estén disponibles",
-        waiting_for_auction: "Esperando que los productos salgan a la venta",
-        waiting_for_available: "Esperando que los productos estén disponibles.",
+          "Notifica a los clientes cuando los productos estén en oferta o disponibles.",
+        waiting_for_auction: "En espera de que los productos estén en oferta.",
+        waiting_for_available: "En espera de que los productos estén disponibles.",
         unit: "persona(s)",
       },
     },
@@ -2400,25 +2529,25 @@ export default {
         inventory_list: "Lista de inventario",
         add_variant: "Añadir variante",
 
-        title: "Inventario de productos/Lista de variantes de productos",
+        title: "Inventario del producto / Lista de variantes del producto",
         sub_title:
-          "Si este producto tiene más de una variante, introdúzcalas en esta sección. Puedes definir por separado el monto, precio y descuento de cada variante; de lo contrario, se aplicarán los valores predeterminados del producto para la fijación de precios.",
+          "Si este producto tiene más de una variante, introdúcelas en esta sección. Puedes definir por separado la cantidad, el precio y el descuento de cada variante; de lo contrario, se aplicarán los valores predeterminados del producto para el precio.",
         add_action: "Añadir variante",
         count_input: "Inventario",
-        count_input_action: "Establecer recuento",
-        management_title: "Gestión de inventario y variantes de productos",
+        count_input_action: "Establecer cantidad",
+        management_title: "Gestión de inventario y variantes del producto",
         add_title: "Añadir variante de producto",
         edit_title: "Editar variante de producto",
         notifications: {
           add_success: "Variante de producto añadida.",
-          delete_success: "Variante de producto Eliminado.",
-          save_product_inventory_success: "Inventario de productos guardados.",
+          delete_success: "Variante de producto eliminada.",
+          save_product_inventory_success: "Inventario del producto guardado.",
         },
       },
 
       /** {@see BProductInventoryManagementVirtual} **/
       variant_item: {
-        price: "precio",
+        price: "Precio",
         same_as_product: "Similar al producto principal",
         in_stock: "Inventario",
         delete_dialog: {
@@ -2428,66 +2557,66 @@ export default {
       },
       /** {@see BProductVariantAdd} **/
       variant_add_edit: {
-        message: "Número de producto Único",
+        message: "Código único de la variante del producto",
         active_input: "¿Está activa esta variante?",
         sku: "SKU",
         sku_tips: "Código de almacén del producto.",
         mpn: "MPN",
-        mpn_tips: "Código de producto insertado por el fabricante en el empaque del producto",
+        mpn_tips: "Código de producto indicado por el fabricante en el embalaje del producto",
 
         has_pricing_input: "¿El precio es diferente al del producto principal?",
-        inventory_unit: "Artículos",
+        inventory_unit: "Unidades",
         images_message:
-          "Después de guardar esta variante, podrá agregar una imagen aquí.",
+          "Después de guardar esta variante podrás añadir más imágenes aquí.",
 
         config: {
-          title: "Título",
-          subtitle: "Configura y gestiona esta opción para tu tienda.",
+          title: "Configuración de la variante del producto",
+          subtitle: "Gestiona el SKU, el MPN y la disponibilidad de las variantes.",
         },
         variables: {
-          title: "Variante Opciones",
+          title: "Opciones de la variante",
           subtitle:
-            "<b></b><b></b> Configura y gestiona esta opción para tu tienda.",
+            "Introduce un código de color hexadecimal, p. ej. <b>#654FFF</b>, o dos colores separados por una barra, p. ej. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "<b></b> Configura y gestiona esta opción para tu tienda.",
-          graphical_asset_action: "Opción",
-          graphical_asset_action_caption: "Opción",
+            "Puedes asignar cualquier valor a las variables, incluidas imágenes mediante <b>Recursos gráficos</b>. Sube un patrón y usa el código generado para la variante.",
+          graphical_asset_action: "Recursos gráficos",
+          graphical_asset_action_caption: "Imágenes para las opciones de la variante.",
         },
         smart_unit_price: {
-          tips: "<b></b><b></b><b></b> Configura y gestiona esta opción para tu tienda.",
-          smart_unit_price: "Opción",
+          tips: "Calcula el precio unitario según el <b>peso</b>, el <b>volumen</b> y el <b>tamaño del paquete</b>. Para desactivar esta función, ve a Tienda > Ajustes > Tema > Página de producto > Precio unitario inteligente.",
+          smart_unit_price: "Cálculo del precio unitario",
         },
         quantity: {
           title: "Inventario",
-          subtitle: "Subtítulo",
+          subtitle: "Establece los niveles de existencias de cada variante.",
         },
         price: {
           title: "Precios",
           subtitle:
-            "Configura y gestiona esta opción para tu tienda.",
+            "Establece un precio personalizado para la variante o usa el precio predeterminado del producto.",
         },
         package: {
-          title: "Título",
+          title: "Embalaje y envío",
           subtitle:
-            "Configura y gestiona esta opción para tu tienda.",
-          same_as_product_action: "Opción",
+            "Especifica el peso y las dimensiones de las variantes para determinar las opciones de envío.",
+          same_as_product_action: "Igual que el producto",
         },
         image: {
-          title: "Variante Imágenes",
+          title: "Imágenes de la variante",
           subtitle:
-            "Configura y gestiona esta opción para tu tienda.",
+            "Añade imágenes únicas para cada variante. La primera imagen subida será la imagen principal de esa variante.",
         },
         inputs: {
           sku: {
-            message: "Mensaje",
+            message: "Unidad de mantenimiento de existencias (SKU)",
           },
           mpn: {
-            message: "Mensaje",
+            message: "Número de pieza del fabricante (MPN)",
           },
           gtin: {
-            label: "Opción",
+            label: "Número global de artículo comercial (GTIN)",
             message:
-              "Configura y gestiona esta opción para tu tienda.",
+              "Formatos admitidos: UPC (12 dígitos), EAN (13 dígitos), JAN (8 o 13 dígitos), ISBN (13 dígitos).",
           },
         },
       },
@@ -2514,11 +2643,11 @@ export default {
   product_extra_physical: {
     weight: "Peso del paquete",
     weight_subtitle:
-      "Ingrese aquí el peso total del embalaje del producto. Esta información ayuda a elegir el método de envío adecuado y garantiza que el pedido no supere el límite de envío.",
-    weight_unit: "Kg",
+      "Introduce aquí el peso total del producto embalado. Esta información ayuda a elegir el método de envío adecuado y garantiza que el pedido no supere el límite de envío.",
+    weight_unit: "kg",
     size: "Dimensiones del paquete",
     size_subtitle:
-      "Ingrese aquí el tamaño completo del paquete del producto. Esta información se utiliza para elegir el método de envío correcto y garantizar que el pedido no exceda el límite de tamaño del paquete.",
+      "Introduce aquí las dimensiones completas del producto embalado. Esta información se utiliza para elegir el método de envío correcto y garantizar que el pedido no exceda el límite de tamaño del paquete.",
 
     width: "Ancho",
     length: "Largo",
@@ -2526,25 +2655,25 @@ export default {
     lead_time_title: "Tiempo de preparación",
     lead_time: "Tiempo de preparación",
     lead_time_subtitle:
-      "El tiempo de entrega estima la duración necesaria para preparar un producto para su envío, lo que ayuda a estimar el tiempo de entrega.",
+      "El tiempo de preparación estima la duración necesaria para preparar un producto para su envío, lo que ayuda a calcular el tiempo de entrega.",
 
-    lead_time_dimension: "Horas)",
+    lead_time_dimension: "Hora(s)",
     bulk_action: "Acciones masivas",
     bulk_action_subtitle:
-      "Puede aplicar la información del embalaje a todas las variantes del producto.",
+      "Puedes aplicar la información de embalaje a todas las variantes del producto.",
 
     bulk_action_input: "Actualizar todas las variantes",
     bulk_action_msg:
-      "Establezca el empaque del producto y el tiempo de preparación para todas las variantes.",
-    dynamic_lead_time: "Opción",
-    instant_delivery: "Opción",
+      "Establece el embalaje y el tiempo de preparación del producto para todas las variantes.",
+    dynamic_lead_time: "Tiempo de preparación dinámico",
+    instant_delivery: "Entrega inmediata",
   },
 
   /**
    * @see SGalleryUploadGrid
    */
   gallery_upload_grid: {
-    upload_images: "Subir Imágenes",
+    upload_images: "Subir imágenes",
   },
 
   /**
@@ -2552,29 +2681,29 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "Título",
-      placeholder: "Opción",
-      success_update_notification: "Éxito Actualizar Notificación",
+      title: "Establecer texto alternativo de la imagen",
+      placeholder: "Introduce un texto alternativo descriptivo...",
+      success_update_notification: "Texto alternativo actualizado correctamente.",
     },
     dialog_bg_remove: {
-      title: "Título",
+      title: "Eliminar fondo automáticamente",
       action: {
         title: "Eliminar fondo",
-        subtitle: "Subtítulo",
+        subtitle: "Crea un fondo transparente.",
       },
-      success_remove_bg_notification: "Éxito Quitar bg Notificación",
+      success_remove_bg_notification: "¡Fondo eliminado correctamente!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "Título",
+    title: "Recursos gráficos de variantes",
     tips: {
       how_it_works:
-        "<b></b><br /><b></b><b><s></s></b> Configura y gestiona esta opción para tu tienda. {filename}",
+        "<b>Cómo funciona:</b><br />Sube aquí imágenes de patrones o artículos. Para usar estas imágenes como opción de variante, incluye <b>{filename}</b> en el valor de la variante. Ten en cuenta que este código no se puede usar en el valor de <b><s>color</s></b>.",
       how_set_name:
-        "<b>Consejos para nombrar:</b><br />Los primeros 12 caracteres del nombre del archivo cargado se utilizarán como nombre del recurso. Esta característica es ideal para mostrar aspectos personalizables de un producto, como tamaños de neumáticos para motocicletas o patrones de telas. Para optimizar el uso de esta función, evite cargar imágenes variantes aquí a menos que la cantidad de recursos gráficos sea inferior a 100, como diferentes tipos de madera para muebles.",
+        "<b>Consejos de nomenclatura:</b><br />Los primeros 12 caracteres del nombre del archivo subido se usarán como nombre del recurso. Esta función es ideal para mostrar aspectos personalizables de un producto, como tamaños de neumáticos para motocicletas o patrones de telas. Para optimizar el uso de esta función, evita subir aquí imágenes de variantes a menos que el número de recursos gráficos sea inferior a 100, como distintos tipos de madera para muebles.",
     },
   },
 
@@ -2582,47 +2711,47 @@ export default {
    * @see ExtraPricingLevels
    */
   extra_pricing_levels: {
-    extra_pricings: "Opción",
-    min_quantity: "Opción",
-    range_is_out_of_stock: "Opción",
+    extra_pricings: "Precios adicionales",
+    min_quantity: "Cantidad mínima",
+    range_is_out_of_stock: "¡Este rango está agotado!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "Opción",
-    set_color_warning: "Establecer Color Advertencia",
-    set_volume_warning: "Opción",
-    set_pack_warning: "Opción",
-    set_weight_warning: "Establecer Peso Advertencia",
-    set_type_warning: "Establecer Tipo Advertencia",
-    set_style_warning: "Opción",
-    out_of_stock: "Opción",
+    duplicated_variant: "¡Esta variante ya existe!",
+    set_color_warning: "Selecciona un color.",
+    set_volume_warning: "Especifica el volumen.",
+    set_pack_warning: "Especifica el tamaño del paquete.",
+    set_weight_warning: "Especifica el peso.",
+    set_type_warning: "Selecciona un tipo.",
+    set_style_warning: "Selecciona un estilo.",
+    out_of_stock: "Actualmente agotado",
 
     image: {
-      tooltip: "Configura y gestiona esta opción para tu tienda.",
+      tooltip: "⚡ Arrastra y suelta una imagen aquí para asignarla a la variante.",
     },
     enable: {
-      true_tooltip: "Opción",
-      false_tooltip: "Configura y gestiona esta opción para tu tienda.",
+      true_tooltip: "Este artículo está disponible en la tienda en línea.",
+      false_tooltip: "Este artículo no está disponible en la tienda en línea.",
     },
     restore_dialog: {
-      title: "Restaurar Variante",
-      message: "Configura y gestiona esta opción para tu tienda.",
-      action: "Acción",
+      title: "Restaurar variante",
+      message: "¿Seguro que quieres restaurar esta variante eliminada?",
+      action: "Sí, restaurar ahora",
     },
     notifications: {
-      restore_variant_success: "Configura y gestiona esta opción para tu tienda.",
+      restore_variant_success: "La variante del producto se restauró correctamente.",
     },
   },
 
   /** {@see BProductImagesGallery} **/
   product_images_list: {
-    upload_button: "Más imágenes de productos",
-    upload_an_image: "Seleccione una imagen.",
+    upload_button: "Más imágenes del producto",
+    upload_an_image: "Selecciona una imagen.",
     notifications: {
-      update_sort_success: "Clasificación de imágenes guardada",
+      update_sort_success: "Orden de las imágenes guardado",
       delete_image_title: "Eliminar imagen del producto",
       delete_image_success: "Imagen eliminada con éxito",
     },
@@ -2638,14 +2767,14 @@ export default {
   /** {@see BGiftcardTypeAdd} **/
   gift_card_type_edit: {
     title_input: "Título",
-    color_input: "color de la tarjeta",
-    charge_input: "Carga inicial",
-    charge_input_hint: "Cargo inicial por cada tarjeta",
-    currency_input: "Divisa",
+    color_input: "Color de la tarjeta",
+    charge_input: "Saldo inicial",
+    charge_input_hint: "Saldo inicial de cada tarjeta",
+    currency_input: "Moneda",
     currency_input_message: "Solo para compras con esta moneda",
-    lifetime_input: "Validez de la tarjeta (mes)",
+    lifetime_input: "Validez de la tarjeta (meses)",
     lifetime_input_message: "Validez de la tarjeta",
-    card_image_input: "imagen de la tarjeta",
+    card_image_input: "Imagen de la tarjeta",
     notifications: {
       create_success: "Tarjeta creada",
       update_success: "Tarjeta actualizada",
@@ -2656,54 +2785,54 @@ export default {
   shop_warehouse_edit: {
     title: "Añadir almacén",
     message:
-      "Ingrese su dirección de almacén y perfil para calcular el costo de envío.",
+      "Introduce la dirección y los datos de tu almacén para calcular el costo de envío.",
     name_input: "Nombre del almacén",
-    address: "dirección",
-    name_input_message: "Introduzca un apodo para su almacén.",
-    person_name: "Nombre del oficial",
+    address: "Dirección",
+    name_input_message: "Introduce un alias para tu almacén.",
+    person_name: "Nombre del responsable",
     phone_number: "Número de contacto",
     map_title: "Dirección del almacén de la tienda",
-    confirm_action: "Aprobación de Almacén",
-    address_name: "Depósito",
+    confirm_action: "Confirmar almacén",
+    address_name: "Almacén",
     notifications: {
-      success_save: "Los cambios se guardaron exitosamente.",
+      success_save: "Cambios guardados correctamente.",
     },
   },
 
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "Inventario de la tienda",
-    subtitle: "Listado de todos los productos en tienda.",
+    subtitle: "Lista de todos los productos de la tienda.",
     cant_set_here: "No se puede configurar aquí",
 
-    search_input: "Búsqueda de Producto...",
+    search_input: "Buscar producto...",
     search_input_title: "Buscar entre los productos de la tienda",
     apply_filter: "Aplicar filtro",
     inventory: "Lista de inventario",
     export: "Exportar inventario",
     import: "Importar inventario",
-    bulk_price: "Cambio de precio a granel",
-    bulk_discount: "Cambio de descuento por volumen",
-    category_filter_msg: "⚡ ¡Aplicará para todos los productos y subcategorías!",
+    bulk_price: "Cambio masivo de precios",
+    bulk_discount: "Cambio masivo de descuentos",
+    category_filter_msg: "⚡ ¡Se aplicará a todos los productos y subcategorías!",
     table: {
-      waiting: "Recibiendo información... por favor espere",
+      waiting: "Recibiendo información... espera, por favor",
       open_state: "Activo",
-      close_state: "inactivo",
+      close_state: "Inactivo",
       image: "Imagen",
-      product: "nombre del producto",
+      product: "Nombre del producto",
       code: "Código de producto",
       sku: "SKU",
       mpn: "MPN",
-      original: "Opción",
+      original: "Original",
       status: "Estado",
-      in_stock: "En stock",
-      edit: "Cambio",
+      in_stock: "En existencia",
+      edit: "Cambiar",
     },
 
     bulk_discount_dialog: {
       title: "Acciones masivas > Descuento",
       message:
-        "Nota: La siguiente cantidad será como un porcentaje del descuento de todos los productos en su tienda. Además, los valores de descuento calculados se convertirán de forma inteligente al número redondo más cercano según la moneda seleccionada. Tenga cuidado al ingresar los valores.",
+        "Nota: el siguiente valor se aplicará como porcentaje al descuento de todos los productos de tu tienda. Además, los valores de descuento calculados se convertirán de forma inteligente al número redondo más cercano según la moneda seleccionada. Ten cuidado al introducir los valores.",
       check: "Apruebo los cambios de descuento.",
     },
     notifications: {
@@ -2717,14 +2846,14 @@ export default {
   bulk_price_dialog: {
     title: "Acciones masivas > Precio",
     message:
-      "El siguiente importe se aplicará como porcentaje al precio de todos los productos de su tienda. Además, los valores de precio calculados se convertirán de forma inteligente al número redondo más cercano en función de la moneda seleccionada. Tenga cuidado al ingresar los valores.",
-    check: "Acepto cambios de precio.",
+      "El siguiente valor se aplicará como porcentaje al precio de todos los productos de tu tienda. Además, los valores de precio calculados se convertirán de forma inteligente al número redondo más cercano según la moneda seleccionada. Ten cuidado al introducir los valores.",
+    check: "Apruebo los cambios de precio.",
     check_description:
       "El precio se cambiará para la categoría seleccionada y todas las subcategorías.",
-    add_percent_tab: "Agregar porcentaje",
-    add_constant_tab: "Agregar constante",
-    ending_tab: "estrategia final",
-    marketplace_listing_price: "Precio de lista",
+    add_percent_tab: "Añadir porcentaje",
+    add_constant_tab: "Añadir constante",
+    ending_tab: "Estrategia de terminación",
+    marketplace_listing_price: "Precio del listado",
 
     constant: {
       subtitle:
@@ -2732,39 +2861,39 @@ export default {
     },
     ending: {
       subtitle:
-        "El final del precio actual de los productos se cambiará al valor especificado.",
+        "La terminación del precio actual de los productos se cambiará al valor especificado.",
     },
     marketplace: {
-      title: "Precio de listado en Marketplace",
+      title: "Precio del listado en el marketplace",
       subtitle:
-        "Esta opción le permite actualizar automáticamente el precio de los productos en el mercado. En ocasiones, el precio del producto principal puede no coincidir con el precio del proveedor debido a cambios de precio manuales.",
+        "Esta opción te permite actualizar automáticamente el precio del listado de los productos en el marketplace. En ocasiones, el precio del producto principal puede no coincidir con el precio del vendedor debido a cambios manuales de precio.",
       strategy: {
         min: {
           title: "Establecer precio mínimo",
           description:
-            "Establezca el precio mínimo del producto como precio de cotización.",
+            "Establece el precio mínimo del producto como precio del listado.",
         },
         max: {
           title: "Establecer precio máximo",
           description:
-            "Establezca el precio máximo del producto como precio de lista.",
+            "Establece el precio máximo del producto como precio del listado.",
         },
       },
     },
 
     category: {
-      subtitle: "Limite la acción masiva a una categoría y todas las subcategorías.",
+      subtitle: "Limita la acción masiva a una categoría y todas sus subcategorías.",
     },
     vendor: {
       subtitle:
-        "Limite las acciones en bloque a un proveedor específico. Cuando se selecciona un proveedor, la actualización de precio se aplicará a los productos del proveedor, lo que representa el precio de venta de ese proveedor.",
+        "Limita las acciones masivas a un vendedor específico. Cuando se selecciona un vendedor, la actualización de precio se aplicará a los productos de ese vendedor, lo que representa el precio de venta de dicho vendedor.",
       listing_price_need_update_msg:
-        "Si desea actualizar el precio de lista (el precio que se muestra en la lista de productos), debe volver a enviar la actualización masiva con los mismos filtros pero sin seleccionar un proveedor.",
+        "Si quieres actualizar el precio del listado (el precio que se muestra en la lista de productos), debes volver a enviar la actualización masiva con los mismos filtros pero sin seleccionar un vendedor.",
     },
-    listing_products_changes: "Cambio de listado de productos",
-    total_vendor_products: "Total de productos del proveedor",
+    listing_products_changes: "Cambios en el listado de productos",
+    total_vendor_products: "Total de productos del vendedor",
     total_products: "Total de productos",
-    total_variants: "Variantes totales",
+    total_variants: "Total de variantes",
   },
 
   /** {@see BProductSpecTable} **/
@@ -2775,67 +2904,67 @@ export default {
 
   /** {@see STimeProgressBar} **/
   time_progress_bar: {
-    title_before_start: "Restante para el inicio",
-    title_between_start_end: "Quedando hasta el final",
-    title_after_end: "Acabado",
-    title_no_start_end: "¡Sin plazo!",
+    title_before_start: "Restante hasta el inicio",
+    title_between_start_end: "Restante hasta el final",
+    title_after_end: "Finalizado",
+    title_no_start_end: "¡Sin periodo de tiempo!",
   },
 
   /** {@see GeoMap} **/
   geo_map: {
-    views: "Puntos de vista",
+    views: "Vistas",
     views_unit: "Veces",
     product_views: "Vistas del producto",
-    buys: "compras",
+    buys: "Compras",
     buys_unit: "Pedidos",
-    baskets: "carros activos",
-    added_items: "Agregar artículos",
-    removed_items: "Eliminar elementos",
+    baskets: "Carritos activos",
+    added_items: "Añadir artículos",
+    removed_items: "Quitar artículos",
   },
 
   /** {@see BPageShopFinanceGateways} **/
   b_page_shop_finance_gateway: {
     title: "Métodos de pago",
     sub_title:
-      "Configura y gestiona esta opción para tu tienda.",
-    add_gateway: "Nuevo Pago Método",
+      "Lista de métodos de pago activos. Si quieres añadir un nuevo método a tu tienda, pulsa el siguiente botón. Recomendamos encarecidamente no superar las 10 pasarelas de pago añadidas.",
+    add_gateway: "Nuevo método de pago",
 
     add_gateway_dialog: {
-      title: "Seleccionar Moneda",
-      country_currencies: "Opción",
-      crypto_currencies: "Opción",
+      title: "Seleccionar moneda",
+      country_currencies: "Monedas locales",
+      crypto_currencies: "Criptomonedas",
 
       confirm: "Añadir método de pago",
 
-      online_methods: "En línea Métodos",
-      cod_methods: "Pago contra entrega",
+      online_methods: "Métodos en línea",
+      cod_methods: "Contra reembolso (COD)",
       bank_transfer: "Transferencia bancaria",
-      cash_methods: "Opción",
+      cash_methods: "Pago en efectivo (POS)",
 
       currency_step: {
-        title: "Seleccionar a Moneda",
+        title: "Selecciona una moneda",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Intenta mantener al mínimo el número de monedas de tu tienda; lo ideal es menos de 3. La mayoría de las pasarelas de pago pueden procesar transacciones en casi cualquier moneda.",
         add_first_currency: {
-          subtitle: "Configura y gestiona esta opción para tu tienda.",
-          title: "Agregar moneda",
+          subtitle: "Añade una moneda a tu tienda antes de continuar.",
+          title: "Añadir moneda",
         },
       },
       gateway_step: {
-        title: "Activo Pago Métodos",
+        title: "Métodos de pago activos",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Elige entre los métodos de pago disponibles. Una vez que selecciones una pasarela, podrás introducir los datos de conexión necesarios para vincular tu tienda directamente con tu método de pago preferido.",
       },
 
       config_step: {
-        import_config: "Configura y gestiona esta opción para tu tienda.",
-        import_from: "Opción",
+        import_config: "Puedes importar la configuración desde otras pasarelas similares",
+        import_from: "Importar desde",
       },
 
       request_add_new_gateway: {
-        title: "Título",
+        title: "¿No ves tu método de pago preferido?",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Si tu proveedor de pagos local no aparece en la lista, suscríbete a cualquier plan anual (incluido Startup, por su precio asequible) y solicita una integración. La completaremos en 48 horas si nos proporcionas una cuenta de prueba y la documentación.",
       },
 
       inputs: {
@@ -2843,12 +2972,12 @@ export default {
           placeholder: "Selecciona una pasarela para importar...",
         },
         manual: {
-          true_title: "Sí Título",
-          true_description: "Sí Descripción",
+          true_title: "Modo manual",
+          true_description: "Puedes establecer la configuración de la pasarela manualmente.",
 
-          false_title: "Automático connect",
+          false_title: "Conexión automática",
           false_description:
-            "Configura y gestiona esta opción para tu tienda.",
+            "El sistema se conectará automáticamente a la pasarela si ya tienes una pasarela configurada.",
         },
       },
     },
@@ -2863,20 +2992,20 @@ export default {
       tag: "Etiqueta",
       question: "Pregunta",
       officer: "Personal",
-      answer: "Responder",
+      answer: "Respuesta",
       created_at: "Fecha",
       priority: "Prioridad",
       edit: "Editar",
     },
     dialog: {
       add_new_action: "Enviar nueva pregunta",
-      edit_action: "Editar preguntas frecuentes",
+      edit_action: "Editar pregunta frecuente",
       question_input: "Pregunta",
       question_input_placeholder: "Haz tu pregunta ..",
       link_input: "Enlace",
-      link_input_placeholder: "Puede hacer referencia a un enlace en respuesta.",
-      answer_input: "Responder",
-      answer_input_placeholder: "Ingrese el texto de la respuesta ..",
+      link_input_placeholder: "Puedes incluir un enlace en la respuesta.",
+      answer_input: "Respuesta",
+      answer_input_placeholder: "Introduce el texto de la respuesta ..",
       tag_input: "Etiqueta (Título de la categoría)",
       tag_input_placeholder: "Introduce un título breve",
       priority_input: "Prioridad: (0 a 10)",
@@ -2884,11 +3013,11 @@ export default {
     delete_alert: {
       title: "Eliminar pregunta",
       message: "¿Quieres eliminar esta pregunta?",
-      action: "Borrar",
+      action: "Eliminar",
     },
     notifications: {
-      send_success: "Su respuesta ha sido enviada con éxito.",
-      delete_success: "Su pregunta ha sido eliminada con éxito.",
+      send_success: "Tu respuesta se ha enviado correctamente.",
+      delete_success: "Tu pregunta se ha eliminado correctamente.",
     },
   },
   /** {@see ContactMessagesList} **/
@@ -2901,7 +3030,7 @@ export default {
       message: "Cuerpo del mensaje",
       category: "Categoría",
       officer: "Personal",
-      answer: "Responder",
+      answer: "Respuesta",
       created_at: "Fecha",
       contact: "Contacto",
       edit: "Editar",
@@ -2913,23 +3042,23 @@ export default {
       user_name: "Nombre",
       email: "Correo electrónico",
       phone: "Número de contacto",
-      message: "Mensaje de texto",
+      message: "Texto del mensaje",
       status: "Estado de respuesta",
-      status_answered: "Contestada",
+      status_answered: "Respondido",
       status_waiting: "Esperando respuesta",
-      answer_input: "texto de respuesta",
+      answer_input: "Texto de la respuesta",
       mail_input: "Enviar correo",
       mail_input_message:
-        "Si habilita esto, su respuesta se enviará al correo electrónico del usuario.",
+        "Si activas esta opción, tu respuesta se enviará al correo electrónico del usuario.",
     },
     delete_alert: {
-      title: "Borrar mensaje",
-      message: "¿Quieres borrar este mensaje?",
-      action: "Borrar",
+      title: "Eliminar mensaje",
+      message: "¿Quieres eliminar este mensaje?",
+      action: "Eliminar",
     },
     notifications: {
-      send_success: "Su solicitud ha sido enviada con éxito.",
-      delete_success: "Mensaje borrado.",
+      send_success: "Tu solicitud se ha enviado correctamente.",
+      delete_success: "Mensaje eliminado.",
     },
   },
   /** {@see BPageCampaign} **/
@@ -2940,8 +3069,8 @@ export default {
       return: "Atrás",
       dashboard: "Panel",
       links: "Enlaces",
-      landing: "Aterrizaje",
-      ads: "anuncios",
+      landing: "Página de destino",
+      ads: "Anuncios",
       finance: "Finanzas",
     },
     /** {@see BPageCampaignDashboard} **/
@@ -2952,26 +3081,26 @@ export default {
       links_overview: "Resumen de enlaces de campaña",
       orders: "Pedidos",
       performance: "Rendimiento de la campaña",
-      links_funnel: "Enlaces de campaña Rendimiento",
+      links_funnel: "Rendimiento de los enlaces de campaña",
       no_links:
         "¡No hay datos disponibles! Crea un enlace a tu campaña.",
-      social: "Prospectos de redes sociales",
+      social: "Leads de redes sociales",
       conversion_over_time: "Conversión a lo largo del tiempo",
       total_campaign_sell: "Ventas totales por campaña",
     },
     /** {@see BPageCampaignFinance} **/
     finance: {
-      title: "informe financiero",
+      title: "Informe financiero",
       campaign_revenue: "Ingresos de campaña",
       total_revenue:
-        "Ingresos totales por campaña",
+        "Representa los ingresos totales generados por cada campaña.",
       links_revenue: "Ingresos de enlaces de campaña",
       payments_over_time: "Ventas a lo largo del tiempo",
       all_links: "Todos los enlaces",
     },
     /** {@see BPageCampaignLanding} **/
     landing: {
-      empty_message: "Establezca una página de destino en la configuración de la campaña.",
+      empty_message: "Puedes especificar una página de destino personalizada para la campaña.",
       set_landing: "Establecer página de destino",
       create_landing: "Crear nueva página de destino",
     },
@@ -2979,7 +3108,7 @@ export default {
     /** {@see BPageCampaignLinks} **/
     links: {
       title: "Enlaces de campaña",
-      url_input_message: "Ingrese la URL de su página de destino",
+      url_input_message: "Introduce la URL de tu página de destino",
     },
 
     /** {@see BPageCampaignSetting} **/
@@ -2987,164 +3116,164 @@ export default {
       menu: {
         config: "Configuración",
         timespan: "Periodo de tiempo",
-        banner: "Bandera",
+        banner: "Banner",
         Notification: "Notificación",
       },
 
       general_setting: {
         title: "Configuración general de la campaña",
-        sub_title: "Nombre, página de destino y código de descuento",
+        sub_title: "Establece el nombre, la página de destino y el código de descuento de la campaña.",
 
         name_input: "Nombre de campaña",
-        name_input_hint: "Agregue un nombre a su campaña",
+        name_input_hint: "Añade un nombre a tu campaña",
         enable_input: "¿Está activa la campaña?",
         page_input: "Página de destino",
         discount_code_input: "Código de descuento",
         limit: "Límite de descuento",
-        max_count: "recuento máximo",
+        max_count: "Cantidad máxima",
         max_count_unit: "Artículos",
-        start: "Comienzo",
+        start: "Inicio",
         end: "Fin",
-        notification_enable_input: "¿Notificación habilitada?",
+        notification_enable_input: "¿Notificación activada?",
 
         landing_page: "Página de destino",
         discount_code: "Código de descuento",
 
         auto: "Campaña predeterminada",
         auto_message:
-          "Campaña por defecto activada en tu tienda",
+          "Esta campaña se ha establecido como campaña predeterminada de la tienda.",
       },
       time_setting: {
         title: "Periodo de tiempo",
         sub_title:
-          "Fecha y hora de inicio / Fecha y hora de finalización",
-        start_input: "Comienzo",
-        start_input_placeholder: "Seleccione la hora de inicio de la campaña",
+          "Puedes establecer la fecha y hora de inicio y de finalización de la campaña.",
+        start_input: "Inicio",
+        start_input_placeholder: "Selecciona la hora de inicio de la campaña",
         end_input: "Fin",
-        end_input_placeholder: "Seleccione la hora de finalización de la campaña",
+        end_input_placeholder: "Selecciona la hora de finalización de la campaña",
       },
       banner_setting: {
-        title: "pancarta de la tienda",
+        title: "Banner de la tienda",
         sub_title:
-          "Mostrar en la parte superior de la página de la tienda",
+          "Este mensaje se mostrará de forma destacada como banner en la parte superior de la página de la tienda.",
 
-        message_input: "Mensaje de texto",
-        message_input_placeholder: "Fiesta Especial...",
+        message_input: "Texto del mensaje",
+        message_input_placeholder: "Festival especial ...",
         message_input_hint: "Texto del mensaje del banner en la parte superior de la tienda",
         bg_image_input: "URL de la imagen de fondo",
         bg_image_input_hint: "URL de la imagen de fondo completa",
         repeat_pattern: "Repetir patrón",
         simple: "Sencillo",
-        dark_input: "tema oscuro?",
+        dark_input: "¿Tema oscuro?",
         icon_input: "Icono",
         icon_input_hint:
-          "Nombre del icono de diseño de materiales o Fontawsom: fa:fas fa-star",
+          "Nombre del icono de Material Design o Font Awesome: fa:fas fa-star",
         anim_input: "Dirección de animación",
         anim_input_message: "URL del archivo de animación de Lottie",
-        preview: "Avance",
-        preview_update_action: "Actualización de Vista previa",
+        preview: "Vista previa",
+        preview_update_action: "Actualizar vista previa",
         bg_color: "Color de fondo",
         icon_bg: "Color de fondo del icono",
       },
       notifications: {
         title: "Notificación",
-        sub_title: "Cree una notificación y vincúlela a su campaña.",
-        update_success: "Su campaña ha sido actualizada.",
+        sub_title: "Crea una notificación y vincúlala a tu campaña.",
+        update_success: "Tu campaña se ha actualizado.",
         action_button: "Botón de acción",
         background_color: "Color de fondo",
-        text_color: "Color de texto",
-        action_color: "color de acción",
+        text_color: "Color del texto",
+        action_color: "Color de la acción",
         action_text_color: "Color del texto de la acción",
         notification_image: "Imagen de notificación",
         notification_bg: "Fondo de notificación",
         show_preview: "Mostrar vista previa",
         persistence: "Persistencia",
         persistence_message:
-          "¿Quieres mostrar cada vez que tu usuario visita el sitio web?",
+          "¿Quieres mostrarla cada vez que el usuario visite el sitio web?",
         radius: "Radio",
-        show_delay: "Mostrar retraso",
+        show_delay: "Retraso de visualización",
       },
     },
   },
 
   /** {@see BCategoryAdd} **/
   add_category: {
-    title_edit: "Editar categoria",
-    title_update: "Añadir nueva categoria",
+    title_edit: "Editar categoría",
+    title_update: "Añadir nueva categoría",
 
     config: {
       subtitle:
-        "Las categorías ayudan a agilizar la gestión de productos y hacen que sea más fácil para sus clientes encontrar productos en su tienda.",
+        "Las categorías ayudan a agilizar la gestión de productos y facilitan que tus clientes encuentren productos en tu tienda.",
     },
     parent: {
       subtitle:
-        "Esta categoría aparecerá debajo de su categoría principal. Si un producto no tiene una categoría principal, se mostrará en la categoría principal.",
+        "Esta categoría aparecerá dentro de su categoría superior. Si un producto no tiene categoría superior, se mostrará en la categoría principal.",
     },
     template: {
-      title: "Modelo",
+      title: "Plantilla",
       edit_page: "Editar página",
       Pages_list: "Lista de páginas",
       subtitle:
-        "Puede mejorar la visualización de su página de categorías superponiendo una página personalizada. El mejor enfoque es crear páginas con fondos transparentes y diseñar 1 o 2 secciones específicas para cada categoría. Luego, puede vincular una página a varias categorías, utilizando contenido dinámico para personalizar cada categoría individualmente.",
+        "Puedes mejorar la visualización de tu página de categoría superponiendo una página personalizada. Lo mejor es crear páginas con fondo transparente y diseñar 1 o 2 secciones específicas para cada categoría. Después puedes vincular una página a varias categorías, usando contenido dinámico para adaptar cada categoría individualmente.",
     },
     critical_zone: {
       title: "Zona crítica",
       subtitle:
-        "Si eliminas una categoría, sus subcategorías y productos se moverán al directorio principal <b>📁 {parent}</b> . Para administrar categorías que no están en la lista de productos, ve a la pestaña Tienda > Categorías.",
+        "Si eliminas una categoría, sus subcategorías y productos se moverán al directorio superior <b>📁 {parent}</b>. Para gestionar las categorías que no están en la lista de productos, ve a la pestaña Tienda > Categorías.",
       accept_delete: {
         true_description: "Quiero eliminar esta categoría.",
-        true_title: "Confirmar eliminar categoría",
+        true_title: "Confirmar eliminación de la categoría",
       },
     },
 
     menu: {
       delete: "Eliminar categoría",
-      filter: "filtros",
+      filter: "Filtros",
       settings: "Ajustes",
       back: "Atrás",
     },
     title_input: "Título de la categoría *",
-    title_input_error: "Seleccione un título de categoría",
+    title_input_error: "Introduce un título para la categoría.",
     name_input: "Nombre de la categoría (inglés) *",
-    name_input_error: "Seleccione un nombre único para la categoría",
-    description_input: "Descripción de categoría",
+    name_input_error: "Selecciona un nombre único para la categoría",
+    description_input: "Descripción de la categoría",
     description_input_message: "Introduce una breve descripción de la categoría..",
-    parent_input: "Categoría principal",
+    parent_input: "Categoría superior",
     parent_input_message: "Esta categoría aparece en la página de inicio de la tienda.",
-    image_input: "Imagen de categoría",
-    image_input_placeholder: "Seleccione una imagen para la categoría",
-    edit_action: "Editar categoria",
-    add_action: "añadir categoría",
+    image_input: "Imagen de la categoría",
+    image_input_placeholder: "Selecciona una imagen para la categoría",
+    edit_action: "Editar categoría",
+    add_action: "Añadir categoría",
     back_action: "Atrás",
     no_category: "Sin categorías",
     star: "Estrella",
 
     filter: {
       title: "Filtros de categoría",
-      sub_title: "Administrar filtros y categorías aplicables a los productos de esta categoría.",
+      sub_title: "Modifica los filtros de productos de esta categoría.",
       message:
-        "Ingrese y guarde el título de la característica técnica común para esta categoría en el cuadro a continuación. Después de guardar la lista, las categorías de filtro se mostrarán junto con el contenido de cada categoría. El color, el peso, el tamaño, la marca, etc. se extraen automáticamente de la variante del producto.",
+        "Introduce y guarda los títulos de las características técnicas comunes de esta categoría en el cuadro de abajo. Tras guardar la lista, las categorías de filtro se mostrarán junto con el contenido de cada una. Color, peso, tamaño, marca, etc. se extraen automáticamente de las variantes del producto.",
     },
     delete_alert: {
       title: "Eliminar categoría",
       message: "¿Quieres eliminar la categoría {title}?",
-      action: "Borrar",
+      action: "Eliminar",
     },
     notifications: {
       add_success: "Nueva categoría añadida.",
       edit_success: "Categoría editada.",
-      delete_success: "{title} eliminado.",
+      delete_success: "Se ha eliminado {title}.",
     },
     /** {@see BCategoryFilterEditor} **/
     edit_filter: {
       spec_input: "Lista de especificaciones técnicas",
 
-      price: "precio",
-      min: "mínimo",
-      max: "máx.",
+      price: "Precio",
+      min: "Mín.",
+      max: "Máx.",
       suggested_list: {
         brand: "Marca",
-        colors: "Colores",
+        colors: "Color",
         styles: "Diseño",
         volumes: "Volumen",
         weights: "Peso",
@@ -3155,13 +3284,13 @@ export default {
         edit_success: "Categoría editada.",
       },
       manually_update_filters_tips:
-        "<b>¡Importante!</b> Los filtros se actualizan automáticamente cuando se modifican los productos. Sin embargo, después de realizar cambios en los productos de una categoría, vuelva aquí y haga clic en el botón Guardar/Regenerar para actualizar el filtro.",
+        "<b>¡Importante!</b> Los filtros se actualizan automáticamente cuando cambian los productos. Sin embargo, después de hacer cambios en los productos de una categoría, vuelve aquí y haz clic en el botón guardar/regenerar para actualizar el filtro.",
 
       inputs: {
         spec: {
           message:
-            "Lista de características que desea que se muestren en la sección de filtro",
-          placeholder: "Seleccione las especificaciones para mostrar en el filtro...",
+            "Lista de características que quieres mostrar en la sección de filtros",
+          placeholder: "Selecciona las especificaciones para mostrar en el filtro...",
         },
       },
     },
@@ -3169,10 +3298,10 @@ export default {
 
   /** {@see BAppShopList} **/
   apps_list: {
-    nodata: "No hay ninguna aplicación instalada en su tienda",
-    inactive: "inactivo",
+    nodata: "No hay ninguna aplicación instalada en tu tienda",
+    inactive: "Inactivo",
     my_apps: "Mis aplicaciones",
-    app_store: "Agregar nueva aplicación",
+    app_store: "Añadir nueva aplicación",
   },
 
   /** {@see BShopAdd} **/
@@ -3181,44 +3310,44 @@ export default {
       shop_title: "Título de la tienda",
       shop_name: "Nombre de la tienda",
       description: "Descripción",
-      contact: "Información del contacto",
+      contact: "Información de contacto",
       image: "Imagen",
     },
     title_input: "Título",
-    title_input_tips: "Introduzca el nombre de su tienda, marca o empresa.",
-    active_message: "Configure como activo para que todos puedan acceder a su sitio web.",
+    title_input_tips: "Introduce el nombre de tu tienda, marca o empresa.",
+    active_message: "Márcala como activa para que todo el mundo pueda acceder a tu sitio web.",
     language_input_message: "Selecciona el idioma de tu tienda.",
     name_input: "Nombre",
     name_input_message: "Introduce un nombre para tu tienda.",
     name_input_tips:
-      "No utilice caracteres, espacios o letras que no sean ingleses; si se utilizan, es posible que el nombre de la tienda no se muestre correctamente.",
+      "No uses caracteres, espacios ni letras que no sean del alfabeto inglés; si los usas, es posible que el nombre de la tienda no se muestre correctamente.",
     description_input: "Descripción de la tienda",
     description_input_message: "Escribe una breve descripción sobre tu negocio.",
     description_input_tips:
-      "Esta descripción aparecerá en el pie de página de su tienda y también se utilizará como descripción de metaetiqueta predeterminada para las páginas de su tienda.",
+      "Esta descripción aparecerá en el pie de página de tu tienda y también se usará como descripción predeterminada de la metaetiqueta para las páginas de tu tienda.",
     address_input: "Dirección de la tienda",
-    address_input_message: "Ingrese la dirección exacta de la ubicación de la tienda",
+    address_input_message: "Introduce la dirección exacta de la ubicación de la tienda",
 
-    phone_input: "número de teléfono",
-    phone_input_message: "Número de contacto del cliente",
+    phone_input: "Número de teléfono",
+    phone_input_message: "Número de contacto para clientes",
     phone_input_tips:
-      "Ingrese el número de contacto con el código del país. Este número también se utiliza para mostrar información en la búsqueda de Google.",
+      "Introduce el número de contacto con el código de país. Este número también se usa para mostrar información en la búsqueda de Google.",
     email_input: "Correo electrónico",
     email_input_message: "Dirección de correo electrónico para clientes",
-    locality_input: "Localización",
+    locality_input: "Ubicación",
     locality_input_message: "Ubicación de la tienda",
-    region_input: "Estado o Provincia",
-    region_input_message: "Estado o provincia en el que opera",
+    region_input: "Estado o provincia",
+    region_input_message: "Estado o provincia en la que operas",
     country_input: "País",
-    country_input_message: "país de negocios",
+    country_input_message: "País donde opera tu negocio",
     postal_code_input: "Código postal",
     postal_code_input_message: "Código postal de la tienda",
     image_input: "Imagen de la tienda",
 
     map: {
       title: "Dirección de la tienda",
-      confirm: "Registro de dirección",
-      address: "dirección",
+      confirm: "Registrar dirección",
+      address: "Dirección",
       receptor: "Tienda",
     },
 
@@ -3226,7 +3355,7 @@ export default {
     update_shop_action: "Actualizar",
 
     notifications: {
-      copy_success: "Copia de la dirección de la tienda.",
+      copy_success: "Dirección de la tienda copiada.",
       name_available: `Este nombre ({name}) está disponible.`,
       add_success: `Tienda {title} creada.`,
       edit_success: "Tienda editada.",
@@ -3235,9 +3364,9 @@ export default {
 
   /** {@see BProductInventoryManagementVirtual} **/
   virtual_items_list: {
-    add_virtual_item: "Añadir Virtual opción",
+    add_virtual_item: "Añadir artículo virtual",
     add_virtual_item_desc:
-      "Para vender productos virtuales, debe agregarlos en esta sección. El número de artículos virtuales es igual al número de artículos gratuitos en esta sección. Una vez que los clientes compren el artículo virtual, se les enviará el enlace.",
+      "Para vender productos virtuales, puedes añadirlos en esta sección. El número de artículos virtuales es igual al número de artículos libres en esta sección. Cuando los clientes compren el artículo virtual, se les enviará el enlace.",
 
     filter_action: "Aplicar filtro",
     not_processed: "Pedidos sin procesar",
@@ -3245,41 +3374,41 @@ export default {
     vew_order: "Ver pedido",
 
     table: {
-      nodata: "no hay artículos",
+      nodata: "No hay artículos",
       product: "Producto",
       data: "Datos",
       status: "Estado",
-      user_message: "Mensaje de usuario",
+      user_message: "Mensaje del usuario",
       updated_at: "Última actualización",
       order: "Pedido",
-      delete: "Borrar",
+      delete: "Eliminar",
     },
     notifications: {
-      delete_success: "Elemento eliminado con éxito.",
+      delete_success: "Artículo eliminado correctamente.",
     },
   },
 
   /** {@see BProductVirtualItemAdd} **/
   add_virtual_item: {
     title_edit: "Editar valores",
-    title_add: "Agregar artículo al producto",
+    title_add: "Añadir artículo al producto",
     sub_title: "Creación y edición de productos virtuales",
     message:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Una vez completado el pago, enviaremos los valores del artículo virtual al comprador. Puedes definir la estructura de este formulario en la pestaña Producto > Editar > Salida.",
     edit_outputs: "Editar formulario de salida",
     notifications: {
       edit_success: "Artículo editado.",
-      add_success: "Elemento añadido a la lista.",
+      add_success: "Artículo añadido a la lista.",
     },
   },
 
   /** {@see BPageOrderVirtual} **/
   virtual_process_center: {
     title: "Centro de procesamiento",
-    sub_title: "procesando orden",
-    virtual_product: "producto virtual",
+    sub_title: "Procesamiento del pedido",
+    virtual_product: "Producto virtual",
     menu: {
-      report: "Reporte",
+      report: "Informe",
       timeline: "Cronología",
       order: "Pedido",
     },
@@ -3292,8 +3421,8 @@ export default {
         value: "Valor",
       },
       tips: [
-        "Después de completar la solicitud del cliente, presione la tecla de confirmación del pedido para notificar al comprador sobre el pedido.",
-        "Una vez que se aprueba el pedido, el comprador no podrá editar la información ingresada.",
+        "Después de completar la solicitud del cliente, pulsa el botón de confirmación del pedido para notificar al comprador.",
+        "Una vez aprobado el pedido, el comprador no podrá editar la información introducida.",
       ],
       alerts: {
         order_completed_by_admin: "El pedido se ha completado.",
@@ -3306,9 +3435,9 @@ export default {
   /** {@see BPageOrderFile} **/
   file_process_center: {
     title: "Centro de procesamiento",
-    sub_title: "procesando orden",
+    sub_title: "Procesamiento del pedido",
     menu: {
-      report: "Reporte",
+      report: "Informe",
       timeline: "Cronología",
       order: "Pedido",
     },
@@ -3316,15 +3445,15 @@ export default {
 
   /** {@see BOrderDashboard} **/
   process_order_page_dashboard: {
-    title: "procesando orden",
-    cancel_order_action: "Cancelar orden",
+    title: "Procesamiento del pedido",
+    cancel_order_action: "Cancelar pedido",
     open_basket_cation:
       "Este carrito de compras está abierto, lo que significa que el cliente está comprando y aún no ha pagado el pedido.",
 
     reject_dialog: {
       title: "Motivo para rechazar el pedido",
       message:
-        "Seleccione el motivo del rechazo de este pedido de la lista a continuación. Asegúrese de informar al cliente del proceso de cancelación y reembolso. Los reembolsos deben hacerse dentro de las 12 horas.",
+        "Selecciona el motivo del rechazo de este pedido en la lista de abajo. Asegúrate de informar al cliente del proceso de cancelación y reembolso. Los reembolsos deben realizarse en un plazo de 12 horas.",
       confirm_now_action: "Cancelar pedido ahora",
       confirm_in48h_action: "Cancelar pedido en 48 horas",
 
@@ -3333,16 +3462,16 @@ export default {
       options: {
         title: "Opciones",
         subtitle:
-          "Si desea cancelar su pedido inmediatamente, puede utilizar esta opción.",
+          "Si quieres cancelar el pedido inmediatamente, puedes usar esta opción.",
       },
 
       express_input: {
-        true_title: "Sí Título",
-        false_title: "No Título",
+        true_title: "Exprés | Cancelar pedido inmediatamente",
+        false_title: "Estándar | Cancelar pedido después de 48 horas",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Esta opción cancelará el pedido inmediatamente y actualizará el inventario al instante.",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Esta opción cancelará el pedido después de 48 horas. Hasta entonces, los artículos permanecerán reservados y no podrán ser comprados por otros.",
       },
     },
 
@@ -3351,12 +3480,12 @@ export default {
       reject_update_success:
         "Estado de cancelación de pedido actualizado.",
       dismiss_reject_success:
-        "El pedido volvió al proceso normal.",
+        "El pedido ha vuelto al flujo de procesamiento normal.",
       set_tracking_success: "El ID de seguimiento del pedido se guardó correctamente.",
       shipping_address_update_success:
-        "Configura y gestiona esta opción para tu tienda.",
+        "La dirección de envío se ha actualizado correctamente.",
       vendor_order_status_update_success:
-        "Configura y gestiona esta opción para tu tienda.",
+        "El estado de procesamiento del vendedor se ha actualizado correctamente.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3371,8 +3500,8 @@ export default {
       label: "Etiqueta del paquete",
       receipt: "Factura",
       back: "Atrás",
-      return: "Devolver",
-      report: "Reporte",
+      return: "Devolución",
+      report: "Informe",
       timeline: "Cronología",
       inputs: "Entradas",
       order: "Pedido",
@@ -3382,11 +3511,11 @@ export default {
     payment_widget: {
       title: "Pago",
       checklist: [
-        "Verifique el monto del pedido y el pago del cliente.",
-        "Verifique la dirección de facturación.",
-        "Asegúrese de que la información ingresada sea correcta, especialmente si el pago es contra reembolso.",
+        "Comprueba el importe del pedido y el pago del cliente.",
+        "Comprueba la dirección de facturación.",
+        "Asegúrate de que la información introducida sea correcta, especialmente si el pago es contra reembolso.",
       ],
-      action_cod_pay: "Confirmar pago por cliente",
+      action_cod_pay: "Confirmar pago del cliente",
       action_dir_pay: "Confirmar recibo de pago subido",
       payment_receipt_not_uploaded_error:
         "¡Aún no se ha subido el recibo de pago!",
@@ -3394,12 +3523,12 @@ export default {
       waiting_for_pay: "Pago pendiente",
       processing_payment: "Procesando el pago",
       processing_cancel: "Pago cancelado",
-      require_capture: "Requerir captura",
+      require_capture: "Requiere captura",
       paid: "Pagado",
       cod_pay_info:
-        "Cuando haya recibido el pedido del cliente, puede confirmar el pago y completar el pedido.",
+        "Cuando hayas recibido el importe del pedido del cliente, puedes confirmar el pago y completar el pedido.",
       dir_pay_info:
-        "El recibo de pago aparecerá arriba. Antes de confirmar el pago, verifique el monto del depósito y la información del recibo con su banco.",
+        "El recibo de pago aparecerá arriba. Antes de confirmar el pago, verifica el importe del depósito y la información del recibo con tu banco.",
 
       created_date: "Fecha de creación",
       pay_date: "Fecha de pago",
@@ -3408,56 +3537,56 @@ export default {
       risk: "Valor de riesgo",
       billing_details: "Detalles de facturación",
 
-      add_transaction: "Agregar nueva factura",
+      add_transaction: "Añadir nueva factura",
       add_transactions_message:
-        "Debe crear al menos una transacción para este pedido. En algunos casos, el pago se requiere en varios pasos. Usted determinará qué transacciones debe pagar el usuario durante el trabajo.",
+        "Debes emitir al menos una factura para este pedido. A veces pueden ser necesarios pagos en varios pasos. A medida que avance el trabajo, tú determinarás qué facturas debe pagar el usuario.",
 
       add_bill_dialog: {
-        title: "Agregar factura",
+        title: "Añadir factura",
         message:
-          "Puede agregar una o más facturas nuevas para este pedido. El cliente verá estas facturas y pagará cada una de ellas según el avance de la obra.",
-        amount_input: "Monto de la factura",
-        action: "Agregar factura",
+          "Puedes añadir una o más facturas nuevas para este pedido. El cliente verá estas facturas y pagará cada una según el avance del trabajo.",
+        amount_input: "Importe de la factura",
+        action: "Añadir factura",
       },
       edit_bill_dialog: {
         title: "Editar factura",
-        message: "Puede editar las facturas pendientes.",
+        message: "Puedes editar las facturas pendientes.",
         action: "Editar factura",
       },
       bill_cash_payment_dialog: {
         title: "Registrar pago en efectivo",
         message:
-          "Si el comprador ha pagado el importe de esta factura en efectivo o de forma distinta al pago online, en este apartado, seleccionando una opción, regístrese y confirme su pago. En esta sección, puede ver solo las pasarelas de pago en efectivo de su tienda, si no ve esa opción, debe activar una pasarela de pago en efectivo en la moneda seleccionada en su tienda.",
+          "Si el comprador ha pagado el importe de esta factura en efectivo o de una forma distinta al pago en línea, en esta sección puedes registrar y confirmar su pago seleccionando una opción. Aquí solo se muestran las pasarelas de pago en efectivo de tu tienda; si no ves ninguna opción, puedes activar una pasarela de pago en efectivo en la moneda seleccionada en tu tienda.",
         action: "Confirmar pago de factura",
       },
 
       table: {
         title: "Título",
-        amount: "Monto",
+        amount: "Importe",
         description: "Descripción",
         info: "Información",
       },
-      user_payment: "Pago del Cliente",
-      cod: "Contrareembolso",
-      gateway_wage: "Tarifa",
+      user_payment: "Pago del cliente",
+      cod: "Contra reembolso",
+      gateway_wage: "Comisión",
       gift_card: "Tarjeta de regalo",
       discount_code: {
         title: "Código de descuento",
         code: "Código",
-        percent: "Por ciento",
+        percent: "Porcentaje",
         limit: "Límite",
       },
       club: {
-        title: "club de clientes",
-        percent: "Por ciento",
+        title: "Club de clientes",
+        percent: "Porcentaje",
         limit: "Límite",
       },
 
       coupon: {
         title: "Cupón",
-        percent: "Por ciento",
+        percent: "Porcentaje",
         limit: "Límite",
-        charge: "Cargo",
+        charge: "Crédito",
       },
       delivery: {
         title: "Costo de envío",
@@ -3466,69 +3595,69 @@ export default {
       samin: {
         title: "Tarifa de servicio",
         description:
-          "Esta cantidad se ha deducido de su cuenta de billetera Selldone.",
-        tooltip: "Calcular por método de pago",
-        percent: "Por ciento",
+          "Este importe se ha deducido de tu cuenta de billetera de Selldone.",
+        tooltip: "Calcular el total de tarifas de servicio",
+        percent: "Porcentaje",
       },
       affiliate: {
-        title: "comisión de afiliados",
+        title: "Comisión de afiliado",
         affiliate_message:
-          "Debes pagar esta comisión a tu afiliado. Este proceso lo hace usted mismo.",
+          "Debes pagar esta comisión a tu afiliado. Este proceso lo realizas tú mismo.",
       },
-      total_price: "Precio total de artículos",
+      total_price: "Precio total de los artículos",
       total_items_discount: "Descuento de artículos",
       total_price_after_offers: "Total después de aplicar ofertas",
 
       total_order_price_before_tax: "Precio total antes de impuestos",
 
-      user_payment_amount: "Importe del pago del comprador",
-      samin_wage: "Selldone Tarifa de venta hecha",
+      user_payment_amount: "Importe pagado por el cliente",
+      samin_wage: "Comisión de Selldone",
       pay_cod_dialog: {
-        title: "¿Recibió el dinero del pedido?",
+        title: "¿Has recibido el dinero del pedido?",
         message:
-          "Confirme esta opción en el método de pago contra reembolso, después de asegurar el pago completo por parte del cliente.",
+          "Confirma esta opción en el método de pago contra reembolso después de asegurarte de que el cliente ha pagado el importe completo.",
         confirm_action: "Confirmar pago del cliente",
       },
       pay_dir_dialog: {
-        title: "¿Recibió el dinero del pedido?",
+        title: "¿Has recibido el dinero del pedido?",
         message:
-          "Confirme esta opción después de aprobar el recibo de pago cargado con su banco. Asegúrese de verificar el pago con su banco.",
+          "Confirma esta opción después de verificar el recibo de pago subido con tu banco. Asegúrate de comprobar el pago con tu banco.",
         confirm_action: "Confirmar pago del cliente",
       },
 
       notifications: {
         pay_confirm_message:
-          "Se confirma el pago.<br> Puerto: {gateway_name}<br> Fecha: {payment_at}",
+          "Pago confirmado.<br> Pasarela: {gateway_name} <br> Fecha: {payment_at} ",
         pay_fail_title: "No pagado",
-        pay_fail_message: "¡El pago no puede ser aprobado!",
+        pay_fail_message: "¡No se puede aprobar el pago!",
       },
     },
     /** {@see BOrderDashboardCart} **/
     basket_list: {
       checklist: [
-        "Verifique el inventario.",
-        "Si el artículo no está disponible, el monto pagado por ese artículo debe devolverse al cliente.",
+        "Comprueba el inventario.",
+        "Si el artículo no está disponible, el importe pagado por ese artículo debe devolverse al cliente.",
       ],
       message:
-        "Si alguno de los artículos no está disponible o no se puede vender, desmarque la casilla junto a él y haga clic en el botón <b>Confirmar pedido</b> .",
+        "Si alguno de los artículos no está disponible o no se puede vender, desmarca la casilla junto a él y haz clic en el botón <b> Confirmar pedido </b>.",
       action: "Confirmación del pedido",
       list_of_items: "Lista del carrito de compras",
-      apply_change_action: "Aplicar los cambios",
+      apply_change_action: "Aplicar cambios",
       cant_apply_change: "No se pueden hacer cambios",
       lottery_prize_inform:
-        "Su cliente gana 1x de este producto. Enviar regalo con este pedido.",
+        "Tu cliente ha ganado 1x de este producto. Envía el regalo con este pedido.",
 
       need_to_refund: {
         title: "Se requiere reembolso al cliente",
         message:
           "Calculamos el importe total de los reembolsos que debes realizar de forma manual. Se calcula en función de los artículos no disponibles y los valores totales reembolsados hasta el momento.",
         calculated_approximately:
-          "El importe se calcula de forma aproximada. Calcule usted mismo el importe exacto.",
+          "El importe se calcula de forma aproximada. Calcula tú mismo el importe exacto.",
       },
       need_payback: {
-        title: "Se requiere devolución del dinero al cliente",
+        title: "Se requiere cobrar al cliente",
         message:
-          "Hemos notado que el total reembolsado al cliente es mayor que el monto adeudado según los artículos en el carrito. Es posible que deba cobrarle al cliente para recuperar el monto excedente.",
+          "Hemos detectado que el total reembolsado al cliente es mayor que el importe debido según los artículos del carrito. Es posible que tengas que cobrar al cliente para recuperar el importe excedente.",
       },
       need_no_refund: {
         title: "No es necesario ningún reembolso",
@@ -3536,7 +3665,7 @@ export default {
       total_refund: {
         title: "Total reembolsado",
         message:
-          "Es el monto total de reembolsos que realiza automáticamente tu pasarela de pago. Solo algunos servicios de pago admiten esta función, por lo que debes realizar el reembolso manualmente.",
+          "Es el importe total de los reembolsos realizados automáticamente por tu pasarela de pago. Solo algunos servicios de pago admiten esta función, por lo que quizás debas reembolsar manualmente.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,152 +3680,152 @@ export default {
       items_weight_calculation:
         "El peso combinado de todos los artículos es {weight} {unit}",
       not_available_message:
-        "¡No está disponible cuando está deshabilitado y no solicita la dirección de envío y, además, el usuario no completó la dirección después de la compra!",
+        "No está disponible cuando has desactivado la solicitud de dirección de envío y, además, el usuario no ha rellenado la dirección después de la compra.",
 
       message:
-        "Haga clic en el siguiente botón <b>Pedido listo</b> si el pedido está listo para enviarse.",
+        "Haz clic en el siguiente botón <b> Pedido listo</b> si el pedido está listo para enviar.",
       action: "Pedido listo para enviar",
       checklist: [
-        "Siguiendo las normas estándar en el embalaje.",
-        "Imprima una lista de artículos y colóquela dentro del paquete.",
+        "Sigue las normas estándar de embalaje.",
+        "Imprime una lista de artículos y colócala dentro del paquete.",
         "Imprime y pega una etiqueta en la caja.",
       ],
     },
 
-    basket_items: "Lista de artículos de pedido",
+    basket_items: "Lista de artículos del pedido",
 
     delivered_dialog: {
-      title: "¿Este pedido ha sido recibido por el cliente?",
-      message: "Confirma esta opción cuando sepas que el cliente recibió el pedido",
-      confirm_action: "Confirmo que el cliente recibió el paquete.",
+      title: "¿El cliente ha recibido el pedido?",
+      message: "Confirma si el cliente ha recibido el pedido.",
+      confirm_action: "Confirmar recepción del pedido",
     },
     return_delivery_dialog: {
-      title: "¿Tuvo el pedido algún problema durante la entrega o fue devuelto?",
+      title: "¿Hubo algún problema con la entrega o una devolución?",
       message:
-        "Confirme la opción de devolución del envío si el pedido se devuelve después del envío por algún motivo y existe la necesidad de volver a enviar el envío.",
-      confirm_action: "Confirmar entrega devuelta",
+        "Confirma si el pedido fue devuelto o necesita reenviarse debido a un problema de entrega.",
+      confirm_action: "Confirmar devolución del pedido",
     },
 
     notifications: {
       update_status_success: "Estado del pedido actualizado.",
       reject_update_success: "Estado de cancelación de pedido actualizado.",
       dismiss_reject_success: "El pedido fue cancelado.",
-      pay_cod_success: "Pago contrareembolso confirmado.",
+      pay_cod_success: "Pago contra reembolso confirmado.",
       pay_dir_success:
         "El pago se confirmó mediante pago de tarjeta a tarjeta o transferencia de dinero.",
       set_tracking_success: "El ID de seguimiento del pedido se guardó correctamente.",
-      new_bill_success: "Nueva factura añadida con éxito.",
-      edit_bill_success: "Factura actualizada con éxito.",
-      update_bill_status_success: "Estado de la factura actualizado con éxito.",
-      set_payment_in_cash_success: "Pago de facturas confirmado manualmente.",
+      new_bill_success: "Nueva factura añadida correctamente.",
+      edit_bill_success: "Factura actualizada correctamente.",
+      update_bill_status_success: "Estado de la factura actualizado correctamente.",
+      set_payment_in_cash_success: "Pago de la factura confirmado manualmente.",
     },
 
     delete_bill_dialog: {
       title: "Eliminar factura",
-      message: "¿Estás seguro de eliminar esta factura?",
+      message: "¿Seguro que quieres eliminar esta factura?",
       action: "Sí, eliminar ahora",
     },
   },
 
   /** {@see AdminShopGatewayManagementPage} **/
   shop_gateway: {
-    title: "Puerta",
+    title: "Pasarela de pago",
     menu: {
       dashboard: "Panel",
       edit: "Editar",
-      transactions: "Actas",
+      transactions: "Transacciones",
       back: "Pasarelas",
     },
 
     /** {@see BPageGatewayDashboard} **/
     dashboard: {
-      title: "Gestión de puerta de enlace",
+      title: "Gestión de la pasarela",
 
       /** {@see BGatewayPaymentsChart} **/
       gateway_data_widget: {
         title: "Informe de pagos",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Pagos creados y transacciones realizadas durante el periodo de tiempo seleccionado.",
         chart: {
-          times: "Contar",
-          buys: "Comprar cuenta",
-          pays: "pago exitoso",
+          times: "Cantidad",
+          buys: "Número de compras",
+          pays: "Pagos correctos",
           amount_pay: "Pagado",
-          amount_wage: "Tarifa",
+          amount_wage: "Comisión",
         },
       },
     },
 
     /** {@see BPageGatewayEdit} **/
     edit: {
-      title: "Editar puerta de enlace",
+      title: "Editar pasarela",
       menu: {
-        delete: "Eliminar puerta de enlace",
+        delete: "Quitar pasarela",
       },
-      edit_action: "Editar puerta de enlace",
+      edit_action: "Editar pasarela",
     },
 
     /** {@see BPageGatewayTransactions} **/
     transactions: {
-      title: "Actas",
+      title: "Transacciones",
       table: {
-        amount: "Monto",
-        currency: "Divisa",
+        amount: "Importe",
+        currency: "Moneda",
         livemode: "Tipo",
         status: "Estado",
         target_id: "Pedido",
         risk: "Riesgo",
         card: "Tarjeta",
-        issued_at: "Fecha de asunto",
+        issued_at: "Fecha de emisión",
         payment_at: "Fecha de pago",
       },
-      live_mode: "Vivir",
-      test_mode: "Salvadera",
+      live_mode: "Real",
+      test_mode: "Sandbox",
     },
   },
 
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "Información",
-    subtitle: "Configura y gestiona esta opción para tu tienda.",
+    subtitle: "Resumen de la configuración y el estado de la pasarela de pago.",
     status: "Estado",
-    cod_transportation: "Opción",
+    cod_transportation: "Métodos de envío compatibles",
     cod_transportations_error:
-      "Configura y gestiona esta opción para tu tienda.",
-    payment_type: "Pago Tipo",
-    cod: "Pago contra entrega",
-    online: "En línea Pago",
-    wage_percent: "Opción",
-    min_wage: "Mínimo Comisión",
-    max_wage: "Máximo Comisión",
-    min_amount: "Opción",
-    max_amount: "Opción",
-    timeout: "Opción",
-    timeout_unit: "Opción",
-    link: "Pasarela Enlace",
-    your_gateway_status: "Opción",
+      "¡Activa el pago contra reembolso para al menos un método de envío!",
+    payment_type: "Tipo de pago",
+    cod: "Contra reembolso (COD)",
+    online: "Pago en línea",
+    wage_percent: "Porcentaje de comisión",
+    min_wage: "Comisión mínima",
+    max_wage: "Comisión máxima",
+    min_amount: "Transacción mínima",
+    max_amount: "Transacción máxima",
+    timeout: "Plazo de pago",
+    timeout_unit: "Segundos",
+    link: "Enlace de la pasarela",
+    your_gateway_status: "Estado de tu pasarela",
     oauth2_button: "Conectar automáticamente a {gateway}",
     fee_payment_message:
-      "Selldone Configura y gestiona esta opción para tu tienda.",
+      "El importe completo pagado por el cliente se transferirá a tu cuenta. La tarifa de servicio se deducirá de tu billetera en Selldone.",
 
-    auto_config: "Automático Configuración",
+    auto_config: "Configuración automática",
 
     keys: {
-      title: "Título",
+      title: "Claves privadas",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Lista de claves privadas para el pago. Esta información es esencial para crear y gestionar pagos.",
     },
     extra_config: {
-      title: "Pago Servicio Configuración",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      title: "Configuración del servicio de pago",
+      subtitle: "Información de configuración adicional para la pasarela de pago.",
     },
 
     recommended_actions: {
-      title: "Título",
+      title: "Acciones recomendadas",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
-      action_enable: "Opción",
-      make_live_enable: "Opción",
+        "Al seguir estos pasos, empezarás a recibir pagos reales de tus clientes.",
+      action_enable: "Haz clic para activarla",
+      make_live_enable: "Haz clic para activar el modo real",
     },
   },
 
@@ -3707,47 +3836,47 @@ export default {
     link: "Sitio web",
     status_title: "Estado del servicio de pago",
     status_message:
-      "Configure el método de pago como Activo o Inactivo. Solo se mostrarán a los clientes los métodos configurados como activos.",
-    status_true_description: "Sus clientes pueden pagar con este método de pago.",
+      "Configura el método de pago como Activo o Inactivo. Solo se mostrarán a los clientes los métodos configurados como activos.",
+    status_true_description: "Tus clientes pueden pagar con este método de pago.",
 
     manual_title: "Pago con captura manual o automática",
     manual_message:
-      "Cuando crea un pago, puede colocar una retención en un método de pago elegible para reservar fondos que puede capturar más tarde. Por ejemplo, los hoteles suelen autorizar un pago completo antes de que llegue un huésped y luego capturan el dinero cuando el huésped se retira.",
+      "Cuando creas un pago, puedes retener fondos en un método de pago elegible para reservarlos y capturarlos más tarde. Por ejemplo, los hoteles suelen autorizar el pago completo antes de que llegue el huésped y luego capturan el dinero cuando el huésped hace el check-out.",
 
     gateway_status: "Estado",
-    wallet: "billetera de cadena de bloques",
-    developer_title: "modo desarrollador",
+    wallet: "Billetera blockchain",
+    developer_title: "Modo desarrollador",
     developer_message:
-      "Puede procesar transacciones falsas si la puerta de enlace admite el modo de depuración.",
-    live_mode_message: "Todas las transacciones estarán en modo en vivo.",
+      "Puedes procesar transacciones simuladas si la pasarela admite el modo de depuración.",
+    live_mode_message: "Todas las transacciones se realizarán en modo real.",
 
     notifications: {
-      edit_success: "Puerta de enlace {gateway_name} editada.",
+      edit_success: "Pasarela {gateway_name} editada.",
       success_delete: "¡El método de pago ha sido eliminado!",
     },
     debug: {
       title: "Desarrollar y probar",
-      subtitle: "Puede habilitar el modo de depuración para probar la pasarela de pago.",
+      subtitle: "Puedes activar el modo de depuración para probar la pasarela de pago.",
     },
 
     limit: {
       title: "Límite de pedido",
-      subtitle: "Establezca el monto mínimo de pedido para esta pasarela de pago.",
+      subtitle: "Establece el importe mínimo de pedido para esta pasarela de pago.",
     },
     limit_input: {
-      title: "Cantidad mínima de pedido",
+      title: "Importe mínimo del pedido",
       msg: "Cero significa que no hay límite.",
     },
     currency_input: {
       message: "La moneda que admite esta pasarela de pago.",
     },
-    gateway_code: "Código de acceso",
+    gateway_code: "Código de la pasarela",
 
-    hold_only_for: "Retener pago disponible solo para",
+    hold_only_for: "Retención de pago solo disponible para",
     manual_input: {
       false_description:
         "El estado del pago cambiará automáticamente de pendiente a confirmado en el sistema del proveedor de pagos.",
-      false_title: "Confirmación de pago automático",
+      false_title: "Confirmación automática del pago",
       true_title: "Retener pagos y confirmación manual",
       true_description:
         "Retener un pago significa que es necesario verificar los pagos de un pedido para cambiar su estado de pendiente a confirmado en el sistema del proveedor de pagos.",
@@ -3759,7 +3888,7 @@ export default {
     },
     delete_alert: {
       title: "Eliminar método de pago",
-      message: "¿Estás seguro de eliminar este método de pago de tu tienda?",
+      message: "¿Seguro que quieres eliminar este método de pago de tu tienda?",
       action: "Eliminar método de pago",
     },
   },
@@ -3783,32 +3912,32 @@ export default {
       /** {@see BGiftcardStatisticsPayment} **/
       amount_widget: {
         title: "Pago con tarjeta",
-        title_small: "30 dias",
+        title_small: "30 días",
         chart_amount_pay: {
           y: "Suma",
           label: "Pago",
         },
         chart_buys: {
-          y: "compras",
-          label: "compras",
+          y: "Compras",
+          label: "Compras",
         },
         total_buy: "Importe total de la compra",
-        total_pay_30days: "30 días pago total",
-        total_pay_today: "pago de hoy",
+        total_pay_30days: "Pago total en 30 días",
+        total_pay_today: "Pago de hoy",
       },
 
       /** {@see BGiftcardStatisticsCount} **/
       count_widget: {
         title: "Número de tarjetas emitidas",
-        title_small: "30 dias",
+        title_small: "30 días",
         total_cards: "Número total de tarjetas",
-        used_cards_30days: "30 días de uso",
+        used_cards_30days: "Uso en 30 días",
         used_today: "Uso de hoy",
         chart: {
-          new_cards: "nuevas cartas",
-          used_cards: "tarjetas usadas",
+          new_cards: "Tarjetas nuevas",
+          used_cards: "Tarjetas usadas",
           new_card_name: "Nueva tarjeta",
-          used_card_name: "Utilizado",
+          used_card_name: "Usada",
         },
       },
 
@@ -3822,34 +3951,34 @@ export default {
 
     /** {@see AdminGiftCardManagementPage} **/
     cards: {
-      title: "Lista de tarjetas emitidas",
+      title: "Resumen de tarjetas emitidas",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Consulta y gestiona todas las tarjetas emitidas. Puedes enviar tarjetas a los usuarios manualmente o bloquearlas si es necesario.",
 
-      loading_message: "Obteniendo información... por favor espere",
-      issue_to_user: "Problema para el usuario",
+      loading_message: "Obteniendo información... espera, por favor",
+      issue_to_user: "Emitir al usuario",
       table: {
         card_number: "Número de tarjeta",
-        balance: "Equilibrio",
+        balance: "Saldo",
         paid: "Pagado",
         edit: "Editar",
-        delete: "Borrar",
+        delete: "Eliminar",
         expire: "Caduca",
         user: "Usuario",
       },
       delete_alert: {
         title: "Quitar tarjeta",
-        message: "¿Está seguro de que desea eliminar esta tarjeta?",
-        action: "Borrar",
+        message: "¿Seguro que quieres eliminar esta tarjeta?",
+        action: "Eliminar",
       },
       notifications: {
         delete_success: "Tarjeta de regalo eliminada.",
         edit_success: "Se han realizado cambios.",
-        issue_success: "Tarjeta de regalo emitida al usuario con éxito.",
+        issue_success: "Tarjeta de regalo emitida al usuario correctamente.",
       },
       issue_dialog: {
         title: "Emitir tarjeta de regalo",
-        action: "Confirmo. Emite la tarjeta ahora",
+        action: "Confirmo. Emitir la tarjeta ahora",
       },
     }, // End of cards
 
@@ -3858,14 +3987,14 @@ export default {
       title: "Crear tarjeta de regalo",
       validity: "Validez",
       validity_unit: "Meses",
-      currency: "Divisa",
+      currency: "Moneda",
       initial_balance: "Saldo inicial de la tarjeta",
-      count: "Contar",
-      count_unit: "artículos)",
-      enable_input_message: "Estado de las tarjetas creadas",
+      count: "Cantidad",
+      count_unit: "Unidad(es)",
+      enable_input_message: "Estado de las tarjetas creadas.",
       notifications: {
         create_success_title: "Guardar",
-        create_success: "{count} tarjetas nuevas creadas",
+        create_success: "{count} tarjetas nuevas creadas.",
       },
     },
 
@@ -3878,7 +4007,7 @@ export default {
   /** {@see BPageDiscountCode} **/
   shop_discount: {
     title: "Código de descuento",
-    up_to: "hasta",
+    up_to: "Hasta",
     menu: {
       dashboard: "Panel",
       orders: "Pedidos",
@@ -3890,14 +4019,14 @@ export default {
       title: "Panel de administración de códigos de descuento",
       chart_amount_buy: {
         y: "Importe de la compra {currency}",
-        label: "Comprar",
+        label: "Compra",
       },
       chart_amount_discount: {
         y: "Descuento {currency}",
         label: "Descuento",
       },
       chart_used: {
-        y: "cantidad de usos",
+        y: "Número de usos",
         label: "Veces",
       },
     },
@@ -3905,11 +4034,11 @@ export default {
 
   /** {@see BPageCoupon} **/
   shop_coupon: {
-    title: "cupones",
+    title: "Cupones",
     up_to: "hasta",
     menu: {
       dashboard: "Panel",
-      back: "cupones",
+      back: "Cupones",
       orders: "Pedidos",
     },
 
@@ -3918,14 +4047,14 @@ export default {
       title: "Panel de administración de cupones",
       chart_amount_buy: {
         y: "Importe de la compra {currency}",
-        label: "Comprar",
+        label: "Compra",
       },
       chart_amount_discount: {
         y: "Cupón {currency}",
         label: "Cupón",
       },
       chart_used: {
-        y: "cantidad de usos",
+        y: "Número de usos",
         label: "Veces",
       },
     },
@@ -3933,12 +4062,12 @@ export default {
 
   /** {@see BPageOffer} **/
   shop_offer: {
-    title: "ofertas",
+    title: "Ofertas",
     up_to: "hasta",
     menu: {
       dashboard: "Panel",
       orders: "Pedidos",
-      back: "ofertas",
+      back: "Ofertas",
     },
 
     /** {@see BPageOfferDashboard} **/
@@ -3946,14 +4075,14 @@ export default {
       title: "Panel de administración de ofertas",
       chart_amount_buy: {
         y: "Importe de la compra {currency}",
-        label: "Comprar",
+        label: "Compra",
       },
       chart_amount_discount: {
         y: "Oferta {currency}",
         label: "Oferta",
       },
       chart_used: {
-        y: "cantidad de usos",
+        y: "Número de usos",
         label: "Veces",
       },
     },
@@ -3964,13 +4093,13 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Lista de pedidos sincronizados externamente que deben ser procesados por proveedores externos.",
   },
   /** {@see BAccountCard} **/
   account_card: {
     pay_create_receipt: "Pagar tarifa de activación",
-    balance: "Equilibrio",
-    locked: "bloqueado",
+    balance: "Saldo",
+    locked: "Bloqueado",
     transfer: "Transferir",
     charge: "Depósito",
   },
@@ -3981,21 +4110,21 @@ export default {
     info: "{message}",
     error: "{message}",
 
-    buy: "Verificar",
+    buy: "Finalizar compra",
     payment: "Pago",
 
     confirm:
-      "Confirmación de pedido, <b>{success}</b> confirmado y <b>{fail}</b> rechazado.",
-    prepare: "Preparación de pedidos.",
-    send: "Pedido enviado por <b>{delivery}</b> .",
+      "Confirmación del pedido: <b> {success} </b> confirmados y <b> {fail} </b> rechazados.",
+    prepare: "Preparación del pedido.",
+    send: "Pedido enviado por <b> {delivery} </b>.",
     delivered: "El pedido ha sido entregado al cliente.",
     "fill-inputs": "Formulario de información de entrada completado por el comprador.",
-    "return-add": "Envíe una solicitud de devolución de producto, {product}.",
+    "return-add": "Solicitud de devolución de producto enviada, {product}.",
     "return-accept": "Solicitud de devolución {return_code} confirmada.",
     "return-reject": "Solicitud {return_code} rechazada.",
 
-    "reject-order": "Rechazar pedido. Código: {reject_code}.",
-    "reject-order-clear": "Cancelar el rechazo del pedido. Código: {reject_code}.",
+    "reject-order": "Pedido rechazado. Código: {reject_code}.",
+    "reject-order-clear": "Rechazo del pedido cancelado. Código: {reject_code}.",
 
     "delivery-returned":
       "El pedido no fue recibido por el cliente y fue devuelto. Es necesario enviar de nuevo.",
@@ -4007,20 +4136,20 @@ export default {
       "Se confirmó el pago de {amount} {currency} en efectivo por la factura.",
     "payment-dir-confirm": "Se confirmó el recibo de pago directo.",
 
-    vendor: "El estado del pedido del proveedor cambió de <b>{from}</b> a <b>{to}</b> .",
+    vendor: "El estado del pedido del vendedor cambió de <b>{from}</b> a <b>{to}</b>.",
 
     "connect-sync": "Pedido sincronizado por Connect OS.",
     "connect-shipped": "El pedido de Connect ha sido enviado por {shipping}.",
     "connect-returned": "El pedido de Connect ha sido devuelto por {shipping}.",
-    "connect-failed": "El cumplimiento del pedido falló por parte del socio. {reason}",
+    "connect-failed": "El procesamiento del pedido por parte del socio ha fallado. {reason}",
     "connect-canceled": "El pedido fue cancelado por el socio. {reason}",
     "connect-action-cancel": "Solicitud de cancelación de pedido. {reason}",
-    "connect-put-hold": "La orden fue puesta en espera. {reason}",
-    "connect-remove-hold": "El pedido se eliminó de la espera. {reason}",
+    "connect-put-hold": "El pedido se puso en espera. {reason}",
+    "connect-remove-hold": "Se retiró la espera del pedido. {reason}",
     "connect-confirmed": "El pedido fue confirmado.",
 
-    "vendor-payout": "💸 Pago al proveedor.",
-    "vendor-wallet-transaction": "Opción",
+    "vendor-payout": "💸 Pago al vendedor.",
+    "vendor-wallet-transaction": "Transacción de la billetera del vendedor.",
 
     "vendor-sms":
       "🔔 Se ha enviado un SMS de información del pedido a <b>{vendor}</b> ╏ {phone}.",
@@ -4029,7 +4158,7 @@ export default {
 
     "email-buy": "Enviar correo electrónico de confirmación de compra al cliente.",
     "email-payment": "Enviar correo electrónico de confirmación de pago al cliente.",
-    "email-update": "Correo electrónico Actualizar",
+    "email-update": "Enviar correo electrónico de actualización del pedido al cliente.",
 
     "email-vendor":
       "🔔 El correo electrónico de información del pedido se ha enviado a <b>{vendor}</b> ╏ {email}.",
@@ -4038,11 +4167,11 @@ export default {
     "sms-payment":
       "Enviar SMS de confirmación de pago al cliente a través de {phone}.",
     "sms-ready-to-ship":
-      "Configura y gestiona esta opción para tu tienda. {phone}",
+      "Enviar un SMS al cliente notificando que su pedido está listo para enviarse a través de {phone}.",
     "sms-ready-to-pickup":
-      "Configura y gestiona esta opción para tu tienda. {phone}",
+      "Enviar un SMS al cliente notificando que su pedido está listo para recoger a través de {phone}.",
     "sms-order-confirmation":
-      "Configura y gestiona esta opción para tu tienda. {phone}",
+      "Enviar un SMS de confirmación del pedido al cliente a través de {phone}.",
 
     "count-adjustment":
       'La cantidad del producto "{product}" se actualizó de {from} a {to}.',
@@ -4051,43 +4180,43 @@ export default {
   /** {@see FinanceInlineChart} **/
   inline_chart: {
     today: "Hoy",
-    last_days: "hace {days} días",
+    last_days: "Hace {days} días",
   },
   /** {@see BProductsWindow} **/
   products_select: {
-    move_category: "Mover categoría <b>{category}</b> a otra categoría",
-    move_product: "Mover producto <b>{product}</b> a categoría",
+    move_category: "Mover la categoría <b> {category} </b> a otra categoría",
+    move_product: "Mover el producto <b> {product} </b> a la categoría",
     load_more_products:
-      "Hay más productos disponibles en esta categoría. Haga clic para cargar más artículos.",
+      "Hay más productos disponibles en esta categoría. Haz clic para cargar más artículos.",
     product_menu: {
-      dashboard: "Tablero de productos",
-      inventory: "Inventario y Variantes",
+      dashboard: "Panel del producto",
+      inventory: "Inventario y variantes",
     },
     notifications: {
-      copy_success: "Copia de producto.",
+      copy_success: "Producto copiado.",
       change_category_success: "Categoría de producto editada.",
     },
 
     filter_box: {
       no_root_filter_message: "Tienes productos en la raíz pero no tienes filtro.",
-      has_root_filter_message: "Establece filtros para la categoría raíz.",
+      has_root_filter_message: "Has establecido filtros para la categoría raíz.",
       set_filter_message: "Puedes establecer filtros.",
       edit_action: "Editar filtros raíz",
-      clear_action: "Limpiar filtros de raíz",
+      clear_action: "Borrar filtros raíz",
     },
     ai: {
-      title: "Asistencia de productos con inteligencia artificial",
+      title: "Asistente de productos con IA",
     },
     menu: {
       select_all_products: "Seleccionar todos los productos",
       unselect: "Deseleccionar",
       sort_categories: "Organizar/Ordenar categorías",
       subscription_vendor_not_support_message:
-        "¡No se puede asignar un proveedor para los productos de suscripción! ¡Los productos de suscripción siempre deben tener un proveedor como propietario!",
+        "¡No se puede asignar un vendedor a productos de suscripción! ¡Los productos de suscripción siempre deben tener un vendedor como propietario!",
       vendor_owner_not_assignable_message:
-        "¡No se puede asignar un proveedor a productos que tengan a un proveedor como su propietario!",
+        "¡No se puede asignar un vendedor a productos que ya tienen un vendedor como propietario!",
       category_assign_profile: "Asignar perfil a productos de la categoría",
-      category_assign_profile_subtitle: "Impuestos, Envío, Guía, Garantía, ...",
+      category_assign_profile_subtitle: "Impuestos, envío, guía, garantía, ...",
       bulk_discount: "Descuento por volumen",
       bulk_discount_subtitle: "Aplicar descuento en todos los productos.",
     },
@@ -4096,20 +4225,20 @@ export default {
       title: "Motor de productos adicionales",
       subtitle:
         "Se cargarán más productos de categorías y etiquetas seleccionadas.",
-      load_in_tips: "Cargue productos de categorías en la {category}.",
-      action: "Editar {category} Motor",
+      load_in_tips: "Carga productos de las categorías dentro de {category}.",
+      action: "Editar el motor de {category}",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "Coloque el archivo Excel/CSV aquí.",
+      title: "Suelta el archivo Excel / CSV aquí.",
       select_file: "Seleccionar archivo",
       max_file: "Tamaño máximo de archivo: 20 MB",
       download_sample: "Descargar muestra",
     },
     ai: {
-      title: "Asistencia de productos con inteligencia artificial",
+      title: "Asistente de productos con IA",
     },
   },
 
@@ -4119,23 +4248,23 @@ export default {
     no_panel: "Sin panel",
     manual_action: {
       title: "Acciones manuales",
-      message: "Puede actualizar el estado del pedido del proveedor manualmente.",
+      message: "Puedes actualizar el estado del pedido del vendedor manualmente.",
       guides: [
-        "Los proveedores con acceso al panel pueden actualizar su cumplimiento (subpedidos) en su panel dedicado.",
-        "Si el vendedor no tiene acceso al panel, el estado del pedido del vendedor se cambiará automáticamente cambiando el estado de la cesta.",
-        "Puede actualizar los pedidos de proveedores manualmente.",
+        "Los vendedores con acceso al panel pueden actualizar el procesamiento de sus pedidos (subpedidos) en su panel dedicado.",
+        "Si el vendedor no tiene acceso al panel, el estado del pedido del vendedor cambiará automáticamente al cambiar el estado del carrito.",
+        "Puedes actualizar los pedidos de los vendedores manualmente.",
       ],
     },
     payouts: {
       title: "Pagos",
-      message: "Gestionar los pagos y transacciones de los proveedores.",
+      message: "Gestiona los pagos y transacciones del vendedor.",
 
-      charge_tooltip: "Cargue la billetera del proveedor.",
+      charge_tooltip: "Recargar la billetera del vendedor.",
       withdraw_tooltip: "Retirar de la billetera del vendedor.",
-      payout_tooltip: "Pago al proveedor.",
+      payout_tooltip: "Pago al vendedor.",
     },
-    order_canceled: "Opción",
-    order_rejected: "Opción",
+    order_canceled: "Pedido cancelado",
+    order_rejected: "Pedido rechazado por el vendedor",
   },
 
   /**
@@ -4143,27 +4272,27 @@ export default {
    */
   vendor_dashboard: {
     info: {
-      subtitle: "Información del mercado.",
+      subtitle: "Información del marketplace.",
     },
     performance: {
-      subtitle: "Mi desempeño en ventas.",
+      subtitle: "Mi rendimiento de ventas.",
     },
     products: {
-      title: "productos",
+      title: "Productos",
       subtitle:
-        "Aquí puede ver el recuento de sus productos incluidos en el mercado. No se incluyen los productos de varios vendedores.",
+        "Aquí puedes ver el número de tus productos publicados en el marketplace. No se incluyen los productos de varios vendedores.",
     },
     wallets: {
       title: "Mis billeteras",
       subtitle:
-        "¡No es necesario agregar billeteras manualmente! Las billeteras de los vendedores se crearán automáticamente.",
+        "¡No necesitas añadir billeteras manualmente! Las billeteras de vendedor se crearán automáticamente.",
     },
 
-    open_marketplace_page: "Abrir página del mercado",
-    open_my_store_page: "Abre la página de mi tienda",
-    open_my_listing_page: "Abrir mi página de listado",
-    add_products_permission: "Añadir permiso de productos",
-    add_categories_permission: "Añadir permiso para categorías",
+    open_marketplace_page: "Abrir la página del marketplace",
+    open_my_store_page: "Abrir la página de mi tienda",
+    open_my_listing_page: "Abrir la página de mi listado",
+    add_products_permission: "Permiso para añadir productos",
+    add_categories_permission: "Permiso para añadir categorías",
   },
 
   /**
@@ -4172,20 +4301,20 @@ export default {
   vendor_inventory: {
     title: "Lista de productos",
     subtitle:
-      "Esta es una lista de tus productos en el mercado. Actualiza los precios y las cantidades de los productos asignados en el inventario. Como vendedor, solo verás los productos de un solo vendedor que posees en la lista de productos. Aquí también puedes modificar otros productos asignados.",
+      "Esta es la lista de tus productos en el marketplace. Actualiza los precios y las cantidades de los productos que tienes asignados en el inventario. Como vendedor, solo verás en la lista de productos los productos de un solo vendedor que te pertenecen. Aquí también puedes modificar otros productos asignados.",
   },
 
   /**
    * @see VPageVendorAccess
    */
   vendor_member: {
-    title: "Equipo Miembros",
+    title: "Miembros del equipo",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Esta es la lista de usuarios que tienen acceso a tu panel de vendedor. Aquí puedes añadir nuevos miembros al equipo y personalizar sus permisos.",
     add_action: "Añadir nuevo miembro",
     pending: {
       title: "Invitaciones pendientes",
-      message: "Configura y gestiona esta opción para tu tienda.",
+      message: "Consulta la lista de invitaciones pendientes de aceptación.",
     },
   },
 
@@ -4193,12 +4322,12 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "Editar Equipo Miembro",
-    title_new: "Añadir Nuevo Equipo Miembro",
+    title_edit: "Editar miembro del equipo",
+    title_new: "Añadir nuevo miembro del equipo",
     member: {
-      title: "Equipo Miembro Detalles",
+      title: "Detalles del miembro del equipo",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Añade un nuevo miembro del equipo y configura sus permisos. Haz clic en cada elemento para ajustar el acceso de lectura/escritura. Cada fila corresponde a un nivel de permiso del panel principal de la tienda.",
     },
     access: {
       view_data: "Ver datos",
@@ -4207,21 +4336,21 @@ export default {
     inputs: {
       email: {
         label: "Dirección de correo electrónico",
-        placeholder: "Opción",
+        placeholder: "Introduce el correo electrónico del miembro...",
       },
     },
     notifications: {
       add_success: {
-        title: "Título",
-        message: "Mensaje",
+        title: "Miembro añadido",
+        message: "El miembro del equipo se ha añadido correctamente.",
       },
       update_success: {
-        title: "Título",
-        message: "Configura y gestiona esta opción para tu tienda.",
+        title: "Miembro actualizado",
+        message: "La información del miembro del equipo se ha actualizado correctamente.",
       },
     },
     actions: {
-      add: "Añadir Miembro",
+      add: "Añadir miembro",
     },
   },
 
@@ -4232,12 +4361,12 @@ export default {
     list: {
       title: "Historial de pagos",
       subtitle:
-        "Puede consultar su historial de pagos aquí. Estos pagos pueden procesarse manualmente a través de transferencias bancarias o automáticamente utilizando servicios de pago que ofrecen la posibilidad de realizar pagos.",
+        "Aquí puedes consultar tu historial de pagos. Estos pagos pueden procesarse manualmente mediante transferencia bancaria o automáticamente a través de servicios de pago que ofrecen funciones de pago a vendedores.",
     },
     connect: {
       title: "Conectar banco",
       subtitle:
-        "Ofrecemos la posibilidad de dividir el pago en las siguientes pasarelas de pago. Para recibir los pagos sin inconvenientes después de cada compra, conecte su cuenta bancaria utilizando estas opciones.",
+        "Ofrecemos la función de pago dividido para las siguientes pasarelas de pago. Para recibir los pagos sin problemas después de cada compra, conecta tu cuenta bancaria mediante estas opciones.",
     },
     verify_dialog: {
       title: "Verificar pago",
@@ -4261,16 +4390,16 @@ export default {
    * @see BVendorOrderRefund
    */
   vendor_order_refund: {
-    title: "Reembolso Pedido",
+    title: "Reembolsar pedido",
     subtitle:
-      "<b>¡Importante! </b>Al ejecutar esta acción se generará una transacción negativa en la billetera del proveedor y se le restará el monto elegido. El monto no puede exceder el total de transacciones restantes para el pedido seleccionado. Además, si los fondos se han transferido a cuentas bancarias conectadas (como con Stripe Connect o transferencia bancaria manual), debe crear una <b>transferencia reversa</b>.",
+      "<b>¡Importante! </b>Al ejecutar esta acción se generará una transacción negativa en la billetera del vendedor y se restará de ella el importe elegido. El importe no puede superar el total de transacciones restantes del pedido seleccionado. Además, si los fondos se han transferido a cuentas bancarias conectadas (por ejemplo, con Stripe Connect o mediante transferencia bancaria manual), debes crear una <b>transferencia de reversión</b>.",
     inputs: {
       note: {
-        message: "Mensaje",
-        placeholder: "Opción",
+        message: "Es visible para el vendedor.",
+        placeholder: "Puedes adjuntar una nota aquí...",
       },
       amount: {
-        error_message: "Error Mensaje",
+        error_message: "Se ha superado el importe restante.",
       },
     },
   },
@@ -4278,15 +4407,15 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "Esta es una descripción general de las transacciones en su billetera virtual en el mercado.",
-    vendor_wallets: "Carteras de vendedores",
+      "Aquí se ofrece una visión general de las transacciones de la billetera virtual del vendedor en el marketplace. Cada vez que se realiza un pedido, la parte de la venta que corresponde al vendedor se añade a su billetera.",
+    vendor_wallets: "Billeteras de vendedores",
     my_wallets: "Mis billeteras",
-    refund_order_action: "Reembolso Pedido",
+    refund_order_action: "Reembolsar pedido",
     automatic_payout_list: {
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Esta es la lista de pagos automáticos a tu cuenta bancaria conectada. Ten en cuenta que aquí solo se muestran los pagos automáticos; los pagos manuales no aparecerán.",
     },
-    reversal_transfer_action: "Opción",
+    reversal_transfer_action: "Transferencia de reversión",
   },
 
   /** {@see BPageOrderPhysicalTrack} **/
@@ -4310,12 +4439,12 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "En esta sección, podrá visualizar la cronología de eventos relacionados con el pedido, su cumplimiento, el pago y sus respectivos estados. Además, podrá observar los pedidos enviados tanto a clientes como a proveedores.",
+      "En esta sección puedes ver la cronología de los eventos relacionados con el pedido, su procesamiento, el pago y sus respectivos estados. Además, puedes ver los pedidos enviados tanto a clientes como a vendedores.",
     add_note_subtitle: "Escribe un mensaje y menciona a tus compañeros.",
 
     message_input: "Escribe un mensaje aquí...",
-    pin_action: "Pin en la parte superior",
-    unpin_action: "Desprender",
+    pin_action: "Fijar arriba",
+    unpin_action: "Desfijar",
     copy_html: "Copiar HTML",
     notifications: {
       add_note_success: "Nota añadida.",
@@ -4323,25 +4452,25 @@ export default {
       delete_note_success: "Nota eliminada.",
     },
     delete_dialog: {
-      title: "Borrar nota",
+      title: "Eliminar nota",
       message: "¿Quieres eliminar esta nota?",
-      action: "Borrar nota",
+      action: "Eliminar nota",
     },
     resend_dialog: {
-      title: "Reenviar email",
-      message: "¿Está seguro de reenviar este correo electrónico a su cliente?",
-      action: "si, reenviar",
-      success: "Correo electrónico reenviado a su cliente.",
+      title: "Reenviar correo electrónico",
+      message: "¿Seguro que quieres reenviar este correo electrónico a tu cliente?",
+      action: "Sí, reenviar",
+      success: "Correo electrónico reenviado a tu cliente.",
     },
   },
 
   /** {@see BPageShuttleWalletAccounts} **/
   accounts: {
-    title: "Mi billetera",
+    title: "Mis billeteras",
     message:
-      "Debe crear al menos una cuenta con la moneda que está utilizando en Selldone. Debe recargar esta cuenta para pagar la tarifa de servicio.",
+      "Configura al menos una cuenta por cada moneda que utilices en Selldone. Estos fondos se destinarán a cubrir tus tarifas de servicio.",
     add_new: "Crear una nueva cuenta",
-    new_account: "Agregar nueva cuenta",
+    new_account: "Añadir nueva billetera",
     new_account_dialog: {
       title: "Nueva cuenta",
       account_name_input: "Nombre de la cuenta",
@@ -4349,7 +4478,7 @@ export default {
       currency_input_message:
         "La cuenta creada solo tendrá los valores de esta moneda.",
       new_account_wage: "Costo de creación de nueva cuenta: Gratis para la primera cuenta",
-      create_account_action: "Crear una cuenta",
+      create_account_action: "Crear cuenta",
     },
   },
 
@@ -4357,7 +4486,7 @@ export default {
   user_gifts: {
     menu: {
       send_gift: "Enviar regalo",
-      sent: "Enviar",
+      sent: "Enviados",
       received: "Recibidos",
     },
 
@@ -4365,7 +4494,7 @@ export default {
     send_gifts: {
       title: "Regalos enviados",
       sub_title:
-        "Puedes enviar un regalo a tus amigos o clientes. El destinatario puede aceptar o rechazar su regalo. El monto se bloquea en su cuenta y se retira si el destinatario acepta. De lo contrario, esta cantidad será transferida a su cuenta.",
+        "Puedes enviar un regalo a tus amigos o clientes. El destinatario puede aceptar o rechazar tu regalo. El importe se bloquea en tu cuenta y se retira si el destinatario lo acepta. De lo contrario, se devolverá a tu cuenta.",
       table: {
         user: "Usuario",
         amount: "Monto",
@@ -4381,7 +4510,7 @@ export default {
     received_gifts: {
       title: "Regalos recibidos",
       sub_title:
-        "Sus regalos recibidos de Selldone u otros",
+        "Aquí tienes la lista de los regalos que has recibido, ya sea de Selldone o de otras fuentes.",
 
       table: {
         amount: "Monto",
@@ -4397,28 +4526,28 @@ export default {
 
   /** {@see BAccountGiftRedeem} **/
   get_gift_dialog: {
-    title: "Recibe un regalo",
+    title: "Recibir un regalo",
     more: "Más ..",
     amount: "Monto",
     message: "Mensaje",
     account_to_input: "Cuenta de destino",
-    account_to_input_message: "Los montos de los obsequios se depositarán en esta cuenta.",
-    get_action: "Aceptar obsequio",
+    account_to_input_message: "Los importes de los regalos se depositarán en esta cuenta.",
+    get_action: "Aceptar regalo",
     notifications: {
       received_success_title: "Felicidades",
       received_success:
-        "El monto del regalo {amount} {currency} se ha depositado en su cuenta.",
+        "El importe del regalo {amount} {currency} se ha depositado en tu cuenta.",
     },
   },
   /** {@see BAccountGiftSend} **/
   send_gift_dialog: {
     title: "Enviar regalo",
-    account_from_input: "elige una cuenta",
-    account_from_input_message: "Los montos de los obsequios se retiran de esta cuenta.",
-    receiver_input: "Receptor",
-    receiver_input_message: "Puede ingresar la dirección de correo electrónico o el número de teléfono.",
+    account_from_input: "Elige una cuenta",
+    account_from_input_message: "Los importes de los regalos se retiran de esta cuenta.",
+    receiver_input: "Destinatario",
+    receiver_input_message: "Puedes introducir la dirección de correo electrónico o el número de teléfono.",
     message_input: "Mensaje",
-    message_input_message: "Puede dejar un mensaje al destinatario.",
+    message_input_message: "Puedes dejar un mensaje al destinatario.",
     amount_input: "Monto",
     currency_input: "Unidad monetaria",
     currency_input_message: "El precio se calcula en esta moneda.",
@@ -4432,32 +4561,32 @@ export default {
   account_list: {
     account_input: "Número de cuenta",
     account_input_message:
-      "Los importes de los regalos por esta moneda se depositarán en esta cuenta.",
-    free_balance: "Saldo libre",
+      "Los importes de los regalos en esta moneda se depositarán en esta cuenta.",
+    free_balance: "Saldo disponible",
     account_name: "Nombre de la cuenta",
   },
   /** {@see OPageMonetizeAccounts} **/
   user_monetize_accounts: {
     title: "Cuentas de depósito",
     sub_title:
-      "Los montos de los obsequios se depositarán automáticamente en estas cuentas.",
+      "Los importes de los regalos se depositarán automáticamente en estas cuentas.",
     message:
-      "Selldone deposita fondos para su actividad en las redes sociales, participar en el desarrollo de Selldone, presentar amigos, etc. Al elegir una cuenta de depósito para cada moneda, los montos de los obsequios se depositarán en esa cuenta en su dominio automáticamente. Estas cantidades se pueden acreditar a Selldone. Los retiros solo serán posibles para los socios comerciales.",
+      "Selldone deposita fondos por tu actividad en redes sociales, tu participación en el desarrollo de Selldone, la recomendación de amigos, etc. Al elegir una cuenta de depósito para cada moneda, los importes de los regalos se depositarán automáticamente en esa cuenta de tu dominio. Estos importes pueden usarse como crédito en Selldone. Los retiros solo serán posibles para los socios comerciales.",
     add_account_action: "Añadir cuenta",
     add_dialog: {
       title: "Conecta una cuenta para recibir regalos",
       account_input: "Número de cuenta",
       account_input_message:
-        "Los importes de los regalos por esta moneda se depositarán en esta cuenta.",
+        "Los importes de los regalos en esta moneda se depositarán en esta cuenta.",
       set_as_default_action: "Seleccionar como cuenta predeterminada",
     },
     table: {
       currency: "Divisa",
       account_number: "Número de cuenta",
       account_name: "Nombre",
-      payment: "Cantidad del depósito",
-      reset_at: "Restablecer a",
-      delete: "Borrar",
+      payment: "Importe del depósito",
+      reset_at: "Fecha de restablecimiento",
+      delete: "Eliminar",
     },
     notifications: {
       set_success: "Cuenta añadida con éxito.",
@@ -4465,45 +4594,45 @@ export default {
         "Cuenta eliminada con éxito de la lista de cuentas predeterminadas para recibir regalos.",
     },
     delete_alert: {
-      title: "Borrar cuenta",
+      title: "Eliminar cuenta",
       message:
-        "¿Desea eliminar esta cuenta de la lista de Cuentas de regalos?",
-      action: "Borrar",
+        "¿Quieres quitar esta cuenta de la lista de cuentas de regalos?",
+      action: "Eliminar",
     },
   },
   /** {@see UserMonetize} **/
   user_monetize: {
     title: "Ganar dinero",
     menu: {
-      plans: "planes",
-      accounts: "cuentas",
-      participant: "Partícipe",
+      plans: "Planes",
+      accounts: "Cuentas",
+      participant: "Participante",
     },
   },
   /** {@see OPageMonetizeReferral} **/
   user_monetize_plans: {
-    title: "Proyectos de Colaboración y Monetización",
+    title: "Colaboración y monetización",
     sub_title:
-      "Recibirá un crédito en la cuenta por los regalos de referencia. Estos montos se cargarán a su cuenta y solo se pueden retirar a los socios comerciales de Selldone (no a todos). Puede gastar el dinero en la tarifa de servicios de Selldone.",
+      "Las recompensas por referidos se abonarán en tu billetera de Selldone y podrás usar estos fondos para pagar las tarifas de servicio de Selldone (disponible para todos). Ten en cuenta que solo los socios comerciales VIP de Selldone pueden retirar estos créditos por referidos; esta opción no está disponible para todos los usuarios.",
 
     discount: "Descuento",
-    your_income: "Tu ingreso",
-    level_2: "Desde el Nivel Dos",
-    level_3: "Desde el Nivel Tres",
-    link_message: "Membresía: {registered}, aceptado: {accepted}",
+    your_income: "Tus ingresos",
+    level_2: "Desde el nivel dos",
+    level_3: "Desde el nivel tres",
+    link_message: "Miembros: {registered}, aceptados: {accepted}",
     link_tip:
-      "Puede agregar la frase ?ref={link_code} al final de cada dirección que comparta.",
+      "Puedes añadir ?ref={link_code} al final de cada dirección que compartas.",
     table: {
       currency: "Divisa",
-      amount: "Equilibrio",
+      amount: "Saldo",
       total: "Pago total",
-      payment_date: "Última Fecha de Pago",
+      payment_date: "Fecha del último pago",
       withdraw: "Retiro",
     },
 
     notifications: {
       get_credit_success:
-        "La cantidad solicitada ha sido depositada en su cuenta.",
+        "El importe solicitado se ha depositado en tu cuenta.",
     },
   },
   /** {@see BPageShuttleIdentity} **/
@@ -4511,41 +4640,41 @@ export default {
     title: "Mi identidad y perfil",
     email: "Dirección de correo electrónico",
     tel: "Número de teléfono móvil",
-    address: "dirección",
+    address: "Dirección",
     payment: "Transacciones válidas",
     personal_information: "Información de identidad",
     main_profile: "Perfil principal",
     main_profile_subtitle:
       "Esta información está disponible públicamente para todos.",
     kyc_waiting_info:
-      "Estamos verificando la exactitud de la información que ingresa. Este proceso es obligatorio de acuerdo con las reglas KYC y reducirá el riesgo de las transacciones financieras. Puede aprovechar los beneficios presentes y futuros de este servicio.",
+      "Estamos comprobando la exactitud de la información que has introducido. Este proceso es obligatorio según las normas KYC y reducirá el riesgo en las transacciones financieras. Podrás disfrutar de las ventajas presentes y futuras de este servicio.",
 
     personal_info_dialog: {
       title: "Información de identidad",
-      name_input: "Nombre de pila",
+      name_input: "Nombre",
       family_name_input: "Apellido",
       number_input: "Número de pasaporte (o código nacional)",
-      birthday_input: "Cumpleaños",
-      birthday_input_placeholder: "Ingrese su cumpleaños",
-      address_input: "dirección",
+      birthday_input: "Fecha de nacimiento",
+      birthday_input_placeholder: "Introduce tu fecha de nacimiento",
+      address_input: "Dirección",
       postcode_input: "Código postal",
       tel_input: "Número de contacto",
-      passport_image_input: "Seleccionar imagen de pasaporte",
+      passport_image_input: "Pasaporte o licencia de conducir",
       passport_image_input_message:
-        "Cargue un escaneo de la imagen de su pasaporte.",
-      personal_image_input: "Elige tu propia imagen",
+        "Sube una copia escaneada de tu pasaporte o licencia de conducir.",
+      personal_image_input: "Documento de identidad",
       personal_image_input_message:
-        "Cargue una imagen escaneada de ida y vuelta en su tarjeta nacional a una imagen.",
+        "Sube una imagen de tu documento nacional de identidad. Algunos países no tienen documento de identidad; en ese caso, sube aquí tu pasaporte o licencia de conducir.",
     },
     profile_dialog: {
       title: "Perfil principal",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Edita aquí la información de tu perfil público. Esta información podría ser visible para tus clientes u otros usuarios.",
       full_name_input: "Nombre completo",
       tel_input: "Número de contacto",
       email_input: "Correo electrónico",
       website_input: "Sitio web",
-      address_input: "dirección",
+      address_input: "Dirección",
       about_input: "Sobre mí",
       about_long_input: "Texto largo sobre mí",
       image_input: "Seleccionar foto de perfil",
@@ -4554,52 +4683,52 @@ export default {
       notifications: {
         update_profile_success: "Tu perfil ha sido actualizado.",
         update_personal_info_success:
-          "Su información fue registrada con éxito",
+          "Tu información se ha registrado correctamente",
       },
     },
     charge_account_approve_message:
-      "Cargue su cuenta para aprobar su transacción bancaria.",
+      "Recarga tu cuenta para aprobar tu transacción bancaria.",
     payment_approval: "Aprobación de pago",
     residential_address_checking:
-      "Los documentos de su dirección residencial en la cola de comprobación.",
+      "Los documentos de tu dirección de residencia están en la cola de verificación.",
     add_residential_address:
-      "Agregue su ubicación y documentos de prueba de dirección residencial.",
+      "Añade tu ubicación y los documentos que acrediten tu dirección de residencia.",
   },
   /** {@see BUserPhoneVerify} **/
   phone_verify: {
-    title: "Número de teléfono móvil",
+    title: "Verificación del número de móvil",
     step1_title:
-      "Ingrese su numero celular.",
+      "Introduce tu número de móvil y recibirás un SMS de verificación.",
     phone_number_input: "Número de teléfono móvil",
-    next: "Próximo paso",
+    next: "Siguiente paso",
     sms_code_input: "Código de verificación",
     sms_code_message: "Código de verificación de 6 dígitos enviado a {phone_number}.",
 
     notifications: {
-      duplicated_number_error: "Este número ya ha sido aprobado por usted.",
+      duplicated_number_error: "Ya has verificado este número.",
       send_activation_code_success_title: "Código de verificación",
       send_activation_code_success:
         "El código de verificación se envió a {phone_number}.",
-      verify_success: "Su número de móvil ha sido verificado",
+      verify_success: "Tu número de móvil ha sido verificado",
     },
   },
   /** {@see BPageShuttleCompanies} **/
   companies: {
     title: "Mis cuentas comerciales",
     message:
-      "Empresas, emprendedores y equipos profesionales pueden desarrollar productos y aplicaciones basados en Selldone. Es un requisito para crear un perfil comercial.",
-    new_company: "Nueva compañia",
+      "Las empresas, los emprendedores y los equipos profesionales pueden desarrollar productos y aplicaciones basados en Selldone. Es necesario crear un perfil de empresa.",
+    new_company: "Nueva empresa",
   },
   /** {@see BCompanyAdd} **/
   add_company: {
-    name_input: "Nombre de empresa",
+    name_input: "Nombre de la empresa",
     website_input: "Sitio web",
     email_input: "Correo electrónico",
-    address_input: "dirección",
+    address_input: "Dirección",
     tel_input: "Teléfono",
     mobile_input: "Móvil",
     edit_action: "Editar empresa",
-    create_action: "crear empresa",
+    create_action: "Crear empresa",
     notifications: {
       add_success: "Cuenta comercial {name} creada.",
       edit_success: "Cuenta comercial editada.",
@@ -4608,65 +4737,65 @@ export default {
   /** {@see UserAccessControl} **/
   user_access_control: {
     menu: {
-      personal_key: "Opción",
-      shop_key: "Clientela",
-      apps: "aplicaciones",
+      personal_key: "Personal",
+      shop_key: "Clientes",
+      apps: "Aplicaciones",
     },
     connected_apps_title: "Aplicaciones conectadas",
     connected_apps_message:
-      "Verá una lista de todas las tiendas y aplicaciones que están conectadas a su cuenta de dominio. Puede eliminar el acceso a cualquiera de ellos.",
-    clients_title: "Clientela",
+      "Verás una lista de todas las tiendas y aplicaciones conectadas a tu cuenta de dominio. Puedes eliminar el acceso de cualquiera de ellas.",
+    clients_title: "Clientes",
     clients_message:
-      "Estas claves se utilizan para crear tokens de acceso por parte de su servidor. Tenga en cuenta que las claves son confidenciales y solo se colocan en el servidor para que no sean visibles para otros.",
+      "Estas claves se utilizan para que tu servidor cree tokens de acceso. Ten en cuenta que las claves son confidenciales y solo deben colocarse en el servidor para que no sean visibles para otros.",
     personal_keys_title: "Claves de acceso personal",
     personal_keys_message:
-      "Puede crear las claves de su cuenta aquí. Tenga en cuenta que estas claves podrán acceder a su cuenta. Cree y use estas claves solo si sabe exactamente lo que está haciendo.",
+      "Aquí puedes crear las claves de tu cuenta. Ten en cuenta que estas claves podrán acceder a tu cuenta. Crea y usa estas claves solo si sabes exactamente lo que estás haciendo.",
   },
 
   /** {@see BPageShuttleSecurity} **/
   user_security_control: {
     title: "Seguridad de la cuenta",
-    message: "Puede editar la configuración de seguridad de su cuenta aquí.",
+    message: "Aquí puedes editar la configuración de seguridad de tu cuenta.",
 
     delete: {
-      title: "Borrar cuenta",
+      title: "Eliminar cuenta",
       subtitle:
-        "Antes de eliminar su cuenta, asegúrese de haber eliminado todas las tiendas.",
-      action: "Estoy seguro, borre mi cuenta",
+        "Antes de eliminar tu cuenta, asegúrate de haber eliminado todas las tiendas.",
+      action: "Estoy seguro, eliminar mi cuenta",
       agreement:
-        "Acepto que toda mi información será eliminada de su servidor. Su información se eliminará de acuerdo con un cronograma determinado por nosotros para evitar fraudes o usos indebidos.",
+        "Acepto que toda mi información sea eliminada del servidor. Tu información se eliminará según un calendario determinado por nosotros para prevenir fraudes o usos indebidos.",
     },
 
     list: {
       email: {
         title: "Correo electrónico principal",
         sub_title:
-          "Tiene la opción de actualizar el correo electrónico principal asociado con esta cuenta.",
+          "Puedes actualizar el correo electrónico principal asociado a esta cuenta.",
         action_title: "Cambiar correo electrónico principal",
         action: "Enviar enlace de verificación",
       },
       password: {
-        title: "Clave",
-        sub_title: "Elija una contraseña segura para su cuenta.",
+        title: "Contraseña",
+        sub_title: "Elige una contraseña segura para tu cuenta.",
         action_title: "Contraseña de acceso a la cuenta",
-        not_exist: "No entró",
-        action: "Cambia la contraseña",
+        not_exist: "No introducida",
+        action: "Cambiar contraseña",
       },
       phone: {
         title: "Número de teléfono móvil",
         sub_title:
-          "Confirma tu número de móvil. Podrá iniciar sesión a través de este número.",
+          "Confirma tu número de móvil. Podrás iniciar sesión con este número.",
         action_title: "Número de teléfono principal de la cuenta",
         action: "Verificar número",
       },
 
       two_step: {
-        title: "Entrada en dos pasos",
+        title: "Inicio de sesión en dos pasos",
         sub_title:
-          "Confirma tu número de móvil. Podrá iniciar sesión a través de este número.",
+          "Confirma tu número de móvil. Podrás iniciar sesión con este número.",
         action_title: "Aumentar la seguridad de la cuenta",
         activated_action: "Activado",
-        active_action: "Activo ahora",
+        active_action: "Activar ahora",
       },
     },
     two_step_auth: {
@@ -4674,47 +4803,47 @@ export default {
         title: "Instalar la aplicación Google Authenticator",
       },
       step_2: {
-        title: "Ingrese el código generado por la aplicación",
+        title: "Introduce el código generado por la aplicación",
         message:
-          "El código de 6 dígitos es generado por un algoritmo en su teléfono móvil. Puedes descargar la aplicación desde el siguiente enlace. Presione la tecla del generador de códigos para crear un código QR que contenga la contraseña.",
+          "La aplicación de tu teléfono móvil genera el código de 6 dígitos mediante un algoritmo. Puedes descargar la aplicación desde el siguiente enlace. Pulsa el botón de generar código para crear un código QR que contenga la contraseña.",
         qr_code_info:
-          "Si no es posible escanear, puede copiar y pegar manualmente el código en la aplicación:",
+          "Si no puedes escanearlo, puedes copiar y pegar el código manualmente en la aplicación:",
         create_new_code: "Crear nuevo código",
         qr_code_scanning:
-          "Escanee el código QR creado por la aplicación móvil Google Authenticator e ingrese el código generado para confirmación en el cuadro de esta página.",
+          "Escanea el código QR con la aplicación móvil Google Authenticator e introduce el código generado en el cuadro de esta página para confirmar.",
         qr_code_regenerate_info:
-          "Nota: Al presionar la tecla anterior, se creará una nueva clave y la tecla anterior quedará inutilizable. Introduce la nueva clave en la aplicación de tu teléfono.",
+          "Nota: Al pulsar el botón anterior se creará una nueva clave y la clave anterior dejará de funcionar. Introduce la nueva clave en la aplicación de tu teléfono.",
       },
       step_3: {
         title: "Introduce el código creado",
         message:
-          "Ingrese el código de acceso creado en la aplicación en el campo a continuación.",
+          "Introduce el código de acceso creado en la aplicación en el campo de abajo.",
         activation_key_input: "Código de acceso",
       },
-      activated_alert: "El inicio de sesión en 2 pasos está habilitado.",
+      activated_alert: "El inicio de sesión en dos pasos está activado.",
       activated_message:
-        "El inicio de sesión en dos pasos está habilitado para su cuenta. A partir de ahora necesitarás ingresar un segundo código que cambia cada 30 segundos para acceder a tu cuenta. Para deshabilitar el inicio de sesión en dos pasos, simplemente haga doble clic en Presione un paso y siga los pasos.",
+        "El inicio de sesión en dos pasos está activado en tu cuenta. A partir de ahora deberás introducir un segundo código, que cambia cada 30 segundos, para acceder a tu cuenta. Para desactivar el inicio de sesión en dos pasos, pulsa el botón correspondiente y sigue los pasos.",
       cancel_two_step_login_action: "Cancelar inicio de sesión en dos pasos",
       cancel_two_step_login_info:
-        "Si desea deshabilitar la verificación en dos pasos, ingrese su contraseña y haga clic en la clave de inicio de sesión en dos pasos.",
-      password_input: "Clave",
+        "Si quieres desactivar la verificación en dos pasos, introduce tu contraseña y haz clic en el botón de inicio de sesión en dos pasos.",
+      password_input: "Contraseña",
       cancel_2fa_action: "Cancelar inicio de sesión en dos pasos",
     },
 
     change_password_dialog: {
-      title: "Cambia la contraseña",
-      message: "Utilice una contraseña compleja y fácil de recordar.",
+      title: "Cambiar contraseña",
+      message: "Utiliza una contraseña compleja y fácil de recordar.",
       password_input: "Contraseña actual",
       new_password_input: "Nueva contraseña",
-      re_new_password_input: "repita la nueva contraseña",
+      re_new_password_input: "Repite la nueva contraseña",
       tips: {
         length: "La contraseña debe tener al menos 8 caracteres",
         chars: "Al menos una letra mayúscula y un número.",
-        match: "Contraseña coincidente.",
+        match: "Las contraseñas coinciden.",
       },
-      change_password_action: "Cambia la contraseña",
+      change_password_action: "Cambiar contraseña",
       notifications: {
-        change_password_title: "Cambia la contraseña",
+        change_password_title: "Cambiar contraseña",
         change_password: "Contraseña cambiada con éxito.",
       },
     },
@@ -4724,15 +4853,15 @@ export default {
     title: "Lista de tiendas / aplicaciones conectadas",
     table: {
       name: "Nombre",
-      app: "aplicación",
-      scopes: "Ámbitos",
+      app: "Aplicación",
+      scopes: "Alcances",
       shop: "Tienda restringida",
     },
-    remove_action: "Eliminar acceso",
+    remove_action: "Quitar acceso",
     delete_alert: {
-      title: "Borrar",
+      title: "Eliminar",
       message:
-        "¿Quiere revocar este acceso? Tenga en cuenta que esta aplicación ya no tendrá acceso a su cuenta.",
+        "¿Quieres revocar este acceso? Ten en cuenta que esta aplicación dejará de tener acceso a tu cuenta.",
       action: "Rechazar el acceso",
     },
   },
@@ -4741,52 +4870,52 @@ export default {
     title: "Lista de clientes",
     create_new_action: "Crear nuevo cliente",
     table: {
-      client_id: "Identificación del cliente",
-      app: "aplicación",
-      name: "Nombre",
-      secret_key: "Llave secreta",
+      client_id: "ID de cliente",
+      app: "Aplicación",
+      name: "Alias",
+      secret_key: "Clave secreta",
     },
     create_dialog: {
-      title: "Cliente nuevo",
+      title: "Nuevo cliente",
       error_msg: "<strong>¡Error!</strong> ¡Lo sentimos, ha ocurrido un error!",
       name_input: "Nombre",
-      name_input_message: "Algo que sus usuarios reconozcan y confíen.",
-      redirect_input_message: "Dirección de retorno a su sitio.",
+      name_input_message: "Algo que tus usuarios reconozcan y en lo que confíen.",
+      redirect_input_message: "Dirección de retorno a tu sitio.",
     },
     edit_dialog: {
       title: "Editar acceso",
     },
     delete_alert: {
-      title: "Borrar",
+      title: "Eliminar",
       message: "¿Quieres eliminar este cliente?",
-      action: "Borrar",
+      action: "Eliminar",
     },
   },
   /** {@see PersonalAccessTokens} **/
   personal_access_tokens: {
     title: "Lista de tokens de acceso personal",
-    create_action: "Crear nueva ficha",
+    create_action: "Crear nuevo token",
     table: {
       name: "Nombre",
       scopes: "Accesos",
       expire_at: "Fecha de caducidad",
     },
     create_dialog: {
-      title: "Edificio de fichas",
+      title: "Crear token",
       error_message: "<strong>¡Error!</strong> ¡Lo sentimos, ha ocurrido un error!",
-      name_input: "Alias Ej. mi nombre simbólico",
-      name_input_message: "Nombre de token favorito.",
-      scopes_list: "Lista de acceso a tokens",
+      name_input: "Alias, p. ej.: nombre de mi token",
+      name_input_message: "Nombre que prefieras para el token.",
+      scopes_list: "Lista de accesos del token",
     },
     access_token_dialog: {
       title: "Clave de acceso personal",
       message:
-        "Aquí está el token de su token de acceso personal. Esta es la única vez que se mostrará este token, ¡así que no te lo pierdas! Ahora puede usar este token para solicitar una API.",
+        "Aquí tienes tu token de acceso personal. Esta es la única vez que se mostrará, ¡así que no lo pierdas! Ya puedes usar este token para hacer solicitudes a la API.",
     },
     delete_alert: {
-      title: "Borrar",
-      message: "¿Desea eliminar este token de acceso?",
-      action: "Borrar",
+      title: "Eliminar",
+      message: "¿Quieres eliminar este token de acceso?",
+      action: "Eliminar",
     },
   },
 
@@ -4794,369 +4923,369 @@ export default {
   scopes: {
     //--------------------------- Profile ---------------------------
     profile: {
-      name: "Perfil",
+      name: "Información del perfil",
       description:
-        "Lea la información del perfil, incluido el nombre, la dirección de correo electrónico, la imagen y el estado de autenticación.",
+        "Leer los datos del perfil del usuario, incluidos el nombre, el correo electrónico, la imagen y el estado de autenticación.",
     },
     phone: {
-      name: "número de teléfono",
-      description: "acceso al número de teléfono.",
+      name: "Número de teléfono",
+      description: "Acceder al número de teléfono del usuario.",
     },
     address: {
-      name: "direcciones",
-      description: "Leer la dirección guardada de la libreta de direcciones.",
+      name: "Direcciones",
+      description: "Leer las direcciones guardadas en la libreta de direcciones.",
     },
     "user:profile:write": {
-      name: "Perfil Gestión",
-      description: "Descripción",
+      name: "Gestión del perfil",
+      description: "Editar y gestionar la información del perfil del usuario.",
     },
 
     //--------------------------- Storefront ---------------------------
     "my-gift-cards": {
       name: "Tarjetas de regalo",
-      description: "Acceso a Mis Tarjetas.",
+      description: "Acceder a las tarjetas de regalo del usuario.",
     },
     "order-history": {
       name: "Historial de pedidos",
-      description: "Leer historial de pedidos.",
+      description: "Leer el historial de pedidos del usuario.",
     },
     buy: {
       name: "Compra",
-      description: "Haz un pedido y compra en la tienda.",
+      description: "Realizar un pedido en la tienda.",
     },
 
     //--------------------------- Backoffice ---------------------------
     articles: {
-      name: "Contenido editado",
-      description: "Editar artículos.",
+      name: "Gestión de contenido",
+      description: "Editar artículos y contenido.",
     },
     "backoffice:notifications": {
-      name: "Notificaciones Gestión",
-      description: "Descripción",
+      name: "Gestión de notificaciones",
+      description: "Enviar y recibir notificaciones.",
     },
     "backoffice:order:write": {
-      name: "Pedido Gestión",
-      description: "Descripción",
+      name: "Gestión de pedidos",
+      description: "Editar y gestionar los pedidos de la tienda.",
     },
     "backoffice:order:read": {
-      name: "Pedido Acceso",
-      description: "Descripción",
+      name: "Acceso a pedidos",
+      description: "Leer los pedidos de la tienda.",
     },
     "backoffice:support-tickets": {
-      name: "Soporte Tickets",
-      description: "Gestionar Soporte Tickets.",
+      name: "Tickets de soporte",
+      description: "Gestionar los tickets de soporte.",
     },
     "backoffice:shop:read": {
-      name: "Tienda Información",
-      description: "Descripción",
+      name: "Información de la tienda",
+      description: "Leer los detalles y las estadísticas de la tienda.",
     },
     "backoffice:shop:write": {
-      name: "Tienda Gestión",
-      description: "Descripción",
+      name: "Gestión de la tienda",
+      description: "Crear y gestionar los detalles de la tienda.",
     },
     "backoffice:shop:add": {
-      name: "Añadir Tienda",
-      description: "Descripción",
+      name: "Añadir tienda",
+      description: "Añadir una nueva tienda al sistema.",
     },
     "backoffice:shop:delete": {
-      name: "Eliminar Tienda",
-      description: "Descripción",
+      name: "Eliminar tienda",
+      description: "Eliminar una tienda del sistema.",
     },
     "backoffice:giftcard:write": {
-      name: "Regalo Tarjeta Gestión",
-      description: "Descripción",
+      name: "Gestión de tarjetas de regalo",
+      description: "Crear y gestionar tarjetas de regalo.",
     },
     "backoffice:giftcard:read": {
-      name: "Regalo Tarjeta Acceso",
-      description: "Descripción",
+      name: "Acceso a tarjetas de regalo",
+      description: "Leer los detalles y las estadísticas de las tarjetas de regalo.",
     },
     "backoffice:faq:write": {
-      name: "FAQ Gestión",
-      description: "Descripción",
+      name: "Gestión de preguntas frecuentes",
+      description: "Crear y gestionar preguntas frecuentes.",
     },
     "backoffice:faq:read": {
-      name: "FAQ Acceso",
-      description: "Descripción",
+      name: "Acceso a preguntas frecuentes",
+      description: "Leer los detalles y las estadísticas de las preguntas frecuentes.",
     },
     "backoffice:category:write": {
-      name: "Categoría Gestión",
-      description: "Descripción",
+      name: "Gestión de categorías",
+      description: "Crear y gestionar categorías de productos.",
     },
     "backoffice:category:read": {
-      name: "Categoría Acceso",
-      description: "Descripción",
+      name: "Acceso a categorías",
+      description: "Leer los detalles y las estadísticas de las categorías.",
     },
     "backoffice:product:write": {
-      name: "Producto Gestión",
-      description: "Descripción",
+      name: "Gestión de productos",
+      description: "Añadir y gestionar productos.",
     },
     "backoffice:product:read": {
-      name: "Producto Acceso",
-      description: "Descripción",
+      name: "Acceso a productos",
+      description: "Leer los detalles y las estadísticas de los productos.",
     },
     "backoffice:report:read": {
-      name: "Informe Acceso",
-      description: "Descripción",
+      name: "Acceso a informes",
+      description: "Leer los informes y la información de la tienda.",
     },
     "backoffice:finance:write": {
-      name: "Nombre",
-      description: "Configura y gestiona esta opción para tu tienda.",
+      name: "Gestión de cuentas financieras",
+      description: "Gestionar las cuentas financieras vinculadas a la tienda.",
     },
     "backoffice:finance:read": {
-      name: "Nombre",
-      description: "Configura y gestiona esta opción para tu tienda.",
+      name: "Acceso a cuentas financieras",
+      description: "Leer los detalles y las estadísticas de las cuentas financieras.",
     },
     "backoffice:page:write": {
-      name: "Página Gestión",
-      description: "Editar Tienda Páginas.",
+      name: "Gestión de páginas",
+      description: "Editar las páginas de la tienda.",
     },
     "backoffice:page:read": {
-      name: "Página Acceso",
-      description: "Descripción",
+      name: "Acceso a páginas",
+      description: "Leer los detalles y las estadísticas de las páginas de la tienda.",
     },
     "backoffice:logistic:write": {
-      name: "Logística Gestión",
-      description: "Gestionar Logística Información.",
+      name: "Gestión de logística",
+      description: "Gestionar la información logística.",
     },
     "backoffice:logistic:read": {
-      name: "Logística Acceso",
-      description: "Descripción",
+      name: "Acceso a logística",
+      description: "Leer los detalles y las estadísticas de logística.",
     },
     "backoffice:staff:write": {
-      name: "Personal Gestión",
-      description: "Descripción",
+      name: "Gestión del personal",
+      description: "Editar y gestionar los datos del personal.",
     },
     "backoffice:staff:read": {
-      name: "Personal Acceso",
-      description: "Descripción",
+      name: "Acceso al personal",
+      description: "Leer la información y las estadísticas del personal.",
     },
     "backoffice:business-profile:write": {
-      name: "Negocio Perfil Gestión",
-      description: "Gestionar Negocio Perfiles.",
+      name: "Gestión del perfil de empresa",
+      description: "Gestionar los perfiles de empresa.",
     },
     "backoffice:business-profile:read": {
-      name: "Negocio Perfil Acceso",
-      description: "Descripción",
+      name: "Acceso al perfil de empresa",
+      description: "Leer los detalles del perfil de empresa.",
     },
     "backoffice:discount-code:write": {
-      name: "Descuento Código Gestión",
-      description: "Gestionar Tienda Descuento Código.",
+      name: "Gestión de códigos de descuento",
+      description: "Gestionar los códigos de descuento de la tienda.",
     },
     "backoffice:discount-code:read": {
-      name: "Descuento Código Acceso",
-      description: "Descripción",
+      name: "Acceso a códigos de descuento",
+      description: "Leer los detalles y las estadísticas de los códigos de descuento.",
     },
     "backoffice:wallet:write": {
-      name: "Billetera Gestión",
-      description: "Gestionar Usuario Billeteras.",
+      name: "Gestión de billeteras",
+      description: "Gestionar las billeteras de los usuarios.",
     },
     "backoffice:wallet:read": {
-      name: "Billetera Acceso",
-      description: "Descripción",
+      name: "Acceso a billeteras",
+      description: "Leer la información y las estadísticas de las billeteras.",
     },
     "backoffice:coupon:write": {
-      name: "Cupón Gestión",
-      description: "Gestionar Tienda Cupón.",
+      name: "Gestión de cupones",
+      description: "Gestionar los cupones de la tienda.",
     },
     "backoffice:coupon:read": {
-      name: "Cupón Acceso",
-      description: "Descripción",
+      name: "Acceso a cupones",
+      description: "Leer los detalles y las estadísticas de los cupones.",
     },
     "backoffice:offer:write": {
-      name: "Oferta Gestión",
-      description: "Gestionar Tienda Oferta.",
+      name: "Gestión de ofertas",
+      description: "Gestionar las ofertas de la tienda.",
     },
     "backoffice:offer:read": {
-      name: "Oferta Acceso",
-      description: "Descripción",
+      name: "Acceso a ofertas",
+      description: "Leer la información y las estadísticas de las ofertas.",
     },
     "backoffice:cashback:write": {
-      name: "Reembolso Gestión",
-      description: "Gestionar Tienda Reembolso Oferta.",
+      name: "Gestión de cashback",
+      description: "Gestionar las ofertas de cashback de la tienda.",
     },
     "backoffice:cashback:read": {
-      name: "Reembolso Acceso",
-      description: "Descripción",
+      name: "Acceso a cashback",
+      description: "Leer los detalles y las estadísticas de cashback.",
     },
     "backoffice:lottery:write": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Gestión de loterías",
+      description: "Gestionar las loterías de la tienda.",
     },
     "backoffice:lottery:read": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Acceso a loterías",
+      description: "Leer los detalles y las estadísticas de las loterías.",
     },
     "backoffice:community:write": {
-      name: "Comunidad Gestión",
-      description: "Descripción",
+      name: "Gestión de la comunidad",
+      description: "Gestionar las actividades de la comunidad.",
     },
     "backoffice:community:read": {
-      name: "Comunidad Acceso",
-      description: "Descripción",
+      name: "Acceso a la comunidad",
+      description: "Leer los detalles y las estadísticas de la comunidad.",
     },
     "backoffice:customer:write": {
-      name: "Cliente Gestión",
-      description: "Gestionar Cliente Detalles.",
+      name: "Gestión de clientes",
+      description: "Gestionar los datos de los clientes.",
     },
     "backoffice:customer:read": {
-      name: "Cliente Acceso",
-      description: "Descripción",
+      name: "Acceso a clientes",
+      description: "Leer la información y las estadísticas de los clientes.",
     },
     "backoffice:ribbon:write": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Gestión de Ribbon",
+      description: "Gestionar los Ribbon de la tienda.",
     },
     "backoffice:ribbon:read": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Acceso a Ribbon",
+      description: "Leer los detalles y las estadísticas de Ribbon.",
     },
     "backoffice:ai:write": {
-      name: "AI Gestión",
-      description: "Gestionar AI Configuración.",
+      name: "Gestión de IA",
+      description: "Gestionar las configuraciones de IA.",
     },
     "backoffice:ai:read": {
-      name: "AI Acceso",
-      description: "Descripción",
+      name: "Acceso a IA",
+      description: "Leer las configuraciones y las estadísticas de IA.",
     },
     "backoffice:vendor-payment:write": {
-      name: "Vendedor Pago Gestión",
-      description: "Gestionar Vendedor Pagos.",
+      name: "Gestión de pagos a vendedores",
+      description: "Gestionar los pagos a vendedores.",
     },
     "backoffice:vendor-payment:read": {
-      name: "Vendedor Pago Acceso",
-      description: "Descripción",
+      name: "Acceso a pagos a vendedores",
+      description: "Leer los detalles y las estadísticas de los pagos a vendedores.",
     },
     "backoffice:company:read": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Acceso a empresas",
+      description: "Leer los detalles y las estadísticas de las empresas.",
     },
     "backoffice:company:write": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Gestión de empresas",
+      description: "Gestionar la información de la empresa.",
     },
     "backoffice:note:read": {
-      name: "Nota Acceso",
-      description: "Descripción",
+      name: "Acceso a notas",
+      description: "Leer las notas y los detalles relacionados.",
     },
     "backoffice:note:write": {
-      name: "Nota Gestión",
-      description: "Gestionar Notas.",
+      name: "Gestión de notas",
+      description: "Gestionar las notas.",
     },
     "backoffice:affiliate:write": {
-      name: "Afiliado Gestión",
-      description: "Gestionar Afiliado Información.",
+      name: "Gestión de afiliados",
+      description: "Gestionar la información de afiliados.",
     },
     "backoffice:affiliate:read": {
-      name: "Afiliado Acceso",
-      description: "Descripción",
+      name: "Acceso a afiliados",
+      description: "Leer los detalles y las estadísticas de afiliados.",
     },
     "backoffice:print:write": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Gestión de impresión",
+      description: "Gestionar las opciones de impresión.",
     },
     "backoffice:print:read": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Acceso a impresión",
+      description: "Leer los detalles de impresión.",
     },
     "selldone:token:read": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Acceso a tokens",
+      description: "Leer los detalles y las estadísticas de los tokens.",
     },
     "selldone:token:write": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Gestión de tokens",
+      description: "Gestionar los tokens.",
     },
 
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Acceso a monetización",
+      description: "Leer los detalles y las estadísticas de monetización.",
     },
     "selldone:monetization:write": {
-      name: "Nombre",
-      description: "Configura y gestiona esta opción para tu tienda.",
+      name: "Gestión de monetización",
+      description: "Gestionar la monetización, incluidos los programas de referidos.",
     },
     "selldone:identification": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Acceso a identificación",
+      description: "Acceder a los datos de identificación del usuario.",
     },
     "selldone:developer:read": {
-      name: "Desarrollador Acceso",
-      description: "Descripción",
+      name: "Acceso de desarrollador",
+      description: "Leer los detalles y las estadísticas de desarrollador.",
     },
     "selldone:developer:write": {
-      name: "Desarrollador Gestión",
-      description: "Gestionar Desarrollador Información.",
+      name: "Gestión de desarrollador",
+      description: "Gestionar la información de desarrollador.",
     },
     "selldone:security:write": {
-      name: "Seguridad Gestión",
-      description: "Gestionar Seguridad Configuración.",
+      name: "Gestión de seguridad",
+      description: "Gestionar las configuraciones de seguridad.",
     },
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
-      name: "Proveedor Gestión",
-      description: "Descripción",
+      name: "Gestión de proveedores",
+      description: "Gestionar los proveedores de servicios conectados.",
     },
     "connect:provider:read": {
-      name: "Proveedor Acceso",
-      description: "Descripción",
+      name: "Acceso a proveedores",
+      description: "Leer los detalles y las estadísticas de los proveedores.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Acceso a agencia",
+      description: "Leer los detalles y las estadísticas de la agencia.",
     },
     "agency:write": {
-      name: "Nombre",
-      description: "Descripción",
+      name: "Gestión de agencia",
+      description: "Gestionar la información de la agencia.",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
-      name: "Acceso de vendedor",
-      description: "Descripción",
+      name: "Acceso a vendedores",
+      description: "Leer los detalles y las estadísticas de los vendedores.",
     },
     "vendor-write": {
-      name: "Vendedor Gestión",
-      description: "Gestionar Vendedor Información.",
+      name: "Gestión de vendedores",
+      description: "Gestionar la información de los vendedores.",
     },
   },
 
   scope_group: {
     backoffice: {
-      title: "Título",
-      description: "Configura y gestiona esta opción para tu tienda.",
+      title: "Backoffice",
+      description: "Acceso al backoffice y a las funciones de gestión de la tienda.",
     },
     storefront: {
-      title: "Título",
-      description: "Descripción",
+      title: "Escaparate",
+      description: "Acceso a la información de clientes y de la tienda.",
     },
     profile: {
       title: "Perfil",
-      description: "Acceso Usuario Perfil Información.",
+      description: "Acceder a la información del perfil del usuario.",
     },
     selldone: {
       title: "Selldone",
-      description: "Selldone Descripción",
+      description: "Acceder a los servicios y funciones de Selldone.",
     },
     others: {
-      title: "Título",
-      description: "Configura y gestiona esta opción para tu tienda.",
+      title: "Otros",
+      description: "Alcances varios no definidos en el sistema.",
     },
     vendor: {
       title: "Vendedor",
-      description: "Configura y gestiona esta opción para tu tienda.",
+      description: "Acceso a la información y a las funciones de gestión de vendedores.",
     },
     connect: {
       title: "Connect OS",
-      description: "Descripción",
+      description: "Acceder a los servicios y proveedores conectados.",
     },
     agency: {
-      title: "Título",
-      description: "Descripción",
+      title: "Agencia",
+      description: "Acceso a la información y la gestión de la agencia.",
     },
   },
 
@@ -5166,22 +5295,22 @@ export default {
     create_app: "Crear nueva aplicación",
     menu: {
       edit: "Editar",
-      apps: "aplicaciones",
+      apps: "Aplicaciones",
       dashboard: "Panel",
-      companies: "Compañías",
+      companies: "Empresas",
     },
     /** {@see AdminCompanyPage_Dashboard} **/
     dashboard: {
       /** {@see CompanyInfoWidget} **/
       info_widget: {
         title: "Información de registro de la empresa",
-        address: "dirección",
+        address: "Dirección",
         website: "Sitio web",
         email: "Correo electrónico",
-        phone: "número de teléfono",
+        phone: "Número de teléfono",
         register: "Registro",
         developer: "Desarrollador",
-        verified: "verificado",
+        verified: "Verificado",
         golden: "Dorado",
       },
     },
@@ -5190,7 +5319,7 @@ export default {
       title: "Desarrolladores",
       menu: {
         new: "Nuevo",
-        apps: "aplicaciones",
+        apps: "Aplicaciones",
       },
     },
     /** {@see AdminCompanyPage_Edit} **/
@@ -5208,7 +5337,7 @@ export default {
     public_form: "Estructura de información general",
     private_form: "Estructura de información privada",
     icon_input: "Icono de la aplicación",
-    logo_input: "Aplicación de logotipo",
+    logo_input: "Logotipo de la aplicación",
     enable_input: "¿Está activa la aplicación?",
     edit_action: "Editar aplicación",
     create_action: "Crear aplicación",
@@ -5220,7 +5349,7 @@ export default {
 
   /** {@see AppPage} **/
   app_page: {
-    title: "Solicitud",
+    title: "Aplicación",
 
     menu: {
       edit: "Editar",
@@ -5235,13 +5364,13 @@ export default {
     dashboard: {
       /** {@see AppInfoWidget} **/
       app_info_widget: {
-        title: "Solicitud",
-        app_code: "código de la aplicación",
+        title: "Aplicación",
+        app_code: "Código de la aplicación",
         category: "Categoría",
         name: "Nombre",
-        installs: "Instalar aplicaciones",
-        uninstalls: "Desinstalar aplicaciones",
-        actives: "aplicaciones activas",
+        installs: "Instalaciones",
+        uninstalls: "Desinstalaciones",
+        actives: "Aplicaciones activas",
         description: "Descripción",
         published: "Publicado",
         waiting_for_review: "Aprobación pendiente",
@@ -5251,66 +5380,66 @@ export default {
   },
   /** {@see ShopPermissions} **/
   shop_permissions: {
-    ADMIN: { text: "Propietario", description: "Acceso completo a todos los escaparates." },
+    ADMIN: { text: "Superadministrador", description: "Acceso completo a todas las secciones de la tienda." },
     PRODUCT: {
-      text: "Gerente de producto",
-      description: "Agregue, edite y administre los productos de la tienda.",
+      text: "Gestor de productos",
+      description: "Añadir, editar y gestionar los productos de la tienda.",
     },
     AUDITING: {
-      text: "Gerente Financiero",
+      text: "Gestor financiero",
       description: "Ver información financiera y pagos.",
     },
     CONTENT: {
       text: "Gestión de contenido",
-      description: "Responda preguntas, escriba blogs y diseñe páginas.",
+      description: "Responder preguntas, escribir blogs y diseñar páginas.",
     },
     OFFICER: {
-      text: "Gerente senior",
-      description: "Ver y monitorear la actividad de los empleados.",
+      text: "Gestor sénior",
+      description: "Ver y supervisar la actividad de los empleados.",
     },
     EMPLOYEE: {
       text: "Empleado",
-      description: "Ver pedidos y cumplir pedidos.",
+      description: "Ver y procesar pedidos.",
     },
     MARKETING: {
-      text: "Márketing",
+      text: "Marketing",
       description:
-        "Accede a la configuración y crea campañas, email marketing y otras secciones relacionadas con el marketing.",
+        "Acceso a la configuración y creación de campañas, email marketing y otras secciones relacionadas con el marketing.",
     },
     VIEWER: {
-      text: "Espectador",
+      text: "Observador",
       description:
-        "La capacidad de ver la información de la tienda sin poder editarla o cambiarla.",
+        "Posibilidad de ver la información de la tienda sin poder editarla ni cambiarla.",
     },
   },
 
   /** {@see ShopRoles} **/
   shop_roles: {
     PhysicalOrdersChecking: {
-      text: "Comprobación física",
-      description: "Consultar pedidos recibidos.",
+      text: "Revisión de pedidos físicos",
+      description: "Revisar los pedidos recibidos.",
     },
     PhysicalOrdersPackaging: {
-      text: "Empaque Físico",
+      text: "Embalaje de pedidos físicos",
       description: "Almacén y proceso de embalaje.",
     },
     PhysicalOrdersDelivery: {
-      text: "Envío físico",
+      text: "Envío de pedidos físicos",
       description: "Envío de pedidos.",
     },
     PhysicalOrdersSupport: {
-      text: "Soporte físico",
-      description: "Soporte post-venta.",
+      text: "Soporte de pedidos físicos",
+      description: "Soporte posventa.",
     },
   },
 
   /** {@see AccountStatus} **/
   account_status: {
-    Checking: "Comprobación",
+    Checking: "En revisión",
     Approved: "Confirmado",
     Rejected: "Rechazado",
     Deleted: "Eliminado",
-    Banned: "Prohibido",
+    Banned: "Bloqueado",
     Payment: "Pago",
     SelldoneSprite: "Cuenta de billetera Selldone",
     SelldoneStorage: "Almacenamiento Selldone",
@@ -5320,10 +5449,10 @@ export default {
     title: "Cuenta",
     menu: {
       setting: "Ajustes",
-      charge: "Cargo",
+      charge: "Recargar",
       transfer: "Transferir",
-      transactions: "Actas",
-      history: "Historia",
+      transactions: "Transacciones",
+      history: "Historial",
       cards: "Tarjetas",
     },
 
@@ -5335,15 +5464,15 @@ export default {
         amount: "Monto",
         description: "Descripción",
         from: "Desde",
-        to: "Para",
+        to: "A",
         created_at: "Fecha",
         receipt: "Recibo",
         receipt_note: "Nota",
       },
       table: {
         type: "Tipo",
-        from: "De la cuenta",
-        to: "A la cuenta",
+        from: "Cuenta de origen",
+        to: "Cuenta de destino",
         amount: "Monto",
         receipt: "Recibo",
         created_at: "Fecha",
@@ -5353,45 +5482,45 @@ export default {
 
     /** {@see BPageAccountTransfer} **/
     transfer: {
-      title: "Cargos de transferencia",
+      title: "Transferir saldo",
       form: {
         title: "Formulario de solicitud de transferencia",
         sub_title:
-          "Selldone Depósito a cuentas propias o de terceros",
+          "Puedes mover los fondos disponibles de tu billetera entre billeteras de la misma moneda o transferirlos a otras billeteras en Selldone.",
         message:
-          "Tenga cuidado al transferir dinero, no podrá regresar si completa la transferencia.",
+          "Ten cuidado al transferir dinero: no podrás revertir la operación una vez completada la transferencia.",
       },
     },
     /** {@see BPageAccountDeposit} **/
     deposit: {
       form: {
-        title: "Cuenta de cargo",
+        title: "Recargar cuenta",
         sub_title:
-          "Debe cargar el saldo de su cuenta para comprar licencias, actualizar su cuenta y pagar los recibos del sistema.",
+          "Necesitas recargar el saldo de tu cuenta para comprar licencias, mejorar tu cuenta y pagar los recibos del sistema.",
         amount_input: "Monto",
-        charge_action: "Cuenta de cargo",
+        charge_action: "Recargar cuenta",
       },
       notifications: {
         qr_title: "Pago",
         qr_message: `Dirección de pago {currency} creada.`,
         gateway_title: "Pago",
-        gateway_message: "Conexión a la pasarela de pago.",
+        gateway_message: "Conectando con la pasarela de pago.",
       },
     },
 
     /** {@see BPageAccountEdit} **/
     setting: {
-      title: "Configuraciones de la cuenta",
+      title: "Configuración de la cuenta",
       account_name_input: "Nombre de la cuenta",
       notifications: {
-        updated_success: "Su cuenta se actualizó con éxito.",
+        updated_success: "Tu cuenta se ha actualizado correctamente.",
       },
     },
   },
 
   /** {@see BAccountReceiptPaymentDialog} **/
   receipt_payment_dialog: {
-    title: "Recibo Pago",
+    title: "Pago de recibo",
     /*  message: 'If the following information is correct, hit the transaction confirmation key to make the transaction.',
       to: 'Destination account',
       amount: 'Amount',
@@ -5405,15 +5534,15 @@ export default {
   /** {@see BAccountTransactionForm} **/
   transaction_form: {
     title: "Formulario de transacción",
-    from_input: "Desde el número de cuenta",
-    to_input: "Al número de cuenta",
+    from_input: "Número de cuenta de origen",
+    to_input: "Número de cuenta de destino",
     from_input_message: "El importe se retirará de esta cuenta.",
     account_name: "Nombre de la cuenta",
     currency: "Divisa",
     free_balance: "Saldo disponible",
     to: "Cuenta de destino",
     amount: "Monto",
-    receipt_title: "pago por recibo",
+    receipt_title: "Pago de recibo",
     receipt_input: "Número de recibo",
     paid_status: "Este recibo ya ha sido pagado.",
     paid_canceled: "Este recibo ha sido cancelado.",
@@ -5421,29 +5550,29 @@ export default {
     created_at: "Fecha",
     duration: "Duración",
     unlimited: "Ilimitado",
-    add_note_action: "Agregar descripción",
+    add_note_action: "Añadir descripción",
     note: "Nota",
     transfer_action: "Transferir",
     confirmation: {
       title: "Enviar dinero",
       subtitle: "Confirmación de transacción",
       message:
-        "Si la siguiente información es correcta, presione la tecla de confirmación de transacción para realizar la transacción.",
-      from: "De la cuenta",
-      to: "A la cuenta",
+        "Si la siguiente información es correcta, pulsa el botón de confirmación de la transacción para realizarla.",
+      from: "Cuenta de origen",
+      to: "Cuenta de destino",
       amount: "Monto",
       fee: "Tarifa de transacción",
-      total_pay: "Monto retirado de su cuenta",
+      total_pay: "Importe retirado de tu cuenta",
       receipt: "Recibo",
       description: "Descripción",
       accept_action: "Confirmación de transacción",
     },
-    enter_account_number: "Ingrese el número de cuenta.",
+    enter_account_number: "Introduce el número de cuenta.",
     currency_not_match:
       "La divisa de la cuenta de destino no es la misma que la de origen",
-    account_number_not_valid: "El número de cuenta es correcto.",
+    account_number_not_valid: "El número de cuenta es incorrecto.",
     account_number_is_valid: "El número de cuenta es correcto.",
-    receipt_not_valid: "El número de factura es incorrecto.",
+    receipt_not_valid: "El número de recibo es incorrecto.",
     receipt_is_valid: "El número de recibo es correcto.",
 
     notifications: {
@@ -5453,20 +5582,20 @@ export default {
 
   /** {@see OPlanCalculator} **/
   price_calculator: {
-    title: "Calculadora ╏ Ajuste a su negocio",
+    title: "Calculadora ╏ Adaptada a tu negocio",
     description:
       "Calcula y elige el mejor plan en función de tus ventas mensuales:",
-    sale_input: "Cantidad de ventas mensuales",
-    hypernova_plan: "¡Solicite Hipernova %0!",
+    sale_input: "Importe de ventas mensuales",
+    hypernova_plan: "¡Solicita Hypernova %0!",
     show_normal_mode: "Mostrar modo normal",
-    show_hypernova_mode: "¡Mi transacción es superior a 1 millón de dólares!",
+    show_hypernova_mode: "¡Mi volumen de transacciones supera los 20 millones de dólares!",
   },
 
   /** {@see OPlanFeaturesCard} **/
   price_card: {
-    billed_monthly: "Facturado {amount} mensualmente.",
-    billed_yearly: "Facturado {amount} anualmente.",
-    buy_license_action: "Compra ahora",
+    billed_monthly: "Se factura {amount} mensualmente.",
+    billed_yearly: "Se factura {amount} anualmente.",
+    buy_license_action: "Comprar ahora",
     select_your_store: "Selecciona tu tienda",
   },
 
@@ -5479,15 +5608,15 @@ export default {
     add_baskets: "Añadir al carrito",
     remove_baskets: "Eliminar del carrito",
     buys: "Comprar",
-    products_views: "Ver el producto",
+    products_views: "Ver producto",
   },
   /** {@see BDashboardShopAcquisition} **/
   shop_visitors_widget: {
-    title: "Análisis de visitantes",
+    title: "Análisis de adquisición",
     new_visitors: "Nuevos visitantes",
     amp: "Vistas de AMP",
-    returning_visitors: "Visitantes que regresan",
-    page_views: "Visitas a la página",
+    returning_visitors: "Visitantes recurrentes",
+    page_views: "Páginas vistas",
     other_pages: "Otras páginas",
     from_previous_7_days: "de los últimos 7 días",
   },
@@ -5495,28 +5624,28 @@ export default {
   /** {@see BUserAppLevel}   {@see AppLevel}  **/
   app_levels: {
     title: "Nivel de aplicación",
-    Newbie: "novato",
+    Newbie: "Novato",
     Beginner: "Principiante",
-    Novice: "Principiante",
+    Novice: "Aprendiz",
     Intermediate: "Intermedio",
     Advanced: "Avanzado",
   },
 
   /** {@see Login} **/
   login: {
-    register_title: "El medio de los negocios,<br> Experiencia disfrutable.",
+    register_title: "El medio de los negocios,<br>Una experiencia agradable.",
     register_subtitle:
-      "Inscríbete hoy gratis. Selldone es amado por nuevas empresas, empresas, compradores y vendedores.",
+      "Regístrate hoy gratis. Startups, grandes empresas, compradores y vendedores adoran Selldone.",
 
     password_recovery_title: "Recuperación de contraseña",
     password_recovery_message:
-      "En caso de que haya olvidado su contraseña, ingrese la dirección de correo electrónico de su cuenta y presione la tecla de confirmación. Le enviaremos un correo electrónico con un enlace para restablecer su contraseña.",
-    email: "Su dirección de correo electrónico",
+      "Si has olvidado tu contraseña, introduce la dirección de correo electrónico de tu cuenta y pulsa el botón de confirmación. Te enviaremos un correo electrónico con un enlace para restablecer tu contraseña.",
+    email: "Tu dirección de correo electrónico",
     password_recovery_action: "Recibir correo electrónico de recuperación",
 
     register_google: "Continuar con Google",
     register_apple: "Continuar con Apple",
-    continue_with: "Continua con",
+    continue_with: "Continuar con ",
     register_linkedin: "Continuar con LinkedIn",
     register_facebook: "Continuar con Facebook",
     register_github: "Continuar con GitHub",
@@ -5525,35 +5654,35 @@ export default {
     password_upercase_number: "Al menos una letra mayúscula y un número.",
     password_confirm: "La contraseña y la confirmación coinciden.",
     privacy_agreement:
-      "Al registrarse, acepta los <a href='/terms' target='_blank'>Términos de uso</a> y la Política de <a href='/privacy' target='_blank'>privacidad</a> de Selldone.",
+      "Al registrarte, aceptas los <a href='/terms' target='_blank'>Términos de uso</a> y la <a href='/privacy' target='_blank'>Política de privacidad</a> de Selldone.",
     register_action: "¡Vamos, es gratis!",
     login_action: "Iniciar sesión",
     already_signup: "¿Ya te registraste?",
-    login_your_account: "Ingrese a su cuenta",
+    login_your_account: "Inicia sesión en tu cuenta",
     login_google: "Continuar con Google",
     login_linkedin: "Continuar con LinkedIn",
     login_facebook: "Continuar con Facebook",
     login_github: "Continuar con GitHub",
-    remember_me: "Acuérdate de mí.",
+    remember_me: "Recordarme.",
     login_button: "Iniciar sesión",
     two_step_problem: "¿Tienes algún problema con la contraseña de dos pasos?",
-    two_step_problem_action: "Quiero deshabilitar el inicio de sesión en dos pasos.",
+    two_step_problem_action: "Quiero desactivar el inicio de sesión en dos pasos.",
     two_step_confirm: "Confirmar código de acceso",
-    forgot_password: "¿Se te olvidó tu contraseña?",
-    signup_free: "Registrate gratis",
+    forgot_password: "¿Olvidaste tu contraseña?",
+    signup_free: "Regístrate gratis",
     checking_robot_message: "Comprobando si eres un robot o un humano..",
     notifications: {
       step2_login_success: "Inicio de sesión automático en la cuenta",
     },
-    signup_email: "Regístrese por correo electrónico",
+    signup_email: "Regístrate con tu correo electrónico",
 
     name_placeholder: "Nombre",
     email_placeholder: "Correo electrónico",
     email_or_username_placeholder: "Correo electrónico, nombre de usuario o número de teléfono",
-    password_placeholder: "Clave",
-    re_password_placeholder: "confirmar Contraseña",
+    password_placeholder: "Contraseña",
+    re_password_placeholder: "Confirmar contraseña",
     new_in_samin: "¿Nuevo en Selldone?",
-    auto_create_shop: "Tienda de creación automática",
+    auto_create_shop: "Crear tienda automáticamente",
   },
   /** {@see Layout} **/
   layout: {
@@ -5563,23 +5692,23 @@ export default {
 
       personal_information: "Información personal y perfil",
       personal_information_subtitle: "Editar mi perfil, dirección y KYC.",
-      wallet: "Carteras y cuentas",
+      wallet: "Billeteras y cuentas",
       wallet_subtitle: "Cuentas virtuales y tarjetas de pago conectadas.",
 
-      companies: "Empresas y Cuentas Comerciales",
+      companies: "Empresas y negocios",
       companies_subtitle: "Registrar mi perfil empresarial y fiscal.",
 
-      access: "Acceso a Mi Cuenta",
+      access: "Desarrolladores y claves API",
       access_subtitle:
         "Clientes OAuth, tokens de acceso personal y aplicaciones conectadas.",
 
-      security: "Seguridad",
-      security_subtitle: "Establezca dos factores y administre las opciones de inicio de sesión social.",
+      security: "Seguridad de la cuenta",
+      security_subtitle: "Configura la autenticación de dos factores y gestiona las opciones de inicio de sesión social.",
 
-      preferences: "Preferencias del usuario",
+      preferences: "Preferencias y personalización",
       preferences_subtitle:
         "Cambiar tema, nivel, idioma y moneda predeterminada.",
-      my_subscriptions: "mis Suscripciónes",
+      my_subscriptions: "Mis suscripciones",
       my_subscriptions_subtitle:
         "Acceso a funciones premium de inteligencia artificial y personalización.",
     },
@@ -5587,7 +5716,7 @@ export default {
 
   /** {@see PageBuilder} **/
   page_builder: {
-    title: "Diseño de páginas web",
+    title: "Diseño del sitio web",
 
     menu: {
       user_view: "Vista",
@@ -5595,7 +5724,7 @@ export default {
       behavior: "Comportamiento",
       seo: "SEO",
       setting: "Ajustes",
-      embed: "Empotrar",
+      embed: "Insertar",
     },
     waiting_fetch: "Recibiendo información..",
 
@@ -5606,8 +5735,8 @@ export default {
       name_input: "URL de la página (letras y números)",
       bg_color_input: "Color de fondo",
       bg_style_input: "Estilo de fondo de página",
-      page_label_input: "color de la etiqueta",
-      page_dir_input: "dirección de la página",
+      page_label_input: "Color de la etiqueta",
+      page_dir_input: "Dirección de la página",
       ltr: "De izquierda a derecha",
       rtl: "De derecha a izquierda",
       designer_note: "Nota del diseñador",
@@ -5616,14 +5745,14 @@ export default {
     /** {@see LPageEditor} **/
     design: {
       themes: {
-        title: "Asistente de diseño personal",
-        message: "Diseñe las mejores páginas para su negocio sin programar.",
+        title: "Constructor de páginas integrado",
+        message: "Crea páginas de primera calidad para tu negocio sin necesidad de programar.",
         page_title_input: "Introduce un título para tu página",
       },
       tools: {
-        rearrange: "Pedido",
-        tools: "Instrumentos",
-        history: "Historia",
+        rearrange: "Orden",
+        tools: "Herramientas",
+        history: "Historial",
         style: "Estilo",
         typography: "Tipografía",
         hierarchy: "Jerarquía",
@@ -5634,17 +5763,17 @@ export default {
     /** {@see LPageEditorSeo} **/
     seo: {
       message:
-        "La configuración de SEO se ajusta automáticamente por el motor SEO de Selldone.",
+        "El motor SEO de Selldone ajusta automáticamente la configuración de SEO.",
     },
   },
 
   /** {@see VerifyEmailCaution} **/
   verify_email_caution: {
-    title: "confirme su dirección de correo electrónico",
+    title: "Confirma tu dirección de correo electrónico",
     message:
-      "El nuevo enlace de activación ha sido enviado a su dirección de correo electrónico {email}. Por favor revise su correo electrónico antes de tomar cualquier acción.",
+      "Se ha enviado un nuevo enlace de activación a tu dirección de correo electrónico {email}. Revisa tu correo antes de realizar cualquier acción.",
     resend_message:
-      "Si no ha recibido el enlace de activación en su correo electrónico, haga clic en el botón de abajo para volver a enviar.",
+      "Si no has recibido el enlace de activación en tu correo electrónico, haz clic en el botón de abajo para reenviarlo.",
     resend_action: "Reenviar enlace de activación",
     resend_notice: "Enlace de activación enviado.",
   },
@@ -5652,72 +5781,72 @@ export default {
   /** {@see ShopAutomation_Autopilot} **/
   autopilot: {
     start: "Fecha de inicio",
-    end: "Fecha final",
+    end: "Fecha de fin",
   },
 
   /** {@see Help} **/
   help: {
     menu: "Menú",
-    more_helps: "Lee mas",
+    more_helps: "Leer más",
   },
 
   /** {@see WidgetCompanyCard} **/
   company_card: {
-    pending_state: "Esperando para revisión",
+    pending_state: "Pendiente de revisión",
     register: "Registrado",
     developer: "Desarrollador",
     verified: "Verificado",
-    premier: "Primer ministro",
+    premier: "Premier",
   },
 
   /** {@see ShopSubscriptionList} **/
   shop_license: {
     add: "Añadir suscripción",
-    only_last: "Sólo última suscripción",
-    vouchers: "vales",
+    only_last: "Solo la última suscripción",
+    vouchers: "Vales",
     buy: "Comprar plan de suscripción",
     monthly: "Mensual",
     yearly: "Anual",
     start_date: "Fecha de inicio",
-    end_date: "Fecha final",
-    price: "precio",
+    end_date: "Fecha de fin",
+    price: "Precio",
     verify: {
-      true_title: "Sí Título",
-      true_description: "Selldone Sí Descripción",
+      true_title: "Aceptar términos",
+      true_description: "He leído y acepto los términos de uso de Selldone",
     },
-    need_charge: "Necesita cargo",
-    buy_now: "Compra ahora",
-    use_voucher_now: "Usar cupón ahora",
-    plan_placeholder: "Seleccione su plan de suscripción",
-    plan: "plan de licencia",
-    use_date: "Fecha de activacion",
+    need_charge: "Requiere recarga",
+    buy_now: "Comprar ahora",
+    use_voucher_now: "Usar vale ahora",
+    plan_placeholder: "Elige tu plan de suscripción.",
+    plan: "Plan de licencia",
+    use_date: "Fecha de alta",
     validity_duration: "Duración de la validez",
     validity_duration_hint:
-      "Al comprar una licencia de 12 meses, recibirá un 30% de descuento.",
+      "Al comprar una licencia de 12 meses, recibirás un 30% de descuento.",
 
     active_license: {
       title: "Licencia activa",
       subtitle:
-        "La información de su licencia activa.",
+        "Esta es la información de tu licencia activa. Puedes reducir tu tarifa de servicio mejorando a un plan de nivel superior.",
       subtitle_partner:
-        "La información de su licencia activa de {name}.",
+        "Información de tu licencia {name} activa. Esta tienda tiene actualmente un acuerdo de socio activo. Si deseas cancelar el acuerdo y mejorar a un plan de nivel superior, contacta con nuestro equipo de soporte para recibir ayuda.",
     },
     licenses_table: {
-      title: "Historial comprado",
+      title: "Historial de compras",
       subtitle:
-        "Esta es una lista de licencias activas y pendientes. Puede comprar ofertas después de financiar su billetera. Además, tenga en cuenta que cuando cancele una suscripción, el monto restante de la suscripción se devolverá a su billetera virtual.",
+        "Esta es una lista de licencias activas y pendientes. Puedes comprar ofertas después de recargar tu billetera. Además, ten en cuenta que cuando cancelas una suscripción, el importe restante de la suscripción se devolverá a tu billetera virtual.",
     },
     license_detail: {
       title: "Detalles",
       subtitle:
-        "Estas son las limitaciones de su plan actual. Para obtener más detalles, visite la página de precios. Puede acceder a todas las funciones de todos los planes, incluido el plan gratuito, para impulsar su negocio y crecer. A medida que amplía su negocio, considere actualizar a un plan de nivel superior para reducir sus tarifas de servicio.",
+        "Estas son las limitaciones de tu plan actual. Para más detalles, visita la página de precios. Puedes acceder a todas las funciones en todos los planes, incluido el plan gratuito, para impulsar tu negocio y crecer. A medida que tu negocio crezca, considera mejorar a un plan de nivel superior para reducir tus tarifas de servicio.",
     },
 
     table: {
       plan: "Tipo de plan",
       start_date: "Fecha de inicio / finalización",
-      renewal: "Auto renovación",
-      linked_account: "Cuenta Vinculada / Cupón",
+      renewal: "Renovación automática",
+      linked_account: "Cuenta vinculada / Vale",
       payment: "Pago",
       cancel: "Cancelar",
     },
@@ -5726,26 +5855,26 @@ export default {
       cancel_success: "Suscripción cancelada con éxito.",
     },
     cancel_dialog: {
-      title: "Cancelar confirmación de suscripción",
+      title: "Confirmar cancelación de la suscripción",
       message: "¿Estás seguro de cancelar esta suscripción?",
       action: "Cancelar suscripción",
     },
     add_dialog: {
       wallet: {
-        title: "Elegir a Billetera",
+        title: "Elige una billetera",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Selecciona una billetera virtual para usar en tu suscripción. Si aún no tienes una, puedes crearla en la sección de billetera. Esta billetera se usará para todos los cargos.",
       },
       auto_renewal: {
-        true_title: "Auto renovación",
+        true_title: "Renovación automática",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Tu suscripción se renovará automáticamente si tu billetera tiene saldo suficiente o si tienes un vale válido.",
       },
       options: {
-        title: "Título",
+        title: "Opciones adicionales",
       },
       verify: {
-        title: "Título",
+        title: "Confirmación",
       },
     },
   },
@@ -5753,46 +5882,46 @@ export default {
   /** {@see BLayoutBackofficeShop} **/
 
   admin_shop_layout: {
-    download_txt: "Descargar texto de datos",
-    download_excel: "descargar datos excel",
+    download_txt: "Descargar datos en texto",
+    download_excel: "Descargar datos en Excel",
   },
   /** {@see BUserPreferences} **/
   user_preferences: {
     access: "Acceso",
-    template: "Modelo",
-    feedback: "Comentario",
+    template: "Plantilla",
+    feedback: "Comentarios",
     date_time: "Fecha y hora",
 
     company: "Empresa",
-    company_message: "Si tienes empresa y quieres publicar apps.",
+    company_message: "Si tienes una empresa y quieres publicar apps.",
     access_keys: "Claves de acceso",
     access_keys_message: "Mostrar clientes y claves de acceso.",
-    rating: "¿Cómo calificaría su experiencia con Selldone?",
+    rating: "¿Cómo calificarías tu experiencia con Selldone?",
     large_font: "Fuentes grandes",
     large_font_message: "Mostrar texto más grande de lo normal",
     samples: "Mostrar tiendas de muestra",
     samples_message:
-      "Si está habilitado, se mostrarán algunas tiendas de muestra en su panel.",
+      "Si está activado, se mostrarán algunas tiendas de muestra en tu panel.",
 
     automation: "Automatización",
     automation_message:
-      "Mostrar la pestaña de automatización en el panel de control de la tienda. (Webhooks, Programación visual, ...)",
+      "Mostrar la pestaña de automatización en el panel de la tienda. (Webhooks, programación visual, ...)",
   },
 
   /** {@see BPageShopSettingLocations} **/
   shop_locations: {
     title: "Países donde se presta el servicio",
     sub_title:
-      "Seleccione los países en los que desea vender su producto de la lista a continuación.",
+      "Selecciona en la lista siguiente los países en los que quieres vender tu producto.",
 
     delete_restriction: "Eliminar restricción",
-    set_restriction: "establecer restricción",
+    set_restriction: "Establecer restricción",
     notifications: {
       locations_update: "Ubicación actualizada con éxito.",
     },
     table: {
       country: "País",
-      currency: "Divisa",
+      currency: "Moneda",
       available: "Disponible",
     },
   },
@@ -5800,17 +5929,17 @@ export default {
   /** @see ProductCard **/
   product_card: {
     sold_out: "Agotado",
-    review_unit: "Revisar",
-    not_original: "No es original",
+    review_unit: "Reseña",
+    not_original: "No original",
   },
 
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Agregar más detalles",
-    auto_category: "Categoría de configuración automática",
+    auto_category: "Asignar categoría automáticamente",
     add_in_current_category: "Añadir a la categoría actual",
     category_mode_message:
-      "Si está habilitado, el producto se agregará a la categoría o subcategoría predeterminada.",
+      "Si está activado, el producto se añadirá a la categoría o subcategoría predeterminada.",
     sku_name_input: "SKU / Nombre",
     info: {
       subtitle:
@@ -5822,17 +5951,17 @@ export default {
     },
     by_sku: {
       title: "Agregar por SKU",
-      subtitle: "La base de datos de su país no está disponible.",
+      subtitle: "La base de datos de tu país no está disponible.",
     },
     drop_shipping: {
       subtitle:
-        "Encuentre productos en el mercado mayorista y agréguelos a su tienda.",
+        "Encuentra productos en el mercado mayorista y añádelos a tu tienda.",
     },
     by_connect: {
       subtitle:
-        "Agregue fácilmente productos de proveedores de POD o dropshipping con Selldone Connect OS: simplemente conecte su tienda y disfrute de la integración automática de productos, sin necesidad de complementos.",
+        "Añade fácilmente productos de proveedores de POD o dropshipping con Selldone Connect OS: solo conecta tu tienda y disfruta de la integración automática de productos, sin necesidad de plugins.",
     },
-    your_license_is_not_eligible: "Su licencia no es elegible.",
+    your_license_is_not_eligible: "Tu licencia no es elegible.",
     sku_dialog: {
       title: "Agregar producto por SKU",
       subtitle:
@@ -5855,29 +5984,29 @@ export default {
   my_affiliate: {
     title: "Mis contratos de afiliados",
     message:
-      "Lista de acuerdos de afiliación con otras tiendas.",
+      "Esta es una lista de acuerdos de afiliación con otras tiendas. Cuando los propietarios de tiendas te designan como afiliado, puedes ver aquí tus comisiones, los detalles de los pedidos y las estadísticas relacionadas.",
   },
 
   /** @see BPageShopMarketingAffiliate **/
   affiliates: {
-    title: "socios afiliados",
+    title: "Socios afiliados",
     subtitle:
-      "Cree afiliados, realice un seguimiento de su rendimiento a lo largo del tiempo y tome medidas basadas en información precisa en un solo lugar. Te ayudamos a ti y a tus socios a construir una relación sólida.",
+      "Crea afiliados, haz un seguimiento de su rendimiento a lo largo del tiempo y toma decisiones basadas en información precisa desde un solo lugar. Te ayudamos a ti y a tus socios a construir una relación sólida.",
 
     affiliate_code: "Código de afiliación",
-    crate_date: "Fecha de Creación",
-    last_payment_date: "Última Fecha de Pago",
+    crate_date: "Fecha de creación",
+    last_payment_date: "Fecha del último pago",
     for_all_products: "Aplicar a todos los productos",
-    balance: "Equilibrio",
+    balance: "Saldo",
     fix_commission: "Comisión fija",
-    percent_commission: "Comisión basada en porcentaje",
+    percent_commission: "Comisión porcentual",
     total_payment: "Pagos totales",
     new_affiliate: "Nuevo socio afiliado",
     new_affiliate_message: "Agregar nuevo socio afiliado",
 
     link_factory: {
       title: "Generador de enlaces de socios afiliados",
-      link_input: "Su enlace",
+      link_input: "Tu enlace",
       link_output: "Enlace generado",
     },
   },
@@ -5886,114 +6015,114 @@ export default {
    * @see BAffiliateEdit
    */
   affiliate_edit: {
-    affiliate_commission: "comisión de afiliados",
+    affiliate_commission: "Comisión de afiliado",
 
     config: {
       new: "Nuevo socio afiliado",
-      edit: "Editar",
+      edit: "Editar socio afiliado",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Configura aquí los ajustes generales y el nombre del afiliado.",
     },
 
     payment: {
-      title: "Pago Información",
+      title: "Información de pago",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Establece la estructura de comisiones del afiliado. Puedes combinar comisiones fijas y porcentuales, o establecer comisiones específicas para cada producto.",
     },
 
     contact: {
-      title: "Información del contacto",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      title: "Información de contacto",
+      subtitle: "Introduce aquí los datos de contacto del socio afiliado.",
     },
 
     restriction: {
-      title: "Título",
+      title: "Restricciones de comisión",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Define qué productos son elegibles para comisión. Puedes restringir las comisiones a ciertos productos.",
     },
 
     link_domain: {
-      title: "Título",
+      title: "Dominio vinculado",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Vincula uno de tus dominios a este socio afiliado. Los visitantes que compren a través de este dominio se atribuirán a este afiliado.",
 
-      domain_not_approved_msg: "Opción",
-      domain_is_not_enable_msg: "Opción",
+      domain_not_approved_msg: "¡El dominio aún no ha sido aprobado!",
+      domain_is_not_enable_msg: "¡El dominio no está activado!",
       domain_is_linked_to_other_affiliate_msg:
-        "Configura y gestiona esta opción para tu tienda.",
+        "¡Este dominio ya está vinculado a otro afiliado!",
     },
 
-    set_users_first_message: "Establecer Usuarios Primero Mensaje",
+    set_users_first_message: "¡Primero establece el usuario!",
 
     cluster: {
       title: "Clúster",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Asocia este afiliado a un clúster para gestionarlo junto con otros recursos en un solo lugar.",
       manage_action: "Gestionar",
     },
 
     notifications: {
-      create_success: "Crear Éxito",
-      update_success: "Actualizar Éxito",
+      create_success: "Nuevo afiliado añadido con éxito.",
+      update_success: "Afiliado actualizado con éxito.",
     },
 
     inputs: {
       name: {
-        label: "Opción",
-        message: "Configura y gestiona esta opción para tu tienda.",
+        label: "Nombre del socio afiliado",
+        message: "p. ej., John Doe, Alex Company, X Marketers, etc.",
       },
       commission: {
-        label: "Opción",
+        label: "Cálculo de la comisión",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Calcular usando una combinación de comisiones fijas y porcentuales.",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
-        false_title: "No Título",
-        true_title: "Sí Título",
+          "Calcular usando las comisiones específicas por producto establecidas en la pestaña de precios.",
+        false_title: "Comisión fija + porcentual",
+        true_title: "Comisión basada en producto",
       },
       user: {
         label: "Usuario (Opcional)",
         message: "Opcional, por ejemplo: nombre del afiliado en Selldone",
       },
       web: {
-        placeholder: "Opción",
+        placeholder: "Opcional, p. ej., affiliate-web.com",
       },
       address: {
-        placeholder: "Opcional, e.g., 1200 POX, NY, USA",
+        placeholder: "Opcional, p. ej., 1200 POX, NY, EE. UU.",
       },
       tel: {
-        placeholder: "Opcional, e.g., 001-808-210354",
+        placeholder: "Opcional, p. ej., 001-808-210354",
       },
       bank: {
-        placeholder: "Configura y gestiona esta opción para tu tienda.",
+        placeholder: "Opcional, p. ej., Arstra Bank, N.º: 10002-325-800-845213",
       },
       domain: {
-        placeholder: "Seleccionar a Dominio... (Opcional)",
+        placeholder: "Selecciona un dominio... (Opcional)",
       },
       pos: {
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
-        true_title: "POS Acceso",
+          "Los afiliados pueden realizar pedidos directamente para sus clientes desde su panel.",
+        true_title: "Acceso POS",
       },
       enable: {
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "¿Está este afiliado activo actualmente? Si está inactivo, su programa de afiliado no se aplicará a los pedidos realizados a través de su enlace.",
       },
       products: {
-        label: "Opción",
-        select_product: "Seleccionar Productos",
+        label: "Productos elegibles para comisión",
+        select_product: "Seleccionar productos",
       },
     },
     actions: {
-      update: "Actualizar Afiliado",
-      add: "Añadir",
+      update: "Actualizar afiliado",
+      add: "Añadir socio afiliado",
     },
     /**
      * @see BPageAffiliateEdit
      */
     delete: {
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Puedes liquidar cualquier deuda pendiente con el afiliado antes de eliminarlo de tu tienda. La información del afiliado seguirá accesible durante un tiempo limitado después de la eliminación.",
     },
   },
 
@@ -6001,20 +6130,20 @@ export default {
    * @see BPageShopFinanceValuations
    */
   shop_valuations: {
-    title: "Título",
+    title: "Precios y valoraciones personalizados",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Asigna una valoración (un formulario de entrada de precios) a un producto para permitir a los clientes seleccionar variantes o personalizar tu mercancía. El sistema calculará entonces el precio en función de las entradas personalizadas.",
     add_valuation_action: "Crear nuevo formulario de valoración",
     empty_message:
-      "Configura y gestiona esta opción para tu tienda.",
+      "En lugar de crear múltiples variantes, considera desarrollar una estrategia de valoración que pueda aplicarse a un producto simple.",
     delete_dialog: {
-      title: "Título",
+      title: "Eliminar permanentemente",
       message:
-        "Configura y gestiona esta opción para tu tienda.",
+        "¿Seguro que quieres eliminar este formulario de precios? Asegúrate primero de que esta estrategia de precios personalizada se haya quitado de todos los productos asociados.",
       action: "Sí, eliminar ahora",
     },
     notifications: {
-      delete_success: "Eliminar Éxito",
+      delete_success: "La valoración se ha eliminado con éxito.",
     },
   },
 
@@ -6022,50 +6151,50 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Opción",
+    label: "Modelo de precios y valoración",
   },
 
   /**
    * @see BValuationAdd
    */
   valuation_add: {
-    title_edit: "Editar Valoración Formulario",
+    title_edit: "Editar formulario de valoración",
     title_add: "Crear nuevo formulario de valoración",
     config: {
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Configura un sistema de valoración para crear precios flexibles usando fórmulas y tablas de referencia para tus productos. Empieza dando a esta valoración un nombre único.",
     },
     valuation_preview: "Vista previa del formulario de valoración",
-    load_sample: "Opción",
+    load_sample: "Cargar ejemplo",
     conditions: {
       title: "Condiciones",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Define la lógica de las variantes personalizadas. Esta configuración simplifica la gestión de la disponibilidad de las variantes.",
     },
     structure: {
-      title: "Título",
+      title: "Estructura",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
-      expand_action: "Opción",
-      collapse_action: "Opción",
+        "Diseña aquí tu formulario de entrada de precios integrando fórmulas y tablas de referencia.",
+      expand_action: "Expandir",
+      collapse_action: "Contraer",
     },
     inputs: {
       title: {
-        message: "Mensaje",
-        placeholder: "Configura y gestiona esta opción para tu tienda.",
+        message: "Este título no es visible para los clientes.",
+        placeholder: "Introduce un nombre para los precios, p. ej., 'Precios de tazas'",
       },
     },
     samples: {
-      title: "Título",
+      title: "Valoraciones de ejemplo",
     },
   },
 
   /** @see AdminGiftcardPage_Orders **/
   gift_card_orders: {
-    title: "Pedidos con Tarjeta Regalo",
+    title: "Pedidos con tarjeta de regalo",
     table: {
       order: "Pedido",
-      order_price: "Total de la orden",
+      order_price: "Importe del pedido",
       paid_by_card: "Pagado con tarjeta",
       payment_status: "Estado de pago",
       date: "Fecha",
@@ -6074,11 +6203,11 @@ export default {
 
   /** @see BPageOfferOrders **/
   offer_orders: {
-    title: "Órdenes de oferta",
+    title: "Pedidos con oferta",
     table: {
       order: "Pedido",
-      order_price: "Total de la orden",
-      offer_amount: "Ofrece una cantidad",
+      order_price: "Importe del pedido",
+      offer_amount: "Importe de la oferta",
       payment_status: "Estado de pago",
       product: "Producto",
       date: "Fecha",
@@ -6087,10 +6216,10 @@ export default {
 
   /** @see BPageCouponOrders **/
   coupon_orders: {
-    title: "Órdenes de cupón",
+    title: "Pedidos con cupón",
     table: {
       order: "Pedido",
-      order_price: "Total de la orden",
+      order_price: "Importe del pedido",
       coupon_amount: "Importe del cupón",
       payment_status: "Estado de pago",
       date: "Fecha",
@@ -6102,8 +6231,8 @@ export default {
     title: "Pedidos con código de descuento",
     table: {
       order: "Pedido",
-      order_price: "Total de la orden",
-      discount_amount: "Importe de descuento",
+      order_price: "Importe del pedido",
+      discount_amount: "Importe del descuento",
       payment_status: "Estado de pago",
       date: "Fecha",
     },
@@ -6116,7 +6245,7 @@ export default {
     offer: "Oferta",
     gift_card: "Tarjeta de regalo",
     lottery: "Lotería",
-    cashback: "Reembolso en efectivo",
+    cashback: "Cashback",
   },
 
   /** {@see BPageShopIncentivesDiscountCode} **/
@@ -6126,18 +6255,18 @@ export default {
       "En esta sección podrás diseñar cupones de descuento a la medida de tus necesidades. Estos descuentos son independientes de cualquier descuento de producto y se aplicarán al importe final del pedido del usuario.",
     add_new: "Agregar nuevo código de descuento",
     card: {
-      created: "Crear",
-      start: "Comienzo",
+      created: "Creado",
+      start: "Inicio",
       end: "Fin",
-      currency: "Divisa",
+      currency: "Moneda",
       discount_percentage: "Tasa de descuento",
       discount_limit: "Límite de descuento",
       state: "Estado actual",
-      enabled: "Ahora habilitado",
-      disabled: "Ahora deshabilitado",
-      used: "Consumado",
-      count: "Contar",
-      unit: "artículos)",
+      enabled: "Actualmente activado",
+      disabled: "Actualmente desactivado",
+      used: "Consumido",
+      count: "Cantidad",
+      unit: "artículo(s)",
     },
     /** {@see BDiscountCodeAdd} **/
     dialog: {
@@ -6145,23 +6274,23 @@ export default {
       title_add: "Agregar nuevo código de descuento",
       discount_code_input: "Código de descuento",
       discount_percent_input: "Tasa de descuento",
-      discount_percent_input_hint: "Tasa de descuento del monto de la compra",
-      count_input: "Contar",
-      count_input_hint: "Máximo uso de este código",
+      discount_percent_input_hint: "Porcentaje de descuento sobre el importe de la compra",
+      count_input: "Cantidad",
+      count_input_hint: "Número máximo de usos de este código",
       limit_input: "Límite de descuento",
-      limit_input_hint: "Descuento máximo basado en moneda",
-      currency_input_message: "Habrá descuentos disponibles para esta moneda.",
+      limit_input_hint: "Descuento máximo según la moneda",
+      currency_input_message: "Los descuentos estarán disponibles para esta moneda.",
       limit_input_message:
         "El valor de 0 para el límite de descuento significa que no hay límite para la tasa de descuento.",
       title_input: "Título",
-      title_input_hint: "Puede ingresar un título para este código de descuento",
+      title_input_hint: "Puedes introducir un título para este código de descuento",
       description_input: "Descripción",
       description_input_hint:
-        "Puede introducir una descripción para este código de descuento",
-      date_start_input: "Comienzo",
-      date_start_input_placeholder: "Seleccione cuándo comenzar el descuento",
+        "Puedes introducir una descripción para este código de descuento",
+      date_start_input: "Inicio",
+      date_start_input_placeholder: "Selecciona cuándo empieza el descuento",
       date_end_input: "Fin",
-      date_end_input_placeholder: "Seleccione cuándo terminará el descuento",
+      date_end_input_placeholder: "Selecciona cuándo termina el descuento",
       notifications: {
         add: "Código de descuento añadido con éxito.",
         edit: "Código de descuento editado con éxito.",
@@ -6187,7 +6316,7 @@ export default {
       },
       cluster: {
         subtitle:
-          "Al asociar este código de descuento con un clúster, puede administrarlo fácilmente junto con otros recursos en una sola ubicación.",
+          "Al asociar este código de descuento a un clúster, puedes gestionarlo fácilmente junto con otros recursos en un solo lugar.",
       },
     },
     delete_alert: {
@@ -6196,7 +6325,7 @@ export default {
       action: "Eliminar descuento",
     },
     notifications: {
-      delete_success: "Tu comentario fue eliminado con éxito",
+      delete_success: "El código de descuento se ha eliminado con éxito",
     },
   },
 
@@ -6204,39 +6333,39 @@ export default {
   gift_cards: {
     title: "Tarjeta de regalo",
     sub_title:
-      "Cree una tarjeta de regalo y luego haga tantas como necesite. Esta tarjeta tiene un cargo y solo se puede usar para compras en su tienda.",
+      "Crea una tarjeta de regalo y luego emite tantas como necesites. Esta tarjeta tiene un saldo cargado y solo puede usarse para compras en tu tienda.",
 
     create_new: "Agregar nueva tarjeta de regalo",
     card: {
-      created: "Crear",
+      created: "Creado",
       lifetime: "Fecha de caducidad",
-      lifetime_unit: "Mes a partir de la fecha de creación de cada tarjeta",
-      currency: "Divisa",
-      initial_balance: "Carga inicial",
-      count: "Contar",
-      count_unit: "ít",
+      lifetime_unit: "mes(es) desde la fecha de creación de cada tarjeta",
+      currency: "Moneda",
+      initial_balance: "Saldo inicial",
+      count: "Cantidad",
+      count_unit: "unidad",
       used: "Utilizado",
     },
     dialog: {
       title: "Diseño de tarjetas de regalo",
     },
     alert: {
-      title: "Eliminar código de descuento",
+      title: "Eliminar tarjeta de regalo",
       message:
-        "¿Quieres eliminar este código de descuento?",
-      action: "Borrar",
+        "¿Quieres eliminar esta categoría de tarjetas de regalo junto con todas las tarjetas emitidas en ella?",
+      action: "Eliminar",
     },
     notifications: {
       delete_title: "Eliminar tarjeta de regalo",
-      delete_message: "Su comentario ha sido eliminado con éxito.",
+      delete_message: "La tarjeta de regalo se ha eliminado con éxito.",
     },
   },
 
   /** {@see BPageShopIncentivesCoupon} **/
   coupons: {
-    title: "cupones",
+    title: "Cupones",
     sub_title:
-      "Si desea dar a sus clientes un descuento que se puede utilizar con condiciones específicas, puede crear cupones. Los cupones pueden incluir un porcentaje de descuento con un límite o una cantidad fija o una combinación de ambos.",
+      "Si quieres ofrecer a tus clientes un descuento que pueda usarse bajo condiciones específicas, puedes crear cupones. Los cupones pueden incluir un descuento porcentual con un límite, un importe fijo o una combinación de ambos.",
     create_new: "Añadir nuevo cupón",
     qualified_products: "Productos elegibles",
     min_purchase: "Compra mínima",
@@ -6259,35 +6388,35 @@ export default {
   coupon_edit: {
     title_edit: "Editar cupón",
     title_add: "Nuevo cupón",
-    discount_charge: "Descuento y cargo",
-    charge: "Cargo",
-    charge_message: "Importe del cargo inicial",
+    discount_charge: "Descuento y crédito",
+    charge: "Crédito",
+    charge_message: "Importe del crédito inicial",
     percent: "Porcentaje de descuento",
-    percent_message: "Importe del porcentaje de descuento",
+    percent_message: "Valor del porcentaje de descuento",
     limit_input: "Límite",
-    limit_input_hint: "Importe límite de descuento",
+    limit_input_hint: "Importe máximo de descuento",
     currency_input_message: "Cupón disponible para esta moneda.",
 
-    count_input: "Contar",
-    count_input_hint: "Máximo uso de este código",
+    count_input: "Cantidad",
+    count_input_hint: "Número máximo de usos de este código",
     limit_input_message:
       "El valor de 0 para el límite de descuento significa que no hay límite para la tasa de descuento.",
-    date_start_input: "Comienzo",
-    date_start_input_placeholder: "Seleccione cuándo comenzar el cupón",
+    date_start_input: "Inicio",
+    date_start_input_placeholder: "Selecciona cuándo empieza el cupón",
     date_end_input: "Fin",
-    date_end_input_placeholder: "Seleccione cuándo terminará el descuento",
+    date_end_input_placeholder: "Selecciona cuándo termina el descuento",
     title_input: "Título",
-    title_input_hint: "Puede ingresar un título para este código de descuento",
+    title_input_hint: "Puedes introducir un título para este cupón",
     description_input: "Descripción",
     description_input_hint:
-      "Puede introducir una descripción para este código de descuento",
-    coupon_code: "Código promocional",
-    need_code: "¿Necesitas código?",
+      "Puedes introducir una descripción para este cupón",
+    coupon_code: "Código del cupón",
+    need_code: "¿Requiere código?",
 
     coupon_color: "Color del cupón",
     min_purchase_amount: "Importe mínimo de compra",
     min_purchase_amount_hint:
-      "El monto de la compra debe ser mayor o igual a este valor.",
+      "El importe de la compra debe ser mayor o igual a este valor.",
     should_exist_product: "Al menos uno de estos productos debe estar en el carrito",
     apply_for_first_order: "Solo para la primera compra",
     apply_for_first_order_on:
@@ -6297,17 +6426,17 @@ export default {
 
     has_qualify_constraints: "¿Quieres definir más límites?",
     has_qualify_constraints_message:
-      "Establezca más condiciones para calificar al cliente para usar este cupón.",
-    one_time_use_message: "El cliente puede usar este cupón por una vez.",
+      "Establece más condiciones para que el cliente pueda usar este cupón.",
+    one_time_use_message: "El cliente puede usar este cupón una sola vez.",
     daily_limit: "Límite diario",
     no_limit: "Sin límite",
-    daily_limit_message: "Cantidad máxima de uso por día por cliente",
+    daily_limit_message: "Número máximo de usos por día por cliente",
 
     monthly_limit: "Límite mensual",
-    monthly_limit_message: "Cantidad máxima de uso por mes por cliente",
+    monthly_limit_message: "Número máximo de usos por mes por cliente",
 
     yearly_limit: "Límite anual",
-    yearly_limit_message: "Cantidad máxima de uso por año por cliente",
+    yearly_limit_message: "Número máximo de usos por año por cliente",
 
     notifications: {
       add: "Nuevo cupón creado con éxito.",
@@ -6316,16 +6445,16 @@ export default {
 
     config: {
       subtitle:
-        "La fórmula para calcular el descuento del cupón es: CARGO + máx. (LÍMITE, PORCENTAJE * precio del carrito).",
+        "La fórmula para calcular el descuento del cupón es: CRÉDITO + máx. (LÍMITE, PORCENTAJE * precio del carrito).",
     },
     limit: {
       subtitle:
-        "En esta sección, podrás establecer tanto el número máximo de usos por cupón como el monto máximo de descuento que puede proporcionar cada cupón.",
+        "En esta sección puedes establecer tanto el número máximo de usos por cupón como el importe máximo de descuento que puede proporcionar cada cupón.",
       zero_message: "cero: ¡no hay límite!",
     },
     duration: {
       subtitle:
-        "Si desea establecer un período de tiempo específico para que un cupón esté activo, puede configurar la duración en esta sección.",
+        "Si quieres establecer un período de tiempo específico para que un cupón esté activo, puedes configurar la duración en esta sección.",
     },
     design: {
       subtitle:
@@ -6336,7 +6465,7 @@ export default {
         "Aquí tienes la posibilidad de establecer parámetros personalizados adicionales para el cupón.",
       no_limit: "Sin limitación adicional",
       has_limit: "Restricciones adicionales",
-      has_code_message: "El usuario debe ingresar el código para agregar el cupón.",
+      has_code_message: "El usuario debe introducir el código para añadir el cupón.",
     },
     club: {
       subtitle:
@@ -6344,7 +6473,7 @@ export default {
     },
     cluster: {
       subtitle:
-        "Al asociar este cupón con un clúster, puede administrarlo fácilmente junto con otros recursos en una sola ubicación.",
+        "Al asociar este cupón a un clúster, puedes gestionarlo fácilmente junto con otros recursos en un solo lugar.",
     },
     preview: {
       subtitle: "Aquí está la vista previa pública del cupón.",
@@ -6353,7 +6482,7 @@ export default {
 
   /** {@see BPageShopIncentivesOffer} **/
   offers: {
-    title: "ofertas",
+    title: "Ofertas",
     sub_title:
       "Puedes crear ofertas especiales para tus clientes para que, tras comprar un artículo, reciban otro artículo con descuento o incluso gratis.",
     create_new: "Añadir nueva oferta",
@@ -6377,13 +6506,13 @@ export default {
     title_edit: "Editar oferta",
     title_add: "Nueva oferta",
 
-    design_style: "Estilo de diseño",
-    eligible_constraints: "Límites elegibles del cliente",
+    design_style: "Diseño y estilo",
+    eligible_constraints: "Límites de elegibilidad del cliente",
 
     title_input: "Título",
-    title_input_hint: "Puede ingresar un título para este código de descuento",
+    title_input_hint: "Puedes introducir un título para esta oferta",
     description_input: "Descripción",
-    description_input_hint: "Escriba una descripción para este código de descuento",
+    description_input_hint: "Escribe una descripción para esta oferta",
 
     currency_input_message: "Oferta disponible para esta moneda.",
     qualified_products: "Productos elegibles",
@@ -6393,26 +6522,26 @@ export default {
     min_items_message: "El número de artículos que el cliente debe comprar.",
     offered_products: "Productos ofrecidos",
     offered_products_message: "Al menos uno de estos productos debe estar en el carrito.",
-    discount_percent: "porcentaje de descuento",
+    discount_percent: "Porcentaje de descuento",
     discount_percent_message: "Porcentaje de descuento para estos artículos.",
-    discount_percent_hint: "Importe del porcentaje de descuento",
+    discount_percent_hint: "Valor del porcentaje de descuento",
 
     per_order: "Número máximo de usos por pedido",
     per_order_message:
       "El número máximo de veces que se puede aplicar la oferta a un pedido",
 
-    count_input: "Monto",
-    count_input_hint: "Uso máximo de esta oferta",
+    count_input: "Cantidad",
+    count_input_hint: "Número máximo de usos de esta oferta",
 
     min_purchase: "Importe mínimo de compra",
     min_purchase_hint:
       "El precio de compra debe ser mayor o igual a este valor",
     limitation: "Limitación",
 
-    date_start_input: "Comienzo",
-    date_start_input_placeholder: "Seleccione cuándo comenzar el cupón",
+    date_start_input: "Inicio",
+    date_start_input_placeholder: "Selecciona cuándo empieza la oferta",
     date_end_input: "Fin",
-    date_end_input_placeholder: "Seleccione cuándo terminará el descuento",
+    date_end_input_placeholder: "Selecciona cuándo termina la oferta",
     max_actives_is_3: "Solo puedes tener tres ofertas activas al mismo tiempo.",
     enable: "Aplicar automáticamente",
 
@@ -6422,60 +6551,60 @@ export default {
     },
     config: {
       subtitle:
-        "Comience a elaborar un acuerdo inteligente estableciendo su título, descripción y estado de disponibilidad pública.",
+        "Empieza a crear una oferta inteligente estableciendo su título, descripción y estado de disponibilidad pública.",
     },
     limit: {
-      subtitle: "Establezca el límite máximo de uso para esta oferta en esta sección.",
+      subtitle: "Establece en esta sección el límite máximo de uso de esta oferta.",
     },
     duration: {
       subtitle:
-        "Si desea establecer un período de tiempo específico para una oferta, puede configurar la duración aquí.",
+        "Si quieres establecer un período de tiempo específico para una oferta, puedes configurar la duración aquí.",
     },
     constraints: {
       subtitle:
-        "Establezca aquí los criterios y condiciones de elegibilidad para la oferta. La oferta se aplica a los artículos del carrito que cumplan estas condiciones.",
+        "Establece aquí los criterios y condiciones de elegibilidad de la oferta. La oferta se aplica a los artículos del carrito que cumplan estas condiciones.",
     },
     discounted_products: {
-      title: "productos con descuento",
+      title: "Productos con descuento",
       subtitle:
         "Puedes especificar los productos a los que esta oferta les aplicará un descuento.",
     },
     cluster: {
       subtitle:
-        "Al asociar esta oferta con un clúster, puede administrarla fácilmente junto con otros recursos en una sola ubicación.",
+        "Al asociar esta oferta a un clúster, puedes gestionarla fácilmente junto con otros recursos en un solo lugar.",
     },
   },
 
   /** {@see BPageCampaignAds} **/
   campaign_ads: {
     menu: {
-      banner: "Bandera",
+      banner: "Banner",
       reportage: "Reportaje",
-      social: "Medios de comunicación social",
-      offline: "Desconectado",
+      social: "Redes sociales",
+      offline: "Offline",
     },
   },
 
   /** {@see BPageShopMarketingEmail} **/
   emails: {
-    title: "Correo de propaganda",
+    title: "Email marketing",
     subtitle:
-      "Diseñe correos electrónicos arrastrando y soltando, programe y lance campañas para aumentar la retención y vea información confiable y precisa en un solo lugar.",
+      "Diseña correos electrónicos fácilmente con la función de arrastrar y soltar, programa y lanza campañas para aumentar la retención de clientes y accede a datos fiables y precisos en un solo lugar.",
     cation_message:
-      "⚠ Restringido para comerciantes no verificados. (Beta)",
+      "⚠ Conecta tu proveedor de correo electrónico para empezar a enviar correos con tu dominio personalizado.",
 
     subject: "Asunto",
-    from: "Desde",
-    in_que: "esperando",
-    schedule_at: "Horario en",
+    from: "De",
+    in_que: "En espera",
+    schedule_at: "Programado para",
     sent: "Enviado",
-    sends: "envía",
+    sends: "Envíos",
     delivers: "Entregado",
-    views: "Puntos de vista",
+    views: "Visualizaciones",
     clicks: "Clics",
-    buys: "compras",
+    buys: "Compras",
     new_email: "Agregar nuevo correo electrónico",
-    new_email_message: "Crear y programar nuevos correos electrónicos de marketing",
+    new_email_message: "Crea y programa un nuevo correo de marketing",
   },
 
   /** {@see BPageEmailMarketingDashboard} **/
@@ -6484,18 +6613,18 @@ export default {
     waiting_for_approve: "Esperando la confirmación de {name}",
     approved_by: "Correo electrónico verificado por {name} y enviado.",
     not_submitted_send_request:
-      "Todavía no ha enviado una solicitud para enviar este correo electrónico.",
+      "Todavía no has enviado una solicitud para enviar este correo electrónico.",
     reviewed_by: "Revisado por {name}",
     status: "Estado del correo electrónico",
-    conversion: "Medidas de conversión",
+    conversion: "Tasas de conversión",
 
     sell_performance: "Rendimiento de las ventas",
     total_buys: "Número total de ventas",
-    amount_buy: "Cantidad total de ventas",
+    amount_buy: "Importe total de ventas",
     average_sell: "Ventas promedio",
     sessions: "Sesiones",
-    overview: "Visión de conjunto",
-    purchase_amount: "Monto de la compra",
+    overview: "Resumen",
+    purchase_amount: "Importe de la compra",
     actions: "Actividad del usuario",
   },
 
@@ -6506,7 +6635,7 @@ export default {
   },
   /** {@see BPageAffiliator} **/
   affiliate_page: {
-    affiliates: "socios afiliados",
+    affiliates: "Socios afiliados",
     orders: "Pedidos",
     payments: "Pagos",
   },
@@ -6514,35 +6643,35 @@ export default {
   /** {@see BPageAffiliateDashboard**/
   affiliate_dashboard: {
     link: {
-      title: "Afiliado Enlace",
+      title: "Enlace de afiliado",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda. {code}",
+        "Genera un enlace único para tu socio afiliado para hacer seguimiento de ventas y comisiones. Añade el código de referido '{code}' a cualquier enlace o asigna un dominio dedicado personalizado a tu afiliado. El sistema lo rastreará durante 48 h.",
     },
     fix_commission: "Comisión fija",
-    percent_commission: "Comisión basada en porcentaje",
-    last_payment: "Ultimo pago",
-    balance: "Equilibrio",
+    percent_commission: "Comisión porcentual",
+    last_payment: "Último pago",
+    balance: "Saldo",
     total_payment: "Pagos totales",
-    status: "Estado y restricciones de socios afiliados",
+    status: "Estado y restricciones del socio afiliado",
     available_for: "Disponible para",
-    orders_count: "Cantidad de pedidos",
+    orders_count: "Número de pedidos",
     orders_accepted: "Pedidos aceptados",
     finance: "Informe financiero",
 
-    amount_accepted: "Monto aceptado",
-    amount_paid: "Monto de pago",
+    amount_accepted: "Importe aceptado",
+    amount_paid: "Importe pagado",
     sessions: "Sesiones",
-    affiliate_payment: "Pagos de socios afiliados",
-    amount_payment: "Monto del pago",
-    amount_payment_hint: "Monto exacto de la transacción",
-    i_paid: "Pagué {amount} {currency} a {name}",
+    affiliate_payment: "Pagos al socio afiliado",
+    amount_payment: "Importe del pago",
+    amount_payment_hint: "Importe exacto de la transacción",
+    i_paid: "Pagué {amount} {currency} a {name}.",
     pay_now: "Pagar ahora",
   },
 
   /** {@see BPageShopPermissionRoles**/
   permission_roles: {
     new_role: "Agregar nuevo rol",
-    new_role_message: "Facilitar el trabajo en equipo.",
+    new_role_message: "Facilita el trabajo en equipo.",
     new_role_action: "Agregar nuevo rol",
   },
   /** {@see Affiliate**/
@@ -6551,14 +6680,14 @@ export default {
   shop_lotteries: {
     title: "Lotería",
     sub_title:
-      "Sus clientes pueden jugar y ganar. Los clientes de tu tienda deben consumir 10 fichas por cada juego. Por ejemplo, si desea que sus clientes tengan la oportunidad de ganar 1000 USD, debe establecer el monto del precio de cada ficha en 100 USD. Un valor de 0 para cada ficha significa que el comprador recibirá una ficha por cada compra.",
+      "Tus clientes pueden jugar y ganar. Los clientes de tu tienda deben consumir 10 fichas por cada partida. Por ejemplo, si quieres que tus clientes tengan la oportunidad de ganar 1000 USD, puedes establecer el precio de cada ficha en 100 USD. Un valor de 0 por ficha significa que el comprador recibirá una ficha por cada compra.",
     manually_send_chip: "¿Quieres enviar fichas manualmente a los usuarios?",
     manual_send_token_action: "Fichas manuales",
-    lottery_enable: "¿Está habilitada la lotería?",
+    lottery_enable: "¿Está activada la lotería?",
     chip_price_input: "Precio de la ficha",
-    zero_chip_message: "Dar 1x chip por pedido",
-    chip_has_price_message: "Da 1 ficha por {amount} {currency} de pedido.",
-    chip_disabled_message: "¡El chip está desactivado!",
+    zero_chip_message: "Dar 1 ficha por pedido",
+    chip_has_price_message: "Dar 1 ficha por cada {amount} {currency} de pedido.",
+    chip_disabled_message: "¡Las fichas están desactivadas!",
     create_new: "Agregar nuevo premio",
     delete_alert: {
       title: "Eliminar premio",
@@ -6571,46 +6700,46 @@ export default {
 
     config: {
       subtitle:
-        "Incrementa las compras de los clientes con una experiencia gamificada en tu tienda. Establece premios y probabilidades de ganar para los clientes que obtengan tokens a través de las compras. Cada partida cuesta 10 tokens y puedes ofrecer premios especiales para quienes compren por primera vez. El juego predeterminado es la Rueda de la fortuna, pero puedes personalizarlo para que se adapte al diseño de tu tienda.",
+        "Impulsa las compras de los clientes con una experiencia gamificada en tu tienda. Establece premios y probabilidades de ganar para los clientes que obtienen fichas con sus compras. Cada partida cuesta 10 fichas y puedes ofrecer premios especiales para quienes compran por primera vez. El juego predeterminado es la Rueda de la fortuna, pero puedes personalizarlo para que se adapte al diseño de tu tienda.",
     },
     empty_prize_list: "Crea y gestiona premios aquí...",
   },
 
   /** {@see BLotteryAdd**/
   lottery_edit: {
-    title_edit: "Editar artículo de lotería",
-    title_add: "Nuevo artículo de lotería",
+    title_edit: "Editar premio de la lotería",
+    title_add: "Nuevo premio de la lotería",
     general_config: "Configuración general",
     design_style: "Estilo y apariencia",
-    enable_message: "Los artículos máximos en una rueda son 14.",
+    enable_message: "El máximo de elementos en una rueda es 14.",
     title_input: "Título",
     title_input_hint: "Escribe un título breve.",
     description_input: "Descripción",
-    description_input_hint: "Escribe una descripción sobre el artículo.",
+    description_input_hint: "Escribe una descripción sobre el premio.",
     quantity: "Cantidad",
     quantity_message: "Total de artículos disponibles",
     image: "Imagen",
-    image_placeholder: "Seleccione una imagen para el artículo",
-    chance: "Oportunidad",
+    image_placeholder: "Selecciona una imagen para el premio",
+    chance: "Probabilidad",
     chance_message: "Probabilidad de ganar en porcentaje",
     free_for_first: "¿Es gratis para nuevos clientes?",
-    free_for_first_message: "Los nuevos clientes pueden ganar este artículo.",
-    not_free_for_first_message: "Este premio no está disponible para el primer juego gratuito.",
+    free_for_first_message: "Los nuevos clientes pueden ganar este premio.",
+    not_free_for_first_message: "Este premio no está disponible para la primera partida gratuita.",
 
-    amount: "monto del premio",
-    amount_hint: "Los usuarios ganan esta cantidad de cargo por su pedido.",
+    amount: "Importe del premio",
+    amount_hint: "Los usuarios ganan este importe como crédito para su pedido.",
     currency_message:
-      "Moneda para este artículo. Otras monedas se convierten por tipo de cambio.",
+      "Moneda de este premio. Las demás monedas se convierten según el tipo de cambio.",
     discount: "Descuento",
     discount_message: "Porcentaje de descuento en el pedido del cliente",
     discount_limit: "Límite de descuento",
     discount_limit_hint: "Descuento máximo para el cliente.",
-    color: "Color del sorteo",
+    color: "Color",
     condition: "Condiciones",
 
     notifications: {
-      add: "Nuevo artículo de lotería creado con éxito.",
-      edit: "Los artículos de la lotería se cambiaron con éxito.",
+      add: "Nuevo premio de lotería creado con éxito.",
+      edit: "Premio de lotería actualizado con éxito.",
     },
     config: {
       subtitle:
@@ -6621,57 +6750,57 @@ export default {
         "Aquí tienes la opción de elegir una imagen y un color para el premio.",
     },
     constraints: {
-      subtitle: "Especificar los criterios y limitaciones para ganar este premio.",
+      subtitle: "Especifica los criterios y limitaciones para ganar este premio.",
     },
     prize: {
       title: "Premio",
       subtitle:
-        "Configure aquí los detalles del premio. Las opciones incluyen códigos de descuento, tarjetas de regalo, créditos y otros descuentos como premios de lotería.",
+        "Configura aquí los detalles del premio. Las opciones incluyen códigos de descuento, tarjetas de regalo, créditos y otros descuentos como recompensas de la lotería.",
     },
     product_input: {
-      label: "Premio del producto",
-      message: "Seleccione un producto para el premio (es gratis)",
+      label: "Producto como premio",
+      message: "Selecciona un producto como premio (será gratis)",
     },
   },
 
   /** {@see BGiftcardTypeInput**/
   gift_card_types_list: {
     label: "Tipo de tarjeta de regalo",
-    message: "Seleccione un tipo de tarjeta de regalo de la lista.",
+    message: "Selecciona un tipo de tarjeta de regalo de la lista.",
   },
 
   /** {@see BEmailMarketingEditor**/
   email_builder: {
-    service_unavailable: "El servidor de correo no está activo en su cuenta.",
-    design_section: "Su placa de diseño de correo electrónico",
+    service_unavailable: "El servidor de correo no está activo en tu cuenta.",
+    design_section: "Tu lienzo de diseño de correo electrónico",
     schedule_switch: "¿Programar envío de correo electrónico?",
-    schedule_placeholder: "Seleccione la hora para enviar el correo electrónico",
+    schedule_placeholder: "Selecciona la hora de envío del correo electrónico",
   },
 
   /** {@see BCustomersFunnel**/
   user_funnel: {
     REGISTER_DATE: {
-      title: "Fecha de Registro",
+      title: "Fecha de registro",
       description: "Filtrar por fecha de registro del usuario.",
     },
     LAST_BUY_DATE: {
       title: "Última compra",
-      description: "Última fecha de compra.",
+      description: "Fecha de la última compra.",
     },
     LOGIN_DATE: {
       title: "Fecha de inicio de sesión",
-      description: "Última fecha de inicio de sesión.",
+      description: "Fecha del último inicio de sesión.",
     },
     LEVEL: {
-      title: "club de clientes",
+      title: "Club de clientes",
       description: "Miembros del club de clientes.",
     },
     SUBSCRIBED: {
       title: "Suscrito",
-      description: "Tener suscripción para recibir correo electrónico.",
+      description: "Estar suscrito para recibir correos electrónicos.",
     },
     NOT_PURCHASED: {
-      title: "sin compra",
+      title: "Sin compras",
       description: "Clientes que no han comprado hasta ahora.",
     },
     SEX: {
@@ -6679,18 +6808,18 @@ export default {
       description: "Género del usuario.",
     },
     LOCATION: {
-      title: "Localización",
+      title: "Ubicación",
       description: "Ubicación del usuario.",
     },
 
     LIMIT: {
       title: "Límite",
-      description: "Establezca un límite en el número máximo de usuarios.",
+      description: "Establece un límite en el número máximo de usuarios.",
     },
 
     SEGMENTS: {
       title: "Segmentos",
-      description: "Limitar clientes en segmentación manual específica.",
+      description: "Limitar a los clientes de una segmentación manual específica.",
     },
   },
 
@@ -6718,40 +6847,40 @@ export default {
     dialog_set_title: "Configuración de impuestos",
 
     tax_setting: "Configuración de impuestos",
-    vat: "VAT",
+    vat: "IVA",
 
     calculate_tax_input: "Calcular impuestos automáticamente",
     calculate_tax_message:
-      "Al activar esta opción, se calculará y aplicará el IVA para sus pedidos.",
+      "Al activar esta opción, se calculará y aplicará el IVA a tus pedidos.",
 
-    tax_number: "Número de impuesto",
+    tax_number: "Número de identificación fiscal",
     tax_number_message:
-      "Ingrese su número de identificación fiscal. Este número de registro se hará constar en la factura del comprador.",
+      "Introduce tu número de identificación fiscal. Este número de registro se hará constar en la factura del comprador.",
 
-    tax_included_in_price_input: "Impuesto incluido en el precio de los productos",
+    tax_included_in_price_input: "Incluido ╏ Impuesto incluido en el precio de los productos",
     tax_included_in_price_message:
-      "Seleccione esta opción si incluye el monto del impuesto en el precio de su producto. El importe del impuesto se calculará con la siguiente fórmula:",
+      "Selecciona esta opción si incluyes el importe del impuesto en el precio de tu producto. El importe del impuesto se calculará con la siguiente fórmula.",
     tax_included_in_price_formula:
-      "Impuesto = (precio * IVA) / (1 + IVA), por ejemplo, el monto del impuesto por un producto a un precio de 100 $ con una tasa de valor agregado del 10 % se convierte en 9,09 $.",
+      "Impuesto = (precio * IVA) / (1 + IVA); por ejemplo, el importe del impuesto para un producto con un precio de 100 $ y una tasa de IVA del 10 % es de 9,09 $.",
 
     tax_exclude_title: "Excluido ╏ El impuesto se agregará al finalizar la compra",
     tax_excluded_message:
-      "Los impuestos se calcularán antes de los pagos durante el proceso de pago y se agregarán al precio del impuesto excluido según la evidencia de su cliente.",
+      "Los impuestos se calcularán antes del pago durante la finalización de la compra y se añadirán al precio sin impuestos según la evidencia del cliente.",
 
     tax_on_shipping_input: "Aplicar impuestos al envío",
     tax_on_shipping_message:
       "Al seleccionar esta opción se aplicará el impuesto al envío.",
 
-    fixed_tax_rate: "Tasa fija de impuestos",
+    fixed_tax_rate: "Tasa de impuesto fija",
     dynamic_tax_rate: "Impuesto basado en regiones",
 
     locations_tip:
-      "La lista anterior solo muestra los países que ha seleccionado en Configuración de la tienda > Ubicaciones como los países que vende.",
-    locations_action: "Configuración de las ubicaciones de las tiendas",
+      "La lista anterior solo muestra los países que has seleccionado en Ajustes de la tienda > Ubicaciones como los países en los que vendes.",
+    locations_action: "Ajustes de ubicaciones de la tienda",
 
-    save_alert: "¡La configuración no se guarda!",
+    save_alert: "¡Los ajustes no se han guardado!",
 
-    pos_tax_setting: "Configuración de impuestos de POS",
+    pos_tax_setting: "Configuración de impuestos del POS",
   },
 
   /** {@see BPageTransportation**/
@@ -6760,9 +6889,9 @@ export default {
       dashboard: "Panel",
       transportations: "Métodos de envío",
       orders: "Pedidos",
-      setting: "Entorno",
+      setting: "Ajustes",
       delivery_services: "Servicios",
-      delivery_persons: "mensajeros",
+      delivery_persons: "Mensajeros",
     },
 
     go_to_courier_list: "Ver lista de mensajeros",
@@ -6771,22 +6900,22 @@ export default {
 
   /** {@see BPageTransportationCouriers**/
   transportation_persons: {
-    title: "mensajeros",
+    title: "Mensajeros",
     notifications: {
       success_add: "Mensajero añadido.",
-      success_reset: "Restablecimiento de estadísticas.",
+      success_reset: "Estadísticas restablecidas.",
       success_remove: "Mensajero eliminado con éxito.",
-      success_update: "Información de mensajería actualizada con éxito.",
+      success_update: "Información del mensajero actualizada con éxito.",
     },
     reset: {
-      title: "Reiniciar las estadísticas",
+      title: "Restablecer estadísticas",
       message: "¿Estás seguro de restablecer las estadísticas de este mensajero?",
       action: "Sí, restablecer ahora",
     },
     remove: {
       title: "Quitar mensajero",
       message: "¿Estás seguro de eliminar este mensajero?",
-      action: "Sí, eliminar ahora",
+      action: "Sí, quitar ahora",
     },
     add_dialog: {
       title: "Agregar nuevo mensajero",
@@ -6798,28 +6927,28 @@ export default {
     title: "Pedidos para envío",
     notifications: {
       success_update: "Estado de envío actualizado con éxito.",
-      success_payment: "Pago COD confirmado con éxito.",
+      success_payment: "Pago contra reembolso confirmado con éxito.",
     },
   },
   /** {@see BPageCourier**/
   delivery_person: {
-    actions_title: "Configuración de mensajería",
+    actions_title: "Ajustes del mensajero",
     action_delivered: "Enviado",
-    action_paid: "COD pagado",
-    action_returned: "devuelto",
+    action_paid: "Pagado contra reembolso",
+    action_returned: "Devuelto",
     cod_confirm_action: "Confirmar pago contra reembolso",
     pickup_dialog: {
       title: "¿Eres el mensajero de este paquete?",
       message:
-        "Si usted es responsable de llevar este paquete, seleccione Sí, de lo contrario, seleccione No.",
+        "Si eres el responsable de transportar este paquete, selecciona Sí; de lo contrario, selecciona No.",
     },
     status_dialog: {
       title: "Cambiar estado a {status}",
-      message: "¿Está seguro de cambiar el estado de entrega a {status}?",
+      message: "¿Seguro que quieres cambiar el estado de entrega a {status}?",
       action: "¡Sí, lo confirmo!",
     },
     cod_dialog: {
-      title: "pago contra reembolso",
+      title: "Pago contra reembolso",
       message:
         "¿Confirmas que has recibido el importe del pedido del comprador?",
       action: "¡Sí, confirmo el pago!",
@@ -6831,19 +6960,19 @@ export default {
     title: "Servicio de entrega",
     notifications: {
       success_add: "Servicio de entrega agregado.",
-      success_reset: "Restablecimiento de estadísticas.",
+      success_reset: "Estadísticas restablecidas.",
       success_remove: "Servicio eliminado con éxito.",
       success_update: "Servicio actualizado con éxito.",
     },
     reset: {
-      title: "Reiniciar las estadísticas",
-      message: "¿Está seguro de restablecer las estadísticas de este servicio?",
+      title: "Restablecer estadísticas",
+      message: "¿Seguro que quieres restablecer las estadísticas de este servicio?",
       action: "Sí, restablecer ahora",
     },
     remove: {
       title: "Quitar el servicio de entrega",
       message: "¿Estás seguro de eliminar este servicio?",
-      action: "Sí, eliminar ahora",
+      action: "Sí, quitar ahora",
     },
     add_dialog: {
       title: "Agregar nuevo servicio de entrega",
@@ -6853,9 +6982,9 @@ export default {
   /** {@see BPageTransportationPickups**/
   transportation_pickups: {
     addresses: {
-      title: "direcciones de recogida",
+      title: "Direcciones de recogida",
       subtitle:
-        "Agregue y edite direcciones de recogida aquí. Los usuarios podrán seleccionar la dirección de recogida en la página de pago.",
+        "Añade y edita aquí las direcciones de recogida. Los usuarios podrán seleccionar la dirección de recogida en la página de pago.",
       add_action: "Agregar nueva ubicación",
     },
   },
@@ -6869,7 +6998,7 @@ export default {
   /** {@see BPageTransportationServiceDashboard**/
   delivery_dashboard: {
     select_destinations: "Agregar pedidos a la lista",
-    price_calculation: "Calcular tarifas de envío",
+    price_calculation: "Estimar tarifas de envío",
     price_calculation_action: "Calcular precio",
     add_request: "Solicitar servicio",
     add_request_action: "Enviar solicitud de servicio",
@@ -6893,39 +7022,39 @@ export default {
       inventory: "Inventario",
     },
     payment_confirm: "Confirmación de pago",
-    payment_confirm_msg: "Pedido pagado por el cliente {basket_id}.",
+    payment_confirm_msg: "El cliente ha pagado el pedido {basket_id}.",
   },
 
   /** {@see BPosDeviceBarcodeScanner**/
   barcode_scanner: {
-    wifi_pass: "Tu contraseña wifi",
-    message: "Ingrese la contraseña de su enrutador WiFi y escanee el código QR.",
-    wifi_ssid: "SSID wifi",
-    ssid_message: "Ingrese el nombre de su red Wi-Fi (SSID).",
+    wifi_pass: "Tu contraseña de Wi-Fi",
+    message: "Introduce la contraseña de tu router Wi-Fi y escanea el código QR.",
+    wifi_ssid: "SSID de Wi-Fi",
+    ssid_message: "Introduce el nombre de tu red Wi-Fi (SSID).",
   },
 
   /** {@see PosDeviceTypes**/
   pos_devices: {
     Scanner: "Escáner de código de barras",
     Scanner_desc:
-      "Para usar el escáner de código de barras, debe ingresar el código SKU del producto correctamente en la configuración del producto.",
+      "Para usar el escáner de códigos de barras, introduce correctamente el código SKU del producto en los ajustes del producto.",
     Printer: "Impresora",
     Printer_desc:
-      "Imprima el recibo de sus clientes conectándose a una impresora de recibos.",
+      "Imprime el recibo de tus clientes conectando una impresora de recibos.",
     CustomerView: "Vista del cliente",
     CustomerView_desc:
-      "Esta página le permite mostrar los detalles del pedido a sus clientes.",
+      "Esta página te permite mostrar los detalles del pedido a tus clientes.",
     CardReader: "Lector de tarjetas",
-    CardReader_desc: "Dispositivo lector de tarjetas para pago contra reembolso por parte de sus clientes.",
+    CardReader_desc: "Dispositivo lector de tarjetas para el pago contra reembolso de tus clientes.",
     ChipReader: "Lector de chips",
     ChipReader_desc: "Lector de etiquetas NFC para agregar artículos al carrito usando etiquetas.",
   },
   /** {@see BPagePosDevices**/
   pos_register_devices: {
     delete_dialog: {
-      title: "Retire el dispositivo",
+      title: "Quitar dispositivo",
       message: "¿Estás seguro de eliminar este dispositivo de tu perfil de POS?",
-      action: "Sí, eliminar ahora",
+      action: "Sí, quitar ahora",
     },
   },
 
@@ -6944,26 +7073,26 @@ export default {
   pos: {
     name: "POS",
     message:
-      "Tenga su punto de venta en línea sin costo de instalación, ejecútelo en cualquier teléfono inteligente, tableta y PC, o cree pedidos manualmente.",
+      "Ten tu punto de venta en línea sin costes de configuración, ejecútalo en cualquier smartphone, tableta o PC, o crea pedidos manualmente.",
     add_customer: "Agregar un cliente",
     set_delivery: "Establecer dirección de entrega",
     add_giftcards: "Agregar tarjeta de regalo",
     add_discount_code: "Agregar código de descuento",
     add_coupon: "Agregar cupón",
     set_campaign: "Establecer campaña",
-    select_buyer: "¡Seleccione comprador!",
-    send_to_pos: "Enviar a máquina lectora de tarjetas",
-    print_receipt: "Imprima el recibo",
+    select_buyer: "¡Selecciona un comprador!",
+    send_to_pos: "Enviar al lector de tarjetas",
+    print_receipt: "Imprimir recibo",
     confirm_cash_payment: "Confirmar pago en efectivo",
     payment_cod: {
       title: "Pago contra reembolso",
       message:
-        "El importe de este pedido se abonará en el momento de la entrega. Después de recibir el importe por parte del comprador, debe confirmar el pago para completar el pedido en el sistema.",
+        "El importe de este pedido se pagará en el momento de la entrega. Tras recibir el importe del comprador, puedes confirmar el pago para completar el pedido en el sistema.",
     },
     payment_online: {
-      title: "Seleccione el método de pago en línea",
+      title: "Selecciona el método de pago en línea",
       message:
-        "Al seleccionar las siguientes opciones, se creará un enlace de pago y se enviará al comprador. Al pagar este enlace, el estado del pedido cambiará al modo pago. El enlace de pago se generará escaneando el código QR en la pantalla del cliente, SMS o correo electrónico. Para activar cualquier canal para enviar un enlace, haga clic en esa opción y luego presione el botón para enviar un recibo al comprador.",
+        "Al seleccionar las siguientes opciones, se creará un enlace de pago y se enviará al comprador. Al pagar a través de este enlace, el estado del pedido cambiará a pagado. El enlace de pago se generará escaneando el código QR en la pantalla del cliente, o por SMS o correo electrónico. Para activar cualquier canal de envío del enlace, haz clic en esa opción y luego pulsa el botón para enviar un recibo al comprador.",
     },
     notifications: {
       success_pay: "Pago del pedido completado.",
@@ -6975,9 +7104,9 @@ export default {
       close_action: "Cerrar diálogo. No quiero esperar el pago del cliente",
       go_to_order: "Ir a la página de pedido",
       paid_by_gift_card_msg:
-        "¡El monto total del pedido se retiró de las tarjetas de regalo! El comprador no necesita pagar más.",
+        "¡El importe total del pedido se ha retirado de las tarjetas de regalo! El comprador no necesita pagar nada más.",
       cod_msg: "El cliente pagará al recibir el pedido.",
-      online_msg: "Pida al cliente que escanee el código QR en la pantalla del cliente.",
+      online_msg: "Pide al cliente que escanee el código QR en la pantalla del cliente.",
     },
   },
 
@@ -6985,7 +7114,7 @@ export default {
   exporter: {
     title: "Exportar datos",
     subtitle:
-      "¡Tus datos te pertenecen! Puede descargar la información de su empresa en el formato estándar en cualquier momento. Sin embargo, respete la privacidad de sus clientes, no les envíe spam y nunca comparta su información con terceros.",
+      "¡Tus datos te pertenecen! Puedes descargar la información de tu negocio en formato estándar en cualquier momento. Sin embargo, respeta la privacidad de tus clientes, no les envíes spam y nunca compartas su información con terceros.",
 
     excel:
       "Recibirás una lista de todos los {type} en la tienda junto con información completa en formato Excel.",
@@ -6996,22 +7125,22 @@ export default {
     category: {
       title: "Importar categorías",
       subtitle:
-        "Cargue el archivo CSV de las categorías aquí. Asegúrese de seguir el formato estándar.",
+        "Sube aquí el archivo CSV de categorías. Asegúrate de seguir el formato estándar.",
     },
     product: {
       title: "Importar productos",
       subtitle:
-        "Cargue el archivo CSV de productos aquí. Asegúrese de seguir el formato estándar.",
+        "Sube aquí el archivo CSV de productos. Asegúrate de seguir el formato estándar.",
     },
     product_images: {
       title: "Importar imágenes",
       subtitle:
-        "Recibir información de la imagen lleva mucho tiempo. Asegúrese de respetar los derechos de autor al importar imágenes.",
+        "Recibir la información de las imágenes lleva tiempo. Recuerda respetar las leyes de derechos de autor al importar imágenes. Las imágenes que no se puedan importar se eliminarán automáticamente de la lista después de 7 días.",
     },
     inventory: {
-      title: "Inventario de actualización masiva",
+      title: "Actualización masiva de inventario",
       subtitle:
-        "Cargue el archivo CSV del inventario aquí. Asegúrese de seguir el formato estándar exportando primero el archivo CSV y luego editándolo.",
+        "Sube aquí el archivo CSV de inventario. Asegúrate de seguir el formato estándar exportando primero el archivo CSV y editando después ese archivo.",
     },
 
     back_to_products: "Volver a la lista de productos",
@@ -7019,40 +7148,40 @@ export default {
     back_to_inventory: "Volver a la lista de inventario",
 
     step_select_file: "Seleccionar archivo CSV",
-    step_send_to_server: "enviar al servidor",
+    step_send_to_server: "Enviar al servidor",
     step_view_result: "Ver resultado",
     step_view_que: "Ver lista de espera",
-    send_to_server_action: "enviar al servidor",
+    send_to_server_action: "Enviar al servidor",
 
-    shop_license: "Licencia de tienda",
+    shop_license: "Licencia de la tienda",
     max_items_limit: "Límite máximo de artículos",
-    total_items: "Articulos totales",
+    total_items: "Total de artículos",
 
     /** {@see BShopCustomerImporter**/
     customer: {
       title: "Importar clientes",
       subtitle:
-        "Cargue archivos CSV de clientes aquí. Asegúrese de seguir el formato estándar y también debe seguir las reglas de privacidad.",
+        "Sube aquí los archivos CSV de clientes. Asegúrate de que el formato sea correcto y cumpla con la normativa de privacidad.",
     },
 
     /**
      * @see BVendorsImporter
      */
     vendor: {
-      title: "Importar Vendedores",
+      title: "Importar vendedores",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Sube aquí los archivos CSV de vendedores. Asegúrate de que el formato sea correcto y cumpla con la normativa de privacidad.",
       checklist: {
-        title: "Título",
-        subtitle: "Subtítulo",
-        sample_files: "Opción",
+        title: "Lista de comprobación importante",
+        subtitle: "Asegúrate de seguir las directrices.",
+        sample_files: "Archivos de ejemplo",
         valid_vendor_name_needed:
-          "<b></b><b></b><i></i><i></i> Configura y gestiona esta opción para tu tienda.",
+          "Debes proporcionar un <b>nombre válido</b>. El <b>nombre</b> se usa para determinar si se debe <i>crear</i> un nuevo vendedor o <i>actualizar</i> uno existente.",
         assign_user_after_import:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Después de importar los vendedores, puedes asignar manualmente un usuario para darles acceso al panel del vendedor.",
       },
       need_kyc_alert:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Debes verificar tu información personal antes de importar vendedores.",
       back_to_vendors_list: "Volver a la lista de vendedores",
     },
   },
@@ -7061,14 +7190,14 @@ export default {
    * @see BPageMarketplaceProducts
    */
   marketplace_products: {
-    title: "Vendedor Productos",
+    title: "Productos de vendedores",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Este catálogo enumera todos los productos ofrecidos por los vendedores. En el marketplace, un producto puede estar vinculado a uno o más vendedores. Cada vendedor asociado a un producto tiene una entrada única que incluye los detalles de inventario y precios específicos de ese vendedor.",
     filter_vendor: {
-      placeholder: "Filtro by Vendedor...",
+      placeholder: "Filtrar por vendedor...",
     },
     filter_status: {
-      placeholder: "Filtro by Estado...",
+      placeholder: "Filtrar por estado...",
     },
   },
 
@@ -7076,154 +7205,154 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "Opción",
-    title: "Título",
+    open_vendors_panel: "Abrir panel de vendedores",
+    title: "Lista de solicitudes de vendedores",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Esta es una lista de solicitudes de personas que han pedido convertirse en vendedores de tu marketplace.",
   },
   /**
    * @see BPageMarketplaceSetting
    */
   marketplace_setting: {
     marketplace: {
-      title: "Mercado",
+      title: "Marketplace",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Desactivar el marketplace apagará algunas funcionalidades. Si quieres cerrar todo tu marketplace, debes desactivar tu tienda en los ajustes.",
     },
     distribution_model: {
-      title: "Título",
+      title: "Modelo de distribución",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Los marketplaces pueden operar con diferentes modelos de distribución. Tanto si prefieres que los vendedores envíen los artículos directamente a los compradores como consolidar los pedidos en tu almacén para su envío, aquí puedes elegir el modelo que mejor se adapte a tus necesidades.",
     },
     access: {
-      title: "Acceso de vendedor",
+      title: "Acceso de vendedores",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Como administrador, controlas el nivel de acceso de los vendedores al panel de productos. Ajusta los permisos de acceso globales para permitir que los vendedores añadan sus propios productos y categorías, o restringe este acceso solo a los administradores.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Configura y gestiona esta opción para tu tienda.",
-    transportation_available_tooltip: "Opción",
+      "Activa el envío para los vendedores en la pestaña Tienda > Logística para cada método individualmente.",
+    transportation_available_tooltip: "Esta opción está disponible para los vendedores.",
     transportation_not_available_tooltip:
-      "Configura y gestiona esta opción para tu tienda.",
+      "¡No disponible para los vendedores! Puedes activarla en los ajustes de transporte.",
     panel: {
       title: "Panel del vendedor",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      subtitle: "Incorpora a tus vendedores a través de tu dominio personalizado.",
     },
     documents: {
       title: "Documentos",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
-      add_document_action: "Añadir Documento Acción",
+        "Puedes exigir a tus vendedores que suban documentos o firmen ciertos contratos. Especifica aquí los documentos requeridos.",
+      add_document_action: "Añadir solicitud de documento",
     },
     inputs: {
       enable: {
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "El marketplace está desactivado, lo que deshabilita todas sus funcionalidades.",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "El marketplace está activo, con todas sus funcionalidades habilitadas.",
       },
       product: {
         label: "Agregar nuevo producto",
-        true_title: "Sí Título",
+        true_title: "Los vendedores pueden añadir productos",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Tú añades los productos y asignas los vendedores. Los vendedores solo pueden gestionar el precio y el inventario.",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Los vendedores pueden añadir y gestionar sus propios productos directamente en su panel de vendedor.",
       },
       need_verify: {
-        label: "Opción",
-        false_description: "No Descripción",
-        false_title: "No Verificación Obligatorio",
+        label: "Flujo de verificación de productos",
+        false_description: "Los nuevos productos de los vendedores se publican al instante.",
+        false_title: "No se requiere verificación",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
-        true_title: "Verificación Obligatorio",
+          "Los nuevos productos de los vendedores requieren aprobación antes de publicarse en el marketplace.",
+        true_title: "Verificación requerida",
       },
       category: {
-        label: "Añadir nueva categoria",
-        true_title: "Sí Título",
+        label: "Añadir nueva categoría",
+        true_title: "Los vendedores pueden añadir categorías",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Tú añades las categorías. Los vendedores solo pueden añadir productos a las categorías existentes.",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Los vendedores pueden añadir y gestionar categorías directamente en su panel de vendedor.",
       },
       shipping: {
-        label: "Envío Opciones",
-        true_title: "Sí Título",
+        label: "Opciones de envío",
+        true_title: "Los vendedores tienen opciones de envío",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Los vendedores no pueden añadir ni personalizar sus métodos de envío.",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Los vendedores pueden configurar sus propios métodos de envío, añadir mensajeros y personalizar el envío según sus necesidades.",
       },
       hidden_customer: {
-        label: "Opción",
-        true_description: "Configura y gestiona esta opción para tu tienda.",
+        label: "Mostrar información de contacto del comprador",
+        true_description: "Los datos de contacto del comprador están ocultos para los vendedores.",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Los datos de contacto del comprador, como el teléfono y el correo electrónico, son visibles para los vendedores.",
       },
       multi: {
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Un usuario solo puede tener una cuenta de vendedor. Los usuarios serán redirigidos a su panel en /vendors.",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
-        true_title: "Sí Título",
-        false_title: "No Título",
+          "Un usuario puede tener varias cuentas de vendedor. Esta es una función beta; contáctanos antes de usarla.",
+        true_title: "Modo multivendedor",
+        false_title: "Modo de vendedor único (predeterminado)",
       },
 
       listing: {
-        label: "Opción",
-        true_description: "Configura y gestiona esta opción para tu tienda.",
-        false_description: "Configura y gestiona esta opción para tu tienda.",
+        label: "Listado para vendedores",
+        true_description: "El listado está activado para los vendedores. Los vendedores pueden gestionar los elementos y las empresas del listado.",
+        false_description: "El listado está desactivado para los vendedores. Solo el propietario de la tienda puede gestionar los elementos y las empresas del listado.",
         requires_listing_active_text:
-          "Configura y gestiona esta opción para tu tienda.",
-        requires_listing_active_button: "Abrir Canal Listado Ajustes",
+          "Para permitir que los vendedores usen el Listado (elementos + empresas), primero activa la función de Listado de la tienda en Canal → Listado. Luego vuelve aquí para permitir el acceso a los vendedores.",
+        requires_listing_active_button: "Abrir los ajustes del canal Listado",
       },
 
 
 
     },
     notifications: {
-      update_success: "Actualizar Éxito",
+      update_success: "Ajustes de vendedores actualizados con éxito.",
     },
     add_document_dialog: {
-      title: "Título",
+      title: "Requisitos de documentos",
       type: {
         title: "Tipo de documento",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Añade aquí un elemento de solicitud de documento. Aparecerá en el panel del vendedor, pidiéndole que suba el documento requerido.",
       },
       guide: {
         title: "Guía",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Proporciona una breve guía para ayudar a los vendedores a entender qué documentos subir y cómo hacerlo correctamente.",
       },
       code: {
         title: "Código de inserción",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Pega el código de inserción de un documento, formulario o contrato que el vendedor deba firmar.",
       },
       link: {
         title: "Enlace externo",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Proporciona un enlace externo a un documento o contrato que el vendedor deba firmar.",
       },
       inputs: {
         title: {
           label: "Título",
-          placeholder: "Opción",
+          placeholder: "Introduce un título para la solicitud de documento.",
         },
         guide: {
-          label: "Opción",
+          label: "Guía (opcional)",
           placeholder:
-            "Configura y gestiona esta opción para tu tienda.",
+            "Opcionalmente, proporciona una breve guía o instrucciones, incluidos enlaces a contratos u otros documentos.",
         },
         code: {
           label: "Código de inserción",
-          placeholder: "Opción",
-          message: "Mensaje",
+          placeholder: "Pega aquí el código de inserción...",
+          message: "Puede incluir código HTML.",
         },
         url: {
           label: "URL",
-          message: "Configura y gestiona esta opción para tu tienda.",
+          message: "Introduce aquí la URL del documento o contrato...",
         },
       },
     },
@@ -7234,14 +7363,14 @@ export default {
    */
   ShopMarketplaceModes: {
     Collective: {
-      title: "Título",
+      title: "Modo colectivo",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "En este modo, todos los pedidos se envían primero a tu almacén y luego se envían a los clientes desde una ubicación central. Los vendedores enviarán sus artículos a tu almacén, por lo que la dirección de envío para los vendedores será la dirección de tu almacén.",
     },
     Direct: {
-      title: "Título",
+      title: "Envío directo desde el vendedor",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "En este modo, los vendedores envían los pedidos directamente a los clientes. La dirección de envío de los pedidos de los vendedores será la dirección del comprador.",
     },
   },
   /**
@@ -7249,44 +7378,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Título",
+      title: "Documento de identificación del propietario",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Sube un documento de identidad emitido por el gobierno para verificar la identidad del propietario del negocio o de un directivo clave.",
     },
     Business: {
-      title: "Título",
+      title: "Documentación del negocio",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Proporciona documentos esenciales del negocio, como licencias o certificados de registro, para confirmar la situación legal de tu negocio.",
     },
     Address: {
-      title: "Dirección Verificación",
+      title: "Verificación de dirección",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Envía un documento que verifique la dirección de tu negocio, como una factura de servicios, una factura fiscal o un contrato de alquiler.",
     },
     Contract: {
-      title: "Título",
+      title: "Contratos y acuerdos",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Sube contratos o acuerdos que detallen los términos y condiciones de tus relaciones comerciales.",
     },
     Copyright: {
-      title: "Título",
+      title: "Documentación de derechos de autor",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Proporciona documentos de registro de derechos de autor para acreditar tus derechos de propiedad intelectual.",
     },
     Privacy: {
-      title: "Título",
+      title: "Documentos de política de privacidad",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Incluye tus documentos de política de privacidad para demostrar tu compromiso con la protección de la información de usuarios y clientes.",
     },
     Embed: {
-      title: "Título",
+      title: "Formulario incrustado",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Completa el formulario incrustado para proporcionar la información requerida.",
     },
     Link: {
       title: "Enlace externo",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Sigue el enlace externo para proporcionar la información necesaria.",
     },
   },
 
@@ -7296,9 +7425,9 @@ export default {
   marketplace_wallets: {
     title: "Billeteras de vendedores",
     subtitle:
-      "¡No es necesario agregar billeteras manualmente! Las carteras de proveedores se crean automáticamente. Si habilita un método de pago que admita pagos divididos (como Stripe Connect), el sistema distribuirá automáticamente los pagos a las cuentas de los proveedores conectados. Si esta función no está habilitada, deberá pagar manualmente a los proveedores y podrá verificar los montos adeudados en la lista de billetera.",
+      "¡No es necesario añadir billeteras manualmente! Las billeteras de los vendedores se crean automáticamente. Si activas un método de pago que admita pagos divididos (como Stripe Connect), el sistema distribuirá automáticamente los pagos a las cuentas de los vendedores conectados. Si esta función no está activada, tendrás que pagar a los vendedores manualmente y podrás consultar los importes que se les deben en la lista de billeteras.",
     filter_vendor: {
-      placeholder: "Filtro by Vendedor...",
+      placeholder: "Filtrar por vendedor...",
     },
   },
 
@@ -7307,11 +7436,11 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Esta sección muestra una lista detallada de todas las transacciones de la billetera seleccionada. Se registra una transacción de cargo cuando un cliente paga un pedido correctamente. Si un pedido se cancela o se reembolsa parcialmente, la transacción de reembolso correspondiente también se registrará aquí.",
     vendor_bank: "Banco del vendedor",
-    order_fee: "Pedido Comisión",
-    order_refund: "Pedido Reembolso",
-    reverse_fund: "Opción",
+    order_fee: "Comisión del pedido",
+    order_refund: "Reembolso del pedido",
+    reverse_fund: "Reversión de fondos",
     payout: "Pago",
   },
 
@@ -7321,8 +7450,8 @@ export default {
   marketplace_payouts: {
     title: "Historial de pagos",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
-    top_up_vendor_action: "Opción",
+      "Esta función simplifica la contabilidad para ti y tus vendedores al mantener un registro detallado de todas las transacciones. Los pagos pueden procesarse manualmente mediante transferencias bancarias u otros métodos, o gestionarse automáticamente a través de proveedores de pago que admitan pagos divididos, como Stripe.",
+    top_up_vendor_action: "Recargar cuenta del vendedor",
   },
 
   /**
@@ -7331,32 +7460,32 @@ export default {
   marketplace_pricings: {
     title: "Planes de precios",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
-    add_pricing_action: "Añadir Precios Plan",
+      "Configura modelos de precios para tu marketplace, como una comisión de margen del 5 % para productos digitales. Esto hace que la gestión de precios sea más rápida y eficiente.",
+    add_pricing_action: "Añadir plan de precios",
   },
 
   /**
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: "Título",
+    title: "Modelo de precios del marketplace",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Cuando asignas un modelo de precios a los productos de un vendedor, el precio se calcula automáticamente como Precio del vendedor * (1 + Comisión %).",
     delete: {
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
-      remove_pricing_action: "Quitar Precios Acción",
+        "Eliminar un modelo de precios afectará a todos los productos de vendedores vinculados a él. Antes de quitar un modelo de precios, asegúrate de actualizar todos los productos que lo usan y asignarles un modelo de precios diferente.",
+      remove_pricing_action: "Quitar modelo de precios",
     },
     inputs: {
       title: {
-        placeholder: "Opción",
+        placeholder: "p. ej., Clase de productos digitales...",
       },
       description: {
-        placeholder: "Opción",
+        placeholder: "Puedes añadir una nota aquí...",
       },
       accept_delete: {
-        true_description: "Sí Descripción",
-        true_title: "Sí Título",
+        true_description: "Quiero eliminar este modelo de precios.",
+        true_title: "Confirmar eliminación del modelo de precios",
       },
     },
   },
@@ -7368,60 +7497,60 @@ export default {
     vendor: {
       title: "Vendedor",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Selecciona el vendedor al que deseas transferir fondos. Una vez seleccionado, se mostrarán las opciones de pago disponibles. Si has activado pasarelas de pago que admiten pagos a vendedores, esas opciones también aparecerán aquí.",
     },
-    vendor_wallet: "Vendedor Billetera",
-    vendor_bank_account: "Vendedor Banco Cuenta",
+    vendor_wallet: "Billetera del vendedor",
+    vendor_bank_account: "Cuenta bancaria del vendedor",
     with_balance_tooltip:
-      "Configura y gestiona esta opción para tu tienda.",
-    with_balance: "Opción",
-    without_balance: "Opción",
+      "Cuando conectas servicios de pago como Stripe Connect, obtenemos y mostramos el saldo disponible de tu cuenta de Stripe como referencia.",
+    with_balance: "Con saldo",
+    without_balance: "Sin saldo - Modo rápido",
     bank_transfer: {
       title: "Transferencia bancaria",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Esto es un registro del historial de pagos. El sistema no transferirá dinero real al vendedor; debes pagar a tus vendedores manualmente.",
     },
     vendor_bank: "Banco del vendedor",
     gateway_in_debug_mode_warning:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Como la pasarela de pago está actualmente en modo de depuración, los fondos no se transferirán a una cuenta real.",
     payment: {
       title: "Pago",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Elige la moneda e introduce el importe que quieres transferir al vendedor. Si introduces un importe negativo, los fondos se retirarán de la billetera del vendedor. En el caso de cuentas conectadas con opciones de pago, los fondos se deducirán de la cuenta conectada, como la cuenta de Stripe del vendedor.",
     },
     history: {
-      title: "Historia",
+      title: "Historial",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Parte de este pago se ha reembolsado mediante una transferencia de reversión, lo que significa que el saldo se ha deducido de la cuenta del vendedor y se ha devuelto a tu cuenta.",
     },
     refund: {
       title: "Reembolso",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "El importe reembolsado se deducirá del saldo del vendedor. Todos los pagos (o los importes restantes) en la cuenta del vendedor (como Stripe Connect) se reembolsarán mediante una transferencia de reversión.",
     },
     inputs: {
       vendor: {
-        placeholder: "Seleccionar a Vendedor...",
+        placeholder: "Selecciona un vendedor...",
       },
       note: {
         placeholder:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Puedes añadir una nota aquí... Esta nota no es visible para el vendedor.",
       },
       accept_refund: {
-        true_description: "Sí Descripción",
-        true_title: "Cancelar & Reembolso Pago",
+        true_description: "Quiero cancelar este pago.",
+        true_title: "Cancelar y reembolsar el pago",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "Título",
+        title: "Fondos revertidos",
         message:
-          "Configura y gestiona esta opción para tu tienda.",
+          "La reversión de fondos del vendedor se ha completado correctamente: el dinero se ha transferido del banco a la billetera y se ha añadido al saldo de la billetera.",
       },
       payout_success: {
         title: "Pago",
         message:
-          "Configura y gestiona esta opción para tu tienda.",
+          "El pago al vendedor se ha procesado y añadido correctamente.",
       },
     },
   },
@@ -7430,88 +7559,88 @@ export default {
    * @see BShopQuotaImporter
    */
   quota_importer: {
-    quota: "Opción",
-    max_batch_msg: "Configura y gestiona esta opción para tu tienda.",
-    max_daily_limit_msg: "Configura y gestiona esta opción para tu tienda.",
-    extra_daily_limit_msg: "Configura y gestiona esta opción para tu tienda.",
-    add_items_today_msg: "Opción",
-    file_statistic_msg: "Opción",
-    used_quota: "Opción",
+    quota: "Cuota",
+    max_batch_msg: "Número máximo de elementos que puedes importar en un solo lote.",
+    max_daily_limit_msg: "Número máximo de elementos que puedes importar en un día.",
+    extra_daily_limit_msg: "Elementos adicionales permitidos más allá del límite diario.",
+    add_items_today_msg: "Elementos añadidos hoy.",
+    file_statistic_msg: "Estadísticas de este archivo.",
+    used_quota: "Cuota utilizada",
   },
 
   /** {@see BPageShopMarketingCampaign**/
   campaigns: {
     title: "Campañas",
     subtitle:
-      "Cree campañas, enlaces rastreables y vea información confiable y precisa en un solo lugar. Te ayudamos a tomar mejores decisiones basadas en datos.",
+      "Crea campañas y enlaces rastreables, y consulta información fiable y precisa en un solo lugar. Te ayudamos a tomar mejores decisiones basadas en datos.",
     add_action: "Agregar nueva campaña",
     empty_message: "¡Crea tu primera campaña ahora!",
     delete: {
       title: "Eliminar campaña",
-      message: "¿Está seguro de eliminar esta campaña y todos los datos?",
+      message: "¿Seguro que quieres eliminar esta campaña y todos sus datos?",
       action: "Sí, eliminar ahora",
     },
   },
 
   landing_categories: {
-    raw: "Plantillas sin procesar",
+    raw: "Plantillas base",
     all: "Todas las plantillas",
 
-    marketing: "Mercadeo y Anuncios",
-    product: "Introducción del producto",
-    health: "salud y estado fisico",
+    marketing: "Marketing y anuncios",
+    product: "Presentación de producto",
+    health: "Salud y fitness",
     food: "Alimentos y frutas",
-    house: "Bienes raíces y casa",
-    device: "máquina y dispositivo",
-    car: "Coche",
-    software: "Opción",
-    clothing: "Ropa y Zapatos",
-    jewellery: "Joyas",
+    house: "Inmobiliaria y vivienda",
+    device: "Máquinas y dispositivos",
+    car: "Automóvil",
+    software: "Software",
+    clothing: "Ropa y calzado",
+    jewellery: "Joyería",
   },
 
   /** {@see BPageShopSettingTheme**/
   shop_theme: {
-    theme_colors: "colores del tema",
+    theme_colors: "Colores del tema",
     theme_colors_description:
-      "Configura y gestiona esta opción para tu tienda.",
-    products_view_mode: "Vista de la lista de compras",
+      "Aquí puedes personalizar la paleta de colores principal de tu tienda. Cada plantilla puede utilizar estos colores para generar automáticamente una gama de colores completa acorde con tu marca.",
+    products_view_mode: "Vista de la lista de productos",
     products_view_mode_desc:
-      "Puede ajustar el modo de visualización de los productos en su tienda según el tamaño de la pantalla. Este modo se considerará por defecto y no se aplicará si el usuario cambia el modo de visualización.",
+      "Puedes ajustar el modo de visualización de los productos de tu tienda según el tamaño de la pantalla. Este modo se usará por defecto y no se aplicará si el usuario cambia el modo de visualización.",
 
     tabs: {
-      vendor_page: "Vendedor Página",
+      vendor_page: "Página del vendedor",
     },
 
     color_light: "Color primario",
-    color_dark: "color oscuro primario",
-    color_deep_dark: "color oscuro profundo",
+    color_dark: "Color oscuro primario",
+    color_deep_dark: "Color oscuro profundo",
     color_info: "Enlaces",
-    light_checkout: "Tema de pago ligero",
-    light_header: "Encabezado de luz",
-    light_footer: "Pie de página ligero",
-    light_filter: "Tema de filtro de categoría",
-    checkout_color: "Opción",
+    light_checkout: "Tema de la página de pago",
+    light_header: "Tema del encabezado",
+    light_footer: "Tema del pie de página",
+    light_filter: "Tema del filtro de categorías",
+    checkout_color: "Color de la página de pago",
 
     typography: "Tipografía",
-    header: "Encabezamiento",
-    footer: "Opción",
+    header: "Encabezado",
+    footer: "Pie de página",
     custom_code: "Código personalizado",
     custom_css: "CSS personalizado",
-    custom_variants: "variantes",
+    custom_variants: "Variantes",
 
     wrap_product_title: {
-      title: "Título",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      title: "Ajustar título",
+      subtitle: "La altura del título se ajustará dinámicamente.",
     },
 
     animation: {
-      title: "Título",
+      title: "Animación",
       static: {
-        false_title: "No Título",
+        false_title: "Con animaciones",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Las categorías y los productos tienen una animación interactiva que muestra su funcionalidad.",
         true_title: "Estático",
-        true_description: "Sí Descripción",
+        true_description: "Las categorías y los productos no tienen animación.",
       },
     },
 
@@ -7519,60 +7648,60 @@ export default {
       title: "Acciones rápidas",
       hover: {
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Modo simple y minimalista sin acciones adicionales en las tarjetas de producto.",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
-        true_title: "Sí Título",
+          "Muestra los botones de compra rápida y añadir a comparar al pasar el cursor sobre la tarjeta de producto.",
+        true_title: "Mostrar acciones al pasar el cursor",
       },
     },
     filter_products: {
-      title: "Filtro Productos",
+      title: "Filtrar productos",
       only_available: {
-        false_description: "Configura y gestiona esta opción para tu tienda.",
+        false_description: "Mostrar todos los productos en la lista de la tienda por defecto.",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
-        true_title: "Disponible Productos",
+          "Mostrar solo los productos disponibles en la lista de la tienda por defecto.",
+        true_title: "Productos disponibles",
         false_title: "Todos los productos",
       },
     },
     filter_categories: {
-      title: "Filtro Categorías",
+      title: "Filtrar categorías",
       hide_empty_folders: {
-        false_description: "No Descripción",
+        false_description: "Mostrar todas las categorías en la lista de la tienda.",
         false_title: "Mostrar todas las categorías",
-        true_title: "Sí Título",
+        true_title: "Ocultar categorías vacías",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Mostrar solo las categorías con productos en la lista de la tienda.",
       },
     },
 
     product_page: {
       title: "Página de producto",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
-      buy_button_color: "Opción",
+        "Personaliza aquí tu página de producto. Puedes ajustar la visualización de los precios y modificar la disposición de las secciones según tus preferencias.",
+      buy_button_color: "Color del botón de compra",
       smart_price: {
-        title: "Título",
+        title: "Precio unitario inteligente",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Calcula el precio unitario teniendo en cuenta las propiedades de peso, volumen y pack de las variantes. Ej.: si tienes una variante con tamaño de 2L y un precio de $5, el cliente verá $2.5/L en la página del producto.",
       },
       reverse_currency: {
-        title: "Título",
+        title: "Posición del símbolo de moneda",
         false_title: "Modo normal",
-        true_title: "Sí Título",
+        true_title: "Modo inverso",
         false_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "El símbolo de moneda se colocará al inicio de los números. Ej: $95 , €30",
         true_description:
-          "Configura y gestiona esta opción para tu tienda.",
+          "El símbolo de moneda se colocará al final de los números. Ej: 95$ , 30€",
       },
       variants_selector: {
-        title: "Título",
+        title: "Selector de variantes",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Puedes elegir diferentes formas de mostrar las variantes en la página del producto.",
       },
 
       tabs_order: {
-        title: "Pestañas Pedido",
+        title: "Orden de las pestañas",
         reset_to_default: "Restablecer valores predeterminados",
       },
     }, // end: product_page
@@ -7583,18 +7712,18 @@ export default {
    */
   b_shop_theme_vendor: {
     onboarding: {
-      title: "Título",
+      title: "Incorporación e inicio de sesión",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Personaliza la experiencia de incorporación e inicio de sesión de los vendedores con un vídeo, una imagen o un mensaje personalizados.",
     },
     inputs: {
       page_vendor_login: {
-        label: "Opción",
+        label: "Página de inicio de sesión del vendedor",
         message:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Selecciona una página de destino personalizada para el inicio de sesión de vendedores. Incluye vídeo, imágenes o texto para un diseño único. Esta página se muestra a los vendedores que no han iniciado sesión.",
       },
       page_vendor_registered: {
-        label: "Opción",
+        label: "Página de vendedor registrado",
         message:
           "Selecciona una página personalizada para vendedores con sesión iniciada. Esta página se muestra si tu marketplace admite varios vendedores por usuario.",
       },
@@ -7606,23 +7735,96 @@ export default {
     custom_variants: {
       title: "Variantes personalizadas",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Los productos físicos pueden tener variantes. Puedes cambiar el nombre predeterminado de las variantes. Te sugerimos dejar estos campos por defecto y vacíos para que Selldone los traduzca automáticamente al idioma de tus clientes. La longitud máxima es de 24 caracteres.",
     },
   },
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "Título",
-      subtitle: "Subtítulo",
+      title: "Fuente principal del sitio web",
+      subtitle: "Elige una fuente personalizada subida o una familia de Google Fonts.",
+      custom_font: "Fuente personalizada subida",
+      custom_font_message:
+        "Selecciona una fuente subida para generar automáticamente tanto la familia de fuente como el recurso de fuente.",
+      custom_resource_message:
+        "Generado automáticamente a partir de los archivos públicos de esta fuente en la CDN.",
+    },
+    custom_fonts: {
+      title: "Fuentes personalizadas",
+      subtitle:
+        "Sube y gestiona familias de fuentes propias de tu tienda. Añade una variante independiente para cada peso y estilo que necesites.",
+      quota: "{used} de {limit} fuentes",
+      quota_reached: "Has alcanzado el límite de fuentes de tu licencia actual.",
+      css_name: "Nombre font-family en CSS",
+      css_name_hint:
+        "Copia este valor para usar la fuente en el constructor de páginas o en CSS personalizado.",
+      file_hint:
+        "Cada archivo puede tener hasta {size}. Formatos admitidos: {formats}. Se recomienda WOFF2 para navegadores modernos.",
+      empty_title: "Aún no hay fuentes personalizadas",
+      empty_description:
+        "Sube tu primera familia de fuentes para usarla en tu escaparate y en el constructor de páginas.",
+      actions: {
+        add: "Añadir fuente personalizada",
+        add_weight: "Añadir peso",
+      },
+      dialog: {
+        add_title: "Añadir fuente personalizada",
+        edit_title: "Editar fuente personalizada",
+        subtitle:
+          "Define la familia una sola vez y luego añade solo los pesos y estilos que usa tu escaparate.",
+      },
+      inputs: {
+        name: "Nombre de la fuente",
+        name_message: "Un nombre reconocible para esta fuente en tu panel.",
+        fallback: "Familia de respaldo",
+        fallback_message: "Se usa cuando la fuente personalizada no se puede cargar.",
+        weight: "Peso",
+        style: "Estilo",
+        files: "Archivos de fuente",
+      },
+      faces: {
+        title: "Pesos y estilos de la fuente",
+        subtitle:
+          "Adjunta uno o más formatos de navegador a cada combinación de peso y estilo.",
+        face: "Variante {index}",
+      },
+      styles: {
+        normal: "Normal",
+        italic: "Cursiva",
+      },
+      weights: {
+        regular: "Regular",
+        bold: "Negrita",
+      },
+      errors: {
+        name_required: "Introduce un nombre para esta fuente.",
+        format: "{name} no es un formato de fuente compatible.",
+        size: "{name} supera el límite de tamaño de archivo de {size}.",
+        duplicate_format: "Solo se puede añadir un archivo {format} a esta variante.",
+        name_length: "El nombre de la fuente no puede superar los 80 caracteres.",
+        face_required: "Añade al menos una variante de fuente.",
+        duplicate_face: "Cada combinación de peso y estilo debe ser única.",
+        file_required: "Adjunta al menos un archivo a esta variante de fuente.",
+      },
+      delete: {
+        title: "Eliminar fuente personalizada",
+        message:
+          "¿Eliminar {name} y todos sus archivos subidos? Las páginas que la usen pasarán a su siguiente fuente disponible.",
+      },
+      notifications: {
+        created: "La fuente personalizada se ha creado.",
+        updated: "La fuente personalizada se ha actualizado.",
+        deleted: "La fuente personalizada se ha eliminado.",
+      },
     },
     inputs: {
       font_family: {
-        label: "Opción",
-        message: "Mensaje",
+        label: "Familia de fuente",
+        message: "Introduce el valor de font-family.",
       },
       font_res: {
-        label: "Opción",
-        message: "Mensaje",
+        label: "Recurso de fuente",
+        message: "Especifica el recurso de la fuente.",
       },
     },
   },
@@ -7630,29 +7832,29 @@ export default {
   /** @see BShopThemeHeader **/
   b_shop_theme_header: {
     logo: {
-      title: "Título",
+      title: "Logo del encabezado",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Por defecto, el logo de tu tienda se muestra en el encabezado, pero puedes subir un logo personalizado en su lugar. Si tu logo no tiene una proporción cuadrada, puede que necesites ajustar manualmente la altura y la anchura para una presentación óptima.",
     },
     header_title: {
       title: "Título de encabezado",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Aquí puedes personalizar el título que se muestra en el encabezado de tus páginas. Si deseas eliminarlo por completo, haz clic en el botón 'Establecer título vacío'.",
     },
 
     inputs: {
       logo: {
-        label: "Opción",
+        label: "Logo de la marca",
       },
       height: {
-        label: "Opción",
+        label: "Altura del logo",
       },
       width: {
-        label: "Opción",
+        label: "Anchura del logo",
       },
       title: {
         label: "Título de encabezado",
-        set_empty: "Opción",
+        set_empty: "Establecer título vacío",
       },
     },
   },
@@ -7660,43 +7862,43 @@ export default {
   /** @see ShopThemeVariantsMode**/
   shop_theme_variants_mode: {
     smart: {
-      title: "Inteligente Modo",
+      title: "Modo inteligente",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Variantes compactas en opciones separadas seleccionables, adecuado para la mayoría de los casos.",
     },
     select: {
-      title: "Seleccionar Modo",
+      title: "Modo desplegable",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Muestra todas las variantes en un menú desplegable, ideal para un gran número de variantes.",
     },
   },
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Editar Propiedad Establecer",
+    edit_title: "Editar conjunto de propiedades",
     add_title: "Añadir conjunto de propiedades",
     config: {
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Establece el título y la descripción de tu conjunto de propiedades. Solo será visible para el personal.",
     },
     variants: {
-      title: "variantes",
+      title: "Variantes",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Aquí puedes personalizar el nombre, el icono y el orden de las variantes. Si tienes una variedad de productos con variantes únicas que no encajan en las 6 variantes predeterminadas, puedes definir aquí variantes personalizadas para cada producto.",
     },
 
     inputs: {
       title: {
-        placeholder: "Opción",
+        placeholder: "Introduce un título para el conjunto de propiedades...",
       },
       description: {
-        placeholder: "Opción",
+        placeholder: "Introduce una descripción breve... (opcional)",
       },
       custom_variants: {
         true_title: "Variantes personalizadas",
-        false_title: "Predeterminado Variantes",
-        true_description: "Sí Descripción",
-        false_description: "No Descripción",
+        false_title: "Variantes predeterminadas",
+        true_description: "Personaliza las variantes de tus productos.",
+        false_description: "Usa las variantes globales predeterminadas.",
       },
     },
   },
@@ -7705,22 +7907,22 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "Establecer Valores Establecer... (Opcional)",
+        placeholder: "Define el conjunto de valores... (opcional)",
         messages:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Puedes sugerir valores y personalizar su orden.",
       },
     },
   },
 
   /** {@see AppTemplates**/
   app_templates: {
-    default: "Defecto",
+    default: "Predeterminado",
     blue: "Océano azul",
     amber: "Ámbar",
     green: "Ecuatorial",
     red: "Vampiro",
     magenta: "Flor",
-    master: "Maestría",
+    master: "Maestro",
     black: "Lado oscuro",
   },
 
@@ -7728,14 +7930,14 @@ export default {
   affiliate_orders: {
     title: "Pedidos de socios afiliados",
     table: {
-      order_price: "Total de la orden",
+      order_price: "Importe del pedido",
       order_payment: "Estado de pago del pedido",
       order_link: "Enlace de pedido",
       commission_status: "Estado de la comisión",
-      commission_amount: "monto de la comisión",
+      commission_amount: "Importe de la comisión",
       items: "Artículos",
-      actions: "Comportamiento",
-      create_date: "Fecha de Creación",
+      actions: "Acciones",
+      create_date: "Fecha de creación",
     },
     notifications: {
       update_success: "Estado de afiliado actualizado.",
@@ -7756,39 +7958,39 @@ export default {
   my_roles: {
     title: "Mis roles",
     message:
-      "Los roles son un tipo de acceso otorgado a los empleados de una tienda. Por ejemplo, personal encargado de enviar o empacar pedidos.",
+      "Los roles representan los permisos de acceso específicos que se conceden a los empleados de la tienda. Por ejemplo, se pueden asignar roles al personal encargado del procesamiento de pedidos, como el envío o el embalaje.",
   },
   /** {@see WidgetMyRoleCard**/
   role_card: {
-    complete_tasks: "tareas completadas",
+    complete_tasks: "Tareas completadas",
     reject_tasks: "Tareas rechazadas",
-    last_check: "Comprobación reciente",
+    last_check: "Última comprobación",
   },
 
   /** {@see BAppConfigDialog**/
   app_config: {
     reviews: "Reseñas",
-    rate_now: "Califica ahora",
+    rate_now: "Valorar ahora",
     category: "Categoría",
     uninstall: "Desinstalar",
-    get_app: "Obtener aplicaciones",
+    get_app: "Obtener aplicación",
     public_keys: "Claves públicas",
     private_keys: "Claves privadas (seguras)",
     config: "Configuración de la aplicación",
     app_status: "Estado de la aplicación",
-    app_info: "información de la aplicación",
-    update_at: "Actualizacion reciente",
-    visit_website: "Visita el sitio web",
+    app_info: "Información de la aplicación",
+    update_at: "Actualización reciente",
+    visit_website: "Visitar sitio web",
     privacy: "Política de privacidad",
     installs: "Instalaciones",
     basic_profile_permission: "Información básica del perfil",
     developer: "Desarrollador",
-    permissions: "permisos",
+    permissions: "Permisos",
     total_comments: "Comentarios totales",
     delete_dialog: {
       title: "Desinstalar aplicación",
       message: "¿Quieres eliminar esta aplicación de tu tienda?",
-      action: "Sí, Eliminar aplicación",
+      action: "Sí, eliminar aplicación",
     },
     notifications: {
       uninstall_success: "Aplicación desinstalada con éxito.",
@@ -7798,11 +8000,11 @@ export default {
   /** {@see BPageShopChannelBots**/
   shop_bots: {
     not_set: "¡No establecido!",
-    tokens: "fichas",
-    webhook: "Opción",
+    tokens: "Token(s)",
+    webhook: "Webhook",
     calls: "Llamadas",
     dialog: {
-      title: "{name} Configuración del bot",
+      title: "Configuración del bot {name}",
       message:
         "Un marco integral de bots para crear experiencias de compra de nivel empresarial.",
     },
@@ -7812,7 +8014,7 @@ export default {
   shop_customers: {
     title: "Gestión de clientes",
     subtitle:
-      "Los clientes se pueden agregar a su tienda de varias maneras: manualmente, mediante una importación masiva de Excel, a través del punto de venta o mediante su tienda en línea. Cada vez que un usuario inicie sesión en su tienda, se lo registrará automáticamente como cliente.",
+      "Los clientes se pueden añadir a tu tienda de varias maneras: manualmente, mediante importación masiva desde Excel, a través del POS o desde tu tienda en línea. Cada vez que un usuario inicie sesión en tu tienda, se registrará automáticamente como cliente.",
     add_customer_action: "Añadir nuevo cliente",
 
     all_customers: "Descargar todos los clientes",
@@ -7830,17 +8032,17 @@ export default {
     edit_title: "Editar cliente",
     add_title: "Añadir nuevo cliente",
     subtitle:
-      "Para agregar un cliente a su tienda, proporcione una dirección de correo electrónico o un número de teléfono.",
+      "Para añadir un cliente a tu tienda, proporciona una dirección de correo electrónico o un número de teléfono.",
     more: {
       title: "Agregar más detalles",
       subtitle: "Establecer moneda, club de clientes, segmentos, dirección y más.",
     },
     detail: {
       subtitle:
-        "Mantenga un registro de la información personal de sus clientes. Respete la privacidad de sus clientes.",
+        "Guarda un registro de la información personal de tu cliente. Respeta la privacidad de tus clientes.",
     },
     preferences: {
-      subtitle: "Establezca aquí la moneda de usuario predeterminada, el club de clientes y los segmentos.",
+      subtitle: "Establece aquí la moneda predeterminada del usuario, el club de clientes y los segmentos.",
     },
     address: {
       subtitle:
@@ -7850,19 +8052,19 @@ export default {
 
   /** {@see AppPageDashboard**/
   app_dashboard: {
-    status: "Publicar estado",
+    status: "Estado de publicación",
     statistics: "Estadísticas",
   },
   /** {@see AppPage_Publish**/
   app_publish: {
     production_version: "Versión de producción",
     beta_version: "Versión beta",
-    alpha_version: "versión alfa",
+    alpha_version: "Versión alfa",
   },
   /** {@see AppPublishWidget**/
   app_publish_widget: {
     header: "Encabezado del sitio web de la tienda",
-    header_code: "código de encabezado",
+    header_code: "Código de encabezado",
     admin_page: "Páginas de administración",
     name: "Nombre",
     icon: "Icono",
@@ -7874,9 +8076,9 @@ export default {
     title: "Acceso API",
     revoke_api: "Revocar API",
     api_key: "Clave API",
-    secret: "Llave secreta",
+    secret: "Clave secreta",
     client: "Cliente",
-    redirect_url: "URL de redirección",
+    redirect_url: "URLs de redirección",
     client_name: "Nombre del cliente",
   },
 
@@ -7884,46 +8086,46 @@ export default {
   app_loader_page: {
     no_ui_title: "¡Esta aplicación no tiene ninguna interfaz de usuario!",
     no_ui_desc:
-      "Algunas aplicaciones no requieren una interfaz de usuario en su área de administración. Esta aplicación solo puede agregar código a la sección de encabezado del sitio web de su tienda.",
-    header: "código de encabezado",
+      "Algunas aplicaciones no requieren una interfaz de usuario en su área de administración. Es posible que esta aplicación solo añada código a la sección de encabezado del sitio web de tu tienda.",
+    header: "Código de encabezado",
   },
   /** {@see BPageShopFinanceReport**/
   finance_report: {
     export_title: "Exportar datos financieros",
     export_sub_title:
-      "Descarga los detalles financieros en un solo archivo.",
-    start_input_placeholder: "Seleccione la fecha de inicio del informe",
-    end_input_placeholder: "Seleccione la fecha de finalización del informe",
-    download_action: "Descargar lista de finanzas",
+      "Obtén un único archivo con la información financiera. Incluye los detalles de los pedidos en línea y en tienda, así como los datos de ventas por producto del periodo que elijas.",
+    start_input_placeholder: "Selecciona la fecha de inicio del informe",
+    end_input_placeholder: "Selecciona la fecha de fin del informe",
+    download_action: "Descargar informe financiero",
   },
 
   /** {@see BPageShopSettingNotifications**/
   shop_notifications: {
     title: "Notificaciones de la tienda",
-    message: "Edite la configuración y las preferencias de notificación de su tienda",
+    message: "Edita los ajustes y preferencias de notificaciones de tu tienda",
     channel: "Canal",
     status: "Estado",
     events: "Eventos",
     info: "Información",
-    actions: "Comportamiento",
+    actions: "Acciones",
     connected: "Conectado",
     not_connected: "¡No conectado!",
-    connect_now: "Conecte ahora",
+    connect_now: "Conectar ahora",
     send_test: "Enviar datos de prueba",
     disconnect: "Desconectar",
 
     dialog: {
-      title: "Configuración de bots",
+      title: "Configuración del bot",
       message:
         "Un marco de notificación integral para crear experiencias de comercio electrónico de nivel empresarial.",
-      action: "¡Haga clic aquí!",
+      action: "¡Haz clic aquí!",
       set_config: "Establecer configuración",
     },
   },
   notification_events: {
     new_order: "🛍️ Pedido",
     payment: "💳 Pago",
-    return: "📦 Regresar",
+    return: "📦 Devolución",
     weekly_report: "📈 Informes semanales",
   },
 
@@ -7933,33 +8135,33 @@ export default {
     add_to_delivery_que_action: "Añadir a la cola de envío",
     in_que: "En cola de envío",
     message:
-      "Después de entregar el paquete al servicio de mensajería, haga clic en el botón <b>Confirmar entrega</b> .",
+      "Una vez que el paquete haya sido entregado a la mensajería, haz clic en el botón <b>Confirmar entrega</b>.",
     message_add_to_service:
-      "Haga clic en el siguiente botón si desea enviar este paquete por un <b>servicio de entrega</b> .",
-    courier_action: "Confirmacion de envio",
+      "Pulsa el botón de abajo para añadir tu pedido a la cola de envío y despachar el paquete mediante un <b>servicio de entrega</b>.",
+    courier_action: "Confirmación de entrega",
     courier_action_subtitle: "Mi mensajero recogerá el paquete.",
 
-    pickup_ready_action: "Opción",
-    pickup_ready_action_subtitle: "Opción",
+    pickup_ready_action: "Listo para recoger",
+    pickup_ready_action_subtitle: "El pedido está listo para que el cliente lo recoja.",
 
     service_action: "Confirmación de ejecución",
 
     checklist: [
-      "Verifique la tarjeta de identidad del mensajero.",
-      "El buen empaque de los productos y la entrega oportuna pueden aumentar la tasa de retención de sus clientes.",
+      "Comprueba el documento de identidad del mensajero.",
+      "Un buen embalaje de los productos y una entrega puntual pueden aumentar la tasa de retención de tus clientes.",
     ],
     manual: {
       title: "Esperando confirmación de entrega por parte del cliente.",
       action_received: "Confirmación del comprador",
-      action_returned: "Entrega Devolución",
+      action_returned: "Devolución de la entrega",
 
       message:
-        "Nota: Si el cliente recibe el pedido, puede usar las siguientes opciones para completar el cumplimiento. Algunos servicios de envío en el sistema confirmarán la entrega automáticamente.",
+        "Nota: si el cliente recibe el pedido, puedes usar las siguientes opciones para completar el procesamiento. Algunos servicios de envío del sistema confirmarán la entrega automáticamente.",
     },
     auto_complete_note:
       "Después de un cierto período, el estado del pedido cambiará a entregado. Este plazo varía según el tipo de pedido y lo determina el sistema.",
     received: {
-      title: "Entregado al Cliente.",
+      title: "Entregado al cliente.",
       delivered_date: "Fecha de entrega",
     },
     receiver: "Receptor",
@@ -7967,22 +8169,22 @@ export default {
 
     tracking: {
       title: "Añadir código de seguimiento/URL",
-      code: "Codigo de localización",
+      code: "Código de seguimiento",
       url: "URL de seguimiento",
       message:
-        "Si realizó el envío a través de un servicio que proporciona un código de seguimiento para este pedido, puede ingresar el código y el enlace de seguimiento correspondiente en esta sección. Esta información se le mostrará al cliente.",
+        "Si has realizado el envío a través de un servicio que proporciona un código de seguimiento para este pedido, puedes introducir el código y el enlace de seguimiento correspondiente en esta sección. Esta información se mostrará al cliente.",
     },
-    preferred_delivery_time: "Tiempo de entrega preferido",
+    preferred_delivery_time: "Horario de entrega preferido",
     manage_couriers: "Administrar mis mensajeros",
     manage_service: "Administrar servicio",
 
-    option_deliver_by_courier: "Opción 1: Entrega por sus mensajeros.",
+    option_deliver_by_courier: "Opción 1: Entrega por tus mensajeros.",
     option_add_to_que:
-      "Opción 2: Agregar a la cola para procesar en la página de servicio de envío.",
+      "Opción 2: Añadir a la cola para procesar en la página del servicio de envío.",
     option_instant_shipping: "Opción 3: Envío instantáneo.",
 
     verify_delivery_input: {
-      true_title: "Sí Título",
+      true_title: "Confirmar finalización de la entrega",
       true_description:
         "Confirmo que el pedido ha sido entregado al cliente.",
     },
@@ -7992,7 +8194,7 @@ export default {
   shop_home_edit: {
     title: "Configuración de la página de inicio",
     sub_title:
-      "Establezca la página predeterminada de su sitio web",
+      "Configura en esta sección la página predeterminada de tu sitio web. También puedes designar una página de inicio personalizada para cada dominio por separado desde los ajustes de dominio.",
 
     default_home: "Página de inicio predeterminada",
     default_home_placeholder: "La página de la tienda es la página de inicio del sitio web",
@@ -8001,9 +8203,9 @@ export default {
    * @see OReferralBank
    */
   referral_bank: {
-    title: "Panel de referencia",
+    title: "Panel de referidos",
     subtitle:
-      "Si lo solicita, la comisión se abonará en la cuenta bancaria que usted indique. Indique aquí sus datos bancarios.",
+      "Cuando lo solicites, la comisión se abonará en la cuenta bancaria que indiques. Proporciona aquí tus datos bancarios.",
     no_bank_info: "¡Sin información bancaria!",
     actions: {
       edit_my_bank_info: "Editar mi información bancaria",
@@ -8013,7 +8215,7 @@ export default {
       info: {
         title: "Banco",
         subtitle:
-          "Ingrese aquí su información bancaria. Utilizaremos esta información para transferir fondos. Asegúrese de que la cuenta bancaria esté a su nombre o a nombre de su empresa, según corresponda.",
+          "Introduce aquí tu información bancaria. Usaremos esta información para transferir fondos. Asegúrate de que la cuenta bancaria esté a tu nombre o a nombre de tu empresa, según corresponda.",
       },
       inputs: {
         name: {
@@ -8046,7 +8248,7 @@ export default {
             "Utilizado principalmente en Europa, el IBAN es un sistema acordado internacionalmente para identificar cuentas bancarias a través de fronteras nacionales.",
         },
         contact: {
-          label: "Información del contacto",
+          label: "Información de contacto",
           message: "Número de teléfono o dirección de correo electrónico asociada a la cuenta.",
         },
         note: {
@@ -8057,7 +8259,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "Su información bancaria se ha actualizado correctamente.",
+        message: "Tu información bancaria se ha actualizado correctamente.",
       },
     },
   },
@@ -8067,7 +8269,7 @@ export default {
    */
   referral_tier: {
     message:
-      "De todas las tarifas de servicios, suscripciones y otros pagos realizados por sus referidos.",
+      "De todas las tarifas de servicio, suscripciones y otros pagos realizados por tus referidos.",
   },
 
   /**
@@ -8087,7 +8289,7 @@ export default {
     Gold: {
       title: "Nivel Oro",
       description:
-        "Estás en el nivel Gold. Has ganado una comisión del 6 % de tus referidos.",
+        "Estás en el nivel Oro. Has ganado una comisión del 6 % de tus referidos.",
     },
     Platinum: {
       title: "Nivel Platino",
@@ -8106,29 +8308,29 @@ export default {
    */
   page_monetize: {
     title: "Monetizar",
-    subtitle: "Distribuir el acceso a oportunidades de negocio.",
+    subtitle: "Amplía el acceso a oportunidades de negocio.",
   },
 
   /** {@see OPageMonetizeReferral} **/
   selldone_referral_page: {
-    referral_link: "Enlace de referencia",
+    referral_link: "Enlace de referido",
     registered: "Registrado",
     accepted: "Aceptado",
     bank: "Banco",
     bank_title: "Información bancaria para retiro",
     new_users: "Usuarios nuevos",
-    performance: "Actuación",
-    credit_mode: "modo de crédito",
-    get_stickers: "Obtenga el código Html de la etiqueta para copiar y pegar",
-    click_copy_sticker_code: "Haga clic en la insignia para copiar el código html.",
+    performance: "Rendimiento",
+    credit_mode: "Modo de crédito",
+    get_stickers: "Obtén el código HTML de la insignia para copiar y pegar",
+    click_copy_sticker_code: "Haz clic en la insignia para copiar el código HTML.",
   },
   /** {@see OReferralTransactions} **/
   selldone_referral_payment: {
-    title: "Pagos de referencia",
+    title: "Retiros",
     subtitle:
-      "Es la lista de transacciones de retiro. Cuando transfieras fondos desde la billetera de referencia a tu cuenta bancaria o a tu billetera Selldone, aparecerán aquí.",
+      "Es la lista de transacciones de retiro. Cuando transfieras fondos desde la billetera de referidos a tu cuenta bancaria o a tu billetera de Selldone, aparecerán aquí.",
 
-    officer: "Oficial",
+    officer: "Responsable",
     amount: "Monto de la transacción",
     note: "Nota",
     date: "Fecha",
@@ -8137,30 +8339,30 @@ export default {
   /** {@see BGatewayCard} **/
   widget_shop_gateway: {
     link_account_caution:
-      "¡Vincule una cuenta ({currency}) a su tienda! Haga clic aquí..",
+      "¡Vincula una billetera ({currency}) a tu tienda! Haz clic aquí..",
   },
 
   /** {@see BProductOrderSalesPerformance} **/
   product_sell_widget: {
-    title: "Desempeño de ventas de productos",
+    title: "Rendimiento de ventas del producto",
   },
 
   /** {@see BOrderDashboardDropshippingFulfillment} **/
   fulfilment_order_widget: {
-    title: "Cumplimiento de envío directo",
-    check_action: "Aceptar envío directo",
-    uncheck_action: "Orden confirmada",
+    title: "Procesamiento de dropshipping",
+    check_action: "Aceptar dropshipping",
+    uncheck_action: "Pedido confirmado",
     pay_action: "Pagar el costo de los artículos..",
     pay_completed: "Confirmación de pago",
-    list_of_items: "Reventa de artículos",
+    list_of_items: "Artículos en reventa",
 
     checklist: [
-      "Paga la cantidad de productos que vendes indirectamente al vendedor original.",
+      "Paga el importe de los productos que vendes indirectamente al vendedor original.",
       "Puedes pagar y liquidar el coste de los productos al proveedor de forma conjunta en el apartado de contabilidad > Dropshipping de la tienda.",
-      "Después del pago, el proveedor recibirá su pedido y lo enviará directamente al comprador después de la preparación.",
+      "Después del pago, el proveedor recibirá tu pedido y, una vez preparado, lo enviará directamente al comprador.",
     ],
     message:
-      "Después de pagar la tarifa del pedido al proveedor, vea el progreso del envío del pedido en esta sección.",
+      "Después de pagar el importe del pedido al proveedor, consulta el progreso del envío del pedido en esta sección.",
   },
 
   /** {@see BPageWholesaler} **/
@@ -8169,17 +8371,17 @@ export default {
       dashboard: "Panel",
       orders: "Pedidos",
       inventory: "Inventario",
-      shops: "revendedores",
-      requests: "Peticiones",
+      shops: "Revendedores",
+      requests: "Solicitudes",
     },
-    drop_shipping_charge: "Cargo por envío directo",
+    drop_shipping_charge: "Recarga de dropshipping",
   },
 
   /** {@see DropshipRequestStatus} **/
   dropship_request_status: {
     PENDING: "Pendiente",
-    ACCEPT: "Aceptar",
-    REJECT: "Rechazar",
+    ACCEPT: "Aceptada",
+    REJECT: "Rechazada",
   },
 
   /** {@see BPageWholesalerShop} **/
@@ -8187,7 +8389,7 @@ export default {
     menu: {
       dashboard: "Panel",
       orders: "Pedidos",
-      wallet: "Cartera",
+      wallet: "Billetera",
     },
   },
 
@@ -8198,12 +8400,12 @@ export default {
 
   /** {@see BPageWholesalerShopOrders} **/
   dropshipping_reseller_orders: {
-    title: "pedidos de revendedor",
+    title: "Pedidos de revendedor",
   },
 
   /** {@see BPageWholesalerShopWallet} **/
   dropshipping_reseller_wallet: {
-    title: "billetera de revendedor",
+    title: "Billetera de revendedor",
   },
 
   /** @see MasterPaymentDialog **/
@@ -8212,24 +8414,24 @@ export default {
       payment_success_title: "Confirmación de pago",
       payment_success: "Pago completado.",
       buy_title: "Comprar",
-      pay_by_giftcards: "Su pedido fue pagado con una tarjeta de regalo.",
+      pay_by_giftcards: "Tu pedido se ha pagado con una tarjeta de regalo.",
       free_order: "Tu pedido es gratis.",
-      pay_by_cod: "Su pedido ha sido registrado como pago contra reembolso.",
+      pay_by_cod: "Tu pedido se ha registrado como pago contra reembolso.",
       pay_by_dir:
-        "Su pedido ha sido registrado como pago directo, complete el pago y cargue el recibo en la página de su pedido.",
+        "Tu pedido se ha registrado como pago directo; completa el pago y sube el recibo en la página de tu pedido.",
 
       pay_title: "Pago",
       qr_code_payment: "Código QR de pago creado.",
-      connecting_to_online_gateway: "Conexión a la pasarela de pago en línea.",
+      connecting_to_online_gateway: "Conectando con la pasarela de pago en línea.",
     },
   },
 
   /** @see DropShippingAccountCharges **/
   dropship_charges: {
     notifications: {
-      pay_confirm_message: "Se confirma el pago.<br> Fecha: {payment_at}",
+      pay_confirm_message: "Pago confirmado.<br> Fecha: {payment_at}",
       pay_fail_title: "No pagado",
-      pay_fail_message: "¡El pago no puede ser verificado!",
+      pay_fail_message: "¡No se puede verificar el pago!",
     },
   },
 
@@ -8237,51 +8439,51 @@ export default {
   dropship_checkout: {
     pay_dialog: {
       title: "Pago de pedidos de revendedor",
-      balance: "el saldo de tu cuenta",
-      total_cost: "Costo total de pedidos",
-      need_charge: "necesita cargar",
-      no_account_cation: "¡No tienes cuenta! Llamar al mayorista.",
+      balance: "Saldo de tu cuenta",
+      total_cost: "Coste total de los pedidos",
+      need_charge: "Recarga necesaria",
+      no_account_cation: "¡No tienes cuenta! Contacta con el mayorista.",
       orders: "Pedidos",
     },
     notifications: {
       success_pay:
-        "Su pago para estos pedidos confirmado y completado con éxito.",
+        "Tu pago de estos pedidos se ha confirmado y completado correctamente.",
     },
   },
   /** @see BPageShopFinanceResellerWallets **/
   dropship_accounts: {
-    charge_account: "Cuenta de cargo",
+    charge_account: "Recargar cuenta",
     charge_dialog: {
-      title: "Cobrar cuenta de dropshipping",
-      amount_input: "cargo de cuenta",
-      charge_now: "Carga ahora",
+      title: "Recargar cuenta de dropshipping",
+      amount_input: "Importe de recarga",
+      charge_now: "Recargar ahora",
     },
   },
 
   /** @see BPageWholesalerDashboard **/
   dropship_admin_dashboard: {
     title: "Solicitudes de revendedor",
-    today_order_count: "Los pedidos de hoy cuentan",
-    yesterday_order_count: "Los pedidos de ayer cuentan",
+    today_order_count: "Número de pedidos de hoy",
+    yesterday_order_count: "Número de pedidos de ayer",
     total_7_days: "Pedidos totales en los últimos 7 días",
   },
 
   /** @see BProductAddDropshipping **/
   dropshipping_products: {
     no_shops:
-      "Lo sentimos, no se encontró ninguna tienda. Habrá más tiendas en el futuro para que puedas poner sus productos en tu tienda.",
+      "Lo sentimos, no se encontraron tiendas mayoristas. En el futuro se añadirán más tiendas, lo que te permitirá incluir sus productos en tu tienda.",
     show_all_shops: "Mostrar todas las tiendas",
     show_eligible_shops_message: "Mostrar tiendas elegibles",
     show_all_message: "Puedes ver todas las tiendas",
     current_shop: "Tienda actual",
     request_account: "Solicitar cuenta",
-    request_accepted: "Petición aceptada",
+    request_accepted: "Solicitud aceptada",
     request_rejected: "Solicitud rechazada",
-    request_pending: "Pedido pendiente..",
+    request_pending: "Solicitud pendiente..",
     notifications: {
       add_product: "Producto añadido a tu tienda.",
       request_access:
-        "Enviamos su solicitud de acceso al mayorista con éxito.",
+        "Hemos enviado tu solicitud de acceso al mayorista correctamente.",
     },
   },
 
@@ -8289,13 +8491,13 @@ export default {
   product_dropshipping: {
     need_re_enable:
       "Este producto ha sido cambiado por el vendedor original, estos cambios de precio han desactivado el producto en tu tienda. Revisa los cambios y si aceptas reactivar el producto, presiona el botón de abajo.",
-    need_re_enable_action: "Aceptar, aplicar cambios y activación",
+    need_re_enable_action: "Acepto, aplicar cambios y activar",
     changed_value:
-      "Este producto ha sido editado por el vendedor original. Verifique los cambios y si acepta aplicar los cambios a su producto, haga clic en el botón a continuación.",
-    changed_value_action: "Aceptar, hacer cambios",
+      "Este producto ha sido editado por el vendedor original. Revisa los cambios y, si aceptas aplicarlos a tu producto, haz clic en el botón de abajo.",
+    changed_value_action: "Acepto, aplicar cambios",
     parent_deleted: "Este artículo ha sido eliminado por el vendedor original.",
     parent_closed:
-      "¡Este producto ha sido deshabilitado por el vendedor original! No podrá vender este producto en su tienda, pero si el vendedor original reactiva el producto, podrá reactivar este producto en su tienda.",
+      "¡Este producto ha sido desactivado por el vendedor original! No podrás vender este producto en tu tienda, pero si el vendedor original lo reactiva, podrás reactivarlo en tu tienda.",
     notifications: {
       re_enable_success: "Este producto ha sido reactivado.",
       update_success:
@@ -8305,14 +8507,14 @@ export default {
 
   /** @see BPageProductDropshipping **/
   product_dropshipping_admin: {
-    title: "Envío directo",
+    title: "Dropshipping",
     save_alert:
       "La configuración de dropshipping de este producto ha cambiado. ¿Quieres guardar los cambios?",
     reselling_message:
-      "Al activar esta opción, otros vendedores podrán agregar su producto a su tienda.",
-    reselling: "Habilitar envío directo",
-    price_merchants: "precio para comerciantes",
-    price_commission: "Comisión del comerciante (fijo)",
+      "Al activar esta opción, otros vendedores podrán añadir tu producto a sus tiendas.",
+    reselling: "Activar dropshipping",
+    price_merchants: "Precio para comerciantes",
+    price_commission: "Comisión del comerciante",
   },
 
   /** @see SShopBuyButton **/
@@ -8320,27 +8522,27 @@ export default {
   buy_button: {
     waiting_for_availability: "Esperando disponibilidad",
     inform_me_when_available: "¡Avísame cuando esté disponible!",
-    pay_buy: "Pagar comprar",
-    quantity: "Contar",
-    quantity_in_basket: "artículos en el carrito",
-    count_unit: "X",
-    remove: "Remover",
+    pay_buy: "Pagar y comprar",
+    quantity: "Cantidad",
+    quantity_in_basket: "Artículos en el carrito",
+    count_unit: "x",
+    remove: "Quitar",
     add_to_basket: "Añadir al carrito",
     book_now: "Reservar ahora",
-    reserve_now: "reservar ahora",
+    reserve_now: "Reservar ahora",
     buy_now: "Comprar ahora",
 
     buy: "Comprar",
     notifications: {
       inform_add_success: "Te avisaremos cuando esté disponible.",
-      inform_remove_success: "Ha sido eliminado de la lista de espera.",
+      inform_remove_success: "Has sido eliminado de la lista de espera.",
     },
   },
   /** @see SProductOverview **/
   product_info: {
     fake: "Falso",
     action: "Subasta",
-    compare_limit: "límite de 10 artículos",
+    compare_limit: "Límite de 10 artículos",
     compare_add: "Añadir a comparar",
     compare_be_in_list: "En la lista de comparación",
 
@@ -8348,19 +8550,19 @@ export default {
     brand: "Marca",
     category: "Categoría",
     discount: "Descuento",
-    track_price: "Seguimiento del precio",
+    track_price: "Seguir precio",
     waiting_for_auction: "¿Esperando subasta?",
-    inform_auction: "Avisarme cuando subasta",
-    return_in_days: "{days} Días Garantía Devolución",
-    support24h7: "Soporte 24 horas 7 días",
-    support_normal: "Soporte de horas de trabajo",
-    original_guarantee: "Garantía original",
-    cod_payment: "Soporte contra reembolso",
+    inform_auction: "Avísame cuando haya subasta",
+    return_in_days: "Garantía de devolución de {days} días",
+    support24h7: "Soporte 24 horas, 7 días",
+    support_normal: "Soporte en horario laboral",
+    original_guarantee: "Garantía de originalidad",
+    cod_payment: "Pago contra reembolso disponible",
 
-    pros: "ventajas",
+    pros: "Ventajas",
     cons: "Contras",
 
-    external_link: "Lee mas",
+    external_link: "Leer más",
     notifications: {
       congratulation: "Felicidades",
       waiting_list_add_success:
@@ -8368,10 +8570,10 @@ export default {
       waiting_list_delete_success: "Saliste de la lista de espera de la subasta.",
     },
 
-    offer_message: "Compre {min_quantity} Obtenga un {percent}% de descuento en estos artículos",
+    offer_message: "Compra {min_quantity} y obtén un {percent}% de descuento en estos artículos",
     up_to: "Hasta {per_order}x por pedido",
-    get_free: "LIBERARSE",
-    get_off: "OBTENGA {percent}% DE DESCUENTO",
+    get_free: "GRATIS",
+    get_off: "OBTÉN {percent}% DE DESCUENTO",
   },
 
   /** @see SStyler **/
@@ -8396,25 +8598,25 @@ export default {
     /** @see SPageProductsFilter **/
     products: {
       title: "Gestión de listas de productos y categorías",
-      sort_options: "Seleccione la configuración de Ordenar y Ver",
-      item_types: "Mostrar solo productos / categorías",
+      sort_options: "Selecciona la configuración de ordenación y vista.",
+      item_types: "Mostrar solo productos / categorías.",
       product_only: "Solo productos",
       category_only: "Solo categorías",
-      no_category: "No hay ninguna categoría en su tienda.",
-      limit: "límite de productos",
-      limit_message: "Ingrese los recuentos de resultados de productos",
-      select_categories: "Seleccionar categorías disponibles",
+      no_category: "No hay ninguna categoría en tu tienda.",
+      limit: "Límite de productos",
+      limit_message: "Introduce el número de productos a mostrar.",
+      select_categories: "Selecciona las categorías disponibles.",
       categories_limit: "Límite de categorías",
       categories_limit_msg:
-        "Introduzca el número máximo de categorías. Establecer cero para ningún límite.",
+        "Introduce el número máximo de categorías. Establece cero para no tener límite.",
     },
   },
 
   /** @see BPageShopCrmChat **/
   shop_contacts: {
-    popup: "Habilitar soporte emergente",
+    popup: "Activar ventana emergente de soporte",
     popup_message:
-      "Al activar esta opción, la clave de soporte se verá en la parte inferior derecha de tu tienda.",
+      "Al activar esta opción, el botón de soporte se verá en la parte inferior derecha de tu tienda.",
   },
 
   /** @see BPagePopup **/
@@ -8425,7 +8627,7 @@ export default {
       design: "Diseño",
       appearance: "Apariencia",
       filter: "Filtrar",
-      setting: "Entorno",
+      setting: "Ajustes",
     },
     notifications: {
       save: "Ventana emergente guardada con éxito.",
@@ -8436,43 +8638,43 @@ export default {
   popup_appearance: {
     position: "Posición",
     position_desc:
-      "Especifique la ubicación de visualización de esta notificación en la página.",
+      "Especifica la ubicación en la página donde se mostrará esta notificación.",
     width: "Ancho",
-    width_desc: "Puede establecer el ancho de página máximo.",
+    width_desc: "Puedes establecer el ancho máximo de la página.",
     height: "Altura",
-    height_desc: "Puede establecer la altura máxima de la página.",
+    height_desc: "Puedes establecer la altura máxima de la página.",
     radius: "Radio de esquina",
     radius_desc:
-      "En esta sección puede establecer el radio de curvatura de las esquinas de la notificación.",
+      "En esta sección puedes establecer el radio de curvatura de las esquinas de la notificación.",
     shadow: "Sombra",
     shadow_desc: "¿Quieres que la ventana emergente esté sombreada?",
-    delay: "Mostrar retraso",
+    delay: "Retraso de aparición",
     delay_desc:
-      "Una vez que el usuario ingrese a su tienda, luego de transcurrido este tiempo, se le mostrará una notificación al usuario.",
-    hide: "Ocultar retraso",
+      "Una vez que el usuario entre en tu tienda, transcurrido este tiempo se le mostrará una notificación.",
+    hide: "Retraso de cierre",
     hide_desc:
-      "Puedes configurar que la notificación se cierre automáticamente unos segundos después del espectáculo. Un valor de 0 significa que la notificación no se cerrará automáticamente.",
-    transition: "Animación emergente",
+      "Puedes configurar que la notificación se cierre automáticamente unos segundos después de mostrarse. Un valor de 0 significa que la notificación no se cerrará automáticamente.",
+    transition: "Animación de la ventana emergente",
   },
 
   /** @see BPagePopupFilter **/
   popup_filter: {
     registered: "Requisito de membresía e inicio de sesión",
     registered_desc:
-      "Puede optar por mostrar esta notificación solo a los usuarios o invitados de la tienda.",
-    only_guests: "solo invitados",
-    only_users: "Solo usuarios registrados",
+      "Puedes elegir mostrar esta notificación solo a los usuarios de la tienda o a los invitados.",
+    only_guests: "Solo invitados",
+    only_users: "Solo usuarios con sesión iniciada",
     purchased: "Historial de compras",
     purchased_desc:
-      "Puede optar por mostrar esta notificación solo a los usuarios que ya han comprado o a los que aún no han comprado.",
-    no_purchase: "No hay compra todavía",
-    yes_purchase: "Comprado antes",
+      "Puedes elegir mostrar esta notificación solo a los usuarios que ya han comprado o a los que aún no han comprado.",
+    no_purchase: "Sin compras todavía",
+    yes_purchase: "Ha comprado antes",
     sex: "Género",
     sex_desc:
       "¿Quieres que esta notificación se muestre solo a usuarios de un género específico?",
     age: "Edad mínima",
     age_desc:
-      "Si se ingresa algún valor mayor a 6, el usuario debe estar logueado y debe haber ingresado su fecha de nacimiento.",
+      "Si se introduce un valor mayor que 6, el usuario debe haber iniciado sesión y haber introducido su fecha de nacimiento.",
     levels: "Niveles del club de clientes",
     levels_desc:
       "Si el usuario tiene uno de los niveles seleccionados a continuación, se le mostrará esta notificación.",
@@ -8483,21 +8685,21 @@ export default {
 
   /** @see BPagePopupSetting **/
   popup_setting: {
-    published: "Estado publicado",
+    published: "Estado de publicación",
     repeat: "Repetir",
     repeat_msg:
-      "¿Desea que esta notificación se muestre al usuario más de una vez?",
-    intervals: "Tiempo de duración de la pantalla emergente",
+      "¿Quieres que esta notificación se muestre al usuario más de una vez?",
+    intervals: "Intervalo de visualización de la ventana emergente",
     intervals_msg:
-      "Debe haber transcurrido el tiempo mínimo entre la visualización de notificaciones a un usuario.",
-    designer_zone: "Zona de diseño",
-    title: "título emergente",
+      "Tiempo mínimo que debe transcurrir entre dos visualizaciones de la notificación a un mismo usuario.",
+    designer_zone: "Zona del diseñador",
+    title: "Título de la ventana emergente",
     note: "Nota del diseñador",
     image: "Imagen de portada",
     delete: {
-      title: "Borrar",
+      title: "Eliminar",
       sub_title:
-        "Una vez que eliminas una ventana emergente, no hay retorno. Por favor, esté seguro.",
+        "Una vez que eliminas una ventana emergente, no hay vuelta atrás. Asegúrate antes de continuar.",
       action: "Eliminar esta ventana emergente",
     },
     notifications: {
@@ -8526,22 +8728,22 @@ export default {
     template: {
       title: "Plantillas",
       valid_message: "Puedes crear mensajes SMS personalizados.",
-      provider_not_enable_message: "¡El proveedor de SMS no está habilitado!",
+      provider_not_enable_message: "¡El proveedor de SMS no está activado!",
       need_custom_provider_message:
-        "Los mensajes SMS personalizados solo funcionan si configura un proveedor personalizado.",
+        "Los mensajes SMS personalizados solo funcionan si configuras un proveedor personalizado.",
       add_new: "Agregar nuevo",
       disable_reason: {
         set_provider: "¡Configura tu proveedor primero!",
-        provider_is_disabled: "¡El proveedor está deshabilitado!",
-        otp: "OTP - ¡Ninguno personalizable!",
-        select_another_provider: "Seleccione otro proveedor.",
+        provider_is_disabled: "¡El proveedor está desactivado!",
+        otp: "OTP - ¡No personalizable!",
+        select_another_provider: "Selecciona otro proveedor.",
       },
-      enable_only_filter: "Mostrar solo habilitado",
+      enable_only_filter: "Mostrar solo activados",
 
       text_template_not_supported_msg:
-        "Su proveedor no admite mensajes de texto simple.",
+        "Tu proveedor no admite mensajes de texto simple.",
       structure_template_not_supported_msg:
-        "Su proveedor no admite mensajes estructurales.",
+        "Tu proveedor no admite mensajes estructurados.",
 
       structured_data: "Datos estructurados",
 
@@ -8556,22 +8758,22 @@ export default {
       config: {
         title: "Configuración del mensaje",
         subtitle:
-          "Puede crear una plantilla para el mensaje SMS en el sitio web de su proveedor de SMS y luego especificar aquí su código y estructura de datos. Enviaremos esta información a su proveedor, donde se generará el mensaje SMS real.",
+          "Puedes crear una plantilla para el mensaje SMS en el sitio web de tu proveedor de SMS y luego especificar aquí su código y estructura de datos. Enviaremos esta información a tu proveedor, donde se generará el mensaje SMS real.",
         code: "Código",
-        language_msg: "Déjelo vacío para establecerlo como predeterminado.",
+        language_msg: "Déjalo vacío para establecerlo como predeterminado.",
         enable_msg: "Esta plantilla se utilizará para crear mensajes.",
       },
       text: {
         title: "Texto simple",
         subtitle:
-          "Introduzca aquí un mensaje SMS personalizado. Los valores dinámicos se sustituirán por sus valores reales antes de enviarse al usuario.",
+          "Introduce aquí un mensaje SMS personalizado. Los valores dinámicos se sustituirán por sus valores reales antes de enviarse al usuario.",
         message: "Mensaje",
-        reset_to_default: "Restablecen a los predeterminados",
+        reset_to_default: "Restablecer valores predeterminados",
 
         auto_fill: {
-          title: "Parámetros de autocompletar",
+          title: "Parámetros de relleno automático",
           subtitle:
-            "Puede utilizar cada uno de estos parámetros en el texto y Selldone los reemplazará con el valor correspondiente.",
+            "Puedes utilizar cada uno de estos parámetros en el texto y Selldone los reemplazará con el valor correspondiente.",
         },
 
         sample: {
@@ -8579,22 +8781,22 @@ export default {
         },
       },
       template: {
-        title: "Plantilla estructural",
+        title: "Plantilla estructurada",
         subtitle:
-          "Aquí puede configurar la clave y el valor de la plantilla. El código de plantilla debe ser exactamente el que configure en su proveedor de servicios de SMS, y la <code>key</code> es lo que su proveedor desea que se envíe el código. Si el campo <code>value</code> de la plantilla está vacío, entonces <code>{code}</code> se considerará como el código de plantilla.",
+          "Aquí puedes configurar la clave y el valor de la plantilla. El código de la plantilla debe ser exactamente el que configuraste en tu proveedor de servicios de SMS, y la <code>key</code> es el campo a través del cual tu proveedor quiere recibir el código. Si el campo <code>value</code> de la plantilla está vacío, se considerará <code>{code}</code> como el código de la plantilla.",
         add_new_parameter: "Añadir nuevo parámetro",
 
         auto_fill: {
-          title: "Parámetros de autocompletar",
+          title: "Parámetros de relleno automático",
           subtitle:
-            "Puede configurar cada uno de estos parámetros como un valor y Selldone los reemplazará con el valor correspondiente. Es mejor definir los valores predeterminados como plantillas en su proveedor de SMS para simplificar. En este caso, no será necesario definir valores de parámetros aquí.",
+            "Puedes configurar cada uno de estos parámetros como valor y Selldone los reemplazará con el valor correspondiente. Para simplificar, es mejor definir los valores predeterminados como plantillas en tu proveedor de SMS. En ese caso, no será necesario definir aquí los valores de los parámetros.",
         },
         request: {
-          title: "Carga útil de muestra",
+          title: "Payload de ejemplo",
         },
         sample: {
           title: "Ejemplo de mensaje de plantilla",
-          subtitle: "Puede copiar y pegar esta plantilla en su proveedor de SMS.",
+          subtitle: "Puedes copiar y pegar esta plantilla en tu proveedor de SMS.",
         },
         add_message_action: "Agregar plantilla de mensaje",
       },
@@ -8607,8 +8809,8 @@ export default {
       desc: "El mensaje se creará a partir de un texto con parámetros de reemplazo automático y se enviará.",
     },
     template: {
-      title: "Plantilla estructural",
-      desc: "Se creará un objeto a partir de parámetros y se enviará al proveedor.",
+      title: "Plantilla estructurada",
+      desc: "Se creará un objeto a partir de los parámetros y se enviará al proveedor.",
     },
   },
 
@@ -8617,25 +8819,25 @@ export default {
     title: "Proveedor de SMS personalizado",
     reset_error: "Restablecer errores",
     subtitle:
-      "Configure un proveedor de servicios de SMS personalizado y personalice sus SMS de autenticación y el nombre de su empresa. El proveedor predeterminado solo envía SMS de autenticación y mensajes de información en algunos países incluidos en la lista blanca.",
+      "Configura un proveedor de servicios de SMS personalizado y personaliza tus SMS de autenticación y el nombre de tu empresa. El proveedor predeterminado solo envía SMS de autenticación y mensajes informativos en algunos países de la lista blanca.",
     plain_text: "Texto simple",
-    structural_template: "Plantilla estructural",
+    structural_template: "Plantilla estructurada",
     errors_limit_msg:
-      "Si tu servicio supera los 100 errores, se deshabilitará automáticamente. Puedes restablecer los errores para volver a habilitarlo.",
+      "Si tu servicio supera los 100 errores, se desactivará automáticamente. Puedes restablecer los errores para volver a activarlo.",
 
     enable_input: {
       false_description:
         "Los mensajes OTP se enviarán a través de Selldone en países seleccionados, mientras que también se enviarán otros SMS de notificación de pedidos.",
       true_description:
-        "Los mensajes SMS se enviarán a través de su proveedor de servicios.",
+        "Los mensajes SMS se enviarán a través de tu proveedor de servicios.",
     },
     test_input: {
       true_title: "Validar configuración",
       true_description:
-        "Te enviaremos un mensaje de prueba a tu número de teléfono 📞 <b>{phone}</b> , puede cobrarte, pero podrás asegurarte de que todo funciona bien.",
+        "Enviaremos un mensaje de prueba a tu número de teléfono 📞 <b>{phone}</b>; puede tener un coste, pero así podrás asegurarte de que todo funciona correctamente.",
     },
     sync_action: {
-      title: "Comportamiento",
+      title: "Acciones",
       subtitle:
         "Algunos servicios de SMS ofrecen servicios adicionales como campañas, marketing y otras funciones. Puedes sincronizar tus contactos o información adicional para utilizar sus funciones más rápidamente.",
       action: "Sincronizar contactos",
@@ -8643,12 +8845,12 @@ export default {
     tokens: {
       title: "Parámetros",
       subtitle:
-        "Establezca los siguientes parámetros para vincular su proveedor de servicios SMS con su tienda.",
+        "Establece los siguientes parámetros para vincular tu proveedor de servicios de SMS con tu tienda.",
     },
   },
   sms_messages_options: {
     all: {
-      title: "Notificaciones de pedidos OPT+",
+      title: "OTP + Notificaciones de pedidos",
       description:
         "Se enviarán mensajes de autenticación y notificación de pedido.",
     },
@@ -8662,10 +8864,10 @@ export default {
   shop_emails: {
     title: "Administrar correos electrónicos",
     sub_title:
-      "Verá la lista de correos electrónicos enviados por la tienda a clientes y gerentes en esta sección. Los correos electrónicos se diseñan y crean automáticamente en función de la información que ingresó para su tienda. Asimismo, en el futuro estará disponible para el público la posibilidad de personalizar mensajes e imágenes.",
+      "En esta sección verás la lista de correos electrónicos que la tienda envía a clientes y administradores. Los correos se diseñan y crean automáticamente a partir de la información que has introducido para tu tienda. Además, en el futuro estará disponible para todos la posibilidad de personalizar mensajes e imágenes.",
 
     tabs: {
-      preferences: "preferencias",
+      preferences: "Preferencias",
       templates: "Plantillas",
       provider: "Proveedor",
     },
@@ -8681,29 +8883,29 @@ export default {
   shop_email_provider: {
     title: "Servidor de correo personalizado",
     subtitle:
-      "Conecte su proveedor de servicios de correo para enviar correos electrónicos a través de su dominio personalizado.",
+      "Conecta tu proveedor de servicios de correo para enviar correos electrónicos a través de tu dominio personalizado.",
     provider: "Proveedor",
     enable_input: {
-      false_description: "Sus correos electrónicos se enviarán a través de su dominio myselldone.",
-      true_description: "Sus correos electrónicos se enviarán a través de su dominio de correo personalizado.",
+      false_description: "Tus correos electrónicos se enviarán a través de tu dominio myselldone.",
+      true_description: "Tus correos electrónicos se enviarán a través de tu dominio de correo personalizado.",
     },
     config: {
-      title: "Configuraciones",
+      title: "Configuración",
       subtitle:
-        "Para configurar su servicio de correo personalizado para su tienda, ingrese su clave API de servicio junto con otras configuraciones necesarias.",
+        "Para configurar tu servicio de correo personalizado para tu tienda, introduce la clave API del servicio junto con los demás ajustes necesarios.",
     },
     sender: {
-      title: "Desde",
+      title: "Remitente",
       subtitle:
-        "Puede configurar el nombre y la dirección de correo electrónico del remitente predeterminado, que se utilizarán para enviar correos electrónicos a sus clientes.",
+        "Puedes configurar el nombre y la dirección de correo electrónico del remitente predeterminado, que se usarán para enviar correos electrónicos a tus clientes.",
     },
 
     inputs: {
       from: {
-        label: "Desde el correo electrónico",
+        label: "Correo electrónico del remitente",
       },
       from_name: {
-        label: "De Nombre",
+        label: "Nombre del remitente",
       },
     },
 
@@ -8713,13 +8915,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "Si tu servicio supera los 100 errores, se deshabilitará automáticamente. Puedes restablecer los errores para volver a habilitarlo.",
+        "Si tu servicio supera los 100 errores, se desactivará automáticamente. Puedes restablecer los errores para volver a activarlo.",
 
       encryption_ports_guide:
-        "Los proveedores de correo electrónico pueden ofrecer conexiones SSL, TLS o sin cifrar según los puertos disponibles. Si la conexión genera un error, modificar el modo de cifrado podría resolver el problema. El puerto estándar de <b>TLS</b> es <b>el 587</b> y el puerto <b>de SSL</b> es <b>el 465</b> .",
+        "Los proveedores de correo electrónico pueden ofrecer conexiones SSL, TLS o sin cifrar según los puertos disponibles. Si la conexión genera un error, cambiar el modo de cifrado podría resolver el problema. Por lo general, <b>TLS</b> usa el puerto <b>587</b> y <b>SSL</b> usa el puerto <b>465</b>.",
 
       enable_receive_test:
-        "Después de guardar los cambios, recibirás un correo electrónico de prueba en <b>{email}</b> . Guarda los cambios antes de enviar un correo electrónico de prueba con la nueva configuración.",
+        "Después de guardar los cambios, recibirás un correo electrónico de prueba en <b>{email}</b>. Guarda los cambios antes de enviar un correo de prueba con la nueva configuración.",
     },
   },
 
@@ -8730,78 +8932,78 @@ export default {
     add_product: "Agregar nuevo producto",
     create_product: "Crear producto",
     link_box_msg:
-      "Pon este enlace en tu biografía en Instagram, Telegram u otras redes sociales para que tu audiencia pueda comprar más rápido, más fácil, más y finalmente más.",
+      "Pon este enlace en tu biografía de Instagram, Telegram u otras redes sociales para que tu audiencia encuentre los productos más rápido y compre más fácilmente.",
     remove_account: "Cambiar / Eliminar enlace de Instagram",
   },
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
-    title: "Instagram Ventas Canal",
+    title: "Canal de ventas de Instagram",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Crea una categoría dedicada para tus productos, con imágenes y vídeos, y compártela en tus redes sociales. Es similar a Instagram y TikTok, pero con control total, lo que te permite vender tus productos directamente.",
   },
 
   /** @see ServiceBillingItem **/
   service_bill: {
     task: {
-      title: "Lista de quehaceres",
+      title: "Lista de tareas",
       message:
-        "Escribe los títulos del trabajo que quieres hacer y hazle saber al comprador cuánto ha progresado.",
+        "Escribe los títulos de las tareas que quieres realizar y haz saber al comprador cuánto han progresado.",
     },
     booking: {
-      title: "Reserva / Reserva",
+      title: "Reserva",
       message:
-        "Este pedido se procesará en un tiempo específico, el cliente ha seleccionado el período deseado, si desea realizar algún cambio en el período seleccionado, comuníqueselo al cliente.",
+        "Este pedido se procesará en un momento determinado; el cliente ha seleccionado el periodo deseado. Si quieres hacer algún cambio en el periodo seleccionado, informa al cliente.",
 
-      selected_checkin: "Fecha de inicio de sesión del cliente seleccionado",
-      selected_checkout: "Fecha de salida del cliente seleccionado",
+      selected_checkin: "Fecha de entrada",
+      selected_checkout: "Fecha de salida",
       change_days_question:
-        "¿Necesita cambiar durante los días seleccionados por el cliente?",
+        "¿Necesitas modificar la duración de la reserva para los días seleccionados?",
       show_calendar: "Mostrar calendario de pedidos",
     },
     pricing: {
       title: "Precios",
-      message: "¿Cuánto cobran por este servicio?",
+      message: "¿Cuánto cobras por este servicio?",
     },
     subscription: {
       title: "Suscripción",
       message:
-        "Puede elegir el período de suscripción comprando este servicio diariamente. Informe al comprador si desea cambiar los valores predeterminados que ya ingresó.",
+        "Puedes elegir el periodo de suscripción, ya que este servicio se compra por días. Informa al comprador si quieres cambiar los valores predeterminados que ya has introducido.",
       duration: "Periodo de suscripción",
     },
     charge: {
-      title: "Cargo",
+      title: "Recarga",
       message:
-        "Ha especificado un cargo por este artículo. Puede cambiar el monto del cargo por el artículo comprado por el cliente.",
-      charge: "Cargo",
+        "Has especificado una recarga para este artículo. Puedes cambiar el importe de la recarga del artículo comprado por el cliente.",
+      charge: "Recarga",
     },
 
-    save_item: "Verificar y configurar",
-    start_service: "Empieza el servicio",
-    end_service: "Terminar",
+    save_item: "Verificar y guardar",
+    start_service: "Iniciar servicio",
+    end_service: "Finalizar",
   },
   /** @see BOrderDashboardServiceTasks **/
   service_tasks: {
     notification_finish: {
-      title: "fin de servicio",
+      title: "Fin del servicio",
       message:
-        "Si se hace esto, presione la tecla de confirmación para completar y cerrar el pedido.",
+        "Si ya se ha realizado, pulsa el botón de confirmación para completar y cerrar el pedido.",
       action: "Confirmar y completar el pedido",
     },
   },
 
   /** {@see BProductEditOutputs} **/
   product_outputs: {
-    outputs_form: "Estructura de información de la pantalla (salida)",
+    outputs_form: "Estructura del formulario de salida",
 
     virtual: {
       title: "Formulario de información de salida del producto",
       sub_title:
-        "La información que desea mostrar al usuario después de la compra. Este formulario es especialmente aplicable para la venta de productos virtuales como la tarjeta regalo.",
+        "La información que quieres mostrar al usuario después de la compra. Este formulario es especialmente útil para la venta de productos virtuales como tarjetas de regalo.",
     },
     service: {
       title: "Diseño de servicio",
       sub_title:
-        "Primero seleccione su tipo de servicio e ingrese la información requerida. Por ejemplo, puede definir una lista de tareas pendientes o pedirle al cliente una hora de reserva o una cita.",
+        "Primero selecciona el tipo de servicio e introduce la información requerida. Por ejemplo, puedes definir una lista de tareas o pedir al cliente una hora de reserva o una cita.",
     },
   },
 
@@ -8809,62 +9011,62 @@ export default {
   service_design: {
     type: "Tipo de servicio",
     type_message:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Selecciona el tipo de servicio que ofreces para este producto. Al seleccionar cada opción se mostrará el formulario correspondiente. Según el tipo de servicio que elijas, es posible que se solicite más información al cliente al realizar el pedido.",
   },
 
   /** {@see AvocadoHomePage} **/
   avocado: {
     name: "Avocado",
-    title: "Ventas rápidas, precisas y agradables en todas las redes sociales",
+    title: "Ventas rápidas, precisas y agradables en redes sociales",
     message:
-      "¡Una cantidad y un título es todo lo que necesita para obtener dinero de sus clientes! El dinero se acreditará directamente en su cuenta y sus clientes tendrán una experiencia de compra única.",
-    new_order: "nueva factura",
+      "¡Un importe y un título es todo lo que necesitas para cobrar a tus clientes! El dinero se abonará directamente en tu cuenta y tus clientes tendrán una experiencia de compra única.",
+    new_order: "Nueva factura",
     create_by_seller_title: "Crear factura",
     create_by_seller_message:
-      "Si desea crear una factura con un monto determinado y enviársela a alguien, puede presionar el botón a continuación para mostrar el formulario de factura. Proporcione el enlace generado al comprador para que pague y rastree su pedido a través de él.",
+      "Para generar una factura por un importe concreto y enviarla a un destinatario, simplemente haz clic en el botón de abajo para mostrar el formulario de factura. Comparte el enlace generado con el comprador para que pueda realizar el pago y consultar el estado de su pedido.",
 
-    create_by_buyer_title: "forma de aguacate",
+    create_by_buyer_title: "Formulario de Avocado",
     create_by_buyer_message:
-      "Al activar esta sección, se le mostrará un enlace, proporcione este enlace a sus compradores para que puedan realizar su pedido.",
+      "Al activar esta función, se mostrará un enlace. Comparte este enlace con tus clientes para facilitarles la realización de pedidos.",
 
     orders_list: "Lista de pedidos",
-    active_mode: "Recibo de pedido activo",
-    inactive_mode: "inactivo",
+    active_mode: "Recepción de pedidos activa",
+    inactive_mode: "Inactivo",
     active_message:
-      "Al activar esta fuente, sus clientes podrán realizar un pedido del producto a través del formulario de solicitud que ve a continuación.",
+      "Al activar esta fuente, tus clientes podrán realizar un pedido del producto a través del formulario de solicitud que ves a continuación.",
     avocado_form_link_message:
-      "Pon este enlace en tu biografía en Instagram, Telegram u otras redes sociales para que tu audiencia pueda comprar más rápido, más fácil y finalmente más.",
+      "Pon este enlace en tu biografía de Instagram, Telegram u otras redes sociales para que tu audiencia pueda comprar más rápido, más fácil y, en definitiva, más.",
     need_address: "Obtener dirección",
     need_address_msg:
-      "Si necesita obtener la ubicación y la dirección del comprador, seleccione esta opción.",
+      "Si necesitas obtener la ubicación y la dirección del comprador, selecciona esta opción.",
     avocado_link_message:
       "Basta con proporcionar el enlace anterior al cliente para pagar el pedido. El cliente podrá seguir el pedido a través de este enlace.",
-    edit_order: "Editar orden",
-    progress: "Tasa de progreso",
+    edit_order: "Editar pedido",
+    progress: "Progreso",
     buyer_link: "Enlace del comprador",
     buyer_link_message:
-      "Proporcione este enlace a su comprador. El comprador podrá realizar el pago y seguimiento de su pedido a través de este enlace. Este enlace está codificado, si el enlace se proporciona a cualquier persona, podrá pagar y ver la información. Este enlace estará activo durante 60 días. Haga clic en el enlace de abajo para copiar.",
-    OrderConfirm_done: "Orden confirmada.",
+      "Proporciona este enlace a tu comprador. El comprador podrá pagar y hacer el seguimiento de su pedido a través de este enlace. Este enlace está codificado: cualquier persona que lo reciba podrá pagar y ver la información. Este enlace estará activo durante 60 días. Haz clic en el enlace de abajo para copiarlo.",
+    OrderConfirm_done: "Pedido confirmado.",
     OrderConfirm_message:
-      "Si confirma el pago y el pedido es correcto, haga clic en el botón a continuación.",
+      "Si confirmas el pago y el pedido es correcto, haz clic en el botón de abajo.",
     OrderConfirm_action: "Confirmación del pedido",
     PreparingOrder_message:
-      "Si el pedido del cliente está listo para enviarse, haga clic en el botón Aceptar a continuación.",
+      "Si el pedido del cliente está listo para enviar, haz clic en el botón Aceptar de abajo.",
     PreparingOrder_action: "El pedido está listo para enviar",
     finish_message:
-      "Si se completa este pedido, presione el botón Finalizar para cerrar este pedido.",
-    finish_action: "Procesamiento completo de pedidos",
+      "Si este pedido ya está completado, pulsa el botón Finalizar para cerrarlo.",
+    finish_action: "Completar el procesamiento del pedido",
     finish_dialog: {
-      title: "completar el pedido",
-      message: "¿Se ha completado el pedido y está seguro de que desea cerrarlo?",
+      title: "Completar el pedido",
+      message: "¿El pedido está completado y estás seguro de que quieres cerrarlo?",
       action: "Sí, confirmar la finalización del pedido",
     },
-    configuration: "Configuración de aguacate",
+    configuration: "Configuración de Avocado",
     delivery_price: "Costo de envío",
-    edit_avocado_action: "editar informacion",
+    edit_avocado_action: "Editar información",
     submit_pricing_avocado_action: "Enviar el precio del pedido",
     add_avocado_action: "Crear enlace de factura",
-    avocados_list: "Lista de Avocado",
+    avocados_list: "Lista de Avocados",
     not_pricing: "¡Este artículo no tiene precio!",
 
     show_all: "Mostrar todo",
@@ -8881,57 +9083,57 @@ export default {
     title: "Avocado",
     title_small: "Ventas en redes sociales",
     pending_orders: "Pedidos activos",
-    avocado: "Pedido Avocado",
+    avocado: "Pedido de Avocado",
   },
   /** {@see BAvocadoInvoice} **/
   avocado_process: {
     step1: "Precios",
     step1_msg:
-      "Introduce el precio de cada artículo y marca la casilla verde. Si no es posible vender un artículo, cambie su estado a rechazado.",
+      "Introduce el precio de cada artículo y marca la casilla verde. Si no es posible vender un artículo, cambia su estado a rechazado.",
     step2: "Confirmar factura",
     step2_msg:
-      "Cree una factura para este pedido. Puede ingresar un título y una descripción para la factura. El importe del pedido se calcula en función del precio total de los artículos de forma automática.",
+      "Crea una factura para este pedido. Puedes introducir un título y una descripción para la factura. El importe del pedido se calcula automáticamente en función del precio total de los artículos.",
     title_input: "Título de la factura *",
     show_to_customer: "Esta información se muestra al comprador.",
     description_msg:
       "¿Quieres escribir una nota para este pedido? Esta información se mostrará al comprador.",
-    price_input: "Total de la orden *",
-    tax_none: "Libre de impuestos",
+    price_input: "Importe del pedido *",
+    tax_none: "Sin impuestos",
     tax_included: "Incluido en el precio",
     tax_add: "Agregar impuesto",
-    tax_message: "Puede elegir si los impuestos están incluidos en el precio o no.",
+    tax_message: "Puedes elegir si el impuesto está incluido en el precio o no.",
     tax_included_messages: "El impuesto está incluido en el precio.",
     tax_add_messages: "El impuesto debe agregarse al precio final.",
     invoice: {
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Con este formulario puedes crear un enlace de pago por un importe específico. Además, facilita el seguimiento de la factura y la confirmación de que el pago se ha completado.",
     },
   },
 
   /** {@see BPageProductHyper} **/
   /** {@see BPageShopChannelHyper} **/
   hyper: {
-    name: "Hiper",
+    name: "Hyper",
     print_label:
-      "Imprima la siguiente etiqueta y colóquela frente al producto",
+      "Imprime la siguiente etiqueta y colócala delante del producto",
     hyper_form_link_product_message:
-      "Sus clientes podrán comprar {product} rápidamente a través de este enlace. También ingresarán al mismo enlace escaneando el código QR.",
-    title: "Hiper Venta Rápida",
+      "Tus clientes podrán comprar {product} rápidamente a través de este enlace. También accederán al mismo enlace escaneando el código QR.",
+    title: "Venta rápida Hyper",
     message:
-      "Con la ayuda del canal de ventas de Hyper Selldone, sus clientes podrán comprar productos escaneando un código QR sin necesidad de ninguna acción por su parte. Use esta forma para vender rápidamente algunos artículos en festivales, exhibiciones o ceremonias concurridas en grandes cantidades. Después de activar Hyper en esta sección, puede crear un código QR Hyper para productos físicos en la sección Gestión de productos.",
-    orders_list: "Lista de hiperpedidos",
-    active_mode: "Hipercanal de ventas activado",
-    inactive_mode: "inactivo",
+      "Con la ayuda del canal de ventas Hyper de Selldone, tus clientes podrán comprar productos escaneando un código QR sin que tengas que hacer nada. Usa esta vía para vender rápidamente artículos en grandes cantidades en festivales, exposiciones o eventos concurridos. Después de activar Hyper en esta sección, podrás crear un código QR Hyper para los productos físicos en la sección de Gestión de productos.",
+    orders_list: "Lista de pedidos Hyper",
+    active_mode: "Canal de ventas Hyper activado",
+    inactive_mode: "Inactivo",
     active_message:
-      "Si habilitas esta opción, en el apartado de gestión de cada producto se mostrará la posibilidad de crear los Fast-Sales-Codes.",
-    hyper_form_link_message: "Vínculo de hiperpágina de su tienda",
-    configuration: "Hiperconfiguraciones",
+      "Si activas esta opción, en la sección de gestión de cada producto se mostrará la posibilidad de crear códigos de venta rápida.",
+    hyper_form_link_message: "Enlace de la página Hyper de tu tienda",
+    configuration: "Configuración de Hyper",
   },
 
   /** {@see BDashboardShopOrdersHyper} **/
   hyper_orders: {
-    title: "Hiper",
-    title_small: "Reporte de ventas",
+    title: "Hyper",
+    title_small: "Informe de ventas",
     hyper: "Pedidos recibidos",
   },
 
@@ -8939,21 +9141,21 @@ export default {
   product_file: {
     no_file: "¡Todavía no se ha subido ningún archivo!",
     delete_dialog: {
-      title: "Borrar archivo",
+      title: "Eliminar archivo",
       message: "¿Estás seguro de eliminar este archivo?",
       action: "Sí, eliminar ahora",
     },
     notifications: {
-      delete_success: "Archivo eliminado con éxito.",
+      delete_success: "Archivo eliminado correctamente.",
     },
-    drag_sort_msg: "Puede arrastrar y ordenar archivos.",
+    drag_sort_msg: "Puedes arrastrar y ordenar los archivos.",
     paid_mode_msg: "Los usuarios pueden descargarlo solo después de comprar el producto.",
     free_mode_msg:
       "Los usuarios pueden descargarlo de forma gratuita. Los archivos de muestra deben tener un tamaño inferior a 50 MB.",
     has_gust_shopping_msg:
-      "Los usuarios registrados e invitados pueden descargar archivos ya que las compras de invitados están habilitadas en la configuración de la tienda > flujo.",
+      "Los usuarios registrados e invitados pueden descargar archivos, ya que las compras como invitado están activadas en Ajustes de la tienda > Flujo.",
     only_registered_shopping_msg:
-      "Sólo los usuarios registrados pueden descargar archivos de muestra.",
+      "Solo los usuarios registrados pueden descargar archivos de muestra.",
     file_count_limit: "Límite de cantidad de archivos",
   },
 
@@ -8963,17 +9165,17 @@ export default {
   product_location_restrictions: {
     title: "Ubicaciones disponibles",
     subtitle:
-      "Si su producto o servicio solo está disponible en regiones específicas, definidas por país y códigos postales, puede designar esas ubicaciones aquí. Estas restricciones de ubicación se aplican a nivel de producto. En la página del producto, se les solicitará a los clientes que seleccionen su ubicación. Si el producto está disponible en el área elegida, podrán continuar con la compra.",
+      "Si tu producto o servicio solo está disponible en regiones específicas, definidas por país y códigos postales o PIN, puedes indicar esas ubicaciones aquí. Estas restricciones de ubicación se aplican a nivel de producto. En la página del producto se pedirá a los clientes que seleccionen su ubicación. Si el producto está disponible en la zona elegida, podrán continuar con la compra.",
 
-    add_location_action: "Agregar país",
+    add_location_action: "Añadir país",
     no_restriction: "Sin restricciones",
     import: {
-      title: "Perfil de carga",
-      subtitle: "Seleccione un perfil de ubicaciones guardadas.",
+      title: "Cargar perfil",
+      subtitle: "Selecciona un perfil de ubicaciones guardado.",
     },
     export: {
       title: "Guardar perfil",
-      subtitle: "Almacene ubicaciones para uso futuro.",
+      subtitle: "Guarda las ubicaciones para usarlas más adelante.",
     },
     has_restriction_input: {
       title: "Tiene restricción de ubicación",
@@ -8982,52 +9184,52 @@ export default {
     },
     zip_pin_code: "Códigos postales/PIN",
     no_country_selected_error:
-      "Incluya al menos un país junto con una lista de códigos postales. Sin esta información, este producto no estará disponible.",
-    tips: "Haz clic en el botón <b>+ Agregar país</b> para comenzar a crear un nuevo conjunto de ubicaciones. Una vez que hayas terminado, puedes guardarlo haciendo clic en el <b>menú ⋮</b> de la parte superior derecha y seleccionando <b>Guardar perfil</b> .",
+      "Incluye al menos un país junto con una lista de códigos postales/PIN. Sin esta información, este producto no estará disponible.",
+    tips: "Haz clic en el botón <b>+ Añadir país</b> para empezar a crear un nuevo conjunto de ubicaciones. Cuando termines, puedes guardarlo haciendo clic en el <b>⋮ Menú</b> de la parte superior derecha y seleccionando <b>Guardar perfil</b>.",
     need_save_message:
-      "Se han modificado las configuraciones de restricción de ubicación del producto. Para conservar estos cambios, haga clic en el botón \"Guardar\" que aparece a continuación.",
+      "Se ha modificado la configuración de restricción de ubicación del producto. Para conservar estos cambios, haz clic en el botón \"Guardar\" que aparece a continuación.",
 
     add_dialog: {
-      title: "Agregar país",
+      title: "Añadir país",
       message:
-        "Seleccione un país y haga clic en \"Agregar\". Esto agregará el país a la tabla, lo que le permitirá asignarle códigos postales, códigos PIN, nombres de ciudades o nombres de regiones.",
+        "Elige un país y haz clic en \"Añadir\". Esto añadirá el país a la tabla y te permitirá asignarle códigos postales, códigos PIN, nombres de ciudades o nombres de regiones.",
     },
     save_profile_dialog: {
-      title: "Agregar perfil de ubicaciones",
+      title: "Añadir perfil de ubicaciones",
       message:
-        "Ingrese un nombre para guardar este conjunto de ubicaciones. Este conjunto de ubicaciones guardadas se puede aplicar a otros productos, lo que permite cargar ubicaciones rápidamente con un solo clic. Si ya existe un perfil con el nombre proporcionado, se actualizará con estos nuevos valores.",
+        "Introduce un nombre para guardar este conjunto de ubicaciones. Este conjunto guardado se puede aplicar a otros productos, lo que permite cargar las ubicaciones rápidamente con un solo clic. Si ya existe un perfil con el nombre indicado, se actualizará con estos nuevos valores.",
       title_input: {
         title: "Título del perfil",
-        placeholder: "Un nombre de categoría, o nombre de tienda, ...",
+        placeholder: "Un nombre de categoría, un nombre de tienda, ...",
       },
     },
     load_profile_dialog: {
-      title: "Perfil de ubicaciones de carga",
+      title: "Cargar perfil de ubicaciones",
       message:
-        "Puede cargar ubicaciones seleccionando una ubicación previamente guardada aquí.",
+        "Puedes cargar ubicaciones seleccionando aquí un conjunto de ubicaciones guardado previamente.",
 
       select_input: {
         title: "Perfil de ubicación",
-        placeholder: "Seleccione un perfil...",
+        placeholder: "Selecciona un perfil...",
       },
     },
   },
 
   /** {@see NotificationTopBar} **/
   notification_top_bar: {
-    free_charge: "🎊 Cargue {amount} y obtenga {amount_total} de crédito.",
-    charge_action: "Reclamación de crédito gratis",
+    free_charge: "🎊 Recarga {amount} y obtén {amount_total} de crédito.",
+    charge_action: "Reclamar crédito gratis",
     claim_title: "Reclama tu crédito gratis",
     claim_charge_caution:
-      "Nota: No es posible convertir monedas entre sus cuentas de billetera. Por lo tanto, seleccione una cuenta que sea apropiada para la moneda cambiada en su tienda.",
+      "Nota: No es posible convertir monedas entre las cuentas de tu billetera. Por lo tanto, selecciona una cuenta adecuada para la moneda que se utiliza en tu tienda.",
     account_input: "Cuenta de depósito",
-    account_msg: "El cargo se aplicará a esta cuenta.",
+    account_msg: "La recarga se aplicará a esta cuenta",
   },
 
   /** {@see BDashboardShopApplications} **/
   selldone_applications: {
-    title: "¡No te quedes sin tus pedidos!",
-    msg: "Administre su negocio en cualquier lugar y en cualquier momento.",
+    title: "¡No te pierdas ningún pedido!",
+    msg: "Gestiona tu negocio en cualquier lugar y en cualquier momento.",
     scan_qr_code: "¡Escanéame con tu teléfono!",
 
     notification: {
@@ -9036,26 +9238,26 @@ export default {
     },
     order: {
       title: "Pedidos",
-      subtitle: "Vea sus pedidos y gestiónelos.",
+      subtitle: "Consulta tus pedidos y gestiónalos.",
     },
     product: {
-      title: "productos",
-      subtitle: "Gestión de inventarios y planos de productos.",
+      title: "Productos",
+      subtitle: "Gestión de inventario y planificación de productos.",
     },
   },
 
   /** {@see BPageShopSettingSeo**/
   shop_seo: {
     title: "Configuración SEO",
-    msg: "Avance rápido hacia el marketing en línea potenciando los canales de adquisición de clientes orgánicos.",
+    msg: "Acelera tu marketing online potenciando los canales orgánicos de captación de clientes.",
     auto: {
       title: "Motor SEO automático",
-      msg: "Proporcione una experiencia móvil perfecta para la audiencia y los motores de búsqueda en su sitio web.",
+      msg: "Ofrece una experiencia móvil fluida a tu audiencia y a los motores de búsqueda en tu sitio web.",
     },
 
     amp: {
       title: "AMP",
-      msg: "Autogeneración acelerada de páginas móviles.",
+      msg: "Generación automática de páginas móviles aceleradas (AMP).",
     },
   },
 
@@ -9066,8 +9268,8 @@ export default {
       desc: "Si un cliente paga el pedido, se enviará a esta dirección un correo electrónico con la información del pedido.",
     },
     return: {
-      title: "Devolver",
-      desc: "Si el producto es devuelto por el comprador, se enviará este correo electrónico. El envío de este correo electrónico depende de su plan comprado.",
+      title: "Devolución",
+      desc: "Si el comprador devuelve el producto, se enviará este correo electrónico. El envío de este correo depende del plan que hayas contratado.",
     },
     pos: {
       title: "POS",
@@ -9075,15 +9277,15 @@ export default {
     },
     avocado: {
       title: "Avocado",
-      desc: "Enviar reporte diario de pedidos de Avocado.",
+      desc: "Enviar un informe diario de los pedidos de Avocado.",
     },
     accounting: {
       title: "Contabilidad",
-      desc: "Almacenar informes financieros y actualizaciones.",
+      desc: "Informes y novedades financieras de la tienda.",
     },
     subscription: {
       title: "Suscripciones",
-      desc: "El estado del plan comprado recientemente se alinea con las notificaciones de suscripción de inicio y finalización.",
+      desc: "Estado del plan contratado recientemente, junto con las notificaciones de inicio y fin de la suscripción.",
     },
     technical: {
       title: "Técnico",
@@ -9094,33 +9296,33 @@ export default {
       desc: "Los informes semanales y mensuales se enviarán a este correo electrónico.",
     },
     review: {
-      title: "Revisar",
-      desc: "Si necesita confirmar un proceso en la tienda, el correo electrónico correspondiente será enviado a esta dirección. Por ejemplo, para confirmar el envío de un correo electrónico de marketing a los usuarios de la tienda.",
+      title: "Revisión",
+      desc: "Si necesitas confirmar un proceso en la tienda, el correo electrónico correspondiente se enviará a esta dirección. Por ejemplo, para confirmar el envío de un correo de marketing a los usuarios de la tienda.",
     },
     bulk: {
-      title: "Título",
-      desc: "Configura y gestiona esta opción para tu tienda.",
+      title: "Informe diario de pedidos",
+      desc: "Recibe un correo electrónico diario con los detalles de los pedidos de ese día.",
     },
   },
 
   /** {@see BPageShopSettingLanguages} **/
   shop_languages: {
     title: "Idiomas de la tienda",
-    sub_title: "Instale y active los paquetes de traducción automática de la tienda.",
+    sub_title: "Instala y activa los paquetes de traducción automática de la tienda.",
     message:
-      "Puedes instalar hasta 10 paquetes de idiomas en tu tienda. Contáctenos si necesita instalar más paquetes.",
+      "Puedes instalar hasta 10 paquetes de idiomas en tu tienda. Contáctanos si necesitas instalar más paquetes.",
   },
 
   /** {@see SInviteFriends} **/
   invite_friends: {
-    title: "¡Cuéntale sobre tu negocio al mundo!",
-    msg: "Presenta Selldone a tus amigos. Recibirán un cupón de empresa de $99 cuando se registren, y usted obtendrá un cupón de inicio de $15 una vez que completen su primera transacción.",
+    title: "¡Cuéntale al mundo sobre tu negocio y gana dinero!",
+    msg: "Recomienda Selldone a tus amigos y regálales un cupón Company de $99 al registrarse. Cuando realicen su primera transacción, ganarás una comisión de por vida por todas sus transacciones. ¡Visita nuestra página de afiliados para empezar a ganar hoy mismo!",
     invite: {
-      title: "Únase al sistema operativo comercial Selldone para obtener un cupón gratis de $ 99.",
+      title: "Únete a Selldone Business OS y consigue un cupón gratis de $99.",
       description:
         "Te invito a Selldone para que inicies tu negocio en línea con una herramienta fantástica.",
-      hashtags: "comercio electrónico,constructor de sitios web",
-      quot: "Construí una tienda en línea por Selldone, también puedes hacer tu negocio ahora.",
+      hashtags: "ecommerce,constructorDeSitiosWeb",
+      quot: "Creé una tienda en línea con Selldone; tú también puedes poner en marcha tu negocio ahora.",
     },
   },
 
@@ -9128,16 +9330,45 @@ export default {
   shops_list: {
     title: "Mis tiendas",
     message:
-      "Listado de tiendas propias, tiendas permitidas y de muestra.",
+      "Aquí tienes la lista de tus tiendas propias, las tiendas a las que tienes acceso y las tiendas de muestra. Para ocultar las tiendas de muestra, ve al final de la página y selecciona las preferencias.",
+    created_at: "Creada {time}",
+    total_views: "Visitas totales del escaparate",
+    empty: "No hay tiendas para mostrar.",
 
-    sample: {
-      title: "Tiendas de muestras",
-      subtitle:
-        "Aquí podrá descubrir una selección de tiendas de muestra. Se le concede permiso para examinar la información disponible en estas tiendas. Sin embargo, absténgase de iniciar sesión o realizar pedidos utilizando información personal real, ya que estos datos serán accesibles al público. Si ingresa accidentalmente su información aquí, salga de la tienda y comuníquese con nosotros para obtener más ayuda.",
+    view: {
+      list: "Vista de lista",
+      cards: "Vista de tarjetas",
+    },
+    sort: {
+      label: "Ordenar tiendas",
+      newest: "Más recientes",
+      oldest: "Más antiguas",
+      most_visited: "Más visitadas",
+    },
+    deleted: {
+      message: "Aquí solo se muestran las tiendas eliminadas que puedes recuperar.",
+      deleted_at: "Eliminada {time}",
+      recover: "Recuperar tienda",
+      recovered_title: "Tienda recuperada",
+      recovered_message: "{shop} vuelve a estar activa.",
+      recovery_dialog: {
+        title: "Recuperar tienda",
+        message:
+          "Al recuperar {shop}, volverá a estar activa y disponible en tu lista de tiendas.",
+        instruction: "Para confirmar, escribe la siguiente palabra a continuación.",
+        input_label: "Palabra de confirmación",
+        input_hint: "Introduce {phrase} para continuar.",
+      },
     },
 
-    add_new_store: "Agregar nueva tienda",
-    i_have_a_deal: "Tengo un trato",
+    sample: {
+      title: "Tiendas de muestra",
+      subtitle:
+        "Aquí puedes descubrir una selección de tiendas de muestra. Tienes permiso para consultar la información disponible en estas tiendas. Sin embargo, evita iniciar sesión o realizar pedidos con información personal real, ya que estos datos serán accesibles al público. Si introduces tu información aquí por error, sal de la tienda y ponte en contacto con nosotros para recibir ayuda.",
+    },
+
+    add_new_store: "Añadir nueva tienda",
+    i_have_a_deal: "Tengo una oferta",
     access: {
       title: "Invitación de acceso",
     },
@@ -9155,68 +9386,68 @@ export default {
     },
     set_warehouse: "Establecer almacén",
     pickup_location: "Lugar de recogida",
-    refresh_rates: "Tasas de actualización",
-    no_rate: "Sin tasa...",
+    refresh_rates: "Actualizar tarifas",
+    no_rate: "Sin tarifa...",
     view_messages: "Ver mensajes...",
     not_set_yet: "¡Aún no configurado!",
-    drop_orders_here: "Dejar pedidos aquí...",
+    drop_orders_here: "Suelta los pedidos aquí...",
   },
 
   /** {@see BPageShopBlogsCategories} **/
   blog_category: {
-    title: "Categorías de blogs",
+    title: "Categorías del blog",
     subtitle:
       "Puedes crear un número limitado de categorías para las publicaciones de tu blog para administrarlas de manera más eficiente. Tener un límite de categorías promueve una mejor organización en tu sitio web. Cabe destacar que incluso las principales agencias de noticias mantienen un número limitado de categorías, a menudo menos de 100, para agilizar la administración y mantener un enfoque más amplio.",
 
-    add_action: "Añadir nueva categoria",
+    add_action: "Añadir nueva categoría",
     add_dialog: {
-      title: "Categoría nueva/actualizada",
-      force_edit: "Forzar ruta de edición",
-      force_edit_msg: "Cambie el nombre de la categoría y actualice todos los artículos.",
+      title: "Crear / Editar categoría",
+      force_edit: "Forzar edición de la ruta",
+      force_edit_msg: "Cambia el nombre de la categoría y actualiza todos los artículos.",
       star_msg: "Las categorías destacadas tienen prioridad para mostrarse en el blog.",
-      star: "miraba fijamente",
+      star: "Destacada",
       delete_action: "Eliminar categoría",
-      add_action: "añadir categoría",
-      edit_action: "Editar categoria",
+      add_action: "Añadir categoría",
+      edit_action: "Editar categoría",
     },
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
     title: "Calendario de lanzamiento de contenido",
     subtitle:
-      "Aquí se encuentra la lista de artículos programados para su publicación futura. Tiene la posibilidad de programar publicaciones de blog e incluso descripciones de productos para que se publiquen en momentos específicos.",
+      "Aquí tienes la lista de artículos programados para publicarse en el futuro. Puedes programar la publicación de entradas del blog e incluso de descripciones de productos en momentos específicos.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
   about_us: {
-    title: "Sobre nosotros página",
+    title: "Página Sobre nosotros",
     subtitle:
-      "Escriba un artículo sobre su empresa para mostrarlo en la página Acerca de nosotros. Esta página ayudará a tu audiencia a conocer tu marca y misión.",
+      "Escribe un artículo sobre tu negocio para mostrarlo en la página Sobre nosotros. Esta página ayudará a tu audiencia a conocer tu marca y tu misión.",
   },
   /** {@see BPageShopPagesTerms} **/
   terms: {
     title: "Página de términos de servicio",
     subtitle:
-      "Explique las condiciones de compra y uso de sus servicios para sus clientes.",
+      "Explica a tus clientes las condiciones de compra y de uso de tus servicios.",
   },
   /** {@see BPageShopPagesPrivacy} **/
   privacy: {
     title: "Página de política de privacidad",
     subtitle:
-      "Una política de privacidad es una declaración o documento legal que revela algunas o todas las formas en que una parte recopila, usa, divulga y administra un cliente o los datos de un cliente.",
+      "Una política de privacidad es una declaración o documento legal que revela algunas o todas las formas en que una parte recopila, usa, divulga y gestiona los datos de un cliente.",
   },
   /** {@see BPageShopPagesContactUs} **/
   contact_us: {
-    title: "Contáctenos página",
+    title: "Página de contacto",
     subtitle:
-      "Escriba su información de contacto, dirección y número de teléfono para mostrar a sus clientes en la página de contacto.",
+      "Escribe tu información de contacto, dirección y número de teléfono para mostrarlos a tus clientes en la página de contacto.",
   },
 
   /** {@see BPageShopApplicationsMetaverse} **/
   metaverse: {
-    title: "Puente Metaverso",
+    title: "Puente al metaverso",
     subtitle:
-      "Selldone proporciona %100 servicios basados en API en el espacio comercial. Los desarrolladores de juegos, cadenas de bloques y metaversos pueden usar estas potentes API para conectar empresas, clientes y servicios en el futuro del mundo del trabajo, la vida y el comercio.",
+      "Selldone ofrece servicios %100 basados en API en el ámbito del comercio. Los desarrolladores de juegos, blockchain y metaverso pueden usar estas potentes API para conectar empresas, clientes y servicios en el futuro del mundo del trabajo, la vida y el comercio.",
     message: "Acceso anticipado para desarrolladores de juegos",
   },
 
@@ -9224,39 +9455,39 @@ export default {
   orders_bulk_export: {
     title: "Asistente de pedidos",
     subtitle:
-      "Exporte y descargue etiquetas para el procesamiento de pedidos en masa: ideal para manejar más de 100 pedidos diariamente.",
+      "Exporta y descarga etiquetas para el procesamiento de pedidos en masa: ideal para gestionar más de 100 pedidos al día.",
 
     timespan: {
       title: "Periodo de tiempo",
-      subtitle: "Elija las fechas de inicio y finalización para realizar pedidos.",
+      subtitle: "Elige las fechas de inicio y fin de realización de los pedidos.",
     },
     tasks: {
       title: "Salida de tareas",
       subtitle:
-        "Descargue la lista de tareas para el procesamiento de pedidos en bloque. El resultado solo contiene pedidos pagados y COD.",
+        "Descarga la lista de tareas para procesar pedidos en masa. El resultado solo contiene pedidos pagados y contra reembolso (COD).",
       export_title: "Lista de tareas",
     },
     labels: {
       title: "Etiquetas de paquetes",
       subtitle:
-        "Descargue la lista de todas las etiquetas de pedidos en el período de tiempo y el estado seleccionados. El resultado solo contiene pedidos pagados y COD.",
+        "Descarga la lista de todas las etiquetas de pedidos en el período y estado seleccionados. El resultado solo contiene pedidos pagados y contra reembolso (COD).",
       export_title: "Etiquetas de caja",
     },
   },
 
   /** {@see BPageShopMarketingFunnel} **/
   customers_funnel: {
-    title: "Clientes Demografía",
+    title: "Demografía de clientes",
     subtitle:
-      "¡Filtre y exporte los datos de sus clientes para tomar mejores decisiones y ofrecer más valor con menos marketing! ¡Respete la privacidad de sus clientes y nunca les envíe correos electrónicos masivos! Nunca comparta la información de sus clientes con servicios de terceros sin obtener el permiso de cada uno de ellos.",
+      "¡Filtra y exporta los datos de tus clientes para tomar mejores decisiones y ofrecer más valor con menos marketing! ¡Respeta la privacidad de tus clientes y nunca les envíes correos masivos! Nunca compartas la información de tus clientes con servicios de terceros sin obtener el permiso de cada uno de ellos.",
   },
 
   /** {@see BPageAffiliatorDashboard} **/
   affiliate_pos: {
-    title: "Punto de venta afiliado",
-    open_pos_action: "TPV de pedidos rápidos",
+    title: "POS de afiliados",
+    open_pos_action: "POS de pedidos rápidos",
     description:
-      "Esta opción es adecuada para administradores de páginas de Instagram y otras redes sociales. Use Affiliate POS para recibir y agregar pedidos de clientes manualmente. Tus afiliados (o franquicia) pueden agregar nuevos pedidos en el TPV de Afiliados y cargar el comprobante de depósito.",
+      "Esta opción es adecuada para administradores de páginas de Instagram y otras redes sociales. Usa el POS de afiliados para recibir y añadir pedidos de clientes manualmente. Tus afiliados (o franquicias) pueden añadir nuevos pedidos en el POS de afiliados y subir el comprobante de depósito.",
   },
 
   /** {@see BPageShopSettingFlow} **/
@@ -9266,7 +9497,7 @@ export default {
       title: "Métodos de inicio de sesión",
       subtitle: "Personaliza la forma en que los usuarios inician sesión en tu tienda.",
 
-      tips: "<b>Importante.</b> Cuando un usuario se registra en su tienda, se crea el usuario de Selldone correspondiente, si aún no existe ninguno. Este usuario tendrá acceso a su libreta de direcciones en todas las tiendas y podrá ver su historial de pedidos, incluso si una tienda ha cerrado. No utilizamos esta información con fines de marketing, pero la necesitamos para evitar fraudes en ambas partes. Para mantener la transparencia, enviaremos un correo electrónico al usuario informándole de su registro.",
+      tips: "<b>Importante.</b> Cuando un usuario se registra en tu tienda, se crea el usuario de Selldone correspondiente, si aún no existe. Este usuario tendrá acceso a su libreta de direcciones en todas las tiendas y podrá ver su historial de pedidos, incluso si una tienda ha cerrado. No utilizamos esta información con fines de marketing, pero la necesitamos para evitar fraudes por ambas partes. Para mantener la transparencia, enviaremos un correo electrónico al usuario informándole de su registro.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9279,7 +9510,7 @@ export default {
         subtitle:
           "Los usuarios deben seleccionar la ubicación de entrega en el mapa (como Uber).",
         subtitle_no_map:
-          "La distancia en el cálculo del envío considera cero si la ubicación no existe en la dirección proporcionada por el cliente.",
+          "La distancia en el cálculo del envío se considera cero si la ubicación no existe en la dirección proporcionada por el cliente.",
       },
       mode: {
         title: "Punto de inicio de sesión de clientes",
@@ -9302,39 +9533,39 @@ export default {
 
         false: {
           title: "Modo normal",
-          msg: "Permanezca en la página y continúe comprando después de hacer clic en agregar al carrito.",
+          msg: "Permanecer en la página y seguir comprando después de hacer clic en añadir al carrito.",
         },
         true: {
-          title: "modo expreso",
+          title: "Modo exprés",
           msg: "Redirigir al cliente a la página de pago después de hacer clic en agregar al carrito.",
         },
       },
 
       shipping_address: {
-        title: "Pregunta por la dirección de envío",
+        title: "Pedir la dirección de envío",
       },
     },
 
     /** {@see BShopOptionsCheckoutForm} **/
     checkout_form: {
-      title: "Título",
+      title: "Formulario de pago",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Personaliza los campos del formulario de pago para recopilar la información que necesitas de tus clientes.",
     },
   },
   /** {@see CheckoutOptions} **/
   checkout_options: {
     default: {
       title: "Físico y servicio (predeterminado)",
-      desc: "Solicite al cliente que ingrese una dirección en las cajas físicas y de servicio.",
+      desc: "Pedir al cliente que introduzca una dirección en el pago de productos físicos y de servicios.",
     },
     physical: {
       title: "Solo físico",
-      desc: "Pídale al cliente que ingrese una dirección solo en el pago físico.",
+      desc: "Pedir al cliente que introduzca una dirección solo en el pago de productos físicos.",
     },
     off: {
       title: "Nunca",
-      desc: "Nunca pidas la dirección de envío. ⚠ Use esta opción si planea tener servicios con variantes seleccionando tipo físico para productos en lugar de tipo de servicio.",
+      desc: "No pedir nunca la dirección de envío. ⚠ Usa esta opción si planeas ofrecer servicios con variantes seleccionando el tipo físico para los productos en lugar del tipo servicio.",
     },
   },
 
@@ -9342,19 +9573,19 @@ export default {
   business_model: {
     title: "Configuración del modelo de negocio",
     subtitle:
-      "Establezca su modelo de negocio y nosotros configuraremos su sistema operativo detrás de escena.",
+      "Define tu modelo de negocio y nosotros configuraremos tu sistema operativo entre bastidores.",
   },
   business_type: {
     title: "Tipos de mercancías",
     subtitle:
-      "Establece el tipo de productos que quieres vender en tu tienda. Los tipos de productos en Selldone son más que solo un tipo de productos; es más sobre el procedimiento de cumplimiento.",
+      "Define el tipo de productos que quieres vender en tu tienda. En Selldone, los tipos de producto son más que un simple tipo de producto: tienen que ver con el procedimiento de procesamiento de pedidos.",
 
     send_activation_request_to_support:
-      "Envíe una solicitud de activación en un ticket de soporte.",
-    require_kyc: "Propietario de negocio KYC.",
-    needs_enterprise_license: "Necesita tener una licencia Enterprise.",
+      "Envía una solicitud de activación en un ticket de soporte.",
+    require_kyc: "Verificación KYC del propietario del negocio.",
+    needs_enterprise_license: "Necesitas tener una licencia Enterprise.",
     marketplace_caution_message:
-      "Establecer Marketplace como su modelo afecta profundamente la configuración del sistema operativo de su empresa. Por ejemplo, debe definir al menos un proveedor para cada producto con precios e inventario independientes. Los clientes no pueden comprar productos que no tienen vendedor.",
+      "Establecer Marketplace como tu modelo afecta profundamente a la configuración del sistema operativo de tu negocio. Por ejemplo, debes definir al menos un vendedor para cada producto, con precios e inventario independientes. Los clientes no pueden comprar productos que no tengan vendedor.",
   },
 
   /** {@see BusinessModelView} **/
@@ -9365,58 +9596,58 @@ export default {
     },
 
     dropshipping: {
-      title: "Envío directo",
-      desc: "No mantenga ningún producto ni inventario: le paga a un tercero, generalmente un mayorista (como Printify, Wholesale2B, ...) o fabricante, y ellos cumplen los pedidos en segundo plano.",
+      title: "Dropshipping",
+      desc: "Externaliza el procesamiento de los pedidos pagando a un tercero, como un mayorista o un fabricante, para que gestione el inventario y los productos entre bastidores.",
     },
 
     wholesaler: {
-      title: "Proveedor de envío directo",
-      desc: "Por lo general, un mayorista o un fabricante, que envía los pedidos directamente al consumidor final. Otros comerciantes en Selldone pueden realizar envíos directos de sus productos en sus tiendas.",
+      title: "Proveedor de dropshipping",
+      desc: "Un mayorista o fabricante que normalmente envía los pedidos directamente al consumidor final. Otros comerciantes en Selldone también pueden vender tus productos en sus tiendas mediante el modelo de dropshipping.",
     },
     marketplace: {
-      title: "Mercado",
-      desc: "Los mercados en línea conectan a compradores y vendedores en una plataforma propietaria y centralizada.",
+      title: "Marketplace",
+      desc: "Los marketplaces en línea conectan a compradores y vendedores en una plataforma que pertenece a una sola empresa y está controlada por ella.",
     },
 
     franchise: {
       title: "Franquicia / Afiliado",
-      desc: "Una franquicia es un método de distribución de productos o servicios que involucra a un franquiciador que establece su marca (Franquicia) o vende sus productos por su marca (Afiliado).",
+      desc: "Una franquicia es un método de distribución de productos o servicios que involucra a un franquiciador que establece tu marca (franquicia) o vende tus productos bajo su propia marca (afiliado).",
     },
   },
 
   /** {@see BPageMarketplace} **/
   marketplace: {
-    vendor_wallets: "Carteras",
+    vendor_wallets: "Billeteras",
     pricing_models: "Precios",
-    add_vendor: "Agregar proveedor",
-    requests: "Peticiones",
+    add_vendor: "Añadir vendedor",
+    requests: "Solicitudes",
   },
 
   price_input_type: {
     title: "Tipo de entrada de precio",
     default: {
-      title: "Defecto",
-      desc: "Seleccione un valor como la cantidad en el carrito.",
+      title: "Predeterminado",
+      desc: "Selecciona un valor como cantidad en el carrito.",
     },
     area: {
       title: "Área",
-      desc: "Ingrese el ancho y la longitud como entradas para calcular la cantidad.",
+      desc: "Introduce el ancho y el largo como entradas para calcular la cantidad.",
     },
     volume: {
-      title: "volumen",
-      desc: "Ingrese ancho, largo y alto como entradas para calcular la cantidad.",
+      title: "Volumen",
+      desc: "Introduce el ancho, el largo y el alto como entradas para calcular la cantidad.",
     },
     custom: {
-      title: "Personalizado (Por formulario de entrada)",
-      desc: "¡No hay necesidad de cientos de variantes! Cree un formulario de cálculo de costos personalizado para productos altamente personalizables.",
+      title: "Personalizado (por formulario de entrada)",
+      desc: "¡No necesitas cientos de variantes! Crea un formulario de cálculo de costos personalizado para productos altamente personalizables.",
     },
   },
 
   /** {@see BPageShuttleVendors} **/
   vendors_list: {
-    title: "Mis proveedores",
+    title: "Mis cuentas de vendedor",
     message:
-      "Selldone Lista de mis propios proveedores.",
+      "Esta es la lista de tus cuentas de vendedor. Aquí se mostrarán todas las cuentas de vendedor asociadas a tiendas que utilizan la plataforma Selldone, para que puedas gestionarlas fácilmente.",
   },
 
   vendor_page: {},
@@ -9424,15 +9655,15 @@ export default {
   /** {@see BDomainsList} **/
   domains: {
     message:
-      "Conecte varios dominios al sistema operativo de su empresa y adminístrelos todos en un solo lugar. Puede usar la función de múltiples dominios para crear dominios dedicados para cada parte de su sitio web, como blog y comunidad, o usar diferentes dominios para sus afiliados.",
+      "Conecta varios dominios a tu sistema operativo de negocio y gestiónalos todos en un solo lugar. Puedes usar la función de múltiples dominios para crear dominios dedicados para cada parte de tu sitio web, como el blog y la comunidad, o usar dominios diferentes para tus afiliados.",
   },
 
   /** {@see BNoteButton}   {@see BNoteDialog} **/
   notes: {
-    add_action: "Agrega una nota para tu equipo",
+    add_action: "Añade una nota para tu equipo",
     notifications: {
       success_add: "La nota se ha añadido correctamente.",
-      success_delete: "La nota ha sido eliminada con éxito.",
+      success_delete: "La nota se ha eliminado correctamente.",
     },
   },
 
@@ -9440,23 +9671,236 @@ export default {
   external_services: {
     title: "Servicios externos",
     subtitle:
-      "Supervise el último estado de los servicios externos como SMS y correos electrónicos aquí.",
+      "Supervisa aquí el último estado de los servicios externos, como SMS y correos electrónicos.",
   },
 
   /** {@see BPageShopSettingQuota**/
   shop_quota: {
     title: "Cuota de uso",
+    eyebrow: "Límites de acciones diarias",
+    beta: "Beta",
     sub_title:
-      "Esta es la lista de cuotas de uso para su tienda. Puede aumentar estos límites actualizando la licencia de su tienda. Si excede los límites, puede solicitarnos asignaciones de cuota diaria adicionales. Todo el uso se restablecerá diariamente.",
+      "Consulta qué consume cada cuota diaria, cuánto queda y si la capacidad proviene de tu licencia o de una asignación personalizada.",
+    refresh: "Actualizar uso de cuota",
+    loading: "Cargando cuotas diarias",
+    loading_hint: "Estamos leyendo el uso más reciente de esta tienda.",
+    load_failed: "No se pudo cargar el uso de la cuota",
+    load_failed_hint:
+      "Los datos más recientes de la asignación diaria no están disponibles en este momento. Inténtalo de nuevo.",
+    refresh_failed:
+      "La última actualización ha fallado. Se siguen mostrando los últimos valores cargados correctamente.",
+    retry: "Intentar de nuevo",
+    search: "Buscar cuotas",
+    no_results: "No hay cuotas coincidentes",
+    no_results_hint:
+      "Prueba otra búsqueda o muestra todas las cuotas para volver a la lista completa.",
+    show_all: "Mostrar todas las cuotas",
+    resource_open_accessible:
+      "{resource}. {status}. {usage} de {total} usados; {available} disponibles. Abrir detalles.",
+    resource_close_accessible:
+      "{resource}. {status}. {usage} de {total} usados; {available} disponibles. Cerrar detalles.",
+    filters: {
+      all: "Todas",
+      attention: "Atención",
+      custom: "Personalizadas",
+    },
+    overview: {
+      resources: "Cuotas diarias",
+      attention: "Requieren atención",
+      custom: "Asignaciones personalizadas",
+      last_reset: "Último restablecimiento",
+      not_reset: "Aún no restablecida",
+      rolling_reset: "El uso sigue un restablecimiento diario continuo.",
+    },
+    guide: {
+      title: "La cuota diaria es diferente del límite de tu licencia",
+      body: "La mayoría de las cuotas aumentan solo cuando se crea correctamente un nuevo elemento. Las ediciones, restauraciones, acciones fallidas y eliminaciones normalmente no consumen nada; eliminar un elemento no devuelve capacidad. Los pedidos, las importaciones de productos y los servicios de IA siguen las reglas ampliadas que se indican a continuación. Los límites de recuento actual de tu licencia pueden seguir aplicándose de forma independiente. Si necesitas más capacidad diaria, mejora la licencia de la tienda o contacta con Selldone para obtener una asignación personalizada.",
+    },
+    groups: {
+      catalog: {
+        title: "Catálogo",
+        description: "Productos, listados del marketplace y estructura del catálogo.",
+      },
+      storefront: {
+        title: "Escaparate",
+        description: "Dominios y el contenido que ven los clientes en tu tienda.",
+      },
+      promotions: {
+        title: "Promociones",
+        description: "Descuentos, campañas, afiliados y herramientas de difusión.",
+      },
+      operations: {
+        title: "Operaciones",
+        description: "Clientes, mensajerías y vendedores del marketplace.",
+      },
+      orders_community: {
+        title: "Pedidos y comunidad",
+        description:
+          "Eventos de pedido contabilizados y actividad en la comunidad de tu tienda.",
+      },
+      ai: {
+        title: "Servicios de IA",
+        description: "Uso medido de IA y eliminación de fondo de imágenes.",
+      },
+      other: {
+        title: "Otros",
+        description: "Nuevos recursos de cuota que aún no están documentados.",
+      },
+    },
+    capacity: {
+      available: "Disponible",
+      near_limit: "Cerca del límite",
+      at_limit: "Límite alcanzado",
+      exceeded: "Límite superado",
+      no_capacity: "Sin capacidad",
+      available_count: "{count} disponibles",
+      custom: "personalizada",
+      license_only: "Asignación de la licencia",
+      accessible: "{usage} de {total} de la cuota diaria usados",
+    },
+    details: {
+      counts: "Qué consume esta cuota",
+      allowance: "Asignación diaria",
+      included: "Licencia",
+      extra: "Personalizada",
+      daily_total: "Total",
+    },
+    rules: {
+      create:
+        "Se consume una unidad solo cuando se crea correctamente un nuevo elemento. Las ediciones, las restauraciones, los fallos de validación y las operaciones revertidas no consumen nada. Eliminar un elemento no devuelve su unidad durante el período de cuota actual.",
+      product:
+        "La creación de productos manual, por clonación, con IA, desde repositorios, conectores, dropshipping y tarjetas de regalo consume una unidad. Una fila de importación destinada a crear un producto puede cobrarse al prepararse; una coincidencia posterior o un fallo del proceso no reembolsa actualmente esa unidad. Las actualizaciones, restauraciones y eliminaciones no cuentan.",
+      online_order:
+        "Los pedidos estándar, de Avocado y de Hyper consumen una unidad la primera vez que un pedido abierto pasa a Reservado o COD. Un pedido de Avocado creado por el vendedor que empieza como Reservado y un carrito de suscripción recién creado como Reservado consumen una unidad al crearse. Los reintentos y los cambios de estado posteriores no vuelven a contar, y la cancelación, la expiración o el reembolso no devuelven la unidad.",
+      pos_order:
+        "Un pedido de POS consume una unidad la primera vez que pasa de Abierto a Reservado o COD. Los reintentos y los cambios de estado posteriores no vuelven a contar, y la cancelación no devuelve la unidad.",
+      ai_tokens:
+        "Esta es una asignación agregada de uso de IA. Las llamadas a proveedores compatibles se comprueban con una estimación y luego se suman los tokens reales devueltos; la traducción con IA heredada puede sumar su unidad de caracteres por idioma. Algunas rutas de voz a texto no están incluidas actualmente.",
+      bg_remove:
+        "Una eliminación de fondo realizada por un proveedor consume una unidad cuando el resultado no está ya en caché. Reutilizar un resultado en caché consume cero unidades.",
+      unknown:
+        "Esta cuota existe en el registro compartido, pero su regla de recuento no se ha documentado en esta versión del panel.",
+    },
+    resources: {
+      Product: {
+        title: "Producto",
+        description:
+          "Nuevos productos creados manualmente, por clonación o con IA, mediante importaciones, repositorios, herramientas de dropshipping, tarjetas de regalo y canales de venta conectados.",
+      },
+      ListingItem: {
+        title: "Elemento de listado",
+        description: "Nuevos elementos de listado del marketplace creados para esta tienda.",
+      },
+      Category: {
+        title: "Categoría",
+        description:
+          "Nuevas categorías creadas manualmente, mediante importaciones, IA, repositorios, herramientas de catálogo conectadas o procesamiento de productos.",
+      },
+      Domain: {
+        title: "Dominio",
+        description:
+          "Nuevos dominios gestionados o externos conectados a la tienda. Editar o restaurar un dominio existente no cuenta.",
+      },
+      DiscountCodes: {
+        title: "Código de descuento",
+        description:
+          "Nuevos códigos de descuento creados manualmente, con IA o durante la configuración inicial de la tienda.",
+      },
+      Coupon: {
+        title: "Cupón",
+        description:
+          "Nuevos cupones creados manualmente, con IA o durante la configuración inicial de la tienda.",
+      },
+      Offer: {
+        title: "Oferta",
+        description: "Nuevas ofertas promocionales creadas para productos o carritos.",
+      },
+      Lottery: {
+        title: "Lotería",
+        description: "Nuevos incentivos de lotería creados para esta tienda.",
+      },
+      Campaign: {
+        title: "Campaña",
+        description: "Nuevas campañas de marketing creadas para esta tienda.",
+      },
+      Affiliate: {
+        title: "Afiliado",
+        description:
+          "Nuevos programas de afiliados; la asignación opcional de un dominio forma parte de la misma creación.",
+      },
+      EmailMarketing: {
+        title: "Email marketing",
+        description: "Nuevas campañas de email marketing creadas para esta tienda.",
+      },
+      Courier: {
+        title: "Mensajería",
+        description:
+          "Nuevas asignaciones de mensajería. Editar una mensajería existente no cuenta.",
+      },
+      Page: {
+        title: "Página",
+        description:
+          "Nuevas páginas del escaparate creadas manualmente, mediante herramientas MCP o durante la configuración inicial y la clonación.",
+      },
+      Popup: {
+        title: "Ventana emergente",
+        description: "Nuevas ventanas emergentes del escaparate creadas para esta tienda.",
+      },
+      Customer: {
+        title: "Cliente",
+        description:
+          "Nuevos clientes gestionados por el vendedor, creados manualmente, en masa, por importación, integraciones o flujos de tarjetas de regalo. El registro por cuenta propia de los compradores no cuenta.",
+      },
+      CommunityPost: {
+        title: "Publicación de la comunidad",
+        description:
+          "Nuevas publicaciones en la comunidad de esta tienda. Las publicaciones en la comunidad global de Selldone no cuentan.",
+      },
+      CommunityComment: {
+        title: "Comentario de la comunidad",
+        description:
+          "Nuevos comentarios en la comunidad de esta tienda. Los comentarios en la comunidad global de Selldone no cuentan.",
+      },
+      OnlineOrder: {
+        title: "Pedido en línea",
+        description:
+          "Los pedidos en línea, de Avocado, de Hyper y de suscripción cuentan cuando se reservan por primera vez o se marcan como COD.",
+      },
+      POSOrder: {
+        title: "Pedido de POS",
+        description:
+          "Los pedidos del punto de venta cuentan cuando pasan por primera vez de Abierto a Reservado o COD.",
+      },
+      Blog: {
+        title: "Entrada del blog",
+        description:
+          "Nuevas entradas del blog, incluidas las clonadas durante la configuración inicial. Editar una entrada existente no cuenta.",
+      },
+      AITokens: {
+        title: "Tokens de IA",
+        description:
+          "Uso agregado de IA: tokens devueltos por las llamadas a proveedores compatibles, más la unidad heredada que usa la traducción con IA.",
+      },
+      BgRemove: {
+        title: "Eliminación de fondo con IA",
+        description:
+          "Eliminaciones de fondo realizadas por un proveedor. Un resultado en caché no consume cuota.",
+      },
+      Vendor: {
+        title: "Vendedor",
+        description:
+          "Vendedores realmente nuevos creados manualmente, por importación o por solicitud de vendedor. Las filas de vendedores existentes no cuentan.",
+      },
+    },
   },
 
   /** {@see WidgetAppCard} **/
   app_card: {
     category: "Categoría",
-    installs: "Instalar",
-    actives: "Activo",
+    installs: "Instalaciones",
+    actives: "Activos",
     uninstalls: "Desinstalaciones",
-    app_code: "código de aplicación",
+    app_code: "Código de la aplicación",
     app_mode: "Modo de aplicación",
   },
 
@@ -9467,25 +9911,25 @@ export default {
       description: "Este producto estará disponible para pedidos en línea.",
     },
     close: {
-      name: "inactivo",
+      name: "Inactivo",
       title: "Inactivo ╏ Solo ventas fuera de línea",
       description: "Este producto no estará disponible para pedidos en línea.",
     },
     pending: {
       name: "Pendiente",
       title: "Pendiente",
-      description: "Requiere una revisión del mercado antes de entrar en funcionamiento.",
+      description: "Requiere la revisión del marketplace antes de publicarse.",
     },
     rejected: {
       name: "Rechazado",
       title: "Rechazado",
-      description: "Este producto fue rechazado por el mercado.",
+      description: "Este producto fue rechazado por el marketplace.",
     },
     unlisted: {
       name: "No listado",
       title: "No listado",
       description:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Este producto no aparece en la tienda, pero es accesible mediante enlace directo.",
     },
   },
 
@@ -9495,16 +9939,16 @@ export default {
   direct_feedback: {
     title: "Enviar solicitud directa",
     message:
-      "Identifique las 3 principales necesidades de su empresa para prosperar y obtener ganancias en Selldone. Esta información se compartirá directamente con los fundadores y directores y se considerará cuidadosamente. También puede actualizar sus necesidades con el tiempo después del envío.",
+      "Identifica las 3 necesidades principales de tu negocio para prosperar y obtener beneficios en Selldone. Esta información se compartirá directamente con los fundadores y directores y se estudiará con atención. También puedes actualizar tus necesidades con el tiempo después de enviarlas.",
     expand_action: "Escribe la solicitud...",
-    input_label: "Su solicitud",
+    input_label: "Tu solicitud",
     to: {
-      ceo: "Enviar al director ejecutivo",
+      ceo: "Enviar al CEO",
       team: "Enviar al equipo",
     },
     placeholder: {
-      ceo: "No hay necesidad de ser amable en absoluto, me gusta escuchar tus preguntas directas y al grano. Por ejemplo, necesito tener...",
-      team: "Por favor, trate de ser amable con ellos. Por ejemplo, necesito tener...",
+      ceo: "No hace falta ser amable en absoluto, me gusta escuchar tu petición directa y al grano.\nP. ej.: Necesito tener...",
+      team: "Por favor, intenta ser amable con ellos.\nP. ej.: Necesito tener...",
     },
   },
 
@@ -9518,14 +9962,14 @@ export default {
    * BVendorInput
    */
   vendor_input: {
-    placeholder: "Proveedor de filtros...",
+    placeholder: "Filtrar vendedor...",
   },
 
   /**
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "Procesamiento de productos importados",
+    title: "Procesando productos importados",
     message:
       "Estamos en proceso de importación de productos e imágenes, lo que puede tardar algún tiempo en completarse.",
   },
@@ -9545,20 +9989,20 @@ export default {
     test: {
       title: "Configuración",
       subtitle: "Informe de servicio externo",
-      action: "Conexión de prueba",
+      action: "Probar conexión",
       last_update: "Última actualización realizada por",
     },
     service_status: {
       title: "Estado del servicio",
-      syncing_message: "Sobre el proceso de sincronización...",
+      syncing_message: "Sincronizando...",
       action: "Sincronizar todo",
       connect_status: "Estado de conexión",
       service_status: "Estado del servicio",
-      auto_confirm_enable_msg: "La confirmación automática de pedidos está habilitada.",
+      auto_confirm_enable_msg: "La confirmación automática de pedidos está activada.",
       auto_confirm_disable_msg:
-        "La confirmación automática de pedidos no está habilitada.",
+        "La confirmación automática de pedidos no está activada.",
       shipping_enable_msg:
-        "El costo de envío se calculará en base a la información proporcionada al momento del pago.",
+        "El costo de envío se calculará a partir de la información proporcionada al finalizar la compra.",
     },
     detail: {
       title: "Detalle de conexión",
@@ -9576,11 +10020,11 @@ export default {
     },
 
     products: {
-      title: "productos",
+      title: "Productos",
       subtitle:
         "Lista de productos agregados de {name}. Asegúrate de que tu producto tenga un nombre y un SKU únicos. Algunos servicios de Connect se utilizan para la migración, por lo que si tienes productos con <b>SKU</b> y <b>nombres</b> duplicados, esos productos se cambiarán.",
       action: "Obtener productos",
-      syncing_message: "Sobre el proceso de sincronización...",
+      syncing_message: "Sincronizando...",
     },
 
     logs: {
@@ -9590,35 +10034,34 @@ export default {
     },
 
     edit: {
-      title: "Añadir nueva conexión",
+      title: "Añadir nuevo Connect",
 
       service: {
         title: "Servicio",
         subtitle:
-          "Seleccione la plataforma de destino, el proveedor de dropshipping o el mercado para conectarse.",
+          "Selecciona la plataforma de destino, el proveedor de dropshipping o el marketplace que quieres conectar.",
       },
       test: {
         false_title: "Sincronizar todo",
-        false_desc: "Obtenga todos los productos, categorías y clientes disponibles.",
+        false_desc: "Obtener todos los productos, categorías y clientes disponibles.",
         true_title: "Limitado (recomendado para principiantes)",
         true_desc:
-          "Obtén un máximo de 5 productos, categorías y clientes. Puedes activar el modo completo en Conectar > Configuración en cualquier momento.",
+          "Obtén un máximo de 5 productos, categorías y clientes. Puedes cambiar al modo completo en Connect > Configuración en cualquier momento.",
       },
       overwrite: {
         false_title: "No cambiar si existe",
-        false_desc: "Conserve los detalles de productos y categorías existentes tal como están.",
-        true_title: "Exagerar",
+        false_desc: "Conservar los detalles de los productos y categorías existentes tal como están.",
+        true_title: "Sobrescribir",
         true_desc:
-          "Actualice la información existente del producto, variante y categoría.",
+          "Actualizar la información existente de productos, variantes y categorías.",
       },
       migration_tips:
-        "<b>Consejos:</b> si desea probar la funcionalidad, seleccione la opción <b>Limitada</b> . Al seleccionar \"Sincronizar todo\", obtenemos todos los datos de sus servicios " +
-        "conectados y descargamos imágenes relacionadas, por lo que reducirá su almacenamiento gratuito. Además, eliminar muchos productos, categorías y clientes sería difícil.",
+        "<b>Consejos: </b>Si quieres probar la funcionalidad, selecciona la opción\n            <b>Limitado</b>. Al seleccionar \"Sincronizar todo\", obtenemos todos los datos de tus servicios conectados y descargamos las imágenes relacionadas, por lo que se reducirá tu almacenamiento gratuito. Además, ¡eliminar muchos productos, categorías y clientes sería complicado!",
       add_action: "Conectar automáticamente a",
       order: {
-        title: "Estado del pedido",
+        title: "Estado de pedidos",
         subtitle:
-          "Configure los ajustes de gestión de pedidos del servicio conectado para su tienda. Esto incluye configurar la aceptación de pedidos, habilitar la confirmación automática de pedidos (si es compatible) y configurar los cálculos de costos de envío.",
+          "Configura los ajustes de gestión de pedidos del servicio conectado para tu tienda. Esto incluye configurar la aceptación de pedidos, activar la confirmación automática de pedidos (si es compatible) y configurar el cálculo de costos de envío.",
       },
       enable: {
         label: "Estado de conexión",
@@ -9628,23 +10071,23 @@ export default {
         label: "Confirmar pedidos automáticamente",
         false_desc: "Debes confirmar el pedido manualmente.",
         true_desc:
-          "Los pedidos con pago en vivo se aprobarán automáticamente. Los pedidos con pago de depuración no se aprobarán automáticamente.",
-        tips: "Los pedidos pagados con tarjeta de regalo o COD o pasarelas de pago en el modo de depuración son excepciones y no se confirmarán automáticamente.",
+          "Los pedidos con pago real se aprobarán automáticamente. Los pedidos con pago en modo de depuración no se aprobarán automáticamente.",
+        tips: "Los pedidos pagados con tarjeta de regalo, contra reembolso (COD) o con pasarelas de pago en modo de depuración son excepciones y no se confirmarán automáticamente.",
       },
 
       shipping: {
         label: "Envío",
-        tips: "Este servicio ofrece cálculo de gastos de envío, que puede habilitarse o deshabilitarse según sus preferencias. Si está habilitado, se requerirán API de cálculo de costos con servicios de terceros, lo que puede causar una demora de más de 300 ms para actualizar el precio en la página de pago.",
+        tips: "Este servicio ofrece cálculo de envío, que puedes activar o desactivar según tus preferencias. Si está activado, se requerirán API de cálculo de costos con servicios de terceros, lo que puede causar un retraso de más de 300 ms al actualizar el precio en la página de pago.",
         false_title: "Desactivar",
         false_desc:
-          "Utilice mi cálculo de costos de envío, en Tienda > Logística > Transporte para todos los productos, incluidos los importados.",
+          "Usar mi cálculo de costos de envío, en Tienda > Logística > Transporte, para todos los productos, incluidos los importados.",
         true_title: "Calcular envío",
         true_desc:
-          "Utilice la API de cálculo de tarifas de envío que ofrece este servicio.",
+          "Usar la API de cálculo de tarifas de envío que ofrece este servicio.",
       },
 
       remove: {
-        verify: "Verifico para eliminar esta conexión.",
+        verify: "Confirmo que quiero eliminar esta conexión.",
         action: "Eliminar conexión",
       },
     },
@@ -9653,9 +10096,9 @@ export default {
      * BPageShopChannelConnect
      */
     list: {
-      title: "Conectar sistema operativo",
+      title: "Connect OS",
       subtitle:
-        "Conecte su sistema operativo empresarial a servicios externos y administre todos los canales en un mismo lugar.",
+        "Conecta tu sistema operativo de negocio a servicios externos y gestiona todos los canales en un mismo lugar.",
       action: "Conectar nuevos servicios",
       empty_message:
         "Olvídate de las aplicaciones y los complementos para dropshipping. Connect es el futuro de la gestión de pedidos multiplataforma.",
@@ -9675,12 +10118,12 @@ export default {
       desc: "Obtener productos, categorías y clientes. Una vez que el usuario elimine este servicio, los productos, categorías y clientes recibidos no se eliminarán.",
     },
     Dropshipping: {
-      title: "Envío directo",
-      desc: "Obtenga productos, categorías y pedidos. El sistema elimina productos después de que el usuario cancele el servicio.",
+      title: "Dropshipping",
+      desc: "Obtener productos, categorías y pedidos. El sistema elimina los productos cuando el usuario quita el servicio.",
     },
     Marketplace: {
-      title: "Mercado",
-      desc: "Simplemente sincronice el inventario y reciba pedidos (los productos estarán vinculados por SKU).",
+      title: "Marketplace",
+      desc: "Solo sincronizar el inventario y recibir pedidos (los productos se vincularán por SKU).",
     },
     Accounting: {
       title: "Contabilidad",
@@ -9697,9 +10140,9 @@ export default {
    */
   shop_landings: {
     title: "Páginas de destino",
-    add_new_action: "Agregar nueva página",
+    add_new_action: "Añadir nueva página",
     subtitle:
-      "Cree páginas personalizadas distintivas y responsivas para su marca utilizando un editor en línea versátil impulsado por IA y genere contenido dinámico automáticamente al ingresar datos.",
+      "Crea páginas personalizadas, distintivas y adaptables para tu marca con un versátil editor en línea impulsado por IA, y genera contenido dinámico automáticamente a partir de datos.",
     empty_message: "Diseña páginas personalizadas mediante arrastrar y soltar...",
   },
 
@@ -9710,7 +10153,7 @@ export default {
     list: {
       title: "Gestión de personal",
       subtitle:
-        "Los usuarios obtuvieron acceso al panel y a las secciones administrativas de esta tienda.",
+        "Usuarios con acceso al panel y a las secciones administrativas de esta tienda.",
     },
     pending: {
       title: "Pendiente",
@@ -9722,7 +10165,7 @@ export default {
    * BPageShopCommunityComments
    */
   community_comments: {
-    title: "comentarios",
+    title: "Comentarios",
     subtitle: "Esta es una lista de los comentarios de la comunidad.",
     empty_msg: "No se han creado comentarios hasta ahora...",
   },
@@ -9731,13 +10174,13 @@ export default {
    * BPageShopCommunityCategories
    */
   community_categories: {
-    title: "categorías",
+    title: "Categorías",
     subtitle: "Esta es una lista de las categorías de la comunidad.",
     new_category_action: "Nueva categoría",
     empty_msg: "No se han creado categorías hasta ahora...",
     filter: {
       delete: {
-        title: "Eliminado",
+        title: "Eliminadas",
         description: "Mostrar categorías eliminadas.",
       },
     },
@@ -9750,23 +10193,23 @@ export default {
     subtitle: "Esta es una lista de las publicaciones de la comunidad.",
     filter: {
       deleted: {
-        title: "Eliminado",
+        title: "Eliminadas",
         description: "Mostrar publicaciones eliminadas.",
       },
       reported: {
-        title: "Reportado",
+        title: "Denunciadas",
         description: "Mostrar publicaciones denunciadas.",
       },
     },
     empty_msg: "No se han creado publicaciones hasta ahora...",
     menu: {
       open_post: {
-        title: "Publicación abierta",
-        subtitle: "Ver y editar publicaciones en la comunidad.",
+        title: "Abrir publicación",
+        subtitle: "Ver y editar la publicación en la comunidad.",
       },
       spam: {
-        title: "Informar y eliminar spam",
-        subtitle: "Eliminar publicaciones en masa y banear usuarios.",
+        title: "Denunciar y eliminar spam",
+        subtitle: "Eliminar publicaciones en masa y bloquear al usuario.",
       },
       delete: {
         title: "Eliminar publicación",
@@ -9780,25 +10223,25 @@ export default {
    */
   channel_google: {
     gtag: {
-      title: "Administrador de etiquetas",
+      title: "Tag Manager",
       subtitle:
-        "Google Analytics permite medir el ROI de los anuncios mientras se rastrean sitios y aplicaciones de Flash, video y redes sociales. Administre las etiquetas de sitios web sin esfuerzo con las soluciones gratuitas, simples y confiables de Google Tag Manager, sin necesidad de editar códigos.",
+        "Google Analytics permite medir el ROI de los anuncios mientras se hace seguimiento de sitios y aplicaciones de Flash, vídeo y redes sociales. Gestiona las etiquetas de tu sitio web sin esfuerzo con las soluciones gratuitas, sencillas y fiables de Google Tag Manager, sin necesidad de editar código.",
       tag_id: {
-        label: "Identificación del administrador de etiquetas de Google",
+        label: "ID de Google Tag Manager",
       },
     },
     shopping: {
-      title: "Compras de Google",
+      title: "Google Shopping",
       subtitle:
-        "Las fuentes de datos indican el origen de la información de su catálogo en Google. Siga este enlace para agregar automáticamente todos los productos y categorías a Google Merchandising.",
-      tips: "Puede utilizar esta herramienta para administrar anuncios de Google de forma sencilla y automática.",
+        "Las fuentes de datos indican el origen de la información de tu catálogo en Google. Sigue este enlace para añadir automáticamente todos los productos y categorías a Google Merchant.",
+      tips: "Puedes utilizar esta herramienta para gestionar los anuncios de Google de forma sencilla y automática.",
       link_message: "URL de feed de productos de Google",
     },
     console: {
-      title: "Consola de búsqueda",
+      title: "Search Console",
       subtitle: `Agrega una metaetiqueta a tu página de inicio para la verificación de Google Search Console.`,
       code: {
-        label: "Etiqueta Meta de verificación",
+        label: "Metaetiqueta de verificación",
         placeholder: "De Google, por ejemplo viQg9mjdBj...",
       },
     },
@@ -9810,15 +10253,15 @@ export default {
     serp_content: {
       title: "Conectarse a Google Search Console",
       subtitle:
-        "Conecte su tienda a la consola de búsqueda y comience a explorar palabras clave, rangos y otras herramientas de SEO gratuitas en Selldone.",
+        "Conecta tu tienda a Search Console y empieza a explorar palabras clave, posiciones y otras herramientas SEO gratuitas en Selldone.",
       tips: {
         title:
-          "Antes de vincular Selldone con Google Search Console, asegúrese de lo siguiente:",
-        add_in_selldone: "Agregue, verifique y configure como principal su dominio personalizado.",
+          "Antes de vincular Selldone con Google Search Console, asegúrate de lo siguiente:",
+        add_in_selldone: "Añade, verifica y establece como principal tu dominio personalizado.",
         add_in_google: `Añade y verifica <b>{domain}</b> en tu <a href="https://search.google.com/search-console" target="_blank"><b>Google Search Console</b></a>.`,
       },
       action_custom_domain: "Dominio personalizado",
-      action_connect_now: "Conecte ahora",
+      action_connect_now: "Conectar ahora",
       action_remove_connection: "Eliminar conexión",
     },
   },
@@ -9827,30 +10270,30 @@ export default {
    * {@see BPageShopIncentivesCoupon}
    */
   cashback: {
-    add_new: "Añadir nuevo reembolso",
-    title: "Programas de devolución de dinero",
-    boosted: "Impulso (2x)",
+    add_new: "Añadir nuevo cashback",
+    title: "Programas de cashback",
+    boosted: "Boost (2x)",
     min_purchase: "Compra mínima",
-    only_first_order: "Solo primer orden",
-    total_cashback: "Reembolso total",
+    only_first_order: "Solo el primer pedido",
+    total_cashback: "Cashback total",
     delete_alert: {
-      title: "Eliminar programa de reembolso",
-      message: "¿Estás seguro de eliminar este programa de reembolso?",
+      title: "Eliminar programa de cashback",
+      message: "¿Estás seguro de eliminar este programa de cashback?",
       action: "Sí, eliminar ahora",
     },
     notifications: {
-      delete_success: "Programa de reembolso eliminado exitosamente.",
+      delete_success: "Programa de cashback eliminado correctamente.",
     },
   },
   /**
    * {@see BPageCashback}
    */
   shop_cashback: {
-    title: "Programa de reembolso",
-    up_to: "arriba a",
+    title: "Programa de cashback",
+    up_to: "Hasta",
     menu: {
-      back: "Programas de regreso",
-      dashboard: "tablero",
+      back: "Volver a los programas",
+      dashboard: "Panel",
       orders: "Pedidos",
       edit: "Editar",
     },
@@ -9859,12 +10302,12 @@ export default {
      */
     dashboard: {
       chart_amount_buy: {
-        label: "Comprar",
+        label: "Compra",
         y: "Importe de la compra {currency}",
       },
       chart_amount_cashback: {
-        label: "Reembolso en efectivo",
-        y: "Monto del reembolso {currency}",
+        label: "Cashback",
+        y: "Importe del cashback {currency}",
       },
       chart_used: {
         label: "Utilizado",
@@ -9875,9 +10318,9 @@ export default {
      * {@see BPageCashbackOrders}
      */
     orders: {
-      title: "Pedidos con devolución de dinero",
+      title: "Pedidos con cashback",
       table: {
-        amount_cashback: "Monto del reembolso",
+        amount_cashback: "Importe del cashback",
         payment_status: "Estado del pago",
         date: "Fecha",
       },
@@ -9889,35 +10332,35 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "Establezca aquí el porcentaje de chasback, el límite y su estado.",
+      subtitle: "Establece aquí el porcentaje de cashback, el límite y su estado.",
     },
     percent_input: {
-      title: "Porcentaje de reembolso",
-      message: "Introduzca el porcentaje de reembolso del 1% al 20%.",
+      title: "Porcentaje de cashback",
+      message: "Introduce el porcentaje de cashback, del 1% al 20%.",
     },
     currency_input: {
-      message: "El programa de devolución de dinero estará disponible sólo para esta moneda.",
+      message: "El programa de cashback estará disponible solo para esta moneda.",
     },
     limit_input: {
       title: "Límite",
-      hint: "Introduzca el importe máximo de reembolso.",
-      zero_message: "Introduzca 0 para obtener un reembolso ilimitado.",
+      hint: "Introduce el importe máximo de cashback.",
+      zero_message: "Introduce 0 para un cashback ilimitado.",
     },
     duration: {
       title: "Límite de duración",
-      subtitle: "Establezca la duración del programa de reembolso. Es opcional.",
+      subtitle: "Establece la duración del programa de cashback. Es opcional.",
     },
     start_input: {
       title: "Fecha de inicio",
-      placeholder: "Seleccione fecha de inicio...",
+      placeholder: "Selecciona la fecha de inicio...",
     },
     end_input: {
       title: "Fecha de finalización",
-      placeholder: "Seleccionar fecha de finalización...",
+      placeholder: "Selecciona la fecha de finalización...",
     },
     design: {
       subtitle:
-        "Establezca un título y una breve descripción del programa de reembolso. Esta información se mostrará a los clientes.",
+        "Establece un título y una breve descripción para el programa de cashback. Esta información se mostrará a los clientes.",
     },
     title_input: {
       title: "Título",
@@ -9926,49 +10369,49 @@ export default {
       title: "Descripción",
     },
     constraints: {
-      subtitle: "Establezca las restricciones para el programa de devolución de dinero.",
+      subtitle: "Establece las restricciones del programa de cashback.",
     },
     min_purchase_input: {
-      hint: "Ingrese el monto mínimo de compra para el programa de reembolso.",
+      hint: "Introduce el importe mínimo de compra para el programa de cashback.",
       title: "Compra mínima",
     },
     only_first_buy_input: {
-      false_desc: "El programa de devolución de dinero estará disponible para todos los pedidos.",
+      false_desc: "El programa de cashback estará disponible para todos los pedidos.",
       true_desc:
-        "El programa de devolución de dinero estará disponible solo para el primer pedido.",
-      true_title: "Solo primer orden",
+        "El programa de cashback estará disponible solo para el primer pedido.",
+      true_title: "Solo el primer pedido",
       false_title: "Todos los pedidos",
     },
     qualify_input: {
       false_title: "Todos los clientes",
-      true_title: "Calificar clientes",
+      true_title: "Clientes cualificados",
       true_msg:
-        "El programa de devolución de dinero estará disponible sólo para los clientes que califiquen.",
+        "El programa de cashback estará disponible solo para los clientes que cumplan los requisitos.",
     },
     club: {
       subtitle:
-        "Establezca el club para el programa de reembolso. El programa de reembolso estará disponible solo para los clientes que estén en este club.",
+        "Establece el club para el programa de cashback. El programa de cashback estará disponible solo para los clientes que pertenezcan a este club.",
     },
     cluster: {
       subtitle:
-        "Al asociar un clúster con el programa de reembolso, puede administrarlo de manera más efectiva.",
+        "Al asociar un clúster al programa de cashback, puedes gestionarlo de manera más eficaz.",
     },
     notifications: {
-      add: "Programa de reembolso agregado exitosamente.",
-      edit: "Programa de reembolso actualizado exitosamente.",
+      add: "Programa de cashback añadido correctamente.",
+      edit: "Programa de cashback actualizado correctamente.",
     },
     enable_input: {
-      true_msg: "El programa de reembolso está activo y los clientes pueden utilizarlo.",
+      true_msg: "El programa de cashback está activo y los clientes pueden utilizarlo.",
       false_msg:
-        "El programa de reembolso está inactivo y los clientes no pueden utilizarlo.",
+        "El programa de cashback está inactivo y los clientes no pueden utilizarlo.",
     },
     boosted_input: {
       false_title: "Normal",
-      true_title: "Boost (reembolso doble)",
+      true_title: "Boost (cashback 2x)",
       true_msg:
-        "El programa de reembolso está en modo de refuerzo y los clientes recibirán un reembolso de 2x.",
+        "El programa de cashback está en modo boost y los clientes recibirán el doble de cashback (2x).",
       false_msg:
-        "El programa de reembolso está en modo normal y los clientes recibirán el reembolso normal.",
+        "El programa de cashback está en modo normal y los clientes recibirán el cashback normal.",
     },
   },
 
@@ -9978,12 +10421,12 @@ export default {
   row_payment: {
     actions: {
       refund: {
-        title: "Pago de reembolso",
+        title: "Reembolsar pago",
         subtitle: "Se admite reembolso parcial o total.",
       },
       delivery: {
-        title: "Confirmar en el momento de la entrega",
-        subtitle: "Puede confirmar manualmente la entrega para el proveedor de pagos.",
+        title: "Confirmar entrega",
+        subtitle: "Puedes confirmar manualmente la entrega para el proveedor de pagos.",
       },
     },
   },
@@ -9992,19 +10435,19 @@ export default {
    * @see BOrderPaymentActionsRefundDialog
    */
   payment_refund_dialog: {
-    title: "Pago de reembolso",
+    title: "Reembolsar pago",
     message:
-      "Por razones de seguridad, solo los pedidos pagados dentro de los últimos 7 días son elegibles para reembolsos.",
-    payment_amount: "Monto del pago",
+      "Por razones de seguridad, solo los pedidos pagados en los últimos 7 días pueden reembolsarse.",
+    payment_amount: "Importe del pago",
     total_refund_amount: "Importe total reembolsado",
-    can_refund: "¿Puede reembolsarse?",
-    refund_amount: "Monto del reembolso",
+    can_refund: "Reembolsable",
+    refund_amount: "Importe del reembolso",
     verify: {
       title: "Verificar reembolso",
       description:
-        "Confirmo que el monto del reembolso es correcto y quiero continuar.",
+        "Confirmo que el importe del reembolso es correcto y quiero continuar.",
     },
-    action: "Reembolso ahora",
+    action: "Reembolsar ahora",
   },
 
   /**
@@ -10013,7 +10456,7 @@ export default {
   payment_delivery_dialog: {
     title: "Confirmación de entrega al cliente",
     message:
-      "Algunos servicios de pago requieren una confirmación de que el pedido ha sido entregado al cliente. Normalmente enviamos esta confirmación durante el paso final del procesamiento del pedido, cuando recibimos la confirmación de entrega del cliente. Sin embargo, si necesita realizar esta acción manualmente, puede hacerlo aquí.",
+      "Algunos servicios de pago requieren una confirmación de que el pedido se ha entregado al cliente. Normalmente enviamos esta confirmación en el último paso del procesamiento del pedido, cuando recibimos la confirmación de entrega del cliente. Sin embargo, si necesitas realizar esta acción manualmente, puedes hacerlo aquí.",
     verify: {
       title: "Verificar entrega",
       description:
@@ -10027,17 +10470,17 @@ export default {
    */
   product_cross_selling: {
     title: "Venta cruzada",
-    add_new_actions: "Agregar nuevo producto",
+    add_new_actions: "Añadir nuevo producto",
     subtitle:
-      "En esta sección, puede agregar y administrar productos de venta cruzada para esta página de producto. Estos productos se mostrarán como sugerencias para que los clientes los compren junto con el artículo principal. También puede establecer descuentos para alentar e incentivar compras adicionales. El sistema mostrará un máximo de 3 artículos para que el cliente los considere.",
+      "En esta sección puedes añadir y gestionar productos de venta cruzada para esta página de producto. Estos productos se mostrarán como sugerencias para que los clientes los compren junto con el artículo principal. También puedes establecer descuentos para fomentar e incentivar compras adicionales. El sistema mostrará un máximo de 3 artículos para que el cliente los considere.",
     dialog: {
       edit_title: "Editar producto de venta cruzada",
       add_title: "Añadir nuevos productos de venta cruzada",
       target: {
         title: "Producto objetivo",
         subtitle:
-          "Elija los productos que desea promocionar como opciones de venta cruzada junto con este producto.",
-        select_products: "Seleccione producto(s)",
+          "Elige los productos que quieres promocionar como opciones de venta cruzada junto con este producto.",
+        select_products: "Selecciona producto(s)",
       },
       list: {
         title: "Producto objetivo",
@@ -10047,18 +10490,18 @@ export default {
       discount: {
         title: "Descuento y mensaje",
         subtitle:
-          "Tiene la opción de incluir un mensaje y ofrecer un descuento para motivar a los clientes a comprar los artículos adicionales seleccionados. Estos incentivos pueden ayudar a impulsar las ventas y mejorar la experiencia de compra en general.",
+          "Tienes la opción de incluir un mensaje y ofrecer un descuento para motivar a los clientes a comprar los artículos adicionales seleccionados. Estos incentivos pueden ayudar a impulsar las ventas y mejorar la experiencia de compra en general.",
         amount_input: {
           message:
             "El porcentaje de descuento se aplicará al precio del producto después de tener en cuenta todos los descuentos existentes.",
         },
         mismatch_type_warning:
-          "Los descuentos no se pueden aplicar a otros tipos además de los tipos de productos principales, ya que los artículos de origen y de destino no se colocarán en cestas separadas.",
+          "Los descuentos no se pueden aplicar a tipos distintos del tipo de producto principal, ya que los artículos de origen y de destino no se colocarán en el mismo carrito.",
         not_support_subscription_type_warning:
           "No es posible establecer descuentos para la venta cruzada de productos de suscripción, ya que los planes de precios no se pueden ajustar de forma dinámica.",
         message_input: {
           message:
-            "Cree un título atractivo y cautivador para captar la atención de los clientes.",
+            "Crea un título atractivo y cautivador para captar la atención de los clientes.",
           placeholder:
             "Combina y ahorra: ¡completa tu look con nuestra selección cuidadosamente seleccionada!",
         },
@@ -10066,7 +10509,7 @@ export default {
       action: {
         title: "Acción",
         subtitle:
-          'Modifique aquí la acción del producto de venta cruzada. Si su producto requiere la introducción de información personalizada, como por ejemplo mediante un formulario de valoración, no seleccione "Añadir al carrito" como acción, ya que esto puede generar errores.',
+          'Modifica aquí la acción del producto de venta cruzada. Si tu producto requiere la introducción de información personalizada, por ejemplo mediante un formulario de valoración, no selecciones "Añadir al carrito" como acción, ya que esto puede generar errores.',
       },
     },
   },
@@ -10076,21 +10519,21 @@ export default {
   product_variants_bulk_add: {
     title: "Añadir variantes en bloque",
     variants: {
-      title: "Variante Opciones",
+      title: "Opciones de variante",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Selecciona hasta dos opciones de variante. Tras la selección, podrás elegir qué variantes concretas crear automáticamente.",
     },
     values: {
-      title: "Variante Valores",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      title: "Valores de variante",
+      subtitle: "Introduce aquí los valores posibles para cada opción de variante.",
       prevent_duplicates_tips:
-        "<b></b> Configura y gestiona esta opción para tu tienda.",
+        "<b>Nota:</b> Comprobamos automáticamente las variantes existentes para evitar duplicados.",
     },
     inventory: {
-      title: "Título",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      title: "Inventario inicial",
+      subtitle: "Establece el recuento de inventario inicial para las nuevas variantes.",
     },
-    add_variants_action: "Crear Variantes",
+    add_variants_action: "Crear variantes",
   },
 
   /**
@@ -10098,12 +10541,12 @@ export default {
    */
   CrossSellActionType: {
     AddToCart: {
-      title: "añadir a la cesta",
+      title: "Añadir al carrito",
       description:
-        "Muestra el botón Agregar al carrito directamente. Ten en cuenta que esto no se aplica a los productos con suscripción.",
+        "Muestra directamente el botón Añadir al carrito. Ten en cuenta que esto no se aplica a los productos de suscripción.",
     },
     ViewProduct: {
-      title: "Ver el producto",
+      title: "Ver producto",
       description:
         "Muestra un botón Ver más que dirige a los clientes a la página del producto abriendo una nueva ventana.",
     },
@@ -10115,28 +10558,28 @@ export default {
 
   product_flow: {
     title: "Flujo de compra",
-    subtitle: "Este es el flujo de compra y verificación del estado de su producto.",
+    subtitle: "Este es el flujo de compra y la comprobación del estado de tu producto.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "Este producto ha sido agregado a través de <b>{name}</b> .",
-      enable_msg: "Este puente al servicio externo está habilitado.",
-      disable_msg: "Este puente al servicio externo está deshabilitado.",
+      subtitle: "Este producto se ha añadido a través de <b>{name}</b>.",
+      enable_msg: "Este puente al servicio externo está activado.",
+      disable_msg: "Este puente al servicio externo está desactivado.",
       has_shipping_msg:
-        "{name} admite envíos. Por lo tanto, tiene la opción de habilitar el cálculo automático de envío por parte de {name} en la página de pago.",
+        "{name} admite envíos. Por lo tanto, tienes la opción de activar el cálculo automático de envío por parte de {name} en la página de pago.",
     },
     /**
      * @see BProductFlowRowHealth
      */
     health: {
-      title: "Salud del producto",
-      available_in_stock_msg: "El producto está disponible en stock.",
+      title: "Estado del producto",
+      available_in_stock_msg: "El producto está disponible en existencias.",
       out_of_stock_msg: "El producto está agotado.",
       file_count_msg:
-        "{files_count} archivos con un total de {files_size} cargados para este producto.",
-      no_file_uploaded_msg: "Aún no se ha cargado ningún archivo",
+        "{files_count} archivos con un total de {files_size} subidos para este producto.",
+      no_file_uploaded_msg: "Aún no se ha subido ningún archivo.",
       no_image_uploaded_msg:
         "Sube una imagen del producto para hacerlo más atractivo.",
     },
@@ -10144,20 +10587,20 @@ export default {
      * @see BProductFlowErrorsVendor
      */
     vendor_errors: {
-      title: "Proveedores faltantes",
+      title: "Faltan vendedores",
       subtitle:
-        "Este producto actualmente no tiene vendedores asociados. Para que un producto pueda comprarse en el mercado, debe tener al menos un vendedor.",
-      manage_vendors: "Administrar proveedores",
+        "Este producto actualmente no tiene vendedores asociados. Para que un producto pueda comprarse en el marketplace, debe tener al menos un vendedor.",
+      manage_vendors: "Gestionar vendedores",
     },
 
     /**
      * @see BProductFlowErrorsFile
      */
     file_errors: {
-      title: "Archivos faltantes",
+      title: "Faltan archivos",
       subtitle:
-        "Actualmente no se han cargado archivos para este producto. Cargue los archivos para continuar.",
-      manage_files: "Administrar archivos",
+        "Actualmente no se ha subido ningún archivo para este producto. Sube archivos para continuar.",
+      manage_files: "Gestionar archivos",
     },
 
     /**
@@ -10166,7 +10609,7 @@ export default {
     pricing: {
       title: "Precios",
       no_product_price_msg: "¡El precio predeterminado del producto aún no se ha establecido!",
-      listing_pricing_msg: "Precios de listado:",
+      listing_pricing_msg: "Precios del listado:",
       has_valuation_msg: "El producto tiene valoración.",
       subscription_pricing_msg:
         "Este producto tiene {count} planes de precios de suscripción.",
@@ -10177,9 +10620,9 @@ export default {
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "Planes de precios de suscripción faltantes",
+      title: "Faltan planes de precios de suscripción",
       subtitle:
-        "Este producto no tiene planes de precios de suscripción. Debe agregar al menos un plan de precios de suscripción para que este producto esté disponible para su compra por suscripción.",
+        "Este producto no tiene planes de precios de suscripción. Debes añadir al menos un plan de precios de suscripción para que este producto esté disponible para su compra por suscripción.",
       pricing_plans: "Planes de precios",
     },
 
@@ -10190,16 +10633,16 @@ export default {
       title: "Restricción de ubicación de venta ● {status}",
       status: {
         has_restriction: "Disponible en {count} países",
-        no_restriction: "No restringido",
+        no_restriction: "Sin restricción",
       },
       available_countries_msg:
         "Las compras a nivel mundial están restringidas a {count} países. Estos países son {countries}.",
       disable_for_all_countries_msg:
-        "Las compras están deshabilitadas para todos los países en la configuración de tu tienda > ubicaciones.",
+        "Las compras están desactivadas para todos los países en Tienda > Ubicaciones.",
       location_is_not_in_permitted_shop_locations_msg:
-        "Estableciste {country} como ubicación de venta, pero en el nivel de tienda no permites este país. Revisa la configuración de tu nivel de tienda.",
-      shop_locations: "Ubicaciones de las tiendas",
-      product_locations: "Ubicaciones de productos",
+        "Has establecido {country} como ubicación de venta, pero a nivel de tienda no permites este país. Revisa la configuración a nivel de tienda.",
+      shop_locations: "Ubicaciones de la tienda",
+      product_locations: "Ubicaciones del producto",
     },
 
     /**
@@ -10208,11 +10651,11 @@ export default {
     location_errors: {
       title: "Error de ubicaciones disponibles",
       no_location_error_subtitle:
-        "Ha activado una restricción de ubicación para comprar el producto, pero actualmente no hay ningún país que esté sujeto a esta restricción. Como resultado, este producto no está disponible para su compra.",
+        "Has activado una restricción de ubicación para la compra del producto, pero actualmente no hay ningún país incluido en esta restricción. Como resultado, nadie puede comprar este producto.",
       invalid_location_error_subtitle:
-        "La configuración de restricción de ubicación de su producto contiene un error: algunas ubicaciones que figuran en la lista no tienen ningún código postal asociado. En consecuencia, los usuarios no pueden seleccionar un código postal, lo que hace que el producto no esté disponible para su compra.",
+        "La configuración de restricción de ubicación de tu producto contiene un error: algunas de las ubicaciones indicadas no tienen ningún código postal asociado. En consecuencia, los usuarios no pueden seleccionar un código postal, por lo que el producto no está disponible para su compra.",
 
-      manage_locations: "Administrar ubicaciones",
+      manage_locations: "Gestionar ubicaciones",
     },
 
     /**
@@ -10220,13 +10663,13 @@ export default {
      */
     tax: {
       title: "Impuesto de suscripción",
-      default_shop: "Impuesto de tienda predeterminado",
+      default_shop: "Impuesto predeterminado de la tienda",
       tax_profiles: "Perfiles fiscales",
       description: {
         subscription_tax_msg:
           "Podemos aplicar impuestos solo en el paso de creación del pago.",
         dedicated: "Dedicado",
-        is_disabled: "¡Este perfil fiscal está deshabilitado!",
+        is_disabled: "¡Este perfil fiscal está desactivado!",
         tax_is_based_on_location: "Impuestos: basados en la ubicación",
         shipping_tax_is_based_on_location: "Envío: basado en la ubicación",
         included_in_price: "Incluido en el precio.",
@@ -10237,11 +10680,11 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "Este producto pertenece a <b>{vendor}</b> .",
-      has_vendors_msg: "Hay {count} proveedores para este producto.",
+      vendor_owner_msg: "Este producto pertenece a <b>{vendor}</b>.",
+      has_vendors_msg: "Hay {count} vendedores para este producto.",
       no_vendor_msg:
-        "No ha asignado un proveedor a este producto, por lo que los clientes no pueden comprarlo.",
-      add_vendors: "Agregar proveedores",
+        "No has asignado ningún vendedor a este producto, por lo que los clientes no pueden comprarlo.",
+      add_vendors: "Añadir vendedores",
     },
   },
 
@@ -10251,7 +10694,7 @@ export default {
   product_template: {
     title: "Plantilla de página de producto",
     subtitle:
-      "Puede insertar una página dentro de la página de su producto para mejorar la presentación. El enfoque óptimo es crear páginas con un fondo transparente y de 1 a 3 secciones adaptadas a cada categoría de producto. Luego, asigne una página a varios productos para lograr una presentación uniforme y atractiva.",
+      "Puedes insertar una página dentro de la página de tu producto para mejorar la presentación. El enfoque óptimo es crear páginas con fondo transparente y de 1 a 3 secciones adaptadas a cada categoría de producto. Luego, asigna una misma página a varios productos para lograr una presentación uniforme y atractiva.",
     edit_page: "Editar página",
     list_of_pages: "Lista de páginas",
   },
@@ -10260,16 +10703,16 @@ export default {
    */
   product_embed: {
     subtitle:
-      "Puede incorporar fácilmente un producto o una lista de productos en su blog u otras páginas web con solo copiar y pegar los códigos que le proporcionamos. Aunque esta función aún se encuentra en sus primeras etapas, estamos trabajando activamente para ampliar su funcionalidad más allá de lo que está disponible actualmente en otros lugares. Si bien actualmente ofrece capacidades limitadas, tenemos planes de introducir más plantillas y opciones de personalización en el futuro.",
+      "Puedes incrustar fácilmente un producto o una lista de productos en tu blog u otras páginas web con solo copiar y pegar los códigos que te proporcionamos. Aunque esta función aún está en sus primeras etapas, estamos trabajando activamente para ampliar su funcionalidad más allá de lo que está disponible actualmente en otros lugares. Si bien por ahora ofrece capacidades limitadas, tenemos previsto introducir más plantillas y opciones de personalización en el futuro.",
     card: {
-      title: "Mínimo",
+      title: "Minimalista",
       description:
         "Generar código HTML para agregar tarjetas de productos en otras plataformas y páginas HTML.",
     },
     iframe: {
-      title: "Marco flotante",
+      title: "Iframe",
       description:
-        "Genere el código iframe para mostrar detalles completos del producto en una ventana incorporada.",
+        "Genera el código iframe para mostrar los detalles completos del producto en una ventana incrustada.",
     },
   },
 
@@ -10278,17 +10721,17 @@ export default {
    */
   permission_staff_add: {
     title_new: "Nuevo personal",
-    title_edit: "Personal de edición",
+    title_edit: "Editar personal",
 
     staff: {
-      title: "Agregar personal y acceso",
+      title: "Añadir personal y acceso",
       subtitle:
-        "Todos los usuarios con acceso de personal pueden iniciar sesión en su panel y ver información financiera. Para agregar usuarios con acceso limitado, defina Rol.",
+        "Todos los usuarios con acceso de personal pueden iniciar sesión en tu panel y ver la información financiera. Para añadir usuarios con acceso limitado, define un rol.",
       go_to_roles: "Ir a Roles",
     },
     access: {
       customization_tips:
-        "<b></b> Configura y gestiona esta opción para tu tienda.",
+        "<b>Personalización:</b> Haz clic en cada elemento para personalizar el acceso de lectura/escritura predeterminado. Cada fila representa un nivel de acceso correspondiente al panel principal de la tienda.",
       simplify_tips:
         "<b>¡Importante!</b> Simplificamos el control de acceso de más de 300 a menos de 10 niveles. En la documentación se publicarán niveles de acceso más detallados y actualizados.",
       multi_permission_tips:
@@ -10304,12 +10747,12 @@ export default {
       },
       level: {
         label: "Nivel de acceso",
-        placeholder: "Seleccione un nivel...",
+        placeholder: "Selecciona un nivel...",
       },
     },
 
     actions: {
-      add: "Agregar personal",
+      add: "Añadir personal",
     },
     notifications: {
       add_success: {
@@ -10331,17 +10774,17 @@ export default {
     subtitle:
       "Muestra productos de varias categorías. Tienes la opción de elegir varias categorías para mostrar productos o filtrar productos por etiquetas.",
     aut_add_sub_categories_tips:
-      "Puede agregar automáticamente todas las subcategorías a la categoría actual haciendo clic en el botón a continuación.",
+      "Puedes añadir automáticamente todas las subcategorías a la categoría actual haciendo clic en el botón de abajo.",
     inputs: {
       categories: {
-        label: "categorías",
+        label: "Categorías",
         messages: "Se mostrarán los productos de estas categorías.",
         placeholder: "Seleccionar categorías...",
       },
       tags: {
         label: "Etiquetas de productos",
         messages: "Se mostrarán los productos con estas etiquetas.",
-        placeholder: "Coloque las etiquetas aquí y presione enter. ej. nueva colección",
+        placeholder: "Escribe las etiquetas aquí y pulsa Intro. Ej.: nueva colección",
       },
     },
     actions: {
@@ -10357,14 +10800,14 @@ export default {
     search_tips: {
       title: "Consejos de búsqueda",
       normal:
-        "<b>Búsqueda general:</b> busque por título, MPN, SKU, marca o etiquetas.",
+        "<b>Búsqueda general: </b>Busca por título, MPN, SKU, marca o etiquetas.",
       product:
-        '<b>ID de producto exacto:</b> utilice P+ID de producto para encontrar un producto específico, por ejemplo, <b class="text-green">P</b> <i class="text-yellow">360</i> .',
+        '<b>ID de producto exacto: </b>Usa P+ID de producto para encontrar un producto específico, p. ej., <b class="text-green">P</b><i class="text-yellow">360</i>.',
       quotes:
-        '<b>Frase exacta:</b> utilice comillas para buscar una frase exacta, por ejemplo, <b class="text-green">"</b> <i class="text-yellow">su texto aquí</i> <b class="text-green">"</b> .',
-      tax: '<b>Perfil fiscal:</b> busque productos con un perfil fiscal específico utilizando "impuesto:", por ejemplo, <b class="text-green">impuesto:</b> <i class="text-yellow">nombre del perfil fiscal</i> .',
+        '<b>Frase exacta: </b>Usa comillas para buscar una frase exacta, p. ej., <b class="text-green">"</b><i class="text-yellow">tu texto aquí</i><b class="text-green">"</b>.',
+      tax: '<b>Perfil fiscal: </b>Busca productos con un perfil fiscal específico usando "tax:", p. ej., <b class="text-green">tax:</b><i class="text-yellow">nombre del perfil fiscal</i>.',
       new_products:
-        '<b>Nuevos productos:</b> busque productos agregados dentro de un rango de fechas específico, por ejemplo, <b class="text-green">nuevo~</b> <i class="text-yellow">2023-08-10</i> <b class="text-green">~</b> <i class="text-yellow">2023-08-20</i> .',
+        '<b>Nuevos productos: </b>Encuentra productos añadidos dentro de un rango de fechas específico, p. ej., <b class="text-green">new~</b><i class="text-yellow">2023-08-10</i><b class="text-green">~</b><i class="text-yellow">2023-08-20</i>.',
     },
   },
 
@@ -10372,34 +10815,34 @@ export default {
    * @see LAugmentForm
    */
   augment_form: {
-    title: "Aumento",
+    title: "Contenido dinámico",
     subtitle:
-      "Introduzca la clave que se intercambiará con su valor correspondiente en el contenido de la página. Las claves deben tener un máximo de 32 caracteres.",
-    add_caption: "Agregar nuevo artículo",
-    add_sub_caption: "Agregar par clave-valor personalizado.",
+      "Introduce la clave que se sustituirá por su valor correspondiente en el contenido de la página. Las claves deben tener un máximo de 32 caracteres.",
+    add_caption: "Añadir nuevo elemento",
+    add_sub_caption: "Añadir un par clave-valor personalizado.",
     add_dialog: {
       title: "Seleccionar el tipo de entrada",
       html: {
         title: "Texto y HTML",
-        subtitle: "El valor del artículo se puede designar como texto o HTML.",
+        subtitle: "El valor del elemento puede definirse como texto o como HTML.",
       },
       image: {
-        title: "imagen",
+        title: "Imagen",
         subtitle: "Puedes subir una imagen.",
       },
     },
     help_dialog: {
       title: "Cómo utilizar contenido dinámico",
       how_it_works_tips:
-        "En las páginas de destino, tiene la flexibilidad de designar marcadores de posición dinámicos tanto para texto como para imágenes. Estos marcadores de posición cumplen una función importante en la personalización del contenido según el contexto. La naturaleza dinámica de estos marcadores de posición permite que se completen con valores de aumento, que pueden variar en función de diferentes factores. Por ejemplo, los valores de aumento pueden ser diferentes para cada producto o categoría. La verdadera ventaja de esta función entra en juego cuando tiene una variedad de artículos con diferentes atributos. Puede utilizar eficazmente estos marcadores de posición dinámicos para personalizar y mejorar la visualización de cada artículo, creando así una experiencia única e interactiva en sus páginas de destino.",
+        "En las páginas de destino tienes la flexibilidad de definir marcadores de posición dinámicos tanto para texto como para imágenes. Estos marcadores desempeñan un papel importante en la personalización del contenido según el contexto. Su naturaleza dinámica permite que se rellenen con valores dinámicos, que pueden variar en función de distintos factores. Por ejemplo, los valores pueden ser diferentes para cada producto o categoría. La verdadera ventaja de esta función se aprecia cuando tienes una variedad de artículos con atributos distintos. Puedes utilizar eficazmente estos marcadores dinámicos para personalizar y mejorar la presentación de cada artículo, creando así una experiencia única e interactiva en tus páginas de destino.",
       assign_tips:
-        "Para asignar valores dinámicos a las imágenes, haga clic en el botón de alimentación ubicado en el lado izquierdo de la sección.",
+        "Para asignar valores dinámicos a las imágenes, haz clic en el botón de alimentación situado en el lado izquierdo de la sección.",
       set_dynamic_image_tips:
-        "Ahora tiene la posibilidad de modificar la URL de la imagen y asignarle un valor dinámico.",
+        "Ahora puedes modificar la URL de la imagen y asignarle un valor dinámico.",
       enter_values_tips:
         "Para cada producto, tienes la posibilidad de asignar pares clave-valor dedicados.",
       result_tips:
-        "Este es el resultado final de la página, donde los marcadores de posición han sido sustituidos por valores aumentados.",
+        "Este es el resultado final de la página, donde los marcadores de posición se han sustituido por los valores dinámicos.",
     },
   },
 
@@ -10408,16 +10851,16 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "Multi idioma",
+      title: "Multiidioma",
       subtitle:
-        "Esta es la lista de idiomas del contenido. Puede configurar contenido diferente para el perfil logístico en cada idioma.",
+        "Esta es la lista de idiomas del contenido. Puedes establecer un contenido diferente para el perfil logístico en cada idioma.",
       add_caption: "Añadir nuevo artículo",
-      no_more_language: "¡No más lenguaje!",
+      no_more_language: "¡No hay más idiomas!",
     },
     content: {
       title: "Contenido",
       subtitle:
-        "Puede personalizar el contenido del perfil logístico en varios idiomas.",
+        "Puedes personalizar el contenido del perfil logístico en varios idiomas.",
 
       language_input: "Idioma actual del artículo",
       delete_article: "Eliminar artículo",
@@ -10445,23 +10888,23 @@ export default {
    * @see LogisticProfilePage_Products
    */
   logistic_profile_products: {
-    title: "productos",
+    title: "Productos",
     subtitle: "Listado de productos asociados a este perfil.",
   },
   /**
    * @see LogisticProfilePage_Setting
    */
   logistic_profile_setting: {
-    title: "información general",
+    title: "Información general",
     inputs: {
       name: {
         message:
-          "Este nombre se muestra a usted y no será revelado al público.",
+          "Este nombre solo lo ves tú y no se mostrará al público.",
       },
       accept_delete: {
         true_description:
           "Esta acción eliminará todos los artículos y enlaces a perfiles.",
-        true_title: "Verifico para eliminar esta conexión.",
+        true_title: "Confirmo que quiero eliminar esta conexión.",
       },
     },
     actions: {
@@ -10474,26 +10917,26 @@ export default {
    */
   shop_logistic_profiles: {
     title: "Perfiles logísticos",
-    add_caption: "Agregar nuevo perfil",
+    add_caption: "Añadir nuevo perfil",
     subtitle:
-      "Aquí puede crear y editar la garantía y la política de devolución de los productos y asignarlas a cualquier producto. Puede definir diferentes políticas de garantía para distintos tipos de productos.",
+      "Aquí puedes crear y editar la garantía y la política de devoluciones de los productos y asignarlas a cualquier producto. Puedes definir diferentes políticas de garantía para distintos tipos de productos.",
     add_dialog: {
       title: "Crear nuevo perfil logístico",
       config: {
-        title: "información general",
+        title: "Información general",
         subtitle:
-          "Seleccione el tipo de perfil. Puede ser una guía, una garantía o cualquier otro contenido y material que se comparta comúnmente entre varios productos.",
+          "Selecciona el tipo de perfil. Puede ser una guía, una garantía o cualquier otro contenido y material que se comparta habitualmente entre varios productos.",
       },
       article: {
         title: "Artículo",
         subtitle:
-          "Puede agregar más idiomas después de crear este perfil logístico.",
+          "Puedes añadir más idiomas después de crear este perfil logístico.",
       },
       inputs: {
         name: {
           message:
-            "Este nombre se muestra a usted y no será revelado al público.",
-          placeholder: "Introduzca un nombre para el perfil...",
+            "Este nombre solo lo ves tú y no se mostrará al público.",
+          placeholder: "Introduce un nombre para el perfil...",
         },
       },
     },
@@ -10504,19 +10947,19 @@ export default {
    */
   shop_logistic_includes: {
     title: "Gestión de elementos incluidos",
-    add_caption: "Agregar nuevo artículo",
+    add_caption: "Añadir nuevo elemento",
     subtitle:
-      "Aquí puedes administrar los artículos incluidos en tus productos. Para garantizar una apariencia impecable para tu tienda, utiliza artículos con patrones de imagen similares, como wireframes, en todos los productos.",
-    empty_list_msg: "Lista de artículos incluidos...",
+      "Aquí puedes gestionar los elementos incluidos en tus productos. Para garantizar una apariencia impecable de tu tienda, utiliza de forma consistente elementos con patrones de imagen similares, como wireframes, en todos los productos.",
+    empty_list_msg: "Lista de elementos incluidos...",
     notifications: {
       delete: {
-        message: "El artículo ha sido eliminado.",
+        message: "El elemento ha sido eliminado.",
       },
     },
     delete_dialog: {
-      title: "Título",
+      title: "Eliminar elemento incluido",
       message:
-        "¿Está seguro de que desea eliminar este artículo de forma permanente? ¡Tenga en cuenta que también se eliminará de todos los productos asociados!",
+        "¿Seguro que quieres eliminar este elemento de forma permanente? ¡Ten en cuenta que también se quitará de todos los productos asociados!",
       action: "Sí, eliminar ahora",
     },
     actions: {
@@ -10528,23 +10971,23 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "opción Título Editar",
-    dialog_title_add: "opción Título Añadir",
+    dialog_title_edit: "Editar elemento incluido",
+    dialog_title_add: "Crear nuevo elemento incluido",
 
-    title: "Artículo incluido",
+    title: "Elemento incluido",
     subtitle:
-      "Elija un título breve, idealmente de 2 a 3 palabras como máximo. Utilice imágenes cuadradas, ya que ajustaremos automáticamente el tamaño de las imágenes cargadas a un formato cuadrado de 256 x 256. Para lograr la mejor apariencia en todas las plantillas, utilice imágenes minimalistas con fondos transparentes y mantenga un patrón uniforme en todos sus productos.",
+      "Elige un título breve, idealmente de 2 o 3 palabras como máximo. Utiliza imágenes cuadradas, ya que redimensionaremos automáticamente las imágenes subidas a un formato cuadrado de 256x256. Para lograr la mejor apariencia en todas las plantillas, utiliza imágenes minimalistas con fondos transparentes y mantén un patrón uniforme en todos tus productos.",
     inputs: {
       title: {
         placeholder: "Título conciso mostrado en la página del producto...",
       },
       code: {
         placeholder: "Código único, por ejemplo: mobile_cable_usb",
-        hint: "Utilice este código para agilizar el proceso de búsqueda para localizar artículos.",
+        hint: "Utiliza este código para agilizar la búsqueda y localización de elementos.",
       },
       description: {
-        placeholder: "Una breve descripción sobre este artículo...",
-        hint: "La descripción se utilizará para SEO y es posible que sea visible para los usuarios en algunos diseños personalizados en la página del producto.",
+        placeholder: "Una breve descripción sobre este elemento...",
+        hint: "La descripción se utilizará para SEO y es posible que sea visible para los usuarios en algunos diseños personalizados de la página del producto.",
       },
       image: {
         message: "Tamaño máximo de la imagen: 1 MB",
@@ -10555,26 +10998,26 @@ export default {
     },
     mode: {
       no_link: {
-        title: "No hay enlace",
+        title: "Sin enlace",
       },
       external_link: {
         title: "Enlace externo",
         description: "Establecer un enlace a una URL externa.",
-        tips: "Puede adjuntar cualquier URL al artículo. Cuando los usuarios hagan clic en el artículo en la página del producto, serán redirigidos a ese enlace.",
+        tips: "Puedes adjuntar cualquier URL al elemento. Cuando los usuarios hagan clic en el elemento en la página del producto, serán redirigidos a ese enlace.",
       },
       internal_link: {
         title: "Enlace interno",
         description:
-          "Cree una página dinámica con los datos ampliados proporcionados para este artículo.",
-        tips: "Puedes vincular una página de destino con el perfil y establecer una ruta personalizada y contenido dinámico para ella. Selldone generará un enlace dinámico para el artículo.",
+          "Crea una página dinámica a partir de los datos de augment proporcionados para este elemento.",
+        tips: "Puedes vincular una página de destino con el perfil y establecer una ruta personalizada y contenido dinámico para ella. Selldone generará un enlace dinámico para el elemento.",
       },
     },
     notifications: {
       add: {
-        message: "El artículo incluido se ha añadido correctamente.",
+        message: "El elemento incluido se ha añadido correctamente.",
       },
       edit: {
-        message: "El artículo incluido se ha actualizado correctamente.",
+        message: "El elemento incluido se ha actualizado correctamente.",
       },
     },
   },
@@ -10584,7 +11027,7 @@ export default {
   shop_logistic_returns: {
     title: "Pedidos devueltos",
     subtitle:
-      "Sus clientes pueden devolver sus pedidos físicos y usted puede ver las solicitudes de devolución en la página de procesamiento de pedidos o acceder a una lista completa de pedidos devueltos aquí.",
+      "Tus clientes pueden devolver sus pedidos físicos, y puedes ver las solicitudes de devolución en la página de procesamiento del pedido o acceder aquí a la lista completa de pedidos devueltos.",
   },
   /**
    * @see OReferralFees
@@ -10598,16 +11041,16 @@ export default {
    * @see OReferralWallets
    */
   referral_wallets: {
-    title: "Carteras",
+    title: "Billeteras",
     subtitle:
       "Aquí puedes ver las comisiones que has ganado. Puedes transferirlas a tu cuenta bancaria o a tu billetera Selldone.",
     no_commission_yet: "Aún no has recibido ninguna comisión.",
     no_wallet: "¡Sin billetera!",
 
     withdraw_dialog: {
-      title: "Comisiones por retiro de fondos",
+      title: "Retirar comisiones",
 
-      need_bank_info_message: "Ingrese primero su información bancaria.",
+      need_bank_info_message: "Introduce primero tus datos bancarios.",
 
       to_wallet: {
         title: "A la billetera",
@@ -10636,7 +11079,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "Su solicitud ha sido recibida exitosamente y la revisaremos.",
+        "Tu solicitud se ha recibido correctamente y la revisaremos.",
     },
   },
 
@@ -10648,15 +11091,15 @@ export default {
       message: "Puedes agregar <b>?ref={code}</b> a cualquier URL de Selldone.",
     },
     intro: {
-      title: "Únase al programa de afiliados de Selldone",
+      title: "Únete al programa de afiliados de Selldone",
       message:
-        "El programa de afiliados de Selldone es simple y directo, diseñado para que usted gane dinero sin esfuerzo. Comparta su enlace de afiliado exclusivo para invitar a nuevos usuarios a Selldone y ganará una comisión por cada transacción que realicen, para siempre. Esto incluye las ganancias por suscripciones, tarifas de servicio, actualizaciones de la tienda y todas las demás fuentes de ingresos. Comience a ganar una parte de los ingresos sin límites de tiempo ni ganancias. ¡Únase a nosotros y convierta su red en un ingreso estable!",
+        "El programa de afiliados de Selldone es simple y directo, diseñado para que ganes dinero sin esfuerzo. Comparte tu enlace de afiliado único para invitar a nuevos usuarios a Selldone y ganarás una comisión por cada transacción que realicen, para siempre. Esto incluye las ganancias por suscripciones, tarifas de servicio, mejoras de tienda y todas las demás fuentes de ingresos. Empieza a ganar una parte de los ingresos sin límites de tiempo ni de ganancias. ¡Únete y convierte tu red en un ingreso estable!",
       why_join_selldone_affiliate: "¿Por qué es esta una oportunidad única?",
       reasons: [
         "¡Dura para siempre!",
         "Cubre todas las tarifas de suscripción y transacción. Literalmente, todos los pagos del usuario en Selldone.",
-        "Enviamos un cupón gratuito de $99 a cualquier persona que se registre usando su enlace.",
-        "Cuando tu nivel mejore, ganarás a la nueva tasa de todos los usuarios referidos anteriormente.",
+        "Enviamos un vale gratuito de $99 a cualquier persona que se registre usando tu enlace.",
+        "Cuando tu nivel suba, ganarás con la nueva tasa por todos los usuarios que hayas referido anteriormente.",
       ],
     },
   },
@@ -10665,68 +11108,68 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "Opción",
+    no_asset_uploaded: "Aún no se ha subido ningún recurso.",
   },
 
   /**
    * @see LMenuTopHome
    */
   l_menu_top_home: {
-    hot_keys: "Opción",
-    click_to_view_all: "Opción",
+    hot_keys: "Atajos de teclado",
+    click_to_view_all: "Haz clic para ver todo...",
     clone_tooltip: {
-      title: "Título",
+      title: "Duplicar estilo",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Usa esta herramienta para replicar estilos como fuentes, fondos, márgenes y bordes. Sigue estos pasos para duplicar estilos:",
       step_1:
-        "Configura y gestiona esta opción para tu tienda.",
-      step_2: "Configura y gestiona esta opción para tu tienda.",
+        "Activa la herramienta y pasa el ratón sobre un texto, una columna o una imagen; el cursor cambiará a una pipeta.",
+      step_2: "Haz clic en el elemento cuyo estilo quieres copiar.",
       step_3:
-        "Configura y gestiona esta opción para tu tienda.",
+        "El cursor volverá a cambiar a una paleta; haz clic en el elemento donde quieras aplicar el estilo copiado.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Muestra u oculta el menú lateral, que incluye todas las categorías de secciones para construir tu página.",
     },
     sort_tooltip: {
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Activa esta función para reorganizar y ordenar fácilmente las secciones arrastrándolas.",
     },
     edit_mode_tooltip: {
-      title: "Editar / Vista previa Modo",
-      edit_mode_title: "Editar Modo",
-      edit_mode_msg: "Opción",
-      view_mode_title: "Vista previa Modo",
+      title: "Modo de edición / vista previa",
+      edit_mode_title: "Modo de edición",
+      edit_mode_msg: "Se mostrarán todas las herramientas de edición.",
+      view_mode_title: "Modo de vista previa",
       view_mode_msg:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Visualiza tu página tal como la verían los usuarios, ocultando las herramientas de edición adicionales y las áreas de texto vacías.",
     },
     repository_tooltip: {
-      title: "Título",
+      title: "Secciones prediseñadas",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Muestra u oculta las secciones prediseñadas. Estas secciones se crean con las secciones estándar disponibles en el menú izquierdo, lo que demuestra la flexibilidad de este constructor de páginas.",
     },
     live_view: {
-      title: "En vivo Vista previa",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      title: "Vista previa en vivo",
+      subtitle: "Mira los cambios en tiempo real mientras editas tu página.",
     },
     hotkeys_dialog: {
-      title: "Título",
+      title: "Atajos de teclado",
       augment_tips:
-        "<b></b><b></b><b></b><b></b><b></b><b></b> Configura y gestiona esta opción para tu tienda.",
+        "Puedes cargar contenido dinámico en tu página y reemplazarlo con valores de <b>augment</b>. Augment se utiliza para páginas dinámicas personalizadas como <b>Productos</b>, <b>Categorías</b> y <b>Elementos incluidos</b>. Para que una imagen se cargue dinámicamente, haz clic en <b>Feeder</b> y selecciona <b>Fuente dinámica</b> para esa imagen.",
     },
     hotkeys: {
-      ctrl_b: "<b></b> Configura y gestiona esta opción para tu tienda.",
-      ctrl_i: "<i></i> Configura y gestiona esta opción para tu tienda.",
+      ctrl_b: "Activar/desactivar negrita en el texto seleccionado | <b>Ponme en negrita</b>",
+      ctrl_i: "Activar/desactivar cursiva en el texto seleccionado | <i>Ponme en cursiva</i>",
       ctrl_l:
-        "<s></s> Configura y gestiona esta opción para tu tienda.",
-      ctrl_u: "<u></u> Configura y gestiona esta opción para tu tienda.",
+        "Activar/desactivar tachado en el texto seleccionado | <s>Táchame</s>",
+      ctrl_u: "Activar/desactivar subrayado en el texto seleccionado | <u>Subráyame</u>",
       ctrl_1:
-        "<small></small> Configura y gestiona esta opción para tu tienda.",
-      ctrl_2: "<big></big> Configura y gestiona esta opción para tu tienda.",
-      ctrl_r: "Configura y gestiona esta opción para tu tienda.",
-      ctrl_s: "Opción",
-      tab: "Pestaña",
-      ctrl_e: "Opción",
+        "Reducir el tamaño de fuente del texto seleccionado | <small>Hazme pequeño</small>",
+      ctrl_2: "Aumentar el tamaño de fuente del texto seleccionado | <big>Hazme grande</big>",
+      ctrl_r: "Quitar todo el formato del texto seleccionado | Limpiar todos los estilos",
+      ctrl_s: "Guardar la página",
+      tab: "Cambiar entre modos de escala",
+      ctrl_e: "Activar o desactivar el modo de clonar estilo",
     },
   },
 
@@ -10734,35 +11177,35 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "Título",
-    subtitle: "Subtítulo",
+    title: "Arrastrar y soltar",
+    subtitle: "Secciones prediseñadas",
     add_dialog: {
-      title: "Añadir Personalizado Sección",
+      title: "Añadir sección personalizada",
       configuration: {
         title: "Ajustes",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Puedes guardar secciones con diseño personalizado para usarlas en el futuro en tus páginas. Estas secciones guardadas estarán disponibles para todos los administradores de esta tienda.",
       },
       image: {
         title: "Imagen",
-        subtitle: "Subtítulo",
+        subtitle: "Imagen pública que se muestra en la lista.",
       },
       code: {
         title: "Código",
         subtitle:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Puedes copiar y pegar el código del elemento desde las secciones del lado izquierdo en el constructor de páginas.",
       },
       inputs: {
         title: {
           label: "Título",
-          message: "Mensaje",
+          message: "Este es el título público.",
         },
         tags: {
           label: "Etiquetas",
-          message: "Mensaje",
+          message: "Se utilizan para buscar y categorizar elementos.",
         },
         section: {
-          message: "Mensaje",
+          message: "Copia la sección desde el constructor de páginas.",
         },
       },
     },
@@ -10772,50 +11215,50 @@ export default {
    * @see BPageMarketplaceVendors
    */
   marketplace_vendors: {
-    title: "Vendedores Lista",
+    title: "Lista de vendedores",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
-    add_new_vendor_action: "Añadir Nuevo Vendedor",
+      "Añade vendedores aquí y luego asígnalos a productos en Panel del producto > Vendedores.",
+    add_new_vendor_action: "Añadir nuevo vendedor",
     status_tooltip: {
-      title: "Estado del proveedor",
-      ACCEPTED: "ACCEPTED",
-      REJECTED: "REJECTED",
-      PENDING: "Configura y gestiona esta opción para tu tienda.",
+      title: "Estado del vendedor",
+      ACCEPTED: "El vendedor tiene acceso a su panel.",
+      REJECTED: "La solicitud de vendedor ha sido rechazada.",
+      PENDING: "La solicitud está pendiente de la decisión del vendedor.",
     },
-    number_of_products: "Número of Productos",
-    invited: "Opción",
-    no_pricing: "Sin precios",
+    number_of_products: "Número de productos",
+    invited: "Invitado",
+    no_pricing: "Sin plan de precios",
     no_pricing_tooltip: {
-      title: "Predeterminado Precios Plan",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      title: "Plan de precios predeterminado",
+      subtitle: "Establece un modelo de precios predeterminado para el vendedor.",
     },
     updated_products_tooltip: {
-      title: "Título",
+      title: "Productos actualizados en las últimas 24 horas",
     },
     added_products_tooltip: {
-      title: "Título",
+      title: "Productos añadidos en las últimas 24 horas",
     },
     access_tooltip: {
-      title: "Título",
+      title: "Acceso al panel",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "El vendedor tiene acceso a su panel. Puedes editarlo en Vendedor > pestaña Acceso.",
     },
     reject_by_user_tooltip: {
-      title: "Título",
+      title: "Rechazado por el usuario",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "El usuario rechazó la solicitud para convertirse en vendedor y acceder a este vendedor.",
     },
-    download_all_vendors: "Descargar Todo Vendedores",
-    bulk_import: "Masivo Importar",
+    download_all_vendors: "Descargar todos los vendedores",
+    bulk_import: "Importación masiva (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Título",
+    title: "¡Se requiere mejorar la licencia!",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Tu licencia actual no cumple los requisitos del modelo de negocio seleccionado. Mejora tu licencia al plan Enterprise.",
   },
 
   /**
@@ -10824,50 +11267,50 @@ export default {
   b_order_chat_box: {
     title: "Acciones rápidas",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Puedes enviar al comprador un correo de actualización de estado con un solo clic. Además, puedes definir aquí mensajes comunes para reutilizarlos y no tener que reescribirlos cada vez.",
     send_update_email_action: "Enviar correo de actualización",
     add_template_action: "Añadir plantilla de mensaje",
 
     notifications: {
-      add_chat_success_message: "Opción",
+      add_chat_success_message: "El mensaje se ha añadido correctamente.",
     },
 
     send_update_email: {
-      title: "Pedido Actualizar Correo electrónico",
+      title: "Correo de actualización del pedido",
       need_set_service_alert: {
         message:
-          "Configura y gestiona esta opción para tu tienda.",
+          "Configura tu proveedor de servicio de correo electrónico para permitir el envío del correo.",
         action: "Ir a ajustes",
       },
       send_action: "Enviar correo de actualización",
 
       notifications: {
-        send_success_message: "Opción",
+        send_success_message: "El correo se ha enviado correctamente.",
       },
     },
     add_template: {
       edit_title: "Editar plantilla de mensaje",
       add_title: "Añadir plantilla de mensaje",
       message:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Debes establecer aquí un título y el cuerpo del mensaje. El título solo se usa como referencia para ti y no se enviará al cliente.",
 
-      save_action: "Guardar Plantilla",
-      add_action: "Añadir Plantilla",
+      save_action: "Guardar plantilla",
+      add_action: "Añadir plantilla",
 
       notifications: {
-        save_success_message: "Guardar Éxito Mensaje",
+        save_success_message: "La plantilla se ha guardado correctamente.",
       },
 
       inputs: {
         title: {
-          label: "Plantilla Título",
-          placeholder: "Opción",
+          label: "Título de la plantilla",
+          placeholder: "Escribe un título corto...",
         },
         body: {
-          label: "Plantilla Mensaje",
-          placeholder: "Opción",
+          label: "Mensaje de la plantilla",
+          placeholder: "Escribe tu mensaje aquí...",
           messages:
-            "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+            "Puedes usar valores dinámicos con {order_id} y {buyer_name}.",
         },
       },
     },
@@ -10878,15 +11321,15 @@ export default {
    */
   b_order_share: {
     title: "Enlace de pedido",
-    subtitle: "Configura y gestiona esta opción para tu tienda.",
+    subtitle: "Puedes compartir el enlace del pedido con el cliente.",
     guest_checkout_message:
-      "Configura y gestiona esta opción para tu tienda.",
-    authentication: "Opción",
-    guest: "Opción",
-    click_to_create: "Opción",
-    valid_for_30_days: "Opción",
+      "Los compradores invitados pueden ver automáticamente su pedido en el mismo navegador. Sin embargo, si el cliente es un invitado y necesitas compartir los detalles del pedido, puedes crear un enlace seguro para él.",
+    authentication: "Autenticación",
+    guest: "Invitado",
+    click_to_create: "Haz clic para crear...",
+    valid_for_30_days: "válido por 30 días",
     notifications: {
-      secure_link_created: "Opción",
+      secure_link_created: "El enlace seguro se ha creado correctamente.",
     },
   },
 
@@ -10894,20 +11337,20 @@ export default {
    * {@see BPageShopCrmReviews}
    */
   shop_reviews: {
-    title: "Título",
-    add_source_action: "Opción",
+    title: "Fuentes de reseñas",
+    add_source_action: "Añadir fuente de reseñas",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Conecta fácilmente plataformas externas para recopilar y analizar reseñas sobre tu negocio desde fuentes como Facebook, Google y más. Vincularemos automáticamente a los clientes con sus reseñas para ofrecer una mejor experiencia de cliente. También puedes mostrar estas reseñas en tus páginas de destino y páginas de producto.",
   },
 
   /**
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Añadir Nuevo Propiedad Establecer",
-    title: "Propiedad Establecer",
+    add_caption: "Añadir nuevo conjunto de propiedades",
+    title: "Conjuntos de propiedades",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Aquí puedes crear y gestionar conjuntos de propiedades. Los conjuntos de propiedades se usan para definir las propiedades de productos y servicios. Puedes asignarlos a los productos en Panel del producto > Editar.",
   },
 
   /**
@@ -10915,37 +11358,37 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "Propiedad Establecer - Personalizado Variantes",
+      title: "Conjunto de propiedades - Variantes personalizadas",
       subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Puedes personalizar los nombres de las variantes de este producto, reemplazando los predeterminados.",
     },
 
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
-    select_property_set: "Seleccionar Propiedad Establecer",
+      "Aquí puedes personalizar los nombres de las variantes, sus iconos y su orden. Para productos con variantes únicas que van más allá de las seis predeterminadas, puedes definir variantes personalizadas adaptadas a cada producto. Simplemente define conjuntos de propiedades en la pestaña Logística > Conjuntos de propiedades y asígnalos a tantos productos como necesites.",
+    select_property_set: "Seleccionar conjunto de propiedades",
     add_property_set: "Añadir conjunto de propiedades",
   },
 
   /** {@see BPageShopLogisticInventory} **/
   transportation_boxes: {
     title: "Cajas",
-    add_action: "Añadir Caja",
+    add_action: "Añadir caja",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
-    empty: "Opción",
-    edit: "Editar Caja",
-    new: "Nuevo Caja",
-    default_weight: "Predeterminado Peso",
-    updated: "Opción",
-    created: "Opción",
-    deleted: "Opción",
+      "Crea tamaños de caja reutilizables para agilizar la compra de etiquetas y garantizar tarifas de envío precisas. Al completar un pedido, selecciona una caja guardada y sus dimensiones se rellenarán automáticamente.",
+    empty: "Aún no hay cajas. Haz clic en «Añadir caja».",
+    edit: "Editar caja",
+    new: "Nueva caja",
+    default_weight: "Peso predeterminado",
+    updated: "Caja actualizada.",
+    created: "Caja creada.",
+    deleted: "Caja eliminada.",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "Seleccionar a Paquete",
-    define_package: "Opción",
-    define_package_hint: "Opción",
+    select_box: "Selecciona un paquete",
+    define_package: "Definir un paquete",
+    define_package_hint: "Crea o edita tus tamaños de paquete predefinidos",
   },
 
 
@@ -10973,41 +11416,41 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Listado",
-    message:"Configura y gestiona esta opción para tu tienda."
+    message:"Crea un directorio con búsqueda y moderación para cualquier tipo de listado: propiedades, hoteles, médicos, servicios y más."
   },
 
   shop_listing: {
     name: "Listado",
     message:
-      "Configura y gestiona esta opción para tu tienda.",
+      "Crea un directorio con búsqueda y moderación para cualquier tipo de listado: propiedades, hoteles, médicos, servicios y más.",
 
     items: {
       title: "Elementos",
       sub_title:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Crea, edita y gestiona los elementos del listado. Controla el estado, los precios, la información de contacto y los archivos multimedia.",
 
-      empty_title: "Opción",
+      empty_title: "Aún no hay elementos",
       empty_subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Crea tu primer elemento del listado para empezar a construir tu directorio.",
 
-      add_title: "Añadir artículo",
-      edit_title: "Editar Título",
+      add_title: "Añadir elemento",
+      edit_title: "Editar elemento",
 
       price_to: "Precio hasta",
-      price_unit: "Opción",
-      is_featured: "Opción",
+      price_unit: "Unidad de precio",
+      is_featured: "Destacado",
 
       meta_json: "Meta JSON",
       links_json: "Enlaces JSON",
-      opening_hours_json: "Opción",
+      opening_hours_json: "Horario de apertura JSON",
 
-      delete_title: "Eliminar Título",
-      delete_message: "Eliminar Mensaje",
+      delete_title: "Eliminar elemento",
+      delete_message: "¿Seguro que quieres eliminar este elemento?",
       delete_success: "Elemento eliminado con éxito.",
-      restore_success: "Restaurar Éxito",
+      restore_success: "Elemento restaurado con éxito.",
 
-      opening_hours:"Opción",
-      form_fields:"Formulario Campos",
+      opening_hours:"Horario de apertura",
+      form_fields:"Campos del formulario",
 
       company: "Empresa",
       badges: "Insignias",
@@ -11017,92 +11460,92 @@ export default {
     categories: {
       title: "Categorías",
       sub_title:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Organiza tu directorio con categorías y subcategorías. Esto mejora la navegación y el filtrado.",
 
-      empty_title: "Opción",
+      empty_title: "Aún no hay categorías",
       empty_subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Crea categorías para estructurar tu listado y mejorar la navegación.",
 
-      add_title: "añadir categoría",
-      edit_title: "Editar categoria",
+      add_title: "Añadir categoría",
+      edit_title: "Editar categoría",
 
-      parent_filter: "Opción",
+      parent_filter: "Filtrar por categoría principal",
       parent: "Categoría principal",
 
-      price_format: "Opción",
+      price_format: "Formato de precio",
       icon: "Icono",
-      design_id: "Diseño ID",
+      design_id: "ID de diseño",
 
       delete_title: "Eliminar categoría",
-      delete_message: "Configura y gestiona esta opción para tu tienda.",
-      delete_success: "Eliminar Éxito",
-      form_schema: "Categoría Formulario Campos",
+      delete_message: "¿Seguro que quieres eliminar esta categoría?",
+      delete_success: "Categoría eliminada con éxito.",
+      form_schema: "Campos del formulario de la categoría",
     },
 
     options: {
-      submission_title: "Opción",
-      submission_enabled: "Opción",
+      submission_title: "Envío de elementos",
+      submission_enabled: "Permitir el envío de elementos",
 
       moderation_title: "Moderación",
-      moderation_mode: "Moderación Modo",
-      require_first_approved_before_more: "Opción",
+      moderation_mode: "Modo de moderación",
+      require_first_approved_before_more: "Requerir la aprobación del primero antes de enviar más",
 
       limits_title: "Límites",
-      max_pending_per_user: "Opción",
-      max_items_per_user: "Opción",
-      limits_hint: "Opción",
+      max_pending_per_user: "Máximo de pendientes por usuario",
+      max_items_per_user: "Máximo de elementos por usuario",
+      limits_hint: "Nota sobre los límites",
 
       templates_title: "Plantillas",
       card_template: "Plantilla de tarjeta",
       details_template: "Plantilla de detalles",
 
-      form_schema_title: "Opción",
-      settings_title: "Ajustes Título"
+      form_schema_title: "Esquema del formulario",
+      settings_title: "Ajustes adicionales"
     },
 
     supervision: {
       title: "Supervisión",
       sub_title:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Revisa los elementos enviados y decide qué ocurre a continuación: aprobar, publicar, rechazar, archivar o restablecer a pendiente.",
 
-      empty_title: "Opción",
+      empty_title: "No hay elementos para revisar",
       empty_subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Cuando los usuarios envíen nuevos elementos, aparecerán aquí para su moderación.",
 
-      review_title: "Reseña Título",
-      approve_publish: "Aprobar & Publicar",
+      review_title: "Revisar elemento",
+      approve_publish: "Aprobar y publicar",
 
-      submitted_at: "Opción",
+      submitted_at: "Enviado",
       quick_actions: "Acciones rápidas",
 
-      open_review: "Abrir Reseña",
+      open_review: "Abrir revisión",
       reset_to_pending: "Restablecer a pendiente",
       items_title: "Elementos",
 
     },
 
     moderation: {
-      approve_success: "Aprobar Éxito",
-      publish_success: "Publicar Éxito",
-      unpublish_success: "Retirar publicación Éxito",
-      archive_success: "Archivar Éxito",
-      reject_success: "Rechazar Éxito",
-      penalty_success: "Penalización Éxito",
+      approve_success: "Elemento aprobado con éxito.",
+      publish_success: "Elemento publicado con éxito.",
+      unpublish_success: "Elemento retirado de publicación con éxito.",
+      archive_success: "Elemento archivado con éxito.",
+      reject_success: "Elemento rechazado con éxito.",
+      penalty_success: "Penalización aplicada con éxito.",
 
-      reject_title: "Rechazar Título",
-      reject_reason: "Opción",
+      reject_title: "Rechazar elemento",
+      reject_reason: "Motivo del rechazo",
 
       penalty: "Penalización",
       penalty_title: "Penalización",
-      penalty_points: "Opción",
-      penalty_note: "Penalización Nota"
+      penalty_points: "Puntos de penalización",
+      penalty_note: "Nota de penalización"
     },
 
     media: {
-      upload_images: "Subir Imágenes",
+      upload_images: "Subir imágenes",
       url_type: "Tipo",
       url: "URL",
-      is_main: "Opción"
+      is_main: "Establecer como principal"
     },
 
 
@@ -11112,29 +11555,29 @@ export default {
 
     /** {@see BShopListingDesignsList, BShopListingDesignUpsert} **/
     designs: {
-      title: "Diseño",
+      title: "Diseños",
       sub_title:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Crea varios conjuntos de diseño (plantillas de tarjeta + detalles) y asígnalos a categorías. Las categorías pueden usar diseños diferentes.",
 
-      empty_title: "Opción",
+      empty_title: "Aún no hay diseños",
       empty_subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Añade tu primer conjunto de diseño para empezar a personalizar el aspecto de las categorías.",
 
-      add_title: "Añadir Diseño",
-      edit_title: "Editar Diseño",
+      add_title: "Añadir diseño",
+      edit_title: "Editar diseño",
 
       card_template: "Plantilla de tarjeta",
       details_template: "Plantilla de detalles",
 
       notifications: {
-        add_success: "Añadir Éxito",
-        edit_success: "Editar Éxito",
-        delete_success: "Eliminar Éxito",
+        add_success: "Diseño creado con éxito.",
+        edit_success: "Diseño actualizado con éxito.",
+        delete_success: "Diseño eliminado con éxito.",
       },
 
-      delete_title: "Eliminar Diseño",
+      delete_title: "Eliminar diseño",
       delete_message:
-        "Configura y gestiona esta opción para tu tienda.",
+        "¿Eliminar este diseño? Las categorías que lo usan perderán automáticamente su design_id.",
     },
 
 
@@ -11144,132 +11587,132 @@ export default {
     badges: {
       title: "Insignias",
       sub_title:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Crea y gestiona insignias del escaparate. Las insignias se pueden asignar a los elementos del listado para destacar atributos especiales.",
 
-      empty_title: "Opción",
+      empty_title: "Aún no hay insignias",
       empty_subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Añade tu primera insignia para empezar a destacar elementos del listado.",
 
-      add_title: "Añadir Insignia",
-      edit_title: "Editar Insignia",
+      add_title: "Añadir insignia",
+      edit_title: "Editar insignia",
 
       notifications: {
-        add_success: "Añadir Éxito",
-        edit_success: "Editar Éxito",
-        delete_success: "Eliminar Éxito",
+        add_success: "Insignia creada con éxito.",
+        edit_success: "Insignia actualizada con éxito.",
+        delete_success: "Insignia eliminada con éxito.",
       },
 
-      delete_title: "Eliminar Insignia",
-      delete_message: "Eliminar Mensaje",
+      delete_title: "Eliminar insignia",
+      delete_message: "¿Seguro que quieres eliminar esta insignia?",
     },
 
     companies: {
-      title: "Compañías",
+      title: "Empresas",
       sub_title:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Crea y gestiona empresas. Cada elemento del listado puede vincularse opcionalmente a una empresa.",
 
-      empty_title: "Opción",
+      empty_title: "Aún no hay empresas",
       empty_subtitle:
-        "Configura y gestiona esta opción para tu tienda.",
+        "Añade tu primera empresa para vincularla a los elementos del listado.",
 
-      add_title: "Añadir Título",
+      add_title: "Añadir empresa",
       edit_title: "Editar empresa",
 
       notifications: {
-        add_success: "Añadir Éxito",
-        edit_success: "Editar Éxito",
-        delete_success: "Eliminar Éxito",
+        add_success: "Empresa creada con éxito.",
+        edit_success: "Empresa actualizada con éxito.",
+        delete_success: "Empresa eliminada con éxito.",
       },
 
-      delete_title: "Eliminar Título",
+      delete_title: "Eliminar empresa",
       delete_message:
-        "Configura y gestiona esta opción para tu tienda.",
+        "¿Eliminar esta empresa? Los elementos que la usan perderán automáticamente el vínculo con la empresa.",
     },
 
 
 
     messages: {
-      title: "Mensaje",
-      sub_title: "Configura y gestiona esta opción para tu tienda.",
-      empty_title: "No Mensaje",
-      empty_subtitle: "Opción",
+      title: "Mensajes",
+      sub_title: "Gestiona los mensajes enviados por los usuarios desde los perfiles del listado.",
+      empty_title: "No hay mensajes",
+      empty_subtitle: "Los mensajes enviados por los usuarios aparecerán aquí.",
 
-      sender: "Opción",
-      item: "ít",
-      has_reply: "Responder",
-      has_reply_yes: "Opción",
-      has_reply_no: "Opción",
+      sender: "Remitente",
+      item: "Elemento",
+      has_reply: "Respuesta",
+      has_reply_yes: "Con respuesta",
+      has_reply_no: "Sin respuesta",
 
       dialog_title: "Mensaje",
-      owner_reply: "Opción",
+      owner_reply: "Respuesta del propietario",
       reply: "Responder",
-      reply_hint: "Configura y gestiona esta opción para tu tienda.",
+      reply_hint: "Escribe una respuesta al usuario. También puedes marcar el mensaje como leído/spam desde las acciones.",
 
-      mark_read: "Opción",
-      mark_unread: "Opción",
+      mark_read: "Marcar como leído",
+      mark_unread: "Marcar como no leído",
       archive: "Archivar",
-      unarchive: "Opción",
-      mark_spam: "Opción",
-      mark_not_spam: "Opción",
+      unarchive: "Desarchivar",
+      mark_spam: "Marcar como spam",
+      mark_not_spam: "No es spam",
 
-      delete_confirm: "Eliminar Confirmar",
+      delete_confirm: "¿Eliminar este mensaje?",
     },
 
     enable: {
       title: "Listado",
-      subtitle: "Selldone Configura y gestiona esta opción para tu tienda.",
-      true_description: "Configura y gestiona esta opción para tu tienda.",
-      false_description: "Configura y gestiona esta opción para tu tienda.",
-      open_listing: "Abrir Listado",
-      note: "Configura y gestiona esta opción para tu tienda.",
+      subtitle: "Activa o desactiva tu página pública de listado. Al activarla por primera vez, Selldone creará automáticamente la configuración del listado.",
+      true_description: "El listado está activado. Los clientes pueden navegar por las páginas del listado.",
+      false_description: "El listado está desactivado. Las páginas del listado y los envíos de elementos están bloqueados.",
+      open_listing: "Abrir listado",
+      note: "Más adelante podrás configurar la moderación, los límites, los formularios y el diseño en los ajustes del listado.",
       vendor_prereq_text:
-        "Configura y gestiona esta opción para tu tienda.",
-      vendor_prereq_button: "Opción",
+        "¿Quieres que los vendedores añadan elementos del listado desde su panel de vendedor? Primero, cambia tu modelo de negocio a Marketplace.",
+      vendor_prereq_button: "Establecer el modelo de negocio Marketplace",
 
       vendor_access_text:
-        "Configura y gestiona esta opción para tu tienda.",
-      vendor_access_button: "Vendedor Acceso Botón",
+        "Ahora puedes decidir si los vendedores pueden acceder a las funciones del listado (elementos + empresas). Actívalo en los ajustes del Marketplace.",
+      vendor_access_button: "Activar el listado para vendedores",
 
       more_options_text:
-        "Configura y gestiona esta opción para tu tienda.",
-      more_options_button: "Ir a ajustes de listado",
+        "Hay más controles disponibles en los ajustes del listado. Puedes configurar los campos, la interfaz/apariencia, la moderación, los límites y las opciones de monetización.",
+      more_options_button: "Ir a los ajustes del listado",
 
-      updated: "Opción",
-      update_failed: "Opción",
+      updated: "Listado actualizado.",
+      update_failed: "No se pudo actualizar el listado.",
     },
 
 
     search: {
-      title: "Buscar Ajustes",
-      subtitle: "Configura y gestiona esta opción para tu tienda.",
+      title: "Ajustes de búsqueda",
+      subtitle: "Diseña cómo buscan los clientes en tu listado. Activa la búsqueda por ubicación y crea filtros a partir de los campos de tu formulario personalizado.",
 
-      location_title: "Ubicación Buscar",
-      location_subtitle: "Configura y gestiona esta opción para tu tienda.",
-      location_enabled_true: "Configura y gestiona esta opción para tu tienda.",
-      location_enabled_false: "Configura y gestiona esta opción para tu tienda.",
+      location_title: "Búsqueda por ubicación",
+      location_subtitle: "Permite a los clientes elegir una ubicación y encontrar resultados cercanos dentro de un radio configurable.",
+      location_enabled_true: "El filtro de ubicación está activado. Los clientes pueden buscar por distancia.",
+      location_enabled_false: "El filtro de ubicación está desactivado. Los resultados no se filtrarán por distancia.",
 
-      radius_default: "Opción",
-      radius_default_hint: "Configura y gestiona esta opción para tu tienda.",
-      radius_max: "Opción",
-      radius_max_hint: "Configura y gestiona esta opción para tu tienda.",
-      radius_options: "Opción",
-      radius_options_hint: "Configura y gestiona esta opción para tu tienda.",
+      radius_default: "Radio predeterminado (km)",
+      radius_default_hint: "Se usa cuando el cliente selecciona una ubicación pero no elige un radio.",
+      radius_max: "Radio máximo (km)",
+      radius_max_hint: "El radio en el escaparate se limitará a este valor.",
+      radius_options: "Opciones de radio (km)",
+      radius_options_hint: "Estos valores pueden mostrarse como opciones rápidas en la interfaz del escaparate.",
 
-      filters_title: "Buscar Filtro",
-      filters_subtitle: "Configura y gestiona esta opción para tu tienda.",
-      no_filters: "Opción",
-      auto_generate: "Opción",
+      filters_title: "Filtros de búsqueda",
+      filters_subtitle: "Añade filtros que lean valores de los campos meta de los elementos (los campos de formulario de tu listado/categoría). Usa Generar automáticamente para recopilar opciones reales de los elementos publicados.",
+      no_filters: "Aún no se han añadido filtros.",
+      auto_generate: "Generar opciones automáticamente",
 
-      filter_field: "Filtro Campo",
+      filter_field: "Clave del campo",
       filter_label: "Etiqueta",
       filter_type: "Tipo",
       filter_options: "Opciones",
-      filter_options_hint: "Configura y gestiona esta opción para tu tienda.",
-      multiple: "Opción",
-      single: "Opción",
-      kv_mode: "kv Modo",
+      filter_options_hint: "Para los filtros de selección, las opciones pueden ser manuales o generadas.",
+      multiple: "Múltiple",
+      single: "Único",
+      kv_mode: "Modo clave/valor",
 
-      requires_listing_active: "Configura y gestiona esta opción para tu tienda.",
+      requires_listing_active: "El listado no está activo. Activa primero el listado para usarlo en el escaparate.",
 
 
     },
@@ -11300,21 +11743,21 @@ export default {
      */
     vendor_payment: {
       note: [
-        "Pago por ventas cumplidas",
-        "Desembolso de comisiones de proveedores.",
+        "Pago por ventas completadas",
+        "Desembolso de comisión del vendedor.",
         "Transacción completada exitosamente.",
-        "Remesa de Ventas Recientes.",
-        "Transferencia exitosa de servicios de proveedores.",
+        "Remesa por ventas recientes.",
+        "Transferencia exitosa por servicios del vendedor.",
       ],
       /**
        * Reverse fund
        */
       reverse_fund_reason: [
-        "Devolución de Fondos: Transferencia del banco a la billetera del vendedor.",
-        "Recarga de billetera del proveedor: reversión de fondos de la cuenta bancaria.",
-        "Transacción inversa: transferencia de fondos de billetera de banco a proveedor.",
-        "Reembolso: Reversión del depósito bancario a la billetera del vendedor.",
-        "Reversión de fondos: Reposición de la billetera del proveedor desde el banco.",
+        "Devolución de fondos: transferencia del banco a la billetera del vendedor.",
+        "Recarga de la billetera del vendedor: reversión de fondos desde la cuenta bancaria.",
+        "Transacción inversa: transferencia de fondos del banco a la billetera del vendedor.",
+        "Reembolso: reversión del depósito bancario a la billetera del vendedor.",
+        "Reversión de fondos: reposición de la billetera del vendedor desde el banco.",
       ],
     },
 
@@ -11323,40 +11766,40 @@ export default {
      */
     shop_email: {
       name: [
-        "Explosión de fin de semana de súper ahorros",
-        "Se revelan ofertas exclusivas de información privilegiada",
-        "Su acceso VIP a descuentos premium",
-        "Extravagancia de rebajas de temporada",
-        "Desbloquee su paraíso de compras",
-        "El carnaval del gran comprador",
-        "Juerga de compras de primavera",
+        "Gran fin de semana de superahorros",
+        "Ofertas exclusivas para miembros al descubierto",
+        "Tu acceso VIP a descuentos premium",
+        "Gran festival de rebajas de temporada",
+        "Descubre tu paraíso de compras",
+        "El gran carnaval de las compras",
+        "Fiesta de compras de primavera",
         "Ofertas de otoño a las que no podrás resistirte",
         "Maravillas del invierno: ofertas cálidas para los días fríos",
-        "Cuenta regresiva de liquidación de fin de verano",
+        "Cuenta regresiva: liquidación de fin de verano",
         "Bonanza del Black Friday: acceso anticipado",
-        "Hola vacaciones: tu guía de regalos y más",
+        "Llegan las fiestas: tu guía de regalos y más",
         "Nuevos hallazgos: novedades solo para ti",
-        "Lealtad recompensada: descuentos exclusivos en el interior",
+        "Fidelidad recompensada: descuentos exclusivos dentro",
       ],
       subject: [
         "⏰ ¡Oferta por tiempo limitado! Consigue tus favoritos ahora",
-        "🌼 Nueva temporada, nuevos estilos: explore nuestra última colección",
+        "🌼 Nueva temporada, nuevos estilos: explora nuestra última colección",
         "👑 Venta VIP exclusiva solo para ti",
         "💃 Llama la atención con nuestras novedades",
         "🔚 Última oportunidad de disfrutar de un 20 % de descuento en todo",
-        "🎁 Un regalo para ti: ¡crédito de $10 en el interior!",
+        "🎁 Un regalo para ti: ¡$10 de crédito dentro!",
         "☀️ Prepárate para el verano con nuestras ofertas especiales",
         "🛍️ Mejora tu guardarropa: te lo mereces",
         "👀 Avance: ¡Nuevos productos próximamente!",
         "🎂 ¡Feliz cumpleaños! Tu regalo especial te espera",
         "🖤 ¿Estás listo para las ofertas del Black Friday?",
-        "🎯 Mejores opciones solo para usted: experiencia de compra personalizada",
-        "🍹 Es hora de darse un capricho: ¡venta flash de fin de semana!",
-        "🧹 Liquidación de fin de temporada: ¡todo debe desaparecer!",
-        "🚀 ¡Te lo has ganado! Envío gratis en su próximo pedido",
+        "🎯 Selección especial para ti: experiencia de compra personalizada",
+        "🍹 Es hora de darte un capricho: ¡venta flash de fin de semana!",
+        "🧹 Liquidación de fin de temporada: ¡todo tiene que salir!",
+        "🚀 ¡Te lo has ganado! Envío gratis en tu próximo pedido",
         "📢 No te lo pierdas: los artículos de tu lista de deseos ya están a la venta",
-        "🏡 Trae alegría a tu hogar con nuestra colección de decoración del hogar",
-        "🎉 ¡Una Sorpresa Solo para Ti! Descubra su descuento misterioso",
+        "🏡 Trae alegría a tu casa con nuestra colección de decoración del hogar",
+        "🎉 ¡Una sorpresa solo para ti! Descubre tu descuento misterioso",
       ],
     },
 
@@ -11368,51 +11811,51 @@ export default {
         "BIENVENIDO10",
         "VERANO20",
         "VIPSALE30",
-        "CUMPLEAÑOS15",
-        "VIERNES NEGRO",
-        "LUNES CIBERNÉTICO",
-        "ENVÍO GRATIS",
-        "VENTA EXPRESS",
-        "AUTORIZACIÓN",
-        "MADRUGADOR",
+        "CUMPLE15",
+        "BLACKFRIDAY",
+        "CYBERMONDAY",
+        "ENVIOGRATIS",
+        "VENTAFLASH",
+        "LIQUIDACION",
+        "ANTICIPADO",
         "ESTUDIANTE10",
         "INVIERNO25",
         "PRIMAVERA15",
-        "OTOÑO20",
-        "MEJOR VENDEDOR10",
-        "VACACIONES30",
-        "SAN VALENTÍN20",
-        "DÍA DE LA MADRE",
-        "DIA DEL PADRE",
-        "FIN DE AÑO",
+        "OTONO20",
+        "TOPVENTAS10",
+        "FIESTAS30",
+        "SANVALENTIN20",
+        "DIADELAMADRE",
+        "DIADELPADRE",
+        "NOCHEVIEJA",
       ],
       title: [
         "Venta flash: ¡20 % de descuento!",
         "Descuento de acceso anticipado VIP",
-        "Oferta de fin de semana: ¡Ahorre ahora!",
-        "Disfrute de un 15% de descuento hoy",
+        "Oferta de fin de semana: ¡ahorra ahora!",
+        "Disfruta de un 15 % de descuento hoy",
         "Oferta de verano: 10 % de descuento adicional",
-        "¡Venta de liquidación! Ahorre en grande",
+        "¡Liquidación! Ahorra a lo grande",
         "Oferta especial: envío gratuito",
         "2 por 1: ¡Solo hoy!",
-        "Especial de vacaciones: 25% de descuento",
+        "Especial de fiestas: 25 % de descuento",
         "Descuento exclusivo del 30%",
         "¡Sorpresa! 20% de descuento adicional",
-        "Ahorros estacionales en el interior",
+        "Ahorros de temporada dentro",
         "Locura entre semana: 10% de descuento",
         "Termina pronto: 15 % de descuento en todo",
         "Familiares y amigos: 20 % de descuento",
         "Grandes ahorros este fin de semana",
-        "Viernes Negro: 40% de descuento",
-        "Descuento de adelanto: 30 % de descuento",
+        "Black Friday: 40 % de descuento",
+        "Descuento anticipado: 30 % de descuento",
       ],
       description: [
         "¡Reclama tu oferta especial! Por tiempo limitado.",
-        "¡Apurarse! Ahorros exclusivos te esperan en tu carrito.",
+        "¡Date prisa! Ahorros exclusivos te esperan en tu carrito.",
         "¡Grandes ahorros a solo un clic de distancia!",
         "Aprovecha esta oferta antes de que se acabe.",
-        "¡Descuento especial esperando! No te lo pierdas.",
-        "¡Aumenta tu espíritu de compras con nuestra oferta!",
+        "¡Tienes un descuento especial esperándote! No te lo pierdas.",
+        "¡Dale un impulso a tus compras con nuestra oferta!",
         "¡Tu próximo pedido podría ser menor de lo que crees!",
         "Es el momento perfecto para conseguir ese artículo que deseabas.",
         "Un pequeño detalle para alegrar tu día.",
@@ -11420,8 +11863,8 @@ export default {
         "Porque eres especial, aquí tienes una oferta especial.",
         "¿Tienes el ojo puesto en algo? ¡Aquí tienes un empujón!",
         "No hay mejor momento que el presente para ahorrar.",
-        "¡No te pierdas esta oferta! Es demasiado bueno para dejarlo pasar.",
-        "¡Una gran noticia! Tus compras ahora son más baratas.",
+        "¡No te pierdas esta oferta! Es demasiado buena para dejarla pasar.",
+        "¡Buenas noticias! Tus compras ahora son más baratas.",
         "¡Date prisa, tu descuento exclusivo termina pronto!",
         "Aquí tienes un pequeño agradecimiento por tu fidelidad.",
       ],
@@ -11431,43 +11874,43 @@ export default {
      */
     coupon: {
       title: [
-        "Ahorros desatados",
+        "Ahorros sin límites",
         "Desbloquea el descuento",
-        "Súper ahorros",
+        "Superahorros",
         "Oferta exclusiva",
-        "Ahorros de bonificación",
+        "Ahorro extra",
         "Descuento VIP",
         "Oferta especial",
         "Ahorros adicionales",
         "Alerta de descuento",
-        "Felicidad presupuestaria",
-        "Delicia económica",
-        "Bonanza de valor",
-        "Reducción de precios",
-        "Felices ahorros",
-        "Ahorre más, compre más",
+        "Alivio para tu bolsillo",
+        "Ahorro delicioso",
+        "Festival de ofertas",
+        "Rebaja de precio",
+        "Ahorra feliz",
+        "Ahorra más, compra más",
         "Oferta relámpago",
-        "Recompensa de ganga",
+        "Botín de gangas",
         "Ahorro instantáneo",
         "Oferta del día",
-        "Robo estacional",
+        "Ganga de temporada",
       ],
       description: [
         "¡Disfruta de una buena oferta con nosotros! Ahorra en tu próxima compra.",
-        "Valoramos a nuestros clientes: aproveche esta oferta exclusiva.",
-        "Obtenga más de lo que ama por menos. ¡Descuento sobre nosotros!",
+        "Valoramos a nuestros clientes: aprovecha esta oferta exclusiva.",
+        "Consigue más de lo que te gusta por menos. ¡El descuento corre por nuestra cuenta!",
         "¿Listo para ahorrar? ¡Te espera una oferta exclusiva!",
         "¡Porque eres especial! Disfruta de un descuento en tu próximo pedido.",
         "¡Regálate una jornada de compras y ahorra!",
-        "Prepárese para comprar hasta cansarse y ¡ahorre!",
+        "¡Prepárate para comprar sin parar y ahorrar!",
         "Celebra la temporada con un descuento especial.",
         "Agradecemos a nuestros fieles clientes con un descuento exclusivo.",
-        "Desbloquee ahorros increíbles en su próxima compra.",
-        "Eche un vistazo a sus ahorros exclusivos.",
-        "¡Descubre tu descuento sorpresa con nosotros!",
+        "Desbloquea ahorros increíbles en tu próxima compra.",
+        "Echa un vistazo a tus ahorros exclusivos.",
+        "¡Descubre tu descuento sorpresa, por nuestra cuenta!",
         "Mejora tu experiencia de compra con nuestra oferta exclusiva.",
         "Impulsa tus ahorros con nuestra oferta especial.",
-        "Disfrute de algo extra: un descuento especial.",
+        "Date un capricho con algo extra: un descuento especial.",
         "¡Tu próxima aventura de compras ahora es más asequible!",
         "Porque comprar es más divertido con descuento.",
       ],
@@ -11479,36 +11922,36 @@ export default {
     offer: {
       title: [
         "¡Agrupa y ahorra en grande!",
-        "¡Compre más ahorre más!",
+        "¡Compra más, ahorra más!",
         "Ofertas inteligentes para compradores inteligentes",
         "¡Alerta de descuento! Ahorros en paquetes",
         "Oferta combinada: más por menos",
         "Ahorros exclusivos en paquetes",
-        "¡Obtenga más por su dinero!",
-        "Ahorre cuando combine",
+        "¡Consigue más por tu dinero!",
+        "Ahorra comprando en paquete",
         "Ofertas especiales en combos",
-        "¡Grandes ahorros en la tienda!",
-        "Paquetes de mejor valor",
+        "¡Grandes ahorros te esperan!",
+        "Paquetes al mejor precio",
         "Ofertas de paquetes por tiempo limitado",
         "Grandes descuentos en combos",
         "Ahorros inteligentes en artículos seleccionados",
         "Ofertas inmejorables en paquetes",
         "Descuentos por compras múltiples disponibles",
-        "Duplique por menos ahora",
+        "Llévate el doble por menos ahora",
         "Compras al por mayor = grandes ahorros",
       ],
 
       description: [
-        "Obtenga grandes ahorros cuando combine productos seleccionados. ¡Date prisa, oferta por tiempo limitado!",
-        "¡Te esperan ofertas inteligentes! Ahorre más al comprar nuestros artículos destacados juntos.",
-        "¡Descubre la forma inteligente de ahorrar! Agrupe sus favoritos y observe cómo baja el precio.",
-        "Disfruta de descuentos exclusivos al comprar artículos seleccionados en combo. ¡Actuar ahora!",
-        "¡Compre más ahorre más! Descuentos inmejorables en nuestros paquetes de productos especiales.",
-        "Compra inteligentemente con nuestras ofertas especiales. Precios con descuento en paquetes de productos seleccionados.",
+        "Consigue grandes ahorros al combinar productos seleccionados. ¡Date prisa, oferta por tiempo limitado!",
+        "¡Te esperan ofertas inteligentes! Ahorra más al comprar juntos nuestros artículos destacados.",
+        "¡Descubre la forma inteligente de ahorrar! Agrupa tus favoritos y mira cómo baja el precio.",
+        "Disfruta de descuentos exclusivos al comprar artículos seleccionados en combo. ¡Actúa ahora!",
+        "¡Compra más, ahorra más! Descuentos inmejorables en nuestros paquetes de productos especiales.",
+        "Compra de forma inteligente con nuestras ofertas especiales. Precios con descuento en paquetes de productos seleccionados.",
         "¡Consigue más por menos! Descuentos increíbles al comprar nuestros paquetes seleccionados.",
         "¡Ahorra en grande al combinar! Ofertas exclusivas en artículos seleccionados por tiempo limitado.",
         "¡Combina y ahorra! Descuentos exclusivos al comprar juntos nuestros productos seleccionados.",
-        "Cuanto más se compra, más usted ahorra! Sea inteligente con nuestros paquetes especiales.",
+        "¡Cuanto más compras, más ahorras! Sé inteligente con nuestros paquetes especiales.",
       ],
     },
 
@@ -11519,23 +11962,23 @@ export default {
       title: [
         "¡Date un capricho!",
         "¡Solo para ti!",
-        "¡Feliz compra!",
-        "¡Disfrútalo con nosotros!",
-        "Disfrute un poco",
+        "¡Felices compras!",
+        "¡Disfruta, va por nuestra cuenta!",
+        "Date un gusto",
         "Porque eres especial",
         "Una pequeña sorpresa",
-        "Haz tu día",
-        "Para ti",
+        "Alegra tu día",
+        "Por ti",
         "Difunde la alegría",
         "Un regalo de amor",
-        "Compre con deleite",
+        "Compra con placer",
         "Una muestra de agradecimiento",
         "Es hora de derrochar",
         "Saborea el momento",
         "Encuentra tus favoritos",
         "La decisión es tuya",
         "Exprésate",
-        "Descubre la Magia",
+        "Descubre la magia",
         "Libera tu estilo",
       ],
     },
@@ -11545,14 +11988,14 @@ export default {
      */
     vendor_refund_order: {
       note: [
-        "Los fondos se dedujeron de su billetera virtual y se devolvieron a la billetera del mercado.",
-        "Se ha emitido un reembolso, lo que reduce el saldo de su billetera virtual.",
-        "Reembolso completado. La billetera del mercado se ha recargado desde su billetera virtual.",
-        "Se ha debitado un reembolso reciente de su billetera virtual a la billetera del mercado.",
-        "Los fondos de su billetera virtual se han ajustado debido a un reembolso reciente.",
-        "Se ha realizado un reembolso descontando el importe de su billetera virtual.",
-        "El saldo de su billetera virtual se ha reducido debido a un reembolso a la billetera del mercado.",
-        "Se ha realizado una transacción de reembolso, moviendo fondos de su billetera virtual de regreso al mercado.",
+        "Los fondos se han deducido de tu billetera virtual y se han devuelto a la billetera del marketplace.",
+        "Se ha emitido un reembolso, lo que reduce el saldo de tu billetera virtual.",
+        "Reembolso completado. La billetera del marketplace se ha recargado desde tu billetera virtual.",
+        "Se ha debitado de tu billetera virtual un reembolso reciente a la billetera del marketplace.",
+        "Los fondos de tu billetera virtual se han ajustado debido a un reembolso reciente.",
+        "Se ha realizado un reembolso, descontando el importe de tu billetera virtual.",
+        "El saldo de tu billetera virtual se ha reducido debido a un reembolso a la billetera del marketplace.",
+        "Se ha realizado una transacción de reembolso, devolviendo fondos de tu billetera virtual al marketplace.",
       ],
     },
 
@@ -11564,37 +12007,37 @@ export default {
         "Garantía de oro de 24 meses",
         "Protección Platino durante dos años",
         "Garantía de Diamante por 36 meses",
-        "Silver Shield: Garantía de un año",
+        "Escudo Plata: garantía de un año",
         "Garantía Elite de 2 años",
         "Protección Premium durante 24 meses",
-        "Copia de seguridad Bronce: garantía de un año",
+        "Respaldo Bronce: garantía de un año",
         "Garantía máxima de funcionamiento por 3 años",
         "Promesa de servicio seguro de 24 meses",
-        "Protección de tranquilidad durante 36 meses",
+        "36 meses de protección y tranquilidad",
       ],
       pros_name: [
         "Eficiencia mejorada",
         "Solución rentable",
         "Calidad asegurada",
         "Fácil de usar",
-        "Ahorrador de tiempo",
+        "Ahorra tiempo",
         "Fiabilidad garantizada",
         "Uso versátil",
         "Tecnología de vanguardia",
-        "Amigable con el medio ambiente",
-        "Actuación excepcional",
+        "Respetuoso con el medio ambiente",
+        "Rendimiento excepcional",
       ],
 
       pros_value: [
         "Ahorra mucho tiempo con operaciones rápidas y eficientes.",
         "Utiliza tecnología avanzada para un rendimiento inigualable.",
-        "Reduce costes y aumenta la productividad.",
-        "Ofrece una interfaz fácil de usar para una fácil navegación.",
+        "Reduce costos y aumenta la productividad.",
+        "Ofrece una interfaz fácil de usar para una navegación sencilla.",
         "Garantiza un rendimiento confiable y consistente.",
         "Proporciona aplicaciones versátiles para diversas tareas.",
         "Utiliza materiales y procesos respetuosos con el medio ambiente.",
         "Diseñado con tecnología de punta para resultados superiores.",
-        "El diseño de alta calidad garantiza una durabilidad duradera.",
+        "El diseño de alta calidad garantiza una larga durabilidad.",
         "Ofrece atención al cliente las 24 horas.",
       ],
 
@@ -11602,13 +12045,13 @@ export default {
         "Inversión costosa",
         "Compatibilidad limitada",
         "Configuración compleja",
-        "Requiere entrenamiento",
+        "Requiere formación",
         "Rendimiento mediocre",
         "Carece de versatilidad",
         "Soporte limitado",
         "Mantenimiento frecuente",
         "Alto consumo de energía",
-        "Corto periodo de vida",
+        "Vida útil corta",
       ],
 
       cons_value: [
@@ -11620,7 +12063,7 @@ export default {
         "Limitado en funcionalidad o carece de versatilidad.",
         "Es posible que la atención al cliente no esté disponible las 24 horas.",
         "Requiere mantenimiento frecuente, lo que genera mayores costos.",
-        "Consume grandes cantidades de energía, lo que afecta los costos de los servicios públicos.",
+        "Consume grandes cantidades de energía, lo que aumenta los costos de suministros.",
         "Es posible que la vida útil del producto no sea tan larga como se esperaba.",
       ],
     },
@@ -11630,28 +12073,28 @@ export default {
      */
     blog_category: {
       category: [
-        "Información tecnológica",
+        "Novedades tecnológicas",
         "Hallazgos gastronómicos",
-        "Cuentos de viajes",
+        "Historias de viajes",
         "Consejos de salud",
         "Favoritos de la moda",
-        "Buzz de negocios",
+        "Actualidad empresarial",
         "Historias de estilo de vida",
-        "Actualizaciones deportivas",
-        "Aspectos destacados del arte",
+        "Novedades deportivas",
+        "Lo mejor del arte",
         "Consejos para padres",
       ],
       description: [
-        "Descubra artículos interesantes sobre diversos temas.",
-        "Explore nuestra colección de publicaciones de blog informativas.",
-        "Manténgase informado con el atractivo contenido de nuestra categoría de blog.",
-        "Encuentre inspiración a través de nuestros artículos de categoría de blog que invitan a la reflexión.",
-        "Amplíe sus conocimientos con nuestros diversos temas de categorías de blogs.",
-        "Manténgase actualizado con nuestra cautivadora información sobre categorías de blogs.",
-        "Profundice en las profundidades del intrigante contenido de nuestra categoría de blog.",
-        "Descubra información valiosa en los archivos de nuestra categoría de blogs.",
-        "Aprenda algo nuevo de nuestra categoría de blogs cuidadosamente seleccionada.",
-        "Participe con nuestros enriquecedores artículos y publicaciones de categorías de blog.",
+        "Descubre artículos interesantes sobre diversos temas.",
+        "Explora nuestra colección de publicaciones de blog informativas.",
+        "Mantente informado con el atractivo contenido de esta categoría del blog.",
+        "Encuentra inspiración en los artículos de esta categoría del blog, que invitan a la reflexión.",
+        "Amplía tus conocimientos con los diversos temas de esta categoría del blog.",
+        "Mantente al día con las cautivadoras ideas de esta categoría del blog.",
+        "Sumérgete en el intrigante contenido de esta categoría del blog.",
+        "Descubre información valiosa en el archivo de esta categoría del blog.",
+        "Aprende algo nuevo en esta categoría del blog cuidadosamente seleccionada.",
+        "Disfruta de los enriquecedores artículos y publicaciones de esta categoría del blog.",
       ],
     },
 
@@ -11663,13 +12106,13 @@ export default {
         "Paquete de inicio",
         "Plan Esencial",
         "Suite Profesional",
-        "Edición de Empresa",
+        "Edición Enterprise",
         "Nivel avanzado",
         "Paquete Premium",
         "Solución definitiva",
         "Nivel élite",
         "Acelerador de crecimiento",
-        "Poder Platino",
+        "Potencia Platino",
       ],
     },
 
@@ -11685,30 +12128,30 @@ export default {
         "Productos de salud y belleza",
         "Muebles",
         "Artículos deportivos",
-        "Juguetes y Juegos",
+        "Juguetes y juegos",
         "Joyería y accesorios",
         "Piezas de automóviles",
         "Jardín y aire libre",
-        "Batería de cocina",
+        "Menaje de cocina",
         "Decoración del hogar",
         "Instrumentos musicales",
-        "Suministros de mascotas",
+        "Artículos para mascotas",
         "Calzado",
-        "Bolsas y equipaje",
+        "Bolsos y equipaje",
         "Material de oficina",
-        "Herramientas de hardware",
+        "Herramientas de ferretería",
         "Comestibles",
       ],
 
       label: [
-        "VAT", // Value-Added Tax
+        "IVA", // Value-Added Tax
         "GST", // Goods and Services Tax
         "PST", // Provincial Sales Tax
         "HST", // Harmonized Sales Tax
         "QST", // Quebec Sales Tax
         "CST", // Central Sales Tax
         "Impuesto al consumo", // Excise Tax
-        "Derechos de Importación", // Import Duty
+        "Derechos de importación", // Import Duty
         "Impuesto de servicio", // Service Tax
         "Impuesto de lujo", // Luxury Tax
       ],
@@ -11718,22 +12161,22 @@ export default {
      */
     cluster: {
       name: [
-        "Aspectos destacados de la venta",
+        "Destacados de rebajas",
         "Códigos promocionales",
         "Campañas destacadas",
-        "Los recién llegados",
+        "Novedades",
         "Los más vendidos",
         "Especiales de temporada",
         "Ofertas limitadas",
         "Ofertas de eventos",
         "Exclusivos VIP",
         "Artículos en liquidación",
-        "Paquetes de vacaciones",
+        "Paquetes de fiestas",
         "Colecciones temáticas",
-        "Escaparates de marca",
+        "Marcas destacadas",
         "Favoritos de los miembros",
         "Descuentos flash",
-        "Comprar artículos esenciales",
+        "Esenciales de la tienda",
         "Recursos digitales",
         "Ideas de regalo",
         "Selecciones ecológicas",
@@ -11747,17 +12190,17 @@ export default {
     popup: {
       title: [
         "¡Oferta especial!",
-        "Los recién llegados",
+        "Novedades",
         "Tiempo limitado",
         "¡Alerta de descuento!",
         "Ofertas exclusivas",
-        "¡Gran venta!",
+        "¡Ofertas calientes!",
         "Alerta de liquidación",
         "Envío gratis",
-        "¡Regalo adentro!",
+        "¡Regalo incluido!",
         "Gana premios",
         "Beneficios para miembros",
-        "Venta express",
+        "Venta flash",
       ],
     },
 
@@ -11766,26 +12209,26 @@ export default {
      */
     campaign: {
       name: [
-        "Comprar hasta el cansancio",
-        "Frenesí de carritos",
+        "Compra sin parar",
+        "Frenesí de compras",
         "Fiesta de venta flash",
-        "Haga clic, compre, ahorre",
+        "Haz clic, compra, ahorra",
         "Bonanza de gangas",
-        "Extravagancia de ofertas electrónicas",
+        "Festival de ofertas online",
         "Locura de mega rebajas",
         "Oleada de ahorros cibernéticos",
         "Días de descuento digitales",
         "Carnaval del comercio electrónico",
-        "Oasis de venta online",
+        "Oasis del outlet online",
         "Fiebre minorista",
-        "Venta de almacén de tienda web",
-        "El paraíso del comprador electrónico",
-        "Empresa de vales virtuales",
-        "Explosivos digitales",
+        "Venta de almacén de la tienda online",
+        "El paraíso del comprador online",
+        "Aventura de vales virtuales",
+        "Ofertas bomba digitales",
         "Liquidación de carrito electrónico",
-        "Enfrentamiento de compras en línea",
-        "Venta Cibernética Espectacular",
-        "Bombardeo de gangas electrónicas",
+        "Duelo de compras online",
+        "Ciberventa espectacular",
+        "Ráfaga de gangas online",
       ],
     },
 
@@ -11806,11 +12249,11 @@ export default {
         "Precios de portadas de libros personalizadas",
         "Valoración de muebles a medida",
         "Precios de relojes a medida",
-        "Valoración de juguetes personalizada",
+        "Valoración de juguetes personalizados",
         "Precios de sombreros a medida",
         "Valoración de productos para el cuidado de la piel personalizados",
         "Precios de decoración del hogar a medida",
-        "Valoración personalizada de menaje de cocina",
+        "Valoración de menaje de cocina personalizado",
         "Precios de papelería personalizada",
         "Valoración de accesorios para el cabello a medida",
         "Precios de equipos deportivos personalizados",
@@ -11822,11 +12265,11 @@ export default {
           "Elección del material del zapato",
           "Tamaño del marco artístico",
           "Selección de tela para traje",
-          "Opción de color del gadget",
+          "Opción de color del dispositivo",
           "Perfil de aroma de perfume",
-          "Material y tamaño de la bolsa",
+          "Material y tamaño del bolso",
           "Longitud y estilo del vestido",
-          "Material de la cubierta del libro",
+          "Material de la portada del libro",
           "Tipo de madera de los muebles",
           "Material de la correa del reloj",
           "Características personalizadas del juguete",
@@ -11848,46 +12291,46 @@ export default {
       title: [
         "¡Gira y gana grandes premios!",
         "Premio mayor de la rueda de la fortuna",
-        "Bonanza de giros de la suerte",
+        "Festival de giros de la suerte",
         "Gira para ganar recompensas",
         "Rueda de la riqueza",
-        "Extravagancia de la lotería de la suerte",
+        "Gran lotería de la suerte",
         "Sorpresa de megagiro",
         "Fiesta de la rueda de premios",
         "Espectacular giro del tesoro",
         "Gira la rueda mágica",
-        "Rueda de la suerte en abundancia",
+        "Rueda de la suerte sin límites",
         "El favor de la fortuna",
         "Rueda de las maravillas",
-        "Girar por riquezas",
-        "Premio Spinner Delicia",
+        "Gira por riquezas",
+        "Delicia de la ruleta de premios",
         "Lotería de giro dorado",
         "Gira un premio",
         "Rueda de la Fortuna",
-        "Exhibición de giros afortunados",
+        "Gran giro de la suerte",
         "Recompensa de giro definitiva",
       ],
       description: [
         "¡Gira la rueda para tener la oportunidad de ganar descuentos exclusivos!",
-        "Pruebe suerte: ¡le esperan premios increíbles en nuestra rueda de la fortuna!",
+        "Prueba tu suerte: ¡te esperan premios increíbles en nuestra rueda de la fortuna!",
         "Gana a lo grande con cada giro: ¡emocionantes recompensas en juego!",
-        "¡Gira para ganar! Regalos sorpresa y ofertas en todo momento.",
+        "¡Gira para ganar! Regalos sorpresa y ofertas en cada giro.",
         "Tu oportunidad de ganar mucho: ¡haz girar la rueda para obtener premios instantáneos!",
         "Recompensas exclusivas con cada giro: ¿serás tú el afortunado?",
         "¡Gira y gana! Descubre gemas ocultas en la rueda de la fortuna de nuestra tienda.",
-        "Tenga suerte con nuestra rueda: ¡premios, descuentos y más!",
-        "Cada giro es una ganancia: ¡consigue tu premio especial hoy!",
-        "Gira la rueda para recibir una deliciosa sorpresa: ¿qué ganarás?",
+        "Prueba tu suerte con nuestra rueda: ¡premios, descuentos y más!",
+        "Con cada giro ganas: ¡consigue tu premio especial hoy!",
+        "Gira la rueda y llévate una grata sorpresa: ¿qué ganarás?",
         "Libera tu fortuna con un giro: te esperan emocionantes recompensas en la tienda.",
         "Gira para revelar tu premio: ¡descuentos, regalos y más!",
         "Un giro al día mantiene la emoción en juego: ¡gana premios únicos!",
         "Gira nuestra rueda de la fortuna para obtener obsequios exclusivos en la tienda.",
-        "Los giros afortunados traen ganancias afortunadas: ¡obtén tu premio ahora!",
+        "Giros con suerte, premios con suerte: ¡consigue tu premio ahora!",
         "¡Tu giro podría desbloquear increíbles recompensas de compras!",
-        "Gire para tener la oportunidad de conseguir promociones y ofertas exclusivas.",
+        "Gira para tener la oportunidad de llevarte ofertas y promociones exclusivas.",
         "La rueda de la fortuna está girando: ¡atrapa tu premio de la suerte!",
         "Gira, gana y sonríe: recompensas sorpresa en cada giro.",
-        "¡Da una vuelta y deja que la fortuna decida tu premio!",
+        "¡Gira la rueda y deja que la fortuna decida tu premio!",
       ],
     },
 
@@ -11898,14 +12341,14 @@ export default {
       title: [
         "Acceso básico",
         "Membresía Premium",
-        "Paquete de oro",
+        "Paquete Oro",
         "Plan Plata",
         "Suscripción Platino",
         "Nivel empresarial",
         "Paquete de inicio",
         "Oferta ilimitada",
         "Paquete familiar",
-        "Suite Profesional",
+        "Suite profesional",
       ],
       description: [
         "Ideal para personas que exploran los conceptos básicos.",
@@ -11914,7 +12357,7 @@ export default {
         "Un paquete equilibrado para usuarios habituales.",
         "Acceso definitivo con ventajas de primer nivel.",
         "Soluciones personalizadas para grandes organizaciones.",
-        "Una opción de nivel de entrada asequible.",
+        "Una opción básica y asequible.",
         "Sin límites de uso, para el usuario avanzado.",
         "Un plan especial para familias, hasta 4 integrantes.",
         "Diseñado para profesionales que buscan herramientas avanzadas.",
@@ -11931,7 +12374,7 @@ export default {
         "Material y calidad de construcción",
         "Opciones de color y acabado",
         "Almacenamiento y memoria",
-        "Compatibilidad del sistema operativo",
+        "Compatibilidad con sistemas operativos",
         "Seguridad y cumplimiento",
         "Contenido del paquete",
         "Garantía y soporte",
@@ -11959,36 +12402,36 @@ export default {
         "Resumen del pedido",
         "Factura de orden de compra",
         "Recibo de venta",
-        "Factura de venta al por menor",
+        "Factura minorista",
         "Recibo electrónico",
         "Factura de servicio",
         "Factura del producto",
         "Recibo de pago",
         "Confirmación de pedido",
-        "Factura de facturación",
-        "Factura de pago",
+        "Factura de cobro",
+        "Factura de compra",
         "Factura del cliente",
       ],
       message: [
         "¡Gracias por tu compra!",
-        "Apreciamos su negocio.",
+        "Gracias por tu preferencia.",
         "¡Tu pedido está en camino!",
         "Gracias por comprar con nosotros.",
-        "Esperando poder servirle nuevamente.",
-        "Su satisfacción es nuestra máxima prioridad.",
+        "Esperamos atenderte de nuevo pronto.",
+        "Tu satisfacción es nuestra máxima prioridad.",
         "No olvides valorar tu experiencia.",
         "Gracias por apoyar nuestra tienda.",
         "¡Esperamos que disfrutes de tu nueva compra!",
-        "Guarde su factura para futuras referencias.",
-        "Visítenos nuevamente para conocer más productos excelentes.",
-        "Manténgase conectado para obtener ofertas exclusivas.",
+        "Guarda tu factura para futuras consultas.",
+        "Vuelve a visitarnos para descubrir más productos geniales.",
+        "Mantente al tanto de nuestras ofertas exclusivas.",
         "Gracias por ser un cliente valioso.",
-        "Estamos aquí para ayudarle si necesita asistencia.",
-        "Sus comentarios nos ayudan a mejorar.",
+        "Estamos aquí para ayudarte si necesitas asistencia.",
+        "Tus comentarios nos ayudan a mejorar.",
         "Disfruta de un descuento especial en tu próxima compra.",
         "¡Has hecho una gran elección!",
         "Gracias por confiar en nosotros.",
-        "Quedo a la espera de sus comentarios.",
+        "Esperamos tus comentarios.",
         "Un sincero agradecimiento de parte de nuestro equipo.",
       ],
     },
@@ -12000,23 +12443,23 @@ export default {
       title: [
         "Exhibición de propiedades",
         "Plaza de vendedores",
-        "Casas Destacadas",
+        "Casas destacadas",
         "Mercado local",
-        "Los recién llegados",
+        "Novedades",
         "Jardines de la finca",
         "Distrito comercial",
         "Callejón de los artesanos",
         "Fincas de lujo",
         "Centro de alquiler",
-        "Casas abiertas",
+        "Jornadas de puertas abiertas",
         "Innovaciones tecnológicas",
         "Calle de la moda",
         "Rincón de manualidades",
         "Patio de comidas",
         "Rincón de libros",
-        "Unión de joyería",
-        "Avenida de Antigüedades",
-        "Zona Fitness",
+        "Galería de joyería",
+        "Avenida de las antigüedades",
+        "Zona fitness",
       ],
     },
 
@@ -12025,9 +12468,9 @@ export default {
      */
     marketplace_document: {
       title: [
-        "Certificado de Registro Comercial",
+        "Certificado de registro mercantil",
         "Número de identificación fiscal (NIF)",
-        "Formulario de acuerdo con el proveedor",
+        "Formulario de acuerdo del vendedor",
         "Catálogo de productos",
         "Lista de precios",
         "Datos de la cuenta bancaria",
@@ -12058,21 +12501,21 @@ export default {
         "Acuerdo de servicios de impresión bajo demanda",
         "Acuerdo de servicios de marketing digital",
         "Acuerdo de configuración de la plataforma de comercio electrónico",
-        "Contrato de Consultoría Experta para Empresarios",
+        "Contrato de consultoría experta para propietarios de negocios",
         "Acuerdo de servicio para la configuración del Marketplace",
-        "Contrato de servicios de instalación y configuración de tiendas",
+        "Contrato de servicios de puesta en marcha y configuración de tienda",
         "Acuerdo de prestación de servicios POD",
-        "Acuerdo de Implementación de Estrategia de Marketing",
+        "Acuerdo de implementación de estrategia de marketing",
         "Contrato de servicios de desarrollo empresarial",
         "Acuerdo de configuración de tienda de comercio electrónico",
         "Acuerdo de prestación de servicios de expertos",
-        "Contrato de Soluciones Empresariales y de Instalación",
-        "Acuerdo de servicios de instalación de tiendas personalizadas",
-        "Acuerdo de servicio de optimización del mercado",
-        "Contrato de Servicios de Consultoría y Configuración",
+        "Contrato de soluciones empresariales y puesta en marcha",
+        "Acuerdo de servicios de configuración de tienda personalizada",
+        "Acuerdo de servicio de optimización de marketplace",
+        "Contrato de servicios de consultoría y configuración",
         "Acuerdo de servicios de integración de POD",
         "Contrato de servicios de marketing y promoción",
-        "Contrato de servicio de expansión empresarial",
+        "Acuerdo de servicio de expansión empresarial",
       ],
     },
 
@@ -12081,15 +12524,15 @@ export default {
      */
     account: {
       account_name: [
-        "Monedero principal",
-        "Cuenta de negocios",
+        "Billetera principal",
+        "Cuenta comercial",
         "Billetera personal",
         "Billetera de ahorros",
-        "Cuenta de Gastos",
-        "Monedero principal",
-        "Cuenta General",
+        "Cuenta de gastos",
+        "Billetera primaria",
+        "Cuenta general",
         "Billetera de reserva",
-        "Monedero de transacciones",
+        "Billetera de transacciones",
         "Cuenta de fondos",
       ],
     },
@@ -12099,38 +12542,38 @@ export default {
      */
     cashback: {
       title: [
-        "Compre y gane reembolsos",
-        "Reembolso en efectivo por recompensas de fidelidad",
-        "Ofertas exclusivas de devolución de dinero",
-        "Bonanza de reembolso",
-        "Ofertas de devolución de dinero instantánea",
-        "Ahorros de reembolso de temporada",
-        "Días de doble reembolso",
-        "Reembolso en cada compra",
-        "Frenesí de devolución de dinero",
-        "Programa de reembolso VIP",
-        "Reembolso por tiempo limitado",
-        "Club de recompensas con devolución de efectivo",
-        "Compre más, ahorre más",
-        "Recompensas de devolución de efectivo definitivas",
-        "Extravagancia de devolución de dinero",
+        "Compra y gana cashback",
+        "Cashback por fidelidad",
+        "Ofertas exclusivas de cashback",
+        "Bonanza de cashback",
+        "Ofertas de cashback instantáneo",
+        "Ahorros de cashback de temporada",
+        "Días de doble cashback",
+        "Cashback en cada compra",
+        "Frenesí de cashback",
+        "Programa de cashback VIP",
+        "Cashback por tiempo limitado",
+        "Club de recompensas cashback",
+        "Compra más, ahorra más",
+        "Recompensas de cashback definitivas",
+        "Gran fiesta del cashback",
       ],
       description: [
-        "¡Gana dinero en efectivo en cada compra!",
-        "Obtenga recompensas por su lealtad.",
-        "Ofertas de reembolso exclusivas solo para ti.",
-        "Disfrute de grandes ahorros con recompensas de devolución de efectivo.",
-        "Reembolso instantáneo en todos tus artículos favoritos.",
-        "Ahorre más con ofertas de devolución de efectivo de temporada.",
-        "¡Duplica tu reembolso en días especiales!",
-        "Gane reembolsos cada vez que compre.",
-        "¡Únete al frenesí del reembolso hoy!",
-        "Los miembros VIP disfrutan de un reembolso exclusivo.",
-        "¡Date prisa! Ofertas de devolución de dinero por tiempo limitado.",
-        "Únase ahora a nuestro Club de recompensas Cashback.",
+        "¡Gana cashback en cada compra!",
+        "Recibe recompensas por tu fidelidad.",
+        "Ofertas de cashback exclusivas solo para ti.",
+        "Disfruta de grandes ahorros con recompensas de cashback.",
+        "Cashback instantáneo en todos tus artículos favoritos.",
+        "Ahorra más con las ofertas de cashback de temporada.",
+        "¡Duplica tu cashback en días especiales!",
+        "Gana cashback cada vez que compras.",
+        "¡Únete al frenesí del cashback hoy!",
+        "Los miembros VIP disfrutan de cashback exclusivo.",
+        "¡Date prisa! Ofertas de cashback por tiempo limitado.",
+        "Únete ahora a nuestro Club de recompensas cashback.",
         "Cuanto más compres, más ahorrarás.",
-        "Desbloquea las mejores recompensas de reembolso.",
-        "Experimente las mejores ofertas de devolución de dinero.",
+        "Desbloquea las mejores recompensas de cashback.",
+        "Descubre las mejores ofertas de cashback.",
       ],
     },
 
@@ -12139,16 +12582,16 @@ export default {
      */
     page: {
       prompts: [
-        "Bienvenido a {shop} - Explore nuestra distintiva gama de artículos",
-        "{shop} - Su fuente definitiva de productos de calidad y un servicio excepcional",
-        "Ofertas y ahorros exclusivos solo en {shop}: ¡aproveche la oportunidad!",
-        "Conozca la dedicación de {shop} al respeto al medio ambiente y las prácticas éticas",
-        "Sea parte de la familia {shop}: suscríbase a nuestro boletín para recibir actualizaciones",
-        "Sumérjase en las mejores selecciones y los productos mejor calificados en {shop}",
-        "Ideas actuales y sugerencias creativas para todos los eventos en {shop}",
-        "Ofertas inigualables y promociones especiales por tiempo limitado en {shop}: ¡actúe rápido!",
-        "Consejos de compra completos y evaluaciones de productos de {shop}: compre con confianza",
-        "Comuníquese con {shop}: nos esforzamos por brindar una experiencia de compra inigualable",
+        "Bienvenido a {shop} - Explora nuestra exclusiva gama de artículos",
+        "{shop} - Tu fuente definitiva de productos de calidad y un servicio excepcional",
+        "Ofertas y ahorros exclusivos solo en {shop} - ¡Aprovecha la oportunidad!",
+        "Conoce el compromiso de {shop} con el medio ambiente y las prácticas éticas",
+        "Forma parte de la familia {shop} - Suscríbete a nuestro boletín para recibir novedades",
+        "Descubre las mejores selecciones y los productos mejor valorados en {shop}",
+        "Ideas de regalo y sugerencias creativas para todas las ocasiones en {shop}",
+        "Ofertas inigualables y promociones por tiempo limitado en {shop} - ¡Date prisa!",
+        "Consejos de compra completos y evaluaciones de productos de {shop} - Compra con confianza",
+        "Contacta con {shop} - Nos esforzamos por ofrecer una experiencia de compra inigualable",
       ],
     },
 
@@ -12158,24 +12601,24 @@ export default {
     cross_selling: {
       message: [
         "Completa tu look, ¡hazte con el conjunto!",
-        "¡Ahorre a lo grande con nuestras ofertas combinadas!",
-        "¡No te pierdas nuestros maridajes perfectos!",
+        "¡Ahorra a lo grande con nuestras ofertas en pack!",
+        "¡No te pierdas nuestras combinaciones perfectas!",
         "Mejora tu compra, ¡te esperan complementos!",
-        "¡Desbloquea ahorros exclusivos, compra juntos!",
+        "¡Desbloquea ahorros exclusivos comprándolos juntos!",
         "¡Artículos complementarios, descuentos especiales!",
-        "Obtenga más, gaste menos: ¡abríguese!",
-        "Oferta por tiempo limitado: ¡productos combinados!",
+        "Llévate más, gasta menos: ¡compra en pack!",
+        "Oferta por tiempo limitado: ¡productos que combinan!",
         "Mejora tu experiencia, ¡ofertas combinadas!",
         "Descubre nuestros combos seleccionados, ¡ahorra ahora!",
         "¡Combínalos para lograr el combo perfecto!",
-        "¡Compre de manera inteligente, compre en paquetes y ahorre!",
+        "¡Compra inteligente: agrupa y ahorra!",
         "¡El doble de valor, el doble de diversión!",
-        "¡Tu pareja perfecta está aquí! ¡Cómprala ahora!",
+        "¡Tu complemento perfecto está aquí! ¡Cómpralo ahora!",
         "¡Precios de paquete exclusivos solo para ti!",
         "¡Maximiza tus ahorros con nuestros combos!",
-        "¡Mejora tu colección con estas púas!",
+        "¡Amplía tu colección con estas selecciones!",
         "Seleccionado especialmente para ti: ¡combina y ahorra!",
-        "¡La pareja perfecta para un día perfecto!",
+        "¡El dúo perfecto para un día perfecto!",
         "¡Agrupa tus favoritos para obtener ahorros adicionales!",
       ],
     },
@@ -12185,26 +12628,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "Título",
+        "Productos digitales",
         "Libros",
-        "Título",
-        "Título",
-        "Título",
+        "Electrónica",
+        "Moda",
+        "Electrodomésticos",
         "Productos de belleza",
         "Equipo deportivo",
-        "Juguetes y Juegos",
+        "Juguetes y juegos",
         "Comestibles",
         "Muebles",
-        "Piezas de automóviles",
+        "Repuestos de automóvil",
         "Joyas",
-        "Título",
-        "Suministros de mascotas",
+        "Salud y bienestar",
+        "Productos para mascotas",
         "Material de oficina",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
+        "Música e instrumentos",
+        "Películas y series",
+        "Software",
+        "Arte y manualidades",
+        "Equipo para exteriores",
       ],
     },
 
@@ -12214,39 +12657,39 @@ export default {
     template_message: {
       title: [
         "Confirmación de pedido",
-        "Orden enviada",
-        "Orden entregada",
+        "Pedido enviado",
+        "Pedido entregado",
         "Pago recibido",
-        "Orden cancelada",
-        "Retraso en el procesamiento de pedidos",
-        "Orden en espera",
-        "Realizar pedido para entrega",
+        "Pedido cancelado",
+        "Retraso en el procesamiento del pedido",
+        "Pedido en espera",
+        "Pedido en reparto",
         "Devolución procesada",
         "Reembolso emitido",
-        "Artículo nuevamente en stock",
+        "Artículo de nuevo en existencia",
       ],
       body: [
-        "Hola {buyer_name}, ¡tu pedido #{order_id} ha sido confirmado! Lo estamos procesando y le notificaremos cuando esté listo para enviarse.",
+        "Hola {buyer_name}, ¡tu pedido #{order_id} ha sido confirmado! Lo estamos procesando y te avisaremos cuando esté listo para enviarse.",
 
-        "¡Buenas noticias, {buyer_name}! Su pedido #{order_id} ha sido enviado. Puedes rastrearlo a través de tu cuenta. ¡Gracias por comprar con nosotros!",
+        "¡Buenas noticias, {buyer_name}! Tu pedido #{order_id} ha sido enviado. Puedes hacer el seguimiento desde tu cuenta. ¡Gracias por comprar con nosotros!",
 
         "Hola {buyer_name}, tu pedido #{order_id} ha sido entregado exitosamente. Esperamos que disfrutes de tu compra. ¡Gracias!",
 
-        "Hola {buyer_name}, hemos recibido el pago del pedido #{order_id}. Su pedido ahora se está procesando y se enviará pronto.",
+        "Hola {buyer_name}, hemos recibido el pago del pedido #{order_id}. Tu pedido ya se está procesando y se enviará pronto.",
 
-        "Estimado {buyer_name}, lamentamos informarle que su pedido #{order_id} ha sido cancelado. Si tiene alguna pregunta, comuníquese con el soporte.",
+        "Estimado/a {buyer_name}, lamentamos informarte de que tu pedido #{order_id} ha sido cancelado. Si tienes alguna pregunta, contacta con soporte.",
 
-        "Estimado {buyer_name}, estamos experimentando un retraso con su pedido #{order_id}. Lamentamos las molestias y estamos trabajando para resolverlo lo antes posible.",
+        "Estimado/a {buyer_name}, tenemos un retraso con tu pedido #{order_id}. Lamentamos las molestias y estamos trabajando para resolverlo lo antes posible.",
 
-        "Hola {buyer_name}, tu pedido #{order_id} está actualmente en espera. Por favor verifique su cuenta o comuníquese con el soporte para obtener más detalles.",
+        "Hola {buyer_name}, tu pedido #{order_id} está actualmente en espera. Revisa tu cuenta o contacta con soporte para obtener más detalles.",
 
-        "Hola {buyer_name}, tu pedido #{order_id} ya está disponible para entrega y debería llegarte pronto. ¡Gracias por tu paciencia!",
+        "Hola {buyer_name}, tu pedido #{order_id} ya está en reparto y debería llegarte pronto. ¡Gracias por tu paciencia!",
 
-        "Estimado {buyer_name}, hemos procesado la devolución de su pedido #{order_id}. Si tiene alguna pregunta, comuníquese con el soporte.",
+        "Estimado/a {buyer_name}, hemos procesado la devolución de tu pedido #{order_id}. Si tienes alguna pregunta, contacta con soporte.",
 
         "Hola {buyer_name}, se ha emitido tu reembolso por el pedido #{order_id}. Deberías ver los fondos en tu cuenta pronto.",
 
-        "Hola {buyer_name}, ¡el artículo de tu pedido #{order_id} vuelve a estar disponible! Puedes realizar un nuevo pedido ahora si todavía estás interesado.",
+        "Hola {buyer_name}, ¡el artículo de tu pedido #{order_id} vuelve a estar disponible! Puedes realizar un nuevo pedido ahora si aún te interesa.",
       ],
     },
 
@@ -12255,16 +12698,16 @@ export default {
      */
     property_set: {
       title: [
-        "Título",
-        "Título",
-        "Título",
+        "Ropa",
+        "Gadgets digitales",
+        "Bebidas",
         "Alimentos",
         "Muebles",
         "Libros",
         "Productos de belleza",
-        "Título",
+        "Juguetes",
         "Equipo deportivo",
-        "Título",
+        "Accesorios",
       ],
       description: [
         "Atributos de prendas de vestir como talla, color y tela.",
@@ -12273,7 +12716,7 @@ export default {
         "Detalles de comidas, snacks y productos alimenticios.",
         "Material, dimensiones y estilos de diseño.",
         "Autor, género y año de publicación.",
-        "Tipo de piel, ingredientes y detalles del empaque.",
+        "Tipo de piel, ingredientes y detalles del envase.",
         "Grupo de edad, material y normas de seguridad.",
         "Tipo, tamaño y características de rendimiento.",
         "Estilos, materiales y detalles de marca.",
@@ -12296,13 +12739,13 @@ export default {
         "Caja alta",
         "Caja plana",
         "Caja cubo",
-        "Tubo de caja",
+        "Caja tubo",
         "Caja frágil",
-        "Caja De Botellas De Vidrio",
-        "Paquete blando de caja", // flexible mailer
-        "Caja Acolchada", // bubble/padded
-        "Caja aislada", // thermal
-        "Caja de servicio pesado",
+        "Caja para botellas de vidrio",
+        "Caja blanda", // flexible mailer
+        "Caja acolchada", // bubble/padded
+        "Caja térmica", // thermal
+        "Caja reforzada",
       ],
     },
   },

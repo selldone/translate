@@ -1,11 +1,11 @@
 export default {
   "experts_common": {
     "experts_page": "Página de expertos",
-    "no_job": "¡No se encontró un ajuste adecuado!",
+    "no_job": "¡No se encontró ninguna opción adecuada!",
     "jobs_filter": "Filtro de trabajos",
     "start_price": "Precio inicial",
     "completed_count": "Trabajos completados",
-    "job_title": "Título profesional",
+    "job_title": "Título del trabajo",
     "job_desc": "Descripción del trabajo",
     "job_not_approved": "El trabajo aún no ha sido verificado.",
     "new_job": "Nuevo trabajo",
@@ -16,146 +16,146 @@ export default {
     "complete_cancel_date": "Fecha de finalización/cancelación",
     "waiting_pay_and_start": "Esperando para pagar y comenzar",
     "waiting_to_complete": "En espera de la aprobación del cliente",
-    "running": "Corriendo",
+    "running": "En curso",
     "paY_start_action": "Paga y comienza ahora",
     "need_help": "¿Necesitas ayuda?",
-    "hire_me_now": "contratame ahora...",
+    "hire_me_now": "Contrátame ahora...",
     "expert_contracts": "Contratos de expertos"
   },
   "topic_categories": {
     "SETUP": {
       "title": "Configurar tienda en línea",
-      "desc": "Los expertos en este campo construyen y configuran su tienda en línea de manera más fácil y rápida para usted."
+      "desc": "Contrata a profesionales para crear y poner en marcha tu tienda en línea de forma rápida y sencilla."
     },
     "ADD_PAGE": {
-      "title": "Agregar páginas (Aterrizajes, Sobre nosotros, ...)",
-      "desc": "Puede dejar la creación de páginas de destino, sobre nosotros y otras páginas de su sitio web a estos expertos."
+      "title": "Creación de páginas web",
+      "desc": "Confía a los expertos la creación de las páginas de destino, la sección «Sobre nosotros» y más contenido de tu sitio web."
     },
     "ADD_PRODUCT": {
       "title": "Agregar productos y categorías",
-      "desc": "Puede contratar personas para que hagan esto por usted para agregar productos a la tienda."
+      "desc": "Contrata a profesionales que te ayuden a añadir productos y categorías a tu tienda."
     },
     "PAYMENT": {
-      "title": "Agregar métodos de pago",
-      "desc": "Contrate a un especialista en pasarela de pago para que realice el proceso de recepción y actualización de la pasarela por usted."
+      "title": "Integración de métodos de pago",
+      "desc": "Contrata a un especialista en pasarelas de pago para que se encargue de integrar y actualizar tu sistema de pagos."
     },
     "MARKETING": {
-      "title": "Márketing",
-      "desc": "Los expertos en marketing lo ayudan a realizar los mejores ajustes en sus campañas e incentivos o lanzar una campaña publicitaria efectiva."
+      "title": "Estrategia de marketing",
+      "desc": "Hay profesionales del marketing disponibles para afinar tus campañas, ofrecerte soluciones de incentivos o lanzar una estrategia publicitaria potente."
     },
     "MIGRATION": {
-      "title": "Migrar mi tienda desde otra plataforma de comercio electrónico",
-      "desc": "¿Has tenido una tienda antes? Puedes dejar la tarea de trasladar la tienda a un especialista para que un servicio profesional pueda dar soporte a tu tienda para siempre."
+      "title": "Migración de plataforma de comercio electrónico",
+      "desc": "Si ya tienes una tienda, confía la migración a un especialista para lograr una transición fluida y contar con soporte profesional continuo."
     },
     "APP_SETUP": {
-      "title": "Aplicación de configuración",
-      "desc": "¿Necesita ayuda para configurar e instalar aplicaciones en su tienda? ¿Necesita crear una aplicación personal? Los expertos en este campo estarán con usted."
+      "title": "Configuración de aplicaciones",
+      "desc": "¿Necesitas ayuda para instalar aplicaciones en tu tienda o desarrollar una aplicación personalizada? Los expertos en este campo están aquí para ayudarte."
     },
     "MANAGEMENT": {
       "title": "Administración de la tienda",
-      "desc": "Puede externalizar algunas partes de la gestión de su tienda a especialistas en gestión de tiendas. También brindan asesoramiento experto sobre todos los aspectos de la gestión de una empresa."
+      "desc": "Delega ciertos aspectos de la gestión de tu tienda en especialistas que además te asesoran sobre todos los ámbitos de la operación de tu negocio."
     },
     "CONTENT": {
-      "title": "Redacción de contenido",
-      "desc": "Asigne la creación de contenido de sus productos, marca o tienda a profesionales de redacción de contenido."
+      "title": "Creación de contenido",
+      "desc": "Delega la redacción del contenido de tus productos, tu marca o tu tienda en redactores profesionales."
     },
     "PHOTOGRAPHY": {
       "title": "Fotografía y edición",
-      "desc": "¿Necesitas tomar fotos de tus productos y servicios? Los expertos de esta sección prepararán las imágenes, animaciones y modelos 3D que necesites."
+      "desc": "Fotógrafos y editores profesionales pueden crear imágenes, animaciones y modelos 3D atractivos para tus productos y servicios."
     },
     "DROP_SHIPPING": {
-      "title": "Configurar envío directo",
-      "desc": "Si eres mayorista o minorista, la plataforma de dropshipping de Selldone es lo que siempre has estado buscando. Los expertos en dropshipping pueden ayudarte a encontrar nuevas formas de hacer crecer tu negocio."
+      "title": "Configuración de dropshipping",
+      "desc": "Si eres mayorista o minorista, los expertos en dropshipping de Selldone te ayudarán a descubrir formas innovadoras de hacer crecer tu negocio."
     },
     "POS_SETUP": {
-      "title": "Configurar TPV Selldone",
-      "desc": "Contrata a un especialista para configurar el TPV online de tu tienda."
+      "title": "Configuración de Selldone POS",
+      "desc": "Contrata a un especialista para poner en marcha el sistema de punto de venta (POS) en línea de tu tienda."
     }
   },
   "topics": {
     "store-design": {
-      "title": "Construye un comercio electrónico",
-      "desc": "Deje el diseño y la configuración de su tienda en línea en manos de profesionales que puedan implementar sus ideas."
+      "title": "Creación de tienda de comercio electrónico",
+      "desc": "Confía el diseño y la puesta en marcha de tu tienda en línea a profesionales capaces de hacer realidad tus ideas."
     },
     "store-configuration": {
-      "title": "Configuración de la tienda",
-      "desc": "Puede obtener ayuda de un experto para la configuración de la tienda, como ingresar información comercial para los motores de búsqueda, configurar métodos de envío y almacenamiento."
+      "title": "Configuración de la tienda por expertos",
+      "desc": "Recibe ayuda experta en tareas de configuración de la tienda, como introducir los datos del negocio para los motores de búsqueda y configurar las soluciones de envío y almacenamiento."
     },
     "store-optimization": {
-      "title": "Optimización de rendimiento y velocidad",
-      "desc": "Los expertos trabajarán en su sitio web para aumentar su velocidad y rendimiento."
+      "title": "Mejora del rendimiento del sitio web",
+      "desc": "Los especialistas afinarán tu sitio web para aumentar su velocidad y su rendimiento general."
     },
     "domain": {
-      "title": "conexión de dominio",
-      "desc": "Agregue un dominio personalizado a su tienda y sitio web."
+      "title": "Conexión de dominio personalizado",
+      "desc": "Conecta un dominio personalizado a tu tienda en línea y a tu sitio web para darles un toque profesional."
     },
     "page-design": {
-      "title": "Diseño de plantilla y página de aterrizaje",
-      "desc": "Diseñe las páginas de destino de su sitio web, la página de inicio y las páginas internas."
+      "title": "Diseño personalizado de páginas de destino y plantillas",
+      "desc": "Crea páginas de destino, una página de inicio y páginas internas únicas para tu sitio web y capta la atención de tus visitantes."
     },
     "add-product": {
-      "title": "Agregar productos y categorías",
-      "desc": "Agregue imágenes, descripciones y especificaciones de sus productos a las categorías correctas. Facilita a sus clientes encontrar los productos que mejor se adaptan."
+      "title": "Añadir productos y categorías",
+      "desc": "Sube imágenes, descripciones y detalles de tus productos en las categorías adecuadas para que tus clientes encuentren sin esfuerzo lo que mejor les encaja."
     },
     "payment": {
-      "title": "Pasarela de pago",
-      "desc": "Agregue una pasarela de pago en línea a su tienda."
+      "title": "Integración de pasarela de pago",
+      "desc": "Integra una pasarela de pago en línea en tu tienda para facilitar las transacciones."
     },
     "tax": {
       "title": "Asesoría fiscal",
-      "desc": "Obtenga asesoramiento sobre sus problemas financieros y fiscales."
+      "desc": "Recibe orientación valiosa para gestionar de forma eficaz tus obligaciones financieras y fiscales."
     },
     "email-marketing": {
-      "title": "Correo de propaganda",
-      "desc": "Utilice herramientas de marketing por correo electrónico para convertir a sus usuarios en clientes y tentarlos a comprar más."
+      "title": "Marketing por correo electrónico",
+      "desc": "Usa estrategias de marketing por correo electrónico para convertir a tu audiencia en clientes fieles y animarlos a comprar de nuevo."
     },
     "seo": {
-      "title": "SEO",
-      "desc": "Aumente su clasificación en los resultados de búsqueda de Google para que más personas encuentren sus productos en sus búsquedas."
+      "title": "Optimización de la visibilidad en buscadores (SEO)",
+      "desc": "Mejora tu posicionamiento en Google para dar más visibilidad a tus productos y atraer a más clientes potenciales."
     },
     "search-ads": {
-      "title": "Anuncios de búsqueda",
-      "desc": "Anuncia tus productos en buscadores como Google."
+      "title": "Publicidad en buscadores",
+      "desc": "Promociona tu oferta con publicidad en buscadores como Google para llegar a más personas."
     },
     "social-marketing": {
-      "title": "Marketing de medios sociales",
-      "desc": "Lance campañas en las redes sociales para atraer a más visitantes a ver sus productos y servicios."
+      "title": "Marketing en redes sociales",
+      "desc": "Lanza campañas atractivas en redes sociales para atraer más tráfico y visibilidad a tus productos y servicios."
     },
     "content-marketing": {
-      "title": "marketing de contenidos",
-      "desc": "Crea y publica contenido útil y relevante para tu negocio."
+      "title": "Marketing de contenidos",
+      "desc": "Crea y difunde contenido valioso y relevante para tu negocio con el que conectar de forma eficaz con tu audiencia."
     },
     "sale-channels": {
       "title": "Construir canales de venta",
-      "desc": "Inicie nuevos canales de venta como Instagram, Telegram y Facebook conectándose a su tienda en línea en Selldone."
+      "desc": "Crea canales de venta integrados como Instagram, Telegram y Facebook conectándolos a tu tienda en línea en Selldone."
     },
     "conversion": {
       "title": "Optimización de la tasa de conversión",
-      "desc": "Maximice las tasas de conversión, convierta a más visitantes en clientes y aumente la eficiencia de sus campañas."
+      "desc": "Mejora las tasas de conversión para convertir a más visitantes en clientes y aumentar la eficacia de tus campañas de marketing."
     },
     "analyze": {
-      "title": "Analizar el comportamiento del usuario",
-      "desc": "Monitorea el comportamiento de tus usuarios en la tienda online e incluso en las sucursales físicas para brindarles una mejor experiencia de usuario."
+      "title": "Analizar la interacción de los usuarios",
+      "desc": "Analiza el comportamiento de tus usuarios en la tienda en línea y en los locales físicos para ofrecerles una experiencia de usuario mejorada y personalizada."
     },
     "brand-strategy": {
       "title": "Estrategia de marca",
       "desc": "Trabaja en la construcción y expansión de tu marca comercial."
     },
     "migration": {
-      "title": "Migración de tiendas",
-      "desc": "Mueva su tienda actual a Selldone."
+      "title": "Migración de tiendas de comercio electrónico",
+      "desc": "Traslada tu tienda actual a la plataforma Selldone sin complicaciones."
     },
     "app-programmer": {
-      "title": "Cree una aplicación",
+      "title": "Desarrollo de aplicaciones",
       "desc": "Diseño y desarrollo de tu propia aplicación."
     },
     "app-install": {
-      "title": "Instalar la aplicación",
+      "title": "Instalación de aplicaciones",
       "desc": "Instala y configura la aplicación que necesites en la tienda."
     },
     "ux-design": {
       "title": "Diseño de experiencia de usuario personalizado",
-      "desc": "Diseñe una experiencia de usuario única para sus usuarios en la tienda o aplicación."
+      "desc": "Creación de una experiencia de usuario a medida para tus clientes en la tienda o en la aplicación."
     },
     "debug": {
       "title": "Solución de problemas",
@@ -163,71 +163,71 @@ export default {
     },
     "strategy": {
       "title": "Consultoría de estrategia empresarial",
-      "desc": "Obtenga asesoramiento de personas con experiencia para desarrollar y mejorar la operación de su negocio."
+      "desc": "Aprovecha el conocimiento de profesionales con experiencia para mejorar y optimizar la operación de tu negocio."
     },
     "products-guide": {
       "title": "Guía de recursos de productos",
-      "desc": "Solicite ayuda a especialistas para la preparación de productos y el diseño de la cadena de suministro."
+      "desc": "Pide orientación a expertos del sector en desarrollo de producto y gestión de la cadena de suministro."
     },
     "setup-guide": {
-      "title": "Consultoría en montaje y diseño de tiendas",
-      "desc": "Obtenga asesoramiento de expertos en la materia para iniciar un negocio o hacerlo en línea."
+      "title": "Consultoría para la creación y el diseño de la tienda",
+      "desc": "Aprovecha la experiencia de especialistas del sector para poner en marcha tu negocio o llevarlo a internet."
     },
     "marketing-guide": {
       "title": "Consultoría de marketing y ventas",
-      "desc": "Aprenda a comercializar y aumentar sus ventas con el asesoramiento de expertos y profesionales."
+      "desc": "Impulsa tu estrategia de marketing y ventas aprendiendo de profesionales con experiencia."
     },
     "product-description": {
-      "title": "Descripción del Producto",
-      "desc": "Haga que las descripciones de sus productos sean atractivas para que sus clientes puedan conocer mejor sus productos."
+      "title": "Descripción del producto",
+      "desc": "Crea descripciones de producto atractivas para que tus clientes comprendan mejor las características y ventajas de lo que vendes."
     },
     "content-write": {
       "title": "Contenido de marketing y publicidad",
-      "desc": "Escriba sobre la historia de la marca y las necesidades que satisfacen sus productos para ayudar a los clientes a elegir lo mejor."
+      "desc": "Cuenta la historia de tu marca y explica cómo tus productos cubren las necesidades de los clientes para ayudarles a elegir lo mejor."
     },
     "logo-design": {
       "title": "Diseño de logo y marca",
-      "desc": "Diseño de imagen y contenido de logotipo para su marca."
+      "desc": "Crea logotipos y elementos de marca atractivos y memorables para tu negocio."
     },
     "banner-design": {
-      "title": "Diseño de pancartas",
-      "desc": "Cree banners publicitarios impresionantes para aumentar el conocimiento de la marca y atraer tráfico a su tienda."
+      "title": "Diseño de banners",
+      "desc": "Crea banners publicitarios llamativos para aumentar la visibilidad de tu marca y atraer tráfico a tu tienda en línea."
     },
     "video": {
-      "title": "Filmación y animación",
-      "desc": "Deje la producción de videos publicitarios y animaciones 2D y 3D a los maestros."
+      "title": "Producción de vídeo y animación",
+      "desc": "Confía la producción de vídeos publicitarios y de animaciones 2D y 3D a nuestros expertos."
     },
     "photography": {
       "title": "Fotografía de producto",
-      "desc": "Tome fotos industriales y profesionales de sus productos y servicios para que su tienda se vea llamativa."
+      "desc": "Consigue imágenes profesionales y de alta calidad de tus productos y servicios para que tu tienda en línea resulte atractiva."
     },
     "photo-editor": {
       "title": "Editar fotos",
-      "desc": "Diseñe imágenes atractivas, puede incluir agregar efectos, eliminar fondos o agregar texto a una foto."
+      "desc": "Mejora el atractivo visual de tus imágenes aplicando efectos, eliminando fondos o añadiendo texto."
     },
     "3d": {
-      "title": "Modelado 3D y RA",
-      "desc": "Cree modelos de realidad aumentada en 3D de sus productos para aumentar drásticamente sus ventas."
+      "title": "Modelado 3D y realidad aumentada (AR)",
+      "desc": "Crea modelos 3D envolventes de tus productos que se pueden ver en realidad aumentada y transforma tu forma de vender."
     },
     "dropshipping": {
-      "title": "Configurar envío directo",
-      "desc": "Si tiene fabricante o almacén, los expertos en dropshipping lo ayudarán a vender sus productos sin problemas a través de miles de tiendas en línea."
+      "title": "Inicia tu negocio de dropshipping",
+      "desc": "Aprovecha a nuestros expertos en dropshipping para vender tus productos sin esfuerzo a través de numerosas tiendas en línea, aunque no tengas fábrica ni almacén propios."
     },
     "reselling": {
-      "title": "Configuración para revendedor",
-      "desc": "Puede tener una tienda perfecta con altos ingresos sin comprar bienes y almacenar o incluso enviar un paquete."
+      "title": "Conviértete en un revendedor de éxito",
+      "desc": "Crea una tienda en línea rentable sin necesidad de comprar mercancía, almacenar inventario ni gestionar envíos. Nuestra plataforma te lo pone fácil para conseguir ingresos importantes como revendedor."
     },
     "pos-setup": {
-      "title": "Configuración de una caja registradora en línea",
-      "desc": "Ejecute su Selldone POS en las sucursales de su tienda y use las herramientas de tienda más profesionales disponibles para desarrollar su negocio y sucursales físicas."
+      "title": "Configuración de una caja registradora en línea avanzada",
+      "desc": "Simplifica la operación de tu negocio integrando Selldone POS en varias sucursales de tu tienda. Aprovecha las herramientas de tienda más avanzadas para impulsar tu crecimiento y optimizar el rendimiento de tus tiendas físicas."
     },
     "marketplace-setup": {
-      "title": "Configurar un mercado",
-      "desc": "Crea un mercado para tus productos y servicios con la ayuda de expertos."
+      "title": "Configurar un marketplace",
+      "desc": "Crea un marketplace para tus productos y servicios con la ayuda de expertos."
     },
     "pod-setup": {
       "title": "Configurar la tienda POD",
-      "desc": "Cree una tienda de impresión bajo demanda con la ayuda de expertos."
+      "desc": "Crea una tienda de impresión bajo demanda con la ayuda de expertos."
     }
   },
   "industries": {
@@ -236,75 +236,75 @@ export default {
     "SERVICES": "Servicios",
     "CLOTHING_FASHION": "Ropa y moda",
     "HANDCRAFTS": "Artesanías",
-    "ELECTRONICS_TECH": "Electrónica y Tecnología",
-    "HEALTH_BEAUTY": "Salud y Belleza",
-    "HOME_GARDEN": "Casa y Jardín",
+    "ELECTRONICS_TECH": "Electrónica y tecnología",
+    "HEALTH_BEAUTY": "Salud y belleza",
+    "HOME_GARDEN": "Hogar y jardín",
     "JEWELRY_ACCESSORIES": "Joyas y accesorios",
     "FOOD_DRINK": "Comida y bebida",
     "PET_CARE": "Cuidado de mascotas",
     "SPORTS": "Deportes",
-    "RECREATION": "Recreación",
+    "RECREATION": "Ocio",
     "TOYS_GAMES": "Juguetes y juegos",
-    "AUTOMOTIVE": "Automotor"
+    "AUTOMOTIVE": "Automoción"
   },
   "expert_panel": {
-    "title": "Panel de Gestión de Expertos de Selldone",
+    "title": "Centro de expertos",
     "add_dialog": {
       "title": "Agregar nuevo trabajo"
     }
   },
   "contract_view": {
-    "running": "Corriendo",
+    "running": "En curso",
     "cancelling": "Solicitud de cancelación..",
     "title": "Objeto del contrato",
     "description": "Descripción del contrato",
-    "permissions_input": "Seleccione los permisos requeridos",
+    "permissions_input": "Selecciona los permisos necesarios",
     "cost_timeline": "Costo y cronograma",
     "timespan": "Duración del contrato",
     "cost": "Costo del contrato",
-    "pay_now_action": "estoy de acuerdo ╏ Pagar ahora",
-    "complete_action": "Sí ╏ Terminar contrato",
+    "pay_now_action": "Estoy de acuerdo ╏ Pagar ahora",
+    "complete_action": "Sí ╏ Finalizar contrato",
     "reject_action": "No ╏ Finalización no aprobada",
-    "all_tasks_completed_message": "Ha completado todas las tareas definidas. Si ha terminado esto, presione la tecla de finalización de pedido. Luego de este paso, el cliente deberá confirmar la entrega de la obra.",
+    "all_tasks_completed_message": "Has completado todas las tareas definidas. Si ya has terminado, pulsa el botón de finalización del pedido. Después de este paso, el cliente debe confirmar la entrega del trabajo.",
     "waiting_complete_by_customer_message": "Has confirmado el trabajo, ahora te queda esperar a que el cliente confirme la entrega del pedido. En caso de no aprobación o rechazo por parte del cliente, el pedido se aprobará automáticamente y se completará después de 3 días.",
     "comment": "Enviar un comentario",
-    "comment_desc": "Califique en función de la calidad del trabajo y la interacción de expertos.",
+    "comment_desc": "Valora al experto según la calidad del trabajo y su trato.",
     "comment_placeholder": "Escribe tu opinión sobre la calidad del trabajo...",
-    "response_placeholder": "Si tiene algo que decir sobre los comentarios de los clientes, escriba...",
-    "waiting_for_customer": "Esperando a un cliente...",
-    "account_input": "Cuenta para retirar",
+    "response_placeholder": "Si tienes algo que decir sobre la opinión del cliente, escríbelo...",
+    "waiting_for_customer": "Esperando al cliente...",
+    "account_input": "Cuenta para el retiro",
     "dialog_pay": {
       "title": "Pagar e iniciar contrato",
-      "insufficient_balance": "¡Saldo insuficiente! Cuenta de cargo para pagar."
+      "insufficient_balance": "¡Saldo insuficiente! Recarga tu cuenta para poder pagar."
     },
     "dialog_cancel": {
       "title": "Cancelar contrato",
       "confirm_code": "El código de confirmación es",
       "confirm_code_label": "Código de confirmación",
-      "confirm_action": "Sí, Cancelar contrato"
+      "confirm_action": "Sí, cancelar contrato"
     },
     "notifications": {
       "save": "Contrato editado con éxito.",
-      "pay": "Contrato pagado y comenzado con éxito.",
+      "pay": "Contrato pagado e iniciado correctamente.",
       "end": "El pedido fue enviado al cliente para confirmación de finalización.",
       "complete": "Contrato completado.",
       "reject": "No se aprueba la finalización del contrato.",
       "cancel": "Contrato cancelado.",
       "update": "Permiso actualizado.",
       "comment": "Tu comentario ha sido enviado.",
-      "response": "Su respuesta ha sido enviada."
+      "response": "Tu respuesta ha sido enviada."
     }
   },
   "expert_page": {
     "title": "Contrata a los mejores expertos",
-    "sub_title": "No te preocupes por diseñar, lanzar, publicitar o administrar tu tienda. Contrata a un especialista certificado para hacer las cosas mejor y más rápido.",
+    "sub_title": "Haz crecer tu negocio sin esfuerzo con el panel de expertos de Selldone: servicios integrales de especialistas certificados para diseñar mejor tu tienda, lanzarla rápido, publicitarla con eficacia y gestionarla de forma eficiente.",
     "steps_title": "Quedan tres pasos por cumplir",
-    "step_1_title": "Experto en contacto",
-    "step_1_desc": "Solicite sugerencias de expertos o cree un trabajo para que coincida con los expertos recomendados.",
+    "step_1_title": "Contacta con un experto",
+    "step_1_desc": "Pide orientación a nuestro grupo de profesionales o crea un trabajo que encaje a la perfección con nuestros especialistas seleccionados: un proceso tan intuitivo como la experiencia de usuario de Apple.",
     "step_2_title": "Aceptar y recibir contrato",
-    "step_2_desc": "Revise las respuestas, encuentre la opción adecuada y discuta detalles como el tiempo y el precio exacto.",
+    "step_2_desc": "Revisa las respuestas, encuentra la opción más adecuada y acuerda los detalles, como los plazos y el precio exacto, dentro del panel de expertos.",
     "step_3_title": "Confirmar y ejecutar trabajo",
-    "step_3_desc": "Confíe en profesionales calificados que pueden hacer el trabajo de manera eficiente a través de Selldone.",
+    "step_3_desc": "Confía en la solvencia de expertos certificados que pueden entregar el trabajo de forma eficaz a través de la plataforma Selldone.",
     "who": {
       "title": "¿A quién encuentras aquí?",
       "box_image": "/app/img/selldone-expert-box.37fb6205.png",
@@ -319,44 +319,44 @@ export default {
     "show_all_topics": "Mostrar todas las categorías",
     "marketing_title": "Crecimiento de marketing y ventas",
     "starts_title": "Inicio y desarrollo de un negocio en línea",
-    "managements_title": "Administración de Empresas",
-    "contents_title": "Creación de Contenidos, Fotografía y Video",
+    "managements_title": "Gestión del negocio",
+    "contents_title": "Creación de contenido, fotografía y vídeo",
     "apps_title": "Más funciones e instalación de mi aplicación",
     "footer": {
-      "title": "Encontrar el mejor especialista para satisfacer sus necesidades",
-      "message": "Al completar el siguiente formulario, crea un nuevo trabajo para que los mejores expertos puedan enviarle sus sugerencias en función de sus necesidades."
+      "title": "Encuentra al mejor especialista para lo que necesitas",
+      "message": "Al rellenar el siguiente formulario creas un nuevo trabajo para que los mejores expertos puedan enviarte sus propuestas según tus necesidades."
     }
   },
   "public_job_page": {
     "hire_expert_title": "¿Quieres que este experto trabaje para ti?",
-    "your_own_job_message": "¡Has definido esta tarea! Presione la tecla a continuación para ir al panel de administración y administrar esta tarea directamente.",
+    "your_own_job_message": "¡Tú has definido esta tarea! Pulsa el botón de abajo para ir al panel de administración y gestionarla directamente.",
     "go_to_job_panel": "Ir a mi panel",
-    "no_chat": "Aún no ha enviado ninguna solicitud.",
-    "job_tasks": "Tareas laborales que se ofrecen",
+    "no_chat": "Aún no has enviado ninguna solicitud.",
+    "job_tasks": "Tareas ofrecidas para este trabajo",
     "included": "Tareas incluidas en el precio inicial",
     "additional": "Trabajo y tareas adicionales",
     "permissions": "Permisos requeridos"
   },
   "expert_request_form": {
-    "action_message": "¿Quiere que alguien más construya, administre o comercialice su tienda por usted? Así que contrata a un especialista para que haga lo que imaginas.",
-    "order_new_kob": "Ordenar nuevo trabajo",
+    "action_message": "¿Quieres que otra persona cree, gestione o promocione tu tienda? Contrata a un especialista para que haga lo que imaginas.",
+    "order_new_kob": "Solicitar un nuevo trabajo",
     "new_shop_action_small": "¿Quieres que un experto trabaje en tu tienda?",
     "mange_shop_action_small": "¿Quieres que un experto construya una tienda para ti?",
     "new_shop_action": "Has recibido varias ofertas.",
-    "mange_shop_action": "Los expertos están revisando su solicitud.",
+    "mange_shop_action": "Los expertos están revisando tu solicitud.",
     "hire_expert": "Contratar a un experto",
-    "check_mail_status": "Por favor revise su correo electrónico",
+    "check_mail_status": "Revisa tu correo electrónico",
     "header_new": "Nueva solicitud",
-    "header_view": "Enviar petición",
+    "header_view": "Enviar solicitud",
     "title": "¿Quieres una tienda online moderna?",
-    "message": "No es necesario que lo haga todo usted mismo. Nuestros expertos certificados pueden ayudarlo a crear su tienda en línea de manera más rápida, sencilla y llamativa. Describa sus necesidades y encuentre la mejor para ayudarlo a aumentar sus ventas.",
+    "message": "No necesitas hacerlo todo tú. Nuestros expertos certificados pueden ayudarte a crear tu tienda en línea de forma más rápida, sencilla y llamativa. Describe tus necesidades y encuentra a la persona ideal para ayudarte a aumentar tus ventas.",
     "steps_title": "Sigue estos pasos",
-    "step_1": "Describa sus necesidades",
+    "step_1": "Describe tus necesidades",
     "step_1_message": "Dile a los expertos lo que quieres",
     "step_2": "Revisa las ofertas de los expertos",
-    "step_2_message": "Seleccione el que mejor se adapte a sus necesidades",
-    "step_3": "Discuta los detalles importantes y haga más con un experto",
-    "step_3_message": "Discuta los detalles importantes y haga más con un experto",
+    "step_2_message": "Elige el que mejor se adapte a tus necesidades",
+    "step_3": "Comenta los detalles importantes y consigue más con un experto",
+    "step_3_message": "Comenta los detalles importantes y consigue más con un experto",
     "shop_info": "Elige la tienda",
     "select_shop": "Necesito un experto para uno de mi tienda.",
     "shop_id": "Tienda",
@@ -364,64 +364,64 @@ export default {
     "shop_id_placeholder": "Selecciona una tienda...",
     "store_name": "Nombre de la tienda",
     "store_name_placeholder": "El nombre de mi tienda...",
-    "store_name_messages": "Díganos el nombre de su tienda que tiene o pretende construir en el futuro.",
-    "contact": "Información del contacto",
+    "store_name_messages": "Dinos el nombre de la tienda que tienes o que quieres crear en el futuro.",
+    "contact": "Información de contacto",
     "name_placeholder": "Requerido*",
     "email": "Correo electrónico",
-    "email_placeholder": "Requerido* tu-email{'@'}gmail.com",
-    "request_title": "Describa sus necesidades.",
-    "request_message": "Proporcione información específica sobre su negocio para ayudar a nuestro experto a cumplir mejor con sus requisitos y brindarle un precio asequible y una estimación del tiempo.",
+    "email_placeholder": "Requerido* tu-correo{'@'}mail.com",
+    "request_title": "Describe tus necesidades.",
+    "request_message": "Da información concreta sobre tu negocio para que nuestros expertos entiendan mejor tus requisitos y te ofrezcan un precio asequible y una estimación de tiempo.",
     "description": "Cuéntanos más sobre tu negocio",
-    "description_messages": "¿Cual es tu negocio? ¿Vendes productos o servicios?",
-    "services_title": "¿Qué tareas desea que realice el experto?",
+    "description_messages": "¿Cuál es tu negocio? ¿Vendes productos o servicios?",
+    "services_title": "¿Qué tareas quieres que realice el experto?",
     "select_one_caution": "¡Elige al menos una opción!",
-    "detail_title": "Agregue detalles para ayudar al experto a conocer mejor sus requisitos.",
-    "detail": "detalles del proyecto",
-    "detail_messages": "¿Tiene un sitio web existente? ¿Tienes una tienda en Instagram o una tienda física? ¿La línea de tiempo es flexible?",
+    "detail_title": "Añade detalles para que el experto conozca mejor tus necesidades.",
+    "detail": "Detalles del proyecto",
+    "detail_messages": "¿Ya tienes un sitio web? ¿Tienes una tienda en Instagram o una tienda física? ¿El plazo es flexible?",
     "preferences_title": "Límites y preferencias",
-    "preferences_message": "Determine sus preferencias para que los profesionales adecuados para su trabajo puedan revisar su propuesta de proyecto.",
+    "preferences_message": "Indica tus preferencias para que los profesionales adecuados para tu trabajo puedan revisar la propuesta de tu proyecto.",
     "level_title": "¿Quién es la mejor opción para ti?",
-    "level_message": "Los niveles de habilidades, experiencia y apoyo de expertos determinan los precios",
+    "level_message": "El nivel de conocimientos, la experiencia y el soporte del experto determinan los precios",
     "level_low": "Expertos a bajo precio",
     "level_medium": "Expertos a precio medio",
     "level_high": "Expertos de alto precio",
-    "location_title": "¿Prefiere trabajar con expertos cerca de su ubicación?",
+    "location_title": "¿Prefieres trabajar con expertos cerca de tu ubicación?",
     "location_near": "Sí",
-    "location_no": "no",
-    "language_title": "¿Cuál es su preferencia de idioma mientras se comunica con expertos?",
+    "location_no": "No",
+    "language_title": "¿En qué idioma prefieres comunicarte con los expertos?",
     "language": "Idioma",
-    "language_placeholder": "Seleccione uno*",
+    "language_placeholder": "Selecciona uno*",
     "free_support_title": "Apoyo a las pequeñas empresas",
-    "free_support_message": "Creemos que ayudar a las empresas emergentes es una inversión inteligente para su futuro y para Selldone. Siempre te respaldamos en este camino. Cuanto más atractivos, innovadores o incluso más prácticos sean sus productos y servicios, más servicios recibirá de forma gratuita de parte nuestra y de nuestros expertos.",
+    "free_support_message": "Creemos que ayudar a las empresas emergentes es una inversión inteligente para tu futuro y para Selldone. Siempre te respaldamos en este camino. Cuanto más atractivos, innovadores o incluso más prácticos sean tus productos y servicios, más servicios recibirás gratis de nosotros y de nuestros expertos. ",
     "free_support_condition": "Si te tomas en serio iniciar tu propio negocio y vender en línea, eso es suficiente. ¡El resto depende de nosotros!",
     "free": "¿Quieres servicios gratuitos?",
-    "free_messages": "Seleccione esta opción si es una empresa nueva o actualmente no tiene los medios financieros para pagar a los especialistas.",
+    "free_messages": "Selecciona esta opción si eres una empresa que acaba de empezar o si ahora mismo no tienes medios económicos para pagar a los especialistas.",
     "action_new": "Nueva solicitud",
-    "action_send": "Enviar peticion",
+    "action_send": "Enviar solicitud",
     "start_price_message": "Los trabajos de {topic} comienzan en {price} {currency} para este experto",
     "notifications": {
-      "success_send": "Tu solicitud ha sido enviada exitosamente. Espere las ofertas de los expertos de Selldone."
+      "success_send": "Tu solicitud se ha enviado correctamente. Espera las ofertas de los expertos de Selldone."
     },
     "stage": {
-      "title": "¿Cuál es la etapa de su negocio?",
+      "title": "¿En qué etapa está tu negocio?",
       "start": "Comenzando un nuevo negocio",
-      "online": "Quiero hacer mi negocio existente en línea",
-      "extend": "Tengo una tienda online y estoy trabajando en ello.",
+      "online": "Quiero llevar a internet el negocio que ya tengo",
+      "extend": "Tengo una tienda en línea y estoy trabajando en ella",
       "pos": "Quiero configurar Selldone POS en las sucursales de mi tienda"
     },
     "budget": {
-      "title": "¿Tienes una estimación del presupuesto del freelance?",
-      "yes": "Sí, mi presupuesto es claro.",
-      "no": "No, quiero más información."
+      "title": "¿Tienes una estimación del presupuesto para contratar a un freelance?",
+      "yes": "Sí, tengo claro mi presupuesto",
+      "no": "No, quiero más información"
     },
     "login": {
-      "title": "Por favor Iniciar sesión",
-      "message": "Inicia sesión para registrarte primero. Puede iniciar sesión de forma rápida y segura en su Selldone a través de su número de teléfono móvil o cuentas de redes sociales."
+      "title": "Inicia sesión, por favor",
+      "message": "Primero inicia sesión para registrarte. Puedes acceder a tu cuenta de Selldone de forma rápida y segura con tu número de móvil o con tus cuentas de redes sociales."
     },
-    "select_shop_title": "Seleccione una tienda",
+    "select_shop_title": "Selecciona una tienda",
     "select_shop_description": "Necesito un experto para una tienda existente.",
     "new_shop_mode_title": "Crear nueva tienda",
-    "new_shop_mode_description": "quiero crear una nueva tienda"
+    "new_shop_mode_description": "Quiero crear una nueva tienda"
   },
   "expert_requests": {
     "title": "Solicitudes abiertas",
@@ -431,11 +431,11 @@ export default {
     }
   },
   "job_chat": {
-    "title": "Negociación laboral"
+    "title": "Negociación del trabajo"
   },
   "expert_chat_box": {
     "need_expert_question": "¿Quieres un experto?",
-    "find_expert": "Encuentra experto..",
+    "find_expert": "Buscar experto..",
     "folder_name": "Nombre de la carpeta",
     "folder_dialog": {
       "title": "Editar carpetas",
@@ -446,13 +446,13 @@ export default {
   "add_job": {
     "add_title": "Agregar nuevo trabajo",
     "edit_title": "Editar trabajo",
-    "message": "Ingrese el título del trabajo y la descripción del trabajo que puede hacer en esta sección. Tenga en cuenta que no debe escribir información de contacto ni enlaces en el texto de la descripción de su trabajo.",
-    "start_price_message": "Coste mínimo de cada pedido.",
-    "currency_message": "Cambiar la moneda restablece sus registros financieros para este trabajo.",
-    "job_desc_message": "Describa su servicio completo para este trabajo.",
-    "included_message": "Describa qué servicios proporcionará al cliente a un costo básico.",
-    "additional_message": "¿Qué otros servicios ofrecen además de los servicios básicos?",
-    "available": "trabajo disponible",
+    "message": "En esta sección, introduce el título del trabajo y una descripción del trabajo que puedes realizar. Ten en cuenta que no está permitido incluir información de contacto ni enlaces en el texto de la descripción del trabajo.",
+    "start_price_message": "Precio mínimo de cada pedido de servicio profesional.",
+    "currency_message": "Cambiar la moneda restablece tus registros financieros de este trabajo.",
+    "job_desc_message": "Describe por completo el servicio que ofreces para este trabajo.",
+    "included_message": "Describe qué servicios ofrecerás al cliente por el precio base.",
+    "additional_message": "¿Qué otros servicios ofreces además de los servicios básicos?",
+    "available": "Trabajo disponible",
     "available_message": "Acceso público a este trabajo",
     "add_action": "Agregar nuevo trabajo",
     "edit_action": "Editar trabajo",
@@ -464,9 +464,9 @@ export default {
   "contract_form": {
     "shop_message": "Mostrar las tiendas de los clientes con acceso de administrador o gerente senior únicamente.",
     "shop_placeholder": "Selecciona la tienda en la que quieres trabajar*",
-    "title_message": "Establezca un título para este contrato..",
-    "description_message": "Escriba los detalles del contrato...",
-    "permissions": "Seleccione los permisos requeridos",
+    "title_message": "Establece un título para este contrato..",
+    "description_message": "Escribe los detalles del contrato...",
+    "permissions": "Selecciona los permisos necesarios",
     "cost_message": "Costo del contrato",
     "days": "Duración del contrato",
     "days_message": "Duración del contrato",
