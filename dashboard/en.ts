@@ -3597,6 +3597,8 @@ export default {
           "This amount has been deducted from your Selldone wallet account.",
         tooltip: "Calculate Total Service Fees",
         percent: "Percent",
+        cashback_deal: "Custom shop cashback deal",
+        special_cashback: "Special cashback",
       },
       affiliate: {
         title: "Affiliate commission",
@@ -5832,6 +5834,13 @@ export default {
         "This is your active license information. You can reduce your service fee by upgrading to a higher-tier plan.",
       subtitle_partner:
         "Your active {name} license info. This shop currently has an active partner deal. If you wish to cancel the deal and upgrade to a higher-tier plan, please contact our support team for assistance.",
+      cashback: {
+        title: "Fee cashback deal",
+        rate: "{percent}% cashback",
+        description:
+          "This share of each eligible Selldone service fee is credited back to the shop's connected wallet.",
+        progress_label: "Fee cashback rate: {percent}%",
+      },
     },
     licenses_table: {
       title: "Purchased History",
