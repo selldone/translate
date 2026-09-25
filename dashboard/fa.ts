@@ -3736,6 +3736,8 @@ export default {
         tooltip: "محاسبه با توجه به روش پرداخت",
         percent: "درصد",
         special_cashback: "کش‌بک ویژه",
+        cashback_tooltip:
+          "این کش‌بک بخشی از هزینه سرویس فروشگاه را به کیف پول متصل سلدان برمی‌گرداند.",
       },
       affiliate: {
         title: "پورسانت همکار فروش",

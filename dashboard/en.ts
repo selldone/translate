@@ -3599,6 +3599,8 @@ export default {
         percent: "Percent",
         cashback_deal: "Custom shop cashback deal",
         special_cashback: "Special cashback",
+        cashback_tooltip:
+          "This cashback returns part of the shop's service fee to its connected Selldone wallet.",
       },
       affiliate: {
         title: "Affiliate commission",
