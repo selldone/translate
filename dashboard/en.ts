@@ -810,6 +810,16 @@ export default {
       new: "Write new",
       blogs: "Blog",
 
+      author: {
+        change_action: "Change author",
+        title: "Change article author",
+        hint: "Choose the shop owner or a confirmed staff member. Pending invitations cannot be assigned.",
+        search_label: "Author",
+        search_placeholder: "Search by name, email or user ID",
+        assign_action: "Assign author",
+        success: "Article author updated.",
+      },
+
       /** {@see BPageShopBlogsList} **/
       list: {
         title: "My Articles",
