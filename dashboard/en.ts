@@ -3823,6 +3823,119 @@ export default {
 
     auto_config: "Auto Config",
 
+    modern: {
+      platform: "Platform availability",
+      merchant: "Shop availability",
+      mode: "Payment mode",
+      live: "Live",
+      test: "Test mode",
+      debug_title: "Test mode is on",
+      debug_message:
+        "Payments are in test mode. Switch to live mode when you are ready to accept real payments.",
+      inactive_title: "This gateway is disabled",
+      inactive_message:
+        "Enable this gateway to make it available in your shop.",
+      edit_settings: "Edit settings",
+      setup_live_payments: "Set up live payments",
+      keys_title: "Payment keys",
+      keys_subtitle:
+        "Keys and credentials used to connect this payment method.",
+      manage_keys: "Manage keys",
+      fees_title: "Fees & limits",
+      fees_subtitle: "Transaction limits and Selldone service fees.",
+      service_fee: "Selldone service fee",
+      fee_range: "Fee range",
+      transaction_range: "Transaction range",
+      payment_window: "Payment window",
+      fee_message:
+        "Selldone service fees are paid from your Selldone wallet, separately from customer payments.",
+      setup_title: "Payment service setup",
+      connect_account: "Connect account",
+      connect_account_hint: "Use your {gateway} account to connect automatically.",
+      auto_config_not_ready:
+        "Review the required keys and gateway status in Manage keys to enable automatic setup.",
+      copy: "Copy value",
+      configured: "Configured",
+      missing: "Not set",
+      order_limit: "Your minimum order",
+      your_limit: "Set by you",
+      deal: "Partner plan",
+      cod_debug:
+        "In test mode, only the shop owner can place COD orders. Switch to live mode to accept customer orders.",
+      cash_debug:
+        "Cash POS payments are in test mode. Test order history is deleted; switch to live mode for real sales.",
+      flow: {
+        title: "How payments move",
+        order: "Order",
+        customer: "Your customer",
+        online: "Online payment",
+        cod: "Cash on delivery",
+        direct: "Direct payment",
+        cash: "Cash / POS",
+        blockchain: "Blockchain payment",
+        processed: "Payment processed",
+        merchant_account: "Your account",
+        settlement: "Provider settlement",
+        delivery: "Delivery",
+        carrier: "Your carrier",
+        collection: "Cash collected",
+        on_delivery: "On delivery",
+        transfer: "Bank transfer",
+        direct_account: "Your bank account",
+        receipt: "Receipt review",
+        merchant_confirmation: "Merchant confirmation",
+        cash_received: "Cash received",
+        in_store: "In your store",
+        sale_recorded: "Sale recorded",
+        pos: "Point of sale",
+        network: "Blockchain network",
+        network_confirmation: "Network confirmation",
+        crypto_account: "Your wallet",
+        crypto_settlement: "Crypto payment",
+        wallet: "Selldone wallet",
+        wallet_balance: "Your balance",
+        fee: "Service fee",
+        fee_separate: "Paid separately",
+        help: {
+          open: "Learn about {step}",
+          intro: "Select a step to see how it works.",
+          order:
+            "Selldone records your order, items and customer details so you can manage fulfillment and track payment status. Payment collection follows the method selected at checkout.",
+          online:
+            "{gateway} processes and checks the payment under its own terms. Selldone uses the result to update the order’s payment status.",
+          merchant_account:
+            "Your payment provider settles customer payments to your merchant or bank account according to its fees and payout schedule. Selldone does not deduct its service fee from this payout or route it through your Selldone virtual wallet.",
+          delivery:
+            "Your carrier delivers the order and collects payment according to your delivery arrangements. This cash-on-delivery step does not use an online payment processor.",
+          collection:
+            "You or your carrier receive the customer’s payment according to your cash-on-delivery arrangements. These funds are separate from your Selldone virtual wallet.",
+          cash_received:
+            "Collect the customer’s cash payment directly in person. Selldone does not process or hold these funds through an online payment service.",
+          sale_recorded:
+            "Record the cash sale and its payment status in Selldone. You are responsible for checking that payment was received before marking the order as paid.",
+          transfer:
+            "The customer transfers payment directly to the bank account you provide. Selldone does not hold or transfer these funds.",
+          receipt:
+            "Check that the payment has actually reached your bank account before confirming this manual payment in Selldone. A submitted receipt alone does not confirm that funds were received.",
+          network:
+            "The cryptocurrency provider or blockchain network processes and confirms the payment under its own rules. Confirmation times and applicable fees depend on the provider and network.",
+          crypto_account:
+            "The cryptocurrency payment reaches the wallet address or provider account configured for this gateway. Network or provider fees may apply. These funds are separate from your Selldone virtual wallet.",
+          wallet:
+            "Your Selldone virtual wallet is a prepaid balance for Selldone service fees. It is separate from the account that receives customer payments.",
+          wallet_next:
+            "Fund a virtual wallet in your account, then connect it to this shop in Finance → Account & Invoice. The connected wallet covers applicable Selldone service fees.",
+          fee:
+            "Applicable Selldone service fees are charged separately to the virtual wallet connected to this shop. The fee rate and limits shown here follow your shop’s plan.",
+          fee_next:
+            "Your payment provider may charge its own processing or settlement fees. Those are separate from Selldone’s service fee and follow your agreement with the provider.",
+          provider_website: "Visit {gateway}",
+          shop_wallets: "Shop wallets",
+          account_wallets: "My virtual wallets",
+        },
+      },
+    },
+
     keys: {
       title: "Private Keys",
       subtitle:
