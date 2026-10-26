@@ -13,6 +13,13 @@
  */
 
 export default {
+  b_domain_verification: {
+    domain: "Storefront domain",
+    domain_message: "Choose where to host the verification file. Use your custom HTTPS domain for live checkout.",
+    file: "Verification file",
+    file_message: "Upload the file provided by Stripe. Maximum size: 16 KB.",
+    upload: "Upload verification file",
+  },
   commons: {
     pay_today: "Today payment",
     pay_yesterday: "Yesterday payment",
@@ -3794,6 +3801,18 @@ export default {
       },
       live_mode: "Live",
       test_mode: "Sandbox",
+      modern: {
+        subtitle:
+          "Review payments, order links and payment details for {gateway}.",
+        total: "Total transactions",
+        check_status: "Check payment status",
+        open_order: "Open order details",
+        open_wholesale_shops: "Open connected wholesale shops",
+        empty_title: "No transactions yet",
+        empty_description:
+          "Payments made through this gateway will appear here.",
+        page_summary: "{start}–{end} of {total}",
+      },
     },
   },
 
@@ -3802,9 +3821,12 @@ export default {
     title: "Info",
     subtitle: "Overview of payment gateway configuration and status.",
     status: "Status",
-    cod_transportation: "Supported Shipping",
+    cod_transportation: "Shipping methods with COD",
     cod_transportations_error:
-      "Enable cash on delivery payment for at least one shipping method!",
+      "No active shipping method currently accepts cash on delivery.",
+    cod_shipping_help:
+      "In Shipping, open a method's Settings → Payment options to turn “Accept cash on delivery” on or off. Enable it only if your carrier, delivery team or pickup staff can collect payment when handing over the order.",
+    cod_shipping_action: "Manage shipping",
     payment_type: "Payment type",
     cod: "Cash On Delivery",
     online: "Online payment",
@@ -3847,6 +3869,21 @@ export default {
       fee_range: "Fee range",
       transaction_range: "Transaction range",
       payment_window: "Payment window",
+      fee_help: {
+        open: "About {field}",
+        service_fee:
+          "Selldone's standard service fee for each payment through this gateway. The displayed percentage reflects your shop plan or partner agreement, with the applicable fee range applied. It is charged separately to the virtual wallet connected to your shop. Payment-provider and delivery charges are separate. File sales can follow different fee rules.",
+        fee_range:
+          "The minimum and maximum Selldone service fee for one standard payment, in this gateway's currency. A calculated fee below the minimum is raised to that minimum; a fee above the maximum is capped. These are fee limits, not order-value limits. File sales can follow different fee rules.",
+        transaction_range:
+          "The allowed amount of one payment through this gateway, not a daily or monthly total. The amount due through this method must fit this range for it to be offered at checkout; other eligibility rules also apply. Gift cards can reduce the amount due.\n\nSet an additional minimum in Edit → Order Limit; it cannot lower the gateway's own minimum. Contact Selldone Support to review whether a higher maximum is available.",
+        payment_window:
+          "The configured time window for a payment attempt in Selldone. A pending attempt can expire after this period. Provider processing and bank settlement follow their own timelines; this is not a payout schedule or a promise to cancel the order automatically.",
+        payment_window_manual:
+          "For cash and cash-on-delivery payments, receipt of money is confirmed separately. This catalog value does not set a delivery or cash-collection deadline or automatically cancel the order. It is not a bank settlement schedule.",
+        order_limit:
+          "The extra minimum order amount you set for this payment method. Change it in Edit → Order Limit; zero removes this extra restriction. The payment must still meet the gateway's own transaction limits and other checkout requirements.",
+      },
       fee_message:
         "Selldone service fees are paid from your Selldone wallet, separately from customer payments.",
       setup_title: "Payment service setup",
@@ -3876,10 +3913,10 @@ export default {
         processed: "Payment processed",
         merchant_account: "Your account",
         settlement: "Provider settlement",
-        delivery: "Delivery",
-        carrier: "Your carrier",
-        collection: "Cash collected",
-        on_delivery: "On delivery",
+        delivery: "Delivery or pickup",
+        carrier: "Selected shipping method",
+        collection: "Collect payment",
+        on_delivery: "When received",
         transfer: "Bank transfer",
         direct_account: "Your bank account",
         receipt: "Receipt review",
@@ -3901,14 +3938,18 @@ export default {
           intro: "Select a step to see how it works.",
           order:
             "Selldone records your order, items and customer details so you can manage fulfillment and track payment status. Payment collection follows the method selected at checkout.",
+          cod_order:
+            "The customer chooses cash on delivery for an eligible order. Selldone records the order with payment still due, so you can prepare it for delivery or pickup. Placing the order does not confirm that payment has been received.",
           online:
             "{gateway} processes and checks the payment under its own terms. Selldone uses the result to update the order’s payment status.",
           merchant_account:
             "Your payment provider settles customer payments to your merchant or bank account according to its fees and payout schedule. Selldone does not deduct its service fee from this payout or route it through your Selldone virtual wallet.",
           delivery:
-            "Your carrier delivers the order and collects payment according to your delivery arrangements. This cash-on-delivery step does not use an online payment processor.",
+            "With cash on delivery, the customer pays when receiving the order, either from your carrier or at a pickup location. Agree who will collect the payment before offering this option at checkout.",
           collection:
-            "You or your carrier receive the customer’s payment according to your cash-on-delivery arrangements. These funds are separate from your Selldone virtual wallet.",
+            "The person handing over the order collects the customer's payment. If a carrier collects it for you, agree on how and when they will pay your store.",
+          collection_next:
+            "After receiving payment, confirm receipt through the order or delivery workflow. Selldone records this confirmation; it does not collect the money or arrange the carrier's payout. Customer payments do not enter your Selldone virtual wallet.",
           cash_received:
             "Collect the customer’s cash payment directly in person. Selldone does not process or hold these funds through an online payment service.",
           sale_recorded:
@@ -3929,6 +3970,8 @@ export default {
             "Applicable Selldone service fees are charged separately to the virtual wallet connected to this shop. The fee rate and limits shown here follow your shop’s plan.",
           fee_next:
             "Your payment provider may charge its own processing or settlement fees. Those are separate from Selldone’s service fee and follow your agreement with the provider.",
+          cod_fee_next:
+            "Your carrier may charge delivery or cash-collection fees under your agreement. These are separate from Selldone's service fee. Confirm collection fees and payout arrangements with the carrier.",
           provider_website: "Visit {gateway}",
           shop_wallets: "Shop wallets",
           account_wallets: "My virtual wallets",
@@ -3957,6 +4000,59 @@ export default {
 
   /** {@see BGatewayAdd} **/
   edit_gateway: {
+    stripe: {
+      method_examples: "Examples for {currency}",
+      method_examples_hint: "Currency compatibility from Stripe's documentation. Account, country and checkout eligibility still apply.",
+      apple_step_get: "Get verification details from Stripe",
+      apple_step_get_description: "Register your checkout domain in Stripe. Download the domain association file if Stripe provides one.",
+      apple_step_upload: "Choose your domain and upload",
+      apple_step_finish: "Return to Stripe to check verification. If the domain is already verified, no upload is needed.",
+      "appearance_title": "Payment form appearance",
+      "appearance_subtitle": "Choose how Stripe's payment form looks in your checkout.",
+      "appearance_action": "Customize payment form",
+      "appearance_action_description": "Theme, labels and payment method layout",
+      appearance_scope: "These settings apply only to Stripe's Payment Element: the payment fields and method picker customers see at checkout for this gateway.",
+      appearance_optional: "Customization is optional. Keep the current look, or choose a theme to match your store. This changes appearance, not which payment methods Stripe offers.",
+      appearance_guide: "Stripe appearance guide",
+      appearance_theme_label: "Theme",
+      appearance_labels_label: "Label position",
+      appearance_layout_label: "Payment method layout",
+      appearance_layout_help: "Choose how customers switch between payment methods: tabs or an accordion.",
+      appearance_layout_guide: "Layout reference",
+      appearance_advanced_title: "Advanced styling",
+      appearance_advanced_help: "Optional JSON overrides for developers. Leave these fields empty to use the selected theme's styling.",
+      appearance_variables_help: "Set shared colors, fonts and spacing. Enter a JSON object with double-quoted keys and text values.",
+      appearance_variables_guide: "Variables reference",
+      appearance_rules_help: "Customize supported Stripe selectors and CSS properties. Enter a JSON object with double-quoted keys and text values.",
+      appearance_rules_guide: "Rules reference",
+      "methods_title": "Automatic payment methods",
+      "methods_subtitle": "Choose which payment methods to offer in your Stripe Dashboard. Selldone uses Stripe's automatic payment methods to show suitable options at checkout.",
+      "methods_eligibility": "Stripe selects eligible methods for each payment based on currency, amount, customer location and payment flow.",
+      "manage_methods": "Manage in Stripe",
+      "apple_setup_subtitle": "Register your checkout domain in Stripe. Upload a verification file only if Stripe requests one.",
+      "apple_domain_title": "Apple Pay domain setup",
+      "apple_domain_description": "Register every checkout domain and subdomain in the matching Stripe account. Stripe handles Apple merchant validation.",
+      "apple_register": "Register domains in Stripe",
+      "apple_domain_note": "Use your custom HTTPS storefront domain and confirm live-mode registration before accepting live payments.",
+      "apple_upload_title": "Verification file, if requested",
+      "apple_upload_description": "Upload Stripe's file for the domain below. This hosts the file; register and confirm the domain in Stripe.",
+      "manage_verifications": "Manage verifications"
+    },
+    modern: {
+      "title": "Payment settings",
+      "subtitle": "Availability, mode and keys.",
+      "environment_title": "Payment environment",
+      "credentials_description": "Use keys from the same provider account and test/live environment. Follow the guidance below each field.",
+      "flow_payment": "Payment",
+      "flow_you": "You",
+      "flow_confirm": "Confirm payment",
+      "flow_auto": "Auto confirm",
+      "critical_title": "Critical actions",
+      "critical_summary": "Remove this payment method from your store.",
+      "remove_title": "Remove {gateway}",
+      "remove_description": "Existing orders and payment records are kept, and your provider account is not closed. For a temporary pause, set this payment method to Inactive instead.",
+      "remove_action": "Remove payment method"
+    },
     public_keys: "Public keys",
     private_keys: "Private keys (confidential)",
     link: "Website",
