@@ -537,6 +537,8 @@ export default {
       connect_action: "اتصال هوش مصنوعی",
       genesis_action: "آشنایی با Selldone Genesis",
       genesis_aria: "آشنایی با سلدان Genesis؛ باز شدن در صفحه جدید",
+      stores_action: "دیدن فروشگاه‌های زنده",
+      stores_hint: "کشف فروشگاه‌های واقعی ساخته‌شده با سلدان",
       trust: {
         shop_scoped: "دسترسی محدود به فروشگاه",
         revocable: "لغو دسترسی در هر زمان",

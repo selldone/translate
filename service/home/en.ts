@@ -541,6 +541,8 @@ export default {
       connect_action: "Connect my AI",
       genesis_action: "Explore Selldone Genesis",
       genesis_aria: "Explore Selldone Genesis; opens in a new tab",
+      stores_action: "See live stores",
+      stores_hint: "Explore real stores built with Selldone",
       trust: {
         shop_scoped: "Shop-scoped access",
         revocable: "Revocable anytime",

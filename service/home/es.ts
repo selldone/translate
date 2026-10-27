@@ -539,6 +539,8 @@ export default {
       connect_action: "Conectar mi IA",
       genesis_action: "Explorar Selldone Genesis",
       genesis_aria: "Explorar Selldone Genesis; se abre en una pestaña nueva",
+      stores_action: "Ver tiendas en vivo",
+      stores_hint: "Explorar tiendas reales creadas con Selldone",
       trust: {
         shop_scoped: "Acceso limitado a la tienda",
         revocable: "Revocable en cualquier momento",
