@@ -345,6 +345,36 @@ export default {
       },
 
       accept_invite_question: "Do you accept this invitation?",
+      modern: {
+        open_dashboard: "Open dashboard",
+        open_shop: "Open shop",
+        shop_actions: "Shop sections",
+        visit_store: "Visit store",
+        edit_shop: "Edit shop",
+        details: "Activity and finances",
+        sold_units: "Sold units",
+        orders_scope: "Units sold in the latest available daily report.",
+        orders_to_process: "{count} order to process | {count} orders to process",
+        no_orders_to_process: "No new orders to process",
+        queue_unavailable: "Order queue unavailable",
+        queue_scope: "Current order queue, independent of the reporting period. Includes recent file orders and Avocado orders; completed orders are excluded.",
+        statistics_updated: "Statistics last updated: {time}",
+        process_orders: "Process orders",
+        report_scope: "Activity and finances use the latest available daily report.",
+        report_date: "Latest report · {time}",
+        expires: "Expires {time}",
+        expired: "Expired {time}",
+        no_expiry: "No expiry",
+        unknown: "Not available",
+        ratings: "Product ratings",
+        article_likes: "Article likes",
+        article_favorites: "Article favorites",
+        shop_views: "Total shop views",
+        visitor_details: "Visitor breakdown",
+        unique_visitors: "Unique visitors",
+        product_details: "Product breakdown",
+        penalty: "Penalty",
+      },
       /** {@see BShopCard} **/
 
       shop_card: {
@@ -425,6 +455,134 @@ export default {
     dashboard: {
       title: "Shop dashboard",
       online_staff: "Online staff",
+      ai_build: {
+        copy_prompt: "Copy prompt",
+        ready: "Ready for your AI assistant",
+        copied: "Copied",
+        copy_success: "Copied. Paste it into your AI assistant.",
+        copy_fallback: "Prompt selected. Use your device’s Copy action.",
+        shop: "Shop {shop}",
+        your_brand: "YOUR BRAND",
+        readiness: {
+          eyebrow: "Build with AI",
+          mobile_title: "Build an iOS & Android app",
+          mobile_body: "Your shop, in your customers’ pockets.",
+          web_title: "Create a custom storefront layout",
+          web_body: "Your brand. Your design. Selldone underneath.",
+        },
+        mobile: {
+          toolbar: "Build a mobile app",
+          eyebrow: "iOS & Android · Built with Flutter",
+          title: "Your shop.\nA real mobile app.",
+          body: "Let AI build the experience.\nLet Selldone run the commerce.",
+          ios: "iOS",
+          android: "Android",
+          one_codebase: "One Flutter codebase",
+          prompt_eyebrow: "Your starting point",
+          prompt_title: "One prompt. A new possibility.",
+          prompt_label: "Mobile app prompt",
+          prompt: `Connect to my Selldone shop {shop} through MCP using OAuth.
+
+Build a Flutter app for iOS and Android around my brand, real catalog and shop settings. Include discovery, product details, cart, checkout, customer sign-in and order history using Selldone’s supported APIs. Keep customer sign-in separate from the AI connection.
+
+Support the product types and payment flows enabled in my shop. Show a working preview, test the complete shopping journey and prepare the app release builds.`,
+          guide_label: "How to start building your app",
+          art_label: "Concept of your shop as a mobile app",
+          art_studio: "STUDIO",
+          art_caption: "Made for you.",
+          footer_title: "Your experience. Your brand.",
+          footer_body: "Store releases use your Apple and Google developer accounts. Your AI prepares the builds; you review and publish.",
+        },
+        web: {
+          toolbar: "Design your storefront",
+          eyebrow: "Your brand. Without the backend rebuild.",
+          title: "Make it unmistakably yours.",
+          body: "A completely different look. The commerce you already trust.",
+          path_label: "Choose how to customize your shop",
+        },
+        layout: {
+          label: "Custom layout",
+          caption: "Recommended for most shops",
+          prompt_eyebrow: "Start with the complete storefront",
+          prompt_title: "Change the design.\nKeep the possibilities.",
+          prompt_intro: "A new visual identity, built on your existing shopping experience. Start with one prompt and refine the details.",
+          prompt_label: "Custom layout prompt",
+          prompt: `Connect to my Selldone shop {shop} through MCP using OAuth.
+
+Clone https://github.com/selldone/storefront and create a custom layout for my brand, using my real catalog and shop settings. Read the repository’s AI agent instructions first. Make it polished, responsive and accessible. Preserve the existing cart, checkout, customer accounts and localization.
+
+Test the shopping flows and show me a working preview. Then, with my approval, upload it to Selldone as a new beta layout using the repository’s documented publishing workflow. Keep activation as a separate step.`,
+          starter: "Official layout starter",
+          recommended: "The recommended starting point",
+          title: "Make the design yours.\nKeep the hard work done.",
+          body: "Start from the complete Selldone storefront. Your AI redesigns it around your brand.",
+          features: {
+            catalog: "Catalog & product discovery",
+            checkout: "Cart & checkout",
+            accounts: "Customer accounts & orders",
+            foundation: "Responsive & multilingual foundation",
+          },
+          art_label: "Concept of a custom layout with the complete shopping experience",
+          art_title: "Different by design.",
+          art_body: "Same shop. Entirely your style.",
+          aside_note: "A prompt to begin. A preview to refine. Activate only when it feels right.",
+        },
+        custom: {
+          label: "Custom storefront",
+          caption: "For specialized flows & frameworks",
+          prompt_eyebrow: "The advanced path",
+          prompt_title: "Your flow.\nYour framework.",
+          prompt_intro: "Build a frontend around a specialized journey. Expect more decisions, implementation and testing with your AI.",
+          prompt_label: "Custom storefront prompt",
+          prompt: `Connect to my Selldone shop {shop} through MCP using OAuth.
+
+Clone https://github.com/pajuhaan/selldone-custom-storefront-backoffice-1 as the reference for my custom frontend. Read AGENT.md first. Ask me about the journey and framework I want, then build it using Selldone’s commerce APIs.
+
+Implement and test the product types, cart, checkout and customer account flows my shop needs. Keep customer login separate from the AI connection. Add custom customer, vendor or management screens only with the appropriate APIs and permissions.
+
+Show a working preview and prepare a static Cloudflare deployment following the repository’s instructions. Ask before publishing.`,
+          starter: "Custom frontend starter",
+          aside_eyebrow: "When your idea needs more",
+          title: "Build a different kind\nof experience.",
+          usecases: {
+            booking_title: "A specialized booking journey",
+            booking_body: "Shape the screens and flow around your service.",
+            management_title: "Your own management workspace",
+            management_body: "Customer portals, vendor panels or approved backoffice workflows.",
+            stack_title: "Your chosen frontend stack",
+            stack_body: "Use the starter as a reference and adapt the experience.",
+          },
+          freedom_title: "More freedom. More to build.",
+          freedom_body: "Selldone provides the business APIs. Your frontend still needs its own complete, tested customer journey.",
+          switch_layout: "Just need a new look? Use a custom layout",
+        },
+        connection: {
+          title: "From here to your AI.",
+          step_signin: "Sign in to Selldone",
+          step_signin_body: "Use the account that manages this shop.",
+          step_connect: "Connect your AI with MCP",
+          step_connect_body: "In ChatGPT, Claude or Codex, add Selldone MCP and approve this shop through OAuth.",
+          step_paste: "Paste the prompt",
+          step_paste_body: "Describe your style, review the preview and refine it with your AI.",
+          business_title: "The business is already built.",
+          business_body: "Your catalog, orders and commerce services stay with Selldone.",
+          once_title: "Connect once. Then build.",
+          once_body: "Sign in to Selldone, add MCP in your AI app, approve this shop, then paste the prompt.",
+          guide: "Connection guide",
+          mcp_guide: "MCP connection guide",
+        },
+        hosting: {
+          eyebrow: "Lightweight frontend. Serious commerce.",
+          title: "Your brand at the edge.\nYour business on Selldone.",
+          body: "Your custom frontend can use static hosting. Cloudflare serves your HTML, CSS and JavaScript. Selldone handles the commerce behind them.",
+          free_title: "Start with free static hosting",
+          free_body: "Static asset requests are free and unlimited on Cloudflare.",
+          commerce_title: "No commerce server to rebuild",
+          commerce_body: "Keep your shop’s business services in Selldone.",
+          limits: "Workers execution, builds, asset limits and Selldone plan limits still apply.",
+          details: "Hosting details",
+        },
+      },
       ai_agents: {
         list_subtitle: "Manage your MCP connections for this store.",
         request_activity: "Request activity",
@@ -607,7 +765,7 @@ export default {
         "loading": "Loading AI connections…",
         "load_error": "Unable to load AI connections. Check your shop access and try again.",
         "connected": "Connected",
-        "connected_agents": "Connected AI agents",
+        "connected_agents": "Agents",
         "staff": "Staff",
         "agent": "AI agent",
         "requests": "Requests",
@@ -1248,6 +1406,22 @@ export default {
 
       /** {@see BPageShopBlogsList} **/
       list: {
+        modern: {
+          subtitle: "Create, organize and publish stories for your store.",
+          empty_title: "Write your first article",
+          empty_description: "Share stories, guides and updates with your customers.",
+          no_results: "No articles found",
+          no_results_description: "Try another search or clear the filters.",
+          filter_category: "Filter by {category}",
+          clear_category: "Clear category filter",
+          open_storefront: "Open article in storefront",
+          edit_article: "Edit article",
+          page_range: "{start}–{end} of {total} articles",
+          new_comments: "{count} new",
+          cluster_filter: "Filter articles by resource cluster.",
+          load_error: "Could not load articles.",
+          clear_filters: "Clear filters",
+        },
         title: "My Articles",
         subtitle:
           "Compose articles using a contemporary inline editor to showcase yourself and your business effectively. Prioritizing original content is essential for crafting high-quality, SEO-friendly blog posts.",
@@ -1274,6 +1448,82 @@ export default {
     orders: {
       /** {@see BProcessCenterList} **/
       physical: {
+        modern: {
+          subtitle: "Review payments and keep every order moving.",
+          search: "Search orders or customers…",
+          withdrawal: {
+            badge: "Withdrawn",
+            title: "Withdrawn by customer",
+            requested_at: "Requested at",
+            body: "The customer withdrew this order. If it has already shipped, arrange its return. Verify that any required refund is completed correctly. You are responsible for handling the withdrawal, return and refund.",
+          },
+          filters: {
+            title: "Extra filters",
+            product: "Product",
+            customer: "Customer",
+            updated_after: "Updated after",
+            updated_after_help: "Last modified strictly after this time; this is not the checkout date.",
+            applied_summary: "{count} extra filters",
+            apply: "Apply filters",
+            clear: "Clear filters",
+            remove: "Remove {filter}",
+            all_products: "All products",
+            all_customers: "All customers",
+          },
+          stages: {
+            CheckQueue: "Review the order, payment and customer details before confirming it.",
+            OrderConfirm: "Confirm that you can fulfill the order before preparing its items.",
+            PreparingOrder: "Pick, prepare and pack the items before handing them to the carrier.",
+            SentOrder: "The order has been dispatched. Follow its shipment until delivery is recorded.",
+            current: "Current stage",
+            completed: "Completed stage",
+            upcoming: "Upcoming stage",
+          },
+          attention: {
+            recent: {
+              title: "Recently updated",
+              body: "This order is in the processing queue and was updated within the last day.",
+            },
+            watching: {
+              title: "Waiting for an update",
+              body: "More than a day has passed since the last order update. Check the next processing step.",
+            },
+            sad: {
+              title: "Needs a follow-up",
+              body: "No order update for more than two days. Review its processing progress.",
+            },
+            annoyed: {
+              title: "Waiting for action",
+              body: "No order update for more than three days. Check what is holding up processing and update the order.",
+            },
+            mad: {
+              title: "Long wait",
+              body: "No order update for more than five days. Review the order and arrange the next step with the customer if needed.",
+            },
+            angry: {
+              title: "Overdue for follow-up",
+              body: "No order update for more than seven days. Prioritize a review and resolve the processing delay.",
+            },
+            urgent: {
+              title: "Needs a decision",
+              body: "No order update for more than ten days. Review payment and fulfillment, update the customer and decide how to resolve this order.",
+            },
+            rejected: {
+              title: "Rejected order",
+              body: "This order was rejected. Check the rejection details before taking further action.",
+            },
+            unknown: {
+              title: "Processing order",
+              body: "The emoji summarizes time since the last order update. The update time is unavailable for this order.",
+            },
+          },
+          payment: {
+            title: "Payment details",
+            issuer: "Issuer / card type",
+            risk: "Recorded risk score",
+            risk_help: "Recorded risk value on a 0–100 scale. Its meaning depends on the payment integration; it does not confirm or guarantee that the payment is safe.",
+          },
+        },
         waiting_message: "Receiving information ... please wait",
         rejected: "Rejected",
         delivery: "Shipping",
@@ -1414,6 +1664,10 @@ export default {
 
     /** {@see BPageShopLogistic} **/
     logistic: {
+      units: {
+        title: "Units",
+        subtitle: "Customize the units across your shop. Changes made here will not affect the values set for products or shipping; they will only modify the display units. Click on them to edit.",
+      },
       /** {@see BPageShopLogisticWarehouse} **/
       warehouses: {
         title: "Warehouses",
@@ -1485,6 +1739,25 @@ export default {
       /** {@see BPageShopLogisticShipping} **/
       delivery: {
         title: "Shipping Methods",
+        overview_subtitle: "Manage delivery methods, rates, destinations and connected services.",
+        configured_title: "Configured shipping methods",
+        empty_title: "No shipping methods yet",
+        empty_message: "Add a shipping method to configure delivery limits, rates and services.",
+        list: {
+          method: "Shipping method",
+          limits: "Delivery limits",
+          payment: "Delivery & payment",
+          connections: "Connections",
+          configuration: "{method} configuration",
+          details: "Details",
+          hide_details: "Hide details",
+          settings: "Settings",
+          cod_available: "COD · Available",
+          cod_unavailable: "COD · Unavailable",
+          free_over: "Free over {amount}",
+          free_unavailable: "Free shipping unavailable",
+          method_count: "No shipping methods | 1 shipping method | {count} shipping methods",
+        },
 
         sub_title:
           "By incorporating shipping options into your store in this section, you enable a range of delivery methods. The Cash on Delivery method can be activated for each shipping service. Each service allows for independent cost calculations, and you can customize these transportation services to suit your needs. Additionally, you have the option to integrate third-party shipping services or personal couriers with each shipping option.",
@@ -1815,6 +2088,215 @@ export default {
       menu: {
         autopilot: "Autopilot",
       },
+      activity: {
+        eyebrow: "Automation",
+        open_link: "Open related record in a new tab",
+        retry: "Try again",
+        clear_filters: "Clear filters",
+        clear_search: "Clear search",
+        loading: "Loading…",
+        page_summary:
+          "Page {page} of {pages} · {count} record | Page {page} of {pages} · {count} records",
+        empty_count: "0 records",
+      },
+      logging: {
+        title: "Logging",
+        subtitle:
+          "Review recorded actions and troubleshoot events in your shop.",
+        search_placeholder: "Search logs…",
+        trigger_label: "Trigger",
+        all_triggers: "All triggers",
+        level_label: "Level",
+        all_levels: "All levels",
+        table_label: "Shop activity history",
+        triggers: {
+          SYSTEM: "System",
+          ADMIN: "Admin",
+          CUSTOMER: "Customer",
+          EXTERNAL: "External",
+        },
+        levels: {
+          LOG: "Log",
+          WARNING: "Warning",
+          ERROR: "Error",
+        },
+        columns: {
+          action: "Action",
+          trigger: "Trigger",
+          level: "Level",
+          officer: "Officer",
+          message: "Message",
+          created: "Created",
+          link: "Link",
+        },
+        code: "Code {code}",
+        open_detail: "View details for {action}",
+        list_help:
+          "Open an activity to inspect its full message and event data.",
+        load_error: "Activity logs could not be loaded.",
+        empty_title: "No activity yet",
+        no_results_title: "No matching activity",
+        empty_body: "Recorded actions in your shop will appear here.",
+        empty_filtered: "Try another search or clear your filters.",
+        detail: {
+          eyebrow: "Activity details",
+          context: "Activity context",
+          officer: "Officer",
+          message: "Message",
+          data: "Event data",
+        },
+      },
+      notifications: {
+        title: "Notifications",
+        subtitle:
+          "Notifications generated for your shop, with their read history.",
+        search: "Search notifications…",
+        table_label: "Shop notification history",
+        columns: {
+          type: "Type",
+          message: "Message",
+          count: "Count",
+          read_at: "Read date",
+          created_at: "Created",
+          link: "Link",
+        },
+        types: {
+          NEW_PRODUCT: "Products",
+          NEW_CATEGORY: "Categories",
+          MENTION_NOTE: "Note",
+          MENTION_TIMELINE: "Order",
+          other: "Notification",
+        },
+        unread: "Unread",
+        empty_title: "No notifications yet",
+        empty_body: "Notifications generated for your shop will appear here.",
+        no_results_title: "No matching notifications",
+        no_results_body: "Try another search or clear your search.",
+        load_error: "Notifications could not be loaded.",
+      },
+      webhooks: {
+        title: "Webhooks",
+        subtitle: "Connect your shop events to your services.",
+        add_action: "Add webhook",
+        edit_action: "Edit webhook",
+        delete_action: "Delete webhook",
+        open_calls: "View webhook calls",
+        endpoints: "endpoints",
+        attempts: "{count} attempts",
+        created: "Created {date}",
+        failures: "{count} failure | {count} failures",
+        inactive: "Inactive",
+        reset_required: "{count} failures · Reset required",
+        no_failures: "No failures",
+        empty_title: "No webhooks yet",
+        empty_body: "Add an endpoint to connect these events to your service.",
+        pause_notice:
+          "Webhooks pause after 100 failures. Open an endpoint to inspect calls and reset failures.",
+        list_help:
+          "Select an endpoint to view calls, inspect request and response data, or open the test lab.",
+        limit_reached: "Limit of {count} endpoints reached",
+        loading: "Loading webhooks…",
+        groups: {
+          inventory: {
+            title: "Inventory change",
+            subtitle: "Send updates when a product’s quantity changes.",
+          },
+          orders: {
+            title: "Orders",
+            subtitle: "Send updates when an order’s status changes.",
+          },
+          users: {
+            title: "Users",
+            subtitle:
+              "Send updates when a user registers or leaves your shop.",
+          },
+        },
+        editor: {
+          add_title: "Add webhook",
+          edit_title: "Edit webhook",
+          subtitle: "Choose the event and where its updates are sent.",
+          event_type: "Event type",
+          endpoint_url: "Endpoint URL",
+          url_message: "A POST request will be sent to this URL.",
+          details: "Triggers and sample parameters",
+          triggers: "Triggers",
+          parameters: "Sample parameters",
+        },
+        flow: {
+          triggers: "Shop event",
+          endpoint: "Your endpoint",
+          request: "HTTP request",
+          empty_url: "Enter an endpoint URL",
+          description: "When {event} occurs, a POST request sends the event data to your endpoint.",
+        },
+        calls: {
+          title: "Webhook calls",
+          history: "Delivery history",
+          latest: "Latest 10 calls",
+          date: "Date",
+          duration: "Duration",
+          response: "Response",
+          status: "Status",
+          success: "Successful",
+          failed: "Failed",
+          empty: "No webhook calls yet.",
+          request: "Request",
+          select: "Select a call to inspect its request and response.",
+        },
+        reset_action: "Reset failures ({count})",
+        test: {
+          title: "Test lab",
+          subtitle: "Choose an action to send a webhook test.",
+          action: "Action",
+          action_hint:
+            "The action triggers the event. All actions for an event use the same request structure.",
+          send: "Send test data",
+        },
+        delete: {
+          title: "Delete webhook",
+          message: "Are you sure you want to remove this webhook?",
+          confirm: "Yes, delete now",
+          success: "Webhook removed successfully.",
+        },
+        updated: "Shop webhooks updated successfully.",
+        reset_success: "Webhook failures reset successfully.",
+        fetch_error: "Could not load webhooks.",
+        retry: "Try again",
+        events: {
+          Inventory: {
+            title: "Inventory",
+            desc: "Send after changing the product quantity.",
+          },
+          OnlineOrder: {
+            title: "Online Order",
+            desc: "Send after a change in online order status.",
+          },
+          PosOrder: {
+            title: "POS Order",
+            desc: "Send after a change in in-person (POS) order status.",
+          },
+          AvocadoOrder: {
+            title: "Avocado Order",
+            desc: "Send after a change in Avocado order status.",
+          },
+          HyperOrder: {
+            title: "Hyper Order",
+            desc: "Send after a change in Hyper order status.",
+          },
+          FulfillmentOrder: {
+            title: "Dropshipping Fulfillment",
+            desc: "Send after a change in dropshipping fulfillment order status.",
+          },
+          Register: {
+            title: "User Register",
+            desc: "Send after a new user registers.",
+          },
+          Leave: {
+            title: "User Leave",
+            desc: "Send after a user leaves your shop.",
+          },
+        },
+      },
     },
 
     /** {@see BPageShopSetting} **/
@@ -1848,33 +2330,46 @@ export default {
 
       /** {@see BPageShopSettingInfo} **/
       info: {
+        page_title: "Store information",
+        page_subtitle: "Manage your store’s identity and public details.",
+        seo_preview_subtitle: "How your store may appear in search results.",
+        name_locked_help:
+          "After changing this name, use Auto Fix or reconnect your payment services to update their webhook URLs.",
+        title_input_message: "Your public business name, visible to customers.",
+        temporary_access: {
+          title: "Temporary storefront access",
+          description:
+            "When your store is inactive, this link lets anyone who has it open the storefront until expiry. Share it only with people you trust.",
+          create_action: "Get access link",
+          force_title: "Replace existing link",
+          force_description:
+            "When enabled, getting an access link creates a new one and invalidates your previous link for this store. Otherwise, your current link is reused when possible.",
+          expires: "Valid until {date}",
+        },
         title_tab: {
-          title: "Business name & Language",
-          subtitle: "Set a public name and default language.",
+          title: "Business name & language",
+          subtitle: "Set your public business name and default language.",
         },
         name_tab: {
-          title: "Shop unique name",
-          subtitle: "It's your business username.",
+          title: "Store name",
+          subtitle: "The unique, readable name used in your Selldone store address.",
         },
 
         description_tab: {
-          title: "Your business story",
-          subtitle:
-            "Write about your business and its unique value proposition.",
+          title: "Store description",
+          subtitle: "Introduce your business and what it offers.",
         },
         contact_tab: {
-          title: "Contact & Local business",
-          subtitle:
-            "Public contact information and Google local business setup.",
+          title: "Contact information",
+          subtitle: "Help customers find and contact your business.",
         },
         image_tab: {
-          title: "Logo",
-          subtitle: "Select a unique logo for your brand.",
+          title: "Store logo",
+          subtitle: "Use your brand logo to identify your store.",
         },
         favicon: {
           title: "Favicon",
-          subtitle:
-            "Favicons are small, iconic images that represent a website in browser tabs, bookmarks, and mobile app interfaces.",
+          subtitle: "The small icon shown in browser tabs and bookmarks.",
         },
       },
 
@@ -3248,6 +3743,16 @@ export default {
     import: "Import inventory",
     bulk_price: "Bulk price change",
     bulk_discount: "Bulk discount change",
+    bulk_price_short: "Bulk price",
+    search_inventory: "Search inventory…",
+    scan_product: "Scan a product code",
+    open_product: "Open product admin page",
+    bulk_discount_short: "Discount",
+    group_auto: "Auto group",
+    grouped: "Grouped",
+    expanded: "Expanded",
+    export_subtitle: "Download product and variant data in Excel or CSV format.",
+    import_subtitle: "Update existing products and variants from a spreadsheet.",
     category_filter_msg: "⚡ It will apply to all products and subcategories!",
     table: {
       waiting: "Receiving information ... please wait",
@@ -3615,6 +4120,66 @@ export default {
       social: "Social media leads",
       conversion_over_time: "Conversion over time",
       total_campaign_sell: "Total sales by campaign",
+      refined: {
+        overview: "Campaign overview",
+        campaign_totals: "Campaign totals",
+        totals_help:
+          "Campaign and link totals cover all recorded activity. The report period changes daily activity and audience reports.",
+        date_details: "Date details",
+        no_schedule: "No activation schedule",
+        sales_estimate: "Total sales estimate",
+        current_rate_note: "{currency} · current exchange rates",
+        all_activity: "All recorded activity",
+        completed_payments: "Completed funnel stage",
+        session_to_payment: "Session to payment",
+        payment_ratio: "{payments} of {sessions} sessions",
+        conversion: "Conversion",
+        acquisition: "Acquisition",
+        channel_flow: "Channel flow",
+        audience: "Audience geography",
+        audience_description:
+          "Session locations and devices for the selected report period.",
+        selected_period: "Selected report period",
+        link_performance: "Link performance",
+        links_description:
+          "Compare each tracked link through the five funnel stages.",
+        link_totals: "Link totals",
+        source_medium: "Source / Medium",
+        link_count: "{count} tracked links",
+        link_scope_note:
+          "Campaign totals may include activity without a tracked link.",
+        daily_activity: "Daily activity",
+        daily_description: "Daily event counts for the selected report period.",
+        period_orders: "Recorded in the selected period",
+        daily_orders_help:
+          "Daily orders use the selected report period. These event counts are separate from lifetime campaign totals.",
+        funnel_events: "Funnel events over time",
+        event_counts_note: "Daily counts · not a conversion rate",
+        show_link_funnel: "Show this link's funnel",
+        hide_link_funnel: "Hide this link's funnel",
+        no_social: "No recorded social channels.",
+        no_matches: "No matching results.",
+        unknown: "Not recorded",
+        service_area: "Service area",
+        service_area_help:
+          "Highlight the shop's configured service countries on the map.",
+        search_countries: "Search countries…",
+        fewer_sessions: "Fewer sessions",
+        more_sessions: "More sessions",
+        top_countries: "Top {count} countries",
+        country_count: "{count} countries",
+        daily_view: "Daily view",
+        map_day_scope:
+          "Map: {date}. Country list and device totals: selected report period.",
+        device_trends: "Device trends",
+        device_sessions: "Device sessions over time",
+        country_share_help:
+          "Share of recorded country sessions in the selected report period.",
+        device_share_help:
+          "Device shares compare desktop, mobile and tablet sessions in the selected report period.",
+        load_error: "The campaign could not be loaded.",
+        retry: "Try again",
+      },
     },
     /** {@see BPageCampaignFinance} **/
     finance: {
@@ -3838,39 +4403,39 @@ export default {
       shop_title: "Store title",
       shop_name: "Store name",
       description: "Description",
-      contact: "Contact Information",
-      image: "Image",
+      contact: "Contact information",
+      image: "Images",
     },
     title_input: "Title",
-    title_input_tips: "Enter the name of your store, brand or company.",
-    active_message: "Set active to everyone can access your website.",
-    language_input_message: "Select your store language.",
-    name_input: "Name",
-    name_input_message: "Enter a name for your store.",
+    title_input_tips: "Use the name customers know your store, brand or business by.",
+    active_message: "Everyone can access your website.",
+    language_input_message: "Select your store’s default language.",
+    name_input: "Store name",
+    name_input_message: "A unique name for your Selldone store address.",
     name_input_tips:
-      "Do not use non-English characters, spaces or letters, if used, the store name may not be displayed properly.",
+      "Use a short name in Latin characters, without spaces.",
     description_input: "Store description",
-    description_input_message: "Write a brief description about your business.",
+    description_input_message: "Briefly describe your business and what it offers.",
     description_input_tips:
-      "This description will appear in your store's footer and will also be used as the default meta tag description for your store pages.",
-    address_input: "Store Address",
-    address_input_message: "Enter exact store location address",
+      "Shown in your store footer and used as the default meta description for store pages.",
+    address_input: "Store address",
+    address_input_message: "Enter your business’s full street address.",
 
     phone_input: "Phone number",
-    phone_input_message: "Customer Contact Number",
+    phone_input_message: "A number customers can call.",
     phone_input_tips:
-      "Enter contact number with country code. This number is also used to display information in Google search. ",
+      "Include the country code. This number may also appear in Google search results.",
     email_input: "Email",
-    email_input_message: "Email address for customers",
-    locality_input: "location",
-    locality_input_message: "Store location",
-    region_input: "State or Province",
-    region_input_message: "State or province in which you operate",
+    email_input_message: "An email address customers can contact.",
+    locality_input: "City / locality",
+    locality_input_message: "The city or locality where your business is located.",
+    region_input: "State / province",
+    region_input_message: "The state or province where your business is located.",
     country_input: "Country",
-    country_input_message: "Country of business",
-    postal_code_input: "Postal Code",
-    postal_code_input_message: "Store Postal Code",
-    image_input: "Store Image",
+    country_input_message: "The country where your business is located.",
+    postal_code_input: "Postal code",
+    postal_code_input_message: "The postal code for your business address.",
+    image_input: "Store image",
 
     map: {
       title: "Store Address",
@@ -3883,10 +4448,10 @@ export default {
     update_shop_action: "Update",
 
     notifications: {
-      copy_success: "Copy of store address.",
+      copy_success: "Store address copied.",
       name_available: `This name ({name}) is available.`,
       add_success: `Store {title} created.`,
-      edit_success: "Store edited.",
+      edit_success: "Store information saved.",
     },
   },
 
@@ -4761,6 +5326,35 @@ export default {
     /** {@see BPageDiscountCodeDashboard} **/
     dashboard: {
       title: "Discount Code Management Dashboard",
+      modern: {
+        subtitle: "Daily activity for this discount code.",
+        amount_buy: "Purchase amount",
+        amount_discount: "Discount",
+        used: "Uses",
+        amount_buy_help: "Recorded purchase amount for this code within the selected period, in the code's currency.",
+        amount_discount_help: "Recorded discount amount for this code within the selected period, in the code's currency.",
+        used_help: "Recorded uses of this code in the selected period. This is not a count of unique shoppers.",
+        selected_period: "Selected period",
+        period_totals: "Daily totals · Selected period",
+        zoomed: "Zoomed chart · Totals cover the selected period",
+        empty: "No discount-code activity in this period.",
+        partial: "Some daily values are unavailable",
+        unavailable: "Statistics unavailable",
+        load_error: "Statistics could not be loaded. Try again to view the selected period.",
+        retry: "Try again",
+        tools: "Chart tools",
+        date: "Date",
+        zoomin: "Zoom in",
+        zoomout: "Zoom out",
+        zoom: "Zoom to range",
+        selection: "Select range",
+        pan: "Pan",
+        reset: "Reset view",
+        download_chart: "Download chart",
+        download_svg: "Download SVG",
+        download_png: "Download PNG",
+        download_csv: "Download CSV",
+      },
       chart_amount_buy: {
         y: "Purchase amount {currency}",
         label: "Buy",
@@ -8041,6 +8635,11 @@ export default {
 
   /** {@see BPageTransportation**/
   transportation_page: {
+    overview: {
+      edit_settings: "Edit shipping settings",
+      add_courier: "Add a courier",
+      add_service: "Connect a delivery service",
+    },
     menu: {
       dashboard: "Dashboard",
       transportations: "Shipping methods",
@@ -8269,6 +8868,15 @@ export default {
   /** {@see BPageShopProductsImporter**/
   exporter: {
     title: "Export data",
+    inventory: {
+      title: "Choose a file format",
+      message: "Export your inventory for review or bulk updates.",
+      excel_message: "A spreadsheet ready to edit.",
+      csv_message: "A lightweight data file.",
+      identifiers_message: "Keep product and variant identifiers unchanged.",
+      import_message: "Use Import to review your file before applying inventory updates.",
+      privacy_message: "Your data belongs to you. Keep exported business information private and share it only with authorized people.",
+    },
     subtitle:
       "Your data belongs to you! You can download your business information in the standard format at any time. However, respect your customers' privacy, don't spam them, and never share their information with a third party.",
 
@@ -8295,6 +8903,29 @@ export default {
     },
     inventory: {
       title: "Bulk update inventory",
+      prepare_title: "Prepare your inventory file",
+      prepare_message: "Use a sample template to update existing products and variants. Select an Excel or CSV file, then review its data before sending updates.",
+      verify_message: "Review the inventory data and quota before sending updates to the server.",
+      result_title: "Import results",
+      file_input_label: "Select inventory file (.csv, .xls, .xlsx)",
+      template_message: "Choose a template for the fields you want to update.",
+      sample_template: "Sample template",
+      drop_title: "Drop an Excel or CSV file",
+      drop_message: "Preview the data before sending any updates.",
+      choose_file: "Choose file",
+      steps: { select: "Select file", review: "Review & send", results: "Results" },
+      templates: {
+        FULL: "Full inventory",
+        SKU_QUANTITY: "SKU + Quantity",
+        SKU_PRICE: "SKU + Price",
+        SKU_QUANTITY_PRICE: "SKU + Quantity + Price",
+      },
+      template_descriptions: {
+        FULL: "Update product information, prices, quantities and variants.",
+        SKU_QUANTITY: "Update product and variant quantities using SKU.",
+        SKU_PRICE: "Update product and variant prices using SKU.",
+        SKU_QUANTITY_PRICE: "Update product and variant quantities and prices using SKU.",
+      },
       subtitle:
         "Upload CSV file of inventory here. Make sure you follow the standard format by exporting the CSV file first, then editing that file.",
     },
@@ -8730,6 +9361,13 @@ export default {
       "Create campaigns, trackable links, and see reliable and accurate information in one place. We help you make better data-driven decisions.",
     add_action: "Add New Campaign",
     empty_message: "Create your first campaign now!",
+    analytics: {
+      social_channels: "Social channels",
+      campaign_totals: "Campaign totals",
+      latest_day: "Latest recorded day",
+      channel_flow: "Channel flow",
+      devices: "Devices",
+    },
     delete: {
       title: "Delete campaign",
       message: "Are you sure to delete this campaign and all the data?",
@@ -9167,6 +9805,27 @@ export default {
 
   /** {@see BPageShopCrmCustomers**/
   shop_customers: {
+    modern: {
+      subtitle: "Manage customer profiles, segments and loyalty.",
+      note: "Customers join through your online store, POS, manual entry or an Excel import.",
+      search: "Search name, email or phone…",
+      all_segments: "All segments",
+      email_updates: "Email updates",
+      count: "{count} customers",
+      range: "Showing {start}–{end} of {total} customers",
+      no_results: "No customers found",
+      clear_filters: "Clear search and filters",
+      empty_title: "Your customers appear here",
+      empty_hint: "Add a customer or import an Excel file to get started.",
+      fetch_error: "Customers could not be loaded. Try again.",
+      retry: "Try again",
+      edit_segments: "Edit customer segments",
+      filter_segment: "Show customers in {segment}",
+      toggle_access: "Toggle customer access",
+      chips_help: "Customers can spend 10 chips for one chance to play.",
+      subscribed_help: "Email subscription: receive commercial emails.",
+      club_hint: "Incentivize customers by adding them to a customer club.",
+    },
     title: "Customers Management",
     subtitle:
       "Customers can be added to your store in several ways; manually, bulk Excel import, through the POS, or via your online store. Whenever a user logs into your store, they will automatically be registered as a customer.",
@@ -10801,6 +11460,34 @@ export default {
   /** {@see BPageShuttleShops} **/
   shops_list: {
     title: "My Shops",
+    modern: {
+      subtitle: "Your stores and the teams you work with.",
+      create_shop: "Create shop",
+      creation_help: "Shop creation and deal help",
+      creation_summary: "Your first shop is free. Each additional shop costs $25, charged to your wallet.",
+      deal_help: "Have a deal? Use “I have a deal” to create a shop with it.",
+      access: "Shop access",
+      all: "All",
+      owned: "Owned",
+      shared: "Shared",
+      search: "Search shops…",
+      layout: "Shop layout",
+      display_preferences: "Display preferences",
+      show_engagement: "Show customer engagement",
+      hide_samples: "Hide samples",
+      explore_samples: "Explore sample stores",
+      sample_intro: "Try real dashboards with public demo data. Do not enter personal information.",
+      sample_help: "About public sample stores",
+      load_error: "Your shops could not be loaded. Try again.",
+      retry: "Try again",
+      no_results: "No matching shops",
+      no_results_help: "Try another search or choose a different access filter.",
+      empty_help: "Create your first shop to start building your business.",
+      clear_filters: "Clear filters",
+      range: "{from}–{to} of {total} shops",
+      invite_declined: "Invitation declined",
+      invite_declined_message: "You declined the shop invitation.",
+    },
     message:
       "Here is a list of your owned shops, authorized shops, and sample shops. To hide sample shops, navigate to the bottom of the page and select the preferences.",
     created_at: "Created {time}",
@@ -10867,6 +11554,59 @@ export default {
 
   /** {@see BPageShopBlogsCategories} **/
   blog_category: {
+    modern: {
+      subtitle:
+        "Give your stories a clear home. Keep topics focused and easy to explore.",
+      add_action: "Add category",
+      featured: "Featured",
+      not_featured: "Not featured",
+      edit_action: "Edit category",
+      delete_action: "Delete category",
+      search: "Search categories…",
+      page_range: "{start}–{end} of {total} categories",
+      empty_title: "Create your first category",
+      empty_description: "Give related articles a clear home in your blog.",
+      no_results: "No categories found",
+      no_results_description: "Try a different search.",
+      clear_search: "Clear search",
+      load_error: "Could not load categories.",
+      edit_title: "Edit category",
+      add_title: "Add category",
+      editor_subtitle:
+        "Keep related articles organized under one clear topic.",
+      name: "Category name",
+      name_placeholder: "For example, Coffee",
+      description: "Description",
+      description_placeholder: "Describe the stories in this category.",
+      locked_hint:
+        "The existing name is locked to protect article paths.",
+      unlock: "Unlock category name",
+      lock: "Lock category name",
+      rename_title: "Change category path",
+      rename_hint:
+        "Renaming this category updates the category path for its associated articles.",
+      featured_title: "Featured category",
+      featured_hint:
+        "Featured categories are shown with priority in your blog.",
+      cover: "Category cover",
+      optional: "Optional",
+      choose_image: "Choose image",
+      edit_image: "Edit image",
+      cover_hint:
+        "Up to 2MB. The cover updates separately from these details.",
+      create_cover_hint: "Choose an image now or add one later.",
+      saved_cover_hint:
+        "Category saved. Retry the image upload or remove the image to finish without it.",
+      retry_image: "Retry image",
+      finish: "Done",
+      cancel_upload: "Cancel upload",
+      save: "Save changes",
+      delete_title: "Delete category?",
+      delete_message: "Are you sure you want to delete “{category}”?",
+      added: "Category added successfully.",
+      updated: "Category updated successfully.",
+      deleted: "Category deleted successfully.",
+    },
     title: "Blog Categories",
     subtitle:
       "You can create a limited number of categories for your blog posts to manage them more efficiently. Having a category limit promotes better organization on your website. Notably, even the top news agencies maintain a limited number of categories, often fewer than 100, to streamline management and maintain a broader focus.",
@@ -10885,6 +11625,30 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
+    modern: {
+      title: "Publishing timeline",
+      subtitle:
+        "Scheduled articles and product descriptions, in publication order.",
+      refresh: "Refresh schedule",
+      count: "{count} scheduled items",
+      timezone: "Times in your local timezone",
+      footer:
+        "To change or remove a publish time, open the article editor.",
+      empty_title: "No scheduled content",
+      empty_body:
+        "Choose a publish time in an article or product editor. It will appear here when scheduled.",
+      loading: "Loading scheduled content…",
+      error_title: "Could not load the schedule",
+      error_body:
+        "Your scheduled content is unavailable right now. Try again.",
+      retry: "Try again",
+      open_editor: "Open article editor",
+      publish: "Publish at",
+      edited: "Last edited",
+      blog: "Blog article",
+      product: "Product description",
+      article: "Article",
+    },
     title: "Content Release Schedule ",
     subtitle:
       "Here is the list of scheduled articles set for future publication. You have the ability to schedule blog posts and even product descriptions to be published at specific times.",
@@ -11046,6 +11810,138 @@ export default {
     title: "Business model setup",
     subtitle:
       "Set your business model, and we will configure your OS  behind the scene.",
+    modern: {
+      page_title: "Business model",
+      page_subtitle:
+        "Define how your store sells, fulfills orders, and works with other businesses.",
+      setup_title: "Choose your business model",
+      setup_subtitle: "Select the structure that matches how you sell.",
+      setup_help:
+        "Your business model configures the selling and fulfillment tools in your Business OS. Review the flow and requirements before saving.",
+      model_label: "Business model",
+      current: "Current",
+      how_it_works: "How it works",
+      complexity: "Setup complexity",
+      requirements: "Requirements",
+      before_start: "Before you start",
+      enterprise_title: "Enterprise license",
+      enterprise_active: "Active on this store.",
+      enterprise_required: "An Enterprise license is required for this model.",
+      owner_title: "Owner identity verification",
+      owner_verified: "The store owner’s identity is verified.",
+      owner_unverified: "The store owner’s identity has not been verified.",
+      owner_unknown: "Only the store owner can view their verification status.",
+      supplier_title: "Supplier activation",
+      supplier_active: "Activated for this store.",
+      supplier_pending: "Request supplier activation through a support ticket.",
+      vendor_title: "Assign vendors to products",
+      vendor_description:
+        "Each product needs at least one vendor with its own price and inventory. Products without a vendor cannot be purchased.",
+      types_title: "What do you sell?",
+      types_subtitle: "Choose the product types and sales tools your store uses.",
+      types_help:
+        "Select any combination. These choices control which merchandise and sales tools are available in your store.",
+      types_available: "Available types",
+      types_selected: "{count} selected",
+      tab_setup: "Business model setup",
+      tab_types: "Merchandise types",
+      models: {
+        normal: {
+          title: "Normal Store",
+          description: "Sell your own products or resell products from wholesalers.",
+        },
+        dropshipping: {
+          title: "Dropshipping",
+          description: "Sell products that your suppliers fulfill for you.",
+        },
+        wholesaler: {
+          title: "Dropshipping Supplier",
+          description: "Supply other stores and ship directly to their customers.",
+        },
+        marketplace: {
+          title: "Marketplace",
+          description: "Bring independent vendors together in one storefront.",
+        },
+        franchise: {
+          title: "Franchise / Affiliate",
+          description: "Sell through stores under your brand or an affiliate’s brand.",
+        },
+      },
+      types: {
+        PHYSICAL: {
+          title: "Physical products",
+          description:
+            "Goods you ship or hand to customers, including food, books, and electronics.",
+        },
+        VIRTUAL: {
+          title: "Virtual products",
+          description:
+            "Gift cards, reservations, game credits, and other virtual goods.",
+        },
+        FILE: {
+          title: "Digital downloads",
+          description: "Downloadable files, course videos, and documents.",
+        },
+        SERVICE: {
+          title: "Services",
+          description: "Repair, transportation, teaching, and other services.",
+        },
+        SUBSCRIPTION: {
+          title: "Subscriptions",
+          description: "Recurring products, services, content, and billing.",
+        },
+        POS: {
+          title: "Point of sale",
+          description:
+            "Take in-person and manual orders on a phone, tablet, or computer.",
+        },
+        AVOCADO: {
+          title: "Avocado",
+          description:
+            "Create simple invoices with a title and amount for social sales.",
+        },
+        HYPER: {
+          title: "Hyper",
+          description: "Use product QR codes for quick sales.",
+        },
+      },
+      flow: {
+        nodes: {
+          customers: "Customers",
+          your_store: "Your store",
+          your_marketplace: "Your marketplace",
+          store_a: "Store A",
+          store_b: "Store B",
+          reseller: "Reseller",
+          vendor_a: "Vendor A",
+          vendor_b: "Vendor B",
+          sub_store: "Sub-store",
+          affiliate_a: "Affiliate 1",
+          affiliate_b: "Affiliate 2",
+          custom_domain: "Custom domain",
+        },
+        routes: {
+          customers_store: "Customers → {shop}",
+          store_customers: "{shop} → Customers",
+          resellers_store: "Resellers → {shop}",
+          store_vendors: "{shop} → Vendors",
+          vendors_customers: "Vendors → Customers",
+          customers_affiliates: "Customers → Affiliates",
+          affiliates_store: "Affiliates → {shop}",
+          store_connect: "{shop} ↔ Printful / Doba",
+          store_suppliers: "{shop} → Suppliers",
+          suppliers_customers: "Suppliers → Customers",
+        },
+        captions: {
+          payment: "Payment",
+          customer_orders: "Customer orders",
+          payment_fulfillment: "Payment and fulfillment orders",
+          payment_customer_orders: "Payment and customer orders",
+          sync: "Inventory and order synchronization through Connect OS",
+          fulfillment_orders: "Fulfillment orders",
+        },
+      },
+    },
   },
   business_type: {
     title: "Merchandise types",
@@ -11428,6 +12324,7 @@ export default {
    * BInventoryFilter
    */
   inventory_filter: {
+    all_products: "All products",
     placeholder: "Select Filter *.*",
   },
   /**
@@ -11458,6 +12355,50 @@ export default {
    * BPageConnectDashboard
    */
   shop_connect: {
+    modern: {
+      subtitle: "Manage the external services connected to your shop.",
+      connect_action: "Connect new service",
+      connected_services: "Connected services",
+      search: "Search services…",
+      count: "{count} connected services",
+      service: "Service",
+      account: "Account",
+      enabled: "Enabled",
+      disabled: "Disabled",
+      synced: "Synced",
+      syncing: "Syncing",
+      not_started: "Not started",
+      needs_attention: "Needs attention",
+      last_sync: "Last synced {time}",
+      open_connection: "Open connection",
+      no_results: "No matching services",
+      search_hint: "Try another service or account name.",
+      empty_title: "Connect your first service",
+      empty_hint: "Choose a provider to connect it to your shop.",
+      fetch_error: "Could not load connected services. Please try again.",
+      developer: "Developing a service?",
+      manage_providers: "Manage providers",
+      help_title: "Connection guide",
+      help_intro:
+        "Connect OS links your shop to an external provider. Available features depend on that provider.",
+      choose_title: "Choose a service",
+      choose_body:
+        "Select Connect new service, then choose the provider and complete its required connection steps.",
+      sync_title: "Start with a limited sync",
+      sync_body:
+        "Where available, use Limited mode to import a small sample. Review overwrite, image migration and out-of-stock settings before importing more data.",
+      manage_title: "Manage the connection",
+      manage_body:
+        "Open a service in this list to review its details, products, orders, logs and settings where supported.",
+      statuses_title: "Read the connection status",
+      statuses_body:
+        "Enabled shows whether the connection is active. Sync shows whether synchronization is running, completed, not started or needs attention. Open the connection to investigate an error.",
+      capabilities_title: "Provider capabilities",
+      capabilities_body:
+        "Auto confirm accepts eligible orders automatically when supported. Shipping uses the provider’s shipping integration. These labels appear only when enabled for the connection.",
+      import_notice:
+        "A full sync can add products, categories and customers and download images. Check your import preferences and available storage first.",
+    },
     test: {
       title: "Setup",
       subtitle: "External service report",
@@ -11617,11 +12558,82 @@ export default {
     subtitle:
       "Create distinctive, responsive custom pages for your brand using a versatile AI-powered inline editor, and automatically generate dynamic content by feeding in data.",
     empty_message: "Design custom pages by drag & drop...",
+    modern: {
+      subtitle: "Create responsive pages for your brand with the AI-powered editor.",
+      cluster_filter: "Filter pages by resource cluster.",
+      home_filter: "Show home landing page",
+      open_page: "Open landing page",
+      settings: "Page settings",
+      page_count: "{count} pages shown",
+      clear_filters: "Clear filters",
+      manage_clusters: "Manage resource clusters",
+      sort_ascending: "Sort ascending",
+      sort_descending: "Sort descending",
+    },
   },
 
   /**
    * BPageShopPermissionStaff
    */
+  shop_access: {
+    modern: {
+      staff_title: "Staff management",
+      staff_subtitle: "Manage the people who can access your store dashboard.",
+      pending_title: "Pending invitations",
+      pending_description: "Show people who haven’t accepted yet.",
+      staff_count: "{count} staff members",
+      pending_count: "{count} pending invitations",
+      empty_staff_title: "No staff members yet",
+      empty_staff_body: "Invite a colleague to help manage your store.",
+      empty_pending_title: "No pending invitations",
+      empty_pending_body: "New invitations appear here until they’re accepted.",
+      profile_help: "View profile",
+      last_update: "Last update",
+      region: "Section",
+      leave_shop: "Leave shop",
+      remove_staff: "Remove staff",
+      cancel_invitation: "Cancel invitation",
+      staff_note: "Each staff member has a permission level. Individual overrides adjust access to specific sections.",
+    },
+    roles: {
+      title: "Roles management",
+      subtitle: "Assign restricted roles to people who don’t need dashboard access.",
+      empty_title: "No role assignments yet",
+      empty_body: "Add a colleague for a specific task without dashboard access.",
+      add_description: "Choose a colleague and the task they can perform without dashboard access.",
+      email_placeholder: "colleague{'@'}example.com",
+      role_placeholder: "Select a role",
+      count: "{count} role assignments",
+      remove_role: "Remove role",
+    },
+    api: {
+      title: "API applications",
+      subtitle: "Manage applications connected to your store.",
+      add_action: "Add application",
+      application: "Application",
+      owner: "Owner",
+      callbacks: "Callback URLs",
+      type: "Type",
+      public: "Public",
+      confidential: "Confidential",
+      secret_once: "Secret shown once only",
+      information: "Application information",
+      client_type: "Application type",
+      public_title: "Public client",
+      public_description: "A client without a secret, for mobile apps, SPAs and PKCE flows.",
+      confidential_title: "Confidential client",
+      confidential_description: "A client that keeps a secret on a secure server.",
+      redirects_help: "Type a URL and press Enter or Tab to add it to the list.",
+      secret_title: "Save your client secret now",
+      secret_message: "This is the only time this secret is displayed. Store it securely before closing this window.",
+      secret_label: "Client secret",
+      secret_saved: "Done — secret saved",
+      refresh_title: "Refresh your client secret",
+      refresh_message: "Switch to Public and save, then switch back to Confidential and save. A new secret is shown once. The previous secret becomes invalid.",
+      note: "Confidential client secrets are shown only when created. Keep them in your application’s secure server environment.",
+      applications_count: "{count} applications",
+    },
+  },
   shop_staff: {
     list: {
       title: "Staff management ",
@@ -11644,13 +12656,62 @@ export default {
   },
 
   /**
-   * BPageShopCommunityCategories
+   * BPageShopCommunityTopics
    */
+  community_topics: {
+    title: "Topics",
+    subtitle: "Manage the conversations in your community.",
+    search: "Search topics",
+    show_deleted: "Show deleted topics",
+    empty: "No topics yet.",
+    empty_search: "No matching topics.",
+    empty_deleted: "No deleted topics.",
+    contributors: "Contributors",
+    open_action: "Open topic",
+    open_description: "View and edit this topic in the community.",
+    follow: "Follow",
+    pinned: "Pinned",
+    restrict: "Restricted",
+    lock_posts: "Posts locked",
+    lock_comments: "Comments locked",
+  },
+  /** @see BPageShopCommunityCategories */
   community_categories: {
     title: "Categories",
     subtitle: "This is a list of the community's categories.",
     new_category_action: "New Category",
     empty_msg: "No categories have been created so far...",
+    editor: {
+      subtitle: "Organize related topics in your community.",
+      details: "Category details",
+      details_description: "Name the category and explain which topics belong here.",
+      details_help: "Use up to 128 characters for the title and 256 for the description. Both fields are required.",
+      title: "Title",
+      title_placeholder: "e.g. Announcements",
+      description: "Description",
+      description_placeholder: "What belongs in this category?",
+      optional: "Optional",
+      image_hint: "Add an image to help members recognize this category.",
+      image_help: "Choose an image up to 2 MB.",
+      change_image: "Change image",
+      current_image: "Current category image",
+      settings: "Community settings",
+      settings_description: "Choose how people and communities can participate.",
+      nofollow_title: "Nofollow links",
+      nofollow_on: "Mark links in this category as nofollow.",
+      nofollow_off: "Category links use the default follow behavior.",
+      cross_title: "Cross-community topics",
+      cross_on: "Allow cross-linked topics from other communities.",
+      cross_off: "Cross-linked topics from other communities are disabled.",
+      restrict_title: "Restrict topic creation",
+      restrict_on: "Only moderators can create topics in this category.",
+      restrict_off: "Customers can create topics in this category.",
+      state_on: "On",
+      state_off: "Off",
+      create_action: "Create category",
+      required_title: "Enter a category title.",
+      required_description: "Enter a category description.",
+    },
     filter: {
       delete: {
         title: "Deleted",
