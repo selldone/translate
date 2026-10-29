@@ -110,6 +110,17 @@ export default {
 
   admin_footer: {
     title: "منوی تنظیمات سریع",
+    modern: {
+      account_application: "حساب کاربری و برنامه",
+      quick_access: "دسترسی سریع",
+      appearance: "ظاهر",
+      appearance_help: "حالت تیره از وارونگی هوشمند استفاده می‌کند. فوتر در هر دو حالت تیره می‌ماند.",
+      referral_program: "برنامهٔ معرفی",
+      invite_earn: "معرفی و کسب درآمد",
+      referral_help: "لینک خود را به اشتراک بگذارید و از معرفی‌های واجد شرایط درآمد کسب کنید.",
+      copy_link: "کپی لینک",
+      account: "حساب شما",
+    },
     boost_mode: "حالت سریع",
     normal_mode: "حالت عادی",
     boost_message: "سرعت اینترنت تان کم است؟",
@@ -126,6 +137,9 @@ export default {
 
   admin_shop_footer: {
     title: "پنل دسترسی سریع {shop_name}",
+    controls: "کنترل‌های فروشگاه",
+    export: "خروجی گزارش",
+    level_help: "میزان جزئیات نمایش‌داده‌شده در داشبورد را تعیین می‌کند.",
   },
 
   /**

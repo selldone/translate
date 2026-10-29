@@ -110,6 +110,17 @@ export default {
 
   admin_footer: {
     title: "Quick access menu",
+    modern: {
+      account_application: "Account & application",
+      quick_access: "Quick access",
+      appearance: "Appearance",
+      appearance_help: "Dark uses smart invert. The footer stays dark in either mode.",
+      referral_program: "Referral program",
+      invite_earn: "Invite & earn",
+      referral_help: "Share your link and earn from eligible referrals.",
+      copy_link: "Copy link",
+      account: "Your account",
+    },
     boost_mode: "Boost",
     normal_mode: "Normal",
     boost_message: "Poor internet connection and need boost?",
@@ -126,6 +137,9 @@ export default {
 
   admin_shop_footer: {
     title: "Quick access panel of {shop_name}",
+    controls: "Shop controls",
+    export: "Export report",
+    level_help: "Controls how much of the dashboard is shown.",
   },
 
 

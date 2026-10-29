@@ -534,10 +534,10 @@ export default {
     intro: "#1 Operating System for Businesses",
     title: "Replace {infinite} Plugins & Apps with One {app}",
     agent: {
-      eyebrow: "Selldone Business OS × Your AI operator",
-      title: "Give your business an AI operator.",
-      title_accent: "Build it. Run it. With an always-on agent, 24/7.",
-      lead: "Connect ChatGPT, Claude, Codex, or any MCP agent to Selldone. Let it build products, pages, and campaigns, handle approved operations, and report back in your conversation—without living in another dashboard.",
+      eyebrow: "The Business OS built for your AI agents",
+      title: "Build your own online store with AI.",
+      title_accent: "Your design. Unlimited scale.",
+      lead: "Create a fully custom website to sell products and services. Grow from your first sale to your next big milestone, with the commerce tools and AI support to build and run your business.",
       connect_action: "Connect my AI",
       genesis_action: "Explore Selldone Genesis",
       genesis_aria: "Explore Selldone Genesis; opens in a new tab",
@@ -587,6 +587,12 @@ export default {
   },
 
   redesign: {
+    partner: {
+      eyebrow: "For agencies & builders",
+      title: "Build stores. Grow together.",
+      body: "Bring your clients, your expertise and your brand. Explore Selldone’s partnership options for agencies and builders.",
+      action: "Explore partnership",
+    },
     genesis: {
       eyebrow: "Selldone Genesis",
       title: "Your business does not have to fit the interface.",

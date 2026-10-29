@@ -24,6 +24,7 @@ export default {
     experts: "Experts",
     demo: "Selldoners",
     partnership: "Partnership",
+    top_stores: "Top Stores",
     partner: {
       title: "Partner Panel ● Whitelabel SaaS",
       subtitle:
