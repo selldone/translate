@@ -114,7 +114,7 @@ export default {
       account_application: "حساب کاربری و برنامه",
       quick_access: "دسترسی سریع",
       appearance: "ظاهر",
-      appearance_help: "حالت تیره از وارونگی هوشمند استفاده می‌کند. فوتر در هر دو حالت تیره می‌ماند.",
+      appearance_help: "بین حالت روشن و تیره جابه‌جا شوید.",
       referral_program: "برنامهٔ معرفی",
       invite_earn: "معرفی و کسب درآمد",
       referral_help: "لینک خود را به اشتراک بگذارید و از معرفی‌های واجد شرایط درآمد کسب کنید.",

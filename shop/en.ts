@@ -13,6 +13,16 @@
  */
 
 export default {
+  product_embed: {
+    buy_in_store: "Buy in store",
+    buy_handoff: "Continue to the store to complete your purchase.",
+    open_image: "Open product image",
+    select_media: "Select media {number}",
+    previous_media: "Previous media",
+    next_media: "Next media",
+    price_unavailable: "Price unavailable",
+    price_unavailable_help: "The price for this selection is unavailable. Open the store to check the current price.",
+  },
   /** @see SShopProductRatingView **/
   surveys: ["Very poor", "Poor", "Normal", "Good", "Excellent"],
 

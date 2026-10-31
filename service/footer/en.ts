@@ -114,7 +114,7 @@ export default {
       account_application: "Account & application",
       quick_access: "Quick access",
       appearance: "Appearance",
-      appearance_help: "Dark uses smart invert. The footer stays dark in either mode.",
+      appearance_help: "Switch between light and dark mode.",
       referral_program: "Referral program",
       invite_earn: "Invite & earn",
       referral_help: "Share your link and earn from eligible referrals.",

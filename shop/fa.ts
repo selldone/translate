@@ -13,6 +13,16 @@
  */
 
 export default {
+  product_embed: {
+    buy_in_store: "خرید از فروشگاه",
+    buy_handoff: "برای تکمیل خرید به فروشگاه منتقل می‌شوید.",
+    open_image: "باز کردن تصویر محصول",
+    select_media: "انتخاب رسانهٔ {number}",
+    previous_media: "رسانهٔ قبلی",
+    next_media: "رسانهٔ بعدی",
+    price_unavailable: "قیمت در دسترس نیست",
+    price_unavailable_help: "قیمت این انتخاب در دسترس نیست. برای بررسی قیمت فعلی، محصول را در فروشگاه باز کنید.",
+  },
   /** @see SShopProductRatingView **/
   surveys: ["خیلی ضعیف", "ضعیف", "معمولی", "خوب", "عالی"],
 
