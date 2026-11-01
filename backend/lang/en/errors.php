@@ -4,7 +4,7 @@
 return [
 
     'NOT_FOUND_SHOP_ERROR' => "Store not found. Or you don't have access to do this action!",
-    'UPLOADED_FILE_IS_EMPTY' => "Upload file not found.",
+    'UPLOADED_FILE_IS_EMPTY' => "Uploaded file not found.",
     'NOT_FOUND_SHOP_BLOG_ERROR' => "Blog not found.",
     'NOT_FOUND_ARTICLE_ERROR' => "Article not found.",
     'NOT_FOUND_COMMENT_ERROR' => "Comment not found.",
@@ -20,7 +20,7 @@ return [
     'NOT_FOUND_DOMAIN_ERROR' => "Store domain not found.",
     'DOMAIN_DNS_NOT_SET_CORRECTLY_ERROR' => "Domain DNS record value is not properly defined.",
     'DOMAIN_ALREADY_USED_BY_YOU_ERROR' => "You have already registered this domain for this store.",
-    'DOMAIN_ALREADY_USED_BY_ANOTHER_ERROR' => "This domain has already been registered for another store. Contact this support if this domain is for you.",
+    'DOMAIN_ALREADY_USED_BY_ANOTHER_ERROR' => "This domain has already been registered for another store. Contact support if this domain belongs to you.",
     'TOKEN_HAS_NO_ACCESS_ERROR' => "Your token does not have access to this section.",
     'DATABASE_TRANSACTION_FAILED' => "Operation failed. An unexpected error occurred. Please try again or contact support.",
     'ERROR_AUTHOR_NOT_FOUND' => "Author not found.",
@@ -32,14 +32,14 @@ return [
     'NOT_FOUND_APP_ERROR' => "Application not found.",
     'BAD_FILE_FORMAT_ERROR' => "File format is incorrect.",
     'NOT_FOUND_NATIVE_APP_ERROR' => "No application found.",
-    'FILE_SIZE_ERROR' => "File size is large.",
+    'FILE_SIZE_ERROR' => "File size is too large.",
     'PASSWORD_NOT_SET_ERROR' => "You have not entered a password for your account.",
     'NOT_FOUND_GIFT_ACCOUNT_ERROR' => "Default gift receipt account not found.",
     'NOT_FOUND_GIFT_ERROR' => "Gift not found.",
     'CANT_GET_GIFT_ERROR' => "Cannot receive gift!",
     'NOT_FOUND_PERMISSION_ERROR' => "Access Not Found.",
     'HAS_NO_PERMISSION' => "You have no access.",
-    'INTERNAL_SERVERS_ERROR' => "Error connecting server internals.",
+    'INTERNAL_SERVERS_ERROR' => "Error connecting to internal servers.",
     'NOT_FOUND_REFERRAL_PROGRAM_ERROR' => "No application found.",
     'REFERRAL_PROGRAM_NOT_ENABLE_ERROR' => "Application is not active.",
     'NOT_FOUND_REFERRAL_LINK_ERROR' => "You have not joined this application.",
@@ -49,12 +49,12 @@ return [
     'NOT_VALID_CURRENCY_TO_TRANSACTION_ERROR' => "No transaction is possible for this currency.",
     'NOT_VALID_AMOUNT_ERROR' => "Invalid amount.",
     'NOT_SUFFICIENT_BALANCE_ERROR' => "Account balance is insufficient!",
-    'NOT_MATCH_CURRENCY_FROM_TO_ERROR' => "The source and destination account currency are not the same.",
+    'NOT_MATCH_CURRENCY_FROM_TO_ERROR' => "The source and destination account currencies are not the same.",
     'NOT_VALID_ACCOUNT_TO_ERROR' => "Invalid destination account.",
     'NOT_VALID_ACCOUNT_FROM_ERROR' => "Invalid sender account.",
     'TRANSACTION_ERROR' => "Transaction error occurred.",
     'CURRENCY_NOT_MATCH_ERROR' => "The gift card currency is not the same as the currency requested for the transaction.",
-    'MINIMUM_TRANSACTION_AMOUNT_ERROR' => "The amount is less than the transferable amount. Minimum amount: :amount :currency",
+    'MINIMUM_TRANSACTION_AMOUNT_ERROR' => "The amount is less than the minimum transferable amount. Minimum amount: :amount :currency",
     'SOURCE_AND_DESTINATION_ACCOUNT_ARE_SAME' => "The source and destination accounts are the same!",
     'SOURCE_ACCOUNT_NOT_ACTIVE_ERROR' => "Source account is not active.",
     'DESTINATION_ACCOUNT_NOT_ACTIVE_ERROR' => "Destination account is not active.",
@@ -84,12 +84,12 @@ return [
     'CANT_CREATE_GATEWAY_ERROR' => "An error occurred. Cannot create the gateway.",
     'PERMISSION_NOT_DEFINED_ERROR' => "Such access is not defined!",
     'NOT_FOUND_COMPANY_ERROR' => "No company found.",
-    'NO_ACCESS_TO_ADD_APPLICATION_ERROR' => "You do not have permission to add app.",
+    'NO_ACCESS_TO_ADD_APPLICATION_ERROR' => "You do not have permission to add an app.",
     'APPLICATION_CODE_DUPLICATED_ERROR' => "Application code :code is already registered.",
     'HAVE_A_COMPANY_PENDING_ERROR' => "You have an unapproved request. Please wait until the new request is registered.",
-    'TWO_FACTOR_AUTH_CODE_INVALID_ERROR' => "The verification code is incorrect, please try again.",
+    'TWO_FACTOR_AUTH_CODE_INVALID_ERROR' => "The verification code is incorrect. Please try again.",
     'PASSWORD_INCORRECT_ERROR' => "The password is incorrect. Please try again.",
-    'PASSWORD_MISS_MATCH_ERROR' => "New subscription does not match it.",
+    'PASSWORD_MISS_MATCH_ERROR' => "The new password and its confirmation do not match.",
     'NOT_SET_PASSWORD_FOR_USER_ERROR' => "You did not specify a password! Please enter the password for this account first.",
     'NOT_VERIFIED_PHONE_NUMBER_FOR_USER_ERROR' => "Confirm your mobile number first.",
     'TWO_FACTOR_AUTH_NOT_ENABLE_ERROR' => "Two-step login is not enabled for your account.",
@@ -107,7 +107,7 @@ return [
     'DISCOUNT_CODE_DUPLICATED_ERROR' => "The code is duplicated! Please use another code.",
     'NOT_FOUND_DISCOUNT_CODE_ERROR' => "No discount code found.",
     'DISCOUNT_CODE_CURRENCY_NOT_MATCHED_ERROR' => "Discount code currency does not match your selected currency.",
-    'DISCOUNT_CODE_NOT_FREE_ERROR' => "Discount code capacity completed.",
+    'DISCOUNT_CODE_NOT_FREE_ERROR' => "Discount code usage limit reached.",
     'CARD_TYPE_ERROR' => "Invalid card type.",
     'NOT_FOUND_GIFT_CARD_ERROR' => "Gift card not found.",
     'GIFT_CARD_USED_ERROR' => "This card has been used and cannot be transferred to anyone else.",
@@ -117,7 +117,7 @@ return [
     'YOU_ADD_GIFT_CARD_ALREADY_ERROR' => "You have already added this card to your list.",
     'CHARGE_AMOUNT_ERROR' => "Charge amount must be greater than 0",
     'GATEWAY_NOT_ENABLE_ERROR' => "Payment port is not enabled.",
-    'GATEWAY_CURRENCY_NOT_MATCH_ERROR' => "Payment method currency does not match with request currency.",
+    'GATEWAY_CURRENCY_NOT_MATCH_ERROR' => "Payment method currency does not match the request currency.",
     'SHOP_EXCHANGE_RATE_NOT_VALID_ERROR' => "Store conversion rates are incorrect!",
     'BASKET_CHANGED_ERROR' => "The price of the product in the cart has changed. Item: :item_name, Old price: :old_price :currency, New price: :new_price :currency",
     'INSUFFICIENT_PRODUCT_QUANTITY_ERROR' => "Insufficient inventory. :product",
@@ -129,19 +129,19 @@ return [
     'GIFT_CARD_NOT_ENABLE_ERROR' => "Card :number is not enabled.",
     'GIFT_CARD_PAYMENT_AMOUNT_ERROR' => "Calculation error. Gift card payment: :amount_pay_by_gift_cards, total amount: :total_price",
     'STRUCTURAL_SELLDONE_ERROR' => "Error in application structure.",
-    'GATEWAY_AMOUNT_LESS_THAN_MINIMUM_ERROR' => "The transaction amount is less than the minimum portable amount with this port.",
-    'GATEWAY_AMOUNT_GREATER_THAN_MAXIMUM_ERROR' => "The transaction amount exceeds the maximum amount portable with this port.",
+    'GATEWAY_AMOUNT_LESS_THAN_MINIMUM_ERROR' => "The transaction amount is less than the minimum amount supported by this gateway.",
+    'GATEWAY_AMOUNT_GREATER_THAN_MAXIMUM_ERROR' => "The transaction amount exceeds the maximum amount supported by this gateway.",
     'NOT_FOUNT_BASKET_ERROR' => "Cart not found.",
     'NOT_FOUNT_PRODUCT_ERROR' => "Product not found.",
     'NOT_FOUNT_BASKET_ITEM_ERROR' => "The item was not found in your cart.",
     'NOT_FOUNT_VARIANT_ERROR' => "Variant not found.",
-    'MAX_RATINGS_COUNT_ERROR' => "Maximum evaluable options are 5 numbers",
+    'MAX_RATINGS_COUNT_ERROR' => "The maximum number of rating options is 5.",
     'DUPLICATED_RATING_ERROR' => "This item has already been added.",
     'NOT_FOUND_RATING_ERROR' => "The desired option was not found.",
     'NOT_FOUND_PRODUCT_IMAGE_ERROR' => "Image not found.",
     'NOT_FOUND_SHOP_PROFILE_TYPE_ERROR' => "Store profile type not found.",
     'NOT_FOUND_SHOP_PROFILE_ERROR' => "Store profile not found.",
-    'APP_TRANSLATION_LIMIT_ERROR' => "You can create 1 free project. To add more contact us,",
+    'APP_TRANSLATION_LIMIT_ERROR' => "You can create 1 free project. To add more, contact us.",
     'NOT_FOUND_SOCIAL_NETWORK_ERROR' => "Invalid network.",
     'NO_CURRENCY_ADDED_IN_SHOP_ERROR' => "At least one currency must be enabled.",
     'NOT_FOUNT_PAYMENT_IN_QUE_ERROR' => "Payment receipt not found.",
@@ -165,14 +165,14 @@ return [
     'NOT_FOUND_SHOP_EMAIL_ERROR' => "Email not found.",
 
 
-    'LICENSE_EXCEEDS_LIMIT' => "License exceeds it's limit.",
+    'LICENSE_EXCEEDS_LIMIT' => "License exceeds its limit.",
     'MIN_SHOP_NAME_ERROR' => "The minimum length of the name is :length characters.",
     'SHOP_NAME_EXIST_ERROR' => "This name has already been registered.",
 
     'NOT_FOUND_LOTTERY_ERROR' => "Lottery not found.",
     'NOT_FOUND_LOTTERY_PRIZE_ERROR' => "Lottery prize not found.",
     'LOTTERY_PRIZE_NOT_SELECT_VARIANT_ERROR' => "Variant of prize not selected.",
-    'SHOP_LOTTERY_NOT_ENABLE_ERROR' => "Shop lottery not enable.",
+    'SHOP_LOTTERY_NOT_ENABLE_ERROR' => "Shop lottery is not enabled.",
 
     'NOT_FOUND_CASHBACK_ERROR' => 'Cashback not found.',
 
@@ -180,7 +180,7 @@ return [
 
     'CLIENT_BASKET_PAYMENT_AMOUNT_NOT_MATCH_ERROR' => "The payment amount is not the same as the amount calculated on the server. Send this issue to support@selldone.com",
     'GATEWAY_COD_NOT_SUPPORT_THIS_PRODUCT_TYPE_ERROR' => "Cash on delivery payment method can only be used for physical products and services.",
-    'GATEWAY_CASH_NOT_SUPPORT_FOR_THIS_ORDER_TYPE' => "Cash payment method not supported fo this order type.",
+    'GATEWAY_CASH_NOT_SUPPORT_FOR_THIS_ORDER_TYPE' => "Cash payment method not supported for this order type.",
 
 
 
@@ -205,12 +205,12 @@ return [
 
 
     'CHECKOUT_BASKET_EMPTY_ERROR' => "The cart is empty.",
-    'CHECKOUT_BASKET_OFFER_CHANGED_ERROR' => "Offers has been changed!",
+    'CHECKOUT_BASKET_OFFER_CHANGED_ERROR' => "Offers have been changed!",
 
     'NOT_FOUNT_BILL_ERROR' => "Bill not found.",
     'CAN_NOT_EDIT_PAYED_ERROR' => "Cannot edit a paid bill.",
 
-    'EXPIRED_AVOCADO_ERROR' => "This bill is for more than a month ago and is therefore not visible.",
+    'EXPIRED_AVOCADO_ERROR' => "This bill is from more than a month ago and is therefore not visible.",
     'NOT_FOUND_AVOCADO_ERROR' => "Avocado not found.",
 
     'NOT_FOUND_HYPER_ERROR' => "Hyper basket not found.",
@@ -229,7 +229,7 @@ return [
     //――――――――――――――――――― Charge Service ――――――――――――――――――
     'NOT_BEFORE_RECEIVED_CHARGE_ERROR' => "You have already received your gift charge!",
     'NOT_FREE_CHARGE_NOT_AVAILABLE_ERROR' => "Free charge not available.",
-    'NOT_GIFT_NOT_EXIST_FOR_CURRENCY_ERROR' => "Gift not exist for this currency!",
+    'NOT_GIFT_NOT_EXIST_FOR_CURRENCY_ERROR' => "Gift does not exist for this currency!",
     'NOT_TOTAL_CHARGE_NOT_MEET_CONDITION_ERROR' => "The total charge for this account must be at least :amount :currency. Charge this account with at least :remains :currency, then try to claim your additional :amount :currency gift.",
 
 
@@ -250,17 +250,17 @@ return [
     'BASKET_ADD_ITEM_VARIANT_NOT_FOUND_ERROR' => "The selected product type is incorrect. This product variety no longer exists. This item has been removed from your cart.",
     'BASKET_ADD_ITEM_NOT_ENOUGH_QUANTITY_ERROR' => "Not enough inventory. Maximum quantity is :available_count.",
     'CASH_TRANSACTION_NOT_FOUND_ERROR' => "Cash payment transaction not found.",
-    'TRANSACTION_NOT_READY_TO_PAY_ERROR' => "The transaction is not ready to pay.",
+    'TRANSACTION_NOT_READY_TO_PAY_ERROR' => "The transaction is not ready for payment.",
     'ORDER_COUNT_MUST_BE_POSITIVE_ERROR' => "The order count must be a positive number.",
     'CAN_NOT_APPLY_CHANGE_ERROR' => "It is not possible to apply the requested changes.",
     'ORDER_RETURN_REQUEST_NOT_FOUND' => "There is no return request for this item.",
-    'ORDER_NOT_DELIVERED_NOT_CONFIRMED_ERROR' => "Order confirmation has not been confirmed!",
+    'ORDER_NOT_DELIVERED_NOT_CONFIRMED_ERROR' => "Order delivery has not been confirmed!",
     'RETURN_WARRANTY_NOT_EXIST_ERROR' => "The product does not have a return guarantee.",
     'ORDER_RETURN_WARRANTY_EXPIRED' => "Unfortunately, the time limit for returning the goods has passed.",
     'DELETE_FILE_FAILED_ERROR' => "An error occurred while deleting the file.",
     'NOT_BOUGHT_THE_PRODUCT_ERROR' => "You have not purchased this product.",
     'MAX_ADD_LIMIT_ERROR' => ":count items can be added at most.",
-    'POPUP_NOTFOUND_ERROR' => "popup not found.",
+    'POPUP_NOTFOUND_ERROR' => "Popup not found.",
     'INVITE_REJECTED_BEFORE_ERROR' => "You have already rejected this invite!",
     'INVITE_ACCEPTED_BEFORE_ERROR' => "You have already accepted the :shop store invitation.",
     'PAGE_HISTORY_NOT_FOUND_ERROR' => "Page history not found.",
@@ -270,16 +270,16 @@ return [
     'APPLICATION_BUILD_INVALID_MIN_VERSION' => "The application version must be greater than the previous version. Latest version: :version",
 
     //――――――――――――――――――― Product ――――――――――――――――――
-    'NOT_FOUND_LOGISTIC_PROFILE_ERROR' => "The logistic profile not found!",
-    'NOT_FOUND_TAX_PROFILE_ERROR' => "The tax profile not found!",
-    'NOT_FOUND_MAP_TAG_PROFILE_ERROR' => "The location tag not found!",
+    'NOT_FOUND_LOGISTIC_PROFILE_ERROR' => "The logistic profile was not found!",
+    'NOT_FOUND_TAX_PROFILE_ERROR' => "The tax profile was not found!",
+    'NOT_FOUND_MAP_TAG_PROFILE_ERROR' => "The location tag was not found!",
 
 
 
     //――――――――――――――――――― Vendor ――――――――――――――――――
     'NOT_FOUND_VENDOR_ERROR' => "Vendor not found.",
     'NOT_FOUND_VENDOR_ORDER_ERROR' => "Vendor order not found.",
-    'NOT_FOUND_ACCESS_ERROR' => "Your vendor account has no necessary access for this action.",
+    'NOT_FOUND_ACCESS_ERROR' => "Your vendor account does not have the necessary access for this action.",
     'MARKETPLACE_NOT_PERMITTED_EDIT_PRODUCTS' => "Vendors are not allowed to edit products in this marketplace. You currently lack the required permissions to modify products here. Please verify that you have the appropriate access privileges or reach out to the marketplace administrator for help.",
 
 

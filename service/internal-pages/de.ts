@@ -13,6 +13,24 @@
  */
 
 export default {
+  blog_reader: {
+    article_tools: "Artikelwerkzeuge",
+    edit_article: "Artikel bearbeiten",
+    auto_translate: "Automatisch übersetzen",
+    import_word: "Word importieren",
+    seo_and_data: "SEO & strukturierte Daten",
+    more_actions: "Weitere Artikelaktionen",
+    more_from_author: "Mehr von {name}",
+    conversation: "Die Diskussion",
+    comment_title: "Was denken Sie?",
+    keep_exploring: "Weiterlesen",
+    related_title: "Mehr Ideen für Ihren nächsten Schritt.",
+    all_articles: "Alle Artikel",
+    article_link: "Artikellink",
+    reading_time: "{count} Min. Lesezeit",
+    comment_login_title: "Anmelden und kommentieren",
+    comment_login_hint: "Diskutieren Sie mit Ihrem Selldone-Konto mit.",
+  },
   stories:{
     showcase: {
       conversion: {

@@ -2133,6 +2133,16 @@ export default {
     "pagePublished": "Published"
   },
   domains_modern: {
+    provider: {
+      label: "Connection provider: {provider}",
+      unknown_name: "Unknown provider",
+      builtin: "Selldone store address. Provider detection is not run for built-in addresses.",
+      direct: "Direct connection to Selldone, confirmed by the destination.",
+      detected: "{provider} detected from the last HTTPS check.",
+      unknown: "Provider not identified by the last HTTPS check.",
+      not_checked: "Provider has not been checked yet. Use Check SSL in connection details.",
+      checked_at: "Last checked: {date}",
+    },
     "page_title": "Domains & home",
     "page_subtitle": "Manage your store’s addresses and what customers see first.",
     "home_title": "Default home page",
@@ -2595,8 +2605,11 @@ export default {
       "verified": "Verified",
       "pending": "Verification pending",
       "connection_error": "Connection error",
+      "connection_details": "View connection & HTTPS details",
       "enabled": "Enabled",
       "disabled": "Disabled",
+      "enable_action": "Enable this address",
+      "disable_action": "Disable this address",
       "index_unavailable": "Indexing unavailable",
       "index_allowed": "Indexing allowed",
       "index_off": "Indexing off",
@@ -3141,6 +3154,21 @@ export default {
   /** {@see Helps} **/
 
   helps: {
+    api_guide: {
+      nav: "API Documentation",
+      nav_link: "Build with Selldone APIs",
+      nav_hint: "Dashboard, storefront and community.",
+      title: "Build it your way, with APIs.",
+      intro: "Build your dashboard, storefront or community from scratch. Design your own interface while Selldone APIs power the services behind it.",
+      dashboard_title: "Dashboard",
+      dashboard_body: "Build custom business tools and workflows for your team.",
+      storefront_title: "Storefront",
+      storefront_body: "Create a shopping experience for your website or app.",
+      community_title: "Community",
+      community_body: "Connect categories, topics, posts and comments in your own interface.",
+      open_docs: "Explore API documentation",
+      note: "See authentication, permissions and request examples for each operation in the docs.",
+    },
     editor: {
       title: "Edit guide",
       description: "Write clearly. Make the next step easy to follow.",
@@ -3210,6 +3238,7 @@ export default {
       discard: "Discard changes",
     },
     guidebook: {
+      child_guides: "Subguides ({count})",
       headline: "Find answers.",
       headline_accent: "Build with confidence.",
       intro:
@@ -14407,6 +14436,25 @@ Show a working preview and prepare a static Cloudflare deployment following the 
 
   /** @see BProductAddStudio **/
   product_studio: {
+    fast: {
+      title: "Quick add product",
+      subtitle: "Enter the essentials now. Complete the details whenever you need.",
+      add_finish: "Add and finish",
+      add_complete: "Add and complete",
+      add_images_help: "Add product images",
+      optional_details: "More information · Optional",
+      completion_title: "Product added",
+      completion_subtitle: "Add images or complete the product details. You can return later.",
+      images: "Images",
+      physical_details: "Inventory and variants",
+      virtual_details: "Virtual items",
+      file_details: "Downloadable files",
+      service_details: "Capacity and booking",
+      subscription_details: "Subscription plans",
+      add_another: "Add another product",
+      saved_notice: "The product is saved. Complete any required inventory, delivery or billing settings before selling.",
+      create_error: "The product could not be added. Your entries are kept; try again.",
+    },
     add_mode: "Add more details",
     auto_category: "Auto-set category",
     add_in_current_category: "Add to the current category",
@@ -17041,6 +17089,26 @@ Show a working preview and prepare a static Cloudflare deployment following the 
 
   /** {@see BPagePos**/
   cash_register: {
+    orders: {
+      subtitle: "Find a sale or continue a saved order.",
+      search: "Search orders…",
+      search_help: "Search by order ID or linked buyer name, email or phone.",
+      selected_states: "Order statuses",
+      payment: "Payment status",
+      date: "Order date",
+      cod_help: "Payment is due on delivery.",
+      error_title: "Orders couldn’t be loaded",
+      error_body: "Check your connection, then try again.",
+      retry: "Try again",
+      empty_title: "No orders in this view",
+      empty_body: "Orders appear here when a sale is saved or completed.",
+      no_results_title: "No matching orders",
+      no_results_body: "Try another order code or change the selected statuses.",
+      clear_search: "Clear search",
+      amount_sort_help: "Amounts are sorted within each original currency.",
+      range: "{start}–{end} of {total} orders",
+      open_order: "Open order {code}",
+    },
     modern: {
       cash_method: "Cash",
       no_payment_due: "No payment is due. Complete this sale to record the order.",
@@ -17057,6 +17125,8 @@ Show a working preview and prepare a static Cloudflare deployment following the 
       stay_pos: "Stay in POS",
       back_to_register: "Return to register",
       new_sale: "New sale",
+      new_sale_failed: "The order is saved. A new sale could not be opened. Try again.",
+      retry_new_sale: "Retry new sale",
       complete_sale: "Complete sale",
       sale_completed: "Payment received",
       sale_completed_hint: "The sale is complete. Download the receipt or start a new sale.",
@@ -17117,6 +17187,7 @@ Show a working preview and prepare a static Cloudflare deployment following the 
       pickup: "In-store pickup",
       delivery_to_customer: "Delivery to customer",
       selected_giftcards: "Selected cards: {count}",
+      incentive_selected: "Selected",
       customer_incentive_hint: "Choose a customer to use discount codes, coupons or gift cards.",
       continue_payment: "Continue to payment",
       amount_due: "Amount due",

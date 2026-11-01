@@ -1511,6 +1511,12 @@ export default {
 
   /** {@see ArticleViewer} **/
   article: {
+    code_editor: {
+      description:
+        "Add a code sample for your readers. Apply changes to the draft, then save the article when ready.",
+      language: "Code language",
+      code_label: "Source code",
+    },
     flowchart: {
       title: "Flowchart",
       insert: "Insert flowchart",

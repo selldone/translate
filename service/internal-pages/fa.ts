@@ -13,6 +13,24 @@
  */
 
 export default {
+  blog_reader: {
+    article_tools: "ابزارهای مقاله",
+    edit_article: "ویرایش مقاله",
+    auto_translate: "ترجمهٔ خودکار",
+    import_word: "ورود فایل Word",
+    seo_and_data: "سئو و داده‌های ساختاریافته",
+    more_actions: "عملیات بیشتر مقاله",
+    more_from_author: "نوشته‌های بیشتر از {name}",
+    conversation: "گفت‌وگو",
+    comment_title: "نظر شما چیست؟",
+    keep_exploring: "بیشتر بخوانید",
+    related_title: "ایده‌های بیشتر برای قدم بعدی شما.",
+    all_articles: "همهٔ مقاله‌ها",
+    article_link: "لینک مقاله",
+    reading_time: "مطالعهٔ {count} دقیقه‌ای",
+    comment_login_title: "برای نوشتن نظر وارد شوید",
+    comment_login_hint: "با حساب سلدان خود به گفت‌وگو بپیوندید.",
+  },
   stories:{
     showcase: {
       conversion: {
