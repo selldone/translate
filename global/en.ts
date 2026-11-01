@@ -1511,6 +1511,25 @@ export default {
 
   /** {@see ArticleViewer} **/
   article: {
+    flowchart: {
+      title: "Flowchart",
+      insert: "Insert flowchart",
+      edit: "Edit flowchart",
+      definition: "Definition · JSON",
+      preview: "Preview",
+      copy_ai_prompt: "Copy AI prompt",
+      prompt_copied: "AI prompt copied.",
+      copy_failed: "The prompt could not be copied. Try again.",
+      legend_in_flight: "In progress",
+      legend_error: "Error",
+      legend_warning: "Needs attention",
+      legend_success: "Complete",
+      editor_hint: "Edit the JSON definition or ask your AI to create one. Use 2–6 steps and up to 12 connections; the preview uses the same renderer as API Docs.",
+      invalid: "This flowchart definition is invalid. Check the JSON, field limits, and node connections. Plain text only; no HTML or extra fields.",
+      preview_empty: "Correct the definition to see the diagram.",
+      ai_prompt: "Create a Selldone flowchart for the process I describe. Follow the exact schema and limits below, use clear step labels, and return one JSON object. Use the branching example as a structural reference; replace its content with my process.",
+      limit: "At most eight flowcharts per article.",
+    },
     inline_tools: {
       edit: "Edit {block}",
       controls: "Show {block} controls",
@@ -1925,6 +1944,7 @@ export default {
     },
     /** {@see SArticleEditor} **/
     editor: {
+      insert_content: "Insert content",
       title_placeholder: "Title..",
       body_placeholder: "Write great content..",
       accept_file_types_error: "This file format is unacceptable:",

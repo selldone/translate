@@ -24,7 +24,7 @@ export default {
     experts: "متخصصین",
     demo: "نمونه",
     partnership: "مشارکت",
-    top_stores: "فروشگاه‌های برتر",
+    top_stores: "فروشگاه‌های زنده",
     partner: {
       title: "پنل همکار ● SaaS با برند شما",
       subtitle:
