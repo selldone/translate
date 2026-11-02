@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Visiteuren Analytics",
     new_visitors: "Nei Visiteuren",
-    amp: "AMP Meenung",
     returning_visitors: "Retour Visiteuren",
     page_views: "Säit Meenung",
     other_pages: "Aner Säiten",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Bitt eng nahtlos mobil Erfahrung fir de Publikum a Sichmotoren op Ärer Websäit.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Beschleunegt mobil Säiten Auto Generatioun.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

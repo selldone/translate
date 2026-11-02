@@ -215,8 +215,6 @@ export default {
     "meta_info": "Automātiski izveidojiet pilnībā uzlabotus metatagus",
     "jsonld": "JSON-LD",
     "jsonld_info": "Strukturētie dati",
-    "amp": "AMP",
-    "amp_info": "Paātrinātās mobilās lapas",
     "compress": "Attēlu saspiešana",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Ātruma paātrinātājs",

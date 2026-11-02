@@ -215,8 +215,6 @@ export default {
     "meta_info": "Tự động tạo các thẻ meta nâng cao hoàn toàn",
     "jsonld": "JSON-LD",
     "jsonld_info": "Dữ liệu có cấu trúc",
-    "amp": "AMP",
-    "amp_info": "Trang di động được tăng tốc",
     "compress": "Nén hình ảnh",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Bộ tăng tốc tốc độ",

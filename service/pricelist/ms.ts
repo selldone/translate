@@ -215,8 +215,6 @@ export default {
     "meta_info": "Cipta teg meta maju sepenuhnya secara automatik",
     "jsonld": "JSON-LD",
     "jsonld_info": "Data Berstruktur",
-    "amp": "AMP",
-    "amp_info": "Halaman mudah alih dipercepatkan",
     "compress": "Pemampatan Imej",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Pemecut Kelajuan",

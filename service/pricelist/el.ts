@@ -215,8 +215,6 @@ export default {
     "meta_info": "Δημιουργήστε αυτόματα πλήρως προηγμένες μετα-ετικέτες",
     "jsonld": "JSON-LD",
     "jsonld_info": "Δομημένα Δεδομένα",
-    "amp": "AMP",
-    "amp_info": "Επιταχυνόμενες σελίδες για κινητά",
     "compress": "Συμπίεση εικόνας",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Επιταχυντής Ταχύτητας",

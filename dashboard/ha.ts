@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Binciken Baƙi",
     new_visitors: "Sabbin baƙi",
-    amp: "Ra'ayin AMP",
     returning_visitors: "Maziyartan dawowa",
     page_views: "Ra'ayoyin shafi",
     other_pages: "Wasu shafuka",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Samar da ƙwarewar wayar hannu mara lahani ga masu sauraro da injunan bincike akan gidan yanar gizon ku.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Haɓaka shafukan hannu na auto ƙirƙira.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

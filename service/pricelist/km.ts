@@ -215,8 +215,6 @@ export default {
     "meta_info": "បង្កើតស្លាកមេតាកម្រិតខ្ពស់ពេញលេញដោយស្វ័យប្រវត្តិ",
     "jsonld": "JSON-LD",
     "jsonld_info": "ទិន្នន័យដែលមានរចនាសម្ព័ន្ធ",
-    "amp": "AMP",
-    "amp_info": "ទំព័រទូរសព្ទចល័តដែលបង្កើនល្បឿន",
     "compress": "ការបង្ហាប់រូបភាព",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "ឧបករណ៍បង្កើនល្បឿន",

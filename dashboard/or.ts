@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "ପରିଦର୍ଶକ ଆନାଲିଟିକ୍ସ |",
     new_visitors: "ନୂତନ ପରିଦର୍ଶକ |",
-    amp: "AMP ଦୃଶ୍ୟ |",
     returning_visitors: "ପରିଦର୍ଶକମାନଙ୍କୁ ଫେରସ୍ତ",
     page_views: "ପୃଷ୍ଠା ଦୃଶ୍ୟ |",
     other_pages: "ଅନ୍ୟ ପୃଷ୍ଠାଗୁଡ଼ିକ |",
@@ -9053,10 +9052,6 @@ export default {
       msg: "ଆପଣଙ୍କ ୱେବସାଇଟରେ ଦର୍ଶକ ଏବଂ ସର୍ଚ୍ଚ ଇଞ୍ଜିନ୍ ପାଇଁ ଏକ ନିରବିହୀନ ମୋବାଇଲ୍ ଅଭିଜ୍ଞତା ପ୍ରଦାନ କରନ୍ତୁ |",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "ତ୍ୱରିତ ମୋବାଇଲ୍ ପୃଷ୍ଠାଗୁଡ଼ିକ ଅଟୋ ଜେନେରେସନ୍ |",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

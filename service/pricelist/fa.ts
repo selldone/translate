@@ -259,8 +259,6 @@ export default {
     meta_info: "ایجاد متا تگ های کامل و پیشرفته به صورت خودکار",
     jsonld: "JSON-LD",
     jsonld_info: "Structured Data",
-    amp: "AMP",
-    amp_info: "Accelerated mobile pages",
     compress: "فشرده سازی تصاویر",
     compress_info: "فرمت jpg, png, svg, wpng, ...",
     boost: "Speed accelerator",

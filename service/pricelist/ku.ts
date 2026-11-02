@@ -215,8 +215,6 @@ export default {
     "meta_info": "Meta tagên bi tevahî pêşkeftî bixweber biafirînin",
     "jsonld": "JSON-LD",
     "jsonld_info": "Daneyên Structured",
-    "amp": "AMP",
-    "amp_info": "Rûpelên mobîl ên bilezkirî",
     "compress": "Compression Wêne",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Speed Accelerator",

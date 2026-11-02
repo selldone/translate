@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Baeti Analytics",
     new_visitors: "Baeti ba bacha",
-    amp: "maikutlo a AMP",
     returning_visitors: "Baeti ba khutlang",
     page_views: "Maikutlo a leqephe",
     other_pages: "Maqephe a mang",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Fana ka boiphihlelo ba mobile bo se nang mathata bakeng sa bamameli le lienjineri tsa ho batla webosaeteng ea hau.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "E potlakisa maqephe a mehala ea ho iketsetsa.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

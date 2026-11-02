@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Այցելուների վերլուծություն",
     new_visitors: "Նոր այցելուներ",
-    amp: "AMP դիտումներ",
     returning_visitors: "Վերադարձող այցելուներ",
     page_views: "Էջի դիտումներ",
     other_pages: "Այլ էջեր",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Ապահովեք անխափան բջջային փորձ ձեր վեբկայքի լսարանի և որոնման համակարգերի համար:",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Բջջային էջերի արագացված ավտոմատ արտադրություն:",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

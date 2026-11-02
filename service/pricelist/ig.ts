@@ -215,8 +215,6 @@ export default {
     "meta_info": "Mepụta mkpado meta dị elu na-akpaghị aka",
     "jsonld": "JSON-LD",
     "jsonld_info": "Data Haziri",
-    "amp": "AMP",
-    "amp_info": "Ibe mkpanaaka emelitere",
     "compress": "Mkpakọ onyonyo",
     "compress_info": "jpg, png, svg, wpng,...",
     "boost": "Ọsọ osooso",

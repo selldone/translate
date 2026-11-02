@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "ವಿಸಿಟರ್ಸ್ ಅನಾಲಿಟಿಕ್ಸ್",
     new_visitors: "ಹೊಸ ಸಂದರ್ಶಕರು",
-    amp: "AMP ವೀಕ್ಷಣೆಗಳು",
     returning_visitors: "ಹಿಂದಿರುಗುವ ಸಂದರ್ಶಕರು",
     page_views: "ಪುಟ ವೀಕ್ಷಣೆಗಳು",
     other_pages: "ಇತರ ಪುಟಗಳು",
@@ -9053,10 +9052,6 @@ export default {
       msg: "ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಪ್ರೇಕ್ಷಕರಿಗೆ ಮತ್ತು ಸರ್ಚ್ ಇಂಜಿನ್‌ಗಳಿಗೆ ತಡೆರಹಿತ ಮೊಬೈಲ್ ಅನುಭವವನ್ನು ಒದಗಿಸಿ.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "ವೇಗವರ್ಧಿತ ಮೊಬೈಲ್ ಪುಟಗಳು ಸ್ವಯಂ ಉತ್ಪಾದನೆ.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

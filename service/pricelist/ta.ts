@@ -215,8 +215,6 @@ export default {
     "meta_info": "முழுமையாக மேம்பட்ட மெட்டா குறிச்சொற்களை தானாக உருவாக்கவும்",
     "jsonld": "JSON-LD",
     "jsonld_info": "கட்டமைக்கப்பட்ட தரவு",
-    "amp": "AMP",
-    "amp_info": "துரிதப்படுத்தப்பட்ட மொபைல் பக்கங்கள்",
     "compress": "பட சுருக்கம்",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "வேக முடுக்கி",

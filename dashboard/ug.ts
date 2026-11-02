@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "زىيارەتچىلەر ئانالىزچىسى",
     new_visitors: "يېڭى زىيارەتچىلەر",
-    amp: "AMP كۆرۈنۈشلىرى",
     returning_visitors: "قايتىپ كەلگەن زىيارەتچىلەر",
     page_views: "بەت كۆرۈنۈشى",
     other_pages: "باشقا بەتلەر",
@@ -9053,10 +9052,6 @@ export default {
       msg: "تور بېتىڭىزدىكى ئۈندىدار ۋە ئىزدەش ماتورلىرى ئۈچۈن يوچۇقسىز كۆچمە تەجرىبە بىلەن تەمىنلەڭ.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "كۆچمە بەتلەرنىڭ ئاپتوماتىك ھاسىل قىلىنىشى تېزلىتىلدى.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

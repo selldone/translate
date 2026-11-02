@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Alejo atupale",
     new_visitors: "New alejo",
-    amp: "Awọn iwo AMP",
     returning_visitors: "Awọn alejo ti n pada",
     page_views: "Awọn iwo oju-iwe",
     other_pages: "Awọn oju-iwe miiran",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Pese iriri alagbeka ailopin fun awọn olugbo ati awọn ẹrọ wiwa lori oju opo wẹẹbu rẹ.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Onikiakia mobile ojúewé auto iran.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

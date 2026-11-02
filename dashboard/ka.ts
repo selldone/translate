@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "ვიზიტორთა ანალიტიკა",
     new_visitors: "ახალი ვიზიტორები",
-    amp: "AMP ნახვები",
     returning_visitors: "დაბრუნებული ვიზიტორები",
     page_views: "გვერდის ნახვები",
     other_pages: "სხვა გვერდები",
@@ -9053,10 +9052,6 @@ export default {
       msg: "უზრუნველყოთ უწყვეტი მობილური გამოცდილება აუდიტორიისთვის და საძიებო სისტემებისთვის თქვენს ვებსაიტზე.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "მობილური გვერდების დაჩქარებული ავტო გენერაცია.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

@@ -215,8 +215,6 @@ export default {
     "meta_info": "Dala ama-meta tags athuthuke ngokugcwele ngokuzenzakalela",
     "jsonld": "JSON-LD",
     "jsonld_info": "Idatha Eyakhiwe",
-    "amp": "AMP",
-    "amp_info": "Amakhasi eselula asheshisiwe",
     "compress": "Ukucindezelwa Kwesithombe",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "I-Speed Accelerator",

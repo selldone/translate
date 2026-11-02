@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Виситорс Аналитицс",
     new_visitors: "Нови посетиоци",
-    amp: "АМП прикази",
     returning_visitors: "Повратни посетиоци",
     page_views: "Прикази странице",
     other_pages: "Друге странице",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Обезбедите беспрекорно мобилно искуство за публику и претраживаче на својој веб локацији.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Убрзано аутоматско генерисање мобилних страница.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

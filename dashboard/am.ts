@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "የጎብኚዎች ትንታኔ",
     new_visitors: "አዲስ ጎብኝዎች",
-    amp: "AMP እይታዎች",
     returning_visitors: "ተመላሽ ጎብኝዎች",
     page_views: "የገጽ እይታዎች",
     other_pages: "ሌሎች ገጾች",
@@ -9053,10 +9052,6 @@ export default {
       msg: "በድር ጣቢያዎ ላይ ለታዳሚዎች እና የፍለጋ ፕሮግራሞች እንከን የለሽ የሞባይል ተሞክሮ ያቅርቡ።",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "የተጣደፉ የሞባይል ገፆች አውቶማቲክ ማመንጨት።",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

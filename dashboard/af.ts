@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Besoekers analise",
     new_visitors: "Nuwe besoekers",
-    amp: "AMP-aansigte",
     returning_visitors: "Terugkerende besoekers",
     page_views: "Bladsybesigtigings",
     other_pages: "Ander bladsye",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Verskaf 'n naatlose mobiele ervaring vir die gehoor en soekenjins op jou webwerf.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Versnelde outomatiese generering van mobiele bladsye.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

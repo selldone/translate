@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "تحليلات الزوار",
     new_visitors: "الزوار الجدد",
-    amp: "عروض AMP",
     returning_visitors: "الزوار العائدون",
     page_views: "مشاهدات الصفحة",
     other_pages: "صفحات أخرى",
@@ -9053,10 +9052,6 @@ export default {
       msg: "قم بتوفير تجربة هاتف محمول سلسة للجمهور ومحركات البحث على موقع الويب الخاص بك.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "تسريع إنشاء صفحات الجوال تلقائيًا.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

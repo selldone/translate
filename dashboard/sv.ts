@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Besöksanalys",
     new_visitors: "Nya besökare",
-    amp: "AMP-vyer",
     returning_visitors: "Återkommande besökare",
     page_views: "Sidvisningar",
     other_pages: "Andra sidor",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Ge en sömlös mobilupplevelse för publiken och sökmotorerna på din webbplats.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Accelererad automatisk generering av mobilsidor.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

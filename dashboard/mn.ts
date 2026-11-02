@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Зочдын аналитик",
     new_visitors: "Шинэ зочид",
-    amp: "AMP үзэлт",
     returning_visitors: "Эргэж ирсэн зочид",
     page_views: "Хуудсыг үзсэн",
     other_pages: "Бусад хуудсууд",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Үзэгчид болон хайлтын системд өөрийн вэб сайтын гар утасны хэрэглээг хангах.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Түргэвчилсэн гар утасны хуудсыг автоматаар үүсгэх.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

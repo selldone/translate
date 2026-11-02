@@ -215,8 +215,6 @@ export default {
     "meta_info": "Sortu meta-etiketa guztiz aurreratuak automatikoki",
     "jsonld": "JSON-LD",
     "jsonld_info": "Datu egituratuak",
-    "amp": "AMP",
-    "amp_info": "Mugikorreko orrialde bizkortuak",
     "compress": "Irudiaren konpresioa",
     "compress_info": "jpg, png, svg, wpng,...",
     "boost": "Abiadura Azeleragailua",

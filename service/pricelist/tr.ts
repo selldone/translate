@@ -215,8 +215,6 @@ export default {
     "meta_info": "Tamamen gelişmiş meta etiketleri otomatik olarak oluşturun",
     "jsonld": "JSON-LD",
     "jsonld_info": "Yapılandırılmış Veri",
-    "amp": "AMP",
-    "amp_info": "Hızlandırılmış mobil sayfalar",
     "compress": "Görüntü Sıkıştırma",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Hız Hızlandırıcı",

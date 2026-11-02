@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "අමුත්තන් විශ්ලේෂණ",
     new_visitors: "නව අමුත්තන්",
-    amp: "AMP දසුන්",
     returning_visitors: "ආපසු පැමිණෙන අමුත්තන්",
     page_views: "පිටු බැලීම්",
     other_pages: "වෙනත් පිටු",
@@ -9053,10 +9052,6 @@ export default {
       msg: "ඔබේ වෙබ් අඩවියේ ප්‍රේක්ෂකයින් සහ සෙවුම් යන්ත්‍ර සඳහා බාධාවකින් තොරව ජංගම අත්දැකීමක් ලබා දෙන්න.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "වේගවත් ජංගම පිටු ස්වයංක්‍රීය උත්පාදනය.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

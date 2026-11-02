@@ -215,8 +215,6 @@ export default {
     "meta_info": "تولۇق ئىلغار بولغان مېتا خەتكۈچلىرىنى ئاپتوماتىك قۇرۇڭ",
     "jsonld": "JSON-LD",
     "jsonld_info": "قۇرۇلمىلىق سانلىق مەلۇمات",
-    "amp": "AMP",
-    "amp_info": "كۆچمە بەتلەرنى تېزلىتىش",
     "compress": "Image Compression",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "سۈرئەت تېزلەتكۈچ",

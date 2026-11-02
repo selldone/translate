@@ -215,8 +215,6 @@ export default {
     "meta_info": "Krijo automatikisht etiketa meta plotësisht të avancuara",
     "jsonld": "JSON-LD",
     "jsonld_info": "Të dhëna të strukturuara",
-    "amp": "AMP",
-    "amp_info": "Faqe të përshpejtuara celulare",
     "compress": "Kompresimi i imazhit",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Përshpejtuesi i shpejtësisë",

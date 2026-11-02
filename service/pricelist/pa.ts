@@ -215,8 +215,6 @@ export default {
     "meta_info": "ਆਪਣੇ ਆਪ ਪੂਰੀ ਤਰ੍ਹਾਂ ਉੱਨਤ ਮੈਟਾ ਟੈਗ ਬਣਾਓ",
     "jsonld": "JSON-LD",
     "jsonld_info": "ਸਟ੍ਰਕਚਰਡ ਡਾਟਾ",
-    "amp": "AMP",
-    "amp_info": "ਤੇਜ਼ ਮੋਬਾਈਲ ਪੰਨੇ",
     "compress": "ਚਿੱਤਰ ਸੰਕੁਚਨ",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "ਸਪੀਡ ਐਕਸਲੇਟਰ",

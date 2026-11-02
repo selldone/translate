@@ -215,8 +215,6 @@ export default {
     "meta_info": "Pangani ma meta tag apamwamba kwambiri basi",
     "jsonld": "JSON-LD",
     "jsonld_info": "Deta Yokhazikika",
-    "amp": "AMP",
-    "amp_info": "Masamba ofulumizitsa mafoni",
     "compress": "Kusintha kwazithunzi",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Speed Accelerator",

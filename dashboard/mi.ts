@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Tātaritanga Manuhiri",
     new_visitors: "Nga manuhiri hou",
-    amp: "Nga tirohanga AMP",
     returning_visitors: "Ka hoki mai nga manuhiri",
     page_views: "Nga tirohanga wharangi",
     other_pages: "Ētahi atu whārangi",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Whakaratohia he wheako waea pūkoro mo te hunga whakarongo me nga miihini rapu i runga i to paetukutuku.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Ko nga wharangi pūkoro tere te whakaputa aunoa.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

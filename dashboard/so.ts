@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Falanqaynta booqdayaasha",
     new_visitors: "Soo booqdayaal cusub",
-    amp: "Aragtida AMP",
     returning_visitors: "Soo-booqdayaasha soo laabanaya",
     page_views: "Aragtida bogga",
     other_pages: "Bogagga kale",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Sii waayo aragnimada moobilka ee dhegeystayaasha iyo makiinadaha goobista ee mareegahaaga.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Bogagga mobaylka ee la dardargeliyay otomaatiga.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

@@ -215,8 +215,6 @@ export default {
     "meta_info": "په اوتومات ډول پرمختللي میټا ټاګونه رامینځته کړئ",
     "jsonld": "JSON-LD",
     "jsonld_info": "جوړښت شوي ډاټا",
-    "amp": "AMP",
-    "amp_info": "چټک ګرځنده مخونه",
     "compress": "د انځور کمپریشن",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "د سرعت سرعت",

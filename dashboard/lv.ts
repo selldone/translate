@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Apmeklētāju analīze",
     new_visitors: "Jauni apmeklētāji",
-    amp: "AMP skati",
     returning_visitors: "Atkārtoti apmeklētāji",
     page_views: "Lapu skatījumi",
     other_pages: "Citas lapas",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Nodrošiniet nevainojamu mobilās lietošanas pieredzi auditorijai un meklētājprogrammām savā vietnē.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Paātrināta mobilo lapu automātiskā ģenerēšana.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

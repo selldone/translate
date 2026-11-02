@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Vashanyi Analytics",
     new_visitors: "Vashanyi vatsva",
-    amp: "AMP maonero",
     returning_visitors: "Vaenzi vanodzoka",
     page_views: "Maonero epeji",
     other_pages: "Mamwe mapeji",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Ipa isina musono mobile ruzivo kune vateereri uye injini dzekutsvaga pawebhusaiti yako.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Yakamhanyisa nharembozha kugadzira otomatiki.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

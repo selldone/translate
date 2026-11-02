@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Ziyaretçi Analizi",
     new_visitors: "Yeni ziyaretçiler",
-    amp: "AMP görünümleri",
     returning_visitors: "Geri dönen ziyaretçiler",
     page_views: "Sayfa görünümleri",
     other_pages: "Diğer sayfalar",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Web sitenizdeki hedef kitle ve arama motorları için sorunsuz bir mobil deneyim sağlayın.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Hızlandırılmış mobil sayfalar otomatik oluşturma.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

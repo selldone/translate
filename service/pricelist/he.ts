@@ -215,8 +215,6 @@ export default {
     "meta_info": "צור מטא תגיות מתקדמות לחלוטין באופן אוטומטי",
     "jsonld": "JSON-LD",
     "jsonld_info": "נתונים מובנים",
-    "amp": "AMP",
-    "amp_info": "דפי מובייל מואצים",
     "compress": "דחיסת תמונה",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "מאיץ מהירות",

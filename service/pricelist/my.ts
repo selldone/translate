@@ -215,8 +215,6 @@ export default {
     "meta_info": "အဆင့်မြင့် မက်တာတက်ဂ်များကို အလိုအလျောက် ဖန်တီးပါ။",
     "jsonld": "JSON-LD",
     "jsonld_info": "ဖွဲ့စည်းပုံဒေတာ",
-    "amp": "AMP",
-    "amp_info": "အရှိန်မြှင့်ထားသော မိုဘိုင်းစာမျက်နှာများ",
     "compress": "Image Compression",
     "compress_info": "jpg၊ png၊ svg၊ wpng၊ ...",
     "boost": "အရှိန်မြှင့်စက်",

@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Analîzên Ziyaretvan",
     new_visitors: "mêvanên nû",
-    amp: "dîtinên AMP",
     returning_visitors: "Ziyaretvan vedigerin",
     page_views: "Dîtina rûpelan",
     other_pages: "Rûpelên din",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Ji bo temaşevan û motorên lêgerînê yên li ser malpera xwe ezmûnek mobîl a bêkêmasî peyda bikin.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Hilberîna otomatîkî ya rûpelên mobîl ên bilez.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

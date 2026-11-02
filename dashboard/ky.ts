@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "нерсе нерсе",
     new_visitors: "Жаңы коноктор",
-    amp: "AMP көрүүлөр",
     returning_visitors: "Кайтып келген коноктор",
     page_views: "Барак көрүүлөрү",
     other_pages: "Башка барактар",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Вебсайтыңыздагы аудитория жана издөө системалары үчүн мобилдик тажрыйбаны камсыз кылыңыз.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Ылдамдатылган мобилдик баракчаларды автоматтык түрдө түзүү.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

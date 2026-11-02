@@ -215,8 +215,6 @@ export default {
     "meta_info": "შექმენით სრულად მოწინავე მეტა ტეგები ავტომატურად",
     "jsonld": "JSON-LD",
     "jsonld_info": "სტრუქტურირებული მონაცემები",
-    "amp": "AMP",
-    "amp_info": "დაჩქარებული მობილური გვერდები",
     "compress": "გამოსახულების შეკუმშვა",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "სიჩქარის ამაჩქარებელი",

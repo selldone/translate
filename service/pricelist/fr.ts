@@ -215,8 +215,6 @@ export default {
     "meta_info": "Créez automatiquement des balises méta entièrement avancées",
     "jsonld": "JSON-LD",
     "jsonld_info": "Données structurées",
-    "amp": "AMP",
-    "amp_info": "Pages mobiles accélérées",
     "compress": "Compression d'images",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Accélérateur de vitesse",

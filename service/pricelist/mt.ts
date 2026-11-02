@@ -215,8 +215,6 @@ export default {
     "meta_info": "Oħloq meta tags kompletament avvanzati awtomatikament",
     "jsonld": "JSON-LD",
     "jsonld_info": "Data Strutturata",
-    "amp": "AMP",
-    "amp_info": "Paġni mobbli aċċelerati",
     "compress": "Kompressjoni tal-Immaġni",
     "compress_info": "jpg, png, svg, wpng,...",
     "boost": "Aċċeleratur tal-Veloċità",

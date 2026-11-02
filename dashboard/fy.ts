@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Besikers Analytics",
     new_visitors: "Nije besikers",
-    amp: "AMP werjeften",
     returning_visitors: "Weromkommende besikers",
     page_views: "Side werjeften",
     other_pages: "Oare siden",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Biede in naadleaze mobile ûnderfining foar it publyk en sykmasines op jo webside.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Fersnelde automatyske generaasje fan mobile siden.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

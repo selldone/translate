@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Таҳлили меҳмонон",
     new_visitors: "Меҳмонони нав",
-    amp: "Намоишҳои AMP",
     returning_visitors: "Меҳмонони баргашта",
     page_views: "Намоиши саҳифа",
     other_pages: "Саҳифаҳои дигар",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Таҷрибаи бефосилаи мобилиро барои аудитория ва муҳаррикҳои ҷустуҷӯ дар вебсайти худ таъмин кунед.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Насли худкор саҳифаҳои мобилӣ суръатбахш.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

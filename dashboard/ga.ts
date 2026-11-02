@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Analytics Cuairteoirí",
     new_visitors: "Cuairteoirí nua",
-    amp: "Radhairc AMP",
     returning_visitors: "Cuairteoirí ag filleadh",
     page_views: "Radhairc leathanaigh",
     other_pages: "Leathanaigh eile",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Cuir eispéireas soghluaiste gan uaim ar fáil don lucht féachana agus d’innill chuardaigh ar do shuíomh Gréasáin.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Giniúint uathoibríoch leathanaigh shoghluaiste luathaithe.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

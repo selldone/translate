@@ -5494,7 +5494,6 @@ export default {
   shop_visitors_widget: {
     title: "Pengunjung Analytics",
     new_visitors: "Pengunjung anyar",
-    amp: "tampilan AMP",
     returning_visitors: "Pengunjung bali",
     page_views: "Tampilan kaca",
     other_pages: "kaca liyane",
@@ -9062,10 +9061,6 @@ export default {
       msg: "Nyedhiyakake pengalaman seluler sing lancar kanggo pamirsa lan mesin telusur ing situs web sampeyan.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Generasi otomatis kaca seluler sing dipercepat.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

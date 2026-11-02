@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Vierailijaanalyysi",
     new_visitors: "Uusia vierailijoita",
-    amp: "AMP-näkymät",
     returning_visitors: "Palaavat vierailijat",
     page_views: "Sivun katselukerrat",
     other_pages: "Muut sivut",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Tarjoa saumaton mobiilikokemus verkkosivustosi yleisölle ja hakukoneille.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Nopeutettu mobiilisivujen automaattinen luominen.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

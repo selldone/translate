@@ -215,8 +215,6 @@ export default {
     "meta_info": "Automatiškai sukurkite visiškai išplėstines metažymes",
     "jsonld": "JSON-LD",
     "jsonld_info": "Struktūrizuoti duomenys",
-    "amp": "AMP",
-    "amp_info": "Paspartinti puslapiai mobiliesiems",
     "compress": "Vaizdo suspaudimas",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Greičio greitintuvas",

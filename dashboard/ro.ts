@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Analiza vizitatorilor",
     new_visitors: "Vizitatori noi",
-    amp: "Vizualizări AMP",
     returning_visitors: "Vizitatorii care revin",
     page_views: "Vizualizări de pagină",
     other_pages: "Alte pagini",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Oferiți o experiență mobilă perfectă pentru publicul și motoarele de căutare de pe site-ul dvs.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Generare automată accelerată a paginilor mobile.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

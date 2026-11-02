@@ -215,8 +215,6 @@ export default {
     "meta_info": "স্বয়ংক্রিয়ভাবে সম্পূর্ণ উন্নত মেটা ট্যাগ তৈরি করুন",
     "jsonld": "JSON-LD",
     "jsonld_info": "স্ট্রাকচার্ড ডেটা",
-    "amp": "AMP",
-    "amp_info": "ত্বরিত মোবাইল পেজ",
     "compress": "ইমেজ কম্প্রেশন",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "স্পিড এক্সিলারেটর",

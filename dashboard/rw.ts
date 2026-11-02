@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Abashyitsi Isesengura",
     new_visitors: "Abashyitsi bashya",
-    amp: "Ibitekerezo bya AMP",
     returning_visitors: "Garuka abashyitsi",
     page_views: "Urupapuro",
     other_pages: "Izindi mpapuro",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Tanga ubunararibonye bwa mobile kubateze amatwi na moteri zishakisha kurubuga rwawe.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Urupapuro rwihuta rwimodoka rwimodoka.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

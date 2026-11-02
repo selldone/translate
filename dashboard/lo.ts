@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "ການວິເຄາະຜູ້ເຂົ້າຊົມ",
     new_visitors: "ນັກທ່ອງທ່ຽວໃຫມ່",
-    amp: "AMP ທັດສະນະ",
     returning_visitors: "ນັກທ່ອງທ່ຽວກັບຄືນ",
     page_views: "ມຸມມອງໜ້າ",
     other_pages: "ຫນ້າອື່ນໆ",
@@ -9053,10 +9052,6 @@ export default {
       msg: "ສະຫນອງປະສົບການໂທລະສັບມືຖືທີ່ບໍ່ມີຮອຍຕໍ່ສໍາລັບຜູ້ຊົມແລະເຄື່ອງຈັກຊອກຫາຢູ່ໃນເວັບໄຊທ໌ຂອງທ່ານ.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "ເລັ່ງການສ້າງຫນ້າມືຖືອັດຕະໂນມັດ.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

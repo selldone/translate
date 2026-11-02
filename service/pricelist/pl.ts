@@ -215,8 +215,6 @@ export default {
     "meta_info": "Twórz w pełni zaawansowane metatagi automatycznie",
     "jsonld": "JSON-LD",
     "jsonld_info": "Dane strukturalne",
-    "amp": "AMP",
-    "amp_info": "Przyspieszone strony mobilne",
     "compress": "Kompresja obrazu",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Przyspieszacz prędkości",

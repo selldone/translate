@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Datang Analytics",
     new_visitors: "datang anyar",
-    amp: "pintonan AMP",
     returning_visitors: "Datangna mulang",
     page_views: "pintonan kaca",
     other_pages: "Kaca séjén",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Nyadiakeun pangalaman mobile seamless pikeun panongton sarta mesin pencari dina ramatloka anjeun.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Generasi otomatis halaman sélulér gancangan.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

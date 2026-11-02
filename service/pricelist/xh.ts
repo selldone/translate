@@ -215,8 +215,6 @@ export default {
     "meta_info": "Yenza iithegi zemeta ezigqibeleleyo ngokuzenzekelayo",
     "jsonld": "JSON-LD",
     "jsonld_info": "Idatha eyakhiweyo",
-    "amp": "AMP",
-    "amp_info": "Amaphepha ahamba ngokukhawuleza",
     "compress": "Uxinzelelo Lomfanekiso",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "I-Speed Accelerator",

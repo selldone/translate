@@ -215,8 +215,6 @@ export default {
     "meta_info": "Avtomatik olaraq tam inkişaf etmiş meta teqlər yaradın",
     "jsonld": "JSON-LD",
     "jsonld_info": "Strukturlaşdırılmış Məlumat",
-    "amp": "AMP",
-    "amp_info": "Sürətlənmiş mobil səhifələr",
     "compress": "Şəklin sıxılması",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Sürət sürətləndiricisi",

@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Dadansoddeg Ymwelwyr",
     new_visitors: "Ymwelwyr newydd",
-    amp: "Golygfeydd CRhA",
     returning_visitors: "Ymwelwyr sy'n dychwelyd",
     page_views: "Golygfeydd tudalennau",
     other_pages: "Tudalennau eraill",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Darparwch brofiad symudol di-dor i'r gynulleidfa a'r peiriannau chwilio ar eich gwefan.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Cynhyrchu ceir tudalennau symudol carlam.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

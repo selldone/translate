@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Nchịkọta ndị ọbịa",
     new_visitors: "Ndị ọbịa ọhụrụ",
-    amp: "Echiche AMP",
     returning_visitors: "Ndị ọbịa na-alọta",
     page_views: "Echiche ibe",
     other_pages: "Ibe ndị ọzọ",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Nye ahụmịhe mkpanaka enweghị nkebi maka ndị na-ege ntị na igwe ọchụchọ na webụsaịtị gị.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Ọgbọ mkpanaaka ibe mkpanaka agbagoro.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

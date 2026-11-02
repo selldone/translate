@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "મુલાકાતીઓ એનાલિટિક્સ",
     new_visitors: "નવા મુલાકાતીઓ",
-    amp: "AMP દૃશ્યો",
     returning_visitors: "પરત ફરતા મુલાકાતીઓ",
     page_views: "પૃષ્ઠ દૃશ્યો",
     other_pages: "અન્ય પૃષ્ઠો",
@@ -9053,10 +9052,6 @@ export default {
       msg: "તમારી વેબસાઇટ પર પ્રેક્ષકો અને શોધ એંજીન માટે સીમલેસ મોબાઇલ અનુભવ પ્રદાન કરો.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "એક્સિલરેટેડ મોબાઈલ પેજીસ ઓટો જનરેશન.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

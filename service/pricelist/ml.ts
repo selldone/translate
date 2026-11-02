@@ -215,8 +215,6 @@ export default {
     "meta_info": "പൂർണ്ണമായും വിപുലമായ മെറ്റാ ടാഗുകൾ സ്വയമേവ സൃഷ്‌ടിക്കുക",
     "jsonld": "JSON-LD",
     "jsonld_info": "ഘടനാപരമായ ഡാറ്റ",
-    "amp": "AMP",
-    "amp_info": "ത്വരിതപ്പെടുത്തിയ മൊബൈൽ പേജുകൾ",
     "compress": "ഇമേജ് കംപ്രഷൻ",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "സ്പീഡ് ആക്സിലറേറ്റർ",

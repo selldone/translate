@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Gelip görýänler Analitika",
     new_visitors: "Täze gelenler",
-    amp: "AMP görnüşleri",
     returning_visitors: "Yzyna gaýdyp gelýänler",
     page_views: "Sahypa görnüşleri",
     other_pages: "Beýleki sahypalar",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Web sahypaňyzdaky diňleýjiler we gözleg motorlary üçin üznüksiz ykjam tejribe beriň.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Çaltlaşdyrylan mobil sahypalary awtomatik öndürmek.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

@@ -215,8 +215,6 @@ export default {
     "meta_info": "自动创建高级的Meta元标签",
     "jsonld": "JSON-LD",
     "jsonld_info": "结构化数据",
-    "amp": "AMP",
-    "amp_info": "加速移动页面",
     "compress": "图像压缩",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "加速器",

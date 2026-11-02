@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "आगन्तुक एनालिटिक्स",
     new_visitors: "नयाँ आगन्तुकहरू",
-    amp: "AMP दृश्यहरू",
     returning_visitors: "फर्कने आगन्तुकहरू",
     page_views: "पृष्ठ हेराइहरू",
     other_pages: "अन्य पृष्ठहरू",
@@ -9053,10 +9052,6 @@ export default {
       msg: "तपाईंको वेबसाइटमा दर्शक र खोज इन्जिनहरूका लागि सहज मोबाइल अनुभव प्रदान गर्नुहोस्।",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "द्रुत मोबाइल पृष्ठहरू स्वत: उत्पादन।",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

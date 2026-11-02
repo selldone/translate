@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "kupeza chinthu",
     new_visitors: "Alendo atsopano",
-    amp: "Mawonedwe a AMP",
     returning_visitors: "Alendo obwerera",
     page_views: "Mawonedwe atsamba",
     other_pages: "Masamba ena",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Perekani zokumana nazo zopanda msoko kwa omvera ndi makina osakira patsamba lanu.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Kupititsa patsogolo masamba oyenda paokha.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

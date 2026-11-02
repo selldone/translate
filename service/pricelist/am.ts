@@ -215,8 +215,6 @@ export default {
     "meta_info": "ሙሉ በሙሉ የላቁ ሜታ መለያዎችን በራስ-ሰር ይፍጠሩ",
     "jsonld": "JSON-LD",
     "jsonld_info": "የተዋቀረ ውሂብ",
-    "amp": "AMP",
-    "amp_info": "የተጣደፉ የሞባይል ገጾች",
     "compress": "የምስል መጨናነቅ",
     "compress_info": "jpg፣ png፣ svg፣ wpng፣...",
     "boost": "የፍጥነት አፋጣኝ",

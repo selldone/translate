@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Bisitarien Analytics",
     new_visitors: "Bisitari berriak",
-    amp: "AMP ikuspegiak",
     returning_visitors: "Itzultzen diren bisitariak",
     page_views: "Orrialde-bistak",
     other_pages: "Beste orrialde batzuk",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Eman zure webguneko ikusleei eta bilatzaileei mugikorreko esperientzia ezin hobea.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Mugikorreko orriak automatikoki sortzea azeleratua.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

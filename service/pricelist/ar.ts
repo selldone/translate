@@ -215,8 +215,6 @@ export default {
     "meta_info": "إنشاء علامات وصفية متقدمة بالكامل تلقائيًا",
     "jsonld": "JSON-LD",
     "jsonld_info": "البيانات المنظمة",
-    "amp": "AMP",
-    "amp_info": "صفحات الجوال المعجلة",
     "compress": "ضغط الصورة",
     "compress_info": "jpg ، png ، svg ، wpng ، ...",
     "boost": "مسرع السرعة",

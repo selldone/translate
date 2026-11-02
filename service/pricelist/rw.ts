@@ -215,8 +215,6 @@ export default {
     "meta_info": "Kora meta yuzuye yuzuye",
     "jsonld": "JSON-LD",
     "jsonld_info": "Ibyatanzwe",
-    "amp": "AMP",
-    "amp_info": "Urupapuro rwihuta rwihuta",
     "compress": "Guhagarika Ishusho",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Umuvuduko Wihuta",

@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "singan-javatra singan-javatra",
     new_visitors: "Vahiny vaovao",
-    amp: "Vidin'ny AMP",
     returning_visitors: "Miverina mpitsidika",
     page_views: "Fijerena pejy",
     other_pages: "Pejy hafa",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Omeo traikefa finday tsy misy fotony ho an'ny mpihaino sy motera fikarohana ao amin'ny tranokalanao.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Famokarana fiara mandeha ho azy ny pejy finday.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

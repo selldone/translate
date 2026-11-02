@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "দর্শক বিশ্লেষণ",
     new_visitors: "নতুন দর্শক",
-    amp: "এএমপি ভিউ",
     returning_visitors: "ফিরে আসা দর্শক",
     page_views: "পৃষ্ঠা দর্শন",
     other_pages: "অন্যান্য পৃষ্ঠা",
@@ -9053,10 +9052,6 @@ export default {
       msg: "আপনার ওয়েবসাইটে শ্রোতা এবং সার্চ ইঞ্জিনগুলির জন্য একটি বিরামহীন মোবাইল অভিজ্ঞতা প্রদান করুন৷",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "ত্বরিত মোবাইল পেজ স্বয়ংক্রিয় প্রজন্ম।",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

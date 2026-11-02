@@ -215,8 +215,6 @@ export default {
     "meta_info": "සම්පුර්ණයෙන්ම දියුණු මෙටා ටැග් ස්වයංක්‍රීයව සාදන්න",
     "jsonld": "JSON-LD",
     "jsonld_info": "ව්‍යුහගත දත්ත",
-    "amp": "AMP",
-    "amp_info": "වේගවත් ජංගම පිටු",
     "compress": "රූප සම්පීඩනය",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "ස්පීඩ් ඇක්සලරේටරය",

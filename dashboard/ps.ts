@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "د لیدونکو تجزیه",
     new_visitors: "نوي لیدونکي",
-    amp: "د AMP نظریات",
     returning_visitors: "راستنیدونکي لیدونکي",
     page_views: "د پاڼې لیدونه",
     other_pages: "نورې پاڼې",
@@ -9053,10 +9052,6 @@ export default {
       msg: "ستاسو په ویب پاڼه کې د لیدونکو او لټون انجنونو لپاره بې سیمه ګرځنده تجربه چمتو کړئ.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "ګړندی ګرځنده مخونه اتومات تولید.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

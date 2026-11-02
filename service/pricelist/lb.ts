@@ -215,8 +215,6 @@ export default {
     "meta_info": "Erstellt automatesch voll fortgeschratt Meta Tags",
     "jsonld": "JSON-LD",
     "jsonld_info": "Strukturéiert Daten",
-    "amp": "AMP",
-    "amp_info": "Beschleunegt mobil Säiten",
     "compress": "Bild Kompressioun",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Speed Accelerator",

@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "방문자 분석",
     new_visitors: "신규 방문자",
-    amp: "AMP 조회수",
     returning_visitors: "재방문자",
     page_views: "페이지 조회수",
     other_pages: "다른 페이지",
@@ -9053,10 +9052,6 @@ export default {
       msg: "웹사이트의 청중과 검색 엔진에 원활한 모바일 경험을 제공하십시오.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "가속화된 모바일 페이지 자동 생성.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

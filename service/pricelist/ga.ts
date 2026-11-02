@@ -215,8 +215,6 @@ export default {
     "meta_info": "Cruthaigh meta tags atá go hiomlán chun cinn go huathoibríoch",
     "jsonld": "JSON-LD",
     "jsonld_info": "Sonraí Struchtúrtha",
-    "amp": "AMP",
-    "amp_info": "Leathanaigh soghluaiste luathaithe",
     "compress": "Comhbhrú Íomhá",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Luasaire Luas",

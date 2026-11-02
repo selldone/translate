@@ -215,8 +215,6 @@ export default {
     "meta_info": "Ṣẹda awọn afi meta to ti ni ilọsiwaju ni kikun laifọwọyi",
     "jsonld": "JSON-LD",
     "jsonld_info": "Ti eleto Data",
-    "amp": "AMP",
-    "amp_info": "Onikiakia mobile ojúewé",
     "compress": "Aworan funmorawon",
     "compress_info": "jpg, png, svg, wpng,...",
     "boost": "Ohun imuyara",

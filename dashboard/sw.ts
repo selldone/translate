@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Uchanganuzi wa Wageni",
     new_visitors: "Wageni wapya",
-    amp: "Mionekano ya AMP",
     returning_visitors: "Wageni wanaorudi",
     page_views: "Mionekano ya ukurasa",
     other_pages: "Kurasa zingine",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Toa hali ya matumizi ya simu kwa hadhira na injini za utafutaji kwenye tovuti yako.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Uzalishaji kiotomatiki wa kurasa za rununu zilizoharakishwa.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

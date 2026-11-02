@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Lankytojų analizė",
     new_visitors: "Nauji lankytojai",
-    amp: "AMP rodiniai",
     returning_visitors: "Grįžtantys lankytojai",
     page_views: "Puslapių peržiūros",
     other_pages: "Kiti puslapiai",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Suteikite sklandžią mobiliojo ryšio patirtį savo svetainės auditorijai ir paieškos sistemoms.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Paspartintas puslapių mobiliesiems automatinis generavimas.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

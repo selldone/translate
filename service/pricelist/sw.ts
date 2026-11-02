@@ -215,8 +215,6 @@ export default {
     "meta_info": "Unda meta tagi za hali ya juu kiotomatiki",
     "jsonld": "JSON-LD",
     "jsonld_info": "Data Iliyoundwa",
-    "amp": "AMP",
-    "amp_info": "Kurasa za rununu zilizoharakishwa",
     "compress": "Mfinyazo wa Picha",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Kiongeza kasi",

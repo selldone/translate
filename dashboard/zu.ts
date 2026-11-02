@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Izivakashi Analytics",
     new_visitors: "Izivakashi ezintsha",
-    amp: "Ukubukwa kwe-AMP",
     returning_visitors: "Izivakashi ezibuyayo",
     page_views: "Ukubukwa kwekhasi",
     other_pages: "Amanye amakhasi",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Nikeza ulwazi lweselula olungenazihibe lwezithameli nezinjini zokusesha kuwebhusayithi yakho.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Amakhasi eselula asheshisiwe akhiqiza ngokuzenzakalelayo.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

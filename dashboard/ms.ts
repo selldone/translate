@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Analitis Pelawat",
     new_visitors: "Pelawat baru",
-    amp: "paparan AMP",
     returning_visitors: "Pelawat yang kembali",
     page_views: "Paparan halaman",
     other_pages: "Muka surat lain",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Menyediakan pengalaman mudah alih yang lancar untuk khalayak dan enjin carian di tapak web anda.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Penjanaan automatik halaman mudah alih dipercepatkan.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

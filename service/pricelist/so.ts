@@ -215,8 +215,6 @@ export default {
     "meta_info": "Si otomaatig ah u samee tags meta horumarsan",
     "jsonld": "JSON-LD",
     "jsonld_info": "Xogta Habaysan",
-    "amp": "AMP",
-    "amp_info": "Bogagga mobilada ee la dedejiyay",
     "compress": "Cadaadiska Sawirka",
     "compress_info": "jpg, png, svg, wpng,...",
     "boost": "Xawaaraha xawaaraha",

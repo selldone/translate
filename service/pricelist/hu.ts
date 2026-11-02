@@ -215,8 +215,6 @@ export default {
     "meta_info": "Teljesen fejlett metacímkék automatikus létrehozása",
     "jsonld": "JSON-LD",
     "jsonld_info": "Strukturált adatok",
-    "amp": "AMP",
-    "amp_info": "Gyorsított mobil oldalak",
     "compress": "Képtömörítés",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Sebességgyorsító",

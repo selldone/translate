@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Viżitaturi Analytics",
     new_visitors: "Viżitaturi ġodda",
-    amp: "Fehmiet AMP",
     returning_visitors: "Viżitaturi li jirritornaw",
     page_views: "Fehmiet tal-paġna",
     other_pages: "Paġni oħra",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Ipprovdi esperjenza mobbli bla xkiel għall-udjenza u l-magni tat-tiftix fuq il-websajt tiegħek.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Ġenerazzjoni awtomatika aċċellerata tal-paġni mobbli.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

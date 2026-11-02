@@ -215,8 +215,6 @@ export default {
     "meta_info": "สร้างเมตาแท็กขั้นสูงโดยอัตโนมัติ",
     "jsonld": "JSON-LD",
     "jsonld_info": "ข้อมูลที่มีโครงสร้าง",
-    "amp": "AMP",
-    "amp_info": "หน้ามือถือแบบเร่ง",
     "compress": "การบีบอัดภาพ",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "คันเร่งความเร็ว",

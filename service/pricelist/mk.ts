@@ -215,8 +215,6 @@ export default {
     "meta_info": "Автоматски креирајте целосно напредни мета-ознаки",
     "jsonld": "JSON-LD",
     "jsonld_info": "Структурирани податоци",
-    "amp": "AMP",
-    "amp_info": "Забрзани мобилни страници",
     "compress": "Компресија на слика",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Забрзувач на брзина",

@@ -215,8 +215,6 @@ export default {
     "meta_info": "Mamorona marika meta efa mandroso tanteraka",
     "jsonld": "JSON-LD",
     "jsonld_info": "Data voarafitra",
-    "amp": "AMP",
-    "amp_info": "Pejy finday haingana",
     "compress": "Famoretana sary",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Speed Accelerator",

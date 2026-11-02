@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "ការវិភាគអ្នកទស្សនា",
     new_visitors: "ភ្ញៀវថ្មី។",
-    amp: "ទិដ្ឋភាព AMP",
     returning_visitors: "ភ្ញៀវត្រឡប់មកវិញ",
     page_views: "ការមើលទំព័រ",
     other_pages: "ទំព័រផ្សេងទៀត។",
@@ -9053,10 +9052,6 @@ export default {
       msg: "ផ្តល់នូវបទពិសោធន៍ទូរស័ព្ទចល័តគ្មានថ្នេរសម្រាប់ទស្សនិកជន និងម៉ាស៊ីនស្វែងរកនៅលើគេហទំព័ររបស់អ្នក។",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "ទំព័រទូរសព្ទចល័តបង្កើនល្បឿនបង្កើតដោយស្វ័យប្រវត្តិ។",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

@@ -215,8 +215,6 @@ export default {
     "meta_info": "مکمل طور پر جدید میٹا ٹیگز خود بخود بنائیں",
     "jsonld": "JSON-LD",
     "jsonld_info": "سٹرکچرڈ ڈیٹا",
-    "amp": "AMP",
-    "amp_info": "تیز رفتار موبائل صفحات",
     "compress": "امیج کمپریشن",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "سپیڈ ایکسلریٹر",

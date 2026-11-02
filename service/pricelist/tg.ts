@@ -215,8 +215,6 @@ export default {
     "meta_info": "Ба таври худкор барчаспҳои пурраи пешрафта эҷод кунед",
     "jsonld": "JSON-LD",
     "jsonld_info": "Маълумоти сохторӣ",
-    "amp": "AMP",
-    "amp_info": "Саҳифаҳои мобилии суръатбахш",
     "compress": "Фишурдани тасвир",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Суръатдиҳандаи суръат",

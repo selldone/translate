@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Látogatók elemzése",
     new_visitors: "Új látogatók",
-    amp: "AMP-nézetek",
     returning_visitors: "Visszatérő látogatók",
     page_views: "Oldalmegtekintések",
     other_pages: "Egyéb oldalak",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Biztosítson zökkenőmentes mobilélményt a közönség és a keresőmotorok számára webhelyén.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Gyorsított mobiloldalak automatikus generálása.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

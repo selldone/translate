@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "访客分析",
     new_visitors: "新访客",
-    amp: "AMP 浏览量",
     returning_visitors: "回头客",
     page_views: "页面浏览量",
     other_pages: "其他页面",
@@ -9053,10 +9052,6 @@ export default {
       msg: "为您的网站提供无缝的移动体验，兼顾访客和搜索引擎。",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "自动生成加速移动页面。",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

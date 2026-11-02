@@ -215,8 +215,6 @@ export default {
     "meta_info": "Gadzira zvizere meta tags otomatiki",
     "jsonld": "JSON-LD",
     "jsonld_info": "Structured Data",
-    "amp": "AMP",
-    "amp_info": "Mapeji enharembozha akakurumidza",
     "compress": "Image Compression",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Speed Accelerator",

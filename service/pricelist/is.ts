@@ -215,8 +215,6 @@ export default {
     "meta_info": "Búðu til fullkomlega háþróuð meta tags sjálfkrafa",
     "jsonld": "JSON-LD",
     "jsonld_info": "Skipulögð gögn",
-    "amp": "AMP",
-    "amp_info": "Hraðvirkar farsímasíður",
     "compress": "Myndþjöppun",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Hraða hröðun",

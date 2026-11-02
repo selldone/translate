@@ -215,8 +215,6 @@ export default {
     "meta_info": "Ավտոմատ ստեղծեք լիովին առաջադեմ մետա պիտակներ",
     "jsonld": "JSON-LD",
     "jsonld_info": "Կառուցվածքային տվյալներ",
-    "amp": "AMP",
-    "amp_info": "Արագացված բջջային էջեր",
     "compress": "Պատկերի սեղմում",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Արագության արագացուցիչ",

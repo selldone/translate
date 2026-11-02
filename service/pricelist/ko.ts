@@ -215,8 +215,6 @@ export default {
     "meta_info": "완전 고급 메타 태그를 자동으로 생성",
     "jsonld": "JSON-LD",
     "jsonld_info": "구조화된 데이터",
-    "amp": "AMP",
-    "amp_info": "가속화된 모바일 페이지",
     "compress": "이미지 압축",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "속도 가속기",

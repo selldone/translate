@@ -215,8 +215,6 @@ export default {
     "meta_info": "Luo täysin kehittyneitä sisällönkuvauskenttiä automaattisesti",
     "jsonld": "JSON-LD",
     "jsonld_info": "Strukturoitu data",
-    "amp": "AMP",
-    "amp_info": "Nopeutetut mobiilisivut",
     "compress": "Kuvan pakkaus",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Nopeuden kiihdytin",

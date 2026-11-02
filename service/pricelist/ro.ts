@@ -215,8 +215,6 @@ export default {
     "meta_info": "Creați automat metaetichete complet avansate",
     "jsonld": "JSON-LD",
     "jsonld_info": "Date structurate",
-    "amp": "AMP",
-    "amp_info": "Pagini mobile accelerate",
     "compress": "Compresia imaginii",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Accelerator de viteză",

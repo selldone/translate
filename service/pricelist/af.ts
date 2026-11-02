@@ -215,8 +215,6 @@ export default {
     "meta_info": "Skep volledig gevorderde meta-tags outomaties",
     "jsonld": "JSON-LD",
     "jsonld_info": "Gestruktureerde data",
-    "amp": "AMP",
-    "amp_info": "Versnelde mobiele bladsye",
     "compress": "Beeld kompressie",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Spoedversneller",

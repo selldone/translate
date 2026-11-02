@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Phân tích khách truy cập",
     new_visitors: "Khách mới",
-    amp: "Lượt xem AMP",
     returning_visitors: "Khách truy cập trở lại",
     page_views: "Số lượt xem trang",
     other_pages: "Những trang khác",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Cung cấp trải nghiệm di động liền mạch cho khán giả và công cụ tìm kiếm trên trang web của bạn.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Tự động tạo trang di động được tăng tốc.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

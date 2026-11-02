@@ -215,8 +215,6 @@ export default {
     "meta_info": "Doly ösen meta belliklerini awtomatiki dörediň",
     "jsonld": "JSON-LD",
     "jsonld_info": "Düzülen maglumatlar",
-    "amp": "AMP",
-    "amp_info": "Çaltlaşdyrylan ykjam sahypalar",
     "compress": "Suratyň gysylmagy",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Tizligi tizlendiriji",

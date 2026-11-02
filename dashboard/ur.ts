@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "زائرین کے تجزیات",
     new_visitors: "نئے زائرین",
-    amp: "AMP مناظر",
     returning_visitors: "واپس آنے والے زائرین",
     page_views: "صفحہ کے نظارے",
     other_pages: "دوسرے صفحات",
@@ -9053,10 +9052,6 @@ export default {
       msg: "اپنی ویب سائٹ پر سامعین اور سرچ انجنوں کے لیے ایک ہموار موبائل تجربہ فراہم کریں۔",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "تیز رفتار موبائل صفحات آٹو جنریشن۔",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

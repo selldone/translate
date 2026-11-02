@@ -215,8 +215,6 @@ export default {
     "meta_info": "Samodejno ustvarite popolnoma napredne meta oznake",
     "jsonld": "JSON-LD",
     "jsonld_info": "Strukturirani podatki",
-    "amp": "AMP",
-    "amp_info": "Pospešene mobilne strani",
     "compress": "Stiskanje slike",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Pospeševalnik hitrosti",

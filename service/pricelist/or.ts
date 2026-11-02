@@ -215,8 +215,6 @@ export default {
     "meta_info": "ସ୍ୱୟଂଚାଳିତ ଭାବରେ ସମ୍ପୂର୍ଣ୍ଣ ଉନ୍ନତ ମେଟା ଟ୍ୟାଗ୍ ସୃଷ୍ଟି କରନ୍ତୁ |",
     "jsonld": "JSON-LD |",
     "jsonld_info": "ସଂରଚନା ତଥ୍ୟ |",
-    "amp": "AMP",
-    "amp_info": "ତ୍ୱରିତ ମୋବାଇଲ୍ ପୃଷ୍ଠାଗୁଡ଼ିକ |",
     "compress": "ପ୍ରତିଛବି ସଙ୍କୋଚନ |",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "ଗତି ତ୍ୱରକ",

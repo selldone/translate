@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Аналитика",
     new_visitors: "Яңа кунаклар",
-    amp: "AMP күренешләре",
     returning_visitors: "Кайтучы кунаклар",
     page_views: "Бит күренеше",
     other_pages: "Башка битләр",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Вебсайтыгыздагы аудитория һәм эзләү системалары өчен мобиль тәҗрибә туплагыз.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Мобиль битләрне тизләтү.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

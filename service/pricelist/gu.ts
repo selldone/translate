@@ -215,8 +215,6 @@ export default {
     "meta_info": "આપમેળે સંપૂર્ણ અદ્યતન મેટા ટૅગ્સ બનાવો",
     "jsonld": "JSON-LD",
     "jsonld_info": "સ્ટ્રક્ચર્ડ ડેટા",
-    "amp": "AMP",
-    "amp_info": "ઝડપી મોબાઇલ પૃષ્ઠો",
     "compress": "ઇમેજ કમ્પ્રેશન",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "સ્પીડ એક્સિલરેટર",

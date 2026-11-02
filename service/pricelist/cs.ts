@@ -215,8 +215,6 @@ export default {
     "meta_info": "Vytvářejte plně pokročilé meta tagy automaticky",
     "jsonld": "JSON-LD",
     "jsonld_info": "Strukturovaná data",
-    "amp": "AMP",
-    "amp_info": "Zrychlené mobilní stránky",
     "compress": "Komprese obrazu",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Akcelerátor rychlosti",

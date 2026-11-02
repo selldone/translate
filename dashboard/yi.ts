@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "וויזיטערז אַנאַליטיקס",
     new_visitors: "ניו וויזיטערז",
-    amp: "AMP קוקן",
     returning_visitors: "אומגעקערט וויזיטערז",
     page_views: "בלאַט קוקן",
     other_pages: "אנדערע בלעטער",
@@ -9053,10 +9052,6 @@ export default {
       msg: "צושטעלן אַ סימלאַס רירעוודיק דערפאַרונג פֿאַר די וילעם און זוכן ענדזשאַנז אויף דיין וועבזייטל.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "אַקסעלערייטיד אַוטאָ דור פון רירעוודיק בלעטער.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

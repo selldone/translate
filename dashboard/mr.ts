@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "अभ्यागत विश्लेषण",
     new_visitors: "नवीन अभ्यागत",
-    amp: "AMP दृश्ये",
     returning_visitors: "परत येणारे अभ्यागत",
     page_views: "पृष्ठ दृश्ये",
     other_pages: "इतर पृष्ठे",
@@ -9053,10 +9052,6 @@ export default {
       msg: "तुमच्या वेबसाइटवर प्रेक्षक आणि शोध इंजिनांसाठी अखंड मोबाइल अनुभव प्रदान करा.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "प्रवेगक मोबाइल पृष्ठे स्वयंचलित निर्मिती.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

@@ -215,8 +215,6 @@ export default {
     "meta_info": "Looge täielikult täiustatud metasildid automaatselt",
     "jsonld": "JSON-LD",
     "jsonld_info": "Struktureeritud andmed",
-    "amp": "AMP",
-    "amp_info": "Kiirendatud mobiililehed",
     "compress": "Pildi tihendamine",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Kiiruse kiirendaja",

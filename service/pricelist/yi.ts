@@ -215,8 +215,6 @@ export default {
     "meta_info": "שאַפֿן גאָר אַוואַנסירטע מעטאַ טאַגס אויטאָמאַטיש",
     "jsonld": "JSON-LD",
     "jsonld_info": "סטראַקטשערד דאַטאַ",
-    "amp": "AMP",
-    "amp_info": "אַקסעלערייטיד רירעוודיק בלעטער",
     "compress": "בילד קאַמפּרעשאַן",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "ספּיד אַקסעלעראַטאָר",

@@ -215,8 +215,6 @@ export default {
     "meta_info": "Buat tag meta tingkat lanjut secara otomatis",
     "jsonld": "JSON-LD",
     "jsonld_info": "Data Terstruktur",
-    "amp": "AMP",
-    "amp_info": "Halaman seluler yang dipercepat",
     "compress": "Kompresi Gambar",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Akselerator Kecepatan",

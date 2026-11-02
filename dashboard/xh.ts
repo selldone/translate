@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Uhlalutyo lweendwendwe",
     new_visitors: "Iindwendwe ezintsha",
-    amp: "Iimbono ze-AMP",
     returning_visitors: "Iindwendwe ezibuyayo",
     page_views: "Iimbono zephepha",
     other_pages: "Amanye amaphepha",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Nikeza ngamava eselula angenamthungo kubaphulaphuli kunye neenjini zokukhangela kwiwebhusayithi yakho.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Amaphepha akhawulezileyo eselula azivelela ngokuzenzekelayo.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

@@ -215,8 +215,6 @@ export default {
     "meta_info": "完全に高度なメタタグを自動的に作成する",
     "jsonld": "JSON-LD",
     "jsonld_info": "構造化データ",
-    "amp": "AMP",
-    "amp_info": "Accelerated Mobile Pages",
     "compress": "画像圧縮",
     "compress_info": "jpg、png、svg、wpng、..。",
     "boost": "スピードアクセラレータ",

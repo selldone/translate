@@ -215,8 +215,6 @@ export default {
     "meta_info": "Ƙirƙiri cikakkun manyan alamun meta ta atomatik",
     "jsonld": "JSON-LD",
     "jsonld_info": "Bayanan Tsari",
-    "amp": "AMP",
-    "amp_info": "Hanzarta shafukan hannu",
     "compress": "Matsa Hotuna",
     "compress_info": "jpg, png, svg, wpng,...",
     "boost": "Mai Saurin Sauri",

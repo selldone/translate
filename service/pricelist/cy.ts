@@ -215,8 +215,6 @@ export default {
     "meta_info": "Creu tagiau meta cwbl ddatblygedig yn awtomatig",
     "jsonld": "JSON-LD",
     "jsonld_info": "Data Strwythuredig",
-    "amp": "AMP",
-    "amp_info": "Tudalennau symudol carlam",
     "compress": "Cywasgiad Delwedd",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Cyflymydd Cyflymder",

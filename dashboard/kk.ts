@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Келушілер талдауы",
     new_visitors: "Жаңа келушілер",
-    amp: "AMP көріністері",
     returning_visitors: "Қайтып келетін келушілер",
     page_views: "Бет көріністері",
     other_pages: "Басқа беттер",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Веб-сайтыңыздағы аудитория мен іздеу жүйелері үшін үздіксіз мобильді тәжірибені қамтамасыз етіңіз.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Жылдамдатылған мобильді беттерді автоматты түрде жасау.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

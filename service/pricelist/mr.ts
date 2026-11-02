@@ -215,8 +215,6 @@ export default {
     "meta_info": "पूर्णपणे प्रगत मेटा टॅग स्वयंचलितपणे तयार करा",
     "jsonld": "JSON-LD",
     "jsonld_info": "संरचित डेटा",
-    "amp": "AMP",
-    "amp_info": "प्रवेगक मोबाइल पृष्ठे",
     "compress": "प्रतिमा संक्षेप",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "गती प्रवेगक",

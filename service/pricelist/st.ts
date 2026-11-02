@@ -215,8 +215,6 @@ export default {
     "meta_info": "Iketsetse li-meta tag tse tsoetseng pele ka bohona",
     "jsonld": "JSON-LD",
     "jsonld_info": "Lintlha tse hlophisitsoeng",
-    "amp": "AMP",
-    "amp_info": "Maqephe a tsamaeang ka potlako",
     "compress": "Khatello ea Litšoantšo",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Speed Accelerator",

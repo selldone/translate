@@ -215,8 +215,6 @@ export default {
     "meta_info": "Създавайте напълно разширени мета тагове автоматично",
     "jsonld": "JSON-LD",
     "jsonld_info": "Структурирани данни",
-    "amp": "AMP",
-    "amp_info": "Ускорени мобилни страници",
     "compress": "Компресиране на изображение",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Ускорител на скоростта",

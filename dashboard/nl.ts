@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Bezoekersanalyse",
     new_visitors: "Nieuwe bezoekers",
-    amp: "AMP-weergaven",
     returning_visitors: "Terugkerende bezoekers",
     page_views: "Paginaweergaven",
     other_pages: "Andere pagina's",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Bied een naadloze mobiele ervaring voor het publiek en de zoekmachines op uw website.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Versnelde automatische generatie van mobiele pagina's.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

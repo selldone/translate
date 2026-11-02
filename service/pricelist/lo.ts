@@ -215,8 +215,6 @@ export default {
     "meta_info": "ສ້າງແທັກ meta ຂັ້ນສູງຢ່າງເຕັມທີ່ໂດຍອັດຕະໂນມັດ",
     "jsonld": "JSON-LD",
     "jsonld_info": "ຂໍ້ມູນໂຄງສ້າງ",
-    "amp": "AMP",
-    "amp_info": "ຫນ້າມືຖືເລັ່ງ",
     "compress": "ການບີບອັດຮູບພາບ",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "ເລັ່ງຄວາມໄວ",

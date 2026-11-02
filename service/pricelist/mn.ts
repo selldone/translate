@@ -215,8 +215,6 @@ export default {
     "meta_info": "Бүрэн дэвшилтэт мета шошгуудыг автоматаар үүсгэх",
     "jsonld": "JSON-LD",
     "jsonld_info": "Бүтцийн өгөгдөл",
-    "amp": "AMP",
-    "amp_info": "Түргэвчилсэн гар утасны хуудас",
     "compress": "Зураг шахах",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Хурдны хурдасгуур",

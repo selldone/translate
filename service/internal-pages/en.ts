@@ -13,6 +13,32 @@
  */
 
 export default {
+  official_layouts: {
+    eyebrow: "Official storefront layouts",
+    title: "A new look. Your same store.",
+    subtitle: "Explore storefronts built for Selldone. Preview any layout with your own products before you apply it.",
+    all_layouts: "All layouts",
+    search: "Search layouts",
+    category: "Category",
+    all_categories: "All categories",
+    loading: "Loading layouts",
+    error: "We couldn't load these layouts. Please try again.",
+    retry: "Try again",
+    empty: "No layouts match your search.",
+    try_now: "Try now",
+    view_layout: "View layout",
+    unavailable: "Preview currently unavailable",
+    preview_hint: "Choose your store to preview. Your live layout changes only when you apply it.",
+    about: "About this layout",
+    gallery: "A closer look",
+    demo: "See it in action",
+    watch_demo: "Watch demo",
+    count_label: "{count} layout | {count} layouts",
+    page_summary: "Showing {from}–{to} of {total}",
+    clear_filters: "Clear filters",
+    version: "Version",
+    tags: "Tags",
+  },
   blog_reader: {
     article_tools: "Article tools",
     edit_article: "Edit article",
@@ -46,9 +72,11 @@ export default {
         login_hint: "Log in and continue exploring this store",
         build_like_this: "Build a store like this",
         choose_path_hint: "Choose how to start your Selldone store",
-        diy_title: "Prefer to build it yourself?",
+        diy_title: "Start with an official Selldone layout",
         diy_description:
-          "Create your account, pick a design, add your products and go live on your own domain, at your own pace.",
+          "Explore storefront designs and preview them with your own products before applying a layout to your store.",
+        diy_action: "Explore official layouts",
+        diy_hint: "Browse Selldone’s official storefront layouts",
         expert_title: "Expert setup packages",
         packages_note:
           "One-time · built by the Selldone setup team · prices in {currency}",

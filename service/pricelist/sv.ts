@@ -215,8 +215,6 @@ export default {
     "meta_info": "Skapa helt avancerade metataggar automatiskt",
     "jsonld": "JSON-LD",
     "jsonld_info": "Strukturerad data",
-    "amp": "AMP",
-    "amp_info": "Accelererade mobilsidor",
     "compress": "Bildkomprimering",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Hastighetsaccelerator",

@@ -215,8 +215,6 @@ export default {
     "meta_info": "ಸಂಪೂರ್ಣ ಸುಧಾರಿತ ಮೆಟಾ ಟ್ಯಾಗ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಚಿಸಿ",
     "jsonld": "JSON-LD",
     "jsonld_info": "ರಚನಾತ್ಮಕ ಡೇಟಾ",
-    "amp": "AMP",
-    "amp_info": "ವೇಗವರ್ಧಿತ ಮೊಬೈಲ್ ಪುಟಗಳು",
     "compress": "ಇಮೇಜ್ ಕಂಪ್ರೆಷನ್",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "ವೇಗ ವೇಗವರ್ಧಕ",

@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Külastajate analüüs",
     new_visitors: "Uued külastajad",
-    amp: "AMP vaated",
     returning_visitors: "Pöörduvad külastajad",
     page_views: "Lehe vaatamised",
     other_pages: "Muud lehed",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Pakkuge oma veebisaidi vaatajaskonnale ja otsingumootoritele sujuvat mobiilikogemust.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Kiirendatud mobiililehtede automaatne genereerimine.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

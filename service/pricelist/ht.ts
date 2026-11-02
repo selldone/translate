@@ -215,8 +215,6 @@ export default {
     "meta_info": "Kreye meta tags konplètman avanse otomatikman",
     "jsonld": "JSON-LD",
     "jsonld_info": "Done estriktire",
-    "amp": "AMP",
-    "amp_info": "Paj mobil akselere",
     "compress": "Konpresyon imaj",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Vitès akseleratè",

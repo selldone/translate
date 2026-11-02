@@ -258,8 +258,6 @@ export default {
     meta_info: "Create fully advanced meta tags automatically.",
     jsonld: "JSON-LD",
     jsonld_info: "Structured Data",
-    amp: "AMP",
-    amp_info: "Accelerated Mobile Pages",
     compress: "Image Compression",
     compress_info: "jpg, png, svg, wpng, ...",
     boost: "Speed Accelerator",

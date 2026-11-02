@@ -216,8 +216,6 @@ export default {
     "meta_info": "自動創建完全高級的元標記",
     "jsonld": "JSON-LD",
     "jsonld_info": "結構化數據",
-    "amp": "AMP",
-    "amp_info": "加速移動頁面",
     "compress": "圖像壓縮",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "加速器",

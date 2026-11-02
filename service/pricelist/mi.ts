@@ -215,8 +215,6 @@ export default {
     "meta_info": "Waihanga aunoatia nga tohu meta tino matatau",
     "jsonld": "JSON-LD",
     "jsonld_info": "Raraunga Hangaia",
-    "amp": "AMP",
-    "amp_info": "Nga wharangi pūkoro tere",
     "compress": "Kōpeketanga Atahanga",
     "compress_info": "jpg, png, svg, wpng, ...",
     "boost": "Whakatere Tere",

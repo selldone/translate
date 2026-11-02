@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Vizitè Analytius",
     new_visitors: "Nouvo vizitè yo",
-    amp: "opinyon AMP",
     returning_visitors: "Retounen vizitè yo",
     page_views: "View paj",
     other_pages: "Lòt paj",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Bay yon eksperyans mobil san pwoblèm pou odyans lan ak motè reuhèuh sou sit entènèt ou a.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Akselere paj mobil oto jenerasyon.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

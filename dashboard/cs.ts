@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Analýza návštěvníků",
     new_visitors: "Noví návštěvníci",
-    amp: "zobrazení AMP",
     returning_visitors: "Vracející se návštěvníci",
     page_views: "Zobrazení stránky",
     other_pages: "Další stránky",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Poskytněte publiku a vyhledávačům na svém webu bezproblémový mobilní zážitek.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Zrychlené automatické generování mobilních stránek.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

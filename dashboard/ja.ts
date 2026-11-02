@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "訪問者分析",
     new_visitors: "新規訪問者",
-    amp: "AMPビュー",
     returning_visitors: "リピーター",
     page_views: "ページビュー",
     other_pages: "他のページ",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Webサイトのオーディエンスと検索エンジンにシームレスなモバイルエクスペリエンスを提供します。",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "AcceleratedMobilePagesの自動生成。",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

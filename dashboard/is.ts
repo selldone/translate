@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "Gestagreining",
     new_visitors: "Nýir gestir",
-    amp: "AMP skoðanir",
     returning_visitors: "Heimir gestir",
     page_views: "Síðuskoðanir",
     other_pages: "Aðrar síður",
@@ -9053,10 +9052,6 @@ export default {
       msg: "Veittu óaðfinnanlega farsímaupplifun fyrir áhorfendur og leitarvélar á vefsíðunni þinni.",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "Hröðun farsímasíður sjálfvirk kynslóð.",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/

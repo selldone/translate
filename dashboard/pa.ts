@@ -5485,7 +5485,6 @@ export default {
   shop_visitors_widget: {
     title: "ਵਿਜ਼ਟਰ ਵਿਸ਼ਲੇਸ਼ਣ",
     new_visitors: "ਨਵੇਂ ਵਿਜ਼ਟਰ",
-    amp: "AMP ਦ੍ਰਿਸ਼",
     returning_visitors: "ਵਾਪਸ ਆਉਣ ਵਾਲੇ ਸੈਲਾਨੀ",
     page_views: "ਪੰਨਾ ਦ੍ਰਿਸ਼",
     other_pages: "ਹੋਰ ਪੰਨੇ",
@@ -9053,10 +9052,6 @@ export default {
       msg: "ਆਪਣੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਦਰਸ਼ਕਾਂ ਅਤੇ ਖੋਜ ਇੰਜਣਾਂ ਲਈ ਇੱਕ ਸਹਿਜ ਮੋਬਾਈਲ ਅਨੁਭਵ ਪ੍ਰਦਾਨ ਕਰੋ।",
     },
 
-    amp: {
-      title: "AMP",
-      msg: "ਐਕਸਲਰੇਟਿਡ ਮੋਬਾਈਲ ਪੇਜ ਆਟੋ ਜਨਰੇਸ਼ਨ।",
-    },
   },
 
   /** {@see BPageShopSettingEmail} **/
