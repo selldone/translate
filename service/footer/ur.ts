@@ -23,17 +23,11 @@ export default {
           {
             "title": "مدد",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "بلاگ",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "بلاگ",
             "to": {
               "name": "Blogs"
             }

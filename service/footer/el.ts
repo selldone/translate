@@ -23,17 +23,11 @@ export default {
           {
             "title": "Βοήθεια",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Ιστολόγιο",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Ιστολόγιο",
             "to": {
               "name": "Blogs"
             }

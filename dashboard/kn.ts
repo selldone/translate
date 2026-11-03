@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "ಯೋಜನೆಗಳು",
       accounts: "ಖಾತೆಗಳು",
-      participant: "ಭಾಗವಹಿಸುವವರು",
     },
   },
   /** {@see OPageMonetizeReferral} **/

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "ዕቅዶች",
       accounts: "መለያዎች",
-      participant: "ተሳታፊ",
     },
   },
   /** {@see OPageMonetizeReferral} **/

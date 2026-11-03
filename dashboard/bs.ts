@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Planovi",
       accounts: "Računi",
-      participant: "Učesnik",
     },
   },
   /** {@see OPageMonetizeReferral} **/

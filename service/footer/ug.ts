@@ -23,17 +23,11 @@ export default {
           {
             "title": "ياردەم",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "بىلوگ",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "بىلوگ",
             "to": {
               "name": "Blogs"
             }

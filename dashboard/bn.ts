@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "পরিকল্পনা সমূহ",
       accounts: "হিসাব",
-      participant: "অংশগ্রহণকারী",
     },
   },
   /** {@see OPageMonetizeReferral} **/

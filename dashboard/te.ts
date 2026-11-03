@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "ప్రణాళికలు",
       accounts: "ఖాతాలు",
-      participant: "పాల్గొనేవాడు",
     },
   },
   /** {@see OPageMonetizeReferral} **/

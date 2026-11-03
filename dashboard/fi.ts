@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Suunnitelmat",
       accounts: "Tilit",
-      participant: "Osallistuja",
     },
   },
   /** {@see OPageMonetizeReferral} **/

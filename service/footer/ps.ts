@@ -23,17 +23,11 @@ export default {
           {
             "title": "مرسته",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "بلاګ",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "بلاګ",
             "to": {
               "name": "Blogs"
             }

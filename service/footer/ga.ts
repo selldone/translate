@@ -23,17 +23,11 @@ export default {
           {
             "title": "Cabhrú",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Blag",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Blag",
             "to": {
               "name": "Blogs"
             }

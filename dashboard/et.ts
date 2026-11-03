@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Plaanid",
       accounts: "Kontod",
-      participant: "Osaleja",
     },
   },
   /** {@see OPageMonetizeReferral} **/

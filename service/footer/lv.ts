@@ -23,17 +23,11 @@ export default {
           {
             "title": "Palīdzība",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Emuārs",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Emuārs",
             "to": {
               "name": "Blogs"
             }

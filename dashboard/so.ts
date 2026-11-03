@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Qorshayaasha",
       accounts: "Xisaabaadka",
-      participant: "Ka qaybqaataha",
     },
   },
   /** {@see OPageMonetizeReferral} **/

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Atụmatụ",
       accounts: "Akaụntụ",
-      participant: "Onye so na ya",
     },
   },
   /** {@see OPageMonetizeReferral} **/

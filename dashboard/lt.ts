@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Planai",
       accounts: "Sąskaitos",
-      participant: "Dalyvis",
     },
   },
   /** {@see OPageMonetizeReferral} **/

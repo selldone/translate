@@ -23,17 +23,11 @@ export default {
           {
             "title": "Nceda",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Ibhlog",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Ibhlog",
             "to": {
               "name": "Blogs"
             }

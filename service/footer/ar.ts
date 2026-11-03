@@ -23,17 +23,11 @@ export default {
           {
             "title": "مساعدة",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "مدونة او مذكرة",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "مدونة او مذكرة",
             "to": {
               "name": "Blogs"
             }

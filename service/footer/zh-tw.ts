@@ -23,17 +23,11 @@ export default {
           {
             "title": "幫助",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "博客",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "博客",
             "to": {
               "name": "Blogs"
             }

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Áætlanir",
       accounts: "Reikningar",
-      participant: "Þátttakandi",
     },
   },
   /** {@see OPageMonetizeReferral} **/

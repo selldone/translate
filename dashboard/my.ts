@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "အစီအစဉ်များ",
       accounts: "အကောင့်များ",
-      participant: "ပါဝင်သူ",
     },
   },
   /** {@see OPageMonetizeReferral} **/

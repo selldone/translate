@@ -23,17 +23,11 @@ export default {
           {
             "title": "Usizo",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Ibhulogi",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Ibhulogi",
             "to": {
               "name": "Blogs"
             }

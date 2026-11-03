@@ -23,17 +23,11 @@ export default {
           {
             "title": "🎁 Regalos de la comunidad",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Ayuda",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "Blog",
+            "title": "Ayuda",
             "to": {
               "name": "Blogs"
             }

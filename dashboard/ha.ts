@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Shirye-shirye",
       accounts: "Asusu",
-      participant: "Mahalarta",
     },
   },
   /** {@see OPageMonetizeReferral} **/

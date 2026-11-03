@@ -23,17 +23,11 @@ export default {
           {
             "title": "Enyemaka",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Blog",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Blog",
             "to": {
               "name": "Blogs"
             }

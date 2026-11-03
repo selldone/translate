@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Pleananna",
       accounts: "Cuntais",
-      participant: "Rannpháirtí",
     },
   },
   /** {@see OPageMonetizeReferral} **/

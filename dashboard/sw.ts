@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Mipango",
       accounts: "Akaunti",
-      participant: "Mshiriki",
     },
   },
   /** {@see OPageMonetizeReferral} **/

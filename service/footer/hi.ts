@@ -23,17 +23,11 @@ export default {
           {
             "title": "मदद",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "ब्लॉग",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "ब्लॉग",
             "to": {
               "name": "Blogs"
             }

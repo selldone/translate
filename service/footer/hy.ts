@@ -23,17 +23,11 @@ export default {
           {
             "title": "Օգնություն",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Բլոգ",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Բլոգ",
             "to": {
               "name": "Blogs"
             }

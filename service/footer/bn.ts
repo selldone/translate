@@ -23,17 +23,11 @@ export default {
           {
             "title": "সাহায্য",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "ব্লগ",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "ব্লগ",
             "to": {
               "name": "Blogs"
             }

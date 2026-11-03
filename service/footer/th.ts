@@ -23,17 +23,11 @@ export default {
           {
             "title": "ช่วย",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "บล็อก",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "บล็อก",
             "to": {
               "name": "Blogs"
             }

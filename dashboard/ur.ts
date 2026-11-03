@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "منصوبے",
       accounts: "اکاؤنٹس",
-      participant: "حصہ لینے والا",
     },
   },
   /** {@see OPageMonetizeReferral} **/

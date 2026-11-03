@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Gahunda",
       accounts: "Konti",
-      participant: "Uwitabira",
     },
   },
   /** {@see OPageMonetizeReferral} **/

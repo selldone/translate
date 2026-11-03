@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "予定",
       accounts: "アカウント",
-      participant: "参加者",
     },
   },
   /** {@see OPageMonetizeReferral} **/

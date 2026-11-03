@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Meýilnamalar",
       accounts: "Hasaplar",
-      participant: "Gatnaşan",
     },
   },
   /** {@see OPageMonetizeReferral} **/

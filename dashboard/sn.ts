@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Zvirongwa",
       accounts: "maakaundi",
-      participant: "Mutori wechikamu",
     },
   },
   /** {@see OPageMonetizeReferral} **/

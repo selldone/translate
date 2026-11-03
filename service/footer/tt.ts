@@ -23,17 +23,11 @@ export default {
           {
             "title": "Ярдәм итегез",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Блог",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Блог",
             "to": {
               "name": "Blogs"
             }

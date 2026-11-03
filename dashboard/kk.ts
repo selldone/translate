@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Жоспарлары",
       accounts: "Есептік жазбалар",
-      participant: "Қатысушы",
     },
   },
   /** {@see OPageMonetizeReferral} **/

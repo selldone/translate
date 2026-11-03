@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "الخطط",
       accounts: "حسابات",
-      participant: "مشارك",
     },
   },
   /** {@see OPageMonetizeReferral} **/

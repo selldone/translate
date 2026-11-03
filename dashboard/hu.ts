@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Tervek",
       accounts: "Fiókok",
-      participant: "Résztvevő",
     },
   },
   /** {@see OPageMonetizeReferral} **/

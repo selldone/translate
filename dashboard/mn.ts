@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Төлөвлөгөө",
       accounts: "Дансууд",
-      participant: "Оролцогч",
     },
   },
   /** {@see OPageMonetizeReferral} **/

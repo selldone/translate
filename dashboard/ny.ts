@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Mapulani",
       accounts: "Akaunti",
-      participant: "Wotenga nawo mbali",
     },
   },
   /** {@see OPageMonetizeReferral} **/

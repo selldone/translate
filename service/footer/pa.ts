@@ -23,17 +23,11 @@ export default {
           {
             "title": "ਮਦਦ ਕਰੋ",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "ਬਲੌਗ",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "ਬਲੌਗ",
             "to": {
               "name": "Blogs"
             }

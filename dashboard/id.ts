@@ -4483,7 +4483,6 @@ export default {
     menu: {
       plans: "Rencana",
       accounts: "Akun",
-      participant: "Peserta",
     },
   },
   /** {@see OPageMonetizeReferral} **/

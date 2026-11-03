@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Planoak",
       accounts: "Kontuak",
-      participant: "Parte-hartzailea",
     },
   },
   /** {@see OPageMonetizeReferral} **/

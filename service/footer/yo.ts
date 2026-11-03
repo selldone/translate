@@ -23,17 +23,11 @@ export default {
           {
             "title": "Egba Mi O",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Bulọọgi",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Bulọọgi",
             "to": {
               "name": "Blogs"
             }

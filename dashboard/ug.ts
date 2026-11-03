@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "پىلانلار",
       accounts: "ھېسابات",
-      participant: "قاتناشقۇچى",
     },
   },
   /** {@see OPageMonetizeReferral} **/

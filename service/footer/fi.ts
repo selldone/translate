@@ -23,17 +23,11 @@ export default {
           {
             "title": "auta",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Blogi",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Blogi",
             "to": {
               "name": "Blogs"
             }

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Các kế hoạch",
       accounts: "Tài khoản",
-      participant: "Người tham gia",
     },
   },
   /** {@see OPageMonetizeReferral} **/

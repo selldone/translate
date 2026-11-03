@@ -587,6 +587,45 @@ export default {
   },
 
   redesign: {
+    storefront_start: {
+      eyebrow: "Your next storefront starts here",
+      title: "Pick the look.",
+      title_accent: "Let your AI do the rest.",
+      lead: "Start with an official layout. Make it your store in one click.",
+      lead_ai: "Then tell your AI what to change. No API docs to study.",
+      explore: "Explore custom layouts",
+      gallery_aria: "Official storefront layouts",
+      official: "Selldone official",
+      live_demo: "View live demo",
+      view_layout: "View layout",
+      loading: "Loading official layouts…",
+      error: "Official layouts could not be loaded.",
+      empty: "New official layouts will appear here when published.",
+      retry: "Try again",
+      swipe: "Swipe to explore layouts",
+      journey_eyebrow: "Three steps. One conversation.",
+      journey_title: "Your AI builds it.",
+      journey_title_accent: "You make it yours.",
+      journey_lead:
+        "Bring your products and your vision. Selldone connects the business behind them.",
+      steps: {
+        account: {
+          title: "Create your account",
+          body: "Start your business on Selldone. Your store stays under your control.",
+        },
+        connect: {
+          title: "Connect your AI",
+          body: "Connect ChatGPT or Claude with Selldone MCP.",
+        },
+        build: {
+          title: "Tell it what you want",
+          body: "“Add my products from Excel. Use this layout.” Or ask AI for a design from scratch.",
+        },
+      },
+      connection_time: "≈ 20 seconds",
+      action: "Build my store with AI",
+      action_hint: "Pick a layout. Share its link. Keep creating.",
+    },
     partner: {
       eyebrow: "For agencies & builders",
       title: "Build stores.",

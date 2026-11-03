@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Planet",
       accounts: "Llogaritë",
-      participant: "pjesëmarrës",
     },
   },
   /** {@see OPageMonetizeReferral} **/

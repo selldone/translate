@@ -23,17 +23,11 @@ export default {
           {
             "title": "🎁 社区礼物",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "帮助",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "博客",
+            "title": "帮助",
             "to": {
               "name": "Blogs"
             }

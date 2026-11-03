@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Cynlluniau",
       accounts: "Cyfrifon",
-      participant: "Cyfranogwr",
     },
   },
   /** {@see OPageMonetizeReferral} **/

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Σχέδια",
       accounts: "Λογαριασμοί",
-      participant: "Συμμέτοχος",
     },
   },
   /** {@see OPageMonetizeReferral} **/

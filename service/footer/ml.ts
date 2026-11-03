@@ -23,17 +23,11 @@ export default {
           {
             "title": "സഹായം",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "ബ്ലോഗ്",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "ബ്ലോഗ്",
             "to": {
               "name": "Blogs"
             }

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Izicwangciso",
       accounts: "Iiakhawunti",
-      participant: "Umthathi-nxaxheba",
     },
   },
   /** {@see OPageMonetizeReferral} **/

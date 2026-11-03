@@ -23,17 +23,11 @@ export default {
           {
             "title": "Kömək edin",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Bloq",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Bloq",
             "to": {
               "name": "Blogs"
             }

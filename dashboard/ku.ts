@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "hêman",
       accounts: "firotanê",
-      participant: "Beşdar",
     },
   },
   /** {@see OPageMonetizeReferral} **/

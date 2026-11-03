@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "ផែនការ",
       accounts: "គណនី",
-      participant: "អ្នកចូលរួម",
     },
   },
   /** {@see OPageMonetizeReferral} **/

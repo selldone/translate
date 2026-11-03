@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "പദ്ധതികൾ",
       accounts: "അക്കൗണ്ടുകൾ",
-      participant: "പങ്കാളി",
     },
   },
   /** {@see OPageMonetizeReferral} **/

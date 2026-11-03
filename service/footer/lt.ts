@@ -23,17 +23,11 @@ export default {
           {
             "title": "Pagalba",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Dienoraštis",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Dienoraštis",
             "to": {
               "name": "Blogs"
             }

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Pläng",
       accounts: "Konten",
-      participant: "Element",
     },
   },
   /** {@see OPageMonetizeReferral} **/

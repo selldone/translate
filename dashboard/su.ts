@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Rencana",
       accounts: "Rekening",
-      participant: "Pamilon",
     },
   },
   /** {@see OPageMonetizeReferral} **/

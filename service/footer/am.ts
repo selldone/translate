@@ -23,17 +23,11 @@ export default {
           {
             "title": "እገዛ",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "ብሎግ",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "ብሎግ",
             "to": {
               "name": "Blogs"
             }

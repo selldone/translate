@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "გეგმები",
       accounts: "ანგარიშები",
-      participant: "Მონაწილე",
     },
   },
   /** {@see OPageMonetizeReferral} **/

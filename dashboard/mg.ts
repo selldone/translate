@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "drafitra",
       accounts: "Kaonty",
-      participant: "Mpandray anjara",
     },
   },
   /** {@see OPageMonetizeReferral} **/

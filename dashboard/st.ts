@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Merero",
       accounts: "Litlaleho",
-      participant: "Motho ea nkang karolo",
     },
   },
   /** {@see OPageMonetizeReferral} **/

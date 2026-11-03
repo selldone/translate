@@ -50,7 +50,6 @@ export default {
         items: [
           { title: "What is Selldone?", to: { name: "WhatIsSelldone" } },
           { title: "Selldone Community", to: { name: "CommunityHomePage" } },
-          { title: "🎁 Community Gifts", to: { name: "ParticipantPage" } },
 
           { title: "Help", to: { name: "Helps" } },
           { title: "Blog", to: { name: "Blogs" } },

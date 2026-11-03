@@ -23,17 +23,11 @@ export default {
           {
             "title": "உதவி",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "வலைப்பதிவு",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "வலைப்பதிவு",
             "to": {
               "name": "Blogs"
             }

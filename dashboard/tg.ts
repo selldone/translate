@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Нақшаҳо",
       accounts: "Ҳисобҳо",
-      participant: "Иштироккунанда",
     },
   },
   /** {@see OPageMonetizeReferral} **/

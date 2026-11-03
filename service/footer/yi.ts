@@ -23,17 +23,11 @@ export default {
           {
             "title": "הילף",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "בלאָג",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "בלאָג",
             "to": {
               "name": "Blogs"
             }

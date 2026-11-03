@@ -23,17 +23,11 @@ export default {
           {
             "title": "עֶזרָה",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "בלוג",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "בלוג",
             "to": {
               "name": "Blogs"
             }

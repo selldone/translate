@@ -23,17 +23,11 @@ export default {
           {
             "title": "Ajuda",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Bloc",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Bloc",
             "to": {
               "name": "Blogs"
             }

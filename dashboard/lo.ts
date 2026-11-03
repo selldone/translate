@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "ແຜນການ",
       accounts: "ບັນຊີ",
-      participant: "ຜູ້ເຂົ້າຮ່ວມ",
     },
   },
   /** {@see OPageMonetizeReferral} **/

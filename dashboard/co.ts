@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Piani",
       accounts: "Conti",
-      participant: "Participante",
     },
   },
   /** {@see OPageMonetizeReferral} **/

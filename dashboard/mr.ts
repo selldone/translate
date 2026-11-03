@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "योजना",
       accounts: "खाती",
-      participant: "सहभागी",
     },
   },
   /** {@see OPageMonetizeReferral} **/

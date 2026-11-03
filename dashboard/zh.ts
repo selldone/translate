@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "计划",
       accounts: "账户",
-      participant: "参与者",
     },
   },
   /** {@see OPageMonetizeReferral} **/

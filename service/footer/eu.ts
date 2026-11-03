@@ -23,17 +23,11 @@ export default {
           {
             "title": "Laguntza",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Bloga",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Bloga",
             "to": {
               "name": "Blogs"
             }

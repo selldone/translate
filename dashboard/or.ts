@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "ଯୋଜନାଗୁଡିକ",
       accounts: "ଖାତା",
-      participant: "ଅଂଶଗ୍ରହଣକାରୀ",
     },
   },
   /** {@see OPageMonetizeReferral} **/

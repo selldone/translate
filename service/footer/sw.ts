@@ -23,17 +23,11 @@ export default {
           {
             "title": "Msaada",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Blogu",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Blogu",
             "to": {
               "name": "Blogs"
             }

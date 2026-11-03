@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Planer",
       accounts: "Regnskaber",
-      participant: "Deltager",
     },
   },
   /** {@see OPageMonetizeReferral} **/

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Rejalar",
       accounts: "Hisoblar",
-      participant: "Ishtirokchi",
     },
   },
   /** {@see OPageMonetizeReferral} **/

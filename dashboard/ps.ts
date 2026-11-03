@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "پلانونه",
       accounts: "حسابونه",
-      participant: "ګډون کوونکی",
     },
   },
   /** {@see OPageMonetizeReferral} **/

@@ -4477,7 +4477,6 @@ export default {
     menu: {
       plans: "Izinhlelo",
       accounts: "Ama-akhawunti",
-      participant: "Umhlanganyeli",
     },
   },
   /** {@see OPageMonetizeReferral} **/

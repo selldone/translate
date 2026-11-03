@@ -23,17 +23,11 @@ export default {
           {
             "title": "Thusa",
             "to": {
-              "name": "ParticipantPage"
-            }
-          },
-          {
-            "title": "Blog",
-            "to": {
               "name": "Helps"
             }
           },
           {
-            "title": "FAQ",
+            "title": "Blog",
             "to": {
               "name": "Blogs"
             }
