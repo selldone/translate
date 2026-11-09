@@ -1588,6 +1588,10 @@ export default {
       cluster: "کلاسترهای منابع",
       affiliate: "همکاران فروش",
       cashback: "کش‌بک‌ها",
+      gateway: "درگاه‌های پرداخت",
+      customer: "مشتریان",
+      tax_profile: "پروفایل‌های مالیاتی",
+      valuation: "قیمت‌گذاری‌ها",
     },
     destinations: {
       blog_posts: "نوشته‌های وبلاگ",

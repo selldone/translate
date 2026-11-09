@@ -1592,6 +1592,10 @@ export default {
       cluster: "Resource clusters",
       affiliate: "Affiliates",
       cashback: "Cashbacks",
+      gateway: "Payment gateways",
+      customer: "Customers",
+      tax_profile: "Tax profiles",
+      valuation: "Valuations",
     },
     destinations: {
       blog_posts: "Blog posts",
