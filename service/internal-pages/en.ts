@@ -323,6 +323,12 @@ export default {
     },
     anatomy: {
       eyebrow: "Custom Layout",
+      ai_chip: "AI is designing",
+      layer_top: "Custom Layout",
+      layer_mid: "Payments & shipping",
+      layer_bottom: "Products & inventory",
+      ai_label: "AI connected to every layer",
+      stack_aria: "Three stacked layers: products and inventory at the bottom, payments and shipping in the middle, the Custom Layout on top, with the AI connected to each",
       title: "Your design on top.",
       title_accent: "Selldone underneath.",
       lead: "A Custom Layout is the complete Selldone storefront with a new design. You change how it looks and flows; catalog, cart, checkout and accounts keep running on the same commerce engine.",
@@ -347,6 +353,7 @@ export default {
     },
     builder: {
       eyebrow: "Landing Builder",
+      ai_suggest: "Suggest a section",
       title: "Design one page.",
       title_accent: "Keep the rest.",
       lead: "Pick a page of your layout—home, a campaign, a collection—and shape it visually with dedicated tools. The rest of the storefront stays exactly as it is.",
