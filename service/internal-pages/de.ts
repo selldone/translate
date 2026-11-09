@@ -46,10 +46,10 @@ export default {
         login_hint: "Anmelden und diesen Shop weiter erkunden",
         build_like_this: "Einen solchen Shop erstellen",
         choose_path_hint: "Wähle deinen Weg zum eigenen Selldone-Shop",
-        diy_title: "Lieber selbst aufbauen?",
+        diy_title: "Mit einem offiziellen Selldone-Layout starten.",
         diy_description:
-          "Konto erstellen, Design wählen, Produkte anlegen und mit eigener Domain live gehen – in Ihrem Tempo.",
-        expert_title: "Experten-Setup-Pakete",
+          "Stöbere durch Selldones offizielle Shop-Layouts, sieh dir jedes mit deinen eigenen Produkten an und wende das passende auf deinen Shop an. Keine Kosten, kein Code.",
+        expert_title: "Einrichtungspakete zum Kauf",
         packages_note:
           "Einmalig · umgesetzt vom Selldone-Setup-Team · Preise in {currency}",
         step: "Schritt {level}",
@@ -61,6 +61,31 @@ export default {
         choose_package: "{title} wählen",
         other_models: "Ein anderes Betriebsmodell gewünscht?",
         all_packages: "Alle Setup-Pakete",
+        diy_action: "Offizielle Layouts entdecken",
+        diy_hint: "Selldones offizielle Shop-Layouts durchstöbern",
+        eyebrow: "Deinen Shop starten",
+        free: "Kostenlos",
+        free_note: "Kostenlos für jeden Selldone-Shop · kein Code nötig",
+        layouts_eyebrow: "Offizielle Layouts",
+        layouts_title_accent: "Kostenlos für jeden Shop.",
+        layouts_art_summary:
+          "Illustration: offizielle Selldone-Layouts, die du kostenlos anwenden kannst.",
+        packages_lead:
+          "Lieber machen lassen? Kaufe ein einmaliges Paket und das Selldone-Team baut und startet deinen Shop.",
+        full_setup: "Komplette Einrichtung",
+        full_setup_accent: "Dein Shop, fertig gebaut und verkaufsbereit.",
+        full_setup_promise:
+          "Ein kompletter Shop, so professionell wie Selldones offizielle Layouts, gestaltet für deine Marke und deine Anforderungen. Wir richten ihn ein, übergeben ihn verkaufsbereit und halten jede Seite auf den Verkauf ausgerichtet.",
+        full_setup_art: {
+          summary:
+            "Illustration: ein Shop, angepasst an deine Marke und verkaufsbereit übergeben.",
+          custom: "Angepasst an deine Marke",
+          address: "yourbrand.com",
+          domain: "Deine Domain verbunden",
+          payments: "Zahlungen & Richtlinien bereit",
+          products: "Produkte angelegt",
+          launch: "Verkaufsbereit",
+        },
       },
       eyebrow: "Live-Shops · Erstellt mit Selldone",
       title: "Echte Marken, erstellt mit Selldone.",
@@ -161,7 +186,7 @@ export default {
       resume_wall: "Shop-Animation fortsetzen",
       next_title: "Dein Shop könnte der nächste sein.",
       next_description:
-        "Wählen Sie ein einmaliges Setup-Paket und das Selldone-Team baut Ihren Shop, oder starten Sie kostenlos und bauen ihn selbst.",
+        "Starte kostenlos mit einem offiziellen Layout oder kaufe ein einmaliges Einrichtungspaket und lass das Selldone-Team deinen Shop bauen.",
       start_free: "Kostenlos mit Selldone starten",
       start_hint: "Ein Konto erstellen und deinen Shop aufbauen",
       next_title_start: "Ihr Shop könnte der",

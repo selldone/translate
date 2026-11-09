@@ -46,10 +46,10 @@ export default {
         login_hint: "Inicia sesión y sigue explorando esta tienda",
         build_like_this: "Crea una tienda como esta",
         choose_path_hint: "Elige cómo empezar tu tienda en Selldone",
-        diy_title: "¿Prefieres crearla tú mismo?",
+        diy_title: "Empieza con un layout oficial de Selldone.",
         diy_description:
-          "Crea tu cuenta, elige un diseño, añade tus productos y publica en tu propio dominio, a tu ritmo.",
-        expert_title: "Paquetes de configuración experta",
+          "Explora los layouts oficiales de tienda de Selldone, previsualiza cualquiera con tus propios productos y aplica el que te guste a tu tienda. Sin coste, sin código.",
+        expert_title: "Paquetes de configuración que puedes comprar",
         packages_note:
           "Pago único · realizado por el equipo de configuración de Selldone · precios en {currency}",
         step: "Paso {level}",
@@ -61,6 +61,31 @@ export default {
         choose_package: "Elegir {title}",
         other_models: "¿Necesitas otro modelo operativo?",
         all_packages: "Todos los paquetes de configuración",
+        diy_action: "Explorar los layouts oficiales",
+        diy_hint: "Explorar los layouts oficiales de tienda de Selldone",
+        eyebrow: "Empieza tu tienda",
+        free: "Gratis",
+        free_note: "Gratis para cada tienda de Selldone · sin código",
+        layouts_eyebrow: "Layouts oficiales",
+        layouts_title_accent: "Gratis para cada tienda.",
+        layouts_art_summary:
+          "Ilustración: layouts oficiales de Selldone que puedes aplicar gratis.",
+        packages_lead:
+          "¿Prefieres que lo hagamos por ti? Compra un paquete de pago único y el equipo de Selldone crea y lanza tu tienda.",
+        full_setup: "Configuración completa",
+        full_setup_accent: "Tu tienda, creada y lista para vender.",
+        full_setup_promise:
+          "Una tienda completa, tan profesional como los layouts oficiales de Selldone, diseñada para tu marca y tus necesidades. La configuramos, la entregamos lista para vender y mantenemos cada página centrada en vender.",
+        full_setup_art: {
+          summary:
+            "Ilustración: una tienda personalizada para tu marca y entregada lista para vender.",
+          custom: "Personalizada para tu marca",
+          address: "yourbrand.com",
+          domain: "Tu dominio conectado",
+          payments: "Pagos y políticas listos",
+          products: "Productos añadidos",
+          launch: "Lista para vender",
+        },
       },
       eyebrow: "Tiendas activas · Creadas con Selldone",
       title: "Marcas reales, creadas con Selldone.",
@@ -162,7 +187,7 @@ export default {
       resume_wall: "Reanudar la animación de las tiendas",
       next_title: "Tu tienda podría ser la próxima.",
       next_description:
-        "Elige un paquete de configuración de pago único y el equipo de Selldone crea tu tienda, o empieza gratis y créala tú mismo.",
+        "Empieza gratis con un layout oficial o compra un paquete de configuración de pago único y deja que el equipo de Selldone cree tu tienda por ti.",
       start_free: "Empieza gratis con Selldone",
       start_hint: "Crea una cuenta y empieza a crear tu tienda",
       next_title_start: "Tu tienda podría ser la",
