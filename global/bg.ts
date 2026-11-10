@@ -295,7 +295,7 @@ export default {
     "not_active": "Неактивен",
     "referrals": "Реферали",
     "dashboard": "Табло",
-    "more": "| Повече ▼",
+    "more": "{'|'} Повече ▼",
     "inactive": "неактивен",
     "developer": "Разработчик",
     "setting": "Настройка",

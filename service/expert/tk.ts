@@ -256,7 +256,7 @@ export default {
     "cost": "Şertnamanyň bahasy",
     "pay_now_action": "Men razy ╏ Şu wagt töle",
     "complete_action": "Hawa ╏ Şertnamany gutar",
-    "reject_action": "| Ok ╏ Tamamlamak tassyklanmady",
+    "reject_action": "{'|'} Ok ╏ Tamamlamak tassyklanmady",
     "all_tasks_completed_message": "Kesgitlenen meseleleriň hemmesini ýerine ýetirdiňiz. Muny gutaran bolsaňyz, sargyt gutarmak düwmesine basyň. Bu ädimden soň, müşderi eseriň gowşurylyşyny tassyklamaly.",
     "waiting_complete_by_customer_message": "Işi tassykladyňyz, indi buýrugyň gowşurylyşyny müşderiniň tassyklamagyna garaşmaly bolarsyňyz. Müşderi tarapyndan tassyklanmasa ýa-da ret edilse, sargyt awtomatiki tassyklanar we 3 günden soň tamamlanar.",
     "comment": "Teswir ýazyň",
