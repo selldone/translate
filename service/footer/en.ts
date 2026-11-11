@@ -53,6 +53,7 @@ export default {
 
           { title: "Help", to: { name: "Helps" } },
           { title: "Blog", to: { name: "Blogs" } },
+          { title: "FAQ", to: { name: "FAQ" } },
 
           { title: "Privacy Policy", to: { name: "Landing_Privacy" } },
           { title: "Terms of Service", to: { name: "Landing_Terms" } },
