@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Pridėkite daugiau informacijos",
-    auto_category: "Automatiškai nustatyta kategorija",
     add_in_current_category: "Pridėti prie dabartinės kategorijos",
-    category_mode_message:
-      "Jei įgalinta, produktas bus įtrauktas į numatytąją kategoriją arba subkategoriją.",
-    sku_name_input: "SKU / pavadinimas",
     info: {
       subtitle:
         "Į elementas patikrinkite Produktas, elementas elementas Įveskite internetu patikrinkite Esminis Detalės elementas už elementas Sukūrimo.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Įveskite patikrinkite kaina ir Nuolaida už šis Produktas. elementas patikrinkite Produktas Ar sėkmingai, elementas elementas Prieiga Į Daugiau.. nustatymai.",
-    },
-    by_sku: {
-      title: "pridėti pagal SKU",
-      subtitle: "patikrinkite elementas kainą savo Šalis Ar Ne Yra.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "elementas pridėti Produktai Iš POD arba Dropshippingas elementas su „Selldone“ Prijunkite OS—elementas Prijunkite savo parduotuvė ir Mėgaukitės elementas Produktas elementas, ne elementas elementas. Connect OS",
     },
     your_license_is_not_eligible: "savo Licencija Ar Ne Tinkami.",
-    sku_dialog: {
-      title: "pridėti Produktas pagal SKU",
-      subtitle:
-        "Jūs turite galimybę rasti produktus pagal jų SKU mūsų duomenų bazėje ir pridėti juos vienu paspaudimu.",
-    },
     dropshipping_dialog: {
       title: "pridėti Dropshippingas Produktai",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "aptarnavimas Sutaupyti Pakeitimai, elementas elementas Gauti tiek testo laišką pristatymo <b>{email}</b>. Sutaupyti Pakeitimai anksčiau elementas tiek testo El. paštas su patikrinkite Nauja konfigūracija.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Pardavimai Instagrame",
-
-    add_product: "Pridėti naują produktą",
-    create_product: "Sukurti produktą",
-    link_box_msg:
-      "Įdėkite šią nuorodą į savo biografiją Instagram, Telegram ar kituose socialiniuose tinkluose, kad jūsų auditorija galėtų nusipirkti greičiau, lengviau, daugiau ir galiausiai daugiau.",
-    remove_account: "Pakeisti / pašalinti Instagram nuorodą",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Pardavimai Kanalas",
-    subtitle:
-      "Sukurti tiek elementas Kategorija už savo Produktai, Pilna su Vaizdai ir elementas, ir elementas patvirtinu elementas savo socialines žiniasklaida. elementas elementas Į Instagram ir TikTok, elementas su Visas kontrolė, elementas elementas Į elementas elementas savo Produktai.",
   },
 
   /** @see ServiceBillingItem **/

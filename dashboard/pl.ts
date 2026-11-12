@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Dodaj więcej szczegółów",
-    auto_category: "Automatycznie ustawiana kategoria",
     add_in_current_category: "Dodaj do aktualnej kategorii",
-    category_mode_message:
-      "Jeśli włączysz, produkt zostanie dodany do domyślnej kategorii lub podkategorii.",
-    sku_name_input: "SKU / nazwa",
     info: {
       subtitle:
         "Aby wygenerować produkt, możesz wprowadzić jedynie niezbędne dane niezbędne do jego stworzenia.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Wprowadź cenę i rabat dla tego produktu. Po dodaniu produktu będziesz mieć dostęp do większej liczby opcji.",
-    },
-    by_sku: {
-      title: "Dodaj element SKU",
-      subtitle: "Baza danych w Twoim kraju nie jest dostępna.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Z łatwością dodawaj produkty z POD lub dostawców dropshippingowych dzięki Selldone Connect OS — po prostu podłącz swój sklep i ciesz się automatyczną integracją produktów, bez konieczności stosowania wtyczek.",
     },
     your_license_is_not_eligible: "Twoja licencja nie kwalifikuje się.",
-    sku_dialog: {
-      title: "Dodaj Produkt element SKU",
-      subtitle:
-        "Masz możliwość zlokalizowania produktów po ich SKU w naszej bazie danych i dodania ich jednym kliknięciem.",
-    },
     dropshipping_dialog: {
       title: "Dodaj element Produkty",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Po zapisaniu zmian otrzymasz wiadomość testową na adres <b>{email}</b>. Zapisz zmiany przed wysłaniem wiadomości testowej z nową konfiguracją.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Sprzedaż na Instagramie Instagram",
-
-    add_product: "Dodaj nowy produkt",
-    create_product: "Utwórz produkt",
-    link_box_msg:
-      "Umieść ten link w swoim biografii na Instagramie, Telegramie lub innych mediach społecznościowych, aby Twoi odbiorcy mogli kupować szybciej, łatwiej, więcej i wreszcie więcej. Instagram",
-    remove_account: "Zmień / Usuń link do Instagrama Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Obroty Kanał",
-    subtitle:
-      "Utwórz dedykowaną kategorię dla swoich produktów, uzupełnioną zdjęciami i filmami, i udostępnij ją w mediach społecznościowych. Działa podobnie jak Instagram i TikTok, ale z pełną kontrolą, umożliwiając bezpośrednią sprzedaż produktów.",
   },
 
   /** @see ServiceBillingItem **/

@@ -16472,11 +16472,7 @@ Show a working preview and prepare a static Cloudflare deployment following the 
       create_error: "The product could not be added. Your entries are kept; try again.",
     },
     add_mode: "Add more details",
-    auto_category: "Auto-set category",
     add_in_current_category: "Add to the current category",
-    category_mode_message:
-      "If enable, product will be added in to the default category or subcategory.",
-    sku_name_input: "SKU / Name",
     info: {
       subtitle:
         "To generate the product, you can enter only the essential details necessary for its creation.",
@@ -16484,10 +16480,6 @@ Show a working preview and prepare a static Cloudflare deployment following the 
     price: {
       subtitle:
         "Enter the price and discount for this product. Once the product is added, you'll have access to more options.",
-    },
-    by_sku: {
-      title: "Add by SKU",
-      subtitle: "The database in your country is not available.",
     },
     drop_shipping: {
       subtitle:
@@ -16498,11 +16490,6 @@ Show a working preview and prepare a static Cloudflare deployment following the 
         "Easily add products from POD or dropshipping suppliers with Selldone Connect OS—just connect your store and enjoy automatic product integration, no plugins needed.",
     },
     your_license_is_not_eligible: "Your license is not eligible.",
-    sku_dialog: {
-      title: "Add Product by SKU",
-      subtitle:
-        "You have the ability to locate products by their SKU in our database and add them with just a single click.",
-    },
     dropshipping_dialog: {
       title: "Add dropshipping products",
     },
@@ -23803,23 +23790,6 @@ Show a working preview and prepare a static Cloudflare deployment following the 
     },
   },
 
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Sales on Instagram",
-
-    add_product: "Add new product",
-    create_product: "Create product",
-    link_box_msg:
-      "Put this link in your bio on Instagram, Telegram, or other social media so that your audience can find products faster and buy easier.",
-    remove_account: "Change / Remove Instagram link",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Sales Channel",
-    subtitle:
-      "Create a dedicated category for your products, complete with images and videos, and share it across your social media. It's similar to Instagram and TikTok, but with full control, allowing you to directly sell your products.",
-  },
-
   /** @see BPageShopChannelMeta **/
   shop_meta: {
     eyebrow: "Sales channels / Facebook",
@@ -26157,7 +26127,7 @@ Show a working preview and prepare a static Cloudflare deployment following the 
       create:
         "One unit is used only when a new item is successfully created. Editing, restoring, validation failures, and rolled-back operations use nothing. Deleting an item does not return its unit during the current quota period.",
       product:
-        "Manual, cloned, AI, repository, connector, dropshipping, and gift-card product creates use one unit. An import row intended to create a product can be charged when it is staged; later matching or worker failure does not currently refund that unit. Updates, restores, and deletes do not count.",
+        "Manual, cloned, AI, connector, dropshipping, and gift-card product creates use one unit. An import row intended to create a product can be charged when it is staged; later matching or worker failure does not currently refund that unit. Updates, restores, and deletes do not count.",
       online_order:
         "Standard, Avocado, and Hyper orders use one unit the first time an open order becomes Reserved or COD. A seller-created Avocado order that starts Reserved and a newly created Reserved subscription basket use one unit on creation. Retries and later status changes do not count again, and cancellation, expiry, or refund does not return the unit.",
       pos_order:
@@ -26173,7 +26143,7 @@ Show a working preview and prepare a static Cloudflare deployment following the 
       Product: {
         title: "Product",
         description:
-          "New products made manually, by clone or AI, through imports, repositories, dropshipping tools, gift cards, and connected sales channels.",
+          "New products made manually, by clone or AI, through imports, dropshipping tools, gift cards, and connected sales channels.",
       },
       ListingItem: {
         title: "Listing item",
@@ -26182,7 +26152,7 @@ Show a working preview and prepare a static Cloudflare deployment following the 
       Category: {
         title: "Category",
         description:
-          "New categories made manually, by imports, AI, repositories, connected catalog tools, or product processing.",
+          "New categories made manually, by imports, AI, connected catalog tools, or product processing.",
       },
       Domain: {
         title: "Domain",

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Onjezani zambiri",
-    auto_category: "Gulu lokhazikika",
     add_in_current_category: "Onjezani kugulu lomwe lilipo",
-    category_mode_message:
-      "Ngati zitheke, malonda adzawonjezedwa m'gulu losasintha kapena kagawo kakang'ono.",
-    sku_name_input: "SKU / Dzina",
     info: {
       subtitle:
         "Kuti mupange chinthucho, mutha kulowetsamo zofunikira zokhazokha zomwe zimafunikira kuti zipangidwe.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Lowetsani mtengo ndi kuchotsera kwa mankhwalawa. Mukawonjezedwa, mudzakhala ndi mwayi wopeza zina.",
-    },
-    by_sku: {
-      title: "Onjezani chinthu SKU",
-      subtitle: "Malo osungirako zinthu m'dziko lanu palibe.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Onjezani mosavuta zinthu zochokera ku POD kapena zotsika mtengo ndi Selldone Connect OS-ingolumikizani sitolo yanu ndikusangalala ndi kuphatikiza kwazinthu zokha, osafunikira mapulagini.",
     },
     your_license_is_not_eligible: "Chiphatso chanu sichiyenera.",
-    sku_dialog: {
-      title: "Onjezani Mankhwala chinthu SKU",
-      subtitle:
-        "Mutha kupeza zogulitsa ndi SKU yawo munkhokwe yathu ndikuziwonjezera ndikungodina kamodzi.",
-    },
     dropshipping_dialog: {
       title: "Onjezani chinthu Zogulitsa",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Mukasunga zosintha, mudzalandira imelo yoyesera pa <b>{email}</b>. Sungani zosintha musanatumize imelo yoyeserera yokhala ndi zochunira zatsopano.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Zogulitsa pa Instagram",
-
-    add_product: "Onjezani chatsopano",
-    create_product: "Pangani mankhwala",
-    link_box_msg:
-      "Ikani ulalo uwu pazambiri yanu pa Instagram, Telegraph kapena malo ena ochezera kuti omvera anu athe kugula mwachangu, mosavuta, mochulukirapo komanso pomaliza zambiri.",
-    remove_account: "Sinthani / Chotsani ulalo wa Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Zogulitsa njira",
-    subtitle:
-      "Pangani gulu lodzipatulira lazinthu zanu, lodzaza ndi zithunzi ndi makanema, ndikugawana nawo pamasamba anu ochezera. Ndizofanana ndi Instagram ndi TikTok, koma ndikuwongolera kwathunthu, kukulolani kuti mugulitse malonda anu mwachindunji.",
   },
 
   /** @see ServiceBillingItem **/

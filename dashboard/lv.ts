@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Pievienojiet sīkāku informāciju",
-    auto_category: "Automātiski iestatīta kategorija",
     add_in_current_category: "Pievienot pašreizējai kategorijai",
-    category_mode_message:
-      "Ja iespējots, produkts tiks pievienots noklusējuma kategorijai vai apakškategorijai.",
-    sku_name_input: "SKU/nosaukums",
     info: {
       subtitle:
         "Uz vienums Domēns Produkts, vienums vienums Ievadiet maksājumus Domēns Būtisks Sīkāka informācija vienums par vienums Izveidošanas.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Ievadiet Domēns cena un Atlaide par vienums Produkts. vienums Domēns Produkts ir piekļuve, vienums vienums Piekļuve Uz Vairāk.. opcija.",
-    },
-    by_sku: {
-      title: "pievienot pēc SKU",
-      subtitle: "Domēns vienums vienums sava Valsts ir nav Pieejams.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "vienums pievienot Produkti No POD vai dropshipping vienums ar Selldone Pievienojiet OS—vienums Pievienojiet sava veikals un Izbaudiet vienums Produkts vienums, Nē vienums vienums. Connect OS",
     },
     your_license_is_not_eligible: "sava Licence ir nav Piemēroti.",
-    sku_dialog: {
-      title: "pievienot Produkts pēc SKU",
-      subtitle:
-        "Jums ir iespēja mūsu datubāzē atrast produktus pēc to SKU un pievienot tos tikai ar vienu klikšķi.",
-    },
     dropshipping_dialog: {
       title: "pievienot dropshipping Produkti",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "pēc Saglabāt Izmaiņas, vienums vienums Saņemt vienums testa pastu uz <b>{email}</b>. Saglabāt Izmaiņas iepriekš vienums vienums testa E-pasts ar Domēns Jauns konfigurācija.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Pārdošana Instagram",
-
-    add_product: "Pievienot jaunu produktu",
-    create_product: "Izveidojiet produktu",
-    link_box_msg:
-      "Ievietojiet šo saiti savā biogrāfijā Instagram, Telegram vai citos sociālajos medijos, lai jūsu auditorija varētu iegādāties ātrāk, vieglāk, vairāk un visbeidzot vairāk.",
-    remove_account: "Mainīt / noņemt Instagram saiti",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Pārdošana Kanāls",
-    subtitle:
-      "Izveidot vienums vienums Kategorija par sava Produkti, Pilnīga ar Attēli un vienums, un vienums apstiprinu vienums sava sociālās mēdiji. vienums vienums Uz Instagram un TikTok, vienums ar Pilns kontrole, vienums vienums Uz vienums vienums sava Produkti.",
   },
 
   /** @see ServiceBillingItem **/

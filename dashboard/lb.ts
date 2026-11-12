@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Füügt méi Detailer",
-    auto_category: "Auto-Set Kategorie",
     add_in_current_category: "Füügt an déi aktuell Kategorie",
-    category_mode_message:
-      "Wann aktivéiert, gëtt de Produit an d'Standardkategorie oder Ënnerkategorie bäigefüügt.",
-    sku_name_input: "SKU / Numm",
     info: {
       subtitle:
         "Fir de Produkt ze generéieren, kënnt Dir nëmmen déi wesentlech Detailer aginn, déi fir seng Kreatioun néideg sinn.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Gitt de Präis an Remise fir dëse Produit. Wann de Produit bäigefüügt ass, hutt Dir Zougang zu méi Optiounen.",
-    },
-    by_sku: {
-      title: "dobäisetzen no SKU",
-      subtitle: "D'Domain Element Op Äre Land ass net Verfügbar.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Füügt einfach Produkter vu POD oder Dropshipping Liwweranten mat Selldone Connect OS un - verbënnt just Äre Geschäft a genéisst automatesch Produktintegratioun, keng Plugins néideg.",
     },
     your_license_is_not_eligible: "Äre Lizenz ass net Usproch.",
-    sku_dialog: {
-      title: "dobäisetzen Produit no SKU",
-      subtitle:
-        "Dir hutt d'Fäegkeet Produkter no hirem SKU an eiser Datebank ze lokaliséieren an se mat just engem eenzegen Klick derbäi.",
-    },
     dropshipping_dialog: {
       title: "dobäisetzen addéieren Produkter",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Nodeems d'Ännerungen gespäichert sinn, kritt Dir en Testmail op <b>{email}</b>. Späichert Ännerungen ier Dir eng Test-E-Mail mat der neier Konfiguratioun schéckt.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Verkaf op Instagram",
-
-    add_product: "Neie Produkt derbäi",
-    create_product: "Produkt erstellen",
-    link_box_msg:
-      "Setzt dëse Link an Ärem Bio op Instagram, Telegram oder aner sozial Medien fir datt Äert Publikum méi séier, méi einfach, méi a schliisslech méi ka kafen.",
-    remove_account: "Änneren / läschen Instagram Link",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Verkaf Kanal",
-    subtitle:
-      "Erstellt eng speziell Kategorie fir Är Produkter, komplett mat Biller a Videoen, an deelt se iwwer Är sozial Medien. Et ass ähnlech wéi Instagram an TikTok, awer mat voller Kontroll, wat Iech erlaabt Är Produkter direkt ze verkafen.",
   },
 
   /** @see ServiceBillingItem **/

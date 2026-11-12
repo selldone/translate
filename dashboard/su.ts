@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Tambahkeun leuwih rinci",
-    auto_category: "Kategori otomatis-set",
     add_in_current_category: "Tambahkeun ka kategori ayeuna",
-    category_mode_message:
-      "Lamun diaktipkeun, produk bakal ditambahkeun kana kategori standar atawa subkategori.",
-    sku_name_input: "SKU / Ngaran",
     info: {
       subtitle:
         "Pikeun ngahasilkeun produk, anjeun ngan ukur tiasa ngalebetkeun detil penting anu dipikabutuh pikeun nyiptakeunana.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Lebetkeun harga sareng diskon pikeun produk ieu. Sakali produk ditambahkeun, anjeun bakal boga aksés ka leuwih pilihan.",
-    },
-    by_sku: {
-      title: "Tambahkeun barang SKU",
-      subtitle: "Pangkalan data di nagara anjeun henteu sayogi.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Gampang nambahkeun produk ti POD atanapi dropshipping suppliers kalawan Selldone Connect OS-ngan sambungkeun toko anjeun sarta ngarasakeun integrasi produk otomatis, euweuh plugins diperlukeun.",
     },
     your_license_is_not_eligible: "lisénsi anjeun teu layak.",
-    sku_dialog: {
-      title: "Tambahkeun produk barang SKU",
-      subtitle:
-        "Anjeun gaduh kamampuhan pikeun maluruh produk ku SKU maranéhanana dina database kami sarta nambahan aranjeunna kalayan ngan hiji klik.",
-    },
     dropshipping_dialog: {
       title: "Tambahkeun barang Produk",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Saatos nyimpen parobahanana, anjeun bakal nampa hiji mail test on <b>{email}</b>. Simpen parobahan sateuacan ngirim email tés nganggo konfigurasi énggal.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Penjualan dina Instagram",
-
-    add_product: "Tambahkeun produk anyar",
-    create_product: "Jieun produk",
-    link_box_msg:
-      "Pasang tautan ieu dina bio anjeun dina Instagram, Telegram atanapi média sosial sanés supados pamiarsa anjeun tiasa mésér langkung gancang, langkung gampang, langkung seueur sareng tungtungna langkung seueur.",
-    remove_account: "Robah / Cabut tautan Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Penjualan Saluran",
-    subtitle:
-      "Jieun kategori khusus pikeun produk anjeun, lengkep sareng gambar sareng video, sareng bagikeun ka média sosial anjeun. Éta sami sareng Instagram sareng TikTok, tapi kalayan kadali pinuh, ngamungkinkeun anjeun langsung ngajual produk anjeun.",
   },
 
   /** @see ServiceBillingItem **/

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Afegeix més detalls",
-    auto_category: "Definició automàtica de categoria",
     add_in_current_category: "Afegeix a la categoria actual",
-    category_mode_message:
-      "Si està activat, el producte s'afegirà a la categoria o subcategoria predeterminada.",
-    sku_name_input: "SKU / Nom",
     info: {
       subtitle:
         "Per generar el producte, només podeu introduir els detalls essencials necessaris per a la seva creació.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Introduïu el preu i el descompte d'aquest producte. Un cop afegit el producte, tindreu accés a més opcions.",
-    },
-    by_sku: {
-      title: "afegeix per SKU",
-      subtitle: "el terme a teu país és no disponible.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Afegiu fàcilment productes de proveïdors de POD o d'enviament directe amb Selldone Connect OS; només cal que connecteu la vostra botiga i gaudiu de la integració automàtica del producte, sense necessitat de connectors.",
     },
     your_license_is_not_eligible: "La vostra llicència no és elegible.",
-    sku_dialog: {
-      title: "afegeix producte per SKU",
-      subtitle:
-        "Teniu la possibilitat de localitzar productes segons el seu SKU a la nostra base de dades i afegir-los amb un sol clic.",
-    },
     dropshipping_dialog: {
       title: "afegeix terme productes",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Després de desar els canvis, rebràs un correu de prova a <b>{email}</b>. Deseu els canvis abans d'enviar un correu electrònic de prova amb la nova configuració.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Vendes a Instagram",
-
-    add_product: "Afegeix un producte nou",
-    create_product: "Crear producte",
-    link_box_msg:
-      "Posa aquest enllaç a la teva biografia a Instagram, Telegram o altres xarxes socials perquè el teu públic pugui comprar més ràpid, més fàcil, més i finalment més.",
-    remove_account: "Canvia/elimina l'enllaç d'Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram terme canal",
-    subtitle:
-      "Creeu una categoria dedicada als vostres productes, completa amb imatges i vídeos, i compartiu-la a les vostres xarxes socials. És similar a Instagram i TikTok, però amb un control total, que us permet vendre directament els vostres productes.",
   },
 
   /** @see ServiceBillingItem **/

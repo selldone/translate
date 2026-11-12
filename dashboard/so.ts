@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Ku dar faahfaahin dheeraad ah",
-    auto_category: "Qaybta otomaatiga u ah",
     add_in_current_category: "Ku dar qaybta hadda",
-    category_mode_message:
-      "Haddii la awoodo, badeecada waxaa lagu dari doonaa qaybta caadiga ah ama qayb-hoosaadka.",
-    sku_name_input: "SKU / Magaca",
     info: {
       subtitle:
         "Si aad u abuurto badeecada, waxaad geli kartaa oo kaliya faahfaahinta lagama maarmaanka u ah abuurkeeda.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Geli qiimaha iyo dhimista alaabtan. Marka alaabta lagu daro, waxaad heli doontaa doorashooyin badan.",
-    },
-    by_sku: {
-      title: "Ku dar shay SKU",
-      subtitle: "Xogta xogta dalkaaga lama heli karo",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Si fudud ugu dar badeecooyinka POD ama alaab-qeybiyeyaasha soo dejinta ee Selldone Connect OS-kaliya ku xidh dukaankaaga oo ku raaxayso is dhexgalka alaabta, looma baahna plugins.",
     },
     your_license_is_not_eligible: "Shatigaagu uma qalmo",
-    sku_dialog: {
-      title: "Ku dar Alaabta shay SKU",
-      subtitle:
-        "Waxaad awood u leedahay inaad ku hesho alaabtooda SKU ee xogtayada oo aad ku darto hal gujis oo keliya.",
-    },
     dropshipping_dialog: {
       title: "Ku dar Dhisidda Alaabta",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Badbaadada kaydinta ka dib, waxaad heli doontaa boostada tijaabada ah <b>{email}</b>. Keydi isbeddellada ka hor intaadan dirin iimaylka tijaabada leh qaabeynta cusub.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Iibinta Instagram-ka",
-
-    add_product: "Ku dar badeeco cusub",
-    create_product: "Abuur badeecad",
-    link_box_msg:
-      "Geli xiriiriyahan bio-gaaga Instagram, Telegram ama warbaahinta kale ee bulshada si ay daawadayaashaadu u iibsadaan dhaqso, sahlan, ka badan iyo ugu dambeyntii wax ka badan.",
-    remove_account: "Beddel / Ka saar xidhiidhka Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Iibka Kanaalka",
-    subtitle:
-      "U samee qayb u go'an alaabtaada, oo ku dhammaystiran sawirro iyo muuqaallo, oo la wadaag dhammaan warbaahintaada bulshada. Waxay la mid tahay Instagram iyo TikTok, laakiin leh koontarool buuxa, oo kuu oggolaanaya inaad si toos ah u iibiso alaabtaada.",
   },
 
   /** @see ServiceBillingItem **/

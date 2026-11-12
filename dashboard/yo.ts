@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Fi awọn alaye diẹ sii",
-    auto_category: "Ẹka ṣeto laifọwọyi",
     add_in_current_category: "Ṣafikun si ẹka lọwọlọwọ",
-    category_mode_message:
-      "Ti o ba mu ṣiṣẹ, ọja yoo wa ni afikun si ẹka aiyipada tabi ẹka-ipin.",
-    sku_name_input: "SKU / Orukọ",
     info: {
       subtitle:
         "Si ğéñéřáţé ţħé Ọja, ýóú çáñ éñţéř óñľý ţħé éşşéñţíáľ Awọn alaye ñéçéşşářý ƒóř íţş çřéáţíóñ.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Éñţéř ţħé owo áñď Eni owo ƒóř ţħíş Ọja. Óñçé ţħé Ọja íş áďďéď, ýóú'ľľ ħáṽé Wiwọle Si siwaju sii óƥţíóñş.",
-    },
-    by_sku: {
-      title: "Áďď ƀý SKU",
-      subtitle: "Ţħé ďáţáƀáşé íñ ýóúř Orilẹ-ede íş ñóţ Wa.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Éáşíľý áďď Awọn ọja Lati POD óř Gbigbe silẹ şúƥƥľíéřş ŵíţħ Selldone Çóññéçţ OS—ĵúşţ çóññéçţ ýóúř itaja áñď éñĵóý áúţóṃáţíç Ọja íñţéğřáţíóñ, rara ƥľúğíñş ñééďéď.",
     },
     your_license_is_not_eligible: "Ýóúř Iwe-aṣẹ íş ñóţ éľíğíƀľé.",
-    sku_dialog: {
-      title: "Áďď Ọja ƀý SKU",
-      subtitle:
-        "Ýóú ħáṽé ţħé áƀíľíţý Si ľóçáţé Awọn ọja ƀý ţħéíř SKU íñ óúř ďáţáƀáşé áñď áďď ţħéṃ ŵíţħ ĵúşţ á şíñğľé çľíçķ.",
-    },
     dropshipping_dialog: {
       title: "Áďď Gbigbe silẹ Awọn ọja",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Áƒţéř Fipamọ çħáñğéş, ýóú ŵíľľ Gba á ţéşţ ṃáíľ óñ <b>{email}</b>. Fipamọ çħáñğéş ƀéƒóřé şéñďíñğ á ţéşţ Imeeli ŵíţħ ţħé Tuntun çóñƒíğúřáţíóñ.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Tita lori Instagram",
-
-    add_product: "Fi ọja tuntun kun",
-    create_product: "Ṣẹda ọja",
-    link_box_msg:
-      "Fi ọna asopọ yii sinu igbesi aye igbesi aye rẹ lori Instagram, Telegram tabi media awujọ miiran ki awọn olugbo rẹ le ra ni iyara, rọrun, diẹ sii ati nikẹhin diẹ sii.",
-    remove_account: "Yipada / Yọ ọna asopọ Instagram kuro",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Tita ikanni",
-    subtitle:
-      "Ṣẹda á ďéďíçáţéď Ẹka ƒóř ýóúř Awọn ọja, çóṃƥľéţé ŵíţħ Awọn aworan áñď ṽíďéóş, áñď şħářé íţ áçřóşş ýóúř şóçíáľ ṃéďíá. Íţ'ş şíṃíľář Si Instagram áñď ŢíķŢóķ, ƀúţ ŵíţħ ƒúľľ çóñţřóľ, áľľóŵíñğ ýóú Si ďířéçţľý şéľľ ýóúř Awọn ọja.",
   },
 
   /** @see ServiceBillingItem **/

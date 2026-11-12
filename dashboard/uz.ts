@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Batafsil ma'lumot qo'shing",
-    auto_category: "Kategoriyani avtomatik sozlash",
     add_in_current_category: "Joriy toifaga qo'shing",
-    category_mode_message:
-      "Agar yoqilgan bo'lsa, mahsulot standart toifaga yoki pastki toifaga qo'shiladi.",
-    sku_name_input: "SKU / Ism",
     info: {
       subtitle:
         "Kimga ğéñéřáţé ţħé Mahsulot, ýóú çáñ éñţéř óñľý ţħé éşşéñţíáľ Tafsilotlar ñéçéşşářý ƒóř íţş çřéáţíóñ.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Éñţéř ţħé narx áñď Chegirma ƒóř ţħíş Mahsulot. Óñçé ţħé Mahsulot íş áďďéď, ýóú'ľľ ħáṽé Kirish Kimga Ko'proq óƥţíóñş.",
-    },
-    by_sku: {
-      title: "Áďď ƀý SKU",
-      subtitle: "Ţħé ďáţáƀáşé íñ ýóúř Mamlakat íş ñóţ Mavjud.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Éáşíľý áďď Mahsulotlar Kimdan POD óř ďřóƥşħíƥƥíñğ şúƥƥľíéřş ŵíţħ Selldone Çóññéçţ OS—ĵúşţ çóññéçţ ýóúř do'kon áñď éñĵóý áúţóṃáţíç Mahsulot íñţéğřáţíóñ, yo'q ƥľúğíñş ñééďéď.",
     },
     your_license_is_not_eligible: "Ýóúř Litsenziya íş ñóţ éľíğíƀľé.",
-    sku_dialog: {
-      title: "Áďď Mahsulot ƀý SKU",
-      subtitle:
-        "Ýóú ħáṽé ţħé áƀíľíţý Kimga ľóçáţé Mahsulotlar ƀý ţħéíř SKU íñ óúř ďáţáƀáşé áñď áďď ţħéṃ ŵíţħ ĵúşţ á şíñğľé çľíçķ.",
-    },
     dropshipping_dialog: {
       title: "Áďď ďřóƥşħíƥƥíñğ Mahsulotlar",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Áƒţéř Saqlash çħáñğéş, ýóú ŵíľľ Qabul qilish á ţéşţ ṃáíľ óñ <b>{email}</b>. Saqlash çħáñğéş ƀéƒóřé şéñďíñğ á ţéşţ Elektron pochta ŵíţħ ţħé Yangi çóñƒíğúřáţíóñ.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Instagramda sotuvlar",
-
-    add_product: "Yangi mahsulot qo'shing",
-    create_product: "Mahsulot yaratish",
-    link_box_msg:
-      "Tomoshabinlaringiz tezroq, osonroq, ko‘proq va nihoyat ko‘proq xarid qilishlari uchun ushbu havolani Instagram, Telegram yoki boshqa ijtimoiy tarmoqlardagi bio-ga qo‘ying.",
-    remove_account: "Instagram havolasini o'zgartirish / o'chirish",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Sotish Kanal",
-    subtitle:
-      "Yaratmoq á ďéďíçáţéď Turkum ƒóř ýóúř Mahsulotlar, çóṃƥľéţé ŵíţħ Tasvirlar áñď ṽíďéóş, áñď şħářé íţ áçřóşş ýóúř şóçíáľ ṃéďíá. Íţ'ş şíṃíľář Kimga Instagram áñď ŢíķŢóķ, ƀúţ ŵíţħ ƒúľľ çóñţřóľ, áľľóŵíñğ ýóú Kimga ďířéçţľý şéľľ ýóúř Mahsulotlar.",
   },
 
   /** @see ServiceBillingItem **/

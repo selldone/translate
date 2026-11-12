@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Lisää lisätietoja",
-    auto_category: "Automaattinen luokka",
     add_in_current_category: "Lisää nykyiseen luokkaan",
-    category_mode_message:
-      "Jos tämä on käytössä, tuote lisätään oletusluokkaan tai alaluokkaan.",
-    sku_name_input: "SKU / nimi",
     info: {
       subtitle:
         "Luodaksesi tuotteen, voit syöttää vain sen luomiseen tarvittavat olennaiset tiedot.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Syötä tämän tuotteen hinta ja alennus. Kun tuote on lisätty, pääset käyttämään enemmän vaihtoehtoja.",
-    },
-    by_sku: {
-      title: "Lisää mukaan SKU",
-      subtitle: "kohde sisällä sinun maa on ei saatavilla.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Määritä ja hallitse tätä asetusta kauppaasi varten.",
     },
     your_license_is_not_eligible: "sinun lisenssi on ei kohde.",
-    sku_dialog: {
-      title: "Lisää tuote mukaan SKU",
-      subtitle:
-        "Voit etsiä tuotteita niiden SKU:n mukaan tietokannastamme ja lisätä ne yhdellä napsautuksella.",
-    },
     dropshipping_dialog: {
       title: "Lisää dropshipping Tuotteet",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Muutosten tallentamisen jälkeen saat testipostin osoitteeseen <b>{email}</b>. Tallenna muutokset ennen kuin lähetät testisähköpostin uudella kokoonpanolla.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Myynti Instagramissa",
-
-    add_product: "Lisää uusi tuote",
-    create_product: "Luo tuote",
-    link_box_msg:
-      "Laita tämä linkki bioasi Instagramissa, Telegramissa tai muussa sosiaalisessa mediassa, jotta yleisösi voi ostaa nopeammin, helpommin, enemmän ja lopulta enemmän.",
-    remove_account: "Muuta / poista Instagram-linkki",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram myynti kanava",
-    subtitle:
-      "Määritä ja hallitse tätä asetusta kauppaasi varten.",
   },
 
   /** @see ServiceBillingItem **/

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Voeg meer besonderhede by",
-    auto_category: "Outo-stel kategorie",
     add_in_current_category: "Voeg by die huidige kategorie",
-    category_mode_message:
-      "As dit geaktiveer is, sal die produk by die verstekkategorie of subkategorie gevoeg word.",
-    sku_name_input: "SKU / Naam",
     info: {
       subtitle:
         "na genereer die produk, jy kan voer slegs die essential besonderhede nesessarie vir sy kreasie.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "voer die prys en afslag vir hierdie produk. onse die produk is bygevoeg, youll het toegang na meer opsies.",
-    },
-    by_sku: {
-      title: "Voeg by SKU by",
-      subtitle: "die database in jou land is nie beskikbaar.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "easilie voeg produkte vanaf POD of dropshipping suppliers met Selldone koppel OS—just koppel jou winkel en enjoie automaties produk integrasie, geen plugins needed.",
     },
     your_license_is_not_eligible: "jou lisense is nie eligbaar.",
-    sku_dialog: {
-      title: "voeg produk deur SKU",
-      subtitle:
-        "jy het die abiliteit na lokate produkte deur hul SKU in our database en voeg tem met just a single klik.",
-    },
     dropshipping_dialog: {
       title: "voeg dropshipping produkte",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "na stoor veranderinge, jy sal ontvang a toets mail op <b>{email}</b>. stoor veranderinge voor sending a toets e-pos met die nuut konfigurasie.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Verkope op Instagram",
-
-    add_product: "Voeg nuwe produk by",
-    create_product: "Skep produk",
-    link_box_msg:
-      "Plaas hierdie skakel in jou bio op Instagram, Telegram of ander sosiale media sodat jou gehoor vinniger, makliker, meer en uiteindelik meer kan koop.",
-    remove_account: "Verander / Verwyder Instagram-skakel",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram sales khannel",
-    subtitle:
-      "skep a dedikated kategorie vir jou produkte, komplete met beelde en videos, en share dit akross jou sosial media. sy similar na Instagram en tiktok, maar met full kontrol, allowing jy na direk sell jou produkte.",
   },
 
   /** @see ServiceBillingItem **/

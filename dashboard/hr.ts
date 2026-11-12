@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Dodajte više detalja",
-    auto_category: "Automatsko postavljanje kategorije",
     add_in_current_category: "Dodaj trenutnoj kategoriji",
-    category_mode_message:
-      "Ako je omogućeno, proizvod će biti dodan u zadanu kategoriju ili podkategoriju.",
-    sku_name_input: "SKU / Naziv",
     info: {
       subtitle:
         "Za generiranje proizvoda možete unijeti samo bitne podatke potrebne za njegovu izradu.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Unesite cijenu i popust za ovaj proizvod. Nakon što je proizvod dodan, imat ćete pristup više opcija.",
-    },
-    by_sku: {
-      title: "dodaj od SKU",
-      subtitle: "Baza podataka u vašoj zemlji nije dostupna.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Jednostavno dodajte proizvode iz POD-a ili dropshipping dobavljača uz Selldone Connect OS—samo povežite svoju trgovinu i uživajte u automatskoj integraciji proizvoda, bez potrebe za dodacima.",
     },
     your_license_is_not_eligible: "Vaša licenca nije prihvatljiva.",
-    sku_dialog: {
-      title: "dodaj proizvod od SKU",
-      subtitle:
-        "Imate mogućnost locirati proizvode prema njihovom SKU-u u našoj bazi podataka i dodati ih samo jednim klikom.",
-    },
     dropshipping_dialog: {
       title: "dodaj pojam proizvodi",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Nakon spremanja promjena, primit ćete probnu e-poštu <b>{email}</b>. Spremite promjene prije slanja testne e-pošte s novom konfiguracijom.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Prodaja na Instagramu",
-
-    add_product: "Dodajte novi proizvod",
-    create_product: "Kreirajte proizvod",
-    link_box_msg:
-      "Stavite ovu poveznicu u svoju biografiju na Instagramu, Telegramu ili drugim društvenim mrežama kako bi vaša publika mogla kupiti brže, lakše, više i konačno više.",
-    remove_account: "Promijenite / Uklonite Instagram vezu",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram pojam kanal",
-    subtitle:
-      "Napravite namjensku kategoriju za svoje proizvode, zajedno sa slikama i videozapisima, i podijelite to na svojim društvenim medijima. Sličan je Instagramu i TikToku, ali s potpunom kontrolom, što vam omogućuje izravnu prodaju vaših proizvoda.",
   },
 
   /** @see ServiceBillingItem **/

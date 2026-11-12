@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "詳細を追加",
-    auto_category: "カテゴリの自動設定",
     add_in_current_category: "現在のカテゴリに追加",
-    category_mode_message:
-      "有効にすると、製品はデフォルトのカテゴリまたはサブカテゴリに追加されます。",
-    sku_name_input: "SKU/名前",
     info: {
       subtitle:
         "製品を生成するには、その作成に必要な重要な詳細のみを入力します。",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "この商品の価格と割引を入力します。商品を追加すると、さらに多くのオプションにアクセスできるようになります。",
-    },
-    by_sku: {
-      title: "SKUで追加",
-      subtitle: "あなたの国のデータベースは利用できません。",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone Connect OS を使用すると、POD またはドロップシッピング サプライヤーから製品を簡単に追加できます。ストアを接続するだけで、プラグインを必要とせず、自動的に製品が統合されます。",
     },
     your_license_is_not_eligible: "あなたのライセンスは適格ではありません。",
-    sku_dialog: {
-      title: "SKUで製品を追加",
-      subtitle:
-        "当社のデータベースで SKU 別に製品を検索し、ワンクリックで追加することができます。",
-    },
     dropshipping_dialog: {
       title: "ドロップシッピング商品を追加する",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "変更を保存すると、 <b>{email}</b>にテストメールが届きます。新しい構成でテストメールを送信する前に、変更を保存してください。",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Instagramでの販売",
-
-    add_product: "新製品を追加する",
-    create_product: "製品を作成する",
-    link_box_msg:
-      "このリンクをInstagram、Telegram、またはその他のソーシャルメディアの略歴に入れて、視聴者がより速く、より簡単に、より多く、そして最終的にはより多く購入できるようにします。",
-    remove_account: "Instagramリンクの変更/削除",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram販売チャネル",
-    subtitle:
-      "画像やビデオを備えた製品専用のカテゴリを作成し、ソーシャル メディアで共有します。 Instagram や TikTok に似ていますが、完全に制御できるため、商品を直接販売できます。",
   },
 
   /** @see ServiceBillingItem **/

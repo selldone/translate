@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Ƙara ƙarin cikakkun bayanai",
-    auto_category: "Kashi na saiti ta atomatik",
     add_in_current_category: "Ƙara zuwa rukuni na yanzu",
-    category_mode_message:
-      "Idan an kunna, za a ƙara samfur zuwa cikin tsoho nau'i ko ƙananan rukuni.",
-    sku_name_input: "SKU / Suna",
     info: {
       subtitle:
         "zuwa Ƙirƙira na Samfuri, ku kan shigar Kawai na essential Cikakkun bayanai nekessary don its kreashan.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "shigar na Farashi da Ragi don wannan Samfuri. onke na Samfuri ne Ƙara, ku'll hafe Izini zuwa more Zaɓuɓɓuka.",
-    },
-    by_sku: {
-      title: "Ƙara ta SKU",
-      subtitle: "na database in naku Ƙasa ne Ba Akwai.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "easily Ƙara Samfura daga POD or dropshipping suppliers da Selldone konnekt os—just konnekt naku Shago da enjoy Kai tsaye Samfuri integrashan, no plugins nided.",
     },
     your_license_is_not_eligible: "naku likense ne Ba eligible.",
-    sku_dialog: {
-      title: "Ƙara Samfuri ta SKU",
-      subtitle:
-        "ku hafe na ability zuwa lokate Samfura ta their SKU in our database da Ƙara them da just a single klik.",
-    },
     dropshipping_dialog: {
       title: "Ƙara dropshipping Samfura",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "bayan ajiye kanje-kanje, ku zai rekeife a gwada mail on <b>{email}</b>. ajiye kanje-kanje kafin sending a gwada Imel da na Sabo Tsari.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Talla a kan Instagram",
-
-    add_product: "Ƙara sabon samfur",
-    create_product: "Ƙirƙiri samfur",
-    link_box_msg:
-      "Sanya wannan hanyar haɗin yanar gizon a cikin tarihin rayuwar ku akan Instagram, Telegram ko wasu kafofin watsa labarun don masu sauraron ku su iya siyayya da sauri, sauƙi, ƙari kuma a ƙarshe.",
-    remove_account: "Canza / Cire hanyar haɗin yanar gizon Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Tallace-tallace khannel",
-    subtitle:
-      "Ƙirƙira a dedikated Rukuni don naku Samfura, komplete da Hotuna da Bidiyo, da share shi akross naku sokial media. shi's similar zuwa Instagram da tiktok, but da full kontrol, allowing ku zuwa direktly Sayarwa naku Samfura.",
   },
 
   /** @see ServiceBillingItem **/

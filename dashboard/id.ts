@@ -5811,11 +5811,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Tambahkan lebih banyak detail",
-    auto_category: "Kategori setel otomatis",
     add_in_current_category: "Tambahkan ke kategori saat ini",
-    category_mode_message:
-      "Jika diaktifkan, produk akan ditambahkan ke kategori atau subkategori default.",
-    sku_name_input: "SKU / Nama",
     info: {
       subtitle:
         "Untuk membuat produk, Anda dapat memasukkan hanya rincian penting yang diperlukan untuk pembuatannya.",
@@ -5823,10 +5819,6 @@ export default {
     price: {
       subtitle:
         "Masukkan harga dan diskon untuk produk ini. Setelah produk ditambahkan, Anda akan memiliki akses ke lebih banyak pilihan.",
-    },
-    by_sku: {
-      title: "Tambahkan oleh SKU",
-      subtitle: "Basis data di negara Anda tidak tersedia.",
     },
     drop_shipping: {
       subtitle:
@@ -5837,11 +5829,6 @@ export default {
         "Tambahkan produk dengan mudah dari pemasok POD atau dropshipping dengan Selldone Connect OS—cukup hubungkan toko Anda dan nikmati integrasi produk otomatis, tanpa perlu plugin.",
     },
     your_license_is_not_eligible: "Lisensi Anda tidak memenuhi syarat.",
-    sku_dialog: {
-      title: "Tambahkan Produk berdasarkan SKU",
-      subtitle:
-        "Anda memiliki kemampuan untuk menemukan produk berdasarkan SKU di basis data kami dan menambahkannya hanya dengan satu klik.",
-    },
     dropshipping_dialog: {
       title: "Tambahkan produk dropshipping",
     },
@@ -8725,23 +8712,6 @@ export default {
       enable_receive_test:
         "Setelah menyimpan perubahan, Anda akan menerima email uji coba di <b>{email}</b> . Simpan perubahan sebelum mengirim email uji coba dengan konfigurasi baru.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Penjualan di Instagram",
-
-    add_product: "Tambahkan produk baru",
-    create_product: "Buat produk",
-    link_box_msg:
-      "Letakkan tautan ini di bio Anda di Instagram, Telegram, atau media sosial lainnya agar audiens Anda dapat membeli lebih cepat, lebih mudah, lebih banyak, dan akhirnya lebih banyak.",
-    remove_account: "Ubah / Hapus tautan Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Saluran Penjualan Instagram",
-    subtitle:
-      "Kelola informasi dan pengaturan bagian ini di sini.",
   },
 
   /** @see ServiceBillingItem **/

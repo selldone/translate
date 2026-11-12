@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Pridajte ďalšie podrobnosti",
-    auto_category: "Kategória automatického nastavenia",
     add_in_current_category: "Pridať do aktuálnej kategórie",
-    category_mode_message:
-      "Ak povolíte, produkt bude pridaný do predvolenej kategórie alebo podkategórie.",
-    sku_name_input: "SKU / Názov",
     info: {
       subtitle:
         "Pre vygenerovanie produktu môžete zadať len podstatné detaily potrebné na jeho vytvorenie.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Zadajte cenu a zľavu pre tento produkt. Po pridaní produktu budete mať prístup k ďalším možnostiam.",
-    },
-    by_sku: {
-      title: "Pridať položka SKU",
-      subtitle: "Databáza vo vašej krajine nie je dostupná.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Jednoducho pridávajte produkty od dodávateľov POD alebo dropshippingových dodávateľov pomocou Selldone Connect OS – stačí pripojiť svoj obchod a užívať si automatickú integráciu produktov bez potreby doplnkov.",
     },
     your_license_is_not_eligible: "Vaša licencia nie je oprávnená.",
-    sku_dialog: {
-      title: "Pridať Produkt položka SKU",
-      subtitle:
-        "Máte možnosť nájsť produkty podľa ich SKU v našej databáze a pridať ich jediným kliknutím.",
-    },
     dropshipping_dialog: {
       title: "Pridať položka Produkty",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Po uložení zmien dostanete testovací e-mail na <b>{email}</b>. Pred odoslaním testovacieho e-mailu s novou konfiguráciou uložte zmeny.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Predaj na Instagrame",
-
-    add_product: "Pridať nový produkt",
-    create_product: "Vytvorte produkt",
-    link_box_msg:
-      "Vložte tento odkaz do svojho životopisu na Instagrame, Telegrame alebo iných sociálnych médiách, aby vaše publikum mohlo nakupovať rýchlejšie, jednoduchšie, viac a nakoniec viac.",
-    remove_account: "Zmeniť / odstrániť odkaz na Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Predaj kanál",
-    subtitle:
-      "Vytvorte osobitnú kategóriu pre svoje produkty s obrázkami a videami a zdieľajte ju na svojich sociálnych médiách. Je to podobné ako Instagram a TikTok, ale s plnou kontrolou, čo vám umožňuje priamo predávať vaše produkty.",
   },
 
   /** @see ServiceBillingItem **/

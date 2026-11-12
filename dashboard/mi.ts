@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Tāpirihia etahi atu korero",
-    auto_category: "Tautuhi-aunoa kāwai",
     add_in_current_category: "Tāpirihia ki te kāwai o nāianei",
-    category_mode_message:
-      "Mena ka taea, ka taapirihia te hua ki te waahanga taunoa, ki te waahanga iti ranei.",
-    sku_name_input: "SKU / Ingoa",
     info: {
       subtitle:
         "Hei whakaputa i te hua, ka taea e koe te whakauru i nga korero tino nui e tika ana mo tona hanganga.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Whakauruhia te utu me te utu mo tenei hua. Ina taapirihia te hua, ka whai waahi koe ki etahi atu whiringa.",
-    },
-    by_sku: {
-      title: "tāpiri mā SKU",
-      subtitle: "Ko te pātengi raraunga i tō whenua kāore i te wātea.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Maamaa te taapiri i nga hua mai i te POD, i nga kaiwhakarato whakaheke ranei me te Selldone Connect OS — hono noa to toa me te pai ki te whakauru hua aunoa, kaore he taputapu e hiahiatia ana.",
     },
     your_license_is_not_eligible: "Ko to raihana kaore e tika.",
-    sku_dialog: {
-      title: "tāpiri Hua mā SKU",
-      subtitle:
-        "Kei a koe te kaha ki te kimi hua ma o raatau SKU i roto i ta maatau papaa raraunga me te taapiri ma te paato noa.",
-    },
     dropshipping_dialog: {
       title: "tāpiri Te tuku tuku Hua",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Whai muri i te tiaki i nga huringa, ka whiwhi koe i te mēra whakamatautau i runga <b>{email}</b>. Tiakina nga huringa i mua i te tuku imeera whakamatautau me te whirihoranga hou.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Hoko i runga i Instagram",
-
-    add_product: "Tāpiri hua hou",
-    create_product: "Waihanga hua",
-    link_box_msg:
-      "Whakauruhia tenei hononga ki to koiora i runga i te Instagram, Telegram me etahi atu paapori paapori kia tere ake ai te hoko mai a to hunga whakarongo, ngawari ake, kia nui ake.",
-    remove_account: "Huri / Tango hononga Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Hokonga Hongere",
-    subtitle:
-      "Waihangahia he waahanga motuhake mo o hua, whakakiia me nga whakaahua me nga ataata, ka tohatoha ki to paapori pāpori. He rite ki a Instagram me TikTok, engari ma te mana whakahaere, ka taea e koe te hoko tika i o hua.",
   },
 
   /** @see ServiceBillingItem **/

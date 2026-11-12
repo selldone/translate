@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Ավելացրեք ավելի շատ մանրամասներ",
-    auto_category: "Ավտոմատ սահմանել կատեգորիա",
     add_in_current_category: "Ավելացնել ընթացիկ կատեգորիային",
-    category_mode_message:
-      "Եթե միացված է, արտադրանքը կավելացվի կանխադրված կատեգորիայի կամ ենթակատեգորիայի մեջ:",
-    sku_name_input: "SKU / Անուն",
     info: {
       subtitle:
         "Ապրանքը ստեղծելու համար կարող եք մուտքագրել միայն դրա ստեղծման համար անհրաժեշտ էական մանրամասները:",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    },
-    by_sku: {
-      title: "ավելացնել տարր SKU",
-      subtitle: "Ձեր երկրում տվյալների բազան հասանելի չէ:",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone — Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
     your_license_is_not_eligible: "Ձեր լիցենզիան իրավասու չէ:",
-    sku_dialog: {
-      title: "ավելացնել ապրանք տարր SKU",
-      subtitle:
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    },
     dropshipping_dialog: {
       title: "ավելացնել տարր ապրանքներ",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {email}</b>",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Վաճառք Instagram-ում",
-
-    add_product: "Ավելացնել նոր ապրանք",
-    create_product: "Ստեղծել արտադրանք",
-    link_box_msg:
-      "Տեղադրեք այս հղումը Instagram-ի, Telegram-ի կամ այլ սոցիալական մեդիայի ձեր կենսագրության մեջ, որպեսզի ձեր լսարանը կարողանա գնել ավելի արագ, հեշտ, ավելին և վերջապես ավելին:",
-    remove_account: "Փոխել / հեռացնել Instagram-ի հղումը",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram վաճառքի ալիք",
-    subtitle:
-      "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
   },
 
   /** @see ServiceBillingItem **/

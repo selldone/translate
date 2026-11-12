@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Foegje mear details ta",
-    auto_category: "Automatysk ynsteld kategory",
     add_in_current_category: "Taheakje oan de aktuele kategory",
-    category_mode_message:
-      "As ynskeakelje, sil it produkt wurde tafoege oan de standertkategory of subkategory.",
-    sku_name_input: "SKU / Namme",
     info: {
       subtitle:
         "Om it produkt te generearjen, kinne jo allinich de essensjele details ynfiere dy't nedich binne foar it meitsjen.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Fier de priis en koarting yn foar dit produkt. Sadree't it produkt is tafoege, hawwe jo tagong ta mear opsjes.",
-    },
-    by_sku: {
-      title: "Tafoegje op SKU",
-      subtitle: "ûnderdiel yn jo lân is net beskikber.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Konfigurearje en behear dizze opsje foar jo winkel.",
     },
     your_license_is_not_eligible: "jo lisinsje is net ûnderdiel.",
-    sku_dialog: {
-      title: "Tafoegje produkt op SKU",
-      subtitle:
-        "Jo hawwe de mooglikheid om produkten te finen troch har SKU yn ús databank en se tafoegje mei mar ien klik.",
-    },
     dropshipping_dialog: {
       title: "Tafoegje dropshipping Produkten",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Nei it bewarjen fan wizigingen krije jo in testmail op <b>{email}</b>. Bewarje wizigingen foardat jo in test-e-post ferstjoere mei de nije konfiguraasje.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Ferkeap op Instagram",
-
-    add_product: "Tafoegje nij produkt",
-    create_product: "Meitsje produkt",
-    link_box_msg:
-      "Set dizze keppeling yn jo bio op Instagram, Telegram of oare sosjale media, sadat jo publyk rapper, makliker, mear en úteinlik mear kin keapje.",
-    remove_account: "Feroarje / fuortsmite Instagram keppeling",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram ferkeap kanaal",
-    subtitle:
-      "Konfigurearje en behear dizze opsje foar jo winkel.",
   },
 
   /** @see ServiceBillingItem **/

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Aggiungi più dettagli",
-    auto_category: "Categoria di impostazione automatica",
     add_in_current_category: "Aggiungi alla categoria corrente",
-    category_mode_message:
-      "Se abilitato, il prodotto verrà aggiunto alla categoria o sottocategoria predefinita.",
-    sku_name_input: "SKU / Nome",
     info: {
       subtitle:
         "Per generare il prodotto è possibile inserire solo i dettagli essenziali necessari alla sua creazione.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Qui puoi gestire le informazioni e le impostazioni di questa sezione.",
-    },
-    by_sku: {
-      title: "aggiungi elemento SKU",
-      subtitle: "Il database nel tuo Paese non è disponibile.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone — Qui puoi gestire le informazioni e le impostazioni di questa sezione.",
     },
     your_license_is_not_eligible: "La tua licenza non è idonea.",
-    sku_dialog: {
-      title: "aggiungi prodotto elemento SKU",
-      subtitle:
-        "Qui puoi gestire le informazioni e le impostazioni di questa sezione.",
-    },
     dropshipping_dialog: {
       title: "aggiungi elemento prodotti",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b>Qui puoi gestire le informazioni e le impostazioni di questa sezione. {email}</b>",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Vendite su Instagram",
-
-    add_product: "Aggiungi nuovo prodotto",
-    create_product: "Crea prodotto",
-    link_box_msg:
-      "Inserisci questo link nella tua biografia su Instagram, Telegram o altri social media in modo che il tuo pubblico possa acquistare più velocemente, più facilmente, di più e infine di più.",
-    remove_account: "Cambia/Rimuovi link Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Canale di vendita Instagram",
-    subtitle:
-      "Qui puoi gestire le informazioni e le impostazioni di questa sezione.",
   },
 
   /** @see ServiceBillingItem **/

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Přidejte další podrobnosti",
-    auto_category: "Automaticky nastavit kategorii",
     add_in_current_category: "Přidat do aktuální kategorie",
-    category_mode_message:
-      "Pokud je povoleno, produkt bude přidán do výchozí kategorie nebo podkategorie.",
-    sku_name_input: "SKU / Název",
     info: {
       subtitle:
         "Pro vygenerování produktu můžete zadat pouze podstatné detaily nutné pro jeho vytvoření.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Zadejte cenu a slevu pro tento produkt. Po přidání produktu budete mít přístup k dalším možnostem.",
-    },
-    by_sku: {
-      title: "přidat podle SKU",
-      subtitle: "Databáze ve vaší zemi není k dispozici.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Snadno přidávejte produkty od dodavatelů POD nebo dropshippingových dodavatelů pomocí Selldone Connect OS – stačí připojit svůj obchod a užít si automatickou integraci produktů, nejsou potřeba žádné pluginy.",
     },
     your_license_is_not_eligible: "Vaše licence není způsobilá.",
-    sku_dialog: {
-      title: "přidat produkt podle SKU",
-      subtitle:
-        "Máte možnost vyhledat produkty podle jejich SKU v naší databázi a přidat je jediným kliknutím.",
-    },
     dropshipping_dialog: {
       title: "přidat pojem produkty",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Po uložení změn obdržíte testovací e-mail na <b>{email}</b>. Před odesláním zkušebního e-mailu s novou konfigurací uložte změny.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Prodej na Instagramu",
-
-    add_product: "Přidat nový produkt",
-    create_product: "Vytvořte produkt",
-    link_box_msg:
-      "Vložte tento odkaz do svého životopisu na Instagram, Telegram nebo jiná sociální média, aby vaše publikum mohlo nakupovat rychleji, snadněji, více a nakonec více.",
-    remove_account: "Změnit / odebrat odkaz na Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram pojem kanál",
-    subtitle:
-      "Vytvořte vyhrazenou kategorii pro své produkty, doplněnou o obrázky a videa, a sdílejte ji na svých sociálních sítích. Je to podobné jako Instagram a TikTok, ale s plnou kontrolou, což vám umožňuje přímo prodávat vaše produkty.",
   },
 
   /** @see ServiceBillingItem **/

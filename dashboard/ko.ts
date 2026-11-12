@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "세부정보 추가",
-    auto_category: "자동 설정 카테고리",
     add_in_current_category: "현재 카테고리에 추가",
-    category_mode_message:
-      "활성화하면 제품이 기본 범주 또는 하위 범주에 추가됩니다.",
-    sku_name_input: "SKU / 이름",
     info: {
       subtitle:
         "상품을 생성하려면 상품 생성에 필요한 필수 세부정보만 입력하면 됩니다.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "이 제품의 가격과 할인율을 입력하세요. 제품을 추가하면 더 많은 옵션을 이용할 수 있습니다.",
-    },
-    by_sku: {
-      title: "추가 기준 SKU",
-      subtitle: "잠금 항목 새로운 계정을 국가 이 지불되지 사용 가능.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone Connect OS를 사용하여 POD 또는 직송 공급업체의 제품을 쉽게 추가하세요. 플러그인이 필요 없이 매장을 연결하고 자동 제품 통합을 즐겨보세요.",
     },
     your_license_is_not_eligible: "계정을 특허 이 지불되지 적격.",
-    sku_dialog: {
-      title: "추가 제품 기준 SKU",
-      subtitle:
-        "데이터베이스에서 SKU별로 제품을 찾고 단 한 번의 클릭으로 추가할 수 있습니다.",
-    },
     dropshipping_dialog: {
       title: "추가 하락 선박 제품",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "변경 사항을 저장한 후 <b>{email}</b>로 테스트 메일을 받게 됩니다. 새 구성이 포함된 테스트 이메일을 보내기 전에 변경 사항을 저장하세요.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "인스타그램 판매 Instagram",
-
-    add_product: "새 제품 추가",
-    create_product: "제품 만들기",
-    link_box_msg:
-      "이 링크를 Instagram, Telegram 또는 기타 소셜 미디어의 약력에 넣어 청중이 더 빠르고 쉽게 더 많은 것을 구매할 수 있도록 하십시오.",
-    remove_account: "Instagram 링크 변경/제거",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram 매상 채널",
-    subtitle:
-      "귀하의 제품에 대한 전용 카테고리를 만들고, 이미지와 비디오로 완성하고, 소셜 미디어에서 공유하세요. Instagram 및 TikTok과 유사하지만 모든 권한을 갖고 있어 제품을 직접 판매할 수 있습니다.",
   },
 
   /** @see ServiceBillingItem **/

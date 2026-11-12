@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Thêm chi tiết",
-    auto_category: "Tự động đặt danh mục",
     add_in_current_category: "Thêm vào danh mục hiện tại",
-    category_mode_message:
-      "Nếu bật, sản phẩm sẽ được thêm vào danh mục hoặc danh mục con mặc định.",
-    sku_name_input: "Mã hàng / Tên",
     info: {
       subtitle:
         "Đến ğéñéřáţé ţħé Sản phẩm, ýóú çáñ éñţéř óñľý ţħé éşşéñţíáľ Thông tin chi tiết ñéçéşşářý ƒóř íţş çřéáţíóñ.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Éñţéř ţħé giá áñď Chiết khấu ƒóř ţħíş Sản phẩm. Óñçé ţħé Sản phẩm íş áďďéď, ýóú'ľľ ħáṽé Truy cập Đến hơn óƥţíóñş.",
-    },
-    by_sku: {
-      title: "Áďď ƀý SKU",
-      subtitle: "Ţħé ďáţáƀáşé íñ ýóúř Quốc gia íş ñóţ Có sẵn.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Éáşíľý áďď Các sản phẩm Từ POD óř Vận chuyển thả şúƥƥľíéřş ŵíţħ Selldone Çóññéçţ OS—ĵúşţ çóññéçţ ýóúř cửa hàng áñď éñĵóý áúţóṃáţíç Sản phẩm íñţéğřáţíóñ, không ƥľúğíñş ñééďéď.",
     },
     your_license_is_not_eligible: "Ýóúř Giấy phép íş ñóţ éľíğíƀľé.",
-    sku_dialog: {
-      title: "Áďď Sản phẩm ƀý SKU",
-      subtitle:
-        "Ýóú ħáṽé ţħé áƀíľíţý Đến ľóçáţé Các sản phẩm ƀý ţħéíř SKU íñ óúř ďáţáƀáşé áñď áďď ţħéṃ ŵíţħ ĵúşţ á şíñğľé çľíçķ.",
-    },
     dropshipping_dialog: {
       title: "Áďď Vận chuyển thả Các sản phẩm",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Áƒţéř Cứu çħáñğéş, ýóú ŵíľľ Nhận á ţéşţ ṃáíľ óñ <b>{email}</b>. Cứu çħáñğéş ƀéƒóřé şéñďíñğ á ţéşţ E-mail ŵíţħ ţħé Mới mẻ çóñƒíğúřáţíóñ.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Bán hàng trên Instagram",
-
-    add_product: "Thêm sản phẩm mới",
-    create_product: "Tạo sản phẩm",
-    link_box_msg:
-      "Đặt liên kết này vào tiểu sử của bạn trên Instagram, Telegram hoặc các phương tiện truyền thông xã hội khác để khán giả của bạn có thể mua nhanh hơn, dễ dàng hơn, nhiều hơn và cuối cùng là nhiều hơn nữa.",
-    remove_account: "Thay đổi / Xóa liên kết Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Bán hàng Kênh",
-    subtitle:
-      "Tạo ra á ďéďíçáţéď Danh mục ƒóř ýóúř Các sản phẩm, çóṃƥľéţé ŵíţħ Hình ảnh áñď ṽíďéóş, áñď şħářé íţ áçřóşş ýóúř şóçíáľ ṃéďíá. Íţ'ş şíṃíľář Đến Instagram áñď ŢíķŢóķ, ƀúţ ŵíţħ ƒúľľ çóñţřóľ, áľľóŵíñğ ýóú Đến ďířéçţľý şéľľ ýóúř Các sản phẩm.",
   },
 
   /** @see ServiceBillingItem **/

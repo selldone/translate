@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Daha çox təfərrüat əlavə edin",
-    auto_category: "Avtomatik təyin edilmiş kateqoriya",
     add_in_current_category: "Cari kateqoriyaya əlavə edin",
-    category_mode_message:
-      "Aktiv edilərsə, məhsul defolt kateqoriyaya və ya alt kateqoriyaya əlavə olunacaq.",
-    sku_name_input: "SKU / Adı",
     info: {
       subtitle:
         "üçün yarat bu məhsul, siz bilərsiniz daxil et yalnız bu əssəntial təfərrüatlar nəsəssari üçün onun krəasiya.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "daxil et bu qiymət və endirim üçün bu məhsul. onsə bu məhsul is əlavə olundu, youll var giriş üçün daha çox seçimlər.",
-    },
-    by_sku: {
-      title: "SKU ilə əlavə et",
-      subtitle: "bu databasə içində sizin ölkə is deyil mövcud.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "əasili əlavə et məhsullar dən POD və ya dropshipping suppliərs ilə Selldone qoş OS—just qoş sizin mağaza və ənjoi automatik məhsul intəgrasiya, yox plugins nəədəd.",
     },
     your_license_is_not_eligible: "sizin lisənsə is deyil əligbilən.",
-    sku_dialog: {
-      title: "əlavə et məhsul tərəfindən SKU",
-      subtitle:
-        "siz var bu abillik üçün lokatə məhsullar tərəfindən onların SKU içində our databasə və əlavə et təm ilə just a singlə kliklə.",
-    },
     dropshipping_dialog: {
       title: "əlavə et dropshipping məhsullar",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "sonra saxla dəyişikliklər, siz olacaq qəbul et a test mail üzərində <b>{email}</b>. saxla dəyişikliklər əvvəl sənding a test e-poçt ilə bu yeni konfiqurasiya.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Instagramda satış",
-
-    add_product: "Yeni məhsul əlavə edin",
-    create_product: "Məhsul yaradın",
-    link_box_msg:
-      "Bu linki Instagram, Telegram və ya digər sosial mediada bio-da yerləşdirin ki, auditoriyanız daha sürətli, asan, daha çox və nəhayət daha çox ala bilsin.",
-    remove_account: "Instagram linkini dəyişdirin / silin",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram saləs khannəl",
-    subtitle:
-      "yarat a dədikatəd kateqoriya üçün sizin məhsullar, komplətə ilə şəkillər və vidəos, və sharə o akross sizin sosial mədia. onun similar üçün Instagram və tiktok, amma ilə full kontrol, alloving siz üçün birbaşa səll sizin məhsullar.",
   },
 
   /** @see ServiceBillingItem **/

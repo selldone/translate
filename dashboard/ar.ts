@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "أضف المزيد من التفاصيل",
-    auto_category: "فئة الضبط التلقائي",
     add_in_current_category: "أضف إلى الفئة الحالية",
-    category_mode_message:
-      "في حالة التمكين ، سيتم إضافة المنتج إلى الفئة الافتراضية أو الفئة الفرعية.",
-    sku_name_input: "SKU / الاسم",
     info: {
       subtitle:
         "لتوليد المنتج، يمكنك فقط إدخال التفاصيل الأساسية اللازمة لإنشائه.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "أدخل السعر والخصم لهذا المنتج. بمجرد إضافة المنتج، سيكون لديك إمكانية الوصول إلى المزيد من الخيارات.",
-    },
-    by_sku: {
-      title: "إضافة بواسطة SKU",
-      subtitle: "قاعدة البيانات في بلدك غير متوفرة.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "أضف المنتجات بسهولة من موردي POD أو Dropshipping باستخدام نظام التشغيل Selldone Connect OS - ما عليك سوى توصيل متجرك والاستمتاع بالتكامل التلقائي للمنتج، دون الحاجة إلى مكونات إضافية.",
     },
     your_license_is_not_eligible: "رخصتك غير مؤهلة.",
-    sku_dialog: {
-      title: "إضافة المنتج حسب SKU",
-      subtitle:
-        "لديك القدرة على تحديد موقع المنتجات حسب رمز SKU الخاص بها في قاعدة البيانات الخاصة بنا وإضافتها بنقرة واحدة فقط.",
-    },
     dropshipping_dialog: {
       title: "إضافة منتجات الدروبشيبينغ",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "بعد حفظ التغييرات، ستتلقى بريدًا إلكترونيًا تجريبيًا على <b>{email}</b> . احفظ التغييرات قبل إرسال بريد إلكتروني تجريبي بالتكوين الجديد.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "المبيعات على Instagram",
-
-    add_product: "أضف منتج جديد",
-    create_product: "إنشاء منتج",
-    link_box_msg:
-      "ضع هذا الرابط في سيرتك الذاتية على Instagram أو Telegram أو وسائل التواصل الاجتماعي الأخرى حتى يتمكن جمهورك من الشراء بشكل أسرع وأسهل وأكثر وأخيراً المزيد.",
-    remove_account: "تغيير / إزالة رابط Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram ساليس كهاننيل",
-    subtitle:
-      "إنشاء ا ديديكاتيد فئة لـ الخاص بك منتجات, كومبليتي مع صور و فيديوس, و سهاري يت اكروسس الخاص بك سوكيال ميديا. يتس سيميلار تو Instagram و تيكتوك, لكن مع فولل كونترول, اللووينغ أنت تو مباشرة سيلل الخاص بك منتجات.",
   },
 
   /** @see ServiceBillingItem **/

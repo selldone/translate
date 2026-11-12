@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Προσθέστε περισσότερες λεπτομέρειες",
-    auto_category: "Αυτόματη ρύθμιση κατηγορίας",
     add_in_current_category: "Προσθήκη στην τρέχουσα κατηγορία",
-    category_mode_message:
-      "Εάν ενεργοποιηθεί, το προϊόν θα προστεθεί στην προεπιλεγμένη κατηγορία ή υποκατηγορία.",
-    sku_name_input: "SKU / Όνομα",
     info: {
       subtitle:
         "Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας.",
-    },
-    by_sku: {
-      title: "Προσθήκη by SKU",
-      subtitle: "Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας.",
     },
     your_license_is_not_eligible: "Επιλογή",
-    sku_dialog: {
-      title: "Προσθήκη Προϊόν by SKU",
-      subtitle:
-        "Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας.",
-    },
     dropshipping_dialog: {
       title: "Τίτλος",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b></b> Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας. {email}",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Πωλήσεις στο Instagram",
-
-    add_product: "Προσθήκη νέου προϊόντος",
-    create_product: "Δημιουργία προϊόντος",
-    link_box_msg:
-      "Βάλτε αυτόν τον σύνδεσμο στο βιογραφικό σας στο Instagram, στο Telegram ή σε άλλα μέσα κοινωνικής δικτύωσης, ώστε το κοινό σας να μπορεί να αγοράσει πιο γρήγορα, πιο εύκολα, περισσότερα και τελικά περισσότερα.",
-    remove_account: "Αλλαγή / Κατάργηση συνδέσμου Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Πωλήσεις Κανάλι",
-    subtitle:
-      "Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας.",
   },
 
   /** @see ServiceBillingItem **/

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Tilføj flere detaljer",
-    auto_category: "Auto-indstil kategori",
     add_in_current_category: "Tilføj til den aktuelle kategori",
-    category_mode_message:
-      "Hvis aktiveret, vil produktet blive tilføjet til standardkategorien eller underkategorien.",
-    sku_name_input: "SKU / Navn",
     info: {
       subtitle:
         "For at generere produktet kan du kun indtaste de væsentlige detaljer, der er nødvendige for dets oprettelse.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Indtast pris og rabat for dette produkt. Når produktet er tilføjet, har du adgang til flere muligheder.",
-    },
-    by_sku: {
-      title: "Tilføj efter SKU",
-      subtitle: "Databasen i dit land er ikke tilgængelig.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Tilføj nemt produkter fra POD- eller dropshipping-leverandører med Selldone Connect OS - bare tilslut din butik og nyd automatisk produktintegration, uden behov for plugins.",
     },
     your_license_is_not_eligible: "Din licens er ikke kvalificeret.",
-    sku_dialog: {
-      title: "Tilføj produkt efter SKU",
-      subtitle:
-        "Du har mulighed for at finde produkter efter deres SKU i vores database og tilføje dem med blot et enkelt klik.",
-    },
     dropshipping_dialog: {
       title: "Tilføj dropshipping-produkter",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Efter at have gemt ændringer, vil du modtage en testmail på <b>{email}</b> . Gem ændringer, før du sender en test-e-mail med den nye konfiguration.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Salg på Instagram",
-
-    add_product: "Tilføj nyt produkt",
-    create_product: "Opret produkt",
-    link_box_msg:
-      "Læg dette link i din bio på Instagram, Telegram eller andre sociale medier, så dit publikum kan købe hurtigere, nemmere, mere og endelig mere.",
-    remove_account: "Skift/fjern Instagram-link",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Salg Kanal",
-    subtitle:
-      "Konfigurer og administrer denne indstilling for din butik.",
   },
 
   /** @see ServiceBillingItem **/

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Lisage rohkem üksikasju",
-    auto_category: "Automaatselt määratud kategooria",
     add_in_current_category: "Lisa praegusesse kategooriasse",
-    category_mode_message:
-      "Kui see on lubatud, lisatakse toode vaikekategooriasse või alamkategooriasse.",
-    sku_name_input: "SKU / nimi",
     info: {
       subtitle:
         "Hallake üksust Info ja kohandage oma poe seotud seadeid.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Hallake üksust Hind ja kohandage oma poe seotud seadeid.",
-    },
-    by_sku: {
-      title: "Lisa by SKU",
-      subtitle: "Hallake üksust by sku ja kohandage oma poe seotud seadeid.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Hallake üksust Alapealkiri ja kohandage oma poe seotud seadeid.",
     },
     your_license_is_not_eligible: "üksus",
-    sku_dialog: {
-      title: "Lisa Toode by SKU",
-      subtitle:
-        "Hallake üksust sku dialoog ja kohandage oma poe seotud seadeid.",
-    },
     dropshipping_dialog: {
       title: "Lisa üksus Toode",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b></b> Seadistage ja hallake seda valikut oma poe jaoks. {email}",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Müük Instagramis",
-
-    add_product: "Lisa uus toode",
-    create_product: "Loo toode",
-    link_box_msg:
-      "Pange see link oma biograafiasse Instagrami, Telegrami või muusse sotsiaalmeediasse, et teie publik saaks kiiremini, lihtsamalt, rohkem ja lõpuks rohkem osta.",
-    remove_account: "Muutke / eemaldage Instagrami link",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Müügid Kanal",
-    subtitle:
-      "Hallake üksust Alapealkiri ja kohandage oma poe seotud seadeid.",
   },
 
   /** @see ServiceBillingItem **/

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Engeza imininingwane eyengeziwe",
-    auto_category: "Isigaba sokusetha ngokuzenzakalelayo",
     add_in_current_category: "Engeza esigabeni samanje",
-    category_mode_message:
-      "Uma kunikwe amandla, umkhiqizo uzokwengezwa esigabeni esimisiwe noma isigatshana.",
-    sku_name_input: "SKU / Igama",
     info: {
       subtitle:
         "Kuya ğéñéřáţé ţħé Umkhiqizo, ýóú çáñ éñţéř óñľý ţħé éşşéñţíáľ Imininingwane ñéçéşşářý ƒóř íţş çřéáţíóñ.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Éñţéř ţħé intengo áñď Isaphulelo ƒóř ţħíş Umkhiqizo. Óñçé ţħé Umkhiqizo íş áďďéď, ýóú'ľľ ħáṽé Ukufinyelela Kuya Okuningi óƥţíóñş.",
-    },
-    by_sku: {
-      title: "Áďď ƀý SKU",
-      subtitle: "Ţħé ďáţáƀáşé íñ ýóúř Izwe íş ñóţ Iyatholakala.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Éáşíľý áďď Imikhiqizo Kusuka POD óř I-Dropshipping şúƥƥľíéřş ŵíţħ Selldone Çóññéçţ OS—ĵúşţ çóññéçţ ýóúř isitolo áñď éñĵóý áúţóṃáţíç Umkhiqizo íñţéğřáţíóñ, cha ƥľúğíñş ñééďéď.",
     },
     your_license_is_not_eligible: "Ýóúř Ilayisensi íş ñóţ éľíğíƀľé.",
-    sku_dialog: {
-      title: "Áďď Umkhiqizo ƀý SKU",
-      subtitle:
-        "Ýóú ħáṽé ţħé áƀíľíţý Kuya ľóçáţé Imikhiqizo ƀý ţħéíř SKU íñ óúř ďáţáƀáşé áñď áďď ţħéṃ ŵíţħ ĵúşţ á şíñğľé çľíçķ.",
-    },
     dropshipping_dialog: {
       title: "Áďď I-Dropshipping Imikhiqizo",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Áƒţéř Londoloza çħáñğéş, ýóú ŵíľľ Yamukela á ţéşţ ṃáíľ óñ <b>{email}</b>. Londoloza çħáñğéş ƀéƒóřé şéñďíñğ á ţéşţ I-imeyili ŵíţħ ţħé Okusha çóñƒíğúřáţíóñ.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Ukuthengisa ku-Instagram",
-
-    add_product: "Engeza umkhiqizo omusha",
-    create_product: "Dala umkhiqizo",
-    link_box_msg:
-      "Faka lesi sixhumanisi ku-bio yakho ku-Instagram, iTelegramu noma enye inkundla yezokuxhumana ukuze izethameli zakho zithenge ngokushesha, kulula, kakhudlwana futhi ekugcineni okwengeziwe.",
-    remove_account: "Shintsha / Susa isixhumanisi se-Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Ukuthengisa Isiteshi",
-    subtitle:
-      "Dala á ďéďíçáţéď Isigaba ƒóř ýóúř Imikhiqizo, çóṃƥľéţé ŵíţħ Izithombe áñď ṽíďéóş, áñď şħářé íţ áçřóşş ýóúř şóçíáľ ṃéďíá. Íţ'ş şíṃíľář Kuya Instagram áñď ŢíķŢóķ, ƀúţ ŵíţħ ƒúľľ çóñţřóľ, áľľóŵíñğ ýóú Kuya ďířéçţľý şéľľ ýóúř Imikhiqizo.",
   },
 
   /** @see ServiceBillingItem **/

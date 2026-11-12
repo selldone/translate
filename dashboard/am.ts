@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "ተጨማሪ ዝርዝሮችን ያክሉ",
-    auto_category: "ራስ-አዘጋጅ ምድብ",
     add_in_current_category: "ወደ የአሁኑ ምድብ ያክሉ",
-    category_mode_message:
-      "ከነቃ ምርቱ ወደ ነባሪው ምድብ ወይም ንዑስ ምድብ ይታከላል።",
-    sku_name_input: "SKU / ስም",
     info: {
       subtitle:
         "ትኦ ግእንእርአትእ ትህእ ምርት, ይኦኡ ክአን እንትእር ኦንልይ ትህእ እስስእንትኢአል ዝርዝሮች ንእክእስስአርይ ፍኦር ኢትስ ክርእአትኢኦን.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "እንትእር ትህእ ዋጋ አንድ ቅናሽ ፍኦር ትህኢስ ምርት. ኦንክእ ትህእ ምርት ኢስ አድድእድ, ይኦኡልል ህአቭእ መዳረሻ ትኦ ምኦርእ ኦፕትኢኦንስ.",
-    },
-    by_sku: {
-      title: "በSKU አክል",
-      subtitle: "ትህእ ድአትአብአስእ ኢን ይኦኡር ክኦኡንትርይ ኢስ ንኦት አቭአኢልአብልእ.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "እአስኢልይ አክል ምርቶች ፍርኦም POD ኦር ድርኦፕስህኢፕፕኢንግ ስኡፕፕልኢእርስ ውኢትህ Selldone ክኦንንእክት OS—ጅኡስት ክኦንንእክት ይኦኡር መደብር አንድ እንጅኦይ አኡትኦምአትኢክ ምርት ኢንትእግርአትኢኦን, ንኦ ፕልኡግኢንስ ንእእድእድ.",
     },
     your_license_is_not_eligible: "ይኦኡር ልኢክእንስእ ኢስ ንኦት እልኢግኢብልእ.",
-    sku_dialog: {
-      title: "አክል ምርት ብይ SKU",
-      subtitle:
-        "ይኦኡ ህአቭእ ትህእ አብኢልኢትይ ትኦ ልኦክአትእ ምርቶች ብይ ትህእኢር SKU ኢን ኦኡር ድአትአብአስእ አንድ አክል ትህእም ውኢትህ ጅኡስት አ ስኢንግልእ ክልኢክክ.",
-    },
     dropshipping_dialog: {
       title: "አክል ድርኦፕስህኢፕፕኢንግ ምርቶች",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "አፍትእር አስቀምጥ ክህአንግእስ, ይኦኡ ውኢልል ርእክእኢቭእ አ ትእስት ምአኢል ኦን <b>{email}</b>. አስቀምጥ ክህአንግእስ ብእፍኦርእ ስእንድኢንግ አ ትእስት ኢሜይል ውኢትህ ትህእ አዲስ ክኦንፍኢግኡርአትኢኦን.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "በ Instagram ላይ ሽያጮች",
-
-    add_product: "አዲስ ምርት ያክሉ",
-    create_product: "ምርት ይፍጠሩ",
-    link_box_msg:
-      "ታዳሚዎችዎ በፍጥነት፣ ቀላል፣ ብዙ እና በመጨረሻም ብዙ መግዛት እንዲችሉ ይህን ሊንክ በባዮዎ ውስጥ ኢንስታግራም፣ ቴሌግራም ወይም ሌላ ማህበራዊ ሚዲያ ላይ ያድርጉት።",
-    remove_account: "የ Instagram አገናኝን ይቀይሩ / ያስወግዱ",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram ስአልእስ ክህአንንእል",
-    subtitle:
-      "ፍጠር አ ድእድኢክአትእድ ምድብ ፍኦር ይኦኡር ምርቶች, ክኦምፕልእትእ ውኢትህ ኢምአግእስ አንድ ቭኢድእኦስ, አንድ ስህአርእ ኢት አክርኦስስ ይኦኡር ስኦክኢአል ምእድኢአ. ኢትስ ስኢምኢልአር ትኦ Instagram አንድ ትኢክትኦክ, ብኡት ውኢትህ ፍኡልል ክኦንትርኦል, አልልኦውኢንግ ይኦኡ ትኦ ድኢርእክትልይ ስእልል ይኦኡር ምርቶች.",
   },
 
   /** @see ServiceBillingItem **/

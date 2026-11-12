@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Қосымша мәліметтерді қосыңыз",
-    auto_category: "Санатты автоматты орнату",
     add_in_current_category: "Ағымдағы санатқа қосыңыз",
-    category_mode_message:
-      "Қосылса, өнім әдепкі санатқа немесе ішкі санатқа қосылады.",
-    sku_name_input: "SKU / Аты",
     info: {
       subtitle:
         "Өнімді жасау үшін оны жасауға қажетті маңызды мәліметтерді ғана енгізуге болады.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Мұнда осы бөлімнің ақпараты мен параметрлерін басқара аласыз.",
-    },
-    by_sku: {
-      title: "қосу элемент SKU",
-      subtitle: "Еліңіздегі дерекқор қолжетімді емес.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone — Мұнда осы бөлімнің ақпараты мен параметрлерін басқара аласыз.",
     },
     your_license_is_not_eligible: "Сіздің лицензияңыз жарамсыз.",
-    sku_dialog: {
-      title: "қосу өнім элемент SKU",
-      subtitle:
-        "Мұнда осы бөлімнің ақпараты мен параметрлерін басқара аласыз.",
-    },
     dropshipping_dialog: {
       title: "қосу элемент өнімдер",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b>Мұнда осы бөлімнің ақпараты мен параметрлерін басқара аласыз. {email}</b>",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Инстаграмдағы сатылымдар",
-
-    add_product: "Жаңа өнімді қосыңыз",
-    create_product: "Өнім жасау",
-    link_box_msg:
-      "Бұл сілтемені Instagram, Telegram немесе басқа әлеуметтік желілердегі биоға қойыңыз, сонда аудитория тезірек, оңайырақ, көбірек және соңында көбірек сатып алады.",
-    remove_account: "Instagram сілтемесін өзгерту / жою",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram сату арнасы",
-    subtitle:
-      "Мұнда осы бөлімнің ақпараты мен параметрлерін басқара аласыз.",
   },
 
   /** @see ServiceBillingItem **/

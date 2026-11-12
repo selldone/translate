@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Cuir tuilleadh sonraí leis",
-    auto_category: "Catagóir uathshocraithe",
     add_in_current_category: "Cuir leis an gcatagóir reatha",
-    category_mode_message:
-      "Má tá sé cumasaithe, cuirfear an táirge isteach sa chatagóir nó sa fhochatagóir réamhshocraithe.",
-    sku_name_input: "SKU / Ainm",
     info: {
       subtitle:
         "Chun an táirge a ghiniúint, ní féidir leat ach na sonraí riachtanacha is gá chun é a chruthú a chur isteach.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Cuir isteach an praghas agus an lascaine don táirge seo. Nuair a bheidh an táirge curtha leis, beidh rochtain agat ar níos mó roghanna.",
-    },
-    by_sku: {
-      title: "Cuir leis de réir SKU",
-      subtitle: "mír i do tír is ní ar fáil.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Cumraigh agus bainistigh an rogha seo do do shiopa.",
     },
     your_license_is_not_eligible: "do ceadúnas is ní mír.",
-    sku_dialog: {
-      title: "Cuir leis táirge de réir SKU",
-      subtitle:
-        "Tá an cumas agat táirgí a aimsiú de réir a SKU inár mbunachar sonraí agus iad a chur leis gan ach cliceáil amháin.",
-    },
     dropshipping_dialog: {
       title: "Cuir leis dropshipping Táirgí",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Tar éis duit na hathruithe a shábháil, gheobhaidh tú ríomhphost tástála ar <b>{email}</b>. Sábháil na hathruithe sula seolann tú ríomhphost tástála leis an gcumraíocht nua.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Díolacháin ar instagram",
-
-    add_product: "Cuir táirge nua leis",
-    create_product: "Cruthaigh táirge",
-    link_box_msg:
-      "Cuir an nasc seo i do bheathaisnéis ar Instagram, Telegram nó meáin shóisialta eile ionas gur féidir le do lucht féachana ceannach níos tapúla, níos éasca, níos mó agus ar deireadh níos mó.",
-    remove_account: "Athraigh / Bain nasc Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram díolacháin cainéal",
-    subtitle:
-      "Cumraigh agus bainistigh an rogha seo do do shiopa.",
   },
 
   /** @see ServiceBillingItem **/

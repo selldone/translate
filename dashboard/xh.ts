@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Yongeza ezinye iinkcukacha",
-    auto_category: "Udidi lokuseta ngokuzenzekelayo",
     add_in_current_category: "Yongeza kudidi lwangoku",
-    category_mode_message:
-      "Ukuba yenze ukuba isebenze, imveliso iya kongezwa kudidi olumiselweyo okanye udidi olungaphantsi.",
-    sku_name_input: "SKU / Igama",
     info: {
       subtitle:
         "Ukuya ğéñéřáţé ţħé Imveliso, ýóú çáñ éñţéř óñľý ţħé éşşéñţíáľ Iinkcukacha ñéçéşşářý ƒóř íţş çřéáţíóñ.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Éñţéř ţħé ixabiso áñď Isaphulelo ƒóř ţħíş Imveliso. Óñçé ţħé Imveliso íş áďďéď, ýóú'ľľ ħáṽé Ukufikelela Ukuya Kaninzi óƥţíóñş.",
-    },
-    by_sku: {
-      title: "Áďď ƀý SKU",
-      subtitle: "Ţħé ďáţáƀáşé íñ ýóúř Ilizwe íş ñóţ Iyafumaneka.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Éáşíľý áďď Iimveliso Ukusuka POD óř Ukulahla şúƥƥľíéřş ŵíţħ Selldone Çóññéçţ OS—ĵúşţ çóññéçţ ýóúř ivenkile áñď éñĵóý áúţóṃáţíç Imveliso íñţéğřáţíóñ, hayi ƥľúğíñş ñééďéď.",
     },
     your_license_is_not_eligible: "Ýóúř Ilayisensi íş ñóţ éľíğíƀľé.",
-    sku_dialog: {
-      title: "Áďď Imveliso ƀý SKU",
-      subtitle:
-        "Ýóú ħáṽé ţħé áƀíľíţý Ukuya ľóçáţé Iimveliso ƀý ţħéíř SKU íñ óúř ďáţáƀáşé áñď áďď ţħéṃ ŵíţħ ĵúşţ á şíñğľé çľíçķ.",
-    },
     dropshipping_dialog: {
       title: "Áďď Ukulahla Iimveliso",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Áƒţéř Gcina çħáñğéş, ýóú ŵíľľ Yamkela á ţéşţ ṃáíľ óñ <b>{email}</b>. Gcina çħáñğéş ƀéƒóřé şéñďíñğ á ţéşţ I-imeyile ŵíţħ ţħé Entsha çóñƒíğúřáţíóñ.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Intengiso kwi-Instagram",
-
-    add_product: "Yongeza imveliso entsha",
-    create_product: "Yenza imveliso",
-    link_box_msg:
-      "Beka eli khonkco kwi-bio yakho kwi-Instagram, iTelegram okanye enye imidiya yoluntu ukuze abaphulaphuli bakho bathenge ngokukhawuleza, kulula, ngakumbi kwaye ekugqibeleni ngakumbi.",
-    remove_account: "Guqula / Susa ikhonkco le-Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Iintengiso Umjelo",
-    subtitle:
-      "Yenza á ďéďíçáţéď Udidi ƒóř ýóúř Iimveliso, çóṃƥľéţé ŵíţħ Imifanekiso áñď ṽíďéóş, áñď şħářé íţ áçřóşş ýóúř şóçíáľ ṃéďíá. Íţ'ş şíṃíľář Ukuya Instagram áñď ŢíķŢóķ, ƀúţ ŵíţħ ƒúľľ çóñţřóľ, áľľóŵíñğ ýóú Ukuya ďířéçţľý şéľľ ýóúř Iimveliso.",
   },
 
   /** @see ServiceBillingItem **/

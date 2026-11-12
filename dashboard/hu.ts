@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "További részletek hozzáadása",
-    auto_category: "Automatikusan beállított kategória",
     add_in_current_category: "Hozzáadás az aktuális kategóriához",
-    category_mode_message:
-      "Ha engedélyezve van, a termék bekerül az alapértelmezett kategóriába vagy alkategóriába.",
-    sku_name_input: "Cikkszám / Név",
     info: {
       subtitle:
         "A termék generálásához csak a létrehozásához szükséges lényeges adatokat adhatja meg.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-    },
-    by_sku: {
-      title: "hozzáadás elem SKU",
-      subtitle: "Az adatbázis az Ön országában nem érhető el.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone — Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     },
     your_license_is_not_eligible: "Az Ön engedélye nem jogosult.",
-    sku_dialog: {
-      title: "hozzáadás termék elem SKU",
-      subtitle:
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-    },
     dropshipping_dialog: {
       title: "hozzáadás elem termékek",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b>Itt kezelheti ennek a szakasznak az adatait és beállításait. {email}</b>",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Értékesítés az Instagramon",
-
-    add_product: "Új termék hozzáadása",
-    create_product: "Termék létrehozása",
-    link_box_msg:
-      "Helyezze el ezt a linket az életrajzába az Instagramon, a Telegramon vagy más közösségi médiában, hogy közönsége gyorsabban, könnyebben, többet és végül többet vásárolhasson.",
-    remove_account: "Instagram hivatkozás módosítása / eltávolítása",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram értékesítési csatorna",
-    subtitle:
-      "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
   },
 
   /** @see ServiceBillingItem **/

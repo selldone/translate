@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Ampio antsipiriany bebe kokoa",
-    auto_category: "sokajy automatique",
     add_in_current_category: "Ampio amin'ny sokajy ankehitriny",
-    category_mode_message:
-      "Raha azo atao dia ampidirina ao amin'ny sokajy na zana-tsokajy ny vokatra.",
-    sku_name_input: "SKU / Anarana",
     info: {
       subtitle:
         "Mba hamoronana ny vokatra dia tsy afaka miditra afa-tsy ny antsipiriany ilaina amin'ny famoronana azy ianao.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "singan-javatra Ny vidiny sy fihenam-bidy ny singan-javatra vokatra. singan-javatra Ny vokatra ny singan-javatra, singan-javatra singan-javatra fidirana ny Bebe kokoa.. singan-javatra.",
-    },
-    by_sku: {
-      title: "ampio singan-javatra SKU",
-      subtitle: "Ny singan-javatra singan-javatra ny Firenena ny ny singan-javatra.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "singan-javatra ampio vokatra singan-javatra POD singan-javatra singan-javatra singan-javatra ny Selldone Connect OS—Ho singan-javatra ny fivarotana sy singan-javatra singan-javatra vokatra singan-javatra, tsy misy singan-javatra singan-javatra.",
     },
     your_license_is_not_eligible: "ny Mombamomba ny mpanoratra ny ny singan-javatra.",
-    sku_dialog: {
-      title: "ampio vokatra singan-javatra SKU",
-      subtitle:
-        "singan-javatra singan-javatra Ny singan-javatra ny singan-javatra vokatra singan-javatra singan-javatra SKU singan-javatra singan-javatra singan-javatra sy ampio singan-javatra ny Ho singan-javatra singan-javatra singan-javatra.",
-    },
     dropshipping_dialog: {
       title: "ampio singan-javatra vokatra",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "singan-javatra afa-tsy singan-javatra, singan-javatra singan-javatra Raiso singan-javatra singan-javatra singan-javatra Eo <b>{email}</b>. afa-tsy singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra mailaka ny Ny Vaovao singan-javatra.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Varotra ao amin'ny Instagram",
-
-    add_product: "Manampia vokatra vaovao",
-    create_product: "Mamorona vokatra",
-    link_box_msg:
-      "Apetraho ao amin'ny bio anao ao amin'ny Instagram, Telegram na media sosialy hafa ity rohy ity mba hahafahan'ny mpihaino anao mividy haingana kokoa, mora kokoa, bebe kokoa ary farany bebe kokoa.",
-    remove_account: "Hanova / esory ny rohy Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Varotra fantsona",
-    subtitle:
-      "MANANGANA singan-javatra singan-javatra Sokajy ny ny vokatra, singan-javatra ny Sary sy singan-javatra, sy singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra. singan-javatra singan-javatra ny Instagram sy TikTok, singan-javatra ny singan-javatra singan-javatra, singan-javatra singan-javatra ny singan-javatra singan-javatra ny vokatra.",
   },
 
   /** @see ServiceBillingItem **/

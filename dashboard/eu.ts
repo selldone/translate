@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Gehitu xehetasun gehiago",
-    auto_category: "Automatikoki ezarri kategoria",
     add_in_current_category: "Gehitu uneko kategoriara",
-    category_mode_message:
-      "Gaitzen bada, produktua kategoria edo azpikategoria lehenetsian gehituko da.",
-    sku_name_input: "SKU / Izena",
     info: {
       subtitle:
         "Konfiguratu eta kudeatu aukera hau zure dendarako.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Konfiguratu eta kudeatu aukera hau zure dendarako.",
-    },
-    by_sku: {
-      title: "Gehitu by SKU",
-      subtitle: "Konfiguratu eta kudeatu aukera hau zure dendarako.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone Konfiguratu eta kudeatu aukera hau zure dendarako.",
     },
     your_license_is_not_eligible: "Aukera",
-    sku_dialog: {
-      title: "Gehitu Produktua by SKU",
-      subtitle:
-        "Konfiguratu eta kudeatu aukera hau zure dendarako.",
-    },
     dropshipping_dialog: {
       title: "Titulua",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b></b> Konfiguratu eta kudeatu aukera hau zure dendarako. {email}",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Salmentak Instagramen",
-
-    add_product: "Gehitu produktu berria",
-    create_product: "Sortu produktua",
-    link_box_msg:
-      "Jarri esteka hau zure biografian Instagramen, Telegramen edo beste sare sozialetan, zure ikusleek azkarrago, errazago, gehiago eta azkenean gehiago eros dezaten.",
-    remove_account: "Aldatu / Kendu Instagram esteka",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Salmentak Kanala",
-    subtitle:
-      "Konfiguratu eta kudeatu aukera hau zure dendarako.",
   },
 
   /** @see ServiceBillingItem **/

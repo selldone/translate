@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Tinye nkọwa ndị ọzọ",
-    auto_category: "Atiri-tọọ onwe ya",
     add_in_current_category: "Tinye na udi ugbu a",
-    category_mode_message:
-      "Ọ bụrụ na enyere ya aka, a ga-agbakwunye ngwaahịa na udi ma ọ bụ ngalaba nke ndabara.",
-    sku_name_input: "SKU / aha",
     info: {
       subtitle:
         "Iji mepụta ngwaahịa, ị nwere ike itinye naanị nkọwa ndị dị mkpa maka okike ya.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-    },
-    by_sku: {
-      title: "tinye ihe SKU",
-      subtitle: "Ebe nchekwa data dị na obodo gị adịghị.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone — Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     },
     your_license_is_not_eligible: "Ikikere gị erughị eru.",
-    sku_dialog: {
-      title: "tinye ngwaahịa ihe SKU",
-      subtitle:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-    },
     dropshipping_dialog: {
       title: "tinye ihe ngwaahịa",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a. {email}</b>",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Ahịa na Instagram",
-
-    add_product: "Tinye ngwaahịa ọhụrụ",
-    create_product: "Mepụta ngwaahịa",
-    link_box_msg:
-      "Tinye njikọ a na bio gị na Instagram, Telegram ma ọ bụ mgbasa ozi mmekọrịta ndị ọzọ ka ndị na-ege gị ntị nwee ike ịzụta ngwa ngwa, dị mfe, karịa na n'ikpeazụ karịa.",
-    remove_account: "Gbanwee / Wepu njikọ Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Ọwa ire ahịa Instagram",
-    subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
   },
 
   /** @see ServiceBillingItem **/

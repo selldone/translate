@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Shto më shumë detaje",
-    auto_category: "Kategoria e vendosjes automatike",
     add_in_current_category: "Shtoni në kategorinë aktuale",
-    category_mode_message:
-      "Nëse aktivizohet, produkti do të shtohet në kategorinë ose nënkategorinë e paracaktuar.",
-    sku_name_input: "SKU / Emri",
     info: {
       subtitle:
         "Për të gjeneruar produktin, mund të futni vetëm detajet thelbësore të nevojshme për krijimin e tij.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Shkruani çmimin dhe zbritjen për këtë produkt. Pasi të shtohet produkti, do të keni akses në më shumë opsione.",
-    },
-    by_sku: {
-      title: "Shto artikull SKU",
-      subtitle: "Baza e të dhënave në vendin tuaj nuk është e disponueshme.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Shtoni me lehtësi produkte nga POD ose furnizues dropshipping me Selldone Connect OS—thjesht lidhni dyqanin tuaj dhe shijoni integrimin automatik të produktit, nuk nevojiten shtojca.",
     },
     your_license_is_not_eligible: "Licenca juaj nuk është e pranueshme.",
-    sku_dialog: {
-      title: "Shto Produkt artikull SKU",
-      subtitle:
-        "Ju keni mundësinë të gjeni produktet sipas SKU-së së tyre në bazën tonë të të dhënave dhe t'i shtoni ato vetëm me një klik të vetëm.",
-    },
     dropshipping_dialog: {
       title: "Shto artikull Produktet",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Pas ndryshimeve të ruajtjes, do të merrni një postë provë në <b>{email}</b>. Ruani ndryshimet përpara se të dërgoni një email provë me konfigurimin e ri.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Shitjet në Instagram",
-
-    add_product: "Shto produkt të ri",
-    create_product: "Krijo produkt",
-    link_box_msg:
-      "Vendoseni këtë lidhje në biografinë tuaj në Instagram, Telegram ose media të tjera sociale në mënyrë që audienca juaj të mund të blejë më shpejt, më lehtë, më shumë dhe më në fund më shumë.",
-    remove_account: "Ndrysho / Hiq lidhjen në Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Shitjet Kanali",
-    subtitle:
-      "Krijoni një kategori të dedikuar për produktet tuaja, plotësoni me imazhe dhe video dhe ndajeni atë nëpër mediat tuaja sociale. Është i ngjashëm me Instagram dhe TikTok, por me kontroll të plotë, duke ju lejuar të shisni drejtpërdrejt produktet tuaja.",
   },
 
   /** @see ServiceBillingItem **/

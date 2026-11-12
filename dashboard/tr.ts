@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Daha fazla ayrıntı ekle",
-    auto_category: "Kategoriyi otomatik ayarla",
     add_in_current_category: "Geçerli kategoriye ekle",
-    category_mode_message:
-      "Etkinleştirilirse, ürün varsayılan kategoriye veya alt kategoriye eklenir.",
-    sku_name_input: "SKU / Ad",
     info: {
       subtitle:
         "Ürünü üretmek için sadece oluşturulması için gerekli olan temel bilgileri girebilirsiniz.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Bu ürün için fiyatı ve indirimi girin. Ürün eklendiğinde daha fazla seçeneğe erişebileceksiniz.",
-    },
-    by_sku: {
-      title: "SKU'ya göre ekle",
-      subtitle: "Ülkenizdeki veritabanına ulaşılamıyor.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone Connect OS ile POD veya dropshipping tedarikçilerinden ürünleri kolayca ekleyin; sadece mağazanızı bağlayın ve otomatik ürün entegrasyonunun keyfini çıkarın, eklentiye gerek yok.",
     },
     your_license_is_not_eligible: "Lisansınız uygun değil.",
-    sku_dialog: {
-      title: "Ürün SKU'suna Göre Ekle",
-      subtitle:
-        "Ürünlerinizi veritabanımızda SKU'larına göre bulabilir ve tek bir tıklamayla ekleyebilirsiniz.",
-    },
     dropshipping_dialog: {
       title: "Dropshipping ürünlerini ekleyin",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Değişiklikleri kaydettikten sonra <b>{email}</b> adresine bir test e-postası alacaksınız. Yeni yapılandırmayla bir test e-postası göndermeden önce değişiklikleri kaydedin.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Instagram'da Satış",
-
-    add_product: "Yeni ürün ekle",
-    create_product: "Ürün oluştur",
-    link_box_msg:
-      "Kitlenizin daha hızlı, daha kolay, daha fazla ve nihayet daha fazlasını satın alabilmesi için bu bağlantıyı Instagram, Telegram veya diğer sosyal medyadaki biyografinize koyun.",
-    remove_account: "Instagram bağlantısını değiştir / kaldır",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Satış Kanal",
-    subtitle:
-      "Oluşturmak á Özel Kategori ƒóř ýóúř Ürün:% s, çóṃƥľéţé ŵíţħ Görüntüler áñď ṽíďéóş, áñď şħářé íţ áçřóşş ýóúř şóçíáľ ṃéďíá. Íţ'ş şíṃíľář İle Instagram áñď ŢíķŢóķ, ƀúţ ŵíţħ ƒúľľ çóñţřóľ, áľľóŵíñğ ýóú İle ďířéçţľý şéľľ ýóúř Ürün:% s.",
   },
 
   /** @see ServiceBillingItem **/

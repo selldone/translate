@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Żid aktar dettalji",
-    auto_category: "Kategorija awtomatika",
     add_in_current_category: "Żid mal-kategorija attwali",
-    category_mode_message:
-      "Jekk tkun attivata, il-prodott jiġi miżjud fil-kategorija jew subkategorija default.",
-    sku_name_input: "SKU / Isem",
     info: {
       subtitle:
         "Biex tiġġenera l-prodott, tista 'ddaħħal biss id-dettalji essenzjali meħtieġa għall-ħolqien tiegħu.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Daħħal il-prezz u skont għal dan il-prodott. Ladarba l-prodott jiġi miżjud, ikollok aċċess għal aktar għażliet.",
-    },
-    by_sku: {
-      title: "Żid bl-SKU",
-      subtitle: "Id-database f'pajjiżek mhix disponibbli.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Żid faċilment prodotti minn fornituri POD jew dropshipping b'Selldone Connect OS — sempliċement qabbad il-maħżen tiegħek u tgawdi l-integrazzjoni awtomatika tal-prodott, l-ebda plugins meħtieġa.",
     },
     your_license_is_not_eligible: "Il-liċenzja tiegħek mhix eliġibbli.",
-    sku_dialog: {
-      title: "Żid il-Prodott bl-SKU",
-      subtitle:
-        "Għandek il-ħila li ssib prodotti mill-SKU tagħhom fid-database tagħna u żżidhom bi klikk waħda biss.",
-    },
     dropshipping_dialog: {
       title: "Żid prodotti dropshipping",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Wara li tissejvja l-bidliet, tirċievi posta tat-test fuq <b>{email}</b>. Issejvja l-bidliet qabel ma tibgħat email tat-test bil-konfigurazzjoni l-ġdida.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Bejgħ fuq Instagram",
-
-    add_product: "Żid prodott ġdid",
-    create_product: "Oħloq prodott",
-    link_box_msg:
-      "Poġġi din il-link fil-bijo tiegħek fuq Instagram, Telegram jew midja soċjali oħra sabiex l-udjenza tiegħek tkun tista 'tixtri aktar malajr, aktar faċli, aktar u finalment aktar.",
-    remove_account: "Ibdel / Neħħi l-link Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram oġġettħ oġġett",
-    subtitle:
-      "Oħloq kategorija ddedikata għall-prodotti tiegħek, kompluta bi stampi u vidjows, u aqsamha mal-midja soċjali tiegħek. Huwa simili għal Instagram u TikTok, iżda b'kontroll sħiħ, li jippermettilek tbigħ direttament il-prodotti tiegħek.",
   },
 
   /** @see ServiceBillingItem **/

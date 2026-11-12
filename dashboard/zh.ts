@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "添加更多详细信息",
-    auto_category: "自动设置分类",
     add_in_current_category: "添加到当前分类",
-    category_mode_message:
-      "如果启用，产品将被添加到默认分类或子分类中。",
-    sku_name_input: "SKU/名称",
     info: {
       subtitle:
         "若要生成产品，您只需填写创建所需的基本信息即可。",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "输入此产品的价格和折扣。添加产品后，您将可以访问更多选项。",
-    },
-    by_sku: {
-      title: "按 SKU 添加",
-      subtitle: "您所在国家/地区的数据库不可用。",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "使用 Selldone Connect OS 轻松添加来自 POD 或代发货供应商的产品 - 只需连接您的商店即可享受自动产品集成，无需任何插件。",
     },
     your_license_is_not_eligible: "您的许可证不符合条件。",
-    sku_dialog: {
-      title: "按 SKU 添加产品",
-      subtitle:
-        "您可以通过我们的数据库根据 SKU 查找产品，并一键添加。",
-    },
     dropshipping_dialog: {
       title: "添加代发货产品",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "保存更改后，您将在<b>{email}</b>上收到一封测试邮件。在使用新配置发送测试电子邮件之前，请保存更改。",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "销售额 项目 Instagram",
-
-    add_product: "添加新产品",
-    create_product: "创建产品",
-    link_box_msg:
-      "将此链接放入您在 Instagram、Telegram 或其他社交媒体上的简介中，以便您的受众可以更快地找到产品并更轻松地购买。",
-    remove_account: "编辑 / 移除 Instagram 链接",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram 销售额 渠道",
-    subtitle:
-      "为您的产品创建一个包含图像和视频的专用类别，并在您的社交媒体上分享。它类似于 Instagram 和 TikTok，但具有完全控制权，允许您直接销售您的产品。",
   },
 
   /** @see ServiceBillingItem **/

@@ -5814,11 +5814,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Tambah rincian liyane",
-    auto_category: "Auto-set kategori",
     add_in_current_category: "Tambah menyang kategori saiki",
-    category_mode_message:
-      "Yen aktif, produk bakal ditambahake menyang kategori standar utawa subkategori.",
-    sku_name_input: "SKU / Jeneng",
     info: {
       subtitle:
         "Kanggo ngasilake produk, sampeyan mung bisa ngetik rincian penting sing dibutuhake kanggo nggawe.",
@@ -5826,10 +5822,6 @@ export default {
     price: {
       subtitle:
         "Ketik rega lan diskon kanggo produk iki. Sawise produk ditambahake, sampeyan bakal duwe akses menyang opsi liyane.",
-    },
-    by_sku: {
-      title: "tambah item SKU",
-      subtitle: "Database ing negara sampeyan ora kasedhiya.",
     },
     drop_shipping: {
       subtitle:
@@ -5840,11 +5832,6 @@ export default {
         "Tambah produk saka POD utawa supplier dropshipping kanthi gampang karo Selldone Connect OS-mung sambungake toko sampeyan lan nikmati integrasi produk otomatis, ora ana plugin sing dibutuhake.",
     },
     your_license_is_not_eligible: "Lisensi sampeyan ora layak.",
-    sku_dialog: {
-      title: "tambah produk item SKU",
-      subtitle:
-        "Sampeyan duwe kemampuan kanggo nemokake produk dening SKU ing database kita lan nambah karo mung siji klik.",
-    },
     dropshipping_dialog: {
       title: "tambah item produk",
     },
@@ -8728,23 +8715,6 @@ export default {
       enable_receive_test:
         "Sawise nyimpen owah-owahan, sampeyan bakal nampa layang test ing <b>{email}</b>. Simpen owah-owahan sadurunge ngirim email test karo konfigurasi anyar.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Sales ing Instagram",
-
-    add_product: "Tambah produk anyar",
-    create_product: "Nggawe produk",
-    link_box_msg:
-      "Sijine link iki ing bio sampeyan ing Instagram, Telegram utawa media sosial liyane supaya pamirsa bisa tuku luwih cepet, luwih gampang, luwih akeh lan pungkasane luwih akeh.",
-    remove_account: "Ganti / Copot link Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Saluran Penjualan Instagram",
-    subtitle:
-      "Gawe kategori khusus kanggo produk sampeyan, lengkap karo gambar lan video, lan enggo bareng ing media sosial sampeyan. Iku padha karo Instagram lan TikTok, nanging kanthi kontrol lengkap, ngidini sampeyan langsung adol produk sampeyan.",
   },
 
   /** @see ServiceBillingItem **/

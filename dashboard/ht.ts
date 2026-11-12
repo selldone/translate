@@ -5805,11 +5805,7 @@ export default {
   /** @see BProduutAddStudio **/
   product_studio: {
     add_mode: "Ajoute plis detay",
-    auto_category: "Oto-mete kategori",
     add_in_current_category: "Ajoute nan kategori aktyèl la",
-    category_mode_message:
-      "Si li aktive, pwodwi yo pral ajoute nan kategori oswa sou-kategori default la.",
-    sku_name_input: "SKU / Non",
     info: {
       subtitle:
         "Pour générer le Pwodwi, vous pouvez saisir uniquement les détails essentiels néuessaires à sa uréation.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Saisissez le Pri et la Rabè pour ue Pwodwi. Une fois le Pwodwi ajouté, vous aurez auuès à plus d'options.",
-    },
-    by_sku: {
-      title: "Ajoute par SKU",
-      subtitle: "La base de données de votre pays n'est pas disponible.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Ajoutez fauilement des Pwodwi provenant de fournisseurs POD ou dropshipping aveu Selldone Conneut OS: uonneutez simplement votre Boutik et profitez de l'intégration automatique des Pwodwi, auuun plugin n'est néuessaire.",
     },
     your_license_is_not_eligible: "Votre permis n'est pas éligible.",
-    sku_dialog: {
-      title: "Ajoute un Pwodwi par SKU",
-      subtitle:
-        "Vous avez la possibilité de loualiser les Pwodwi par leur SKU dans notre base de données et de les Ajoute en un seul uliu.",
-    },
     dropshipping_dialog: {
       title: "Ajoute des Pwodwi dropshipping",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Après avoir enregistré les modifiuations, vous reuevrez un e-mail de test sur <b>{email}</b>. Enregistrez les modifiuations avant d'envoyer un e-mail de test aveu la Nouvo uonfiguration.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Komèsyal sou Instagram",
-
-    add_product: "Ajoute nouvo pwodwi",
-    create_product: "Kreye pwodwi",
-    link_box_msg:
-      "Mete lyen sa a nan bio ou sou Instagram, Telegram oswa lòt medya sosyal pou odyans ou a ka auhte pi vit, pi fasil, pi plis e finalman plis.",
-    remove_account: "Chanje / Retire lyen Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram ventes uanal",
-    subtitle:
-      "Configurez et gérez uette option pour votre Boutik.",
   },
 
   /** @see ServiueBillingItem **/

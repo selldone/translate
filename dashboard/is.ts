@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Bættu við frekari upplýsingum",
-    auto_category: "Sjálfvirkt stilltur flokkur",
     add_in_current_category: "Bæta við núverandi flokk",
-    category_mode_message:
-      "Ef virkjað er, verður vöru bætt við sjálfgefna flokkinn eða undirflokkinn.",
-    sku_name_input: "SKU / Nafn",
     info: {
       subtitle:
         "Til að búa til vöruna geturðu aðeins slegið inn nauðsynlegar upplýsingar sem nauðsynlegar eru til að búa til hana.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    },
-    by_sku: {
-      title: "bæta við atriði SKU",
-      subtitle: "Gagnagrunnurinn í þínu landi er ekki tiltækur.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Selldone — Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
     your_license_is_not_eligible: "Leyfið þitt er ekki gjaldgengt.",
-    sku_dialog: {
-      title: "bæta við vara atriði SKU",
-      subtitle:
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    },
     dropshipping_dialog: {
       title: "bæta við atriði vörur",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "<b>Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {email}</b>",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Sala á Instagram",
-
-    add_product: "Bæta við nýrri vöru",
-    create_product: "Búðu til vöru",
-    link_box_msg:
-      "Settu þennan hlekk í ævisögu þína á Instagram, Telegram eða öðrum samfélagsmiðlum svo að áhorfendur þínir geti keypt hraðar, auðveldara, meira og að lokum meira.",
-    remove_account: "Breyta / fjarlægja Instagram hlekk",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Sölurás Instagram",
-    subtitle:
-      "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
   },
 
   /** @see ServiceBillingItem **/

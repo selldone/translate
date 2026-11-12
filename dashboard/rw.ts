@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Ongeraho ibisobanuro birambuye",
-    auto_category: "Icyiciro cyo gushiraho",
     add_in_current_category: "Ongeraho kurwego rwubu",
-    category_mode_message:
-      "Nibishoboka, ibicuruzwa bizongerwaho mubyiciro bisanzwe cyangwa ibyiciro.",
-    sku_name_input: "SKU / Izina",
     info: {
       subtitle:
         "Kubyara ibicuruzwa, urashobora kwinjiza gusa amakuru yingenzi akenewe mukurema.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Injira igiciro no kugabanyirizwa ibicuruzwa. Ibicuruzwa bimaze kongerwaho, uzabona uburyo bwinshi.",
-    },
-    by_sku: {
-      title: "Ongeraho ikintu SKU",
-      subtitle: "Ububikoshingiro mu gihugu cyawe ntibuboneka.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Byoroshye kongeramo ibicuruzwa biva muri POD cyangwa abatanga ibicuruzwa hamwe na Selldone Connect OS-gusa uhuze ububiko bwawe kandi wishimire guhuza ibicuruzwa byikora, nta plugin ikenewe.",
     },
     your_license_is_not_eligible: "Uruhushya rwawe ntirwemerewe.",
-    sku_dialog: {
-      title: "Ongeraho Ibicuruzwa ikintu SKU",
-      subtitle:
-        "Ufite ubushobozi bwo kumenya ibicuruzwa na SKU yabo muri data base hanyuma ukabyongeraho ukanze rimwe gusa.",
-    },
     dropshipping_dialog: {
       title: "Ongeraho Kureka Ibicuruzwa",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Nyuma yo kuzigama impinduka, uzakira ubutumwa bwikizamini kuri <b>{email}</b>. Bika impinduka mbere yo kohereza imeri yikizamini hamwe nuburyo bushya.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Kugurisha kuri Instagram",
-
-    add_product: "Ongeraho ibicuruzwa bishya",
-    create_product: "Kora ibicuruzwa",
-    link_box_msg:
-      "Shira iyi link muri bio yawe kuri Instagram, Telegramu cyangwa izindi mbuga nkoranyambaga kugirango abakwumva bashobore kugura byihuse, byoroshye, byinshi kandi amaherezo nibindi byinshi.",
-    remove_account: "Hindura / Kuraho umurongo wa Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Kugurisha Umuyoboro",
-    subtitle:
-      "Kora icyiciro cyabigenewe kubicuruzwa byawe, wuzuze amashusho na videwo, hanyuma ubisangire kurubuga rusange. Irasa na Instagram na TikTok, ariko hamwe nubugenzuzi bwuzuye, bikwemerera kugurisha ibicuruzwa byawe.",
   },
 
   /** @see ServiceBillingItem **/

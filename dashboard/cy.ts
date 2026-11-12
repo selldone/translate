@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Ychwanegu mwy o fanylion",
-    auto_category: "Categori awto-set",
     add_in_current_category: "Ychwanegu at y categori presennol",
-    category_mode_message:
-      "Os yw wedi'i alluogi, bydd y cynnyrch yn cael ei ychwanegu at y categori neu'r is-gategori rhagosodedig.",
-    sku_name_input: "SKU / Enw",
     info: {
       subtitle:
         "I gynhyrchu'r cynnyrch, dim ond y manylion hanfodol sy'n angenrheidiol ar gyfer ei greu y gallwch chi ei nodi.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Nodwch y pris a'r gostyngiad ar gyfer y cynnyrch hwn. Unwaith y bydd y cynnyrch yn cael ei ychwanegu, bydd gennych fynediad i fwy o opsiynau.",
-    },
-    by_sku: {
-      title: "ychwanegu gan SKU",
-      subtitle: "y term yn eich gwlad yw nid ar gael.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Ychwanegwch gynhyrchion gan gyflenwyr POD neu dropshipping yn hawdd gyda Selldone Connect OS - cysylltwch eich siop a mwynhewch integreiddio cynnyrch yn awtomatig, nid oes angen ategion.",
     },
     your_license_is_not_eligible: "Nid yw eich trwydded yn gymwys.",
-    sku_dialog: {
-      title: "ychwanegu cynnyrch gan SKU",
-      subtitle:
-        "Mae gennych y gallu i leoli cynhyrchion yn ôl eu SKU yn ein cronfa ddata a'u hychwanegu gydag un clic yn unig.",
-    },
     dropshipping_dialog: {
       title: "ychwanegu term cynhyrchion",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Ar ôl cadw newidiadau, byddwch yn derbyn post prawf ar <b>{email}</b>. Arbedwch newidiadau cyn anfon e-bost prawf gyda'r ffurfweddiad newydd.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Gwerthu ar Instagram",
-
-    add_product: "Ychwanegu cynnyrch newydd",
-    create_product: "Creu cynnyrch",
-    link_box_msg:
-      "Rhowch y ddolen hon yn eich bio ar Instagram, Telegram neu gyfryngau cymdeithasol eraill fel y gall eich cynulleidfa brynu'n gyflymach, yn haws, yn fwy ac yn olaf yn fwy.",
-    remove_account: "Newid / Dileu dolen Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram term sianel",
-    subtitle:
-      "Creu categori pwrpasol ar gyfer eich cynhyrchion, ynghyd â delweddau a fideos, a'i rannu ar draws eich cyfryngau cymdeithasol. Mae'n debyg i Instagram a TikTok, ond gyda rheolaeth lawn, sy'n eich galluogi i werthu'ch cynhyrchion yn uniongyrchol.",
   },
 
   /** @see ServiceBillingItem **/

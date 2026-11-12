@@ -423,7 +423,6 @@ export default {
     google: "گوگل",
     facebook: "فیسبوک",
     instagram: "اینستاگرام",
-    instashop: "اینستاشاپ",
     show: "نمایش",
     hide: "مخفی",
     waiting_review: "در انتظار بررسی",

@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Aggiungi più dettagli",
-    auto_category: "Auto-set categuria",
     add_in_current_category: "Aghjunghjite à a categuria attuale",
-    category_mode_message:
-      "Se attivatu, u pruduttu serà aghjuntu à a categuria o sottucategoria predeterminata.",
-    sku_name_input: "SKU / Nome",
     info: {
       subtitle:
         "Per generà u pruduttu, pudete entre solu i dettagli essenziali necessarii per a so creazione.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Inserite u prezzu è u scontu per stu pruduttu. Una volta chì u pruduttu hè aghjuntu, avete accessu à più opzioni.",
-    },
-    by_sku: {
-      title: "aghjunghje da SKU",
-      subtitle: "u termine in u vostru paese hè micca dispunibule.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Aghjunghjite facilmente i prudutti da i fornitori POD o dropshipping cù Selldone Connect OS - basta à cunnette u vostru magazinu è gode di l'integrazione automatica di i prudutti, senza bisognu di plugins.",
     },
     your_license_is_not_eligible: "A vostra licenza ùn hè micca eligibile.",
-    sku_dialog: {
-      title: "aghjunghje pruduttu da SKU",
-      subtitle:
-        "Avete a capacità di localizà i prudutti da u so SKU in a nostra basa di dati è aghjunghje cù un solu clic.",
-    },
     dropshipping_dialog: {
       title: "aghjunghje termine prudutti",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Dopu à salvà i cambiamenti, riceverete un mail di prova in <b>{email}</b>. Salvà i cambiamenti prima di mandà un email di prova cù a nova cunfigurazione.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Vendite nantu à Instagram",
-
-    add_product: "Aggiungi novu pruduttu",
-    create_product: "Crea u pruduttu",
-    link_box_msg:
-      "Mettite stu ligame in a vostra biografia in Instagram, Telegram o altre rete suciale per chì u vostru audience pò cumprà più veloce, più faciule, più è infine più.",
-    remove_account: "Cambia / Elimina u ligame Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram termine canale",
-    subtitle:
-      "Crea una categuria dedicata per i vostri prudutti, cumpletu cù l'imaghjini è i video, è sparte in i vostri media suciale. Hè simile à Instagram è TikTok, ma cù un cuntrollu tutale, chì vi permette di vende direttamente i vostri prudutti.",
   },
 
   /** @see ServiceBillingItem **/

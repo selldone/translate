@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Zêdetir hûrgulî zêde bikin",
-    auto_category: "Kategorî-sazkirina otomatîkî",
     add_in_current_category: "Têxe kategoriya heyî",
-    category_mode_message:
-      "Ger çalak be, hilber dê di kategoriya xwerû an binkategorî de were zêdekirin.",
-    sku_name_input: "SKU / Nav",
     info: {
       subtitle:
         "Ber hêman re Mal, You hêman Nirxa Tenê re Plana zêde hêman bo hêman Dîroka.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Nirxa re biha û Kêmkirinî bo Vebijarkê Mal. hêman re Mal neçalak Dîroka, hêman hêman Navketin Ber Zêdetir.. pêşkeftî.",
-    },
-    by_sku: {
-      title: "zêde bike rêzkirin SKU",
-      subtitle: "re hêman Ez xwe Welat neçalak nehatin Berdeste.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "hêman zêde bike berhem Ji POD an Dropshipping hêman bi Navenda Hesabê OS—hêman Hesabê xwe dikan û hêman hêman Mal hêman, na hêman hêman. Selldone Connect OS",
     },
     your_license_is_not_eligible: "xwe Îcaze neçalak nehatin Berhemên.",
-    sku_dialog: {
-      title: "zêde bike Mal rêzkirin SKU",
-      subtitle:
-        "You hêman re hêman Ber hêman berhem rêzkirin hêman SKU Ez hêman hêman û zêde bike hêman bi hêman vir Firoşkarê Bikirtînin.",
-    },
     dropshipping_dialog: {
       title: "zêde bike Dropshipping berhem",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Piştgiriya Rizgarkirin dipejirînim, You hêman Wergirtin vir testê bişînin gorî <b>{email}</b>. Rizgarkirin dipejirînim kirîn hêman vir testê Navnîşana bi re Nşh Giştî.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Firotan li ser Instagram",
-
-    add_product: "Hilbera nû lê zêde bike",
-    create_product: "Hilberê çêbikin",
-    link_box_msg:
-      "Vê girêdanê di biyo-ya xwe de li ser Instagram, Telegram an medyaya civakî ya din bixin da ku temaşevanên we zûtir, hêsantir, bêtir û di dawiyê de bêtir bikirin.",
-    remove_account: "Zencîreya Instagram biguherînin / jêbirin",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Kanalên Qenal",
-    subtitle:
-      "Xûliqandin vir hêman Liq bo xwe berhem, Agahdariya bi Wêneyên û hêman, û hêman hêman hêman xwe Medyaya civakî. belaş hêman Ber Instagram û TikTok, hêman bi Navê gihîştinê, hêman You Ber hêman hêman xwe berhem.",
   },
 
   /** @see ServiceBillingItem **/

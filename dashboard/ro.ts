@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Adăugați mai multe detalii",
-    auto_category: "Setare automată categorie",
     add_in_current_category: "Adăugați la categoria curentă",
-    category_mode_message:
-      "Dacă este activat, produsul va fi adăugat la categoria sau subcategoria implicită.",
-    sku_name_input: "SKU / Nume",
     info: {
       subtitle:
         "Pentru a genera produsul, puteți introduce doar detaliile esențiale necesare pentru crearea acestuia.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Introduceți prețul și reducerea pentru acest produs. Odată ce produsul este adăugat, veți avea acces la mai multe opțiuni.",
-    },
-    by_sku: {
-      title: "Adaugă element SKU",
-      subtitle: "Baza de date din țara dumneavoastră nu este disponibilă.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Adăugați cu ușurință produse de la furnizori POD sau dropshipping cu sistemul de operare Selldone Connect - doar conectați-vă magazinul și bucurați-vă de integrarea automată a produselor, fără pluginuri necesare.",
     },
     your_license_is_not_eligible: "Licența dvs. nu este eligibilă.",
-    sku_dialog: {
-      title: "Adaugă Produs element SKU",
-      subtitle:
-        "Aveți posibilitatea de a localiza produsele după SKU-ul lor în baza noastră de date și de a le adăuga cu un singur clic.",
-    },
     dropshipping_dialog: {
       title: "Adaugă element Produse",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "După salvarea modificărilor, veți primi un e-mail de test pe <b>{email}</b>. Salvați modificările înainte de a trimite un e-mail de test cu noua configurație.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Vânzări pe Instagram",
-
-    add_product: "Adăugați un produs nou",
-    create_product: "Creați un produs",
-    link_box_msg:
-      "Pune acest link în biografia ta pe Instagram, Telegram sau alte rețele sociale, astfel încât publicul tău să poată cumpăra mai repede, mai ușor, mai mult și, în sfârșit, mai mult.",
-    remove_account: "Schimbați / Eliminați linkul Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Vânzări Canal",
-    subtitle:
-      "Creați o categorie dedicată produselor dvs., completată cu imagini și videoclipuri și distribuiți-o pe rețelele dvs. de socializare. Este similar cu Instagram și TikTok, dar cu control deplin, permițându-vă să vă vindeți direct produsele.",
   },
 
   /** @see ServiceBillingItem **/

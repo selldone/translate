@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Ajouter plus de détails",
-    auto_category: "Catégorie de réglage automatique",
     add_in_current_category: "Ajouter à la catégorie actuelle",
-    category_mode_message:
-      "Si activé, le produit sera ajouté à la catégorie ou sous-catégorie par défaut.",
-    sku_name_input: "UGS / Nom",
     info: {
       subtitle:
         "Pour générer le produit, vous pouvez saisir uniquement les détails essentiels nécessaires à sa création.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Saisissez le prix et la remise pour ce produit. Une fois le produit ajouté, vous aurez accès à plus d'options.",
-    },
-    by_sku: {
-      title: "Ajouter par SKU",
-      subtitle: "La base de données de votre pays n'est pas disponible.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Ajoutez facilement des produits provenant de fournisseurs POD ou dropshipping avec Selldone Connect OS: connectez simplement votre boutique et profitez de l'intégration automatique des produits, aucun plugin n'est nécessaire.",
     },
     your_license_is_not_eligible: "Votre permis n'est pas éligible.",
-    sku_dialog: {
-      title: "Ajouter un produit par SKU",
-      subtitle:
-        "Vous avez la possibilité de localiser les produits par leur SKU dans notre base de données et de les ajouter en un seul clic.",
-    },
     dropshipping_dialog: {
       title: "Ajouter des produits dropshipping",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Après avoir enregistré les modifications, vous recevrez un e-mail de test sur <b>{email}</b>. Enregistrez les modifications avant d'envoyer un e-mail de test avec la nouvelle configuration.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Ventes sur Instagram",
-
-    add_product: "Ajouter un nouveau produit",
-    create_product: "Créer un produit",
-    link_box_msg:
-      "Mettez ce lien dans votre bio sur Instagram, Telegram ou d'autres médias sociaux afin que votre public puisse acheter plus rapidement, plus facilement, plus et enfin plus.",
-    remove_account: "Modifier / supprimer le lien Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram ventes canal",
-    subtitle:
-      "Configurez et gérez cette option pour votre boutique.",
   },
 
   /** @see ServiceBillingItem **/

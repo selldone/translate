@@ -466,7 +466,6 @@ export default {
     google: "Google",
     facebook: "Facebook",
     instagram: "Instagram",
-    instashop: "Instashop",
 
     show: "Show",
     hide: "Hide",

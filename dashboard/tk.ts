@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Has giňişleýin maglumat goşuň",
-    auto_category: "Awtomatiki düzülen kategoriýa",
     add_in_current_category: "Häzirki kategoriýa goşuň",
-    category_mode_message:
-      "Işledilse, önüm deslapky kategoriýa ýa-da kiçi kategoriýa goşular.",
-    sku_name_input: "SKU / Ady",
     info: {
       subtitle:
         "Ţó ğéñéřáţé ţħé Haryt, ýóú çáñ éñţéř óñľý ţħé éşşéñţíáľ Jikme-jiklikler ñéçéşşářý ƒóř íţş çřéáţíóñ.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Éñţéř ţħé bahasy áñď Arzanladyş ƒóř ţħíş Haryt. Óñçé ţħé Haryt íş áďďéď, ýóú'ľľ ħáṽé Giriş Ţó has köp óƥţíóñş.",
-    },
-    by_sku: {
-      title: "Áďď ƀý SKU",
-      subtitle: "Ţħé ďáţáƀáşé íñ ýóúř Countryurt íş ñóţ Elýeterli.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Éáşíľý áďď Önümler Kimden POD óř Taşlamak şúƥƥľíéřş ŵíţħ Selldone Çóññéçţ OS—ĵúşţ çóññéçţ ýóúř dükan áñď éñĵóý áúţóṃáţíç Haryt íñţéğřáţíóñ, ýok ƥľúğíñş ñééďéď.",
     },
     your_license_is_not_eligible: "Ýóúř Ygtyýarnama íş ñóţ éľíğíƀľé.",
-    sku_dialog: {
-      title: "Áďď Haryt ƀý SKU",
-      subtitle:
-        "Ýóú ħáṽé ţħé áƀíľíţý Ţó ľóçáţé Önümler ƀý ţħéíř SKU íñ óúř ďáţáƀáşé áñď áďď ţħéṃ ŵíţħ ĵúşţ á şíñğľé çľíçķ.",
-    },
     dropshipping_dialog: {
       title: "Áďď Taşlamak Önümler",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Áƒţéř Saklaň çħáñğéş, ýóú ŵíľľ Al á ţéşţ ṃáíľ óñ <b>{email}</b>. Saklaň çħáñğéş ƀéƒóřé şéñďíñğ á ţéşţ E-poçta iberiň ŵíţħ ţħé Täze çóñƒíğúřáţíóñ.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Instagram-da satuwlar",
-
-    add_product: "Täze önüm goşuň",
-    create_product: "Önüm dörediň",
-    link_box_msg:
-      "Bu baglanyşygy Instagram-da, Telegramda ýa-da beýleki sosial mediýada diňleýjileriňiziň has çalt, aňsat, has köp we ahyrsoňy has köp zat satyn almagy üçin goýuň.",
-    remove_account: "Instagram baglanyşygyny üýtgetmek / aýyrmak",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Satyş Kanal",
-    subtitle:
-      "Dörediň á ďéďíçáţéď Kategoriýá ƒóř ýóúř Önümler, çóṃƥľéţé ŵíţħ Suratlar áñď ṽíďéóş, áñď şħářé íţ áçřóşş ýóúř şóçíáľ ṃéďíá. Íţ'ş şíṃíľář Ţó Instagram áñď ŢíķŢóķ, ƀúţ ŵíţħ ƒúľľ çóñţřóľ, áľľóŵíñğ ýóú Ţó ďířéçţľý şéľľ ýóúř Önümler.",
   },
 
   /** @see ServiceBillingItem **/

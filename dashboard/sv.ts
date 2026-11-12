@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Lägg till mer information",
-    auto_category: "Automatisk inställning av kategori",
     add_in_current_category: "Lägg till den aktuella kategorin",
-    category_mode_message:
-      "Om aktiverat kommer produkten att läggas till i standardkategorin eller underkategorin.",
-    sku_name_input: "SKU / Namn",
     info: {
       subtitle:
         "För att generera produkten kan du endast ange de väsentliga detaljer som behövs för att skapa den.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Ange pris och rabatt för denna produkt. När produkten har lagts till har du tillgång till fler alternativ.",
-    },
-    by_sku: {
-      title: "Lägg till efter SKU",
-      subtitle: "Databasen i ditt land är inte tillgänglig.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Lägg enkelt till produkter från POD- eller dropshipping-leverantörer med Selldone Connect OS – anslut bara din butik och njut av automatisk produktintegrering, inga plugins behövs.",
     },
     your_license_is_not_eligible: "Din licens är inte kvalificerad.",
-    sku_dialog: {
-      title: "Lägg till produkt efter SKU",
-      subtitle:
-        "Du har möjlighet att hitta produkter efter deras SKU i vår databas och lägga till dem med bara ett enda klick.",
-    },
     dropshipping_dialog: {
       title: "Lägg till dropshipping-produkter",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "När du har sparat ändringarna kommer du att få ett testmeddelande på <b>{email}</b> . Spara ändringar innan du skickar ett testmail med den nya konfigurationen.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Försäljning på Instagram",
-
-    add_product: "Lägg till ny produkt",
-    create_product: "Skapa produkt",
-    link_box_msg:
-      "Lägg den här länken i din bio på Instagram, Telegram eller andra sociala medier så att din publik kan köpa snabbare, enklare, mer och slutligen mer.",
-    remove_account: "Ändra/ta bort Instagram-länk",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Försäljning Kanal",
-    subtitle:
-      "Skapa en dedikerad kategori för dina produkter, komplett med bilder och videor, och dela den på dina sociala medier. Det liknar Instagram och TikTok, men med full kontroll, så att du kan sälja dina produkter direkt.",
   },
 
   /** @see ServiceBillingItem **/

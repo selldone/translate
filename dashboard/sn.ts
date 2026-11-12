@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Wedzera mamwe mashoko",
-    auto_category: "Auto-set chikamu",
     add_in_current_category: "Wedzera kuchikamu chazvino",
-    category_mode_message:
-      "Kana yagoneswa, chigadzirwa chinowedzerwa muchikamu cheiyo default kana subcategory.",
-    sku_name_input: "SKU / Zita",
     info: {
       subtitle:
         "Kuti ugadzire chigadzirwa, iwe unogona kuisa chete izvo zvakakosha zvinodiwa pakusikwa kwayo.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Pinda mutengo uye kuderedzwa kwechigadzirwa ichi. Kana chigadzirwa chacho chawedzerwa, iwe unokwanisa kuwana mamwe maitiro.",
-    },
-    by_sku: {
-      title: "Wedzera chinhu SKU",
-      subtitle: "Dhatabhesi remunyika mako hariwanikwi.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Wedzera zviri nyore zvigadzirwa kubva kuPOD kana kudonhedza vatengesi neSelldone Batanidza OS-ingobatanidza chitoro chako uye unakirwe otomatiki chigadzirwa kubatanidzwa, hapana plugins inodiwa.",
     },
     your_license_is_not_eligible: "Rezinesi rako harikodzeri.",
-    sku_dialog: {
-      title: "Wedzera chigadzirwa chinhu SKU",
-      subtitle:
-        "Iwe unokwanisa kuwana zvigadzirwa neSKU yavo mune yedu database uye wozviwedzera nekungodzvanya kumwe chete.",
-    },
     dropshipping_dialog: {
       title: "Wedzera chinhu zvigadzirwa",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Mushure mekuchengetedza shanduko, uchagamuchira tsamba yekuyedza pa<b>{email}</b>. Chengetedza shanduko usati watumira email yekuyedza ine gadziriso itsva.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Kutengeswa pa Instagram",
-
-    add_product: "Wedzera chigadzirwa chitsva",
-    create_product: "Gadzira chigadzirwa",
-    link_box_msg:
-      "Isa iyi link mubio yako pa Instagram, Telegraph kana imwe social media kuti vateereri vako vatenge nekukurumidza, nyore, zvakanyanya uye pakupedzisira zvakanyanya.",
-    remove_account: "Shandura / Bvisa Instagram link",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram kutengesa chiteshi",
-    subtitle:
-      "Gadzira chikamu chakazvitsaurira chezvigadzirwa zvako, zvizere nemifananidzo nemavhidhiyo, uye ugovane pasocial media yako. Zvakafanana ne Instagram uye TikTok, asi nekutonga kuzere, zvichikubvumidza kuti utengese zvigadzirwa zvako zvakananga.",
   },
 
   /** @see ServiceBillingItem **/

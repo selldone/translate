@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Ongeza maelezo zaidi",
-    auto_category: "Kategoria ya kuweka kiotomatiki",
     add_in_current_category: "Ongeza kwa kategoria ya sasa",
-    category_mode_message:
-      "Ikiwashwa, bidhaa itaongezwa kwa kategoria chaguo-msingi au kategoria ndogo.",
-    sku_name_input: "SKU / Jina",
     info: {
       subtitle:
         "Ili kuzalisha bidhaa, unaweza kuingiza tu maelezo muhimu muhimu kwa uumbaji wake.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Weka bei na punguzo la bidhaa hii. Baada ya bidhaa kuongezwa, utaweza kufikia chaguo zaidi.",
-    },
-    by_sku: {
-      title: "Ongeza kipengee SKU",
-      subtitle: "Hifadhidata katika nchi yako haipatikani.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Ongeza kwa urahisi bidhaa kutoka kwa wauzaji wa POD au wanaoshuka ukitumia Selldone Connect OS—unganisha tu duka lako na ufurahie ujumuishaji wa bidhaa kiotomatiki, hakuna programu-jalizi zinazohitajika.",
     },
     your_license_is_not_eligible: "Leseni yako haistahiki.",
-    sku_dialog: {
-      title: "Ongeza Bidhaa kipengee SKU",
-      subtitle:
-        "Una uwezo wa kupata bidhaa kwa SKU zao katika hifadhidata yetu na kuziongeza kwa kubofya mara moja tu.",
-    },
     dropshipping_dialog: {
       title: "Ongeza kipengee Bidhaa",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Baada ya kuhifadhi mabadiliko, utapokea barua ya majaribio kwenye <b>{email}</b>. Hifadhi mabadiliko kabla ya kutuma barua pepe ya majaribio yenye usanidi mpya.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Uuzaji kwenye Instagram",
-
-    add_product: "Ongeza bidhaa mpya",
-    create_product: "Unda bidhaa",
-    link_box_msg:
-      "Weka kiungo hiki kwenye wasifu wako kwenye Instagram, Telegramu au mitandao mingine ya kijamii ili hadhira yako iweze kununua haraka, rahisi, zaidi na hatimaye zaidi.",
-    remove_account: "Badilisha / Ondoa kiungo cha Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Mauzo Kituo",
-    subtitle:
-      "Unda kitengo maalum cha bidhaa zako, kamili na picha na video, na uishiriki kwenye media yako ya kijamii. Ni sawa na Instagram na TikTok, lakini kwa udhibiti kamili, hukuruhusu kuuza bidhaa zako moja kwa moja.",
   },
 
   /** @see ServiceBillingItem **/

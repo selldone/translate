@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Engade máis detalles",
-    auto_category: "Categoría de configuración automática",
     add_in_current_category: "Engadir á categoría actual",
-    category_mode_message:
-      "Se está activado, o produto engadirase á categoría ou subcategoría predeterminada.",
-    sku_name_input: "SKU / Nome",
     info: {
       subtitle:
         "para generar el produto, puedes ingresar únicamente los detalles esenciales necesarios para su creación.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Ingresa el prezo e el desconto de este produto. Una vez agregado el produto tendrás acceso a más opciones.",
-    },
-    by_sku: {
-      title: "engadir por SKU",
-      subtitle: "La base de datos de su país no está disponible.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Agregue fácilmente produtos de proveedores de POD o dropshipping con Selldone Connect OS: simplemente conecte su tenda e disfrute da integración automática de produtos, sin necesidad de complementos.",
     },
     your_license_is_not_eligible: "Su licencia no es elegible.",
-    sku_dialog: {
-      title: "engadir produto por SKU",
-      subtitle:
-        "Tienes la posibilidad de localizar produtos por su SKU en nuestra base de datos e agregarlos con tan solo un clic.",
-    },
     dropshipping_dialog: {
       title: "engadir produtos de dropshipping",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Después de gardar los cambios, recibirás un correo electrónico de prueba en <b>{email}</b> . Guarda los cambios antes de enviar un correo electrónico de prueba con la nueva configuración.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Vendas en Instagram",
-
-    add_product: "Engadir novo produto",
-    create_product: "Crear produto",
-    link_box_msg:
-      "Pon esta ligazón na túa biografía en Instagram, Telegram ou outras redes sociais para que a túa audiencia poida comprar máis rápido, máis fácil, máis e, finalmente, máis.",
-    remove_account: "Cambiar / Eliminar ligazón de Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Ventas Canal",
-    subtitle:
-      "Configura e gestiona esta opción para tu tenda.",
   },
 
   /** @see ServiceBillingItem **/

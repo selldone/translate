@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Kenya lintlha tse ling",
-    auto_category: "Mokhahlelo oa ho iketsetsa",
     add_in_current_category: "Eketsa sehlopheng sa hajoale",
-    category_mode_message:
-      "Haeba e lumella, sehlahisoa se tla eketsoa sehlopheng sa kamehla kapa karolwana.",
-    sku_name_input: "SKU / Lebitso",
     info: {
       subtitle:
         "Ho hlahisa sehlahisoa, o ka kenya feela lintlha tsa bohlokoa tse hlokahalang bakeng sa pōpo ea eona.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Kenya theko le theolelo bakeng sa sehlahisoa sena. Hang ha sehlahisoa se kentsoe, u tla khona ho fumana likhetho tse ling.",
-    },
-    by_sku: {
-      title: "Eketsa ntho SKU",
-      subtitle: "Sebaka sa polokelo ea boitsebiso naheng ea heno ha se fumanehe.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Kenya lihlahisoa tse tsoang ho POD kapa barekisi ba theohang ka Selldone Connect OS-hokela lebenkele la hau feela 'me u natefeloe ke kopanyo ea sehlahisoa, ha ho li-plugins tse hlokahalang.",
     },
     your_license_is_not_eligible: "Laesense ea hau ha e lokelehe.",
-    sku_dialog: {
-      title: "Eketsa Sehlahisoa ntho SKU",
-      subtitle:
-        "U na le bokhoni ba ho fumana lihlahisoa ka SKU ea bona sebakeng sa rona sa polokelo ea litaba 'me u li kenye ka ho tobetsa hanngoe feela.",
-    },
     dropshipping_dialog: {
       title: "Eketsa Dropshipping/ Lihlahisoa",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Kamora ho boloka liphetoho, o tla fumana lengolo-tsoibila la teko ho <b>{email}</b>. Boloka liphetoho pele u romela lengolo-tsoibila la tlhahlobo le tlhophiso e ncha.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Lithekiso ho Instagram",
-
-    add_product: "Kenya sehlahisoa se secha",
-    create_product: "Etsa sehlahisoa",
-    link_box_msg:
-      "Beha sehokelo sena ho bio ea hau ho Instagram, Telegraph kapa mecha e meng ea litaba ea sechaba e le hore bamameli ba hau ba ka reka kapele, habonolo, ho feta mme qetellong le ho feta.",
-    remove_account: "Fetola / Tlosa sehokelo sa Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram Thekiso kanale",
-    subtitle:
-      "Theha sehlopha se inehetseng bakeng sa lihlahisoa tsa hau, se felletseng ka litšoantšo le livideo, 'me u se arolelane ho mecha ea litaba ea sechaba. E tšoana le Instagram le TikTok, empa ka taolo e felletseng, e u lumella ho rekisa lihlahisoa tsa hau ka kotloloho.",
   },
 
   /** @see ServiceBillingItem **/

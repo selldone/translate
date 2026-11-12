@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Voeg meer details toe",
-    auto_category: "Categorie automatisch instellen",
     add_in_current_category: "Toevoegen aan de huidige categorie",
-    category_mode_message:
-      "Indien ingeschakeld, wordt het product toegevoegd aan de standaardcategorie of -subcategorie.",
-    sku_name_input: "SKU / Naam",
     info: {
       subtitle:
         "Om het product te genereren, kunt u alleen de essentiële gegevens invoeren die nodig zijn voor de creatie ervan.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Vul de prijs en korting in voor dit product. Zodra het product is toegevoegd, heeft u toegang tot meer opties.",
-    },
-    by_sku: {
-      title: "Toevoegen item SKU",
-      subtitle: "De database in uw land is niet beschikbaar.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Voeg eenvoudig producten van POD- of dropshipping-leveranciers toe met Selldone Connect OS. Sluit gewoon uw winkel aan en geniet van automatische productintegratie, geen plug-ins nodig.",
     },
     your_license_is_not_eligible: "Uw licentie komt niet in aanmerking.",
-    sku_dialog: {
-      title: "Toevoegen product item SKU",
-      subtitle:
-        "U heeft de mogelijkheid om producten op basis van hun SKU in onze database te lokaliseren en ze met slechts één klik toe te voegen.",
-    },
     dropshipping_dialog: {
       title: "Toevoegen item Producten",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Nadat u de wijzigingen heeft opgeslagen, ontvangt u een testmail op <b>{email}</b>. Sla de wijzigingen op voordat u een test-e-mail verzendt met de nieuwe configuratie.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Verkoop op Instagram",
-
-    add_product: "Nieuw product toevoegen",
-    create_product: "Product maken",
-    link_box_msg:
-      "Zet deze link in je bio op Instagram, Telegram of andere sociale media zodat je publiek sneller, makkelijker, meer en uiteindelijk meer kan kopen.",
-    remove_account: "Instagram-link wijzigen / verwijderen",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Instagram verkoop Kanaal",
-    subtitle:
-      "Creëer een speciale categorie voor uw producten, compleet met afbeeldingen en video's, en deel deze op uw sociale media. Het is vergelijkbaar met Instagram en TikTok, maar dan met volledige controle, waardoor je direct je producten kunt verkopen.",
   },
 
   /** @see ServiceBillingItem **/

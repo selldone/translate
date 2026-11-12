@@ -5805,11 +5805,7 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Tambah butiran lanjut",
-    auto_category: "Kategori set automatik",
     add_in_current_category: "Tambahkan pada kategori semasa",
-    category_mode_message:
-      "Jika didayakan, produk akan ditambahkan ke dalam kategori lalai atau subkategori.",
-    sku_name_input: "SKU / Nama",
     info: {
       subtitle:
         "Untuk menjana produk, anda boleh memasukkan hanya butiran penting yang diperlukan untuk penciptaannya.",
@@ -5817,10 +5813,6 @@ export default {
     price: {
       subtitle:
         "Masukkan harga dan diskaun untuk produk ini. Setelah produk ditambahkan, anda akan mempunyai akses kepada lebih banyak pilihan.",
-    },
-    by_sku: {
-      title: "Tambah mengikut SKU",
-      subtitle: "Pangkalan data di negara anda tidak tersedia.",
     },
     drop_shipping: {
       subtitle:
@@ -5831,11 +5823,6 @@ export default {
         "Tambah produk daripada POD atau pembekal dropshipping dengan mudah dengan Selldone Connect OS—hanya sambungkan kedai anda dan nikmati penyepaduan produk automatik, tiada pemalam diperlukan.",
     },
     your_license_is_not_eligible: "Lesen anda tidak layak.",
-    sku_dialog: {
-      title: "Tambah Produk mengikut SKU",
-      subtitle:
-        "Anda mempunyai keupayaan untuk mencari produk mengikut SKU mereka dalam pangkalan data kami dan menambahnya dengan hanya satu klik.",
-    },
     dropshipping_dialog: {
       title: "Tambah produk dropshipping",
     },
@@ -8719,23 +8706,6 @@ export default {
       enable_receive_test:
         "Selepas menyimpan perubahan, anda akan menerima mel ujian pada <b>{email}</b>. Simpan perubahan sebelum menghantar e-mel ujian dengan konfigurasi baharu.",
     },
-  },
-
-  /** @see InstagramViewMedias **/
-  instagram: {
-    title: "Jualan di Instagram",
-
-    add_product: "Tambah produk baharu",
-    create_product: "Buat produk",
-    link_box_msg:
-      "Letakkan pautan ini dalam bio anda di Instagram, Telegram atau media sosial lain supaya khalayak anda boleh membeli dengan lebih pantas, lebih mudah, lebih banyak dan akhirnya lebih banyak lagi.",
-    remove_account: "Tukar / Alih keluar pautan Instagram",
-  },
-  /** @see BPageShopChannelInstagram **/
-  shop_channel_instagram: {
-    title: "Saluran Jualan Instagram",
-    subtitle:
-      "Buat kategori khusus untuk produk anda, lengkapkan dengan imej dan video, dan kongsikannya ke seluruh media sosial anda. Ia serupa dengan Instagram dan TikTok, tetapi dengan kawalan penuh, membolehkan anda menjual terus produk anda.",
   },
 
   /** @see ServiceBillingItem **/
