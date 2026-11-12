@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'බ්ලොග්',
+    'helps' => 'උදව්',
+    'current_location' => 'මෙම පිවිසුම',
+    'Dashboard' => 'උපකරණ පුවරුව',
+    'my_shops' => 'මගේ වෙළඳසැල්',
+    'Wallet' => 'පසුම්බිය',
+    'about' => 'Selldone ගැන',
+    'contact' => 'contact us',
+    'Comments' => 'අදහස්',
+    'likes' => 'කැමති',
+    'power' => 'ප්රීති වන්න',
+    'build_free_shop' => 'ඔබේ වෙළඳසැල නොමිලේ ගොඩනඟන්න',
+    'shop_name' => 'shop name',
+    'Categories' => 'වර්ග',
+    'sub_articles' => 'More',
+    'terms' => 'කොන්දේසි',
+
+
+
+    'Color' => 'වර්ණය',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'ඇසුරුම් කරන්න',
+    'type' => 'type',
+
+    'add_to_card' => 'ගැලට එක් කරන්න',
+
+    'overview' => 'Overview',
+    'reviews' => 'සමාලෝචන',
+    'spec' => 'සම්පූර්ණ පිරිවිතර',
+    'you_may_also_like' => 'ඔබත් කැමති විය හැක',
+    'about_us' => 'අපි ගැන',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'අපිව අනුගමනය කරන්න',
+    'category' => 'වර්ගය',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'ප්‍රකාශයට පත් කර ඇත',
+    'modified_at' => 'දී වෙනස් කරන ලදී',
+
+
+
+    'price' => 'මිල',
+    'discount' => 'වට්ටම්',
+    'price_after_discount' => 'වට්ටමෙන් පසු මිල',
+    'available' => 'ඇත',
+    'sold_out' => 'විකුණා අවසන්',
+    'buy' => 'දැන් මිලදී ගන්න',
+    'login_shop' => 'පිවිසුම් සාප්පුව',
+
+    'posted_on' => ":date හි පළ කර ඇත"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'වර්ණ',
+];

@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'Blog',
+    'helps' => 'Thandizeni',
+    'current_location' => 'Cholowa ichi',
+    'Dashboard' => 'Dashboard',
+    'my_shops' => 'Masitolo Anga',
+    'Wallet' => 'Wallet',
+    'about' => 'Za Selldone',
+    'contact' => 'contact us',
+    'Comments' => 'Ndemanga',
+    'likes' => 'Zokonda',
+    'power' => 'chisangalalo',
+    'build_free_shop' => 'Mangani sitolo yanu kwaulere',
+    'shop_name' => 'shop name',
+    'Categories' => 'Magulu',
+    'sub_articles' => 'More',
+    'terms' => 'Terms',
+
+
+
+    'Color' => 'Mtundu',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'Paketi',
+    'type' => 'type',
+
+    'add_to_card' => 'onjezani kungolo yogulira',
+
+    'overview' => 'Overview',
+    'reviews' => 'Ndemanga',
+    'spec' => 'Zathunthu',
+    'you_may_also_like' => 'Mwinanso mungakonde',
+    'about_us' => 'Zambiri zaife',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'titsatireni',
+    'category' => 'Gulu',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'Losindikizidwa pa',
+    'modified_at' => 'Zosinthidwa pa',
+
+
+
+    'price' => 'mtengo',
+    'discount' => 'Kuchotsera',
+    'price_after_discount' => 'Mtengo pambuyo pa kuchotsera',
+    'available' => 'Likupezeka',
+    'sold_out' => 'Zatha',
+    'buy' => 'Gulani pompano',
+    'login_shop' => 'Malo ogulitsira',
+
+    'posted_on' => "Yolembedwa pa :date"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'mtundu',
+];

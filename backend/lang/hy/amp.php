@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'Բլոգ',
+    'helps' => 'Օգնություն',
+    'current_location' => 'Այս մուտքը',
+    'Dashboard' => 'Վահանակ',
+    'my_shops' => 'Իմ Խանութները',
+    'Wallet' => 'Դրամապանակ',
+    'about' => 'Selldone-ի մասին',
+    'contact' => 'contact us',
+    'Comments' => 'Մեկնաբանություններ',
+    'likes' => 'Հավանումներ',
+    'power' => 'ուրախանալ',
+    'build_free_shop' => 'Կառուցեք ձեր խանութը անվճար',
+    'shop_name' => 'shop name',
+    'Categories' => 'Կատեգորիաներ',
+    'sub_articles' => 'More',
+    'terms' => 'Պայմանները',
+
+
+
+    'Color' => 'Գույն',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'Փաթեթ',
+    'type' => 'type',
+
+    'add_to_card' => 'Ավելացնել քարտին',
+
+    'overview' => 'Overview',
+    'reviews' => 'Կարծիքներ',
+    'spec' => 'Ամբողջական սպեկտր',
+    'you_may_also_like' => 'Ձեզ հնարավոր է նաեւ դուր գա',
+    'about_us' => 'Մեր մասին',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'Հետեւեք մեզ',
+    'category' => 'Կարգավիճակ',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'Հրատարակված է',
+    'modified_at' => 'Փոփոխված է',
+
+
+
+    'price' => 'գինը',
+    'discount' => 'Զեղչ',
+    'price_after_discount' => 'Գինը զեղչից հետո',
+    'available' => 'Հասանելի է',
+    'sold_out' => 'Վաճառված է',
+    'buy' => 'Գնիր հիմա',
+    'login_shop' => 'Մուտք գործելու խանութ',
+
+    'posted_on' => "Տեղադրված է :date"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'գույն',
+];

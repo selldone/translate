@@ -1,0 +1,200 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain the default error messages used by
+    | the validator class. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
+
+    'accepted' => ':attribute mora biti prihvaćen.',
+    'active_url' => ':attribute nije važeći URL.',
+    'after' => ':attribute mora biti datum nakon :date.',
+    'after_or_equal' => ':attribute mora biti datum nakon ili jednak :date.',
+    'alpha' => ':attribute može sadržavati samo slova.',
+    'alpha_dash' => ':attribute može sadržavati samo slova, brojke i crtice.',
+    'alpha_num' => ':attribute može sadržavati samo slova i brojke.',
+    'array' => ':attribute mora biti polje.',
+    'before' => ':attribute mora biti datum prije :date.',
+    'before_or_equal' => ':attribute mora biti datum prije ili jednak :date.',
+    'between' => [
+        'numeric' => ':attribute mora biti između :min i :max.',
+        'file' => ':attribute mora biti između :min i :max kilobajta.',
+        'string' => ':attribute mora biti između :min i :max znakova.',
+        'array' => ':attribute mora imati između :min i :max stavki.',
+    ],
+    'boolean' => 'Polje :attribute mora biti točno ili netočno.',
+    'confirmed' => 'Potvrda :attribute ne odgovara.',
+    'date' => ':attribute nije važeći datum.',
+    'date_format' => ':attribute ne odgovara formatu :format.',
+    'different' => ':attribute i :other moraju biti različiti.',
+    'digits' => ':attribute mora biti :digits znamenki.',
+    'digits_between' => ':attribute mora biti između :min i :max znamenki.',
+    'dimensions' => ':attribute ima nevažeće dimenzije slike.',
+    'distinct' => 'Polje :attribute ima dvostruku vrijednost.',
+    'email' => ':attribute mora biti važeća adresa e-pošte.',
+    'exists' => 'Odabrani :attribute je nevažeći.',
+    'file' => ':attribute mora biti datoteka.',
+    'filled' => 'Polje :attribute mora imati vrijednost.',
+    'gt' => [
+        'numeric' => ':attribute mora biti veći od :value.',
+        'file' => ':attribute mora biti veći od :value kilobajta.',
+        'string' => 'Znakovi :attribute moraju biti veći od znakova :value.',
+        'array' => ':attribute mora imati više od :value stavki.',
+    ],
+    'gte' => [
+        'numeric' => ':attribute mora biti veći ili jednak :value.',
+        'file' => ':attribute mora biti veći ili jednak :value kilobajta.',
+        'string' => 'Znakovi :attribute moraju biti veći ili jednaki znakovima :value.',
+        'array' => ':attribute mora imati :value stavke ili više.',
+    ],
+    'image' => ':attribute mora biti slika.',
+    'in' => 'Odabrani :attribute je nevažeći.',
+    'in_array' => 'Polje :attribute ne postoji u :other.',
+    'integer' => ':attribute mora biti cijeli broj.',
+    'ip' => ':attribute mora biti važeća IP adresa.',
+    'ipv4' => ':attribute mora biti važeća IPv4 adresa.',
+    'ipv6' => ':attribute mora biti važeća IPv6 adresa.',
+    'json' => ':attribute mora biti važeći JSON niz.',
+    'lt' => [
+        'numeric' => ':attribute mora biti manji od :value.',
+        'file' => ':attribute mora biti manji od :value kilobajta.',
+        'string' => ':attribute mora imati manje od :value znakova.',
+        'array' => ':attribute mora imati manje od :value stavki.',
+    ],
+    'lte' => [
+        'numeric' => ':attribute mora biti manji ili jednak :value.',
+        'file' => ':attribute mora biti manji ili jednak :value kilobajtima.',
+        'string' => 'Znakovi :attribute moraju biti manji ili jednaki znakovima :value.',
+        'array' => ':attribute ne smije imati više od :value stavki.',
+    ],
+    'max' => [
+        'numeric' => ':attribute ne smije biti veći od :max.',
+        'file' => ':attribute ne smije biti veći od :max kilobajta.',
+        'string' => ':attribute ne smije biti veći od :max znakova.',
+        'array' => ':attribute ne smije imati više od :max stavki.',
+    ],
+    'mimes' => ':attribute mora biti datoteka tipa: :values.',
+    'mimetypes' => ':attribute mora biti datoteka tipa: :values.',
+    'min' => [
+        'numeric' => ':attribute mora biti najmanje :min.',
+        'file' => ':attribute mora imati najmanje :min kilobajta.',
+        'string' => ':attribute mora imati najmanje :min znakova.',
+        'array' => ':attribute mora imati najmanje :min stavki.',
+    ],
+    'not_in' => 'Odabrani :attribute je nevažeći.',
+    'not_regex' => 'Format :attribute nije valjan.',
+    'numeric' => ':attribute mora biti broj.',
+    'present' => 'Polje :attribute mora biti prisutno.',
+    'regex' => 'Format :attribute nije valjan.',
+    'required' => 'Polje :attribute je obavezno.',
+    'required_if' => 'Polje :attribute je obavezno kada je :other :value.',
+    'required_unless' => 'Polje :attribute je obavezno osim ako je :other u :values.',
+    'required_with' => 'Polje :attribute je obavezno kada je prisutan :values.',
+    'required_with_all' => 'Polje :attribute je obavezno kada je prisutan :values.',
+    'required_without' => 'Polje :attribute je obavezno kada :values nije prisutno.',
+    'required_without_all' => 'Polje :attribute je obavezno kada nema nijedne od :values.',
+    'same' => ':attribute i :other moraju odgovarati.',
+    'size' => [
+        'numeric' => ':attribute mora biti :size.',
+        'file' => ':attribute mora biti :size kilobajta.',
+        'string' => ':attribute mora biti :size znakova.',
+        'array' => ':attribute mora sadržavati :size stavke.',
+    ],
+    'string' => ':attribute mora biti niz.',
+    'timezone' => ':attribute mora biti važeća zona.',
+    'unique' => ':attribute je već zauzet.',
+    'uploaded' => ':attribute nije uspio učitati.',
+    'url' => 'Format :attribute nije valjan.',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify custom validation messages for attributes using the
+    | convention "attribute.rule" to name the lines. This makes it quick to
+    | specify a specific custom language line for a given attribute rule.
+    |
+    */
+
+    'custom' => [
+        'attribute-name' => [
+            'rule-name' => 'prilagođena poruka',
+        ],
+        'g-recaptcha-response' => [
+            'required' => 'Potvrdite da niste robot.',
+            'captcha' => 'Captcha pogreška! pokušajte ponovno kasnije ili kontaktirajte administratora stranice.',
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Attributes
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used to swap attribute place-holders
+    | with something more reader friendly such as E-Mail Address instead
+    | of "email". This simply helps us make messages a little cleaner.
+    |
+    */
+
+    'attributes' => [],
+
+
+
+    'accepted_if' => 'Polje :attribute mora biti prihvaćeno kada je :other :value.',
+    'ascii' => 'Polje :attribute smije sadržavati samo jednobajtne alfanumeričke znakove i simbole.',
+    'can' => 'Polje :attribute sadrži neovlaštenu vrijednost.',
+    'contains' => 'Polju :attribute nedostaje potrebna vrijednost.',
+    'current_password' => 'Lozinka je netočna.',
+    'date_equals' => 'Polje :attribute mora biti datum jednak :date.',
+    'decimal' => 'Polje :attribute mora imati :decimal decimalnih mjesta.',
+    'declined' => 'Polje :attribute mora biti odbijeno.',
+    'declined_if' => 'Polje :attribute mora se odbiti kada je :other :value.',
+    'doesnt_end_with' => 'Polje :attribute ne smije završavati s jednim od sljedećeg: :values.',
+    'doesnt_start_with' => 'Polje :attribute ne smije započeti s jednim od sljedećeg: :values.',
+    'ends_with' => 'Polje :attribute mora završavati s jednim od sljedećeg: :values.',
+    'enum' => 'Odabrani :attribute je nevažeći.',
+    'extensions' => 'Polje :attribute mora imati jednu od sljedećih ekstenzija: :values.',
+    'hex_color' => 'Polje :attribute mora biti važeće heksadecimalne boje.',
+    'list' => 'Polje :attribute mora biti popis.',
+    'lowercase' => 'Polje :attribute mora biti napisano malim slovima.',
+    'mac_address' => 'Polje :attribute mora biti važeća MAC adresa.',
+    'max_digits' => 'Polje :attribute ne smije imati više od :max znamenki.',
+    'min_digits' => 'Polje :attribute mora imati najmanje :min znamenki.',
+    'missing' => 'Polje :attribute mora nedostajati.',
+    'missing_if' => 'Polje :attribute mora nedostajati kada je :other :value.',
+    'missing_unless' => 'Polje :attribute mora nedostajati osim ako je :other :value.',
+    'missing_with' => 'Polje :attribute mora nedostajati kada je :values prisutno.',
+    'missing_with_all' => 'Polje :attribute mora nedostajati kada su prisutni :values.',
+    'multiple_of' => 'Polje :attribute mora biti višekratnik :value.',
+    'password' => [
+        'letters' => 'Polje :attribute mora sadržavati najmanje jedno slovo.',
+        'mixed' => 'Polje :attribute mora sadržavati barem jedno veliko i jedno malo slovo.',
+        'numbers' => 'Polje :attribute mora sadržavati barem jedan broj.',
+        'symbols' => 'Polje :attribute mora sadržavati najmanje jedan simbol.',
+        'uncompromised' => 'Navedeni :attribute pojavio se u curenju podataka. Odaberite drugi :attribute.',
+    ],
+    'present_if' => 'Polje :attribute mora biti prisutno kada je :other :value.',
+    'present_unless' => 'Polje :attribute mora biti prisutno osim ako je :other :value.',
+    'present_with' => 'Polje :attribute mora biti prisutno kada je prisutno :values.',
+    'present_with_all' => 'Polje :attribute mora biti prisutno kada su prisutni :values.',
+    'prohibited' => 'Polje :attribute je zabranjeno.',
+    'prohibited_if' => 'Polje :attribute je zabranjeno kada je :other :value.',
+    'prohibited_unless' => 'Polje :attribute je zabranjeno osim ako je :other u :values.',
+    'prohibits' => 'Polje :attribute zabranjuje :other da bude prisutan.',
+    'required_array_keys' => 'Polje :attribute mora sadržavati unose za: :values.',
+    'required_if_accepted' => 'Polje :attribute je obavezno kada je :other prihvaćeno.',
+    'required_if_declined' => 'Polje :attribute potrebno je kada je :other odbijeno.',
+    'starts_with' => 'Polje :attribute mora započeti s jednim od sljedećeg: :values.',
+    'uppercase' => 'Polje :attribute mora biti napisano velikim slovima.',
+    'ulid' => 'Polje :attribute mora biti važeći ULID.',
+    'uuid' => 'Polje :attribute mora biti važeći UUID.',
+];

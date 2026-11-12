@@ -1,0 +1,3 @@
+Laravel PHP 8.4 project. Use `resources/lang/en` as the exact reference. For the target language folder, make every file fully mirror the `en` file structure exactly: same files, same comments, same array definition style, same nesting, same key order, same keys, and same formatting as much as possible.
+
+Do not translate or rename keys. Only translate or fix values. Laravel placeholders like `:name`, `:count`, `:attribute`, etc. must stay exactly unchanged. Preserve pluralization syntax, HTML, URLs, variables, comments structure, and formatting. Add missing files or missing keys from English with translated values. Do not delete extra keys; just report them. Finally, check PHP syntax and report created files, updated files, missing keys added, and any issues.

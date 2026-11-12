@@ -1,0 +1,302 @@
+<?php
+
+
+return [
+
+    'NOT_FOUND_SHOP_ERROR' => "స్టోర్ కనుగొనబడలేదు. లేదా ఈ చర్య చేయడానికి మీకు యాక్సెస్ లేదు!",
+    'UPLOADED_FILE_IS_EMPTY' => "అప్‌లోడ్ ఫైల్ కనుగొనబడలేదు.",
+    'NOT_FOUND_SHOP_BLOG_ERROR' => "బ్లాగ్ కనుగొనబడలేదు.",
+    'NOT_FOUND_ARTICLE_ERROR' => "వ్యాసం కనుగొనబడలేదు.",
+    'NOT_FOUND_COMMENT_ERROR' => "వ్యాఖ్య కనుగొనబడలేదు.",
+
+
+    'NOT_FOUND_PRODUCT_ERROR' => "ఉత్పత్తి కనుగొనబడలేదు.",
+    'NOT_FOUND_FAQ_ERROR' => "ప్రశ్నలు ఏవీ కనుగొనబడలేదు.",
+    'NOT_FOUND_ADDRESS_ERROR' => "చిరునామా దొరకలేదు.",
+    'NOT_FOUND_CONTACT_REQUEST_ERROR' => "అభ్యర్థన ఫారమ్ కనుగొనబడలేదు.",
+    'NOT_FOUND_CATEGORY_ERROR' => "వర్గం కనుగొనబడలేదు.",
+    'NOT_FOUND_PARENT_CATEGORY_ERROR' => "మాతృ వర్గం కనుగొనబడలేదు.",
+    'NOT_FOUND_CUSTOM_PAGE_ERROR' => "పేజీ కనుగొనబడలేదు.",
+    'NOT_FOUND_DOMAIN_ERROR' => "స్టోర్ డొమైన్ కనుగొనబడలేదు.",
+    'DOMAIN_DNS_NOT_SET_CORRECTLY_ERROR' => "డొమైన్ DNS రికార్డ్ విలువ సరిగ్గా నిర్వచించబడలేదు.",
+    'DOMAIN_ALREADY_USED_BY_YOU_ERROR' => "ఈ స్టోర్ కోసం మీరు ఇప్పటికే ఈ డొమైన్‌ను నమోదు చేసారు.",
+    'DOMAIN_ALREADY_USED_BY_ANOTHER_ERROR' => "ఈ డొమైన్ ఇప్పటికే మరొక స్టోర్ కోసం నమోదు చేయబడింది. ఈ డొమైన్ మీ కోసం అయితే ఈ మద్దతును సంప్రదించండి.",
+    'TOKEN_HAS_NO_ACCESS_ERROR' => "మీ టోకెన్‌కి ఈ విభాగానికి యాక్సెస్ లేదు.",
+    'DATABASE_TRANSACTION_FAILED' => "ఆపరేషన్ విఫలమైంది. ఊహించని లోపం సంభవించింది, దయచేసి మళ్లీ ప్రయత్నించండి లేదా సైట్ మద్దతును సంప్రదించండి.",
+    'ERROR_AUTHOR_NOT_FOUND' => "రచయిత దొరకలేదు.",
+    'NOT_FOUND_USER_ERROR' => "వినియోగదారుడు కనపడలేదు.",
+    'NOT_FOUND_SHOP_CAMPAIGN_ERROR' => "ప్రచారం కనుగొనబడలేదు.",
+    'GET_DNS_INFO_ERROR' => "DNS రికార్డ్ విలువ కనుగొనబడలేదు.",
+    'NOT_FOUND_ACCOUNT_ERROR' => "ఖాతా కనుగొనబడలేదు.",
+    'NOT_ACTIVE_ACCOUNT_ERROR' => "ఖాతా సక్రియంగా లేదు.",
+    'NOT_FOUND_APP_ERROR' => "అప్లికేషన్ కనుగొనబడలేదు.",
+    'BAD_FILE_FORMAT_ERROR' => "ఫైల్ ఫార్మాట్ తప్పు.",
+    'NOT_FOUND_NATIVE_APP_ERROR' => "అప్లికేషన్ ఏదీ కనుగొనబడలేదు.",
+    'FILE_SIZE_ERROR' => "ఫైల్ పరిమాణం పెద్దది.",
+    'PASSWORD_NOT_SET_ERROR' => "మీరు మీ ఖాతా కోసం పాస్‌వర్డ్‌ను నమోదు చేయలేదు.",
+    'NOT_FOUND_GIFT_ACCOUNT_ERROR' => "డిఫాల్ట్ బహుమతి రసీదు ఖాతా కనుగొనబడలేదు.",
+    'NOT_FOUND_GIFT_ERROR' => "బహుమతి దొరకలేదు.",
+    'CANT_GET_GIFT_ERROR' => "బహుమతి అందుకోలేరు!",
+    'NOT_FOUND_PERMISSION_ERROR' => "యాక్సెస్ కనుగొనబడలేదు.",
+    'HAS_NO_PERMISSION' => "మీకు యాక్సెస్ లేదు.",
+    'INTERNAL_SERVERS_ERROR' => "సర్వర్ ఇంటర్నల్‌లను కనెక్ట్ చేయడంలో లోపం.",
+    'NOT_FOUND_REFERRAL_PROGRAM_ERROR' => "అప్లికేషన్ ఏదీ కనుగొనబడలేదు.",
+    'REFERRAL_PROGRAM_NOT_ENABLE_ERROR' => "అప్లికేషన్ సక్రియంగా లేదు.",
+    'NOT_FOUND_REFERRAL_LINK_ERROR' => "మీరు ఈ అప్లికేషన్‌లో చేరలేదు.",
+    'NOT_FOUND_REFERRAL_CREDIT_ERROR' => "క్రెడిట్‌లు ఏవీ కనుగొనబడలేదు.",
+    'NOT_FOUND_CURRENCY_ERROR' => "కరెన్సీ దొరకలేదు.",
+    'NOT_MATCH_CURRENCY_ERROR' => "ఎంచుకున్న కరెన్సీ ఖాతా యొక్క కరెన్సీకి సమానం కాదు.",
+    'NOT_VALID_CURRENCY_TO_TRANSACTION_ERROR' => "ఈ కరెన్సీకి ఎలాంటి లావాదేవీ సాధ్యం కాదు.",
+    'NOT_VALID_AMOUNT_ERROR' => "చెల్లని మొత్తం.",
+    'NOT_SUFFICIENT_BALANCE_ERROR' => "ఖాతా బ్యాలెన్స్ సరిపోదు!",
+    'NOT_MATCH_CURRENCY_FROM_TO_ERROR' => "మూలం మరియు గమ్యం ఖాతా కరెన్సీ ఒకేలా ఉండవు.",
+    'NOT_VALID_ACCOUNT_TO_ERROR' => "గమ్యస్థాన ఖాతా చెల్లదు.",
+    'NOT_VALID_ACCOUNT_FROM_ERROR' => "చెల్లని పంపినవారి ఖాతా.",
+    'TRANSACTION_ERROR' => "లావాదేవీ లోపం సంభవించింది.",
+    'CURRENCY_NOT_MATCH_ERROR' => "బహుమతి కార్డ్ కరెన్సీ, లావాదేవీ కోసం అభ్యర్థించిన కరెన్సీకి సమానం కాదు.",
+    'MINIMUM_TRANSACTION_AMOUNT_ERROR' => "మొత్తం బదిలీ చేయదగిన మొత్తం కంటే తక్కువ. కనిష్ట మొత్తం: :amount :currency",
+    'SOURCE_AND_DESTINATION_ACCOUNT_ARE_SAME' => "మూలం మరియు గమ్యం ఖాతాలు ఒకటే!",
+    'SOURCE_ACCOUNT_NOT_ACTIVE_ERROR' => "మూల ఖాతా సక్రియంగా లేదు.",
+    'DESTINATION_ACCOUNT_NOT_ACTIVE_ERROR' => "గమ్యస్థాన ఖాతా సక్రియంగా లేదు.",
+    'RECEIPT_NUMBER_ERROR' => "ఇన్‌వాయిస్ రసీదు సంఖ్య తప్పు. రసీదు సంఖ్య :receipt_number కనుగొనబడలేదు. మీరు రసీదు ద్వారా చెల్లించనట్లయితే రసీదు సంఖ్యను ఖాళీగా ఉంచండి. లోపాలను నివారించడానికి రసీదు సంఖ్య, మొత్తం మరియు స్థితి స్వయంచాలకంగా తనిఖీ చేయబడతాయి.",
+    'AMOUNT_NOT_MATCH_RECEIPT_ERROR' => ":amount_value డిపాజిట్ మొత్తం :receipt_amount ఇన్‌వాయిస్ మొత్తానికి సరిపోలడం లేదు. మీరు రసీదు ద్వారా చెల్లించనట్లయితే రసీదు సంఖ్యను ఖాళీగా ఉంచండి. లోపాలను నివారించడానికి రసీదు సంఖ్య, మొత్తం మరియు స్థితి స్వయంచాలకంగా తనిఖీ చేయబడతాయి.",
+    'RECEIPT_PAYED_BEFORE_ERROR' => "ఈ రసీదు ఇప్పటికే చెల్లించబడింది. రసీదుని తిరిగి చెల్లించడం సాధ్యం కాదు.",
+    'RECEIPT_CANCELED_BEFORE_ERROR' => "ఈ రసీదు రద్దు చేయబడింది. రద్దు చేయబడిన రసీదులకు చెల్లించడం సాధ్యం కాదు.",
+    'RECEIPT_NOT_MATCH_DESTINATION_ACCOUNT' => "రసీదు గమ్యస్థాన ఖాతాకు సంబంధించినది కాదు!",
+    'RECEIPT_NOT_VALID_ERROR' => "రసీదులో లోపాలు ఉన్నాయి మరియు ప్రాసెస్ చేయడం సాధ్యం కాదు.",
+    'TRANSACTION_CODE_NOT_VALID_ERROR' => "చెల్లని భద్రతా కోడ్.",
+    'CANT_OPEN_NEW_ACCOUNT_HAS_PENDING' => "మీకు :currency కరెన్సీ చెల్లింపు పెండింగ్‌లో ఉన్న మరొక ఖాతా ఉంది. కొత్త ఖాతాలు సృష్టించబడవు. మునుపటి ఖాతాలకు చెల్లించడం వలన మీరు కొత్త ఖాతాను సృష్టించవచ్చు.",
+    'NOT_FOUNT_RECEIPT_ERROR' => "రసీదు దొరకలేదు.",
+    'NOT_VERIFIED_EMAIL_ERROR' => 'ముందుగా మీ ఇమెయిల్ చిరునామాను నిర్ధారించండి.',
+    'SETTING_NOT_AVAILABLE_ERROR' => 'ఈ సెట్టింగ్ అందుబాటులో లేదు.',
+    'NOT_FOUNT_GATEWAY_ERROR' => "గేట్‌వే కనుగొనబడలేదు.",
+    'CHARGE_REQUEST_ERROR' => "ఛార్జింగ్ అభ్యర్థనను రూపొందించడంలో లోపం ఏర్పడింది.",
+    'NOT_FOUND_BLOG_ERROR' => "బ్లాగ్ కనుగొనబడలేదు.",
+    'NOT_FOUND_GIFT_PROGRAM_ERROR' => "బహుమతి కార్యక్రమం కనుగొనబడలేదు.",
+    'NOT_FOUND_HELP_ERROR' => "సహాయం కనుగొనబడలేదు.",
+    'PHONE_NUMBER_VERIFIED_ALREADY_ERROR' => "ఈ నంబర్ ఇప్పటికే ధృవీకరించబడింది.",
+    'CANT_SEND_SMS_ERROR' => "ఇప్పుడు SMS పంపడం సాధ్యం కాదు!",
+    'NOT_FOUND_PROFILE_ERROR' => 'ప్రొఫైల్ కనుగొనబడలేదు.',
+
+
+
+    'GATEWAY_CODE_DUPLICATED_ERROR' => "ఈ కోడ్ ఇప్పటికే మరొక పోర్ట్ కోసం ఉపయోగించబడింది.",
+    'CANT_CREATE_GATEWAY_ERROR' => "ఒక లోపము సంభవించినది. పోర్ట్ సృష్టించడం సాధ్యం కాదు.",
+    'PERMISSION_NOT_DEFINED_ERROR' => "అటువంటి యాక్సెస్ నిర్వచించబడలేదు!",
+    'NOT_FOUND_COMPANY_ERROR' => "ఏ కంపెనీ కనుగొనబడలేదు.",
+    'NO_ACCESS_TO_ADD_APPLICATION_ERROR' => "యాప్‌ని జోడించడానికి మీకు అనుమతి లేదు.",
+    'APPLICATION_CODE_DUPLICATED_ERROR' => "అప్లికేషన్ కోడ్ :code ఇప్పటికే నమోదు చేయబడింది.",
+    'HAVE_A_COMPANY_PENDING_ERROR' => "మీరు ఆమోదించని అభ్యర్థనను కలిగి ఉన్నారు. కొత్త అభ్యర్థన నమోదు కోసం వేచి ఉంది.",
+    'TWO_FACTOR_AUTH_CODE_INVALID_ERROR' => "ధృవీకరణ కోడ్ తప్పు, దయచేసి మళ్లీ ప్రయత్నించండి.",
+    'PASSWORD_INCORRECT_ERROR' => "పాస్వర్డ్ తప్పు. దయచేసి మళ్లీ ప్రయత్నించండి.",
+    'PASSWORD_MISS_MATCH_ERROR' => "కొత్త చందా దానికి సరిపోలలేదు.",
+    'NOT_SET_PASSWORD_FOR_USER_ERROR' => "మీరు పాస్‌వర్డ్‌ను పేర్కొనలేదు! దయచేసి ముందుగా ఈ ఖాతా కోసం పాస్‌వర్డ్‌ను నమోదు చేయండి.",
+    'NOT_VERIFIED_PHONE_NUMBER_FOR_USER_ERROR' => "ముందుగా మీ మొబైల్ నంబర్‌ను నిర్ధారించండి.",
+    'TWO_FACTOR_AUTH_NOT_ENABLE_ERROR' => "మీ ఖాతా కోసం రెండు-దశల లాగిన్ ప్రారంభించబడలేదు.",
+    'FIRST_DISABLE_TWO_FACTOR_AUTH_ERROR' => "ముందుగా రెండు-దశల లాగిన్‌ను నిలిపివేయండి.",
+    'NOT_FOUND_APPLICATION_ERROR' => "అప్లికేషన్ కనుగొనబడలేదు.",
+    'NOT_FOUND_FILE_ERROR' => "ఫైల్ కనుగొనబడలేదు.",
+    'NOT_FOUND_TRANSACTION_ERROR' => "లావాదేవీ కనుగొనబడలేదు.",
+    'NOT_FOUNT_SHOP_ERROR' => "స్టోర్ కనుగొనబడలేదు.",
+    'GATEWAY_NOT_AVAILABLE_FOR_SHOP_ERROR' => "స్టోర్‌లో చెల్లింపు గేట్‌వే సక్రియంగా లేదు.",
+    'GATEWAY_NOT_CONFIGURE_FOR_SHOP_ERROR' => "స్టోర్ కోసం చెల్లింపు గేట్‌వే కనుగొనబడలేదు.",
+    'RECEIVED_DATA_INVALID_ERROR' => "లోపం సంభవించింది!",
+    'APPLICATION_DISABLE_ERROR' => "అప్లికేషన్ నిలిపివేయబడింది.",
+    'APPLICATION_NOT_PUBLISHED_ERROR' => "అప్లికేషన్ ప్రచురించబడలేదు.",
+    'NOT_FOUNT_BADGE_ERROR' => "బ్యాడ్జ్ కనుగొనబడలేదు.",
+    'DISCOUNT_CODE_DUPLICATED_ERROR' => "కోడ్ నకిలీ చేయబడింది! దయచేసి మరొక కోడ్‌ని ఉపయోగించండి.",
+    'NOT_FOUND_DISCOUNT_CODE_ERROR' => "తగ్గింపు కోడ్ కనుగొనబడలేదు.",
+    'DISCOUNT_CODE_CURRENCY_NOT_MATCHED_ERROR' => "మీరు ఎంచుకున్న కరెన్సీకి తగ్గింపు కోడ్ కరెన్సీ సరిపోలడం లేదు.",
+    'DISCOUNT_CODE_NOT_FREE_ERROR' => "డిస్కౌంట్ కోడ్ సామర్థ్యం పూర్తయింది.",
+    'CARD_TYPE_ERROR' => "చెల్లని కార్డ్ రకం.",
+    'NOT_FOUND_GIFT_CARD_ERROR' => "బహుమతి కార్డ్ కనుగొనబడలేదు.",
+    'GIFT_CARD_USED_ERROR' => "ఈ కార్డ్ ఉపయోగించబడింది మరియు మరెవరికీ బదిలీ చేయబడదు.",
+    'NOT_FOUND_USER_BY_EMAIL_ERROR' => "ఈ ఇమెయిల్ చిరునామాతో వినియోగదారు కనుగొనబడలేదు.",
+    'CANT_REMOVE_GIFT_CARD_BECAUSE_HAS_OWNER_ERROR' => "ఈ కార్డ్ వినియోగదారుకు చెందినది. మీరు దానిని తీసివేయలేరు.",
+    'NOT_FOUNT_EXCHANGE_RATE_ERROR' => "మార్పిడి రేటు కనుగొనబడలేదు.",
+    'YOU_ADD_GIFT_CARD_ALREADY_ERROR' => "మీరు ఇప్పటికే ఈ కార్డ్‌ని మీ జాబితాకు జోడించారు.",
+    'CHARGE_AMOUNT_ERROR' => "ఛార్జ్ మొత్తం తప్పనిసరిగా 0 కంటే ఎక్కువగా ఉండాలి",
+    'GATEWAY_NOT_ENABLE_ERROR' => "చెల్లింపు పోర్ట్ ప్రారంభించబడలేదు.",
+    'GATEWAY_CURRENCY_NOT_MATCH_ERROR' => "చెల్లింపు పద్ధతి కరెన్సీ అభ్యర్థన కరెన్సీతో సరిపోలడం లేదు.",
+    'SHOP_EXCHANGE_RATE_NOT_VALID_ERROR' => "స్టోర్ మార్పిడి రేట్లు తప్పు!",
+    'BASKET_CHANGED_ERROR' => "బండిలోని వస్తువు ధర మారింది. అంశం: :item_name, పాత ధర: :old_price :currency, కొత్త ధర: :new_price :currency",
+    'INSUFFICIENT_PRODUCT_QUANTITY_ERROR' => "ఇన్వెంటరీ సరిపోలేదు. :product",
+    'INSUFFICIENT_PRODUCT_QUANTITY_FOR_PRIZE_ERROR' => "ఎంచుకున్న బహుమతి ఉత్పత్తికి తగినంత ఇన్వెంటరీ లేదు (:product).",
+    'SELECT_DESTINATION_ADDRESS_ERROR' => "మ్యాప్‌లో మీ ఆర్డర్ గమ్యస్థాన స్థానాన్ని ఎంచుకోండి.",
+    'DELIVERY_METHOD_NOT_VALID_ERROR' => "చెల్లని డెలివరీ పద్ధతి.",
+    'DELIVERY_PRICE_NOT_MATCH_ERROR' => "షిప్పింగ్ విలువలు సరిపోలడం లేదు. షిప్పింగ్ ఖర్చు: :delivery_price అంచనా వేయబడిన షిప్పింగ్ ఖర్చు: :delivery_price_calculated",
+    'DISCOUNT_CODE_EXPIRED_ERROR' => "డిస్కౌంట్ కోడ్ గడువు ముగిసింది.",
+    'GIFT_CARD_NOT_ENABLE_ERROR' => "కార్డ్ :number ప్రారంభించబడలేదు.",
+    'GIFT_CARD_PAYMENT_AMOUNT_ERROR' => "లెక్కల్లో లోపం. చార్జింగ్ కార్డ్ చెల్లింపు: :amount_pay_by_gift_cards, మొత్తం మొత్తం: :total_price",
+    'STRUCTURAL_SELLDONE_ERROR' => "అప్లికేషన్ నిర్మాణంలో లోపం.",
+    'GATEWAY_AMOUNT_LESS_THAN_MINIMUM_ERROR' => "ఈ పోర్ట్‌తో లావాదేవీ మొత్తం కనీస పోర్టబుల్ మొత్తం కంటే తక్కువగా ఉంది.",
+    'GATEWAY_AMOUNT_GREATER_THAN_MAXIMUM_ERROR' => "లావాదేవీ మొత్తం ఈ పోర్ట్‌తో పోర్టబుల్ గరిష్ట మొత్తాన్ని మించిపోయింది.",
+    'NOT_FOUNT_BASKET_ERROR' => "బండి దొరకలేదు.",
+    'NOT_FOUNT_PRODUCT_ERROR' => "ఉత్పత్తి కనుగొనబడలేదు.",
+    'NOT_FOUNT_BASKET_ITEM_ERROR' => "మీ కార్ట్‌లో వస్తువు కనుగొనబడలేదు.",
+    'NOT_FOUNT_VARIANT_ERROR' => "వెరైటీ దొరకలేదు.",
+    'MAX_RATINGS_COUNT_ERROR' => "గరిష్టంగా మూల్యాంకనం చేయగల ఎంపికలు 5 సంఖ్యలు",
+    'DUPLICATED_RATING_ERROR' => "ఈ అంశం ఇప్పటికే జోడించబడింది.",
+    'NOT_FOUND_RATING_ERROR' => "కోరుకున్న ఎంపిక కనుగొనబడలేదు.",
+    'NOT_FOUND_PRODUCT_IMAGE_ERROR' => "చిత్రం కనుగొనబడలేదు.",
+    'NOT_FOUND_SHOP_PROFILE_TYPE_ERROR' => "స్టోర్ ప్రొఫైల్ రకం కనుగొనబడలేదు.",
+    'NOT_FOUND_SHOP_PROFILE_ERROR' => "స్టోర్ ప్రొఫైల్ కనుగొనబడలేదు.",
+    'APP_TRANSLATION_LIMIT_ERROR' => "మీరు 1 ఉచిత ప్రాజెక్ట్‌ని సృష్టించవచ్చు. మరిన్ని జోడించడానికి మమ్మల్ని సంప్రదించండి,",
+    'NOT_FOUND_SOCIAL_NETWORK_ERROR' => "చెల్లని నెట్‌వర్క్.",
+    'NO_CURRENCY_ADDED_IN_SHOP_ERROR' => "కనీసం ఒక కరెన్సీని తప్పనిసరిగా ప్రారంభించాలి.",
+    'NOT_FOUNT_PAYMENT_IN_QUE_ERROR' => "చెల్లింపు రసీదు కనుగొనబడలేదు.",
+    'PAYMENT_IN_QUE_EXPIRED_ERROR' => "లావాదేవీ రసీదు గడువు ముగిసింది.",
+    'NOT_FOUND_VIRTUAL_ITEM_FOR_SELL' => "అమ్మకానికి ఏ వస్తువు (:title) కనుగొనబడలేదు.",
+    'CANT_EXCHANGE_PRICE_TO_SELECTED_CURRENCY_ERROR' => "కొనుగోలు కోసం కరెన్సీ మార్పిడి ప్రస్తుతం సాధ్యం కాదు.",
+    'NOT_FOUND_VIRTUAL_ITEM_ERROR' => "అంశాలు ఏవీ కనుగొనబడలేదు.",
+    'NOT_FOUND_PLUGIN_ERROR' => "ప్లగిన్ కనుగొనబడలేదు.",
+    'NOT_FOUND_SESSION_ERROR' => "సెషన్ కనుగొనబడలేదు.",
+
+
+    'NOT_FOUND_COUPON_ERROR' => "కూపన్ కనుగొనబడలేదు.",
+    'NOT_FOUND_OFFER_ERROR' => "ఆఫర్ కనుగొనబడలేదు.",
+
+
+
+
+    'CANT_DELETE_PAYED_VIRTUAL_ITEM' => "చెల్లింపు లేదా రిజర్వ్ చేయబడిన వర్చువల్ ఐటెమ్‌ను తొలగించడం సాధ్యం కాదు.",
+
+    'NOT_FOUND_SHOP_AFFILIATE_ERROR' => "అనుబంధం కనుగొనబడలేదు.",
+    'NOT_FOUND_SHOP_EMAIL_ERROR' => "ఇమెయిల్ కనుగొనబడలేదు.",
+
+
+    'LICENSE_EXCEEDS_LIMIT' => "లైసెన్స్ దాని పరిమితిని మించిపోయింది.",
+    'MIN_SHOP_NAME_ERROR' => "పేరు యొక్క కనీస పొడవు :length అక్షరాలు.",
+    'SHOP_NAME_EXIST_ERROR' => "ఈ పేరు ఇప్పటికే నమోదు చేయబడింది.",
+
+    'NOT_FOUND_LOTTERY_ERROR' => "లాటరీ దొరకలేదు.",
+    'NOT_FOUND_LOTTERY_PRIZE_ERROR' => "లాటరీ బహుమతి కనుగొనబడలేదు.",
+    'LOTTERY_PRIZE_NOT_SELECT_VARIANT_ERROR' => "బహుమతి యొక్క రూపాంతరం ఎంపిక చేయబడలేదు.",
+    'SHOP_LOTTERY_NOT_ENABLE_ERROR' => "షాప్ లాటరీ ప్రారంభించబడలేదు.",
+
+    'NOT_FOUND_CASHBACK_ERROR' => 'క్యాష్‌బ్యాక్ కనుగొనబడలేదు.',
+
+
+
+    'CLIENT_BASKET_PAYMENT_AMOUNT_NOT_MATCH_ERROR' => "చెల్లింపు మొత్తం, సర్వర్‌లో లెక్కించబడిన మొత్తానికి సమానం కాదు. ఈ సమస్యను support@selldone.comకి పంపండి",
+    'GATEWAY_COD_NOT_SUPPORT_THIS_PRODUCT_TYPE_ERROR' => "క్యాష్ ఆన్ డెలివరీ చెల్లింపు పద్ధతి భౌతిక ఉత్పత్తులు మరియు సేవలకు మాత్రమే ఉపయోగించబడుతుంది.",
+    'GATEWAY_CASH_NOT_SUPPORT_FOR_THIS_ORDER_TYPE' => "ఈ ఆర్డర్ రకానికి నగదు చెల్లింపు పద్ధతికి మద్దతు లేదు.",
+
+
+
+    'EXCEED_LOGIN_ATTEMPTS_ERROR' => "మీ ప్రయత్నాలు పరిమితిని మించిపోయాయి!",
+
+    'NOT_ENOUGH_MONEY_IN_WALLET_ERROR' => "అవసరమైన కనీస ఛార్జీ :amount :currency.",
+    'NOT_ACCOUNT_NOT_SELECTED_ERROR' => "ఖాతా ఎంచుకోబడలేదు.",
+
+
+    'COD_PAYED_BEFORE_ERROR' => "చెల్లింపు రసీదులు ఇప్పటికే రద్దు చేయబడ్డాయి లేదా చెల్లించబడ్డాయి.",
+    'GATEWAY_NOT_COD_ERROR' => "గేట్‌వే COD కాదు.",
+    'GATEWAY_NOT_DIR_ERROR' => "గేట్‌వే నేరుగా నగదు చెల్లింపు కాదు.",
+    'NOT_FOUND_DELIVERY_SERVICE_ERROR' => "డెలివరీ సేవ కనుగొనబడలేదు.",
+    'NOT_FOUND_TRANSPORTATION_ERROR' => "రవాణా కనుగొనబడలేదు.",
+    'NOT_FOUND_TRANSPORTATION_PERSON_ERROR' => "రవాణా వ్యక్తి కనుగొనబడలేదు.",
+    'NOT_FOUND_TRANSPORTATION_ORDER_ERROR' => "రవాణా ఆర్డర్ కనుగొనబడలేదు.",
+    'NOT_FOUND_TRANSPORTATION_SERVICE_ERROR' => "రవాణా సేవ కనుగొనబడలేదు.",
+
+
+
+    'NOT_FOUND_SHOP_CUSTOMER_ERROR' => "షాప్ కస్టమర్ దొరకలేదు.",
+
+
+    'CHECKOUT_BASKET_EMPTY_ERROR' => "బండి ఖాళీగా ఉంది.",
+    'CHECKOUT_BASKET_OFFER_CHANGED_ERROR' => "ఆఫర్‌లు మార్చబడ్డాయి!",
+
+    'NOT_FOUNT_BILL_ERROR' => "బిల్లు దొరకలేదు.",
+    'CAN_NOT_EDIT_PAYED_ERROR' => "చెల్లింపు బిల్లును సవరించలేరు.",
+
+    'EXPIRED_AVOCADO_ERROR' => "ఈ బిల్లు నెల రోజుల క్రితం ఉంది కాబట్టి అది కనిపించడం లేదు.",
+    'NOT_FOUND_AVOCADO_ERROR' => "అవకాడో దొరకలేదు.",
+
+    'NOT_FOUND_HYPER_ERROR' => "హైపర్ బాస్కెట్ కనుగొనబడలేదు.",
+
+
+
+
+
+    'NOT_VALID_CURRENCY_ERROR' => "కరెన్సీ చెల్లదు!",
+
+
+
+    'CAN_NOT_DELETE_ERROR' => "తొలగించలేము! తొలగించడంలో లోపం ఏర్పడింది.",
+
+
+    //――――――――――――――――――― Charge Service ――――――――――――――――――
+    'NOT_BEFORE_RECEIVED_CHARGE_ERROR' => "మీరు ఇప్పటికే మీ బహుమతి ఛార్జీని స్వీకరించారు!",
+    'NOT_FREE_CHARGE_NOT_AVAILABLE_ERROR' => "ఉచిత ఛార్జ్ అందుబాటులో లేదు.",
+    'NOT_GIFT_NOT_EXIST_FOR_CURRENCY_ERROR' => "ఈ కరెన్సీకి బహుమతి లేదు!",
+    'NOT_TOTAL_CHARGE_NOT_MEET_CONDITION_ERROR' => "ఈ ఖాతాకు మొత్తం ఛార్జ్ తప్పనిసరిగా కనీసం :amount :currency ఉండాలి. ఈ ఖాతాను కనీసం :remains :currencyతో ఛార్జ్ చేయండి, ఆపై మీ అదనపు :amount :currency బహుమతిని క్లెయిమ్ చేయడానికి ప్రయత్నించండి.",
+
+
+
+    'SHOP_SERVICE_NOT_AVAILABLE_IN_COUNTRY_ERROR' => "దురదృష్టవశాత్తూ, :countryలో సేవ అందుబాటులో లేదు. దయచేసి మమ్మల్ని సంప్రదించండి.",
+
+
+
+
+    'ORDER_CANCELED_ERROR' => "ఈ ఆర్డర్ రద్దు చేయబడింది.",
+    'ORDER_ON_REJECT_PERIOD_ERROR' => "ఈ ఆర్డర్ రద్దు చేయబడినందున మీరు ఈ మార్పును వర్తింపజేయలేరు.",
+
+    //――――――――――――――――――― Category ――――――――――――――――――
+
+    'DUPLICATE_CATEGORY_NAME_ERROR' => "ఇదే పేరుతో మరో వర్గం కూడా ఉంది!",
+
+
+    'BASKET_ADD_ITEM_VARIANT_NOT_FOUND_ERROR' => "ఎంచుకున్న ఉత్పత్తి రకం తప్పు. ఈ ఉత్పత్తి రకం ఇప్పుడు ఉనికిలో లేదు. ఈ అంశం మీ కార్ట్ నుండి తీసివేయబడింది.",
+    'BASKET_ADD_ITEM_NOT_ENOUGH_QUANTITY_ERROR' => "ఇన్వెంటరీ సరిపోదు! గరిష్ట గణన :available_count.",
+    'CASH_TRANSACTION_NOT_FOUND_ERROR' => "నగదు చెల్లింపు లావాదేవీ కనుగొనబడలేదు.",
+    'TRANSACTION_NOT_READY_TO_PAY_ERROR' => "లావాదేవీ చెల్లించడానికి సిద్ధంగా లేదు.",
+    'ORDER_COUNT_MUST_BE_POSITIVE_ERROR' => "ఆర్డర్ కౌంట్ తప్పనిసరిగా ధనాత్మక సంఖ్య అయి ఉండాలి.",
+    'CAN_NOT_APPLY_CHANGE_ERROR' => "అభ్యర్థించిన మార్పులను వర్తింపజేయడం సాధ్యం కాదు.",
+    'ORDER_RETURN_REQUEST_NOT_FOUND' => "ఈ వస్తువు కోసం వాపసు అభ్యర్థన లేదు.",
+    'ORDER_NOT_DELIVERED_NOT_CONFIRMED_ERROR' => "ఆర్డర్ నిర్ధారణ నిర్ధారించబడలేదు!",
+    'RETURN_WARRANTY_NOT_EXIST_ERROR' => "ఉత్పత్తికి రిటర్న్ గ్యారెంటీ లేదు.",
+    'ORDER_RETURN_WARRANTY_EXPIRED' => "దురదృష్టవశాత్తూ, వస్తువులను వాపసు చేసే సమయ పరిమితి ముగిసింది.",
+    'DELETE_FILE_FAILED_ERROR' => "ఫైల్‌ను తొలగిస్తున్నప్పుడు లోపం సంభవించింది.",
+    'NOT_BOUGHT_THE_PRODUCT_ERROR' => "మీరు ఈ ఉత్పత్తిని కొనుగోలు చేయలేదు.",
+    'MAX_ADD_LIMIT_ERROR' => ":count అంశాలను గరిష్టంగా జోడించవచ్చు.",
+    'POPUP_NOTFOUND_ERROR' => "పాపప్ కనుగొనబడలేదు.",
+    'INVITE_REJECTED_BEFORE_ERROR' => "మీరు ఇప్పటికే ఈ ఆహ్వానాన్ని తిరస్కరించారు!",
+    'INVITE_ACCEPTED_BEFORE_ERROR' => "మీరు ఇప్పటికే :shop store ఆహ్వానాన్ని ఆమోదించారు.",
+    'PAGE_HISTORY_NOT_FOUND_ERROR' => "పేజీ చరిత్ర కనుగొనబడలేదు.",
+
+
+    //――――――――――――――――――― Application ――――――――――――――――――
+    'APPLICATION_BUILD_INVALID_MIN_VERSION' => "అప్లికేషన్ వెర్షన్ తప్పనిసరిగా మునుపటి వెర్షన్ కంటే ఎక్కువగా ఉండాలి. తాజా వెర్షన్: :version",
+
+    //――――――――――――――――――― Product ――――――――――――――――――
+    'NOT_FOUND_LOGISTIC_PROFILE_ERROR' => "లాజిస్టిక్ ప్రొఫైల్ కనుగొనబడలేదు!",
+    'NOT_FOUND_TAX_PROFILE_ERROR' => "పన్ను ప్రొఫైల్ కనుగొనబడలేదు!",
+    'NOT_FOUND_MAP_TAG_PROFILE_ERROR' => "స్థాన ట్యాగ్ కనుగొనబడలేదు!",
+
+
+
+    //――――――――――――――――――― Vendor ――――――――――――――――――
+    'NOT_FOUND_VENDOR_ERROR' => "విక్రేత కనుగొనబడలేదు.",
+    'NOT_FOUND_VENDOR_ORDER_ERROR' => "విక్రేత ఆర్డర్ కనుగొనబడలేదు.",
+    'NOT_FOUND_ACCESS_ERROR' => "ఈ చర్య కోసం మీ విక్రేత ఖాతాకు అవసరమైన యాక్సెస్ లేదు.",
+    'MARKETPLACE_NOT_PERMITTED_EDIT_PRODUCTS' => "ఈ మార్కెట్‌లో ఉత్పత్తులను సవరించడానికి విక్రేతలకు అనుమతి లేదు. ఇక్కడ ఉత్పత్తులను సవరించడానికి మీకు ప్రస్తుతం అవసరమైన అనుమతులు లేవు. దయచేసి మీకు తగిన యాక్సెస్ అధికారాలు ఉన్నాయని ధృవీకరించండి లేదా సహాయం కోసం మార్కెట్‌ప్లేస్ అడ్మినిస్ట్రేటర్‌ని సంప్రదించండి.",
+
+
+
+
+
+
+
+
+    'NOT_FOUND_CAMPAIGN_LINK_ERROR' => "ప్రచార లింక్ కనుగొనబడలేదు.",
+
+
+    'LISTING_NOT_ENABLE_FOR_VENDORS_ERROR' => "విక్రేతల కోసం జాబితా ప్రారంభించబడలేదు. దయచేసి మీ స్టోర్ కోసం జాబితాను ప్రారంభించడానికి మద్దతును సంప్రదించండి.",
+    'LISTING_SUBMISSION_IS_DISABLED_ERROR' => "ప్రస్తుతం మీ స్టోర్ కోసం జాబితా సమర్పణ నిలిపివేయబడింది. జాబితా సమర్పణను ప్రారంభించడానికి దయచేసి మద్దతును సంప్రదించండి.",
+    'NOT_SHOP_LISTING_IS_NOT_ACTIVE_ERROR' => "మీ స్టోర్ జాబితా సక్రియంగా లేదు. దయచేసి మీ జాబితాను సక్రియం చేయడానికి మద్దతును సంప్రదించండి.",
+
+
+    'aaaaaaaaaaa' => "bbbbbbbbbb",
+
+];

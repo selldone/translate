@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => '博客',
+    'helps' => '帮助',
+    'current_location' => '此条目',
+    'Dashboard' => '仪表板',
+    'my_shops' => '我的商店',
+    'Wallet' => '钱包',
+    'about' => '关于 Selldone',
+    'contact' => 'contact us',
+    'Comments' => '评论',
+    'likes' => '喜欢',
+    'power' => '欢呼',
+    'build_free_shop' => '免费建立您的商店',
+    'shop_name' => 'shop name',
+    'Categories' => '类别',
+    'sub_articles' => 'More',
+    'terms' => '条款',
+
+
+
+    'Color' => '颜色',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => '盒',
+    'type' => 'type',
+
+    'add_to_card' => '添加到购物车',
+
+    'overview' => 'Overview',
+    'reviews' => '评论',
+    'spec' => '完整规格',
+    'you_may_also_like' => '你也许也喜欢',
+    'about_us' => '关于我们',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => '跟着我们',
+    'category' => '类别',
+
+
+    'author' => 'Written by ',
+    'published_at' => '发表于',
+    'modified_at' => '修改于',
+
+
+
+    'price' => '价格',
+    'discount' => '折扣',
+    'price_after_discount' => '折扣后的价格',
+    'available' => '可用的',
+    'sold_out' => '卖光了',
+    'buy' => '立即购买',
+    'login_shop' => '登录商店',
+
+    'posted_on' => "发表于 :date"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => '颜色',
+];
