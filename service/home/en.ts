@@ -195,8 +195,7 @@ export default {
         discount: "Up to {discount}% off",
         action: "Explore setup packages",
         action_aria: "Explore setup packages (opens in a new tab)",
-        note:
-          "Expert help is optional; building your store with Selldone stays free.",
+        note: "Expert help is optional; building your store with Selldone stays free.",
       },
     },
 
@@ -939,15 +938,20 @@ export default {
     },
     how_it_works: {
       eyebrow: "How it works",
-      title: "Three steps from prompt",
+      title: "From a prompt",
       title_accent: "to a running business.",
-      lead: "Connect ChatGPT, Claude, Codex, or any MCP-compatible agent. Selldone provides the tools, shop-scoped access, and approval gates.",
+      lead: "Connect your AI, choose its scope, and put approved work in motion.",
       steps_aria: "How an AI agent works with Selldone",
       steps: {
         connect: {
-          title: "Connect the agent you already use",
-          description:
-            "Add Selldone through MCP in ChatGPT, Claude, Codex, or another compatible client.",
+          phase: "Connect",
+          title: "Bring your AI.",
+          description: "Start with the agent you already know.",
+          detail: "ChatGPT, Claude, Codex or any MCP-compatible agent.",
+          tools: "Your business tools",
+          bridge_note: "One connection. Shared context.",
+          selector_aria: "Preview an AI agent",
+          preview_agent: "Preview {agent}",
           agents_aria: "Supported AI agents",
           connector: "Selldone MCP",
           agents: {
@@ -955,9 +959,10 @@ export default {
           },
         },
         scope: {
-          title: "Choose a shop and its permissions",
-          description:
-            "Choose one shop, then grant only the capabilities the agent needs. Access can be changed or revoked.",
+          phase: "Scope",
+          title: "Choose its reach.",
+          description: "One shop. Only the access you allow.",
+          detail: "Change permissions or revoke access whenever you need.",
           shop_label: "Selected shop",
           shop_name: "Your shop",
           permissions_label: "Allowed in this shop",
@@ -969,25 +974,32 @@ export default {
           note: "Limited to this shop",
         },
         operate: {
-          title: "Let it build, operate, and report",
-          description:
-            "With an always-on agent runtime, it can carry out approved work and report back in your conversation around the clock.",
+          phase: "Operate",
+          title: "Put it to work.",
+          description: "Build, operate, and report in your chat.",
+          prompt: "“Prepare my next collection.”",
+          detail: "Around the clock when your agent runtime stays on.",
           availability: "24/7 with an always-on agent",
           states: {
             build: "Build",
             operate: "Operate",
             report: "Report",
           },
+          states_description: {
+            build: "Pages & catalog",
+            operate: "Approved work",
+            report: "Business insight",
+          },
           approval: {
-            title: "Sensitive action",
-            status: "Explicit confirmation required in the agent workflow",
+            title: "Sensitive action?",
+            status: "Your confirmation comes first.",
           },
         },
       },
       control: {
-        title: "You stay in control",
+        title: "Your business. Your boundaries.",
         description:
-          "Shop scope, permissions, and approval rules stay visible before the agent acts.",
+          "Shop-scoped access. Revocable permissions. Explicit approval for sensitive actions.",
         badge: "Approval required",
       },
     },
@@ -1007,7 +1019,7 @@ export default {
       diagram: {
         sell_everywhere: "SELL EVERYWHERE",
         operate_as_one: "OPERATE AS ONE",
-        shared_order: "One shared order",
+        shared_order: "Order received",
         source: {
           online: "From your online storefront",
           pos: "From the in-store counter",
@@ -1019,8 +1031,8 @@ export default {
             "Online storefront → shared catalog → one view of performance",
           pos: "In-store sale → shared stock → coordinated inventory",
           marketplace:
-            "Marketplace sale → shared order → coordinated automation",
-          social: "Social commerce → shared order → coordinated fulfillment",
+            "Marketplace sale → order received → coordinated automation",
+          social: "Social commerce → order received → coordinated fulfillment",
         },
         ai_title: "Your AI, in the loop.",
         ai_scope: "Shop-scoped · Permission controlled",
