@@ -97,27 +97,15 @@ export default {
         "title": "Lahendused",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 Gild",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Avokaado",
+            "title": "Avokaado",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO mootor",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

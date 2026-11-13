@@ -103,21 +103,9 @@ export default {
             }
           },
           {
-            "title": "Persekutuan",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
             "title": "Alpukat",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "Mesin SEO",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

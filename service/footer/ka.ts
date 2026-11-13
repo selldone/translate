@@ -97,27 +97,15 @@ export default {
         "title": "გადაწყვეტილებები",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 გილდია",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 ავოკადო",
+            "title": "ავოკადო",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO ძრავა",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

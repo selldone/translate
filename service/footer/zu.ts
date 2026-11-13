@@ -97,27 +97,15 @@ export default {
         "title": "Izixazululo",
         "items": [
           {
-            "title": "🎨 I-NFT",
+            "title": "I-NFT",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 Inhlangano",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Ukwatapheya",
+            "title": "Ukwatapheya",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "Injini ye-SEO",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

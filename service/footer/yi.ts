@@ -97,27 +97,15 @@ export default {
         "title": "סאַלושאַנז",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 גילד",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 אַוואָקאַדאָ",
+            "title": "אַוואָקאַדאָ",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "סעאָ ענגינע",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

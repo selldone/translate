@@ -97,27 +97,15 @@ export default {
         "title": "Atebion",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 Urdd",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Afocado",
+            "title": "Afocado",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "Peiriant SEO",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

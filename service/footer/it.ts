@@ -97,27 +97,15 @@ export default {
         "title": "Soluzioni",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 Gilda",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Avocado",
+            "title": "Avocado",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "Motore SEO",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

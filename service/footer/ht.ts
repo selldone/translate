@@ -97,27 +97,15 @@ export default {
         "title": "Solisyon",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 Guild",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Zaboka",
+            "title": "Zaboka",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO motè",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

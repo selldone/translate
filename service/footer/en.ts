@@ -78,15 +78,12 @@ export default {
       {
         title: "Solutions",
         items: [
-          { title: "🎨 Art", to: { name: "Landing_NFT" } },
-          { title: "🤝 Guild", to: { name: "GPageHome" } },
-          { title: "🥑 Avocado", to: { name: "AvocadoHomePage" } },
-          // { title: "Experts", to: { name: "ExpertsPage" } }, TODO: ACTIVATE AFTER RUNNING EXPERTS
-          { title: "🧱 API / Developers", to: { name: "DocHome" } },
-
+          { title: "Art", to: { name: "Landing_NFT" } },
+          { title: "Avocado", to: { name: "AvocadoHomePage" } },
           { title: "SEO Engine", to: { name: "Landing_SEO" } },
           { title: "Smart Report", to: { name: "Landing_SmartReport" } },
           { title: "Cloud Hosting", to: { name: "Landing_Cloud" } },
+          { title: "API Documentation", to: { name: "DocHome" } },
         ],
       },
       {

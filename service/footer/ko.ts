@@ -97,27 +97,15 @@ export default {
         "title": "솔루션",
         "items": [
           {
-            "title": "🎨 엔에프티",
+            "title": "엔에프티",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 길드",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 아보카도",
+            "title": "아보카도",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO 엔진",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

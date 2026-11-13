@@ -97,27 +97,15 @@ export default {
         "title": "ସମାଧାନ",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
-            }
-          },
-          {
-            "title": "Ild ଗିଲ୍ଡ {'|'}",
-            "to": {
-              "name": "GPageHome"
             }
           },
           {
             "title": "ଓଭୋକାଡୋ",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO ଇଞ୍ଜିନ୍ {'|'}",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

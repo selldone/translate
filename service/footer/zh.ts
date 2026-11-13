@@ -97,27 +97,15 @@ export default {
         "title": "解决方案",
         "items": [
           {
-            "title": "🎨 艺术",
+            "title": "艺术",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝公会",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Avocado",
+            "title": "Avocado",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "🧱 API / 开发者",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

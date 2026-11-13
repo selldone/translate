@@ -998,28 +998,51 @@ export default {
       lead: "Follow the complete Selldone workflow across storefront, catalog, payments, design, and unified checkout. The essential commerce journey is connected and ready from day one.",
     },
     scale: {
-      eyebrow: "Unified commerce operations",
-      title: "Optimized for online & in-store sales",
-      title_accent: "at scale.",
-      lead: "Run every sales channel on one source of truth. Catalog, customers, orders, payments, fulfillment, and analytics stay connected whether the transaction starts on a storefront, at a counter, through a marketplace, or on social media.",
+      eyebrow: "Unified commerce",
+      title: "Every way you sell.",
+      title_accent: "One connected business.",
+      lead: "From the first sale to the next market. Your channels, operations, and AI work from the same business context.",
       channels_aria: "Connected sales channels",
       connected: "Connected",
+      diagram: {
+        sell_everywhere: "SELL EVERYWHERE",
+        operate_as_one: "OPERATE AS ONE",
+        shared_order: "One shared order",
+        source: {
+          online: "From your online storefront",
+          pos: "From the in-store counter",
+          marketplace: "From your marketplace",
+          social: "From social commerce",
+        },
+        flow: {
+          online:
+            "Online storefront → shared catalog → one view of performance",
+          pos: "In-store sale → shared stock → coordinated inventory",
+          marketplace:
+            "Marketplace sale → shared order → coordinated automation",
+          social: "Social commerce → shared order → coordinated fulfillment",
+        },
+        ai_title: "Your AI, in the loop.",
+        ai_scope: "Shop-scoped · Permission controlled",
+        examples_note:
+          "Illustrative connections · Service availability varies by market and setup",
+      },
       channels: {
         online: {
           title: "Online storefront",
-          description: "Web, mobile, and custom Genesis experiences",
+          description: "Web & custom experiences",
         },
         pos: {
           title: "In-store POS",
-          description: "Counter sales, staff, and local operations",
+          description: "Counter to catalog",
         },
         marketplace: {
           title: "Marketplace",
-          description: "Vendors, listings, commissions, and payouts",
+          description: "Vendors, one operation",
         },
         social: {
-          title: "Social & direct",
-          description: "Campaign links and conversational selling",
+          title: "Social commerce",
+          description: "TikTok · Instagram",
         },
       },
       engine: {
@@ -1037,7 +1060,7 @@ export default {
       outcomes: {
         inventory: {
           title: "Shared inventory",
-          description: "Availability stays coordinated across channels.",
+          description: "One catalog. Every channel.",
         },
         fulfillment: {
           title: "Flexible fulfillment",
@@ -1049,22 +1072,22 @@ export default {
         },
         automation: {
           title: "Connected automation",
-          description: "Trigger workflows without brittle app chains.",
+          description: "Less repetition. More momentum.",
         },
       },
       proof: {
         models: {
-          title: "Multiple business models",
+          title: "Any business model",
           description:
             "Retail, subscriptions, booking, wholesale, services, and marketplaces.",
         },
         permissions: {
-          title: "Role-aware operations",
+          title: "You control access",
           description:
             "Give staff, vendors, partners, and AI agents the right scope.",
         },
         global: {
-          title: "Local and global readiness",
+          title: "Built for global growth",
           description:
             "Adapt payment, currency, tax, and fulfillment to where you sell.",
         },

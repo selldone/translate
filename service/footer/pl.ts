@@ -103,21 +103,9 @@ export default {
             }
           },
           {
-            "title": "🤝 Gildia",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Awokado",
+            "title": "Awokado",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "Silnik SEO",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

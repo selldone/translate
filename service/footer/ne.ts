@@ -97,27 +97,15 @@ export default {
         "title": "समाधानहरू",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 गिल्ड",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 एभोकाडो",
+            "title": "एभोकाडो",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO इन्जिन",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

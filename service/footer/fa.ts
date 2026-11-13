@@ -75,15 +75,13 @@ export default {
       {
         title: "راه حل ها",
         items: [
-          { title: "🎨 NFT", to: { name: "Landing_NFT" } },
-          { title: "🤝 قبیله", to: { name: "GPageHome" } },
-          { title: "🥑 آووکادو", to: { name: "AvocadoHomePage" } },
-          //{ title: "متخصصین", to: { name: "ExpertsPage" } }, TODO: ACTIVATE AFTER RUNNING EXPERTS
+          { title: "NFT", to: { name: "Landing_NFT" } },
+          { title: "آووکادو", to: { name: "AvocadoHomePage" } },
           { title: "موتور SEO", to: { name: "Landing_SEO" } },
           { title: "گزارش دهی هوشمند", to: { name: "Landing_SmartReport" } },
           { title: "هاست ابری", to: { name: "Landing_Cloud" } },
           { title: "لجستیک و فروش", to: { name: "Landing_Logistic" } },
-
+          { title: "مستندات API", to: { name: "DocHome" } },
         ],
       },
       {

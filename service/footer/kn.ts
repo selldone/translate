@@ -97,27 +97,15 @@ export default {
         "title": "ಪರಿಹಾರಗಳು",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 ಗಿಲ್ಡ್",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 ಆವಕಾಡೊ",
+            "title": "ಆವಕಾಡೊ",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO ಎಂಜಿನ್",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

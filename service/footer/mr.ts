@@ -97,27 +97,15 @@ export default {
         "title": "उपाय",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 गिल्ड",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 अॅव्होकॅडो",
+            "title": "अॅव्होकॅडो",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "एसइओ इंजिन",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

@@ -97,27 +97,15 @@ export default {
         "title": "መፍትሄዎች",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 ማህበር",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 አቮካዶ",
+            "title": "አቮካዶ",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO ሞተር",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

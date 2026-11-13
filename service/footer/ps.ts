@@ -97,27 +97,15 @@ export default {
         "title": "د حل لارې",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 ګیلډ",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 ایوکاډو",
+            "title": "ایوکاډو",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "د SEO انجن",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

@@ -97,27 +97,15 @@ export default {
         "title": "Решења",
         "items": [
           {
-            "title": "🎨 НФТ",
+            "title": "НФТ",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 Гуилд",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Авокадо",
+            "title": "Авокадо",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "СЕО Енгине",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

@@ -97,27 +97,15 @@ export default {
         "title": "ソリューション",
         "items": [
           {
-            "title": "🎨NFT",
+            "title": "NFT",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝ギルド",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑アボカド",
+            "title": "アボカド",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEOエンジン",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

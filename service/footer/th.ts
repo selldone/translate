@@ -97,27 +97,15 @@ export default {
         "title": "โซลูชั่น",
         "items": [
           {
-            "title": "🎨 เอ็นเอฟที",
+            "title": "เอ็นเอฟที",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝กิลด์",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 อะโวคาโด",
+            "title": "อะโวคาโด",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "เครื่องมือ SEO",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

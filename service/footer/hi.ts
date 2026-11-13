@@ -103,21 +103,9 @@ export default {
             }
           },
           {
-            "title": "गिल्ड",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
             "title": "एवोकैडो",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "एसईओ इंजन",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

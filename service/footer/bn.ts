@@ -97,27 +97,15 @@ export default {
         "title": "সমাধান",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 গিল্ড",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 অ্যাভোকাডো",
+            "title": "অ্যাভোকাডো",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "এসইও ইঞ্জিন",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

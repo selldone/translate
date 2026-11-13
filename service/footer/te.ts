@@ -97,27 +97,15 @@ export default {
         "title": "పరిష్కారాలు",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 గిల్డ్",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 అవకాడో",
+            "title": "అవకాడో",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO ఇంజిన్",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

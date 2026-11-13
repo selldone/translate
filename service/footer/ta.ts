@@ -97,27 +97,15 @@ export default {
         "title": "தீர்வுகள்",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 கில்ட்",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 அவகேடோ",
+            "title": "அவகேடோ",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "எஸ்சிஓ எஞ்சின்",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

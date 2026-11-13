@@ -97,27 +97,15 @@ export default {
         "title": "විසඳුම්",
         "items": [
           {
-            "title": "🎨 Art",
+            "title": "Art",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 ගිල්ඩ්",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 අලිගැට පේර",
+            "title": "අලිගැට පේර",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "SEO එන්ජිම",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {

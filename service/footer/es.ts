@@ -97,27 +97,15 @@ export default {
         "title": "Soluciones",
         "items": [
           {
-            "title": "🎨 Arte",
+            "title": "Arte",
             "to": {
               "name": "Landing_NFT"
             }
           },
           {
-            "title": "🤝 Gremio",
-            "to": {
-              "name": "GPageHome"
-            }
-          },
-          {
-            "title": "🥑 Avocado",
+            "title": "Avocado",
             "to": {
               "name": "AvocadoHomePage"
-            }
-          },
-          {
-            "title": "🧱 API / Desarrolladores",
-            "to": {
-              "name": "DocHome"
             }
           },
           {
@@ -137,7 +125,13 @@ export default {
             "to": {
               "name": "Landing_Cloud"
             }
-          }
+          },
+          {
+            title: "API Documentation",
+            "to": {
+              "name": "DocHome"
+            }
+          },
         ]
       },
       {
