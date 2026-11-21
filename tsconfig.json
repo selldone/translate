@@ -3,7 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "importHelpers": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
 
     "noEmitOnError": false,
@@ -28,9 +28,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "baseUrl": ".",
     "allowImportingTsExtensions": true,
-    "downlevelIteration": true,
     "lib": [
       "esnext",
       "dom",
@@ -41,7 +39,7 @@
     "paths": {
       "@selldone/core-js/*": [
 
-        "*"
+        "./*"
       ]
     }
   },

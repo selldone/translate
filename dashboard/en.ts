@@ -26778,6 +26778,44 @@ Show a working preview and prepare a static Cloudflare deployment following the 
   },
 
   /**
+   * BPageShopPagesStatic
+   */
+  shop_static_pages: {
+    title: "Static Pages",
+    subtitle: "Manage the files and folders for your static pages.",
+    files_and_folders: "Files and folders",
+    new_folder: "New folder",
+    folder_name: "Folder name",
+    create_in: "Create a folder in {path}.",
+    root: "Root",
+    current_folder: "Current folder",
+    up: "Go up one folder",
+    search: "Search all files and folders",
+    folder: "Folder",
+    file: "File",
+    open_file: "Open file in a new tab",
+    more_actions: "More actions for {name}",
+    empty: "This folder is empty.",
+    no_results: "No files or folders match your search.",
+    drop_files: "Drop files to upload",
+    choose_files: "Choose files",
+    upload_hint: "Up to {max} per file. ZIP files extract into the current folder.",
+    storage_and_publishing: "Storage and publishing",
+    storage_used: "Storage used",
+    storage_unavailable: "Storage usage is unavailable.",
+    publish_help: "How to publish",
+    guide_entry: "Put index.html or index.htm and the supporting files in one folder.",
+    guide_upload: "Upload the files, or drop a ZIP to extract it into the current folder.",
+    guide_settings: "Select Static Page in Settings → Domains or set the containing folder in Settings → Home.",
+    delete_title: "Delete {name}?",
+    delete_folder_description: "Deleting {name} also deletes all files and folders inside it.",
+    delete_file_description: "This permanently deletes {name}.",
+    delete_failed: "Could not delete this item.",
+    load_failed: "Could not load the files and folders.",
+    retry: "Try again",
+  },
+
+  /**
    * BPageShopPermissionStaff
    */
   shop_access: {

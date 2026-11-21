@@ -24,6 +24,7 @@
 
   },
   "devDependencies": {
-    "typescript": "^5.7.2"
+    "@typescript/native-cli": "npm:typescript@^7.0.2",
+    "typescript": "npm:@typescript/typescript6@6.0.2"
   }
 }

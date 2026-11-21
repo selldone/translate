@@ -26981,6 +26981,44 @@ APIها را از مستندات سلدان در https://selldone.com/documents 
   },
 
   /**
+   * BPageShopPagesStatic
+   */
+  shop_static_pages: {
+    title: "صفحات استاتیک",
+    subtitle: "فایل‌ها و پوشه‌های صفحات استاتیک خود را مدیریت کنید.",
+    files_and_folders: "فایل‌ها و پوشه‌ها",
+    new_folder: "پوشه جدید",
+    folder_name: "نام پوشه",
+    create_in: "یک پوشه در «{path}» بسازید.",
+    root: "پوشه اصلی",
+    current_folder: "پوشه فعلی",
+    up: "بازگشت به پوشه بالاتر",
+    search: "جستجو در همه فایل‌ها و پوشه‌ها",
+    folder: "پوشه",
+    file: "فایل",
+    open_file: "باز کردن فایل در تب جدید",
+    more_actions: "عملیات بیشتر برای «{name}»",
+    empty: "این پوشه خالی است.",
+    no_results: "هیچ فایل یا پوشه‌ای با جستجوی شما مطابقت ندارد.",
+    drop_files: "فایل‌ها را برای بارگذاری اینجا رها کنید",
+    choose_files: "انتخاب فایل‌ها",
+    upload_hint: "حداکثر حجم هر فایل {max} است. فایل‌های ZIP در پوشه فعلی استخراج می‌شوند.",
+    storage_and_publishing: "فضای ذخیره‌سازی و انتشار",
+    storage_used: "فضای استفاده‌شده",
+    storage_unavailable: "اطلاعات فضای ذخیره‌سازی در دسترس نیست.",
+    publish_help: "راهنمای انتشار",
+    guide_entry: "فایل index.html یا index.htm و فایل‌های وابسته را در یک پوشه قرار دهید.",
+    guide_upload: "فایل‌ها را بارگذاری کنید یا یک فایل ZIP را رها کنید تا در پوشه فعلی استخراج شود.",
+    guide_settings: "در بخش دامنه‌های تنظیمات، «صفحه استاتیک» را انتخاب کنید یا در تنظیمات صفحه اصلی، پوشهٔ فایل‌ها را مشخص کنید.",
+    delete_title: "«{name}» حذف شود؟",
+    delete_folder_description: "با حذف «{name}»، همه فایل‌ها و پوشه‌های داخل آن هم حذف می‌شوند.",
+    delete_file_description: "فایل «{name}» برای همیشه حذف می‌شود.",
+    delete_failed: "حذف این مورد ناموفق بود.",
+    load_failed: "بارگیری فایل‌ها و پوشه‌ها ناموفق بود.",
+    retry: "تلاش دوباره",
+  },
+
+  /**
    * BPageShopPermissionStaff
    */
   shop_access: {
