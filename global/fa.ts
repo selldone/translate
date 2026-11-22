@@ -661,6 +661,7 @@ export default {
     valuation: "ارزشگذاری",
     cluster: "خوشه",
     clusters: "خوشه ها",
+    manage_clusters: "مدیریت خوشه‌ها",
     subscriptions: "اشتراک ها",
     spam: "اسپم",
     video: "ویدئو",

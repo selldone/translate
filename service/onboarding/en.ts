@@ -296,6 +296,21 @@ export default {
     subtitle: "in unlocking the next-generation of online businesses.",
     subtitle_official: "Unlock the next-generation of online businesses.",
 
+    checkout: {
+      title: "Deal checkout",
+      all_deals: "View all deals",
+      shops: "Shops included",
+      term: "License term",
+      lifetime: "Lifetime",
+      months: "{count} months",
+      total: "Total to pay",
+      continue: "Continue to payment",
+      secure_payment_by: "Secure payment by",
+      unavailable: "Payment is currently unavailable for this deal.",
+      after_payment:
+        "After payment, create a shop or apply the deal to an eligible existing shop.",
+    },
+
     create_new_shop: "Create a new shop",
     select_a_shop: "Select a shop",
     apply_deal_to: "Apply deal to {shop}",

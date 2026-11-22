@@ -15962,6 +15962,40 @@ Show a working preview and prepare a static Cloudflare deployment following the 
         "Explore pre-built landing pages. Preview, choose and make one your own.",
       picker_title: "Choose a template",
       picker_subtitle: "Find the right starting point for your page.",
+      starter_title: "Start with a template",
+      starter_subtitle: "Choose a layout with editable sections, then make it your own.",
+      starter_tab: "Starter templates",
+      starter_products_preview: "Products from your store will appear here.",
+      start_blank: "Start blank",
+      library_tab: "Template library",
+      section_count: "{count} section | {count} sections",
+      use_template: "Use template",
+      raw: {
+        studio: {
+          name: "Brand Studio",
+          description: "Introduce your brand, its craft, and what makes it yours.",
+        },
+        campaign: {
+          name: "Product Launch",
+          description: "Reveal a new release and give visitors a reason to come back.",
+        },
+        collection: {
+          name: "Shop Collection",
+          description: "Set the scene for a collection and bring in products from your store.",
+        },
+        story: {
+          name: "Editorial Story",
+          description: "Lead with photography and tell your story in an editable article.",
+        },
+        event: {
+          name: "Event Program",
+          description: "Introduce an event, outline its agenda, and collect interest.",
+        },
+        newsletter: {
+          name: "Newsletter Signup",
+          description: "Explain what readers will get and collect emails with the built-in form.",
+        },
+      },
       search: "Search all templates…",
       search_all_hint: "Search results across all categories",
       more_categories: "More categories",
@@ -20764,7 +20798,8 @@ Show a working preview and prepare a static Cloudflare deployment following the 
   shop_theme: {
     studio: {
       page_title: "Storefront theme",
-      page_subtitle: "Shape the look and feel of your storefront.",
+      page_subtitle: "Customize the appearance of your shop.",
+      nav_layout: "Layout",
       shopping_description: "Choose the default category and product layouts for each screen size.",
       shopping_help_label: "How default shopping views work",
       shopping_help: "These layouts are used by default. A customer's own view selection takes priority.",
@@ -21062,37 +21097,39 @@ Show a working preview and prepare a static Cloudflare deployment following the 
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      source_title: "Choose your font",
-      source_uploaded: "Uploaded custom font · Recommended",
+      source_title: "Font source",
+      source_uploaded: "Uploaded",
       source_uploaded_description: "Upload your font files; Selldone connects the family and resource automatically.",
-      source_external: "External font",
+      source_external: "External",
       source_external_description: "Use Google Fonts or another font provider.",
       uploaded_help: "Choose a font from your library or add a custom font.",
       external_help: "Enter the font family, then add the stylesheet link or CSS from your provider below.",
       source_message: "Choose an uploaded font, or clear the selection to enter a font family.",
-      managed_message: "The family and font files are connected automatically.",
+      managed_message: "Selldone connects the selected family and its font files automatically.",
       advanced: "Advanced · font resource",
       advanced_message: "Add a stylesheet link or CSS from your font provider. Uploaded font resources are generated automatically.",
-      preview: "Type preview",
-      preview_title: "A little more character.",
-      preview_body: "Thoughtful details make every visit feel familiar.",
-      preview_note: "Uploaded fonts appear here. External fonts preview when already loaded on this page.",
+      preview: "Storefront preview",
+      preview_title: "Made to feel like home.",
+      preview_body: "Everyday favorites, thoughtfully made.",
+      preview_note: "External fonts preview when already available in the browser.",
+      details: "Font details",
+      browse_fonts: "Browse Google Fonts",
       default_family: "Default storefront font",
       family_examples: "Font family examples",
       resource_examples: "Font resource example",
       title: "Main Website Font",
-      subtitle: "Choose an uploaded custom font or a family from Google Fonts.",
-      custom_font: "Uploaded custom font",
+      subtitle: "Choose the font used throughout your storefront.",
+      custom_font: "Font family",
       custom_font_message:
         "Select an uploaded font to automatically generate both the font family and font resource.",
       custom_resource_message:
-        "Generated automatically from this font's public CDN files.",
+        "Generated automatically from the uploaded font files.",
     },
     custom_fonts: {
-      title: "Custom Fonts",
-      subtitle:
-        "Upload and manage font families owned by your shop. Add a separate face for every weight and style you need.",
-      quota: "{used} of {limit} fonts",
+      title: "Font library",
+      subtitle: "Manage the font families available to this shop.",
+      quota: "{used} of {limit}",
+      selected: "Selected",
       quota_reached: "Your current license font limit has been reached.",
       css_name: "CSS font-family name",
       css_name_hint:
@@ -21105,6 +21142,9 @@ Show a working preview and prepare a static Cloudflare deployment following the 
       actions: {
         add: "Add custom font",
         add_weight: "Add weight",
+        manage: "Manage",
+        manage_named: "Manage {name}",
+        copy_css: "Copy CSS font-family",
       },
       dialog: {
         add_title: "Add Custom Font",
@@ -21161,7 +21201,7 @@ Show a working preview and prepare a static Cloudflare deployment following the 
     },
     inputs: {
       font_family: {
-        label: "Font Family",
+        label: "CSS font-family",
         message: "Enter the font-family value.",
       },
       font_res: {
@@ -25312,29 +25352,36 @@ Show a working preview and prepare a static Cloudflare deployment following the 
       "Here is the list of scheduled articles set for future publication. You have the ability to schedule blog posts and even product descriptions to be published at specific times.",
   },
 
+  shop_profile_editor: {
+    view_storefront: "View storefront page",
+    content: "Page content",
+    saved: "All changes saved",
+    unsaved: "Unsaved changes",
+    saving: "Saving…",
+    read_only: "View only",
+    load_failed: "Could not load this page’s content.",
+    retry: "Try again",
+  },
+
   /** {@see BPageShopPagesAboutUs} **/
   about_us: {
-    title: "About us page",
-    subtitle:
-      "Write an article about your business to show on the About Us page. This page will help your audience to know your brand and mission.",
+    title: "About Us",
+    subtitle: "Tell shoppers who you are and what your business stands for.",
   },
   /** {@see BPageShopPagesTerms} **/
   terms: {
-    title: "Terms of service page",
-    subtitle:
-      "Explain the terms of purchase and use of your services for your customers.",
+    title: "Terms",
+    subtitle: "Set out the terms that apply when customers shop with you.",
   },
   /** {@see BPageShopPagesPrivacy} **/
   privacy: {
-    title: "Privacy policy page",
-    subtitle:
-      "A privacy policy is a statement or legal document that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.",
+    title: "Privacy",
+    subtitle: "Explain how your store handles customer information.",
   },
   /** {@see BPageShopPagesContactUs} **/
   contact_us: {
-    title: "Contact us page",
-    subtitle:
-      "Write your contact information, address, and phone number to be shown to your customers on the contact us page.",
+    title: "Contact Us",
+    subtitle: "Help shoppers reach your team and know what to include.",
   },
 
   /** {@see BPageShopApplicationsMetaverse} **/

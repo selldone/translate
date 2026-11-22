@@ -719,6 +719,7 @@ export default {
     valuation: "Valuation",
     cluster: "Cluster",
     clusters: "Clusters",
+    manage_clusters: "Manage clusters",
 
     subscriptions: "Subscriptions",
     spam: "Spam",

@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <b>Community-maintained translation files for the Selldone dashboard, storefronts and backend messages, in about 100 languages.</b><br>
+  <b>Community-maintained translation files for the Selldone merchant dashboard and storefronts, in about 100 languages.</b><br>
   <a href="https://github.com/selldone/translate/wiki">Documentation</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#how-to-submit-a-change">Submit a correction</a> ·
@@ -36,13 +36,13 @@
 ## Overview
 
 **Selldone Translate** (`@selldone/translate`) holds the translation files of [Selldone®](https://selldone.com)
-Business OS: the merchant **Dashboard**, the **Shop** (storefront and customer panel), and the **Backend** (emails,
-invoices, server-side messages and errors), plus shared packs such as colors, countries, community texts and icons.
+Business OS: the merchant **Dashboard**, the **Shop** (storefront and customer panel), and shared packs such as
+colors, countries, community texts and icons.
 It is maintained by **community volunteers**. Thank you to everyone who helps translate Selldone.
 
 **English** is the original language of Selldone. Every other language mirrors the English files key by key. The
-TypeScript packs are loaded by Vue apps through `vue-i18n` (the [Storefront](https://github.com/selldone/storefront)
-and [Components](https://github.com/selldone/components) use them), and the PHP packs are used by the Laravel backend.
+TypeScript packs are loaded by Vue apps through `vue-i18n`. The [Storefront](https://github.com/selldone/storefront)
+and [Components](https://github.com/selldone/components) use them.
 
 ### About Selldone Business OS
 
@@ -62,12 +62,11 @@ enterprise-grade tools and is designed to be the most accessible operating syste
 ## Key features
 
 - **About 100 languages** — one file per language code in every pack, including right-to-left languages such as Arabic, Persian, Hebrew and Urdu.
-- **Three product surfaces** — `dashboard/` (merchant suite), `shop/` (storefront and customer panel) and `backend/lang/` (emails, invoices, errors and other server messages).
+- **Product interfaces** — `dashboard/` (merchant suite) and `shop/` (storefront and customer panel).
 - **Shared packs** — `global/` common texts, `global/colors`, `global/countries`, `global/community`, and direction-aware icon names in `global/icons/ltr.ts` and `global/icons/rtl.ts`.
 - **Service packs** — `service/` texts for Selldone pages: business ideas, expert, feedback, footer, guild, help, home, internal pages, menus, onboarding and price list.
 - **Ready for vue-i18n** — each TypeScript file is an ES module with `export default { ... }`, so you can import a language and pass it to `createI18n`.
 - **On-demand loading** — `repository/LanguagesRepository.ts` loads any pack and language with dynamic `import()`, so apps ship only the languages they use.
-- **Laravel format for the backend** — `backend/lang/<code>/*.php` files return PHP arrays with `:placeholder` variables.
 - **Shop-level overrides** — the Storefront merges per-shop overrides of the `global` and `shop` packs at runtime, so merchants can adjust wording without forking.
 
 ## Quick start
@@ -125,7 +124,6 @@ Use `@selldone/translate/global/icons/rtl` instead of `ltr` for right-to-left la
 | `global/colors/`, `global/countries/`, `global/community/` | `<code>.ts` | Color names, country names, community texts |
 | `global/icons/` | `ltr.ts`, `rtl.ts` | Icon names that depend on text direction |
 | `service/<name>/` | `<code>.ts` | Texts for Selldone service pages (home, menus, onboarding, price list, …) |
-| `backend/lang/<code>/` | `*.php` | Laravel language files: `emails.php`, `invoice.php`, `errors.php`, `validation.php`, … |
 | `repository/` | `LanguagesRepository.ts` | Helper that loads a pack and language on demand |
 
 ### Load a pack on demand
@@ -154,28 +152,24 @@ Step-by-step instructions are in [Contributing Translations](https://github.com/
 
 ### Important: keep variables unchanged
 
-Please pay attention to variables when translating! Do not change the variables in the translation. Variable patterns
-are represented as **:variable_name** or **{variable_name}**. These variables must be exactly the same as in the
-English version. Please double-check to ensure accuracy.
+Preserve each variable exactly as it appears in the English file. For example, `shop/en.ts` uses `{days}` in
+`return_in_days`.
 
 **Wrong:**
 
-```
-"deposit-title" => "Dipòsit :import :moneda al compte :account_from.",
+```ts
+return_in_days: "Droit de retour de {jours} jours",
 ```
 
 **Valid:**
 
+```ts
+return_in_days: "Droit de retour de {days} jours",
 ```
-"deposit-title" => "Dipòsit :amount :currency al compte :account_from.",
-```
-
-The same rule applies to `{name}`-style placeholders in the TypeScript files, for example
-`"{days} Days Return Warranty"` in `shop/en.ts`.
 
 ### Translation guidelines
 
-- Use the English file (`en.ts`, or `backend/lang/en/` for PHP) as the reference.
+- Use the English `en.ts` file as the reference.
 - Keep the structure exactly the same: same keys, nesting, key order, comments (for example `/** @see SFooterSection **/`) and syntax.
 - Never translate, rename, remove or reorder keys. Translate only the human-readable values.
 - Preserve placeholders (`{name}`, `:name`, `%0`), HTML tags, URLs, emojis, `\n`, codes and enum-like values exactly.
@@ -187,111 +181,110 @@ The same rule applies to `{name}`-style placeholders in the TypeScript files, fo
 
 - **Dashboard**: The Dashboard is a management suite for merchants on Selldone.
 - **Shop**: The Shop is the storefront and customer panel for an online store.
-- **Backend**: The Backend includes emails, invoices, server-side messages, and errors.
 
-| Code  | Language         | Dashboard | Shop | Backend | Fully Human Translation |
-|-------|------------------|:---------:|:----:|:-------:|:-----------------------:|
-| AR    | عربي             |     ✓     |  ✓   |    ✓    |         Shop(✓)         |
-| BN    | বাংলা            |     ✓     |  ✓   |    ✓    |                         |
-| DA    | Dansk            |     ✓     |  ✓   |    ✓    |                         |
-| DE    | Deutsch          |     ✓     |  ✓   |         |                         |
-| EN ⭐  | English          |     ✓     |  ✓   |    ✓    |            ✓            |
-| ES    | Española         |     ✓     |  ✓   |    ✓    |                         |
-| FA    | فارسی            |     ✓     |  ✓   |    ✓    |            ✓            |
-| FR    | français         |     ✓     |  ✓   |    ✓    |                         |
-| HI    | हिंदी            |     ✓     |  ✓   |    ✓    |                         |
-| ID    | Indonesian       |     ✓     |  ✓   |    ✓    |                         |
-| JA    | 日本               |     ✓     |  ✓   |    ✓    |                         | 
-| PA    | ਪੰਜਾਬੀਆਂ         |     ✓     |  ✓   |    ✓    |                         |
-| PT    | português        |     ✓     |  ✓   |    ✓    |                         |
-| RU    | Pусский          |     ✓     |  ✓   |    ✓    |                         |
-| SV    | Svenska          |     ✓     |  ✓   |    ✓    |                         |
-| TR    | Türk             |     ✓     |  ✓   |    ✓    |                         |
-| UR    | اردو             |     ✓     |  ✓   |    ✓    |                         |
-| ZH    | 中文               |     ✓     |  ✓   |    ✓    |                         |
-| zh-TW | 中文(台灣)           |     ✓     |  ✓   |    ✓    |                         |
-| IN    | हिंदी            |     ✓     |  ✓   |    ✓    |                         |
-| AF    | Afrikaans        |     ✓     |  ✓   |    ✓    |                         |
-| SQ    | Shqip            |     ✓     |  ✓   |    ✓    |                         |
-| AZ    | Azərbaycanca     |     ✓     |  ✓   |    ✓    |                         |
-| AM    | አማርኛ             |     ✓     |  ✓   |    ✓    |                         |
-| HY    | Հայերեն          |     ✓     |  ✓   |    ✓    |                         |
-| BE    | Беларуская       |     ✓     |  ✓   |    ✓    |                         |
-| EU    | Euskara          |     ✓     |  ✓   |    ✓    |                         |
-| BG    | Български        |     ✓     |  ✓   |    ✓    |            ✓            |
-| BS    | Bosanski         |     ✓     |  ✓   |    ✓    |                         |
-| CO    | Corsu            |     ✓     |  ✓   |    ✓    |                         |
-| CA    | Català           |     ✓     |  ✓   |    ✓    |                         |
-| HR    | Hrvatski         |     ✓     |  ✓   |    ✓    |                         |
-| CS    | Česky            |     ✓     |  ✓   |    ✓    |                         |
-| NL    | Nederlands       |     ✓     |  ✓   |    ✓    |                         |
-| ET    | Eesti            |     ✓     |  ✓   |    ✓    |                         |
-| FI    | Finnish          |     ✓     |  ✓   |    ✓    |                         |
-| FY    | Frysk            |     ✓     |  ✓   |    ✓    |                         |
-| GL    | Galego           |     ✓     |  ✓   |    ✓    |                         |
-| KA    | ქართული          |     ✓     |  ✓   |    ✓    |                         |
-| EL    | Ελληνικά         |     ✓     |  ✓   |    ✓    |                         |
-| GU    | ગુજરાતી          |     ✓     |  ✓   |    ✓    |                         |
-| HT    | Krèyol ayisyen   |     ✓     |  ✓   |    ✓    |                         |
-| HA    | هَوُسَ           |     ✓     |  ✓   |    ✓    |                         |
-| HE    | עברית            |     ✓     |  ✓   |    ✓    |                         |
-| HU    | Magyar           |     ✓     |  ✓   |    ✓    |                         |
-| IS    | Íslenska         |     ✓     |  ✓   |    ✓    |                         |
-| IG    | Igbo             |     ✓     |  ✓   |    ✓    |                         |
-| GA    | Gaeilge          |     ✓     |  ✓   |    ✓    |                         |
-| IT    | Italiano         |     ✓     |  ✓   |    ✓    |            ✓            |
-| JV    | Basa Jawa        |     ✓     |  ✓   |    ✓    |                         |
-| KN    | ಕನ್ನಡ            |     ✓     |  ✓   |    ✓    |                         |
-| KK    | Қазақша          |     ✓     |  ✓   |    ✓    |                         |
-| KM    | ភាសាខ្មែរ        |     ✓     |  ✓   |    ✓    |                         |
-| RW    | Kinyarwandi      |     ✓     |  ✓   |    ✓    |                         |
-| KO    | 한국어              |     ✓     |  ✓   |    ✓    |                         |
-| KU    | Kurdî            |     ✓     |  ✓   |    ✓    |                         |
-| KY    | Кыргызча         |     ✓     |  ✓   |    ✓    |                         |
-| LO    | ລາວ / Pha xa lao |     ✓     |  ✓   |    ✓    |                         |
-| LV    | Latviešu         |     ✓     |  ✓   |    ✓    |                         |
-| LT    | Lietuvių         |     ✓     |  ✓   |    ✓    |                         |
-| LB    | Lëtzebuergesch   |     ✓     |  ✓   |    ✓    |                         |
-| MK    | Македонски       |     ✓     |  ✓   |    ✓    |                         |
-| MG    | Malagasy         |     ✓     |  ✓   |    ✓    |                         |
-| MS    | Bahasa Melayu    |     ✓     |  ✓   |    ✓    |                         |
-| ML    | മലയാളം           |     ✓     |  ✓   |    ✓    |                         |
-| MT    | bil-Malti        |     ✓     |  ✓   |    ✓    |                         |
-| MI    | Māori            |     ✓     |  ✓   |    ✓    |                         |
-| MR    | मराठी            |     ✓     |  ✓   |    ✓    |                         |
-| MN    | Монгол           |     ✓     |  ✓   |    ✓    |                         |
-| MY    | Myanmasa         |     ✓     |  ✓   |    ✓    |                         |
-| NE    | नेपाली           |     ✓     |  ✓   |    ✓    |                         |
-| NO    | Norsk            |     ✓     |  ✓   |    ✓    |                         |
-| NY    | Chi-Chewa        |     ✓     |  ✓   |    ✓    |                         |
-| OR    | ଓଡ଼ିଆ            |     ✓     |  ✓   |    ✓    |                         |
-| PS    | پښتو             |     ✓     |  ✓   |    ✓    |                         |
-| PL    | Polski           |     ✓     |  ✓   |    ✓    |                         |
-| RO    | Română           |     ✓     |  ✓   |    ✓    |                         |
-| SR    | Српски           |     ✓     |  ✓   |    ✓    |                         |
-| ST    | Sesotho          |     ✓     |  ✓   |    ✓    |                         |
-| SN    | chiShona         |     ✓     |  ✓   |    ✓    |                         |
-| SI    | සිංහල            |     ✓     |  ✓   |    ✓    |                         |
-| SK    | Slovenčina       |     ✓     |  ✓   |    ✓    |                         |
-| SL    | Slovenščina      |     ✓     |  ✓   |    ✓    |                         |
-| SO    | Soomaaliga       |     ✓     |  ✓   |    ✓    |                         |
-| SU    | Basa Sunda       |     ✓     |  ✓   |    ✓    |                         |
-| SW    | Kiswahili        |     ✓     |  ✓   |    ✓    |                         |
-| TG    | Тоҷикӣ           |     ✓     |  ✓   |    ✓    |                         |
-| TA    | தமிழ்            |     ✓     |  ✓   |    ✓    |                         |
-| TT    | Tatarça          |     ✓     |  ✓   |    ✓    |                         |
-| TE    | తెలుగు           |     ✓     |  ✓   |    ✓    |                         |
-| TH    | ไทย              |     ✓     |  ✓   |    ✓    |                         |
-| TK    | Туркмен          |     ✓     |  ✓   |    ✓    |                         |
-| UK    | Українська       |     ✓     |  ✓   |    ✓    |                         |
-| UG    | Uyƣurqə          |     ✓     |  ✓   |    ✓    |                         |
-| UZ    | Ўзбек            |     ✓     |  ✓   |    ✓    |                         |
-| VI    | Tiếng Việt       |     ✓     |  ✓   |    ✓    |                         |
-| CY    | Cymraeg          |     ✓     |  ✓   |    ✓    |                         |
-| XH    | isiXhosa         |     ✓     |  ✓   |    ✓    |                         |
-| YI    | ייִדיש           |     ✓     |  ✓   |    ✓    |                         |
-| YO    | Yorùbá           |     ✓     |  ✓   |    ✓    |                         |
-| ZU    | isiZulu          |     ✓     |  ✓   |    ✓    |                         |
+| Code  | Language         | Dashboard | Shop | Fully Human Translation |
+|-------|------------------|:---------:|:----:|:-----------------------:|
+| AR    | عربي             |     ✓     |  ✓   |         Shop(✓)         |
+| BN    | বাংলা            |     ✓     |  ✓   |                         |
+| DA    | Dansk            |     ✓     |  ✓   |                         |
+| DE    | Deutsch          |     ✓     |  ✓   |                         |
+| EN ⭐  | English          |     ✓     |  ✓   |            ✓            |
+| ES    | Española         |     ✓     |  ✓   |                         |
+| FA    | فارسی            |     ✓     |  ✓   |            ✓            |
+| FR    | français         |     ✓     |  ✓   |                         |
+| HI    | हिंदी            |     ✓     |  ✓   |                         |
+| ID    | Indonesian       |     ✓     |  ✓   |                         |
+| JA    | 日本               |     ✓     |  ✓   |                         |
+| PA    | ਪੰਜਾਬੀਆਂ         |     ✓     |  ✓   |                         |
+| PT    | português        |     ✓     |  ✓   |                         |
+| RU    | Pусский          |     ✓     |  ✓   |                         |
+| SV    | Svenska          |     ✓     |  ✓   |                         |
+| TR    | Türk             |     ✓     |  ✓   |                         |
+| UR    | اردو             |     ✓     |  ✓   |                         |
+| ZH    | 中文               |     ✓     |  ✓   |                         |
+| zh-TW | 中文(台灣)           |     ✓     |  ✓   |                         |
+| IN    | हिंदी            |     ✓     |  ✓   |                         |
+| AF    | Afrikaans        |     ✓     |  ✓   |                         |
+| SQ    | Shqip            |     ✓     |  ✓   |                         |
+| AZ    | Azərbaycanca     |     ✓     |  ✓   |                         |
+| AM    | አማርኛ             |     ✓     |  ✓   |                         |
+| HY    | Հայերեն          |     ✓     |  ✓   |                         |
+| BE    | Беларуская       |     ✓     |  ✓   |                         |
+| EU    | Euskara          |     ✓     |  ✓   |                         |
+| BG    | Български        |     ✓     |  ✓   |            ✓            |
+| BS    | Bosanski         |     ✓     |  ✓   |                         |
+| CO    | Corsu            |     ✓     |  ✓   |                         |
+| CA    | Català           |     ✓     |  ✓   |                         |
+| HR    | Hrvatski         |     ✓     |  ✓   |                         |
+| CS    | Česky            |     ✓     |  ✓   |                         |
+| NL    | Nederlands       |     ✓     |  ✓   |                         |
+| ET    | Eesti            |     ✓     |  ✓   |                         |
+| FI    | Finnish          |     ✓     |  ✓   |                         |
+| FY    | Frysk            |     ✓     |  ✓   |                         |
+| GL    | Galego           |     ✓     |  ✓   |                         |
+| KA    | ქართული          |     ✓     |  ✓   |                         |
+| EL    | Ελληνικά         |     ✓     |  ✓   |                         |
+| GU    | ગુજરાતી          |     ✓     |  ✓   |                         |
+| HT    | Krèyol ayisyen   |     ✓     |  ✓   |                         |
+| HA    | هَوُسَ           |     ✓     |  ✓   |                         |
+| HE    | עברית            |     ✓     |  ✓   |                         |
+| HU    | Magyar           |     ✓     |  ✓   |                         |
+| IS    | Íslenska         |     ✓     |  ✓   |                         |
+| IG    | Igbo             |     ✓     |  ✓   |                         |
+| GA    | Gaeilge          |     ✓     |  ✓   |                         |
+| IT    | Italiano         |     ✓     |  ✓   |            ✓            |
+| JV    | Basa Jawa        |     ✓     |  ✓   |                         |
+| KN    | ಕನ್ನಡ            |     ✓     |  ✓   |                         |
+| KK    | Қазақша          |     ✓     |  ✓   |                         |
+| KM    | ភាសាខ្មែរ        |     ✓     |  ✓   |                         |
+| RW    | Kinyarwandi      |     ✓     |  ✓   |                         |
+| KO    | 한국어              |     ✓     |  ✓   |                         |
+| KU    | Kurdî            |     ✓     |  ✓   |                         |
+| KY    | Кыргызча         |     ✓     |  ✓   |                         |
+| LO    | ລາວ / Pha xa lao |     ✓     |  ✓   |                         |
+| LV    | Latviešu         |     ✓     |  ✓   |                         |
+| LT    | Lietuvių         |     ✓     |  ✓   |                         |
+| LB    | Lëtzebuergesch   |     ✓     |  ✓   |                         |
+| MK    | Македонски       |     ✓     |  ✓   |                         |
+| MG    | Malagasy         |     ✓     |  ✓   |                         |
+| MS    | Bahasa Melayu    |     ✓     |  ✓   |                         |
+| ML    | മലയാളം           |     ✓     |  ✓   |                         |
+| MT    | bil-Malti        |     ✓     |  ✓   |                         |
+| MI    | Māori            |     ✓     |  ✓   |                         |
+| MR    | मराठी            |     ✓     |  ✓   |                         |
+| MN    | Монгол           |     ✓     |  ✓   |                         |
+| MY    | Myanmasa         |     ✓     |  ✓   |                         |
+| NE    | नेपाली           |     ✓     |  ✓   |                         |
+| NO    | Norsk            |     ✓     |  ✓   |                         |
+| NY    | Chi-Chewa        |     ✓     |  ✓   |                         |
+| OR    | ଓଡ଼ିଆ            |     ✓     |  ✓   |                         |
+| PS    | پښتو             |     ✓     |  ✓   |                         |
+| PL    | Polski           |     ✓     |  ✓   |                         |
+| RO    | Română           |     ✓     |  ✓   |                         |
+| SR    | Српски           |     ✓     |  ✓   |                         |
+| ST    | Sesotho          |     ✓     |  ✓   |                         |
+| SN    | chiShona         |     ✓     |  ✓   |                         |
+| SI    | සිංහල            |     ✓     |  ✓   |                         |
+| SK    | Slovenčina       |     ✓     |  ✓   |                         |
+| SL    | Slovenščina      |     ✓     |  ✓   |                         |
+| SO    | Soomaaliga       |     ✓     |  ✓   |                         |
+| SU    | Basa Sunda       |     ✓     |  ✓   |                         |
+| SW    | Kiswahili        |     ✓     |  ✓   |                         |
+| TG    | Тоҷикӣ           |     ✓     |  ✓   |                         |
+| TA    | தமிழ்            |     ✓     |  ✓   |                         |
+| TT    | Tatarça          |     ✓     |  ✓   |                         |
+| TE    | తెలుగు           |     ✓     |  ✓   |                         |
+| TH    | ไทย              |     ✓     |  ✓   |                         |
+| TK    | Туркмен          |     ✓     |  ✓   |                         |
+| UK    | Українська       |     ✓     |  ✓   |                         |
+| UG    | Uyƣurqə          |     ✓     |  ✓   |                         |
+| UZ    | Ўзбек            |     ✓     |  ✓   |                         |
+| VI    | Tiếng Việt       |     ✓     |  ✓   |                         |
+| CY    | Cymraeg          |     ✓     |  ✓   |                         |
+| XH    | isiXhosa         |     ✓     |  ✓   |                         |
+| YI    | ייִדיש           |     ✓     |  ✓   |                         |
+| YO    | Yorùbá           |     ✓     |  ✓   |                         |
+| ZU    | isiZulu          |     ✓     |  ✓   |                         |
 
 ### +140 currencies
 
@@ -308,7 +301,7 @@ The world's most easy-to-scale Business OS. View the list of
 |---|---|
 | [Home](https://github.com/selldone/translate/wiki) | What the project contains and where it is used |
 | [Getting Started](https://github.com/selldone/translate/wiki/Getting-Started) | Install the package and load a language in a Vue app |
-| [Translation Structure](https://github.com/selldone/translate/wiki/Translation-Structure) | Dashboard, shop, backend, global and service packs explained |
+| [Translation Structure](https://github.com/selldone/translate/wiki/Translation-Structure) | Dashboard, shop, global and service packs explained |
 | [Contributing Translations](https://github.com/selldone/translate/wiki/Contributing-Translations) | How to submit a correction or a new translation, step by step |
 | [Translator Rules](https://github.com/selldone/translate/wiki/Translator-Rules) | Variables, HTML, structure and style rules for translators |
 | [Using the npm Package](https://github.com/selldone/translate/wiki/Using-the-npm-Package) | `vue-i18n` setup, on-demand loading, RTL icons, shop overrides |
@@ -318,9 +311,8 @@ The world's most easy-to-scale Business OS. View the list of
 
 Translate is the language layer of the Selldone open-source ecosystem. The
 [Storefront](https://github.com/selldone/storefront) imports the `shop`, `global`, `community`, `countries` and
-`icons` packs; [Components](https://github.com/selldone/components) depends on the package for its texts and uses
-`LanguagesRepository` in the language override editor; and the Selldone backend uses the PHP files for emails and
-invoices.
+`icons` packs. [Components](https://github.com/selldone/components) depends on the package for its texts and uses
+`LanguagesRepository` in the language override editor.
 
 <p align="center">
   <a href="https://github.com/selldone#ecosystem"><img src="https://raw.githubusercontent.com/selldone/.github/main/profile/assets/selldone-ecosystem.jpg" alt="Selldone open-source ecosystem map" width="100%"></a>
