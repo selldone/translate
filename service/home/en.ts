@@ -124,30 +124,29 @@ export default {
     payment_methods_aria: "Supported payment providers and methods",
 
     step0: {
-      title: "Designed for Shoppers, Adored by Sellers, Just One Step Away.",
-      msg1: "Experience the power of real ecommerce, build a loyal customer base, and focus on what you love with our tool.",
+      title: "Designed for shoppers, loved by sellers, ready on day one.",
+      msg1: "Start with a complete ecommerce experience, build a loyal customer base, and spend your time on what you sell.",
       action_aria: "Explore Selldone storefront features",
     },
     step1: {
-      title: "Add Your Products.",
-      msg1: "Easily add products manually or import up to 100,000 items with an excel file. Sell products, services, subscriptions, and files all in one place, just like adding photos on instagram!",
+      title: "Add your products.",
+      msg1: "Add products by hand or import up to 100,000 items from an Excel file. Sell physical products, services, subscriptions, and files from one catalog.",
       action_aria: "Learn about product and logistics management",
     },
     step2: {
-      title: "Connect Payment Methods that Meet Your Needs.",
-      msg1: "We are not interested in interfering in financial transactions! 100% of customers' payments will be transfered directly to your bank account. Just connect your Stripe, PayPal, etc. You can have multiple active payment services in your store at the same time!",
+      title: "Connect the payment methods you need.",
+      msg1: "Selldone stays out of the money flow: customer payments go directly to your own accounts. Connect Stripe, PayPal, and other providers, and keep several payment services active at the same time.",
       crypto_msg: "Available for active merchants",
     },
     step3: {
-      title: "White Label, Flexible, and Deeply Customizable.",
-      msg1: "Easily design your landing pages and customize the theme colors of your site to reflect your brand message with the drag-and-drop feature - no expert required.",
+      title: "White label, flexible, and deeply customizable.",
+      msg1: "Design landing pages and match your site's theme colors to your brand with drag and drop. No developer required.",
       view_sample_pages: "Great SD Stores to Inspire You",
       action_aria: "Explore the Selldone Landing Builder",
     },
     step4: {
-      title:
-        "One-click checkout: Unified checkout experience around the world.",
-      msg1: "Customers do not have to enter the information and fill out the registration form to buy from you! They log in via SMS and fill the checkout form with one click and pay. You grow, we grow.",
+      title: "One-click checkout, unified around the world.",
+      msg1: "Customers skip long registration forms. They sign in with an SMS code, confirm their checkout details in one click, and pay. As you grow, we grow.",
       action_aria: "Learn how Selldone Business OS works",
     },
     marketplace: {
@@ -602,6 +601,10 @@ export default {
       empty: "New official layouts will appear here when published.",
       retry: "Try again",
       swipe: "Swipe to explore layouts",
+      browse_title: "More looks in the layout catalog",
+      browse_body:
+        "Compare every official layout, open its live demo, and pick the one that fits your brand.",
+      browse_action: "Browse all layouts",
       journey_eyebrow: "Three steps. One conversation.",
       journey_title: "Your AI builds it.",
       journey_title_accent: "You make it yours.",
@@ -643,33 +646,6 @@ export default {
         backoffice: "Custom back office",
         vendor: "Vendor & partner panels",
         landing: "Landing experiences",
-      },
-      business_models: {
-        label: "What are you building?",
-        hint: "Choose a model to preview how Genesis shapes its storefront and operations.",
-        aria: "Choose a business model to preview in Selldone Genesis",
-        items: {
-          store: {
-            label: "Online store",
-            short: "Products, checkout, orders, and fulfillment",
-          },
-          marketplace: {
-            label: "Multi-vendor marketplace",
-            short: "Vendors, commissions, payouts, and shared operations",
-          },
-          pod: {
-            label: "Print on demand",
-            short: "Designs, production, and fulfillment per order",
-          },
-          services: {
-            label: "Services & booking",
-            short: "Availability, appointments, listings, and providers",
-          },
-          social: {
-            label: "Social commerce",
-            short: "Mobile-first journeys from social content to checkout",
-          },
-        },
       },
       surface_tabs_aria: "Genesis interface examples",
       live_preview: "Interface preview",
@@ -837,8 +813,8 @@ export default {
     },
     features: {
       eyebrow: "Built-in Business OS",
-      title: "One operating system your AI can actually operate.",
-      title_accent: "No plugin maze in the middle.",
+      title: "One operating system your AI can operate.",
+      title_accent: "No plugin maze.",
       lead: "Selldone keeps commerce, operations, growth, and customer experience in one connected model. Your team—and your AI agent—can coordinate real work end to end instead of stitching disconnected apps together.",
       pillars_aria: "Selldone Business OS capability groups",
       pillars: {
@@ -899,7 +875,7 @@ export default {
       },
       builder: {
         label: "Landing & Page Builder",
-        title: "Go from an idea to a live campaign in one workspace.",
+        title: "From idea to live campaign, in one workspace.",
         description:
           "Start visually, ask AI to prepare a page, or combine both. Every landing stays connected to your real catalog, offers, customers, and analytics.",
         items: {

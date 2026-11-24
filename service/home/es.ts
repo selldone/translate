@@ -596,33 +596,6 @@ export default {
         vendor: "Paneles de vendedores y socios",
         landing: "Páginas de destino a medida",
       },
-      business_models: {
-        label: "¿Qué estás construyendo?",
-        hint: "Elige un modelo para previsualizar cómo Genesis da forma a su escaparate y sus operaciones.",
-        aria: "Elige un modelo de negocio para previsualizarlo en Selldone Genesis",
-        items: {
-          store: {
-            label: "Tienda en línea",
-            short: "Productos, pago, pedidos y procesamiento",
-          },
-          marketplace: {
-            label: "Marketplace multivendedor",
-            short: "Vendedores, comisiones, pagos y operaciones compartidas",
-          },
-          pod: {
-            label: "Impresión bajo demanda",
-            short: "Diseños, producción y procesamiento por pedido",
-          },
-          services: {
-            label: "Servicios y reservas",
-            short: "Disponibilidad, citas, listados y proveedores",
-          },
-          social: {
-            label: "Comercio social",
-            short: "Recorridos pensados para móvil, del contenido social al pago",
-          },
-        },
-      },
       surface_tabs_aria: "Ejemplos de interfaces de Genesis",
       live_preview: "Vista previa de la interfaz",
       ai_built_label: "Creado con IA",

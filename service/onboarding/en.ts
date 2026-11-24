@@ -304,6 +304,7 @@ export default {
       lifetime: "Lifetime",
       months: "{count} months",
       total: "Total to pay",
+      converted: "Price converted from {price} at the current exchange rate.",
       continue: "Continue to payment",
       secure_payment_by: "Secure payment by",
       unavailable: "Payment is currently unavailable for this deal.",

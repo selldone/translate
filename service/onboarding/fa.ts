@@ -299,6 +299,7 @@ export default {
       lifetime: "مادام‌العمر",
       months: "{count} ماه",
       total: "مبلغ قابل پرداخت",
+      converted: "قیمت از {price} با نرخ ارز فعلی تبدیل شده است.",
       continue: "ادامه و پرداخت",
       secure_payment_by: "پرداخت امن با",
       unavailable: "پرداخت این پیشنهاد فعلاً در دسترس نیست.",
