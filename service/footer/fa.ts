@@ -22,6 +22,8 @@ export default {
     about_us: "درباره سلدان",
 
     supported_countries_and_payments:"کشورها و روش های پرداخت پشتیبانی شده",
+    sms_providers: "سرویس‌های پیامک",
+    email_providers: "سرویس‌های ایمیل",
 
     affiliate_program: 'برنامه همکاری در فروش',
     business_idea: "ایده‌های کسب و کار",

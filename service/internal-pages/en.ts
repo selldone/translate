@@ -250,55 +250,653 @@ export default {
    * @see SupportCountriesPage
    */
 
-  support_countries:{
-    title:"Unlock Your Potential <br />In The Global Marketplace",
-    subtitle:"Welcome to Selldone Business OS - the future of commerce services. Move beyond the constraints of traditional e-commerce platforms. Experience a world with no themes, no plugins, and no code to limit your creativity. Unleash the power of visual design and make your store truly stand out.<br /><b>Experience commerce, 100% visually!</b>",
-
-
-   support_countries_and_payments :"Supported Countries and Payments",
+  support_countries: {
+    eyebrow: "Global commerce",
+    title: "Sell to the world.",
+    title_accent: "Get paid like a local.",
+    subtitle: "Local currencies, the payment gateways each market trusts and your customers' own language are built into every Selldone store, wherever you sell.",
+    find_country: "Find your country",
+    facts: {
+      countries: "Countries and territories",
+      currencies: "Currencies",
+      gateways: "Online payment gateways",
+      languages: "Languages",
+    },
+    currencies: {
+      eyebrow: "Local currencies",
+      title: "Prices in the money",
+      title_accent: "your customers already use.",
+      lead: "Turn on the currencies you sell in, then set each exchange rate yourself or keep it updated automatically. Shoppers browse, compare and pay in their own currency, so nothing feels foreign at checkout.",
+      point_ready_title: "{count} currencies ready to enable",
+      point_ready: "From the US dollar and the euro to the regional currencies most platforms leave out.",
+      point_checkout_title: "Checkout that follows the currency",
+      point_checkout: "Customers only see the payment gateways that accept the currency they are paying in.",
+      art_title: "Choose a currency",
+      art_more: "+{count} more",
+    },
+    payments: {
+      eyebrow: "Local payments",
+      title: "Accept the ways",
+      title_accent: "each market prefers to pay.",
+      lead: "Connect global processors and regional gateways side by side. Cards, wallets and local bank methods share one checkout, and the list below shows what is available in each country.",
+      point_connect_title: "Connect without code",
+      point_connect: "Add your gateway credentials in the dashboard. No plugins, extensions or developers needed.",
+      point_links_title: "Details for every gateway",
+      point_links: "Open a gateway to see what it offers, the currencies it accepts and how to connect it.",
+      art_title: "Payment gateways",
+      failed: "Payment gateways could not be loaded.",
+      retry: "Try again",
+    },
+    list: {
+      eyebrow: "Country by country",
+      title: "See what works",
+      title_accent: "in your country.",
+      lead: "Search a country, currency or gateway to see the currency, languages and online payment gateways available to stores selling there.",
+      search: "Search a country, currency or gateway",
+      search_hint: "Country, currency or gateway",
+      clear: "Clear search",
+      count: "{count} countries and territories",
+      count_filtered: "{count} of {total} countries",
+      region_label: "Countries with their currencies, languages and payment gateways",
+      worldwide: "Worldwide",
+      languages: "Languages",
+      gateways: "Online payment gateways",
+      no_gateway: "No online gateway listed yet",
+      no_results: "No country, currency or gateway matches “{query}”.",
+      open_country: "Selling in {country}",
+      show_all: "Show the full list",
+      show_less: "Show a shorter list",
+    },
     community_translate: {
-      title: "Enhance Your Community Experience",
-      subtitle: "Help improve the translation of the Business OS dashboard, storefront, and all Selldone components to make them more culturally relevant and user-friendly for your community."
-    }
+      eyebrow: "Open-source translations",
+      title: "Make Selldone sound",
+      title_accent: "native in your language.",
+      subtitle: "The dashboard, the storefront and every Selldone component are translated in the open on GitHub. Fix a phrase, add a missing term or adapt the wording to your culture; merged changes reach merchants and shoppers in the next release.",
+      action: "Contribute on GitHub",
+      new_tab: "opens GitHub in a new tab",
+    },
+    faq: {
+      title: "Payment gateway questions",
+      description: "Which gateways Selldone supports, what each one does and the currencies it accepts.",
+      show_all: "Show all {count} questions",
+      show_less: "Show fewer questions",
+    },
+    closing: {
+      eyebrow: "Our mission",
+      title: "Make business easy, achievable and accessible for anyone, anywhere.",
+      lead: "Start in your own market and add the next country when you are ready, with the same store and the same dashboard.",
+      action: "See plans and pricing",
+    },
+  },
+
+  /**
+   * @see OPageRedAlert
+   */
+  red_alert: {
+    eyebrow: "Red Alert · Safety program",
+    title: "Something wrong at a store?",
+    title_accent: "Tell us.",
+    lead: "Report fraud, scams or other criminal activity connected to a store built on Selldone. Our safety team reviews every report and acts on the store when it is confirmed.",
+    promises: {
+      private: {
+        title: "Only Selldone sees your report",
+        text: "The store is not notified when you send it.",
+      },
+      reviewed: {
+        title: "Every report is reviewed",
+        text: "Our safety team checks it and acts when the report is confirmed.",
+      },
+      agencies: {
+        title: "Police and agencies welcome",
+        text: "Law enforcement can report here too; choose your organization in the form.",
+      },
+    },
+    emergency: {
+      title: "In immediate danger?",
+      text: "Call your local emergency number first. This form is not an emergency service.",
+    },
+    signin: {
+      title: "Sign in to send a report",
+      text: "We ask reporters to sign in so we can follow up and keep this form free of abuse.",
+      action: "Sign in or create an account",
+    },
+    form: {
+      title: "Report a store",
+      subtitle: "Fields marked * are required.",
+      reporting_as: "Reporting as",
+      store: "Store address",
+      store_hint: "The store's web address: its Selldone address or its own domain.",
+      store_found: "Store found on Selldone",
+      store_not_found: "We couldn't match this address to a Selldone store. You can still send the report.",
+      activity: "What kind of activity?",
+      activity_hint: "Choose the closest match.",
+      message: "What happened?",
+      message_hint: "Include dates, order numbers, links and anything else that helps us check the report.",
+      reporter: "You are reporting as",
+      reporter_hint: "Tell us who is sending this report.",
+      follow_up: "You can contact me about this report",
+      follow_up_text: "Our team may reach out for more details or follow-up.",
+      submit: "Send report",
+      privacy: "Your report goes only to Selldone's safety team.",
+      required: "This field is required.",
+    },
+    success: {
+      title: "Report received",
+      text: "Thank you for helping keep Selldone stores safe. Our safety team will review your report.",
+      again: "Send another report",
+    },
+    steps: {
+      eyebrow: "After you report",
+      title: "What happens",
+      title_accent: "next.",
+      send: {
+        title: "You send the report",
+        text: "We match the address to the store on Selldone and file your report for review.",
+      },
+      review: {
+        title: "Our safety team reviews it",
+        text: "Each report is checked. If you allowed follow-up, we may contact you for details.",
+      },
+      act: {
+        title: "We act when it's confirmed",
+        text: "Confirmed reports lead to action on the store under Selldone's terms of service.",
+      },
+    },
+    kinds: {
+      eyebrow: "What you can report",
+      title: "Activity we",
+      title_accent: "want to hear about.",
+      lead: "Pick one to start a report with it selected.",
+      report: "Report this",
+      other: "Something else? Choose Other in the form and describe it.",
+    },
+    reporters: {
+      individual: {
+        title: "Individual",
+        text: "A private person reporting on their own behalf.",
+      },
+      local_police: {
+        title: "Local police",
+        text: "A local law enforcement agency.",
+      },
+      official: {
+        title: "Official organization",
+        text: "A government body or international agency, such as the FBI or Interpol.",
+      },
+      other: {
+        title: "Other",
+        text: "Any other organization or role.",
+      },
+    },
+    activities: {
+      fraud: {
+        title: "Fraud",
+        text: "Scams, fake products, phishing or identity theft for financial gain.",
+      },
+      theft: {
+        title: "Theft",
+        text: "Taking or selling property without the owner's permission.",
+      },
+      money_laundering: {
+        title: "Money laundering",
+        text: "Hiding where illegally obtained money came from through a business.",
+      },
+      human_trafficking: {
+        title: "Human trafficking",
+        text: "Exploiting or trading people, including forced labor and sexual exploitation.",
+      },
+      assault: {
+        title: "Assault",
+        text: "A physical attack or a threat of violence against a person.",
+      },
+      vandalism: {
+        title: "Vandalism",
+        text: "Deliberately destroying or defacing property.",
+      },
+      other: {
+        title: "Other",
+        text: "Criminal activity that is not listed above.",
+      },
+    },
+  },
+
+  /**
+   * @see IntegrationSmsPage (/integrations/sms)
+   */
+  sms_providers: {
+    // Shown under the provider picker in Settings › SMS.
+    dashboard_link: {
+      text: "Looking for another provider?",
+      action: "See every supported provider by country",
+    },
+    breadcrumb: "Breadcrumb",
+    crumb_integrations: "Integrations",
+    eyebrow: "SMS providers",
+    title: "Send your store's SMS through",
+    title_accent: "a provider your market trusts.",
+    lead: "Connect your own SMS account to send sign-in codes and order updates, through a global network or the local service your customers' carriers prefer.",
+    find_country: "Find your country",
+    request_provider: "Request a provider",
+    facts: {
+      providers: "SMS providers",
+      countries: "Countries with a local provider",
+      worldwide: "Worldwide providers",
+    },
+    art: {
+      sender: "Bloom Studio",
+      code: "482913 is your sign-in code for Bloom Studio.",
+      order: "Your order #1042 is on its way. Thanks for shopping with us!",
+      store: "Your store",
+      provider: "Your provider",
+      customer: "Customer",
+    },
+    how: {
+      eyebrow: "How it works",
+      title: "Your account, your sender,",
+      title_accent: "your rates.",
+      lead: "Messages go out through the SMS account you connect, with your sender settings and your provider's pricing.",
+      connect: {
+        title: "Connect in a few minutes",
+        text: "In your dashboard, open Settings › SMS, choose a provider, enter its credentials and send a test message.",
+      },
+      send: {
+        title: "Codes and updates go out",
+        text: "Customer sign-in codes, order updates and vendor notifications are sent through your own account.",
+      },
+      secure: {
+        title: "Credentials stay encrypted",
+        text: "Your keys are stored encrypted, and secret values are never shown again after you save them.",
+      },
+    },
+    coverage: {
+      eyebrow: "Coverage",
+      title: "Find the providers for",
+      title_accent: "your country.",
+      lead: "Every provider below can be connected to a Selldone store today. Search a country or a provider name.",
+      search: "Search a country or provider",
+      clear: "Clear search",
+      count: "{providers} providers · {countries} countries",
+      count_filtered: "Countries found: {countries}",
+      failed: "The provider list could not be loaded.",
+      retry: "Try again",
+      worldwide_title: "Worldwide providers",
+      worldwide_in: "Worldwide providers that also deliver in {country}",
+      worldwide_text: "They deliver to almost every country, a good fit when you sell across borders.",
+      local_title: "Local providers by country",
+      local_text: "Local services often reach their country's carriers with better delivery and pricing.",
+      website: "Website",
+      website_new_tab: "opens the provider's website in a new tab",
+      no_results: "No country or provider matches “{query}”.",
+      missing: "Don't see the provider you use?",
+    },
+    tags: {
+      verify: "Built-in code verification",
+      templates: "Templates",
+      templates_only: "Approved templates only",
+      local_only: "Local numbers only",
+    },
+    request: {
+      eyebrow: "Request a provider",
+      title: "Need another provider?",
+      title_accent: "We'll add it.",
+      lead: "Selldone keeps adding SMS providers. Tell us which one you need and, if you can, share its API documentation.",
+      ask: {
+        title: "Send a request",
+        text: "Anyone can ask for a provider. Our support team reviews every request.",
+        action: "Contact support",
+      },
+      enterprise: {
+        badge: "Fastest way",
+        title: "Get it added quickly with Enterprise",
+        text: "Buy a one-month Enterprise plan, send your request, and our team adds the provider to Selldone for you as a priority.",
+        steps: {
+          buy: "Buy one month of the Enterprise plan.",
+          send: "Send support the provider's name and its API documentation.",
+          added: "We add it and tell you when it's ready to connect in Settings › SMS.",
+        },
+        action: "See the Enterprise plan",
+        note: "One month of Enterprise is enough to place the request.",
+      },
+    },
+    faq: {
+      title: "SMS provider questions",
+      description: "What you need before you connect a provider, and what to do when yours isn't listed.",
+      items: {
+        own_account: {
+          q: "Do I need my own SMS account?",
+          a: "Yes, for sign-in codes. Your store's sign-in codes are sent only through the provider account you connect, so set one up before you turn on SMS sign-in.",
+        },
+        billing: {
+          q: "Who pays for the messages?",
+          a: "Your provider bills you under your own agreement with them, at their prices for the countries you send to.",
+        },
+        connect: {
+          q: "Where do I connect a provider?",
+          a: "In your dashboard, go to Settings › SMS, choose your provider, enter its credentials and send a test message to check the connection.",
+        },
+        templates: {
+          q: "What if my provider only sends approved templates?",
+          a: "Some providers and regulators deliver only pre-approved templates. Selldone sends template messages through those providers, and the list above marks which ones require them.",
+        },
+        request: {
+          q: "Can you add a provider that isn't listed?",
+          a: "Yes. Send a request to support. With a one-month Enterprise plan, our team adds the provider for you as a priority.",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see IntegrationEmailPage (/integrations/email)
+   */
+  email_providers: {
+    breadcrumb: "Breadcrumb",
+    crumb_integrations: "Integrations",
+    eyebrow: "Email providers",
+    title: "Send your store's email",
+    title_accent: "from your own domain.",
+    lead: "Connect the email service you trust, from delivery platforms built for volume to the business mailbox you already use, so order emails reach customers from your own address.",
+    browse: "Browse email services",
+    request_provider: "Request a provider",
+    facts: {
+      providers: "Email services",
+      api: "Direct API integrations",
+      mailboxes: "Business mailboxes",
+    },
+    art: {
+      inbox: "Inbox",
+      sender: "Bloom Studio",
+      subject: "Your order #1042 is confirmed",
+      button: "Track your order",
+      store: "Your store",
+      provider: "Email service",
+      inbox_node: "Inbox",
+    },
+    how: {
+      eyebrow: "How it works",
+      title: "Your domain, your service,",
+      title_accent: "your reputation.",
+      lead: "Without your own service, Selldone sends your store's email from an address on your store's Selldone domain. Connect one to send from your own domain instead.",
+      connect: {
+        title: "Connect in Settings › Email",
+        text: "Choose your service. For SMTP services the server, port and encryption come prefilled from the provider's own setup guide; add your credentials and save.",
+      },
+      send: {
+        title: "Your store's email goes through it",
+        text: "Order updates, customer sign-in codes and your other store emails are sent through the service you connect.",
+      },
+      secure: {
+        title: "Keys stay private",
+        text: "API keys and passwords are write-only: once saved, they are never shown again in the dashboard.",
+      },
+    },
+    catalog: {
+      eyebrow: "Email services",
+      title: "Pick the service",
+      title_accent: "that fits your store.",
+      lead: "Every service below works with a Selldone store today. Search by name.",
+      search: "Search an email service",
+      clear: "Clear search",
+      count: "{count} email services",
+      count_filtered: "Services found: {count}",
+      failed: "The service list could not be loaded.",
+      retry: "Try again",
+      website: "Website",
+      website_new_tab: "opens the service's website in a new tab",
+      no_results: "No email service matches “{query}”.",
+      missing: "Don't see the service you use?",
+      groups: {
+        delivery: {
+          title: "Email delivery services",
+          text: "Made for sending store email at volume, from order confirmations to newsletters.",
+        },
+        mailbox: {
+          title: "Business mailboxes",
+          text: "Send from the mailbox you already use. Mailbox providers limit how many emails you can send each day.",
+        },
+        custom: {
+          title: "Any SMTP server",
+          text: "Use your hosting company's mail server or any service that offers SMTP.",
+        },
+      },
+    },
+    tags: {
+      api: "Direct API",
+      smtp: "SMTP",
+      regions: "Choice of data region",
+      popular: "Popular",
+    },
+    request: {
+      eyebrow: "Request a provider",
+      title: "Need a direct integration?",
+      title_accent: "We'll add it.",
+      lead: "Most services already work through Custom SMTP. If you want a direct integration with another service, tell us which one and share its API documentation if you can.",
+      ask: {
+        title: "Send a request",
+        text: "Anyone can ask for a provider. Our support team reviews every request.",
+        action: "Contact support",
+      },
+      enterprise: {
+        badge: "Fastest way",
+        title: "Get it added quickly with Enterprise",
+        text: "Buy a one-month Enterprise plan, send your request, and our team adds the provider to Selldone for you as a priority.",
+        steps: {
+          buy: "Buy one month of the Enterprise plan.",
+          send: "Send support the service's name and its API documentation.",
+          added: "We add it and tell you when it's ready to connect in Settings › Email.",
+        },
+        action: "See the Enterprise plan",
+        note: "One month of Enterprise is enough to place the request.",
+      },
+    },
+    faq: {
+      title: "Email provider questions",
+      description: "What changes when you connect your own email service, and what to do when yours isn't listed.",
+      items: {
+        own_service: {
+          q: "Do I need my own email service?",
+          a: "No. Without one, Selldone sends your store's email from an address on your store's Selldone domain. Connect a service to send from your own domain and keep its sending reputation in your hands.",
+        },
+        api_or_smtp: {
+          q: "What is the difference between a direct API and SMTP?",
+          a: "Both deliver the same email. A direct API sends through the provider's web API with a key, and SMTP sends through its mail server with a username and password. Use whichever your provider recommends.",
+        },
+        connect: {
+          q: "Where do I connect an email service?",
+          a: "In your dashboard, go to Settings › Email, open Delivery, choose your service and enter its credentials. Server details are prefilled for known SMTP services, and you can change them.",
+        },
+        secure: {
+          q: "Are my API keys and passwords safe?",
+          a: "They are write-only. After you save them, the dashboard only shows whether a value is stored, never the value itself.",
+        },
+        request: {
+          q: "Can you add a service that isn't listed?",
+          a: "Any service with an SMTP server already works through Custom SMTP. For a direct integration, send a request to support. With a one-month Enterprise plan, our team adds it for you as a priority.",
+        },
+      },
+    },
   },
 
 
-    /**
-     * @see Affiliate_LandingPage
-     */
-    affiliate: {
-        title: "Join Our Affiliate Program",
-        subtitle: "Be part of an exciting journey and create a lifetime passive income stream for yourself.",
-        lifetime_revenue: {
-            title: "Earn Lifetime Revenue",
-            subtitle: "Our Affiliate Program is designed to be simple and rewarding. Share your unique link to invite new users to Selldone, and you'll earn a commission on every transaction they make—for life. This includes earnings from subscriptions, service fees, shop upgrades, and more. There are no limits on how much or how long you can earn. Join us today and start turning your network into a steady stream of income!"
+  /**
+   * @see Affiliate_LandingPage (/referral)
+   */
+  affiliate: {
+    hero: {
+      eyebrow: "Selldone Referral Program",
+      title: "Share Selldone.",
+      title_accent: "Earn from every payment.",
+      lead: "Give friends, followers and clients a $99 head start on their store. Every time they fund their Selldone account, a share lands in your wallet—with no end date and no cap.",
+      get_link: "Get my referral link",
+      open_panel: "Open my Referral panel",
+      how: "See how it works",
+      link_label: "Your personal referral link",
+      copy: "Copy referral link",
+      facts: {
+        commission: "Commission on each payment",
+        voucher: "Gift for every new user",
+        voucher_value: "$99",
+        duration: "Earning period",
+        duration_value: "Lifetime",
+        settlement: "Settlement",
+        settlement_value: "30 days",
+      },
+    },
+    feed: {
+      bar: "referral / activity",
+      shared: "Shared",
+      join: {
+        title: "A friend joined through your link",
+        meta: "{amount} Company plan voucher for them",
+      },
+      topup: {
+        title: "They funded their account",
+        meta: "Payment of {amount}",
+      },
+      renewal: {
+        title: "Their plan renewed",
+        meta: "Automatic charge of {amount}",
+      },
+      settled: {
+        title: "Commission settled",
+        meta: "{amount} is ready to use",
+      },
+      wallet: "Your referral earnings",
+    },
+    how: {
+      eyebrow: "How it works",
+      title: "One link.",
+      title_accent: "Income that keeps coming.",
+      lead: "No application, no quotas, no client work. Share Selldone where it genuinely helps; the Referral panel tracks everything from the first click to your payout.",
+      step: "Step {number}",
+      steps: {
+        share: {
+          title: "Share your link",
+          text: "Copy your personal link from the Referral panel and use it in a tutorial, a newsletter, a community post or a message to a friend. It works on any Selldone page.",
         },
-        how_it_works: {
-            title: "How It Works",
-            call_to_action_message: "Transform your connections into a steady income with Selldone's Affiliate Program. Sign up now and start earning!",
-            my_referral_panel: "My Referral Dashboard"
+        join: {
+          title: "They start with $99",
+          text: "When they sign up and verify their email, they're connected to you and receive a $99 voucher for a month of the Company plan.",
         },
-        share_link: {
-            title: "Share Your Unique Link",
-            description: "Invite others to Selldone using your personal affiliate link and start earning."
+        pay: {
+          title: "They grow their business",
+          text: "Every live payment they add to their Selldone account, including automatic renewals, earns you a commission.",
         },
         earn: {
-            title: "Earn Commissions for Life",
-            description: "Receive a commission from every transaction your referrals make, including subscriptions, service fees, shop upgrades, and more."
+          title: "You get paid",
+          text: "Commissions settle into your referral wallet after 30 days. Spend them on Selldone or withdraw them to your bank.",
         },
-        unlimited: {
-            title: "Unlimited Earning Potential",
-            description: "There are no caps on your earnings or the time you can earn. Keep earning as long as your referrals stay active."
-        },
-        referee_99_usd_voucher: {
-            title: "Free $99 Voucher for Referrals",
-            description: "Anyone who signs up through your link will receive a $99 voucher as a welcome gift."
-        },
-        tier_update: {
-            title: "Tier Upgrade Bonuses",
-            description: "As you advance through the tiers, you'll earn higher commissions from all your previously referred users."
-        }
+      },
     },
+    tiers: {
+      eyebrow: "Commission tiers",
+      title: "Your rate can grow.",
+      title_accent: "Your past referrals grow with it.",
+      lead: "Every referrer starts at Bronze. The Selldone team can move active referrers up through Silver, Gold, Platinum and Diamond, and the new rate applies to future payments from everyone you've already referred.",
+      points: {
+        lifetime: {
+          title: "No end date",
+          text: "You keep earning for as long as the people you referred keep paying.",
+        },
+        upgrade: {
+          title: "Upgrades reach back",
+          text: "A higher tier lifts the commission on all your existing referrals, not only new ones.",
+        },
+        no_cap: {
+          title: "No cap",
+          text: "There's no limit on how many people you refer or how much you earn.",
+        },
+      },
+      note: "Tiers are assigned by Selldone and aren't tied to a fixed number of referrals. Commissions already recorded keep the rate they were earned at.",
+      art_title: "referral / tiers",
+      art_caption: "A new tier applies to everyone you've already referred",
+      names: {
+        bronze: "Bronze",
+        silver: "Silver",
+        gold: "Gold",
+        platinum: "Platinum",
+        diamond: "Diamond",
+      },
+    },
+    payouts: {
+      eyebrow: "Payouts",
+      title: "Clear earnings.",
+      title_accent: "Paid your way.",
+      lead: "Each commission appears in your Referral panel with its payment, rate and status. After the 30-day settlement period it moves to your referral wallet, one wallet for each currency.",
+      points: {
+        track: {
+          title: "Every commission on record",
+          text: "Registrations, accepted referrals, commissions and transactions, all in one panel.",
+        },
+        account: {
+          title: "Spend it on Selldone",
+          text: "Move your balance to your Selldone account in one step and use it for your own plans and services.",
+        },
+        bank: {
+          title: "Or withdraw to your bank",
+          text: "Save your bank details, request a withdrawal and the Selldone team sends the payment.",
+        },
+      },
+      art_title: "referral / wallet · USD",
+      art_settling: "Settling",
+      art_days: "{days} days left",
+      art_available: "Available",
+      art_settled: "Settled",
+      art_to_account: "To my account",
+      art_to_bank: "To my bank",
+    },
+    fit: {
+      eyebrow: "Find your program",
+      title: "Recommend Selldone,",
+      title_accent: "or build with it.",
+      affiliate: {
+        tag: "Referral program · You're here",
+        title: "For creators, communities and friends",
+        text: "You recommend Selldone, people sign up on their own and you earn from their payments. No projects to deliver and no clients to support.",
+      },
+      partner: {
+        tag: "Partner program",
+        title: "For agencies and freelancers",
+        text: "You build and run stores for clients. Partner adds client projects, retainers, portfolio management, licensing and a dedicated workspace.",
+        action: "Explore the Partner program",
+      },
+    },
+    faq: {
+      title: "Questions, answered",
+      description: "How referrals are tracked, which payments count and how you get paid.",
+      items: {
+        who: {
+          q: "Who can join the Referral program?",
+          a: "Anyone with a Selldone account. Your personal link is ready in the Referral panel; there's nothing to apply for.",
+        },
+        attribution: {
+          q: "How is a referral credited to me?",
+          a: "Your link works on any Selldone page. After someone opens it, the referral is remembered for 24 hours and credited to you when they create an account and verify their email. If another referrer was credited first, the referral stays with them.",
+        },
+        payments: {
+          q: "Which payments earn commission?",
+          a: "Every live payment a referred user adds to their Selldone account, including automatic charges from a saved card. Purchases made through mobile app stores don't earn commission, and the commission on a refunded payment is reversed.",
+        },
+        payout: {
+          q: "When and how do I get paid?",
+          a: "Each commission settles after 30 days and is added to your referral wallet in the payment's currency. Move it to your Selldone account at any time, or request a bank withdrawal that the Selldone team completes.",
+        },
+        tiers: {
+          q: "How do commission tiers change?",
+          a: "Everyone starts at Bronze ({bronze}%). Silver ({silver}%), Gold ({gold}%), Platinum ({platinum}%) and Diamond ({diamond}%) are assigned by the Selldone team. A new tier applies to future payments from all your referrals; commissions already recorded don't change.",
+        },
+        friends: {
+          q: "What do the people I refer get?",
+          a: "When they verify their email, they receive a $99 voucher for one month of the Selldone Company plan.",
+        },
+      },
+    },
+    closing: {
+      eyebrow: "Start today",
+      title: "Your first referral is one message away.",
+      lead: "Open the Referral panel to copy your link, follow your referrals and manage your payouts.",
+    },
+  },
 
   genesis: {
     copied: "Copied to clipboard",
@@ -501,6 +1099,574 @@ export default {
       setup_lead: "Prefer our team to set it up?",
       setup_link: "See setup packages",
       setup_badge: "Up to 90% off with Enterprise",
+    },
+  },
+
+  /**
+   * @see AutoFeed_LandingPage
+   */
+  business_ideas: {
+    eyebrow: "Business ideas",
+    title: "Find the business",
+    title_accent: "you want to build.",
+    subtitle: "Each idea is a practical playbook for one kind of business: how to set up the store, take payments, run daily orders and grow sales with Selldone.",
+    all: "All ideas",
+    language: "Language",
+    language_default: "English",
+    open: "Read the playbook",
+    failed: "Business ideas could not be loaded.",
+    retry: "Try again",
+    empty: "No business ideas are published in this language yet.",
+    empty_action: "Show English ideas",
+    playbook: {
+      eyebrow: "Inside every idea",
+      title: "A playbook,",
+      title_accent: "not just inspiration.",
+      lead: "Open an idea to see why it works online and which Selldone tools launch it, from the first product to repeat customers.",
+      point_tools_title: "Real tools, not theory",
+      point_tools: "Every step points to the Selldone feature that does the job: catalog, checkout, shipping, taxes and marketing.",
+      point_guide_title: "An in-depth guide",
+      point_guide: "Each idea ends with a long-form guide and answers to the questions new owners ask most.",
+      art_title: "Idea playbook",
+      chapters: {
+        benefit: "Why it works online",
+        start: "Set up the store",
+        manage: "Run daily operations",
+        grow: "Grow sales",
+        success: "A success story",
+        faq: "Common questions",
+      },
+    },
+    closing: {
+      eyebrow: "Your own idea",
+      title: "Your idea is not on the list?",
+      lead: "Selldone works for physical products, digital files, services and subscriptions. Start free and shape the store around your business.",
+      action: "Start free",
+    },
+  },
+
+  /**
+   * @see BusinessIdeaBody (business idea page below the hero)
+   */
+  business_idea: {
+    journey: {
+      benefit: "Why Selldone",
+      start: "Get set up",
+      manage: "Day to day",
+      grow: "Grow",
+    },
+    pricing: {
+      eyebrow: "Pricing",
+      title: "Start free, upgrade as you grow.",
+      compare: "Compare all plans",
+    },
+    onboarding: {
+      eyebrow: "Get started",
+    },
+    plan: {
+      eyebrow: "Your launch plan",
+      title: "From the first idea",
+      title_accent: "to the first order.",
+    },
+    mirror: {
+      eyebrow: "Picture it",
+      title: "This is your business,",
+      title_accent: "already selling online.",
+      lead: "Your brand, your products and your customers in one store that takes payments, ships orders and brings shoppers back from the first day.",
+      store_title: "A storefront with your name on it",
+      store: "Your logo, colors and products on a fast store that looks great on every phone.",
+      orders_title: "Orders that move on their own",
+      orders: "Payment, receipt, stock and delivery update the moment a customer buys.",
+      customers_title: "Customers who come back",
+      customers: "Every buyer joins your customer list, ready for loyalty rewards and your next offer.",
+      art: {
+        domain: "your-brand.com",
+        store: "Your store",
+        product: "Your product",
+        new_order: "New order",
+        order_generic: "Paid online",
+        paid: "Paid",
+        agent: "AI agent",
+        agent_done: "Prices and stock updated",
+      },
+    },
+    ai: {
+      eyebrow: "AI-first commerce",
+      title: "Build it and run it",
+      title_accent: "with AI.",
+      lead: "Connect ChatGPT, Claude or your own AI agent to Selldone and describe what you need in plain words. Your agent works across the whole business, from the storefront to marketing, and waits for your approval before it changes anything.",
+      caps: {
+        storefront_title: "Your whole storefront",
+        storefront: "Builds pages, the home page or a complete custom layout from a short description of your brand.",
+        products_title: "Products",
+        products: "Adds new products, writes descriptions and updates photos, prices and stock in one message.",
+        customers_title: "Customers",
+        customers: "Finds your regulars, organizes customer groups and keeps their details up to date.",
+        marketing_title: "Marketing",
+        marketing: "Prepares coupons, discounts and email campaigns that bring customers back.",
+        orders_title: "Orders and delivery",
+        orders: "Reviews new orders, updates their status and keeps every delivery moving.",
+        reports_title: "Reports",
+        reports: "Answers questions about sales, best sellers and what to restock next.",
+      },
+      chat: {
+        bar: "AI agent · Selldone",
+        ask_product: "Add “{product}” at {price} and feature it on the home page.",
+        ask_product_generic: "Add our new seasonal product with photos and feature it on the home page.",
+        done_product: "Product created",
+        done_media: "Photos and description added",
+        done_home: "Home page updated",
+        live: "Live on your store",
+        ask_campaign: "Send a 10% coupon to customers who ordered twice this month.",
+        campaign: "The coupon and the email are ready.",
+        approve: "Approve",
+      },
+      action: "Connect your AI agent",
+      learn: "How Selldone Genesis works",
+    },
+    layouts: {
+      eyebrow: "Storefront designs",
+      title: "Choose a design,",
+      title_accent: "make it yours.",
+      lead: "Start from a free official layout and preview it live before you choose. Want something only you have? Your AI agent can build a custom layout around your brand.",
+      all: "See all layouts",
+      free: "Free",
+      preview: "Live preview",
+      details: "Details",
+      new_tab: "opens in a new tab",
+      error: "Layouts could not be loaded.",
+      retry: "Try again",
+      empty: "New official layouts are on the way.",
+      demos: "Prefer to look around first?",
+      demo_store: "Visit a demo store",
+      demo_dashboard: "Open the demo dashboard",
+    },
+    included: {
+      eyebrow: "All included",
+      title: "Everything you need,",
+      title_accent: "built in.",
+      lead: "No plugins to buy, install or update. Every feature works together from the first day.",
+      items: {
+        orders: "Order management",
+        pos: "Point of sale",
+        shipping: "Shipping and delivery",
+        inventory: "Inventory",
+        social: "Social selling",
+        instore: "In-store sales",
+        team: "Team and staff",
+        loyalty: "Loyalty and rewards",
+        community: "Community",
+        payments: "Local payments",
+        currencies: "Multi-currency",
+        ar: "3D and AR products",
+      },
+    },
+    helps: {
+      eyebrow: "How Selldone helps",
+    },
+    proof: {
+      eyebrow: "Trusted by merchants",
+      title: "Loved by people",
+      title_accent: "who sell every day.",
+    },
+    story: {
+      eyebrow: "Success story",
+    },
+    guide: {
+      eyebrow: "The complete guide",
+      more: "Read the full guide",
+      less: "Show less",
+    },
+    faq: {
+      title: "Common questions",
+      description: "Straight answers about starting and running this business with Selldone.",
+    },
+    closing: {
+      ai: "Or let your AI agent set it up",
+    },
+  },
+
+  /**
+   * @see TargetCountyPage (/{country_code}/merchants)
+   */
+  target_country: {
+    eyebrow: "Selldone is live in {country}",
+    lead: "Launch a store that already works the way {country} does: local currency and payments, regional taxes, SMS through a provider you choose, and AI agents that keep orders moving. No plugins. No code.",
+    start: "Start selling in {country}",
+    start_hint: "Free plan. No credit card. Ready in about a minute.",
+    explore: "See what's ready",
+    facts: {
+      currency: "Local currency",
+      gateways: "Online gateways",
+      taxes: "Tax rules",
+      sms: "SMS providers",
+    },
+    ready: {
+      eyebrow: "Ready in {country}",
+      title: "Everything your store needs in {country},",
+      title_accent: "switched on from day one.",
+      lead: "Selldone already knows {country}'s currency, payment providers and tax rules. Open your store and start selling instead of hunting for plugins.",
+      currency: {
+        title: "Local currency",
+        text: "Show prices, take payments and read your reports in {currency}.",
+      },
+      payments: {
+        title: "Local payments",
+        text: "Connect the gateways your customers already trust. Money goes straight to your own account.",
+      },
+      taxes: {
+        title: "Taxes in {country}",
+        text: "Country and regional rates are preloaded, with separate B2B and B2C rates where they apply.",
+      },
+      sms: {
+        title: "Local SMS",
+        text: "Send sign-in codes and order updates through an SMS provider that reaches {country}'s carriers.",
+      },
+      ai: {
+        title: "AI agents",
+        text: "Connect ChatGPT or Claude. Your AI works on orders, customers and pages within the access you approve.",
+      },
+      plugins: {
+        title: "No plugins",
+        text: "Marketplace, POS, shipping, loyalty, community and 3D/AR are built in. Nothing to install, update or patch.",
+      },
+      status: {
+        gateways: "Online gateways: {count}",
+        offline: "Cash on delivery and bank transfer",
+        taxes: "Tax rules: {count}",
+        custom_taxes: "Add your own rates",
+        sms: "Providers: {count}",
+        built_in: "All built in",
+      },
+    },
+    pricing: {
+      eyebrow: "Pricing",
+      title: "Start free.",
+      title_accent: "Pay less as you grow.",
+      lead: "Every plan runs on the same complete platform, with no plugins to buy. Higher plans add a monthly fee, lower the fee on each sale and raise your limits.",
+      popular: "Most popular",
+      per_month: "/ month",
+      billed_yearly: "per month, billed yearly.",
+      billed_monthly: "if billed monthly",
+      free_forever: "Free for as long as you like.",
+      fee: "fee per sale",
+      start: "Start for free",
+      failed: "Plan prices could not be loaded.",
+      retry: "Try again",
+      compare: "Compare every plan",
+      plans: {
+        free: "Launch with no monthly cost.",
+        startup: "For your first steady sales.",
+        company: "For growing teams and catalogs.",
+        enterprise: "The lowest fee for high volume.",
+      },
+    },
+    products: {
+      art_path: "Products › Add",
+      manual: {
+        title: "Add by hand",
+        text: "Create a product in minutes with variants, photos and stock.",
+      },
+      excel: {
+        title: "Import from Excel",
+        text: "Bring in up to 100,000 products from a single file.",
+      },
+      migrate: {
+        title: "Move from another platform",
+        text: "Bring your catalog over from WooCommerce or Shopify.",
+      },
+      types: {
+        physical: "Physical",
+        virtual: "Virtual",
+        file: "Files",
+        service: "Services",
+        subscription: "Subscriptions",
+      },
+    },
+    steps: {
+      eyebrow: "Go live in {country}",
+      title: "Three steps",
+      title_accent: "to your first sale.",
+      one: {
+        label: "Step 1",
+        title: "Open your store",
+        text: "Choose a name and you're in. Add your own domain when you're ready, and shape the design without writing code.",
+        action: "Create my store for free",
+        hint: "Takes about a minute.",
+      },
+      two: {
+        label: "Step 2",
+        title: "Add your products",
+        text: "Add them one by one, import thousands from Excel, or bring your catalog over from WooCommerce or Shopify.",
+      },
+      three: {
+        label: "Step 3",
+        title: "Turn on payments and taxes for {country}",
+        text: "Connect a local gateway, and the right tax is added at checkout for every region.",
+      },
+      done: {
+        label: "Done",
+        title: "You're live in {country}.",
+        text: "Sell online, in store and on social, all from one back office.",
+      },
+    },
+    payments: {
+      eyebrow: "Payments",
+      title: "Get paid in {currency},",
+      title_accent: "straight to your account.",
+      lead: "Selldone never holds your money. Customers pay through the gateways you connect, and the money settles in your own merchant account.",
+      point_multi_title: "Several gateways at once",
+      point_multi: "Keep cards, wallets and local methods active side by side and let customers choose.",
+      point_store_title: "Online and in store",
+      point_store: "Gateways that support it also take payments at your point of sale.",
+      art_path: "Shop › Accounting › Gateways › Add",
+      list_label: "Online payment gateways available in {country}",
+      none: "No online gateway accepts {currency} yet. Meanwhile, take cash on delivery or bank transfers, or sell in another currency your gateway supports.",
+      more: "Explore gateways in every country",
+    },
+    taxes: {
+      eyebrow: "Taxes",
+      title: "Tax rules for {country},",
+      title_accent: "applied automatically.",
+      lead: "Rates for {country} and its regions are preloaded. Create tax profiles, assign them to products, and charge B2B and B2C customers correctly.",
+      art_path: "Tax rules › {country}",
+      region: "Region",
+      type: "Type",
+      rate: "Rate",
+      country_wide: "Country-wide",
+      b2c: "B2C",
+      b2b: "B2B",
+      action: "Explore tax rates by country",
+      empty: "No tax rule is preloaded for {country} yet. Add your own rates in a tax profile.",
+    },
+    sms: {
+      eyebrow: "Local SMS",
+      title: "Text customers in {country}",
+      title_accent: "through a provider you choose.",
+      lead: "Connect your own SMS account to send sign-in codes and order updates. Pick a local provider that reaches {country}'s carriers, or a worldwide network.",
+      point_account_title: "Your account, your rates",
+      point_account: "Messages go out with your sender settings and your provider's prices.",
+      point_secure_title: "Credentials stay encrypted",
+      point_secure: "Keys are stored encrypted and never shown again after you save them.",
+      art_title: "Settings › SMS",
+      art_store: "Bloom Studio",
+      art_code: "482913 is your sign-in code for {store}.",
+      art_order: "Your order #1042 is on its way. Thanks for shopping with us!",
+      list_label: "SMS providers you can connect in {country}",
+      local: "Local",
+      worldwide: "Worldwide",
+      none: "No local provider for {country} is listed yet. Worldwide networks deliver there today.",
+      more: "+{count} more providers",
+      all: "See every SMS provider",
+    },
+    ai: {
+      eyebrow: "AI agents",
+      title: "Let ChatGPT or Claude",
+      title_accent: "handle the daily work.",
+      lead: "Connect your store through Selldone MCP. Your AI checks orders, replies to customers, updates products and drafts pages, only within the access you approve.",
+      point_language_title: "Ask in your own words",
+      point_language: "Ask in the language you work in, and get answers from your real store data.",
+      point_control_title: "You stay in control",
+      point_control: "Choose what each agent can see and do, and review its activity at any time.",
+      action: "Connect your AI",
+      chat_user: "Which orders from {country} are waiting to ship today?",
+      chat_agent: "4 orders are ready to ship. I've drafted the shipping updates for your review.",
+      chat_status: "Connected through Selldone MCP",
+      scopes: {
+        orders: "Orders",
+        customers: "Customers",
+        products: "Products",
+        pages: "Pages",
+      },
+    },
+    platform: {
+      eyebrow: "One platform",
+      title: "No-code, no-plugin ecommerce,",
+      title_accent: "available in {country}.",
+      lead: "Your back office and your storefront run from one place. Every feature is built in and kept up to date for you.",
+    },
+    earn: {
+      eyebrow: "Fair pricing",
+      title: "Pay only",
+      title_accent: "after you earn.",
+      lead: "No upfront cost and no middleman: your money flows straight to you, your checkout works your way, and any business model is one choice away.",
+      money: {
+        eyebrow: "Direct payouts",
+        title: "Money goes straight",
+        title_accent: "to your bank account.",
+        text: "Customers pay through the gateways you connect, and payouts land in your own account. Selldone never sits between you and your money.",
+        art_title: "Payment flow",
+        art_note: "Selldone never holds your customers' payments.",
+      },
+      checkout: {
+        eyebrow: "Checkout",
+        title: "A checkout that fits",
+        title_accent: "how your customers buy.",
+        text: "Ask shoppers to sign in right away, only at checkout, or optionally after they pay. Keep the flow that converts best.",
+        art_title: "Settings › Checkout",
+        steps: {
+          guest: "Guest",
+          cart: "Add to cart",
+          login: "Sign in",
+          checkout: "Checkout",
+          payment: "Payment",
+        },
+      },
+      models: {
+        eyebrow: "Business models",
+        title: "Sell the way",
+        title_accent: "your business works.",
+        text: "Run a classic store, dropship through Connect OS, build a marketplace, franchise your brand or supply other merchants. Pick a model and Selldone sets up the rest.",
+        art_title: "Business model",
+      },
+    },
+    how: {
+      eyebrow: "How it works",
+      title: "From your first product",
+      title_accent: "to daily sales.",
+      lead: "No credit card, no plugins, no templates to patch and no hosting to manage. Run it from the web or your phone.",
+    },
+    about: {
+      eyebrow: "Selling online in {country}",
+    },
+    closing: {
+      eyebrow: "{country} is ready",
+      title: "Your store in {country} is one step away.",
+      lead: "Start for free today. Local payments, taxes, SMS and AI agents are ready when you are.",
+      pricing: "Compare plans",
+    },
+  },
+
+  desktop_app: {
+    meta_title: "Download Selldone Desktop for Windows, macOS and Linux",
+    breadcrumb_aria: "Breadcrumb",
+    name: "Selldone Desktop",
+    hero: {
+      title: "Your business.",
+      title_accent: "At home on desktop.",
+      lead: "Products, orders and the bigger picture in one focused app. Your Selldone workspace, a click away on your computer.",
+      download: "Download Selldone Desktop",
+      download_for: "Download for {platform}",
+      explore: "Explore the workspace",
+      version: "Version {version} · {channel}",
+      platforms_aria: "Available platforms",
+      caption_title: "Your day, in focus.",
+      caption: "Orders, inventory and what needs your attention. Together.",
+      alt: "Selldone Desktop Today workspace with order queues, inventory exceptions and store activity.",
+    },
+    highlights: {
+      eyebrow: "Made for the desktop",
+      title: "Everything close. Nothing in the way.",
+      lead: "A dedicated window for the work you do every day, with your whole store one shortcut away.",
+      search: {
+        title: "One search for everything",
+        text: "Find products, orders, customers, agents and commands from a single search bar. Press Ctrl K to begin.",
+        alt: "The Selldone Desktop title bar with the search field for products, orders, customers, agents and commands.",
+      },
+      attention: {
+        title: "What needs you, first",
+        text: "Today gathers orders to process, inventory exceptions and AI approvals in one list, so the next task is always clear.",
+        alt: "The Today sidebar with Needs attention queues for processing orders, inventory exceptions and AI approvals.",
+      },
+      local: {
+        title: "A local workspace",
+        text: "Your store records sync into an indexed workspace on your computer. Progress and the last sync stay in view.",
+        alt: "The local workspace panel with sync progress, product count and storefront traffic.",
+      },
+    },
+    workspace: {
+      eyebrow: "A closer look",
+      title: "One workspace. Every moving part.",
+      lead: "Move between your catalog, order queues and store performance without losing your place.",
+      tabs_aria: "Explore desktop workspaces",
+      products: {
+        label: "Products",
+        title: "Your entire catalog. In clear view.",
+        text: "Browse categories, check stock and inspect product details in a workspace that keeps the context close.",
+        one: "Category navigation and quick search",
+        two: "Inventory and pricing at a glance",
+        three: "Product details beside your catalog",
+        alt: "Selldone Desktop product catalog with category navigation, inventory, prices and a product detail panel.",
+      },
+      orders: {
+        label: "Orders",
+        title: "Keep every order moving.",
+        text: "See the queue, follow fulfillment and open the details you need, right alongside your orders.",
+        one: "Dedicated processing and payment queues",
+        two: "A clear fulfillment timeline",
+        three: "Order details without losing the list",
+        alt: "Selldone Desktop orders workspace with payment filters, fulfillment timelines and order details.",
+      },
+      analytics: {
+        label: "Analytics",
+        title: "See the story behind the numbers.",
+        text: "Bring daily trends and acquisition channels into view, and explore performance with the bigger picture in front of you.",
+        one: "Daily and period comparisons",
+        two: "Visitor and acquisition insights",
+        three: "Channels and customer journeys",
+        alt: "Selldone Desktop analytics with a daily comparison chart, visitor mix and acquisition channel flow.",
+      },
+    },
+    preview: {
+      zoom: "View larger",
+      enlarge: "Enlarge screenshot: {screen}",
+      title: "Inside Selldone Desktop",
+      close: "Close preview",
+    },
+    downloads: {
+      eyebrow: "Make yourself at home",
+      title: "A workspace for your computer.",
+      lead: "Choose your operating system, then the installer that fits your computer. Only published releases are listed here.",
+      tabs_aria: "Desktop platforms",
+      this_computer: "This computer",
+      version: "Version {version}",
+      architecture: "Architecture",
+      installer: "Installer",
+      size: "Size",
+      download: "Download",
+      download_aria: "Download Selldone Desktop for {platform}, {architecture}, {package}, version {version} ({channel})",
+      unavailable: "No published installer is available for {platform} yet. Please check again soon.",
+      empty_title: "No downloads are available yet.",
+      empty_text: "There is no published desktop release right now. Please check again soon.",
+    },
+    platforms: {
+      windows: "Windows",
+      macos: "macOS",
+      linux: "Linux",
+    },
+    channels: {
+      stable: "Stable",
+      beta: "Beta",
+      alpha: "Alpha",
+    },
+    architectures: {
+      x64: "x64 · Intel / AMD",
+      arm64: "ARM64",
+      universal: "Universal",
+    },
+    faq: {
+      title: "Before you download",
+      lead: "A few helpful details about choosing and keeping your installer.",
+      installer: {
+        q: "Which installer should I choose?",
+        a: "Start with your operating system. Choose x64 for Intel or AMD computers, or ARM64 for an ARM-based computer such as a Mac with Apple silicon. Use a Universal installer when one is available for your platform.",
+      },
+      channels: {
+        q: "What do Stable, Beta and Alpha mean?",
+        a: "Stable is the release for everyday work. Beta and Alpha bring newer features earlier, while they may still change. Each download shows its channel.",
+      },
+      updates: {
+        q: "How do I stay up to date?",
+        a: "Selldone Desktop checks for the newest published build in its release channel. New installers also appear on this page as soon as they are published.",
+      },
+      unavailable: {
+        q: "Why is a platform unavailable?",
+        a: "Downloads appear here after a release is published. If your platform has no installer yet, check this page again for the next release.",
+      },
+    },
+    closing: {
+      title: "Ready when you are.",
+      lead: "Download Selldone Desktop and keep your whole business one click away.",
     },
   },
 

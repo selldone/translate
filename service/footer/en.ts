@@ -22,6 +22,8 @@ export default {
     contact_us: "Contact us",
     about_us: "About Selldone",
     supported_countries_and_payments:"Supported Countries and Payments",
+    sms_providers: "SMS Providers",
+    email_providers: "Email Providers",
 
     affiliate_program:'Affiliate Program',
     business_idea:"Business Ideas",
