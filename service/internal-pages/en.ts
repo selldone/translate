@@ -1670,4 +1670,259 @@ export default {
     },
   },
 
+  /**
+   * @see OPageAboutUs (/about)
+   */
+  about: {
+    hero: {
+      eyebrow: "About Selldone",
+      title: "Every business deserves",
+      title_accent: "an operating system.",
+      lead: "Selldone brings your storefront, back office, payments and AI agents into one Business OS, so a growing brand runs on one system instead of a dozen disconnected tools.",
+      start: "Start your store — it's free",
+      team: "Meet the team",
+      facts: {
+        currencies: "Currencies",
+        languages: "Languages",
+        hq: "Headquarters",
+        hq_value: "Copenhagen",
+      },
+    },
+    os: {
+      channels: "Where customers find you",
+      core: "Selldone Business OS",
+      builders: "AI agents and developers",
+      items: {
+        store: "Online store",
+        pos: "Point of sale",
+        marketplace: "Marketplace",
+        orders: "Orders",
+        inventory: "Inventory",
+        customers: "Customers",
+        payments: "Payments",
+        shipping: "Shipping",
+        marketing: "Marketing",
+        agents: "AI agents",
+        mcp: "MCP",
+        api: "REST API",
+        sdk: "Open-source SDKs",
+      },
+    },
+    belief: {
+      eyebrow: "Why we exist",
+      title: "Most stores run on patchwork.",
+      title_accent: "We built the system.",
+      problem: "A plugin for payments, another for shipping, a spreadsheet for stock and a dozen tabs to keep it all in sync. Every extra tool adds a fee, a login and one more place for things to break.",
+      answer: "Selldone replaces the patchwork with one operating system. Your storefront, orders, customers, payments and team share the same data, so every sale makes the next decision easier.",
+      quote: "Teams have coaches. Trees have roots. Every business deserves an operating system.",
+    },
+    principles: {
+      eyebrow: "How we build",
+      title: "Enterprise power.",
+      title_accent: "Zero setup cost.",
+      lead: "One rule since day one: anyone with a good product should be able to run a professional online business, whatever their budget or technical background.",
+      items: {
+        free: {
+          title: "Free to start, built to scale",
+          text: "Open a complete store at no cost and keep the same platform as you grow, from your first product to a team with warehouses, vendors and staff.",
+        },
+        craft: {
+          title: "Design in the DNA",
+          text: "Craft isn't a theme painted on top. It runs through the core, the dashboard and every storefront, because calm tools lead to better decisions.",
+        },
+        product: {
+          title: "Product over ad spend",
+          text: "Bigger platforms outspend us on advertising. We out-build them, investing in merchants' needs, shoppers' trust and the product itself.",
+        },
+        local: {
+          title: "Local, everywhere",
+          text: "People buy in their own language and currency. Selldone speaks {languages} languages, prices in {currencies} currencies and connects local payment methods.",
+        },
+        open: {
+          title: "Open to developers and AI",
+          text: "Our storefront, SDKs and components are open source on GitHub, and AI agents can run a store through secure MCP connections.",
+        },
+        weekly: {
+          title: "Better every week",
+          text: "We ship improvements every week and plan in the open, so the public roadmap always shows what's coming next.",
+        },
+      },
+    },
+    team: {
+      eyebrow: "Leadership",
+      title: "Founder-led.",
+      title_accent: "Close to every merchant.",
+      lead: "We would rather invest in the product than in billboards, and we stay close to the people who sell with it. You can write to the founders directly.",
+      mehrdad: {
+        role: "Founder & CEO",
+        bio: "After fifteen years of starting, running and scaling startups, Mehrdad set out to build the system he always wished he had. He leads product design, engineering and marketing, so the merchant experience becomes an unfair advantage.",
+      },
+      alireza: {
+        role: "Co-founder & COO",
+        bio: "The team's backbone. Alireza keeps merchants, their customers and our own people moving smoothly, and builds the partnerships that carry Selldone businesses into new markets.",
+      },
+      linkedin_aria: "{name} on LinkedIn (opens in a new tab)",
+      company: "Selldone® is developed by Niomatic I/S, a Copenhagen technology company building practical AI and automation products.",
+      company_link: "Company details",
+    },
+    resources: {
+      eyebrow: "Resources",
+      title: "More about Selldone",
+      items: {
+        roadmap: {
+          title: "Roadmap",
+          text: "What we're building next and what just shipped, by category.",
+        },
+        press: {
+          title: "Media kit",
+          text: "Logos, product images and brand guidelines for anyone writing about Selldone.",
+        },
+        countries: {
+          title: "Supported countries",
+          text: "Currencies, payment gateways and languages, country by country.",
+        },
+        books: {
+          title: "Business handbooks",
+          text: "Free guides for starting and growing an online business.",
+        },
+      },
+    },
+    closing: {
+      eyebrow: "Work with us",
+      title: "Building something? Let's talk.",
+      lead: "Partnerships, press, investment or a question about your store: the right person at Selldone is one message away.",
+      contact: "Contact us",
+      platform: "Explore the platform",
+    },
+  },
+
+  /**
+   * @see OPageContactUs (/contact)
+   */
+  contact: {
+    hero: {
+      eyebrow: "Contact Selldone",
+      title: "Talk to the team",
+      title_accent: "behind Selldone.",
+      lead: "Questions about your store, a partnership or a story you're writing? Reach the people who build the product, not a maze of tickets.",
+      chat: "Start a chat",
+      help: "Browse the Help Center",
+      signed_in: "Signed in? Your account and stores come with the chat, so you can skip the introductions.",
+      email_note: "Prefer email? Write to",
+    },
+    chat: {
+      title: "Selldone team",
+      subtitle: "Real people, right here",
+      context: "Signed in · account and stores attached",
+      question: "Can I connect my own domain to my store?",
+      answer: "Of course. Send us the domain and we'll walk through the DNS records with you, step by step.",
+      placeholder: "Write a message…",
+    },
+    desks: {
+      eyebrow: "Direct lines",
+      title: "The right desk,",
+      title_accent: "the first time.",
+      lead: "Each address reaches the team responsible for it. Mention your store's name and what you need, and we'll take it from there.",
+      items: {
+        support: {
+          title: "Store support",
+          text: "Setup, billing, domains, payments or anything else inside your dashboard.",
+        },
+        founders: {
+          title: "Founders",
+          text: "Big ideas, honest feedback or a decision that can't wait.",
+        },
+        partners: {
+          title: "Partners and agencies",
+          text: "Build and run stores for your clients and earn recurring income with the partner program.",
+          link: "Partner program",
+        },
+        investors: {
+          title: "Investors",
+          text: "Request our quarterly investor reports and an invitation to the Selldone Investment Room.",
+        },
+        press: {
+          title: "Press and media",
+          text: "Logos, product images and brand guidelines for your story.",
+          link: "Open the media kit",
+        },
+      },
+    },
+    answers: {
+      eyebrow: "Before you write",
+      title: "Many answers are",
+      title_accent: "already waiting.",
+      items: {
+        help: {
+          title: "Help Center",
+          text: "Step-by-step guides for every part of your store and dashboard.",
+        },
+        community: {
+          title: "Community",
+          text: "Ask other merchants and the Selldone team, and share what works for you.",
+        },
+        faq: {
+          title: "FAQ",
+          text: "Short answers about plans, payments, domains and more.",
+        },
+      },
+    },
+    shopper: {
+      title: "Shopping at a store built on Selldone?",
+      text: "Each store is run by its own business, which handles its orders, deliveries and refunds, so please contact the store through its website. If something looks like fraud, tell us privately.",
+      action: "Report a store",
+    },
+    company: {
+      eyebrow: "Company",
+      title: "The company",
+      title_accent: "behind Selldone.",
+      lead: "Selldone is developed and operated by Niomatic I/S, a Danish technology company building practical AI and automation products.",
+      legal: "Legal entity",
+      registration: "Registration",
+      denmark: "Denmark",
+      phone: "Phone",
+      follow: "Follow Selldone",
+      offices: {
+        eu: {
+          region: "Europe · Headquarters",
+          city: "Copenhagen",
+        },
+        ca: {
+          region: "North America",
+          city: "Brampton, Ontario",
+        },
+      },
+    },
+    faq: {
+      title: "Before you reach out",
+      description: "Quick answers about getting in touch with Selldone.",
+      items: {
+        shopper: {
+          q: "I bought from a store on Selldone. Who should I contact?",
+          a: "The store itself. Every store on Selldone is run by its own business, which handles its orders, deliveries and refunds; you'll find its contact details on its website. If you believe a store is acting fraudulently, use Report a store on this page to tell us privately.",
+        },
+        fastest: {
+          q: "What's the fastest way to get help with my store?",
+          a: "Start a chat from this page. If you're signed in, the team already sees your account and stores. You can also email {support} with your store's name, a short description and screenshots if you have them.",
+        },
+        partners: {
+          q: "How can my agency partner with Selldone?",
+          a: "See how the partner program works on the Partners page, then write to {partners} with a few words about your agency and the clients you serve.",
+        },
+        press: {
+          q: "I'm writing about Selldone. Where are the brand assets?",
+          a: "Logos, product images and brand guidelines are in our media kit. For interviews and other press questions, email {founders}.",
+        },
+        investors: {
+          q: "How do investors receive updates?",
+          a: "Selldone shares quarterly investor reports. Send your request from an official email address to {investors}, and we'll invite you to the Selldone Investment Room.",
+        },
+        company: {
+          q: "Who operates Selldone?",
+          a: "Selldone is developed and operated by Niomatic I/S, registered in Denmark under CVR 42105961, with offices in Copenhagen, Denmark and Brampton, Canada.",
+        },
+      },
+    },
+  },
+
 };
